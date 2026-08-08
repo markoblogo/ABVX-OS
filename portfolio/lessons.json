@@ -121,6 +121,17 @@
       "candidate_capability": "intake_decision_and_promotion",
       "recommended_action": "Keep promotion human-triggered and local; add no autonomous router or missing subsystem until a real source integration is approved.",
       "status": "recorded"
+    },
+    {
+      "id": "azurmenton-booking-attribution-baseline",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-004",
+      "observed_need": "A direct-booking project needs aggregate content-to-apartment-to-inquiry continuity, but accepted requests do not prove confirmed bookings or revenue.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-004-outcome.evidence.json", "external:/Volumes/Work/Work/menton/docs/ANALYTICS.md"],
+      "candidate_capability": "conversion_signal",
+      "recommended_action": "Keep attribution and observation project-local until a second project demonstrates the same boundary or a confirmed-booking source is approved; do not add a CRM, tracker or dashboard yet.",
+      "status": "recorded"
     }
   ]
 }

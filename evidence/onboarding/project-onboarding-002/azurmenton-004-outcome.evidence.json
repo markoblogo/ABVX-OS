@@ -1,0 +1,40 @@
+{
+  "id": "azurmenton-004-booking-attribution-baseline",
+  "source": "AzurMenton booking attribution baseline implementation and local validation",
+  "timestamp": "2026-08-08T17:08:43Z",
+  "candidate": "native-azurmenton-plausible-attribution",
+  "fixture": "AZURMENTON-004",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "funnel_events_added": ["apartment_discovery", "apartment_detail_view", "inquiry_intent"],
+    "source_context": ["content_slug", "apartment_slug", "locale", "utm_source", "utm_medium", "utm_campaign"],
+    "pii_sent": false,
+    "confirmed_booking_signal": false,
+    "booking_database_added": false,
+    "new_provider_added": false,
+    "tests": {"targeted": "6 passed", "full": "passed", "typecheck": "passed", "lint": "passed", "content_lint": "passed", "build": "passed", "diff_check": "passed"},
+    "observation_status": "ready_for_read_only_observation_period",
+    "decision": "continue_observation_before_further_conversion_changes"
+  },
+  "stdout_ref": "external:/Volumes/Work/Work/menton/local-validation/AZURMENTON-004",
+  "stderr_ref": "external:none",
+  "artifact_refs": [
+    "external:/Volumes/Work/Work/menton/docs/ANALYTICS.md",
+    "external:/Volumes/Work/Work/menton/src/lib/analytics.ts",
+    "external:/Volumes/Work/Work/menton/src/components/analytics/ApartmentDetailViewTracker.tsx",
+    "external:/Volumes/Work/Work/menton/src/components/content/ContextualApartmentRecommendations.tsx",
+    "external:/Volumes/Work/Work/menton/src/lib/booking-dashboard.ts"
+  ],
+  "provenance": {"recorded_by": "AZURMENTON-004", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T17:08:43Z"},
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/menton",
+    "branch": "main",
+    "repository_state": "working_tree_changes_recorded_separately",
+    "analytics_provider": "existing Plausible integration",
+    "reporting": "local read-only CLI and Plausible aggregate goals; no dashboard UI",
+    "privacy": "no names, email, phone, message, raw audio, cookies or raw event export",
+    "production_mutation": false,
+    "confirmed_booking_source": null,
+    "next_action": "observe aggregate content-to-apartment-to-inquiry continuity before adding more instrumentation"
+  }
+}
