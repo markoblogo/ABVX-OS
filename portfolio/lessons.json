@@ -1,0 +1,49 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "coqpi-mission-gates-integrity",
+      "originating_project": "coqpi",
+      "originating_mission": "PROJECT-ONBOARDING-001 / COQPI-002",
+      "observed_need": "Durable mission state, explicit human gates, fail-closed integrity and resumable evidence are needed around a real runtime validation.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-001/mission/COQPI-002/state-export.json", "evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json"],
+      "candidate_capability": "mission_state_and_human_gate_boundary",
+      "recommended_action": "Keep at the ABVX boundary; consider shared extraction only after a second real project demonstrates the same need.",
+      "status": "recorded"
+    },
+    {
+      "id": "azurmenton-event-observability",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-001",
+      "observed_need": "Event freshness, source health and editorial coverage need conservative report-only observability with explicit UNKNOWN state.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "external:/Volumes/Work/Work/menton/src/lib/events-health.ts"],
+      "candidate_capability": "event_freshness",
+      "recommended_action": "Record the pattern; do not extract into ABVX until a second real project demonstrates the same need.",
+      "status": "recorded"
+    },
+    {
+      "id": "azurmenton-source-health",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-001",
+      "observed_need": "Configured sources need separate observation health from event absence; no evidence must remain UNKNOWN.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "external:/Volumes/Work/Work/menton/src/lib/events-health.ts"],
+      "candidate_capability": "source_health",
+      "recommended_action": "Retain as a project lesson and wait for a second project need before extraction.",
+      "status": "recorded"
+    },
+    {
+      "id": "azurmenton-editorial-observability",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-001",
+      "observed_need": "Operators need a deterministic human report plus machine-readable evidence without autonomous editorial decisions.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json"],
+      "candidate_capability": "editorial_observability",
+      "recommended_action": "Keep report-only and project-local; Rule of Two is not met.",
+      "status": "recorded"
+    }
+  ]
+}

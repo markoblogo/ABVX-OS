@@ -109,6 +109,18 @@ def validate_repository(root: Path) -> list[str]:
     for path in sorted((root / "registries").rglob("*.json")):
         validate(load_json(path), registry_schema, schema_path=registry_schema_path, root=root, location=str(path))
         checked.append(str(path.relative_to(root)))
+    portfolio_schemas = {
+        "strategy.json": root / "schemas" / "project_strategy.schema.json",
+        "state.json": root / "schemas" / "portfolio_state.schema.json",
+        "human-queue.json": root / "schemas" / "human_queue.schema.json",
+        "lessons.json": root / "schemas" / "platform_lesson.schema.json",
+    }
+    for path in sorted((root / "portfolio").glob("*.json")):
+        schema_path = portfolio_schemas.get(path.name)
+        if schema_path is None:
+            raise ValidationError(f"{path}: unknown portfolio document")
+        validate(load_json(path), load_json(schema_path), schema_path=schema_path, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
     for path in sorted((root / "fixtures").rglob("*.json")):
         fixture_schema_path = root / "schemas" / "fixture.schema.json"
         value = load_json(path)

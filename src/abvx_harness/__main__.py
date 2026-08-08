@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 from .harness import ValidationError, load_json, run_bakeoff, validate_repository
+from .portfolio import inspect_portfolio, render_portfolio
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -27,7 +28,14 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
                 raise ValidationError(f"no runs found for {argv[2]}")
             print(json.dumps(load_json(runs[-1]), indent=2, sort_keys=True))
             return 0
-        print("usage: ./bin/abvx validate | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id>", file=sys.stderr)
+        if argv in (["portfolio", "inspect"], ["portfolio", "inspect", "--json"]):
+            portfolio = inspect_portfolio(root)
+            if argv[-1] == "--json":
+                print(json.dumps(portfolio, indent=2, sort_keys=True))
+            else:
+                print(render_portfolio(portfolio))
+            return 0
+        print("usage: ./bin/abvx validate | ./bin/abvx portfolio inspect [--json] | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id>", file=sys.stderr)
         return 2
     except (ValidationError, OSError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

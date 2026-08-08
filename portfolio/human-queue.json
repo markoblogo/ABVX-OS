@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "coqpi-live-validation",
+      "project": "coqpi",
+      "context": "COQPI-002 pre-live readiness",
+      "required_human_action": "Run one controlled real-microphone smoke with synthetic spoken content and record the outcome.",
+      "reason": "Human gate remains open before microphone access and OpenAI Realtime transmission.",
+      "estimated_human_effort": "short",
+      "not_before": "2026-08-10",
+      "deadline": null,
+      "consequence_of_delay": "CoqPi remains waiting and cannot be classified for controlled real-call use.",
+      "status": "WAITING",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json", "docs/checklists/coqpi-002-monday-live.md"]
+    }
+  ]
+}

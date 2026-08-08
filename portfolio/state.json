@@ -1,0 +1,37 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "project": "coqpi",
+      "strategic_priority": "HIGH",
+      "operational_state": "WAITING_FOR_HUMAN",
+      "current_outcome": "Pre-live readiness complete; controlled live validation deferred.",
+      "next_action": "Controlled real-microphone smoke",
+      "blockers": [],
+      "waiting_reason": "Owner consent and execution are required before microphone/OpenAI Realtime access.",
+      "not_before": "2026-08-10",
+      "human_attention_required": true,
+      "codex_capacity_demand": "NONE",
+      "economic_role": "revenue_enabler",
+      "evidence_freshness": "CURRENT",
+      "last_state_update": "2026-08-08",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json", "evidence/onboarding/project-onboarding-001/mission/COQPI-002/pre-live-run.json"]
+    },
+    {
+      "project": "azurmenton",
+      "strategic_priority": "HIGH",
+      "operational_state": "ACTIVE",
+      "current_outcome": "Event freshness observatory complete; strategy-approved next slice is guide freshness.",
+      "next_action": "Guide Freshness Observatory",
+      "blockers": ["Existing date-sensitive test exposes featured expired event content"],
+      "waiting_reason": null,
+      "not_before": null,
+      "human_attention_required": false,
+      "codex_capacity_demand": "ACTIVE",
+      "economic_role": "revenue_direct",
+      "evidence_freshness": "CURRENT",
+      "last_state_update": "2026-08-08",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "docs/audits/project-onboarding-002-azurmenton-strategy-gap-report.md"]
+    }
+  ]
+}

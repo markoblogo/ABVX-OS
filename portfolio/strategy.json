@@ -1,0 +1,37 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "project": "coqpi",
+      "display_name": "CoqPi",
+      "purpose": "Private local call communication cockpit for English/French calls with Russian support.",
+      "primary_audiences": ["owner conducting professional calls"],
+      "primary_value": "Reduce professional-call risk through bounded context assistance and readiness diagnostics.",
+      "economic_roles": ["revenue_enabler", "strategic_asset"],
+      "current_outcomes": ["Pre-live technical readiness completed", "Controlled live validation is waiting for human execution"],
+      "secondary_outcomes": ["Finder preparation", "selected-context assistance"],
+      "non_goals": ["Autonomous live-call execution", "general task management", "unapproved microphone or provider testing"],
+      "success_signals": ["Human-approved controlled smoke completes", "Readiness and recovery states are truthful", "No raw audio or transcript persistence by default"],
+      "constraints": ["WAITING_FOR_HUMAN until not before 2026-08-10", "Human consent required before microphone/OpenAI Realtime access", "Currently no Codex capacity demand"],
+      "strategy_confidence": "HIGH",
+      "last_human_confirmation": "2026-08-08",
+      "provenance": {"recorded_by": "PLATFORM-CONSOLIDATION-001", "evidence_refs": ["evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json", "evidence/onboarding/project-onboarding-001/mission/COQPI-002/pre-live-run.json"]}
+    },
+    {
+      "project": "azurmenton",
+      "display_name": "AzurMenton",
+      "purpose": "Practical, complete and fresh multilingual guide/resource for Menton and its surroundings with a natural apartment inquiry layer.",
+      "primary_audiences": ["tourists considering Menton", "visitors planning or spending a stay in Menton"],
+      "primary_value": "Help visitors discover Menton, plan a stay, and find useful current activities while supporting direct apartment inquiries.",
+      "economic_roles": ["revenue_direct", "revenue_enabler", "media_asset", "strategic_asset", "future_platform_source"],
+      "current_outcomes": ["Strategy audit complete", "Event Freshness Observatory implemented in report-only mode", "Current next slice is Guide Freshness Observatory"],
+      "secondary_outcomes": ["Future Living Guide source", "Future reusable city capability candidate"],
+      "non_goals": ["Automatic event publication or deletion", "Booking attribution implementation in this state pass", "City Engine/AzurNantes implementation"],
+      "success_signals": ["More complete and fresh practical coverage", "Useful today/tomorrow/weekend event evidence", "Measured content-to-inquiry path"],
+      "constraints": ["Menton-centered editorial relevance", "Review-first repository publication", "No current shared extraction under Rule of Two"],
+      "strategy_confidence": "HIGH",
+      "last_human_confirmation": "2026-08-08",
+      "provenance": {"recorded_by": "PLATFORM-CONSOLIDATION-001", "evidence_refs": ["docs/audits/project-onboarding-002-azurmenton-strategy-gap-report.md", "evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json"]}
+    }
+  ]
+}
