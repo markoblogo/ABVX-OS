@@ -1,0 +1,1 @@
+{"schema_version":"v1","id":"foundation-002-baseline","name":"Minimal local command baseline","candidate":"baseline-local-command","provider":"local-command","fixture_ids":["hello-local"],"budget":{"timeout_seconds":5,"max_retries":0,"token_budget":null,"cost_budget":null}}

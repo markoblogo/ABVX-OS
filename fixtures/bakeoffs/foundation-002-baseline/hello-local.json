@@ -1,0 +1,1 @@
+{"id":"hello-local","description":"Deterministic harmless local output fixture","command":["python3","-c","print('ABVX-OS FOUNDATION-002 baseline')"],"expected_exit_status":0,"artifact_paths":[]}

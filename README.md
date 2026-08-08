@@ -11,12 +11,12 @@ ABVX-OS is the planned local-first control and integration layer for independent
 - Automation is bounded by source/action policy and human approval gates.
 - Minimize dependencies, cost, secrets, and generated state.
 
-## Current scope: FOUNDATION-001
+## Current scope: FOUNDATION-002
 
-This repository currently defines the canonical architecture, domain model, schemas, registries, autonomy policy, bakeoff protocol, acceptance fixtures, and next experiments. It contains no integrations, production writes, paid infrastructure, or external framework adoption.
+This repository defines the FOUNDATION-001 architecture and the FOUNDATION-002 local bakeoff harness: versioned schemas, registries, replayable fixtures, bounded local command execution, validation, and git-friendly evidence records. It contains no integrations, production writes, paid infrastructure, or external framework adoption.
 
 ## Future scope
 
 Future work may add an event intake and routing implementation, local stores, provider adapters, project intelligence, mission state, and carefully approved integrations. Those decisions remain intentionally open and must be supported by experiments and evidence.
 
-Start with [ARCHITECTURE.md](ARCHITECTURE.md), then [docs/domain-model.md](docs/domain-model.md) and [docs/next-bakeoffs.md](docs/next-bakeoffs.md).
+Start with [ARCHITECTURE.md](ARCHITECTURE.md), then [docs/harness.md](docs/harness.md) and [docs/next-bakeoffs.md](docs/next-bakeoffs.md).
