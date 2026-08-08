@@ -66,6 +66,39 @@
       "candidate_capability": "provenance_observability",
       "recommended_action": "Record the repeated within-project pattern; do not extract shared ABVX code under the current Rule of Two.",
       "status": "recorded"
+    },
+    {
+      "id": "azurmenton-content-verification-repeat",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-003",
+      "observed_need": "Guide claims need bounded read-only verification records that can influence freshness without rewriting public content.",
+      "classification": "REPEATED_WITHIN_PROJECT",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-003-outcome.evidence.json", "external:/Volumes/Work/Work/menton/src/lib/guides-verification.ts"],
+      "candidate_capability": "content_verification",
+      "recommended_action": "Keep project-local; do not extract a shared framework before a second project demonstrates the same claim-verification boundary.",
+      "status": "recorded"
+    },
+    {
+      "id": "azurmenton-change-proposal-boundary",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-003",
+      "observed_need": "Detected differences must become explicit editorial review proposals, never silent public-content mutations.",
+      "classification": "REPEATED_WITHIN_PROJECT",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-003-outcome.evidence.json", "external:/Volumes/Work/Work/menton/scripts/guides-verify.cjs"],
+      "candidate_capability": "change_proposal",
+      "recommended_action": "Retain the VERIFY -> PROPOSE -> HUMAN/EDITORIAL APPROVAL -> UPDATE boundary; no shared extraction yet.",
+      "status": "recorded"
+    },
+    {
+      "id": "azurmenton-freshness-policy-candidate",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-003",
+      "observed_need": "Volatility classes suggest different future verification cadence, but observations are not yet sufficient to schedule automatically.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-003-outcome.evidence.json", "external:/Volumes/Work/Work/menton/docs/guides-verification-loop.md"],
+      "candidate_capability": "freshness_policy",
+      "recommended_action": "Record cadence guidance; do not build a scheduler or daemon.",
+      "status": "recorded"
     }
   ]
 }

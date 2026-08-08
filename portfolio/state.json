@@ -21,9 +21,9 @@
       "project": "azurmenton",
       "strategic_priority": "HIGH",
       "operational_state": "ACTIVE",
-      "current_outcome": "Guide freshness observatory complete: 87 guides assessed; 69 provenance-weak and 18 unknown, with no false CURRENT classifications.",
-      "next_action": "Choose bounded Source/Freshness Automation before Booking Attribution Baseline",
-      "blockers": ["No per-guide verification date or claim-level provenance", "Localization drift has no per-locale evidence", "Existing stale featured-event flag required cleanup and is now corrected in commit 55c924c"],
+      "current_outcome": "Guide provenance pilot complete: 6 guides checked, 4 CURRENT, 2 retained as PROVENANCE_WEAK with 2 review proposals; public content unchanged.",
+      "next_action": "Expand bounded source/verification automation to the next high-volatility guide set",
+      "blockers": ["Airport fare claim requires editorial review", "Supermarket listings and hours remain unverifiable in the pilot", "Localization drift has no per-locale evidence", "Existing stale featured-event flag was corrected separately in commit 55c924c"],
       "waiting_reason": null,
       "not_before": null,
       "human_attention_required": false,
@@ -31,7 +31,7 @@
       "economic_role": "revenue_direct",
       "evidence_freshness": "CURRENT",
       "last_state_update": "2026-08-08",
-      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-002-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "docs/audits/project-onboarding-002-azurmenton-strategy-gap-report.md"]
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-003-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-002-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "docs/audits/project-onboarding-002-azurmenton-strategy-gap-report.md"]
     }
   ]
 }

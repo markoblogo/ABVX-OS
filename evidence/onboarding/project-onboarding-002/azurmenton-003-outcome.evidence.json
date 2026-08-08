@@ -1,0 +1,26 @@
+{
+  "id": "azurmenton-003-guide-provenance-verification-loop",
+  "source": "AzurMenton bounded read-only guide verification pilot",
+  "timestamp": "2026-08-08T00:00:00Z",
+  "candidate": "native-azurmenton-guide-verification",
+  "fixture": "AZURMENTON-003",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "observed_date": "2026-08-08",
+    "pilot_guides": 6,
+    "health_after_pilot": {"CURRENT": 4, "REVIEW_DUE": 0, "STALE": 0, "PROVENANCE_WEAK": 67, "UNKNOWN": 16},
+    "verification_results": {"CONFIRMED": 5, "HUMAN_REVIEW_REQUIRED": 1, "UNVERIFIABLE": 1},
+    "change_proposals": 2,
+    "pilot_slugs": ["useful-numbers-emergency-contacts-menton", "public-transport-in-menton", "how-to-get-to-menton-from-nice-airport", "best-beaches-in-menton", "menton-old-town", "supermarkets-in-menton"],
+    "external_sources": ["Service-Public", "TER SNCF Sud Provence-Alpes-Côte d'Azur", "Nice Côte d'Azur Airport", "Menton Riviera & Merveilles tourism office", "Carrefour store locator"],
+    "public_content_mutated": false,
+    "translation_regenerated": false,
+    "tests": {"targeted": "11 passed", "full": "pending final validation"},
+    "policy": {"network_default": "no requests", "auto_apply": false, "scheduler": false, "database": false}
+  },
+  "stdout_ref": "external:/Volumes/Work/Work/menton/build/guides-verification/guides-verification.json",
+  "stderr_ref": "external:none",
+  "artifact_refs": ["external:/Volumes/Work/Work/menton/src/lib/guides-verification.ts", "external:/Volumes/Work/Work/menton/src/content/guides/provenance/verification-pilot.json", "external:/Volumes/Work/Work/menton/scripts/guides-verify.cjs", "external:/Volumes/Work/Work/menton/docs/guides-verification-loop.md"],
+  "provenance": {"recorded_by": "AZURMENTON-003", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T00:00:00Z"},
+  "environment": {"repository_path": "/Volumes/Work/Work/menton", "branch": "main", "verification_command": "npm run guides:verify -- --pilot", "health_command": "npm run guides:health -- --today=2026-08-08", "network_access": "bounded read-only official pages only; no default CLI fetch", "production_mutation": false, "next_action": "human decision between broader source verification and Booking Attribution Baseline"}
+}
