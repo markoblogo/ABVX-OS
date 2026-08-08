@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/playbook/v1",
+  "title": "ABVX Operational Playbook",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "project",
+    "purpose",
+    "required_inputs",
+    "deterministic_steps",
+    "validation",
+    "expected_outputs",
+    "allowed_changes",
+    "prohibited_changes",
+    "escalation_conditions",
+    "evidence",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "v1"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "required_inputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "description", "required"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "description": {"type": "string", "minLength": 1},
+          "required": {"type": "boolean"}
+        }
+      }
+    },
+    "deterministic_steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "description", "dry_run_behavior"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["check", "command", "record"]},
+          "description": {"type": "string", "minLength": 1},
+          "command": {"type": ["string", "null"]},
+          "dry_run_behavior": {"enum": ["execute", "report_only", "skip"]},
+          "expected_outcome": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["default_tier", "checks", "escalate_to_full_on", "escalate_to_critical_on"],
+      "properties": {
+        "default_tier": {"enum": ["QUICK", "STANDARD", "FULL", "CRITICAL"]},
+        "checks": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["QUICK", "STANDARD", "FULL", "CRITICAL"],
+          "properties": {
+            "QUICK": {"type": "array", "items": {"type": "string"}},
+            "STANDARD": {"type": "array", "items": {"type": "string"}},
+            "FULL": {"type": "array", "items": {"type": "string"}},
+            "CRITICAL": {"type": "array", "items": {"type": "string"}}
+          }
+        },
+        "escalate_to_full_on": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "escalate_to_critical_on": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "expected_outputs": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "allowed_changes": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "prohibited_changes": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "escalation_conditions": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["event_type", "result_on_success"],
+      "properties": {
+        "event_type": {"type": "string", "minLength": 1},
+        "result_on_success": {"enum": ["PASS", "CONDITIONAL_PASS"]},
+        "media_event_candidate": {"type": ["string", "null"]}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "recorded_by", "observed_at", "derived_from"],
+      "properties": {
+        "version": {"type": "string", "minLength": 1},
+        "recorded_by": {"type": "string", "minLength": 1},
+        "observed_at": {"type": "string", "format": "date-time"},
+        "derived_from": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "v1",
+  "id": "azurmenton.publish-guide",
+  "project": "azurmenton",
+  "purpose": "Compile the proven AZURMENTON-005 guide publication path into a deterministic local-first playbook for ready author text plus ready cover to published multilingual guide.",
+  "required_inputs": [
+    {
+      "name": "guide_slug",
+      "description": "Target guide slug already approved for publication.",
+      "required": true
+    },
+    {
+      "name": "author_text_ready",
+      "description": "Human-authored source text already prepared for publication.",
+      "required": true
+    },
+    {
+      "name": "cover_ready",
+      "description": "Approved cover image already prepared.",
+      "required": true
+    },
+    {
+      "name": "publication_languages",
+      "description": "Localized publication languages prepared for insertion.",
+      "required": true
+    }
+  ],
+  "deterministic_steps": [
+    {
+      "id": "prepare-intake",
+      "kind": "command",
+      "description": "Create the intake scaffold from the approved source text and cover.",
+      "command": "npm run guide:new -- --from <draft.md> --cover <cover.png>",
+      "dry_run_behavior": "skip",
+      "expected_outcome": "validated intake folder and publication scaffold"
+    },
+    {
+      "id": "resolve-assets",
+      "kind": "command",
+      "description": "Copy approved cover assets and derive public image outputs.",
+      "command": "npm run guide:assets -- --slug <guide-slug> --cover <cover.png>",
+      "dry_run_behavior": "skip",
+      "expected_outcome": "cover image copied into public/images/guide and derivatives added"
+    },
+    {
+      "id": "publish-check",
+      "kind": "command",
+      "description": "Run the narrow guide readiness checks before manual insertion.",
+      "command": "npm run content:lint && npm run guides:verify -- --pilot",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "guide content and provenance checks pass without broad repository reasoning"
+    },
+    {
+      "id": "emit-event",
+      "kind": "record",
+      "description": "Record a compact CONTENT_PUBLISHED event and routine evidence without portfolio mutation.",
+      "command": null,
+      "dry_run_behavior": "execute",
+      "expected_outcome": "compact event plus replay evidence"
+    }
+  ],
+  "validation": {
+    "default_tier": "STANDARD",
+    "checks": {
+      "QUICK": [],
+      "STANDARD": [
+        "guide outcome evidence integrity",
+        "project registry path and repo match",
+        "media event candidate presence",
+        "targeted guide validation plan resolved"
+      ],
+      "FULL": [
+        "STANDARD checks",
+        "broad content lint and type/lint/build suite",
+        "human review of factual conflicts and localization exceptions"
+      ],
+      "CRITICAL": [
+        "FULL checks",
+        "security or infrastructure review with explicit approval gate"
+      ]
+    },
+    "escalate_to_full_on": [
+      "factual_conflict",
+      "duplicate_overlap",
+      "volatile_claim",
+      "localization_problem",
+      "structural_exception",
+      "targeted_validation_failed",
+      "code_changed",
+      "explicit_full_validation"
+    ],
+    "escalate_to_critical_on": [
+      "security_sensitive"
+    ]
+  },
+  "expected_outputs": [
+    "published multilingual guide content in AzurMenton",
+    "guide cover assets and derivatives",
+    "routine evidence record",
+    "compact CONTENT_PUBLISHED event",
+    "optional media-event candidate reference"
+  ],
+  "allowed_changes": [
+    "guide content files",
+    "guide cover assets and derivative manifest",
+    "provenance sidecar for the published guide",
+    "compact event and evidence files in ABVX-OS"
+  ],
+  "prohibited_changes": [
+    "broad project strategy analysis",
+    "portfolio state mutation from routine success",
+    "automatic external media distribution",
+    "generic workflow engine behavior",
+    "unbounded web research by default"
+  ],
+  "escalation_conditions": [
+    "factual conflict in source claims",
+    "duplicate or overlapping guide scope",
+    "volatile claim requiring current verification",
+    "localization quality conflict",
+    "unexpected structural mismatch in AzurMenton content model"
+  ],
+  "evidence": {
+    "event_type": "CONTENT_PUBLISHED",
+    "result_on_success": "CONDITIONAL_PASS",
+    "media_event_candidate": "media/events/azurmenton-005-new-guide.json"
+  },
+  "provenance": {
+    "version": "1.0.0",
+    "recorded_by": "PLATFORM-COST-001",
+    "observed_at": "2026-08-08T21:00:00Z",
+    "derived_from": [
+      "evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json",
+      "media/events/azurmenton-005-new-guide.json"
+    ]
+  }
+}

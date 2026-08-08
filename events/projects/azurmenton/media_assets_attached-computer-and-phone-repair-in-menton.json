@@ -1,0 +1,28 @@
+{
+  "artifact_refs": [
+    "evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json",
+    "docs/audits/azurmenton-005-second-pass-image-todo.md"
+  ],
+  "evidence_ref": "evidence/playbooks/platform-cost-001/azurmenton.attach-guide-images.AZURMENTON-005.replay.evidence.json",
+  "execution_mode": "PLAYBOOK",
+  "id": "azurmenton-media_assets_attached-computer-and-phone-repair-in-menton-azurmenton-005",
+  "media_event_candidate": null,
+  "object": {
+    "id": "computer-and-phone-repair-in-menton",
+    "kind": "guide",
+    "locator": "guide:computer-and-phone-repair-in-menton"
+  },
+  "origin": "PLAYBOOK_REPLAY",
+  "portfolio_effect": "NONE",
+  "project": "azurmenton",
+  "provenance": {
+    "observed_at": "2026-08-08T18:45:51Z",
+    "recorded_by": "PLATFORM-COST-001",
+    "source_uri": null
+  },
+  "result": "PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-08T20:00:00Z",
+  "type": "MEDIA_ASSETS_ATTACHED",
+  "validation_tier": "QUICK"
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/project-event/v1",
+  "title": "ABVX Compact Project Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "type",
+    "project",
+    "object",
+    "timestamp",
+    "origin",
+    "result",
+    "execution_mode",
+    "validation_tier",
+    "portfolio_effect",
+    "artifact_refs",
+    "evidence_ref",
+    "media_event_candidate",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "id": {"type": "string", "minLength": 1},
+    "type": {"enum": ["CONTENT_PUBLISHED", "MEDIA_ASSETS_ATTACHED"]},
+    "project": {"type": "string", "minLength": 1},
+    "object": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id"],
+      "properties": {
+        "kind": {"type": "string", "minLength": 1},
+        "id": {"type": "string", "minLength": 1},
+        "locator": {"type": ["string", "null"]}
+      }
+    },
+    "timestamp": {"type": "string", "format": "date-time"},
+    "origin": {"enum": ["HUMAN_INITIATED", "PLAYBOOK_REPLAY"]},
+    "result": {"enum": ["PASS", "CONDITIONAL_PASS", "FAIL", "INCONCLUSIVE"]},
+    "execution_mode": {"enum": ["DEEP", "PLAYBOOK"]},
+    "validation_tier": {"enum": ["QUICK", "STANDARD", "FULL", "CRITICAL"]},
+    "portfolio_effect": {"const": "NONE"},
+    "artifact_refs": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "evidence_ref": {"type": "string", "minLength": 1},
+    "media_event_candidate": {"type": ["string", "null"]},
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["recorded_by", "observed_at"],
+      "properties": {
+        "recorded_by": {"type": "string", "minLength": 1},
+        "source_uri": {"type": ["string", "null"]},
+        "observed_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}

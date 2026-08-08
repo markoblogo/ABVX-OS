@@ -1,0 +1,33 @@
+{
+  "schema_version": "v1",
+  "playbook_id": "azurmenton.publish-guide",
+  "replay_id": "AZURMENTON-005",
+  "project": "azurmenton",
+  "dry_run": true,
+  "object": {
+    "kind": "guide",
+    "id": "computer-and-phone-repair-in-menton"
+  },
+  "source_refs": {
+    "outcome_evidence": "evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json",
+    "project_registry": "registries/projects/azurmenton.json",
+    "media_event_candidate": "media/events/azurmenton-005-new-guide.json"
+  },
+  "observed_inputs": {
+    "guide_slug": "computer-and-phone-repair-in-menton",
+    "author_text_ready": true,
+    "cover_ready": true,
+    "publication_languages": ["en", "fr", "it", "uk"]
+  },
+  "exception_flags": {
+    "factual_conflict": false,
+    "duplicate_overlap": false,
+    "volatile_claim": false,
+    "localization_problem": false,
+    "structural_exception": false,
+    "targeted_validation_failed": false,
+    "code_changed": false,
+    "explicit_full_validation": false,
+    "security_sensitive": false
+  }
+}

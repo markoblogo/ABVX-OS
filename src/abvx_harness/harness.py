@@ -165,6 +165,18 @@ def validate_repository(root: Path) -> list[str]:
         else:
             continue
         checked.append(str(path.relative_to(root)))
+    playbook_schema_path = root / "schemas" / "playbook.schema.json"
+    replay_schema_path = root / "schemas" / "playbook_replay.schema.json"
+    event_schema_path = root / "schemas" / "project_event.schema.json"
+    for path in sorted((root / "playbooks").glob("*.json")):
+        validate(load_json(path), load_json(playbook_schema_path), schema_path=playbook_schema_path, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
+    for path in sorted((root / "playbooks" / "replays").glob("*.json")):
+        validate(load_json(path), load_json(replay_schema_path), schema_path=replay_schema_path, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
+    for path in sorted((root / "events" / "projects").rglob("*.json")):
+        validate(load_json(path), load_json(event_schema_path), schema_path=event_schema_path, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
     return checked
 
 

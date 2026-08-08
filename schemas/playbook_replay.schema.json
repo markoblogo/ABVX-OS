@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/playbook-replay/v1",
+  "title": "ABVX Playbook Replay Input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "playbook_id",
+    "replay_id",
+    "project",
+    "dry_run",
+    "object",
+    "source_refs",
+    "observed_inputs",
+    "exception_flags"
+  ],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "playbook_id": {"type": "string", "minLength": 1},
+    "replay_id": {"type": "string", "minLength": 1},
+    "project": {"type": "string", "minLength": 1},
+    "dry_run": {"type": "boolean"},
+    "object": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "id"],
+      "properties": {
+        "kind": {"type": "string", "minLength": 1},
+        "id": {"type": "string", "minLength": 1}
+      }
+    },
+    "source_refs": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "observed_inputs": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "exception_flags": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

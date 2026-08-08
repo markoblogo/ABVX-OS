@@ -1,0 +1,46 @@
+{
+  "artifact_refs": [
+    "evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json",
+    "media/events/azurmenton-005-new-guide.json",
+    "references/items.json"
+  ],
+  "candidate": "azurmenton.publish-guide",
+  "environment": {
+    "portfolio_mutation": false,
+    "production_mutation": false,
+    "replay_mode": "DRY_RUN",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "AZURMENTON-005",
+  "id": "azurmenton.publish-guide-AZURMENTON-005-replay",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "checks_run": [
+      "guide outcome evidence integrity",
+      "project registry path and repo match",
+      "media event candidate presence",
+      "targeted guide validation plan resolved"
+    ],
+    "dry_run": true,
+    "elapsed_ms": 2,
+    "execution_mode": "PLAYBOOK",
+    "reasoning_steps": 1,
+    "skipped_checks": [
+      "broad web research",
+      "full repository build",
+      "full repository tests",
+      "portfolio reasoning"
+    ],
+    "validation_tier": "STANDARD"
+  },
+  "provenance": {
+    "observed_at": "2026-08-08T20:00:00Z",
+    "recorded_by": "PLATFORM-COST-001",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "azurmenton.publish-guide replay",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-08T18:45:51Z"
+}

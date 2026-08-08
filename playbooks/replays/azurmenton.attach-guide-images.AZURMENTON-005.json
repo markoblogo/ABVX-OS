@@ -1,0 +1,60 @@
+{
+  "schema_version": "v1",
+  "playbook_id": "azurmenton.attach-guide-images",
+  "replay_id": "AZURMENTON-005",
+  "project": "azurmenton",
+  "dry_run": true,
+  "object": {
+    "kind": "guide",
+    "id": "computer-and-phone-repair-in-menton"
+  },
+  "source_refs": {
+    "outcome_evidence": "evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json",
+    "project_registry": "registries/projects/azurmenton.json"
+  },
+  "observed_inputs": {
+    "published_guide": "computer-and-phone-repair-in-menton",
+    "prepared_images": [
+      "fix-phones-menton",
+      "iriparo-menton",
+      "micrologik-menton",
+      "depannage-pc-06-menton",
+      "azurserviceinfo-menton"
+    ],
+    "prepared_images_count": 5,
+    "prepared_image_ids": [
+      "fix-phones-menton",
+      "iriparo-menton",
+      "micrologik-menton",
+      "depannage-pc-06-menton",
+      "azurserviceinfo-menton"
+    ],
+    "previous_run": {
+      "matched": 5,
+      "unmatched": 0,
+      "still_missing": 0,
+      "applied_place_ids": [
+        "fix-phones-menton",
+        "iriparo-menton",
+        "micrologik-menton",
+        "depannage-pc-06-menton",
+        "azurserviceinfo-menton"
+      ]
+    },
+    "current_report_only_expectation": {
+      "already_covered": 5,
+      "matched": 0,
+      "unmatched": 0,
+      "still_missing": 0
+    }
+  },
+  "exception_flags": {
+    "ambiguous_asset_match": false,
+    "patch_ambiguity": false,
+    "structural_exception": false,
+    "targeted_validation_failed": false,
+    "code_changed": false,
+    "explicit_full_validation": false,
+    "security_sensitive": false
+  }
+}

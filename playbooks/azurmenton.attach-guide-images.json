@@ -1,0 +1,117 @@
+{
+  "schema_version": "v1",
+  "id": "azurmenton.attach-guide-images",
+  "project": "azurmenton",
+  "purpose": "Compile the proven post-publish guide illustration workflow into a deterministic image-attachment playbook for already-prepared place images.",
+  "required_inputs": [
+    {
+      "name": "published_guide",
+      "description": "Published guide slug that already contains the target place cards.",
+      "required": true
+    },
+    {
+      "name": "prepared_images",
+      "description": "Prepared directory or explicit list of place images mapped to known place IDs.",
+      "required": true
+    }
+  ],
+  "deterministic_steps": [
+    {
+      "id": "resolve-images",
+      "kind": "command",
+      "description": "Run the existing post-publish asset workflow in missing-only mode.",
+      "command": "npm run guide:assets -- --published-guide <guide-slug> --assets-dir <assets-dir> --missing-only --apply-places-patch-safe",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "matched place images and safe place image patch bundle"
+    },
+    {
+      "id": "targeted-checks",
+      "kind": "command",
+      "description": "Run the narrow checks needed for deterministic image attachment.",
+      "command": "npm run content:lint && npm run images:check",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "image references and derivative manifest remain valid"
+    },
+    {
+      "id": "emit-event",
+      "kind": "record",
+      "description": "Record a compact MEDIA_ASSETS_ATTACHED event and routine evidence without portfolio mutation.",
+      "command": null,
+      "dry_run_behavior": "execute",
+      "expected_outcome": "compact event plus replay evidence"
+    }
+  ],
+  "validation": {
+    "default_tier": "QUICK",
+    "checks": {
+      "QUICK": [
+        "place-id to image match report",
+        "report-only idempotence expectation",
+        "no unmatched images"
+      ],
+      "STANDARD": [
+        "QUICK checks",
+        "content lint",
+        "image derivative manifest check"
+      ],
+      "FULL": [
+        "STANDARD checks",
+        "full repository validation because structure or code changed"
+      ],
+      "CRITICAL": [
+        "FULL checks",
+        "security or infrastructure review with explicit approval gate"
+      ]
+    },
+    "escalate_to_full_on": [
+      "ambiguous_asset_match",
+      "patch_ambiguity",
+      "structural_exception",
+      "targeted_validation_failed",
+      "code_changed",
+      "explicit_full_validation"
+    ],
+    "escalate_to_critical_on": [
+      "security_sensitive"
+    ]
+  },
+  "expected_outputs": [
+    "place images attached to the published guide",
+    "derivative manifest updates",
+    "routine evidence record",
+    "compact MEDIA_ASSETS_ATTACHED event"
+  ],
+  "allowed_changes": [
+    "place image fields for known place IDs",
+    "public guide image files and generated derivatives",
+    "asset workflow report files",
+    "compact event and evidence files in ABVX-OS"
+  ],
+  "prohibited_changes": [
+    "guide body rewrites",
+    "broad project analysis",
+    "portfolio state mutation from routine success",
+    "manual place remapping without explicit escalation",
+    "generic automation framework behavior"
+  ],
+  "escalation_conditions": [
+    "ambiguous image to place match",
+    "safe patch anchor mismatch",
+    "unexpected missing or duplicate place IDs",
+    "targeted validation failure",
+    "relevant code path changed"
+  ],
+  "evidence": {
+    "event_type": "MEDIA_ASSETS_ATTACHED",
+    "result_on_success": "PASS",
+    "media_event_candidate": null
+  },
+  "provenance": {
+    "version": "1.0.0",
+    "recorded_by": "PLATFORM-COST-001",
+    "observed_at": "2026-08-08T21:00:00Z",
+    "derived_from": [
+      "evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json"
+    ]
+  }
+}

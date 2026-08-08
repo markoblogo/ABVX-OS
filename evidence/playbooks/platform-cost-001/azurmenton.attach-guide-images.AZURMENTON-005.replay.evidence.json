@@ -1,0 +1,44 @@
+{
+  "artifact_refs": [
+    "evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json",
+    "docs/audits/azurmenton-005-second-pass-image-todo.md"
+  ],
+  "candidate": "azurmenton.attach-guide-images",
+  "environment": {
+    "portfolio_mutation": false,
+    "production_mutation": false,
+    "replay_mode": "DRY_RUN",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "AZURMENTON-005",
+  "id": "azurmenton.attach-guide-images-AZURMENTON-005-replay",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "checks_run": [
+      "place-id to image match report",
+      "report-only idempotence expectation",
+      "no unmatched images"
+    ],
+    "dry_run": true,
+    "elapsed_ms": 1,
+    "execution_mode": "PLAYBOOK",
+    "reasoning_steps": 1,
+    "skipped_checks": [
+      "guide body checks",
+      "broad portfolio analysis",
+      "full repository build",
+      "external repo mutation"
+    ],
+    "validation_tier": "QUICK"
+  },
+  "provenance": {
+    "observed_at": "2026-08-08T20:00:00Z",
+    "recorded_by": "PLATFORM-COST-001",
+    "source_uri": null
+  },
+  "result": "PASS",
+  "source": "azurmenton.attach-guide-images replay",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-08T18:45:51Z"
+}
