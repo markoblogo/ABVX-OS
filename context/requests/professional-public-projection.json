@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "request_id": "professional-public-projection",
+  "consumer": "public-profile",
+  "task": "Project Anton's current professional focus and relevant public proof for a Product Lead / AI opportunity without exposing private preparation preferences.",
+  "intent": "professional_projection",
+  "related_projects": [
+    "coqpi"
+  ],
+  "entities": [
+    "Anton",
+    "Product Lead",
+    "AI",
+    "public proof"
+  ],
+  "domains": [
+    "professional-context",
+    "current-work",
+    "public-profile"
+  ],
+  "freshness_requirement": "CURRENT",
+  "privacy_domain": "PUBLIC",
+  "max_items": 5,
+  "context_budget": {
+    "max_excerpt_chars": 220,
+    "provider_timeout_seconds": 20,
+    "token_usage": "NOT_METERED"
+  },
+  "provider_hints": [
+    "cortexabv"
+  ]
+}

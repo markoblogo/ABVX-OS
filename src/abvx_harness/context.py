@@ -13,6 +13,7 @@ from .harness import ValidationError, load_json, now_iso, validate
 
 
 CORTEX_ABV_RUNTIME = Path("/Volumes/Work/Work/ABVXsite/cortex-abv/private-runtime")
+CORTEX_ABV_PRIVATE = Path("/Volumes/Work/Work/CortexABV-private")
 INDEX_CORTEX_ROOT = Path("/Volumes/Work/Work/index")
 
 INDEX_APPROVED_TOP_LEVEL_DIRS = {
@@ -309,6 +310,8 @@ def _relevant_projects(root: Path, request: dict[str, Any]) -> list[dict[str, An
 
 
 def _operational_context(root: Path, request: dict[str, Any]) -> list[dict[str, Any]]:
+    if request["privacy_domain"] == "PUBLIC":
+        return []
     state = load_json(root / "portfolio" / "state.json")
     wanted = {value.lower() for value in request.get("related_projects", [])}
     if request.get("consumer") == "coqpi":
@@ -331,6 +334,8 @@ def _operational_context(root: Path, request: dict[str, Any]) -> list[dict[str, 
 
 
 def _operational_gaps(operational_context: list[dict[str, Any]], request: dict[str, Any]) -> list[str]:
+    if request["privacy_domain"] == "PUBLIC":
+        return []
     if operational_context:
         return []
     if request.get("related_projects"):
@@ -428,6 +433,14 @@ def _load_public_professional_surfaces(runtime_root: Path) -> dict[str, Any]:
         "project_registry": load_json(paths["project_registry"]),
         "paths": {key: str(value) for key, value in paths.items()},
     }
+
+
+def _professional_memory_receipt_path(private_root: Path) -> Path:
+    return private_root / "examples" / "synthetic-personal-professional-memory-receipt.json"
+
+
+def _load_professional_memory_receipt(private_root: Path) -> dict[str, Any]:
+    return load_json(_professional_memory_receipt_path(private_root))
 
 
 def _professional_inventory(surfaces: dict[str, Any]) -> dict[str, str]:
@@ -546,6 +559,7 @@ def _build_professional_items(
     request: dict[str, Any],
     presence_index: dict[str, Any],
     project_registry: dict[str, Any],
+    owner_fact_candidates: list[dict[str, Any]] | None = None,
 ) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[str], bool]:
     relevant_entities = _relevant_professional_entities(presence_index, request)
     inventory = _professional_inventory({"presence_index": presence_index, "project_registry": project_registry})
@@ -567,7 +581,7 @@ def _build_professional_items(
             "title": "Current focus and strongest relevant work",
             "summary": f"Recent public work clusters around {', '.join(current_focus) or selected[0]['name']}.",
             "excerpt": f"capabilities={capability_summary}; current_focus={', '.join(current_focus) or 'public work set'}",
-            "privacy_classification": "PERSONAL_PRIVATE",
+            "privacy_classification": "PUBLIC",
             "confidence": "HIGH",
             "provenance": {
                 "source": "cortex-abv/public-presence-index.v1.json",
@@ -575,20 +589,50 @@ def _build_professional_items(
                 "inventory": inventory,
             },
         })
-        items.append({
-            "id": "cortexabv:professional:capabilities",
-            "provider": "cortexabv",
-            "category": "capabilities",
-            "title": "Relevant capabilities",
-            "summary": f"Public evidence emphasizes {capability_summary}.",
-            "excerpt": f"capability_tags={', '.join(capability_tags) or 'none'}",
-            "privacy_classification": "PERSONAL_PRIVATE",
-            "confidence": "HIGH" if capability_tags else "MEDIUM",
-            "provenance": {
-                "source": "cortex-abv/public-presence-index.v1.json",
-                "entity_ids": [entity["id"] for entity in selected],
-            },
-        })
+        if not (small_pack and owner_fact_candidates):
+            items.append({
+                "id": "cortexabv:professional:capabilities",
+                "provider": "cortexabv",
+                "category": "capabilities",
+                "title": "Relevant capabilities",
+                "summary": f"Public evidence emphasizes {capability_summary}.",
+                "excerpt": f"capability_tags={', '.join(capability_tags) or 'none'}",
+                "privacy_classification": "PUBLIC",
+                "confidence": "HIGH" if capability_tags else "MEDIUM",
+                "provenance": {
+                    "source": "cortex-abv/public-presence-index.v1.json",
+                    "entity_ids": [entity["id"] for entity in selected],
+                },
+            })
+
+    if owner_fact_candidates:
+        for candidate in owner_fact_candidates:
+            metadata = candidate.get("metadata", {})
+            claim_evidence = candidate.get("claimEvidence", [])
+            items.append({
+                "id": f"cortexabv:professional:{candidate['memoryId']}",
+                "provider": "cortexabv",
+                "category": _owner_fact_category(candidate["memoryId"]),
+                "title": _owner_fact_title(candidate["memoryId"]),
+                "summary": candidate["content"],
+                "excerpt": _owner_fact_excerpt(candidate),
+                "privacy_classification": _owner_fact_item_privacy(metadata.get("privacyClassification", "PERSONAL_PRIVATE")),
+                "confidence": "HIGH",
+                "provenance": {
+                    "source": "cortex-abv/private-runtime:tenant-memory-bank",
+                    "memory_id": candidate["memoryId"],
+                    "claim_evidence": claim_evidence,
+                    "metadata": metadata,
+                },
+            })
+            for claim in claim_evidence:
+                sources.append({
+                    "provider": "cortexabv",
+                    "path": claim["locator"],
+                    "source_ref": claim["sourceRef"],
+                    "digest": claim["digest"],
+                    "privacy_classification": _owner_fact_item_privacy(metadata.get("privacyClassification", "PERSONAL_PRIVATE")),
+                })
 
     for entity in selected:
         entry = _registry_entry_for_project(project_registry, entity["id"]) if entity["kind"] == "project" else None
@@ -606,7 +650,7 @@ def _build_professional_items(
             "title": entity["name"],
             "summary": entity.get("summary") or f"Public {entity['kind']} evidence from CortexABV.",
             "excerpt": f"updated={entity.get('attributes', {}).get('updatedAt') or entity.get('attributes', {}).get('publishedAt') or 'unknown'}; tags={', '.join(entity.get('attributes', {}).get('tags', [])[:6]) or 'none'}; proof={', '.join(proof_links) or entity.get('canonicalUrl')}",
-            "privacy_classification": "PERSONAL_PRIVATE",
+            "privacy_classification": "PUBLIC",
             "confidence": "HIGH" if proof_links else "MEDIUM",
             "provenance": {
                 "entity_id": entity["id"],
@@ -637,17 +681,67 @@ def _build_professional_items(
                 "privacy_classification": "PUBLIC",
             })
 
-    if inventory["professional_goals"] == "MISSING":
+    if inventory["professional_goals"] == "MISSING" and not owner_fact_candidates:
         gaps.append("Professional goals/current collaboration preference are not yet represented in the audited CortexABV public surfaces.")
     if inventory["education_certificates"] == "MISSING":
         gaps.append("Education/certificates are not represented in the current audited CortexABV public surfaces.")
-    if inventory["constraints_preferences"] == "MISSING":
+    if inventory["constraints_preferences"] == "MISSING" and not owner_fact_candidates:
         gaps.append("Professional constraints/preferences are not represented in the current audited CortexABV public surfaces.")
     if inventory["recent_work"] != "STRONG":
         gaps.append("Recent-work public evidence remains partial and may omit very recent private project execution.")
     if len(relevant_entities) > limit:
         gaps.append("Additional relevant public professional evidence exists beyond the current context budget.")
     return items, sources, proof_assets, gaps, len(relevant_entities) > limit
+
+
+def _owner_fact_category(memory_id: str) -> str:
+    if "goal" in memory_id:
+        return "professional_goal"
+    if "collaboration" in memory_id:
+        return "collaboration_preference"
+    if "communication" in memory_id:
+        return "communication_preference"
+    return "professional_constraint"
+
+
+def _owner_fact_title(memory_id: str) -> str:
+    if memory_id.endswith("goal-current-opportunities"):
+        return "Current professional opportunity goals"
+    if memory_id.endswith("goal-interest-areas"):
+        return "Current interest areas"
+    if memory_id.endswith("collaboration-models"):
+        return "Acceptable collaboration models"
+    if memory_id.endswith("communication-mode"):
+        return "Communication preference for opportunity preparation"
+    return "Opportunity-preparation constraints"
+
+
+def _owner_fact_item_privacy(value: str) -> str:
+    return "PUBLIC" if value == "PUBLIC_SAFE" else "PERSONAL_PRIVATE"
+
+
+def _owner_fact_excerpt(candidate: dict[str, Any]) -> str:
+    metadata = candidate.get("metadata", {})
+    reviewability = metadata.get("reviewability", {})
+    return (
+        f"privacy={metadata.get('privacyClassification', 'unknown')}; "
+        f"review={reviewability.get('status', 'unknown')}; "
+        f"review_by={reviewability.get('reviewBy', 'none')}; "
+        f"owner={metadata.get('canonicalOwner', 'unknown')}"
+    )
+
+
+def _filter_owner_fact_candidates_for_request(
+    request: dict[str, Any],
+    receipt: dict[str, Any],
+) -> list[dict[str, Any]]:
+    candidates = list(receipt.get("candidates", []))
+    if request["privacy_domain"] == "PUBLIC":
+        candidates = [
+            candidate for candidate in candidates
+            if candidate.get("metadata", {}).get("privacyClassification") == "PUBLIC_SAFE"
+        ]
+    return candidates
 
 
 class CortexAbvProvider:
@@ -668,13 +762,12 @@ class CortexAbvProvider:
         artifact = self.runtime_root / "data" / "vector-indexes" / "turbovec-poc" / "index-artifact.v1.json"
         harness = self.runtime_root / "src" / "vector-runtime-controlled-module-harness.mjs"
         public_paths = _public_presence_paths(self.runtime_root)
-        if artifact.is_file() and harness.is_file() and all(path.is_file() for path in public_paths.values()):
+        memory_receipt = _professional_memory_receipt_path(CORTEX_ABV_PRIVATE)
+        if artifact.is_file() and harness.is_file() and memory_receipt.is_file() and all(path.is_file() for path in public_paths.values()):
             return {"ok": True}
-        return {"ok": False, "reason": "local runtime artifact, harness, or public professional surface missing"}
+        return {"ok": False, "reason": "local runtime artifact, harness, admitted professional memory receipt, or public professional surface missing"}
 
     def retrieve(self, request: dict[str, Any]) -> dict[str, Any]:
-        if request["privacy_domain"] == "PUBLIC":
-            return self._gap("denied", "PUBLIC consumers are not allowed to receive CortexABV private runtime content.")
         tenant_queries = self._tenant_queries(request)
         if not tenant_queries:
             return self._gap("gap", "No supported CortexABV retrieval surface matched the request.")
@@ -687,15 +780,23 @@ class CortexAbvProvider:
         for tenant, query in tenant_queries:
             if tenant == "cortex-abv-personal":
                 surfaces = surfaces or _load_public_professional_surfaces(self.runtime_root)
+                admitted_receipt = _load_professional_memory_receipt(CORTEX_ABV_PRIVATE)
+                admitted_candidates = _filter_owner_fact_candidates_for_request(request, admitted_receipt)
                 personal_items, personal_sources, personal_proof_assets, personal_gaps, personal_more = _build_professional_items(
                     request,
                     surfaces["presence_index"],
                     surfaces["project_registry"],
+                    admitted_candidates,
                 )
                 items.extend(personal_items)
                 sources.extend(personal_sources)
                 proof_assets.extend(personal_proof_assets)
                 known_gaps.extend(personal_gaps)
+                if request["privacy_domain"] == "PUBLIC" and any(
+                    candidate.get("metadata", {}).get("privacyClassification") != "PUBLIC_SAFE"
+                    for candidate in admitted_receipt.get("candidates", [])
+                ):
+                    known_gaps.append("Private professional-preparation preferences remain admitted in CortexABV but were withheld from PUBLIC projection.")
                 if not personal_items:
                     known_gaps.append("CortexABV personal public professional retrieval returned no opportunity-relevant evidence.")
                 continue
@@ -781,7 +882,7 @@ console.log(JSON.stringify({ result, verification, documents }, null, 2));
         projects = {value.lower() for value in request.get("related_projects", [])}
         domains = {value.lower() for value in request.get("domains", [])}
         queries: list[tuple[str, str]] = []
-        if request.get("consumer") == "coqpi" or request["privacy_domain"] == "PERSONAL_PRIVATE":
+        if request.get("consumer") == "coqpi" or request["privacy_domain"] in {"PERSONAL_PRIVATE", "PUBLIC"}:
             queries.append(("cortex-abv-personal", "public presence baseline current project links proof"))
         if "azurmenton" in projects:
             queries.append(("azur-menton", "azurmenton practical local guides faq onboarding place cards"))

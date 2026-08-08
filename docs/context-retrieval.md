@@ -49,5 +49,17 @@ For professional preparation requests, `CortexABV` may synthesize a bounded pack
 - `public-presence-index.v1.json`
 - `public-project-registry.v1.json`
 - the audited local runtime artifact/query seam where relevant
+- admitted personal professional facts retained through the audited tenant memory bank receipt
 
 That path is still read-only and evidence-backed. It should return compact opportunity-specific context, not a full biography dump.
+
+`PUBLIC` requests may receive only:
+
+- public Cortex professional surfaces;
+- admitted owner facts explicitly classified `PUBLIC_SAFE`.
+
+`PUBLIC` requests must not receive:
+
+- `PERSONAL_PRIVATE` communication or preparation preferences;
+- ABVX operational state;
+- private runtime-only facts lacking public-safe classification.

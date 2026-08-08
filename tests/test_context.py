@@ -6,6 +6,7 @@ from pathlib import Path
 from abvx_harness.context import (
     _is_admitted_index_path,
     _build_professional_items,
+    _filter_owner_fact_candidates_for_request,
     _professional_inventory,
     assemble_context_pack,
     inspect_context_pack,
@@ -102,9 +103,36 @@ class ContextTests(unittest.TestCase):
         self.assertFalse(available_more)
         self.assertGreaterEqual(len(items), 4)
         self.assertEqual(items[0]["category"], "current_focus")
+        self.assertEqual(items[0]["privacy_classification"], "PUBLIC")
         self.assertTrue(any(item["title"] == "Agent Skills" for item in items))
         self.assertTrue(any(asset["url"] == "https://github.com/example/agent-skills" for asset in proof_assets))
         self.assertTrue(any("Professional goals/current collaboration preference" in gap for gap in gaps))
+
+    def test_owner_fact_candidates_are_filtered_for_public_requests(self):
+        request = load_context_request(ROOT, ROOT / "context" / "requests" / "coqpi-preparation.json")
+        public_request = dict(request)
+        public_request["privacy_domain"] = "PUBLIC"
+        receipt = {
+            "candidates": [
+                {
+                    "memoryId": "mem:personal:goal-current-opportunities",
+                    "content": "Public-safe goal.",
+                    "metadata": {"privacyClassification": "PUBLIC_SAFE"},
+                    "claimEvidence": [],
+                },
+                {
+                    "memoryId": "mem:personal:communication-mode",
+                    "content": "Private communication preference.",
+                    "metadata": {"privacyClassification": "PERSONAL_PRIVATE"},
+                    "claimEvidence": [],
+                },
+            ]
+        }
+        public_candidates = _filter_owner_fact_candidates_for_request(public_request, receipt)
+        private_candidates = _filter_owner_fact_candidates_for_request(request, receipt)
+        self.assertEqual(len(public_candidates), 1)
+        self.assertEqual(public_candidates[0]["memoryId"], "mem:personal:goal-current-opportunities")
+        self.assertEqual(len(private_candidates), 2)
 
     def test_small_pack_request_validates(self):
         checked = validate_repository(ROOT)
@@ -157,20 +185,31 @@ class ContextTests(unittest.TestCase):
         request["privacy_domain"] = "PUBLIC"
         providers = {
             "cortexabv": FakeProvider("cortexabv", result={
-                "status": "denied",
-                "items": [],
-                "sources": [],
+                "status": "partial",
+                "items": [{
+                    "id": "cortexabv:public:goal",
+                    "provider": "cortexabv",
+                    "category": "professional_goal",
+                    "title": "Current professional opportunity goals",
+                    "summary": "Open to product-lead and consulting opportunities.",
+                    "excerpt": "privacy=PUBLIC_SAFE",
+                    "privacy_classification": "PUBLIC",
+                    "confidence": "HIGH",
+                    "provenance": {"source": "tenant-memory-bank"},
+                }],
+                "sources": [{"provider": "cortexabv", "path": "examples/personal-professional-canonical-facts.v1.json#facts[0]"}],
                 "proof_assets": [],
-                "known_gaps": ["PUBLIC consumers are not allowed to receive CortexABV private runtime content."],
+                "known_gaps": ["Private professional-preparation preferences remain admitted in CortexABV but were withheld from PUBLIC projection."],
                 "truncated": False,
                 "available_more": False,
-                "privacy_classification": "PROJECT_PRIVATE",
-                "elapsed_ms": 0,
+                "privacy_classification": "PUBLIC",
+                "elapsed_ms": 1,
             }),
         }
         pack = assemble_context_pack(ROOT, request, providers=providers, generated_at="2026-08-08T00:00:00Z")
-        self.assertEqual(pack["providers"][0]["status"], "denied")
+        self.assertEqual(pack["providers"][0]["status"], "partial")
         self.assertEqual(pack["privacy_classification"], "PUBLIC")
+        self.assertEqual(pack["operational_context"], [])
 
     def test_provider_unavailable_becomes_explicit_gap(self):
         request = load_context_request(ROOT, ROOT / "context" / "requests" / "index-pop-methodology.json")

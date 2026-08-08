@@ -1,7 +1,7 @@
 {
   "artifact_refs": [
-    "context/requests/coqpi-preparation.json",
-    "evidence/context-packs/coqpi-preparation.json"
+    "context/requests/product-lead-ai-opportunity.json",
+    "evidence/context-packs/product-lead-ai-opportunity.json"
   ],
   "candidate": "read-only-cortex-retrieval",
   "environment": {
@@ -10,15 +10,15 @@
     "production_mutation": false,
     "repository_path": "/Volumes/Work/Work/ABVX-OS"
   },
-  "fixture": "coqpi-preparation",
-  "id": "cortex-integration-002-coqpi-preparation",
+  "fixture": "product-lead-ai-opportunity",
+  "id": "cortex-integration-002-product-lead-ai-opportunity",
   "metrics": {
     "available_more": true,
     "execution_mode": "DEEP",
     "items_retrieved": 6,
     "known_gaps": 4,
-    "pack_bytes": 16979,
-    "pack_lines": 440,
+    "pack_bytes": 17127,
+    "pack_lines": 441,
     "privacy_classification": "PERSONAL_PRIVATE",
     "providers_used": [
       "cortexabv"
@@ -27,7 +27,7 @@
     "truncated": true
   },
   "provenance": {
-    "observed_at": "2026-08-08T20:29:58Z",
+    "observed_at": "2026-08-08T20:30:03Z",
     "recorded_by": "CORTEX-INTEGRATION-002",
     "source_uri": null
   },
@@ -35,5 +35,5 @@
   "source": "read-only cortex retrieval context request",
   "stderr_ref": "internal:none",
   "stdout_ref": "internal:none",
-  "timestamp": "2026-08-08T20:29:58Z"
+  "timestamp": "2026-08-08T20:30:03Z"
 }

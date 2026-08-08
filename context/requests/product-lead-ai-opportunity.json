@@ -1,0 +1,33 @@
+{
+  "schema_version": "v1",
+  "request_id": "product-lead-ai-opportunity",
+  "consumer": "coqpi",
+  "task": "Prepare Anton for a Product Lead / AI product opportunity with emphasis on current work, capabilities, collaboration fit and preparation constraints.",
+  "intent": "professional_preparation",
+  "related_projects": [
+    "coqpi"
+  ],
+  "entities": [
+    "Anton",
+    "Product Lead",
+    "AI product",
+    "capabilities",
+    "collaboration"
+  ],
+  "domains": [
+    "professional-context",
+    "current-work",
+    "opportunity-preparation"
+  ],
+  "freshness_requirement": "CURRENT",
+  "privacy_domain": "PERSONAL_PRIVATE",
+  "max_items": 6,
+  "context_budget": {
+    "max_excerpt_chars": 280,
+    "provider_timeout_seconds": 20,
+    "token_usage": "NOT_METERED"
+  },
+  "provider_hints": [
+    "cortexabv"
+  ]
+}

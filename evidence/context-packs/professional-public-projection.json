@@ -5,10 +5,10 @@
   },
   "constraints": {
     "available_more": true,
-    "max_excerpt_chars": 160,
-    "max_items": 4,
+    "max_excerpt_chars": 220,
+    "max_items": 5,
     "provider_timeout_seconds": 20,
-    "request_privacy_domain": "PERSONAL_PRIVATE",
+    "request_privacy_domain": "PUBLIC",
     "token_usage": "NOT_METERED",
     "truncated": true
   },
@@ -17,14 +17,16 @@
     {
       "category": "current_focus",
       "confidence": "HIGH",
-      "excerpt": "capabilities=ai-dev, AI, workflow, workflows, validation, market-infrastructure; current_focus=Decision Map, ABVX Agent Skills",
+      "excerpt": "capabilities=ai-dev, AI, workflow, workflows, validation, market-infrastructure; current_focus=ABVX Agent Skills, Decision Map, SPIKE SPOT COMMODITY INDEX UKRAINE",
       "id": "cortexabv:professional:current-focus",
       "privacy_classification": "PUBLIC",
       "provenance": {
         "entity_ids": [
           "publication:mn7r-product-guide",
+          "project:abvx-agent-skills",
+          "publication:future-proof-productivity",
           "project:decision-map",
-          "project:abvx-agent-skills"
+          "project:spike-spot-commodity-index-ukraine"
         ],
         "inventory": {
           "books_publications": "STRONG",
@@ -41,51 +43,28 @@
         "source": "cortex-abv/public-presence-index.v1.json"
       },
       "provider": "cortexabv",
-      "summary": "Recent public work clusters around Decision Map, ABVX Agent Skills.",
+      "summary": "Recent public work clusters around ABVX Agent Skills, Decision Map, SPIKE SPOT COMMODITY INDEX UKRAINE.",
       "title": "Current focus and strongest relevant work"
     },
     {
-      "category": "professional_constraint",
+      "category": "capabilities",
       "confidence": "HIGH",
-      "excerpt": "privacy=PERSONAL_PRIVATE; review=REVIEW_RECOMMENDED; review_by=2026-11-08T00:00:00Z; owner=Anton",
-      "id": "cortexabv:professional:mem:personal:prep-constraints",
-      "privacy_classification": "PERSONAL_PRIVATE",
+      "excerpt": "capability_tags=ai-dev, AI, workflow, workflows, validation, market-infrastructure",
+      "id": "cortexabv:professional:capabilities",
+      "privacy_classification": "PUBLIC",
       "provenance": {
-        "claim_evidence": [
-          {
-            "claimId": "claim:personal:prep-constraints",
-            "digest": "5555555555555555555555555555555555555555555555555555555555555555",
-            "locator": "examples/personal-professional-canonical-facts.v1.json#facts[4]",
-            "sourceRef": "owner:professional-facts-v1",
-            "summary": "owner-approved opportunity preparation prioritizes recent proof, current capabilities and advance context"
-          }
+        "entity_ids": [
+          "publication:mn7r-product-guide",
+          "project:abvx-agent-skills",
+          "publication:future-proof-productivity",
+          "project:decision-map",
+          "project:spike-spot-commodity-index-ukraine"
         ],
-        "memory_id": "mem:personal:prep-constraints",
-        "metadata": {
-          "admittedAt": "2026-08-08T00:00:00Z",
-          "canonicalOwner": "Anton",
-          "canonicalSource": "owner-approved professional knowledge core",
-          "privacyClassification": "PERSONAL_PRIVATE",
-          "related": {
-            "capabilities": [
-              "recent project proof",
-              "context-first preparation"
-            ],
-            "projectIds": [
-              "coqpi"
-            ]
-          },
-          "reviewability": {
-            "basis": "Preparation constraints are durable but situational enough to warrant periodic review.",
-            "reviewBy": "2026-11-08T00:00:00Z",
-            "status": "REVIEW_RECOMMENDED"
-          }
-        },
-        "source": "cortex-abv/private-runtime:tenant-memory-bank"
+        "source": "cortex-abv/public-presence-index.v1.json"
       },
       "provider": "cortexabv",
-      "summary": "Opportunity preparation should prioritize recent work and current capabilities, prefer relevant recent proof over exhaustive historical detail, and benefit from company, person and role context in advance.",
-      "title": "Opportunity-preparation constraints"
+      "summary": "Public evidence emphasizes ai-dev, AI, workflow, workflows, validation, market-infrastructure.",
+      "title": "Relevant capabilities"
     },
     {
       "category": "collaboration_preference",
@@ -169,31 +148,40 @@
       "provider": "cortexabv",
       "summary": "Open to high-value employment, partnership, consulting and product-lead opportunities where existing product and strategy experience is relevant.",
       "title": "Current professional opportunity goals"
+    },
+    {
+      "category": "publication",
+      "confidence": "HIGH",
+      "excerpt": "updated=2026-06-16; tags=brokerage, agro-commodities, commodity brokerage, market-infrastructure, execution, workflows; proof=https://mn7r.com/how-to-use, https://mn7r.com/mn7r-guide/mn7r-product-guide.pdf, https://mn7r.com/mn7r-guide/mn7r-product-guide.epub",
+      "id": "cortexabv:professional:publication:mn7r-product-guide",
+      "privacy_classification": "PUBLIC",
+      "provenance": {
+        "canonical_url": "https://abvx.xyz/books/mn7r-product-guide",
+        "entity_id": "publication:mn7r-product-guide",
+        "provenance": [
+          {
+            "digest": "0ed4a7f909dc43b71446df944968f8d4e06e8294d259a0e135c138e90bd58756",
+            "kind": "content_frontmatter",
+            "path": "content/books/mn7r-product-guide.md"
+          }
+        ],
+        "registry_entry_id": null
+      },
+      "provider": "cortexabv",
+      "summary": "A public guide to the current MN7R product: brokerage workflow, execution discipline, role model, AI operating support and public-safe demo surfaces.",
+      "title": "MN7R Product Guide"
     }
   ],
   "known_gaps": [
     "Education/certificates are not represented in the current audited CortexABV public surfaces.",
     "Recent-work public evidence remains partial and may omit very recent private project execution.",
     "Additional relevant public professional evidence exists beyond the current context budget.",
+    "Private professional-preparation preferences remain admitted in CortexABV but were withheld from PUBLIC projection.",
     "Global context budget truncated retrieved knowledge items."
   ],
-  "operational_context": [
-    {
-      "current_outcome": "Pre-live readiness complete; controlled live validation deferred.",
-      "evidence_refs": [
-        "evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json",
-        "evidence/onboarding/project-onboarding-001/mission/COQPI-002/pre-live-run.json"
-      ],
-      "human_attention_required": true,
-      "next_action": "Controlled real-microphone smoke",
-      "operational_state": "WAITING_FOR_HUMAN",
-      "project": "coqpi",
-      "source": "ABVX-OS",
-      "waiting_reason": "Owner consent and execution are required before microphone/OpenAI Realtime access."
-    }
-  ],
-  "pack_id": "coqpi-preparation-small",
-  "privacy_classification": "PERSONAL_PRIVATE",
+  "operational_context": [],
+  "pack_id": "professional-public-projection",
+  "privacy_classification": "PUBLIC",
   "proof_assets": [
     {
       "entity_id": "publication:mn7r-product-guide",
@@ -214,12 +202,6 @@
       "url": "https://mn7r.com/mn7r-guide/mn7r-product-guide.epub"
     },
     {
-      "entity_id": "project:decision-map",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv",
-      "url": "https://github.com/markoblogo/decision-map"
-    },
-    {
       "entity_id": "project:abvx-agent-skills",
       "privacy_classification": "PUBLIC",
       "provider": "cortexabv",
@@ -236,20 +218,57 @@
       "privacy_classification": "PUBLIC",
       "provider": "cortexabv",
       "url": "https://youtu.be/F73_ofen8rI"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://www.amazon.com/dp/B0FQ5SWMTJ"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://www.amazon.com/dp/B0FR1WH15S"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://youtu.be/IJBn0x2UeF8"
+    },
+    {
+      "entity_id": "project:decision-map",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://github.com/markoblogo/decision-map"
+    },
+    {
+      "entity_id": "project:spike-spot-commodity-index-ukraine",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://github.com/markoblogo/index"
+    },
+    {
+      "entity_id": "project:spike-spot-commodity-index-ukraine",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://spike.1d3x.com/"
     }
   ],
   "providers": [
     {
       "available_more": true,
-      "elapsed_ms": 3,
+      "elapsed_ms": 2,
       "id": "cortexabv",
-      "items_returned": 7,
+      "items_returned": 9,
       "known_gaps": [
         "Education/certificates are not represented in the current audited CortexABV public surfaces.",
         "Recent-work public evidence remains partial and may omit very recent private project execution.",
-        "Additional relevant public professional evidence exists beyond the current context budget."
+        "Additional relevant public professional evidence exists beyond the current context budget.",
+        "Private professional-preparation preferences remain admitted in CortexABV but were withheld from PUBLIC projection."
       ],
-      "privacy_classification": "PERSONAL_PRIVATE",
+      "privacy_classification": "PUBLIC",
       "status": "partial",
       "truncated": true
     }
@@ -264,46 +283,39 @@
     }
   ],
   "request": {
-    "consumer": "coqpi",
+    "consumer": "public-profile",
     "context_budget": {
-      "max_excerpt_chars": 160,
+      "max_excerpt_chars": 220,
       "provider_timeout_seconds": 20,
       "token_usage": "NOT_METERED"
     },
     "domains": [
       "professional-context",
-      "current-work"
+      "current-work",
+      "public-profile"
     ],
     "entities": [
       "Anton",
-      "CoqPi",
       "Product Lead",
       "AI",
-      "product"
+      "public proof"
     ],
     "freshness_requirement": "CURRENT",
-    "intent": "professional_preparation",
-    "max_items": 4,
-    "privacy_domain": "PERSONAL_PRIVATE",
+    "intent": "professional_projection",
+    "max_items": 5,
+    "privacy_domain": "PUBLIC",
     "provider_hints": [
       "cortexabv"
     ],
     "related_projects": [
       "coqpi"
     ],
-    "request_id": "coqpi-preparation-small",
+    "request_id": "professional-public-projection",
     "schema_version": "v1",
-    "task": "Prepare compact context for a professional Product Lead / AI conversation."
+    "task": "Project Anton's current professional focus and relevant public proof for a Product Lead / AI opportunity without exposing private preparation preferences."
   },
   "schema_version": "v1",
   "sources": [
-    {
-      "digest": "5555555555555555555555555555555555555555555555555555555555555555",
-      "path": "examples/personal-professional-canonical-facts.v1.json#facts[4]",
-      "privacy_classification": "PERSONAL_PRIVATE",
-      "provider": "cortexabv",
-      "source_ref": "owner:professional-facts-v1"
-    },
     {
       "digest": "3333333333333333333333333333333333333333333333333333333333333333",
       "path": "examples/personal-professional-canonical-facts.v1.json#facts[2]",
@@ -325,6 +337,25 @@
       "provider": "cortexabv"
     },
     {
+      "entity_id": "project:abvx-agent-skills",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv"
+    },
+    {
+      "entity_id": "project:abvx-agent-skills",
+      "path": "cortex-abv/public-project-registry.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "registry_entry_id": "repository:github:markoblogo/abvx-agent-skills"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv"
+    },
+    {
       "entity_id": "project:decision-map",
       "path": "cortex-abv/public-presence-index.v1.json",
       "privacy_classification": "PUBLIC",
@@ -338,17 +369,17 @@
       "registry_entry_id": "repository:github:markoblogo/decision-map"
     },
     {
-      "entity_id": "project:abvx-agent-skills",
+      "entity_id": "project:spike-spot-commodity-index-ukraine",
       "path": "cortex-abv/public-presence-index.v1.json",
       "privacy_classification": "PUBLIC",
       "provider": "cortexabv"
     },
     {
-      "entity_id": "project:abvx-agent-skills",
+      "entity_id": "project:spike-spot-commodity-index-ukraine",
       "path": "cortex-abv/public-project-registry.v1.json",
       "privacy_classification": "PUBLIC",
       "provider": "cortexabv",
-      "registry_entry_id": "repository:github:markoblogo/abvx-agent-skills"
+      "registry_entry_id": "repository:github:markoblogo/index"
     }
   ]
 }

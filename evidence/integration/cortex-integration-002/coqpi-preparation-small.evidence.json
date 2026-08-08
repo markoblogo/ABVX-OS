@@ -16,9 +16,9 @@
     "available_more": true,
     "execution_mode": "DEEP",
     "items_retrieved": 4,
-    "known_gaps": 6,
-    "pack_bytes": 10351,
-    "pack_lines": 273,
+    "known_gaps": 4,
+    "pack_bytes": 13662,
+    "pack_lines": 354,
     "privacy_classification": "PERSONAL_PRIVATE",
     "providers_used": [
       "cortexabv"
@@ -27,7 +27,7 @@
     "truncated": true
   },
   "provenance": {
-    "observed_at": "2026-08-08T20:14:14Z",
+    "observed_at": "2026-08-08T20:30:42Z",
     "recorded_by": "CORTEX-INTEGRATION-002",
     "source_uri": null
   },
@@ -35,5 +35,5 @@
   "source": "read-only cortex retrieval context request",
   "stderr_ref": "internal:none",
   "stdout_ref": "internal:none",
-  "timestamp": "2026-08-08T20:14:14Z"
+  "timestamp": "2026-08-08T20:30:42Z"
 }
