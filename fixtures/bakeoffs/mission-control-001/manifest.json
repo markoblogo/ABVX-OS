@@ -1,0 +1,1 @@
+{"schema_version":"v1","id":"mission-control-001","name":"Long-running mission control semantic fixture","candidate":"native-baseline-and-loopx","provider":"scenario-adapter","fixture_ids":["mission-control-native","mission-control-loopx"],"budget":{"timeout_seconds":300,"max_retries":0,"token_budget":null,"cost_budget":null}}

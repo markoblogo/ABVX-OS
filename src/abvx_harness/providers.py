@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from pathlib import Path
+import os
 from typing import Any, Protocol
 
 
@@ -23,7 +23,10 @@ class LocalCommandProvider:
     """Baseline provider: execute one fixture-owned local argv, once bounded."""
 
     def prepare(self, context: dict[str, Any]) -> dict[str, Any]:
-        return context
+        prepared = dict(context)
+        prepared["environment"] = os.environ.copy()
+        prepared["environment"]["ABVX_HARNESS_RUN_DIR"] = str(context["run_dir"])
+        return prepared
 
     def run(self, prepared: dict[str, Any], fixture: dict[str, Any]) -> ProviderResult:
         import subprocess
@@ -36,6 +39,7 @@ class LocalCommandProvider:
                 cwd=prepared["root"],
                 capture_output=True,
                 timeout=prepared["timeout_seconds"],
+                env=prepared["environment"],
                 check=False,
             )
             return ProviderResult(completed.returncode, int((time.monotonic() - started) * 1000), completed.stdout, completed.stderr)

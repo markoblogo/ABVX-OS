@@ -115,8 +115,24 @@ def validate_repository(root: Path) -> list[str]:
         if path.name == "manifest.json":
             if not isinstance(value, dict) or value.get("schema_version") != "v1":
                 raise ValidationError(f"{path}: invalid fixture manifest")
+        elif path.name == "mission.json":
+            mission_schema_path = root / "schemas" / "mission_fixture.schema.json"
+            validate(value, load_json(mission_schema_path), schema_path=mission_schema_path, root=root, location=str(path))
         else:
             validate(value, load_json(fixture_schema_path), schema_path=fixture_schema_path, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
+    evidence_schema_path = root / "schemas" / "evidence_record.schema.json"
+    result_schema_path = root / "schemas" / "bakeoff_result.schema.json"
+    decision_schema_path = root / "schemas" / "bakeoff_decision.schema.json"
+    for path in sorted((root / "evidence").rglob("*.json")):
+        if path.name.endswith(".evidence.json"):
+            validate(load_json(path), load_json(evidence_schema_path), schema_path=evidence_schema_path, root=root, location=str(path))
+        elif path.name == "result.json":
+            validate(load_json(path), load_json(result_schema_path), schema_path=result_schema_path, root=root, location=str(path))
+        elif path.name == "decision.json":
+            validate(load_json(path), load_json(decision_schema_path), schema_path=decision_schema_path, root=root, location=str(path))
+        else:
+            continue
         checked.append(str(path.relative_to(root)))
     return checked
 
@@ -142,7 +158,7 @@ def run_bakeoff(root: Path, bakeoff_id: str, evidence_root: Path | None = None) 
     for fixture_id in manifest["fixture_ids"]:
         fixture = load_json(bakeoff_dir / f"{fixture_id}.json")
         started_at = now_iso()
-        prepared = provider.prepare({"root": str(root), "timeout_seconds": manifest["budget"]["timeout_seconds"]})
+        prepared = provider.prepare({"root": str(root), "run_dir": str(run_dir), "timeout_seconds": manifest["budget"]["timeout_seconds"]})
         try:
             attempts = manifest["budget"]["max_retries"] + 1
             result = None
@@ -171,7 +187,7 @@ def run_bakeoff(root: Path, bakeoff_id: str, evidence_root: Path | None = None) 
                 artifact_refs.append(str(destination.relative_to(evidence_root)))
         evidence = {
             "id": f"{bakeoff_id}-{run_id}-{fixture_id}", "source": "local-command-provider", "timestamp": started_at,
-            "candidate": manifest["candidate"], "fixture": fixture_id, "result": outcome,
+            "candidate": fixture.get("candidate", manifest["candidate"]), "fixture": fixture_id, "result": outcome,
             "metrics": {"duration_ms": result.duration_ms, "exit_status": result.exit_status, "timeout_seconds": manifest["budget"]["timeout_seconds"], "max_retries": manifest["budget"]["max_retries"]},
             "stdout_ref": str(stdout_path.relative_to(evidence_root)), "stderr_ref": str(stderr_path.relative_to(evidence_root)), "artifact_refs": artifact_refs,
             "provenance": {"recorded_by": "abvx-harness", "source_uri": None, "observed_at": started_at},

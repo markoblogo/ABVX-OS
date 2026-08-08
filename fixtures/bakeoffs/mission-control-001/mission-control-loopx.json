@@ -1,0 +1,1 @@
+{"id":"mission-control-loopx","candidate":"huangruiteng/loopx@ec48bd0","description":"The same simulated mission driven through a disposable upstream LoopX checkout","command":["python3","fixtures/bakeoffs/mission-control-001/mission_scenario.py","--provider","loopx"],"expected_exit_status":0,"artifact_paths":[]}

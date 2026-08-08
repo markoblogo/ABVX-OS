@@ -1,0 +1,1 @@
+{"id":"mission-control-native","candidate":"native-baseline","description":"Simulated call-readiness mission using a fixture-specific JSON checkpoint","command":["python3","fixtures/bakeoffs/mission-control-001/mission_scenario.py","--provider","native"],"expected_exit_status":0,"artifact_paths":[]}
