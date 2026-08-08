@@ -1,0 +1,34 @@
+{
+  "id": "azurmenton-005-guide-publication",
+  "source": "AzurMenton operational guide publication workflow",
+  "timestamp": "2026-08-08T20:00:00Z",
+  "candidate": "native-azurmenton-editorial-publication",
+  "fixture": "AZURMENTON-005",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "origin": "HUMAN_INITIATED",
+    "guide_slug": "computer-and-phone-repair-in-menton",
+    "publication_languages": ["en", "fr", "it", "uk"],
+    "related_place_cards": 5,
+    "place_images_intentionally_deferred": 5,
+    "cover_integrated": true,
+    "provenance_claims": {"confirmed": 2, "review_required": 0, "unverifiable": 0},
+    "analytics": "existing Plausible pageview and guide-to-apartment attribution path applies; no new provider",
+    "media_event": "candidate created; no external distribution",
+    "workflow_assessment": {"helped": ["intake scaffold", "guide check", "asset derivative workflow", "provenance sidecar", "content lint"], "manual_friction": ["translation and editorial place matching", "updating stale publication plan after content decisions", "no canonical Media Event schema"], "automate_next": ["derive publication-plan deltas from accepted content", "add a narrow Media Event candidate contract"], "keep_human": ["factual claims and source review", "translation quality", "image approval", "distribution decision"]},
+    "validation": {"guide_check": "PASS with intentional placeholder warnings", "guides_verify": "7 guides; new guide 2/2 confirmed", "content_lint": "PASS", "content_audit": "23 passed", "lint": "PASS", "typecheck": "PASS", "tests": "35 files; 190 passed", "images_check": "77 sources passed", "build": "PASS; 836 static pages generated", "diff_check": "PASS"}
+  },
+  "stdout_ref": "external:/Volumes/Work/Work/menton/build/guide-intake/computer-and-phone-repair-in-menton",
+  "stderr_ref": "external:none",
+  "artifact_refs": [
+    "external:/Volumes/Work/Work/menton/src/content/guide.ts",
+    "external:/Volumes/Work/Work/menton/src/content/places.ts",
+    "external:/Volumes/Work/Work/menton/src/content/guides/provenance/verification-pilot.json",
+    "external:/Volumes/Work/Work/menton/public/images/guide/computer-and-phone-repair-in-menton.png",
+    "docs/audits/azurmenton-005-second-pass-image-todo.md",
+    "media/events/azurmenton-005-new-guide.json",
+    "references/items.json"
+  ],
+  "provenance": {"recorded_by": "AZURMENTON-005", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T20:00:00Z"},
+  "environment": {"repository_path": "/Volumes/Work/Work/menton", "branch": "main", "deployment": "local publication-ready state; no external deployment action performed", "network": "bounded read-only source verification", "production_mutation": false, "external_distribution": false, "second_pass_images": "owner package required", "next_action": "human review of published guide and future image/distribution decisions"}
+}

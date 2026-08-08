@@ -29,10 +29,10 @@ class PortfolioTests(unittest.TestCase):
         portfolio = inspect_portfolio(ROOT)
         rendered = render_portfolio(portfolio)
         self.assertIn("AzurMenton", rendered)
-        self.assertIn("next: Run a read-only observation period", rendered)
+        self.assertIn("next: Owner review of the published guide", rendered)
         self.assertIn("WAITING FOR YOU", rendered)
         self.assertIn("CoqPi", rendered)
-        self.assertEqual(portfolio["actionable"][0]["next_action"], "Run a read-only observation period for content-to-apartment-to-inquiry continuity before further conversion work")
+        self.assertEqual(portfolio["actionable"][0]["next_action"], "Owner review of the published guide, second-pass image package and Media Event distribution decision")
 
     def test_first_capability_occurrence_remains_candidate(self):
         lessons = json.loads((ROOT / "portfolio" / "lessons.json").read_text())

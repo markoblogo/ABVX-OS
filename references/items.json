@@ -1,1 +1,19 @@
-{"schema_version":"v1","entries":[]}
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "azurmenton-005-published-guide",
+      "source_intake_id": "AZURMENTON-005",
+      "related_project_ids": ["azurmenton"],
+      "title": "Computer and phone repair in Menton",
+      "locator": "external:/Volumes/Work/Work/menton/en/guide/computer-and-phone-repair-in-menton",
+      "status": "REVIEWED",
+      "provenance": {
+        "recorded_by": "AZURMENTON-005",
+        "source_intake_id": "AZURMENTON-005",
+        "source_uri": "https://github.com/markoblogo/azurmenton",
+        "promoted_at": "2026-08-08T20:00:00Z"
+      }
+    }
+  ]
+}

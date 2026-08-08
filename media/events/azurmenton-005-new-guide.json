@@ -1,0 +1,18 @@
+{
+  "id": "media-event-azurmenton-005-new-guide",
+  "type": "NEW_GUIDE",
+  "origin": "HUMAN_INITIATED",
+  "source_project": "azurmenton",
+  "status": "CANDIDATE",
+  "title": "Computer and phone repair in Menton",
+  "url_path": "/en/guide/computer-and-phone-repair-in-menton",
+  "summary": "A multilingual practical guide to local phone, tablet, computer, on-site and remote repair options for visitors whose device fails during a Menton stay.",
+  "themes": ["practical travel help", "phone repair", "computer repair", "visitor resilience", "remote work"],
+  "geography": ["Menton", "Roquebrune-Cap-Martin and nearby areas"],
+  "audience": ["visitors", "short-stay guests", "remote workers", "families with urgent practical needs"],
+  "available_assets": {"cover": "/images/guide/computer-and-phone-repair-in-menton.png", "place_cards": "five cards published with intentional second-pass image placeholders"},
+  "publication_languages": ["en", "fr", "it", "uk"],
+  "possible_distribution_relevance": ["practical travel resource", "arrival and stay planning", "remote-work audience", "local service discovery"],
+  "distribution_state": "NOT_PUBLISHED_TO_EXTERNAL_MEDIA",
+  "provenance": {"recorded_by": "AZURMENTON-005", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T20:00:00Z"}
+}

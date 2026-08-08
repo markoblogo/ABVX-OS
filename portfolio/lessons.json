@@ -132,6 +132,17 @@
       "candidate_capability": "conversion_signal",
       "recommended_action": "Keep attribution and observation project-local until a second project demonstrates the same boundary or a confirmed-booking source is approved; do not add a CRM, tracker or dashboard yet.",
       "status": "recorded"
+    },
+    {
+      "id": "azurmenton-operational-publication-workflow",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-005",
+      "observed_need": "A normal human-created guide can move through intake, editorial structure, localization, provenance, publication and attribution, but Media Event handoff and publication-plan synchronization are not yet canonical.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json", "media/events/azurmenton-005-new-guide.json", "docs/audits/azurmenton-005-second-pass-image-todo.md"],
+      "candidate_capability": "publication_workflow",
+      "recommended_action": "Observe a second human-created publication before extracting shared automation; keep factual review, translations, image approval and distribution human/editorial.",
+      "status": "recorded"
     }
   ]
 }
