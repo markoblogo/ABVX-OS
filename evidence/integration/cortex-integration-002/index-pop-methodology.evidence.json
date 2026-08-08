@@ -1,0 +1,39 @@
+{
+  "artifact_refs": [
+    "context/requests/index-pop-methodology.json",
+    "evidence/context-packs/index-pop-methodology.json"
+  ],
+  "candidate": "read-only-cortex-retrieval",
+  "environment": {
+    "cortexabv_runtime_path": "/Volumes/Work/Work/ABVXsite/cortex-abv/private-runtime",
+    "index_cortex_path": "/Volumes/Work/Work/index",
+    "production_mutation": false,
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "index-pop-methodology",
+  "id": "cortex-integration-002-index-pop-methodology",
+  "metrics": {
+    "available_more": true,
+    "execution_mode": "DEEP",
+    "items_retrieved": 1,
+    "known_gaps": 2,
+    "pack_bytes": 3601,
+    "pack_lines": 105,
+    "privacy_classification": "DOMAIN_PRIVATE",
+    "providers_used": [
+      "index-cortex"
+    ],
+    "token_usage": "NOT_METERED",
+    "truncated": false
+  },
+  "provenance": {
+    "observed_at": "2026-08-08T19:57:56Z",
+    "recorded_by": "CORTEX-INTEGRATION-002",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "read-only cortex retrieval context request",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-08T19:57:56Z"
+}

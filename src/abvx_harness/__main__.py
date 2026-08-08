@@ -4,6 +4,7 @@ import json
 import sys
 from pathlib import Path
 
+from .context import inspect_context_pack, request_context
 from .harness import ValidationError, load_json, run_bakeoff, validate_repository
 from .intake import add_intake_item, decide_intake_item, inspect_intake_item, link_intake_items, list_intake_items, promote_intake_item, review_intake_items, update_clarification
 from .playbooks import load_playbook, replay_playbook
@@ -124,6 +125,25 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
                 raise ValidationError(f"no runs found for {argv[2]}")
             print(json.dumps(load_json(runs[-1]), indent=2, sort_keys=True))
             return 0
+        if len(argv) >= 3 and argv[:2] == ["context", "request"]:
+            positional, options = _options(argv[2:])
+            request_file = options.get("file")
+            if positional or not isinstance(request_file, str):
+                raise ValidationError("usage: ./bin/abvx context request --file <path> [--json]")
+            result = request_context(root, (root / request_file).resolve())
+            if options.get("json"):
+                print(json.dumps(result, indent=2, sort_keys=True))
+            else:
+                print(f"{result['pack_id']} [{result['result']}]")
+                print(result["pack_path"])
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["context", "inspect"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx context inspect <pack-id> [--json]")
+            pack = inspect_context_pack(root, positional[0])
+            print(json.dumps(pack, indent=2, sort_keys=True))
+            return 0
         if argv in (["portfolio", "inspect"], ["portfolio", "inspect", "--json"]):
             portfolio = inspect_portfolio(root)
             if argv[-1] == "--json":
@@ -131,7 +151,7 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             else:
                 print(render_portfolio(portfolio))
             return 0
-        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake review [--json] | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake <accept|reject|watch|keep|archive> <id> | ./bin/abvx intake promote <id> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx portfolio inspect [--json] | ./bin/abvx playbook inspect <id> | ./bin/abvx playbook replay <id> --input <path> | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id>", file=sys.stderr)
+        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake review [--json] | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake <accept|reject|watch|keep|archive> <id> | ./bin/abvx intake promote <id> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx portfolio inspect [--json] | ./bin/abvx playbook inspect <id> | ./bin/abvx playbook replay <id> --input <path> | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id> | ./bin/abvx context request --file <path> [--json] | ./bin/abvx context inspect <pack-id>", file=sys.stderr)
         return 2
     except (ValidationError, OSError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

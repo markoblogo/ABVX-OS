@@ -1,0 +1,105 @@
+{
+  "confidence": {
+    "level": "MEDIUM",
+    "rationale": "Some useful context was returned, but provider gaps, denials or truncation remain."
+  },
+  "constraints": {
+    "available_more": true,
+    "max_excerpt_chars": 320,
+    "max_items": 6,
+    "provider_timeout_seconds": 20,
+    "request_privacy_domain": "DOMAIN_PRIVATE",
+    "token_usage": "NOT_METERED",
+    "truncated": false
+  },
+  "generated_at": "2026-08-08T19:57:56Z",
+  "knowledge_items": [
+    {
+      "category": "domain_context",
+      "confidence": "HIGH",
+      "excerpt": "# Product Context Last reviewed: 2026-07-14 ## Product Index Platform is a shared Next.js/TypeScript platform for tenant-specific Ukrainian commodity indices. It supports 1d3x, UGA Index, and SPIKE SPOT INDEX with shared calculation, publication, respondent, analytics, content, and deployment foundations. ## Audience A",
+      "id": "cortex:chunk:index-platform:bff90be4f8e4a526:0",
+      "privacy_classification": "DOMAIN_PRIVATE",
+      "provenance": {
+        "source_id": "index-docs",
+        "url_or_path": "index-platform:docs/product-context.md#0",
+        "visibility": "internal"
+      },
+      "provider": "index-cortex",
+      "summary": "# Product Context Last reviewed: 2026-07-14 ## Product Index Platform is a shared Next.js/TypeScript platform for tenant-specific Ukrainian commodity indices. It supports 1d3x, UGA Index, and SPIKE SPOT INDEX with shared calculation, publication, respondent, analytics, content, and deployment foundations. ## Audience And Jobs - Institutional partners, market participants, respondents, and users who need understa...",
+      "title": "index:docs/product-context.md#0"
+    }
+  ],
+  "known_gaps": [
+    "Some matched chunks were omitted by maxEvidence or maxTokens constraints.",
+    "No matching ABVX operational state was available for the requested projects."
+  ],
+  "operational_context": [],
+  "pack_id": "index-pop-methodology",
+  "privacy_classification": "DOMAIN_PRIVATE",
+  "proof_assets": [],
+  "providers": [
+    {
+      "available_more": true,
+      "elapsed_ms": 1546,
+      "id": "index-cortex",
+      "items_returned": 1,
+      "known_gaps": [
+        "Some matched chunks were omitted by maxEvidence or maxTokens constraints."
+      ],
+      "privacy_classification": "DOMAIN_PRIVATE",
+      "status": "partial",
+      "truncated": true
+    }
+  ],
+  "relevant_decisions": [],
+  "relevant_projects": [
+    {
+      "id": "index-cortex",
+      "name": "Index Cortex",
+      "purpose": null,
+      "status": "active"
+    }
+  ],
+  "request": {
+    "consumer": "pop-planning",
+    "context_budget": {
+      "max_excerpt_chars": 320,
+      "provider_timeout_seconds": 20,
+      "token_usage": "NOT_METERED"
+    },
+    "domains": [
+      "indices",
+      "index-methodology",
+      "pop"
+    ],
+    "entities": [
+      "POP",
+      "indices",
+      "methodology"
+    ],
+    "freshness_requirement": "CURRENT",
+    "intent": "domain_methodology_retrieval",
+    "max_items": 6,
+    "privacy_domain": "DOMAIN_PRIVATE",
+    "provider_hints": [
+      "index-cortex"
+    ],
+    "related_projects": [
+      "index-cortex"
+    ],
+    "request_id": "index-pop-methodology",
+    "schema_version": "v1",
+    "task": "Provide context relevant to alternative and unusual indices and index methodology for future POP development."
+  },
+  "schema_version": "v1",
+  "sources": [
+    {
+      "privacy_classification": "DOMAIN_PRIVATE",
+      "provider": "index-cortex",
+      "source_id": "index-docs",
+      "url_or_path": "index-platform:docs/product-context.md#0",
+      "visibility": "internal"
+    }
+  ]
+}

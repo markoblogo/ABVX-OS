@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/context-request/v1",
+  "title": "ABVX Context Request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "request_id",
+    "consumer",
+    "task",
+    "intent",
+    "related_projects",
+    "entities",
+    "domains",
+    "freshness_requirement",
+    "privacy_domain",
+    "max_items",
+    "context_budget"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "request_id": { "type": "string", "minLength": 1 },
+    "consumer": { "type": "string", "minLength": 1 },
+    "task": { "type": "string", "minLength": 1 },
+    "intent": { "type": "string", "minLength": 1 },
+    "related_projects": { "type": "array", "items": { "type": "string" } },
+    "entities": { "type": "array", "items": { "type": "string" } },
+    "domains": { "type": "array", "items": { "type": "string" } },
+    "freshness_requirement": {
+      "enum": ["CURRENT", "RECENT", "HISTORICAL", "ANY"]
+    },
+    "privacy_domain": {
+      "enum": ["PUBLIC", "PERSONAL_PRIVATE", "PROJECT_PRIVATE", "DOMAIN_PRIVATE", "EXTERNAL_UNTRUSTED"]
+    },
+    "max_items": { "type": "integer", "minimum": 1, "maximum": 20 },
+    "context_budget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_excerpt_chars", "provider_timeout_seconds", "token_usage"],
+      "properties": {
+        "max_excerpt_chars": { "type": "integer", "minimum": 80, "maximum": 2000 },
+        "provider_timeout_seconds": { "type": "integer", "minimum": 1, "maximum": 60 },
+        "token_usage": { "const": "NOT_METERED" }
+      }
+    },
+    "provider_hints": {
+      "type": "array",
+      "items": { "enum": ["cortexabv", "index-cortex"] }
+    }
+  }
+}

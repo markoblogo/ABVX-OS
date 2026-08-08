@@ -1,0 +1,40 @@
+{
+  "artifact_refs": [
+    "context/requests/unusual-indices-book.json",
+    "evidence/context-packs/unusual-indices-book.json"
+  ],
+  "candidate": "read-only-cortex-retrieval",
+  "environment": {
+    "cortexabv_runtime_path": "/Volumes/Work/Work/ABVXsite/cortex-abv/private-runtime",
+    "index_cortex_path": "/Volumes/Work/Work/index",
+    "production_mutation": false,
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "unusual-indices-book",
+  "id": "cortex-integration-002-unusual-indices-book",
+  "metrics": {
+    "available_more": true,
+    "execution_mode": "DEEP",
+    "items_retrieved": 3,
+    "known_gaps": 2,
+    "pack_bytes": 7996,
+    "pack_lines": 214,
+    "privacy_classification": "PERSONAL_PRIVATE",
+    "providers_used": [
+      "cortexabv",
+      "index-cortex"
+    ],
+    "token_usage": "NOT_METERED",
+    "truncated": false
+  },
+  "provenance": {
+    "observed_at": "2026-08-08T19:57:56Z",
+    "recorded_by": "CORTEX-INTEGRATION-002",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "read-only cortex retrieval context request",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-08T19:57:56Z"
+}

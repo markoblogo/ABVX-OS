@@ -1,0 +1,33 @@
+{
+  "schema_version": "v1",
+  "request_id": "unusual-indices-book",
+  "consumer": "abvx-editorial",
+  "task": "Prepare context for a future Anton-authored book about unusual indices.",
+  "intent": "mixed_book_context",
+  "related_projects": [
+    "index-cortex",
+    "coqpi"
+  ],
+  "entities": [
+    "Anton",
+    "book",
+    "unusual indices"
+  ],
+  "domains": [
+    "indices",
+    "index-methodology",
+    "publishing"
+  ],
+  "freshness_requirement": "CURRENT",
+  "privacy_domain": "PERSONAL_PRIVATE",
+  "max_items": 8,
+  "context_budget": {
+    "max_excerpt_chars": 280,
+    "provider_timeout_seconds": 20,
+    "token_usage": "NOT_METERED"
+  },
+  "provider_hints": [
+    "cortexabv",
+    "index-cortex"
+  ]
+}

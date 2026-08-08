@@ -1,0 +1,31 @@
+{
+  "schema_version": "v1",
+  "request_id": "index-pop-methodology",
+  "consumer": "pop-planning",
+  "task": "Provide context relevant to alternative and unusual indices and index methodology for future POP development.",
+  "intent": "domain_methodology_retrieval",
+  "related_projects": [
+    "index-cortex"
+  ],
+  "entities": [
+    "POP",
+    "indices",
+    "methodology"
+  ],
+  "domains": [
+    "indices",
+    "index-methodology",
+    "pop"
+  ],
+  "freshness_requirement": "CURRENT",
+  "privacy_domain": "DOMAIN_PRIVATE",
+  "max_items": 6,
+  "context_budget": {
+    "max_excerpt_chars": 320,
+    "provider_timeout_seconds": 20,
+    "token_usage": "NOT_METERED"
+  },
+  "provider_hints": [
+    "index-cortex"
+  ]
+}

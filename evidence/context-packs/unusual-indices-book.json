@@ -1,0 +1,214 @@
+{
+  "confidence": {
+    "level": "MEDIUM",
+    "rationale": "Some useful context was returned, but provider gaps, denials or truncation remain."
+  },
+  "constraints": {
+    "available_more": true,
+    "max_excerpt_chars": 280,
+    "max_items": 8,
+    "provider_timeout_seconds": 20,
+    "request_privacy_domain": "PERSONAL_PRIVATE",
+    "token_usage": "NOT_METERED",
+    "truncated": false
+  },
+  "generated_at": "2026-08-08T19:57:56Z",
+  "knowledge_items": [
+    {
+      "category": "proof_context",
+      "confidence": "MEDIUM",
+      "excerpt": "title=Public presence baseline; candidate_id=pp-digital-presence-sync; score=3.0976692059752886",
+      "id": "cortexabv:cortex-abv-personal:pp-digital-presence-sync",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provenance": {
+        "candidate_id": "pp-digital-presence-sync",
+        "evidence_refs": [
+          {
+            "digest": "f0e1d2c3b4a59687788990aabbccddeeff00112233445566778899aabbccddeeff",
+            "path": "cortex-abv/public-presence-index.v1.json",
+            "ref": "metadata.syncPolicy"
+          }
+        ],
+        "tenant": "cortex-abv-personal"
+      },
+      "provider": "cortexabv",
+      "summary": "CortexABV candidate match in cortex-abv-personal; matched terms: links, presence, project, public.",
+      "title": "Public presence baseline"
+    },
+    {
+      "category": "project_knowledge",
+      "confidence": "MEDIUM",
+      "excerpt": "title=Index/spike public updates; candidate_id=pp-index-spike-updates; score=3.4315945543462147",
+      "id": "cortexabv:index-spike:pp-index-spike-updates",
+      "privacy_classification": "PROJECT_PRIVATE",
+      "provenance": {
+        "candidate_id": "pp-index-spike-updates",
+        "evidence_refs": [
+          {
+            "digest": "3d8f9cb2d9f9f9c3d7f6d4f8d2ac9a1fc8f6a2e2f1f7f4a2b0c2d3e4f5a6b7c8",
+            "path": "cortex-abv/public-presence-index.v1.json",
+            "ref": "projects.index-spike.summary"
+          }
+        ],
+        "tenant": "index-spike"
+      },
+      "provider": "cortexabv",
+      "summary": "CortexABV candidate match in index-spike; matched terms: index, public, spike, summary.",
+      "title": "Index/spike public updates"
+    },
+    {
+      "category": "domain_context",
+      "confidence": "HIGH",
+      "excerpt": "# SSI emergency publish runbook Use this only when the normal 19:00 Europe/Kyiv SSI publish flow did not create the current site snapshot or did not send the daily channel report. ## Standard fallback - Publish all configured SSI positions for the requested date. - If a position ",
+      "id": "cortex:chunk:index-platform:cb9fe34f3a9c7016:0",
+      "privacy_classification": "DOMAIN_PRIVATE",
+      "provenance": {
+        "source_id": "ecosystem-manuals-books",
+        "url_or_path": "index-platform:docs/ssi-emergency-publish-runbook.md#0",
+        "visibility": "internal"
+      },
+      "provider": "index-cortex",
+      "summary": "# SSI emergency publish runbook Use this only when the normal 19:00 Europe/Kyiv SSI publish flow did not create the current site snapshot or did not send the daily channel report. ## Standard fallback - Publish all configured SSI positions for the requested date. - If a position has no valid same-day respondent or admin price, carry forward the latest previously published value for that position. - A carried-for...",
+      "title": "index:docs/ssi-emergency-publish-runbook.md#0"
+    }
+  ],
+  "known_gaps": [
+    "CortexABV personal retrieval currently exposes only a minimal public-presence baseline, not a rich professional profile or recent-work timeline.",
+    "Some matched chunks were omitted by maxEvidence or maxTokens constraints."
+  ],
+  "operational_context": [
+    {
+      "current_outcome": "Pre-live readiness complete; controlled live validation deferred.",
+      "evidence_refs": [
+        "evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json",
+        "evidence/onboarding/project-onboarding-001/mission/COQPI-002/pre-live-run.json"
+      ],
+      "human_attention_required": true,
+      "next_action": "Controlled real-microphone smoke",
+      "operational_state": "WAITING_FOR_HUMAN",
+      "project": "coqpi",
+      "source": "ABVX-OS",
+      "waiting_reason": "Owner consent and execution are required before microphone/OpenAI Realtime access."
+    }
+  ],
+  "pack_id": "unusual-indices-book",
+  "privacy_classification": "PERSONAL_PRIVATE",
+  "proof_assets": [
+    {
+      "digest": "f0e1d2c3b4a59687788990aabbccddeeff00112233445566778899aabbccddeeff",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provider": "cortexabv",
+      "ref": "metadata.syncPolicy",
+      "tenant": "cortex-abv-personal"
+    },
+    {
+      "digest": "3d8f9cb2d9f9f9c3d7f6d4f8d2ac9a1fc8f6a2e2f1f7f4a2b0c2d3e4f5a6b7c8",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PROJECT_PRIVATE",
+      "provider": "cortexabv",
+      "ref": "projects.index-spike.summary",
+      "tenant": "index-spike"
+    }
+  ],
+  "providers": [
+    {
+      "available_more": false,
+      "elapsed_ms": 180,
+      "id": "cortexabv",
+      "items_returned": 2,
+      "known_gaps": [
+        "CortexABV personal retrieval currently exposes only a minimal public-presence baseline, not a rich professional profile or recent-work timeline."
+      ],
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "status": "partial",
+      "truncated": false
+    },
+    {
+      "available_more": true,
+      "elapsed_ms": 1354,
+      "id": "index-cortex",
+      "items_returned": 1,
+      "known_gaps": [
+        "Some matched chunks were omitted by maxEvidence or maxTokens constraints."
+      ],
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "status": "partial",
+      "truncated": true
+    }
+  ],
+  "relevant_decisions": [],
+  "relevant_projects": [
+    {
+      "id": "coqpi",
+      "name": "CoqPi",
+      "purpose": "Private local call communication cockpit for English/French calls with Russian support, Finder preparation, and selected-context assistance.",
+      "status": "active"
+    },
+    {
+      "id": "index-cortex",
+      "name": "Index Cortex",
+      "purpose": null,
+      "status": "active"
+    }
+  ],
+  "request": {
+    "consumer": "abvx-editorial",
+    "context_budget": {
+      "max_excerpt_chars": 280,
+      "provider_timeout_seconds": 20,
+      "token_usage": "NOT_METERED"
+    },
+    "domains": [
+      "indices",
+      "index-methodology",
+      "publishing"
+    ],
+    "entities": [
+      "Anton",
+      "book",
+      "unusual indices"
+    ],
+    "freshness_requirement": "CURRENT",
+    "intent": "mixed_book_context",
+    "max_items": 8,
+    "privacy_domain": "PERSONAL_PRIVATE",
+    "provider_hints": [
+      "cortexabv",
+      "index-cortex"
+    ],
+    "related_projects": [
+      "index-cortex",
+      "coqpi"
+    ],
+    "request_id": "unusual-indices-book",
+    "schema_version": "v1",
+    "task": "Prepare context for a future Anton-authored book about unusual indices."
+  },
+  "schema_version": "v1",
+  "sources": [
+    {
+      "digest": "f0e1d2c3b4a59687788990aabbccddeeff00112233445566778899aabbccddeeff",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provider": "cortexabv",
+      "ref": "metadata.syncPolicy",
+      "tenant": "cortex-abv-personal"
+    },
+    {
+      "digest": "3d8f9cb2d9f9f9c3d7f6d4f8d2ac9a1fc8f6a2e2f1f7f4a2b0c2d3e4f5a6b7c8",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PROJECT_PRIVATE",
+      "provider": "cortexabv",
+      "ref": "projects.index-spike.summary",
+      "tenant": "index-spike"
+    },
+    {
+      "privacy_classification": "DOMAIN_PRIVATE",
+      "provider": "index-cortex",
+      "source_id": "ecosystem-manuals-books",
+      "url_or_path": "index-platform:docs/ssi-emergency-publish-runbook.md#0",
+      "visibility": "internal"
+    }
+  ]
+}

@@ -188,6 +188,23 @@
       "candidate_capability": "fail_closed_source_admission",
       "recommended_action": "Keep source admission explicit and test-backed before introducing any ABVX read-only bridge or broader cross-project retrieval.",
       "status": "recorded"
+    },
+    {
+      "id": "cortex-read-only-context-pack-bridge",
+      "originating_project": "abvx-os",
+      "originating_mission": "CORTEX-INTEGRATION-002",
+      "observed_need": "Future consumers need a bounded read-only context bridge so they can retrieve minimum sufficient operational and knowledge context without reconstructing full project history or coupling to Cortex internals.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": [
+        "docs/context-retrieval.md",
+        "docs/audits/cortex-integration-002-read-only-retrieval-mvp.md",
+        "evidence/integration/cortex-integration-002-outcome.evidence.json",
+        "schemas/context_request.schema.json",
+        "schemas/context_pack.schema.json"
+      ],
+      "candidate_capability": "read_only_context_retrieval",
+      "recommended_action": "Keep the bridge read-only and budgeted; next work should deepen the weakest upstream retrieval surface before broad consumer rollout.",
+      "status": "recorded"
     }
   ]
 }

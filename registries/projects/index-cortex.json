@@ -6,7 +6,7 @@
       "name": "Index Cortex",
       "status": "active",
       "local_path": "/Volumes/Work/Work/index",
-      "observed_commit": "9912bf15b85fd80726ac295771550dfa957c52cc",
+      "observed_commit": "a97d452bca65946d3fe649d6e38a2b2f00cc4385",
       "lifecycle_state": "active_internal_domain_intelligence_layer",
       "purpose": "Index, market, methodology, source and observation intelligence layer for the 1D3X ecosystem.",
       "independence": {
@@ -18,21 +18,22 @@
       },
       "retrieval": {
         "current_mode": "bounded chunk-manifest search plus ecosystem evidence context pack",
-        "personal_context": "not supported"
+        "personal_context": "not supported",
+        "abvx_read_only_bridge": "operational through local bounded context-pack adapter with fail-closed source admission recheck"
       },
       "known_risks": [
-        "source scan currently admits noisy session/cache/build artifacts into the corpus",
         "internal runtime and offline artifact generation are tightly coupled inside one product repo",
-        "broad ecosystem scope can dilute retrieval relevance"
+        "broad ecosystem scope can dilute retrieval relevance",
+        "bounded retrieval can omit additional relevant matches under pack limits"
       ],
       "unknowns": [
         "full production scope of all internal Cortex runtime surfaces",
         "future separation between domain memory and operational runtime concerns"
       ],
       "provenance": {
-        "recorded_by": "CORTEX-INTEGRATION-001",
+        "recorded_by": "CORTEX-INTEGRATION-002",
         "source_uri": null,
-        "observed_at": "2026-08-08T21:10:00Z"
+        "observed_at": "2026-08-08T00:00:00Z"
       }
     }
   ]

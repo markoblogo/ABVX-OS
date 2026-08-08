@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "request_id": "azurmenton-editorial",
+  "consumer": "azurmenton-internal-assistant",
+  "task": "Give me existing project knowledge relevant to practical computer and phone repair guidance in Menton, including related guides and project context if known.",
+  "intent": "editorial_project_retrieval",
+  "related_projects": [
+    "azurmenton"
+  ],
+  "entities": [
+    "AzurMenton",
+    "Menton",
+    "computer repair",
+    "phone repair"
+  ],
+  "domains": [
+    "editorial",
+    "repair-guidance",
+    "menton"
+  ],
+  "freshness_requirement": "RECENT",
+  "privacy_domain": "PROJECT_PRIVATE",
+  "max_items": 5,
+  "context_budget": {
+    "max_excerpt_chars": 260,
+    "provider_timeout_seconds": 20,
+    "token_usage": "NOT_METERED"
+  },
+  "provider_hints": [
+    "cortexabv"
+  ]
+}

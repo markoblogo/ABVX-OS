@@ -1,7 +1,7 @@
 {
   "schema_version": "v1",
   "project_id": "index-cortex",
-  "observed_commit": "9912bf15b85fd80726ac295771550dfa957c52cc",
+  "observed_commit": "a97d452bca65946d3fe649d6e38a2b2f00cc4385",
   "classification_legend": [
     "STRONG",
     "FUNCTIONAL",
@@ -13,13 +13,13 @@
   "product_surface": {
     "source_scan_manifest": "FUNCTIONAL",
     "chunk_manifest_pipeline": "FUNCTIONAL",
-    "bounded_context_pack_api": "FUNCTIONAL",
+    "bounded_context_pack_api": "STRONG",
     "ecosystem_evidence_pack": "FUNCTIONAL",
     "market_workforce_ledger": "FUNCTIONAL",
     "governance_shadow_layer": "FUNCTIONAL",
     "index_methodology_memory": "STRONG",
     "personal_context_model": "ABSENT",
-    "source_scope_hygiene": "FUNCTIONAL",
+    "source_scope_hygiene": "STRONG",
     "cross_portfolio_operational_state": "ABSENT"
   },
   "capabilities": [
@@ -42,6 +42,11 @@
       "id": "source_scan_hygiene",
       "classification": "CLEARLY_REUSABLE",
       "evidence": "scanner now uses explicit fail-closed Index root admission, deterministic hygiene reporting and safe rebuild path"
+    },
+    {
+      "id": "abvx_context_pack_retrieval",
+      "classification": "CLEARLY_REUSABLE",
+      "evidence": "ABVX read-only adapter now consumes the bounded context-pack surface while rechecking admitted source paths fail-closed"
     }
   ],
   "counts": {
@@ -64,8 +69,8 @@
     }
   },
   "provenance": {
-    "recorded_by": "CORTEX-INTEGRATION-001A",
+    "recorded_by": "CORTEX-INTEGRATION-002",
     "source_uri": null,
-    "observed_at": "2026-08-08T19:31:19Z"
+    "observed_at": "2026-08-08T00:00:00Z"
   }
 }

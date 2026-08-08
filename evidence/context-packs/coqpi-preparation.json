@@ -1,0 +1,135 @@
+{
+  "confidence": {
+    "level": "MEDIUM",
+    "rationale": "Some useful context was returned, but provider gaps, denials or truncation remain."
+  },
+  "constraints": {
+    "available_more": false,
+    "max_excerpt_chars": 280,
+    "max_items": 6,
+    "provider_timeout_seconds": 20,
+    "request_privacy_domain": "PERSONAL_PRIVATE",
+    "token_usage": "NOT_METERED",
+    "truncated": false
+  },
+  "generated_at": "2026-08-08T19:57:55Z",
+  "knowledge_items": [
+    {
+      "category": "proof_context",
+      "confidence": "MEDIUM",
+      "excerpt": "title=Public presence baseline; candidate_id=pp-digital-presence-sync; score=3.0976692059752886",
+      "id": "cortexabv:cortex-abv-personal:pp-digital-presence-sync",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provenance": {
+        "candidate_id": "pp-digital-presence-sync",
+        "evidence_refs": [
+          {
+            "digest": "f0e1d2c3b4a59687788990aabbccddeeff00112233445566778899aabbccddeeff",
+            "path": "cortex-abv/public-presence-index.v1.json",
+            "ref": "metadata.syncPolicy"
+          }
+        ],
+        "tenant": "cortex-abv-personal"
+      },
+      "provider": "cortexabv",
+      "summary": "CortexABV candidate match in cortex-abv-personal; matched terms: links, presence, project, public.",
+      "title": "Public presence baseline"
+    }
+  ],
+  "known_gaps": [
+    "CortexABV personal retrieval currently exposes only a minimal public-presence baseline, not a rich professional profile or recent-work timeline."
+  ],
+  "operational_context": [
+    {
+      "current_outcome": "Pre-live readiness complete; controlled live validation deferred.",
+      "evidence_refs": [
+        "evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json",
+        "evidence/onboarding/project-onboarding-001/mission/COQPI-002/pre-live-run.json"
+      ],
+      "human_attention_required": true,
+      "next_action": "Controlled real-microphone smoke",
+      "operational_state": "WAITING_FOR_HUMAN",
+      "project": "coqpi",
+      "source": "ABVX-OS",
+      "waiting_reason": "Owner consent and execution are required before microphone/OpenAI Realtime access."
+    }
+  ],
+  "pack_id": "coqpi-preparation",
+  "privacy_classification": "PERSONAL_PRIVATE",
+  "proof_assets": [
+    {
+      "digest": "f0e1d2c3b4a59687788990aabbccddeeff00112233445566778899aabbccddeeff",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provider": "cortexabv",
+      "ref": "metadata.syncPolicy",
+      "tenant": "cortex-abv-personal"
+    }
+  ],
+  "providers": [
+    {
+      "available_more": false,
+      "elapsed_ms": 181,
+      "id": "cortexabv",
+      "items_returned": 1,
+      "known_gaps": [
+        "CortexABV personal retrieval currently exposes only a minimal public-presence baseline, not a rich professional profile or recent-work timeline."
+      ],
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "status": "partial",
+      "truncated": false
+    }
+  ],
+  "relevant_decisions": [],
+  "relevant_projects": [
+    {
+      "id": "coqpi",
+      "name": "CoqPi",
+      "purpose": "Private local call communication cockpit for English/French calls with Russian support, Finder preparation, and selected-context assistance.",
+      "status": "active"
+    }
+  ],
+  "request": {
+    "consumer": "coqpi",
+    "context_budget": {
+      "max_excerpt_chars": 280,
+      "provider_timeout_seconds": 20,
+      "token_usage": "NOT_METERED"
+    },
+    "domains": [
+      "professional-context",
+      "current-work"
+    ],
+    "entities": [
+      "Anton",
+      "CoqPi",
+      "Product Lead",
+      "AI",
+      "product"
+    ],
+    "freshness_requirement": "CURRENT",
+    "intent": "professional_preparation",
+    "max_items": 6,
+    "privacy_domain": "PERSONAL_PRIVATE",
+    "provider_hints": [
+      "cortexabv"
+    ],
+    "related_projects": [
+      "coqpi"
+    ],
+    "request_id": "coqpi-preparation",
+    "schema_version": "v1",
+    "task": "Prepare compact context for a professional Product Lead / AI conversation."
+  },
+  "schema_version": "v1",
+  "sources": [
+    {
+      "digest": "f0e1d2c3b4a59687788990aabbccddeeff00112233445566778899aabbccddeeff",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provider": "cortexabv",
+      "ref": "metadata.syncPolicy",
+      "tenant": "cortex-abv-personal"
+    }
+  ]
+}

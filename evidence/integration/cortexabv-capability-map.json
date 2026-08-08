@@ -21,7 +21,7 @@
     "proposal_governance_chain": "FUNCTIONAL",
     "coqpi_context_contract": "FUNCTIONAL",
     "azurmenton_source_pack_contract": "FUNCTIONAL",
-    "generic_read_only_retrieval_bridge": "ABSENT",
+    "generic_read_only_retrieval_bridge": "FUNCTIONAL",
     "live_vector_runtime": "UNKNOWN",
     "public_write_execution": "ABSENT"
   },
@@ -47,6 +47,11 @@
       "evidence": "reviewed compact pack contract with strict private/read-only boundary"
     },
     {
+      "id": "abvx_read_only_context_bridge",
+      "classification": "POTENTIALLY_REUSABLE",
+      "evidence": "ABVX now retrieves bounded read-only personal/project/proof context through the audited private-runtime query seam with explicit gap reporting"
+    },
+    {
       "id": "vector_runtime_pilot_ladder",
       "classification": "PROJECT_SPECIFIC",
       "evidence": "extensive staged pilot/readiness chain exists but is heavier than current ABVX near-term need"
@@ -61,8 +66,8 @@
     "public_snapshot_receipts": 35
   },
   "provenance": {
-    "recorded_by": "CORTEX-INTEGRATION-001",
+    "recorded_by": "CORTEX-INTEGRATION-002",
     "source_uri": null,
-    "observed_at": "2026-08-08T21:10:00Z"
+    "observed_at": "2026-08-08T00:00:00Z"
   }
 }

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/context-pack/v1",
+  "title": "ABVX Context Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "pack_id",
+    "request",
+    "providers",
+    "generated_at",
+    "operational_context",
+    "knowledge_items",
+    "relevant_decisions",
+    "relevant_projects",
+    "proof_assets",
+    "sources",
+    "constraints",
+    "known_gaps",
+    "confidence",
+    "privacy_classification"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "pack_id": { "type": "string" },
+    "request": { "$ref": "context_request.schema.json" },
+    "providers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "status", "items_returned", "known_gaps", "truncated", "available_more", "privacy_classification", "elapsed_ms"],
+        "properties": {
+          "id": { "type": "string" },
+          "status": { "enum": ["ok", "partial", "gap", "denied", "unavailable", "malformed"] },
+          "items_returned": { "type": "integer", "minimum": 0 },
+          "known_gaps": { "type": "array", "items": { "type": "string" } },
+          "truncated": { "type": "boolean" },
+          "available_more": { "type": "boolean" },
+          "privacy_classification": { "type": "string" },
+          "elapsed_ms": { "type": "integer", "minimum": 0 }
+        }
+      }
+    },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "operational_context": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "knowledge_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "provider", "category", "title", "summary", "excerpt", "privacy_classification", "confidence", "provenance"],
+        "properties": {
+          "id": { "type": "string" },
+          "provider": { "type": "string" },
+          "category": { "type": "string" },
+          "title": { "type": "string" },
+          "summary": { "type": "string" },
+          "excerpt": { "type": "string" },
+          "privacy_classification": { "type": "string" },
+          "confidence": { "type": "string" },
+          "provenance": { "type": "object", "additionalProperties": true }
+        }
+      }
+    },
+    "relevant_decisions": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "relevant_projects": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "proof_assets": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "sources": { "type": "array", "items": { "type": "object", "additionalProperties": true } },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["request_privacy_domain", "max_items", "max_excerpt_chars", "provider_timeout_seconds", "token_usage", "truncated", "available_more"],
+      "properties": {
+        "request_privacy_domain": { "type": "string" },
+        "max_items": { "type": "integer" },
+        "max_excerpt_chars": { "type": "integer" },
+        "provider_timeout_seconds": { "type": "integer" },
+        "token_usage": { "const": "NOT_METERED" },
+        "truncated": { "type": "boolean" },
+        "available_more": { "type": "boolean" }
+      }
+    },
+    "known_gaps": { "type": "array", "items": { "type": "string" } },
+    "confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "rationale"],
+      "properties": {
+        "level": { "enum": ["LOW", "MEDIUM", "HIGH"] },
+        "rationale": { "type": "string" }
+      }
+    },
+    "privacy_classification": {
+      "enum": ["PUBLIC", "PERSONAL_PRIVATE", "PROJECT_PRIVATE", "DOMAIN_PRIVATE", "EXTERNAL_UNTRUSTED"]
+    }
+  }
+}
