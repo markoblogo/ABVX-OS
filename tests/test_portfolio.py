@@ -29,10 +29,10 @@ class PortfolioTests(unittest.TestCase):
         portfolio = inspect_portfolio(ROOT)
         rendered = render_portfolio(portfolio)
         self.assertIn("AzurMenton", rendered)
-        self.assertIn("next: Guide Freshness Observatory", rendered)
+        self.assertIn("next: Choose bounded Source/Freshness Automation", rendered)
         self.assertIn("WAITING FOR YOU", rendered)
         self.assertIn("CoqPi", rendered)
-        self.assertEqual(portfolio["actionable"][0]["next_action"], "Guide Freshness Observatory")
+        self.assertEqual(portfolio["actionable"][0]["next_action"], "Choose bounded Source/Freshness Automation before Booking Attribution Baseline")
 
     def test_first_capability_occurrence_remains_candidate(self):
         lessons = json.loads((ROOT / "portfolio" / "lessons.json").read_text())

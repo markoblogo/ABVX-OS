@@ -44,6 +44,28 @@
       "candidate_capability": "editorial_observability",
       "recommended_action": "Keep report-only and project-local; Rule of Two is not met.",
       "status": "recorded"
+    },
+    {
+      "id": "azurmenton-content-freshness-repeat",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-002",
+      "observed_need": "Events and practical guides inside one project both require conservative freshness observability, but their evidence models differ.",
+      "classification": "REPEATED_WITHIN_PROJECT",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-002-outcome.evidence.json", "external:/Volumes/Work/Work/menton/src/lib/guides-health.ts"],
+      "candidate_capability": "content_freshness",
+      "recommended_action": "Keep project-local for now; reconsider shared extraction only after a second real project demonstrates the pattern.",
+      "status": "recorded"
+    },
+    {
+      "id": "azurmenton-provenance-observability-repeat",
+      "originating_project": "azurmenton",
+      "originating_mission": "AZURMENTON-002",
+      "observed_need": "Event sources and guide content need separate provenance-health reporting; absence of evidence must remain explicit.",
+      "classification": "REPEATED_WITHIN_PROJECT",
+      "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-002-outcome.evidence.json"],
+      "candidate_capability": "provenance_observability",
+      "recommended_action": "Record the repeated within-project pattern; do not extract shared ABVX code under the current Rule of Two.",
+      "status": "recorded"
     }
   ]
 }

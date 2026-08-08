@@ -8,7 +8,7 @@
       "repository": "https://github.com/markoblogo/azurmenton",
       "local_path": "/Volumes/Work/Work/menton",
       "branch": "main",
-      "observed_commit": "98d1c45",
+      "observed_commit": "55c924c",
       "lifecycle_state": "active_product_discovery",
       "purpose": "Multilingual Menton destination guide, live local resource, direct apartment rental funnel, and future publishing source.",
       "locales": ["en", "fr", "it", "uk"],
@@ -21,13 +21,13 @@
       "known_blockers": ["event source coverage is narrow and Menton/Monaco/Ventimiglia remain manual", "guide freshness is not uniformly date/provenance structured", "booking-to-confirmed-booking observability is unavailable without a CRM or equivalent owner process", "project architecture is distributed across README/docs; no top-level ARCHITECTURE.md"],
       "reusable_candidates": ["localization primitives", "SEO/hreflang/sitemap/structured data", "guide/place/event content models", "event ingestion and review contracts", "source and freshness metadata", "booking attribution contract", "Living Publication source"],
       "state_feedback": {
-        "mission": "AZURMENTON-001",
-        "outcome": "REPORT_ONLY_OBSERVATORY_IMPLEMENTED",
+        "mission": "AZURMENTON-002",
+        "outcome": "REPORT_ONLY_GUIDE_FRESHNESS_OBSERVATORY_IMPLEMENTED",
         "event_health_states": ["CURRENT", "STALE", "EXPIRED", "SOURCE_STALE", "NEEDS_REVIEW", "UNKNOWN"],
         "source_health": "source observations are derived from committed batch sourceRuns; unobserved sources remain UNKNOWN",
-        "new_blockers": ["one existing date-sensitive test fails because featured menton-music-festival ended 2026-08-07", "cancellation detection is unsupported by current adapters", "four configured sources have no committed successful observation"],
+        "new_blockers": ["guide model has no per-guide verification date or claim-level provenance", "localization drift cannot be measured because updates are not tracked per locale", "claim-level freshness is not represented", "four event sources remain without committed successful observations"],
         "future_media_event": "potential: important event freshness/review findings could later emit a Media Event; not implemented",
-        "platform_learning": {"event_freshness": "CAPABILITY_CANDIDATE", "source_health": "CAPABILITY_CANDIDATE", "content_freshness": "PROJECT_SPECIFIC", "editorial_observability": "CAPABILITY_CANDIDATE", "shared_extraction": "NOT_JUSTIFIED_UNDER_RULE_OF_TWO"}
+        "platform_learning": {"event_freshness": "CAPABILITY_CANDIDATE", "source_health": "CAPABILITY_CANDIDATE", "content_freshness": "REPEATED_WITHIN_PROJECT", "provenance_observability": "REPEATED_WITHIN_PROJECT", "editorial_observability": "CAPABILITY_CANDIDATE", "shared_extraction": "NOT_JUSTIFIED_UNDER_RULE_OF_TWO"}
       },
       "abvx_consumption": ["project registry and onboarding evidence", "future mission-local state only through approved provider boundary"],
       "provenance": {"recorded_by": "PROJECT-ONBOARDING-002", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T00:00:00Z"}
