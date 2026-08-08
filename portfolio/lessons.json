@@ -173,6 +173,21 @@
       "candidate_capability": "context_pack_contract",
       "recommended_action": "Do not build a full compiler yet; first establish a read-only bridge and clean domain source admission.",
       "status": "recorded"
+    },
+    {
+      "id": "cortex-fail-closed-source-admission",
+      "originating_project": "index-cortex",
+      "originating_mission": "CORTEX-INTEGRATION-001A",
+      "observed_need": "Long-term retrieval quality depends on explicit approved source roots; runtime/cache/session directories must fail closed instead of being filtered after broad recursive scans.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": [
+        "docs/audits/cortex-integration-001a-source-hygiene.md",
+        "evidence/integration/cortex-integration-001a-outcome.evidence.json",
+        "external:/Volumes/Work/Work/index/docs/cortex-source-admission.md"
+      ],
+      "candidate_capability": "fail_closed_source_admission",
+      "recommended_action": "Keep source admission explicit and test-backed before introducing any ABVX read-only bridge or broader cross-project retrieval.",
+      "status": "recorded"
     }
   ]
 }

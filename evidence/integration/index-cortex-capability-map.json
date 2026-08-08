@@ -19,7 +19,7 @@
     "governance_shadow_layer": "FUNCTIONAL",
     "index_methodology_memory": "STRONG",
     "personal_context_model": "ABSENT",
-    "source_scope_hygiene": "WEAK",
+    "source_scope_hygiene": "FUNCTIONAL",
     "cross_portfolio_operational_state": "ABSENT"
   },
   "capabilities": [
@@ -40,27 +40,32 @@
     },
     {
       "id": "source_scan_hygiene",
-      "classification": "CAPABILITY_CANDIDATE",
-      "evidence": "scanner/chunk pipeline is useful, but current corpus still admits noisy local session/cache artifacts"
+      "classification": "CLEARLY_REUSABLE",
+      "evidence": "scanner now uses explicit fail-closed Index root admission, deterministic hygiene reporting and safe rebuild path"
     }
   ],
   "counts": {
-    "source_manifest_files": 414,
-    "chunk_manifest_chunks": 11013,
-    "source_manifest_size_bytes": 5620582,
+    "source_manifest_files": 534,
+    "chunk_manifest_chunks": 1618,
+    "source_manifest_size_bytes": 5476345,
     "source_kind_counts": {
-      "action_event": 9,
-      "archive": 37,
-      "code": 187,
+      "action_event": 12,
+      "archive": 40,
+      "code": 279,
       "development_plan": 1,
-      "manual_book": 16,
-      "repo_doc": 56,
-      "site_content": 108
+      "manual_book": 18,
+      "repo_doc": 59,
+      "site_content": 125
+    },
+    "pollution_after_fix": {
+      "session": 0,
+      "cache": 0,
+      "unknown": 0
     }
   },
   "provenance": {
-    "recorded_by": "CORTEX-INTEGRATION-001",
+    "recorded_by": "CORTEX-INTEGRATION-001A",
     "source_uri": null,
-    "observed_at": "2026-08-08T21:10:00Z"
+    "observed_at": "2026-08-08T19:31:19Z"
   }
 }

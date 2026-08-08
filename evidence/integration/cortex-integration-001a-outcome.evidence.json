@@ -1,0 +1,104 @@
+{
+  "id": "cortex-integration-001a-source-hygiene",
+  "source": "Index Cortex source hygiene fix",
+  "timestamp": "2026-08-08T19:31:19Z",
+  "candidate": "index-cortex-source-admission",
+  "fixture": "CORTEX-INTEGRATION-001A",
+  "result": "PASS",
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "repository": {
+      "path": "/Volumes/Work/Work/index",
+      "base_commit": "9912bf15b85fd80726ac295771550dfa957c52cc"
+    },
+    "policy": {
+      "index_root_mode": "FAIL_CLOSED",
+      "approved_top_level_dirs": [
+        "docs",
+        "fixtures",
+        "prisma",
+        "public",
+        "scripts",
+        "services",
+        "src",
+        "tests"
+      ],
+      "unknown_top_level_dirs": "EXCLUDED",
+      "hidden_runtime_dirs": "EXCLUDED",
+      "generated_imports": "EXPLICIT_MERGE_ONLY"
+    },
+    "before": {
+      "source_total": 414,
+      "source_pollution": {
+        "session": 16,
+        "cache": 2
+      },
+      "chunk_total": 11013,
+      "chunk_pollution": {
+        "session": 32,
+        "cache": 424
+      }
+    },
+    "after": {
+      "source_total": 534,
+      "source_categories": {
+        "VALID_DOMAIN_SOURCE": 133,
+        "VALID_PROJECT_SOURCE": 401,
+        "GENERATED": 0,
+        "CACHE": 0,
+        "SESSION": 0,
+        "BUILD_ARTIFACT": 0,
+        "TEMPORARY": 0,
+        "UNKNOWN": 0
+      },
+      "chunk_total": 1618,
+      "chunk_pollution": {
+        "session": 0,
+        "cache": 0
+      }
+    },
+    "context_pack_regression": {
+      "query": "cortex artifact pipeline context pack runtime configuration",
+      "searched_chunks": 1618,
+      "matched_chunks": 16,
+      "approved_evidence": 2,
+      "excluded_evidence": 1,
+      "known_gaps": 1,
+      "approved_titles": [
+        "index:docs/cortex-artifact-pipeline.md#1",
+        "index:docs/cortex-artifact-pipeline.md#0"
+      ]
+    },
+    "checks": {
+      "index_targeted_tests": "PASS 19/19",
+      "index_typecheck": "PASS",
+      "index_artifact_smoke": "PASS",
+      "index_git_diff_check": "PASS",
+      "abvx_tests": "PASS 31 tests after schema fix",
+      "abvx_validate": "PASS after schema fix",
+      "abvx_compileall": "PASS",
+      "abvx_git_diff_check": "PASS"
+    },
+    "blocking_deficiency_status": "RESOLVED",
+    "ready_for_cortex_integration_002": true
+  },
+  "artifact_refs": [
+    "docs/audits/cortex-integration-001a-source-hygiene.md",
+    "evidence/integration/index-cortex-capability-map.json",
+    "external:/Volumes/Work/Work/index/docs/cortex-source-admission.md",
+    "external:/Volumes/Work/Work/index/src/lib/cortex-source-scanner.ts"
+  ],
+  "provenance": {
+    "recorded_by": "CORTEX-INTEGRATION-001A",
+    "source_uri": null,
+    "observed_at": "2026-08-08T19:31:19Z"
+  },
+  "environment": {
+    "abvx_repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "index_repository_path": "/Volumes/Work/Work/index",
+    "production_mutation": false,
+    "bridge_implemented": false
+  }
+}
