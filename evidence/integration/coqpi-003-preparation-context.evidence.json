@@ -1,0 +1,48 @@
+{
+  "id": "coqpi-003-cortex-preparation-context",
+  "source": "coqpi-cortex-preparation-context-bridge",
+  "timestamp": "2026-08-08T20:59:53Z",
+  "candidate": "CoqPi",
+  "fixture": "COQPI-003",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "cost_class": "NORMAL",
+    "capability_status": "FUNCTIONAL",
+    "donor_check": "reused existing read-only-cortex-context-retrieval capability",
+    "adapter_shape": "CoqPi SessionContext -> ABVX ContextRequest -> ContextPack",
+    "request_intent": "professional_preparation",
+    "provider_hints": [
+      "cortexabv"
+    ],
+    "item_count": 6,
+    "pack_bytes": 17197,
+    "truncated": true,
+    "available_more": true,
+    "operational_state": "WAITING_FOR_HUMAN",
+    "private_pack_persistence": "in-memory only in CoqPi renderer state",
+    "fallback_behavior": "graceful; ordinary Prepare flow remains usable if ABVX is unavailable",
+    "typecheck": "PASS",
+    "build": "PASS",
+    "targeted_tests": "4 PASS",
+    "token_usage": "NOT_METERED"
+  },
+  "stdout_ref": "evidence/integration/cortex-integration-002/coqpi-prep-northfield-labs-product-lead-1786222793054.evidence.json",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "evidence/context-packs/coqpi-prep-northfield-labs-product-lead-1786222793054.json",
+    "evidence/integration/cortex-integration-002/coqpi-prep-northfield-labs-product-lead-1786222793054.evidence.json",
+    "docs/checklists/coqpi-002-monday-live.md"
+  ],
+  "provenance": {
+    "recorded_by": "COQPI-003",
+    "source_uri": "https://github.com/markoblogo/CoqPi",
+    "observed_at": "2026-08-08T20:59:53Z"
+  },
+  "environment": {
+    "abvx_project_root": "/Volumes/Work/Work/ABVX-OS",
+    "coqpi_project_root": "/Volumes/Work/Work/CoqPi",
+    "external_web_research": false,
+    "microphone_accessed": false,
+    "audio_transmitted": false
+  }
+}

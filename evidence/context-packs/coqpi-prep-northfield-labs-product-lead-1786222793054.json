@@ -1,0 +1,440 @@
+{
+  "confidence": {
+    "level": "MEDIUM",
+    "rationale": "Some useful context was returned, but provider gaps, denials or truncation remain."
+  },
+  "constraints": {
+    "available_more": true,
+    "max_excerpt_chars": 280,
+    "max_items": 6,
+    "provider_timeout_seconds": 20,
+    "request_privacy_domain": "PERSONAL_PRIVATE",
+    "token_usage": "NOT_METERED",
+    "truncated": true
+  },
+  "generated_at": "2026-08-08T20:59:53Z",
+  "knowledge_items": [
+    {
+      "category": "current_focus",
+      "confidence": "HIGH",
+      "excerpt": "capabilities=ai-dev, AI, workflow, workflows, validation, market-infrastructure; current_focus=Decision Map, ABVX Agent Skills, MN7R Blog",
+      "id": "cortexabv:professional:current-focus",
+      "privacy_classification": "PUBLIC",
+      "provenance": {
+        "entity_ids": [
+          "publication:mn7r-product-guide",
+          "project:decision-map",
+          "project:abvx-agent-skills",
+          "publication:future-proof-productivity",
+          "project:mn7r-blog"
+        ],
+        "inventory": {
+          "books_publications": "STRONG",
+          "capabilities": "STRONG",
+          "constraints_preferences": "MISSING",
+          "current_projects": "STRONG",
+          "education_certificates": "MISSING",
+          "github_public_proof": "STRONG",
+          "professional_goals": "MISSING",
+          "professional_roles": "PARTIAL",
+          "public_writing": "STRONG",
+          "recent_work": "PARTIAL"
+        },
+        "source": "cortex-abv/public-presence-index.v1.json"
+      },
+      "provider": "cortexabv",
+      "summary": "Recent public work clusters around Decision Map, ABVX Agent Skills, MN7R Blog.",
+      "title": "Current focus and strongest relevant work"
+    },
+    {
+      "category": "capabilities",
+      "confidence": "HIGH",
+      "excerpt": "capability_tags=ai-dev, AI, workflow, workflows, validation, market-infrastructure",
+      "id": "cortexabv:professional:capabilities",
+      "privacy_classification": "PUBLIC",
+      "provenance": {
+        "entity_ids": [
+          "publication:mn7r-product-guide",
+          "project:decision-map",
+          "project:abvx-agent-skills",
+          "publication:future-proof-productivity",
+          "project:mn7r-blog"
+        ],
+        "source": "cortex-abv/public-presence-index.v1.json"
+      },
+      "provider": "cortexabv",
+      "summary": "Public evidence emphasizes ai-dev, AI, workflow, workflows, validation, market-infrastructure.",
+      "title": "Relevant capabilities"
+    },
+    {
+      "category": "professional_constraint",
+      "confidence": "HIGH",
+      "excerpt": "privacy=PERSONAL_PRIVATE; review=REVIEW_RECOMMENDED; review_by=2026-11-08T00:00:00Z; owner=Anton",
+      "id": "cortexabv:professional:mem:personal:prep-constraints",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provenance": {
+        "claim_evidence": [
+          {
+            "claimId": "claim:personal:prep-constraints",
+            "digest": "5555555555555555555555555555555555555555555555555555555555555555",
+            "locator": "examples/personal-professional-canonical-facts.v1.json#facts[4]",
+            "sourceRef": "owner:professional-facts-v1",
+            "summary": "owner-approved opportunity preparation prioritizes recent proof, current capabilities and advance context"
+          }
+        ],
+        "memory_id": "mem:personal:prep-constraints",
+        "metadata": {
+          "admittedAt": "2026-08-08T00:00:00Z",
+          "canonicalOwner": "Anton",
+          "canonicalSource": "owner-approved professional knowledge core",
+          "privacyClassification": "PERSONAL_PRIVATE",
+          "related": {
+            "capabilities": [
+              "recent project proof",
+              "context-first preparation"
+            ],
+            "projectIds": [
+              "coqpi"
+            ]
+          },
+          "reviewability": {
+            "basis": "Preparation constraints are durable but situational enough to warrant periodic review.",
+            "reviewBy": "2026-11-08T00:00:00Z",
+            "status": "REVIEW_RECOMMENDED"
+          }
+        },
+        "source": "cortex-abv/private-runtime:tenant-memory-bank"
+      },
+      "provider": "cortexabv",
+      "summary": "Opportunity preparation should prioritize recent work and current capabilities, prefer relevant recent proof over exhaustive historical detail, and benefit from company, person and role context in advance.",
+      "title": "Opportunity-preparation constraints"
+    },
+    {
+      "category": "collaboration_preference",
+      "confidence": "HIGH",
+      "excerpt": "privacy=PUBLIC_SAFE; review=REVIEW_RECOMMENDED; review_by=2026-11-08T00:00:00Z; owner=Anton",
+      "id": "cortexabv:professional:mem:personal:collaboration-models",
+      "privacy_classification": "PUBLIC",
+      "provenance": {
+        "claim_evidence": [
+          {
+            "claimId": "claim:personal:collaboration-models",
+            "digest": "3333333333333333333333333333333333333333333333333333333333333333",
+            "locator": "examples/personal-professional-canonical-facts.v1.json#facts[2]",
+            "sourceRef": "owner:professional-facts-v1",
+            "summary": "owner-approved collaboration models include employment, consulting, partnership and project-based work"
+          }
+        ],
+        "memory_id": "mem:personal:collaboration-models",
+        "metadata": {
+          "admittedAt": "2026-08-08T00:00:00Z",
+          "canonicalOwner": "Anton",
+          "canonicalSource": "owner-approved professional knowledge core",
+          "privacyClassification": "PUBLIC_SAFE",
+          "related": {
+            "professionalGoals": [
+              "collaboration fit over fixed engagement model"
+            ]
+          },
+          "reviewability": {
+            "basis": "Collaboration preference is durable but can change with current opportunities.",
+            "reviewBy": "2026-11-08T00:00:00Z",
+            "status": "REVIEW_RECOMMENDED"
+          }
+        },
+        "source": "cortex-abv/private-runtime:tenant-memory-bank"
+      },
+      "provider": "cortexabv",
+      "summary": "Employment, consulting, partnership and project-based collaboration may all be relevant, with fit taking priority over forcing one engagement model.",
+      "title": "Acceptable collaboration models"
+    },
+    {
+      "category": "professional_goal",
+      "confidence": "HIGH",
+      "excerpt": "privacy=PUBLIC_SAFE; review=REVIEW_RECOMMENDED; review_by=2026-11-08T00:00:00Z; owner=Anton",
+      "id": "cortexabv:professional:mem:personal:goal-current-opportunities",
+      "privacy_classification": "PUBLIC",
+      "provenance": {
+        "claim_evidence": [
+          {
+            "claimId": "claim:personal:goal-current-opportunities",
+            "digest": "1111111111111111111111111111111111111111111111111111111111111111",
+            "locator": "examples/personal-professional-canonical-facts.v1.json#facts[0]",
+            "sourceRef": "owner:professional-facts-v1",
+            "summary": "owner-approved goals include employment, partnership, consulting and product-lead opportunities"
+          }
+        ],
+        "memory_id": "mem:personal:goal-current-opportunities",
+        "metadata": {
+          "admittedAt": "2026-08-08T00:00:00Z",
+          "canonicalOwner": "Anton",
+          "canonicalSource": "owner-approved professional knowledge core",
+          "privacyClassification": "PUBLIC_SAFE",
+          "related": {
+            "capabilities": [
+              "product strategy",
+              "product leadership"
+            ],
+            "professionalGoals": [
+              "high-value opportunities",
+              "product-lead roles"
+            ]
+          },
+          "reviewability": {
+            "basis": "Professional goals can change with market conditions and current project mix.",
+            "reviewBy": "2026-11-08T00:00:00Z",
+            "status": "REVIEW_RECOMMENDED"
+          }
+        },
+        "source": "cortex-abv/private-runtime:tenant-memory-bank"
+      },
+      "provider": "cortexabv",
+      "summary": "Open to high-value employment, partnership, consulting and product-lead opportunities where existing product and strategy experience is relevant.",
+      "title": "Current professional opportunity goals"
+    },
+    {
+      "category": "publication",
+      "confidence": "HIGH",
+      "excerpt": "updated=2026-06-16; tags=brokerage, agro-commodities, commodity brokerage, market-infrastructure, execution, workflows; proof=https://mn7r.com/how-to-use, https://mn7r.com/mn7r-guide/mn7r-product-guide.pdf, https://mn7r.com/mn7r-guide/mn7r-product-guide.epub",
+      "id": "cortexabv:professional:publication:mn7r-product-guide",
+      "privacy_classification": "PUBLIC",
+      "provenance": {
+        "canonical_url": "https://abvx.xyz/books/mn7r-product-guide",
+        "entity_id": "publication:mn7r-product-guide",
+        "provenance": [
+          {
+            "digest": "0ed4a7f909dc43b71446df944968f8d4e06e8294d259a0e135c138e90bd58756",
+            "kind": "content_frontmatter",
+            "path": "content/books/mn7r-product-guide.md"
+          }
+        ],
+        "registry_entry_id": null
+      },
+      "provider": "cortexabv",
+      "summary": "A public guide to the current MN7R product: brokerage workflow, execution discipline, role model, AI operating support and public-safe demo surfaces.",
+      "title": "MN7R Product Guide"
+    }
+  ],
+  "known_gaps": [
+    "Education/certificates are not represented in the current audited CortexABV public surfaces.",
+    "Recent-work public evidence remains partial and may omit very recent private project execution.",
+    "Additional relevant public professional evidence exists beyond the current context budget.",
+    "Global context budget truncated retrieved knowledge items."
+  ],
+  "operational_context": [
+    {
+      "current_outcome": "Pre-live readiness complete; controlled live validation deferred.",
+      "evidence_refs": [
+        "evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json",
+        "evidence/onboarding/project-onboarding-001/mission/COQPI-002/pre-live-run.json"
+      ],
+      "human_attention_required": true,
+      "next_action": "Controlled real-microphone smoke",
+      "operational_state": "WAITING_FOR_HUMAN",
+      "project": "coqpi",
+      "source": "ABVX-OS",
+      "waiting_reason": "Owner consent and execution are required before microphone/OpenAI Realtime access."
+    }
+  ],
+  "pack_id": "coqpi-prep-northfield-labs-product-lead-1786222793054",
+  "privacy_classification": "PERSONAL_PRIVATE",
+  "proof_assets": [
+    {
+      "entity_id": "publication:mn7r-product-guide",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://mn7r.com/how-to-use"
+    },
+    {
+      "entity_id": "publication:mn7r-product-guide",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://mn7r.com/mn7r-guide/mn7r-product-guide.pdf"
+    },
+    {
+      "entity_id": "publication:mn7r-product-guide",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://mn7r.com/mn7r-guide/mn7r-product-guide.epub"
+    },
+    {
+      "entity_id": "project:decision-map",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://github.com/markoblogo/decision-map"
+    },
+    {
+      "entity_id": "project:abvx-agent-skills",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://github.com/markoblogo/abvx-agent-skills"
+    },
+    {
+      "entity_id": "project:abvx-agent-skills",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://lab.abvx.xyz/tools/abvx-agent-skills/index.html"
+    },
+    {
+      "entity_id": "project:abvx-agent-skills",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://youtu.be/F73_ofen8rI"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://www.amazon.com/dp/B0FQ5SWMTJ"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://www.amazon.com/dp/B0FR1WH15S"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://youtu.be/IJBn0x2UeF8"
+    },
+    {
+      "entity_id": "project:mn7r-blog",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://mn7r.com/blog"
+    },
+    {
+      "entity_id": "project:mn7r-blog",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "url": "https://mn7r.com/rss.xml"
+    }
+  ],
+  "providers": [
+    {
+      "available_more": true,
+      "elapsed_ms": 2,
+      "id": "cortexabv",
+      "items_returned": 10,
+      "known_gaps": [
+        "Education/certificates are not represented in the current audited CortexABV public surfaces.",
+        "Recent-work public evidence remains partial and may omit very recent private project execution.",
+        "Additional relevant public professional evidence exists beyond the current context budget."
+      ],
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "status": "partial",
+      "truncated": true
+    }
+  ],
+  "relevant_decisions": [],
+  "relevant_projects": [
+    {
+      "id": "coqpi",
+      "name": "CoqPi",
+      "purpose": "Private local call communication cockpit for English/French calls with Russian support, Finder preparation, and selected-context assistance.",
+      "status": "active"
+    }
+  ],
+  "request": {
+    "consumer": "coqpi",
+    "context_budget": {
+      "max_excerpt_chars": 280,
+      "provider_timeout_seconds": 20,
+      "token_usage": "NOT_METERED"
+    },
+    "domains": [
+      "professional-context",
+      "current-work"
+    ],
+    "entities": [
+      "Anton",
+      "CoqPi",
+      "Northfield Labs",
+      "Product Lead",
+      "AI product leadership conversation"
+    ],
+    "freshness_requirement": "CURRENT",
+    "intent": "professional_preparation",
+    "max_items": 6,
+    "privacy_domain": "PERSONAL_PRIVATE",
+    "provider_hints": [
+      "cortexabv"
+    ],
+    "related_projects": [
+      "coqpi"
+    ],
+    "request_id": "coqpi-prep-northfield-labs-product-lead-1786222793054",
+    "schema_version": "v1",
+    "task": "Prepare compact context for a professional conversation: Northfield Labs \u00b7 Product Lead \u00b7 AI product leadership conversation \u00b7 Review fit and clarify delivery scope.."
+  },
+  "schema_version": "v1",
+  "sources": [
+    {
+      "digest": "5555555555555555555555555555555555555555555555555555555555555555",
+      "path": "examples/personal-professional-canonical-facts.v1.json#facts[4]",
+      "privacy_classification": "PERSONAL_PRIVATE",
+      "provider": "cortexabv",
+      "source_ref": "owner:professional-facts-v1"
+    },
+    {
+      "digest": "3333333333333333333333333333333333333333333333333333333333333333",
+      "path": "examples/personal-professional-canonical-facts.v1.json#facts[2]",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "source_ref": "owner:professional-facts-v1"
+    },
+    {
+      "digest": "1111111111111111111111111111111111111111111111111111111111111111",
+      "path": "examples/personal-professional-canonical-facts.v1.json#facts[0]",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "source_ref": "owner:professional-facts-v1"
+    },
+    {
+      "entity_id": "publication:mn7r-product-guide",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv"
+    },
+    {
+      "entity_id": "project:decision-map",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv"
+    },
+    {
+      "entity_id": "project:decision-map",
+      "path": "cortex-abv/public-project-registry.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "registry_entry_id": "repository:github:markoblogo/decision-map"
+    },
+    {
+      "entity_id": "project:abvx-agent-skills",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv"
+    },
+    {
+      "entity_id": "project:abvx-agent-skills",
+      "path": "cortex-abv/public-project-registry.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv",
+      "registry_entry_id": "repository:github:markoblogo/abvx-agent-skills"
+    },
+    {
+      "entity_id": "publication:future-proof-productivity",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv"
+    },
+    {
+      "entity_id": "project:mn7r-blog",
+      "path": "cortex-abv/public-presence-index.v1.json",
+      "privacy_classification": "PUBLIC",
+      "provider": "cortexabv"
+    }
+  ]
+}

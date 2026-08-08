@@ -1,0 +1,39 @@
+{
+  "artifact_refs": [
+    ".tmp/coqpi-preparation-context-O54LiZ/request.json",
+    "evidence/context-packs/coqpi-prep-northfield-labs-product-lead-1786222793054.json"
+  ],
+  "candidate": "read-only-cortex-retrieval",
+  "environment": {
+    "cortexabv_runtime_path": "/Volumes/Work/Work/ABVXsite/cortex-abv/private-runtime",
+    "index_cortex_path": "/Volumes/Work/Work/index",
+    "production_mutation": false,
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "coqpi-prep-northfield-labs-product-lead-1786222793054",
+  "id": "cortex-integration-002-coqpi-prep-northfield-labs-product-lead-1786222793054",
+  "metrics": {
+    "available_more": true,
+    "execution_mode": "DEEP",
+    "items_retrieved": 6,
+    "known_gaps": 4,
+    "pack_bytes": 17197,
+    "pack_lines": 440,
+    "privacy_classification": "PERSONAL_PRIVATE",
+    "providers_used": [
+      "cortexabv"
+    ],
+    "token_usage": "NOT_METERED",
+    "truncated": true
+  },
+  "provenance": {
+    "observed_at": "2026-08-08T20:59:53Z",
+    "recorded_by": "CORTEX-INTEGRATION-002",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "read-only cortex retrieval context request",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-08T20:59:53Z"
+}
