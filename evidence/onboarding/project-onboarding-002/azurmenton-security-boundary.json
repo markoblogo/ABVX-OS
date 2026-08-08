@@ -1,0 +1,13 @@
+{
+  "schema_version": "v1",
+  "project_id": "azurmenton",
+  "boundaries": [
+    {"area": "booking", "status": "bounded", "evidence": "Turnstile, rate limiting, max request size, server-side validation, Resend, manual confirmation"},
+    {"area": "analytics", "status": "privacy_bounded", "evidence": "aggregate events only; no names, emails, phones or message text"},
+    {"area": "availability", "status": "read_only", "evidence": "external iCal previews; not a booking confirmation"},
+    {"area": "event_ingestion", "status": "review_first", "evidence": "ingestion creates candidates/batches; publication is explicit and human-reviewed"},
+    {"area": "deployment", "status": "human_authorized", "evidence": "Vercel/Cloudflare docs require explicit deployment/change authorization"}
+  ],
+  "unknowns": ["production analytics baseline", "confirmed booking outcome data", "complete source freshness coverage"],
+  "provenance": {"recorded_by": "PROJECT-ONBOARDING-002", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T00:00:00Z"}
+}

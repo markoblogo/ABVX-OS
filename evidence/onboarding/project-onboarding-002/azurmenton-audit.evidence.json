@@ -1,0 +1,14 @@
+{
+  "id": "project-onboarding-002-azurmenton-audit",
+  "source": "read-only local repository audit",
+  "timestamp": "2026-08-08T00:00:00Z",
+  "candidate": "native-azurmenton-repository",
+  "fixture": "project-onboarding-002",
+  "result": "INCONCLUSIVE",
+  "metrics": {"observed_commit": "98d1c45", "target_worktree_clean": true, "locales": 4, "published_event_records": 24, "event_sources": 7, "automated_event_sources": 3, "guide_source_status_fields": 78, "guide_published_on_fields": 10, "deployment_verified": false, "production_analytics_baseline": "unknown"},
+  "stdout_ref": "onboarding/project-onboarding-002/azurmenton-audit.stdout",
+  "stderr_ref": "onboarding/project-onboarding-002/azurmenton-audit.stderr",
+  "artifact_refs": ["onboarding/project-onboarding-002/azurmenton-capability-map.json", "onboarding/project-onboarding-002/azurmenton-security-boundary.json", "docs/audits/project-onboarding-002-azurmenton-strategy-gap-report.md"],
+  "provenance": {"recorded_by": "PROJECT-ONBOARDING-002", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T00:00:00Z"},
+  "environment": {"repository_path": "/Volumes/Work/Work/menton", "branch": "main", "audit_mode": "read-only", "host_platform": "macOS"}
+}
