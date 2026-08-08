@@ -1,0 +1,1 @@
+{"schema_version":"v1","id":"development-harness-001","candidate":"development-harness-matrix","fixture_ids":["development-harness-matrix"],"budget":{"timeout_seconds":120,"max_retries":0,"token_budget":null,"cost_budget":null}}

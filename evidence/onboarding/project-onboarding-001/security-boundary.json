@@ -1,0 +1,11 @@
+{
+  "schema_version": "v1",
+  "project_id": "coqpi",
+  "secrets": "Electron main/backend only; renderer receives no API key",
+  "storage": "OpenAI key uses Electron safeStorage under userData, with environment fallback",
+  "network": "audio/SDP goes to OpenAI only during active realtime listening",
+  "persistence": "transcript persistence disabled by default",
+  "governance": "receipts retain metadata, not transcript, prompt, or secrets",
+  "outbound_actions": "no autonomous sender; no deployment or external write authority",
+  "review_required": "human consent and device/provider readiness before live call"
+}

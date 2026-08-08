@@ -11,9 +11,9 @@ ABVX-OS is the planned local-first control and integration layer for independent
 - Automation is bounded by source/action policy and human approval gates.
 - Minimize dependencies, cost, secrets, and generated state.
 
-## Current scope: FOUNDATION-003A
+## Current scope: FOUNDATION-004
 
-This repository defines the FOUNDATION-001 architecture, the FOUNDATION-002 local bakeoff harness, and the FOUNDATION-003A conditional mission-state provider boundary. LoopX is isolated behind a normalized, fail-closed interface for future long-running development missions only. It contains no sibling-project integration, production writes, paid infrastructure, or general workflow engine.
+This repository defines the FOUNDATION-001 architecture, the FOUNDATION-002 local bakeoff harness, the FOUNDATION-003A conditional mission-state provider boundary, and FOUNDATION-004’s development-harness efficiency fixtures/evidence. LoopX remains isolated behind a normalized, fail-closed interface; external skill packs remain uninstalled and unpromoted. It contains no sibling-project integration, production writes, paid infrastructure, or general workflow engine.
 
 ## Future scope
 

@@ -1,0 +1,39 @@
+{
+  "schema_version": "v1",
+  "project_id": "coqpi",
+  "p0": [
+    "selected microphone and permission path",
+    "active realtime transcript with visible failure/recovery",
+    "fresh selected-context assistant suggestion",
+    "privacy gate before external provider call",
+    "readiness gate must not claim real mic readiness early"
+  ],
+  "p1": [
+    "Ollama text fallback",
+    "company/person context loading",
+    "translation and rephrasing quality",
+    "transient provider retry tuning",
+    "session context handoff"
+  ],
+  "p2": [
+    "offline speech-to-text",
+    "system-audio capture",
+    "broad Finder crawling",
+    "vector database or large RAG"
+  ],
+  "reusable_capabilities": [
+    "selected-context retrieval",
+    "privacy sanitization",
+    "provider retry/fallback",
+    "governance receipts",
+    "smoke readiness diagnostics",
+    "microphone selection",
+    "Finder preparation",
+    "local memory"
+  ],
+  "unknowns": [
+    "real device/network transcript latency",
+    "actual OpenAI Realtime session stability",
+    "consent and provider policy for a real call"
+  ]
+}

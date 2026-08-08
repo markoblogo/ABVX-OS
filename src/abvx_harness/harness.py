@@ -125,6 +125,7 @@ def validate_repository(root: Path) -> list[str]:
     result_schema_path = root / "schemas" / "bakeoff_result.schema.json"
     decision_schema_path = root / "schemas" / "bakeoff_decision.schema.json"
     recovery_schema_path = root / "schemas" / "mission_state_recovery.schema.json"
+    export_schema_path = root / "schemas" / "mission_state_export.schema.json"
     for path in sorted((root / "evidence").rglob("*.json")):
         if path.name.endswith(".evidence.json"):
             validate(load_json(path), load_json(evidence_schema_path), schema_path=evidence_schema_path, root=root, location=str(path))
@@ -134,6 +135,8 @@ def validate_repository(root: Path) -> list[str]:
             validate(load_json(path), load_json(decision_schema_path), schema_path=decision_schema_path, root=root, location=str(path))
         elif path.name.endswith("-succeeded.json") or path.name.endswith("-failed.json"):
             validate(load_json(path), load_json(recovery_schema_path), schema_path=recovery_schema_path, root=root, location=str(path))
+        elif path.name == "state-export.json":
+            validate(load_json(path), load_json(export_schema_path), schema_path=export_schema_path, root=root, location=str(path))
         else:
             continue
         checked.append(str(path.relative_to(root)))

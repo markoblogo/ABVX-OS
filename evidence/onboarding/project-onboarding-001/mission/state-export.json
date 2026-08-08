@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "mission_id": "COQPI-CALL-READY-001",
+  "objective": "Make CoqPi call-ready for a real professional call.",
+  "status": "completed",
+  "work_state": {
+    "technical_slice": "Prevent readiness UI from claiming real-mic readiness before the realtime path is ready.",
+    "test_commands": ["pnpm test:pass2-live-smoke-readiness", "pnpm typecheck"]
+  },
+  "gates": [{"id": "human-review-of-live-call-risk", "status": "approved", "decision": "approved"}],
+  "retry": {"attempt": 0, "max_retries": 1},
+  "evidence_refs": ["coqpi-readiness-regression", "coqpi-targeted-tests"],
+  "quota": {"timeout_seconds": 900, "token_budget": null, "cost_budget": null},
+  "waiting_for_human": false,
+  "terminal": true,
+  "revision": 5
+}

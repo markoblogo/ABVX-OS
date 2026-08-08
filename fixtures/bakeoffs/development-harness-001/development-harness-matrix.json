@@ -1,0 +1,1 @@
+{"id":"development-harness-matrix","description":"Run three deterministic coding fixtures against the native, selected Matt, selected Addy, and Ponytail ON/OFF configuration matrix.","command":["python3","fixtures/bakeoffs/development-harness-001/fixture_runner.py"],"expected_exit_status":0,"artifact_paths":["fixtures/bakeoffs/development-harness-001/fixture_runner.py"]}

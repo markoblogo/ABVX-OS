@@ -1,0 +1,22 @@
+{
+  "schema_version": "v1",
+  "mission_id": "COQPI-CALL-READY-001",
+  "candidate": "loopx",
+  "provider_boundary": "abvx.LoopXMissionStateProvider",
+  "result": "CONDITIONAL_PASS",
+  "checks": {
+    "fresh_mission": true,
+    "normalized_work_state": true,
+    "gate_blocks_resume": true,
+    "corruption_fails_closed": true,
+    "recovery_succeeds": true,
+    "gate_remains_closed_after_recovery": true,
+    "complete": true,
+    "terminal_cannot_restart": true,
+    "export_is_normalized": true
+  },
+  "integrity_model": "known missing, unreadable, corrupt, or structurally mismatched LoopX state raises MissionIntegrityError; only explicit create initializes state",
+  "recovery": "latest valid ABVX snapshot restored through adapter; recovery evidence written",
+  "external_execution": "not_run",
+  "stop_state": "STOP_FOR_HUMAN_DECISION"
+}

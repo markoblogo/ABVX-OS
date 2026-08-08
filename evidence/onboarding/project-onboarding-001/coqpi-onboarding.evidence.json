@@ -1,0 +1,34 @@
+{
+  "id": "coqpi-project-onboarding-001",
+  "source": "local-repository-inspection",
+  "timestamp": "2026-08-08T14:00:00Z",
+  "candidate": "CoqPi",
+  "fixture": "PROJECT-ONBOARDING-001",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "repository": "https://github.com/markoblogo/CoqPi",
+    "commit": "552d9857fce3f9058fe7f7f4e6faa8b247c49523",
+    "architecture": "Electron main + preload/IPC + React renderer + backend services",
+    "p0_slice": "real-mic readiness must require realtimeReady",
+    "p0_slice_status": "implemented and targeted-tested",
+    "live_call_status": "NOT_RUN"
+  },
+  "stdout_ref": "evidence/onboarding/project-onboarding-001/README-inspection.txt",
+  "stderr_ref": "evidence/onboarding/project-onboarding-001/none",
+  "artifact_refs": [
+    "evidence/onboarding/project-onboarding-001/capability-map.json",
+    "evidence/onboarding/project-onboarding-001/security-boundary.json",
+    "evidence/onboarding/project-onboarding-001/mission/COQPI-CALL-READY-001-pilot.json"
+  ],
+  "provenance": {
+    "recorded_by": "PROJECT-ONBOARDING-001",
+    "source_uri": "https://github.com/markoblogo/CoqPi",
+    "observed_at": "2026-08-08T14:00:00Z"
+  },
+  "environment": {
+    "host": "local macOS workspace",
+    "abvx_project_root": "/Volumes/Work/Work/ABVX-OS",
+    "coqpi_project_root": "/Volumes/Work/Work/CoqPi",
+    "external_execution": "not_run"
+  }
+}
