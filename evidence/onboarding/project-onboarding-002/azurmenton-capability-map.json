@@ -1,0 +1,30 @@
+{
+  "schema_version": "v1",
+  "project_id": "azurmenton",
+  "observed_commit": "98d1c45",
+  "classification_legend": ["STRONG", "FUNCTIONAL", "PARTIAL", "WEAK", "ABSENT", "UNKNOWN"],
+  "product_surface": {
+    "discover_menton": "FUNCTIONAL",
+    "plan_a_stay": "STRONG",
+    "what_to_do_now": "PARTIAL",
+    "practical_help": "STRONG",
+    "nearby_options": "FUNCTIONAL",
+    "apartments": "STRONG",
+    "books_publishing": "ABSENT",
+    "local_media": "ABSENT",
+    "multilingual_experience": "FUNCTIONAL"
+  },
+  "capabilities": [
+    {"id": "guide-content-graph", "classification": "CLEARLY_REUSABLE", "evidence": "typed guide/place/stay relationships and related-content rendering"},
+    {"id": "event-ingestion-review", "classification": "POTENTIALLY_REUSABLE", "evidence": "source registry, narrow adapters, deterministic normalization/dedupe, review-first batches"},
+    {"id": "localization-seo-primitives", "classification": "CLEARLY_REUSABLE", "evidence": "four locales, localized routes, canonical/hreflang, sitemap and structured data"},
+    {"id": "guide-freshness", "classification": "POTENTIALLY_REUSABLE", "evidence": "sourceStatus and publication metadata exist, but freshness is not uniform"},
+    {"id": "booking-attribution", "classification": "POTENTIALLY_REUSABLE", "evidence": "aggregate Plausible funnel contract with source page and slug dimensions"},
+    {"id": "living-publication-source", "classification": "POTENTIALLY_REUSABLE", "evidence": "typed content and events are repository-local and reviewable"},
+    {"id": "event-freshness-observatory", "classification": "CAPABILITY_CANDIDATE", "evidence": "report-only health model, source observations, date-window coverage and explicit unknown state"},
+    {"id": "source-health-observability", "classification": "CAPABILITY_CANDIDATE", "evidence": "configured source registry joined with committed batch sourceRuns without external fetches"},
+    {"id": "editorial-observability", "classification": "CAPABILITY_CANDIDATE", "evidence": "machine-readable operator report; shared extraction not justified before a second project need"}
+  ],
+  "counts": {"locales": 4, "published_event_records_observed": 24, "event_date_status_fields_observed": 43, "event_sources": 7, "automated_event_sources": 3, "guide_source_status_fields_observed": 78, "guide_published_on_fields_observed": 10},
+  "provenance": {"recorded_by": "PROJECT-ONBOARDING-002", "source_uri": "https://github.com/markoblogo/azurmenton", "observed_at": "2026-08-08T00:00:00Z"}
+}
