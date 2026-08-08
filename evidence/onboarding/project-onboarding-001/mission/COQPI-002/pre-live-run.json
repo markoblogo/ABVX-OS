@@ -1,0 +1,15 @@
+{
+  "mission_id": "COQPI-002",
+  "provider_boundary": "abvx.MissionStateProvider",
+  "status": "waiting_for_human",
+  "readiness_status": "READY_FOR_LIVE_VALIDATION",
+  "scheduled_not_before": "2026-08-10",
+  "live_smoke_started": false,
+  "audio_transmitted": false,
+  "gate": {
+    "id": "human-consented-live-microphone-smoke",
+    "status": "open",
+    "decision": null
+  },
+  "recorded_at": "2026-08-08T14:41:41Z"
+}

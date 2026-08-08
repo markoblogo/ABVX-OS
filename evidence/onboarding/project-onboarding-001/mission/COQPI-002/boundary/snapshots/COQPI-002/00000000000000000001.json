@@ -1,0 +1,44 @@
+{
+  "mission_id": "COQPI-002",
+  "revision": 1,
+  "schema_version": "v1",
+  "sha256": "de316b2dea32f84774ddc53241f72251f358209ca73d960925f601b42cd165a5",
+  "state": {
+    "evidence_refs": [
+      "evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json",
+      "docs/checklists/coqpi-002-monday-live.md"
+    ],
+    "gates": [],
+    "mission_id": "COQPI-002",
+    "objective": "Complete the CoqPi pre-live readiness pass and defer the first human-consented live smoke to Monday.",
+    "quota": {
+      "scheduled_not_before": "2026-08-10",
+      "timeout_seconds": 900
+    },
+    "retry": {
+      "attempt": 0,
+      "max_retries": 0
+    },
+    "revision": 1,
+    "schema_version": "v1",
+    "status": "new",
+    "terminal": false,
+    "waiting_for_human": false,
+    "work_state": {
+      "audio_transmitted": false,
+      "live_smoke_started": false,
+      "live_validation_required": [
+        "human confirms system-default input/output",
+        "one 30-90 second synthetic-speech smoke",
+        "one recoverable interruption test"
+      ],
+      "mission_status": "WAITING_FOR_HUMAN",
+      "post_live": [
+        "classify READY_FOR_CONTROLLED_REAL_CALL, CONDITIONALLY_READY, or NOT_READY"
+      ],
+      "pre_live_blockers": [],
+      "readiness_status": "READY_FOR_LIVE_VALIDATION",
+      "scheduled_not_before": "2026-08-10"
+    }
+  }
+}

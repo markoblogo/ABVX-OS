@@ -1,0 +1,43 @@
+{
+  "id": "coqpi-002-pre-live-readiness",
+  "source": "coqpi-static-and-non-microphone-preflight",
+  "timestamp": "2026-08-08T14:41:41Z",
+  "candidate": "CoqPi",
+  "fixture": "COQPI-002",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "pre_live_status": "READY_FOR_LIVE_VALIDATION",
+    "mission_status": "WAITING_FOR_HUMAN",
+    "scheduled_not_before": "2026-08-10",
+    "microphone_accessed": false,
+    "audio_transmitted": false,
+    "system_default_input": "supported by empty device constraint; manual device ID remains available",
+    "system_default_output": "not overridden by CoqPi; macOS default remains in effect",
+    "openai_realtime_path": "configured through backend SDP exchange",
+    "transcript_persistence": "disabled by default",
+    "raw_audio_persistence": "none introduced",
+    "non_microphone_tests": "64 PASS",
+    "build": "PASS",
+    "typecheck": "PASS",
+    "abvx_validation": "PASS",
+    "live_classification": "DEFERRED"
+  },
+  "stdout_ref": "evidence/onboarding/project-onboarding-001/mission/COQPI-002/pre-live-run.json",
+  "stderr_ref": "evidence/onboarding/project-onboarding-001/mission/COQPI-002/no-stderr",
+  "artifact_refs": [
+    "docs/checklists/coqpi-002-monday-live.md",
+    "evidence/onboarding/project-onboarding-001/mission/COQPI-002/state-export.json",
+    "evidence/onboarding/project-onboarding-001/mission/COQPI-002/RESUME.md"
+  ],
+  "provenance": {
+    "recorded_by": "COQPI-002-pre-live-pass",
+    "source_uri": "https://github.com/markoblogo/CoqPi",
+    "observed_at": "2026-08-08T14:41:41Z"
+  },
+  "environment": {
+    "abvx_project_root": "/Volumes/Work/Work/ABVX-OS",
+    "coqpi_project_root": "/Volumes/Work/Work/CoqPi",
+    "external_provider_contacted": false,
+    "microphone_permission_requested": false
+  }
+}

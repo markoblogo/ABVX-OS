@@ -1,0 +1,50 @@
+{
+  "mission_id": "COQPI-002",
+  "revision": 2,
+  "schema_version": "v1",
+  "sha256": "ee96f6debc1a93b67a46418b194410d8089b0fdf354873782c88ba4c6907ac02",
+  "state": {
+    "evidence_refs": [
+      "evidence/onboarding/project-onboarding-001/coqpi-002-pre-live.evidence.json",
+      "docs/checklists/coqpi-002-monday-live.md"
+    ],
+    "gates": [
+      {
+        "decision": null,
+        "id": "human-consented-live-microphone-smoke",
+        "status": "open"
+      }
+    ],
+    "mission_id": "COQPI-002",
+    "objective": "Complete the CoqPi pre-live readiness pass and defer the first human-consented live smoke to Monday.",
+    "quota": {
+      "scheduled_not_before": "2026-08-10",
+      "timeout_seconds": 900
+    },
+    "retry": {
+      "attempt": 0,
+      "max_retries": 0
+    },
+    "revision": 2,
+    "schema_version": "v1",
+    "status": "waiting_for_human",
+    "terminal": false,
+    "waiting_for_human": true,
+    "work_state": {
+      "audio_transmitted": false,
+      "live_smoke_started": false,
+      "live_validation_required": [
+        "human confirms system-default input/output",
+        "one 30-90 second synthetic-speech smoke",
+        "one recoverable interruption test"
+      ],
+      "mission_status": "WAITING_FOR_HUMAN",
+      "post_live": [
+        "classify READY_FOR_CONTROLLED_REAL_CALL, CONDITIONALLY_READY, or NOT_READY"
+      ],
+      "pre_live_blockers": [],
+      "readiness_status": "READY_FOR_LIVE_VALIDATION",
+      "scheduled_not_before": "2026-08-10"
+    }
+  }
+}

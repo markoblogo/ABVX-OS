@@ -1,0 +1,26 @@
+{
+  "mission_id": "COQPI-002",
+  "revision": 0,
+  "schema_version": "v1",
+  "sha256": "85ce9fa91fe229b2ed2a421570e14d3399cb3915c8d68b7c315ea366e15e3597",
+  "state": {
+    "evidence_refs": [],
+    "gates": [],
+    "mission_id": "COQPI-002",
+    "objective": "Complete the CoqPi pre-live readiness pass and defer the first human-consented live smoke to Monday.",
+    "quota": {
+      "scheduled_not_before": "2026-08-10",
+      "timeout_seconds": 900
+    },
+    "retry": {
+      "attempt": 0,
+      "max_retries": 0
+    },
+    "revision": 0,
+    "schema_version": "v1",
+    "status": "new",
+    "terminal": false,
+    "waiting_for_human": false,
+    "work_state": {}
+  }
+}
