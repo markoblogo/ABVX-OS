@@ -99,6 +99,17 @@
       "candidate_capability": "freshness_policy",
       "recommended_action": "Record cadence guidance; do not build a scheduler or daemon.",
       "status": "recorded"
+    },
+    {
+      "id": "platform-universal-artifact-intake",
+      "originating_project": "abvx-os",
+      "originating_mission": "PLATFORM-INTAKE-001",
+      "observed_need": "Arbitrary owner material needs one local preservation and advisory-routing boundary before downstream taxonomy or project priority is chosen.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["schemas/intake_item.schema.json", "docs/intake.md", "intake/items/headlands.json"],
+      "candidate_capability": "universal_artifact_intake",
+      "recommended_action": "Keep as the canonical ABVX intake boundary; add one explicit source integration only after human review of this MVP.",
+      "status": "recorded"
     }
   ]
 }

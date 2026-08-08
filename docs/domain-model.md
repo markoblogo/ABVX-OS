@@ -9,6 +9,7 @@ Entities are minimal records with stable IDs, timestamps where relevant, provena
 | Mission | Bounded pursuit of an outcome | decomposes to tasks, emits events |
 | Task | Actionable unit with owner/status | belongs to mission, affects project |
 | Event | Immutable intake or system occurrence | from source, relates to entities, routes to work |
+| IntakeItem | Preserved arbitrary incoming material awaiting advisory classification | has raw input, relates to projects/assets, proposes routes, may require clarification |
 | Source | Origin and trust/policy boundary | emits events, permits actions |
 | Person | Human identity or participant | owns, approves, belongs to organization |
 | Organization | Company, group, or external body | owns project, publishes source |

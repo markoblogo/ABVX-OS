@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "id": "cigarette-index",
+  "created_at": "2026-08-08T00:00:00Z",
+  "source": {"kind": "URL", "label": "owner"},
+  "input_type": "URL",
+  "raw_input": {"value": "https://cig-index.vercel.app/", "reference": "https://cig-index.vercel.app/"},
+  "title": "Cigarette Index",
+  "summary": "Candidate for a future collection of unusual or alternative indices inside the unfinished 1D3X POP project.",
+  "classification": {"primary_type": "EXTERNAL_PROJECT", "secondary_types": ["REFERENCE"], "confidence": 0.95},
+  "related_entities": [{"kind": "PROJECT", "id": "pop", "confidence": "HIGH"}, {"kind": "PROJECT", "id": "1d3x", "confidence": "HIGH"}],
+  "possible_routes": ["EXTERNAL_CANDIDATE_REGISTRY", "PROJECT"],
+  "suggested_actions": ["Record as a candidate Alternative Index Library entry; do not integrate"],
+  "clarification": {"required": false, "question": null, "answer": null, "answered_at": null},
+  "related_item_ids": ["pop-development-idea"],
+  "status": "PROPOSED",
+  "provenance": {"recorded_by": "PLATFORM-INTAKE-001", "captured_at": "2026-08-08T00:00:00Z", "source_uri": "https://cig-index.vercel.app/"}
+}
