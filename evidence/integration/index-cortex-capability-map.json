@@ -1,0 +1,66 @@
+{
+  "schema_version": "v1",
+  "project_id": "index-cortex",
+  "observed_commit": "9912bf15b85fd80726ac295771550dfa957c52cc",
+  "classification_legend": [
+    "STRONG",
+    "FUNCTIONAL",
+    "PARTIAL",
+    "WEAK",
+    "ABSENT",
+    "UNKNOWN"
+  ],
+  "product_surface": {
+    "source_scan_manifest": "FUNCTIONAL",
+    "chunk_manifest_pipeline": "FUNCTIONAL",
+    "bounded_context_pack_api": "FUNCTIONAL",
+    "ecosystem_evidence_pack": "FUNCTIONAL",
+    "market_workforce_ledger": "FUNCTIONAL",
+    "governance_shadow_layer": "FUNCTIONAL",
+    "index_methodology_memory": "STRONG",
+    "personal_context_model": "ABSENT",
+    "source_scope_hygiene": "WEAK",
+    "cross_portfolio_operational_state": "ABSENT"
+  },
+  "capabilities": [
+    {
+      "id": "bounded_context_pack_building",
+      "classification": "CLEARLY_REUSABLE",
+      "evidence": "bounded query, owner/source filters, token budget and known-gap reporting"
+    },
+    {
+      "id": "ecosystem_domain_evidence",
+      "classification": "POTENTIALLY_REUSABLE",
+      "evidence": "market/domain evidence assembly across index, mediahub, mn7r and cropto"
+    },
+    {
+      "id": "shadow_governance_and_readiness",
+      "classification": "POTENTIALLY_REUSABLE",
+      "evidence": "governance receipts, sgr-lite checkpoints and readiness monitors remain shadow-first"
+    },
+    {
+      "id": "source_scan_hygiene",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence": "scanner/chunk pipeline is useful, but current corpus still admits noisy local session/cache artifacts"
+    }
+  ],
+  "counts": {
+    "source_manifest_files": 414,
+    "chunk_manifest_chunks": 11013,
+    "source_manifest_size_bytes": 5620582,
+    "source_kind_counts": {
+      "action_event": 9,
+      "archive": 37,
+      "code": 187,
+      "development_plan": 1,
+      "manual_book": 16,
+      "repo_doc": 56,
+      "site_content": 108
+    }
+  },
+  "provenance": {
+    "recorded_by": "CORTEX-INTEGRATION-001",
+    "source_uri": null,
+    "observed_at": "2026-08-08T21:10:00Z"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "cortexabv",
+      "name": "CortexABV",
+      "status": "active",
+      "local_paths": [
+        "/Volumes/Work/Work/ABVXsite/cortex-abv",
+        "/Volumes/Work/Work/CortexABV-private"
+      ],
+      "observed_commits": {
+        "public_adapter": "fcafd0c89b87ba71956c6d68c8205e518d9eeae8",
+        "private_runtime": "59909c4a23af4fed20976a16e6ac01f76659e6fe"
+      },
+      "lifecycle_state": "active_private_contract_runtime_with_public_adapter_boundary",
+      "purpose": "Personal, portfolio and cross-project knowledge/memory layer with private canonical facts, selective admission, and proposal-only public projection.",
+      "independence": {
+        "deployable_without_abvx_os": true
+      },
+      "runtime": {
+        "public_adapter": "static/public contract boundary inside ABVXsite",
+        "private_runtime": "local Node.js contract runtime with append-only ledger and no HTTP service"
+      },
+      "storage_model": {
+        "private_ledger": "append-only JSONL",
+        "memory_bank": "tenant-scoped contract-first shadow retrieval",
+        "database": "none observed"
+      },
+      "boundaries": {
+        "cross_tenant_access": "deny",
+        "public_write_mode": "proposal_only",
+        "source_return_authority": "none"
+      },
+      "known_risks": [
+        "public snapshot and private runtime can drift",
+        "vector pilot ladder is heavier than current ABVX near-term bridge needs",
+        "no small read-only retrieval bridge for ABVX consumers exists yet",
+        "local-private storage is not documented as encrypted at rest"
+      ],
+      "unknowns": [
+        "live activated vector retrieval runtime state",
+        "future deployment model beyond local-only private runtime"
+      ],
+      "provenance": {
+        "recorded_by": "CORTEX-INTEGRATION-001",
+        "source_uri": null,
+        "observed_at": "2026-08-08T21:10:00Z"
+      }
+    }
+  ]
+}

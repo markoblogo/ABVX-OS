@@ -1,0 +1,79 @@
+{
+  "id": "cortex-integration-001-boundary-audit",
+  "source": "ABVX Cortex discovery and boundary audit",
+  "timestamp": "2026-08-08T21:10:00Z",
+  "candidate": "cortex-boundary-audit",
+  "fixture": "CORTEX-INTEGRATION-001",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "repositories_audited": {
+      "cortexabv_public_adapter": {
+        "path": "/Volumes/Work/Work/ABVXsite/cortex-abv",
+        "commit": "fcafd0c89b87ba71956c6d68c8205e518d9eeae8"
+      },
+      "cortexabv_private": {
+        "path": "/Volumes/Work/Work/CortexABV-private",
+        "commit": "59909c4a23af4fed20976a16e6ac01f76659e6fe"
+      },
+      "index_cortex": {
+        "path": "/Volumes/Work/Work/index",
+        "commit": "9912bf15b85fd80726ac295771550dfa957c52cc"
+      }
+    },
+    "ownership_summary": {
+      "abvx_operational": 6,
+      "cortexabv_knowledge": 5,
+      "index_cortex_domain": 4,
+      "reference_only": 1,
+      "shared_clear_owner": 1
+    },
+    "readiness": {
+      "intake_integration": "PARTIAL",
+      "coqpi_integration": "PARTIAL_TO_STRONG_CONTRACT",
+      "abvx_xyz_projection": "PARTIAL",
+      "read_only_bridge": "NOT_IMPLEMENTED"
+    },
+    "blocking_deficiency": "Index Cortex source-manifest and chunk corpus currently include noisy session/cache/build artifacts, weakening trust and minimization.",
+    "next_slice": "D",
+    "checks": {
+      "cortexabv_private_tests": "PASS 78/78",
+      "cortexabv_private_contract_checks": [
+        "tenant:check PASS",
+        "memory-bank:check PASS",
+        "azur-menton:check PASS",
+        "coqpi:context-pack:check PASS"
+      ],
+      "index_cortex_targeted_tests": "PASS 12/12",
+      "index_cortex_json_parse": "PASS",
+      "sibling_repo_mutation": "NO_CHANGE_OBSERVED"
+    },
+    "external_candidate_mapping": {
+      "hyperresearch": "possible future deep-research provider pattern source",
+      "others": "no local registry or intake evidence observed in this audit"
+    }
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "docs/audits/cortex-integration-001-boundary-audit.md",
+    "registries/projects/cortexabv.json",
+    "registries/projects/index-cortex.json",
+    "evidence/integration/cortexabv-capability-map.json",
+    "evidence/integration/index-cortex-capability-map.json",
+    "portfolio/lessons.json",
+    "external:/Volumes/Work/Work/CortexABV-private/README.md",
+    "external:/Volumes/Work/Work/index/.cortex/source-manifest.json"
+  ],
+  "provenance": {
+    "recorded_by": "CORTEX-INTEGRATION-001",
+    "source_uri": null,
+    "observed_at": "2026-08-08T21:10:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "production_mutation": false,
+    "cortex_repositories_modified": false,
+    "network": "official-source review limited to candidate comparison only; no new bakeoff"
+  }
+}

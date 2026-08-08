@@ -143,6 +143,36 @@
       "candidate_capability": "publication_workflow",
       "recommended_action": "Observe a second human-created publication before extracting shared automation; keep factual review, translations, image approval and distribution human/editorial.",
       "status": "recorded"
+    },
+    {
+      "id": "cortex-operational-vs-knowledge-boundary",
+      "originating_project": "abvx-os",
+      "originating_mission": "CORTEX-INTEGRATION-001",
+      "observed_need": "Operational control-plane state and long-term knowledge need separate canonical owners, otherwise ABVX absorbs memory scope it should not own.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": [
+        "docs/audits/cortex-integration-001-boundary-audit.md",
+        "evidence/integration/cortex-integration-001-outcome.evidence.json",
+        "registries/projects/cortexabv.json",
+        "registries/projects/index-cortex.json"
+      ],
+      "candidate_capability": "knowledge_admission_boundary",
+      "recommended_action": "Keep ABVX operational-only; add a read-only Cortex bridge only after fixing Index Cortex source-admission hygiene.",
+      "status": "recorded"
+    },
+    {
+      "id": "cortex-context-pack-contract-candidate",
+      "originating_project": "abvx-os",
+      "originating_mission": "CORTEX-INTEGRATION-001",
+      "observed_need": "Agents need a small task-specific ContextRequest/ContextPack contract so they stop reconstructing full project history for routine work.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": [
+        "docs/audits/cortex-integration-001-boundary-audit.md",
+        "evidence/integration/cortex-integration-001-outcome.evidence.json"
+      ],
+      "candidate_capability": "context_pack_contract",
+      "recommended_action": "Do not build a full compiler yet; first establish a read-only bridge and clean domain source admission.",
+      "status": "recorded"
     }
   ]
 }

@@ -1,0 +1,68 @@
+{
+  "schema_version": "v1",
+  "project_id": "cortexabv",
+  "observed_commits": {
+    "public_adapter": "fcafd0c89b87ba71956c6d68c8205e518d9eeae8",
+    "private_runtime": "59909c4a23af4fed20976a16e6ac01f76659e6fe"
+  },
+  "classification_legend": [
+    "STRONG",
+    "FUNCTIONAL",
+    "PARTIAL",
+    "WEAK",
+    "ABSENT",
+    "UNKNOWN"
+  ],
+  "product_surface": {
+    "private_import_ledger": "STRONG",
+    "tenant_isolation": "STRONG",
+    "personal_context_model": "STRONG",
+    "project_memory_banks": "FUNCTIONAL",
+    "proposal_governance_chain": "FUNCTIONAL",
+    "coqpi_context_contract": "FUNCTIONAL",
+    "azurmenton_source_pack_contract": "FUNCTIONAL",
+    "generic_read_only_retrieval_bridge": "ABSENT",
+    "live_vector_runtime": "UNKNOWN",
+    "public_write_execution": "ABSENT"
+  },
+  "capabilities": [
+    {
+      "id": "append_only_import_ledger",
+      "classification": "CLEARLY_REUSABLE",
+      "evidence": "hash-chained JSONL ledger with admission-backed append semantics"
+    },
+    {
+      "id": "tenant_memory_bank_contracts",
+      "classification": "CLEARLY_REUSABLE",
+      "evidence": "tenant-scoped memory banks, recall tiers, governance tiers and source-scope tiers"
+    },
+    {
+      "id": "proposal_only_public_projection",
+      "classification": "POTENTIALLY_REUSABLE",
+      "evidence": "proposal, review and non-executing write-intent contracts toward public surfaces"
+    },
+    {
+      "id": "coqpi_compact_context_export",
+      "classification": "POTENTIALLY_REUSABLE",
+      "evidence": "reviewed compact pack contract with strict private/read-only boundary"
+    },
+    {
+      "id": "vector_runtime_pilot_ladder",
+      "classification": "PROJECT_SPECIFIC",
+      "evidence": "extensive staged pilot/readiness chain exists but is heavier than current ABVX near-term need"
+    }
+  ],
+  "counts": {
+    "private_src_files": 34,
+    "private_docs": 34,
+    "private_config_files": 13,
+    "private_npm_scripts": 21,
+    "public_snapshot_src_files": 54,
+    "public_snapshot_receipts": 35
+  },
+  "provenance": {
+    "recorded_by": "CORTEX-INTEGRATION-001",
+    "source_uri": null,
+    "observed_at": "2026-08-08T21:10:00Z"
+  }
+}

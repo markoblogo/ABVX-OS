@@ -1,0 +1,39 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "index-cortex",
+      "name": "Index Cortex",
+      "status": "active",
+      "local_path": "/Volumes/Work/Work/index",
+      "observed_commit": "9912bf15b85fd80726ac295771550dfa957c52cc",
+      "lifecycle_state": "active_internal_domain_intelligence_layer",
+      "purpose": "Index, market, methodology, source and observation intelligence layer for the 1D3X ecosystem.",
+      "independence": {
+        "deployable_without_abvx_os": true
+      },
+      "runtime": {
+        "application": "Next.js internal Cortex routes plus local artifact scripts",
+        "storage": ".cortex manifests plus internal ledgers/evidence inside index platform"
+      },
+      "retrieval": {
+        "current_mode": "bounded chunk-manifest search plus ecosystem evidence context pack",
+        "personal_context": "not supported"
+      },
+      "known_risks": [
+        "source scan currently admits noisy session/cache/build artifacts into the corpus",
+        "internal runtime and offline artifact generation are tightly coupled inside one product repo",
+        "broad ecosystem scope can dilute retrieval relevance"
+      ],
+      "unknowns": [
+        "full production scope of all internal Cortex runtime surfaces",
+        "future separation between domain memory and operational runtime concerns"
+      ],
+      "provenance": {
+        "recorded_by": "CORTEX-INTEGRATION-001",
+        "source_uri": null,
+        "observed_at": "2026-08-08T21:10:00Z"
+      }
+    }
+  ]
+}
