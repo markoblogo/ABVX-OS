@@ -1,0 +1,217 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "gap-personal-operator",
+      "capability": "Personal Operator",
+      "what_abvx_already_has": [
+        "Universal Artifact Intake",
+        "read-only Cortex context retrieval",
+        "mission-state boundary",
+        "playbook replay for routine deterministic operations"
+      ],
+      "plausible_donors": [
+        "Waku Agent",
+        "OpenMinis",
+        "LoopX patterns only for mission-local state"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "general personal operator runtime",
+        "persistent conversational operating shell",
+        "broad autonomous task system"
+      ],
+      "next_real_trigger": "A concrete owner workflow requires repeated cross-project assistance beyond current intake, context retrieval, and playbooks."
+    },
+    {
+      "id": "gap-opportunity-engine",
+      "capability": "Opportunity Engine",
+      "what_abvx_already_has": [
+        "portfolio state",
+        "project strategy",
+        "proof/context retrieval",
+        "opportunity content collection"
+      ],
+      "plausible_donors": [
+        "Cortex patterns",
+        "HyperResearch as research pattern source"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "broad scoring engine",
+        "always-on opportunity crawler",
+        "generic lead pipeline UI"
+      ],
+      "next_real_trigger": "Repeated lost opportunities or repeated manual prep loops across live projects justify a bounded MVP."
+    },
+    {
+      "id": "gap-media-resource",
+      "capability": "Media Resource",
+      "what_abvx_already_has": [
+        "media channels registry",
+        "content/revenue asset registries",
+        "AzurMenton operational playbooks"
+      ],
+      "plausible_donors": [
+        "UNRECORDED in current ABVX evidence"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "general media DAM",
+        "cross-project asset backend",
+        "multi-surface publishing hub"
+      ],
+      "next_real_trigger": "Two or more active projects require the same reusable media/proof asset workflow."
+    },
+    {
+      "id": "gap-revenue-experiment-engine",
+      "capability": "Revenue/Experiment Engine",
+      "what_abvx_already_has": [
+        "evidence model",
+        "playbook event emission",
+        "portfolio strategy and state"
+      ],
+      "plausible_donors": [
+        "UNRECORDED in current ABVX evidence"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "generic growth platform",
+        "always-on experiment scheduler",
+        "full analytics orchestration layer"
+      ],
+      "next_real_trigger": "A revenue surface needs repeated experiment tracking beyond project-local implementation."
+    },
+    {
+      "id": "gap-research-engine",
+      "capability": "Research Engine",
+      "what_abvx_already_has": [
+        "intake",
+        "context retrieval",
+        "evidence recording"
+      ],
+      "plausible_donors": [
+        "HyperResearch",
+        "SurfSense",
+        "Open Notebook",
+        "AnythingLLM"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "custom deep-research stack",
+        "broad ingestion pipeline",
+        "persistent research runtime"
+      ],
+      "next_real_trigger": "A repeated research workflow becomes expensive enough that manual/context-pack methods stop being acceptable."
+    },
+    {
+      "id": "gap-book-factory",
+      "capability": "Book Factory",
+      "what_abvx_already_has": [
+        "Cortex context retrieval",
+        "content asset concepts",
+        "editorial workflow experience"
+      ],
+      "plausible_donors": [
+        "UNRECORDED in current ABVX evidence"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "full publishing pipeline",
+        "general authoring platform",
+        "asset transformation factory"
+      ],
+      "next_real_trigger": "A real book-production workflow repeats often enough to justify reusable tooling."
+    },
+    {
+      "id": "gap-project-intelligence",
+      "capability": "Project Intelligence",
+      "what_abvx_already_has": [
+        "read-only context retrieval",
+        "Index/Cortex bridge direction",
+        "project registries and evidence"
+      ],
+      "plausible_donors": [
+        "Graphify",
+        "SocratiCode",
+        "OpenWiki"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "custom repository intelligence platform",
+        "cross-repo auto-index fabric",
+        "general code knowledge graph"
+      ],
+      "next_real_trigger": "Two or more projects need the same repeated repo-intelligence behavior beyond current bounded retrieval."
+    },
+    {
+      "id": "gap-external-actions",
+      "capability": "External Actions",
+      "what_abvx_already_has": [
+        "approval model",
+        "provider contracts",
+        "playbook boundaries"
+      ],
+      "plausible_donors": [
+        "Agent-Reach",
+        "Composio",
+        "OpenCLI",
+        "integrations.sh"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "generic integrations framework",
+        "broad action broker",
+        "cross-service action plane"
+      ],
+      "next_real_trigger": "A concrete external action is needed repeatedly and cannot stay project-local or manual."
+    },
+    {
+      "id": "gap-autonomous-support-bug-intake",
+      "capability": "Autonomous Support/Bug Intake",
+      "what_abvx_already_has": [
+        "artifact intake",
+        "classification",
+        "playbook model"
+      ],
+      "plausible_donors": [
+        "Matt/Addy/Ponytail patterns only"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "general support agent",
+        "autonomous bug router",
+        "persistent support workflow engine"
+      ],
+      "next_real_trigger": "A project starts receiving enough repeated support or bug traffic that manual intake becomes a bottleneck."
+    },
+    {
+      "id": "gap-autonomous-oss-discovery",
+      "capability": "Autonomous OSS Discovery",
+      "what_abvx_already_has": [
+        "external candidate registry",
+        "intake for candidate capture",
+        "bakeoff protocol"
+      ],
+      "plausible_donors": [
+        "HyperResearch patterns",
+        "research-engine donors if later admitted"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "always-on crawler",
+        "continuous candidate evaluator",
+        "repo-wide discovery daemon"
+      ],
+      "next_real_trigger": "The portfolio needs repeated candidate discovery often enough that ad hoc intake and bounded audits are too expensive."
+    },
+    {
+      "id": "gap-multi-device-one-window-ui",
+      "capability": "Multi-device/One Window UI",
+      "what_abvx_already_has": [
+        "registries",
+        "state docs",
+        "CLI/harness surfaces"
+      ],
+      "plausible_donors": [
+        "UNRECORDED in current ABVX evidence"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "general dashboard",
+        "portfolio command center UI",
+        "multi-device sync plane"
+      ],
+      "next_real_trigger": "The owner needs one operational surface frequently enough that docs/CLI/local project tools no longer suffice."
+    }
+  ]
+}

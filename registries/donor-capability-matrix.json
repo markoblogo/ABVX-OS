@@ -1,0 +1,278 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "mission-control-loopx",
+      "capability_area": "Mission/control",
+      "candidate": "LoopX",
+      "locator": "huangruiteng/loopx",
+      "status": "CONDITIONAL",
+      "evidence_basis": "human-approved conditional admission after mission-control-001",
+      "evidence_refs": [
+        "registries/external-candidates/index.json",
+        "docs/decisions/mission-control-001.md",
+        "docs/decisions/FOUNDATION-003A-loopx-admission.md",
+        "evidence/bakeoffs/mission-control-001/decision.json"
+      ],
+      "notes": "Approved only as the optional long-running development mission state provider through the ABVX boundary. Not a general workflow engine or control plane."
+    },
+    {
+      "id": "mission-control-beads",
+      "capability_area": "Mission/control",
+      "candidate": "Beads",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "Named in current planning vocabulary but not present in ABVX registries, intake, decisions, or evidence."
+    },
+    {
+      "id": "execution-prime-agent",
+      "capability_area": "Execution",
+      "candidate": "Prime Agent",
+      "locator": "PrimeIntellect-ai/prime-agent",
+      "status": "UNRECORDED",
+      "evidence_basis": "seeded candidate entry only",
+      "evidence_refs": [
+        "registries/external-candidates/index.json",
+        "docs/decisions/mission-control-001.md"
+      ],
+      "notes": "Exists as a seeded candidate and as a future portability-check reference, but no repository-context analysis or bakeoff evidence is recorded."
+    },
+    {
+      "id": "execution-openworker",
+      "capability_area": "Execution",
+      "candidate": "OpenWorker",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "personal-operator-waku-agent",
+      "capability_area": "Personal/operator",
+      "candidate": "Waku Agent",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "personal-operator-openminis",
+      "capability_area": "Personal/operator",
+      "candidate": "OpenMinis",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "research-hyperresearch",
+      "capability_area": "Research",
+      "candidate": "HyperResearch",
+      "locator": "jordan-gibbs/hyperresearch",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "intake item plus Cortex boundary audit note",
+      "evidence_refs": [
+        "intake/items/hyperresearch.json",
+        "docs/audits/cortex-integration-001-boundary-audit.md"
+      ],
+      "notes": "Retain as a deep-research provider pattern source. No adoption or pilot is approved in this repository state."
+    },
+    {
+      "id": "research-surfsense",
+      "capability_area": "Research",
+      "candidate": "SurfSense",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "research-open-notebook",
+      "capability_area": "Research",
+      "candidate": "Open Notebook",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "research-anythingllm",
+      "capability_area": "Research",
+      "candidate": "AnythingLLM",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "documents-mineru",
+      "capability_area": "Documents",
+      "candidate": "MinerU",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "documents-anydoc",
+      "capability_area": "Documents",
+      "candidate": "Anydoc",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "documents-pageindex",
+      "capability_area": "Documents",
+      "candidate": "PageIndex",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "project-intelligence-graphify",
+      "capability_area": "Project intelligence/docs",
+      "candidate": "Graphify",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "project-intelligence-socraticode",
+      "capability_area": "Project intelligence/docs",
+      "candidate": "SocratiCode",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "project-intelligence-openwiki",
+      "capability_area": "Project intelligence/docs",
+      "candidate": "OpenWiki",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "external-actions-agent-reach",
+      "capability_area": "External actions/integrations",
+      "candidate": "Agent-Reach",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "external-actions-composio",
+      "capability_area": "External actions/integrations",
+      "candidate": "Composio",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "external-actions-opencli",
+      "capability_area": "External actions/integrations",
+      "candidate": "OpenCLI",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "external-actions-integrations-sh",
+      "capability_area": "External actions/integrations",
+      "candidate": "integrations.sh",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found in current repository state",
+      "evidence_refs": [],
+      "notes": "Current ABVX-OS repository does not contain a canonical candidate record for this item."
+    },
+    {
+      "id": "development-matt-pocock-skills",
+      "capability_area": "Development/review",
+      "candidate": "Matt Pocock skills",
+      "locator": "mattpocock/skills",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "development-harness-001 static qualification only",
+      "evidence_refs": [
+        "registries/external-candidates/index.json",
+        "docs/decisions/development-harness-001.md",
+        "evidence/bakeoffs/development-harness-001/decision.json"
+      ],
+      "notes": "Selected subset was evaluated statically. No installation, promotion, or measured coding-outcome evidence."
+    },
+    {
+      "id": "development-addy-osmani-skills",
+      "capability_area": "Development/review",
+      "candidate": "Addy Osmani skills",
+      "locator": "addyosmani/agent-skills",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "development-harness-001 static qualification only",
+      "evidence_refs": [
+        "registries/external-candidates/index.json",
+        "docs/decisions/development-harness-001.md",
+        "evidence/bakeoffs/development-harness-001/decision.json"
+      ],
+      "notes": "Selected subset was evaluated statically. No installation, promotion, or measured coding-outcome evidence."
+    },
+    {
+      "id": "development-ponytail",
+      "capability_area": "Development/review",
+      "candidate": "Ponytail",
+      "locator": "DietrichGebert/ponytail",
+      "status": "PILOT_WHEN_NEEDED",
+      "evidence_basis": "development-harness-001 static qualification only",
+      "evidence_refs": [
+        "registries/external-candidates/index.json",
+        "docs/decisions/development-harness-001.md",
+        "evidence/bakeoffs/development-harness-001/decision.json"
+      ],
+      "notes": "Retained as a selective minimalism intervention candidate, not an always-on default."
+    },
+    {
+      "id": "development-lumen",
+      "capability_area": "Development/review",
+      "candidate": "Lumen",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    },
+    {
+      "id": "development-revdiff",
+      "capability_area": "Development/review",
+      "candidate": "revdiff",
+      "locator": null,
+      "status": "UNRECORDED",
+      "evidence_basis": "no ABVX record found",
+      "evidence_refs": [],
+      "notes": "No ABVX evidence recorded."
+    }
+  ]
+}

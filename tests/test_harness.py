@@ -18,6 +18,8 @@ class HarnessTests(unittest.TestCase):
     def test_repository_documents_validate(self):
         checked = validate_repository(ROOT)
         self.assertIn("registries/projects.json", checked)
+        self.assertIn("registries/donor-capability-matrix.json", checked)
+        self.assertIn("registries/capability-gaps.json", checked)
         self.assertIn("fixtures/bakeoffs/foundation-002-baseline/hello-local.json", checked)
 
     def test_baseline_run_captures_evidence_and_is_reproducible(self):
