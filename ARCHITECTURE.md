@@ -12,7 +12,7 @@ The control plane owns registries, normalized entities, event envelopes, routing
 
 ## Intake and canonical state
 
-All supported inputs first cross the local `IntakeItem` boundary. It preserves raw text or references, source, inferred intent, confidence, related entities, advisory routes, clarification state, and provenance. An accepted intake may later become an Event or another canonical entity through a validated, attributable operation; intake itself does not mutate portfolio priorities or invoke downstream systems. Graph relations are first-class so an opportunity, mission, project, person, and evidence item need not be forced into one task tree.
+All supported inputs first cross the local `IntakeItem` boundary. It preserves raw text or references, source, inferred intent, confidence, related entities, advisory routes, clarification state, and provenance. Human decisions are explicit; an accepted intake may be promoted idempotently into a small existing canonical destination, with reciprocal provenance. Intake itself does not mutate portfolio priorities, publish content, run candidates, or invoke downstream systems. Graph relations are first-class so an opportunity, mission, project, person, and evidence item need not be forced into one task tree.
 
 ## Human approval and failure isolation
 

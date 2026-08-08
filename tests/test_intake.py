@@ -9,11 +9,15 @@ from pathlib import Path
 
 from abvx_harness.intake import (
     add_intake_item,
+    decide_intake_item,
     inspect_intake_item,
     link_intake_items,
     list_intake_items,
+    promote_intake_item,
+    review_intake_items,
     update_clarification,
 )
+from abvx_harness.harness import ValidationError
 from abvx_harness.__main__ import main
 
 
@@ -77,6 +81,69 @@ class IntakeTests(unittest.TestCase):
             self.assertEqual(main(["intake", "list", "--json"], root=self.root), 0)
         self.assertIn("reference", human.getvalue())
         self.assertEqual(json.loads(machine.getvalue())[0]["id"], "reference")
+
+    def test_review_cli_excludes_resolved_items_in_both_formats(self):
+        add_intake_item(self.root, text="Needs review", item_id="review", captured_at="2026-08-08T00:00:00Z")
+        add_intake_item(self.root, text="Watch this", item_id="watch", captured_at="2026-08-08T00:00:00Z")
+        decide_intake_item(self.root, "watch", "WATCH")
+        human = io.StringIO()
+        machine = io.StringIO()
+        with contextlib.redirect_stdout(human):
+            self.assertEqual(main(["intake", "review"], root=self.root), 0)
+        with contextlib.redirect_stdout(machine):
+            self.assertEqual(main(["intake", "review", "--json"], root=self.root), 0)
+        self.assertIn("review", human.getvalue())
+        self.assertNotIn("watch", human.getvalue())
+        self.assertEqual([item["id"] for item in json.loads(machine.getvalue())], ["review"])
+
+    def test_lifecycle_rejects_invalid_transition_and_records_human_decision(self):
+        add_intake_item(self.root, text="Finish POP database", item_id="lifecycle", captured_at="2026-08-08T00:00:00Z")
+        with self.assertRaises(ValidationError):
+            promote_intake_item(self.root, "lifecycle")
+        accepted = decide_intake_item(self.root, "lifecycle", "ACCEPT", "Owner approved consideration")
+        self.assertEqual(accepted["status"], "ACCEPTED")
+        self.assertEqual(accepted["decision_history"][-1]["actor"], "owner")
+
+    def test_accepted_item_promotes_idempotently_with_reciprocal_provenance(self):
+        add_intake_item(self.root, text="Finish POP database and later publish a book", item_id="pop", captured_at="2026-08-08T00:00:00Z")
+        decide_intake_item(self.root, "pop", "ACCEPT")
+        first = promote_intake_item(self.root, "pop")
+        second = promote_intake_item(self.root, "pop")
+        self.assertEqual(first["id"], second["id"])
+        self.assertEqual(inspect_intake_item(self.root, "pop")["status"], "PROMOTED")
+        self.assertEqual(first["source_intake_id"], "pop")
+        self.assertEqual(first["provenance"]["source_intake_id"], "pop")
+        self.assertEqual(len(json.loads((self.root / "portfolio" / "considerations.json").read_text())["entries"]), 1)
+        self.assertFalse((self.root / "portfolio" / "state.json").exists())
+
+    def test_rejected_item_has_no_downstream_record(self):
+        add_intake_item(self.root, text="Irrelevant item", item_id="reject", captured_at="2026-08-08T00:00:00Z")
+        decide_intake_item(self.root, "reject", "REJECT", "Not relevant")
+        self.assertEqual(inspect_intake_item(self.root, "reject")["status"], "REJECTED")
+        with self.assertRaises(ValidationError):
+            promote_intake_item(self.root, "reject")
+        self.assertFalse((self.root / "portfolio" / "considerations.json").exists())
+
+    def test_watch_remains_queryable_but_out_of_review_after_decision(self):
+        add_intake_item(self.root, text="Interesting reference", item_id="watch", captured_at="2026-08-08T00:00:00Z")
+        decide_intake_item(self.root, "watch", "WATCH", "Interesting, no current action")
+        self.assertEqual(inspect_intake_item(self.root, "watch")["status"], "WATCH")
+        self.assertEqual(review_intake_items(self.root), [])
+        self.assertEqual(list_intake_items(self.root)[0]["id"], "watch")
+
+    def test_real_fixture_routes_promote_to_expected_destinations(self):
+        cases = [
+            ("headlands", "https://dev.ua/news/the-headlands-1784625711", "CONTENT_OPPORTUNITY", "content-opportunity-headlands"),
+            ("cigarette-index", "https://cig-index.vercel.app/", "REFERENCE", "reference-cigarette-index"),
+            ("hyperresearch", "https://github.com/jordan-gibbs/hyperresearch", "EXTERNAL_CANDIDATE", "external-intake-hyperresearch"),
+        ]
+        for item_id, url, destination_type, destination_id in cases:
+            add_intake_item(self.root, url=url, item_id=item_id, captured_at="2026-08-08T00:00:00Z")
+            decide_intake_item(self.root, item_id, "ACCEPT")
+            promoted = promote_intake_item(self.root, item_id)
+            self.assertEqual(promoted["id"], destination_id)
+            self.assertEqual(promoted["source_intake_id"], item_id)
+            self.assertEqual(inspect_intake_item(self.root, item_id)["promotion"]["destination_type"], destination_type)
 
 
 if __name__ == "__main__":

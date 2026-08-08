@@ -114,6 +114,7 @@ def validate_repository(root: Path) -> list[str]:
         "state.json": root / "schemas" / "portfolio_state.schema.json",
         "human-queue.json": root / "schemas" / "human_queue.schema.json",
         "lessons.json": root / "schemas" / "platform_lesson.schema.json",
+        "considerations.json": root / "schemas" / "portfolio_consideration.schema.json",
     }
     for path in sorted((root / "portfolio").glob("*.json")):
         schema_path = portfolio_schemas.get(path.name)
@@ -121,6 +122,14 @@ def validate_repository(root: Path) -> list[str]:
             raise ValidationError(f"{path}: unknown portfolio document")
         validate(load_json(path), load_json(schema_path), schema_path=schema_path, root=root, location=str(path))
         checked.append(str(path.relative_to(root)))
+    collection_schemas = {
+        root / "content" / "opportunities.json": root / "schemas" / "content_opportunity.schema.json",
+        root / "references" / "items.json": root / "schemas" / "reference_collection.schema.json",
+    }
+    for path, schema_path in collection_schemas.items():
+        if path.is_file():
+            validate(load_json(path), load_json(schema_path), schema_path=schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
     intake_schema_path = root / "schemas" / "intake_item.schema.json"
     for path in sorted((root / "intake" / "items").glob("*.json")):
         validate(load_json(path), load_json(intake_schema_path), schema_path=intake_schema_path, root=root, location=str(path))

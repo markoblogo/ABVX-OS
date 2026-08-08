@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/content-opportunity/v1",
+  "title": "ABVX Content Opportunity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "entries"],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "source_intake_id", "related_project_ids", "concept", "objective", "proposed_surfaces", "status", "provenance"],
+        "properties": {
+          "id": {"type": "string"},
+          "source_intake_id": {"type": "string"},
+          "related_project_ids": {"type": "array", "items": {"type": "string"}},
+          "concept": {"type": "string"},
+          "objective": {"type": "string"},
+          "proposed_surfaces": {"type": "array", "items": {"type": "string"}},
+          "status": {"enum": ["IDEA", "REVIEW", "APPROVED", "ARCHIVED"]},
+          "provenance": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["recorded_by", "source_intake_id", "source_uri", "promoted_at"],
+            "properties": {
+              "recorded_by": {"type": "string"},
+              "source_intake_id": {"type": "string"},
+              "source_uri": {"type": ["string", "null"]},
+              "promoted_at": {"type": "string", "format": "date-time"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

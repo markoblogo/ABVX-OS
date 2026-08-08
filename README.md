@@ -11,9 +11,9 @@ ABVX-OS is the planned local-first control and integration layer for independent
 - Automation is bounded by source/action policy and human approval gates.
 - Minimize dependencies, cost, secrets, and generated state.
 
-## Current scope: PLATFORM-INTAKE-001
+## Current scope: PLATFORM-INTAKE-002
 
-This repository defines the FOUNDATION-001 architecture, the FOUNDATION-002 local bakeoff harness, the FOUNDATION-003A conditional mission-state provider boundary, FOUNDATION-004’s development-harness efficiency fixtures/evidence, and PLATFORM-INTAKE-001’s local universal artifact intake boundary. LoopX remains isolated behind a normalized, fail-closed interface; intake remains advisory and local. It contains no sibling-project integration, production writes, paid infrastructure, Telegram/mobile/web integration, autonomous router, or general workflow engine.
+This repository defines the FOUNDATION-001 architecture, the FOUNDATION-002 local bakeoff harness, the FOUNDATION-003A conditional mission-state provider boundary, FOUNDATION-004’s development-harness efficiency fixtures/evidence, and PLATFORM-INTAKE-002’s human decision and idempotent promotion loop. LoopX remains isolated behind a normalized, fail-closed interface; intake remains local and human-triggered. It contains no sibling-project integration, production writes, paid infrastructure, Telegram/mobile/web integration, autonomous router, or general workflow engine.
 
 ## Future scope
 

@@ -110,6 +110,17 @@
       "candidate_capability": "universal_artifact_intake",
       "recommended_action": "Keep as the canonical ABVX intake boundary; add one explicit source integration only after human review of this MVP.",
       "status": "recorded"
+    },
+    {
+      "id": "platform-intake-decision-promotion-loop",
+      "originating_project": "abvx-os",
+      "originating_mission": "PLATFORM-INTAKE-002",
+      "observed_need": "A canonical intake archive needs explicit human decisions and idempotent promotion into only existing downstream record types.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": ["schemas/intake_item.schema.json", "docs/intake.md", "tests/test_intake.py"],
+      "candidate_capability": "intake_decision_and_promotion",
+      "recommended_action": "Keep promotion human-triggered and local; add no autonomous router or missing subsystem until a real source integration is approved.",
+      "status": "recorded"
     }
   ]
 }

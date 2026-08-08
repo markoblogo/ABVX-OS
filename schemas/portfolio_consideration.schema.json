@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/portfolio-consideration/v1",
+  "title": "ABVX Portfolio Consideration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "entries"],
+  "properties": {
+    "schema_version": {"const": "v1"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "source_intake_id", "related_project_ids", "summary", "dimensions", "status", "priority_effect", "provenance"],
+        "properties": {
+          "id": {"type": "string"},
+          "source_intake_id": {"type": "string"},
+          "related_project_ids": {"type": "array", "items": {"type": "string"}},
+          "summary": {"type": "string"},
+          "dimensions": {"type": "array", "items": {"type": "string"}},
+          "status": {"enum": ["CANDIDATE", "REVIEWED", "DEFERRED", "ARCHIVED"]},
+          "priority_effect": {"const": "NONE"},
+          "provenance": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["recorded_by", "source_intake_id", "source_uri", "promoted_at"],
+            "properties": {
+              "recorded_by": {"type": "string"},
+              "source_intake_id": {"type": "string"},
+              "source_uri": {"type": ["string", "null"]},
+              "promoted_at": {"type": "string", "format": "date-time"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

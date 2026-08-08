@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 
 from .harness import ValidationError, load_json, run_bakeoff, validate_repository
-from .intake import add_intake_item, inspect_intake_item, link_intake_items, list_intake_items, update_clarification
+from .intake import add_intake_item, decide_intake_item, inspect_intake_item, link_intake_items, list_intake_items, promote_intake_item, review_intake_items, update_clarification
 from .portfolio import inspect_portfolio, render_portfolio
 
 
@@ -81,6 +81,23 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             linked = link_intake_items(root, positional[0], positional[1])
             _print_intake(list(linked), bool(options.get("json")))
             return 0
+        if len(argv) >= 2 and argv[:2] == ["intake", "review"]:
+            _, options = _options(argv[2:])
+            _print_intake(review_intake_items(root), bool(options.get("json")))
+            return 0
+        if len(argv) >= 3 and argv[:2] in (["intake", "accept"], ["intake", "reject"], ["intake", "watch"], ["intake", "keep"], ["intake", "archive"]):
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx intake <accept|reject|watch|keep|archive> <id> [--reason <text>] [--json]")
+            action = argv[1].upper()
+            _print_intake(decide_intake_item(root, positional[0], action, options.get("reason") if isinstance(options.get("reason"), str) else None), bool(options.get("json")))
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["intake", "promote"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx intake promote <id> [--json]")
+            _print_intake(promote_intake_item(root, positional[0]), bool(options.get("json")))
+            return 0
         if argv == ["validate"]:
             checked = validate_repository(root)
             print(json.dumps({"status": "PASS", "checked": checked}, indent=2))
@@ -102,7 +119,7 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             else:
                 print(render_portfolio(portfolio))
             return 0
-        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx portfolio inspect [--json] | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id>", file=sys.stderr)
+        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake review [--json] | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake <accept|reject|watch|keep|archive> <id> | ./bin/abvx intake promote <id> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx portfolio inspect [--json] | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id>", file=sys.stderr)
         return 2
     except (ValidationError, OSError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

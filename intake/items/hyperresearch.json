@@ -13,6 +13,8 @@
   "suggested_actions": ["Retain deep-research provider pattern; defer pilot"],
   "clarification": {"required": false, "question": null, "answer": null, "answered_at": null},
   "related_item_ids": [],
+  "decision_history": [],
+  "promotion": null,
   "status": "PROPOSED",
   "provenance": {"recorded_by": "PLATFORM-INTAKE-001", "captured_at": "2026-08-08T00:00:00Z", "source_uri": "https://github.com/jordan-gibbs/hyperresearch"}
 }
