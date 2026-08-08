@@ -18,5 +18,12 @@
 - Stop at an architecture decision gate when the request calls for human review.
 - Keep schemas minimal, versioned, backwards-conscious, and validated before use.
 
+Minimum safe read order for a fresh ABVX-OS task:
+
+1. `AGENTS.md`
+2. `README.md`
+3. `ARCHITECTURE.md`
+4. task-specific docs only
+
 Read [ARCHITECTURE.md](ARCHITECTURE.md) for system boundaries and [docs/autonomy-policy.md](docs/autonomy-policy.md) for action limits.
 Also read [docs/donor-first-policy.md](docs/donor-first-policy.md) and [docs/product-vision.md](docs/product-vision.md) before broad platform work.

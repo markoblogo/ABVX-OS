@@ -6,9 +6,29 @@ ABVX-OS is a control plane. It records canonical identity, relationships, proven
 
 ABVX-OS does not become a required runtime dependency of a project unless a later decision explicitly accepts that coupling.
 
+Current canonical ownership split is:
+
+- `README.md`: concise human landing page, current purpose, and startup links
+- `AGENTS.md`: current agent constraints and read order
+- `ARCHITECTURE.md`: current boundaries and subsystem ownership
+- `docs/decisions/`: durable why
+- `evidence/`: what happened
+- Cortex or optional generated wiki/projection surfaces: non-canonical support layers only
+
 ## Control plane and providers
 
 The control plane owns registries, normalized entities, event envelopes, routing state, policy evaluation, evidence, and approval gates. Providers perform bounded work behind explicit interfaces: intake/source adapters, research, code intelligence, task execution, media processing, publishing, and deployment. Provider output is untrusted input until validated and recorded with provenance.
+
+Current active ABVX subsystems are intentionally small:
+
+- Universal Intake
+- portfolio strategy/state/human queue
+- read-only Cortex retrieval
+- playbook replay
+- evidence-backed bakeoffs and decisions
+- optional mission-state provider boundary
+
+Optional generated project intelligence or wiki projections may exist later, but they are not canonical truth sources.
 
 ## Intake and canonical state
 

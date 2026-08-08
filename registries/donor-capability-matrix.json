@@ -22,9 +22,11 @@
       "candidate": "Beads",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "Named in current planning vocabulary but not present in ABVX registries, intake, decisions, or evidence."
+      "evidence_basis": "session-close-001 weak historical mention only",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No local repository evidence beyond naming and planning vocabulary; keep unrecorded until a real pilot or durable record exists."
     },
     {
       "id": "execution-prime-agent",
@@ -32,10 +34,11 @@
       "candidate": "Prime Agent",
       "locator": "PrimeIntellect-ai/prime-agent",
       "status": "UNRECORDED",
-      "evidence_basis": "seeded candidate entry only",
+      "evidence_basis": "seeded candidate entry only; no stronger canonical evidence found in session-close-001",
       "evidence_refs": [
         "registries/external-candidates/index.json",
-        "docs/decisions/mission-control-001.md"
+        "docs/decisions/mission-control-001.md",
+        "evidence/session-close/session-close-001.evidence.json"
       ],
       "notes": "Exists as a seeded candidate and as a future portability-check reference, but no repository-context analysis or bakeoff evidence is recorded."
     },
@@ -45,9 +48,11 @@
       "candidate": "OpenWorker",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No local registry, audit, decision, or intake record sufficient to upgrade status."
     },
     {
       "id": "personal-operator-waku-agent",
@@ -65,9 +70,24 @@
       "candidate": "OpenMinis",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Mentioned as a plausible donor but still lacks durable ABVX evidence."
+    },
+    {
+      "id": "gap-opportunity-engine",
+      "capability_area": "Opportunity/CRM",
+      "candidate": "trycompai/crm",
+      "locator": "trycompai/crm",
+      "status": "PILOT_WHEN_NEEDED",
+      "evidence_basis": "session-close-001 donor import",
+      "evidence_refs": [
+        "docs/donor-first-policy.md",
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Retain as the first donor to pilot before any custom CRM, contact, follow-up, or company-research subsystem for Opportunity Engine work."
     },
     {
       "id": "research-hyperresearch",
@@ -83,14 +103,29 @@
       "notes": "Retain as a deep-research provider pattern source. No adoption or pilot is approved in this repository state."
     },
     {
+      "id": "research-futuresearch",
+      "capability_area": "Research/forecasting",
+      "candidate": "FutureSearch",
+      "locator": "FutureSearch",
+      "status": "PILOT_WHEN_REAL_FORECASTING_QUESTION_EXISTS",
+      "evidence_basis": "session-close-001 donor import",
+      "evidence_refs": [
+        "docs/donor-first-policy.md",
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Retain for real forecasting or hypothesis-support questions only, not as a standing research runtime."
+    },
+    {
       "id": "research-surfsense",
       "capability_area": "Research",
       "candidate": "SurfSense",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "research-open-notebook",
@@ -98,9 +133,11 @@
       "candidate": "Open Notebook",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "research-anythingllm",
@@ -108,9 +145,11 @@
       "candidate": "AnythingLLM",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "documents-mineru",
@@ -118,9 +157,11 @@
       "candidate": "MinerU",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "documents-anydoc",
@@ -128,9 +169,11 @@
       "candidate": "Anydoc",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "documents-pageindex",
@@ -138,39 +181,50 @@
       "candidate": "PageIndex",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "project-intelligence-graphify",
       "capability_area": "Project intelligence/docs",
       "candidate": "Graphify",
-      "locator": null,
-      "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "locator": "Graphify-Labs/graphify",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "session-close-001 narrow upstream inspection",
+      "evidence_refs": [
+        "registries/capability-gaps.json",
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Strong local-first graph and AST patterns, but broader than current documentation-maintenance need and not a canonical truth source."
     },
     {
       "id": "project-intelligence-socraticode",
       "capability_area": "Project intelligence/docs",
       "candidate": "SocratiCode",
-      "locator": null,
-      "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "locator": "giancarloerra/socraticode",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "session-close-001 narrow upstream inspection",
+      "evidence_refs": [
+        "registries/capability-gaps.json",
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Compelling codebase-intelligence/search patterns, but it is heavier than the current docs-sanitation need and does not directly solve canonical doc ownership."
     },
     {
       "id": "project-intelligence-openwiki",
       "capability_area": "Project intelligence/docs",
       "candidate": "OpenWiki",
-      "locator": null,
-      "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "locator": "langchain-ai/openwiki",
+      "status": "PILOT_LATER",
+      "evidence_basis": "session-close-001 narrow upstream inspection",
+      "evidence_refs": [
+        "registries/capability-gaps.json",
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Best fit for a future bounded pilot of optional generated project intelligence/wiki, but it must remain non-canonical and isolated from AGENTS/README/ARCHITECTURE ownership."
     },
     {
       "id": "external-actions-agent-reach",
@@ -178,9 +232,11 @@
       "candidate": "Agent-Reach",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "external-actions-composio",
@@ -188,9 +244,11 @@
       "candidate": "Composio",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "external-actions-opencli",
@@ -198,9 +256,11 @@
       "candidate": "OpenCLI",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "external-actions-integrations-sh",
@@ -208,9 +268,11 @@
       "candidate": "integrations.sh",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found in current repository state",
-      "evidence_refs": [],
-      "notes": "Current ABVX-OS repository does not contain a canonical candidate record for this item."
+      "evidence_basis": "planning-only memory note, no canonical ABVX review artifact",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "A prior planning-only mention exists, but not enough durable ABVX evidence to upgrade status."
     },
     {
       "id": "development-matt-pocock-skills",
@@ -260,9 +322,11 @@
       "candidate": "Lumen",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
     },
     {
       "id": "development-revdiff",
@@ -270,9 +334,37 @@
       "candidate": "revdiff",
       "locator": null,
       "status": "UNRECORDED",
-      "evidence_basis": "no ABVX record found",
-      "evidence_refs": [],
-      "notes": "No ABVX evidence recorded."
+      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "evidence_refs": [
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "No durable local review artifact found."
+    },
+    {
+      "id": "model-routing-openrouter-ori-eval",
+      "capability_area": "Model policy/routing",
+      "candidate": "OpenRouter Ori Eval",
+      "locator": "OpenRouter Ori Eval",
+      "status": "PILOT_WHEN_RUNTIME_MODEL_ROUTING_IS_NEEDED",
+      "evidence_basis": "session-close-001 donor import",
+      "evidence_refs": [
+        "docs/donor-first-policy.md",
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Retain for future model evaluation and cost-quality routing. No runtime routing layer is justified yet."
+    },
+    {
+      "id": "serving-toktier",
+      "capability_area": "Token/serving research",
+      "candidate": "TokTier",
+      "locator": "TokTier",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "session-close-001 donor import",
+      "evidence_refs": [
+        "docs/donor-first-policy.md",
+        "evidence/session-close/session-close-001.evidence.json"
+      ],
+      "notes": "Reference-only for future self-hosted inference, tokenization, or serving optimization work."
     }
   ]
 }

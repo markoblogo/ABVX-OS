@@ -33,7 +33,8 @@
       ],
       "plausible_donors": [
         "Cortex patterns",
-        "HyperResearch as research pattern source"
+        "HyperResearch as research pattern source",
+        "trycompai/crm"
       ],
       "must_not_build_custom_before_donor_review": [
         "broad scoring engine",
@@ -88,6 +89,7 @@
       ],
       "plausible_donors": [
         "HyperResearch",
+        "FutureSearch",
         "SurfSense",
         "Open Notebook",
         "AnythingLLM"
