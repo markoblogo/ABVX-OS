@@ -2,9 +2,9 @@
 
 ## Decision
 
-**CONDITIONAL_ADOPT** — `STOP_FOR_HUMAN_DECISION`.
+**CONDITIONAL_ADOPT** — human decision recorded in FOUNDATION-003A.
 
-This is a bakeoff conclusion, not an adoption or integration. LoopX may earn a narrowly bounded role as an optional development mission/control-state provider, but only after the conditions below are approved and verified.
+This is a narrowly bounded provider admission, not a general integration. LoopX may be used only as the optional long-running development mission state provider through the FOUNDATION-003A boundary. Real sibling-project use remains separately blocked.
 
 ## Candidates and fixture
 

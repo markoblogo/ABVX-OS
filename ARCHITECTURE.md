@@ -29,3 +29,9 @@ FOUNDATION-001 is local-only. A future local store, CLI, or service may be intro
 ## Extension interfaces
 
 Provider interfaces should exchange versioned, schema-validated envelopes and return evidence, cost/usage metadata, trust observations, and an idempotency key. An adapter may be replaced without changing canonical entities. Permanent integration is blocked until the bakeoff protocol reaches a human-approved decision.
+
+## Conditional mission-state provider
+
+LoopX is conditionally adopted only as the optional **long-running development mission state provider**. The ABVX boundary exposes normalized mission-local objective, work state, gates, bounded retry state, evidence references, quota metadata, waiting-for-human state, resume/handoff state, terminal state, and export. A fail-closed integrity layer rejects missing, unreadable, corrupted, or schema-mismatched state for known missions and permits recovery only from an explicitly verified snapshot.
+
+LoopX is not the ABVX control plane or a general workflow engine. It must not own portfolio priorities, project strategy, canonical project facts, Personal Cortex, Universal Inbox, Opportunity Engine, Media Resource, generic personal tasks, code execution, deployment authorization, or external writes. No real sibling-project mission may use this provider until a separate operational approval is recorded.
