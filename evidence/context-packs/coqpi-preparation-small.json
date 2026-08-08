@@ -5,28 +5,26 @@
   },
   "constraints": {
     "available_more": true,
-    "max_excerpt_chars": 280,
-    "max_items": 6,
+    "max_excerpt_chars": 160,
+    "max_items": 4,
     "provider_timeout_seconds": 20,
     "request_privacy_domain": "PERSONAL_PRIVATE",
     "token_usage": "NOT_METERED",
     "truncated": true
   },
-  "generated_at": "2026-08-08T20:13:33Z",
+  "generated_at": "2026-08-08T20:14:14Z",
   "knowledge_items": [
     {
       "category": "current_focus",
       "confidence": "HIGH",
-      "excerpt": "capabilities=ai-dev, AI, workflow, workflows, validation, market-infrastructure; current_focus=Decision Map, ABVX Agent Skills, MN7R Blog",
+      "excerpt": "capabilities=ai-dev, AI, workflow, workflows, validation, market-infrastructure; current_focus=Decision Map, ABVX Agent Skills",
       "id": "cortexabv:professional:current-focus",
       "privacy_classification": "PERSONAL_PRIVATE",
       "provenance": {
         "entity_ids": [
           "publication:mn7r-product-guide",
           "project:decision-map",
-          "project:abvx-agent-skills",
-          "publication:future-proof-productivity",
-          "project:mn7r-blog"
+          "project:abvx-agent-skills"
         ],
         "inventory": {
           "books_publications": "STRONG",
@@ -43,7 +41,7 @@
         "source": "cortex-abv/public-presence-index.v1.json"
       },
       "provider": "cortexabv",
-      "summary": "Recent public work clusters around Decision Map, ABVX Agent Skills, MN7R Blog.",
+      "summary": "Recent public work clusters around Decision Map, ABVX Agent Skills.",
       "title": "Current focus and strongest relevant work"
     },
     {
@@ -56,9 +54,7 @@
         "entity_ids": [
           "publication:mn7r-product-guide",
           "project:decision-map",
-          "project:abvx-agent-skills",
-          "publication:future-proof-productivity",
-          "project:mn7r-blog"
+          "project:abvx-agent-skills"
         ],
         "source": "cortex-abv/public-presence-index.v1.json"
       },
@@ -109,50 +105,6 @@
       "provider": "cortexabv",
       "summary": "Decision Map is a protocol for AI-assisted strategic decision-making in product launches, positioning and complex marketing scenarios.",
       "title": "Decision Map"
-    },
-    {
-      "category": "recent_project",
-      "confidence": "HIGH",
-      "excerpt": "updated=2026-06-03; tags=ai-dev, agent-skills, codex, workflows, validation; proof=https://github.com/markoblogo/abvx-agent-skills, https://lab.abvx.xyz/tools/abvx-agent-skills/index.html, https://youtu.be/F73_ofen8rI",
-      "id": "cortexabv:professional:project:abvx-agent-skills",
-      "privacy_classification": "PERSONAL_PRIVATE",
-      "provenance": {
-        "canonical_url": "https://abvx.xyz/work/abvx-agent-skills",
-        "entity_id": "project:abvx-agent-skills",
-        "provenance": [
-          {
-            "digest": "8584860e452dae9691b971b56ae36319c95d6e2e2990fe5a56bb9eec7b00c125",
-            "kind": "content_frontmatter",
-            "path": "content/work/abvx-agent-skills.md"
-          }
-        ],
-        "registry_entry_id": "repository:github:markoblogo/abvx-agent-skills"
-      },
-      "provider": "cortexabv",
-      "summary": "ABVX Agent Skills is a portable execution layer for AI-native development: small, reviewable, validation-gated skillpacks for Codex-style project work.",
-      "title": "ABVX Agent Skills"
-    },
-    {
-      "category": "publication",
-      "confidence": "HIGH",
-      "excerpt": "updated=2026-04-06; tags=productivity, AI, automation, no-code, workflows, future of work; proof=https://www.amazon.com/dp/B0FQ5SWMTJ, https://www.amazon.com/dp/B0FR1WH15S, https://youtu.be/IJBn0x2UeF8",
-      "id": "cortexabv:professional:publication:future-proof-productivity",
-      "privacy_classification": "PERSONAL_PRIVATE",
-      "provenance": {
-        "canonical_url": "https://abvx.xyz/books/future-proof-productivity",
-        "entity_id": "publication:future-proof-productivity",
-        "provenance": [
-          {
-            "digest": "cd0c746881e44d816bb6065901ac905dfe5237dc7831f6023f1e04ac5cbe244a",
-            "kind": "content_frontmatter",
-            "path": "content/books/future-proof-productivity.md"
-          }
-        ],
-        "registry_entry_id": null
-      },
-      "provider": "cortexabv",
-      "summary": "A practical manual for using AI, automation, no-code tools and workflow design to increase output, reduce routine work and stay professionally resilient through the AI decade.",
-      "title": "Future-Proof Your Productivity: Navigating the AI Decade to Accelerate Your Output, Innovate Your Role, and Thrive"
     }
   ],
   "known_gaps": [
@@ -178,7 +130,7 @@
       "waiting_reason": "Owner consent and execution are required before microphone/OpenAI Realtime access."
     }
   ],
-  "pack_id": "coqpi-preparation",
+  "pack_id": "coqpi-preparation-small",
   "privacy_classification": "PERSONAL_PRIVATE",
   "proof_assets": [
     {
@@ -222,36 +174,6 @@
       "privacy_classification": "PUBLIC",
       "provider": "cortexabv",
       "url": "https://youtu.be/F73_ofen8rI"
-    },
-    {
-      "entity_id": "publication:future-proof-productivity",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv",
-      "url": "https://www.amazon.com/dp/B0FQ5SWMTJ"
-    },
-    {
-      "entity_id": "publication:future-proof-productivity",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv",
-      "url": "https://www.amazon.com/dp/B0FR1WH15S"
-    },
-    {
-      "entity_id": "publication:future-proof-productivity",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv",
-      "url": "https://youtu.be/IJBn0x2UeF8"
-    },
-    {
-      "entity_id": "project:mn7r-blog",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv",
-      "url": "https://mn7r.com/blog"
-    },
-    {
-      "entity_id": "project:mn7r-blog",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv",
-      "url": "https://mn7r.com/rss.xml"
     }
   ],
   "providers": [
@@ -259,7 +181,7 @@
       "available_more": true,
       "elapsed_ms": 2,
       "id": "cortexabv",
-      "items_returned": 7,
+      "items_returned": 5,
       "known_gaps": [
         "Professional goals/current collaboration preference are not yet represented in the audited CortexABV public surfaces.",
         "Education/certificates are not represented in the current audited CortexABV public surfaces.",
@@ -284,7 +206,7 @@
   "request": {
     "consumer": "coqpi",
     "context_budget": {
-      "max_excerpt_chars": 280,
+      "max_excerpt_chars": 160,
       "provider_timeout_seconds": 20,
       "token_usage": "NOT_METERED"
     },
@@ -301,7 +223,7 @@
     ],
     "freshness_requirement": "CURRENT",
     "intent": "professional_preparation",
-    "max_items": 6,
+    "max_items": 4,
     "privacy_domain": "PERSONAL_PRIVATE",
     "provider_hints": [
       "cortexabv"
@@ -309,7 +231,7 @@
     "related_projects": [
       "coqpi"
     ],
-    "request_id": "coqpi-preparation",
+    "request_id": "coqpi-preparation-small",
     "schema_version": "v1",
     "task": "Prepare compact context for a professional Product Lead / AI conversation."
   },
@@ -346,18 +268,6 @@
       "privacy_classification": "PUBLIC",
       "provider": "cortexabv",
       "registry_entry_id": "repository:github:markoblogo/abvx-agent-skills"
-    },
-    {
-      "entity_id": "publication:future-proof-productivity",
-      "path": "cortex-abv/public-presence-index.v1.json",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv"
-    },
-    {
-      "entity_id": "project:mn7r-blog",
-      "path": "cortex-abv/public-presence-index.v1.json",
-      "privacy_classification": "PUBLIC",
-      "provider": "cortexabv"
     }
   ]
 }

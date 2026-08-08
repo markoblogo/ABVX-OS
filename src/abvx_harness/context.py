@@ -4,6 +4,8 @@ import json
 import subprocess
 import tempfile
 import time
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any, Protocol
 
@@ -42,6 +44,12 @@ INDEX_APPROVED_TOP_LEVEL_FILES = {
     "tsconfig.json",
     "vercel.json",
     "vitest.config.ts",
+}
+
+CORTEX_STOP_WORDS = {
+    "the", "and", "for", "with", "that", "this", "from", "into", "about", "current", "prepare",
+    "context", "professional", "conversation", "lead", "anton", "coqpi", "work", "works", "working",
+    "your", "their", "them", "into", "through", "using", "used", "build", "built",
 }
 
 
@@ -376,6 +384,272 @@ def _dedupe_dicts(values: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return deduped
 
 
+def _tokenize_text(value: str) -> list[str]:
+    normalized = "".join(char.lower() if char.isalnum() else " " for char in value)
+    return [token for token in normalized.split() if len(token) > 2 and token not in CORTEX_STOP_WORDS]
+
+
+def _parse_public_timestamp(value: str | None) -> datetime | None:
+    if not value:
+        return None
+    try:
+        if "GMT" in value:
+            return parsedate_to_datetime(value).astimezone(timezone.utc)
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc)
+    except (TypeError, ValueError):
+        return None
+
+
+def _recency_score(timestamp: datetime | None) -> float:
+    if timestamp is None:
+        return 0.0
+    days = max(0.0, (datetime.now(timezone.utc) - timestamp).days)
+    if days <= 60:
+        return 2.0
+    if days <= 180:
+        return 1.2
+    if days <= 365:
+        return 0.6
+    return 0.2
+
+
+def _public_presence_paths(runtime_root: Path) -> dict[str, Path]:
+    public_root = runtime_root.parent
+    return {
+        "presence_index": public_root / "public-presence-index.v1.json",
+        "project_registry": public_root / "public-project-registry.v1.json",
+    }
+
+
+def _load_public_professional_surfaces(runtime_root: Path) -> dict[str, Any]:
+    paths = _public_presence_paths(runtime_root)
+    return {
+        "presence_index": load_json(paths["presence_index"]),
+        "project_registry": load_json(paths["project_registry"]),
+        "paths": {key: str(value) for key, value in paths.items()},
+    }
+
+
+def _professional_inventory(surfaces: dict[str, Any]) -> dict[str, str]:
+    entities = surfaces["presence_index"]["entities"]
+    project_entries = surfaces["project_registry"]["entries"]
+
+    has_recent_projects = any(
+        entity["kind"] == "project" and _parse_public_timestamp(entity.get("attributes", {}).get("updatedAt"))
+        for entity in entities
+    )
+    has_ai_product_projects = any(
+        entity["kind"] == "project" and {"ai", "ai-dev", "agents", "workflow", "product-guide", "market-infrastructure"} &
+        set(entity.get("attributes", {}).get("tags", []))
+        for entity in entities
+    )
+    has_public_writing = any(entity["kind"] == "writing_item" for entity in entities)
+    has_books = any(entity["kind"] == "publication" for entity in entities)
+    has_repo_proof = any(entry.get("repository", {}).get("provider") == "github" for entry in project_entries)
+    has_goals = any("goal" in json.dumps(entity.get("attributes", {})).lower() for entity in entities)
+    has_education = any("education" in json.dumps(entity).lower() or "certificate" in json.dumps(entity).lower() for entity in entities)
+
+    return {
+        "current_projects": "STRONG" if has_recent_projects else "MISSING",
+        "recent_work": "PARTIAL" if has_recent_projects else "MISSING",
+        "professional_roles": "PARTIAL",
+        "capabilities": "STRONG" if has_ai_product_projects else "PARTIAL",
+        "public_writing": "STRONG" if has_public_writing else "MISSING",
+        "books_publications": "STRONG" if has_books else "MISSING",
+        "github_public_proof": "STRONG" if has_repo_proof else "MISSING",
+        "education_certificates": "MISSING" if not has_education else "PARTIAL",
+        "professional_goals": "MISSING" if not has_goals else "PARTIAL",
+        "constraints_preferences": "MISSING",
+    }
+
+
+def _entity_timestamp(entity: dict[str, Any]) -> datetime | None:
+    attrs = entity.get("attributes", {})
+    return _parse_public_timestamp(attrs.get("updatedAt") or attrs.get("publishedAt"))
+
+
+def _entity_links(entity: dict[str, Any]) -> list[dict[str, Any]]:
+    return list(entity.get("attributes", {}).get("links", []))
+
+
+def _registry_entry_for_project(project_registry: dict[str, Any], project_id: str) -> dict[str, Any] | None:
+    for entry in project_registry.get("entries", []):
+        if entry.get("project", {}).get("id") == project_id:
+            return entry
+    return None
+
+
+def _relevant_professional_entities(presence_index: dict[str, Any], request: dict[str, Any]) -> list[dict[str, Any]]:
+    query_tokens = set(_tokenize_text(" ".join([
+        request["task"],
+        request["intent"],
+        " ".join(request.get("entities", [])),
+        " ".join(request.get("domains", [])),
+    ])))
+    opportunity_tags = {
+        "ai", "ai-dev", "agents", "workflow", "workflows", "product-guide", "product-launch",
+        "reasoning", "validation", "codex", "automation", "knowledge work", "future of work",
+    }
+    scored: list[tuple[float, dict[str, Any]]] = []
+    for entity in presence_index.get("entities", []):
+        if entity["kind"] not in {"project", "publication", "writing_item"}:
+            continue
+        attrs = entity.get("attributes", {})
+        tags = attrs.get("tags", [])
+        haystack = " ".join(filter(None, [entity.get("name"), entity.get("summary"), " ".join(tags)]))
+        entity_tokens = set(_tokenize_text(haystack))
+        overlap = len(query_tokens & entity_tokens)
+        tag_boost = len(opportunity_tags & set(tags))
+        if not overlap and not tag_boost and entity["kind"] == "writing_item":
+            continue
+        if not overlap and not tag_boost and entity["kind"] in {"project", "publication"}:
+            continue
+        base = overlap * 3.0
+        if entity["kind"] == "project":
+            base += 1.5
+            if attrs.get("status") in {"live", "building"}:
+                base += 1.0
+        if entity["kind"] == "publication":
+            base += 0.8
+        if tag_boost:
+            base += 1.5 + (0.6 * tag_boost)
+        if {"market-infrastructure", "execution", "workflows", "validation", "codex"} & set(tags):
+            base += 1.5
+        if {"commercial-site", "brand-landing", "web-design"} & set(tags) and not tag_boost:
+            base -= 2.5
+        if _entity_links(entity):
+            base += min(1.5, 0.4 * len(_entity_links(entity)))
+        base += _recency_score(_entity_timestamp(entity))
+        if base >= 2.0:
+            scored.append((base, entity))
+    scored.sort(key=lambda item: (item[0], _entity_timestamp(item[1]) or datetime(1970, 1, 1, tzinfo=timezone.utc)), reverse=True)
+    return [entity for _, entity in scored]
+
+
+def _professional_capability_summary(entities: list[dict[str, Any]]) -> tuple[str, list[str]]:
+    tag_counts: dict[str, int] = {}
+    for entity in entities:
+        for tag in entity.get("attributes", {}).get("tags", []):
+            tag_counts[tag] = tag_counts.get(tag, 0) + 1
+    preferred = [
+        "ai-dev", "AI", "workflow", "workflows", "validation", "agents", "market-infrastructure",
+        "execution", "product-guide", "reasoning", "codex", "benchmark", "product-launch",
+    ]
+    ordered = [tag for tag in preferred if tag in tag_counts]
+    if not ordered:
+        ordered = [tag for tag, _ in sorted(tag_counts.items(), key=lambda item: (-item[1], item[0]))[:6]]
+    summary = ", ".join(ordered[:6]) if ordered else "No strong public capability clusters were found."
+    return summary, ordered[:6]
+
+
+def _build_professional_items(
+    request: dict[str, Any],
+    presence_index: dict[str, Any],
+    project_registry: dict[str, Any],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]], list[str], bool]:
+    relevant_entities = _relevant_professional_entities(presence_index, request)
+    inventory = _professional_inventory({"presence_index": presence_index, "project_registry": project_registry})
+    small_pack = int(request["max_items"]) <= 4 or int(request["context_budget"]["max_excerpt_chars"]) <= 180
+    limit = min(int(request["max_items"]), 3 if small_pack else 5)
+    selected = relevant_entities[:limit]
+    items: list[dict[str, Any]] = []
+    sources: list[dict[str, Any]] = []
+    proof_assets: list[dict[str, Any]] = []
+    gaps: list[str] = []
+
+    if selected:
+        current_focus = [entity["name"] for entity in selected if entity["kind"] == "project"][:3]
+        capability_summary, capability_tags = _professional_capability_summary(selected)
+        items.append({
+            "id": "cortexabv:professional:current-focus",
+            "provider": "cortexabv",
+            "category": "current_focus",
+            "title": "Current focus and strongest relevant work",
+            "summary": f"Recent public work clusters around {', '.join(current_focus) or selected[0]['name']}.",
+            "excerpt": f"capabilities={capability_summary}; current_focus={', '.join(current_focus) or 'public work set'}",
+            "privacy_classification": "PERSONAL_PRIVATE",
+            "confidence": "HIGH",
+            "provenance": {
+                "source": "cortex-abv/public-presence-index.v1.json",
+                "entity_ids": [entity["id"] for entity in selected],
+                "inventory": inventory,
+            },
+        })
+        items.append({
+            "id": "cortexabv:professional:capabilities",
+            "provider": "cortexabv",
+            "category": "capabilities",
+            "title": "Relevant capabilities",
+            "summary": f"Public evidence emphasizes {capability_summary}.",
+            "excerpt": f"capability_tags={', '.join(capability_tags) or 'none'}",
+            "privacy_classification": "PERSONAL_PRIVATE",
+            "confidence": "HIGH" if capability_tags else "MEDIUM",
+            "provenance": {
+                "source": "cortex-abv/public-presence-index.v1.json",
+                "entity_ids": [entity["id"] for entity in selected],
+            },
+        })
+
+    for entity in selected:
+        entry = _registry_entry_for_project(project_registry, entity["id"]) if entity["kind"] == "project" else None
+        links = _entity_links(entity)
+        proof_links = []
+        if entry:
+            proof_links.append(entry.get("repository", {}).get("url"))
+            proof_links.extend(channel.get("url") for channel in entry.get("publicChannels", []) if channel.get("url"))
+        proof_links.extend(link.get("url") for link in links if link.get("url"))
+        proof_links = [link for index, link in enumerate(proof_links) if link and link not in proof_links[:index]][:3]
+        items.append({
+            "id": f"cortexabv:professional:{entity['id']}",
+            "provider": "cortexabv",
+            "category": "recent_project" if entity["kind"] == "project" else ("publication" if entity["kind"] == "publication" else "public_writing"),
+            "title": entity["name"],
+            "summary": entity.get("summary") or f"Public {entity['kind']} evidence from CortexABV.",
+            "excerpt": f"updated={entity.get('attributes', {}).get('updatedAt') or entity.get('attributes', {}).get('publishedAt') or 'unknown'}; tags={', '.join(entity.get('attributes', {}).get('tags', [])[:6]) or 'none'}; proof={', '.join(proof_links) or entity.get('canonicalUrl')}",
+            "privacy_classification": "PERSONAL_PRIVATE",
+            "confidence": "HIGH" if proof_links else "MEDIUM",
+            "provenance": {
+                "entity_id": entity["id"],
+                "canonical_url": entity.get("canonicalUrl"),
+                "registry_entry_id": entry.get("id") if entry else None,
+                "provenance": entity.get("provenance", []),
+            },
+        })
+        sources.append({
+            "provider": "cortexabv",
+            "path": "cortex-abv/public-presence-index.v1.json",
+            "entity_id": entity["id"],
+            "privacy_classification": "PUBLIC",
+        })
+        if entry:
+            sources.append({
+                "provider": "cortexabv",
+                "path": "cortex-abv/public-project-registry.v1.json",
+                "entity_id": entity["id"],
+                "registry_entry_id": entry["id"],
+                "privacy_classification": "PUBLIC",
+            })
+        for link in proof_links:
+            proof_assets.append({
+                "provider": "cortexabv",
+                "entity_id": entity["id"],
+                "url": link,
+                "privacy_classification": "PUBLIC",
+            })
+
+    if inventory["professional_goals"] == "MISSING":
+        gaps.append("Professional goals/current collaboration preference are not yet represented in the audited CortexABV public surfaces.")
+    if inventory["education_certificates"] == "MISSING":
+        gaps.append("Education/certificates are not represented in the current audited CortexABV public surfaces.")
+    if inventory["constraints_preferences"] == "MISSING":
+        gaps.append("Professional constraints/preferences are not represented in the current audited CortexABV public surfaces.")
+    if inventory["recent_work"] != "STRONG":
+        gaps.append("Recent-work public evidence remains partial and may omit very recent private project execution.")
+    if len(relevant_entities) > limit:
+        gaps.append("Additional relevant public professional evidence exists beyond the current context budget.")
+    return items, sources, proof_assets, gaps, len(relevant_entities) > limit
+
+
 class CortexAbvProvider:
     provider_id = "cortexabv"
 
@@ -393,9 +667,10 @@ class CortexAbvProvider:
     def health(self) -> dict[str, Any]:
         artifact = self.runtime_root / "data" / "vector-indexes" / "turbovec-poc" / "index-artifact.v1.json"
         harness = self.runtime_root / "src" / "vector-runtime-controlled-module-harness.mjs"
-        if artifact.is_file() and harness.is_file():
+        public_paths = _public_presence_paths(self.runtime_root)
+        if artifact.is_file() and harness.is_file() and all(path.is_file() for path in public_paths.values()):
             return {"ok": True}
-        return {"ok": False, "reason": "local runtime artifact or harness missing"}
+        return {"ok": False, "reason": "local runtime artifact, harness, or public professional surface missing"}
 
     def retrieve(self, request: dict[str, Any]) -> dict[str, Any]:
         if request["privacy_domain"] == "PUBLIC":
@@ -408,7 +683,22 @@ class CortexAbvProvider:
         sources: list[dict[str, Any]] = []
         proof_assets: list[dict[str, Any]] = []
         known_gaps: list[str] = []
+        surfaces = None
         for tenant, query in tenant_queries:
+            if tenant == "cortex-abv-personal":
+                surfaces = surfaces or _load_public_professional_surfaces(self.runtime_root)
+                personal_items, personal_sources, personal_proof_assets, personal_gaps, personal_more = _build_professional_items(
+                    request,
+                    surfaces["presence_index"],
+                    surfaces["project_registry"],
+                )
+                items.extend(personal_items)
+                sources.extend(personal_sources)
+                proof_assets.extend(personal_proof_assets)
+                known_gaps.extend(personal_gaps)
+                if not personal_items:
+                    known_gaps.append("CortexABV personal public professional retrieval returned no opportunity-relevant evidence.")
+                continue
             payload = self._run_query(query, tenant, max_items=int(request["max_items"]))
             if not payload["result"]["candidates"]:
                 known_gaps.append(f"CortexABV tenant {tenant} returned no candidate knowledge for this request.")
@@ -442,8 +732,6 @@ class CortexAbvProvider:
                     }
                     sources.append(source)
                     proof_assets.append(source)
-        if any(tenant == "cortex-abv-personal" for tenant, _ in tenant_queries):
-            known_gaps.append("CortexABV personal retrieval currently exposes only a minimal public-presence baseline, not a rich professional profile or recent-work timeline.")
         if any(tenant == "azur-menton" for tenant, _ in tenant_queries):
             known_gaps.append("CortexABV AzurMenton retrieval currently surfaces a compact guide bundle only; durable decisions and richer editorial history remain absent.")
         elapsed_ms = int((time.perf_counter() - started) * 1000)
@@ -455,7 +743,7 @@ class CortexAbvProvider:
             "proof_assets": _dedupe_dicts(proof_assets),
             "known_gaps": _dedupe_strings(known_gaps or (["No CortexABV knowledge matched this request."] if not items else [])),
             "truncated": len(items) > int(request["max_items"]),
-            "available_more": False,
+            "available_more": len(items) > int(request["max_items"]) or any("Additional relevant public professional evidence exists beyond the current context budget." in gap for gap in known_gaps),
             "privacy_classification": request["privacy_domain"],
             "elapsed_ms": elapsed_ms,
         }

@@ -43,3 +43,11 @@ Expected future consumers:
 - `Opportunity Engine`: bounded profile/project/domain retrieval
 
 If a provider is unavailable, denied, malformed, or truncated, that must remain explicit in the `ContextPack` and evidence.
+
+For professional preparation requests, `CortexABV` may synthesize a bounded pack from audited public Cortex surfaces such as:
+
+- `public-presence-index.v1.json`
+- `public-project-registry.v1.json`
+- the audited local runtime artifact/query seam where relevant
+
+That path is still read-only and evidence-backed. It should return compact opportunity-specific context, not a full biography dump.

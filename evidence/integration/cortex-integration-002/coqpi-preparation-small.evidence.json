@@ -1,7 +1,7 @@
 {
   "artifact_refs": [
-    "context/requests/coqpi-preparation.json",
-    "evidence/context-packs/coqpi-preparation.json"
+    "context/requests/coqpi-preparation-small.json",
+    "evidence/context-packs/coqpi-preparation-small.json"
   ],
   "candidate": "read-only-cortex-retrieval",
   "environment": {
@@ -10,15 +10,15 @@
     "production_mutation": false,
     "repository_path": "/Volumes/Work/Work/ABVX-OS"
   },
-  "fixture": "coqpi-preparation",
-  "id": "cortex-integration-002-coqpi-preparation",
+  "fixture": "coqpi-preparation-small",
+  "id": "cortex-integration-002-coqpi-preparation-small",
   "metrics": {
     "available_more": true,
     "execution_mode": "DEEP",
-    "items_retrieved": 6,
+    "items_retrieved": 4,
     "known_gaps": 6,
-    "pack_bytes": 14214,
-    "pack_lines": 363,
+    "pack_bytes": 10351,
+    "pack_lines": 273,
     "privacy_classification": "PERSONAL_PRIVATE",
     "providers_used": [
       "cortexabv"
@@ -27,7 +27,7 @@
     "truncated": true
   },
   "provenance": {
-    "observed_at": "2026-08-08T20:13:33Z",
+    "observed_at": "2026-08-08T20:14:14Z",
     "recorded_by": "CORTEX-INTEGRATION-002",
     "source_uri": null
   },
@@ -35,5 +35,5 @@
   "source": "read-only cortex retrieval context request",
   "stderr_ref": "internal:none",
   "stdout_ref": "internal:none",
-  "timestamp": "2026-08-08T20:13:33Z"
+  "timestamp": "2026-08-08T20:14:14Z"
 }

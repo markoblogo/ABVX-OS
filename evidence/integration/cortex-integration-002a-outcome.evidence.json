@@ -1,0 +1,51 @@
+{
+  "id": "cortex-integration-002a-personal-professional-depth",
+  "source": "abvx professional retrieval depth audit",
+  "timestamp": "2026-08-08T00:00:00Z",
+  "candidate": "cortexabv-professional-retrieval-depth",
+  "fixture": "cortex-integration-002a",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "before_items": 1,
+    "before_sources": 1,
+    "before_proof_assets": 1,
+    "before_pack_bytes": 4452,
+    "after_items": 6,
+    "after_sources": 7,
+    "after_proof_assets": 12,
+    "after_pack_bytes": 14213,
+    "small_pack_items": 4,
+    "small_pack_sources": 5,
+    "small_pack_proof_assets": 7,
+    "small_pack_bytes": 10350,
+    "public_professional_entities": 90,
+    "token_usage": "NOT_METERED"
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "docs/context-retrieval.md",
+    "docs/audits/cortex-integration-002a-personal-professional-depth.md",
+    "src/abvx_harness/context.py",
+    "context/requests/coqpi-preparation.json",
+    "context/requests/coqpi-preparation-small.json",
+    "evidence/context-packs/coqpi-preparation.json",
+    "evidence/context-packs/coqpi-preparation-small.json",
+    "evidence/integration/cortex-integration-002/coqpi-preparation.evidence.json",
+    "evidence/integration/cortex-integration-002/coqpi-preparation-small.evidence.json",
+    "tests/test_context.py"
+  ],
+  "provenance": {
+    "recorded_by": "CORTEX-INTEGRATION-002A",
+    "source_uri": null,
+    "observed_at": "2026-08-08T00:00:00Z"
+  },
+  "environment": {
+    "abvx_os_path": "/Volumes/Work/Work/ABVX-OS",
+    "cortexabv_public_surface": "/Volumes/Work/Work/ABVXsite/cortex-abv",
+    "cortexabv_runtime_surface": "/Volumes/Work/Work/ABVXsite/cortex-abv/private-runtime",
+    "cortexabv_private_surface": "/Volumes/Work/Work/CortexABV-private",
+    "consumer_repositories_modified": false,
+    "cortex_repositories_modified": false
+  }
+}

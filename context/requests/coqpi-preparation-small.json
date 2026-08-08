@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "request_id": "coqpi-preparation-small",
+  "consumer": "coqpi",
+  "task": "Prepare compact context for a professional Product Lead / AI conversation.",
+  "intent": "professional_preparation",
+  "related_projects": [
+    "coqpi"
+  ],
+  "entities": [
+    "Anton",
+    "CoqPi",
+    "Product Lead",
+    "AI",
+    "product"
+  ],
+  "domains": [
+    "professional-context",
+    "current-work"
+  ],
+  "freshness_requirement": "CURRENT",
+  "privacy_domain": "PERSONAL_PRIVATE",
+  "max_items": 4,
+  "context_budget": {
+    "max_excerpt_chars": 160,
+    "provider_timeout_seconds": 20,
+    "token_usage": "NOT_METERED"
+  },
+  "provider_hints": [
+    "cortexabv"
+  ]
+}

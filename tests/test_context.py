@@ -5,6 +5,8 @@ from pathlib import Path
 
 from abvx_harness.context import (
     _is_admitted_index_path,
+    _build_professional_items,
+    _professional_inventory,
     assemble_context_pack,
     inspect_context_pack,
     load_context_request,
@@ -44,6 +46,69 @@ class ContextTests(unittest.TestCase):
     def test_route_providers_is_explicit(self):
         request = load_context_request(ROOT, ROOT / "context" / "requests" / "unusual-indices-book.json")
         self.assertEqual(route_provider_ids(request), ["cortexabv", "index-cortex"])
+
+    def test_professional_inventory_and_item_building_are_bounded_and_proof_backed(self):
+        request = load_context_request(ROOT, ROOT / "context" / "requests" / "coqpi-preparation.json")
+        surfaces = {
+            "presence_index": {
+                "entities": [
+                    {
+                        "id": "project:agent-skills",
+                        "kind": "project",
+                        "name": "Agent Skills",
+                        "summary": "AI-native validated workflows for product work.",
+                        "canonicalUrl": "https://example.com/agent-skills",
+                        "attributes": {
+                            "status": "live",
+                            "updatedAt": "2026-07-01",
+                            "tags": ["ai-dev", "validation", "workflows"],
+                            "links": [{"type": "github", "url": "https://github.com/example/agent-skills"}],
+                        },
+                        "provenance": [{"kind": "content_frontmatter", "path": "content/work/agent-skills.md", "digest": "a" * 64}],
+                    },
+                    {
+                        "id": "publication:future-proof",
+                        "kind": "publication",
+                        "name": "Future-Proof Productivity",
+                        "summary": "AI and workflow design for knowledge work.",
+                        "canonicalUrl": "https://example.com/future-proof",
+                        "attributes": {
+                            "status": "released",
+                            "updatedAt": "2026-06-01",
+                            "tags": ["AI", "automation", "future of work"],
+                            "links": [{"type": "kindle", "url": "https://example.com/future-proof/kindle"}],
+                        },
+                        "provenance": [{"kind": "content_frontmatter", "path": "content/books/future-proof.md", "digest": "b" * 64}],
+                    },
+                ],
+                "relations": [],
+            },
+            "project_registry": {
+                "entries": [
+                    {
+                        "id": "repository:github:example/agent-skills",
+                        "repository": {"provider": "github", "url": "https://github.com/example/agent-skills"},
+                        "project": {"id": "project:agent-skills"},
+                        "publicChannels": [{"type": "site", "url": "https://example.com/agent-skills"}],
+                    }
+                ]
+            },
+        }
+        inventory = _professional_inventory(surfaces)
+        self.assertEqual(inventory["capabilities"], "STRONG")
+        self.assertEqual(inventory["books_publications"], "STRONG")
+        self.assertEqual(inventory["professional_goals"], "MISSING")
+        items, sources, proof_assets, gaps, available_more = _build_professional_items(request, surfaces["presence_index"], surfaces["project_registry"])
+        self.assertFalse(available_more)
+        self.assertGreaterEqual(len(items), 4)
+        self.assertEqual(items[0]["category"], "current_focus")
+        self.assertTrue(any(item["title"] == "Agent Skills" for item in items))
+        self.assertTrue(any(asset["url"] == "https://github.com/example/agent-skills" for asset in proof_assets))
+        self.assertTrue(any("Professional goals/current collaboration preference" in gap for gap in gaps))
+
+    def test_small_pack_request_validates(self):
+        checked = validate_repository(ROOT)
+        self.assertIn("context/requests/coqpi-preparation-small.json", checked)
 
     def test_mixed_provider_partial_success_is_explicit(self):
         request = load_context_request(ROOT, ROOT / "context" / "requests" / "unusual-indices-book.json")
