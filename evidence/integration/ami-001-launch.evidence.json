@@ -1,0 +1,42 @@
+{
+  "id": "ami-001-launch",
+  "source": "ABVXsite AMI landing implementation",
+  "timestamp": "2026-08-09T00:00:00Z",
+  "candidate": "ABVXsite public landing route",
+  "fixture": "ami-landing-mvp",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "validation_tier": "STANDARD",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "product_cards": 6,
+    "analytics_mode": "plausible_existing_script_reused",
+    "token_usage": "NOT_METERED"
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "ABVXsite:/src/app/ami/page.tsx",
+    "ABVXsite:/src/app/fr/ami/page.tsx",
+    "ABVXsite:/src/components/ami/AmiLanding.tsx",
+    "ABVXsite:/src/lib/ami-content.ts",
+    "media/events/ami-launched.json"
+  ],
+  "environment": {
+    "os": "macOS",
+    "runtime": "Next.js App Router in ABVXsite",
+    "validation": [
+      "ABVXsite build",
+      "ABVXsite git diff --check",
+      "ABVX-OS validate"
+    ]
+  },
+  "provenance": {
+    "recorded_by": "AMI-001",
+    "source_uri": "https://abvx.xyz/focus",
+    "observed_at": "2026-08-09T00:00:00Z"
+  }
+}

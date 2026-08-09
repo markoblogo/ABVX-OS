@@ -1,0 +1,66 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "ami",
+      "name": "AMI",
+      "status": "active",
+      "repository": "https://github.com/markoblogo/ABVXsite",
+      "local_path": "/Volumes/Work/Work/ABVXsite",
+      "branch": "main",
+      "lifecycle_state": "public_landing_mvp",
+      "purpose": "Public commercial front door for the connected agro-commodity infrastructure ecosystem spanning brokerage operations, benchmark layers, market intelligence, partner landings, and bounded AI knowledge support.",
+      "economic_roles": [
+        "strategic_asset",
+        "revenue_enabler",
+        "partner_front",
+        "employment_and_client_front"
+      ],
+      "priority": "P1 ecosystem visibility, partner conversations, and commercial credibility",
+      "independence": {
+        "deployable_without_abvx_os": true
+      },
+      "runtime": {
+        "framework": "Next.js App Router inside ABVXsite",
+        "language": "TypeScript",
+        "deployment": "Vercel-compatible public landing"
+      },
+      "current_surface": [
+        "English AMI landing",
+        "French AMI landing",
+        "ecosystem mapping",
+        "product proof surface",
+        "direct contact path"
+      ],
+      "dependencies": {
+        "public_products": [
+          "MN7R",
+          "Cropto Monitor",
+          "SPIKE SPOT INDEX",
+          "UGA Index",
+          "1D3X",
+          "Liqua"
+        ],
+        "owner_infrastructure": [
+          "ABVXsite",
+          "Plausible"
+        ]
+      },
+      "known_risks": [
+        "AMI should be positioned as an ecosystem or initiative surface, not a fictional standalone company",
+        "commercial claims must remain tied to existing public product evidence",
+        "French adaptation is bounded landing copy, not a full site localization system"
+      ],
+      "abvx_consumption": [
+        "project registry",
+        "compact launch evidence",
+        "media-event candidate only"
+      ],
+      "provenance": {
+        "recorded_by": "AMI-001",
+        "source_uri": "https://abvx.xyz/focus",
+        "observed_at": "2026-08-09T00:00:00Z"
+      }
+    }
+  ]
+}

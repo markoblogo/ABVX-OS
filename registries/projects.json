@@ -119,6 +119,60 @@
         "source_uri": null,
         "observed_at": "2026-08-08T21:10:00Z"
       }
+    },
+    {
+      "id": "ami",
+      "name": "AMI",
+      "status": "active",
+      "repository": "https://github.com/markoblogo/ABVXsite",
+      "local_path": "/Volumes/Work/Work/ABVXsite",
+      "branch": "main",
+      "lifecycle_state": "public_landing_mvp",
+      "purpose": "Public ecosystem landing for agro-commodity market infrastructure, connecting brokerage operations, benchmark layers, market intelligence, market fronts, and bounded AI knowledge support.",
+      "economic_role": "partner, client, and employer-facing commercial entry point",
+      "priority": "P1 ecosystem visibility and direct commercial conversations",
+      "independence": {
+        "deployable_without_abvx_os": true
+      },
+      "runtime": {
+        "type": "public Next.js landing route inside ABVXsite",
+        "language": "TypeScript",
+        "frameworks": [
+          "Next.js",
+          "React"
+        ]
+      },
+      "dependencies": {
+        "providers": [
+          "Plausible"
+        ],
+        "local_adapters": [
+          "ABVXsite content and media graph"
+        ]
+      },
+      "abvx_consumption": [
+        "project registry",
+        "compact launch evidence",
+        "media-event candidate"
+      ],
+      "reusable_capabilities": [
+        "ecosystem-level public positioning",
+        "compact bilingual landing surface",
+        "proof-oriented product aggregation"
+      ],
+      "media_relevance": "medium: launch candidate only",
+      "proof_relevance": "high: public ecosystem proof and commercial sendability",
+      "revenue_relevance": "direct: partner, employer, consulting, and client conversations",
+      "known_risks": [
+        "must not overstate legal structure or traction",
+        "must stay tied to existing public product evidence",
+        "French route is landing-only and not a full localization system"
+      ],
+      "provenance": {
+        "recorded_by": "AMI-001",
+        "source_uri": "https://abvx.xyz/focus",
+        "observed_at": "2026-08-09T00:00:00Z"
+      }
     }
   ]
 }

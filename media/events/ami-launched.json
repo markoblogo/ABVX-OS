@@ -1,0 +1,53 @@
+{
+  "id": "media-event-ami-launched",
+  "type": "AMI_LAUNCHED",
+  "origin": "HUMAN_INITIATED",
+  "source_project": "ami",
+  "status": "CANDIDATE",
+  "title": "AMI — Agro Market Infrastructure",
+  "url_path": "/ami",
+  "summary": "A compact bilingual public landing that presents the connected agro-commodity infrastructure ecosystem: brokerage operations, market intelligence, benchmark layers, market fronts, and bounded AI knowledge support.",
+  "themes": [
+    "agro market infrastructure",
+    "brokerage operations",
+    "market intelligence",
+    "benchmark infrastructure",
+    "AI knowledge layer"
+  ],
+  "geography": [
+    "Europe",
+    "Ukraine-linked commodity markets",
+    "French commercial outreach"
+  ],
+  "audience": [
+    "technology partners",
+    "accelerators and funds",
+    "commodity companies",
+    "market clients and collaborators"
+  ],
+  "available_assets": {
+    "landing": "/ami",
+    "french_landing": "/fr/ami",
+    "proof_images": [
+      "/media/work/liqua/hero.webp",
+      "/media/work/mn7r/hero.png",
+      "/media/work/spike-spot-commodity-index-ukraine/hero.webp"
+    ]
+  },
+  "publication_languages": [
+    "en",
+    "fr"
+  ],
+  "possible_distribution_relevance": [
+    "ecosystem introduction",
+    "partner outreach",
+    "commercial credibility surface",
+    "technology and accelerator conversations"
+  ],
+  "distribution_state": "NOT_PUBLISHED_TO_EXTERNAL_MEDIA",
+  "provenance": {
+    "recorded_by": "AMI-001",
+    "source_uri": "https://abvx.xyz/ami",
+    "observed_at": "2026-08-09T00:00:00Z"
+  }
+}
