@@ -52,7 +52,7 @@
         "AzurMenton operational playbooks"
       ],
       "plausible_donors": [
-        "UNRECORDED in current ABVX evidence"
+        "video-shotcraft for real product/demo/launch video needs"
       ],
       "must_not_build_custom_before_donor_review": [
         "general media DAM",
@@ -70,12 +70,14 @@
         "portfolio strategy and state"
       ],
       "plausible_donors": [
-        "UNRECORDED in current ABVX evidence"
+        "mcp-gsc for Google Search Console observation",
+        "existing Plausible project-local instrumentation"
       ],
       "must_not_build_custom_before_donor_review": [
         "generic growth platform",
         "always-on experiment scheduler",
-        "full analytics orchestration layer"
+        "full analytics orchestration layer",
+        "custom Google Search Console client"
       ],
       "next_real_trigger": "A revenue surface needs repeated experiment tracking beyond project-local implementation."
     },
@@ -89,6 +91,7 @@
       ],
       "plausible_donors": [
         "HyperResearch",
+        "Open Deep Research",
         "FutureSearch",
         "SurfSense",
         "Open Notebook",
@@ -100,6 +103,25 @@
         "persistent research runtime"
       ],
       "next_real_trigger": "A repeated research workflow becomes expensive enough that manual/context-pack methods stop being acceptable."
+    },
+    {
+      "id": "gap-presentation-production",
+      "capability": "Presentation/Deck Production",
+      "what_abvx_already_has": [
+        "project registries",
+        "evidence records",
+        "Cortex context retrieval",
+        "AMI commercial surface evidence"
+      ],
+      "plausible_donors": [
+        "Codex Slides"
+      ],
+      "must_not_build_custom_before_donor_review": [
+        "custom presentation factory",
+        "localized deck generation pipeline",
+        "proposal deck automation"
+      ],
+      "next_real_trigger": "A real commercial, project or proposal deck is needed."
     },
     {
       "id": "gap-book-factory",

@@ -177,6 +177,11 @@ def validate_repository(root: Path) -> list[str]:
     for path in sorted((root / "events" / "projects").rglob("*.json")):
         validate(load_json(path), load_json(event_schema_path), schema_path=event_schema_path, root=root, location=str(path))
         checked.append(str(path.relative_to(root)))
+    analytics_observation_schema_path = root / "schemas" / "analytics_observation.schema.json"
+    if analytics_observation_schema_path.is_file():
+        for path in sorted((root / "observations" / "analytics").glob("*.json")):
+            validate(load_json(path), load_json(analytics_observation_schema_path), schema_path=analytics_observation_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
     context_request_schema_path = root / "schemas" / "context_request.schema.json"
     if context_request_schema_path.is_file():
         for path in sorted((root / "context" / "requests").glob("*.json")):

@@ -116,6 +116,67 @@
       "notes": "Retain for real forecasting or hypothesis-support questions only, not as a standing research runtime."
     },
     {
+      "id": "analytics-mcp-gsc",
+      "capability_area": "Analytics/search sensors",
+      "candidate": "mcp-gsc",
+      "locator": "AminForou/mcp-gsc",
+      "status": "PILOT_NOW",
+      "evidence_basis": "PLATFORM-SENSORS-001 narrow donor inspection",
+      "evidence_refs": [
+        "docs/external-sensors.md",
+        "observations/analytics/platform-sensors-001-targets.json"
+      ],
+      "notes": "Google Search Console sensor for search-performance observation, indexing observation and content-opportunity input. Guardrail: DO_NOT_BUILD_CUSTOM_GSC_CLIENT_FIRST."
+    },
+    {
+      "id": "research-open-deep-research",
+      "capability_area": "Research",
+      "candidate": "Open Deep Research",
+      "locator": "Open Deep Research",
+      "status": "PILOT_WHEN_REAL_RESEARCH_MISSION_STARTS",
+      "evidence_basis": "PLATFORM-SENSORS-001 donor recording",
+      "evidence_refs": [
+        "docs/external-sensors.md"
+      ],
+      "notes": "Deep research provider candidate for opportunity, funding/program, market and company research. Compare with HyperResearch. Guardrail: DO_NOT_BUILD_CUSTOM_DEEP_RESEARCH_AGENT_FIRST."
+    },
+    {
+      "id": "presentations-codex-slides",
+      "capability_area": "Presentations/decks",
+      "candidate": "Codex Slides",
+      "locator": "Codex Slides",
+      "status": "PILOT_WHEN_REAL_DECK_NEEDED",
+      "evidence_basis": "PLATFORM-SENSORS-001 donor recording",
+      "evidence_refs": [
+        "docs/external-sensors.md"
+      ],
+      "notes": "Presentation/deck production donor for localized commercial decks and project/proposal presentations. Guardrail: DO_NOT_BUILD_CUSTOM_PRESENTATION_FACTORY_FIRST."
+    },
+    {
+      "id": "media-video-shotcraft",
+      "capability_area": "Media/video",
+      "candidate": "video-shotcraft",
+      "locator": "video-shotcraft",
+      "status": "PILOT_WHEN_REAL_VIDEO_NEEDED",
+      "evidence_basis": "PLATFORM-SENSORS-001 donor recording",
+      "evidence_refs": [
+        "docs/external-sensors.md"
+      ],
+      "notes": "Product, demo and launch video donor, with optional web motion asset use. Guardrail: DO_NOT_BUILD_CUSTOM_VIDEO_PIPELINE_FIRST."
+    },
+    {
+      "id": "personal-knowledge-personal-brain-builder",
+      "capability_area": "Personal knowledge/cognition",
+      "candidate": "personal-brain-builder",
+      "locator": "personal-brain-builder",
+      "status": "UNRECORDED",
+      "evidence_basis": "PLATFORM-SENSORS-001 donor recording only",
+      "evidence_refs": [
+        "docs/external-sensors.md"
+      ],
+      "notes": "Potential personal knowledge/cognition donor. Future question: what capability does it add beyond CortexABV? Do not adopt or install."
+    },
+    {
       "id": "research-surfsense",
       "capability_area": "Research",
       "candidate": "SurfSense",

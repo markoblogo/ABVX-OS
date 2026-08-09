@@ -20,6 +20,7 @@ class HarnessTests(unittest.TestCase):
         self.assertIn("registries/projects.json", checked)
         self.assertIn("registries/donor-capability-matrix.json", checked)
         self.assertIn("registries/capability-gaps.json", checked)
+        self.assertIn("observations/analytics/platform-sensors-001-targets.json", checked)
         self.assertIn("fixtures/bakeoffs/foundation-002-baseline/hello-local.json", checked)
 
     def test_baseline_run_captures_evidence_and_is_reproducible(self):

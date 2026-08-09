@@ -1,0 +1,70 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "external-aminforou-mcp-gsc",
+      "locator": "AminForou/mcp-gsc",
+      "role": "Google Search Console sensor; search-performance observation; indexing observation; content-opportunity input",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_now",
+      "notes": "Narrow technical inspection only. Pilot before building a custom GSC client. Destructive GSC operations must remain disabled.",
+      "provenance": {
+        "recorded_by": "PLATFORM-SENSORS-001",
+        "source_uri": "https://github.com/AminForou/mcp-gsc",
+        "observed_at": "2026-08-09T21:00:00Z"
+      }
+    },
+    {
+      "id": "external-open-deep-research",
+      "locator": "Open Deep Research",
+      "role": "Deep research provider for opportunity, funding/program, market and company research",
+      "evaluation_status": "unreviewed",
+      "approval_status": "pilot_when_real_research_mission_starts",
+      "notes": "Compare with HyperResearch when a real research mission starts. Do not build a custom deep-research agent first.",
+      "provenance": {
+        "recorded_by": "PLATFORM-SENSORS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-09T21:00:00Z"
+      }
+    },
+    {
+      "id": "external-codex-slides",
+      "locator": "Codex Slides",
+      "role": "Presentation/deck production; localized commercial decks; project/proposal presentations",
+      "evaluation_status": "unreviewed",
+      "approval_status": "pilot_when_real_deck_needed",
+      "notes": "Do not build a custom presentation factory first.",
+      "provenance": {
+        "recorded_by": "PLATFORM-SENSORS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-09T21:00:00Z"
+      }
+    },
+    {
+      "id": "external-video-shotcraft",
+      "locator": "video-shotcraft",
+      "role": "Product/demo/launch video; media production; optional web motion assets",
+      "evaluation_status": "unreviewed",
+      "approval_status": "pilot_when_real_video_needed",
+      "notes": "Do not build a custom video pipeline first.",
+      "provenance": {
+        "recorded_by": "PLATFORM-SENSORS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-09T21:00:00Z"
+      }
+    },
+    {
+      "id": "external-personal-brain-builder",
+      "locator": "personal-brain-builder",
+      "role": "Potential personal knowledge / cognition donor",
+      "evaluation_status": "unreviewed",
+      "approval_status": "not_approved",
+      "notes": "Status UNRECORDED in donor matrix. Required future question: what capability does it add beyond CortexABV? Do not adopt or install.",
+      "provenance": {
+        "recorded_by": "PLATFORM-SENSORS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-09T21:00:00Z"
+      }
+    }
+  ]
+}
