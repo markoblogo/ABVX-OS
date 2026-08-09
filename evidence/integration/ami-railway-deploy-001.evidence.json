@@ -1,0 +1,56 @@
+{
+  "id": "ami-railway-deploy-001",
+  "source": "DMVg apps/ami Railway deployment",
+  "timestamp": "2026-08-09T18:50:00Z",
+  "candidate": "Railway production review deployment",
+  "fixture": "ami-production-review-candidate",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "PLAYBOOK",
+    "validation_tier": "STANDARD",
+    "deployment_provider": "Railway",
+    "languages": ["en", "fr"],
+    "desktop_render": "PASS",
+    "mobile_render": "PASS",
+    "product_images_visible": true,
+    "plausible_present": true,
+    "token_usage": "NOT_METERED"
+  },
+  "stdout_ref": "Railway CLI/build logs inspected locally; secrets redacted from terminal output",
+  "stderr_ref": "Railway CLI timeout observed on full monorepo upload; resolved with minimal deploy context",
+  "artifact_refs": [
+    "DMVg:railway.json",
+    "DMVg:/apps/ami",
+    "https://ami-production-244d.up.railway.app",
+    "https://ami-production-244d.up.railway.app/fr",
+    "https://ami-production-244d.up.railway.app/sitemap.xml",
+    "https://ami-production-244d.up.railway.app/robots.txt"
+  ],
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/DMVg",
+    "app_path": "/Volumes/Work/Work/DMVg/apps/ami",
+    "branch": "main",
+    "commit": "9bad8b6",
+    "railway_project": "ami",
+    "railway_service": "ami",
+    "deployment_method": "Railway CLI upload from minimal monorepo context",
+    "custom_domain": "prepared only; DNS not changed",
+    "preferred_custom_domain": "https://ami.1d3x.com",
+    "validation": [
+      "npm run build --workspace @agro/ami",
+      "npm run lint --workspace @agro/ami",
+      "npm run typecheck --workspace @agro/ami",
+      "local production start on Railway-style PORT",
+      "Railway remote build succeeded",
+      "production / and /fr returned HTTP 200",
+      "production sitemap.xml and robots.txt returned HTTP 200",
+      "Playwright desktop/mobile render checks passed",
+      "Plausible script reachable"
+    ]
+  },
+  "provenance": {
+    "recorded_by": "AMI-RAILWAY-DEPLOY-001",
+    "source_uri": "https://ami-production-244d.up.railway.app",
+    "observed_at": "2026-08-09T18:50:00Z"
+  }
+}

@@ -5,10 +5,10 @@
       "id": "ami",
       "name": "AMI",
       "status": "active",
-      "repository": "https://github.com/markoblogo/ABVXsite",
-      "local_path": "/Volumes/Work/Work/ABVXsite",
+      "repository": "https://github.com/markoblogo/liqua",
+      "local_path": "/Volumes/Work/Work/DMVg/apps/ami",
       "branch": "main",
-      "lifecycle_state": "public_landing_mvp",
+      "lifecycle_state": "production_review_candidate",
       "purpose": "Public commercial front door for the connected agro-commodity infrastructure ecosystem spanning brokerage operations, benchmark layers, market intelligence, partner landings, and bounded AI knowledge support.",
       "economic_roles": [
         "strategic_asset",
@@ -21,9 +21,11 @@
         "deployable_without_abvx_os": true
       },
       "runtime": {
-        "framework": "Next.js App Router inside ABVXsite",
+        "framework": "Next.js App Router inside DMVg monorepo",
         "language": "TypeScript",
-        "deployment": "Vercel-compatible public landing"
+        "deployment": "Railway production review deployment",
+        "review_url": "https://ami-production-244d.up.railway.app",
+        "preferred_custom_domain": "https://ami.1d3x.com"
       },
       "current_surface": [
         "English AMI landing",
@@ -42,7 +44,8 @@
           "Liqua"
         ],
         "owner_infrastructure": [
-          "ABVXsite",
+          "DMVg",
+          "Railway",
           "Plausible"
         ]
       },
@@ -57,9 +60,9 @@
         "media-event candidate only"
       ],
       "provenance": {
-        "recorded_by": "AMI-001",
-        "source_uri": "https://abvx.xyz/focus",
-        "observed_at": "2026-08-09T00:00:00Z"
+        "recorded_by": "AMI-RAILWAY-DEPLOY-001",
+        "source_uri": "https://ami-production-244d.up.railway.app",
+        "observed_at": "2026-08-09T18:50:00Z"
       }
     }
   ]

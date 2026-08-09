@@ -124,10 +124,10 @@
       "id": "ami",
       "name": "AMI",
       "status": "active",
-      "repository": "https://github.com/markoblogo/ABVXsite",
-      "local_path": "/Volumes/Work/Work/ABVXsite",
+      "repository": "https://github.com/markoblogo/liqua",
+      "local_path": "/Volumes/Work/Work/DMVg/apps/ami",
       "branch": "main",
-      "lifecycle_state": "public_landing_mvp",
+      "lifecycle_state": "production_review_candidate",
       "purpose": "Public ecosystem landing for agro-commodity market infrastructure, connecting brokerage operations, benchmark layers, market intelligence, market fronts, and bounded AI knowledge support.",
       "economic_role": "partner, client, and employer-facing commercial entry point",
       "priority": "P1 ecosystem visibility and direct commercial conversations",
@@ -135,19 +135,23 @@
         "deployable_without_abvx_os": true
       },
       "runtime": {
-        "type": "public Next.js landing route inside ABVXsite",
+        "type": "public Next.js landing app inside DMVg monorepo",
         "language": "TypeScript",
         "frameworks": [
           "Next.js",
           "React"
-        ]
+        ],
+        "deployment_provider": "Railway",
+        "review_url": "https://ami-production-244d.up.railway.app",
+        "preferred_custom_domain": "https://ami.1d3x.com"
       },
       "dependencies": {
         "providers": [
-          "Plausible"
+          "Plausible",
+          "Railway"
         ],
         "local_adapters": [
-          "ABVXsite content and media graph"
+          "DMVg workspace packages"
         ]
       },
       "abvx_consumption": [
@@ -169,9 +173,9 @@
         "French route is landing-only and not a full localization system"
       ],
       "provenance": {
-        "recorded_by": "AMI-001",
-        "source_uri": "https://abvx.xyz/focus",
-        "observed_at": "2026-08-09T00:00:00Z"
+        "recorded_by": "AMI-RAILWAY-DEPLOY-001",
+        "source_uri": "https://ami-production-244d.up.railway.app",
+        "observed_at": "2026-08-09T18:50:00Z"
       }
     }
   ]
