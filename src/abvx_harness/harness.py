@@ -134,6 +134,16 @@ def validate_repository(root: Path) -> list[str]:
     for path in sorted((root / "intake" / "items").glob("*.json")):
         validate(load_json(path), load_json(intake_schema_path), schema_path=intake_schema_path, root=root, location=str(path))
         checked.append(str(path.relative_to(root)))
+    content_fixture_schema_path = root / "schemas" / "content_fixture.schema.json"
+    if content_fixture_schema_path.is_file():
+        for path in sorted((root / "content" / "fixtures").glob("*.json")):
+            validate(load_json(path), load_json(content_fixture_schema_path), schema_path=content_fixture_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
+    content_item_schema_path = root / "schemas" / "content_item.schema.json"
+    if content_item_schema_path.is_file():
+        for path in sorted((root / "content" / "items").glob("*.json")):
+            validate(load_json(path), load_json(content_item_schema_path), schema_path=content_item_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
     for path in sorted((root / "fixtures").rglob("*.json")):
         fixture_schema_path = root / "schemas" / "fixture.schema.json"
         value = load_json(path)
@@ -177,6 +187,11 @@ def validate_repository(root: Path) -> list[str]:
     for path in sorted((root / "events" / "projects").rglob("*.json")):
         validate(load_json(path), load_json(event_schema_path), schema_path=event_schema_path, root=root, location=str(path))
         checked.append(str(path.relative_to(root)))
+    publishing_adapter_schema_path = root / "schemas" / "publishing_adapter.schema.json"
+    publishing_adapter_registry_path = root / "registries" / "publishing-adapters.json"
+    if publishing_adapter_schema_path.is_file() and publishing_adapter_registry_path.is_file():
+        validate(load_json(publishing_adapter_registry_path), load_json(publishing_adapter_schema_path), schema_path=publishing_adapter_schema_path, root=root, location=str(publishing_adapter_registry_path))
+        checked.append(str(publishing_adapter_registry_path.relative_to(root)))
     analytics_observation_schema_path = root / "schemas" / "analytics_observation.schema.json"
     if analytics_observation_schema_path.is_file():
         for path in sorted((root / "observations" / "analytics").glob("*.json")):

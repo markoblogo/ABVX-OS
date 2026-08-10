@@ -1,0 +1,29 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-001-abvx-cortex-work",
+  "project": "abvxsite",
+  "surface": "work",
+  "kind": "work",
+  "title": "Cortex as a bounded context layer, not a general memory dump",
+  "slug": "cortex-bounded-context-layer",
+  "summary": "Fixture for a public ABVX work/publication item about Cortex boundaries and usefulness.",
+  "locales": ["en"],
+  "adapter_id": "abvx.work",
+  "payload": {
+    "excerpt": "Fixture for a bounded public ABVX publication about Cortex as a reusable context layer.",
+    "body_lines": [
+      "Cortex is useful when it stays bounded: explicit sources, explicit privacy, explicit retrieval budgets.",
+      "That is the difference between a reusable context layer and a vague personal-memory promise.",
+      "ABVX uses Cortex as a donor-backed capability only where the retrieval contract is concrete and fail-closed."
+    ],
+    "tags": ["ABVX", "Cortex", "context"],
+    "asset_refs": [],
+    "source_refs": ["docs/audits/cortex-integration-002-read-only-retrieval-mvp.md"],
+    "media_event_candidate": null
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

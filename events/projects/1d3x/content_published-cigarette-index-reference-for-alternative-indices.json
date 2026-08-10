@@ -1,0 +1,27 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-1d3x-cigarette-index.json"
+  ],
+  "evidence_ref": "evidence/content-ops/content-ops-001-1d3x-cigarette-index.publish.evidence.json",
+  "execution_mode": "DEEP",
+  "id": "1d3x-content_published-cigarette-index-reference-for-alternative-indices",
+  "media_event_candidate": null,
+  "object": {
+    "id": "cigarette-index-reference-for-alternative-indices",
+    "kind": "article",
+    "locator": "article:cigarette-index-reference-for-alternative-indices"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "1d3x",
+  "provenance": {
+    "observed_at": "2026-08-10T08:29:11Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T08:29:11Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "STANDARD"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-abvx-cortex-work.json"
+  ],
+  "candidate": "abvx.work",
+  "environment": {
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "external_mutation_performed": false,
+    "publish_strategy": "file_markdown",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "content-ops-001-abvx-cortex-work",
+  "id": "content-ops-001-abvx-cortex-work-publish-handoff",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "execution_mode": "DEEP",
+    "publish_mode": "REPORT_ONLY_HANDOFF",
+    "reasoning_steps": 1,
+    "validation_tier": "STANDARD"
+  },
+  "provenance": {
+    "observed_at": "2026-08-10T08:29:11Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "abvx-content-ops",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-10T08:29:11Z"
+}

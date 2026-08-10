@@ -1,0 +1,28 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-001-abvx-note",
+  "project": "abvxsite",
+  "surface": "notes",
+  "kind": "note",
+  "title": "Short note fixture about working across languages and systems",
+  "slug": "working-across-languages-and-systems",
+  "summary": "Fixture proving that Notes remain blocked until ABVXsite has a real /notes surface.",
+  "locales": ["en"],
+  "adapter_id": "abvx.notes",
+  "payload": {
+    "excerpt": "Short general note fixture.",
+    "body_lines": [
+      "A short note is intentionally smaller than a work case or essay.",
+      "It still needs a concrete route, loader and validation path."
+    ],
+    "tags": ["ABVX", "notes"],
+    "asset_refs": [],
+    "source_refs": [],
+    "media_event_candidate": null
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "id": "1d3x.article",
+    "mechanism": "Code-defined 1D3X platform blog array in index monorepo",
+    "next_commands": [
+      "Edit /Volumes/Work/Work/index/src/lib/platform-blog-posts.ts",
+      "Run npm run typecheck in /Volumes/Work/Work/index",
+      "Run npm run build in /Volumes/Work/Work/index",
+      "Commit and deploy the 1D3X tenant through existing index release flow"
+    ],
+    "publish_strategy": "code_array",
+    "target": "src/lib/platform-blog-posts.ts"
+  },
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-1d3x-cigarette-index.json"
+  ],
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-10T08:29:11Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-ops-001-1d3x-cigarette-index",
+  "kind": "article",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "The Cigarette Index is useful not because it should be copied, but because it demonstrates how unusual consumer items can anchor intuitive public benchmarks.",
+      "For 1D3X and POP, that makes it a good external reference when discussing what belongs in an alternative index library.",
+      "The main lesson is methodological: editorial clarity and a concrete benchmark story matter as much as the formula."
+    ],
+    "excerpt": "Fixture for a 1D3X article using the Cigarette Index as a reference case for alternative index design.",
+    "media_event_candidate": null,
+    "source_refs": [
+      "https://cig-index.vercel.app/"
+    ],
+    "tags": [
+      "1D3X",
+      "alternative indices",
+      "reference"
+    ]
+  },
+  "project": "1d3x",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": "https://cig-index.vercel.app/"
+  },
+  "publication": {
+    "event_ref": "events/projects/1d3x/content_published-cigarette-index-reference-for-alternative-indices.json",
+    "evidence_ref": "evidence/content-ops/content-ops-001-1d3x-cigarette-index.publish.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-ops-001-1d3x-cigarette-index.json",
+    "published_at": "2026-08-10T08:29:11Z",
+    "result": "CONDITIONAL_PASS"
+  },
+  "schema_version": "v1",
+  "slug": "cigarette-index-reference-for-alternative-indices",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "Fixture for a 1D3X article about the Cigarette Index as an external reference, without copying its implementation.",
+  "surface": "article",
+  "title": "Why the Cigarette Index is a useful reference point for alternative indices",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "targeted source edit review",
+      "npm run typecheck",
+      "npm run build"
+    ],
+    "tier": "STANDARD",
+    "warnings": []
+  }
+}

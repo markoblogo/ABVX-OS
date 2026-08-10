@@ -1,0 +1,27 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-ssi-headlands.json"
+  ],
+  "evidence_ref": "evidence/content-ops/content-ops-001-ssi-headlands.publish.evidence.json",
+  "execution_mode": "DEEP",
+  "id": "ssi-content_published-the-headlands-ukrainian-farming-game-context",
+  "media_event_candidate": null,
+  "object": {
+    "id": "the-headlands-ukrainian-farming-game-context",
+    "kind": "post",
+    "locator": "short-post:the-headlands-ukrainian-farming-game-context"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "ssi",
+  "provenance": {
+    "observed_at": "2026-08-10T08:29:11Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T08:29:11Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "STANDARD"
+}

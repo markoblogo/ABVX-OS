@@ -1,0 +1,29 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-001-ssi-headlands",
+  "project": "ssi",
+  "surface": "short-post",
+  "kind": "post",
+  "title": "The Headlands and the emotional reality of Ukrainian farming games",
+  "slug": "the-headlands-ukrainian-farming-game-context",
+  "summary": "Short SSI contextual post fixture linking The Headlands to how agricultural work and emotional strain are represented publicly.",
+  "locales": ["en"],
+  "adapter_id": "ssi.short-post",
+  "payload": {
+    "excerpt": "Fixture for a short SSI contextual post about The Headlands and why public representations of Ukrainian farming life matter.",
+    "body_lines": [
+      "The Headlands is not a market report, but it is still relevant to agricultural infrastructure.",
+      "Games and cultural projects can surface the emotional weight, uncertainty and physical routine behind farming in a way that spreadsheets cannot.",
+      "For SSI, that makes it a useful contextual reference: price infrastructure exists around real people, real land and real operational pressure."
+    ],
+    "tags": ["SSI", "context", "Ukraine", "farming"],
+    "asset_refs": [],
+    "source_refs": ["https://dev.ua/news/the-headlands-1784625711"],
+    "media_event_candidate": null
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": "https://dev.ua/news/the-headlands-1784625711",
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

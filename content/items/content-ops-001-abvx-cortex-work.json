@@ -1,0 +1,96 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "id": "abvx.work",
+    "mechanism": "File-based Markdown with JSON frontmatter",
+    "next_commands": [
+      "Generate or edit /Volumes/Work/Work/ABVXsite/content/work/<slug>.md",
+      "Run npm run content:validate in /Volumes/Work/Work/ABVXsite",
+      "Run npm run build in /Volumes/Work/Work/ABVXsite",
+      "Commit and deploy through the existing ABVXsite release flow"
+    ],
+    "publish_strategy": "file_markdown",
+    "target": "content/work/<slug>.md"
+  },
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-abvx-cortex-work.json"
+  ],
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-10T08:29:11Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-ops-001-abvx-cortex-work",
+  "kind": "work",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "Cortex is useful when it stays bounded: explicit sources, explicit privacy, explicit retrieval budgets.",
+      "That is the difference between a reusable context layer and a vague personal-memory promise.",
+      "ABVX uses Cortex as a donor-backed capability only where the retrieval contract is concrete and fail-closed."
+    ],
+    "excerpt": "Fixture for a bounded public ABVX publication about Cortex as a reusable context layer.",
+    "media_event_candidate": null,
+    "source_refs": [
+      "docs/audits/cortex-integration-002-read-only-retrieval-mvp.md"
+    ],
+    "tags": [
+      "ABVX",
+      "Cortex",
+      "context"
+    ]
+  },
+  "project": "abvxsite",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null
+  },
+  "publication": {
+    "event_ref": "events/projects/abvxsite/content_published-cortex-bounded-context-layer.json",
+    "evidence_ref": "evidence/content-ops/content-ops-001-abvx-cortex-work.publish.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-ops-001-abvx-cortex-work.json",
+    "published_at": "2026-08-10T08:29:11Z",
+    "result": "CONDITIONAL_PASS"
+  },
+  "schema_version": "v1",
+  "slug": "cortex-bounded-context-layer",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "Fixture for a public ABVX work/publication item about Cortex boundaries and usefulness.",
+  "surface": "work",
+  "title": "Cortex as a bounded context layer, not a general memory dump",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "npm run content:validate",
+      "npm run build"
+    ],
+    "tier": "STANDARD",
+    "warnings": []
+  }
+}

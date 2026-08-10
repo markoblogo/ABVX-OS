@@ -1,0 +1,28 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-001-azur-next-guide",
+  "project": "azurmenton",
+  "surface": "guide",
+  "kind": "guide",
+  "title": "Next AzurMenton guide publication shape",
+  "slug": "next-real-guide-shape",
+  "summary": "Fixture proving that ABVX routes the next real AzurMenton guide into the existing publish playbook rather than building another publisher.",
+  "locales": ["en", "fr"],
+  "adapter_id": "azurmenton.guide",
+  "payload": {
+    "excerpt": "Guide-shape fixture routed to the existing AzurMenton publish playbook.",
+    "body_lines": [
+      "This fixture does not create a second AzurMenton publisher.",
+      "It packages the content intent and assets so the proven guide playbook can consume the work through the existing repo-specific flow."
+    ],
+    "tags": ["AzurMenton", "guide"],
+    "asset_refs": ["media/events/azurmenton-005-new-guide.json"],
+    "source_refs": ["playbooks/azurmenton.publish-guide.json"],
+    "media_event_candidate": "media/events/azurmenton-005-new-guide.json"
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

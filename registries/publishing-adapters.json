@@ -1,0 +1,212 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "ssi.short-post",
+      "project": "ssi",
+      "surface": "short-post",
+      "mechanism": "Code-defined SPIKE blog array in index monorepo",
+      "consumer_repo": "/Volumes/Work/Work/index",
+      "target": "src/lib/blog-posts.ts",
+      "publish_strategy": "code_array",
+      "readiness": "READY",
+      "readiness_reason": "Existing SSI blog content already ships through a code-defined local array and standard Next.js build path.",
+      "required_assets": false,
+      "next_commands": [
+        "Edit /Volumes/Work/Work/index/src/lib/blog-posts.ts",
+        "Run npm run typecheck in /Volumes/Work/Work/index",
+        "Run npm run build in /Volumes/Work/Work/index",
+        "Commit and deploy the SSI tenant through existing index release flow"
+      ],
+      "validation": {
+        "default_tier": "STANDARD",
+        "checks": [
+          "targeted source edit review",
+          "npm run typecheck",
+          "npm run build"
+        ]
+      },
+      "notes": [
+        "ABVX does not mutate the index repo automatically from this control plane.",
+        "Best fit for SSI contextual/editorial posts and manual updates."
+      ],
+      "provenance": {
+        "recorded_by": "CONTENT-OPS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "1d3x.article",
+      "project": "1d3x",
+      "surface": "article",
+      "mechanism": "Code-defined 1D3X platform blog array in index monorepo",
+      "consumer_repo": "/Volumes/Work/Work/index",
+      "target": "src/lib/platform-blog-posts.ts",
+      "publish_strategy": "code_array",
+      "readiness": "READY",
+      "readiness_reason": "1D3X already publishes articles through a dedicated platform-blog array inside the index monorepo.",
+      "required_assets": false,
+      "next_commands": [
+        "Edit /Volumes/Work/Work/index/src/lib/platform-blog-posts.ts",
+        "Run npm run typecheck in /Volumes/Work/Work/index",
+        "Run npm run build in /Volumes/Work/Work/index",
+        "Commit and deploy the 1D3X tenant through existing index release flow"
+      ],
+      "validation": {
+        "default_tier": "STANDARD",
+        "checks": [
+          "targeted source edit review",
+          "npm run typecheck",
+          "npm run build"
+        ]
+      },
+      "notes": [
+        "Suitable for 1D3X explanatory articles, announcements, and external-reference writeups."
+      ],
+      "provenance": {
+        "recorded_by": "CONTENT-OPS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "abvx.work",
+      "project": "abvxsite",
+      "surface": "work",
+      "mechanism": "File-based Markdown with JSON frontmatter",
+      "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+      "target": "content/work/<slug>.md",
+      "publish_strategy": "file_markdown",
+      "readiness": "READY",
+      "readiness_reason": "ABVXsite already supports generated work content through file-based Markdown plus validation/build commands.",
+      "required_assets": false,
+      "next_commands": [
+        "Generate or edit /Volumes/Work/Work/ABVXsite/content/work/<slug>.md",
+        "Run npm run content:validate in /Volumes/Work/Work/ABVXsite",
+        "Run npm run build in /Volumes/Work/Work/ABVXsite",
+        "Commit and deploy through the existing ABVXsite release flow"
+      ],
+      "validation": {
+        "default_tier": "STANDARD",
+        "checks": [
+          "npm run content:validate",
+          "npm run build"
+        ]
+      },
+      "notes": [
+        "Best current fit for a public ABVX publication about Cortex."
+      ],
+      "provenance": {
+        "recorded_by": "CONTENT-OPS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "abvx.notes",
+      "project": "abvxsite",
+      "surface": "notes",
+      "mechanism": "Future file-based note route under ABVXsite",
+      "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+      "target": "/notes and /notes/[slug]",
+      "publish_strategy": "future_surface",
+      "readiness": "BLOCKED",
+      "readiness_reason": "ABVXsite content workflow exists, but no current /notes route or note loader is present.",
+      "required_assets": false,
+      "preparation_blockers": [
+        "ABVXsite needs a minimal /notes index and /notes/[slug] route before Notes can publish through this control plane."
+      ],
+      "next_commands": [
+        "Add a note content type and loader in /Volumes/Work/Work/ABVXsite",
+        "Add /notes and /notes/[slug] routes",
+        "Run npm run content:validate and npm run build in /Volumes/Work/Work/ABVXsite"
+      ],
+      "validation": {
+        "default_tier": "FULL",
+        "checks": [
+          "ABVXsite route implementation review",
+          "npm run content:validate",
+          "npm run build"
+        ]
+      },
+      "notes": [
+        "This adapter is intentionally blocked until a minimal Notes surface exists."
+      ],
+      "provenance": {
+        "recorded_by": "CONTENT-OPS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "azurmenton.guide",
+      "project": "azurmenton",
+      "surface": "guide",
+      "mechanism": "Existing azurmenton.publish-guide playbook and guide publish path",
+      "consumer_repo": "/Volumes/Work/Work/menton",
+      "target": "playbooks/azurmenton.publish-guide.json plus guide content workflow",
+      "publish_strategy": "playbook_handoff",
+      "readiness": "READY",
+      "readiness_reason": "AzurMenton already has a proven guide publication playbook and consumer-side publish gate.",
+      "required_assets": true,
+      "next_commands": [
+        "Use the existing azurmenton.publish-guide playbook as the handoff contract",
+        "Run the proven guide:new / guide:check / guide:publish workflow in /Volumes/Work/Work/menton",
+        "Keep owner review and visual gates intact before any production publication"
+      ],
+      "validation": {
+        "default_tier": "STANDARD",
+        "checks": [
+          "existing guide publish gate",
+          "existing guide review gate",
+          "playbook-backed dry-run or publish handoff review"
+        ]
+      },
+      "notes": [
+        "ABVX should route AzurMenton guide work into the existing playbook, not build a second publisher."
+      ],
+      "provenance": {
+        "recorded_by": "CONTENT-OPS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "pop.alt-index-entry",
+      "project": "pop",
+      "surface": "alternative-index-library-entry",
+      "mechanism": "Future POP editorial entry on top of the existing index/POP stack",
+      "consumer_repo": "/Volumes/Work/Work/index",
+      "target": "POP public/editorial surfaces after DB-backed pipeline completion",
+      "publish_strategy": "future_surface",
+      "readiness": "BLOCKED",
+      "readiness_reason": "POP editorial completion remains gated on the broader POP V1 completion and DB-backed publication proof.",
+      "required_assets": false,
+      "preparation_blockers": [
+        "POP needs its stable editorial/publication surface finalized before routine library entries can be published."
+      ],
+      "next_commands": [
+        "Finish POP DB-backed ingest/review/publish verification",
+        "Choose the stable POP maintenance line",
+        "Then define the smallest editorial entry mechanism"
+      ],
+      "validation": {
+        "default_tier": "FULL",
+        "checks": [
+          "POP pipeline readiness review",
+          "targeted index typecheck/build",
+          "public-surface proof"
+        ]
+      },
+      "notes": [
+        "Retained as a future compatibility target only."
+      ],
+      "provenance": {
+        "recorded_by": "CONTENT-OPS-001",
+        "source_uri": null,
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "artifact_refs": [
+    "media/events/azurmenton-005-new-guide.json"
+  ],
+  "consumer_repo": "/Volumes/Work/Work/menton",
+  "generated_at": "2026-08-10T08:29:11Z",
+  "item_id": "content-ops-001-azur-next-guide",
+  "kind": "guide",
+  "mechanism": "Existing azurmenton.publish-guide playbook and guide publish path",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "ABVX should route AzurMenton guide work into the existing playbook, not build a second publisher."
+  ],
+  "project": "azurmenton",
+  "required_consumer_steps": [
+    "Use the existing azurmenton.publish-guide playbook as the handoff contract",
+    "Run the proven guide:new / guide:check / guide:publish workflow in /Volumes/Work/Work/menton",
+    "Keep owner review and visual gates intact before any production publication"
+  ],
+  "schema_version": "v1",
+  "slug": "next-real-guide-shape",
+  "surface": "guide",
+  "target": "playbooks/azurmenton.publish-guide.json plus guide content workflow",
+  "title": "Next AzurMenton guide publication shape",
+  "validation_checks": [
+    "existing guide publish gate",
+    "existing guide review gate",
+    "playbook-backed dry-run or publish handoff review"
+  ]
+}

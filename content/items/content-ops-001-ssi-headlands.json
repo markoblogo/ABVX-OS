@@ -1,0 +1,98 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "id": "ssi.short-post",
+    "mechanism": "Code-defined SPIKE blog array in index monorepo",
+    "next_commands": [
+      "Edit /Volumes/Work/Work/index/src/lib/blog-posts.ts",
+      "Run npm run typecheck in /Volumes/Work/Work/index",
+      "Run npm run build in /Volumes/Work/Work/index",
+      "Commit and deploy the SSI tenant through existing index release flow"
+    ],
+    "publish_strategy": "code_array",
+    "target": "src/lib/blog-posts.ts"
+  },
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-ssi-headlands.json"
+  ],
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T08:28:52Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-10T08:29:11Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-ops-001-ssi-headlands",
+  "kind": "post",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "The Headlands is not a market report, but it is still relevant to agricultural infrastructure.",
+      "Games and cultural projects can surface the emotional weight, uncertainty and physical routine behind farming in a way that spreadsheets cannot.",
+      "For SSI, that makes it a useful contextual reference: price infrastructure exists around real people, real land and real operational pressure."
+    ],
+    "excerpt": "Fixture for a short SSI contextual post about The Headlands and why public representations of Ukrainian farming life matter.",
+    "media_event_candidate": null,
+    "source_refs": [
+      "https://dev.ua/news/the-headlands-1784625711"
+    ],
+    "tags": [
+      "SSI",
+      "context",
+      "Ukraine",
+      "farming"
+    ]
+  },
+  "project": "ssi",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": "https://dev.ua/news/the-headlands-1784625711"
+  },
+  "publication": {
+    "event_ref": "events/projects/ssi/content_published-the-headlands-ukrainian-farming-game-context.json",
+    "evidence_ref": "evidence/content-ops/content-ops-001-ssi-headlands.publish.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-ops-001-ssi-headlands.json",
+    "published_at": "2026-08-10T08:29:11Z",
+    "result": "CONDITIONAL_PASS"
+  },
+  "schema_version": "v1",
+  "slug": "the-headlands-ukrainian-farming-game-context",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "Short SSI contextual post fixture linking The Headlands to how agricultural work and emotional strain are represented publicly.",
+  "surface": "short-post",
+  "title": "The Headlands and the emotional reality of Ukrainian farming games",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "targeted source edit review",
+      "npm run typecheck",
+      "npm run build"
+    ],
+    "tier": "STANDARD",
+    "warnings": []
+  }
+}

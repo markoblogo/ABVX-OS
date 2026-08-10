@@ -1,0 +1,29 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-001-1d3x-cigarette-index",
+  "project": "1d3x",
+  "surface": "article",
+  "kind": "article",
+  "title": "Why the Cigarette Index is a useful reference point for alternative indices",
+  "slug": "cigarette-index-reference-for-alternative-indices",
+  "summary": "Fixture for a 1D3X article about the Cigarette Index as an external reference, without copying its implementation.",
+  "locales": ["en"],
+  "adapter_id": "1d3x.article",
+  "payload": {
+    "excerpt": "Fixture for a 1D3X article using the Cigarette Index as a reference case for alternative index design.",
+    "body_lines": [
+      "The Cigarette Index is useful not because it should be copied, but because it demonstrates how unusual consumer items can anchor intuitive public benchmarks.",
+      "For 1D3X and POP, that makes it a good external reference when discussing what belongs in an alternative index library.",
+      "The main lesson is methodological: editorial clarity and a concrete benchmark story matter as much as the formula."
+    ],
+    "tags": ["1D3X", "alternative indices", "reference"],
+    "asset_refs": [],
+    "source_refs": ["https://cig-index.vercel.app/"],
+    "media_event_candidate": null
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": "https://cig-index.vercel.app/",
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

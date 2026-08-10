@@ -4,6 +4,7 @@ import json
 import sys
 from pathlib import Path
 
+from .content_ops import approve_content_item, inspect_content_item, prepare_content_item, publish_content_item
 from .context import inspect_context_pack, request_context
 from .harness import ValidationError, load_json, run_bakeoff, validate_repository
 from .intake import add_intake_item, decide_intake_item, inspect_intake_item, link_intake_items, list_intake_items, promote_intake_item, review_intake_items, update_clarification
@@ -49,6 +50,20 @@ def _print_intake(value: object, as_json: bool) -> None:
     else:
         print(f"{value['id']} [{value['status']}] {value['classification']['primary_type']} ({value['classification']['confidence']:.2f})")
         print(value["raw_input"]["value"])
+
+
+def _print_content(value: object, as_json: bool) -> None:
+    if as_json:
+        print(json.dumps(value, indent=2, sort_keys=True))
+        return
+    if isinstance(value, dict) and {"id", "status", "project", "surface"} <= set(value):
+        print(f"{value['id']} [{value['status']}] {value['project']}:{value['surface']}")
+        print(value["title"])
+        blockers = value.get("validation", {}).get("blockers", [])
+        if blockers:
+            print(f"blockers: {len(blockers)}")
+    else:
+        print(json.dumps(value, indent=2, sort_keys=True))
 
 
 def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
@@ -99,6 +114,31 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             if len(positional) != 1:
                 raise ValidationError("usage: ./bin/abvx intake promote <id> [--json]")
             _print_intake(promote_intake_item(root, positional[0]), bool(options.get("json")))
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["content", "prepare"]:
+            positional, options = _options(argv[2:])
+            fixture_ref = options.get("file")
+            if positional or not isinstance(fixture_ref, str):
+                raise ValidationError("usage: ./bin/abvx content prepare --file <path> [--json]")
+            _print_content(prepare_content_item(root, fixture_ref), bool(options.get("json")))
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["content", "inspect"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx content inspect <id> [--json]")
+            _print_content(inspect_content_item(root, positional[0]), bool(options.get("json")))
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["content", "approve"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx content approve <id> [--json]")
+            _print_content(approve_content_item(root, positional[0]), bool(options.get("json")))
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["content", "publish"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx content publish <id> [--json]")
+            _print_content(publish_content_item(root, positional[0]), bool(options.get("json")))
             return 0
         if argv == ["validate"]:
             checked = validate_repository(root)
@@ -151,7 +191,7 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             else:
                 print(render_portfolio(portfolio))
             return 0
-        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake review [--json] | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake <accept|reject|watch|keep|archive> <id> | ./bin/abvx intake promote <id> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx portfolio inspect [--json] | ./bin/abvx playbook inspect <id> | ./bin/abvx playbook replay <id> --input <path> | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id> | ./bin/abvx context request --file <path> [--json] | ./bin/abvx context inspect <pack-id>", file=sys.stderr)
+        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake review [--json] | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake <accept|reject|watch|keep|archive> <id> | ./bin/abvx intake promote <id> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx content prepare --file <path> [--json] | ./bin/abvx content inspect <id> [--json] | ./bin/abvx content approve <id> [--json] | ./bin/abvx content publish <id> [--json] | ./bin/abvx portfolio inspect [--json] | ./bin/abvx playbook inspect <id> | ./bin/abvx playbook replay <id> --input <path> | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id> | ./bin/abvx context request --file <path> [--json] | ./bin/abvx context inspect <pack-id>", file=sys.stderr)
         return 2
     except (ValidationError, OSError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

@@ -1,0 +1,28 @@
+{
+  "artifact_refs": [],
+  "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+  "generated_at": "2026-08-10T08:29:11Z",
+  "item_id": "content-ops-001-abvx-cortex-work",
+  "kind": "work",
+  "mechanism": "File-based Markdown with JSON frontmatter",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "Best current fit for a public ABVX publication about Cortex."
+  ],
+  "project": "abvxsite",
+  "required_consumer_steps": [
+    "Generate or edit /Volumes/Work/Work/ABVXsite/content/work/<slug>.md",
+    "Run npm run content:validate in /Volumes/Work/Work/ABVXsite",
+    "Run npm run build in /Volumes/Work/Work/ABVXsite",
+    "Commit and deploy through the existing ABVXsite release flow"
+  ],
+  "schema_version": "v1",
+  "slug": "cortex-bounded-context-layer",
+  "surface": "work",
+  "target": "content/work/<slug>.md",
+  "title": "Cortex as a bounded context layer, not a general memory dump",
+  "validation_checks": [
+    "npm run content:validate",
+    "npm run build"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "artifact_refs": [],
+  "consumer_repo": "/Volumes/Work/Work/index",
+  "generated_at": "2026-08-10T08:29:11Z",
+  "item_id": "content-ops-001-1d3x-cigarette-index",
+  "kind": "article",
+  "mechanism": "Code-defined 1D3X platform blog array in index monorepo",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "Suitable for 1D3X explanatory articles, announcements, and external-reference writeups."
+  ],
+  "project": "1d3x",
+  "required_consumer_steps": [
+    "Edit /Volumes/Work/Work/index/src/lib/platform-blog-posts.ts",
+    "Run npm run typecheck in /Volumes/Work/Work/index",
+    "Run npm run build in /Volumes/Work/Work/index",
+    "Commit and deploy the 1D3X tenant through existing index release flow"
+  ],
+  "schema_version": "v1",
+  "slug": "cigarette-index-reference-for-alternative-indices",
+  "surface": "article",
+  "target": "src/lib/platform-blog-posts.ts",
+  "title": "Why the Cigarette Index is a useful reference point for alternative indices",
+  "validation_checks": [
+    "targeted source edit review",
+    "npm run typecheck",
+    "npm run build"
+  ]
+}

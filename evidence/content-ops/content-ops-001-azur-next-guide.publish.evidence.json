@@ -1,0 +1,32 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-azur-next-guide.json",
+    "media/events/azurmenton-005-new-guide.json"
+  ],
+  "candidate": "azurmenton.guide",
+  "environment": {
+    "consumer_repo": "/Volumes/Work/Work/menton",
+    "external_mutation_performed": false,
+    "publish_strategy": "playbook_handoff",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "content-ops-001-azur-next-guide",
+  "id": "content-ops-001-azur-next-guide-publish-handoff",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "execution_mode": "DEEP",
+    "publish_mode": "REPORT_ONLY_HANDOFF",
+    "reasoning_steps": 1,
+    "validation_tier": "STANDARD"
+  },
+  "provenance": {
+    "observed_at": "2026-08-10T08:29:11Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "abvx-content-ops",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-10T08:29:11Z"
+}

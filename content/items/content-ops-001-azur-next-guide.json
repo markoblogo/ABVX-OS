@@ -1,0 +1,97 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/menton",
+    "id": "azurmenton.guide",
+    "mechanism": "Existing azurmenton.publish-guide playbook and guide publish path",
+    "next_commands": [
+      "Use the existing azurmenton.publish-guide playbook as the handoff contract",
+      "Run the proven guide:new / guide:check / guide:publish workflow in /Volumes/Work/Work/menton",
+      "Keep owner review and visual gates intact before any production publication"
+    ],
+    "publish_strategy": "playbook_handoff",
+    "target": "playbooks/azurmenton.publish-guide.json plus guide content workflow"
+  },
+  "artifact_refs": [
+    "content/publish-packets/content-ops-001-azur-next-guide.json"
+  ],
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T08:29:11Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-10T08:29:11Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-ops-001-azur-next-guide",
+  "kind": "guide",
+  "locales": [
+    "en",
+    "fr"
+  ],
+  "payload": {
+    "asset_refs": [
+      "media/events/azurmenton-005-new-guide.json"
+    ],
+    "body_lines": [
+      "This fixture does not create a second AzurMenton publisher.",
+      "It packages the content intent and assets so the proven guide playbook can consume the work through the existing repo-specific flow."
+    ],
+    "excerpt": "Guide-shape fixture routed to the existing AzurMenton publish playbook.",
+    "media_event_candidate": "media/events/azurmenton-005-new-guide.json",
+    "source_refs": [
+      "playbooks/azurmenton.publish-guide.json"
+    ],
+    "tags": [
+      "AzurMenton",
+      "guide"
+    ]
+  },
+  "project": "azurmenton",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null
+  },
+  "publication": {
+    "event_ref": "events/projects/azurmenton/content_published-next-real-guide-shape.json",
+    "evidence_ref": "evidence/content-ops/content-ops-001-azur-next-guide.publish.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-ops-001-azur-next-guide.json",
+    "published_at": "2026-08-10T08:29:11Z",
+    "result": "CONDITIONAL_PASS"
+  },
+  "schema_version": "v1",
+  "slug": "next-real-guide-shape",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "Fixture proving that ABVX routes the next real AzurMenton guide into the existing publish playbook rather than building another publisher.",
+  "surface": "guide",
+  "title": "Next AzurMenton guide publication shape",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "existing guide publish gate",
+      "existing guide review gate",
+      "playbook-backed dry-run or publish handoff review"
+    ],
+    "tier": "STANDARD",
+    "warnings": []
+  }
+}

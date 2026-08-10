@@ -1,0 +1,81 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "id": "abvx.notes",
+    "mechanism": "Future file-based note route under ABVXsite",
+    "next_commands": [
+      "Add a note content type and loader in /Volumes/Work/Work/ABVXsite",
+      "Add /notes and /notes/[slug] routes",
+      "Run npm run content:validate and npm run build in /Volumes/Work/Work/ABVXsite"
+    ],
+    "publish_strategy": "future_surface",
+    "target": "/notes and /notes/[slug]"
+  },
+  "artifact_refs": [],
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "BLOCKED",
+      "timestamp": "2026-08-10T08:28:52Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": null,
+    "approved_by": null,
+    "required": true,
+    "state": "BLOCKED"
+  },
+  "id": "content-ops-001-abvx-note",
+  "kind": "note",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "A short note is intentionally smaller than a work case or essay.",
+      "It still needs a concrete route, loader and validation path."
+    ],
+    "excerpt": "Short general note fixture.",
+    "media_event_candidate": null,
+    "source_refs": [],
+    "tags": [
+      "ABVX",
+      "notes"
+    ]
+  },
+  "project": "abvxsite",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-OPS-001",
+    "source_uri": null
+  },
+  "publication": {
+    "event_ref": null,
+    "evidence_ref": null,
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": null,
+    "published_at": null,
+    "result": null
+  },
+  "schema_version": "v1",
+  "slug": "working-across-languages-and-systems",
+  "status": "BLOCKED",
+  "summary": "Fixture proving that Notes remain blocked until ABVXsite has a real /notes surface.",
+  "surface": "notes",
+  "title": "Short note fixture about working across languages and systems",
+  "validation": {
+    "blockers": [
+      "ABVXsite needs a minimal /notes index and /notes/[slug] route before Notes can publish through this control plane.",
+      "ABVXsite content workflow exists, but no current /notes route or note loader is present."
+    ],
+    "checks": [
+      "ABVXsite route implementation review",
+      "npm run content:validate",
+      "npm run build"
+    ],
+    "tier": "FULL",
+    "warnings": []
+  }
+}
