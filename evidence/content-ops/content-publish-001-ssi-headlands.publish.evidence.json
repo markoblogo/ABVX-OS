@@ -1,0 +1,78 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-001-ssi-headlands.json",
+    "/blog/the-headlands-ukrainian-farming-game-context.jpg"
+  ],
+  "candidate": "ssi.short-post",
+  "environment": {
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "external_mutation_performed": true,
+    "files_changed_observed": [
+      "public/blog/the-headlands-ukrainian-farming-game-context.jpg",
+      "scripts/publish-post.mjs",
+      "src/lib/blog-posts.ts"
+    ],
+    "publish_strategy": "consumer_command",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "content-publish-001-ssi-headlands",
+  "id": "content-publish-001-ssi-headlands-publish-handoff",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "index.publish-post",
+    "enrichment_fields": [
+      "author",
+      "canonical_path",
+      "date_modified",
+      "date_published",
+      "hreflang",
+      "indexability",
+      "internal_link_suggestions",
+      "machine_summary",
+      "meta_description",
+      "open_graph",
+      "primary_entities",
+      "primary_source_links",
+      "publisher",
+      "related_projects",
+      "seo_title",
+      "sitemap_state",
+      "slug",
+      "social_preview",
+      "structured_data",
+      "tags",
+      "topics"
+    ],
+    "execution_mode": "DEEP",
+    "fast_path_initial_failure": "WRITE produced malformed TypeScript token sequence `},,` in src/lib/blog-posts.ts after a dry-run pass.",
+    "fast_path_minimal_fix": "Adjusted comma-prefix insertion logic to respect an existing trailing comma and added a focused regression assertion.",
+    "fast_path_result_after_repair": "PASS",
+    "fast_path_root_cause": "Comma insertion prepended an extra comma even when the previous array entry already ended with a comma.",
+    "files_inspected_or_changed": [
+      "content/fixtures/content-publish-001-ssi-headlands-real.json",
+      "content/items/content-publish-001-ssi-headlands.json",
+      "content/publish-packets/content-publish-001-ssi-headlands.json",
+      "events/projects/ssi/content_published-from-ukrainian-grain-markets-to-a-ukrainian-farming-game.json",
+      "evidence/content-ops/content-publish-001-ssi-headlands.publish.evidence.json",
+      "public/blog/the-headlands-ukrainian-farming-game-context.jpg",
+      "scripts/publish-post.mjs",
+      "scripts/publish-post.test.mjs",
+      "src/lib/blog-posts.ts"
+    ],
+    "broad_repo_analysis_avoided": true,
+    "publish_mode": "REPORT_ONLY_HANDOFF",
+    "reasoning_steps": 1,
+    "routine_fast_path_sufficient": true,
+    "validation_tier": "QUICK"
+  },
+  "provenance": {
+    "observed_at": "2026-08-10T09:44:02Z",
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
+  },
+  "result": "PASS",
+  "source": "abvx-content-ops",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-10T10:00:00Z"
+}

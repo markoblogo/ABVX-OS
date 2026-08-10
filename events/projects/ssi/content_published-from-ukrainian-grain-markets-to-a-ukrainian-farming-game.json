@@ -1,0 +1,28 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-001-ssi-headlands.json",
+    "/blog/the-headlands-ukrainian-farming-game-context.jpg"
+  ],
+  "evidence_ref": "evidence/content-ops/content-publish-001-ssi-headlands.publish.evidence.json",
+  "execution_mode": "DEEP",
+  "id": "ssi-content_published-from-ukrainian-grain-markets-to-a-ukrainian-farming-game",
+  "media_event_candidate": null,
+  "object": {
+    "id": "from-ukrainian-grain-markets-to-a-ukrainian-farming-game",
+    "kind": "post",
+    "locator": "short-post:from-ukrainian-grain-markets-to-a-ukrainian-farming-game"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "ssi",
+  "provenance": {
+    "observed_at": "2026-08-10T09:44:02Z",
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
+  },
+  "result": "PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T10:00:00Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "QUICK"
+}

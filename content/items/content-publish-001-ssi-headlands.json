@@ -1,0 +1,204 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "id": "ssi.short-post",
+    "mechanism": "Consumer-side publish command for SPIKE short posts in index monorepo",
+    "next_commands": [
+      "Emit publish packet from ABVX-OS.",
+      "Run index publish-post command in dry-run mode.",
+      "Run npm run typecheck in /Volumes/Work/Work/index.",
+      "Run npm run build in /Volumes/Work/Work/index if dry-run reports a structural exception.",
+      "Commit and deploy the SSI tenant through existing index release flow only after human approval."
+    ],
+    "operation_id": "index.publish-post",
+    "publish_strategy": "consumer_command",
+    "target": "scripts/publish-post.mjs --surface ssi",
+    "target_surface": "ssi"
+  },
+  "artifact_refs": [
+    "/blog/the-headlands-ukrainian-farming-game-context.jpg",
+    "content/publish-packets/content-publish-001-ssi-headlands.json"
+  ],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --dry-run",
+    "id": "index.publish-post",
+    "target_surface": "ssi"
+  },
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/en/blog/from-ukrainian-grain-markets-to-a-ukrainian-farming-game",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/en/blog/from-ukrainian-grain-markets-to-a-ukrainian-farming-game"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "/en/blog/why-ukraine-needs-daily-spot-commodity-index",
+      "/en/blog/how-spot-indices-help-read-daily-grain-market-movement"
+    ],
+    "machine_summary": "A short SSI post linking Ukrainian grain-market context with The Headlands, a Ukrainian farming game.",
+    "meta_description": "A short SSI post linking Ukrainian grain-market context with The Headlands, a Ukrainian farming game.",
+    "open_graph": {
+      "description": "A short SSI post linking Ukrainian grain-market context with The Headlands, a Ukrainian farming game.",
+      "image": "/blog/the-headlands-ukrainian-farming-game-context.jpg",
+      "image_alt": "The Headlands header image",
+      "title": "From Ukrainian grain markets to a Ukrainian farming game"
+    },
+    "primary_entities": [
+      "The Headlands",
+      "Vladyslav",
+      "TessaraOxygen",
+      "Ukraine",
+      "SPIKE Spot Index",
+      "Steam"
+    ],
+    "primary_source_links": [
+      "https://dev.ua/news/the-headlands-1784625711",
+      "https://store.steampowered.com/app/4301110/The_Headlands/",
+      "https://youtu.be/66bVMxlkREc"
+    ],
+    "publisher": "SPIKE Spot Index",
+    "related_projects": [],
+    "seo_title": "From Ukrainian grain markets to a Ukrainian farming game",
+    "sitemap_state": "INDEXABLE",
+    "slug": "from-ukrainian-grain-markets-to-a-ukrainian-farming-game",
+    "social_preview": {
+      "description": "A short SSI post linking Ukrainian grain-market context with The Headlands, a Ukrainian farming game.",
+      "image": "/blog/the-headlands-ukrainian-farming-game-context.jpg",
+      "image_alt": "The Headlands header image",
+      "title": "From Ukrainian grain markets to a Ukrainian farming game"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "BlogPosting"
+    },
+    "tags": [
+      "Ukraine",
+      "grain market",
+      "farming",
+      "games"
+    ],
+    "topics": [
+      "Ukraine",
+      "grain market",
+      "cultural context",
+      "farming game"
+    ],
+    "warnings": []
+  },
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T09:43:54Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T09:44:02Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PASS",
+      "timestamp": "2026-08-10T10:00:00Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-10T09:44:02Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-publish-001-ssi-headlands",
+  "kind": "post",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [
+      "/blog/the-headlands-ukrainian-farming-game-context.jpg"
+    ],
+    "author": "Anton BV",
+    "body_lines": [
+      "We usually look at Ukrainian agriculture through prices, grain markets and indices. Here is a rather different perspective.",
+      "Ukrainian indie developer Vladyslav (TessaraOxygen) is building *The Headlands*, a meditative management strategy set in a Ukrainian village at the turn of the 2000s. You start with an old tractor and limited resources, cultivate land, sow grain, manage fuel costs and respond to changing crop prices and weather.",
+      "It is an unexpectedly fitting cultural companion to the market data we work with every day.",
+      "The Headlands is scheduled for release on September 14, 2026, and a free demo is already available on Steam."
+    ],
+    "cover_image": "/blog/the-headlands-ukrainian-farming-game-context.jpg",
+    "entities": [
+      "The Headlands",
+      "Vladyslav",
+      "TessaraOxygen",
+      "Ukraine",
+      "SPIKE Spot Index",
+      "Steam"
+    ],
+    "excerpt": "A short SSI post linking Ukrainian grain-market context with The Headlands, a Ukrainian farming game.",
+    "image_alt": "The Headlands header image",
+    "internal_link_candidates": [
+      "/en/blog/why-ukraine-needs-daily-spot-commodity-index",
+      "/en/blog/how-spot-indices-help-read-daily-grain-market-movement"
+    ],
+    "language": "en",
+    "media_event_candidate": null,
+    "publisher": "SPIKE Spot Index",
+    "seo_title": "From Ukrainian grain markets to a Ukrainian farming game",
+    "source_refs": [
+      "https://dev.ua/news/the-headlands-1784625711",
+      "https://store.steampowered.com/app/4301110/The_Headlands/",
+      "https://youtu.be/66bVMxlkREc"
+    ],
+    "tags": [
+      "Ukraine",
+      "grain market",
+      "farming",
+      "games"
+    ],
+    "topics": [
+      "Ukraine",
+      "grain market",
+      "cultural context",
+      "farming game"
+    ]
+  },
+  "project": "ssi",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-PUBLISH-001",
+    "source_uri": "https://dev.ua/news/the-headlands-1784625711"
+  },
+  "publication": {
+    "event_ref": "events/projects/ssi/content_published-from-ukrainian-grain-markets-to-a-ukrainian-farming-game.json",
+    "evidence_ref": "evidence/content-ops/content-publish-001-ssi-headlands.publish.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-publish-001-ssi-headlands.json",
+    "published_at": "2026-08-10T10:00:00Z",
+    "result": "PASS"
+  },
+  "schema_version": "v1",
+  "slug": "from-ukrainian-grain-markets-to-a-ukrainian-farming-game",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "SSI short post connecting Ukrainian grain-market context with The Headlands, a Ukrainian farming game.",
+  "surface": "short-post",
+  "title": "From Ukrainian grain markets to a Ukrainian farming game",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "consumer dry-run report",
+      "npm run typecheck"
+    ],
+    "exception_flags": {},
+    "tier": "QUICK",
+    "warnings": [
+      "Fast path is deterministic but still human-gated.",
+      "ABVX-OS does not write directly into index internals."
+    ]
+  }
+}
