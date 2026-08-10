@@ -1,0 +1,62 @@
+{
+  "id": "content-publish-004-abvx-personal-blog-finally-production",
+  "source": "abvx-content-ops",
+  "timestamp": "2026-08-10T13:08:00Z",
+  "candidate": "abvx.writing",
+  "fixture": "content-publish-004-abvx-personal-blog-finally",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "PLAYBOOK",
+    "validation_tier": "QUICK",
+    "publish_mode": "REAL_WRITE",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "abvx.publish-writing",
+    "existing_writing_aggregation_sufficient": true,
+    "separate_notes_surface_created": false,
+    "cover_required": false,
+    "broad_repo_rediscovery_avoided": true,
+    "consumer_specific_fixes": [
+      "text-only native writing cards collapse to single-column layout when no cover is present",
+      "writing source labels normalize to ABVX / Medium / Substack"
+    ],
+    "article_checks": {
+      "local_writing_listing_desktop": "PASS",
+      "local_writing_listing_mobile": "PASS",
+      "local_article_desktop": "PASS",
+      "local_no_cover_behavior": "PASS",
+      "local_list_formatting": "PASS",
+      "local_canonical_metadata": "PASS"
+    },
+    "production_checks": {
+      "live_writing_page": "NOT_YET_PROPAGATED",
+      "live_article_page": "NOT_YET_PROPAGATED"
+    },
+    "actual_cost_class": "CHEAP"
+  },
+  "stdout_ref": "internal:abvx.publish-writing.write",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "content/fixtures/content-publish-004-abvx-personal-blog-finally.json",
+    "content/items/content-publish-004-abvx-personal-blog-finally.json",
+    "content/publish-packets/content-publish-004-abvx-personal-blog-finally.json",
+    "events/projects/abvxsite/content_published-a-personal-blog-finally.json",
+    "/Volumes/Work/Work/ABVXsite/content/writing/a-personal-blog-finally.md",
+    "/Volumes/Work/Work/ABVXsite/src/components/FeaturedWritingCard.tsx",
+    "/Volumes/Work/Work/ABVXsite/src/components/RecentWritingCard.tsx",
+    "/Volumes/Work/Work/ABVXsite/src/components/WritingArchiveRow.tsx",
+    "/Volumes/Work/Work/ABVXsite/src/components/writing-source-label.ts",
+    "/Volumes/Work/Work/ABVXsite/src/app/globals.css"
+  ],
+  "provenance": {
+    "recorded_by": "CONTENT-PUBLISH-004",
+    "source_uri": "https://abvx.xyz/writing/a-personal-blog-finally",
+    "observed_at": "2026-08-10T13:08:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "publish_strategy": "consumer_command",
+    "external_mutation_performed": true
+  }
+}
