@@ -82,6 +82,7 @@
         "publisher": { "type": ["string", "null"] },
         "video_url": { "type": ["string", "null"] },
         "video_label": { "type": ["string", "null"] },
+        "video_after_paragraph": { "type": ["integer", "null"], "minimum": 1 },
         "external_links": {
           "type": "array",
           "items": {

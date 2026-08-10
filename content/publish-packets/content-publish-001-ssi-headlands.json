@@ -146,6 +146,7 @@
       "farming game"
     ],
     "video_label": "Watch the trailer",
+    "video_after_paragraph": 3,
     "video_url": "https://youtu.be/66bVMxlkREc?si=uIewZqricSiuFjAD"
   },
   "project": "ssi",

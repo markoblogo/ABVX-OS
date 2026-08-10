@@ -47,9 +47,10 @@
     ],
     "editorial_contract_corrections": [
       "SSI listing now sorts by published date descending",
-      "SSI post model and writer now carry subtitle, external links and optional video URL/label",
+      "SSI post model and writer now carry subtitle, external links, optional video URL/label and paragraph-based video placement metadata",
       "article renderer now exposes Steam and trailer resources publicly",
-      "article renderer now embeds YouTube responsively when the link is a supported YouTube URL"
+      "article renderer now embeds YouTube responsively when the link is a supported YouTube URL",
+      "article renderer now places inline video after the configured paragraph boundary and keeps external resources as end-of-article actions"
     ],
     "publish_mode": "REPORT_ONLY_HANDOFF",
     "reasoning_steps": 1,
