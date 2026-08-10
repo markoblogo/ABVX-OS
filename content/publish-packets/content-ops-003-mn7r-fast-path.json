@@ -1,0 +1,119 @@
+{
+  "artifact_refs": [],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/MN7R && tsx scripts/publish_blog_post.ts --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/MN7R && tsx scripts/publish_blog_post.ts --packet <packet> --dry-run",
+    "id": "mn7r.publish-post",
+    "target_surface": "mn7r"
+  },
+  "consumer_repo": "/Volumes/Work/Work/MN7R",
+  "enrichment": {
+    "author": "MN7R",
+    "canonical_path": "/blog/placeholder-mn7r-fast-path-validation",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/blog/placeholder-mn7r-fast-path-validation"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [],
+    "machine_summary": "Dry-run only placeholder for MN7R blog publication.",
+    "meta_description": "Dry-run only placeholder for MN7R blog publication.",
+    "open_graph": {
+      "description": "Dry-run only placeholder for MN7R blog publication.",
+      "image": "/blog/dummy-cover.jpg",
+      "image_alt": "Dummy MN7R cover",
+      "title": "Placeholder MN7R article for deterministic fast-path validation"
+    },
+    "primary_entities": [
+      "MN7R",
+      "placeholder",
+      "dry-run",
+      "Placeholder MN7R",
+      "Dummy MN7R",
+      "This",
+      "It"
+    ],
+    "primary_source_links": [
+      "internal:dummy"
+    ],
+    "publisher": "MN7R",
+    "related_projects": [],
+    "seo_title": "Placeholder MN7R article for deterministic fast-path validation",
+    "sitemap_state": "INDEXABLE",
+    "slug": "placeholder-mn7r-fast-path-validation",
+    "social_preview": {
+      "description": "Dry-run only placeholder for MN7R blog publication.",
+      "image": "/blog/dummy-cover.jpg",
+      "image_alt": "Dummy MN7R cover",
+      "title": "Placeholder MN7R article for deterministic fast-path validation"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "MN7R",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "validation",
+      "consumer markdown blog"
+    ],
+    "warnings": []
+  },
+  "generated_at": "2026-08-10T10:51:55Z",
+  "item_id": "content-ops-003-mn7r-fast-path",
+  "kind": "article",
+  "mechanism": "Consumer-side markdown blog publish command for MN7R public blog content",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "The deterministic seam is content/blog markdown plus generated rss.xml, sitemap.xml, and blog index artifacts.",
+    "Real writes must preserve MN7R consumer-native rendering and metadata rules rather than forcing SSI-style article fields."
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "This article body is intentionally synthetic and exists only for MN7R fast-path verification.",
+      "It must not be treated as a real MN7R publication candidate."
+    ],
+    "cover_image": "/blog/dummy-cover.jpg",
+    "date_published": "2026-08-10",
+    "excerpt": "Dry-run only placeholder for MN7R blog publication.",
+    "image_alt": "Dummy MN7R cover",
+    "media_event_candidate": null,
+    "seo_title": "Placeholder MN7R article for deterministic fast-path validation",
+    "source_refs": [
+      "internal:dummy"
+    ],
+    "tags": [
+      "MN7R",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "validation",
+      "consumer markdown blog"
+    ]
+  },
+  "project": "mn7r",
+  "required_consumer_steps": [
+    "Emit publish packet from ABVX-OS.",
+    "Run MN7R publish_blog_post command in dry-run mode.",
+    "Run npm run check in /Volumes/Work/Work/MN7R.",
+    "Run npm run landing:smoke in /Volumes/Work/Work/MN7R after any real write.",
+    "Commit and deploy through the existing MN7R release flow only after human approval."
+  ],
+  "schema_version": "v1",
+  "slug": "placeholder-mn7r-fast-path-validation",
+  "surface": "post",
+  "target": "tsx scripts/publish_blog_post.ts",
+  "title": "Placeholder MN7R article for deterministic fast-path validation",
+  "validation_checks": [
+    "consumer dry-run report",
+    "npm run check"
+  ],
+  "validation_tier": "STANDARD"
+}

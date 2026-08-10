@@ -50,6 +50,15 @@ class ContentOpsTests(unittest.TestCase):
         self.assertEqual(item["validation"]["tier"], "QUICK")
         self.assertEqual(item["consumer_operation"]["id"], "abvx.publish-writing")
 
+    def test_prepare_ready_mn7r_fixture_uses_markdown_consumer_command(self):
+        root = self._root_with_content_ops()
+        item = prepare_content_item(root, "content/fixtures/mn7r-fast-path-dry-run.json")
+        self.assertEqual(item["status"], "PREPARED")
+        self.assertEqual(item["adapter"]["id"], "mn7r.post")
+        self.assertEqual(item["consumer_operation"]["id"], "mn7r.publish-post")
+        self.assertEqual(item["validation"]["tier"], "STANDARD")
+        self.assertEqual(item["enrichment"]["structured_data"]["type"], "Article")
+
     def test_publish_requires_approval(self):
         root = self._root_with_content_ops()
         item = prepare_content_item(root, "content/fixtures/1d3x-fast-path-dry-run.json")

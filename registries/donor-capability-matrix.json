@@ -426,6 +426,66 @@
         "evidence/session-close/session-close-001.evidence.json"
       ],
       "notes": "Reference-only for future self-hosted inference, tokenization, or serving optimization work."
+    },
+    {
+      "id": "publishing-gray-matter",
+      "capability_area": "Publishing/content",
+      "candidate": "gray-matter",
+      "locator": "jonschlinkert/gray-matter",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "CONTENT-OPS-003 narrow publishing donor reassessment after real SSI production evidence",
+      "evidence_refs": [
+        "docs/audits/content-ops-003-mn7r-blog-donor-reassessment.md"
+      ],
+      "notes": "Battle-tested frontmatter parser/writer. Slice decision: keep as reference only because adoption would not beat current small consumer-native seams across index, MN7R, ABVXsite, and AzurMenton."
+    },
+    {
+      "id": "publishing-content-collections",
+      "capability_area": "Publishing/content",
+      "candidate": "content-collections",
+      "locator": "sdorra/content-collections",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "CONTENT-OPS-003 narrow publishing donor reassessment after real SSI production evidence",
+      "evidence_refs": [
+        "docs/audits/content-ops-003-mn7r-blog-donor-reassessment.md"
+      ],
+      "notes": "Strong typed content-collection model. Slice decision: reference only because it implies a wider migration rather than a bounded improvement to current mixed consumer surfaces."
+    },
+    {
+      "id": "publishing-react-schemaorg",
+      "capability_area": "Publishing/content",
+      "candidate": "react-schemaorg",
+      "locator": "google/react-schemaorg",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "CONTENT-OPS-003 narrow publishing donor reassessment after real SSI production evidence",
+      "evidence_refs": [
+        "docs/audits/content-ops-003-mn7r-blog-donor-reassessment.md"
+      ],
+      "notes": "Typed React JSON-LD helper. Slice decision: reference only because current manual schema helpers are already small and consumer-specific enough."
+    },
+    {
+      "id": "publishing-mdx-bundler",
+      "capability_area": "Publishing/content",
+      "candidate": "mdx-bundler",
+      "locator": "kentcdodds/mdx-bundler",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "CONTENT-OPS-003 narrow publishing donor reassessment after real SSI production evidence",
+      "evidence_refs": [
+        "docs/audits/content-ops-003-mn7r-blog-donor-reassessment.md"
+      ],
+      "notes": "Slice decision: not needed for the current requirement set because MDX/runtime complexity is higher than the proven value of current markdown/file publication paths."
+    },
+    {
+      "id": "publishing-velite",
+      "capability_area": "Publishing/content",
+      "candidate": "Velite",
+      "locator": "zce/velite",
+      "status": "REFERENCE_ONLY",
+      "evidence_basis": "CONTENT-OPS-003 narrow publishing donor reassessment after real SSI production evidence",
+      "evidence_refs": [
+        "docs/audits/content-ops-003-mn7r-blog-donor-reassessment.md"
+      ],
+      "notes": "Slice decision: not needed because adopting a typed content-layer tool now would amount to a cross-consumer migration, not a bounded cost reduction."
     }
   ]
 }

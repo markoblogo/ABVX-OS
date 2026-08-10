@@ -1,0 +1,27 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-ops-003-mn7r-fast-path.json"
+  ],
+  "evidence_ref": "evidence/content-ops/content-ops-003-mn7r-fast-path.publish.evidence.json",
+  "execution_mode": "DEEP",
+  "id": "mn7r-content_published-placeholder-mn7r-fast-path-validation",
+  "media_event_candidate": null,
+  "object": {
+    "id": "placeholder-mn7r-fast-path-validation",
+    "kind": "article",
+    "locator": "post:placeholder-mn7r-fast-path-validation"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "mn7r",
+  "provenance": {
+    "observed_at": "2026-08-10T10:51:55Z",
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T10:51:55Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "STANDARD"
+}

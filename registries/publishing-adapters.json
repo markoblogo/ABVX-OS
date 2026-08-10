@@ -284,6 +284,63 @@
       }
     },
     {
+      "id": "mn7r.post",
+      "project": "mn7r",
+      "surface": "post",
+      "mechanism": "Consumer-side markdown blog publish command for MN7R public blog content",
+      "consumer_repo": "/Volumes/Work/Work/MN7R",
+      "target": "npm run content:publish-post",
+      "target_surface": "mn7r",
+      "operation_id": "mn7r.publish-post",
+      "publish_strategy": "consumer_command",
+      "readiness": "READY",
+      "readiness_reason": "MN7R already has a file-based markdown blog, generated SEO feeds, and public smoke checks. A bounded publish command can target that seam without rewriting the blog architecture.",
+      "required_assets": false,
+      "dry_run_command": "cd /Volumes/Work/Work/MN7R && npm run content:publish-post -- --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/MN7R && npm run content:publish-post -- --packet <packet> --write",
+      "next_commands": [
+        "Emit publish packet from ABVX-OS.",
+        "Run MN7R publish_blog_post command in dry-run mode.",
+        "Run npm run check in /Volumes/Work/Work/MN7R.",
+        "Run npm run landing:smoke in /Volumes/Work/Work/MN7R after any real write.",
+        "Commit and deploy through the existing MN7R release flow only after human approval."
+      ],
+      "route_template": "/blog/{slug}",
+      "default_author": "MN7R",
+      "default_publisher": "MN7R",
+      "structured_data_type": "Article",
+      "default_sitemap_state": "INDEXABLE",
+      "default_indexability": "INDEXABLE",
+      "warnings": [
+        "MN7R blog currently treats description/excerpt as the visible deck and has no separate subtitle field.",
+        "First-class video/embed fields and external resource action fields are fail-closed and must not be silently discarded."
+      ],
+      "validation": {
+        "default_tier": "STANDARD",
+        "checks": [
+          "consumer dry-run report",
+          "npm run check"
+        ],
+        "escalate_to_full_on": [
+          "structural_exception",
+          "new_content_type",
+          "failed_targeted_validation"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
+        ]
+      },
+      "notes": [
+        "The deterministic seam is content/blog markdown plus generated rss.xml, sitemap.xml, and blog index artifacts.",
+        "Real writes must preserve MN7R consumer-native rendering and metadata rules rather than forcing SSI-style article fields."
+      ],
+      "provenance": {
+        "recorded_by": "CONTENT-OPS-003",
+        "source_uri": "https://mn7r.com/blog",
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
       "id": "pop.alt-index-entry",
       "project": "pop",
       "surface": "alternative-index-library-entry",

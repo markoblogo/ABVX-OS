@@ -1,0 +1,33 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-003-mn7r-fast-path",
+  "project": "mn7r",
+  "surface": "post",
+  "kind": "article",
+  "title": "Placeholder MN7R article for deterministic fast-path validation",
+  "slug": "placeholder-mn7r-fast-path-validation",
+  "summary": "Dummy MN7R article fixture used only to validate the markdown consumer command and fail-closed unsupported-field handling.",
+  "locales": ["en"],
+  "adapter_id": "mn7r.post",
+  "payload": {
+    "excerpt": "Dry-run only placeholder for MN7R blog publication.",
+    "body_lines": [
+      "This article body is intentionally synthetic and exists only for MN7R fast-path verification.",
+      "It must not be treated as a real MN7R publication candidate."
+    ],
+    "tags": ["MN7R", "placeholder", "dry-run"],
+    "topics": ["validation", "consumer markdown blog"],
+    "asset_refs": [],
+    "source_refs": ["internal:dummy"],
+    "media_event_candidate": null,
+    "cover_image": "/blog/dummy-cover.jpg",
+    "image_alt": "Dummy MN7R cover",
+    "date_published": "2026-08-10",
+    "seo_title": "Placeholder MN7R article for deterministic fast-path validation"
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-003",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}
