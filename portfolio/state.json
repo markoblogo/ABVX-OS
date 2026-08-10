@@ -37,19 +37,21 @@
       "project": "pop",
       "strategic_priority": "HIGH",
       "operational_state": "WAITING_FOR_HUMAN",
-      "current_outcome": "Clean POP work line from 25c07e8 proves ingest/review/publish script flow, but only in json-artifact mode because no real DATABASE_URL is locally available.",
+      "current_outcome": "Dedicated POP Supabase project now exists and is healthy, but its external PostgreSQL connection path is not yet usable from the clean POP work line: direct host does not resolve locally and pooler ports refused TCP.",
       "next_action": "DB-backed ingest/review/publish verification",
       "blockers": [
-        "existing PostgreSQL DATABASE_URL required"
+        "usable external PostgreSQL connection path for the new POP Supabase project required"
       ],
-      "waiting_reason": "Existing PostgreSQL DATABASE_URL is required before DB-backed POP publication can be verified.",
-      "not_before": null,
+      "waiting_reason": "Deferred by the owner until Wednesday, August 12, 2026 while POP remains in WAITING_FOR_HUMAN.",
+      "not_before": "2026-08-12",
       "human_attention_required": true,
       "codex_capacity_demand": "NONE",
       "economic_role": "strategic_asset",
       "evidence_freshness": "CURRENT",
       "last_state_update": "2026-08-10",
       "evidence_refs": [
+        "docs/audits/pop-002a-supabase-persistence-creation.md",
+        "evidence/onboarding/pop-002a/pop-supabase-persistence-creation.evidence.json",
         "docs/audits/pop-002-production-db-publish-completion.md",
         "evidence/onboarding/pop-002/pop-production-db-publish-completion.evidence.json",
         "docs/audits/pop-001-finish-readiness-audit.md",
