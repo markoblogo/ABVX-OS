@@ -1,0 +1,39 @@
+{
+  "id": "pop-002a-supabase-persistence-creation",
+  "source": "ABVX POP Supabase persistence creation",
+  "timestamp": "2026-08-10T00:00:00Z",
+  "candidate": "dedicated-pop-supabase-project",
+  "fixture": "POP-002A",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "cost_class": "NORMAL",
+    "supabase_project_created": true,
+    "supabase_project_id": "jezdtvqhmmjcrjonhdaq",
+    "supabase_region": "eu-central-1",
+    "supabase_status": "ACTIVE_HEALTHY",
+    "sql_access_confirmed": true,
+    "local_database_url_configured": true,
+    "db_backed_pipeline_proven": false,
+    "direct_db_host_resolves": false,
+    "pooler_5432_tcp_open": false,
+    "pooler_6543_tcp_open": false,
+    "stop_boundary": "external_postgresql_connectivity_not_yet_usable_from_session"
+  },
+  "stdout_ref": "internal:supabase-project-create-and-health-check",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "docs/audits/pop-002a-supabase-persistence-creation.md"
+  ],
+  "provenance": {
+    "recorded_by": "POP-002A",
+    "source_uri": "https://jezdtvqhmmjcrjonhdaq.supabase.co",
+    "observed_at": "2026-08-10T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/index",
+    "abvx_repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "production_mutation": true,
+    "network_access": "used",
+    "secrets_printed": false
+  }
+}
