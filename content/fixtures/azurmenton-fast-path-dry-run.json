@@ -1,0 +1,29 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-002-azur-fast-path",
+  "project": "azurmenton",
+  "surface": "guide",
+  "kind": "guide",
+  "title": "Placeholder AzurMenton guide packet for playbook compatibility validation",
+  "slug": "placeholder-azur-guide-fast-path-validation",
+  "summary": "Dummy AzurMenton fixture proving ABVX still routes guide publication into the existing consumer playbook rather than building a second publisher.",
+  "locales": ["en", "fr"],
+  "adapter_id": "azurmenton.guide",
+  "payload": {
+    "excerpt": "Dry-run only placeholder for AzurMenton guide handoff.",
+    "body_lines": [
+      "This synthetic guide packet exists only to validate playbook compatibility.",
+      "It must not trigger a real guide publication."
+    ],
+    "tags": ["AzurMenton", "placeholder", "dry-run"],
+    "topics": ["playbook compatibility"],
+    "asset_refs": ["media/events/azurmenton-005-new-guide.json"],
+    "source_refs": ["playbooks/azurmenton.publish-guide.json"],
+    "media_event_candidate": "media/events/azurmenton-005-new-guide.json"
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

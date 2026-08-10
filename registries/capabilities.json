@@ -60,10 +60,12 @@
         "no-consumer-repo-mutation-from-abvx",
         "project-specific-adapters-only",
         "report-only-publish-handoff",
-        "no-universal-renderer"
+        "no-universal-renderer",
+        "discovery-enrichment-visible-before-approval",
+        "consumer-command-fast-paths-only"
       ],
       "provenance": {
-        "recorded_by": "CONTENT-OPS-001",
+        "recorded_by": "CONTENT-OPS-002",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
       }

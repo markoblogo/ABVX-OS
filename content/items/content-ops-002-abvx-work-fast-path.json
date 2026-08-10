@@ -1,0 +1,194 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "id": "abvx.work",
+    "mechanism": "Consumer-side publish command for ABVX project/work content",
+    "next_commands": [
+      "Emit publish packet from ABVX-OS.",
+      "Run ABVXsite publish-project command in dry-run mode.",
+      "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+      "Run npm run build in /Volumes/Work/Work/ABVXsite.",
+      "Commit and deploy through the existing ABVXsite release flow only after human approval."
+    ],
+    "operation_id": "abvx.publish-project",
+    "publish_strategy": "consumer_command",
+    "target": "scripts/publish-project.mjs",
+    "target_surface": "abvx.work"
+  },
+  "artifact_refs": [
+    "content/publish-packets/content-ops-002-abvx-work-fast-path.json"
+  ],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-project.mjs --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-project.mjs --packet <packet> --dry-run",
+    "id": "abvx.publish-project",
+    "target_surface": "abvx.work"
+  },
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/work/placeholder-abvx-project-fast-path-validation",
+    "cortex": {
+      "context_request_ref": "context/requests/professional-public-projection.json",
+      "known_gaps": [
+        "Education/certificates are not represented in the current audited CortexABV public surfaces.",
+        "Recent-work public evidence remains partial and may omit very recent private project execution.",
+        "Additional relevant public professional evidence exists beyond the current context budget.",
+        "Private professional-preparation preferences remain admitted in CortexABV but were withheld from PUBLIC projection.",
+        "Global context budget truncated retrieved knowledge items."
+      ],
+      "proof_asset_candidates": [],
+      "providers": [
+        "cortexabv"
+      ],
+      "related_project_candidates": [
+        "coqpi"
+      ]
+    },
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/work/placeholder-abvx-project-fast-path-validation"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "project:coqpi"
+    ],
+    "machine_summary": "Dry-run only placeholder for ABVX project publication.",
+    "meta_description": "Dry-run only placeholder for ABVX project publication.",
+    "open_graph": {
+      "description": "Dry-run only placeholder for ABVX project publication.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder ABVX project publication for deterministic fast-path..."
+    },
+    "primary_entities": [
+      "ABVX",
+      "placeholder",
+      "dry-run",
+      "Placeholder ABVX",
+      "Dummy ABVX",
+      "This",
+      "It"
+    ],
+    "primary_source_links": [
+      "internal:dummy"
+    ],
+    "publisher": "ABVX",
+    "related_projects": [
+      "coqpi"
+    ],
+    "seo_title": "Placeholder ABVX project publication for deterministic fast-path...",
+    "sitemap_state": "INDEXABLE",
+    "slug": "placeholder-abvx-project-fast-path-validation",
+    "social_preview": {
+      "description": "Dry-run only placeholder for ABVX project publication.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder ABVX project publication for deterministic fast-path..."
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "CreativeWork"
+    },
+    "tags": [
+      "ABVX",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "project publication",
+      "validation"
+    ],
+    "warnings": []
+  },
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T08:55:15Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T08:55:53Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T08:55:53Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-10T08:55:53Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-ops-002-abvx-work-fast-path",
+  "kind": "work",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "This synthetic project note exists only to prove the ABVX work fast path.",
+      "It does not represent a real project announcement or production publication."
+    ],
+    "context_request_ref": "context/requests/professional-public-projection.json",
+    "cover_image": null,
+    "excerpt": "Dry-run only placeholder for ABVX project publication.",
+    "image_alt": null,
+    "media_event_candidate": null,
+    "source_refs": [
+      "internal:dummy"
+    ],
+    "tags": [
+      "ABVX",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "project publication",
+      "validation"
+    ]
+  },
+  "project": "abvxsite",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
+  },
+  "publication": {
+    "event_ref": "events/projects/abvxsite/content_published-placeholder-abvx-project-fast-path-validation.json",
+    "evidence_ref": "evidence/content-ops/content-ops-002-abvx-work-fast-path.publish.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-ops-002-abvx-work-fast-path.json",
+    "published_at": "2026-08-10T08:55:53Z",
+    "result": "CONDITIONAL_PASS"
+  },
+  "schema_version": "v1",
+  "slug": "placeholder-abvx-project-fast-path-validation",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "Dummy ABVX project fixture used only to validate work publication packaging and enrichment visibility before approval.",
+  "surface": "work",
+  "title": "Placeholder ABVX project publication for deterministic fast-path validation",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "consumer dry-run report",
+      "npm run content:validate",
+      "npm run build"
+    ],
+    "exception_flags": {
+      "structural_exception": false
+    },
+    "tier": "STANDARD",
+    "warnings": [
+      "Optional Cortex enrichment may add related-project hints but must not rewrite author body text."
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-002-abvx-work-fast-path",
+  "project": "abvxsite",
+  "surface": "work",
+  "kind": "work",
+  "title": "Placeholder ABVX project publication for deterministic fast-path validation",
+  "slug": "placeholder-abvx-project-fast-path-validation",
+  "summary": "Dummy ABVX project fixture used only to validate work publication packaging and enrichment visibility before approval.",
+  "locales": ["en"],
+  "adapter_id": "abvx.work",
+  "validation_flags": {
+    "structural_exception": false
+  },
+  "payload": {
+    "excerpt": "Dry-run only placeholder for ABVX project publication.",
+    "body_lines": [
+      "This synthetic project note exists only to prove the ABVX work fast path.",
+      "It does not represent a real project announcement or production publication."
+    ],
+    "tags": ["ABVX", "placeholder", "dry-run"],
+    "topics": ["project publication", "validation"],
+    "asset_refs": [],
+    "source_refs": ["internal:dummy"],
+    "media_event_candidate": null,
+    "cover_image": null,
+    "image_alt": null,
+    "context_request_ref": "context/requests/professional-public-projection.json"
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

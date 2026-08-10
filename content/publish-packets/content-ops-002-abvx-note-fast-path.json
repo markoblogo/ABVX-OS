@@ -1,0 +1,116 @@
+{
+  "artifact_refs": [],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --dry-run",
+    "id": "abvx.publish-writing",
+    "target_surface": "abvx.writing"
+  },
+  "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/writing/placeholder-abvx-writing-fast-path-validation",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/writing/placeholder-abvx-writing-fast-path-validation"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [],
+    "machine_summary": "Dry-run only placeholder for native ABVX writing.",
+    "meta_description": "Dry-run only placeholder for native ABVX writing.",
+    "open_graph": {
+      "description": "Dry-run only placeholder for native ABVX writing.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder ABVX writing item for deterministic fast-path validation"
+    },
+    "primary_entities": [
+      "ABVX",
+      "writing",
+      "placeholder",
+      "Placeholder ABVX",
+      "Dummy ABVX",
+      "This",
+      "It"
+    ],
+    "primary_source_links": [
+      "internal:dummy"
+    ],
+    "publisher": "ABVX",
+    "related_projects": [],
+    "seo_title": "Placeholder ABVX writing item for deterministic fast-path validation",
+    "sitemap_state": "INDEXABLE",
+    "slug": "placeholder-abvx-writing-fast-path-validation",
+    "social_preview": {
+      "description": "Dry-run only placeholder for native ABVX writing.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder ABVX writing item for deterministic fast-path validation"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "ABVX",
+      "writing",
+      "placeholder"
+    ],
+    "topics": [
+      "quick validation",
+      "writing"
+    ],
+    "warnings": []
+  },
+  "generated_at": "2026-08-10T09:10:06Z",
+  "item_id": "content-ops-002-abvx-note-fast-path",
+  "kind": "note",
+  "mechanism": "Consumer-side publish command for native ABVX writing inside the existing /writing surface",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "Designed for native ABVX writing inside the existing Writing archive, not a separate Notes product."
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "This writing item is synthetic placeholder content.",
+      "It exists only to validate the /writing fast path and must not be published as a real editorial text."
+    ],
+    "cover_image": null,
+    "excerpt": "Dry-run only placeholder for native ABVX writing.",
+    "image_alt": null,
+    "media_event_candidate": null,
+    "source_refs": [
+      "internal:dummy"
+    ],
+    "tags": [
+      "ABVX",
+      "writing",
+      "placeholder"
+    ],
+    "topics": [
+      "quick validation",
+      "writing"
+    ]
+  },
+  "project": "abvxsite",
+  "required_consumer_steps": [
+    "Emit publish packet from ABVX-OS.",
+    "Run ABVXsite publish-writing command in dry-run mode.",
+    "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+    "Run npm run build in /Volumes/Work/Work/ABVXsite if a structural exception is reported.",
+    "Commit and deploy through the existing ABVXsite release flow only after human approval."
+  ],
+  "schema_version": "v1",
+  "slug": "placeholder-abvx-writing-fast-path-validation",
+  "surface": "writing",
+  "target": "scripts/publish-writing.mjs plus /writing and /writing/[slug]",
+  "title": "Placeholder ABVX writing item for deterministic fast-path validation",
+  "validation_checks": [
+    "consumer dry-run report",
+    "npm run content:validate"
+  ],
+  "validation_tier": "QUICK"
+}

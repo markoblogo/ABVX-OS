@@ -1,0 +1,33 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-002-ssi-fast-path",
+  "project": "ssi",
+  "surface": "short-post",
+  "kind": "post",
+  "title": "Placeholder SSI post for deterministic fast-path validation",
+  "slug": "placeholder-ssi-fast-path-validation",
+  "summary": "Dummy SSI publication fixture used only to prove the dry-run short-post fast path and enrichment package.",
+  "locales": ["en"],
+  "adapter_id": "ssi.short-post",
+  "payload": {
+    "excerpt": "Dry-run only placeholder for SSI fast-path validation.",
+    "body_lines": [
+      "This is synthetic placeholder copy for validating the SSI publishing fast path.",
+      "It is intentionally non-editorial and does not represent a real public post."
+    ],
+    "tags": ["SSI", "placeholder", "dry-run"],
+    "topics": ["validation", "publishing fast path"],
+    "asset_refs": [],
+    "source_refs": ["internal:dummy"],
+    "media_event_candidate": null,
+    "author": "Anton BV",
+    "publisher": "SPIKE Spot Index",
+    "cover_image": null,
+    "image_alt": null
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

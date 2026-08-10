@@ -1,0 +1,31 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-002-abvx-note-fast-path",
+  "project": "abvxsite",
+  "surface": "writing",
+  "kind": "note",
+  "title": "Placeholder ABVX writing item for deterministic fast-path validation",
+  "slug": "placeholder-abvx-writing-fast-path-validation",
+  "summary": "Dummy ABVX native writing fixture used only to validate the existing /writing integration and quick validation tier.",
+  "locales": ["en"],
+  "adapter_id": "abvx.writing",
+  "payload": {
+    "excerpt": "Dry-run only placeholder for native ABVX writing.",
+    "body_lines": [
+      "This writing item is synthetic placeholder content.",
+      "It exists only to validate the /writing fast path and must not be published as a real editorial text."
+    ],
+    "tags": ["ABVX", "writing", "placeholder"],
+    "topics": ["quick validation", "writing"],
+    "asset_refs": [],
+    "source_refs": ["internal:dummy"],
+    "media_event_candidate": null,
+    "cover_image": null,
+    "image_alt": null
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-002A",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

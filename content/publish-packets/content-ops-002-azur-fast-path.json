@@ -1,0 +1,117 @@
+{
+  "artifact_refs": [
+    "media/events/azurmenton-005-new-guide.json"
+  ],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/menton && npm run guide:publish -- --packet <packet>",
+    "dry_run_command": "cd /Volumes/Work/Work/menton && npm run guide:check -- --packet <packet>",
+    "id": "azurmenton.publish-guide",
+    "target_surface": "azurmenton.guide"
+  },
+  "consumer_repo": "/Volumes/Work/Work/menton",
+  "enrichment": {
+    "author": "AzurMenton",
+    "canonical_path": "/guides/placeholder-azur-guide-fast-path-validation",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/guides/placeholder-azur-guide-fast-path-validation",
+      "fr": "/guides/placeholder-azur-guide-fast-path-validation"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [],
+    "machine_summary": "Dry-run only placeholder for AzurMenton guide handoff.",
+    "meta_description": "Dry-run only placeholder for AzurMenton guide handoff.",
+    "open_graph": {
+      "description": "Dry-run only placeholder for AzurMenton guide handoff.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder AzurMenton guide packet for playbook compatibility..."
+    },
+    "primary_entities": [
+      "AzurMenton",
+      "placeholder",
+      "dry-run",
+      "Placeholder AzurMenton",
+      "Dummy AzurMenton",
+      "ABVX",
+      "This",
+      "It"
+    ],
+    "primary_source_links": [
+      "playbooks/azurmenton.publish-guide.json"
+    ],
+    "publisher": "AzurMenton",
+    "related_projects": [],
+    "seo_title": "Placeholder AzurMenton guide packet for playbook compatibility...",
+    "sitemap_state": "INDEXABLE",
+    "slug": "placeholder-azur-guide-fast-path-validation",
+    "social_preview": {
+      "description": "Dry-run only placeholder for AzurMenton guide handoff.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder AzurMenton guide packet for playbook compatibility..."
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "AzurMenton",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "playbook compatibility"
+    ],
+    "warnings": []
+  },
+  "generated_at": "2026-08-10T08:55:53Z",
+  "item_id": "content-ops-002-azur-fast-path",
+  "kind": "guide",
+  "mechanism": "Existing azurmenton.publish-guide playbook and guide publish path",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "ABVX should route AzurMenton guide work into the existing playbook, not build a second publisher."
+  ],
+  "payload": {
+    "asset_refs": [
+      "media/events/azurmenton-005-new-guide.json"
+    ],
+    "body_lines": [
+      "This synthetic guide packet exists only to validate playbook compatibility.",
+      "It must not trigger a real guide publication."
+    ],
+    "excerpt": "Dry-run only placeholder for AzurMenton guide handoff.",
+    "media_event_candidate": "media/events/azurmenton-005-new-guide.json",
+    "source_refs": [
+      "playbooks/azurmenton.publish-guide.json"
+    ],
+    "tags": [
+      "AzurMenton",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "playbook compatibility"
+    ]
+  },
+  "project": "azurmenton",
+  "required_consumer_steps": [
+    "Use the existing azurmenton.publish-guide playbook as the handoff contract.",
+    "Run the proven guide:new / guide:check / guide:publish workflow in /Volumes/Work/Work/menton.",
+    "Keep owner review and visual gates intact before any production publication."
+  ],
+  "schema_version": "v1",
+  "slug": "placeholder-azur-guide-fast-path-validation",
+  "surface": "guide",
+  "target": "playbooks/azurmenton.publish-guide.json plus guide content workflow",
+  "title": "Placeholder AzurMenton guide packet for playbook compatibility validation",
+  "validation_checks": [
+    "existing guide publish gate",
+    "existing guide review gate",
+    "playbook-backed dry-run or publish handoff review"
+  ],
+  "validation_tier": "STANDARD"
+}

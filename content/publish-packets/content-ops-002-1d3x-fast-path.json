@@ -1,0 +1,117 @@
+{
+  "artifact_refs": [],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface 1d3x --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface 1d3x --packet <packet> --dry-run",
+    "id": "index.publish-post",
+    "target_surface": "1d3x"
+  },
+  "consumer_repo": "/Volumes/Work/Work/index",
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/blog/placeholder-1d3x-fast-path-validation",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/blog/placeholder-1d3x-fast-path-validation"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [],
+    "machine_summary": "Dry-run only placeholder for 1D3X article publication.",
+    "meta_description": "Dry-run only placeholder for 1D3X article publication.",
+    "open_graph": {
+      "description": "Dry-run only placeholder for 1D3X article publication.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder 1D3X article for deterministic fast-path validation"
+    },
+    "primary_entities": [
+      "1D3X",
+      "placeholder",
+      "dry-run",
+      "Placeholder",
+      "Dummy",
+      "This",
+      "It"
+    ],
+    "primary_source_links": [
+      "internal:dummy"
+    ],
+    "publisher": "1D3X",
+    "related_projects": [],
+    "seo_title": "Placeholder 1D3X article for deterministic fast-path validation",
+    "sitemap_state": "INDEXABLE",
+    "slug": "placeholder-1d3x-fast-path-validation",
+    "social_preview": {
+      "description": "Dry-run only placeholder for 1D3X article publication.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder 1D3X article for deterministic fast-path validation"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "1D3X",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "validation",
+      "discovery enrichment"
+    ],
+    "warnings": []
+  },
+  "generated_at": "2026-08-10T08:55:53Z",
+  "item_id": "content-ops-002-1d3x-fast-path",
+  "kind": "article",
+  "mechanism": "Consumer-side publish command for 1D3X articles in index monorepo",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "Suitable for 1D3X explanatory articles, announcements, and external-reference writeups."
+  ],
+  "payload": {
+    "asset_refs": [],
+    "body_lines": [
+      "This article body is intentionally synthetic and exists only for fast-path verification.",
+      "It should never be treated as a real 1D3X publication candidate."
+    ],
+    "cover_image": null,
+    "excerpt": "Dry-run only placeholder for 1D3X article publication.",
+    "image_alt": null,
+    "media_event_candidate": null,
+    "source_refs": [
+      "internal:dummy"
+    ],
+    "tags": [
+      "1D3X",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "validation",
+      "discovery enrichment"
+    ]
+  },
+  "project": "1d3x",
+  "required_consumer_steps": [
+    "Emit publish packet from ABVX-OS.",
+    "Run index publish-post command in dry-run mode.",
+    "Run npm run typecheck in /Volumes/Work/Work/index.",
+    "Run npm run build in /Volumes/Work/Work/index.",
+    "Commit and deploy the 1D3X tenant through existing index release flow only after human approval."
+  ],
+  "schema_version": "v1",
+  "slug": "placeholder-1d3x-fast-path-validation",
+  "surface": "article",
+  "target": "scripts/publish-post.mjs --surface 1d3x",
+  "title": "Placeholder 1D3X article for deterministic fast-path validation",
+  "validation_checks": [
+    "consumer dry-run report",
+    "npm run typecheck",
+    "npm run build"
+  ],
+  "validation_tier": "STANDARD"
+}

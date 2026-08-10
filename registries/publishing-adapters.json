@@ -5,33 +5,57 @@
       "id": "ssi.short-post",
       "project": "ssi",
       "surface": "short-post",
-      "mechanism": "Code-defined SPIKE blog array in index monorepo",
+      "mechanism": "Consumer-side publish command for SPIKE short posts in index monorepo",
       "consumer_repo": "/Volumes/Work/Work/index",
-      "target": "src/lib/blog-posts.ts",
-      "publish_strategy": "code_array",
+      "target": "scripts/publish-post.mjs --surface ssi",
+      "target_surface": "ssi",
+      "operation_id": "index.publish-post",
+      "publish_strategy": "consumer_command",
       "readiness": "READY",
-      "readiness_reason": "Existing SSI blog content already ships through a code-defined local array and standard Next.js build path.",
+      "readiness_reason": "SSI can publish through a bounded consumer command without exposing blog array internals to ABVX-OS.",
       "required_assets": false,
+      "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --write",
       "next_commands": [
-        "Edit /Volumes/Work/Work/index/src/lib/blog-posts.ts",
-        "Run npm run typecheck in /Volumes/Work/Work/index",
-        "Run npm run build in /Volumes/Work/Work/index",
-        "Commit and deploy the SSI tenant through existing index release flow"
+        "Emit publish packet from ABVX-OS.",
+        "Run index publish-post command in dry-run mode.",
+        "Run npm run typecheck in /Volumes/Work/Work/index.",
+        "Run npm run build in /Volumes/Work/Work/index if dry-run reports a structural exception.",
+        "Commit and deploy the SSI tenant through existing index release flow only after human approval."
+      ],
+      "route_template": "/{locale}/blog/{slug}",
+      "default_author": "Anton BV",
+      "default_publisher": "SPIKE Spot Index",
+      "structured_data_type": "BlogPosting",
+      "default_sitemap_state": "INDEXABLE",
+      "default_indexability": "INDEXABLE",
+      "warnings": [
+        "Fast path is deterministic but still human-gated.",
+        "ABVX-OS does not write directly into index internals."
       ],
       "validation": {
-        "default_tier": "STANDARD",
+        "default_tier": "QUICK",
         "checks": [
-          "targeted source edit review",
-          "npm run typecheck",
-          "npm run build"
+          "consumer dry-run report",
+          "npm run typecheck"
+        ],
+        "escalate_to_standard_on": [
+          "failed_targeted_validation",
+          "localization_exception"
+        ],
+        "escalate_to_full_on": [
+          "structural_exception",
+          "new_content_type"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
         ]
       },
       "notes": [
-        "ABVX does not mutate the index repo automatically from this control plane.",
-        "Best fit for SSI contextual/editorial posts and manual updates."
+        "Best fit for SSI contextual/editorial posts once the owner has approved the prepared packet."
       ],
       "provenance": {
-        "recorded_by": "CONTENT-OPS-001",
+        "recorded_by": "CONTENT-OPS-002",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
       }
@@ -40,32 +64,54 @@
       "id": "1d3x.article",
       "project": "1d3x",
       "surface": "article",
-      "mechanism": "Code-defined 1D3X platform blog array in index monorepo",
+      "mechanism": "Consumer-side publish command for 1D3X articles in index monorepo",
       "consumer_repo": "/Volumes/Work/Work/index",
-      "target": "src/lib/platform-blog-posts.ts",
-      "publish_strategy": "code_array",
+      "target": "scripts/publish-post.mjs --surface 1d3x",
+      "target_surface": "1d3x",
+      "operation_id": "index.publish-post",
+      "publish_strategy": "consumer_command",
       "readiness": "READY",
-      "readiness_reason": "1D3X already publishes articles through a dedicated platform-blog array inside the index monorepo.",
+      "readiness_reason": "1D3X can publish through a bounded consumer command without exposing platform blog internals to ABVX-OS.",
       "required_assets": false,
+      "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface 1d3x --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface 1d3x --packet <packet> --write",
       "next_commands": [
-        "Edit /Volumes/Work/Work/index/src/lib/platform-blog-posts.ts",
-        "Run npm run typecheck in /Volumes/Work/Work/index",
-        "Run npm run build in /Volumes/Work/Work/index",
-        "Commit and deploy the 1D3X tenant through existing index release flow"
+        "Emit publish packet from ABVX-OS.",
+        "Run index publish-post command in dry-run mode.",
+        "Run npm run typecheck in /Volumes/Work/Work/index.",
+        "Run npm run build in /Volumes/Work/Work/index.",
+        "Commit and deploy the 1D3X tenant through existing index release flow only after human approval."
+      ],
+      "route_template": "/blog/{slug}",
+      "default_author": "Anton BV",
+      "default_publisher": "1D3X",
+      "structured_data_type": "Article",
+      "default_sitemap_state": "INDEXABLE",
+      "default_indexability": "INDEXABLE",
+      "warnings": [
+        "Discovery enrichment must remain reviewable before publication."
       ],
       "validation": {
         "default_tier": "STANDARD",
         "checks": [
-          "targeted source edit review",
+          "consumer dry-run report",
           "npm run typecheck",
           "npm run build"
+        ],
+        "escalate_to_full_on": [
+          "structural_exception",
+          "new_content_type",
+          "localization_exception"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
         ]
       },
       "notes": [
         "Suitable for 1D3X explanatory articles, announcements, and external-reference writeups."
       ],
       "provenance": {
-        "recorded_by": "CONTENT-OPS-001",
+        "recorded_by": "CONTENT-OPS-002",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
       }
@@ -74,67 +120,114 @@
       "id": "abvx.work",
       "project": "abvxsite",
       "surface": "work",
-      "mechanism": "File-based Markdown with JSON frontmatter",
+      "mechanism": "Consumer-side publish command for ABVX project/work content",
       "consumer_repo": "/Volumes/Work/Work/ABVXsite",
-      "target": "content/work/<slug>.md",
-      "publish_strategy": "file_markdown",
+      "target": "scripts/publish-project.mjs",
+      "target_surface": "abvx.work",
+      "operation_id": "abvx.publish-project",
+      "publish_strategy": "consumer_command",
       "readiness": "READY",
-      "readiness_reason": "ABVXsite already supports generated work content through file-based Markdown plus validation/build commands.",
+      "readiness_reason": "ABVXsite work publication can use a bounded file-based command without exposing content/work file internals to ABVX-OS.",
       "required_assets": false,
+      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-project.mjs --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-project.mjs --packet <packet> --write",
       "next_commands": [
-        "Generate or edit /Volumes/Work/Work/ABVXsite/content/work/<slug>.md",
-        "Run npm run content:validate in /Volumes/Work/Work/ABVXsite",
-        "Run npm run build in /Volumes/Work/Work/ABVXsite",
-        "Commit and deploy through the existing ABVXsite release flow"
+        "Emit publish packet from ABVX-OS.",
+        "Run ABVXsite publish-project command in dry-run mode.",
+        "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+        "Run npm run build in /Volumes/Work/Work/ABVXsite.",
+        "Commit and deploy through the existing ABVXsite release flow only after human approval."
+      ],
+      "route_template": "/work/{slug}",
+      "default_author": "Anton BV",
+      "default_publisher": "ABVX",
+      "structured_data_type": "CreativeWork",
+      "default_sitemap_state": "INDEXABLE",
+      "default_indexability": "INDEXABLE",
+      "warnings": [
+        "Optional Cortex enrichment may add related-project hints but must not rewrite author body text."
       ],
       "validation": {
         "default_tier": "STANDARD",
         "checks": [
+          "consumer dry-run report",
           "npm run content:validate",
           "npm run build"
+        ],
+        "escalate_to_full_on": [
+          "structural_exception",
+          "new_content_type",
+          "failed_targeted_validation"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
         ]
       },
       "notes": [
-        "Best current fit for a public ABVX publication about Cortex."
+        "Best fit for project/work publications backed by the ABVXsite file content model."
       ],
       "provenance": {
-        "recorded_by": "CONTENT-OPS-001",
+        "recorded_by": "CONTENT-OPS-002",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
       }
     },
     {
-      "id": "abvx.notes",
+      "id": "abvx.writing",
       "project": "abvxsite",
-      "surface": "notes",
-      "mechanism": "Future file-based note route under ABVXsite",
+      "surface": "writing",
+      "mechanism": "Consumer-side publish command for native ABVX writing inside the existing /writing surface",
       "consumer_repo": "/Volumes/Work/Work/ABVXsite",
-      "target": "/notes and /notes/[slug]",
-      "publish_strategy": "future_surface",
-      "readiness": "BLOCKED",
-      "readiness_reason": "ABVXsite content workflow exists, but no current /notes route or note loader is present.",
+      "target": "scripts/publish-writing.mjs plus /writing and /writing/[slug]",
+      "target_surface": "abvx.writing",
+      "operation_id": "abvx.publish-writing",
+      "publish_strategy": "consumer_command",
+      "readiness": "READY",
+      "readiness_reason": "ABVXsite native writing now lives inside the existing /writing archive and can publish through a bounded file-based command.",
       "required_assets": false,
-      "preparation_blockers": [
-        "ABVXsite needs a minimal /notes index and /notes/[slug] route before Notes can publish through this control plane."
-      ],
+      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --write",
       "next_commands": [
-        "Add a note content type and loader in /Volumes/Work/Work/ABVXsite",
-        "Add /notes and /notes/[slug] routes",
-        "Run npm run content:validate and npm run build in /Volumes/Work/Work/ABVXsite"
+        "Emit publish packet from ABVX-OS.",
+        "Run ABVXsite publish-writing command in dry-run mode.",
+        "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+        "Run npm run build in /Volumes/Work/Work/ABVXsite if a structural exception is reported.",
+        "Commit and deploy through the existing ABVXsite release flow only after human approval."
+      ],
+      "route_template": "/writing/{slug}",
+      "default_author": "Anton BV",
+      "default_publisher": "ABVX",
+      "structured_data_type": "Article",
+      "default_sitemap_state": "INDEXABLE",
+      "default_indexability": "INDEXABLE",
+      "warnings": [
+        "Routine native writing publication remains body-author-controlled.",
+        "Quick tier is valid only while consumer dry-run and content validation both stay green."
       ],
       "validation": {
-        "default_tier": "FULL",
+        "default_tier": "QUICK",
         "checks": [
-          "ABVXsite route implementation review",
-          "npm run content:validate",
-          "npm run build"
+          "consumer dry-run report",
+          "npm run content:validate"
+        ],
+        "escalate_to_standard_on": [
+          "localization_exception",
+          "failed_targeted_validation",
+          "factual_conflict"
+        ],
+        "escalate_to_full_on": [
+          "structural_exception",
+          "new_content_type"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
         ]
       },
       "notes": [
-        "This adapter is intentionally blocked until a minimal Notes surface exists."
+        "Designed for native ABVX writing inside the existing Writing archive, not a separate Notes product."
       ],
       "provenance": {
-        "recorded_by": "CONTENT-OPS-001",
+        "recorded_by": "CONTENT-OPS-002A",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
       }
@@ -146,28 +239,46 @@
       "mechanism": "Existing azurmenton.publish-guide playbook and guide publish path",
       "consumer_repo": "/Volumes/Work/Work/menton",
       "target": "playbooks/azurmenton.publish-guide.json plus guide content workflow",
+      "target_surface": "azurmenton.guide",
+      "operation_id": "azurmenton.publish-guide",
       "publish_strategy": "playbook_handoff",
       "readiness": "READY",
       "readiness_reason": "AzurMenton already has a proven guide publication playbook and consumer-side publish gate.",
       "required_assets": true,
+      "dry_run_command": "cd /Volumes/Work/Work/menton && npm run guide:check -- --packet <packet>",
+      "apply_command": "cd /Volumes/Work/Work/menton && npm run guide:publish -- --packet <packet>",
       "next_commands": [
-        "Use the existing azurmenton.publish-guide playbook as the handoff contract",
-        "Run the proven guide:new / guide:check / guide:publish workflow in /Volumes/Work/Work/menton",
-        "Keep owner review and visual gates intact before any production publication"
+        "Use the existing azurmenton.publish-guide playbook as the handoff contract.",
+        "Run the proven guide:new / guide:check / guide:publish workflow in /Volumes/Work/Work/menton.",
+        "Keep owner review and visual gates intact before any production publication."
       ],
+      "route_template": "/guides/{slug}",
+      "default_author": "AzurMenton",
+      "default_publisher": "AzurMenton",
+      "structured_data_type": "Article",
+      "default_sitemap_state": "INDEXABLE",
+      "default_indexability": "INDEXABLE",
       "validation": {
         "default_tier": "STANDARD",
         "checks": [
           "existing guide publish gate",
           "existing guide review gate",
           "playbook-backed dry-run or publish handoff review"
+        ],
+        "escalate_to_full_on": [
+          "structural_exception",
+          "localization_exception",
+          "failed_targeted_validation"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
         ]
       },
       "notes": [
         "ABVX should route AzurMenton guide work into the existing playbook, not build a second publisher."
       ],
       "provenance": {
-        "recorded_by": "CONTENT-OPS-001",
+        "recorded_by": "CONTENT-OPS-002",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
       }
@@ -179,6 +290,8 @@
       "mechanism": "Future POP editorial entry on top of the existing index/POP stack",
       "consumer_repo": "/Volumes/Work/Work/index",
       "target": "POP public/editorial surfaces after DB-backed pipeline completion",
+      "target_surface": "pop",
+      "operation_id": "index.publish-post",
       "publish_strategy": "future_surface",
       "readiness": "BLOCKED",
       "readiness_reason": "POP editorial completion remains gated on the broader POP V1 completion and DB-backed publication proof.",
@@ -186,24 +299,34 @@
       "preparation_blockers": [
         "POP needs its stable editorial/publication surface finalized before routine library entries can be published."
       ],
+      "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface pop --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface pop --packet <packet> --write",
       "next_commands": [
-        "Finish POP DB-backed ingest/review/publish verification",
-        "Choose the stable POP maintenance line",
-        "Then define the smallest editorial entry mechanism"
+        "Finish POP DB-backed ingest/review/publish verification.",
+        "Choose the stable POP maintenance line.",
+        "Then define the smallest editorial entry mechanism."
       ],
+      "default_author": "Anton BV",
+      "default_publisher": "POP",
+      "structured_data_type": "Article",
+      "default_sitemap_state": "NO_ROUTE",
+      "default_indexability": "BLOCKED",
       "validation": {
         "default_tier": "FULL",
         "checks": [
           "POP pipeline readiness review",
           "targeted index typecheck/build",
           "public-surface proof"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
         ]
       },
       "notes": [
         "Retained as a future compatibility target only."
       ],
       "provenance": {
-        "recorded_by": "CONTENT-OPS-001",
+        "recorded_by": "CONTENT-OPS-002",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
       }

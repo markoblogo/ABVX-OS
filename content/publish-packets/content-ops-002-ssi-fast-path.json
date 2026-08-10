@@ -1,0 +1,118 @@
+{
+  "artifact_refs": [],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --dry-run",
+    "id": "index.publish-post",
+    "target_surface": "ssi"
+  },
+  "consumer_repo": "/Volumes/Work/Work/index",
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/en/blog/placeholder-ssi-fast-path-validation",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/en/blog/placeholder-ssi-fast-path-validation"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [],
+    "machine_summary": "Dry-run only placeholder for SSI fast-path validation.",
+    "meta_description": "Dry-run only placeholder for SSI fast-path validation.",
+    "open_graph": {
+      "description": "Dry-run only placeholder for SSI fast-path validation.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder SSI post for deterministic fast-path validation"
+    },
+    "primary_entities": [
+      "SSI",
+      "placeholder",
+      "dry-run",
+      "Placeholder SSI",
+      "Dummy SSI",
+      "This",
+      "It"
+    ],
+    "primary_source_links": [
+      "internal:dummy"
+    ],
+    "publisher": "SPIKE Spot Index",
+    "related_projects": [],
+    "seo_title": "Placeholder SSI post for deterministic fast-path validation",
+    "sitemap_state": "INDEXABLE",
+    "slug": "placeholder-ssi-fast-path-validation",
+    "social_preview": {
+      "description": "Dry-run only placeholder for SSI fast-path validation.",
+      "image": null,
+      "image_alt": null,
+      "title": "Placeholder SSI post for deterministic fast-path validation"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "BlogPosting"
+    },
+    "tags": [
+      "SSI",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "validation",
+      "publishing fast path"
+    ],
+    "warnings": []
+  },
+  "generated_at": "2026-08-10T08:55:53Z",
+  "item_id": "content-ops-002-ssi-fast-path",
+  "kind": "post",
+  "mechanism": "Consumer-side publish command for SPIKE short posts in index monorepo",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "Best fit for SSI contextual/editorial posts once the owner has approved the prepared packet."
+  ],
+  "payload": {
+    "asset_refs": [],
+    "author": "Anton BV",
+    "body_lines": [
+      "This is synthetic placeholder copy for validating the SSI publishing fast path.",
+      "It is intentionally non-editorial and does not represent a real public post."
+    ],
+    "cover_image": null,
+    "excerpt": "Dry-run only placeholder for SSI fast-path validation.",
+    "image_alt": null,
+    "media_event_candidate": null,
+    "publisher": "SPIKE Spot Index",
+    "source_refs": [
+      "internal:dummy"
+    ],
+    "tags": [
+      "SSI",
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "validation",
+      "publishing fast path"
+    ]
+  },
+  "project": "ssi",
+  "required_consumer_steps": [
+    "Emit publish packet from ABVX-OS.",
+    "Run index publish-post command in dry-run mode.",
+    "Run npm run typecheck in /Volumes/Work/Work/index.",
+    "Run npm run build in /Volumes/Work/Work/index if dry-run reports a structural exception.",
+    "Commit and deploy the SSI tenant through existing index release flow only after human approval."
+  ],
+  "schema_version": "v1",
+  "slug": "placeholder-ssi-fast-path-validation",
+  "surface": "short-post",
+  "target": "scripts/publish-post.mjs --surface ssi",
+  "title": "Placeholder SSI post for deterministic fast-path validation",
+  "validation_checks": [
+    "consumer dry-run report",
+    "npm run typecheck"
+  ],
+  "validation_tier": "QUICK"
+}

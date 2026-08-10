@@ -17,69 +17,40 @@
     "status",
     "payload",
     "adapter",
+    "consumer_operation",
     "validation",
     "human_gate",
     "publication",
+    "enrichment",
     "artifact_refs",
     "history",
     "provenance"
   ],
   "properties": {
-    "schema_version": {
-      "const": "v1"
-    },
-    "id": {
-      "type": "string",
-      "minLength": 1
-    },
-    "project": {
-      "type": "string",
-      "minLength": 1
-    },
-    "surface": {
-      "type": "string",
-      "minLength": 1
-    },
-    "kind": {
-      "type": "string",
-      "minLength": 1
-    },
-    "title": {
-      "type": "string",
-      "minLength": 1
-    },
-    "slug": {
-      "type": "string",
-      "minLength": 1
-    },
-    "summary": {
-      "type": "string",
-      "minLength": 1
-    },
+    "schema_version": { "const": "v1" },
+    "id": { "type": "string", "minLength": 1 },
+    "project": { "type": "string", "minLength": 1 },
+    "surface": { "type": "string", "minLength": 1 },
+    "kind": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 },
     "locales": {
       "type": "array",
       "minItems": 1,
-      "items": {
-        "type": "string",
-        "minLength": 2
-      }
+      "items": { "type": "string", "minLength": 2 }
     },
     "status": {
-      "enum": [
-        "PREPARED",
-        "BLOCKED",
-        "APPROVED",
-        "PUBLISH_PACKET_EMITTED"
-      ]
+      "enum": ["PREPARED", "BLOCKED", "APPROVED", "PUBLISH_PACKET_EMITTED"]
     },
-    "payload": {
-      "$ref": "content_fixture.schema.json#/properties/payload"
-    },
+    "payload": { "$ref": "content_fixture.schema.json#/properties/payload" },
     "adapter": {
       "type": "object",
       "additionalProperties": false,
       "required": [
         "id",
+        "operation_id",
+        "target_surface",
         "mechanism",
         "consumer_repo",
         "target",
@@ -87,165 +58,169 @@
         "next_commands"
       ],
       "properties": {
-        "id": {
-          "type": "string",
-          "minLength": 1
-        },
-        "mechanism": {
-          "type": "string",
-          "minLength": 1
-        },
-        "consumer_repo": {
-          "type": "string",
-          "minLength": 1
-        },
-        "target": {
-          "type": "string",
-          "minLength": 1
-        },
-        "publish_strategy": {
-          "type": "string",
-          "minLength": 1
-        },
+        "id": { "type": "string", "minLength": 1 },
+        "operation_id": { "type": "string", "minLength": 1 },
+        "target_surface": { "type": "string", "minLength": 1 },
+        "mechanism": { "type": "string", "minLength": 1 },
+        "consumer_repo": { "type": "string", "minLength": 1 },
+        "target": { "type": "string", "minLength": 1 },
+        "publish_strategy": { "type": "string", "minLength": 1 },
         "next_commands": {
           "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
+          "items": { "type": "string", "minLength": 1 }
         }
+      }
+    },
+    "consumer_operation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "target_surface", "dry_run_command", "apply_command"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "target_surface": { "type": "string", "minLength": 1 },
+        "dry_run_command": { "type": "string", "minLength": 1 },
+        "apply_command": { "type": "string", "minLength": 1 }
       }
     },
     "validation": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "tier",
-        "checks",
-        "blockers",
-        "warnings"
-      ],
+      "required": ["tier", "checks", "blockers", "warnings", "exception_flags"],
       "properties": {
-        "tier": {
-          "enum": [
-            "QUICK",
-            "STANDARD",
-            "FULL",
-            "CRITICAL"
-          ]
-        },
+        "tier": { "enum": ["QUICK", "STANDARD", "FULL", "CRITICAL"] },
         "checks": {
           "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
+          "items": { "type": "string", "minLength": 1 }
         },
         "blockers": {
           "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
+          "items": { "type": "string", "minLength": 1 }
         },
         "warnings": {
           "type": "array",
-          "items": {
-            "type": "string",
-            "minLength": 1
-          }
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "exception_flags": {
+          "type": "object",
+          "additionalProperties": { "type": "boolean" }
         }
       }
     },
     "human_gate": {
       "type": "object",
       "additionalProperties": false,
-      "required": [
-        "required",
-        "state",
-        "approved_by",
-        "approved_at"
-      ],
+      "required": ["required", "state", "approved_by", "approved_at"],
       "properties": {
-        "required": {
-          "type": "boolean"
-        },
-        "state": {
-          "enum": [
-            "BLOCKED",
-            "PENDING_APPROVAL",
-            "APPROVED"
-          ]
-        },
-        "approved_by": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "approved_at": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time"
-        }
+        "required": { "type": "boolean" },
+        "state": { "enum": ["BLOCKED", "PENDING_APPROVAL", "APPROVED"] },
+        "approved_by": { "type": ["string", "null"] },
+        "approved_at": { "type": ["string", "null"], "format": "date-time" }
       }
     },
     "publication": {
       "type": "object",
       "additionalProperties": false,
+      "required": ["mode", "packet_ref", "evidence_ref", "event_ref", "published_at", "result"],
+      "properties": {
+        "mode": { "const": "REPORT_ONLY_HANDOFF" },
+        "packet_ref": { "type": ["string", "null"] },
+        "evidence_ref": { "type": ["string", "null"] },
+        "event_ref": { "type": ["string", "null"] },
+        "published_at": { "type": ["string", "null"], "format": "date-time" },
+        "result": { "type": ["string", "null"] }
+      }
+    },
+    "enrichment": {
+      "type": "object",
+      "additionalProperties": false,
       "required": [
-        "mode",
-        "packet_ref",
-        "evidence_ref",
-        "event_ref",
-        "published_at",
-        "result"
+        "slug",
+        "seo_title",
+        "meta_description",
+        "canonical_path",
+        "open_graph",
+        "social_preview",
+        "date_published",
+        "date_modified",
+        "author",
+        "publisher",
+        "tags",
+        "topics",
+        "primary_entities",
+        "related_projects",
+        "internal_link_suggestions",
+        "primary_source_links",
+        "hreflang",
+        "sitemap_state",
+        "indexability",
+        "structured_data",
+        "machine_summary",
+        "cortex",
+        "warnings"
       ],
       "properties": {
-        "mode": {
-          "const": "REPORT_ONLY_HANDOFF"
+        "slug": { "type": "string", "minLength": 1 },
+        "seo_title": { "type": "string", "minLength": 1 },
+        "meta_description": { "type": "string", "minLength": 1 },
+        "canonical_path": { "type": ["string", "null"] },
+        "open_graph": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "description", "image", "image_alt"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "description": { "type": "string", "minLength": 1 },
+            "image": { "type": ["string", "null"] },
+            "image_alt": { "type": ["string", "null"] }
+          }
         },
-        "packet_ref": {
-          "type": [
-            "string",
-            "null"
-          ]
+        "social_preview": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "description", "image", "image_alt"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "description": { "type": "string", "minLength": 1 },
+            "image": { "type": ["string", "null"] },
+            "image_alt": { "type": ["string", "null"] }
+          }
         },
-        "evidence_ref": {
-          "type": [
-            "string",
-            "null"
-          ]
+        "date_published": { "type": "string", "minLength": 1 },
+        "date_modified": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "publisher": { "type": "string", "minLength": 1 },
+        "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "topics": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "primary_entities": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "related_projects": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "internal_link_suggestions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "primary_source_links": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "hreflang": {
+          "type": "object",
+          "additionalProperties": { "type": "string", "minLength": 1 }
         },
-        "event_ref": {
-          "type": [
-            "string",
-            "null"
-          ]
+        "sitemap_state": { "type": "string", "minLength": 1 },
+        "indexability": { "type": "string", "minLength": 1 },
+        "structured_data": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "status"],
+          "properties": {
+            "type": { "type": "string", "minLength": 1 },
+            "status": { "type": "string", "minLength": 1 }
+          }
         },
-        "published_at": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time"
+        "machine_summary": { "type": "string", "minLength": 1 },
+        "cortex": {
+          "type": ["object", "null"],
+          "additionalProperties": true
         },
-        "result": {
-          "type": [
-            "string",
-            "null"
-          ]
-        }
+        "warnings": { "type": "array", "items": { "type": "string", "minLength": 1 } }
       }
     },
     "artifact_refs": {
       "type": "array",
-      "items": {
-        "type": "string",
-        "minLength": 1
-      }
+      "items": { "type": "string", "minLength": 1 }
     },
     "history": {
       "type": "array",
@@ -253,37 +228,15 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": [
-          "action",
-          "timestamp",
-          "actor",
-          "result"
-        ],
+        "required": ["action", "timestamp", "actor", "result"],
         "properties": {
-          "action": {
-            "enum": [
-              "PREPARE",
-              "APPROVE",
-              "PUBLISH"
-            ]
-          },
-          "timestamp": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "actor": {
-            "type": "string",
-            "minLength": 1
-          },
-          "result": {
-            "type": "string",
-            "minLength": 1
-          }
+          "action": { "enum": ["PREPARE", "APPROVE", "PUBLISH"] },
+          "timestamp": { "type": "string", "format": "date-time" },
+          "actor": { "type": "string", "minLength": 1 },
+          "result": { "type": "string", "minLength": 1 }
         }
       }
     },
-    "provenance": {
-      "$ref": "content_fixture.schema.json#/properties/provenance"
-    }
+    "provenance": { "$ref": "content_fixture.schema.json#/properties/provenance" }
   }
 }

@@ -4,14 +4,9 @@
   "title": "ABVX Publishing Adapter Registry",
   "type": "object",
   "additionalProperties": false,
-  "required": [
-    "schema_version",
-    "entries"
-  ],
+  "required": ["schema_version", "entries"],
   "properties": {
-    "schema_version": {
-      "const": "v1"
-    },
+    "schema_version": { "const": "v1" },
     "entries": {
       "type": "array",
       "items": {
@@ -24,130 +19,92 @@
           "mechanism",
           "consumer_repo",
           "target",
+          "target_surface",
+          "operation_id",
           "publish_strategy",
           "readiness",
           "readiness_reason",
           "required_assets",
+          "dry_run_command",
+          "apply_command",
           "next_commands",
           "validation",
           "provenance"
         ],
         "properties": {
-          "id": {
-            "type": "string",
-            "minLength": 1
-          },
-          "project": {
-            "type": "string",
-            "minLength": 1
-          },
-          "surface": {
-            "type": "string",
-            "minLength": 1
-          },
-          "mechanism": {
-            "type": "string",
-            "minLength": 1
-          },
-          "consumer_repo": {
-            "type": "string",
-            "minLength": 1
-          },
-          "target": {
-            "type": "string",
-            "minLength": 1
-          },
+          "id": { "type": "string", "minLength": 1 },
+          "project": { "type": "string", "minLength": 1 },
+          "surface": { "type": "string", "minLength": 1 },
+          "mechanism": { "type": "string", "minLength": 1 },
+          "consumer_repo": { "type": "string", "minLength": 1 },
+          "target": { "type": "string", "minLength": 1 },
+          "target_surface": { "type": "string", "minLength": 1 },
+          "operation_id": { "type": "string", "minLength": 1 },
           "publish_strategy": {
-            "enum": [
-              "code_array",
-              "file_markdown",
-              "playbook_handoff",
-              "future_surface"
-            ]
+            "enum": ["consumer_command", "playbook_handoff", "future_surface"]
           },
-          "readiness": {
-            "enum": [
-              "READY",
-              "BLOCKED"
-            ]
-          },
-          "readiness_reason": {
-            "type": "string",
-            "minLength": 1
-          },
-          "required_assets": {
-            "type": "boolean"
-          },
+          "readiness": { "enum": ["READY", "BLOCKED"] },
+          "readiness_reason": { "type": "string", "minLength": 1 },
+          "required_assets": { "type": "boolean" },
           "preparation_blockers": {
             "type": "array",
-            "items": {
-              "type": "string",
-              "minLength": 1
-            }
+            "items": { "type": "string", "minLength": 1 }
           },
+          "dry_run_command": { "type": "string", "minLength": 1 },
+          "apply_command": { "type": "string", "minLength": 1 },
           "next_commands": {
             "type": "array",
             "minItems": 1,
-            "items": {
-              "type": "string",
-              "minLength": 1
-            }
+            "items": { "type": "string", "minLength": 1 }
           },
+          "route_template": { "type": "string", "minLength": 1 },
+          "default_author": { "type": "string", "minLength": 1 },
+          "default_publisher": { "type": "string", "minLength": 1 },
+          "structured_data_type": { "type": "string", "minLength": 1 },
+          "default_sitemap_state": { "type": "string", "minLength": 1 },
+          "default_indexability": { "type": "string", "minLength": 1 },
           "validation": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "default_tier",
-              "checks"
-            ],
+            "required": ["default_tier", "checks"],
             "properties": {
               "default_tier": {
-                "enum": [
-                  "QUICK",
-                  "STANDARD",
-                  "FULL",
-                  "CRITICAL"
-                ]
+                "enum": ["QUICK", "STANDARD", "FULL", "CRITICAL"]
               },
               "checks": {
                 "type": "array",
-                "items": {
-                  "type": "string",
-                  "minLength": 1
-                }
+                "items": { "type": "string", "minLength": 1 }
+              },
+              "escalate_to_standard_on": {
+                "type": "array",
+                "items": { "type": "string", "minLength": 1 }
+              },
+              "escalate_to_full_on": {
+                "type": "array",
+                "items": { "type": "string", "minLength": 1 }
+              },
+              "escalate_to_critical_on": {
+                "type": "array",
+                "items": { "type": "string", "minLength": 1 }
               }
             }
           },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
           "notes": {
             "type": "array",
-            "items": {
-              "type": "string",
-              "minLength": 1
-            }
+            "items": { "type": "string", "minLength": 1 }
           },
           "provenance": {
             "type": "object",
             "additionalProperties": false,
-            "required": [
-              "recorded_by",
-              "source_uri",
-              "observed_at"
-            ],
+            "required": ["recorded_by", "source_uri", "observed_at"],
             "properties": {
-              "recorded_by": {
-                "type": "string",
-                "minLength": 1
-              },
-              "source_uri": {
-                "type": [
-                  "string",
-                  "null"
-                ]
-              },
-              "observed_at": {
-                "type": "string",
-                "format": "date-time"
-              }
+              "recorded_by": { "type": "string", "minLength": 1 },
+              "source_uri": { "type": ["string", "null"] },
+              "observed_at": { "type": "string", "format": "date-time" }
             }
           }
         }

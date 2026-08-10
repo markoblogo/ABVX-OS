@@ -1,0 +1,35 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-002-1d3x-fast-path",
+  "project": "1d3x",
+  "surface": "article",
+  "kind": "article",
+  "title": "Placeholder 1D3X article for deterministic fast-path validation",
+  "slug": "placeholder-1d3x-fast-path-validation",
+  "summary": "Dummy 1D3X article fixture used only to validate the consumer command and discovery enrichment output.",
+  "locales": ["en"],
+  "adapter_id": "1d3x.article",
+  "validation_flags": {
+    "new_content_type": false,
+    "factual_conflict": false
+  },
+  "payload": {
+    "excerpt": "Dry-run only placeholder for 1D3X article publication.",
+    "body_lines": [
+      "This article body is intentionally synthetic and exists only for fast-path verification.",
+      "It should never be treated as a real 1D3X publication candidate."
+    ],
+    "tags": ["1D3X", "placeholder", "dry-run"],
+    "topics": ["validation", "discovery enrichment"],
+    "asset_refs": [],
+    "source_refs": ["internal:dummy"],
+    "media_event_candidate": null,
+    "cover_image": null,
+    "image_alt": null
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null,
+    "observed_at": "2026-08-10T00:00:00Z"
+  }
+}

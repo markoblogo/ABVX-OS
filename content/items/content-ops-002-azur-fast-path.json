@@ -13,7 +13,9 @@
     "target": "playbooks/azurmenton.publish-guide.json plus guide content workflow",
     "target_surface": "azurmenton.guide"
   },
-  "artifact_refs": [],
+  "artifact_refs": [
+    "content/publish-packets/content-ops-002-azur-fast-path.json"
+  ],
   "consumer_operation": {
     "apply_command": "cd /Volumes/Work/Work/menton && npm run guide:publish -- --packet <packet>",
     "dry_run_command": "cd /Volumes/Work/Work/menton && npm run guide:check -- --packet <packet>",
@@ -22,29 +24,30 @@
   },
   "enrichment": {
     "author": "AzurMenton",
-    "canonical_path": "/guides/next-real-guide-shape",
+    "canonical_path": "/guides/placeholder-azur-guide-fast-path-validation",
     "cortex": null,
     "date_modified": "2026-08-10",
     "date_published": "2026-08-10",
     "hreflang": {
-      "en": "/guides/next-real-guide-shape",
-      "fr": "/guides/next-real-guide-shape"
+      "en": "/guides/placeholder-azur-guide-fast-path-validation",
+      "fr": "/guides/placeholder-azur-guide-fast-path-validation"
     },
     "indexability": "INDEXABLE",
     "internal_link_suggestions": [],
-    "machine_summary": "Guide-shape fixture routed to the existing AzurMenton publish playbook.",
-    "meta_description": "Guide-shape fixture routed to the existing AzurMenton publish playbook.",
+    "machine_summary": "Dry-run only placeholder for AzurMenton guide handoff.",
+    "meta_description": "Dry-run only placeholder for AzurMenton guide handoff.",
     "open_graph": {
-      "description": "Guide-shape fixture routed to the existing AzurMenton publish playbook.",
+      "description": "Dry-run only placeholder for AzurMenton guide handoff.",
       "image": null,
       "image_alt": null,
-      "title": "Next AzurMenton guide publication shape"
+      "title": "Placeholder AzurMenton guide packet for playbook compatibility..."
     },
     "primary_entities": [
       "AzurMenton",
-      "guide",
-      "Next AzurMenton",
-      "Fixture",
+      "placeholder",
+      "dry-run",
+      "Placeholder AzurMenton",
+      "Dummy AzurMenton",
       "ABVX",
       "This",
       "It"
@@ -54,14 +57,14 @@
     ],
     "publisher": "AzurMenton",
     "related_projects": [],
-    "seo_title": "Next AzurMenton guide publication shape",
+    "seo_title": "Placeholder AzurMenton guide packet for playbook compatibility...",
     "sitemap_state": "INDEXABLE",
-    "slug": "next-real-guide-shape",
+    "slug": "placeholder-azur-guide-fast-path-validation",
     "social_preview": {
-      "description": "Guide-shape fixture routed to the existing AzurMenton publish playbook.",
+      "description": "Dry-run only placeholder for AzurMenton guide handoff.",
       "image": null,
       "image_alt": null,
-      "title": "Next AzurMenton guide publication shape"
+      "title": "Placeholder AzurMenton guide packet for playbook compatibility..."
     },
     "structured_data": {
       "status": "SUPPORTED",
@@ -69,11 +72,11 @@
     },
     "tags": [
       "AzurMenton",
-      "guide"
+      "placeholder",
+      "dry-run"
     ],
     "topics": [
-      "AzurMenton",
-      "guide"
+      "playbook compatibility"
     ],
     "warnings": []
   },
@@ -83,15 +86,27 @@
       "actor": "abvx-content-ops",
       "result": "PREPARED",
       "timestamp": "2026-08-10T08:55:15Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T08:55:53Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T08:55:53Z"
     }
   ],
   "human_gate": {
-    "approved_at": null,
-    "approved_by": null,
+    "approved_at": "2026-08-10T08:55:53Z",
+    "approved_by": "owner",
     "required": true,
-    "state": "PENDING_APPROVAL"
+    "state": "APPROVED"
   },
-  "id": "content-ops-001-azur-next-guide",
+  "id": "content-ops-002-azur-fast-path",
   "kind": "guide",
   "locales": [
     "en",
@@ -102,39 +117,43 @@
       "media/events/azurmenton-005-new-guide.json"
     ],
     "body_lines": [
-      "This fixture does not create a second AzurMenton publisher.",
-      "It packages the content intent and assets so the proven guide playbook can consume the work through the existing repo-specific flow."
+      "This synthetic guide packet exists only to validate playbook compatibility.",
+      "It must not trigger a real guide publication."
     ],
-    "excerpt": "Guide-shape fixture routed to the existing AzurMenton publish playbook.",
+    "excerpt": "Dry-run only placeholder for AzurMenton guide handoff.",
     "media_event_candidate": "media/events/azurmenton-005-new-guide.json",
     "source_refs": [
       "playbooks/azurmenton.publish-guide.json"
     ],
     "tags": [
       "AzurMenton",
-      "guide"
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "playbook compatibility"
     ]
   },
   "project": "azurmenton",
   "provenance": {
     "observed_at": "2026-08-10T00:00:00Z",
-    "recorded_by": "CONTENT-OPS-001",
+    "recorded_by": "CONTENT-OPS-002",
     "source_uri": null
   },
   "publication": {
-    "event_ref": null,
-    "evidence_ref": null,
+    "event_ref": "events/projects/azurmenton/content_published-placeholder-azur-guide-fast-path-validation.json",
+    "evidence_ref": "evidence/content-ops/content-ops-002-azur-fast-path.publish.evidence.json",
     "mode": "REPORT_ONLY_HANDOFF",
-    "packet_ref": null,
-    "published_at": null,
-    "result": null
+    "packet_ref": "content/publish-packets/content-ops-002-azur-fast-path.json",
+    "published_at": "2026-08-10T08:55:53Z",
+    "result": "CONDITIONAL_PASS"
   },
   "schema_version": "v1",
-  "slug": "next-real-guide-shape",
-  "status": "PREPARED",
-  "summary": "Fixture proving that ABVX routes the next real AzurMenton guide into the existing publish playbook rather than building another publisher.",
+  "slug": "placeholder-azur-guide-fast-path-validation",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "Dummy AzurMenton fixture proving ABVX still routes guide publication into the existing consumer playbook rather than building a second publisher.",
   "surface": "guide",
-  "title": "Next AzurMenton guide publication shape",
+  "title": "Placeholder AzurMenton guide packet for playbook compatibility validation",
   "validation": {
     "blockers": [],
     "checks": [

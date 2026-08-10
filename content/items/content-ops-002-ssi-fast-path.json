@@ -15,7 +15,9 @@
     "target": "scripts/publish-post.mjs --surface ssi",
     "target_surface": "ssi"
   },
-  "artifact_refs": [],
+  "artifact_refs": [
+    "content/publish-packets/content-ops-002-ssi-fast-path.json"
+  ],
   "consumer_operation": {
     "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --write",
     "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface ssi --packet <packet> --dry-run",
@@ -24,46 +26,45 @@
   },
   "enrichment": {
     "author": "Anton BV",
-    "canonical_path": "/en/blog/the-headlands-ukrainian-farming-game-context",
+    "canonical_path": "/en/blog/placeholder-ssi-fast-path-validation",
     "cortex": null,
     "date_modified": "2026-08-10",
     "date_published": "2026-08-10",
     "hreflang": {
-      "en": "/en/blog/the-headlands-ukrainian-farming-game-context"
+      "en": "/en/blog/placeholder-ssi-fast-path-validation"
     },
     "indexability": "INDEXABLE",
     "internal_link_suggestions": [],
-    "machine_summary": "Fixture for a short SSI contextual post about The Headlands and why public representations of Ukrainian farming life matter.",
-    "meta_description": "Fixture for a short SSI contextual post about The Headlands and why public representations of Ukrainian farming life matter.",
+    "machine_summary": "Dry-run only placeholder for SSI fast-path validation.",
+    "meta_description": "Dry-run only placeholder for SSI fast-path validation.",
     "open_graph": {
-      "description": "Fixture for a short SSI contextual post about The Headlands and why public representations of Ukrainian farming life matter.",
+      "description": "Dry-run only placeholder for SSI fast-path validation.",
       "image": null,
       "image_alt": null,
-      "title": "The Headlands and the emotional reality of Ukrainian farming games"
+      "title": "Placeholder SSI post for deterministic fast-path validation"
     },
     "primary_entities": [
       "SSI",
-      "context",
-      "Ukraine",
-      "farming",
-      "The Headlands",
-      "Ukrainian",
-      "Short SSI",
-      "Games"
+      "placeholder",
+      "dry-run",
+      "Placeholder SSI",
+      "Dummy SSI",
+      "This",
+      "It"
     ],
     "primary_source_links": [
-      "https://dev.ua/news/the-headlands-1784625711"
+      "internal:dummy"
     ],
     "publisher": "SPIKE Spot Index",
     "related_projects": [],
-    "seo_title": "The Headlands and the emotional reality of Ukrainian farming games",
+    "seo_title": "Placeholder SSI post for deterministic fast-path validation",
     "sitemap_state": "INDEXABLE",
-    "slug": "the-headlands-ukrainian-farming-game-context",
+    "slug": "placeholder-ssi-fast-path-validation",
     "social_preview": {
-      "description": "Fixture for a short SSI contextual post about The Headlands and why public representations of Ukrainian farming life matter.",
+      "description": "Dry-run only placeholder for SSI fast-path validation.",
       "image": null,
       "image_alt": null,
-      "title": "The Headlands and the emotional reality of Ukrainian farming games"
+      "title": "Placeholder SSI post for deterministic fast-path validation"
     },
     "structured_data": {
       "status": "SUPPORTED",
@@ -71,15 +72,12 @@
     },
     "tags": [
       "SSI",
-      "context",
-      "Ukraine",
-      "farming"
+      "placeholder",
+      "dry-run"
     ],
     "topics": [
-      "SSI",
-      "context",
-      "Ukraine",
-      "farming"
+      "validation",
+      "publishing fast path"
     ],
     "warnings": []
   },
@@ -89,58 +87,76 @@
       "actor": "abvx-content-ops",
       "result": "PREPARED",
       "timestamp": "2026-08-10T08:55:15Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T08:55:53Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T08:55:53Z"
     }
   ],
   "human_gate": {
-    "approved_at": null,
-    "approved_by": null,
+    "approved_at": "2026-08-10T08:55:53Z",
+    "approved_by": "owner",
     "required": true,
-    "state": "PENDING_APPROVAL"
+    "state": "APPROVED"
   },
-  "id": "content-ops-001-ssi-headlands",
+  "id": "content-ops-002-ssi-fast-path",
   "kind": "post",
   "locales": [
     "en"
   ],
   "payload": {
     "asset_refs": [],
+    "author": "Anton BV",
     "body_lines": [
-      "The Headlands is not a market report, but it is still relevant to agricultural infrastructure.",
-      "Games and cultural projects can surface the emotional weight, uncertainty and physical routine behind farming in a way that spreadsheets cannot.",
-      "For SSI, that makes it a useful contextual reference: price infrastructure exists around real people, real land and real operational pressure."
+      "This is synthetic placeholder copy for validating the SSI publishing fast path.",
+      "It is intentionally non-editorial and does not represent a real public post."
     ],
-    "excerpt": "Fixture for a short SSI contextual post about The Headlands and why public representations of Ukrainian farming life matter.",
+    "cover_image": null,
+    "excerpt": "Dry-run only placeholder for SSI fast-path validation.",
+    "image_alt": null,
     "media_event_candidate": null,
+    "publisher": "SPIKE Spot Index",
     "source_refs": [
-      "https://dev.ua/news/the-headlands-1784625711"
+      "internal:dummy"
     ],
     "tags": [
       "SSI",
-      "context",
-      "Ukraine",
-      "farming"
+      "placeholder",
+      "dry-run"
+    ],
+    "topics": [
+      "validation",
+      "publishing fast path"
     ]
   },
   "project": "ssi",
   "provenance": {
     "observed_at": "2026-08-10T00:00:00Z",
-    "recorded_by": "CONTENT-OPS-001",
-    "source_uri": "https://dev.ua/news/the-headlands-1784625711"
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
   },
   "publication": {
-    "event_ref": null,
-    "evidence_ref": null,
+    "event_ref": "events/projects/ssi/content_published-placeholder-ssi-fast-path-validation.json",
+    "evidence_ref": "evidence/content-ops/content-ops-002-ssi-fast-path.publish.evidence.json",
     "mode": "REPORT_ONLY_HANDOFF",
-    "packet_ref": null,
-    "published_at": null,
-    "result": null
+    "packet_ref": "content/publish-packets/content-ops-002-ssi-fast-path.json",
+    "published_at": "2026-08-10T08:55:53Z",
+    "result": "CONDITIONAL_PASS"
   },
   "schema_version": "v1",
-  "slug": "the-headlands-ukrainian-farming-game-context",
-  "status": "PREPARED",
-  "summary": "Short SSI contextual post fixture linking The Headlands to how agricultural work and emotional strain are represented publicly.",
+  "slug": "placeholder-ssi-fast-path-validation",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "Dummy SSI publication fixture used only to prove the dry-run short-post fast path and enrichment package.",
   "surface": "short-post",
-  "title": "The Headlands and the emotional reality of Ukrainian farming games",
+  "title": "Placeholder SSI post for deterministic fast-path validation",
   "validation": {
     "blockers": [],
     "checks": [

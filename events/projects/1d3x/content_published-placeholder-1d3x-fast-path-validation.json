@@ -1,0 +1,27 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-ops-002-1d3x-fast-path.json"
+  ],
+  "evidence_ref": "evidence/content-ops/content-ops-002-1d3x-fast-path.publish.evidence.json",
+  "execution_mode": "DEEP",
+  "id": "1d3x-content_published-placeholder-1d3x-fast-path-validation",
+  "media_event_candidate": null,
+  "object": {
+    "id": "placeholder-1d3x-fast-path-validation",
+    "kind": "article",
+    "locator": "article:placeholder-1d3x-fast-path-validation"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "1d3x",
+  "provenance": {
+    "observed_at": "2026-08-10T08:55:53Z",
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T08:55:53Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "STANDARD"
+}

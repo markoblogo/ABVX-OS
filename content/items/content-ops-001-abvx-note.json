@@ -2,29 +2,93 @@
   "adapter": {
     "consumer_repo": "/Volumes/Work/Work/ABVXsite",
     "id": "abvx.notes",
-    "mechanism": "Future file-based note route under ABVXsite",
+    "mechanism": "Consumer-side publish command for file-based ABVX notes",
     "next_commands": [
-      "Add a note content type and loader in /Volumes/Work/Work/ABVXsite",
-      "Add /notes and /notes/[slug] routes",
-      "Run npm run content:validate and npm run build in /Volumes/Work/Work/ABVXsite"
+      "Emit publish packet from ABVX-OS.",
+      "Run ABVXsite publish-note command in dry-run mode.",
+      "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+      "Run npm run build in /Volumes/Work/Work/ABVXsite if a structural exception is reported.",
+      "Commit and deploy through the existing ABVXsite release flow only after human approval."
     ],
-    "publish_strategy": "future_surface",
-    "target": "/notes and /notes/[slug]"
+    "operation_id": "abvx.publish-note",
+    "publish_strategy": "consumer_command",
+    "target": "scripts/publish-note.mjs plus /notes and /notes/[slug]",
+    "target_surface": "abvx.notes"
   },
   "artifact_refs": [],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-note.mjs --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-note.mjs --packet <packet> --dry-run",
+    "id": "abvx.publish-note",
+    "target_surface": "abvx.notes"
+  },
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/notes/working-across-languages-and-systems",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/notes/working-across-languages-and-systems"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [],
+    "machine_summary": "Short general note fixture.",
+    "meta_description": "Short general note fixture.",
+    "open_graph": {
+      "description": "Short general note fixture.",
+      "image": null,
+      "image_alt": null,
+      "title": "Short note fixture about working across languages and systems"
+    },
+    "primary_entities": [
+      "ABVX",
+      "notes",
+      "Short",
+      "Fixture",
+      "Notes",
+      "ABVXsite",
+      "It"
+    ],
+    "primary_source_links": [],
+    "publisher": "ABVX",
+    "related_projects": [],
+    "seo_title": "Short note fixture about working across languages and systems",
+    "sitemap_state": "INDEXABLE",
+    "slug": "working-across-languages-and-systems",
+    "social_preview": {
+      "description": "Short general note fixture.",
+      "image": null,
+      "image_alt": null,
+      "title": "Short note fixture about working across languages and systems"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "ABVX",
+      "notes"
+    ],
+    "topics": [
+      "ABVX",
+      "notes"
+    ],
+    "warnings": []
+  },
   "history": [
     {
       "action": "PREPARE",
       "actor": "abvx-content-ops",
-      "result": "BLOCKED",
-      "timestamp": "2026-08-10T08:28:52Z"
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T08:55:15Z"
     }
   ],
   "human_gate": {
     "approved_at": null,
     "approved_by": null,
     "required": true,
-    "state": "BLOCKED"
+    "state": "PENDING_APPROVAL"
   },
   "id": "content-ops-001-abvx-note",
   "kind": "note",
@@ -61,21 +125,21 @@
   },
   "schema_version": "v1",
   "slug": "working-across-languages-and-systems",
-  "status": "BLOCKED",
+  "status": "PREPARED",
   "summary": "Fixture proving that Notes remain blocked until ABVXsite has a real /notes surface.",
   "surface": "notes",
   "title": "Short note fixture about working across languages and systems",
   "validation": {
-    "blockers": [
-      "ABVXsite needs a minimal /notes index and /notes/[slug] route before Notes can publish through this control plane.",
-      "ABVXsite content workflow exists, but no current /notes route or note loader is present."
-    ],
+    "blockers": [],
     "checks": [
-      "ABVXsite route implementation review",
-      "npm run content:validate",
-      "npm run build"
+      "consumer dry-run report",
+      "npm run content:validate"
     ],
-    "tier": "FULL",
-    "warnings": []
+    "exception_flags": {},
+    "tier": "QUICK",
+    "warnings": [
+      "Routine note publication remains body-author-controlled.",
+      "Quick tier is valid only while consumer dry-run and content validation both stay green."
+    ]
   }
 }
