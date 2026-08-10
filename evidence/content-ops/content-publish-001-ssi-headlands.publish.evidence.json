@@ -7,11 +7,6 @@
   "environment": {
     "consumer_repo": "/Volumes/Work/Work/index",
     "external_mutation_performed": true,
-    "files_changed_observed": [
-      "public/blog/the-headlands-ukrainian-farming-game-context.jpg",
-      "scripts/publish-post.mjs",
-      "src/lib/blog-posts.ts"
-    ],
     "publish_strategy": "consumer_command",
     "repository_path": "/Volumes/Work/Work/ABVX-OS"
   },
@@ -44,29 +39,25 @@
       "topics"
     ],
     "execution_mode": "DEEP",
-    "fast_path_initial_failure": "WRITE produced malformed TypeScript token sequence `},,` in src/lib/blog-posts.ts after a dry-run pass.",
-    "fast_path_minimal_fix": "Adjusted comma-prefix insertion logic to respect an existing trailing comma and added a focused regression assertion.",
-    "fast_path_result_after_repair": "PASS",
-    "fast_path_root_cause": "Comma insertion prepended an extra comma even when the previous array entry already ended with a comma.",
-    "files_inspected_or_changed": [
-      "content/fixtures/content-publish-001-ssi-headlands-real.json",
-      "content/items/content-publish-001-ssi-headlands.json",
-      "content/publish-packets/content-publish-001-ssi-headlands.json",
-      "events/projects/ssi/content_published-from-ukrainian-grain-markets-to-a-ukrainian-farming-game.json",
-      "evidence/content-ops/content-publish-001-ssi-headlands.publish.evidence.json",
-      "public/blog/the-headlands-ukrainian-farming-game-context.jpg",
-      "scripts/publish-post.mjs",
-      "scripts/publish-post.test.mjs",
-      "src/lib/blog-posts.ts"
+    "editorial_contract_gaps_discovered": [
+      "newest article ordering previously depended on insertion order rather than explicit published-date ordering",
+      "primary public resource links were not rendered in the SSI article surface",
+      "video URL existed only in provenance and not in the public article surface",
+      "SSI post contract did not distinguish title, subtitle, body paragraphs, external links and optional video"
     ],
-    "broad_repo_analysis_avoided": true,
+    "editorial_contract_corrections": [
+      "SSI listing now sorts by published date descending",
+      "SSI post model and writer now carry subtitle, external links and optional video URL/label",
+      "article renderer now exposes Steam and trailer resources publicly",
+      "article renderer now embeds YouTube responsively when the link is a supported YouTube URL"
+    ],
     "publish_mode": "REPORT_ONLY_HANDOFF",
     "reasoning_steps": 1,
     "routine_fast_path_sufficient": true,
     "validation_tier": "QUICK"
   },
   "provenance": {
-    "observed_at": "2026-08-10T09:44:02Z",
+    "observed_at": "2026-08-10T10:04:32Z",
     "recorded_by": "CONTENT-OPS-002",
     "source_uri": null
   },
@@ -74,5 +65,5 @@
   "source": "abvx-content-ops",
   "stderr_ref": "internal:none",
   "stdout_ref": "internal:none",
-  "timestamp": "2026-08-10T10:00:00Z"
+  "timestamp": "2026-08-10T10:04:32Z"
 }

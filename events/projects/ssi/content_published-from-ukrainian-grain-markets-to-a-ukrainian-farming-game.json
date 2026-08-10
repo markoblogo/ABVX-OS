@@ -16,13 +16,13 @@
   "portfolio_effect": "NONE",
   "project": "ssi",
   "provenance": {
-    "observed_at": "2026-08-10T09:44:02Z",
+    "observed_at": "2026-08-10T10:04:32Z",
     "recorded_by": "CONTENT-OPS-002",
     "source_uri": null
   },
   "result": "PASS",
   "schema_version": "v1",
-  "timestamp": "2026-08-10T10:00:00Z",
+  "timestamp": "2026-08-10T10:04:32Z",
   "type": "CONTENT_PUBLISHED",
   "validation_tier": "QUICK"
 }
