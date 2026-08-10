@@ -1,0 +1,56 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-003-1d3x-popindex-ciggie.json",
+    "/Users/antonbiletskiy-volokh/Desktop/ci.png"
+  ],
+  "candidate": "1d3x.article",
+  "environment": {
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "external_mutation_performed": false,
+    "publish_strategy": "consumer_command",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "content-publish-003-1d3x-popindex-ciggie",
+  "id": "content-publish-003-1d3x-popindex-ciggie-publish-handoff",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "index.publish-post",
+    "enrichment_fields": [
+      "author",
+      "canonical_path",
+      "date_modified",
+      "date_published",
+      "hreflang",
+      "indexability",
+      "internal_link_suggestions",
+      "machine_summary",
+      "meta_description",
+      "open_graph",
+      "primary_entities",
+      "primary_source_links",
+      "publisher",
+      "related_projects",
+      "seo_title",
+      "sitemap_state",
+      "slug",
+      "social_preview",
+      "structured_data",
+      "tags",
+      "topics"
+    ],
+    "execution_mode": "DEEP",
+    "publish_mode": "REPORT_ONLY_HANDOFF",
+    "reasoning_steps": 1,
+    "validation_tier": "STANDARD"
+  },
+  "provenance": {
+    "observed_at": "2026-08-10T11:16:02Z",
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "abvx-content-ops",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-10T11:16:02Z"
+}

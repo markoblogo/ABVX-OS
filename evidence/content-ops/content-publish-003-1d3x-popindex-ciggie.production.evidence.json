@@ -1,0 +1,47 @@
+{
+  "id": "content-publish-003-1d3x-popindex-ciggie-production",
+  "source": "abvx-content-ops",
+  "timestamp": "2026-08-10T11:18:34Z",
+  "candidate": "1d3x.article",
+  "fixture": "content-publish-003-1d3x-popindex-ciggie",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "PLAYBOOK",
+    "validation_tier": "STANDARD",
+    "publish_mode": "REAL_WRITE",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "index.publish-post",
+    "cover_asset_public_path": "/blog/popindex-measuring-air-pollution-in-cigarettes.png",
+    "existing_fast_path_sufficient": true,
+    "broad_repo_rediscovery_avoided": true,
+    "consumer_specific_gap": "1d3x inline markdown links and bold needed renderer support; writer also needed to keep 1d3x object shape free of SSI-only fields",
+    "actual_cost_class": "CHEAP",
+    "article_checks": {
+      "newest_first_local_build": "PASS",
+      "cover": "PASS",
+      "external_link_render_path": "PASS",
+      "canonical_metadata": "PASS"
+    }
+  },
+  "stdout_ref": "internal:index.publish-post.write",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "content/items/content-publish-003-1d3x-popindex-ciggie.json",
+    "content/publish-packets/content-publish-003-1d3x-popindex-ciggie.json",
+    "events/projects/1d3x/content_published-popindex-measuring-air-pollution-in-cigarettes.json",
+    "/Volumes/Work/Work/index/src/lib/platform-blog-posts.ts",
+    "/Volumes/Work/Work/index/public/blog/popindex-measuring-air-pollution-in-cigarettes.png"
+  ],
+  "provenance": {
+    "recorded_by": "CONTENT-PUBLISH-003",
+    "source_uri": "https://cig-index.vercel.app/",
+    "observed_at": "2026-08-10T11:18:34Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "publish_strategy": "consumer_command",
+    "external_mutation_performed": true
+  }
+}

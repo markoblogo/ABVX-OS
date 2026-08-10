@@ -1,0 +1,212 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "id": "1d3x.article",
+    "mechanism": "Consumer-side publish command for 1D3X articles in index monorepo",
+    "next_commands": [
+      "Emit publish packet from ABVX-OS.",
+      "Run index publish-post command in dry-run mode.",
+      "Run npm run typecheck in /Volumes/Work/Work/index.",
+      "Run npm run build in /Volumes/Work/Work/index.",
+      "Commit and deploy the 1D3X tenant through existing index release flow only after human approval."
+    ],
+    "operation_id": "index.publish-post",
+    "publish_strategy": "consumer_command",
+    "target": "scripts/publish-post.mjs --surface 1d3x",
+    "target_surface": "1d3x"
+  },
+  "artifact_refs": [
+    "content/publish-packets/content-publish-003-1d3x-popindex-ciggie.json"
+  ],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface 1d3x --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/index && node scripts/publish-post.mjs --surface 1d3x --packet <packet> --dry-run",
+    "id": "index.publish-post",
+    "target_surface": "1d3x"
+  },
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/blog/popindex-measuring-air-pollution-in-cigarettes",
+    "cortex": null,
+    "date_modified": "2026-08-10",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/blog/popindex-measuring-air-pollution-in-cigarettes"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "/blog/we-launched-the-1d3x-blog",
+      "/blog/spot-market-handbook-practical-guide-to-ukrainian-agricultural-price-formation",
+      "https://spike.1d3x.com/"
+    ],
+    "machine_summary": "A 1D3X note on the Ciggie Index as a memorable alternative index that translates air pollution into a more intuitive public comparison.",
+    "meta_description": "A 1D3X note on the Ciggie Index and why unusual indices can make abstract environmental metrics instantly understandable.",
+    "open_graph": {
+      "description": "A 1D3X note on the Ciggie Index and why unusual indices can make abstract environmental metrics instantly understandable.",
+      "image": "/blog/popindex-measuring-air-pollution-in-cigarettes.png",
+      "image_alt": "#PopIndex Ciggie Index cover illustrating air pollution translated into cigarette-equivalent exposure",
+      "title": "#PopIndex: Measuring Air Pollution in Cigarettes"
+    },
+    "primary_entities": [
+      "1D3X",
+      "POP",
+      "SPIKE Spot Index",
+      "Ciggie Index"
+    ],
+    "primary_source_links": [
+      "https://cig-index.vercel.app/"
+    ],
+    "publisher": "1D3X",
+    "related_projects": [],
+    "seo_title": "#PopIndex: Measuring Air Pollution in Cigarettes",
+    "sitemap_state": "INDEXABLE",
+    "slug": "popindex-measuring-air-pollution-in-cigarettes",
+    "social_preview": {
+      "description": "A 1D3X note on the Ciggie Index and why unusual indices can make abstract environmental metrics instantly understandable.",
+      "image": "/blog/popindex-measuring-air-pollution-in-cigarettes.png",
+      "image_alt": "#PopIndex Ciggie Index cover illustrating air pollution translated into cigarette-equivalent exposure",
+      "title": "#PopIndex: Measuring Air Pollution in Cigarettes"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "popindex",
+      "air quality",
+      "AQI",
+      "data",
+      "index",
+      "1D3X"
+    ],
+    "topics": [
+      "alternative indices",
+      "public benchmarks",
+      "air pollution"
+    ],
+    "warnings": []
+  },
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-10T11:15:50Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-10T11:15:57Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-10T11:16:03Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "REAL_PUBLICATION_CONFIRMED",
+      "timestamp": "2026-08-10T11:18:34Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-10T11:15:57Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-publish-003-1d3x-popindex-ciggie",
+  "kind": "article",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [
+      "/Users/antonbiletskiy-volokh/Desktop/ci.png"
+    ],
+    "author": "Anton BV",
+    "body_lines": [
+      "At 1d3x, we build infrastructure for creating clear, local and meaningful indices.",
+      "We started with agricultural commodity benchmarks: the **SPIKE Spot Index** at [spike.1d3x.com](https://spike.1d3x.com/) and the Ukrainian Grain Association index. These projects focus on making physical commodity markets more transparent, readable and easier to navigate.",
+      "But an index can describe far more than commodity prices.",
+      "We later launched [pop.1d3x.com](https://pop.1d3x.com/), a lighter project that tracks familiar global comparisons: the Big Mac Index, Starbucks Latte Index and iPhone Index. It is a reminder that indexes can turn complex differences between places into something instantly understandable.",
+      "There are many more unusual, useful and occasionally provocative indices worth exploring. We are starting to collect them here on the 1d3x blog under the #PopIndex tag.",
+      "Our first pick is the **Ciggie Index**:\n[https://cig-index.vercel.app/](https://cig-index.vercel.app/)",
+      "Instead of presenting air pollution only as an AQI number, it translates exposure into a more intuitive equivalent: the estimated number of cigarettes a person would effectively \u201csmoke\u201d by spending time outdoors in a given city.",
+      "At the time of writing, for example, the index shows that spending 24 hours outside in New York at the displayed air-quality level corresponds to roughly **1.2 cigarettes**. On more polluted days and in more polluted cities, the equivalent can be dramatically higher. The point is less the exact number, which changes with air quality, than the way the index translates an abstract environmental reading into an immediately understandable comparison.",
+      "Of course, this is not a literal medical measurement of smoking. It is a communication tool \u2014 a striking way to make an abstract environmental metric more personal and memorable.",
+      "That is the power of a good index: it takes a number people may ignore and gives it a meaning they can immediately feel."
+    ],
+    "cover_image": "/blog/popindex-measuring-air-pollution-in-cigarettes.png",
+    "date_published": "2026-08-10",
+    "entities": [
+      "1D3X",
+      "POP",
+      "SPIKE Spot Index",
+      "Ciggie Index"
+    ],
+    "excerpt": "A 1D3X note on the Ciggie Index as a memorable alternative index that translates air pollution into a more intuitive public comparison.",
+    "image_alt": "#PopIndex Ciggie Index cover illustrating air pollution translated into cigarette-equivalent exposure",
+    "internal_link_candidates": [
+      "/blog/we-launched-the-1d3x-blog",
+      "/blog/spot-market-handbook-practical-guide-to-ukrainian-agricultural-price-formation",
+      "https://spike.1d3x.com/"
+    ],
+    "media_event_candidate": null,
+    "publisher": "1D3X",
+    "seo_title": "#PopIndex: Measuring Air Pollution in Cigarettes",
+    "social_description": "A 1D3X note on the Ciggie Index and why unusual indices can make abstract environmental metrics instantly understandable.",
+    "source_refs": [
+      "https://cig-index.vercel.app/"
+    ],
+    "tags": [
+      "popindex",
+      "air quality",
+      "AQI",
+      "data",
+      "index",
+      "1D3X"
+    ],
+    "topics": [
+      "alternative indices",
+      "public benchmarks",
+      "air pollution"
+    ]
+  },
+  "project": "1d3x",
+  "provenance": {
+    "observed_at": "2026-08-10T00:00:00Z",
+    "recorded_by": "CONTENT-PUBLISH-003",
+    "source_uri": "https://cig-index.vercel.app/"
+  },
+  "publication": {
+    "event_ref": "events/projects/1d3x/content_published-popindex-measuring-air-pollution-in-cigarettes.json",
+    "evidence_ref": "evidence/content-ops/content-publish-003-1d3x-popindex-ciggie.production.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-publish-003-1d3x-popindex-ciggie.json",
+    "published_at": "2026-08-10T11:18:34Z",
+    "result": "PASS"
+  },
+  "schema_version": "v1",
+  "slug": "popindex-measuring-air-pollution-in-cigarettes",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "A 1D3X note on the Ciggie Index as a memorable alternative index that translates air pollution into a more intuitive public comparison.",
+  "surface": "article",
+  "title": "#PopIndex: Measuring Air Pollution in Cigarettes",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "consumer dry-run report",
+      "npm run typecheck",
+      "npm run build"
+    ],
+    "exception_flags": {},
+    "tier": "STANDARD",
+    "warnings": [
+      "Discovery enrichment must remain reviewable before publication."
+    ]
+  }
+}

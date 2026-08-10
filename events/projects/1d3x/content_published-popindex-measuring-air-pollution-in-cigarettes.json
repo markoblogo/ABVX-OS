@@ -1,0 +1,29 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-003-1d3x-popindex-ciggie.json",
+    "/Volumes/Work/Work/index/src/lib/platform-blog-posts.ts",
+    "/Volumes/Work/Work/index/public/blog/popindex-measuring-air-pollution-in-cigarettes.png"
+  ],
+  "evidence_ref": "evidence/content-ops/content-publish-003-1d3x-popindex-ciggie.production.evidence.json",
+  "execution_mode": "PLAYBOOK",
+  "id": "1d3x-content_published-popindex-measuring-air-pollution-in-cigarettes",
+  "media_event_candidate": null,
+  "object": {
+    "id": "popindex-measuring-air-pollution-in-cigarettes",
+    "kind": "article",
+    "locator": "article:popindex-measuring-air-pollution-in-cigarettes"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "1d3x",
+  "provenance": {
+    "observed_at": "2026-08-10T11:18:34Z",
+    "recorded_by": "CONTENT-PUBLISH-003",
+    "source_uri": "https://cig-index.vercel.app/"
+  },
+  "result": "PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T11:18:34Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "STANDARD"
+}
