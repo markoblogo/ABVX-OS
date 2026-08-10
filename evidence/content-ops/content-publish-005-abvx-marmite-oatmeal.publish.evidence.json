@@ -1,0 +1,55 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-005-abvx-marmite-oatmeal.json"
+  ],
+  "candidate": "abvx.writing",
+  "environment": {
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "external_mutation_performed": false,
+    "publish_strategy": "consumer_command",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "content-publish-005-abvx-marmite-oatmeal",
+  "id": "content-publish-005-abvx-marmite-oatmeal-publish-handoff",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "abvx.publish-writing",
+    "enrichment_fields": [
+      "author",
+      "canonical_path",
+      "date_modified",
+      "date_published",
+      "hreflang",
+      "indexability",
+      "internal_link_suggestions",
+      "machine_summary",
+      "meta_description",
+      "open_graph",
+      "primary_entities",
+      "primary_source_links",
+      "publisher",
+      "related_projects",
+      "seo_title",
+      "sitemap_state",
+      "slug",
+      "social_preview",
+      "structured_data",
+      "tags",
+      "topics"
+    ],
+    "execution_mode": "DEEP",
+    "publish_mode": "REPORT_ONLY_HANDOFF",
+    "reasoning_steps": 1,
+    "validation_tier": "QUICK"
+  },
+  "provenance": {
+    "observed_at": "2026-08-10T13:53:00Z",
+    "recorded_by": "CONTENT-PUBLISH-005",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "abvx-content-ops",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-10T13:53:00Z"
+}

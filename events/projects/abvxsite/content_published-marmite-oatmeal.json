@@ -1,0 +1,27 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-005-abvx-marmite-oatmeal.json"
+  ],
+  "evidence_ref": "evidence/content-ops/content-publish-005-abvx-marmite-oatmeal.publish.evidence.json",
+  "execution_mode": "PLAYBOOK",
+  "id": "abvxsite-content_published-marmite-oatmeal",
+  "media_event_candidate": null,
+  "object": {
+    "id": "marmite-oatmeal",
+    "kind": "note",
+    "locator": "writing:marmite-oatmeal"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "abvxsite",
+  "provenance": {
+    "observed_at": "2026-08-10T13:53:00Z",
+    "recorded_by": "CONTENT-PUBLISH-005",
+    "source_uri": null
+  },
+  "result": "PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T13:53:00Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "QUICK"
+}

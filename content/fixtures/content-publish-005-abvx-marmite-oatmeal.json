@@ -1,0 +1,92 @@
+{
+  "schema_version": "v1",
+  "id": "content-publish-005-abvx-marmite-oatmeal",
+  "project": "abvxsite",
+  "surface": "writing",
+  "kind": "note",
+  "title": "Marmite Oatmeal",
+  "slug": "marmite-oatmeal",
+  "summary": "A very simple savoury oatmeal that my children and I genuinely love.",
+  "locales": [
+    "en"
+  ],
+  "adapter_id": "abvx.writing",
+  "payload": {
+    "excerpt": "A very simple savoury oatmeal that my children and I genuinely love.",
+    "body_lines": [
+      "I am a big fan of [Marmite](https://en.wikipedia.org/wiki/Marmite).",
+      "The classic way to eat it is simple: spread a very thin layer on buttered toast. I love it that way too, especially with strong black tea.",
+      "If you do not know Marmite, it is a British yeast extract spread. It is dark, salty, intense, and very savoury.",
+      "The important thing is to use very little.",
+      "This is not Nutella.",
+      "Do not apply it generously.",
+      "Here is another way to use it, which may sound strange at first.",
+      "My children and I love oatmeal cooked in water, made with large rolled oats.",
+      "When it is ready, we add a small piece of butter and about half a teaspoon of Marmite.",
+      "That is all.",
+      "No extra salt. No sugar. No milk. No toppings required.",
+      "My son sometimes adds a little ground black pepper.",
+      "This is a good idea.",
+      "The result is warm, savoury, soft, salty, and surprisingly satisfying.",
+      "It is a proper breakfast, especially on a grey morning.",
+      "I also use Marmite in cooking.",
+      "I add a small amount to:",
+      "- Roast meat\n- Meat or vegetable stews\n- Gravies and sauces\n- Rich soups\n- Borscht\n- French onion soup\n- Mushroom soups\n- Żurek",
+      "It does not make a dish taste like Marmite, unless you use too much.",
+      "In small amounts, it adds depth, saltiness, and umami.",
+      "A jar lasts a long time.",
+      "Half a teaspoon can change an entire pot of soup.",
+      "These small food notes will eventually become material for my cookbook.",
+      "## Recipe",
+      "- Large rolled oats\n- Water\n- Butter\n- About 1/2 teaspoon Marmite per bowl\n- Optional: freshly ground black pepper",
+      "Cook the oats in water.",
+      "Stir in butter and Marmite while the oatmeal is hot.",
+      "Taste before adding anything else."
+    ],
+    "cover_image": null,
+    "image_alt": null,
+    "asset_refs": [],
+    "source_refs": [
+      "owner:approved-prompt",
+      "https://en.wikipedia.org/wiki/Marmite"
+    ],
+    "media_event_candidate": null,
+    "tags": [
+      "cookbook",
+      "breakfast",
+      "marmite"
+    ],
+    "topics": [
+      "savory breakfast",
+      "marmite cooking",
+      "cookbook notes"
+    ],
+    "language": "English",
+    "date_published": "2026-08-10",
+    "seo_title": "Marmite Oatmeal",
+    "social_description": "A very simple savoury oatmeal that my children and I genuinely love.",
+    "author": "Anton BV",
+    "publisher": "ABVX",
+    "related_projects": [
+      "writing",
+      "books",
+      "about"
+    ],
+    "internal_link_candidates": [
+      "/writing",
+      "/books",
+      "/about"
+    ],
+    "entities": [
+      "Marmite",
+      "Anton BV",
+      "ABVX",
+      "Żurek"
+    ]
+  },
+  "provenance": {
+    "recorded_by": "CONTENT-PUBLISH-005",
+    "source_uri": null,
+    "observed_at": "2026-08-10T13:53:00Z"
+  }
+}

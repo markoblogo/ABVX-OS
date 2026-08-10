@@ -1,0 +1,67 @@
+{
+  "id": "content-publish-005-abvx-marmite-oatmeal-production",
+  "source": "abvx-content-ops",
+  "timestamp": "2026-08-10T13:53:00Z",
+  "candidate": "abvx.writing",
+  "fixture": "content-publish-005-abvx-marmite-oatmeal",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "PLAYBOOK",
+    "validation_tier": "QUICK",
+    "publish_mode": "REAL_WRITE",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "abvx.publish-writing",
+    "existing_writing_aggregation_sufficient": true,
+    "separate_notes_surface_created": false,
+    "cover_required": false,
+    "broad_repo_rediscovery_avoided": true,
+    "consumer_specific_fixes": [
+      "native Markdown renderer now preserves inline links in paragraphs, headings, and list items",
+      "native writing listing now uses updatedAt when ordering same-day ABVX notes"
+    ],
+    "article_checks": {
+      "local_article_desktop": "PASS",
+      "local_article_mobile": "PASS",
+      "local_inline_hyperlink_rendering": "PASS",
+      "local_external_link_safety": "PASS",
+      "local_recipe_heading_rendering": "PASS",
+      "local_bullet_list_rendering": "PASS",
+      "local_unicode_rendering": "PASS",
+      "local_fraction_rendering": "PASS",
+      "local_no_cover_behavior": "PASS",
+      "local_canonical_metadata": "PASS",
+      "local_native_same_day_ordering": "PASS",
+      "local_filter_surface_visual_recheck": "TIMEOUT_UNVERIFIED"
+    },
+    "production_checks": {
+      "live_writing_page": "NOT_YET_PROPAGATED",
+      "live_article_page": "NOT_YET_PROPAGATED"
+    },
+    "actual_cost_class": "CHEAP"
+  },
+  "stdout_ref": "internal:abvx.publish-writing.write",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "content/fixtures/content-publish-005-abvx-marmite-oatmeal.json",
+    "content/items/content-publish-005-abvx-marmite-oatmeal.json",
+    "content/publish-packets/content-publish-005-abvx-marmite-oatmeal.json",
+    "events/projects/abvxsite/content_published-marmite-oatmeal.json",
+    "evidence/content-ops/content-publish-005-abvx-marmite-oatmeal.publish.evidence.json",
+    "/Volumes/Work/Work/ABVXsite/content/writing/marmite-oatmeal.md",
+    "/Volumes/Work/Work/ABVXsite/src/components/MarkdownContent.tsx",
+    "/Volumes/Work/Work/ABVXsite/src/app/writing/page.tsx",
+    "/Volumes/Work/Work/ABVXsite/src/app/globals.css"
+  ],
+  "provenance": {
+    "recorded_by": "CONTENT-PUBLISH-005",
+    "source_uri": "https://abvx.xyz/writing/marmite-oatmeal",
+    "observed_at": "2026-08-10T13:53:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "publish_strategy": "consumer_command",
+    "external_mutation_performed": true
+  }
+}

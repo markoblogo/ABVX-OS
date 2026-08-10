@@ -1,0 +1,173 @@
+{
+  "artifact_refs": [],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --dry-run",
+    "id": "abvx.publish-writing",
+    "target_surface": "abvx.writing"
+  },
+  "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/writing/marmite-oatmeal",
+    "cortex": null,
+    "date_modified": "2026-08-10T13:53:00Z",
+    "date_published": "2026-08-10",
+    "hreflang": {
+      "en": "/writing/marmite-oatmeal"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "/writing",
+      "/books",
+      "/about"
+    ],
+    "machine_summary": "A very simple savoury oatmeal that my children and I genuinely love.",
+    "meta_description": "A very simple savoury oatmeal that my children and I genuinely love.",
+    "open_graph": {
+      "description": "A very simple savoury oatmeal that my children and I genuinely love.",
+      "image": null,
+      "image_alt": null,
+      "title": "Marmite Oatmeal"
+    },
+    "primary_entities": [
+      "Marmite",
+      "Anton BV",
+      "ABVX",
+      "Żurek"
+    ],
+    "primary_source_links": [
+      "owner:approved-prompt",
+      "https://en.wikipedia.org/wiki/Marmite"
+    ],
+    "publisher": "ABVX",
+    "related_projects": [
+      "writing",
+      "books",
+      "about"
+    ],
+    "seo_title": "Marmite Oatmeal",
+    "sitemap_state": "INDEXABLE",
+    "slug": "marmite-oatmeal",
+    "social_preview": {
+      "description": "A very simple savoury oatmeal that my children and I genuinely love.",
+      "image": null,
+      "image_alt": null,
+      "title": "Marmite Oatmeal"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "cookbook",
+      "breakfast",
+      "marmite"
+    ],
+    "topics": [
+      "savory breakfast",
+      "marmite cooking",
+      "cookbook notes"
+    ],
+    "warnings": []
+  },
+  "generated_at": "2026-08-10T13:53:00Z",
+  "item_id": "content-publish-005-abvx-marmite-oatmeal",
+  "kind": "note",
+  "mechanism": "Consumer-side publish command for native ABVX writing inside the existing /writing surface",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "Designed for native ABVX writing inside the existing Writing archive, not a separate Notes product."
+  ],
+  "payload": {
+    "asset_refs": [],
+    "author": "Anton BV",
+    "body_lines": [
+      "I am a big fan of [Marmite](https://en.wikipedia.org/wiki/Marmite).",
+      "The classic way to eat it is simple: spread a very thin layer on buttered toast. I love it that way too, especially with strong black tea.",
+      "If you do not know Marmite, it is a British yeast extract spread. It is dark, salty, intense, and very savoury.",
+      "The important thing is to use very little.",
+      "This is not Nutella.",
+      "Do not apply it generously.",
+      "Here is another way to use it, which may sound strange at first.",
+      "My children and I love oatmeal cooked in water, made with large rolled oats.",
+      "When it is ready, we add a small piece of butter and about half a teaspoon of Marmite.",
+      "That is all.",
+      "No extra salt. No sugar. No milk. No toppings required.",
+      "My son sometimes adds a little ground black pepper.",
+      "This is a good idea.",
+      "The result is warm, savoury, soft, salty, and surprisingly satisfying.",
+      "It is a proper breakfast, especially on a grey morning.",
+      "I also use Marmite in cooking.",
+      "I add a small amount to:",
+      "- Roast meat\n- Meat or vegetable stews\n- Gravies and sauces\n- Rich soups\n- Borscht\n- French onion soup\n- Mushroom soups\n- Żurek",
+      "It does not make a dish taste like Marmite, unless you use too much.",
+      "In small amounts, it adds depth, saltiness, and umami.",
+      "A jar lasts a long time.",
+      "Half a teaspoon can change an entire pot of soup.",
+      "These small food notes will eventually become material for my cookbook.",
+      "## Recipe",
+      "- Large rolled oats\n- Water\n- Butter\n- About 1/2 teaspoon Marmite per bowl\n- Optional: freshly ground black pepper",
+      "Cook the oats in water.",
+      "Stir in butter and Marmite while the oatmeal is hot.",
+      "Taste before adding anything else."
+    ],
+    "cover_image": null,
+    "date_published": "2026-08-10",
+    "entities": [
+      "Marmite",
+      "Anton BV",
+      "ABVX",
+      "Żurek"
+    ],
+    "excerpt": "A very simple savoury oatmeal that my children and I genuinely love.",
+    "image_alt": null,
+    "internal_link_candidates": [
+      "/writing",
+      "/books",
+      "/about"
+    ],
+    "language": "English",
+    "media_event_candidate": null,
+    "publisher": "ABVX",
+    "related_projects": [
+      "writing",
+      "books",
+      "about"
+    ],
+    "seo_title": "Marmite Oatmeal",
+    "social_description": "A very simple savoury oatmeal that my children and I genuinely love.",
+    "source_refs": [
+      "owner:approved-prompt",
+      "https://en.wikipedia.org/wiki/Marmite"
+    ],
+    "tags": [
+      "cookbook",
+      "breakfast",
+      "marmite"
+    ],
+    "topics": [
+      "savory breakfast",
+      "marmite cooking",
+      "cookbook notes"
+    ]
+  },
+  "project": "abvxsite",
+  "required_consumer_steps": [
+    "Emit publish packet from ABVX-OS.",
+    "Run ABVXsite publish-writing command in dry-run mode.",
+    "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+    "Run npm run build in /Volumes/Work/Work/ABVXsite if a structural exception is reported.",
+    "Commit and deploy through the existing ABVXsite release flow only after human approval."
+  ],
+  "schema_version": "v1",
+  "slug": "marmite-oatmeal",
+  "surface": "writing",
+  "target": "scripts/publish-writing.mjs plus /writing and /writing/[slug]",
+  "title": "Marmite Oatmeal",
+  "validation_checks": [
+    "consumer dry-run report",
+    "npm run content:validate"
+  ],
+  "validation_tier": "QUICK"
+}
