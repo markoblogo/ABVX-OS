@@ -1,0 +1,43 @@
+{
+  "id": "pop-001-finish-readiness-audit",
+  "source": "ABVX POP onboarding and finish-readiness audit",
+  "timestamp": "2026-08-10T00:00:00Z",
+  "candidate": "existing-index-platform-foundation",
+  "fixture": "POP-001",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "cost_class": "CHEAP",
+    "observed_branch": "codex/basket-production-demo",
+    "observed_commit": "25c07e8",
+    "branch_head_contains_pop": true,
+    "shared_runtime_detected": true,
+    "live_pop_surface_detected": true,
+    "dedicated_pop_runtime_detected_in_inspected_checkout": true,
+    "public_api_routes_detected": 5,
+    "admin_surfaces_detected": 9,
+    "index_cortex_bridge_detected": true,
+    "targeted_branch_tests_passed": true,
+    "real_ingest_cli_passed": true,
+    "branch_build_status": "blocked_by_detached_worktree_symlink_validation_setup",
+    "blocking_gaps": 5
+  },
+  "stdout_ref": "internal:repo-inspection",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "docs/audits/pop-001-finish-readiness-audit.md",
+    "registries/projects/pop.json",
+    "registries/external-candidates/index.json"
+  ],
+  "provenance": {
+    "recorded_by": "POP-001",
+    "source_uri": "https://pop.1d3x.com/",
+    "observed_at": "2026-08-10T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/index",
+    "abvx_repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "branch": "main",
+    "production_mutation": false,
+    "network_access": "not required for audit"
+  }
+}

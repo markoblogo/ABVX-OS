@@ -32,6 +32,30 @@
       "evidence_freshness": "CURRENT",
       "last_state_update": "2026-08-08",
       "evidence_refs": ["evidence/onboarding/project-onboarding-002/azurmenton-005-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-004-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-003-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-002-outcome.evidence.json", "evidence/onboarding/project-onboarding-002/azurmenton-001-outcome.evidence.json", "docs/audits/azurmenton-005-second-pass-image-todo.md", "media/events/azurmenton-005-new-guide.json", "docs/audits/project-onboarding-002-azurmenton-strategy-gap-report.md"]
+    },
+    {
+      "project": "pop",
+      "strategic_priority": "HIGH",
+      "operational_state": "WAITING_FOR_HUMAN",
+      "current_outcome": "Clean POP work line from 25c07e8 proves ingest/review/publish script flow, but only in json-artifact mode because no real DATABASE_URL is locally available.",
+      "next_action": "DB-backed ingest/review/publish verification",
+      "blockers": [
+        "existing PostgreSQL DATABASE_URL required"
+      ],
+      "waiting_reason": "Existing PostgreSQL DATABASE_URL is required before DB-backed POP publication can be verified.",
+      "not_before": null,
+      "human_attention_required": true,
+      "codex_capacity_demand": "NONE",
+      "economic_role": "strategic_asset",
+      "evidence_freshness": "CURRENT",
+      "last_state_update": "2026-08-10",
+      "evidence_refs": [
+        "docs/audits/pop-002-production-db-publish-completion.md",
+        "evidence/onboarding/pop-002/pop-production-db-publish-completion.evidence.json",
+        "docs/audits/pop-001-finish-readiness-audit.md",
+        "evidence/onboarding/pop-001/pop-finish-readiness-audit.evidence.json",
+        "evidence/context-packs/index-pop-methodology.json"
+      ]
     }
   ]
 }

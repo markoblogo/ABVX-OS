@@ -177,6 +177,21 @@
         "source_uri": "https://ami-production-244d.up.railway.app",
         "observed_at": "2026-08-09T18:50:00Z"
       }
+    },
+    {
+      "id": "pop",
+      "name": "POP",
+      "status": "onboarded_finish_readiness_audited",
+      "repository": "https://github.com/markoblogo/index",
+      "local_path": "/Volumes/Work/Work/index",
+      "independence": {
+        "deployable_without_abvx_os": true
+      },
+      "provenance": {
+        "recorded_by": "POP-001",
+        "source_uri": "https://github.com/markoblogo/index",
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
     }
   ]
 }

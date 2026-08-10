@@ -1,0 +1,97 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "pop",
+      "name": "POP",
+      "status": "onboarded_finish_readiness_audited",
+      "repository": "https://github.com/markoblogo/index",
+      "local_path": "/Volumes/Work/Work/index",
+      "branch": "codex/basket-production-demo",
+      "observed_commit": "25c07e8",
+      "lifecycle_state": "live_public_surface_with_active_branch_implementation",
+      "purpose": "Experimental consumer-basket and alternative-index product inside the 1D3X ecosystem, intended to combine real index publication foundations with editorial context and an alternative index library.",
+      "economic_roles": [
+        "strategic_asset",
+        "future_media_asset",
+        "future_product_surface"
+      ],
+      "priority": "P1 complete the smallest coherent POP V1 on top of existing index foundations",
+      "independence": {
+        "deployable_without_abvx_os": true
+      },
+      "runtime": {
+        "framework": "Next.js App Router monorepo platform shared with SPIKE / UGA / Index Cortex",
+        "language": "TypeScript",
+        "deployment": "Live public surface exists at https://pop.1d3x.com/ through Vercel project day-1d3x with tenant 1d3x-basket; implementation lives on branch codex/basket-production-demo rather than current main",
+        "storage": "Prisma + PostgreSQL for canonical index operations; .cortex manifests and internal ledgers for Index Cortex"
+      },
+      "current_surface": [
+        "live consumer-basket public surface at pop.1d3x.com",
+        "basket latest/history/compare/sources/monthly report APIs",
+        "basket embeds and JS loader",
+        "real Big Mac and FRED ingestion scripts",
+        "SQL-backed basket persistence and publish-candidate module",
+        "shared public latest/history APIs",
+        "shared methodology and analytics surfaces",
+        "shared admin calculation/respondent/reporting surfaces",
+        "shared embed surfaces",
+        "Index Cortex read-only context boundary"
+      ],
+      "dependencies": {
+        "internal": [
+          "Index Cortex",
+          "shared index-platform publication pipeline",
+          "Prisma/PostgreSQL published index state",
+          "shared embed and analytics routes"
+        ],
+        "external": [
+          "Vercel",
+          "PostgreSQL",
+          "Plausible"
+        ]
+      },
+      "index_cortex_relationship": {
+        "retrieve_from_index_cortex": [
+          "index/domain/methodology knowledge",
+          "editorial and source-context evidence",
+        "future alternative-index library references and commentary context"
+      ],
+      "remain_canonical_in_pop_operational_state": [
+        "product routing and public POP surface",
+          "basket/index definitions chosen for POP publication",
+          "snapshots and publishable POP values",
+          "embed/public object identity",
+          "editorial release state"
+        ]
+      },
+      "what_is_already_working": [
+        "live public POP/Basket product surface",
+        "real Big Mac and FRED ingestion path",
+        "basket formulas/storage/adapter tests",
+        "basket publish-candidate persistence layer in branch code",
+        "shared index-platform persistence/publication/admin foundations",
+        "read-only Index Cortex bridge from ABVX"
+      ],
+      "completion_blockers": [
+        "POP implementation is not on current main; it lives on codex/basket-production-demo, so canonical maintenance branch/source-of-truth is still ambiguous.",
+        "Production DATABASE_URL is not configured for the day-1d3x / pop project, blocking real DB-backed ingest/review/publish completion.",
+        "Stage 4+ branch verification needs a proper branch-local install/worktree; detached worktree build via symlinked node_modules is invalid under Turbopack.",
+        "Alternative index library breadth is still narrow: real path is Big Mac plus FRED overlays, while Starbucks/iPhone remain monitored/seed and review-gated.",
+        "Branch head already contains at least one unrelated later change, so POP completion should be resumed from a clean bounded slice."
+      ],
+      "next_action": "Resume from the POP branch line, configure production DATABASE_URL for day-1d3x, run basket ingest/review/publish against real DB, verify pop APIs on the live host, then either merge or fork a clean POP-maintenance branch.",
+      "abvx_consumption": [
+        "project registry",
+        "portfolio operational state",
+        "Index Cortex relationship record",
+        "finish-readiness audit evidence"
+      ],
+      "provenance": {
+        "recorded_by": "POP-001",
+        "source_uri": "https://pop.1d3x.com/",
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    }
+  ]
+}

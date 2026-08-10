@@ -1,0 +1,43 @@
+{
+  "id": "pop-002-production-db-publish-completion",
+  "source": "ABVX POP production DB publish completion audit",
+  "timestamp": "2026-08-10T00:00:00Z",
+  "candidate": "existing-pop-basket-db-pipeline",
+  "fixture": "POP-002",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "cost_class": "NORMAL",
+    "clean_work_line": "codex/pop-db-publish-completion",
+    "source_branch": "codex/basket-production-demo",
+    "source_commit": "25c07e8",
+    "main_divergence_left": 313,
+    "main_divergence_right": 14,
+    "database_type": "postgresql",
+    "provider_vendor_discoverable": false,
+    "shell_database_url_present": false,
+    "local_env_database_url_present": false,
+    "ingest_passed": true,
+    "review_passed": true,
+    "publish_passed": true,
+    "local_pipeline_mode": "json-artifact",
+    "live_api_reachable": true,
+    "live_embed_reachable": true
+  },
+  "stdout_ref": "internal:targeted-validation-and-live-http-checks",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "docs/audits/pop-002-production-db-publish-completion.md",
+    "docs/audits/pop-001-finish-readiness-audit.md"
+  ],
+  "provenance": {
+    "recorded_by": "POP-002",
+    "source_uri": "https://pop.1d3x.com/",
+    "observed_at": "2026-08-10T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/index",
+    "abvx_repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "production_mutation": false,
+    "network_access": "used for live API checks and ingest source fetches"
+  }
+}
