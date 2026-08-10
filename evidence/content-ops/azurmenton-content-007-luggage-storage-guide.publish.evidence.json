@@ -1,0 +1,50 @@
+{
+  "artifact_refs": [
+    "external:/Volumes/Work/Work/menton/src/content/guide.ts",
+    "external:/Volumes/Work/Work/menton/src/content/places.ts",
+    "external:/Volumes/Work/Work/menton/src/content/planning/place-map-exclusions.ts",
+    "external:/Volumes/Work/Work/menton/public/images/guide/luggage-storage-in-menton-monaco-and-nice.png",
+    "external:/Volumes/Work/Work/menton/public/images/guide/generated/luggage-storage-in-menton-monaco-and-nice.avif",
+    "external:/Volumes/Work/Work/menton/public/images/guide/generated/luggage-storage-in-menton-monaco-and-nice.webp",
+    "external:/Volumes/Work/Work/menton/build/guide-intake/luggage-storage-in-menton-monaco-and-nice/review/report.json"
+  ],
+  "candidate": "azurmenton.publish-guide",
+  "environment": {
+    "consumer_repo": "/Volumes/Work/Work/menton",
+    "consumer_commit": "b835b0a711e629d62326c16a9e11761d37473b99",
+    "external_mutation_performed": true,
+    "publish_strategy": "consumer_native_commit_and_push",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "AZURMENTON-CONTENT-007",
+  "id": "azurmenton-content-007-luggage-storage-guide-publish",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "azurmenton.publish-guide",
+    "execution_mode": "DEEP",
+    "guide_slug": "luggage-storage-in-menton-monaco-and-nice",
+    "placeholder_place_images": 7,
+    "publication_languages": ["en", "fr", "it", "uk"],
+    "reasoning_steps": 1,
+    "validated_commands": [
+      "npm run guide:review -- --slug luggage-storage-in-menton-monaco-and-nice",
+      "npm run content:lint",
+      "npm run guides:verify -- --pilot",
+      "npm run content:report",
+      "npm run build",
+      "git diff --check"
+    ],
+    "validation_tier": "STANDARD",
+    "volatile_claim_policy": "verified current claims were kept; unverified coordinates remained fail-closed via map exclusions"
+  },
+  "provenance": {
+    "observed_at": "2026-08-10T14:48:19Z",
+    "recorded_by": "AZURMENTON-CONTENT-007",
+    "source_uri": "https://github.com/markoblogo/azurmenton"
+  },
+  "result": "PASS",
+  "source": "abvx-content-ops",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "external:/Volumes/Work/Work/menton/build/guide-intake/luggage-storage-in-menton-monaco-and-nice/review/report.json",
+  "timestamp": "2026-08-10T14:48:19Z"
+}

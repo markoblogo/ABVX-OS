@@ -8,7 +8,7 @@
       "repository": "https://github.com/markoblogo/azurmenton",
       "local_path": "/Volumes/Work/Work/menton",
       "branch": "main",
-      "observed_commit": "62cea4c",
+      "observed_commit": "b835b0a",
       "lifecycle_state": "active_product_discovery",
       "purpose": "Multilingual Menton destination guide, live local resource, direct apartment rental funnel, and future publishing source.",
       "locales": ["en", "fr", "it", "uk"],
