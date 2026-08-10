@@ -219,7 +219,10 @@ def _build_enrichment(root: Path, fixture: dict[str, Any], adapter: dict[str, An
     locales = fixture["locales"]
     canonical_path, hreflang = _canonical_url(adapter, slug, locales)
     first_line = body_lines[0] if body_lines else summary
-    meta_description = _truncate_words(payload.get("excerpt") or _first_sentence(summary or first_line), 165)
+    meta_description = _truncate_words(
+        payload.get("social_description") or payload.get("excerpt") or _first_sentence(summary or first_line),
+        165,
+    )
     seo_title = _truncate_words(payload.get("seo_title") or title, 70)
     machine_summary = _truncate_words(payload.get("excerpt") or summary or _first_sentence(first_line), 240)
     cover_path = payload.get("cover_image")
@@ -236,13 +239,13 @@ def _build_enrichment(root: Path, fixture: dict[str, Any], adapter: dict[str, An
         "canonical_path": canonical_path,
         "open_graph": {
             "title": seo_title,
-            "description": meta_description,
+            "description": _truncate_words(payload.get("social_description") or meta_description, 165),
             "image": cover_path,
             "image_alt": image_alt,
         },
         "social_preview": {
             "title": seo_title,
-            "description": meta_description,
+            "description": _truncate_words(payload.get("social_description") or meta_description, 165),
             "image": cover_path,
             "image_alt": image_alt,
         },

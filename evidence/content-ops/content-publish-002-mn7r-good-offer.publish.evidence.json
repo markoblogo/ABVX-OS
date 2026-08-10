@@ -1,0 +1,56 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-002-mn7r-good-offer.json",
+    "/Users/antonbiletskiy-volokh/Desktop/mn7r-cover.png"
+  ],
+  "candidate": "mn7r.post",
+  "environment": {
+    "consumer_repo": "/Volumes/Work/Work/MN7R",
+    "external_mutation_performed": false,
+    "publish_strategy": "consumer_command",
+    "repository_path": "/Volumes/Work/Work/ABVX-OS"
+  },
+  "fixture": "content-publish-002-mn7r-good-offer",
+  "id": "content-publish-002-mn7r-good-offer-publish-handoff",
+  "metrics": {
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "mn7r.publish-post",
+    "enrichment_fields": [
+      "author",
+      "canonical_path",
+      "date_modified",
+      "date_published",
+      "hreflang",
+      "indexability",
+      "internal_link_suggestions",
+      "machine_summary",
+      "meta_description",
+      "open_graph",
+      "primary_entities",
+      "primary_source_links",
+      "publisher",
+      "related_projects",
+      "seo_title",
+      "sitemap_state",
+      "slug",
+      "social_preview",
+      "structured_data",
+      "tags",
+      "topics"
+    ],
+    "execution_mode": "DEEP",
+    "publish_mode": "REPORT_ONLY_HANDOFF",
+    "reasoning_steps": 1,
+    "validation_tier": "STANDARD"
+  },
+  "provenance": {
+    "observed_at": "2026-08-10T11:02:51Z",
+    "recorded_by": "CONTENT-OPS-002",
+    "source_uri": null
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "abvx-content-ops",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-10T11:02:51Z"
+}

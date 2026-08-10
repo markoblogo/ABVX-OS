@@ -1,0 +1,29 @@
+{
+  "artifact_refs": [
+    "content/publish-packets/content-publish-002-mn7r-good-offer.json",
+    "/Volumes/Work/Work/MN7R/content/blog/a-good-offer-is-a-structured-object-not-a-message.md",
+    "/Volumes/Work/Work/MN7R/public/blog/a-good-offer-is-a-structured-object-not-a-message.png"
+  ],
+  "evidence_ref": "evidence/content-ops/content-publish-002-mn7r-good-offer.production.evidence.json",
+  "execution_mode": "PLAYBOOK",
+  "id": "mn7r-content_published-a-good-offer-is-a-structured-object-not-a-message",
+  "media_event_candidate": null,
+  "object": {
+    "id": "a-good-offer-is-a-structured-object-not-a-message",
+    "kind": "article",
+    "locator": "post:a-good-offer-is-a-structured-object-not-a-message"
+  },
+  "origin": "HUMAN_INITIATED",
+  "portfolio_effect": "NONE",
+  "project": "mn7r",
+  "provenance": {
+    "observed_at": "2026-08-10T11:04:05Z",
+    "recorded_by": "CONTENT-PUBLISH-002",
+    "source_uri": null
+  },
+  "result": "PASS",
+  "schema_version": "v1",
+  "timestamp": "2026-08-10T11:04:05Z",
+  "type": "CONTENT_PUBLISHED",
+  "validation_tier": "STANDARD"
+}

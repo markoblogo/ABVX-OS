@@ -59,6 +59,22 @@ class ContentOpsTests(unittest.TestCase):
         self.assertEqual(item["validation"]["tier"], "STANDARD")
         self.assertEqual(item["enrichment"]["structured_data"]["type"], "Article")
 
+    def test_prepare_preserves_explicit_social_description_for_enrichment(self):
+        root = self._root_with_content_ops()
+        item = prepare_content_item(root, "content/fixtures/mn7r-real-publication-a-good-offer.json")
+        self.assertEqual(
+            item["enrichment"]["social_preview"]["description"],
+            "The minimum data that turns a commodity offer from chat noise into an executable commercial opportunity.",
+        )
+        self.assertEqual(
+            item["enrichment"]["open_graph"]["description"],
+            "The minimum data that turns a commodity offer from chat noise into an executable commercial opportunity.",
+        )
+        self.assertEqual(
+            item["payload"]["excerpt"],
+            "Why commodity offers need structured data before they can be searched, matched, handed over, and executed.",
+        )
+
     def test_publish_requires_approval(self):
         root = self._root_with_content_ops()
         item = prepare_content_item(root, "content/fixtures/1d3x-fast-path-dry-run.json")

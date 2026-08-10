@@ -78,6 +78,7 @@
         "subtitle": { "type": ["string", "null"] },
         "date_published": { "type": ["string", "null"] },
         "seo_title": { "type": ["string", "null"] },
+        "social_description": { "type": ["string", "null"] },
         "author": { "type": ["string", "null"] },
         "publisher": { "type": ["string", "null"] },
         "video_url": { "type": ["string", "null"] },

@@ -1,0 +1,57 @@
+{
+  "id": "content-publish-002-mn7r-good-offer-production",
+  "source": "abvx-content-ops",
+  "timestamp": "2026-08-10T11:04:05Z",
+  "candidate": "mn7r.post",
+  "fixture": "content-publish-002-mn7r-good-offer",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "PLAYBOOK",
+    "validation_tier": "STANDARD",
+    "publish_mode": "REAL_WRITE",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "mn7r.publish-post",
+    "cover_asset_public_path": "/blog/a-good-offer-is-a-structured-object-not-a-message.png",
+    "reading_time_minutes": 6,
+    "newest_first_slug": "a-good-offer-is-a-structured-object-not-a-message",
+    "markdown_support": {
+      "headings": "PASS",
+      "lists": "PASS",
+      "blockquote": "PASS",
+      "table": "PASS",
+      "bold_text": "PASS"
+    },
+    "metadata_mapping": {
+      "description_to_visible_deck": "PASS",
+      "og_title_to_social_title": "PASS",
+      "og_description_to_social_description": "PASS",
+      "canonical_url": "PASS",
+      "reading_time_owner_value_match": "PASS"
+    },
+    "broad_repo_rediscovery_avoided": true,
+    "expected_cost_class": "CHEAP",
+    "actual_cost_class": "CHEAP",
+    "consumer_commit_head_before_push": "fdc99e19"
+  },
+  "stdout_ref": "internal:mn7r.publish-post.write",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "content/items/content-publish-002-mn7r-good-offer.json",
+    "content/publish-packets/content-publish-002-mn7r-good-offer.json",
+    "events/projects/mn7r/content_published-a-good-offer-is-a-structured-object-not-a-message.json",
+    "/Volumes/Work/Work/MN7R/content/blog/a-good-offer-is-a-structured-object-not-a-message.md",
+    "/Volumes/Work/Work/MN7R/public/blog/a-good-offer-is-a-structured-object-not-a-message.png"
+  ],
+  "provenance": {
+    "recorded_by": "CONTENT-PUBLISH-002",
+    "source_uri": null,
+    "observed_at": "2026-08-10T11:04:05Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repo": "/Volumes/Work/Work/MN7R",
+    "publish_strategy": "consumer_command",
+    "external_mutation_performed": true
+  }
+}
