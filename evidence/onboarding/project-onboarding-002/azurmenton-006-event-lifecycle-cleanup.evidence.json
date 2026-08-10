@@ -1,0 +1,42 @@
+{
+  "id": "azurmenton-006-event-lifecycle-cleanup",
+  "source": "AzurMenton event lifecycle cleanup",
+  "timestamp": "2026-08-10T10:15:00Z",
+  "candidate": "native-azurmenton-event-lifecycle-maintenance",
+  "fixture": "AZURMENTON-006",
+  "result": "PASS",
+  "metrics": {
+    "high_risk_items_found": 2,
+    "high_risk_items_remaining": 0,
+    "affected_event_series": ["menton-music-festival"],
+    "archive_record_created": true,
+    "planning_record_created": true,
+    "expired_current_date_claims_removed_from_active_page": true,
+    "event_model_extension_required": false,
+    "validation": {
+      "events_health": "PASS",
+      "events_review": "PASS; high-risk count 0",
+      "targeted_tests": "PASS; 40/40",
+      "content_lint": "PASS"
+    }
+  },
+  "stdout_ref": "external:/Volumes/Work/Work/menton/build/events-health/events-health.json",
+  "stderr_ref": "external:none",
+  "artifact_refs": [
+    "external:/Volumes/Work/Work/menton/src/content/riviera-events.ts",
+    "external:/Volumes/Work/Work/menton/src/content/event-occurrences.ts",
+    "external:/Volumes/Work/Work/menton/tests/unit/events.test.ts"
+  ],
+  "provenance": {
+    "recorded_by": "AZURMENTON-006",
+    "source_uri": "https://github.com/markoblogo/azurmenton",
+    "observed_at": "2026-08-10T10:15:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/menton",
+    "abvx_repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "production_mutation": false,
+    "network_access": "not_required",
+    "maintenance_scope": "event lifecycle cleanup before further event publication"
+  }
+}
