@@ -1,0 +1,44 @@
+{
+  "id": "1d3x-surface-001-uga-showcase-replaced-by-pop",
+  "source": "abvx-public-surface-maintenance",
+  "timestamp": "2026-08-10T11:40:00Z",
+  "candidate": "1d3x.platform-landing",
+  "fixture": "1d3x-surface-001",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "PLAYBOOK",
+    "validation_tier": "STANDARD",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "actual_cost_class": "CHEAP",
+    "observed_public_issue": "UGA live-project showcase iframe was unhealthy on the main 1D3X landing",
+    "replacement_surface": "POP / 1D3X Basket",
+    "replacement_href": "https://pop.1d3x.com/",
+    "replacement_embed": "https://pop.1d3x.com/",
+    "historical_uga_identity_preserved": true,
+    "spike_showcase_changed": false,
+    "desktop_visual_check": "PASS",
+    "mobile_visual_check": "INCONCLUSIVE_HEADLESS_IFRAME",
+    "build": "PASS",
+    "typecheck": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "stdout_ref": "internal:1d3x.platform-landing.live-indices",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "/Volumes/Work/Work/index/src/components/platform/platform-landing.tsx",
+    "https://pop.1d3x.com/",
+    "https://spike.1d3x.com/embed/site?locale=en&theme=dark&view=index"
+  ],
+  "provenance": {
+    "recorded_by": "1D3X-SURFACE-001",
+    "source_uri": "https://1d3x.com/",
+    "observed_at": "2026-08-10T11:40:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repo": "/Volumes/Work/Work/index",
+    "external_mutation_performed": false,
+    "surface_kind": "public_showcase_correction"
+  }
+}
