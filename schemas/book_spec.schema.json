@@ -13,6 +13,8 @@
     "language",
     "content_origin",
     "publication_form",
+    "publication_profile",
+    "preferred_renderer",
     "audience",
     "positioning",
     "description",
@@ -50,6 +52,12 @@
     },
     "publication_form": {
       "enum": ["PROSE_BOOK", "ILLUSTRATED_BOOK", "COMIC", "MANGA", "WEBTOON"]
+    },
+    "publication_profile": {
+      "enum": ["CONVENTIONAL_BOOK", "DISCOVERY_BOOKLET", "HANDBOOK", "REPORT"]
+    },
+    "preferred_renderer": {
+      "enum": ["PANDOC_XELATEX", "HTML_CSS_CHROMIUM", "UNDECIDED"]
     },
     "book_type": {
       "enum": ["NONFICTION", "FICTION", "GUIDE", "ESSAY_COLLECTION", "OTHER"]

@@ -7,6 +7,8 @@
   "lifecycle_stage": "CONCEPT",
   "content_origin": "DERIVED",
   "publication_form": "PROSE_BOOK",
+  "publication_profile": "CONVENTIONAL_BOOK",
+  "preferred_renderer": "PANDOC_XELATEX",
   "cost_preference": "FREE_FIRST",
   "canonical_manuscript": {
     "version": "seed-outline-to-manuscript-v0",

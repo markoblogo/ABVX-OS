@@ -222,6 +222,11 @@ def validate_repository(root: Path) -> list[str]:
         for path in sorted((root / "books" / "specs").glob("*.json")):
             validate(load_json(path), load_json(book_spec_schema_path), schema_path=book_spec_schema_path, root=root, location=str(path))
             checked.append(str(path.relative_to(root)))
+    book_design_profile_schema_path = root / "schemas" / "book_design_profile.schema.json"
+    if book_design_profile_schema_path.is_file():
+        for path in sorted((root / "books" / "design" / "profiles").glob("*.json")):
+            validate(load_json(path), load_json(book_design_profile_schema_path), schema_path=book_design_profile_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
     return checked
 
 

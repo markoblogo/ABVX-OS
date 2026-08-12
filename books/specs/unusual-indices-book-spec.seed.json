@@ -7,6 +7,8 @@
   "language": "English",
   "content_origin": "DERIVED",
   "publication_form": "PROSE_BOOK",
+  "publication_profile": "CONVENTIONAL_BOOK",
+  "preferred_renderer": "PANDOC_XELATEX",
   "book_type": "NONFICTION",
   "source_language": "English",
   "target_language": "English",

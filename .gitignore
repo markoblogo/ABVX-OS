@@ -5,6 +5,7 @@
 __pycache__/
 *.py[cod]
 .tmp/
+tmp/
 
 # Generated local bakeoff output; keep manifests and fixtures, not run logs.
 evidence/bakeoffs/*/runs/*

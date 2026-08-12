@@ -7,6 +7,8 @@
   "language": "English",
   "content_origin": "DERIVED",
   "publication_form": "PROSE_BOOK",
+  "publication_profile": "DISCOVERY_BOOKLET",
+  "preferred_renderer": "PANDOC_XELATEX",
   "book_type": "GUIDE",
   "source_language": "Russian",
   "target_language": "English",

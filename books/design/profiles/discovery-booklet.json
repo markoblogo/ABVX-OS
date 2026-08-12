@@ -1,0 +1,47 @@
+{
+  "schema_version": "v1",
+  "profile_id": "discovery-booklet",
+  "publication_profile": "DISCOVERY_BOOKLET",
+  "renderer_family": "HTML_CSS_CHROMIUM",
+  "structure_defaults": {
+    "internal_title_page": false,
+    "headed_intro": false,
+    "mandatory_chapters": false,
+    "entry_layout": "COMPACT_CARD",
+    "closing_length": "SHORT",
+    "screen_first": true
+  },
+  "human_gates": [
+    "RIGHTS_OR_SCOPE",
+    "VOICE_OR_EDITORIAL_DIRECTION",
+    "VISUAL_DIRECTION",
+    "EXTERNAL_PUBLICATION"
+  ],
+  "qa_profile": [
+    "REQUIRED_SECTIONS",
+    "CANONICAL_LINKS",
+    "PAGE_COUNT_SANITY",
+    "TEXT_LAYER",
+    "LINKS_CLICKABLE",
+    "NO_OVERFLOW_IF_DETECTABLE",
+    "PUBLICATION_PACKET"
+  ],
+  "tokens": {
+    "page": "A4 portrait",
+    "body_font": "Spectral",
+    "heading_font": "Inter Tight",
+    "body_size_pt": 10.5,
+    "accent_color": "#8d4a31",
+    "content_width_ratio": 0.72,
+    "vertical_spacing": "compact editorial",
+    "fact_label_style": "uppercase sans small label",
+    "link_style": "accent underline readable URL",
+    "verdict_style": "full-width emphasized bar"
+  },
+  "notes": "Selected after the first live acceptance case as the default profile for compact screen-first discovery PDFs with reusable card-like repository entries.",
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-RETRO-001",
+    "observed_at": "2026-08-12T00:00:00Z",
+    "source_uri": "https://abvx.xyz/books/your-saas-bill-is-ridiculous"
+  }
+}

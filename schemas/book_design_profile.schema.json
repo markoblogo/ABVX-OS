@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-design-profile/v1",
+  "title": "ABVX Book Design Profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "profile_id",
+    "publication_profile",
+    "renderer_family",
+    "structure_defaults",
+    "human_gates",
+    "qa_profile",
+    "tokens",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "profile_id": { "type": "string", "minLength": 1 },
+    "publication_profile": {
+      "enum": ["CONVENTIONAL_BOOK", "DISCOVERY_BOOKLET", "HANDBOOK", "REPORT"]
+    },
+    "renderer_family": {
+      "enum": ["PANDOC_XELATEX", "HTML_CSS_CHROMIUM", "UNDECIDED"]
+    },
+    "structure_defaults": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "internal_title_page",
+        "headed_intro",
+        "mandatory_chapters",
+        "entry_layout",
+        "closing_length",
+        "screen_first"
+      ],
+      "properties": {
+        "internal_title_page": { "type": "boolean" },
+        "headed_intro": { "type": "boolean" },
+        "mandatory_chapters": { "type": "boolean" },
+        "entry_layout": { "enum": ["FLOWING_PROSE", "COMPACT_CARD", "MIXED"] },
+        "closing_length": { "enum": ["SHORT", "STANDARD", "LONG"] },
+        "screen_first": { "type": "boolean" }
+      }
+    },
+    "human_gates": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "RIGHTS_OR_SCOPE",
+          "VOICE_OR_EDITORIAL_DIRECTION",
+          "VISUAL_DIRECTION",
+          "EXTERNAL_PUBLICATION"
+        ]
+      }
+    },
+    "qa_profile": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "REQUIRED_SECTIONS",
+          "CANONICAL_LINKS",
+          "PAGE_COUNT_SANITY",
+          "TEXT_LAYER",
+          "LINKS_CLICKABLE",
+          "NO_OVERFLOW_IF_DETECTABLE",
+          "PUBLICATION_PACKET"
+        ]
+      }
+    },
+    "tokens": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "page",
+        "body_font",
+        "heading_font",
+        "body_size_pt",
+        "accent_color",
+        "content_width_ratio",
+        "vertical_spacing",
+        "fact_label_style",
+        "link_style",
+        "verdict_style"
+      ],
+      "properties": {
+        "page": { "type": "string", "minLength": 1 },
+        "body_font": { "type": "string", "minLength": 1 },
+        "heading_font": { "type": "string", "minLength": 1 },
+        "body_size_pt": { "type": "number", "minimum": 1 },
+        "accent_color": { "type": "string", "minLength": 1 },
+        "content_width_ratio": { "type": "number", "minimum": 0.1, "maximum": 1.0 },
+        "vertical_spacing": { "type": "string", "minLength": 1 },
+        "fact_label_style": { "type": "string", "minLength": 1 },
+        "link_style": { "type": "string", "minLength": 1 },
+        "verdict_style": { "type": "string", "minLength": 1 }
+      }
+    },
+    "notes": { "type": ["string", "null"] },
+    "provenance": {
+      "$ref": "evidence.schema.json#/$defs/provenance"
+    }
+  }
+}

@@ -7,6 +7,8 @@
   "lifecycle_stage": "POST_PUBLISH",
   "content_origin": "ORIGINAL",
   "publication_form": "PROSE_BOOK",
+  "publication_profile": "CONVENTIONAL_BOOK",
+  "preferred_renderer": "PANDOC_XELATEX",
   "cost_preference": "BALANCED",
   "canonical_manuscript": {
     "version": "canonical-manuscript-v1",
