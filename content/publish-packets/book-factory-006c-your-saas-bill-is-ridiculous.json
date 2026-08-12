@@ -1,0 +1,143 @@
+{
+  "artifact_refs": [
+    "books/artifacts/your-saas-bill-is-ridiculous/final/your-saas-bill-is-ridiculous.pdf",
+    "books/artifacts/your-saas-bill-is-ridiculous/final/cover.png"
+  ],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-project.mjs --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-project.mjs --packet <packet> --dry-run",
+    "id": "abvx.publish-project",
+    "target_surface": "abvx.work"
+  },
+  "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+  "enrichment": {
+    "author": "Anton Biletskyi-Volokh",
+    "canonical_path": "/work/your-saas-bill-is-ridiculous",
+    "date_modified": "2026-08-12",
+    "date_published": null,
+    "hreflang": {
+      "en": "/work/your-saas-bill-is-ridiculous"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "project:abvxsite",
+      "project:pop",
+      "project:1d3x"
+    ],
+    "machine_summary": "Publication-ready DIGITAL_PDF discovery booklet for ABVX Books, pending final human release decision.",
+    "meta_description": "A curated ABVX discovery booklet of open-source tools worth knowing about, with blunt verdicts on what they replace and what they still make you pay for.",
+    "open_graph": {
+      "description": "A curated discovery booklet of open-source tools worth knowing about.",
+      "image": "books/artifacts/your-saas-bill-is-ridiculous/final/cover.png",
+      "image_alt": "Cover of Your SaaS Bill Is Ridiculous",
+      "title": "Your SaaS Bill Is Ridiculous"
+    },
+    "primary_entities": [
+      "ABVX",
+      "Anton Biletskyi-Volokh",
+      "Open source",
+      "SaaS",
+      "Self hosting"
+    ],
+    "primary_source_links": [
+      "books/manuscripts/your-saas-bill-is-ridiculous/MASTER_MANUSCRIPT.md"
+    ],
+    "publisher": "ABVX",
+    "related_projects": [
+      "abvxsite",
+      "1d3x",
+      "pop"
+    ],
+    "seo_title": "Your SaaS Bill Is Ridiculous \u2014 A Curated Discovery Booklet of Open-Source Finds",
+    "sitemap_state": "INDEXABLE",
+    "slug": "your-saas-bill-is-ridiculous",
+    "social_preview": {
+      "description": "A curated discovery booklet of open-source tools worth knowing about.",
+      "image": "books/artifacts/your-saas-bill-is-ridiculous/final/cover.png",
+      "image_alt": "Cover of Your SaaS Bill Is Ridiculous",
+      "title": "Your SaaS Bill Is Ridiculous"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "CreativeWork"
+    },
+    "tags": [
+      "ABVX",
+      "books",
+      "open source",
+      "saas alternatives",
+      "digital pdf",
+      "discovery booklet"
+    ],
+    "topics": [
+      "book publication",
+      "open source tools",
+      "self hosting",
+      "software costs",
+      "editorial zine"
+    ],
+    "warnings": [
+      "Public release remains human-gated."
+    ]
+  },
+  "generated_at": "2026-08-12T00:00:00Z",
+  "item_id": "book-factory-006c-your-saas-bill-is-ridiculous",
+  "kind": "work",
+  "mechanism": "Consumer-side publish command for ABVX project/work content",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "payload": {
+    "asset_refs": [
+      "books/artifacts/your-saas-bill-is-ridiculous/final/your-saas-bill-is-ridiculous.pdf",
+      "books/artifacts/your-saas-bill-is-ridiculous/final/cover.png"
+    ],
+    "body_lines": [
+      "A curated discovery booklet about open-source tools that are interesting enough to send to someone with: look what I found.",
+      "Free downloadable DIGITAL_PDF for ABVX Books."
+    ],
+    "cover_image": "books/artifacts/your-saas-bill-is-ridiculous/final/cover.png",
+    "cta_label": "Free PDF",
+    "excerpt": "A curated discovery booklet about open-source tools that may replace expensive SaaS, while moving the bill into operations, APIs, and attention.",
+    "image_alt": "Cover of Your SaaS Bill Is Ridiculous",
+    "media_event_candidate": null,
+    "publication_type": "DISCOVERY_BOOKLET",
+    "source_refs": [
+      "books/manuscripts/your-saas-bill-is-ridiculous/MASTER_MANUSCRIPT.md"
+    ],
+    "tags": [
+      "ABVX",
+      "books",
+      "open source",
+      "saas alternatives",
+      "digital pdf",
+      "discovery booklet"
+    ],
+    "topics": [
+      "book publication",
+      "open source tools",
+      "self hosting",
+      "software costs",
+      "editorial zine"
+    ]
+  },
+  "project": "abvxsite",
+  "required_consumer_steps": [
+    "Run ABVXsite publish-project command in dry-run mode.",
+    "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+    "Run npm run build in /Volumes/Work/Work/ABVXsite.",
+    "Publish only after human approval."
+  ],
+  "schema_version": "v1",
+  "slug": "your-saas-bill-is-ridiculous",
+  "surface": "work",
+  "target": "scripts/publish-project.mjs",
+  "title": "Your SaaS Bill Is Ridiculous",
+  "validation_checks": [
+    "Book Factory tests",
+    "build script validation",
+    "full PDF build",
+    "PDF text-layer validation",
+    "link validation",
+    "./bin/abvx validate"
+  ],
+  "validation_tier": "STANDARD"
+}

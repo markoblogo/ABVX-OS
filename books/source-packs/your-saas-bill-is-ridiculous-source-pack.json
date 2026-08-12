@@ -1,0 +1,125 @@
+{
+  "schema_version": "v1",
+  "id": "your-saas-bill-is-ridiculous-source-pack",
+  "title": "Your SaaS Bill Is Ridiculous — source pack",
+  "book_project_id": "your-saas-bill-is-ridiculous",
+  "status": "READY_FOR_BOOK_SPEC",
+  "sources": [
+    {
+      "id": "your-saas-bill-is-ridiculous-pdf",
+      "type": "PDF",
+      "locator": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf",
+      "role": "Primary lead corpus for repository discovery, source claims, category framing and rights assessment.",
+      "admission": "CONDITIONAL",
+      "rights_basis": "UNKNOWN",
+      "extraction_status": "EXTRACTED",
+      "allowed_use": "REFERENCE_ONLY",
+      "relevant_book_sections": [
+        "project discovery",
+        "claim inventory",
+        "factual correction ledger",
+        "book positioning"
+      ],
+      "confidence_quality_notes": "Visually and textually readable. Title, attribution handles and repository inventory are observable; derivative republication permission is not.",
+      "notes": "SOURCE_USE = RESEARCH_LEADS_ONLY. Do not translate or republish expressive source prose."
+    },
+    {
+      "id": "your-saas-bill-is-ridiculous-pdf-intake",
+      "type": "INTAKE_ITEM",
+      "locator": "intake/items/your-saas-bill-is-ridiculous-pdf.json",
+      "role": "Canonical intake boundary for the owner-supplied PDF source.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_APPROVED",
+      "extraction_status": "NOT_REQUIRED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": [
+        "project setup",
+        "source provenance"
+      ],
+      "confidence_quality_notes": "Accepted as source intake only; does not widen source rights.",
+      "notes": null
+    },
+    {
+      "id": "your-saas-bill-is-ridiculous-repo-audit",
+      "type": "MARKDOWN",
+      "locator": "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+      "role": "Canonical human-readable audit, rights gate, concept package and publication planning notes.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_ORIGINATED",
+      "extraction_status": "EXTRACTED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": [
+        "rights boundary",
+        "book structure",
+        "project count decision",
+        "publication plan"
+      ],
+      "confidence_quality_notes": "Derived from current first-party repository inspection and bounded source review.",
+      "notes": null
+    },
+    {
+      "id": "your-saas-bill-is-ridiculous-repo-matrix",
+      "type": "TXT",
+      "locator": "books/research/your-saas-bill-is-ridiculous-repos.tsv",
+      "role": "Machine-readable normalized inventory of all 33 source repositories and their current audit verdicts.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_ORIGINATED",
+      "extraction_status": "EXTRACTED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": [
+        "project selection",
+        "factual correction ledger",
+        "ABVX donor mining"
+      ],
+      "confidence_quality_notes": "Repository metadata was gathered from first-party GitHub surfaces where possible; entries with unstable fetches are marked conservatively.",
+      "notes": null
+    },
+    {
+      "id": "book-factory-003-donor-proposals",
+      "type": "MARKDOWN",
+      "locator": "registries/external-candidates/book-factory-003.json",
+      "role": "Bounded donor-mining proposals extracted from the repository audit for ABVX use.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_ORIGINATED",
+      "extraction_status": "EXTRACTED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": [
+        "ABVX donor discoveries"
+      ],
+      "confidence_quality_notes": "Proposed statuses only; no donor adopted or installed in this mission.",
+      "notes": null
+    }
+  ],
+  "rights_review": {
+    "status": "MIXED",
+    "blocking_issues": [
+      "The PDF presents itself as a translated compilation but no explicit derivative republication license was observed.",
+      "Attribution handles are visible, but the underlying original English publication/source chain was not clearly identified from observed material.",
+      "Free download or public channel distribution does not imply permission to republish or translate the source prose."
+    ]
+  },
+  "disclosure": {
+    "ai_generated_inputs_present": false,
+    "translation_inputs_present": true,
+    "visual_generation_inputs_present": false,
+    "kdp_disclosure_requirement": "UNKNOWN",
+    "constraints": [
+      "The future English book must be independently written from primary repository and documentation sources.",
+      "Do not copy or translate expressive source prose from the PDF into the final book.",
+      "Source claims remain unverified until checked against first-party repository and documentation evidence."
+    ]
+  },
+  "coverage": {
+    "concept": "READY",
+    "case_studies": "READY",
+    "structure_seed": "PARTIAL",
+    "author_voice_seed": "PARTIAL",
+    "translation_seed": "PARTIAL",
+    "visual_seed": "MISSING"
+  },
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-003",
+    "source_uri": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf",
+    "observed_at": "2026-08-12T00:00:00Z"
+  }
+}

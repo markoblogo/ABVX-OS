@@ -95,7 +95,7 @@
     "formats": {
       "type": "array",
       "items": {
-        "enum": ["EPUB", "PAPERBACK_PDF", "HARDCOVER_PDF"]
+        "enum": ["DIGITAL_PDF", "EPUB", "PAPERBACK_PDF", "HARDCOVER_PDF"]
       }
     },
     "format_specific_qa": {
@@ -107,6 +107,7 @@
         "properties": {
           "format": {
             "enum": [
+              "DIGITAL_PDF",
               "KINDLE_REFLOWABLE",
               "PAPERBACK_INTERIOR",
               "HARDCOVER_INTERIOR",

@@ -1,0 +1,124 @@
+{
+  "schema_version": "v1",
+  "id": "your-saas-bill-is-ridiculous",
+  "title": "Your SaaS Bill Is Ridiculous",
+  "objective": "Create a short, substantially original English ABVX Books publication based on first-party repository and documentation research, using the supplied Russian PDF only as a lead corpus and rights-constrained research source.",
+  "status": "WAITING_FOR_HUMAN",
+  "lifecycle_stage": "POST_PUBLISH",
+  "content_origin": "DERIVED",
+  "publication_form": "PROSE_BOOK",
+  "cost_preference": "BALANCED",
+  "canonical_manuscript": {
+    "version": "manuscript-v2",
+    "locator": "books/manuscripts/your-saas-bill-is-ridiculous/MASTER_MANUSCRIPT.md",
+    "readiness_state": "READY",
+    "notes": "Manuscript v2 reframes the work as a curated discovery booklet / field guide rather than a conventional small book. The source PDF remains research-leads-only and is not approved for verbatim translation or republication."
+  },
+  "format_artifacts": [
+    {
+      "artifact_id": "digital-pdf-design-proof-v3",
+      "source_manuscript_version": "manuscript-v2",
+      "format": "DIGITAL_PDF",
+      "generated_at": "2026-08-12T00:00:00Z",
+      "validation_status": "PASSED",
+      "provenance_classification": "AI_ASSISTED",
+      "file_ref": "books/artifacts/your-saas-bill-is-ridiculous/design-proof/your-saas-bill-is-ridiculous-design-proof.pdf",
+      "readiness_state": "READY",
+      "notes": "Four-page booklet proof with no internal title page, no chapter ceremony, refined fact-block alignment, clickable URL styling, and clean PDF text layer."
+    },
+    {
+      "artifact_id": "digital-pdf-publication-ready-v2",
+      "source_manuscript_version": "manuscript-v2",
+      "format": "DIGITAL_PDF",
+      "generated_at": "2026-08-12T00:00:00Z",
+      "validation_status": "PASSED",
+      "provenance_classification": "AI_ASSISTED",
+      "file_ref": "books/artifacts/your-saas-bill-is-ridiculous/final/your-saas-bill-is-ridiculous.pdf",
+      "readiness_state": "READY",
+      "notes": "Publication-ready discovery booklet with canonical-link corrections, booklet-format structure, validated text extraction and final ABVX Books publication. Published on 2026-08-12 via https://abvx.xyz/books/your-saas-bill-is-ridiculous with direct PDF at https://abvx.xyz/media/books/your-saas-bill-is-ridiculous/your-saas-bill-is-ridiculous.pdf."
+    }
+  ],
+  "edition_states": [
+    {
+      "format": "DIGITAL_PDF",
+      "publication_state": "LIVE",
+      "external_state": "ABVX_BOOKS_PUBLIC_RELEASE",
+      "qa_boundary": [
+        "screen-readable discovery-booklet typography",
+        "clickable canonical external links",
+        "clean searchable text layer",
+        "validated reusable repository page template",
+        "human final booklet review before ABVXsite publication"
+      ],
+      "automation_policy": "SUPERVISED_ONLY",
+      "waiting_state": "NONE",
+      "next_action": "Acceptance case complete. Any retrospective, renderer cleanup or future format expansion is a separate scoped mission.",
+      "blocked_fail_closed": true,
+      "notes": "DIGITAL_PDF is live on ABVX Books. Books index: https://abvx.xyz/books . Detail page: https://abvx.xyz/books/your-saas-bill-is-ridiculous . Direct PDF: https://abvx.xyz/media/books/your-saas-bill-is-ridiculous/your-saas-bill-is-ridiculous.pdf . Final artifact is 23 pages / 162186 bytes. Public cover uses the human-supplied YourSaaS.png artwork delivered as cover.webp."
+    }
+  ],
+  "selected_source_pack_id": "your-saas-bill-is-ridiculous-source-pack",
+  "selected_donor_profile": {
+    "planning": "ABVX audit package plus first-party repository/documentation research only",
+    "manuscript": "Future English manuscript must be independently written from primary repository and documentation sources, not translated from the source PDF",
+    "translation": "Not applicable for source prose reuse; Russian source acts as lead corpus only",
+    "visual_narrative": "Not applicable for this prose-first acceptance case",
+    "compilation": "Digital design proof uses a thin local pandoc + XeLaTeX path, with vpuna/markdown-to-book retained as a print/KDP-oriented pattern source rather than the selected DIGITAL_PDF compiler",
+    "submission": "Primary intended distribution is ABVX Books on abvx.xyz; do not assume KDP"
+  },
+  "related_projects": [
+    "abvxsite",
+    "1d3x",
+    "pop"
+  ],
+  "intake_item_ids": [
+    "your-saas-bill-is-ridiculous-pdf"
+  ],
+  "context_request_ids": [],
+  "human_gates": [
+    {
+      "stage": "BOOK_SPEC",
+      "required": true,
+      "state": "APPROVED",
+      "rule": "Final shortlist, compact TOC, source-use boundary and publication shape were approved for compact manuscript production.",
+      "decision_ref": null
+    },
+    {
+      "stage": "EDITORIAL_QA",
+      "required": true,
+      "state": "APPROVED",
+      "rule": "Manuscript v1 passed human editorial review for design with light editorial cleanup only. Broad rewriting remains out of scope.",
+      "decision_ref": null
+    },
+    {
+      "stage": "SUBMISSION",
+      "required": true,
+      "state": "APPROVED",
+      "rule": "ABVX Books publication packet, downloadable artifact, metadata and public positioning were approved and released publicly.",
+      "decision_ref": "BOOK-FACTORY-007"
+    }
+  ],
+  "readiness": {
+    "source_pack": "READY",
+    "positioning": "READY",
+    "outline_seed": "READY",
+    "manuscript_seed": "READY",
+    "translation_readiness": "NOT_APPLICABLE",
+    "visual_bible": "NOT_APPLICABLE",
+    "cover_strategy": "READY",
+    "format_artifacts": "READY",
+    "kdp_metadata": "MISSING",
+    "disclosure_policy": "READY"
+  },
+  "known_gaps": [
+    "Derivative republication rights for the translated source PDF are not explicit in currently observed material.",
+    "Several repository replacement claims in the source PDF are stale, partial or materially overstated.",
+    "Retrospective cleanup for the Book Factory publication path remains a separate mission."
+  ],
+  "next_action": "Acceptance case is complete. Any retrospective, print/EPUB expansion or publication-path refinement should happen in a separate mission.",
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-007",
+    "source_uri": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf",
+    "observed_at": "2026-08-12T00:00:00Z"
+  }
+}

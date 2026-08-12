@@ -1,0 +1,52 @@
+{
+  "id": "book-factory-006a-design-proof",
+  "source": "BOOK-FACTORY-006A editorial cleanup, compiler pilot and four-page visual design proof",
+  "timestamp": "2026-08-12T00:00:00Z",
+  "candidate": "vpuna/markdown-to-book",
+  "fixture": "your-saas-bill-is-ridiculous-digital-pdf-design-proof",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "validation_tier": "STANDARD",
+    "prose_changes": 1,
+    "factual_corrections": 0,
+    "verdict_changes": 0,
+    "compiler_selected": "pandoc+xelatex",
+    "donor_verdict_for_this_mission": "PATTERN_SOURCE",
+    "sample_page_count": 4,
+    "link_preservation": "HYPERREF_ENABLED",
+    "pdf_output_quality": "VISUAL_REVIEW_PENDING"
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "docs/audits/book-factory-006a-design-proof.md",
+    "books/design/your-saas-bill-is-ridiculous/build_design_proof.py",
+    "books/design/your-saas-bill-is-ridiculous/preamble.tex",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/your-saas-bill-is-ridiculous-design-proof.pdf",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-1-cover.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-2-introduction-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-3-repository-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-4-rabbit-holes-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/manifest.json",
+    "books/projects/your-saas-bill-is-ridiculous.json",
+    "books/specs/your-saas-bill-is-ridiculous-spec.json",
+    "books/manuscripts/your-saas-bill-is-ridiculous/MASTER_MANUSCRIPT.md"
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-006A",
+    "source_uri": "https://github.com/vpuna/markdown-to-book",
+    "observed_at": "2026-08-12T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "compiler_runtime": [
+      "pandoc",
+      "xelatex",
+      "pdftoppm"
+    ],
+    "selected_page_format": "A4",
+    "consumer_repositories_modified": false,
+    "publication_started": false
+  }
+}

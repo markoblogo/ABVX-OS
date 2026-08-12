@@ -1,0 +1,167 @@
+{
+  "schema_version": "v1",
+  "book_id": "your-saas-bill-is-ridiculous",
+  "title": "Your SaaS Bill Is Ridiculous",
+  "subtitle": "A Skeptical Guide to Open-Source Tools That Can Replace Expensive SaaS",
+  "author": "Anton BV",
+  "language": "English",
+  "content_origin": "DERIVED",
+  "publication_form": "PROSE_BOOK",
+  "book_type": "GUIDE",
+  "source_language": "Russian",
+  "target_language": "English",
+  "audience": "Technical founders, operators, solo builders and engineering-minded teams trying to reduce SaaS spend without accidentally taking on a second job as unpaid infrastructure staff.",
+  "positioning": "A curated discovery booklet / field guide of interesting open-source repos that may replace expensive SaaS, while staying blunt about the operational bill that still remains.",
+  "description": "Compact ABVX Books discovery booklet. Primary distribution intent is FREE_PUBLICATION on abvx.xyz as a downloadable DIGITAL_PDF. The work is intentionally booklet-like rather than a conventional small book: fast intro, one-page discoveries, compact Rabbit Holes, short closing, no ceremonial book scaffolding.",
+  "source_pack_id": "your-saas-bill-is-ridiculous-source-pack",
+  "source_policy": "Use the supplied Russian PDF as a lead corpus only. Final English prose must be independently written from verified first-party repository and documentation sources. Do not translate or paraphrase expressive source prose section by section.",
+  "citation_policy": "Treat repository READMEs, licenses, official docs and current first-party public surfaces as the primary factual basis. Non-obvious claims about what a tool replaces, what it costs and who should run it must stay evidence-backed and skeptical.",
+  "target_words": 7000,
+  "target_pages": 23,
+  "trim_size": "6x9",
+  "chapter_count": 1,
+  "outline": [
+    {
+      "index": 1,
+      "title": "Cover",
+      "status": "APPROVED",
+      "notes": "Typographic black cover with restrained rust billing motif."
+    },
+    {
+      "index": 2,
+      "title": "Short editorial intro",
+      "status": "APPROVED",
+      "notes": "Fast unheaded opening after the cover; no internal title page or Introduction heading."
+    },
+    {
+      "index": 3,
+      "title": "Discovery pages",
+      "status": "APPROVED",
+      "notes": "Nineteen compact one-page discoveries with category eyebrow, prose, fact block and verdict strip."
+    },
+    {
+      "index": 4,
+      "title": "Rabbit Holes",
+      "status": "APPROVED",
+      "notes": "Compact alternate page for three reference-only rabbit holes."
+    },
+    {
+      "index": 5,
+      "title": "Short closing",
+      "status": "APPROVED",
+      "notes": "Compact closing replacing The Catch plus Final Note."
+    }
+  ],
+  "illustration_policy": "Keep the book cheap and durable: strong cover, typography, compact fact strips, restrained diagrams/icons if useful, and only occasional screenshots when they materially explain the product. Avoid screenshot-heavy layouts and do not generate one illustration per repository.",
+  "voice_style_constraints": [
+    "concise",
+    "skeptical",
+    "practical",
+    "intelligent",
+    "wry without imitation",
+    "avoid generic AI marketing prose",
+    "short sentences are welcome",
+    "support opinions with evidence"
+  ],
+  "formats": [
+    "DIGITAL_PDF",
+    "PAPERBACK_PDF"
+  ],
+  "format_specific_qa": [
+    {
+      "format": "DIGITAL_PDF",
+      "checks": [
+        "downloadable PDF readability",
+        "working internal/external links where included",
+        "screen-readable hierarchy",
+        "compact rabbit-hole layout",
+        "no filler added to hit page count"
+      ]
+    },
+    {
+      "format": "PAPERBACK_INTERIOR",
+      "checks": [
+        "readable typographic hierarchy",
+        "stable one-page repository layout target",
+        "fact-strip consistency",
+        "paragraph spacing and measure",
+        "working internal links where included",
+        "exported PDF readability"
+      ]
+    },
+    {
+      "format": "PRINT_COVER",
+      "checks": [
+        "title/subtitle clarity",
+        "cover typography balance",
+        "rights-safe asset use",
+        "export alignment"
+      ]
+    }
+  ],
+  "translation": {
+    "mode": "NOT_APPLICABLE",
+    "source_edition": null,
+    "translation_method": "UNKNOWN",
+    "translation_provider": null,
+    "translation_model": null,
+    "glossary": [],
+    "proper_name_policy": "Keep canonical repository names, product names and URL identities exact; translate nothing because the final book is independently authored English prose rather than a localized edition.",
+    "terminology_memory": null,
+    "style_voice_instructions": [],
+    "segment_progress": {
+      "completed": 0,
+      "total": 0
+    },
+    "resume_checkpoint_state": null,
+    "human_reviewed_sections": [],
+    "qa_status": "NOT_APPLICABLE",
+    "rights_status": "MIXED"
+  },
+  "visual_narrative": {
+    "mode": "NOT_APPLICABLE",
+    "script_source": "ADAPTED_FROM_PROSE",
+    "text_layer_policy": "SEPARATE_STRUCTURED_TEXT_REQUIRED",
+    "visual_bible_status": "NOT_APPLICABLE",
+    "character_consistency_strategy": null,
+    "page_plan_status": "NOT_APPLICABLE",
+    "lettering_strategy": "UNKNOWN",
+    "reading_direction": "LEFT_TO_RIGHT",
+    "export_targets": []
+  },
+  "execution_cost": {
+    "cost_preference": "BALANCED",
+    "preferred_runtime_cost": "FREE_LOCAL",
+    "notes": "This acceptance case optimizes for quality, speed and density, while keeping production cheap and local-first where reasonable. The word-count target is a planning estimate, not a quota."
+  },
+  "kdp_metadata": {
+    "keywords": [
+      "open source",
+      "saas alternatives",
+      "self hosting",
+      "software costs",
+      "developer tools"
+    ],
+    "categories": [
+      "Computers / Software Development",
+      "Business / Information Management"
+    ],
+    "ai_disclosure": "UNKNOWN"
+  },
+  "provenance_breakdown": {
+    "manuscript_text": "AI_ASSISTED",
+    "translation": "UNKNOWN",
+    "cover": "UNKNOWN",
+    "interior_illustrations": "UNKNOWN",
+    "diagrams": "AI_ASSISTED",
+    "appendices": "AI_ASSISTED"
+  },
+  "current_state": "DIGITAL_PDF_LIVE",
+  "human_approval_state": "APPROVED_FOR_PUBLICATION",
+  "expected_outcome": "The discovery booklet is now published on ABVX Books as a free public DIGITAL_PDF with a live detail page and direct download URL. Any retrospective or future multi-format expansion is separate work.",
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-007",
+    "source_uri": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf",
+    "observed_at": "2026-08-12T00:00:00Z"
+  }
+}

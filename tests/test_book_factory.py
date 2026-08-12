@@ -12,8 +12,11 @@ class BookFactoryTests(unittest.TestCase):
         checked = validate_repository(ROOT)
         self.assertIn("books/projects/fragments-therapists-notebook.json", checked)
         self.assertIn("books/projects/unusual-indices-book.json", checked)
+        self.assertIn("books/projects/your-saas-bill-is-ridiculous.json", checked)
         self.assertIn("books/source-packs/unusual-indices-book-source-pack.json", checked)
+        self.assertIn("books/source-packs/your-saas-bill-is-ridiculous-source-pack.json", checked)
         self.assertIn("books/specs/unusual-indices-book-spec.seed.json", checked)
+        self.assertIn("books/specs/your-saas-bill-is-ridiculous-spec.json", checked)
 
 
 if __name__ == "__main__":

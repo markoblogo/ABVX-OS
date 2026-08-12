@@ -1,0 +1,52 @@
+{
+  "id": "book-factory-007-public-abvx-publication",
+  "source": "BOOK-FACTORY-007 public ABVX Books publication",
+  "timestamp": "2026-08-12T00:00:00Z",
+  "candidate": "abvx-books",
+  "fixture": "your-saas-bill-is-ridiculous-publication",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "validation_tier": "STANDARD",
+    "publication_form": "DISCOVERY_BOOKLET",
+    "publication_date": "2026-08-12",
+    "books_page_live": true,
+    "detail_page_live": true,
+    "pdf_live": true,
+    "homepage_entry_count": 6,
+    "homepage_contains_booklet": true,
+    "public_cover_live": true,
+    "download_cta_visible": true,
+    "desktop_layout_ok": true,
+    "mobile_layout_ok": true,
+    "pdf_page_count": 23,
+    "original_pdf_bytes": 162186,
+    "final_pdf_bytes": 162186,
+    "pdf_optimization_reduction_bytes": 0,
+    "pdf_optimization_reduction_percent": 0,
+    "existing_books_content_model_reused": true,
+    "publish_project_adapter_reused_without_extension": false
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "books/projects/your-saas-bill-is-ridiculous.json",
+    "books/specs/your-saas-bill-is-ridiculous-spec.json",
+    "books/artifacts/your-saas-bill-is-ridiculous/final/your-saas-bill-is-ridiculous.pdf",
+    "content/publish-packets/book-factory-006c-your-saas-bill-is-ridiculous.json"
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-007",
+    "source_uri": "https://abvx.xyz/books/your-saas-bill-is-ridiculous",
+    "observed_at": "2026-08-12T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repository_path": "/Volumes/Work/Work/ABVXsite",
+    "books_url": "https://abvx.xyz/books",
+    "detail_url": "https://abvx.xyz/books/your-saas-bill-is-ridiculous",
+    "pdf_url": "https://abvx.xyz/media/books/your-saas-bill-is-ridiculous/your-saas-bill-is-ridiculous.pdf",
+    "homepage_url": "https://abvx.xyz/",
+    "consumer_release_commit": "52a8690"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "book-factory-006b-full-digital-pdf-build",
+  "source": "BOOK-FACTORY-006B design correction and full DIGITAL_PDF build",
+  "timestamp": "2026-08-12T00:00:00Z",
+  "candidate": "pandoc+xelatex",
+  "fixture": "your-saas-bill-is-ridiculous-digital-pdf-rc",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "validation_tier": "STANDARD",
+    "proof_page_count": 4,
+    "full_page_count": 28,
+    "text_layer_clean": true,
+    "required_link_count": 9,
+    "content_integrity": "PASS",
+    "publication_packet_prepared": true,
+    "compiler_selected": "pandoc+xelatex",
+    "donor_verdict_for_this_mission": "PATTERN_SOURCE"
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "books/design/your-saas-bill-is-ridiculous/build_design_proof.py",
+    "books/design/your-saas-bill-is-ridiculous/preamble.tex",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/your-saas-bill-is-ridiculous-design-proof.pdf",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-1-cover.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-2-introduction-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-3-repository-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-4-rabbit-holes-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/final/your-saas-bill-is-ridiculous.pdf",
+    "books/artifacts/your-saas-bill-is-ridiculous/final/cover.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/final/qa-report.json",
+    "books/artifacts/your-saas-bill-is-ridiculous/final/manifest.json",
+    "content/publish-packets/book-factory-006b-your-saas-bill-is-ridiculous.json",
+    "books/projects/your-saas-bill-is-ridiculous.json",
+    "books/specs/your-saas-bill-is-ridiculous-spec.json"
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-006B",
+    "source_uri": "https://github.com/vpuna/markdown-to-book",
+    "observed_at": "2026-08-12T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "compiler_runtime": [
+      "pandoc",
+      "xelatex",
+      "pdftoppm",
+      "pdftotext",
+      "pdftohtml"
+    ],
+    "selected_page_format": "A4",
+    "consumer_repositories_modified": false,
+    "publication_started": false
+  }
+}

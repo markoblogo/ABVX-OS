@@ -1,0 +1,17 @@
+{
+  "page_count": 4,
+  "proof_checks": {
+    "cover_title_found": true,
+    "intro_found": true,
+    "money_link_present": true,
+    "money_printer_turbo_found": true,
+    "rabbit_holes_found": true,
+    "rabbit_links_present": true
+  },
+  "text_layer": {
+    "disallowed_controls": [],
+    "ligatures": [],
+    "replacement_chars": [],
+    "text_layer_clean": true
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "v1",
+  "id": "your-saas-bill-is-ridiculous-pdf",
+  "created_at": "2026-08-12T00:00:00Z",
+  "source": {
+    "kind": "IMPORT",
+    "label": "owner"
+  },
+  "input_type": "TEXT",
+  "raw_input": {
+    "value": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf",
+    "reference": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf"
+  },
+  "title": "Your SaaS Bill Is Ridiculous lead PDF",
+  "summary": "Owner-supplied Russian PDF: a translated compilation of 33 open-source repositories framed as substitutes for expensive SaaS subscriptions. Use as a lead corpus only, not as an approved manuscript.",
+  "classification": {
+    "primary_type": "CONTENT_SOURCE",
+    "secondary_types": [
+      "RESEARCH_SOURCE",
+      "CONTENT_OPPORTUNITY"
+    ],
+    "confidence": 0.98
+  },
+  "related_entities": [
+    {
+      "kind": "PROJECT",
+      "id": "abvxsite",
+      "confidence": "HIGH"
+    },
+    {
+      "kind": "PROJECT",
+      "id": "1d3x",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "possible_routes": [
+    "PROJECT",
+    "RESEARCH",
+    "CORTEX_KNOWLEDGE"
+  ],
+  "suggested_actions": [
+    "Create a BookProject and BookSourcePack.",
+    "Treat the PDF as a rights-constrained lead corpus only.",
+    "Audit the referenced repositories from first-party sources before any manuscript work."
+  ],
+  "clarification": {
+    "required": false,
+    "question": null,
+    "answer": null,
+    "answered_at": null
+  },
+  "related_item_ids": [
+    "pop-development-idea",
+    "cigarette-index"
+  ],
+  "decision_history": [
+    {
+      "action": "ACCEPT",
+      "timestamp": "2026-08-12T00:00:00Z",
+      "actor": "BOOK-FACTORY-003",
+      "reason": "Accepted as a real Book Factory source intake for a future ABVX Books publication project.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf"
+      }
+    }
+  ],
+  "promotion": null,
+  "status": "ACCEPTED",
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-003",
+    "captured_at": "2026-08-12T00:00:00Z",
+    "source_uri": "/Users/antonbiletskiy-volokh/Downloads/gh_ru.pdf"
+  }
+}

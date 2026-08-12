@@ -1,0 +1,11 @@
+{
+  "artifact": "books/artifacts/your-saas-bill-is-ridiculous/final/your-saas-bill-is-ridiculous.pdf",
+  "compiler": {
+    "donor": "vpuna/markdown-to-book",
+    "donor_role_for_this_mission": "PATTERN_SOURCE",
+    "path": "pandoc+xelatex"
+  },
+  "cover": "books/artifacts/your-saas-bill-is-ridiculous/final/cover.png",
+  "publication_packet": "content/publish-packets/book-factory-006c-your-saas-bill-is-ridiculous.json",
+  "qa_report": "books/artifacts/your-saas-bill-is-ridiculous/final/qa-report.json"
+}

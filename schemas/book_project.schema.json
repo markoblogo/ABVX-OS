@@ -99,6 +99,7 @@
           "source_manuscript_version": { "type": "string", "minLength": 1 },
           "format": {
             "enum": [
+              "DIGITAL_PDF",
               "KINDLE_REFLOWABLE",
               "PAPERBACK_INTERIOR",
               "HARDCOVER_INTERIOR",
@@ -148,6 +149,7 @@
         "properties": {
           "format": {
             "enum": [
+              "DIGITAL_PDF",
               "KINDLE_REFLOWABLE",
               "PAPERBACK_INTERIOR",
               "HARDCOVER_INTERIOR",

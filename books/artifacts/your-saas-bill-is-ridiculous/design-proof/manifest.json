@@ -1,0 +1,14 @@
+{
+  "artifact": "books/artifacts/your-saas-bill-is-ridiculous/design-proof/your-saas-bill-is-ridiculous-design-proof.pdf",
+  "compiler": {
+    "donor": "vpuna/markdown-to-book",
+    "donor_role_for_this_mission": "PATTERN_SOURCE",
+    "path": "pandoc+xelatex"
+  },
+  "pages": [
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-1-cover.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-2-introduction-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-3-repository-page.png",
+    "books/artifacts/your-saas-bill-is-ridiculous/design-proof/sample-4-rabbit-holes-page.png"
+  ]
+}

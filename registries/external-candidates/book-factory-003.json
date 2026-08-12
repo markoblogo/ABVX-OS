@@ -1,0 +1,109 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "external-agent-reach-book-factory-003",
+      "locator": "Panniantong/Agent-Reach",
+      "role": "Bounded external web reach and social/developer-surface access for agents without per-site API contracts",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_when_needed",
+      "notes": "Strong fit for future ABVX external-actions or research loops, but still a scraping-heavy runtime that should stay bounded and human-approved.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/Panniantong/Agent-Reach",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-composio-book-factory-003",
+      "locator": "ComposioHQ/composio",
+      "role": "Authenticated tool/integration substrate for agents",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_when_needed",
+      "notes": "Plausible donor for repeated external actions and integrations. Not justified until a concrete action workflow can no longer stay manual or project-local.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/ComposioHQ/composio",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-langfuse-book-factory-003",
+      "locator": "langfuse/langfuse",
+      "role": "Agent observability, eval and prompt-management donor",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_when_needed",
+      "notes": "High-potential donor for future agent observability, but licensing and maintenance scope need separate review before admission.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/langfuse/langfuse",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-n8n-book-factory-003",
+      "locator": "n8n-io/n8n",
+      "role": "General automation and integration workflow donor",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_when_needed",
+      "notes": "Proven broad ecosystem tool. Keep as a future bounded pilot only; ABVX should not import it as a general workflow engine prematurely.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/n8n-io/n8n",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-twenty-book-factory-003",
+      "locator": "twentyhq/twenty",
+      "role": "Open CRM donor candidate for future Opportunity Engine work",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_when_needed",
+      "notes": "One of the stronger current CRM candidates, but the source PDF overstates the 1:1 Salesforce replacement claim.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/twentyhq/twenty",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-listmonk-book-factory-003",
+      "locator": "knadh/listmonk",
+      "role": "Self-hosted email distribution donor",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_when_needed",
+      "notes": "Strong future donor for owned mailing-list and newsletter distribution once audience operations justify it.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/knadh/listmonk",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-presenton-book-factory-003",
+      "locator": "presenton/presenton",
+      "role": "AI presentation generation donor",
+      "evaluation_status": "evaluated",
+      "approval_status": "reference_only",
+      "notes": "Interesting presentation generator, but ABVX already has a narrower donor direction through Codex Slides for real deck needs.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/presenton/presenton",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-awesome-mcp-servers-book-factory-003",
+      "locator": "punkpeye/awesome-mcp-servers",
+      "role": "Discovery catalog for MCP-based tool and data integrations",
+      "evaluation_status": "evaluated",
+      "approval_status": "reference_only",
+      "notes": "Useful discovery surface for future bounded integration work. Not a direct donor product.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/punkpeye/awesome-mcp-servers",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    }
+  ]
+}
