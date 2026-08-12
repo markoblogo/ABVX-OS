@@ -127,19 +127,30 @@
       "id": "gap-book-factory",
       "capability": "Book Factory",
       "what_abvx_already_has": [
+        "universal artifact intake",
+        "project registries",
+        "human approval boundaries",
         "Cortex context retrieval",
         "content asset concepts",
-        "editorial workflow experience"
+        "editorial workflow experience",
+        "content ops control-plane patterns"
       ],
       "plausible_donors": [
-        "UNRECORDED in current ABVX evidence"
+        "vpuna/markdown-to-book",
+        "ekr0/auto-kdp",
+        "wesleyscholl/book-generator",
+        "alexeygrigorev/ai-book-generator",
+        "hydropix/TranslateBooksWithLLMs",
+        "KazKozDev/book-translator",
+        "RemiPelloux/agent-mangaka-forge",
+        "lhfer/codex-novel-to-comic-studio"
       ],
       "must_not_build_custom_before_donor_review": [
         "full publishing pipeline",
         "general authoring platform",
         "asset transformation factory"
       ],
-      "next_real_trigger": "A real book-production workflow repeats often enough to justify reusable tooling."
+      "next_real_trigger": "A human-approved BookSpec and deterministic package pilot justify the next narrow implementation slice."
     },
     {
       "id": "gap-project-intelligence",

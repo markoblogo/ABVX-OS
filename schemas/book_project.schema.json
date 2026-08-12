@@ -1,0 +1,281 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-project/v1",
+  "title": "ABVX Book Project",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "objective",
+    "status",
+    "lifecycle_stage",
+    "content_origin",
+    "publication_form",
+    "cost_preference",
+    "canonical_manuscript",
+    "format_artifacts",
+    "edition_states",
+    "selected_source_pack_id",
+    "selected_donor_profile",
+    "related_projects",
+    "intake_item_ids",
+    "context_request_ids",
+    "human_gates",
+    "readiness",
+    "known_gaps",
+    "next_action",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "objective": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": [
+        "INTAKE_ACCEPTED",
+        "READY_FOR_BOOK_SPEC",
+        "WAITING_FOR_HUMAN",
+        "BLOCKED",
+        "DEFERRED",
+        "ARCHIVED"
+      ]
+    },
+    "lifecycle_stage": {
+      "enum": [
+        "SOURCE",
+        "CONCEPT",
+        "BOOK_SPEC",
+        "OUTLINE",
+        "MANUSCRIPT",
+        "EDITORIAL_QA",
+        "ASSETS",
+        "KDP_PACKAGE",
+        "SUBMISSION",
+        "POST_PUBLISH"
+      ]
+    },
+    "content_origin": {
+      "enum": ["ORIGINAL", "DERIVED", "TRANSLATION"]
+    },
+    "publication_form": {
+      "enum": ["PROSE_BOOK", "ILLUSTRATED_BOOK", "COMIC", "MANGA", "WEBTOON"]
+    },
+    "cost_preference": {
+      "enum": ["FREE_FIRST", "BALANCED", "QUALITY_FIRST"]
+    },
+    "canonical_manuscript": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "locator", "readiness_state"],
+      "properties": {
+        "version": { "type": "string", "minLength": 1 },
+        "locator": { "type": ["string", "null"] },
+        "readiness_state": {
+          "enum": ["NOT_CREATED", "DRAFT", "READY", "BLOCKED", "ARCHIVED"]
+        },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+    "format_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "artifact_id",
+          "source_manuscript_version",
+          "format",
+          "generated_at",
+          "validation_status",
+          "provenance_classification",
+          "file_ref",
+          "readiness_state"
+        ],
+        "properties": {
+          "artifact_id": { "type": "string", "minLength": 1 },
+          "source_manuscript_version": { "type": "string", "minLength": 1 },
+          "format": {
+            "enum": [
+              "KINDLE_REFLOWABLE",
+              "PAPERBACK_INTERIOR",
+              "HARDCOVER_INTERIOR",
+              "EPUB",
+              "PRINT_COVER",
+              "EBOOK_COVER"
+            ]
+          },
+          "generated_at": { "type": ["string", "null"], "format": "date-time" },
+          "validation_status": {
+            "enum": ["NOT_STARTED", "PARTIAL", "PASSED", "FAILED", "BLOCKED"]
+          },
+          "provenance_classification": {
+            "enum": [
+              "HUMAN",
+              "AI_ASSISTED",
+              "AI_GENERATED",
+              "TRANSLATED",
+              "SOURCE_DERIVED",
+              "HUMAN_TRANSLATED",
+              "AI_TRANSLATED",
+              "AI_ASSISTED_TRANSLATION",
+              "HUMAN_REVISED_AI_TRANSLATION",
+              "UNKNOWN"
+            ]
+          },
+          "file_ref": { "type": ["string", "null"] },
+          "readiness_state": {
+            "enum": ["NOT_CREATED", "DRAFT", "READY", "BLOCKED", "ARCHIVED"]
+          },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "edition_states": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "format",
+          "publication_state",
+          "qa_boundary",
+          "automation_policy",
+          "waiting_state"
+        ],
+        "properties": {
+          "format": {
+            "enum": [
+              "KINDLE_REFLOWABLE",
+              "PAPERBACK_INTERIOR",
+              "HARDCOVER_INTERIOR",
+              "EPUB"
+            ]
+          },
+          "publication_state": {
+            "enum": [
+              "NOT_CREATED",
+              "DRAFT",
+              "READY_FOR_SUBMISSION",
+              "SUBMITTED",
+              "IN_REVIEW",
+              "LIVE",
+              "BLOCKED",
+              "UNPUBLISHED",
+              "UPDATE_PENDING"
+            ]
+          },
+          "external_state": { "type": ["string", "null"] },
+          "qa_boundary": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "automation_policy": {
+            "enum": ["SUPERVISED_ONLY", "NO_AUTOMATION"]
+          },
+          "waiting_state": {
+            "enum": ["NONE", "WAITING_EXTERNAL", "WAITING_HUMAN"]
+          },
+          "next_action": { "type": ["string", "null"] },
+          "blocked_fail_closed": { "type": "boolean" },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "selected_source_pack_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selected_donor_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "planning",
+        "manuscript",
+        "translation",
+        "visual_narrative",
+        "compilation",
+        "submission"
+      ],
+      "properties": {
+        "planning": { "type": "string", "minLength": 1 },
+        "manuscript": { "type": "string", "minLength": 1 },
+        "translation": { "type": "string", "minLength": 1 },
+        "visual_narrative": { "type": "string", "minLength": 1 },
+        "compilation": { "type": "string", "minLength": 1 },
+        "submission": { "type": "string", "minLength": 1 }
+      }
+    },
+    "related_projects": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "intake_item_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "context_request_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "human_gates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["stage", "required", "state", "rule"],
+        "properties": {
+          "stage": { "type": "string", "minLength": 1 },
+          "required": { "type": "boolean" },
+          "state": {
+            "enum": ["OPEN", "APPROVED", "REJECTED", "NOT_YET_REACHED"]
+          },
+          "rule": { "type": "string", "minLength": 1 },
+          "decision_ref": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "readiness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_pack",
+        "positioning",
+        "outline_seed",
+        "manuscript_seed",
+        "translation_readiness",
+        "visual_bible",
+        "cover_strategy",
+        "format_artifacts",
+        "kdp_metadata",
+        "disclosure_policy"
+      ],
+      "properties": {
+        "source_pack": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "positioning": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "outline_seed": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "manuscript_seed": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "translation_readiness": { "enum": ["NOT_APPLICABLE", "READY", "PARTIAL", "MISSING"] },
+        "visual_bible": { "enum": ["NOT_APPLICABLE", "READY", "PARTIAL", "MISSING"] },
+        "cover_strategy": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "format_artifacts": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "kdp_metadata": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "disclosure_policy": { "enum": ["READY", "PARTIAL", "MISSING"] }
+      }
+    },
+    "known_gaps": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "next_action": { "type": "string", "minLength": 1 },
+    "provenance": {
+      "$ref": "evidence.schema.json#/$defs/provenance"
+    }
+  }
+}

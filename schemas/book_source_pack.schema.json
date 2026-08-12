@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-source-pack/v1",
+  "title": "ABVX Book Source Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "title",
+    "book_project_id",
+    "status",
+    "sources",
+    "rights_review",
+    "disclosure",
+    "coverage",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "book_project_id": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": ["DRAFT", "READY_FOR_BOOK_SPEC", "BLOCKED", "ARCHIVED"]
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "locator",
+          "role",
+          "admission",
+          "rights_basis",
+          "extraction_status",
+          "allowed_use"
+        ],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "type": {
+            "enum": [
+              "INTAKE_ITEM",
+              "CONTENT_ITEM",
+              "CONTEXT_REQUEST",
+              "CONTEXT_PACK",
+              "REFERENCE",
+              "PUBLIC_SURFACE",
+              "OWNER_NOTE",
+              "MARKDOWN",
+              "TXT",
+              "PDF",
+              "DOCX",
+              "EPUB",
+              "IMAGE",
+              "URL"
+            ]
+          },
+          "locator": { "type": "string", "minLength": 1 },
+          "role": { "type": "string", "minLength": 1 },
+          "admission": {
+            "enum": ["ADMITTED", "CONDITIONAL", "REFERENCE_ONLY", "EXCLUDED"]
+          },
+          "rights_basis": {
+            "enum": [
+              "OWNER_ORIGINATED",
+              "OWNER_APPROVED",
+              "PUBLIC_REFERENCE_ONLY",
+              "UNKNOWN"
+            ]
+          },
+          "extraction_status": {
+            "enum": ["NOT_REQUIRED", "NOT_STARTED", "PARTIAL", "EXTRACTED", "BLOCKED"]
+          },
+          "allowed_use": {
+            "enum": [
+              "REFERENCE_ONLY",
+              "QUOTE_WITH_ATTRIBUTION",
+              "TRANSFORM_ALLOWED",
+              "VISUAL_REFERENCE_ONLY",
+              "UNKNOWN"
+            ]
+          },
+          "relevant_book_sections": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "confidence_quality_notes": {
+            "type": ["string", "null"]
+          },
+          "notes": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "rights_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "blocking_issues"],
+      "properties": {
+        "status": { "enum": ["CLEAR", "MIXED", "UNKNOWN", "BLOCKED"] },
+        "blocking_issues": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "disclosure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ai_generated_inputs_present", "translation_inputs_present", "visual_generation_inputs_present", "kdp_disclosure_requirement", "constraints"],
+      "properties": {
+        "ai_generated_inputs_present": { "type": "boolean" },
+        "translation_inputs_present": { "type": "boolean" },
+        "visual_generation_inputs_present": { "type": "boolean" },
+        "kdp_disclosure_requirement": {
+          "enum": ["YES", "NO", "UNKNOWN"]
+        },
+        "constraints": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "concept",
+        "case_studies",
+        "structure_seed",
+        "author_voice_seed",
+        "translation_seed",
+        "visual_seed"
+      ],
+      "properties": {
+        "concept": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "case_studies": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "structure_seed": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "author_voice_seed": { "enum": ["READY", "PARTIAL", "MISSING"] },
+        "translation_seed": { "enum": ["NOT_APPLICABLE", "READY", "PARTIAL", "MISSING"] },
+        "visual_seed": { "enum": ["READY", "PARTIAL", "MISSING"] }
+      }
+    },
+    "provenance": {
+      "$ref": "evidence.schema.json#/$defs/provenance"
+    }
+  }
+}

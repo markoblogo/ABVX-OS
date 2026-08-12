@@ -1,0 +1,118 @@
+{
+  "schema_version": "v1",
+  "id": "unusual-indices-book-source-pack",
+  "title": "Unusual Indices — Edition 1 source pack",
+  "book_project_id": "unusual-indices-book",
+  "status": "READY_FOR_BOOK_SPEC",
+  "sources": [
+    {
+      "id": "pop-development-idea",
+      "type": "INTAKE_ITEM",
+      "locator": "intake/items/pop-development-idea.json",
+      "role": "Primary owner intent linking POP, external index collection, free guide and later paid book.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_ORIGINATED",
+      "extraction_status": "NOT_REQUIRED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": ["book thesis", "positioning", "chapter candidates"],
+      "confidence_quality_notes": "Strong owner-intent signal; not manuscript prose.",
+      "notes": null
+    },
+    {
+      "id": "unusual-indices-book-request",
+      "type": "CONTEXT_REQUEST",
+      "locator": "context/requests/unusual-indices-book.json",
+      "role": "Bounded retrieval contract for future book preparation context.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_ORIGINATED",
+      "extraction_status": "NOT_REQUIRED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": ["concept prep", "outline prep"],
+      "confidence_quality_notes": "Operational retrieval contract, not publishable source text.",
+      "notes": null
+    },
+    {
+      "id": "unusual-indices-book-pack",
+      "type": "CONTEXT_PACK",
+      "locator": "evidence/context-packs/unusual-indices-book.json",
+      "role": "Existing evidence-backed context pack for unusual-indices book preparation.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_ORIGINATED",
+      "extraction_status": "EXTRACTED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": ["case-study pool", "project proof", "author context"],
+      "confidence_quality_notes": "Useful synthesis artifact but still requires human narrowing.",
+      "notes": null
+    },
+    {
+      "id": "cigarette-index-note",
+      "type": "CONTENT_ITEM",
+      "locator": "content/items/content-publish-003-1d3x-popindex-ciggie.json",
+      "role": "Owner-approved case-study seed and public proof of unusual-index framing.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_APPROVED",
+      "extraction_status": "EXTRACTED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": ["Ciggie Index chapter", "opening examples"],
+      "confidence_quality_notes": "High-value seed; still a short article rather than chapter-ready manuscript content.",
+      "notes": null
+    },
+    {
+      "id": "external-cig-index",
+      "type": "REFERENCE",
+      "locator": "registries/external-candidates/index.json#external-cig-index",
+      "role": "Reference example for one chapter/case-study family only.",
+      "admission": "REFERENCE_ONLY",
+      "rights_basis": "PUBLIC_REFERENCE_ONLY",
+      "extraction_status": "NOT_REQUIRED",
+      "allowed_use": "REFERENCE_ONLY",
+      "relevant_book_sections": ["external examples"],
+      "confidence_quality_notes": "Reference for facts and framing only.",
+      "notes": "Do not copy implementation or external copy into the manuscript."
+    },
+    {
+      "id": "pop-live-surface",
+      "type": "PUBLIC_SURFACE",
+      "locator": "https://pop.1d3x.com/",
+      "role": "Live proof that the owner already operates an index-laboratory surface relevant to the book thesis.",
+      "admission": "CONDITIONAL",
+      "rights_basis": "PUBLIC_REFERENCE_ONLY",
+      "extraction_status": "NOT_STARTED",
+      "allowed_use": "VISUAL_REFERENCE_ONLY",
+      "relevant_book_sections": ["author proof", "case-study screenshots"],
+      "confidence_quality_notes": "Needs explicit screenshot/asset review before package use.",
+      "notes": "Use as proof/context and screenshots only after explicit rights/asset review."
+    }
+  ],
+  "rights_review": {
+    "status": "MIXED",
+    "blocking_issues": [
+      "External index examples are reference material, not reusable manuscript text.",
+      "Screenshot and trademark use for third-party examples must be reviewed before packaging.",
+      "Derived-book assembly does not imply rights to reuse third-party visuals embedded in source surfaces."
+    ]
+  },
+  "disclosure": {
+    "ai_generated_inputs_present": true,
+    "translation_inputs_present": false,
+    "visual_generation_inputs_present": false,
+    "kdp_disclosure_requirement": "YES",
+    "constraints": [
+      "ABVX may assist with planning, review and packaging, but human approval is required before manuscript and submission stages.",
+      "Source provenance must distinguish owner-authored material from AI-assisted transformations and external references."
+    ]
+  },
+  "coverage": {
+    "concept": "READY",
+    "case_studies": "PARTIAL",
+    "structure_seed": "PARTIAL",
+    "author_voice_seed": "READY",
+    "translation_seed": "NOT_APPLICABLE",
+    "visual_seed": "MISSING"
+  },
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-001",
+    "source_uri": null,
+    "observed_at": "2026-08-12T00:00:00Z"
+  }
+}

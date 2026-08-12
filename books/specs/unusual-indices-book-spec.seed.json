@@ -1,0 +1,180 @@
+{
+  "schema_version": "v1",
+  "book_id": "unusual-indices-book",
+  "title": "Unusual Indices",
+  "subtitle": "How strange comparisons make complex realities readable",
+  "author": "Anton BV",
+  "language": "English",
+  "content_origin": "DERIVED",
+  "publication_form": "PROSE_BOOK",
+  "book_type": "NONFICTION",
+  "source_language": "English",
+  "target_language": "English",
+  "audience": "Readers interested in market intuition, public metrics, economic comparisons and index design.",
+  "positioning": "A short, readable nonfiction book that uses unusual indices to explain why metrics become powerful when they translate abstract systems into felt comparisons.",
+  "description": "Edition-1 seed only. This is a bounded BookSpec draft for narrowing scope before any manuscript generation or KDP packaging.",
+  "source_pack_id": "unusual-indices-book-source-pack",
+  "source_policy": "Owner-originated material and approved ABVX content may be transformed. Third-party examples remain reference-only unless separately cleared.",
+  "citation_policy": "Non-obvious factual or historical claims should trace to explicit sources; external index descriptions should retain source provenance.",
+  "target_words": 22000,
+  "target_pages": 120,
+  "trim_size": "5x8",
+  "chapter_count": 8,
+  "outline": [
+    {
+      "index": 1,
+      "title": "Why unusual indices matter",
+      "status": "SEED",
+      "notes": "Establish thesis and reader promise."
+    },
+    {
+      "index": 2,
+      "title": "What makes an index readable",
+      "status": "SEED",
+      "notes": "Bridge SPIKE/POP methodology to consumer understanding."
+    },
+    {
+      "index": 3,
+      "title": "The Ciggie Index and intuitive public health translation",
+      "status": "SEED",
+      "notes": "Use existing Ciggie/PopIndex material as one case-study family."
+    },
+    {
+      "index": 4,
+      "title": "Everyday products as cross-city comparisons",
+      "status": "SEED",
+      "notes": "Big Mac, latte, iPhone and related POP surfaces."
+    },
+    {
+      "index": 5,
+      "title": "When an index enlightens and when it manipulates",
+      "status": "SEED",
+      "notes": "Method limits and misuse."
+    },
+    {
+      "index": 6,
+      "title": "How to build a memorable index",
+      "status": "SEED",
+      "notes": "Practical design principles."
+    },
+    {
+      "index": 7,
+      "title": "A small library of provocative comparisons",
+      "status": "SEED",
+      "notes": "Future expansion chapter fed by curated cases."
+    },
+    {
+      "index": 8,
+      "title": "Why readable measures change decisions",
+      "status": "SEED",
+      "notes": "Close on interpretation and use."
+    }
+  ],
+  "illustration_policy": "No custom illustration generation yet. Prefer text-first edition with charts/screenshots only after explicit rights review.",
+  "voice_style_constraints": [
+    "clear",
+    "non-academic",
+    "evidence-backed",
+    "avoid generic AI exposition",
+    "preserve owner analytical voice"
+  ],
+  "formats": [
+    "EPUB",
+    "PAPERBACK_PDF"
+  ],
+  "format_specific_qa": [
+    {
+      "format": "KINDLE_REFLOWABLE",
+      "checks": [
+        "reflowability",
+        "heading/navigation integrity",
+        "paragraph/list rendering",
+        "image behavior",
+        "Kindle suitability",
+        "preview validation"
+      ]
+    },
+    {
+      "format": "PAPERBACK_INTERIOR",
+      "checks": [
+        "trim size",
+        "margins/gutter",
+        "pagination",
+        "image resolution"
+      ]
+    },
+    {
+      "format": "PRINT_COVER",
+      "checks": [
+        "cover dimensions",
+        "bleed",
+        "print cover alignment",
+        "image resolution"
+      ]
+    }
+  ],
+  "translation": {
+    "mode": "NOT_APPLICABLE",
+    "source_edition": null,
+    "translation_method": "UNKNOWN",
+    "translation_provider": null,
+    "translation_model": null,
+    "glossary": [],
+    "proper_name_policy": "Not applicable for the seed edition because source and target language are the same.",
+    "terminology_memory": null,
+    "style_voice_instructions": [],
+    "segment_progress": {
+      "completed": 0,
+      "total": 0
+    },
+    "resume_checkpoint_state": null,
+    "human_reviewed_sections": [],
+    "qa_status": "NOT_APPLICABLE",
+    "rights_status": "MIXED"
+  },
+  "visual_narrative": {
+    "mode": "NOT_APPLICABLE",
+    "script_source": "ADAPTED_FROM_PROSE",
+    "text_layer_policy": "SEPARATE_STRUCTURED_TEXT_REQUIRED",
+    "visual_bible_status": "NOT_APPLICABLE",
+    "character_consistency_strategy": null,
+    "page_plan_status": "NOT_APPLICABLE",
+    "lettering_strategy": "UNKNOWN",
+    "reading_direction": "LEFT_TO_RIGHT",
+    "export_targets": []
+  },
+  "execution_cost": {
+    "cost_preference": "FREE_FIRST",
+    "preferred_runtime_cost": "FREE_LOCAL",
+    "notes": "Packaging pilot should prefer free/local where quality is acceptable."
+  },
+  "kdp_metadata": {
+    "keywords": [
+      "indices",
+      "metrics",
+      "economic comparisons",
+      "data interpretation"
+    ],
+    "categories": [
+      "Business Economics",
+      "Data Visualization"
+    ],
+    "ai_disclosure": "REQUIRED"
+  },
+  "provenance_breakdown": {
+    "manuscript_text": "AI_ASSISTED",
+    "translation": "UNKNOWN",
+    "cover": "UNKNOWN",
+    "interior_illustrations": "UNKNOWN",
+    "diagrams": "UNKNOWN",
+    "appendices": "AI_ASSISTED"
+  },
+  "current_state": "CONCEPT_DRAFT",
+  "human_approval_state": "NOT_SUBMITTED",
+  "expected_outcome": "Approve or reject Edition-1 scope before any outline/manuscript execution.",
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-001",
+    "source_uri": null,
+    "observed_at": "2026-08-12T00:00:00Z"
+  }
+}

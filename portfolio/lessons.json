@@ -2,6 +2,20 @@
   "schema_version": "v1",
   "entries": [
     {
+      "id": "book-factory-format-specific-kdp-state",
+      "originating_project": "book-factory",
+      "originating_mission": "BOOK-FACTORY-001B",
+      "observed_need": "A single title can be simultaneously LIVE in paperback, BLOCKED in Kindle and NOT_CREATED in hardcover, so Book Factory must track format artifacts, format-specific QA and per-format publication state independently.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": [
+        "books/projects/fragments-therapists-notebook.json",
+        "docs/audits/book-factory-001-donor-audit-architecture-intake.md"
+      ],
+      "candidate_capability": "format_specific_book_artifacts_and_publication_state",
+      "recommended_action": "Keep format publication fail-closed and supervised; never create duplicate editions or infer total-project failure from one blocked format.",
+      "status": "recorded"
+    },
+    {
       "id": "coqpi-mission-gates-integrity",
       "originating_project": "coqpi",
       "originating_mission": "PROJECT-ONBOARDING-001 / COQPI-002",

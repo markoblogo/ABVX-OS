@@ -1,0 +1,213 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "external-vpuna-markdown-to-book",
+      "locator": "vpuna/markdown-to-book",
+      "role": "Deterministic markdown-to-KDP-format compilation donor",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_now",
+      "notes": "Best current compilation donor. Small Node CLI, MIT-licensed, deterministic Pandoc/LaTeX seam, and directly relevant to EPUB/paperback/hardcover packaging.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001",
+        "source_uri": "https://github.com/vpuna/markdown-to-book",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-ekr0-auto-kdp",
+      "locator": "ekr0/auto-kdp",
+      "role": "Supervised future KDP browser-submission adapter donor",
+      "evaluation_status": "evaluated",
+      "approval_status": "pilot_later",
+      "notes": "Relevant only for a later supervised submission boundary. It automates the brittle KDP UI and must not become autonomous publish logic.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001",
+        "source_uri": "https://github.com/ekr0/auto-kdp",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-wesleyscholl-book-generator",
+      "locator": "wesleyscholl/book-generator",
+      "role": "Book-generation shell workflow pattern source",
+      "evaluation_status": "evaluated",
+      "approval_status": "pattern_source",
+      "notes": "Useful orchestration, chapter-extension and compile-flow patterns, but heavy shell/runtime coupling and no clear license for code adoption.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001",
+        "source_uri": "https://github.com/wesleyscholl/book-generator",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-alexeygrigorev-ai-book-generator",
+      "locator": "alexeygrigorev/ai-book-generator",
+      "role": "Structured planning/workspace pattern source for future book-production pilots",
+      "evaluation_status": "evaluated",
+      "approval_status": "pattern_source",
+      "notes": "Strong plan/workspace models and KDP packaging scripts, but heavy provider/runtime stack and no clear license for code adoption.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001",
+        "source_uri": "https://github.com/alexeygrigorev/ai-book-generator",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-b7011343-kdp-gpt",
+      "locator": "b7011343/kdp-gpt",
+      "role": "Minimal legacy reference for prompt-to-pdf KDP generation",
+      "evaluation_status": "evaluated",
+      "approval_status": "rejected",
+      "notes": "Too thin and outdated to justify adoption. It does not provide the control, provenance or packaging boundaries ABVX needs.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001",
+        "source_uri": "https://github.com/b7011343/kdp-gpt",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-finxter-awesome-ai-book-writing",
+      "locator": "finxter/awesome-ai-book-writing",
+      "role": "Reference catalog for future book-workflow donor discovery",
+      "evaluation_status": "evaluated",
+      "approval_status": "reference_only",
+      "notes": "Useful discovery list, not an implementation donor.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001",
+        "source_uri": "https://github.com/finxter/awesome-ai-book-writing",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-gcui-art-awesome-ai-writing",
+      "locator": "gcui-art/awesome-ai-writing",
+      "role": "Reference catalog for broad AI-writing landscape only",
+      "evaluation_status": "evaluated",
+      "approval_status": "reference_only",
+      "notes": "Broad category list; too generic for concrete Book Factory adoption decisions.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001",
+        "source_uri": "https://github.com/gcui-art/awesome-ai-writing",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-hydropix-translate-books-with-llms",
+      "locator": "hydropix/TranslateBooksWithLLMs",
+      "role": "Translation workflow donor with provider abstraction, formatting preservation, glossary and resume support",
+      "evaluation_status": "evaluated",
+      "approval_status": "conditional",
+      "notes": "Strongest current translation workflow donor for future pilot. Real implementation with EPUB/DOCX/TXT support, checkpoints, glossary/state management and local/cloud provider flexibility.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/hydropix/TranslateBooksWithLLMs",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-kazkozdev-book-translator",
+      "locator": "KazKozDev/book-translator",
+      "role": "Offline-first long-book translation donor with terminology, cache and staged QA",
+      "evaluation_status": "evaluated",
+      "approval_status": "conditional",
+      "notes": "Strong local/Ollama-first translation candidate with terminology manager, translation cache and staged review. More opinionated and heavier than hydropix, but strongest free/local pattern source.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/KazKozDev/book-translator",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-viacheslavsysoev-perevodnik",
+      "locator": "ViacheslavSysoev/perevodnik",
+      "role": "Translation reference candidate",
+      "evaluation_status": "evaluated",
+      "approval_status": "rejected",
+      "notes": "Repository exists but offers weaker observable architecture and contract boundaries than the stronger translation candidates audited here.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/ViacheslavSysoev/perevodnik",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-ddchen666-translate-book",
+      "locator": "DDChen666/translate-book",
+      "role": "Skill-style translation workflow donor with provider abstraction and QA reports",
+      "evaluation_status": "evaluated",
+      "approval_status": "conditional",
+      "notes": "Commercially restricted license and skill-oriented packaging make it unsuitable for direct adoption, but it is a useful pattern source for two-pass review, glossary/style guides and report generation.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/DDChen666/translate-book",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-remipelloux-agent-mangaka-forge",
+      "locator": "RemiPelloux/agent-mangaka-forge",
+      "role": "Character-consistency and img-memory pattern donor for manga/comic production",
+      "evaluation_status": "evaluated",
+      "approval_status": "conditional",
+      "notes": "Strongest current character-consistency donor. Not a full comic factory, but an excellent reusable pattern for visual memory, variants/evolutions and fail-closed reference gating.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/RemiPelloux/agent-mangaka-forge",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-lhfer-codex-novel-to-comic-studio",
+      "locator": "lhfer/codex-novel-to-comic-studio",
+      "role": "Recoverable novel-to-comic pipeline pattern donor",
+      "evaluation_status": "evaluated",
+      "approval_status": "conditional",
+      "notes": "Strongest end-to-end comic architecture pattern. Valuable for future contracts around script, storyboard, lettering, QC and PDF/CBZ packaging.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/lhfer/codex-novel-to-comic-studio",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-jbilcke-hf-ai-comic-factory",
+      "locator": "jbilcke-hf/ai-comic-factory",
+      "role": "Comic generation app reference with panel/speech types and provider options",
+      "evaluation_status": "evaluated",
+      "approval_status": "not_approved",
+      "notes": "Interesting demo/app, but too dependent on external rendering stack and not strong enough as a recoverable production donor.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/jbilcke-hf/ai-comic-factory",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-yutarop-comic-generator",
+      "locator": "Yutarop/comic-generator",
+      "role": "Manga generation demo reference",
+      "evaluation_status": "evaluated",
+      "approval_status": "not_approved",
+      "notes": "Useful as a simple demo of page chaining and optional character reference, but not a sufficient production donor for resumable or editable visual storytelling.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/Yutarop/comic-generator",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
+      "id": "external-llamagenai",
+      "locator": "LlamaGenAI/LlamaGenAI",
+      "role": "Comic generation API reference",
+      "evaluation_status": "evaluated",
+      "approval_status": "rejected",
+      "notes": "Observed repository is essentially API/marketing documentation, not a meaningful open implementation donor.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-001A",
+        "source_uri": "https://github.com/LlamaGenAI/LlamaGenAI",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    }
+  ]
+}

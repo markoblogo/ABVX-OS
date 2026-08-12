@@ -207,6 +207,21 @@ def validate_repository(root: Path) -> list[str]:
         for path in sorted((root / "evidence" / "context-packs").glob("*.json")):
             validate(load_json(path), load_json(context_pack_schema_path), schema_path=context_pack_schema_path, root=root, location=str(path))
             checked.append(str(path.relative_to(root)))
+    book_project_schema_path = root / "schemas" / "book_project.schema.json"
+    if book_project_schema_path.is_file():
+        for path in sorted((root / "books" / "projects").glob("*.json")):
+            validate(load_json(path), load_json(book_project_schema_path), schema_path=book_project_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
+    book_source_pack_schema_path = root / "schemas" / "book_source_pack.schema.json"
+    if book_source_pack_schema_path.is_file():
+        for path in sorted((root / "books" / "source-packs").glob("*.json")):
+            validate(load_json(path), load_json(book_source_pack_schema_path), schema_path=book_source_pack_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
+    book_spec_schema_path = root / "schemas" / "book_spec.schema.json"
+    if book_spec_schema_path.is_file():
+        for path in sorted((root / "books" / "specs").glob("*.json")):
+            validate(load_json(path), load_json(book_spec_schema_path), schema_path=book_spec_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
     return checked
 
 

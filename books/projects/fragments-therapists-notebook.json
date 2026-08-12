@@ -1,0 +1,158 @@
+{
+  "schema_version": "v1",
+  "id": "fragments-therapists-notebook",
+  "title": "Fragments from a Therapist's Notebook",
+  "objective": "Represent a real multi-format KDP title where paperback is live while Kindle remains blocked and hardcover has not been created.",
+  "status": "WAITING_FOR_HUMAN",
+  "lifecycle_stage": "POST_PUBLISH",
+  "content_origin": "ORIGINAL",
+  "publication_form": "PROSE_BOOK",
+  "cost_preference": "BALANCED",
+  "canonical_manuscript": {
+    "version": "canonical-manuscript-v1",
+    "locator": null,
+    "readiness_state": "READY",
+    "notes": "A page-oriented canonical manuscript exists, but it is not suitable for Kindle reflow without a format-specific derivative."
+  },
+  "format_artifacts": [
+    {
+      "artifact_id": "paperback-interior-v1",
+      "source_manuscript_version": "canonical-manuscript-v1",
+      "format": "PAPERBACK_INTERIOR",
+      "generated_at": null,
+      "validation_status": "PASSED",
+      "provenance_classification": "HUMAN",
+      "file_ref": null,
+      "readiness_state": "READY",
+      "notes": "Paperback publication succeeded."
+    },
+    {
+      "artifact_id": "kindle-reflowable-v1-original",
+      "source_manuscript_version": "canonical-manuscript-v1",
+      "format": "KINDLE_REFLOWABLE",
+      "generated_at": null,
+      "validation_status": "FAILED",
+      "provenance_classification": "HUMAN",
+      "file_ref": null,
+      "readiness_state": "BLOCKED",
+      "notes": "Original Kindle manuscript was blocked because page-oriented formatting was unsuitable for Kindle reading."
+    },
+    {
+      "artifact_id": "kindle-reflowable-v2-corrected",
+      "source_manuscript_version": "canonical-manuscript-v1",
+      "format": "KINDLE_REFLOWABLE",
+      "generated_at": null,
+      "validation_status": "PARTIAL",
+      "provenance_classification": "HUMAN",
+      "file_ref": null,
+      "readiness_state": "READY",
+      "notes": "Corrected Kindle-specific manuscript exists, but cannot be applied while the blocked edition remains uneditable."
+    },
+    {
+      "artifact_id": "hardcover-interior-v0",
+      "source_manuscript_version": "canonical-manuscript-v1",
+      "format": "HARDCOVER_INTERIOR",
+      "generated_at": null,
+      "validation_status": "NOT_STARTED",
+      "provenance_classification": "UNKNOWN",
+      "file_ref": null,
+      "readiness_state": "NOT_CREATED",
+      "notes": "Hardcover edition has not been created."
+    }
+  ],
+  "edition_states": [
+    {
+      "format": "PAPERBACK_INTERIOR",
+      "publication_state": "LIVE",
+      "external_state": null,
+      "qa_boundary": [
+        "trim size",
+        "margins/gutter",
+        "pagination",
+        "print suitability"
+      ],
+      "automation_policy": "SUPERVISED_ONLY",
+      "waiting_state": "NONE",
+      "next_action": null,
+      "blocked_fail_closed": true,
+      "notes": "Live paperback edition is healthy and must not be disturbed by Kindle recovery work."
+    },
+    {
+      "format": "KINDLE_REFLOWABLE",
+      "publication_state": "BLOCKED",
+      "external_state": "CONTENT_REVIEW_ESCALATED",
+      "qa_boundary": [
+        "reflowability",
+        "heading/navigation integrity",
+        "paragraph/list rendering",
+        "Kindle suitability",
+        "preview validation"
+      ],
+      "automation_policy": "SUPERVISED_ONLY",
+      "waiting_state": "WAITING_EXTERNAL",
+      "next_action": "Wait for KDP Content Review email response; do not create duplicate edition or unpublish paperback.",
+      "blocked_fail_closed": true,
+      "notes": "A blocked Kindle edition is not editable at present."
+    },
+    {
+      "format": "HARDCOVER_INTERIOR",
+      "publication_state": "NOT_CREATED",
+      "external_state": null,
+      "qa_boundary": [
+        "trim size",
+        "margins/gutter",
+        "hardcover cover dimensions",
+        "print suitability"
+      ],
+      "automation_policy": "SUPERVISED_ONLY",
+      "waiting_state": "NONE",
+      "next_action": null,
+      "blocked_fail_closed": true,
+      "notes": null
+    }
+  ],
+  "selected_source_pack_id": null,
+  "selected_donor_profile": {
+    "planning": "legacy title; planning donor not applicable",
+    "manuscript": "legacy manuscript lineage; runtime donor not applicable",
+    "translation": "not applicable",
+    "visual_narrative": "not applicable",
+    "compilation": "format-specific artifact lesson only",
+    "submission": "supervised only"
+  },
+  "related_projects": [],
+  "intake_item_ids": [],
+  "context_request_ids": [],
+  "human_gates": [
+    {
+      "stage": "SUBMISSION",
+      "required": true,
+      "state": "OPEN",
+      "rule": "Any new format submission or blocked-edition recovery remains human-authorized and supervised.",
+      "decision_ref": null
+    }
+  ],
+  "readiness": {
+    "source_pack": "MISSING",
+    "positioning": "READY",
+    "outline_seed": "MISSING",
+    "manuscript_seed": "READY",
+    "translation_readiness": "NOT_APPLICABLE",
+    "visual_bible": "NOT_APPLICABLE",
+    "cover_strategy": "PARTIAL",
+    "format_artifacts": "PARTIAL",
+    "kdp_metadata": "PARTIAL",
+    "disclosure_policy": "READY"
+  },
+  "known_gaps": [
+    "Kindle-specific corrected manuscript cannot currently be applied because the blocked edition is uneditable.",
+    "Human/support escalation is the next action for Kindle.",
+    "Hardcover edition has not been created."
+  ],
+  "next_action": "Wait for external Content Review response and then decide the supervised Kindle recovery path format-by-format.",
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-001B",
+    "source_uri": null,
+    "observed_at": "2026-08-12T00:00:00Z"
+  }
+}
