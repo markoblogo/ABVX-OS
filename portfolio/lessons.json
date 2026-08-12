@@ -219,6 +219,22 @@
       "candidate_capability": "read_only_context_retrieval",
       "recommended_action": "Keep the bridge read-only and budgeted; next work should deepen the weakest upstream retrieval surface before broad consumer rollout.",
       "status": "recorded"
+    },
+    {
+      "id": "book-research-donor-intelligence-harvest",
+      "originating_project": "abvx-os",
+      "originating_mission": "DONOR-HARVEST-001",
+      "observed_need": "Repository research already paid for by a publication project can become reusable donor intelligence instead of being rediscovered during later adoption planning.",
+      "classification": "CAPABILITY_CANDIDATE",
+      "evidence_refs": [
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "docs/audits/donor-harvest-001.md",
+        "registries/donor-capability-matrix.json",
+        "registries/external-candidates/book-factory-003.json"
+      ],
+      "candidate_capability": "donor_intelligence_harvest",
+      "recommended_action": "When publication research yields bounded donor evidence, normalize it into the donor matrix and acceptance-test planning instead of paying for broad donor rediscovery a second time.",
+      "status": "recorded"
     }
   ]
 }

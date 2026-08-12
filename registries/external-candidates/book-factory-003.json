@@ -41,6 +41,19 @@
       }
     },
     {
+      "id": "external-activepieces-book-factory-003",
+      "locator": "activepieces/activepieces",
+      "role": "Automation and integration workflow donor with AI and MCP-oriented flow support",
+      "evaluation_status": "evaluated",
+      "approval_status": "reference_only",
+      "notes": "Useful comparison point against n8n for future bounded workflow-runtime work, but not justified as a parallel adoption target now.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-003",
+        "source_uri": "https://github.com/activepieces/activepieces",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
+    },
+    {
       "id": "external-n8n-book-factory-003",
       "locator": "n8n-io/n8n",
       "role": "General automation and integration workflow donor",

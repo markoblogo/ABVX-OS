@@ -305,25 +305,145 @@
       "id": "external-actions-agent-reach",
       "capability_area": "External actions/integrations",
       "candidate": "Agent-Reach",
-      "locator": null,
-      "status": "UNRECORDED",
-      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "locator": "Panniantong/Agent-Reach",
+      "status": "PILOT_NOW",
+      "target_capability": "External discovery/research sensor",
+      "adoption_form": "COMPONENT",
+      "timing": "PILOT_NOW",
+      "first_acceptance_test": "Bounded European agro-broker/company discovery mission that must produce normalized evidence objects from sources current ABVX search covers weakly.",
+      "evidence_basis": "BOOK-FACTORY-003 research harvested into donor adoption planning",
       "evidence_refs": [
-        "evidence/session-close/session-close-001.evidence.json"
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "registries/external-candidates/book-factory-003.json",
+        "registries/capability-gaps.json",
+        "docs/roadmap.md"
       ],
-      "notes": "No durable local review artifact found."
+      "notes": "Treat as an optional discovery component under ABVX/Cortex, not as a core dependency or action plane. Value is broader source reach; risk is scraping breakage plus auth/cookie/proxy burden."
     },
     {
       "id": "external-actions-composio",
       "capability_area": "External actions/integrations",
       "candidate": "Composio",
-      "locator": null,
-      "status": "UNRECORDED",
-      "evidence_basis": "session-close-001 found no canonical ABVX evidence",
+      "locator": "ComposioHQ/composio",
+      "status": "PILOT_WHEN_NEEDED",
+      "target_capability": "Authenticated external action substrate",
+      "adoption_form": "COMPONENT",
+      "timing": "DEFER",
+      "first_acceptance_test": "Only after one repeated Gmail/GitHub/calendar/CRM action loop cannot stay on existing MCP/connectors without unsafe duplication or friction.",
+      "evidence_basis": "BOOK-FACTORY-003 research plus donor-harvest comparison against current MCP/connectors",
       "evidence_refs": [
-        "evidence/session-close/session-close-001.evidence.json"
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "registries/external-candidates/book-factory-003.json",
+        "registries/capability-gaps.json"
       ],
-      "notes": "No durable local review artifact found."
+      "notes": "Current ABVX already has MCP/connectors for the near-term action surface. Do not add a second broad integration layer until a concrete repeated action workflow proves the gap."
+    },
+    {
+      "id": "observability-langfuse",
+      "capability_area": "Technical observability",
+      "candidate": "Langfuse",
+      "locator": "langfuse/langfuse",
+      "status": "PILOT_NOW",
+      "target_capability": "Agent and workflow trace observability",
+      "adoption_form": "COMPONENT",
+      "timing": "PILOT_NOW",
+      "first_acceptance_test": "Instrument one existing ABVX workflow and compare ABVX business evidence against Langfuse technical traces for latency, token usage, cost, errors and span hierarchy.",
+      "evidence_basis": "BOOK-FACTORY-003 research harvested after the first expensive Book Factory acceptance case",
+      "evidence_refs": [
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "docs/audits/book-factory-retro-001.md",
+        "registries/external-candidates/book-factory-003.json"
+      ],
+      "notes": "ABVX should remain the source of truth for business/process evidence while Langfuse, if admitted, owns only technical traces. Hosted vs self-hosted and license scope must stay part of the bounded pilot."
+    },
+    {
+      "id": "workflow-activepieces",
+      "capability_area": "Workflow/orchestration runtime",
+      "candidate": "Activepieces",
+      "locator": "activepieces/activepieces",
+      "status": "REFERENCE_ONLY",
+      "target_capability": "Human-gated workflow runtime",
+      "adoption_form": "PATTERN",
+      "timing": "DEFER",
+      "first_acceptance_test": "Compete only in a future bounded bakeoff if a real target -> enrichment -> qualification -> proposal -> human approval -> action loop outgrows playbooks and local adapters.",
+      "evidence_basis": "Book research comparison point against n8n",
+      "evidence_refs": [
+        "books/research/your-saas-bill-is-ridiculous-repos.tsv",
+        "books/research/your-saas-bill-is-ridiculous-shortlist.tsv",
+        "registries/capability-gaps.json"
+      ],
+      "notes": "Keep as the sharper comparison point next to n8n, not as a parallel adoption target now. Overlap is high and ABVX should not import a general workflow engine prematurely."
+    },
+    {
+      "id": "workflow-n8n",
+      "capability_area": "Workflow/orchestration runtime",
+      "candidate": "n8n",
+      "locator": "n8n-io/n8n",
+      "status": "PILOT_WHEN_NEEDED",
+      "target_capability": "Human-gated workflow runtime",
+      "adoption_form": "RUNTIME",
+      "timing": "PILOT_WHEN_NEEDED",
+      "first_acceptance_test": "Run only a bounded workflow-runtime bakeoff against Activepieces when a real multi-step enrichment/approval/action loop can no longer stay in ABVX playbooks plus local adapters.",
+      "evidence_basis": "BOOK-FACTORY-003 research plus donor-harvest orchestration comparison",
+      "evidence_refs": [
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "registries/external-candidates/book-factory-003.json",
+        "registries/capability-gaps.json"
+      ],
+      "notes": "Stronger maturity and ecosystem than Activepieces, but still too broad for current ABVX scope. If a runtime is later justified, n8n is the current benchmark to beat."
+    },
+    {
+      "id": "crm-twenty",
+      "capability_area": "Opportunity/CRM",
+      "candidate": "Twenty",
+      "locator": "twentyhq/twenty",
+      "status": "PILOT_WHEN_NEEDED",
+      "target_capability": "Target/contact lifecycle surface",
+      "adoption_form": "RUNTIME",
+      "timing": "PILOT_WHEN_NEEDED",
+      "first_acceptance_test": "Pilot only after ABVX is managing a real outbound pipeline with enough targets, concurrent conversations and follow-up state that portfolio/project records are no longer sufficient.",
+      "evidence_basis": "BOOK-FACTORY-003 research plus portfolio evidence that CRM is still premature",
+      "evidence_refs": [
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "portfolio/lessons.json",
+        "registries/capability-gaps.json"
+      ],
+      "notes": "Do not adopt a full CRM before real lead volume exists. Treat Twenty, if later admitted, as an operator surface under ABVX rather than an architecture center."
+    },
+    {
+      "id": "distribution-listmonk",
+      "capability_area": "Email distribution",
+      "candidate": "Listmonk",
+      "locator": "knadh/listmonk",
+      "status": "PILOT_WHEN_NEEDED",
+      "target_capability": "Bulk email and newsletter distribution",
+      "adoption_form": "RUNTIME",
+      "timing": "DEFER",
+      "first_acceptance_test": "Pilot only after ABVX owns a real opted-in audience and recurring broadcast distribution problem distinct from one-to-one outreach.",
+      "evidence_basis": "BOOK-FACTORY-003 research harvested into donor planning",
+      "evidence_refs": [
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "registries/external-candidates/book-factory-003.json"
+      ],
+      "notes": "Strong self-hosted donor for owned mailing lists, but not for near-term personalized outreach. Keep deferred until a broadcast channel actually exists."
+    },
+    {
+      "id": "presentations-presenton",
+      "capability_area": "Presentations/decks",
+      "candidate": "Presenton",
+      "locator": "presenton/presenton",
+      "status": "REFERENCE_ONLY",
+      "target_capability": "Presentation generation",
+      "adoption_form": "REFERENCE",
+      "timing": "PILOT_WHEN_NEEDED",
+      "first_acceptance_test": "If a real AMI or investor/client deck is needed, compare the proven Codex Slides path against Presenton from the same brief before any adoption decision.",
+      "evidence_basis": "BOOK-FACTORY-003 research compared against the existing Codex Slides donor direction",
+      "evidence_refs": [
+        "docs/audits/book-factory-003-your-saas-bill-is-ridiculous.md",
+        "docs/external-sensors.md",
+        "registries/external-candidates/book-factory-003.json"
+      ],
+      "notes": "Interesting generator, but current ABVX need is already covered more narrowly by Codex Slides. Keep as a comparison reference only."
     },
     {
       "id": "external-actions-opencli",
