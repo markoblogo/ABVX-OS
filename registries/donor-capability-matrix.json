@@ -237,6 +237,20 @@
       "notes": "No durable local review artifact found."
     },
     {
+      "id": "book-retrieval-dify",
+      "capability_area": "Book/Cortex retrieval substrate",
+      "candidate": "Dify",
+      "locator": "langgenius/dify",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "BOOK-FACTORY-002A bounded donor audit; runtime pilot blocked before safe local startup",
+      "evidence_refs": [
+        "docs/audits/book-factory-002a-dify-cortex-rag-pilot.md",
+        "evidence/integration/book-factory-002a-dify-rag-pilot.evidence.json",
+        "registries/external-candidates/book-factory-001.json"
+      ],
+      "notes": "Dify looks plausible as a technical RAG substrate for isolated book corpora, but should not become canonical storage and is not yet approved as a Cortex provider. Current blockers: Docker absent on the pilot machine, no pre-proven local embedding setup, and account-wide knowledge API key scope."
+    },
+    {
       "id": "documents-pageindex",
       "capability_area": "Documents",
       "candidate": "PageIndex",

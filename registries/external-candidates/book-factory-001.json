@@ -208,6 +208,19 @@
         "source_uri": "https://github.com/LlamaGenAI/LlamaGenAI",
         "observed_at": "2026-08-12T00:00:00Z"
       }
+    },
+    {
+      "id": "external-langgenius-dify",
+      "locator": "langgenius/dify",
+      "role": "Technical RAG and knowledge-workflow substrate candidate for isolated Cortex and Book Factory corpora",
+      "evaluation_status": "evaluated",
+      "approval_status": "pattern_source",
+      "notes": "Promising knowledge-base API, metadata and retrieval surface, but current ABVX use is blocked from a real local pilot by missing Docker and by provider setup requirements. Keep as a pattern source until a bounded self-hosted pilot with local embeddings is actually proven.",
+      "provenance": {
+        "recorded_by": "BOOK-FACTORY-002A",
+        "source_uri": "https://github.com/langgenius/dify",
+        "observed_at": "2026-08-12T00:00:00Z"
+      }
     }
   ]
 }

@@ -140,6 +140,7 @@
         "ekr0/auto-kdp",
         "wesleyscholl/book-generator",
         "alexeygrigorev/ai-book-generator",
+        "langgenius/dify",
         "hydropix/TranslateBooksWithLLMs",
         "KazKozDev/book-translator",
         "RemiPelloux/agent-mangaka-forge",
@@ -148,9 +149,11 @@
       "must_not_build_custom_before_donor_review": [
         "full publishing pipeline",
         "general authoring platform",
-        "asset transformation factory"
+        "asset transformation factory",
+        "custom vector database",
+        "custom book-retrieval subsystem"
       ],
-      "next_real_trigger": "A human-approved BookSpec and deterministic package pilot justify the next narrow implementation slice."
+      "next_real_trigger": "A human-approved BookSpec and deterministic package pilot justify the next narrow implementation slice. If book-specific retrieval becomes the blocking cost center, run a bounded self-hosted donor pilot before building custom RAG."
     },
     {
       "id": "gap-project-intelligence",

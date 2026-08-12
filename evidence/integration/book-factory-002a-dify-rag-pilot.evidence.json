@@ -1,0 +1,59 @@
+{
+  "id": "book-factory-002a-dify-rag-pilot",
+  "source": "BOOK-FACTORY-002A bounded donor audit for Dify as a Book Factory and Cortex retrieval substrate",
+  "timestamp": "2026-08-12T00:00:00Z",
+  "candidate": "langgenius/dify",
+  "fixture": "unusual-indices-book-dify-rag-pilot",
+  "result": "INCONCLUSIVE",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "validation_tier": "STANDARD",
+    "donor_verdict": "PATTERN_SOURCE",
+    "license_risk": "MEDIUM",
+    "docker_available": false,
+    "local_dify_instance_found": false,
+    "local_embedding_path_proven": false,
+    "selected_corpus_source_count": 9,
+    "retrieval_tests_defined": 5,
+    "retrieval_tests_executed": 0,
+    "chapter_context_usefulness": "PLAUSIBLE_BUT_UNPROVEN",
+    "token_usage": "NOT_METERED"
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "local runtime pilot blocked before startup because docker was unavailable and no local embedding path was pre-proven",
+  "artifact_refs": [
+    "docs/audits/book-factory-002a-dify-cortex-rag-pilot.md",
+    "registries/external-candidates/book-factory-001.json",
+    "registries/donor-capability-matrix.json",
+    "registries/capability-gaps.json",
+    "books/source-packs/unusual-indices-book-source-pack.json",
+    "context/requests/unusual-indices-book.json",
+    "evidence/context-packs/unusual-indices-book.json",
+    "books/projects/unusual-indices-book.json",
+    "books/specs/unusual-indices-book-spec.seed.json",
+    "content/items/content-publish-003-1d3x-popindex-ciggie.json",
+    "content/fixtures/1d3x-cigarette-index-article.json",
+    "intake/items/cigarette-index.json",
+    "docs/audits/book-factory-001-donor-audit-architecture-intake.md"
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-002A",
+    "source_uri": "https://github.com/langgenius/dify",
+    "observed_at": "2026-08-12T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "deployment_status": "not_started",
+    "docker_path": null,
+    "ollama_available": true,
+    "local_models_observed": [
+      "gemma4:12b",
+      "gpt-oss:20b",
+      "qwen2.5-coder-3b-continue:latest",
+      "qwen3.5:4b"
+    ],
+    "corpus_isolation_target": "BOOK_CONTEXT/unusual-indices-book",
+    "canonical_storage_remains_external_to_dify": true,
+    "consumer_repositories_modified": false
+  }
+}
