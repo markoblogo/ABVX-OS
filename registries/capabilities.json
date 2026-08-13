@@ -1,40 +1,34 @@
 {
-  "schema_version": "v1",
   "entries": [
     {
       "id": "capability-unknown",
       "name": "Unknown capability placeholder",
-      "status": "unknown",
       "provenance": {
+        "observed_at": null,
         "recorded_by": "FOUNDATION-001",
-        "source_uri": null,
-        "observed_at": null
-      }
+        "source_uri": null
+      },
+      "status": "unknown"
     },
     {
-      "id": "universal-artifact-intake",
-      "name": "Universal Artifact Intake",
-      "status": "active",
-      "scope": "Canonical local preservation, advisory classification, relationship linking and clarification state for arbitrary incoming material",
-      "implementation": "./bin/abvx intake",
       "constraints": [
         "local-only",
         "no-automatic-routing",
         "no-external-fetch-by-default",
         "no-portfolio-priority-mutation"
       ],
+      "id": "universal-artifact-intake",
+      "implementation": "./bin/abvx intake",
+      "name": "Universal Artifact Intake",
       "provenance": {
+        "observed_at": "2026-08-08T00:00:00Z",
         "recorded_by": "PLATFORM-INTAKE-001",
-        "source_uri": null,
-        "observed_at": "2026-08-08T00:00:00Z"
-      }
+        "source_uri": null
+      },
+      "scope": "Canonical local preservation, advisory classification, relationship linking and clarification state for arbitrary incoming material",
+      "status": "active"
     },
     {
-      "id": "read-only-cortex-context-retrieval",
-      "name": "Read-only Cortex Context Retrieval",
-      "status": "active",
-      "scope": "Budgeted ContextRequest to ContextPack retrieval across ABVX operational state, CortexABV knowledge and Index Cortex domain intelligence without write-back",
-      "implementation": "./bin/abvx context request --file <path>",
       "constraints": [
         "read-only",
         "explicit-provider-routing",
@@ -43,18 +37,18 @@
         "no-consumer-auto-integration",
         "no-write-back-into-cortex"
       ],
+      "id": "read-only-cortex-context-retrieval",
+      "implementation": "./bin/abvx context request --file <path>",
+      "name": "Read-only Cortex Context Retrieval",
       "provenance": {
+        "observed_at": "2026-08-08T00:00:00Z",
         "recorded_by": "CORTEX-INTEGRATION-002",
-        "source_uri": null,
-        "observed_at": "2026-08-08T00:00:00Z"
-      }
+        "source_uri": null
+      },
+      "scope": "Budgeted ContextRequest to ContextPack retrieval across ABVX operational state, CortexABV knowledge and Index Cortex domain intelligence without write-back",
+      "status": "active"
     },
     {
-      "id": "content-ops-control-plane",
-      "name": "Unified Publishing Control Plane",
-      "status": "active",
-      "scope": "Local-first preparation, approval and publish-handoff packets for project-specific publishing mechanisms without turning ABVX into a CMS or renderer",
-      "implementation": "./bin/abvx content <prepare|inspect|approve|publish>",
       "constraints": [
         "human-gated-by-default",
         "no-consumer-repo-mutation-from-abvx",
@@ -64,11 +58,39 @@
         "discovery-enrichment-visible-before-approval",
         "consumer-command-fast-paths-only"
       ],
+      "id": "content-ops-control-plane",
+      "implementation": "./bin/abvx content <prepare|inspect|approve|publish>",
+      "name": "Unified Publishing Control Plane",
       "provenance": {
+        "observed_at": "2026-08-10T00:00:00Z",
         "recorded_by": "CONTENT-OPS-002",
-        "source_uri": null,
-        "observed_at": "2026-08-10T00:00:00Z"
-      }
+        "source_uri": null
+      },
+      "scope": "Local-first preparation, approval and publish-handoff packets for project-specific publishing mechanisms without turning ABVX into a CMS or renderer",
+      "status": "active"
+    },
+    {
+      "constraints": [
+        "allowlisted-tasks-only",
+        "local-first-preferred-but-local-llm-not-admitted",
+        "cheap-api-fallback-allowed-for-content-enrichment",
+        "fail-closed-on-invalid-output",
+        "context-bound-structured-output-schema",
+        "no-automatic-codex-invocation",
+        "no-publish-or-external-mutation",
+        "secrets-from-environment-only"
+      ],
+      "id": "internal-intelligence-runtime",
+      "implementation": "./bin/abvx intelligence run --task <id> --file <path> [--provider ollama.local|cheap.api]",
+      "name": "Donor-first Internal Intelligence Runtime",
+      "provenance": {
+        "observed_at": "2026-08-13T00:00:00Z",
+        "recorded_by": "ABVX-INTELLIGENCE-001B",
+        "source_uri": "docs/audits/abvx-intelligence-001b-cheap-api.md"
+      },
+      "scope": "Bounded structured semantic execution for allowlisted ABVX tasks through explicit provider routing; gpt-5.6-luna is conditionally admitted as the CHEAP_API fallback for content-enrichment after local model non-admission.",
+      "status": "conditional"
     }
-  ]
+  ],
+  "schema_version": "v1"
 }

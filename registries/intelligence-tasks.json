@@ -1,0 +1,34 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "id": "content-enrichment",
+      "name": "Content Ops Enrichment",
+      "preferred_tier": "CHEAP_API",
+      "allowed_providers": [
+        "ollama.local",
+        "cheap.api"
+      ],
+      "input_bounds": {
+        "max_chars": 16000,
+        "max_body_lines": 48
+      },
+      "output_schema": "schemas/intelligence_content_enrichment_output.schema.json",
+      "validation": [
+        "json-schema",
+        "allowlisted-internal-links",
+        "non-empty-tags",
+        "non-empty-summary"
+      ],
+      "cost_guard": {
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "low",
+        "max_output_tokens": 900,
+        "expected_cost_class": "CHEAP",
+        "max_estimated_cost_usd": 0.01
+      },
+      "escalation_behavior": "ESCALATION_REQUIRED",
+      "timeout_seconds": 180
+    }
+  ]
+}

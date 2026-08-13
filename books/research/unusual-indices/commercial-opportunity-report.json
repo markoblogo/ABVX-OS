@@ -1,0 +1,92 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "corpus_ref": "books/research/unusual-indices/normalized-corpus.json",
+  "strongest_candidates": [
+    "big-mac-index",
+    "iphone-work-time-index",
+    "working-hours-index",
+    "cigarette-equivalent-index",
+    "starbucks-latte-index",
+    "haircut-index",
+    "taxi-affordability-index",
+    "date-night-index",
+    "baltic-dry-index",
+    "container-freight-index",
+    "rent-to-burger-index",
+    "minimum-wage-meal-index",
+    "lipstick-index",
+    "mens-underwear-index",
+    "skyscraper-index",
+    "ai-index",
+    "government-ai-readiness-index",
+    "swe-bench"
+  ],
+  "strongest_narrative_clusters": [
+    "everyday goods as a readable currency of life",
+    "prices translated into hours worked",
+    "pollution and carbon translated into human-scale units",
+    "consumer myths versus grounded indicators",
+    "consumer economy versus physical economy",
+    "how a good index is designed, and how it gets gamed",
+    "modern AI benchmarks as the newest index culture"
+  ],
+  "weak_or_repetitive_material": [
+    "multiple repeated TOC variants covering the same core examples",
+    "generic primers on what an index is",
+    "owner-project framing that tries to make the book serve 1D3X or POP first",
+    "long lists of secondary Russian-language explainers repeating the same weird-index anecdotes"
+  ],
+  "strongest_surprising_hooks": [
+    "The real price of a phone is not dollars, but hours of life.",
+    "Air pollution can become legible when expressed in cigarettes—if the analogy is handled honestly.",
+    "A burger and a freight benchmark can tell opposite sides of the same global economy.",
+    "Some famous indices are better as myths worth debunking than as tools worth trusting.",
+    "Modern AI culture is creating its own index obsession."
+  ],
+  "evidence_risk_areas": [
+    "Lipstick, hemline, men’s underwear and hot-waitress style indicators are not strong enough to present as hard economics.",
+    "Environmental equivalence claims must preserve analogy boundaries and avoid literal-health overclaiming.",
+    "Many cited sources are secondary explainers or media roundups rather than primary methodology pages.",
+    "AI benchmark sections can expand scope too far unless kept as a late or optional cluster.",
+    "Owner-project examples need explicit neutrality to avoid sounding like content marketing."
+  ],
+  "high_visual_potential": [
+    "work-hours comparisons for iPhone or Big Mac",
+    "city cards for taxi, haircut and date-night affordability",
+    "Ciggie-style pollution translation bars",
+    "Big Mac versus Baltic Dry juxtaposition",
+    "myth-versus-measure matrix for weak indices",
+    "index trust labels from robust benchmark to folklore"
+  ],
+  "likely_exclusions": [
+    "owner-project promotion sections centered on POP or SPIKE",
+    "deep API/source-catalog appendices that belong in research notes, not the commercial narrative",
+    "large generic introductions to index theory unless rewritten sharply",
+    "AI ethics and governance material that is disconnected from the main unusual-indices promise"
+  ],
+  "corpus_sufficiency": "SUFFICIENT_FOR_BOOKSPEC_GATE",
+  "amazon_search_concepts": [
+    "weird economic indicators",
+    "strange economics",
+    "alternative economic indicators",
+    "big mac economics",
+    "lipstick index",
+    "underwear index",
+    "economic signals",
+    "unusual indicators",
+    "everyday economics",
+    "data storytelling economics"
+  ],
+  "adjacent_reader_interests": [
+    "Freakonomics-style popular economics",
+    "behavioral economics",
+    "data storytelling",
+    "markets and trade",
+    "counterintuitive nonfiction",
+    "city cost-of-living comparisons",
+    "public-health communication"
+  ],
+  "rag_needed_assessment": "NOT_NEEDED_YET",
+  "normalization_value_note": "The corpus is already structured enough for BookSpec and market-positioning work through metadata filtering and explicit object review; semantic retrieval is not yet justified."
+}

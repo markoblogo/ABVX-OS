@@ -1,0 +1,196 @@
+{
+  "audience": "Curious general nonfiction readers who like Freakonomics-style questions, everyday economics, surprising data stories and practical ways to understand abstract systems without technical math.",
+  "author": "Anton BV",
+  "book_id": "unusual-indices-book",
+  "book_type": "NONFICTION",
+  "chapter_count": 9,
+  "citation_policy": "Non-obvious factual or historical claims should trace to explicit sources; external index descriptions should retain source provenance.",
+  "content_origin": "DERIVED",
+  "current_state": "BOOK_SPEC_PROPOSED",
+  "description": "Proposed Amazon-first BookSpec for human review. The book should read as a compact, story-led popular nonfiction title built around vivid indices, methodological caution and a curated library of unusual comparisons.",
+  "distribution_target": "AMAZON_KDP",
+  "execution_cost": {
+    "cost_preference": "BALANCED",
+    "notes": "Use cheap structured API/provider tasks for bounded enrichment and research extraction; use human/Codex only for editorial judgment and manuscript quality gates.",
+    "preferred_runtime_cost": "LOW_COST_API"
+  },
+  "expected_outcome": "Human decides whether this Amazon-first positioning is strong enough to approve for outline/manuscript production.",
+  "format_specific_qa": [
+    {
+      "checks": [
+        "reflowability",
+        "heading/navigation integrity",
+        "paragraph/list rendering",
+        "image behavior",
+        "Kindle suitability",
+        "preview validation"
+      ],
+      "format": "KINDLE_REFLOWABLE"
+    },
+    {
+      "checks": [
+        "trim size",
+        "margins/gutter",
+        "pagination",
+        "image resolution"
+      ],
+      "format": "PAPERBACK_INTERIOR"
+    },
+    {
+      "checks": [
+        "cover dimensions",
+        "bleed",
+        "print cover alignment",
+        "image resolution"
+      ],
+      "format": "PRINT_COVER"
+    }
+  ],
+  "formats": [
+    "EPUB",
+    "PAPERBACK_PDF"
+  ],
+  "human_approval_state": "NOT_SUBMITTED",
+  "illustration_policy": "No custom illustration generation yet. Prefer text-first edition with charts/screenshots only after explicit rights review.",
+  "kdp_metadata": {
+    "ai_disclosure": "REQUIRED",
+    "categories": [
+      "Business & Money / Economics",
+      "Science & Math / Mathematics / Statistics",
+      "Computers & Technology / Data Science"
+    ],
+    "keywords": [
+      "popular economics",
+      "data storytelling",
+      "economic indicators",
+      "strange statistics",
+      "Big Mac Index",
+      "data literacy",
+      "unusual comparisons",
+      "Freakonomics"
+    ]
+  },
+  "language": "English",
+  "outline": [
+    {
+      "index": 1,
+      "notes": "Open with the Ciggie Index as the clearest promise: abstract pollution becomes an everyday unit.",
+      "status": "SEED",
+      "title": "The Measure You Can Feel"
+    },
+    {
+      "index": 2,
+      "notes": "Explain translation, intuition, memorability and where simplification becomes dangerous.",
+      "status": "SEED",
+      "title": "Why Strange Measures Work"
+    },
+    {
+      "index": 3,
+      "notes": "Big Mac, latte, iPhone and purchasing-power comparisons as familiar bridge cases.",
+      "status": "SEED",
+      "title": "Burgernomics and the Everyday Price of a Place"
+    },
+    {
+      "index": 4,
+      "notes": "Data storytelling, charts, rankings and the narrative mechanics of a good index.",
+      "status": "SEED",
+      "title": "When a Number Becomes a Story"
+    },
+    {
+      "index": 5,
+      "notes": "Environmental, health, fragility and operational-warning examples; keep claims evidence-backed.",
+      "status": "SEED",
+      "title": "Indexes That Warn Us"
+    },
+    {
+      "index": 6,
+      "notes": "Cities, countries, purchasing power, time, wages and lifestyle comparisons.",
+      "status": "SEED",
+      "title": "Indexes That Compare Us"
+    },
+    {
+      "index": 7,
+      "notes": "Method limits, stale data, incentives, gaming and category errors.",
+      "status": "SEED",
+      "title": "Indexes That Can Mislead"
+    },
+    {
+      "index": 8,
+      "notes": "A practical but non-technical design checklist for readers and operators.",
+      "status": "SEED",
+      "title": "How to Build a Useful Weird Index"
+    },
+    {
+      "index": 9,
+      "notes": "Curated appendix-like library; useful, skimmable and commercially browseable.",
+      "status": "SEED",
+      "title": "A Small Atlas of Strange Comparisons"
+    }
+  ],
+  "positioning": "A commercial popular-economics/data-storytelling book. The promise is not to promote 1D3X, POP, SPIKE or ABVX; the promise is to show readers why strange everyday comparisons can make hidden systems visible, useful and memorable.",
+  "preferred_renderer": "PANDOC_XELATEX",
+  "provenance": {
+    "observed_at": "2026-08-13T00:00:00Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-002",
+    "source_uri": "docs/audits/book-factory-indices-002-commercial-positioning.md"
+  },
+  "provenance_breakdown": {
+    "appendices": "AI_ASSISTED",
+    "cover": "UNKNOWN",
+    "diagrams": "UNKNOWN",
+    "interior_illustrations": "UNKNOWN",
+    "manuscript_text": "AI_ASSISTED",
+    "translation": "UNKNOWN"
+  },
+  "publication_form": "PROSE_BOOK",
+  "publication_profile": "CONVENTIONAL_BOOK",
+  "schema_version": "v1",
+  "source_language": "English",
+  "source_pack_id": "unusual-indices-book-source-pack",
+  "source_policy": "Owner-originated material and approved ABVX content may be transformed. Third-party examples remain reference-only unless separately cleared.",
+  "subtitle": "How strange comparisons make the world easier to understand",
+  "target_language": "English",
+  "target_pages": 150,
+  "target_words": 28000,
+  "title": "The Cigarette Index",
+  "translation": {
+    "glossary": [],
+    "human_reviewed_sections": [],
+    "mode": "NOT_APPLICABLE",
+    "proper_name_policy": "Not applicable for the seed edition because source and target language are the same.",
+    "qa_status": "NOT_APPLICABLE",
+    "resume_checkpoint_state": null,
+    "rights_status": "MIXED",
+    "segment_progress": {
+      "completed": 0,
+      "total": 0
+    },
+    "source_edition": null,
+    "style_voice_instructions": [],
+    "terminology_memory": null,
+    "translation_method": "UNKNOWN",
+    "translation_model": null,
+    "translation_provider": null
+  },
+  "trim_size": "5x8",
+  "visual_narrative": {
+    "character_consistency_strategy": null,
+    "export_targets": [],
+    "lettering_strategy": "UNKNOWN",
+    "mode": "NOT_APPLICABLE",
+    "page_plan_status": "NOT_APPLICABLE",
+    "reading_direction": "LEFT_TO_RIGHT",
+    "script_source": "ADAPTED_FROM_PROSE",
+    "text_layer_policy": "SEPARATE_STRUCTURED_TEXT_REQUIRED",
+    "visual_bible_status": "NOT_APPLICABLE"
+  },
+  "voice_style_constraints": [
+    "curious but not gimmicky",
+    "story-led popular nonfiction",
+    "plain English",
+    "evidence-backed claims",
+    "methodologically cautious",
+    "minimal owner-project promotion",
+    "avoid generic AI exposition"
+  ]
+}

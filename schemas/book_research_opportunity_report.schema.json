@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-research-opportunity-report/v1",
+  "title": "ABVX Book Research Opportunity Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project_id",
+    "corpus_ref",
+    "strongest_candidates",
+    "strongest_narrative_clusters",
+    "weak_or_repetitive_material",
+    "strongest_surprising_hooks",
+    "evidence_risk_areas",
+    "high_visual_potential",
+    "likely_exclusions",
+    "corpus_sufficiency",
+    "amazon_search_concepts",
+    "adjacent_reader_interests",
+    "rag_needed_assessment",
+    "normalization_value_note"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "project_id": { "type": "string", "minLength": 1 },
+    "corpus_ref": { "type": "string", "minLength": 1 },
+    "strongest_candidates": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "strongest_narrative_clusters": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "weak_or_repetitive_material": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "strongest_surprising_hooks": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "evidence_risk_areas": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "high_visual_potential": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "likely_exclusions": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "corpus_sufficiency": { "enum": ["SUFFICIENT_FOR_BOOKSPEC_GATE", "PARTIAL_ONLY", "INSUFFICIENT"] },
+    "amazon_search_concepts": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "adjacent_reader_interests": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "rag_needed_assessment": { "enum": ["NOT_NEEDED_YET", "MAYBE_LATER", "NEEDED_NOW"] },
+    "normalization_value_note": { "type": "string", "minLength": 1 }
+  }
+}

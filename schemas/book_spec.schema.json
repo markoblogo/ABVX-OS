@@ -56,6 +56,9 @@
     "publication_profile": {
       "enum": ["CONVENTIONAL_BOOK", "DISCOVERY_BOOKLET", "HANDBOOK", "REPORT"]
     },
+    "distribution_target": {
+      "enum": ["AMAZON_KDP", "DIRECT_PDF", "MIXED", "UNKNOWN"]
+    },
     "preferred_renderer": {
       "enum": ["PANDOC_XELATEX", "HTML_CSS_CHROMIUM", "UNDECIDED"]
     },

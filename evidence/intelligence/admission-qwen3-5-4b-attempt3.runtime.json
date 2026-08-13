@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-08-13T10:36:56Z",
+  "execution_tier": "CODEX_ESCALATION",
+  "failure_reason": "empty model response",
+  "latency_ms": 0,
+  "locality": "LOCAL",
+  "model": "qwen3.5:4b",
+  "output": null,
+  "policy": {
+    "allow_external": false,
+    "max_body_lines": 48,
+    "max_input_chars": 16000,
+    "preferred_tier": "LOCAL_LLM",
+    "timeout_seconds": 180
+  },
+  "provider": "ollama.local",
+  "schema_version": "v1",
+  "status": "ESCALATION_REQUIRED",
+  "task_id": "content-enrichment",
+  "usage": null,
+  "validation": {
+    "checks": [],
+    "schema": "FAIL",
+    "warnings": []
+  }
+}

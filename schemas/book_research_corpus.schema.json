@@ -1,0 +1,167 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-research-corpus/v1",
+  "title": "ABVX Book Research Corpus",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project_id",
+    "source_document_ref",
+    "normalization_mode",
+    "local_llm_admitted",
+    "local_llm_processed_segments",
+    "codex_escalations",
+    "raw_signal",
+    "counts",
+    "index_candidates",
+    "story_candidates",
+    "claims",
+    "source_candidates"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "project_id": { "type": "string", "minLength": 1 },
+    "source_document_ref": { "type": "string", "minLength": 1 },
+    "normalization_mode": { "enum": ["LOCAL_LLM_ASSISTED", "CODEX_ASSISTED_DETERMINISTIC"] },
+    "local_llm_admitted": { "type": "boolean" },
+    "local_llm_processed_segments": { "type": "integer", "minimum": 0 },
+    "codex_escalations": { "type": "integer", "minimum": 0 },
+    "raw_signal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paragraphs_processed", "raw_candidate_mentions", "duplicates_merged", "unique_external_urls"],
+      "properties": {
+        "paragraphs_processed": { "type": "integer", "minimum": 1 },
+        "raw_candidate_mentions": { "type": "integer", "minimum": 1 },
+        "duplicates_merged": { "type": "integer", "minimum": 0 },
+        "unique_external_urls": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["index_candidates", "story_candidates", "claims", "source_candidates"],
+      "properties": {
+        "index_candidates": { "type": "integer", "minimum": 0 },
+        "story_candidates": { "type": "integer", "minimum": 0 },
+        "claims": { "type": "integer", "minimum": 0 },
+        "source_candidates": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "index_candidates": { "type": "array", "items": { "$ref": "#/$defs/index_candidate" } },
+    "story_candidates": { "type": "array", "items": { "$ref": "#/$defs/story_candidate" } },
+    "claims": { "type": "array", "items": { "$ref": "#/$defs/claim" } },
+    "source_candidates": { "type": "array", "items": { "$ref": "#/$defs/source_candidate" } }
+  },
+  "$defs": {
+    "index_candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "aliases",
+        "category",
+        "classification",
+        "short_description",
+        "underlying_signal",
+        "claimed_interpretation",
+        "geography",
+        "period_history",
+        "story_value",
+        "commercial_reader_hook",
+        "source_refs",
+        "verification_status",
+        "commercial_scores",
+        "commercial_priority",
+        "owner_project_context"
+      ],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "category": { "type": "string", "minLength": 1 },
+        "classification": {
+          "enum": [
+            "FORMAL_INDEX",
+            "ECONOMIC_PROXY",
+            "ALTERNATIVE_INDICATOR",
+            "MARKET_SIGNAL",
+            "CULTURAL_HYPOTHESIS",
+            "FOLKLORE / WEAKLY_SUPPORTED",
+            "FAILED / DISCONTINUED INDEX",
+            "MANIPULATION / GOVERNANCE CASE",
+            "AI / BENCHMARK CASE"
+          ]
+        },
+        "short_description": { "type": "string", "minLength": 1 },
+        "underlying_signal": { "type": "string", "minLength": 1 },
+        "claimed_interpretation": { "type": "string", "minLength": 1 },
+        "geography": { "type": "string", "minLength": 1 },
+        "period_history": { "type": "string", "minLength": 1 },
+        "story_value": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+        "commercial_reader_hook": { "type": "string", "minLength": 1 },
+        "source_refs": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "verification_status": { "enum": ["VERIFIED_IN_SOURCE_PACK", "NEEDS_PRIMARY_VERIFICATION", "SECONDARY_ONLY", "UNCLEAR"] },
+        "commercial_scores": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["surprise", "reader_recognition", "story_potential", "evidence_quality", "explainability", "visual_potential"],
+          "properties": {
+            "surprise": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+            "reader_recognition": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+            "story_potential": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+            "evidence_quality": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+            "explainability": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+            "visual_potential": { "enum": ["HIGH", "MEDIUM", "LOW"] }
+          }
+        },
+        "commercial_priority": { "enum": ["HIGH", "MEDIUM", "LOW"] },
+        "owner_project_context": { "type": "boolean" }
+      }
+    },
+    "story_candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "hook", "related_indices", "why_interesting", "possible_chapter_role", "source_refs", "verification_status"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "hook": { "type": "string", "minLength": 1 },
+        "related_indices": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "why_interesting": { "type": "string", "minLength": 1 },
+        "possible_chapter_role": { "type": "string", "minLength": 1 },
+        "source_refs": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "verification_status": { "enum": ["VERIFIED_IN_SOURCE_PACK", "NEEDS_PRIMARY_VERIFICATION", "SECONDARY_ONLY", "UNCLEAR"] }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "claim", "related_index", "source_refs", "evidence_status", "needs_verification"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "claim": { "type": "string", "minLength": 1 },
+        "related_index": { "type": ["string", "null"] },
+        "source_refs": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+        "evidence_status": { "enum": ["VERIFIED_IN_SOURCE_PACK", "NEEDS_PRIMARY_VERIFICATION", "SECONDARY_ONLY", "UNCLEAR"] },
+        "needs_verification": { "type": "boolean" }
+      }
+    },
+    "source_candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "reference", "source_type", "related_objects", "authority_class", "verification_status"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "reference": { "type": "string", "minLength": 1 },
+        "source_type": { "type": "string", "minLength": 1 },
+        "related_objects": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "authority_class": { "enum": ["FIRST_PARTY", "SECONDARY", "UNKNOWN"] },
+        "verification_status": { "enum": ["VERIFIED_IN_SOURCE_PACK", "NEEDS_PRIMARY_VERIFICATION", "SECONDARY_ONLY", "UNCLEAR"] },
+        "owner_project_context": { "type": "boolean" }
+      }
+    }
+  }
+}

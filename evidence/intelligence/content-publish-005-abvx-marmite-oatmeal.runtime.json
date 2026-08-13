@@ -1,0 +1,80 @@
+{
+  "captured_at": "2026-08-13T11:01:05Z",
+  "execution_tier": "CHEAP_API",
+  "failure_reason": null,
+  "latency_ms": 3586,
+  "locality": "EXTERNAL",
+  "model": "gpt-5.6-luna",
+  "output": {
+    "internal_link_suggestions": [
+      "/books"
+    ],
+    "machine_summary": "A concise food note describing savoury oatmeal made with water, large rolled oats, butter, and about half a teaspoon of Marmite per bowl, with optional freshly ground black pepper. It also explains using small amounts of Marmite in meats, stews, gravies, sauces, soups, borscht, French onion soup, mushroom soups, and \u017burek.",
+    "meta_description": "A simple savoury oatmeal made with rolled oats, butter, and a small amount of Marmite, with optional black pepper.",
+    "primary_entities": [
+      "Marmite",
+      "oatmeal",
+      "large rolled oats",
+      "butter",
+      "black pepper"
+    ],
+    "proposed_title": null,
+    "seo_title": "Marmite Oatmeal: A Simple Savoury Breakfast",
+    "tags": [
+      "Marmite",
+      "oatmeal",
+      "savoury breakfast",
+      "rolled oats",
+      "umami",
+      "cookbook notes"
+    ],
+    "topics": [
+      "Savoury oatmeal",
+      "Marmite",
+      "Simple breakfasts",
+      "Cooking with yeast extract",
+      "Soup and sauce seasoning"
+    ]
+  },
+  "policy": {
+    "allow_external": false,
+    "cheap_api_model": "gpt-5.6-luna",
+    "expected_cost_class": "CHEAP",
+    "max_body_lines": 48,
+    "max_estimated_cost_usd": 0.01,
+    "max_input_chars": 16000,
+    "max_output_tokens": 900,
+    "preferred_tier": "CHEAP_API",
+    "reasoning_effort": "low",
+    "timeout_seconds": 180
+  },
+  "provider": "cheap.api",
+  "schema_version": "v1",
+  "status": "SUCCEEDED",
+  "task_id": "content-enrichment",
+  "usage": {
+    "estimated_cost_usd": 0.0005172,
+    "input_tokens": 732,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 309,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "pricing_source": "OpenAI pricing, gpt-5.6-luna short context",
+    "total_tokens": 1041
+  },
+  "validation": {
+    "checks": [
+      "json-schema",
+      "allowlisted-internal-links",
+      "non-empty-tags",
+      "non-empty-summary",
+      "bounded-cost"
+    ],
+    "schema": "PASS",
+    "warnings": []
+  }
+}

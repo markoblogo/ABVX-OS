@@ -6,6 +6,19 @@
   "status": "READY_FOR_BOOK_SPEC",
   "sources": [
     {
+      "id": "perplexity-indices-research-docx",
+      "type": "DOCX",
+      "locator": "/Users/antonbiletskiy-volokh/Downloads/1d3x book1.docx",
+      "role": "Primary owner-supplied mixed research pack containing index candidates, source links, alternative structures, methodology notes and commercial framing ideas.",
+      "admission": "ADMITTED",
+      "rights_basis": "OWNER_APPROVED",
+      "extraction_status": "EXTRACTED",
+      "allowed_use": "TRANSFORM_ALLOWED",
+      "relevant_book_sections": ["candidate pool", "source discovery", "methodology", "commercial clustering"],
+      "confidence_quality_notes": "High-volume mixed source. Useful as raw research input, but not an approved manuscript or authoritative fact base.",
+      "notes": "Contains repetition, mixed evidence quality, owner-project framing ideas and unverified external claims."
+    },
+    {
       "id": "pop-development-idea",
       "type": "INTAKE_ITEM",
       "locator": "intake/items/pop-development-idea.json",
@@ -104,8 +117,8 @@
   },
   "coverage": {
     "concept": "READY",
-    "case_studies": "PARTIAL",
-    "structure_seed": "PARTIAL",
+    "case_studies": "READY",
+    "structure_seed": "READY",
     "author_voice_seed": "READY",
     "translation_seed": "NOT_APPLICABLE",
     "visual_seed": "MISSING"

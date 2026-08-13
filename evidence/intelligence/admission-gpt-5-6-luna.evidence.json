@@ -1,0 +1,46 @@
+{
+  "artifact_refs": [
+    "evidence/intelligence/admission-gpt-5-6-luna-attempt1.runtime.json",
+    "evidence/intelligence/admission-gpt-5-6-luna-attempt2.runtime.json",
+    "evidence/intelligence/admission-gpt-5-6-luna-attempt3.runtime.json",
+    "docs/audits/abvx-intelligence-001b-cheap-api.md"
+  ],
+  "candidate": "gpt-5.6-luna",
+  "environment": {
+    "api_key_source": "OPENAI_API_KEY environment variable",
+    "external_mutation_performed": false,
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "secrets_printed": false
+  },
+  "fixture": "content-publish-005-abvx-marmite-oatmeal",
+  "id": "abvx-intelligence-001b-gpt-5-6-luna-admission",
+  "metrics": {
+    "attempts": 3,
+    "estimated_cost_usd": [
+      0.0004908,
+      0.0005196,
+      0.0005172
+    ],
+    "execution_tier": "CHEAP_API",
+    "hallucination_observed": false,
+    "human_correction_required": false,
+    "initial_pre_schema_binding_failure": "unsupported internal link string with explanation; resolved by context-bound link enum",
+    "latency_ms": [
+      3001,
+      3300,
+      3586
+    ],
+    "schema_validation": "PASS",
+    "successes": 3
+  },
+  "provenance": {
+    "observed_at": "2026-08-13T00:00:00Z",
+    "recorded_by": "ABVX-INTELLIGENCE-001B",
+    "source_uri": "docs/audits/abvx-intelligence-001b-cheap-api.md"
+  },
+  "result": "CONDITIONAL_PASS",
+  "source": "abvx-intelligence",
+  "stderr_ref": "internal:none",
+  "stdout_ref": "internal:none",
+  "timestamp": "2026-08-13T00:00:00Z"
+}

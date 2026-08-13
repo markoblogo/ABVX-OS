@@ -1,0 +1,47 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "source_id": "perplexity-indices-research-docx",
+  "title": "1d3x book1.docx",
+  "source_kind": "DOCX",
+  "locator": "/Users/antonbiletskiy-volokh/Downloads/1d3x book1.docx",
+  "processing_mode": "CODEX_ASSISTED_DETERMINISTIC",
+  "paragraph_count": 3786,
+  "unique_external_urls": 388,
+  "language_mix": ["ru", "en"],
+  "topical_sections": [
+    "book concept and title directions",
+    "purchasing-power indices",
+    "consumer-behavior hypotheses",
+    "labor and urban affordability",
+    "shipping, freight and physical-economy signals",
+    "environmental equivalence indices",
+    "correlation and methodology limits",
+    "data-source discovery",
+    "commercial book structures and chapter variants",
+    "quotes, principles and governance/manipulation cases"
+  ],
+  "owner_project_mentions": ["1D3X", "POP", "SPIKE", "Ciggie Index"],
+  "selected_reference_domains": [
+    "economist.com",
+    "numbeo.com",
+    "ubs.com",
+    "balticexchange.com",
+    "fbx.freightos.com",
+    "openaq.org",
+    "who.int",
+    "berkeleyearth.org",
+    "worldbank.org",
+    "oecd.org",
+    "fred.stlouisfed.org",
+    "ourworldindata.org",
+    "hai.stanford.edu",
+    "oxfordinsights.com",
+    "artificialanalysis.ai"
+  ],
+  "notes": [
+    "The document is a mixed research pack rather than an approved manuscript, TOC or canonical fact base.",
+    "It contains repeated indices, repeated chapter variants, illustrative formulas, source lists, owner-project framing ideas and unverified claims.",
+    "Normalization preserved evidence boundaries and removed ranking bias for owner projects."
+  ]
+}

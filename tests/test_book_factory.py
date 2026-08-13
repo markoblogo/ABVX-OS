@@ -16,6 +16,7 @@ class BookFactoryTests(unittest.TestCase):
         self.assertIn("books/source-packs/unusual-indices-book-source-pack.json", checked)
         self.assertIn("books/source-packs/your-saas-bill-is-ridiculous-source-pack.json", checked)
         self.assertIn("books/specs/unusual-indices-book-spec.seed.json", checked)
+        self.assertIn("books/specs/unusual-indices-book-spec.proposed.json", checked)
         self.assertIn("books/specs/your-saas-bill-is-ridiculous-spec.json", checked)
 
 

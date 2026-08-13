@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/intelligence-content-enrichment-output/v1",
+  "title": "ABVX Intelligence Content Enrichment Output",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "proposed_title",
+    "seo_title",
+    "meta_description",
+    "tags",
+    "topics",
+    "primary_entities",
+    "machine_summary",
+    "internal_link_suggestions"
+  ],
+  "properties": {
+    "proposed_title": { "type": ["string", "null"] },
+    "seo_title": { "type": "string", "minLength": 1 },
+    "meta_description": { "type": "string", "minLength": 1 },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "primary_entities": {
+      "type": "array",
+      "maxItems": 8,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "machine_summary": { "type": "string", "minLength": 1 },
+    "internal_link_suggestions": {
+      "type": "array",
+      "maxItems": 6,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

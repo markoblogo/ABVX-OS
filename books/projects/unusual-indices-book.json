@@ -1,61 +1,25 @@
 {
-  "schema_version": "v1",
-  "id": "unusual-indices-book",
-  "title": "Unusual Indices",
-  "objective": "Turn owner-supplied unusual-index material into a bounded, evidence-backed Amazon KDP book without making ABVX the manuscript runtime.",
-  "status": "WAITING_FOR_HUMAN",
-  "lifecycle_stage": "CONCEPT",
-  "content_origin": "DERIVED",
-  "publication_form": "PROSE_BOOK",
-  "publication_profile": "CONVENTIONAL_BOOK",
-  "preferred_renderer": "PANDOC_XELATEX",
-  "cost_preference": "FREE_FIRST",
   "canonical_manuscript": {
-    "version": "seed-outline-to-manuscript-v0",
     "locator": null,
+    "notes": "Canonical manuscript does not exist yet; future format artifacts must derive from one approved manuscript lineage.",
     "readiness_state": "DRAFT",
-    "notes": "Canonical manuscript does not exist yet; future format artifacts must derive from one approved manuscript lineage."
+    "version": "seed-outline-to-manuscript-v0"
   },
-  "format_artifacts": [
-    {
-      "artifact_id": "kindle-reflowable-v0",
-      "source_manuscript_version": "seed-outline-to-manuscript-v0",
-      "format": "KINDLE_REFLOWABLE",
-      "generated_at": null,
-      "validation_status": "NOT_STARTED",
-      "provenance_classification": "UNKNOWN",
-      "file_ref": null,
-      "readiness_state": "NOT_CREATED",
-      "notes": null
-    },
-    {
-      "artifact_id": "paperback-interior-v0",
-      "source_manuscript_version": "seed-outline-to-manuscript-v0",
-      "format": "PAPERBACK_INTERIOR",
-      "generated_at": null,
-      "validation_status": "NOT_STARTED",
-      "provenance_classification": "UNKNOWN",
-      "file_ref": null,
-      "readiness_state": "NOT_CREATED",
-      "notes": null
-    },
-    {
-      "artifact_id": "print-cover-v0",
-      "source_manuscript_version": "seed-outline-to-manuscript-v0",
-      "format": "PRINT_COVER",
-      "generated_at": null,
-      "validation_status": "NOT_STARTED",
-      "provenance_classification": "UNKNOWN",
-      "file_ref": null,
-      "readiness_state": "NOT_CREATED",
-      "notes": null
-    }
+  "content_origin": "DERIVED",
+  "context_request_ids": [
+    "unusual-indices-book"
   ],
+  "cost_preference": "FREE_FIRST",
+  "distribution_target": "AMAZON_KDP",
   "edition_states": [
     {
-      "format": "KINDLE_REFLOWABLE",
-      "publication_state": "NOT_CREATED",
+      "automation_policy": "SUPERVISED_ONLY",
+      "blocked_fail_closed": true,
       "external_state": null,
+      "format": "KINDLE_REFLOWABLE",
+      "next_action": null,
+      "notes": null,
+      "publication_state": "NOT_CREATED",
       "qa_boundary": [
         "reflowability",
         "heading/navigation integrity",
@@ -64,16 +28,16 @@
         "Kindle suitability",
         "preview validation"
       ],
-      "automation_policy": "SUPERVISED_ONLY",
-      "waiting_state": "NONE",
-      "next_action": null,
-      "blocked_fail_closed": true,
-      "notes": null
+      "waiting_state": "NONE"
     },
     {
-      "format": "PAPERBACK_INTERIOR",
-      "publication_state": "NOT_CREATED",
+      "automation_policy": "SUPERVISED_ONLY",
+      "blocked_fail_closed": true,
       "external_state": null,
+      "format": "PAPERBACK_INTERIOR",
+      "next_action": null,
+      "notes": null,
+      "publication_state": "NOT_CREATED",
       "qa_boundary": [
         "trim size",
         "margins/gutter",
@@ -81,16 +45,16 @@
         "image resolution",
         "print preview validation"
       ],
-      "automation_policy": "SUPERVISED_ONLY",
-      "waiting_state": "NONE",
-      "next_action": null,
-      "blocked_fail_closed": true,
-      "notes": null
+      "waiting_state": "NONE"
     },
     {
-      "format": "HARDCOVER_INTERIOR",
-      "publication_state": "NOT_CREATED",
+      "automation_policy": "SUPERVISED_ONLY",
+      "blocked_fail_closed": true,
       "external_state": null,
+      "format": "HARDCOVER_INTERIOR",
+      "next_action": null,
+      "notes": null,
+      "publication_state": "NOT_CREATED",
       "qa_boundary": [
         "trim size",
         "margins/gutter",
@@ -98,79 +62,118 @@
         "image resolution",
         "hardcover preview validation"
       ],
-      "automation_policy": "SUPERVISED_ONLY",
-      "waiting_state": "NONE",
-      "next_action": null,
-      "blocked_fail_closed": true,
-      "notes": null
+      "waiting_state": "NONE"
     }
   ],
-  "selected_source_pack_id": "unusual-indices-book-source-pack",
-  "selected_donor_profile": {
-    "planning": "ABVX control plane plus future thin planning pilot from alexeygrigorev/ai-book-generator patterns only",
-    "manuscript": "Owner-authored spine with future bounded manuscript assist only after BookSpec approval",
-    "translation": "hydropix/TranslateBooksWithLLMs and KazKozDev/book-translator as future translation pilots only",
-    "visual_narrative": "No visual-runtime donor selected for this prose acceptance case; retain agent-mangaka-forge and codex-novel-to-comic-studio as future pattern sources",
-    "compilation": "vpuna/markdown-to-book as the preferred deterministic compiler pilot",
-    "submission": "ekr0/auto-kdp as a supervised future adapter only"
+  "format_artifacts": [
+    {
+      "artifact_id": "kindle-reflowable-v0",
+      "file_ref": null,
+      "format": "KINDLE_REFLOWABLE",
+      "generated_at": null,
+      "notes": null,
+      "provenance_classification": "UNKNOWN",
+      "readiness_state": "NOT_CREATED",
+      "source_manuscript_version": "seed-outline-to-manuscript-v0",
+      "validation_status": "NOT_STARTED"
+    },
+    {
+      "artifact_id": "paperback-interior-v0",
+      "file_ref": null,
+      "format": "PAPERBACK_INTERIOR",
+      "generated_at": null,
+      "notes": null,
+      "provenance_classification": "UNKNOWN",
+      "readiness_state": "NOT_CREATED",
+      "source_manuscript_version": "seed-outline-to-manuscript-v0",
+      "validation_status": "NOT_STARTED"
+    },
+    {
+      "artifact_id": "print-cover-v0",
+      "file_ref": null,
+      "format": "PRINT_COVER",
+      "generated_at": null,
+      "notes": null,
+      "provenance_classification": "UNKNOWN",
+      "readiness_state": "NOT_CREATED",
+      "source_manuscript_version": "seed-outline-to-manuscript-v0",
+      "validation_status": "NOT_STARTED"
+    }
+  ],
+  "human_gates": [
+    {
+      "decision_ref": null,
+      "required": true,
+      "rule": "Approve bounded edition scope, thesis, chapter list and source policy before any manuscript generation.",
+      "stage": "BOOK_SPEC",
+      "state": "OPEN"
+    },
+    {
+      "decision_ref": null,
+      "required": true,
+      "rule": "Approve manuscript quality, factual confidence and disclosure wording before packaging.",
+      "stage": "EDITORIAL_QA",
+      "state": "NOT_YET_REACHED"
+    },
+    {
+      "decision_ref": null,
+      "required": true,
+      "rule": "Approve final KDP package and supervised submission path before any retailer action.",
+      "stage": "SUBMISSION",
+      "state": "NOT_YET_REACHED"
+    }
+  ],
+  "id": "unusual-indices-book",
+  "intake_item_ids": [
+    "pop-development-idea",
+    "cigarette-index"
+  ],
+  "known_gaps": [
+    "Commercial title/subtitle, promise and chapter architecture require human approval before manuscript production.",
+    "No approved cover direction exists yet.",
+    "KDP metadata is hypothesis-level only and needs final category/keyword review before submission.",
+    "Rights remain mixed for external examples; they can inform commentary but not be copied.",
+    "Fact-check queue remains open for all index examples with volatile or third-party claims."
+  ],
+  "lifecycle_stage": "CONCEPT",
+  "next_action": "Human decision: approve, revise or reject the proposed commercial BookSpec before any unusual-indices manuscript generation.",
+  "objective": "Turn owner-supplied unusual-index research into a commercially strong Amazon KDP nonfiction book, with owner projects treated only as optional context rather than the primary promotional goal.",
+  "preferred_renderer": "PANDOC_XELATEX",
+  "primary_objective": "COMMERCIAL_AMAZON_SUCCESS",
+  "provenance": {
+    "observed_at": "2026-08-13T00:00:00Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-002",
+    "source_uri": "docs/audits/book-factory-indices-002-commercial-positioning.md"
+  },
+  "publication_form": "PROSE_BOOK",
+  "publication_profile": "CONVENTIONAL_BOOK",
+  "readiness": {
+    "cover_strategy": "MISSING",
+    "disclosure_policy": "READY",
+    "format_artifacts": "MISSING",
+    "kdp_metadata": "PARTIAL",
+    "manuscript_seed": "PARTIAL",
+    "outline_seed": "PARTIAL",
+    "positioning": "READY",
+    "source_pack": "READY",
+    "translation_readiness": "NOT_APPLICABLE",
+    "visual_bible": "NOT_APPLICABLE"
   },
   "related_projects": [
     "pop",
     "1d3x",
     "abvxsite"
   ],
-  "intake_item_ids": [
-    "pop-development-idea",
-    "cigarette-index"
-  ],
-  "context_request_ids": [
-    "unusual-indices-book"
-  ],
-  "human_gates": [
-    {
-      "stage": "BOOK_SPEC",
-      "required": true,
-      "state": "OPEN",
-      "rule": "Approve bounded edition scope, thesis, chapter list and source policy before any manuscript generation.",
-      "decision_ref": null
-    },
-    {
-      "stage": "EDITORIAL_QA",
-      "required": true,
-      "state": "NOT_YET_REACHED",
-      "rule": "Approve manuscript quality, factual confidence and disclosure wording before packaging.",
-      "decision_ref": null
-    },
-    {
-      "stage": "SUBMISSION",
-      "required": true,
-      "state": "NOT_YET_REACHED",
-      "rule": "Approve final KDP package and supervised submission path before any retailer action.",
-      "decision_ref": null
-    }
-  ],
-  "readiness": {
-    "source_pack": "READY",
-    "positioning": "READY",
-    "outline_seed": "PARTIAL",
-    "manuscript_seed": "PARTIAL",
-    "translation_readiness": "NOT_APPLICABLE",
-    "visual_bible": "NOT_APPLICABLE",
-    "cover_strategy": "MISSING",
-    "format_artifacts": "MISSING",
-    "kdp_metadata": "MISSING",
-    "disclosure_policy": "READY"
+  "schema_version": "v1",
+  "selected_donor_profile": {
+    "compilation": "vpuna/markdown-to-book as the preferred deterministic compiler pilot",
+    "manuscript": "Owner-authored spine with future bounded manuscript assist only after BookSpec approval",
+    "planning": "ABVX control plane plus future thin planning pilot from alexeygrigorev/ai-book-generator patterns only",
+    "submission": "ekr0/auto-kdp as a supervised future adapter only",
+    "translation": "hydropix/TranslateBooksWithLLMs and KazKozDev/book-translator as future translation pilots only",
+    "visual_narrative": "No visual-runtime donor selected for this prose acceptance case; retain agent-mangaka-forge and codex-novel-to-comic-studio as future pattern sources"
   },
-  "known_gaps": [
-    "Edition-1 scope is not yet narrowed to a concrete chapter plan.",
-    "No approved cover direction or interior illustration policy exists yet.",
-    "KDP metadata package is not prepared.",
-    "Rights remain mixed for external examples; they can inform commentary but not be copied."
-  ],
-  "next_action": "Approve a bounded BookSpec for Edition 1 and then pilot deterministic manuscript packaging on owner-controlled markdown only.",
-  "provenance": {
-    "recorded_by": "BOOK-FACTORY-001",
-    "source_uri": null,
-    "observed_at": "2026-08-12T00:00:00Z"
-  }
+  "selected_source_pack_id": "unusual-indices-book-source-pack",
+  "status": "WAITING_FOR_HUMAN",
+  "title": "Unusual Indices"
 }

@@ -271,6 +271,17 @@ def _build_enrichment(root: Path, fixture: dict[str, Any], adapter: dict[str, An
     }, cortex_warnings
 
 
+def _runtime_artifact_refs(root: Path, item_id: str) -> list[str]:
+    refs: list[str] = []
+    runtime_path = root / "evidence" / "intelligence" / f"{item_id}.runtime.json"
+    evidence_path = root / "evidence" / "intelligence" / f"{item_id}.evidence.json"
+    if runtime_path.is_file():
+        refs.append(str(runtime_path.relative_to(root)))
+    if evidence_path.is_file():
+        refs.append(str(evidence_path.relative_to(root)))
+    return refs
+
+
 class ProjectPublishingAdapter(Protocol):
     def prepare(self, root: Path, fixture: dict[str, Any], adapter: dict[str, Any]) -> dict[str, Any]: ...
 
@@ -279,14 +290,26 @@ class ProjectPublishingAdapter(Protocol):
 
 @dataclass(frozen=True)
 class GenericPublishingAdapter:
-    def prepare(self, root: Path, fixture: dict[str, Any], adapter: dict[str, Any]) -> dict[str, Any]:
+    def prepare(self, root: Path, fixture: dict[str, Any], adapter: dict[str, Any], *, intelligence_mode: str = "deterministic") -> dict[str, Any]:
         blockers = list(adapter.get("preparation_blockers", []))
         if adapter["readiness"] != "READY":
             blockers.append(adapter["readiness_reason"])
         if adapter.get("required_assets") and not fixture["payload"].get("asset_refs"):
             blockers.append("required assets are not attached to the fixture payload")
         flags = {key: bool(value) for key, value in fixture.get("validation_flags", {}).items()}
-        enrichment, enrichment_warnings = _build_enrichment(root, fixture, adapter)
+        runtime = None
+        if intelligence_mode == "local_llm":
+            from .intelligence import build_content_item_enrichment
+
+            try:
+                enrichment, runtime = build_content_item_enrichment(root, fixture)
+                enrichment_warnings = list(enrichment.get("warnings", []))
+            except ValidationError as exc:
+                blockers.append(f"internal intelligence failed closed: {exc}")
+                enrichment, enrichment_warnings = _build_enrichment(root, fixture, adapter)
+                enrichment_warnings.append("semantic enrichment fallback was generated deterministically for inspection only; not safe to approve until rerun")
+        else:
+            enrichment, enrichment_warnings = _build_enrichment(root, fixture, adapter)
         item = {
             "schema_version": "v1",
             "id": fixture["id"],
@@ -334,13 +357,13 @@ class GenericPublishingAdapter:
                 **enrichment,
                 "warnings": enrichment_warnings,
             },
-            "artifact_refs": [],
+            "artifact_refs": _runtime_artifact_refs(root, fixture["id"]) if intelligence_mode == "local_llm" else [],
             "history": [
                 {
                     "action": "PREPARE",
                     "timestamp": now_iso(),
                     "actor": "abvx-content-ops",
-                    "result": "BLOCKED" if blockers else "PREPARED",
+                    "result": "BLOCKED" if blockers else ("PREPARED_WITH_LOCAL_LLM" if runtime else "PREPARED"),
                 }
             ],
             "provenance": fixture["provenance"],
@@ -386,10 +409,12 @@ def _implementation(adapter: dict[str, Any]) -> ProjectPublishingAdapter:
     return ADAPTER_IMPLEMENTATIONS[publish_strategy]
 
 
-def prepare_content_item(root: Path, fixture_ref: str) -> dict[str, Any]:
+def prepare_content_item(root: Path, fixture_ref: str, *, intelligence_mode: str = "deterministic") -> dict[str, Any]:
     fixture = _load_fixture(root, fixture_ref)
     adapter = _adapter_entry(root, fixture["adapter_id"])
-    item = _implementation(adapter).prepare(root, fixture, adapter)
+    if intelligence_mode not in {"deterministic", "local_llm"}:
+        raise ValidationError(f"unsupported intelligence mode: {intelligence_mode}")
+    item = _implementation(adapter).prepare(root, fixture, adapter, intelligence_mode=intelligence_mode)
     _write_item(root, item)
     return item
 

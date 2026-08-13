@@ -8,6 +8,7 @@ from .content_ops import approve_content_item, inspect_content_item, prepare_con
 from .context import inspect_context_pack, request_context
 from .harness import ValidationError, load_json, run_bakeoff, validate_repository
 from .intake import add_intake_item, decide_intake_item, inspect_intake_item, link_intake_items, list_intake_items, promote_intake_item, review_intake_items, update_clarification
+from .intelligence import run_content_enrichment
 from .playbooks import load_playbook, replay_playbook
 from .portfolio import inspect_portfolio, render_portfolio
 
@@ -118,9 +119,20 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
         if len(argv) >= 3 and argv[:2] == ["content", "prepare"]:
             positional, options = _options(argv[2:])
             fixture_ref = options.get("file")
+            intelligence_mode = options.get("intelligence")
             if positional or not isinstance(fixture_ref, str):
-                raise ValidationError("usage: ./bin/abvx content prepare --file <path> [--json]")
-            _print_content(prepare_content_item(root, fixture_ref), bool(options.get("json")))
+                raise ValidationError("usage: ./bin/abvx content prepare --file <path> [--intelligence deterministic|local_llm] [--json]")
+            _print_content(prepare_content_item(root, fixture_ref, intelligence_mode=intelligence_mode if isinstance(intelligence_mode, str) else "deterministic"), bool(options.get("json")))
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["intelligence", "run"]:
+            positional, options = _options(argv[2:])
+            task = options.get("task")
+            fixture_ref = options.get("file")
+            provider = options.get("provider")
+            if positional or task != "content-enrichment" or not isinstance(fixture_ref, str):
+                raise ValidationError("usage: ./bin/abvx intelligence run --task content-enrichment --file <path> [--provider ollama.local|cheap.api] [--json]")
+            result = run_content_enrichment(root, fixture_ref, provider=provider if isinstance(provider, str) else None)
+            print(json.dumps(result, indent=2, sort_keys=True))
             return 0
         if len(argv) >= 3 and argv[:2] == ["content", "inspect"]:
             positional, options = _options(argv[2:])
@@ -191,7 +203,7 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             else:
                 print(render_portfolio(portfolio))
             return 0
-        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake review [--json] | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake <accept|reject|watch|keep|archive> <id> | ./bin/abvx intake promote <id> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx content prepare --file <path> [--json] | ./bin/abvx content inspect <id> [--json] | ./bin/abvx content approve <id> [--json] | ./bin/abvx content publish <id> [--json] | ./bin/abvx portfolio inspect [--json] | ./bin/abvx playbook inspect <id> | ./bin/abvx playbook replay <id> --input <path> | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id> | ./bin/abvx context request --file <path> [--json] | ./bin/abvx context inspect <pack-id>", file=sys.stderr)
+        print("usage: ./bin/abvx validate | ./bin/abvx intake add --text <text> | ./bin/abvx intake add --url <url> | ./bin/abvx intake inspect <id> | ./bin/abvx intake list | ./bin/abvx intake review [--json] | ./bin/abvx intake clarify <id> --answer <text> | ./bin/abvx intake <accept|reject|watch|keep|archive> <id> | ./bin/abvx intake promote <id> | ./bin/abvx intake link <id> <related-id> | ./bin/abvx content prepare --file <path> [--intelligence deterministic|local_llm] [--json] | ./bin/abvx content inspect <id> [--json] | ./bin/abvx content approve <id> [--json] | ./bin/abvx content publish <id> [--json] | ./bin/abvx intelligence run --task content-enrichment --file <path> [--provider ollama.local|cheap.api] [--json] | ./bin/abvx portfolio inspect [--json] | ./bin/abvx playbook inspect <id> | ./bin/abvx playbook replay <id> --input <path> | ./bin/abvx bakeoff run <id> | ./bin/abvx bakeoff inspect <id> | ./bin/abvx context request --file <path> [--json] | ./bin/abvx context inspect <pack-id>", file=sys.stderr)
         return 2
     except (ValidationError, OSError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

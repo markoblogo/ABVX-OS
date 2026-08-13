@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/intelligence-result/v1",
+  "title": "ABVX Intelligence Result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "task_id",
+    "status",
+    "provider",
+    "model",
+    "execution_tier",
+    "latency_ms",
+    "usage",
+    "locality",
+    "validation",
+    "failure_reason",
+    "output",
+    "policy",
+    "captured_at"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "task_id": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["SUCCEEDED", "FAILED", "ESCALATION_REQUIRED"] },
+    "provider": { "type": ["string", "null"] },
+    "model": { "type": ["string", "null"] },
+    "execution_tier": { "enum": ["DETERMINISTIC", "LOCAL_LLM", "CHEAP_API", "CODEX_ESCALATION"] },
+    "latency_ms": { "type": "integer", "minimum": 0 },
+    "usage": { "type": ["object", "null"], "additionalProperties": true },
+    "locality": { "enum": ["LOCAL", "EXTERNAL"] },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "checks", "warnings"],
+      "properties": {
+        "schema": { "enum": ["PASS", "FAIL", "NOT_RUN"] },
+        "checks": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "warnings": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "failure_reason": { "type": ["string", "null"] },
+    "output": { "type": ["object", "null"], "additionalProperties": true },
+    "policy": { "type": "object", "additionalProperties": true },
+    "captured_at": { "type": "string", "format": "date-time" }
+  }
+}

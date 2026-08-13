@@ -207,6 +207,11 @@ def validate_repository(root: Path) -> list[str]:
         for path in sorted((root / "evidence" / "context-packs").glob("*.json")):
             validate(load_json(path), load_json(context_pack_schema_path), schema_path=context_pack_schema_path, root=root, location=str(path))
             checked.append(str(path.relative_to(root)))
+    intelligence_result_schema_path = root / "schemas" / "intelligence_result.schema.json"
+    if intelligence_result_schema_path.is_file():
+        for path in sorted((root / "evidence" / "intelligence").glob("*.runtime.json")):
+            validate(load_json(path), load_json(intelligence_result_schema_path), schema_path=intelligence_result_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
     book_project_schema_path = root / "schemas" / "book_project.schema.json"
     if book_project_schema_path.is_file():
         for path in sorted((root / "books" / "projects").glob("*.json")):
@@ -226,6 +231,15 @@ def validate_repository(root: Path) -> list[str]:
     if book_design_profile_schema_path.is_file():
         for path in sorted((root / "books" / "design" / "profiles").glob("*.json")):
             validate(load_json(path), load_json(book_design_profile_schema_path), schema_path=book_design_profile_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
+    research_file_schemas = {
+        root / "books" / "research" / "unusual-indices" / "source-document.json": root / "schemas" / "book_research_source_document.schema.json",
+        root / "books" / "research" / "unusual-indices" / "normalized-corpus.json": root / "schemas" / "book_research_corpus.schema.json",
+        root / "books" / "research" / "unusual-indices" / "commercial-opportunity-report.json": root / "schemas" / "book_research_opportunity_report.schema.json",
+    }
+    for path, schema_path in research_file_schemas.items():
+        if path.is_file() and schema_path.is_file():
+            validate(load_json(path), load_json(schema_path), schema_path=schema_path, root=root, location=str(path))
             checked.append(str(path.relative_to(root)))
     return checked
 

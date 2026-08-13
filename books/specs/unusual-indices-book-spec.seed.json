@@ -8,13 +8,14 @@
   "content_origin": "DERIVED",
   "publication_form": "PROSE_BOOK",
   "publication_profile": "CONVENTIONAL_BOOK",
+  "distribution_target": "AMAZON_KDP",
   "preferred_renderer": "PANDOC_XELATEX",
   "book_type": "NONFICTION",
   "source_language": "English",
   "target_language": "English",
-  "audience": "Readers interested in market intuition, public metrics, economic comparisons and index design.",
-  "positioning": "A short, readable nonfiction book that uses unusual indices to explain why metrics become powerful when they translate abstract systems into felt comparisons.",
-  "description": "Edition-1 seed only. This is a bounded BookSpec draft for narrowing scope before any manuscript generation or KDP packaging.",
+  "audience": "General readers who enjoy Freakonomics-style popular economics, strange indicators, readable data stories and counterintuitive nonfiction.",
+  "positioning": "A popular-nonfiction book about how unusual indices turn abstract systems into memorable everyday comparisons, with commercial reader value taking priority over owner-project promotion.",
+  "description": "Edition-1 seed only. This is a bounded commercial BookSpec draft for narrowing scope before any manuscript generation or KDP packaging.",
   "source_pack_id": "unusual-indices-book-source-pack",
   "source_policy": "Owner-originated material and approved ABVX content may be transformed. Third-party examples remain reference-only unless separately cleared.",
   "citation_policy": "Non-obvious factual or historical claims should trace to explicit sources; external index descriptions should retain source provenance.",
@@ -33,7 +34,7 @@
       "index": 2,
       "title": "What makes an index readable",
       "status": "SEED",
-      "notes": "Bridge SPIKE/POP methodology to consumer understanding."
+      "notes": "Explain translation, comparability and methodology without assuming owner-project context."
     },
     {
       "index": 3,
@@ -45,7 +46,7 @@
       "index": 4,
       "title": "Everyday products as cross-city comparisons",
       "status": "SEED",
-      "notes": "Big Mac, latte, iPhone and related POP surfaces."
+      "notes": "Big Mac, latte, iPhone and related affordability comparisons."
     },
     {
       "index": 5,

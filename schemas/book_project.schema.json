@@ -35,6 +35,9 @@
     "id": { "type": "string", "minLength": 1 },
     "title": { "type": "string", "minLength": 1 },
     "objective": { "type": "string", "minLength": 1 },
+    "primary_objective": {
+      "enum": ["COMMERCIAL_AMAZON_SUCCESS", "LEAD_MAGNET", "PROFESSIONAL_AUTHORITY", "INTERNAL_ONLY", "UNKNOWN"]
+    },
     "status": {
       "enum": [
         "INTAKE_ACCEPTED",
@@ -67,6 +70,9 @@
     },
     "publication_profile": {
       "enum": ["CONVENTIONAL_BOOK", "DISCOVERY_BOOKLET", "HANDBOOK", "REPORT"]
+    },
+    "distribution_target": {
+      "enum": ["AMAZON_KDP", "DIRECT_PDF", "MIXED", "UNKNOWN"]
     },
     "preferred_renderer": {
       "enum": ["PANDOC_XELATEX", "HTML_CSS_CHROMIUM", "UNDECIDED"]
