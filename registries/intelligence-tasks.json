@@ -29,6 +29,33 @@
       },
       "escalation_behavior": "ESCALATION_REQUIRED",
       "timeout_seconds": 180
+    },
+    {
+      "id": "research-relevance-ranking",
+      "name": "Research Relevance Ranking",
+      "preferred_tier": "CHEAP_API",
+      "allowed_providers": [
+        "cheap.api"
+      ],
+      "input_bounds": {
+        "max_chars": 22000,
+        "max_body_lines": 0
+      },
+      "output_schema": "schemas/intelligence_research_relevance_ranking_output.schema.json",
+      "validation": [
+        "json-schema",
+        "bounded-ranked-items",
+        "verification-priority"
+      ],
+      "cost_guard": {
+        "model": "gpt-5.6-luna",
+        "reasoning_effort": "low",
+        "max_output_tokens": 1200,
+        "expected_cost_class": "CHEAP",
+        "max_estimated_cost_usd": 0.02
+      },
+      "escalation_behavior": "ESCALATION_REQUIRED",
+      "timeout_seconds": 180
     }
   ]
 }

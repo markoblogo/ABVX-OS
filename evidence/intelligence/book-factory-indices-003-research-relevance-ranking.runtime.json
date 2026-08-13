@@ -1,0 +1,202 @@
+{
+  "captured_at": "2026-08-13T11:23:51Z",
+  "execution_tier": "CHEAP_API",
+  "failure_reason": null,
+  "latency_ms": 11959,
+  "locality": "EXTERNAL",
+  "model": "gpt-5.6-luna",
+  "output": {
+    "high_risk_items": [
+      "claim-lipstick-weak-predictor",
+      "claim-underwear-weak-predictor",
+      "claim-baltic-grounded",
+      "claim-cigarette-not-literal",
+      "claim-do-not-mix-air-measures",
+      "claim-goodhart-risk"
+    ],
+    "notes": "The supplied items most directly support chapters 1\u20136. No supplied item directly establishes chapter 7 or chapter 8; AI Index and SWE-Bench are therefore omitted rather than assigned speculatively. The owner-projects claim is also omitted because no corresponding owner-built index item is supplied.",
+    "ranked_items": [
+      {
+        "chapter_id": "ch1",
+        "id": "claim-big-mac-ppp-proxy",
+        "reason": "Frames the Big Mac Index accurately as an illustrative PPP proxy rather than a full valuation model.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch1",
+        "id": "big-mac-index",
+        "reason": "Central concrete example for explaining purchasable, everyday currency comparison.",
+        "relevance": "CORE",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch1",
+        "id": "claim-hours-beat-prices",
+        "reason": "Supports the chapter\u2019s shift from sticker prices to lived affordability.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch1",
+        "id": "claim-single-item-noise",
+        "reason": "Provides the methodological limitation needed to qualify single-product indices.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch1",
+        "id": "starbucks-latte-index",
+        "reason": "Useful parallel example of a familiar consumer product used for price comparison.",
+        "relevance": "SUPPORT",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch1",
+        "id": "iphone-work-time-index",
+        "reason": "Connects product prices with labor affordability and reinforces the chapter\u2019s human measure.",
+        "relevance": "SUPPORT",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch2",
+        "id": "working-hours-index",
+        "reason": "Directly supports interpreting prices through the time required to earn them.",
+        "relevance": "CORE",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch3",
+        "id": "claim-lipstick-weak-predictor",
+        "reason": "Necessary qualification if the Lipstick Index is presented as recession evidence.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch3",
+        "id": "lipstick-index",
+        "reason": "A central case for examining memorable but weakly established recession folklore.",
+        "relevance": "CORE",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch3",
+        "id": "claim-underwear-weak-predictor",
+        "reason": "Necessary qualification for the evidentiary status of the Men\u2019s Underwear Index.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch3",
+        "id": "mens-underwear-index",
+        "reason": "Provides a second memorable consumer-behavior indicator for testing recession folklore.",
+        "relevance": "CORE",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch3",
+        "id": "skyscraper-index",
+        "reason": "Adds another macro myth through which correlation, timing and causal claims can be examined.",
+        "relevance": "SUPPORT",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch4",
+        "id": "claim-baltic-grounded",
+        "reason": "Distinguishes a more economically grounded transport measure from anecdotal indicators.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch4",
+        "id": "baltic-dry-index",
+        "reason": "Primary example of an index tied to shipping and trade activity.",
+        "relevance": "CORE",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch4",
+        "id": "container-freight-index",
+        "reason": "Useful comparison showing that different freight measures capture different parts of commerce.",
+        "relevance": "SUPPORT",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch5",
+        "id": "claim-cigarette-not-literal",
+        "reason": "Must be verified and carefully framed to prevent a misleading health equivalence.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch5",
+        "id": "claim-do-not-mix-air-measures",
+        "reason": "Essential measurement distinction among concentration, AQI, exposure and spikes.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      },
+      {
+        "chapter_id": "ch5",
+        "id": "cigarette-equivalent-index",
+        "reason": "Primary case for translating an abstract environmental measure into a familiar unit.",
+        "relevance": "CORE",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch5",
+        "id": "claim-strange-units-help",
+        "reason": "Supplies the chapter\u2019s general interpretive principle about familiar units and legibility.",
+        "relevance": "CORE",
+        "verification_priority": "P1"
+      },
+      {
+        "chapter_id": "ch6",
+        "id": "claim-goodhart-risk",
+        "reason": "Core claim about how measurement changes behavior when targets become optimization objectives.",
+        "relevance": "CORE",
+        "verification_priority": "P0"
+      }
+    ]
+  },
+  "policy": {
+    "allow_external": false,
+    "cheap_api_model": "gpt-5.6-luna",
+    "expected_cost_class": "CHEAP",
+    "max_body_lines": 0,
+    "max_estimated_cost_usd": 0.02,
+    "max_input_chars": 22000,
+    "max_output_tokens": 1200,
+    "preferred_tier": "CHEAP_API",
+    "reasoning_effort": "low",
+    "timeout_seconds": 180
+  },
+  "provider": "cheap.api",
+  "schema_version": "v1",
+  "status": "SUCCEEDED",
+  "task_id": "research-relevance-ranking",
+  "usage": {
+    "estimated_cost_usd": 0.0014978,
+    "input_tokens": 1105,
+    "input_tokens_details": {
+      "cache_write_tokens": 1102,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1064,
+    "output_tokens_details": {
+      "reasoning_tokens": 81
+    },
+    "pricing_source": "OpenAI pricing, gpt-5.6-luna short context",
+    "total_tokens": 2169
+  },
+  "validation": {
+    "checks": [
+      "json-schema",
+      "allowlisted-internal-links",
+      "non-empty-tags",
+      "non-empty-summary",
+      "bounded-cost"
+    ],
+    "schema": "PASS",
+    "warnings": []
+  }
+}

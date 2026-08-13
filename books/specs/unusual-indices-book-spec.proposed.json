@@ -3,18 +3,18 @@
   "author": "Anton BV",
   "book_id": "unusual-indices-book",
   "book_type": "NONFICTION",
-  "chapter_count": 9,
+  "chapter_count": 8,
   "citation_policy": "Non-obvious factual or historical claims should trace to explicit sources; external index descriptions should retain source provenance.",
   "content_origin": "DERIVED",
-  "current_state": "BOOK_SPEC_PROPOSED; COMMERCIAL_PACKAGE_PROPOSED",
-  "description": "Proposed Amazon-first BookSpec for human review. The book should read as a compact, story-led popular nonfiction title built around vivid indices, methodological caution and a curated library of unusual comparisons.",
+  "current_state": "BOOK_SPEC_READY_FOR_HUMAN_APPROVAL",
+  "description": "Final pre-manuscript BookSpec candidate. The book is a compact, story-led popular nonfiction title about the ordinary objects and strange indicators people use to understand large economic and social systems, including why some measures illuminate and others become attractive nonsense.",
   "distribution_target": "AMAZON_KDP",
   "execution_cost": {
     "cost_preference": "BALANCED",
     "notes": "Use cheap structured API/provider tasks for bounded enrichment and research extraction; use human/Codex only for editorial judgment and manuscript quality gates.",
     "preferred_runtime_cost": "LOW_COST_API"
   },
-  "expected_outcome": "Human selects a commercial package direction before BookSpec freeze and manuscript production.",
+  "expected_outcome": "Human approves or revises the frozen subtitle, narrative architecture, verification plan and manuscript mission pack before BOOK-FACTORY-INDICES-004 Manuscript V1.",
   "format_specific_qa": [
     {
       "checks": [
@@ -74,65 +74,59 @@
   "outline": [
     {
       "index": 1,
-      "notes": "Open with the Ciggie Index as the clearest promise: abstract pollution becomes an everyday unit.",
+      "notes": "Open with Big Mac as familiar hook, then show why a purchasable object can make currency and cost-of-living abstraction readable.",
       "status": "SEED",
-      "title": "The Measure You Can Feel"
+      "title": "The Measure You Can Eat"
     },
     {
       "index": 2,
-      "notes": "Explain translation, intuition, memorability and where simplification becomes dangerous.",
+      "notes": "Move from sticker prices to working hours, wages and lived affordability.",
       "status": "SEED",
-      "title": "Why Strange Measures Work"
+      "title": "Prices Become Human"
     },
     {
       "index": 3,
-      "notes": "Big Mac, latte, iPhone and purchasing-power comparisons as familiar bridge cases.",
+      "notes": "Lipstick, men's underwear, hemlines and skyscrapers as memorable but contested economic folklore.",
       "status": "SEED",
-      "title": "Burgernomics and the Everyday Price of a Place"
+      "title": "The Folklore of Recession"
     },
     {
       "index": 4,
-      "notes": "Data storytelling, charts, rankings and the narrative mechanics of a good index.",
+      "notes": "Freight, shipping, containers and electricity show the physical economy underneath consumer life.",
       "status": "SEED",
-      "title": "When a Number Becomes a Story"
+      "title": "The Economy Under the Economy"
     },
     {
       "index": 5,
-      "notes": "Environmental, health, fragility and operational-warning examples; keep claims evidence-backed.",
+      "notes": "Cigarette-equivalent pollution and climate equivalence stories show the power and danger of translating risk into familiar units.",
       "status": "SEED",
-      "title": "Indexes That Warn Us"
+      "title": "Air You Can Count"
     },
     {
       "index": 6,
-      "notes": "Cities, countries, purchasing power, time, wages and lifestyle comparisons.",
+      "notes": "Goodhart, manipulation, governance failures and stale indicators show how measures change behavior.",
       "status": "SEED",
-      "title": "Indexes That Compare Us"
+      "title": "When Measures Fight Back"
     },
     {
       "index": 7,
-      "notes": "Method limits, stale data, incentives, gaming and category errors.",
+      "notes": "AI benchmarks and readiness rankings as the newest family of seductive, contested indices.",
       "status": "SEED",
-      "title": "Indexes That Can Mislead"
+      "title": "Benchmarks for Machines"
     },
     {
       "index": 8,
-      "notes": "A practical but non-technical design checklist for readers and operators.",
+      "notes": "Close with the practical reader payoff: how to distinguish useful proxies from myths, memes and manipulated targets.",
       "status": "SEED",
-      "title": "How to Build a Useful Weird Index"
-    },
-    {
-      "index": 9,
-      "notes": "Curated appendix-like library; useful, skimmable and commercially browseable.",
-      "status": "SEED",
-      "title": "A Small Atlas of Strange Comparisons"
+      "title": "How to Read a Weird Index"
     }
   ],
-  "positioning": "A commercial popular-economics/data-storytelling book. The promise is not to promote 1D3X, POP, SPIKE or ABVX; the promise is to show readers why strange everyday comparisons can make hidden systems visible, useful and memorable.",
+  "positioning": "Amazon-first popular economics and data-storytelling nonfiction. The title hook is object-led, but the manuscript promise is broader: ordinary objects and strange indicators can reveal, distort or manipulate how people understand the economy.",
   "preferred_renderer": "PANDOC_XELATEX",
   "provenance": {
     "observed_at": "2026-08-13T00:00:00Z",
-    "recorded_by": "BOOK-FACTORY-INDICES-002",
-    "source_uri": "docs/audits/book-factory-indices-002-commercial-positioning.md"
+    "recorded_by": "BOOK-FACTORY-INDICES-003",
+    "source_uri": "docs/audits/book-factory-indices-003-bookspec-architecture.md"
   },
   "provenance_breakdown": {
     "appendices": "AI_ASSISTED",
@@ -148,11 +142,11 @@
   "source_language": "English",
   "source_pack_id": "unusual-indices-book-source-pack",
   "source_policy": "Owner-originated material and approved ABVX content may be transformed. Third-party examples remain reference-only unless separately cleared.",
-  "subtitle": "How strange comparisons make the world easier to understand",
+  "subtitle": "What Strange Indicators Really Tell Us About the Economy",
   "target_language": "English",
-  "target_pages": 150,
-  "target_words": 28000,
-  "title": "The Cigarette Index",
+  "target_pages": 145,
+  "target_words": 32000,
+  "title": "Burgers, Lipstick & Underwear",
   "translation": {
     "glossary": [],
     "human_reviewed_sections": [],
@@ -190,7 +184,12 @@
     "plain English",
     "evidence-backed claims",
     "methodologically cautious",
+    "dry and skeptical",
+    "fast but not shallow",
+    "occasionally funny through observation and contrast",
+    "Jeremy Clarkson-style directness without automotive imitation",
     "minimal owner-project promotion",
+    "avoid repeated formulas such as The catch is, Here's the thing, What happens when, and Of course",
     "avoid generic AI exposition"
   ]
 }

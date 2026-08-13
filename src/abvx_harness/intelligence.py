@@ -141,6 +141,18 @@ def _reasoning_policy(task: dict[str, Any], policy: dict[str, Any] | None) -> di
 
 
 def _build_prompt(task: dict[str, Any], context: dict[str, Any]) -> str:
+    if task["id"] == "research-relevance-ranking":
+        payload = {
+            "task": "Rank supplied research items for a single manuscript chapter plan.",
+            "rules": [
+                "Use only supplied ids and chapter ids.",
+                "Do not invent sources, claims or chapters.",
+                "Prefer P0 only for claims that must be verified before drafting.",
+                "Return concise reasons.",
+            ],
+            "input": context,
+        }
+        return json.dumps(payload, ensure_ascii=False)
     if task["id"] != "content-enrichment":
         raise ValidationError(f"unsupported intelligence prompt task: {task['id']}")
     body_lines = context["body_lines"][: task["input_bounds"]["max_body_lines"]]

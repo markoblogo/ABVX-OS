@@ -1,0 +1,247 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "state": "READY_FOR_MANUSCRIPT_V1",
+  "evidence_taxonomy": [
+    "ROBUST",
+    "PLAUSIBLE",
+    "CONTESTED",
+    "FOLKLORE",
+    "FAILED_DISCREDITED",
+    "MANIPULATION_GOVERNANCE_CASE"
+  ],
+  "source_hierarchy": [
+    "original index publisher / methodology",
+    "academic paper / official institution",
+    "high-quality publisher or journalism",
+    "reputable secondary source",
+    "source-pack summary only as lead"
+  ],
+  "items": [
+    {
+      "id": "vq-big-mac-origin",
+      "priority": "P0",
+      "claim": "Big Mac Index originated as a light-hearted purchasing-power comparison and is useful as a PPP illustration, not a complete currency model.",
+      "related_chapter_story": "ch1 / Big Mac Index",
+      "current_source": "source-economist-big-mac",
+      "preferred_source_type": "original publisher / methodology",
+      "primary_source_target": "The Economist Big Mac Index methodology/data",
+      "risk_if_wrong": "Opening chapter misstates the foundational example."
+    },
+    {
+      "id": "vq-work-time-method",
+      "priority": "P0",
+      "claim": "Work-time comparisons make prices more human but depend on wage assumptions and local method.",
+      "related_chapter_story": "ch2 / iPhone and Working Hours",
+      "current_source": "source-ubs-prices-and-earnings; source-wef-iphone-hours",
+      "preferred_source_type": "original report / official methodology",
+      "primary_source_target": "UBS Prices and Earnings; original iPhone work-time methodology",
+      "risk_if_wrong": "Affordability chapter overstates comparability."
+    },
+    {
+      "id": "vq-lipstick-evidence",
+      "priority": "P0",
+      "claim": "Lipstick Index is a media-friendly recession hypothesis with contested empirical support.",
+      "related_chapter_story": "ch3 / Lipstick Index",
+      "current_source": "source-rbc-lipstick; source-lipstick-secondary",
+      "preferred_source_type": "high-quality journalism plus underlying market/economic evidence",
+      "primary_source_target": "Leonard Lauder attribution and later empirical critiques",
+      "risk_if_wrong": "Folklore becomes false economic fact."
+    },
+    {
+      "id": "vq-underwear-attribution",
+      "priority": "P0",
+      "claim": "Men's Underwear Index is attributed to Greenspan and remains weakly evidenced as a formal macro signal.",
+      "related_chapter_story": "ch3 / Men's Underwear Index",
+      "current_source": "source-medical-economics-weird",
+      "preferred_source_type": "primary attribution or reputable economics journalism",
+      "primary_source_target": "Greenspan attribution and apparel-sales evidence",
+      "risk_if_wrong": "Highly memorable title object becomes unreliable."
+    },
+    {
+      "id": "vq-skyscraper-performance",
+      "priority": "P0",
+      "claim": "Skyscraper Index is better treated as myth/correlation story than predictive law.",
+      "related_chapter_story": "ch3 / Skyscraper Index",
+      "current_source": "source-skyscraper-paper; source-market-urbanism",
+      "preferred_source_type": "academic paper plus critique",
+      "primary_source_target": "Skyscraper Index original formulation and later tests",
+      "risk_if_wrong": "Correlation is presented as prediction."
+    },
+    {
+      "id": "vq-cigarette-equivalence",
+      "priority": "P0",
+      "claim": "Cigarette-equivalent pollution is a risk analogy, not a literal chemical equivalence to smoking.",
+      "related_chapter_story": "ch5 / Cigarette Equivalent",
+      "current_source": "source-berkeley-earth; source-who-air-quality; source-openaq",
+      "preferred_source_type": "methodology source plus health institution guidance",
+      "primary_source_target": "Berkeley Earth cigarette-equivalence method; WHO PM2.5 guidance",
+      "risk_if_wrong": "Potentially misleading health claim."
+    },
+    {
+      "id": "vq-air-measure-boundaries",
+      "priority": "P0",
+      "claim": "PM2.5 concentration, AQI, annual exposure and short-term spikes are not interchangeable.",
+      "related_chapter_story": "ch5 / pollution measures",
+      "current_source": "source-who-air-quality; source-openaq",
+      "preferred_source_type": "official institution / methodology",
+      "primary_source_target": "WHO and OpenAQ definitions",
+      "risk_if_wrong": "Chapter mixes incompatible air-quality measures."
+    },
+    {
+      "id": "vq-goodhart",
+      "priority": "P0",
+      "claim": "A measure can lose integrity when people optimize directly for it.",
+      "related_chapter_story": "ch6 / measure manipulation",
+      "current_source": "claim-goodhart-risk",
+      "preferred_source_type": "academic / original formulation plus applied case",
+      "primary_source_target": "Goodhart's law references and a concrete governance case",
+      "risk_if_wrong": "Central measure/myth thesis becomes under-supported."
+    },
+    {
+      "id": "vq-libor-case",
+      "priority": "P0",
+      "claim": "LIBOR manipulation is a clear example of a trusted benchmark becoming a governance/manipulation case.",
+      "related_chapter_story": "ch6 / manipulation",
+      "current_source": "source-libor-case",
+      "preferred_source_type": "official legal/government record",
+      "primary_source_target": "US DOJ / regulator LIBOR manipulation records",
+      "risk_if_wrong": "High-stakes legal example misstated."
+    },
+    {
+      "id": "vq-ai-benchmark-framing",
+      "priority": "P0",
+      "claim": "AI benchmarks function as an index family and inherit interpretive/incentive problems.",
+      "related_chapter_story": "ch7 / AI benchmarks",
+      "current_source": "source-stanford-ai-index; source-swe-bench; source-artificial-analysis",
+      "preferred_source_type": "original benchmark methodology",
+      "primary_source_target": "Stanford AI Index, SWE-Bench and benchmark methodology pages",
+      "risk_if_wrong": "Modern chapter overgeneralizes technical benchmarks."
+    },
+    {
+      "id": "vq-starbucks-latte",
+      "priority": "P1",
+      "claim": "Latte comparisons can support the everyday-price family but should not be over-weighted.",
+      "related_chapter_story": "ch1 / Starbucks Latte",
+      "current_source": "source-investopedia-starbucks",
+      "preferred_source_type": "reputable secondary plus underlying data where used",
+      "primary_source_target": "Starbucks/latte index source used in final prose",
+      "risk_if_wrong": "Support example becomes stale or thin."
+    },
+    {
+      "id": "vq-baltic-dry-method",
+      "priority": "P1",
+      "claim": "Baltic Dry Index reflects dry bulk shipping market information and is more grounded than consumer folklore.",
+      "related_chapter_story": "ch4 / Baltic Dry Index",
+      "current_source": "source-baltic-exchange; source-tradingeconomics-bdi",
+      "preferred_source_type": "original index publisher / market data",
+      "primary_source_target": "Baltic Exchange methodology and current explanation",
+      "risk_if_wrong": "Grounded-signal chapter loses credibility."
+    },
+    {
+      "id": "vq-container-freight",
+      "priority": "P1",
+      "claim": "Container freight measures capture different trade dynamics than dry bulk shipping.",
+      "related_chapter_story": "ch4 / Container Freight",
+      "current_source": "source-freightos-baltic",
+      "preferred_source_type": "original index publisher",
+      "primary_source_target": "Freightos Baltic Index methodology",
+      "risk_if_wrong": "Freight examples collapse into one undifferentiated shipping story."
+    },
+    {
+      "id": "vq-electricity-demand",
+      "priority": "P1",
+      "claim": "Electricity demand can act as a physical-economy signal in context.",
+      "related_chapter_story": "ch4 / Electricity Demand",
+      "current_source": "source-ember-energy; source-electricitymaps",
+      "preferred_source_type": "energy data provider / official methodology",
+      "primary_source_target": "Ember or Electricity Maps methodology",
+      "risk_if_wrong": "Optional physical-economy support weakens."
+    },
+    {
+      "id": "vq-date-night",
+      "priority": "P1",
+      "claim": "Date Night and urban lifestyle comparisons can support affordability but are context-sensitive.",
+      "related_chapter_story": "ch2 / Date Night",
+      "current_source": "source-numbeo-cost-of-living",
+      "preferred_source_type": "source methodology and data caveat",
+      "primary_source_target": "Numbeo or chosen cost-of-living data methodology",
+      "risk_if_wrong": "Lifestyle comparison reads as arbitrary."
+    },
+    {
+      "id": "vq-doing-business",
+      "priority": "P1",
+      "claim": "Doing Business is a governance example for measurement incentives and discontinuation.",
+      "related_chapter_story": "ch6 / governance",
+      "current_source": "source-doing-business-report",
+      "preferred_source_type": "official institution report",
+      "primary_source_target": "World Bank Doing Business discontinuation/review documents",
+      "risk_if_wrong": "Governance case lacks institutional grounding."
+    },
+    {
+      "id": "vq-government-ai-readiness",
+      "priority": "P1",
+      "claim": "Government AI readiness rankings are index-like but should be used cautiously.",
+      "related_chapter_story": "ch7 / AI readiness",
+      "current_source": "source-oxford-ai-readiness",
+      "preferred_source_type": "original methodology",
+      "primary_source_target": "Oxford Insights Government AI Readiness Index methodology",
+      "risk_if_wrong": "AI chapter becomes buzzword-heavy."
+    },
+    {
+      "id": "vq-co2-flight-equivalent",
+      "priority": "P1",
+      "claim": "CO2 flight equivalents are useful translation devices but require clear assumptions.",
+      "related_chapter_story": "ch5 / climate equivalence",
+      "current_source": "source-global-carbon-project; source-ourworldindata-co2",
+      "preferred_source_type": "reputable data explainer",
+      "primary_source_target": "Our World in Data / Global Carbon Project methodology",
+      "risk_if_wrong": "Equivalence graphics may mislead."
+    },
+    {
+      "id": "vq-hemline",
+      "priority": "P2",
+      "claim": "Hemline Index belongs as optional folklore, not as a core economic proof.",
+      "related_chapter_story": "ch3 / Hemline",
+      "current_source": "source-medical-economics-weird",
+      "preferred_source_type": "secondary source plus critique",
+      "primary_source_target": "Only needed if included in manuscript V1",
+      "risk_if_wrong": "Low if excluded or clearly marked folklore."
+    },
+    {
+      "id": "vq-ikea-billy",
+      "priority": "P2",
+      "claim": "IKEA Billy Index can support the purchasable-object family if concise.",
+      "related_chapter_story": "ch1 / IKEA Billy",
+      "current_source": "source-docx-mixed-research",
+      "preferred_source_type": "original index/report if used",
+      "primary_source_target": "Original Billy Index source",
+      "risk_if_wrong": "Optional example can be cut."
+    },
+    {
+      "id": "vq-restaurant-reservation",
+      "priority": "P2",
+      "claim": "Restaurant reservations may be used as a nowcasting support example.",
+      "related_chapter_story": "ch4 / reservations",
+      "current_source": "normalized corpus",
+      "preferred_source_type": "original data provider / high-quality journalism",
+      "primary_source_target": "Specific reservation-data source chosen during drafting",
+      "risk_if_wrong": "Optional support example can be removed."
+    },
+    {
+      "id": "vq-owner-proof",
+      "priority": "P2",
+      "claim": "Owner project experience may appear only as method context, not promotion.",
+      "related_chapter_story": "optional author note / ch8",
+      "current_source": "source-owner-pop-surface; source-owner-ciggie-note",
+      "preferred_source_type": "owner provenance",
+      "primary_source_target": "ABVX evidence only if editorially useful",
+      "risk_if_wrong": "Book drifts into promotion."
+    }
+  ],
+  "counts": {
+    "P0": 10,
+    "P1": 8,
+    "P2": 4
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "title": "Burgers, Lipstick & Underwear",
+  "subtitle": "What Strange Indicators Really Tell Us About the Economy",
+  "state": "READY_FOR_HUMAN_APPROVAL",
+  "book_thesis": "Humans invent indices because reality is too large to hold in the head. A burger, an hour of work, a tube of lipstick or a ship full of grain can turn abstraction into something familiar enough to argue with. That translation is powerful: it can reveal purchasing power, confidence, risk, fragility and manipulation faster than official language can. But a vivid proxy is also dangerous. Some strange measures are grounded and useful; others survive because they are funny, flattering or convenient. This book is about learning to enjoy the strange measures without being fooled by them.",
+  "reader_experience": {
+    "after_20_pages": "The reader should feel that economics has become less remote: a burger, a wage-hour and a small consumer object can suddenly carry serious explanatory weight.",
+    "after_finishing": "The reader should understand why proxies and indices work, why some fail, and how to judge a strange measure before repeating it.",
+    "tell_someone": "The book should give readers portable stories: the kind of odd comparison they immediately want to explain at dinner."
+  },
+  "recommended_opening": {
+    "story": "Big Mac Index",
+    "reason": "It is familiar, commercial, globally recognizable and naturally introduces both usefulness and limitation without starting with methodology.",
+    "avoid": [
+      "What is an index?",
+      "methodology first",
+      "1D3X / POP / SPIKE first"
+    ]
+  },
+  "chapters": [
+    {
+      "chapter_id": "ch1",
+      "number": 1,
+      "working_title": "The Measure You Can Eat",
+      "central_question": "Why can a burger explain exchange rates better than an abstract formula can hold reader attention?",
+      "primary_stories_indices": [
+        "Big Mac Index"
+      ],
+      "secondary_stories": [
+        "Starbucks Latte Index",
+        "IKEA Billy Index"
+      ],
+      "reader_learns": "A familiar object can become a rough translation layer for purchasing power and price-level comparison.",
+      "measure_myth_tension": "The Big Mac is useful because it is vivid, not because it is a complete currency model.",
+      "opening_hook": "A burger becomes a currency argument.",
+      "ending_transition": "If a burger helps, time can help even more.",
+      "verification_burden": "HIGH",
+      "visual_opportunity": "World map or simple price comparison graphic; must be rights-safe and source-backed."
+    },
+    {
+      "chapter_id": "ch2",
+      "number": 2,
+      "working_title": "Prices Become Human",
+      "central_question": "Why does work-time often explain affordability better than converted prices?",
+      "primary_stories_indices": [
+        "iPhone Work-Time Index",
+        "Working Hours Index"
+      ],
+      "secondary_stories": [
+        "Minimum Wage Meal Index",
+        "Rent-to-Burger Index",
+        "Date Night Index"
+      ],
+      "reader_learns": "Price becomes meaningful when translated into labor, wages, rent and daily tradeoffs.",
+      "measure_myth_tension": "Work-time comparisons feel human, but methodology depends heavily on wage assumptions and local context.",
+      "opening_hook": "The same phone costs a few days of work in one city and weeks in another.",
+      "ending_transition": "Once numbers become personal, folklore is not far behind.",
+      "verification_burden": "HIGH",
+      "visual_opportunity": "Work-hours ladder or compact affordability scale."
+    },
+    {
+      "chapter_id": "ch3",
+      "number": 3,
+      "working_title": "The Folklore of Recession",
+      "central_question": "Why do lipstick, underwear and hemlines survive as economic stories even when the evidence is thin?",
+      "primary_stories_indices": [
+        "Lipstick Index",
+        "Men’s Underwear Index"
+      ],
+      "secondary_stories": [
+        "Hemline Index",
+        "Skyscraper Index"
+      ],
+      "reader_learns": "A measure can be memorable, narratively satisfying and weakly evidenced at the same time.",
+      "measure_myth_tension": "These indicators are commercially irresistible but often contested or folklore.",
+      "opening_hook": "A recession supposedly appears first in the bathroom cabinet or underwear drawer.",
+      "ending_transition": "Some signals are not folklore; they move through ports and oceans.",
+      "verification_burden": "HIGH",
+      "visual_opportunity": "Myth-vs-measure labels; small object lineup."
+    },
+    {
+      "chapter_id": "ch4",
+      "number": 4,
+      "working_title": "The Economy Under the Economy",
+      "central_question": "What can physical movement reveal that consumer anecdotes cannot?",
+      "primary_stories_indices": [
+        "Baltic Dry Index",
+        "Container Freight Index"
+      ],
+      "secondary_stories": [
+        "Electricity Demand Index",
+        "Restaurant Reservation Index"
+      ],
+      "reader_learns": "The physical economy has its own signals: ships, containers, energy and capacity.",
+      "measure_myth_tension": "Grounded signals are still not universal explanations; each measures a specific slice.",
+      "opening_hook": "Before a product reaches a shelf, a ship or container price may already tell a story.",
+      "ending_transition": "Some measures become most powerful when they translate risk rather than money.",
+      "verification_burden": "MEDIUM",
+      "visual_opportunity": "Shipping route / freight-rate schematic."
+    },
+    {
+      "chapter_id": "ch5",
+      "number": 5,
+      "working_title": "Air You Can Count",
+      "central_question": "Can a cigarette-equivalent make pollution understandable without becoming medically misleading?",
+      "primary_stories_indices": [
+        "Cigarette Equivalent Air Pollution Index"
+      ],
+      "secondary_stories": [
+        "CO2 Flight Equivalent Index"
+      ],
+      "reader_learns": "Equivalence can make invisible risk legible, but the analogy must not pretend to be literal.",
+      "measure_myth_tension": "The story is powerful precisely because it is vivid; that is also why it needs careful limits.",
+      "opening_hook": "A city’s air becomes a number of cigarettes.",
+      "ending_transition": "Once measures become memorable, they become targets.",
+      "verification_burden": "HIGH",
+      "visual_opportunity": "Equivalence graphic with disclaimer-friendly labeling."
+    },
+    {
+      "chapter_id": "ch6",
+      "number": 6,
+      "working_title": "When Measures Fight Back",
+      "central_question": "What happens when people optimize, manipulate or govern by the measure?",
+      "primary_stories_indices": [
+        "Goodhart risk",
+        "manipulation / governance case"
+      ],
+      "secondary_stories": [
+        "LIBOR manipulation",
+        "Doing Business discontinuation"
+      ],
+      "reader_learns": "Measures are not passive mirrors; they can change behavior and invite gaming.",
+      "measure_myth_tension": "A useful measure can decay when incentives attach to it.",
+      "opening_hook": "A number people trust becomes a number people learn to game.",
+      "ending_transition": "The same problem now appears in the machine age.",
+      "verification_burden": "HIGH",
+      "visual_opportunity": "Target/gaming diagram."
+    },
+    {
+      "chapter_id": "ch7",
+      "number": 7,
+      "working_title": "Benchmarks for Machines",
+      "central_question": "Why do AI benchmarks repeat the same old index problem in a new technological costume?",
+      "primary_stories_indices": [
+        "AI Index",
+        "SWE-Bench"
+      ],
+      "secondary_stories": [
+        "Government AI Readiness Index",
+        "Artificial Analysis methodology"
+      ],
+      "reader_learns": "Benchmarks are indices too: useful, seductive, incomplete and vulnerable to target-chasing.",
+      "measure_myth_tension": "The newest measures inherit old problems of scope, incentives and interpretation.",
+      "opening_hook": "A model climbs a leaderboard, and everyone argues what the climb means.",
+      "ending_transition": "The final question is how to read any weird index without being fooled.",
+      "verification_burden": "MEDIUM",
+      "visual_opportunity": "Leaderboard as index metaphor; avoid AI-generated decorative imagery."
+    },
+    {
+      "chapter_id": "ch8",
+      "number": 8,
+      "working_title": "How to Read a Weird Index",
+      "central_question": "How can readers enjoy strange measures while keeping their skepticism intact?",
+      "primary_stories_indices": [
+        "usefulness checklist",
+        "source hierarchy",
+        "myth/evidence taxonomy"
+      ],
+      "secondary_stories": [
+        "selected callbacks from earlier chapters"
+      ],
+      "reader_learns": "A useful weird index needs a clear object, source, method, scope, update cadence, limit and incentive check.",
+      "measure_myth_tension": "The best strange measures are not perfect; they are honest about what they simplify.",
+      "opening_hook": "A good index should make reality readable, not replace reality.",
+      "ending_transition": "Close manuscript.",
+      "verification_burden": "LOW",
+      "visual_opportunity": "One-page reader checklist."
+    }
+  ],
+  "content_selection": {
+    "CORE": [
+      "Big Mac Index",
+      "iPhone / work-time",
+      "Working Hours",
+      "Cigarette Equivalent",
+      "Lipstick Index",
+      "Men's Underwear Index",
+      "Baltic Dry Index",
+      "Container Freight",
+      "manipulation/governance case",
+      "AI benchmark case"
+    ],
+    "SUPPORT": [
+      "Starbucks Latte Index",
+      "Skyscraper Index",
+      "Date Night",
+      "one affordability comparison",
+      "CO2 Flight Equivalent",
+      "Electricity Demand",
+      "Restaurant Reservation"
+    ],
+    "SIDEBAR_OPTIONAL": [
+      "Hemline Index",
+      "IKEA Billy Index",
+      "Haircut Index",
+      "Taxi Affordability",
+      "Hotel Room Index",
+      "Second-hand Index"
+    ],
+    "EXCLUDE": [
+      "owner-project promotional chapters",
+      "raw corpus dumps",
+      "AI governance material disconnected from the index promise",
+      "unverified internet folklore presented as fact"
+    ]
+  },
+  "evidence_taxonomy": [
+    "ROBUST",
+    "PLAUSIBLE",
+    "CONTESTED",
+    "FOLKLORE",
+    "FAILED_DISCREDITED",
+    "MANIPULATION_GOVERNANCE_CASE"
+  ],
+  "source_hierarchy": [
+    "original index publisher / methodology",
+    "academic paper / official institution",
+    "high-quality publisher or journalism",
+    "reputable secondary source",
+    "source-pack summary only as lead"
+  ],
+  "rag_decision": "NOT_NEEDED_YET"
+}

@@ -1,0 +1,210 @@
+{
+  "schema_version": "v1",
+  "pack_id": "book-factory-indices-004-manuscript-v1-pack",
+  "project_id": "unusual-indices-book",
+  "state": "READY_FOR_HUMAN_APPROVAL",
+  "intended_next_mission": "BOOK-FACTORY-INDICES-004 — Manuscript V1",
+  "book_spec_ref": "books/specs/unusual-indices-book-spec.proposed.json",
+  "chapter_architecture_ref": "books/research/unusual-indices/chapter-architecture.json",
+  "verification_queue_ref": "books/research/unusual-indices/verification-queue.json",
+  "voice_contract_ref": "books/manuscripts/unusual-indices-book/VOICE_CONTRACT.md",
+  "source_pack_refs": [
+    "books/research/unusual-indices/normalized-corpus.json",
+    "books/research/unusual-indices/commercial-opportunity-report.json",
+    "books/research/unusual-indices/commercial-package-shortlist.json"
+  ],
+  "frozen_packaging": {
+    "title": "Burgers, Lipstick & Underwear",
+    "subtitle": "What Strange Indicators Really Tell Us About the Economy",
+    "primary_objective": "COMMERCIAL_AMAZON_SUCCESS",
+    "primary_reader": "Curious general nonfiction readers who like popular economics, data stories, strange comparisons and practical skepticism without technical math.",
+    "reader_promise": "Ordinary objects and strange indicators can make large economic and social systems readable, but the reader will learn which measures illuminate and which are mostly myth, incentive or meme.",
+    "cover_territory": "Object-led popular nonfiction built around burger, lipstick and underwear. No dashboards, corporate data-platform aesthetic, owner-project branding or generic AI imagery."
+  },
+  "subtitle_candidates_considered": [
+    {
+      "subtitle": "What everyday objects reveal about the economy",
+      "decision": "REJECTED",
+      "reason": "Clear but too narrow and soft; does not carry the myth/measure tension."
+    },
+    {
+      "subtitle": "The Strange Signals We Use to Understand the Economy",
+      "decision": "REJECTED",
+      "reason": "Good territory but slightly abstract and less forceful for Amazon thumbnail."
+    },
+    {
+      "subtitle": "What Strange Indicators Really Tell Us About the Economy",
+      "decision": "SELECTED",
+      "reason": "Directly names indicators, economy and skepticism while remaining broad enough for objects, freight, pollution and AI benchmarks."
+    },
+    {
+      "subtitle": "How Burgers, Lipstick and Underwear Became Economic Signals",
+      "decision": "REJECTED",
+      "reason": "Memorable but repeats the title objects and under-serves freight, pollution and AI material."
+    }
+  ],
+  "book_thesis": "Humans invent indices because reality is too large to hold in the head. A burger, an hour of work, a tube of lipstick or a ship full of grain can turn abstraction into something familiar enough to argue with. That translation is powerful: it can reveal purchasing power, confidence, risk, fragility and manipulation faster than official language can. But a vivid proxy is also dangerous. Some strange measures are grounded and useful; others survive because they are funny, flattering or convenient. This book is about learning to enjoy the strange measures without being fooled by them.",
+  "chapter_context_contract": {
+    "object_name": "ChapterContext",
+    "purpose": "Provide the minimum chapter-specific material needed to draft one chapter without rereading all historical audits or the full source document.",
+    "required_fields": [
+      "chapter_id",
+      "chapter_title",
+      "central_question",
+      "approved_stories",
+      "verified_claims",
+      "evidence_status",
+      "source_references",
+      "useful_numbers_or_examples",
+      "myth_or_uncertainty_notes",
+      "visual_opportunities",
+      "prohibited_or_unsupported_claims"
+    ],
+    "generation_inputs": [
+      "chapter_architecture_ref",
+      "verification_queue_ref",
+      "normalized-corpus chapter/story matches",
+      "source metadata and resolved P0/P1 checks"
+    ],
+    "prohibited_behavior": [
+      "Do not dump raw corpus paragraphs into the chapter prompt.",
+      "Do not treat Perplexity/source-pack summaries as final authority where an underlying source exists.",
+      "Do not include owner-project promotional material unless it adds unique editorial context."
+    ]
+  },
+  "manuscript_v1_production_plan": {
+    "mode": "ONE_PRODUCTION_MISSION_WITH_CHAPTER_LOOPS",
+    "next_mission": "BOOK-FACTORY-INDICES-004 — Manuscript V1",
+    "chapter_loop": [
+      "build ChapterContext",
+      "resolve P0 and chapter-relevant P1 evidence",
+      "draft chapter",
+      "factual QA",
+      "voice and repetition QA",
+      "append to MASTER_MANUSCRIPT"
+    ],
+    "human_approval_policy": "Do not require per-chapter approval unless a material factual, rights, scope or voice issue appears.",
+    "acceptance_criteria": [
+      "complete beginning-to-end manuscript",
+      "all planned chapters present",
+      "P0 factual claims verified",
+      "no known unsupported major claims",
+      "voice reasonably consistent with Voice Contract",
+      "visuals marked or placeholdered",
+      "citations and source notes retained internally",
+      "no layout/design/KDP packaging work"
+    ],
+    "not_in_scope": [
+      "final copyedit",
+      "final cover",
+      "PDF build",
+      "Kindle package",
+      "paperback package",
+      "KDP submission"
+    ]
+  },
+  "research_during_writing": {
+    "strategy": "Verify according to manuscript need, not by front-loading all 388 URLs.",
+    "priority_order": [
+      "P0 before claim appears in manuscript",
+      "chapter-relevant P1 during chapter drafting",
+      "P2 only when the example survives into prose"
+    ],
+    "rag_decision": "NOT_NEEDED_YET",
+    "rag_reason": "Chapter-specific ContextPacks can be built deterministically from structured corpus files, chapter mapping, source metadata and the verification queue."
+  },
+  "visual_policy": {
+    "style": "Conventional commercial nonfiction, not a discovery booklet.",
+    "allowed": [
+      "simple comparison charts",
+      "small diagrams",
+      "equivalence graphics",
+      "historical examples",
+      "myth-vs-measure graphics"
+    ],
+    "avoid": [
+      "dashboard screenshots",
+      "decorative AI imagery",
+      "unnecessary illustrations",
+      "excessive color dependency that harms paperback economics"
+    ],
+    "print_constraint": "Visuals should work in grayscale where practical.",
+    "rights_constraint": "No external image/screenshot inclusion without rights review."
+  },
+  "format_plan": {
+    "primary_formats": [
+      "KINDLE_REFLOWABLE",
+      "PAPERBACK_INTERIOR"
+    ],
+    "hardcover": "DEFER_UNLESS_MANUSCRIPT_AND_DEMAND_JUSTIFY",
+    "likely_trim_size": "5x8",
+    "interior": "Black-and-white by default; use color only if later visual QA proves commercial value.",
+    "typography_direction": "Readable popular nonfiction serif body with compact charts/tables; not a design-heavy art book.",
+    "kindle_risk": "Keep visuals simple and separately described so Kindle reflow is not broken by complex layout."
+  },
+  "amazon_positioning": {
+    "likely_categories": [
+      "Business & Money / Economics",
+      "Science & Math / Mathematics / Statistics",
+      "Computers & Technology / Data Science"
+    ],
+    "keyword_territories": [
+      "popular economics",
+      "data storytelling",
+      "economic indicators",
+      "strange statistics",
+      "Big Mac Index",
+      "data literacy",
+      "unusual comparisons",
+      "Freakonomics"
+    ],
+    "kindle_pricing_range_usd": "4.99-7.99",
+    "paperback_pricing_range_usd": "12.99-16.99",
+    "metadata_status": "PROVISIONAL_UNTIL_MANUSCRIPT_EXISTS"
+  },
+  "owner_project_rule": {
+    "allowed": "1D3X / POP / SPIKE may appear only if author experience adds unique editorial value.",
+    "forbidden": [
+      "define book architecture",
+      "receive promotional chapters",
+      "appear in title/subtitle",
+      "appear on cover",
+      "receive automatic links or CTAs",
+      "receive ranking advantage"
+    ],
+    "acceptable_voice": "I encountered this problem while building an index.",
+    "unacceptable_voice": "Visit my platform."
+  },
+  "context_economy": {
+    "read_for_004": [
+      "books/specs/unusual-indices-book-spec.proposed.json",
+      "books/research/unusual-indices/manuscript-mission-pack.json",
+      "books/research/unusual-indices/chapter-architecture.json",
+      "books/research/unusual-indices/verification-queue.json",
+      "books/manuscripts/unusual-indices-book/VOICE_CONTRACT.md",
+      "books/research/unusual-indices/normalized-corpus.json only through chapter-specific lookup"
+    ],
+    "ignore_by_default_for_004": [
+      "all historical Book Factory audits before BOOK-FACTORY-INDICES-003",
+      "all 3,786 original source paragraphs",
+      "previous title brainstorms",
+      "discarded TOCs",
+      "owner-project promotional material unless directly relevant to a chapter claim"
+    ],
+    "expected_reduction": "004 should start from five compact canonical files plus targeted corpus lookup, avoiding broad audit rereads and raw-document reprocessing."
+  },
+  "approval_required_before_004": [
+    "subtitle",
+    "chapter architecture",
+    "content selection freeze",
+    "verification queue priorities",
+    "Voice Contract",
+    "target word/page range",
+    "format plan",
+    "Manuscript V1 production plan"
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-INDICES-003",
+    "source_uri": "docs/audits/book-factory-indices-003-bookspec-architecture.md"
+  }
+}

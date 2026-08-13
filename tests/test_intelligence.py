@@ -40,6 +40,35 @@ def _fake_ollama_response(*, model: str, prompt: str, schema: dict, timeout_seco
 
 
 def _fake_openai_response(*, model: str, prompt: str, schema: dict, timeout_seconds: int, max_output_tokens: int, reasoning_effort: str) -> dict:
+    if "Rank supplied research items" in prompt:
+        text = json.dumps(
+            {
+                "ranked_items": [
+                    {
+                        "id": "claim-big-mac-ppp-proxy",
+                        "chapter_id": "ch1",
+                        "relevance": "CORE",
+                        "verification_priority": "P0",
+                        "reason": "Opening chapter depends on the Big Mac Index origin and PPP framing.",
+                    }
+                ],
+                "high_risk_items": ["claim-big-mac-ppp-proxy"],
+                "notes": "Use original publisher methodology before drafting.",
+            }
+        )
+    else:
+        text = json.dumps(
+            {
+                "proposed_title": None,
+                "seo_title": "Marmite Oatmeal",
+                "meta_description": "A simple savoury oatmeal with Marmite, butter and rolled oats.",
+                "tags": ["marmite", "breakfast", "cookbook"],
+                "topics": ["savory breakfast", "simple cooking", "cookbook notes"],
+                "primary_entities": ["Marmite", "Anton BV"],
+                "machine_summary": "A short note about savory oatmeal made with Marmite, butter and rolled oats.",
+                "internal_link_suggestions": ["/writing", "/books"],
+            }
+        )
     return {
         "status": "completed",
         "output": [
@@ -49,18 +78,7 @@ def _fake_openai_response(*, model: str, prompt: str, schema: dict, timeout_seco
                 "content": [
                     {
                         "type": "output_text",
-                        "text": json.dumps(
-                            {
-                                "proposed_title": None,
-                                "seo_title": "Marmite Oatmeal",
-                                "meta_description": "A simple savoury oatmeal with Marmite, butter and rolled oats.",
-                                "tags": ["marmite", "breakfast", "cookbook"],
-                                "topics": ["savory breakfast", "simple cooking", "cookbook notes"],
-                                "primary_entities": ["Marmite", "Anton BV"],
-                                "machine_summary": "A short note about savory oatmeal made with Marmite, butter and rolled oats.",
-                                "internal_link_suggestions": ["/writing", "/books"],
-                            }
-                        ),
+                        "text": text,
                     }
                 ],
             },
@@ -153,6 +171,22 @@ class IntelligenceTests(unittest.TestCase):
         self.assertEqual(result["model"], "gpt-5.6-luna")
         self.assertEqual(result["execution_tier"], "CHEAP_API")
         self.assertLess(result["usage"]["estimated_cost_usd"], 0.01)
+
+    def test_research_relevance_ranking_is_bounded_structured_task(self):
+        root = self._root()
+        with patch("abvx_harness.intelligence._run_openai_responses", side_effect=_fake_openai_response):
+            result = execute_intelligence_task(
+                root,
+                task_id="research-relevance-ranking",
+                provider_override="cheap.api",
+                context={
+                    "chapters": [{"id": "ch1", "title": "The Measure You Can Eat"}],
+                    "items": [{"id": "claim-big-mac-ppp-proxy", "claim": "Big Mac Index illustrates PPP deviations."}],
+                },
+                runtime_stem="research-relevance-ranking-test",
+            )
+        self.assertEqual(result["status"], "SUCCEEDED")
+        self.assertEqual(result["output"]["ranked_items"][0]["verification_priority"], "P0")
 
     def test_content_prepare_blocks_when_local_llm_fails_closed(self):
         root = self._root()
