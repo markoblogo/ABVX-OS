@@ -1,9 +1,9 @@
 {
   "canonical_manuscript": {
     "locator": "books/manuscripts/unusual-indices-book/MASTER_MANUSCRIPT.md",
-    "notes": "Manuscript V1 exists and awaits human editorial review. Future format artifacts must derive from an approved manuscript lineage after editorial QA.",
+    "notes": "Manuscript V2 editorial candidate exists and awaits human review. Future format artifacts must derive from an approved manuscript lineage after design proof.",
     "readiness_state": "READY",
-    "version": "manuscript-v1"
+    "version": "manuscript-v2"
   },
   "content_origin": "DERIVED",
   "context_request_ids": [
@@ -129,21 +129,21 @@
     "cigarette-index"
   ],
   "known_gaps": [
-    "Manuscript V1 is complete but below the original target word range; human editorial review should decide whether to expand or keep compact.",
+    "Manuscript V2 is complete, compact and structurally edited; human review must approve direction before visual/endnote/design proof.",
     "Final cover asset does not exist yet; approved territory is object-led popular nonfiction around burger, lipstick and underwear.",
     "KDP metadata is provisional until manuscript exists.",
     "Rights remain mixed for external examples; they can inform commentary but not be copied.",
-    "Verification queue remains open; P0 claims must be verified before appearing in Manuscript V1."
+    "P0 fact check is closed for V2; final endnote pass should preserve source identities and exact citation form."
   ],
   "lifecycle_stage": "BOOK_SPEC",
-  "next_action": "Human decision: review Manuscript V1 and approve direction before BOOK-FACTORY-INDICES-005 — Editorial QA + Fact Check Closure + Visual Plan.",
+  "next_action": "Human decision: review Manuscript V2 and approve direction before BOOK-FACTORY-INDICES-006 — Visual Production + Endnotes + Kindle/Paperback Design Proof.",
   "objective": "Turn owner-supplied unusual-index research into a commercially strong Amazon KDP nonfiction book, with owner projects treated only as optional context rather than the primary promotional goal.",
   "preferred_renderer": "PANDOC_XELATEX",
   "primary_objective": "COMMERCIAL_AMAZON_SUCCESS",
   "provenance": {
     "observed_at": "2026-08-13T00:00:00Z",
-    "recorded_by": "BOOK-FACTORY-INDICES-004",
-    "source_uri": "docs/audits/book-factory-indices-004-manuscript-v1.md"
+    "recorded_by": "BOOK-FACTORY-INDICES-005",
+    "source_uri": "docs/audits/book-factory-indices-005-editorial-v2.md"
   },
   "publication_form": "PROSE_BOOK",
   "publication_profile": "CONVENTIONAL_BOOK",

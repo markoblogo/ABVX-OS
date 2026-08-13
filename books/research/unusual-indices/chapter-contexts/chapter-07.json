@@ -15,8 +15,14 @@
     {
       "claim": "SWE-bench evaluates language models on real-world GitHub issues by asking a model to generate a patch for a described problem.",
       "evidence_status": "ROBUST",
-      "source_refs": ["source-swe-bench", "https://github.com/swe-bench/SWE-bench"],
+      "source_refs": ["source-swe-bench", "source-swe-bench-paper", "https://github.com/swe-bench/SWE-bench"],
       "verification_priority": "P0"
+    },
+    {
+      "claim": "SWE-bench Verified was introduced as a human-validated subset, and later source material raised contamination/saturation concerns for frontier coding evaluation.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-swebench-verified", "source-swebench-contamination"],
+      "verification_priority": "P1"
     },
     {
       "claim": "Government AI readiness rankings are index-like policy tools and should be read cautiously because they compress institutional, technology and data conditions.",
@@ -25,8 +31,8 @@
       "verification_priority": "P1"
     }
   ],
-  "useful_numbers_or_examples": ["SWE-bench Verified as human-filtered subset", "AI Index as multi-domain report", "readiness rankings across governments"],
+  "useful_numbers_or_examples": ["SWE-bench lifecycle from benchmark to verified subset to contamination/saturation concerns", "AI Index as multi-domain report", "readiness rankings across governments"],
   "myth_or_uncertainty_notes": ["Avoid model-score current claims unless refreshed.", "Do not treat leaderboard ranking as general intelligence."],
-  "visual_opportunities": ["[VISUAL: benchmark leaderboard as modern index metaphor]"],
+  "visual_opportunities": ["[VISUAL: benchmark lifecycle — creation, respect, optimization, contamination/saturation, replacement]"],
   "prohibited_or_unsupported_claims": ["AI benchmarks measure intelligence in general.", "A single leaderboard score proves real-world capability."]
 }

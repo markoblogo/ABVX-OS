@@ -2,7 +2,7 @@
 
 ## What Strange Indicators Really Tell Us About the Economy
 
-Manuscript V1.
+Manuscript V2 / editorial candidate.
 
 Internal source-note convention: bracketed markers such as `[S:source-economist-big-mac]` point to the source map and chapter contexts. They are working notes for later endnotes/fact checking, not final publication formatting.
 
@@ -42,7 +42,7 @@ This is why strange indicators are worth studying rather than merely collecting.
 
 The book’s title objects are deliberately ordinary. Burgers, lipstick and underwear do not sound like respectable economic instruments. That is part of their value. They strip away the ceremonial seriousness around measurement and expose the basic act: choose a thing, compare it across contexts, infer something larger. Sometimes the inference is disciplined. Sometimes it is a magic trick. The reader’s job is to learn which is which.
 
-The chapters move from the most accessible proxy to the most modern one. A burger introduces purchasing power. A phone turns price into labor time. Lipstick and underwear show how consumer folklore seduces. Freight reveals a harder physical economy. Cigarette equivalents show how risk becomes readable. Governance cases show how measures change behavior. AI benchmarks prove the same old index problem has moved into the newest machines. The final chapter turns the journey into a way of reading.
+The argument moves from the most accessible proxy to the most modern one. A burger introduces purchasing power. A phone turns price into labor time. Lipstick and underwear show how consumer folklore seduces. Freight reveals a harder physical economy. Cigarette equivalents show how risk becomes readable. Governance cases show how measures change behavior. AI benchmarks prove the same old index problem has moved into the newest machines. The final chapter turns the journey into a way of reading.
 
 This is not a book against weird measures. It is a book against lazy belief in them.
 
@@ -50,7 +50,7 @@ The distinction matters because suspicion can become as stupid as credulity. The
 
 The best strange indicators are honest losses. They say: I am not the whole system, but I can show you one useful angle. The worst ones hide the loss and sell the angle as truth.
 
-That is the standard this manuscript uses.
+That is the standard to use with every strange measure in this book.
 
 ---
 
@@ -156,9 +156,9 @@ There are bad versions of this technique. A writer can use the object as decorat
 
 The Big Mac pays rent because it sits exactly where multiple economic forces meet. It is standardized but local. It is global but priced in local currency. It contains traded ingredients and non-tradable services. It is familiar but not universal. It is cheap enough to be mass-market and complex enough to contain labor, rent, logistics and tax. It is a small thing with a surprisingly large shadow.
 
-That does not mean the reader should trust every Big Mac chart. The data still has dates. The comparison still has base currencies. GDP-adjusted versions make different claims from raw versions. The index changes as exchange rates and prices change. A screenshot or article can go stale. Later fact checking should verify any exact contemporary number before it appears in final prose. The V1 manuscript should therefore explain the method and use the object without leaning on fragile current rankings.
+That does not mean every Big Mac chart deserves trust. The data still has dates. The comparison still has base currencies. GDP-adjusted versions make different claims from raw versions. The index changes as exchange rates and prices change. Exact contemporary rankings need fresh source checks; the durable lesson is the method, not a stale leaderboard.
 
-The chapter should also avoid another trap: treating the United States as the natural center of all comparison. The Big Mac Index often uses a dollar baseline because of the product’s origin and global financial convention, but the reader’s real lesson should be broader. Every currency comparison has a point of view. Every base country makes some experiences look normal and others look strange. The index can teach that too.
+There is another trap: treating the United States as the natural center of all comparison. The Big Mac Index often uses a dollar baseline because of the product’s origin and global financial convention, but the reader’s real lesson should be broader. Every currency comparison has a point of view. Every base country makes some experiences look normal and others look strange. The index can teach that too.
 
 If a burger in one country looks cheap from the outside, it may not feel cheap inside the wage structure of that country. This is the bridge to Chapter 2. A currency comparison is not yet a life comparison. The Big Mac can show that exchange rates and local prices diverge, but it cannot tell us how much of a worker’s day the burger consumes. For that, the unit must change.
 
@@ -172,11 +172,11 @@ This is why the burger is stronger than a more neutral product might be. A gener
 
 The compromise is essential. A strange indicator with no compromise would be a normal indicator. Its flaws are part of the teaching mechanism. They force the reader to think about what “same product” really means. They expose the difference between tradable and non-tradable costs. They show how a global brand still sits on local labor and property markets. They let a simple comparison bloom into serious questions.
 
-The chapter should therefore resist the urge to apologize too much for the Big Mac. The caveats matter, but caveat-heavy prose can drain the life from the example. The better rhythm is confidence followed by calibration. Show the burger doing its trick. Then show the trick’s limits. The reader must first see why the measure became famous. Only then will the limitations feel like intelligence rather than pedantry.
+The burger does not need endless apology. The caveats matter, but caveat-heavy prose can drain the life from the example. The better rhythm is confidence followed by calibration. Show the burger doing its trick. Then show the trick’s limits. The reader must first see why the measure became famous. Only then will the limitations feel like intelligence rather than pedantry.
 
 This rhythm will repeat throughout the book. Let the measure work. Then inspect the mechanism.
 
-The chapter can deepen this by explaining why the Big Mac is not merely a funny example of PPP, but a gateway into comparative humility.
+The next point is why the Big Mac is not merely a funny example of PPP, but a gateway into comparative humility.
 
 People often speak about currencies as if they have an obvious correct value. Strong currency, weak currency, cheap country, expensive country. These phrases sound clean until one asks: compared with what? A currency may look cheap against the dollar and still buy little for local workers. A country may look expensive to a tourist and ordinary to a resident with local income. A single exchange rate contains trade, capital flows, interest rates, politics, expectations and fear. It is too much for one sandwich.
 
@@ -282,7 +282,7 @@ A work-time price tells you what the buyer surrenders.
 
 Those are not the same sentence.
 
-There is also a political edge here, though the book should not become a policy tract. When people argue about whether life has become more expensive, they often throw around nominal prices, inflation rates and personal anecdotes. Work-time comparisons can cut through some of that. If a product takes fewer hours to buy than it did twenty years ago, something has improved in that narrow sense. If rent, care, education or medical costs take more hours, something has worsened in a more important sense. The method forces specificity.
+There is also a political edge here, though not a policy tract. When people argue about whether life has become more expensive, they often throw around nominal prices, inflation rates and personal anecdotes. Work-time comparisons can cut through some of that. If a product takes fewer hours to buy than it did twenty years ago, something has improved in that narrow sense. If rent, care, education or medical costs take more hours, something has worsened in a more important sense. The method forces specificity.
 
 It also prevents nostalgia from doing all the work. People are terrible at remembering prices. They remember the emotional price of being young and confuse it with the economic price of goods. Work-time can correct some of that by asking: compared with wages, what happened?
 
@@ -296,9 +296,9 @@ This is not academic fussiness. It is the difference between a useful translatio
 
 Work-time also highlights why multiple strange indicators can complement one another. The Big Mac shows purchasing power through a product. The iPhone shows global aspiration through labor burden. A rent-to-burger comparison, if built carefully, might show how shelter distorts ordinary consumption. A date-night comparison might show social life under inflation. None is complete. Together, they create a better texture of affordability than a single headline price.
 
-This is the basket problem returning in another form. A single index is vivid. A family of related indices is more robust. But if the family grows too large, the reader loses the story. The manuscript must choose examples that create progression rather than hoarding them like souvenirs.
+This is the basket problem returning in another form. A single index is vivid. A family of related indices is more robust. But if the family grows too large, the reader loses the story. The examples need progression, not hoarding.
 
-Chapter 2 therefore has a narrow job. It does not need every affordability comparison in the corpus. It needs to make the reader feel the conversion from price to life. Once that conversion lands, the rest of the chapter can be selective. A phone, a burger, perhaps an evening out. Enough to show the principle. Not enough to become a municipal price database with jokes.
+The argument does not need every affordability comparison in the world. It needs the conversion from price to life to land. Once it does, the examples can stay selective: a phone, a burger, perhaps an evening out. Enough to show the principle. Not enough to become a municipal price database with jokes.
 
 The strongest insight is simple: affordability is not what something costs in money. It is what it costs in the life available to the person buying it.
 
@@ -308,31 +308,31 @@ Work-time also has a literary advantage: it produces instant inversion.
 
 A city that sounds expensive may become less frightening once wages enter. A city that sounds cheap may become harsher once local earnings are considered. This inversion is useful because it breaks the tourist’s view of the economy. Visitors often judge places through converted prices. Residents live through local incomes. The visitor says, “Coffee is cheap here.” The resident may hear, “Your hour is cheap here.” The same cup has acquired a different moral temperature.
 
-This is why the chapter should be careful with tone. Work-time comparisons can easily become poverty tourism if written badly. The purpose is not to gawk at how many hours someone else must work for a phone. The purpose is to show that prices only become socially meaningful when placed beside income, time and necessity.
+The tone matters. Work-time comparisons can easily become poverty tourism if written badly. The purpose is not to gawk at how many hours someone else must work for a phone. The purpose is to show that prices only become socially meaningful when placed beside income, time and necessity.
 
 The hierarchy of goods matters too. A phone is interesting because it is globally desirable and widely understood, but it is not survival. Food, rent, electricity and transport sit closer to necessity. A date-night index is amusing because it mixes economics with social ritual. Rent-to-burger comparisons are stranger because they reveal how housing can distort ordinary consumption. A minimum-wage meal comparison can be blunt because it moves from lifestyle to basic affordability.
 
-The manuscript should not try to settle which of these is best. It should show how the unit changes the reader’s feeling. Dollars create distance. Hours create pressure. Necessities create urgency. Social rituals create recognition. Each translation opens a different door.
+There is no need to settle which of these is best. The point is how the unit changes the feeling. Dollars create distance. Hours create pressure. Necessities create urgency. Social rituals create recognition. Each translation opens a different door.
 
 There is an especially useful contrast between a phone and a burger. The burger is repeated, perishable and local. The phone is durable, global and aspirational. The burger teaches purchasing power through everyday consumption. The phone teaches inequality through synchronized desire. Both are consumer objects, but they do not perform the same conceptual job.
 
 This helps prevent the book from becoming “fun facts about prices.” The deeper idea is that measurement is an act of framing. A price framed as currency produces one response. The same price framed as work produces another. A good index is not merely a calculator. It is a choice about which human experience should be foregrounded.
 
-Later, when the manuscript reaches AI benchmarks, the same lesson will return in a colder form. A model score framed as percentage accuracy produces one response. The same capability framed as hours saved, failure rate or unsupported autonomy risk produces another. The unit shapes the story. Chapter 2 gives the reader that insight in human terms before the technical examples arrive.
+Later, with AI benchmarks, the same lesson will return in a colder form. A model score framed as percentage accuracy produces one response. The same capability framed as hours saved, failure rate or unsupported autonomy risk produces another. The unit shapes the story. Chapter 2 gives the reader that insight in human terms before the technical examples arrive.
 
 It also gives the book its first emotional escalation.
 
 Chapter 1 is clever. Chapter 2 is personal. The Big Mac asks whether currencies make sense. Work-time asks what the economy takes from the person inside it. That movement is important because the book must not remain a cabinet of curiosities. Strange indicators matter because they connect systems to lived experience. If the reader cannot feel the difference between converted price and hours of work, the later chapters will remain clever rather than useful.
 
-The chapter should also make room for inequality without becoming a full inequality chapter. Work-time comparisons often use average or representative wages. But many societies are defined by the distance between average and ordinary experience. A city can look affordable under one wage and brutal under another. This means the measure can teach inequality even when it is not designed for that purpose.
+The work-time lens also makes room for inequality without turning into a full inequality lecture. Work-time comparisons often use average or representative wages. But many societies are defined by the distance between average and ordinary experience. A city can look affordable under one wage and brutal under another. This means the measure can teach inequality even when it is not designed for that purpose.
 
 One elegant way to handle this in prose is to present work-time as a question rather than a verdict. “How many hours does this cost?” naturally invites “whose hours?” That second question opens the door to wage distribution, employment type and class without requiring a technical detour.
 
 This is what a useful strange measure does: it creates the next honest question.
 
-The chapter should avoid the temptation to become a list of city rankings. Rankings are seductive but fragile. They age quickly, depend on data choices and distract from the conceptual point. A few examples can illustrate the spread; the durable idea is the method.
+City rankings are tempting and usually distracting. Rankings are seductive but fragile. They age quickly, depend on data choices and distract from the conceptual point. A few examples can illustrate the spread; the durable idea is the method.
 
-The reader should leave this chapter slightly changed in ordinary life. The next time they see an expensive object, they may ask not “what does it cost?” but “how much life does this demand from different people?” That is a useful habit. It does not solve economics. It makes economics harder to hide.
+A good work-time measure changes ordinary perception. The next time they see an expensive object, they may ask not “what does it cost?” but “how much life does this demand from different people?” That is a useful habit. It does not solve economics. It makes economics harder to hide.
 
 There is another useful pressure point: work-time comparisons make inequality visible without requiring the reader to start with inequality theory.
 
@@ -342,13 +342,13 @@ This also explains why some consumer debates become emotionally explosive. Peopl
 
 The measure makes that insult harder to miss.
 
-This is why work-time belongs early in the book. It gives the reader a humane distrust of averages. It teaches that the same price can produce different realities before the manuscript moves into more theatrical examples. Without that grounding, lipstick and underwear could become mere jokes. With it, they become stories about stress, substitution and hidden cuts.
+This is why work-time belongs early in the book. It gives the reader a humane distrust of averages. It teaches that the same price can produce different realities before the book moves into more theatrical examples. Without that grounding, lipstick and underwear could become mere jokes. With it, they become stories about stress, substitution and hidden cuts.
 
-The chapter should also avoid treating time as the final truth. Time is powerful because it is intuitive, but it is not everything. A household with savings experiences a purchase differently from one without. A person with debt, dependents or insecure income experiences the same hour differently from a person with stability. Work-time improves the price story; it does not complete it.
+Time is not the final truth either. Time is powerful because it is intuitive, but it is not everything. A household with savings experiences a purchase differently from one without. A person with debt, dependents or insecure income experiences the same hour differently from a person with stability. Work-time improves the price story; it does not complete it.
 
 This is a useful lesson for the whole book: a better proxy is still a proxy.
 
-For now, the reader should leave with a practical suspicion of price tags. A price is never just a price. It is a claim against someone’s time, income, obligations and alternatives. The number on the shelf is the seller’s language. The hours behind it are the buyer’s translation.
+The practical result is suspicion of price tags. A price is never just a price. It is a claim against someone’s time, income, obligations and alternatives. The number on the shelf is the seller’s language. The hours behind it are the buyer’s translation.
 
 They also shift the book’s center of gravity. Chapter 1 showed that an object can translate currency. Chapter 2 shows that an object can translate life. Once a reader sees that, a stranger class of indicators becomes possible. If a burger can explain exchange rates and a phone can explain wages, perhaps lipstick can explain recession anxiety.
 
@@ -394,7 +394,7 @@ There may be useful historical and cycle observations around construction booms,
 
 [VISUAL: myth-versus-measure object row — lipstick, underwear, skyscraper silhouette]
 
-This chapter is not here to sneer at folklore. Folklore often preserves something real. People do buy small comforts under stress. Hidden purchases can be postponed. Construction booms can say something about confidence and credit. Clothes, cosmetics and towers all belong to the economy because everything does. The issue is not whether the stories are stupid. The issue is whether we make them carry more weight than they can bear.
+This is not an exercise in sneering at folklore. Folklore often preserves something real. People do buy small comforts under stress. Hidden purchases can be postponed. Construction booms can say something about confidence and credit. Clothes, cosmetics and towers all belong to the economy because everything does. The issue is not whether the stories are stupid. The issue is whether we make them carry more weight than they can bear.
 
 A folklore indicator can be useful as a question:
 
@@ -422,7 +422,7 @@ Folklore indicators also reveal something uncomfortable about expertise.
 
 Experts often dislike them because they are messy, weakly evidenced or media-friendly in precisely the wrong way. Fair enough. But the public often likes them because they feel closer to life than the expert vocabulary does. The expert says “consumer confidence weakened.” The folklore indicator says “people stopped buying new underwear.” The expert is more rigorous. The underwear is more memorable. The gap between the two is where popular economics lives.
 
-The responsible writer cannot simply side with one camp. If we side only with expertise, the chapter becomes a scolding lecture about why fun things are wrong. If we side only with folklore, the book becomes a circus of charming falsehoods. The useful position is less comfortable: take the folklore seriously as culture, but not necessarily as measurement.
+The responsible writer cannot simply side with one camp. If we side only with expertise, the result becomes a scolding lecture about why fun things are wrong. If we side only with folklore, the book becomes a circus of charming falsehoods. The useful position is less comfortable: take the folklore seriously as culture, but not necessarily as measurement.
 
 The Lipstick Index, for example, may be weak as a recession predictor and still strong as a story about affordable luxury. It captures a real behavioral possibility: when large pleasures become unaffordable, small pleasures may become more meaningful. That does not mean lipstick sales forecast GDP. It means lipstick can help readers think about substitution, mood, identity and consumption under stress.
 
@@ -434,13 +434,13 @@ This is a recurring pattern in bad index thinking: a measure begins as metaphor,
 
 Metaphor is allowed to illuminate one aspect of reality. Prediction must answer to evidence. Confusing the two is how cleverness becomes misinformation.
 
-The Hemline Index makes this especially clear. The idea that skirt lengths move with economic cycles has the delightful quality of sounding like something a columnist invented after lunch and then refused to abandon. It may reveal attitudes, fashion cycles, media habits or the human desire to detect hidden patterns. But as a core economic indicator, it is too fragile for this manuscript. It belongs in the optional drawer, clearly labeled folklore, not in the engine room of the argument.
+The Hemline Index makes this especially clear. The idea that skirt lengths move with economic cycles has the delightful quality of sounding like something a columnist invented after lunch and then refused to abandon. It may reveal attitudes, fashion cycles, media habits or the human desire to detect hidden patterns. But as a core economic indicator, it is too fragile for this book. It belongs in the optional drawer, clearly labeled folklore, not in the engine room of the argument.
 
 This does not make it useless. Folklore examples give the book texture. They show the reader how attractive weak measures can be. They provide contrast with stronger examples later. A chapter that included only robust measures would teach less about myth. A chapter that included only myths would become frivolous. The balance matters.
 
-The chapter should therefore use entertainment as bait and skepticism as the hook. The reader should enjoy the absurdity of recession indicators hiding in cosmetics counters and underwear drawers, then gradually feel the seriousness of the evidence problem.
+Entertainment is the bait; skepticism is the hook. The reader can enjoy the absurdity of recession indicators hiding in cosmetics counters and underwear drawers, then gradually feel the seriousness of the evidence problem.
 
-The danger is tone. Too much mockery and the chapter becomes smug. Too much indulgence and it becomes credulous. The voice should sound amused but not superior. The reader should feel invited into better judgment, not punished for liking a good story.
+The danger is tone. Too much mockery and the result becomes smug. Too much indulgence and it becomes credulous. The voice can stay amused without becoming superior. The invitation is better judgment, not punishment for liking a good story.
 
 The structure can do this naturally: open with the irresistible claims, show why they make psychological sense, then ask what the evidence can bear. Finally, explain why the stories survive anyway.
 
@@ -448,25 +448,25 @@ The survival question is crucial. Weak indicators do not survive only because pe
 
 That does not make the gossip true. It explains why it spreads.
 
-The reader should leave Chapter 3 with a sharper instinct: when an index sounds too perfect as a story, slow down. The more delicious the anecdote, the more carefully it should be handled.
+The useful instinct is simple: when an index sounds too perfect as a story, slow down. The more delicious the anecdote, the more carefully it should be handled.
 
 This will prepare them for Chapter 4, where the measures become less charming but more operational. A shipbroker’s route assessment will never beat lipstick for cultural sparkle. It may, however, have a better claim on reality.
 
 That is the tradeoff the book keeps returning to. The world gives us signals. Some are vivid. Some are grounded. The rare ones are both.
 
-There is also a gender and culture trap in this chapter that V1 should handle carefully.
+There is also a gender and culture trap here.
 
 Lipstick, underwear and hemlines invite lazy writing. It would be easy to turn them into jokes about women shopping, men being oblivious and markets reading our wardrobes. That would be cheap and probably boring. The better approach is to treat the objects as consumer-behavior stories shaped by culture, marketing and visibility. Lipstick is not interesting because women are frivolous. It is interesting because small luxuries can survive stress. Underwear is not interesting because men are ridiculous, although evidence suggests they often help the argument. It is interesting because hidden replacement purchases can be deferred.
 
-The chapter should punch up at the weakness of the claims, not down at the consumers inside them.
+The joke should punch at weak claims, not at the consumers inside them.
 
 This matters commercially too. A popular nonfiction book can be sharp without being lazy. Readers enjoy wit, but they can feel when the joke has no intellectual spine. The best humor here comes from proportion: the immense seriousness of recession anxiety filtered through the tiny absurdity of lipstick and underwear. The objects are funny because they are too small for the burden people place on them.
 
 The line between folklore and misogyny, folklore and class snobbery, folklore and “people are stupid” must stay visible. The book’s stance is not that ordinary consumer behavior is foolish. Ordinary behavior is often where macro pressure becomes legible. The foolishness is in overclaiming.
 
-That gives the chapter a generous skepticism. It can say: there is a real human impulse here, but not enough measurement discipline. That is more interesting than saying: ha, silly index.
+That gives the argument a generous skepticism. It can say: there is a real human impulse here, but not enough measurement discipline. That is more interesting than saying: ha, silly index.
 
-The recession folklore chapter should also distinguish between three related but different claims.
+Recession folklore also needs a distinction between three related but different claims.
 
 The first is behavioral: people change small purchases under economic stress. This is plausible and often observable in specific categories.
 
@@ -478,7 +478,7 @@ Many weak indicators survive by sliding between these claims. A writer begins wi
 
 This is a useful trick to expose. It applies beyond lipstick. A rising skyscraper can indicate credit optimism without predicting a crash. Underwear sales can reflect household caution without functioning as a macro dashboard. Hemlines can be an amusing cultural anecdote without becoming a market signal. The same story can be valid at one level and overclaimed at another.
 
-The chapter should therefore teach the reader to ask: what strength of claim is being made?
+The disciplined question is: what strength of claim is being made?
 
 Is the writer saying “this can happen”?
 
@@ -490,7 +490,7 @@ Is the writer saying “this can happen”?
 
 Those are different animals. They should not share a cage.
 
-This claim-strength discipline is one of the quiet skills the book can give readers. It is also a way to make skeptical prose more precise. Instead of saying “the Lipstick Index is nonsense,” the manuscript can say: the affordable-luxury behavior is plausible; the recession-predictor claim is contested. That is sharper, fairer and more useful.
+This claim-strength discipline is one of the quiet skills the book can give readers. It is also a way to make skeptical prose more precise. Instead of saying “the Lipstick Index is nonsense,” the book can say: the affordable-luxury behavior is plausible; the recession-predictor claim is contested. That is sharper, fairer and more useful.
 
 There is one more reason folklore indicators matter: they show how economic stories compete for attention.
 
@@ -500,11 +500,11 @@ That built-in story is the advantage. It is also the evidence hazard.
 
 A good causal story can make weak data feel stronger than it is. The reader hears the explanation and supplies belief. This is a form of narrative credit. The indicator borrows trust from plausibility. That is why contested indicators need careful handling in a popular book. If the prose is too smooth, it will accidentally upgrade them.
 
-One way to prevent that is to make uncertainty part of the entertainment. The chapter can invite the reader to enjoy the absurdity while watching the evidence wobble. The humor should come from the gap between confidence and support. Lipstick may tell us something about consumer psychology; it probably should not be allowed to forecast industrial production. Underwear may reveal deferred replacement spending; it does not deserve a marble plinth in the temple of macroeconomics.
+One way to prevent that is to make uncertainty part of the entertainment. The prose can invite the reader to enjoy the absurdity while watching the evidence wobble. The humor should come from the gap between confidence and support. Lipstick may tell us something about consumer psychology; it probably should not be allowed to forecast industrial production. Underwear may reveal deferred replacement spending; it does not deserve a marble plinth in the temple of macroeconomics.
 
-The reader should learn that not all weak indicators are equally useless. Some are useless as forecasts but useful as cultural diagnostics. The Lipstick Index may be poor at predicting recessions and still excellent at revealing how people talk about recession. The Skyscraper Index may be weak as a timing tool and still useful as a story about credit, ambition and late-cycle optimism. The Men’s Underwear Index may be thin as data and still memorable as a lesson in hidden consumption.
+The useful lesson is that not all weak indicators are equally useless. Some are useless as forecasts but useful as cultural diagnostics. The Lipstick Index may be poor at predicting recessions and still excellent at revealing how people talk about recession. The Skyscraper Index may be weak as a timing tool and still useful as a story about credit, ambition and late-cycle optimism. The Men’s Underwear Index may be thin as data and still memorable as a lesson in hidden consumption.
 
-This distinction lets the book keep the fun without sacrificing standards. It also gives the manuscript a recurring editorial move: rescue the interesting idea from the exaggerated claim.
+This distinction lets the book keep the fun without sacrificing standards. It also gives the book a recurring move: rescue the interesting idea from the exaggerated claim.
 
 That move is better than debunking for its own sake. Debunking can become tedious because it lives in the negative. The goal is not to stomp around saying “false” at every charming story. The goal is to ask what the story can responsibly do.
 
@@ -518,7 +518,7 @@ Can any of them carry the claim “this predicts recessions reliably”? Not wit
 
 This is the measure/myth boundary in action.
 
-The chapter also earns the title. Burgers may open the book, but lipstick and underwear give it its skeptical bite. Without them, the manuscript would be a book about clever proxies. With them, it becomes a book about why clever proxies so easily become nonsense.
+This also earns the title. Burgers may open the book, but lipstick and underwear give it its skeptical bite. Without them, the book would be a book about clever proxies. With them, it becomes a book about why clever proxies so easily become nonsense.
 
 A good strange index has an object, a method and a limit.
 
@@ -608,7 +608,7 @@ There is also a humility about physical systems that modern digital culture badl
 
 Physical-economy indicators restore the cost of reality.
 
-That is why this chapter earns its place. Without it, the book risks feeling like a tour of consumer metaphors. With it, the reader sees that strange indicators can be industrial, operational and institutionally serious. The measure/myth tension becomes richer. Some measures are not myths because they are strange. Some are strange because most people are separated from the systems they measure.
+That is why the physical layer earns its place. Without it, the book risks feeling like a tour of consumer metaphors. With it, the reader sees that strange indicators can be industrial, operational and institutionally serious. The measure/myth tension becomes richer. Some measures are not myths because they are strange. Some are strange because most people are separated from the systems they measure.
 
 The physical layer also complicates the reader’s trust instinct.
 
@@ -628,13 +628,13 @@ The discipline is to let the signal provoke investigation rather than replace it
 
 This is particularly important because grounded indicators often attract people who want certainty. A consumer folklore story is obviously flimsy enough to invite caution. A shipping benchmark looks serious enough to seduce a different kind of overconfidence. The analyst may think: this is real market data, therefore my interpretation is real. But data quality and interpretation quality are separate things.
 
-The chapter should therefore teach respect without worship. The reader should come away thinking: shipping and energy signals deserve more attention than lipstick, but they still require scope, context and humility.
+The right posture is respect without worship: shipping and energy signals deserve more attention than lipstick, but they still require scope, context and humility.
 
 That is a more mature lesson than “some weird indicators are good and some are bad.” The better lesson is: some indicators are closer to real flows, but no indicator is free from context.
 
 This will matter again in Chapter 7. AI benchmarks often look rigorous because they have datasets, scores and leaderboards. Like shipping indices, they are methodologically more concrete than folklore. Like shipping indices, they can still be overgeneralized. A benchmark can be real and misread. A freight index can be real and misread. Reality does not protect a measure from bad storytelling.
 
-Chapter 4 should also give the reader one of the book’s strongest spatial shifts. The first three chapters happen near the body: mouth, hand, pocket, wardrobe. Chapter 4 moves outward to ports, oceans, grids and dining rooms seen as aggregate behavior. The reader should feel the scale change. The economy is no longer the thing bought. It is the route, capacity and infrastructure that make buying possible.
+Chapter 4 gives the reader one of the book’s strongest spatial shifts. The first three chapters happen near the body: mouth, hand, pocket, wardrobe. Chapter 4 moves outward to ports, oceans, grids and dining rooms seen as aggregate behavior. The reader can feel the scale change. The economy is no longer the thing bought. It is the route, capacity and infrastructure that make buying possible.
 
 That shift helps the book avoid triviality. Without the physical economy, a skeptical reader might think strange indicators are mostly media inventions. Freight and energy show that the index habit also lives in serious markets, where benchmark construction affects contracts, expectations and operational decisions.
 
@@ -644,7 +644,7 @@ That translation has its own risk. The writer may over-simplify to make the sign
 
 This is a subtle but valuable point: myths are not only born from silly objects. They can be made from serious numbers by careless storytelling.
 
-Chapter 4 therefore connects backward and forward. Backward, it contrasts with folklore. Forward, it prepares for benchmark governance and AI evaluation. The reader learns that evidence quality is not determined by how funny the object sounds. It is determined by method, source, scope and use.
+This physical layer connects backward and forward. Backward, it contrasts with folklore. Forward, it prepares for benchmark governance and AI evaluation. The reader learns that evidence quality is not determined by how funny the object sounds. It is determined by method, source, scope and use.
 
 One more theme belongs here: latency.
 
@@ -660,7 +660,7 @@ Or does it merely tell us the same thing with better packaging?
 
 This timing question helps separate useful alternative indicators from decorative ones. A shipping rate may be valuable because it sits upstream of retail experience. A reservation index may be valuable because it changes quickly. A lipstick story may be less valuable if it is noticed only after recession anxiety is already everywhere. A work-time comparison may not be early, but it reframes affordability in a way official inflation does not.
 
-The manuscript should not overdo “early warning” language. Many indicators are bad at prediction. But timing remains important because people reach for strange measures when official language feels late, incomplete or too abstract. They want the world translated sooner.
+“Early warning” language needs restraint. Many indicators are bad at prediction. But timing remains important because people reach for strange measures when official language feels late, incomplete or too abstract. They want the world translated sooner.
 
 That desire is understandable. It is also where many myths enter.
 
@@ -672,7 +672,7 @@ The toy indicator invites you to repeat a clever sentence.
 
 The economy under the economy is full of signals that deserve attention precisely because they are not designed for dinner-party entertainment. They are working measures. They live in industries where money changes hands and operational decisions depend on reference points. That does not make them infallible. It makes their failure modes more specific.
 
-This chapter moves us from the consumer surface to the operational substrate. But there is another category of strange measure that does something different again. It does not translate money, time, mood or freight. It translates risk.
+The argument now moves from the consumer surface to the operational substrate. But there is another category of strange measure that does something different again. It does not translate money, time, mood or freight. It translates risk.
 
 The air outside your window contains measurements most people cannot feel directly until the damage is already being done. Parts per million, micrograms per cubic meter, particulate matter, exposure windows: accurate language that does not easily enter the imagination.
 
@@ -738,21 +738,21 @@ The danger is that feelings do not preserve methodology.
 
 A cigarette is not just a unit of risk. It is an object loaded with moral, cultural and personal meaning. For some readers it suggests addiction, cancer, family illness, smell, carelessness or old glamour curdled into public-health warning. When a pollution index says “cigarettes,” it borrows all of that. The borrowing gives force. It also creates an obligation to be precise.
 
-The manuscript should treat this as one of the clearest examples of responsible popularization. A writer can make the risk memorable without pretending the analogy is literal. The right posture is almost legal in its care but not legalistic in prose: comparable harm, not identical exposure; useful visualization, not medical diagnosis; PM2.5-focused method, not all pollution collapsed into tobacco.
+This is one of the clearest examples of responsible popularization. A writer can make the risk memorable without pretending the analogy is literal. The right posture is almost legal in its care but not legalistic in prose: comparable harm, not identical exposure; useful visualization, not medical diagnosis; PM2.5-focused method, not all pollution collapsed into tobacco.
 
-This is where the chapter can become emotionally strong without becoming manipulative. It should not describe imaginary sick children, invented smog scenes or melodramatic dialogue. The facts are enough. The unit is enough. A city’s air translated into cigarettes already carries the shock. Adding fake drama would be both unnecessary and cheap.
+This can become emotionally strong without becoming manipulative. It does not need to describe imaginary sick children, invented smog scenes or melodramatic dialogue. The facts are enough. The unit is enough. A city’s air translated into cigarettes already carries the shock. Adding fake drama would be both unnecessary and cheap.
 
-The same discipline applies to carbon equivalents. A flight comparison can help readers grasp emissions, but it can also flatten complicated assumptions. Cabin class matters. Aircraft type matters. Distance matters. Load factors matter. Non-CO2 effects may matter. The more exact the claim, the more careful the method must be. If the manuscript uses flight equivalence only as a supporting example of translation, it can avoid fragile current numbers. If later editions include a chart, that chart must be sourced and dated.
+The same discipline applies to carbon equivalents. A flight comparison can help readers grasp emissions, but it can also flatten complicated assumptions. Cabin class matters. Aircraft type matters. Distance matters. Load factors matter. Non-CO2 effects may matter. The more exact the claim, the more careful the method must be. If flight equivalence appears only as a supporting example of translation, it can avoid fragile current numbers. If later editions include a chart, that chart must be sourced and dated.
 
 There is an important structural reason Chapter 5 follows freight. Shipping showed physical systems that are hidden from consumers. Air shows invisible consequences that are hidden even from direct experience. In both cases, the index acts as an interface. Freight turns the movement of goods into rates. Cigarette equivalence turns exposure risk into a bodily metaphor.
 
-The word interface is useful, but the manuscript should use it sparingly. The reader does not need software vocabulary. They need the idea: a measure is something humans put between themselves and reality so they can interact with reality at all.
+The word interface is useful, but it should not take over. The reader does not need software vocabulary. They need the idea: a measure is something humans put between themselves and reality so they can interact with reality at all.
 
 Sometimes the interface is a price. Sometimes it is a ranking. Sometimes it is a burger. Sometimes it is a cigarette.
 
 Once the reader sees that, the health chapter is no longer a detour. It is the thesis under pressure.
 
-The chapter also provides a good place to discuss units. Units are not neutral. They decide what sort of imagination the reader will use. Micrograms per cubic meter invite technical interpretation. AQI invites color-coded public advice. Cigarettes invite bodily alarm. CO2-equivalent invites comparison across gases and activities. Each unit carries a different emotional and analytical payload.
+This also provides a good place to discuss units. Units are not neutral. They decide what sort of imagination the reader will use. Micrograms per cubic meter invite technical interpretation. AQI invites color-coded public advice. Cigarettes invite bodily alarm. CO2-equivalent invites comparison across gases and activities. Each unit carries a different emotional and analytical payload.
 
 A unit is a small story about what matters.
 
@@ -764,7 +764,7 @@ This is why the final chapter’s checklist must include the question: what unit
 
 Chapter 5 should leave the reader with respect for vividness and fear of it. The cigarette-equivalent measure is too useful to dismiss and too dangerous to repeat lazily. It is the perfect strange indicator: brilliant, sticky, limited and capable of becoming wrong in public at high speed.
 
-The chapter can also help the reader understand why public communication often chooses imperfect metaphors on purpose.
+This also helps the reader understand why public communication often chooses imperfect metaphors on purpose.
 
 A health agency, journalist, researcher or civic tool may know perfectly well that the analogy is incomplete. They may use it anyway because the alternative is public indifference. This is a harsh bargain. If the message is too technical, it may be ignored. If it is too vivid, it may distort. The communicator stands between boredom and panic, trying to make the reader care accurately.
 
@@ -772,21 +772,21 @@ That problem is not unique to pollution. It appears whenever a technical risk mu
 
 The cigarette-equivalent measure is unusually exposed because the analogy is so loaded. A cigarette is not a neutral unit like a kilometer. It is a cultural object with moral force. That force gives the index attention, and attention is precisely why the analogy must be fenced.
 
-There is a writing lesson here. The stronger the metaphor, the stronger the caveat must be. But the caveat should not arrive as a dead bureaucratic disclaimer after the interesting part. It should be woven into the explanation. The reader should understand the analogy and its boundary in the same breath.
+There is a writing lesson here. The stronger the metaphor, the stronger the caveat must be. But the caveat should not arrive as a dead bureaucratic disclaimer after the interesting part. It should be woven into the explanation. The reader can understand the analogy and its boundary in the same breath.
 
 For example, the prose can say: the comparison does not mean the chemistry is identical; it means researchers are translating a health-risk relationship into a unit most people already understand. That sentence preserves the shock while refusing the literalism.
 
-This is the kind of sentence the manuscript needs often. It lets the book be vivid without becoming irresponsible.
+This is the kind of sentence a responsible popular explanation needs. It lets the book be vivid without becoming irresponsible.
 
-The chapter should also avoid ranking cities by current pollution unless the data is refreshed immediately before final publication. Air quality is volatile. A city’s reading can change with weather, season, fire, policy, traffic and monitoring coverage. The durable story is the method of translation, not a leaderboard snapshot.
+Current pollution rankings are fragile unless the data is refreshed immediately before publication. Air quality is volatile. A city’s reading can change with weather, season, fire, policy, traffic and monitoring coverage. The durable story is the method of translation, not a leaderboard snapshot.
 
-That is a general rule for V1: use current numbers only when they are essential and source-stable, otherwise explain the measure rather than freeze a stale result.
+The general rule is simple: use current numbers only when they are essential and source-stable; otherwise explain the measure rather than freeze a stale result.
 
 The reader does not need to know which city was worst on a particular afternoon. They need to understand why turning air into cigarettes is both illuminating and hazardous. That idea will still matter after the afternoon changes.
 
-This is also the chapter where the manuscript should handle fear with restraint.
+Fear needs restraint here.
 
-Fear is an efficient communicator. It is also a messy one. A cigarette-equivalent measure can make the reader care quickly because the analogy carries fear. But fear can narrow thinking. It can make people share before understanding. It can turn an analogy into accusation. A good popular nonfiction chapter should use fear only as the first spark, then move quickly into method and boundary.
+Fear is an efficient communicator. It is also a messy one. A cigarette-equivalent measure can make the reader care quickly because the analogy carries fear. But fear can narrow thinking. It can make people share before understanding. It can turn an analogy into accusation. In good popular nonfiction, fear is only the first spark; method and boundary must follow quickly.
 
 The most responsible structure is: shock, explanation, limitation, transferable lesson.
 
@@ -798,13 +798,13 @@ Limitation: the exposure is not chemically identical to smoking, and air-quality
 
 Transferable lesson: vivid equivalence can make abstraction readable, but the unit chosen shapes both understanding and misunderstanding.
 
-This makes Chapter 5 one of the book’s most important craft tests. If it works, the reader trusts the manuscript. If it overplays the analogy, the reader has reason to distrust everything else. Health-adjacent comparisons require a higher standard because the cost of misinterpretation is higher than with burgers or lipstick.
+This makes Chapter 5 one of the book’s most important trust tests. If it works, the reader trusts the book. If it overplays the analogy, the reader has reason to distrust everything else. Health-adjacent comparisons require a higher standard because the cost of misinterpretation is higher than with burgers or lipstick.
 
-The chapter should also show that limitations are not a concession at the end. They are part of the beauty of the measure. A cigarette-equivalent number is interesting because it sits on a knife edge. Too technical, and nobody feels it. Too literal, and it lies. The measure’s usefulness depends on balancing force and honesty.
+Limitations are not a concession at the end. They are part of the beauty of the measure. A cigarette-equivalent number is interesting because it sits on a knife edge. Too technical, and nobody feels it. Too literal, and it lies. The measure’s usefulness depends on balancing force and honesty.
 
 That balance is what the book is really teaching.
 
-The chapter also gives the manuscript a chance to discuss moral weight.
+The material also gives the book a chance to discuss moral weight.
 
 Not all measurement mistakes have equal consequences. If someone overstates the Big Mac Index, they may misunderstand currency valuation. If someone overstates the Lipstick Index, they may repeat a silly recession story. If someone overstates a pollution-health analogy, they may distort risk perception. The subject has moved from amusing error to public-health communication.
 
@@ -814,7 +814,7 @@ There is also an opportunity to show respect for official units. Popular writing
 
 The best communication therefore layers units rather than replacing them. It may begin with the cigarette analogy, then return to PM2.5 and exposure. It may use a flight comparison, then return to emissions assumptions. The strange unit opens the door; the technical unit keeps the room honest.
 
-This is a pattern the final version can use throughout: familiar unit first, precise unit nearby, limitation built in.
+The pattern holds throughout: familiar unit first, precise unit nearby, limitation built in.
 
 The problem is that equivalence can become theater. A comparison may be accurate enough for intuition and too crude for decision. It can frame guilt without explaining alternatives. It can make a number feel morally complete when the actual system involves energy mix, distance, occupancy, cabin class, non-CO2 effects, time horizons and tradeoffs.
 
@@ -834,13 +834,13 @@ Fourth, a warning against literalism. The analogy exists to help the reader thin
 
 The cigarette-equivalent index is one of the strongest examples in the book because it sits at the edge of usefulness. It is unforgettable. It is also easy to abuse. It shows exactly why strange indicators need adult supervision.
 
-The chapter also explains why official language often loses public attention. “PM2.5 concentration exceeded recommended guideline levels” may be accurate, but it does not hit the nervous system. “That air was like smoking” does. The first phrase informs. The second phrase lands.
+This also explains why official language often loses public attention. “PM2.5 concentration exceeded recommended guideline levels” may be accurate, but it does not hit the nervous system. “That air was like smoking” does. The first phrase informs. The second phrase lands.
 
 The trick is to land without lying.
 
 When done well, equivalence is not a gimmick. It is a bridge between measurement and consequence. It says: this invisible thing has a scale you already understand. It gives the reader enough intuitive force to care, then enough caveat to stay honest.
 
-That is the chapter’s place in the larger architecture. We began with a burger because familiar objects can explain money. We moved to work-time because prices become more human when translated into life. We visited lipstick and underwear because folklore shows how seductive weak measures can be. We went to shipping because physical systems produce grounded signals. Now air shows the power and risk of translating invisible harm.
+That is its place in the larger argument. We began with a burger because familiar objects can explain money. We moved to work-time because prices become more human when translated into life. We visited lipstick and underwear because folklore shows how seductive weak measures can be. We went to shipping because physical systems produce grounded signals. Now air shows the power and risk of translating invisible harm.
 
 Once a measure becomes that memorable, something else happens.
 
@@ -862,21 +862,87 @@ This is the broad lesson associated with Goodhart’s law. In its monetary-polic
 
 This is not a mystical curse. It is incentives.
 
-If a school is judged mainly by test scores, test scores become the work. If a hospital is judged by waiting times, waiting-time definitions become interesting. If a police force is judged by recorded crime, recording practices suddenly matter. If an AI company is judged by a benchmark, benchmark performance begins attracting unusual amounts of engineering attention. If a country is judged by a business-climate ranking, reforms may start aiming at the ranking rather than the underlying business environment.
+A school judged mainly by test scores begins to produce test-score behavior. A company judged mainly by response time may produce fast and useless responses. A city chasing a ranking may choose visible reforms over important ones. A model lab chasing a benchmark may become excellent at the benchmark and less obviously excellent at the messy job people think the benchmark represents.
 
 The measure has fought back.
 
-Not always through fraud. This is important. Target-chasing exists on a spectrum. At one end is normal improvement: a team sees a metric and genuinely improves the thing being measured. That is the happy version, and it does happen. In the middle is narrowing: people improve the measured slice while neglecting the unmeasured rest. At the darker end is gaming, manipulation or outright fraud.
+Not always through fraud. That matters. Target-chasing exists on a spectrum. At one end is real improvement: a team sees a metric and improves the thing being measured. In the middle is narrowing: people improve the measured slice while neglecting the unmeasured rest. At the darker end is gaming, manipulation or outright fraud.
 
 LIBOR belongs near the dark end.
 
-LIBOR was a benchmark interest rate of enormous importance. It influenced financial contracts around the world. U.S. Department of Justice materials describe convictions and enforcement around schemes to manipulate the benchmark. [S:source-libor-case] The details belong to financial-law history; the lesson for this book is simpler. A benchmark that many people trust, and that many contracts depend on, becomes a tempting object once incentives attach to it.
+For years, LIBOR was one of the most important numbers in finance. It stood for London Interbank Offered Rate, but the full name matters less than the role. LIBOR was used as a reference rate for an enormous range of financial products: loans, derivatives, mortgages and contracts whose users did not wake up each morning thinking about benchmark governance. A small movement in the benchmark could matter because so much money was priced from it.
 
-The index is no longer just a mirror. It is a lever.
+The benchmark depended on submissions. Banks contributed estimates of borrowing rates; the submissions were used to calculate a published rate. That made LIBOR look like a technical plumbing fixture. In reality, it was also a place where human incentives could enter. Traders with positions linked to the rate had reasons to want it nudged. Submitters had discretion. The number was trusted because it looked institutional, repeated and precise. That trust was exactly what made manipulation valuable.
 
-The Doing Business report provides a different kind of governance caution. The World Bank discontinued the report after data irregularities in Doing Business 2018 and 2020 were reported and reviews/audits were initiated. [S:source-doing-business-report] This does not make every ranking corrupt. It shows that rankings can become institutional battlegrounds because rankings confer status, pressure and legitimacy.
+This is the part that makes LIBOR such a clean example. The manipulation did not require changing the weather, building a fake skyscraper or convincing millions of shoppers to buy the wrong lipstick. It required influencing a contribution to a benchmark. The human action was small compared with the economic surface area of the number. That asymmetry is the danger.
 
-There is a pattern here:
+A benchmark can look like infrastructure while still depending on behavior. The public sees the published rate. Market participants see contracts. Traders see exposure. Submitters see a process. Regulators see governance. The same number sits at the intersection of all those views. If one group can benefit from a tiny movement that another group treats as neutral plumbing, the benchmark has become a pressure point.
+
+The phrase “critical global benchmark” sounds like legal wallpaper until you translate it. It means the number was not merely descriptive. It was wired into other things. A small movement could affect payments, valuations and trading positions. That is why benchmark manipulation is not just a technical scandal. It is a failure of trust in a measuring device people had built into the financial machine.
+
+This is what makes LIBOR different from folklore. Nobody needed LIBOR to be charming. Nobody repeated it because it was a good dinner-party story. It mattered because contracts and institutions made it matter. The lesson is not about cultural stickiness. It is about embeddedness.
+
+An embedded measure does not need to be memorable to be powerful.
+
+That point belongs in a book full of vivid objects because it changes the scale of the argument. Burgers and lipstick show how measures travel through attention. LIBOR shows how measures travel through infrastructure. One wins the mind. The other moves money.
+
+U.S. Department of Justice materials describe convictions and enforcement around schemes to manipulate LIBOR, calling it a critical global benchmark and emphasizing its impact on trillions of dollars in financial products. [S:source-libor-case] The important detail for this book is not the full legal timeline. It is the mechanism: a benchmark designed to summarize market information became consequential enough that people had incentives to influence the inputs.
+
+That is the measure-to-target problem in its most expensive clothing.
+
+The story is not “numbers are bad.” LIBOR existed because markets needed reference points. The story is that a reference point embedded in contracts, trading positions and institutional trust needs governance equal to its power. Once money attaches to the number, the number is no longer just a mirror. It is a lever.
+
+Doing Business shows a different kind of pressure.
+
+The World Bank’s Doing Business report ranked economies on aspects of business regulation and enforcement. Rankings like that matter because governments care about reputation. Investors read them. Reform teams cite them. Ministers enjoy climbing them. A country moving up a table can turn a methodological score into a press release, a reform narrative and sometimes a political trophy.
+
+The World Bank discontinued Doing Business after data irregularities in the 2018 and 2020 reports were reported internally, the next report was paused, and reviews and audits were initiated. [S:source-doing-business-report] Again, the book does not need to become an institutional autopsy. The lesson is that rankings create status, and status creates pressure.
+
+A ranking is not a neutral object once governments want to move inside it.
+
+Doing Business was not a silly index. It attempted to measure real features of business regulation. That is exactly why the case is useful. The problem with consequential measures is not that they begin as jokes. Many begin as serious attempts to organize complexity. Then attention arrives. Then incentives arrive. Then the measure needs protection from the world it helped create.
+
+Doing Business also shows a gentler-looking form of power. A ranking does not have to move money directly through contracts to change behavior. It can move attention. It can change the language of reform. It can make governments care about the parts of business regulation that appear in the score. That may produce real improvement. It may also produce reform theater: changes designed to satisfy the index more than the underlying society.
+
+This is why rankings feel cleaner than they are. A table looks neutral. It arranges countries, firms, universities or products in order. It does not shout. It does not bribe. It does not threaten. It simply places one name above another and lets human vanity do the rest.
+
+The power is in the ordering.
+
+If a country moves from 76th to 52nd, the movement becomes a story even before anyone asks what changed. If another falls, the fall becomes a story too. The ranking creates a public language of improvement and embarrassment. That language is useful when the ranking is robust. It is dangerous when the ranking becomes the reform target rather than a partial view of reform.
+
+This is not a problem only for governments. Any ranked system creates its own weather. Universities chase university rankings. Hospitals chase ratings. Apps chase store positions. Restaurants chase review averages. People chase follower counts. The mechanics vary, but the social pressure is familiar: move up, do not fall, explain the number.
+
+Doing Business matters because the scale was institutional and global. The ranking condensed a country’s regulatory environment into something comparable. That made it useful for discussion and irresistible for competition. But once countries care about the score, the score is no longer merely observation. It is part of the policy environment.
+
+The seduction is obvious. A ranking offers a ladder. Ladders are irresistible to institutions. A government can say it moved up. A minister can point to a number. Consultants can sell advice. Journalists can simplify. Investors can compare. The ranking turns messy administrative reality into a table with winners and losers.
+
+The problem is not comparison itself. Comparison is useful. The problem is what comparison does to the compared. Once a state knows which doors, forms, taxes, registrations and procedures are counted, the measured surface becomes special. The invisible parts remain ordinary. The ranking may encourage reform, but it also defines what reform looks like to the people chasing it.
+
+That is why discontinuation matters to this book. The World Bank did not merely correct a typo. It stopped a flagship measurement product after irregularities and reviews damaged confidence in the report. For a measure, that is close to institutional death. A ranking whose authority depends on trust cannot simply shrug off data irregularities and continue as if the table still speaks neutrally.
+
+Doing Business is a story about the status economy of measurement. LIBOR is a story about the money economy of measurement. Together they show that a measure can become consequential through different channels: contracts, reputation, policy pressure, institutional competition.
+
+Both cases turn Goodhart from slogan into narrative.
+
+In LIBOR, the route is submission mechanics plus trading incentives.
+
+In Doing Business, the route is ranking prestige plus institutional pressure.
+
+In both, a measure created to summarize reality becomes part of the reality it summarizes.
+
+The two stories also show different emotional textures of measurement failure.
+
+LIBOR feels like a scandal because the human image is direct: traders, submissions, financial positions, a benchmark nudged where money can follow. Doing Business feels more bureaucratic, but that does not make it less revealing. It shows how even respectable measurement can become entangled with institutional incentives, prestige and pressure.
+
+One failure is sharp. The other is atmospheric.
+
+Both are useful because they prevent Goodhart’s law from becoming a decorative quote. The law is repeated so often that it can begin to sound like a clever poster in a bad office. Cases restore its bite. They show that “measure becomes target” is not an abstract warning. It is a mechanism that can produce convictions, discontinuations, reforms, distortions and loss of trust.
+
+The word trust is central. A measure is a trust machine. Users trust that the number was produced by a method. They trust that comparable things are being compared. They trust that contributors are not quietly bending the input. They trust that the publisher would rather correct the measure than protect its prestige. Once that trust goes, the number may still exist, but its authority is damaged.
+
+This is why governance cannot be an afterthought. The more power a measure has, the more visible its production needs to be. Not because transparency solves everything. It does not. But without visible method, correction and accountability, a consequential measure asks for trust while hiding the machinery that would justify it.
+
+There is a pattern:
 
 1. A complex reality needs a measure.
 2. The measure becomes visible.
@@ -886,117 +952,67 @@ There is a pattern here:
 
 [VISUAL: measure-to-target feedback loop — grayscale-safe]
 
+The same pattern appears in smaller, legal and ordinary settings. A support team optimizes response time while customers still wait for useful answers. A platform counts engagement and discovers that outrage is wonderfully engaging. A university watches rankings and adjusts what can be counted. A manager measures productivity and gets a performance of productivity.
+
+The small examples keep the argument from feeling remote. Most readers will not manipulate a global benchmark or redesign a World Bank ranking. Many will live inside metrics. They will be measured at work, sorted by platforms, scored by institutions, nudged by dashboards and invited to confuse what is visible with what matters.
+
+The everyday version may be harmless or useful. Measuring response time can help a support team notice neglect. Measuring uptime can make software more reliable. Measuring infection rates can save lives. The target problem does not abolish metrics. It asks for adult supervision.
+
+The adult questions are plain:
+
+Is the measure close to the thing we care about?
+
+Can people improve the measured number without improving the underlying reality?
+
+Who has reason to game it?
+
+What happens to unmeasured parts of the system?
+
+How will we know when the measure has gone stale?
+
+Those questions are less memorable than “when a measure becomes a target,” but they are more useful. Slogans help people remember. Cases teach them what to do with the memory.
+
+Nobody has to announce corruption. The metric invites behavior. Behavior adapts.
+
 This is the mature version of the folklore problem. Lipstick and underwear survive because people love a story. Manipulated benchmarks survive, until they don’t, because people love advantage.
-
-The same issue appears in less criminal and more ordinary forms. A city may pursue a ranking-friendly reform that looks good in an index but does little for citizens. A company may optimize customer-support response time while making responses useless. A platform may count “active users” in a way that flatters the dashboard but insults the product. A school may improve grades by lowering standards. Nobody involved needs to wake up in the morning and announce, “Today I shall corrupt a metric.” The metric invites behavior. Behavior adapts.
-
-This is why the final question for any index is not merely: what does it measure?
-
-It is also: what happens if people start caring?
-
-The Big Mac Index is relatively safe because nobody can easily reorganize national currency policy around hamburger embarrassment, although Argentina’s Big Mac pricing controversies have often been cited as a reminder that even a silly indicator can become politically awkward. A shipping index matters more because contracts and decisions can reference freight benchmarks. A bank benchmark matters enormously because money moves with it. AI benchmarks matter because funding, reputation and product claims can attach to leaderboard performance.
 
 The more consequential the index, the more important its governance.
 
-Governance is a boring word for a beautiful problem: who gets to decide what the number means?
+Governance is a boring word for a beautiful problem: who gets to decide what the number means? Who collects the data? Who checks it? Who can influence it? Who benefits if it moves? Who is harmed if it is wrong? Who notices when the measured reality has changed but the index has not?
 
-Who collects the data?
-
-Who checks it?
-
-Who can influence it?
-
-Who benefits if it moves?
-
-Who is harmed if it is wrong?
-
-Who notices when the measured reality has changed but the index has not?
-
-These questions separate a toy comparison from a serious benchmark. They are also why some strange indicators should remain editorial devices rather than decision instruments. A cigarette-equivalent pollution number may be excellent for communication, but dangerous if treated as a medical calculator. A lipstick recession story may be fun in a column, but silly as an investment model. A software benchmark may be useful for comparing systems under controlled tasks, but absurd if translated into “the AI can do my job” without examining the task design.
+These questions separate a toy comparison from a serious benchmark. A cigarette-equivalent pollution number may be excellent for communication but dangerous if treated as a medical calculator. A lipstick recession story may be fun in a column but silly as an investment model. A financial benchmark may move actual money. The moral and operational burden changes with consequence.
 
 Goodhart’s law does not mean measurement is doomed. That would be lazy pessimism. It means measurement is social. A number lives among incentives, institutions and people with quarterly targets. Once a measure enters that world, it needs skepticism not because numbers are weak, but because people are inventive.
 
-This changes how we read every earlier chapter.
+There is a practical reader payoff here. Once someone understands target effects, they become better at reading institutional life. The informed reader no longer asks only whether the number went up. They ask what behavior the number invited.
 
-The target problem also explains why some indices begin as innocent communication tools and end as political objects.
+That question travels well. It applies to benchmark rates, business rankings, school scores, product metrics and AI leaderboards. It is simple enough to remember and hard enough to answer.
 
-At first, a ranking may exist to help people understand a situation. Then the ranking gains attention. Then attention brings pressure. A government wants to move up. A university wants a better position. A company wants a badge. A model lab wants a leaderboard screenshot. The measure that once described the world becomes a contest inside the world.
+There is one final distinction worth carrying forward: gaming is not always visible from the outside.
 
-This is not always bad. Targets can focus effort. A hospital that measures infection rates may reduce infections. A city that measures road deaths may save lives. A company that measures uptime may build more reliable systems. The childish interpretation of Goodhart is “metrics are bad.” The adult interpretation is “metrics are interventions.”
+A folklore indicator can often be challenged by asking for evidence. A manipulated benchmark may look perfectly tidy in the published output. The trouble lives upstream, in submissions, incentives, methodology, sampling, governance or pressure. The public number can appear calm while the process underneath is compromised.
 
-Once a measure is used, it changes incentives. Therefore it must be designed and governed as part of the system, not merely observed from outside.
+That is why source hierarchy is not only about authority. It is about process visibility. A first-party methodology matters because it tells the reader how the number was made. Legal or institutional records matter because they show where the process failed. A news summary may tell the story, but the underlying record gives the story weight.
 
-This is why benchmark administration sounds boring and matters enormously. Methodology, audit, contributor rules, conflict management, correction procedures and publication discipline are the dull pipes that keep a number from becoming decorative sewage. A serious benchmark needs these pipes. A casual index may not. The reader should learn to notice the difference.
+The reader does not need to become a regulator. They need to notice when a number has become important enough to deserve regulation-like questions.
 
-There is a useful contrast between three families:
+That awareness changes how the earlier strange measures feel. A burger index may need caveats. A financial benchmark needs controls. A lipstick story needs evidence boundaries. A government ranking needs institutional safeguards. A coding benchmark needs contamination checks. The same broad discipline applies, but the weight changes with consequence.
 
-Toy indicators: fun, illustrative, low-stakes. A Christmas price basket, a whimsical coffee comparison, a casual city ranking. These can be wrong without causing much harm, though they still should not lie.
+This is the measure reader’s mature instinct: not all numbers deserve the same level of suspicion, and not all numbers can survive the same amount of pressure.
 
-Public interpretation indicators: vivid measures used to explain real conditions. Big Mac, work-time, cigarette-equivalent pollution. These need caveats because people may repeat them as knowledge.
+A toy indicator can be a toy. A public analogy must be careful. A decision benchmark must be governed.
 
-Decision benchmarks: indices embedded in contracts, policy, rankings, funding, model evaluation or institutional status. These need governance because people will act on them and may game them.
+The trouble begins when we treat one as another.
 
-The same object can move categories over time. A joke can become a reference. A reference can become a target. A target can become a battlefield. That migration is one of the hidden stories of measurement.
-
-LIBOR shows the battlefield version. Doing Business shows the ranking-governance version. AI benchmarks, in the next chapter, show the acceleration version. But the principle applies quietly everywhere. When school rankings become important, families move, schools select, administrators polish and teachers adapt. When social-media metrics become important, creators optimize for engagement and culture begins producing thumbnails for the algorithmic appetite. When companies measure productivity badly, employees learn to perform productivity instead of doing useful work.
-
-The measure writes back into behavior.
-
-This is one of the reasons the book should avoid a naive celebration of strange indicators. We are not simply admiring clever comparisons. We are studying small machines of attention and incentive. Some are harmless. Some are useful. Some are silly. Some become powerful enough to deserve suspicion.
-
-A good chapter ending here should leave the reader slightly more paranoid, but not hopeless. Measurement is still necessary. Without measures, we are left with vibes, anecdotes and authority. With measures, we get clarity at a price. The task is to know the price.
-
-The price includes simplification. It includes scope. It includes incentives. It includes the possibility that the measured system will notice the measurement and change costume.
-
-This is also why the final manuscript should not present “build your own weird index” as a cute creative exercise. That may come later, in a practical appendix or separate product, but the book’s main obligation is judgment. It should teach the reader not merely to invent strange measures, but to ask whether a strange measure deserves to exist.
-
-The measure has power. Use it with suspicion.
-
-There is a practical reader payoff here too. Once someone understands target effects, they become better at reading institutional life.
-
-A sales team announces a new KPI. A school publishes a ranking. A city celebrates a mobility score. A product team optimizes engagement. An AI lab reports benchmark progress. A bank references a rate. A country climbs an index. The informed reader no longer asks only whether the number went up. They ask what behavior the number invited.
-
-This is a powerful habit because it exposes the politics inside measurement. Metrics often present themselves as neutral. They may begin that way, or try to. But as soon as reward and punishment attach, neutrality becomes harder to maintain. People do not merely respond to reality. They respond to being measured.
-
-Chapter 6 therefore gives the book its institutional backbone. The earlier chapters show how measures help people understand. This chapter shows how measures help people act, and how action can damage the measure. It is the point where the book stops being only about interpretation and becomes about power.
-
-The manuscript should be careful not to overstate the darkness. If every metric is corrupt, the claim becomes both false and dull. The sharper point is conditional: the more consequential the measure, the more seriously we must inspect incentives and governance.
-
-This helps the final chapter because it gives the reader a question that applies everywhere: who benefits if this number moves?
-
-That question is simple enough to remember and hard enough to answer.
-
-Chapter 6 can also make a distinction between measurement failure and institutional failure.
-
-A measure may fail because it was badly designed. It may also fail because the institution around it was too weak to manage incentives. These are not identical. A benchmark can have a reasonable concept and poor governance. A ranking can begin with useful comparative aims and become distorted by pressure. A metric can be mathematically coherent and socially destructive.
-
-This matters because readers often blame the number. Sometimes the number deserves it. Sometimes the surrounding incentives deserve more blame. If bonuses, reputation, funding or regulation are attached to a measure, then the measure is no longer a neutral reporting tool. It is part of the incentive system. It must be judged as such.
-
-That idea gives the chapter a bridge to everyday management. People have seen this at work. They have watched teams optimize dashboards while customers remain unhappy. They have watched institutions celebrate metrics that do not match lived experience. They have watched a target become a performance. The book can connect LIBOR and Doing Business to ordinary metric culture without pretending they are the same scale of event.
-
-The connection is structural, not moral equivalence.
-
-A rigged benchmark and a vanity KPI are not the same. But both show that measures live among incentives. The reader who understands the grand example can recognize the small one.
-
-The burger is not just a burger; it is a measure with data choices.
-
-The work-hour comparison is not just humane; it depends on wage definitions.
-
-The lipstick story is not just funny; it reveals our weakness for psychologically satisfying evidence.
-
-The shipping benchmark is not just grounded; it has methodology, panels, routes and market participants.
-
-The cigarette analogy is not just vivid; it risks becoming literal in public imagination.
+The burger is not just a burger; it is a measure with data choices. The work-hour comparison is not just humane; it depends on wage definitions. The lipstick story is not just funny; it reveals our weakness for psychologically satisfying evidence. The shipping benchmark is not just grounded; it has methodology, panels, routes and market participants. The cigarette analogy is not just vivid; it risks becoming literal in public imagination.
 
 The measure never arrives alone. It brings incentives, assumptions and failure modes.
 
-That is why the next chapter belongs in the book even though it leaves conventional economics. Artificial intelligence appears to be a new domain, full of new vocabulary and new machines. But its benchmark culture is an old problem in a new suit.
+That is why artificial intelligence belongs in this book even though it leaves conventional economics. AI appears to be a new domain, full of new vocabulary and new machines. But its benchmark culture is an old problem in a new suit.
 
 The question is familiar: how do we measure something too complicated to see directly?
 
 The answer, as usual, is: badly, usefully and with consequences.
-
----
 
 ## Chapter 7 — Benchmarks for Machines
 
@@ -1010,33 +1026,93 @@ We are trying to measure something too large and slippery to observe directly.
 
 The Stanford AI Index is one attempt to organize the field. Stanford HAI describes the report as tracking, collating, distilling and visualizing AI-related data for policymakers, researchers, executives, journalists and the public. [S:source-stanford-ai-index] That is index work in the broadest sense: take a messy domain and give people a structured way to read it.
 
-SWE-bench is narrower and more concrete. It evaluates language models on real-world GitHub issues by giving a model a codebase and an issue, then asking it to generate a patch. [S:source-swe-bench] This is a more grounded test than asking a model to produce a tidy programming answer in isolation. Real software work involves existing code, tests, constraints and the unpleasant fact that changing one line can annoy six others.
+SWE-bench is narrower and more concrete. It evaluates language models on real-world GitHub issues by giving a model a codebase and an issue, then asking it to generate a patch. The official project describes it as a benchmark for real-world software issues collected from GitHub, where a model must generate a patch that resolves the described problem. [S:source-swe-bench]
 
-This makes SWE-bench fascinating. It is not a general intelligence meter. It is not a soul detector. It is not proof that a machine can replace an engineer, a team, a product manager, a bug report written by someone who has mistaken their own confusion for a requirements document, or the ancient human art of saying “works on my machine” with confidence. It is a benchmark for a specific class of software-repair tasks.
+This is a better test than asking a model to produce a tidy programming answer in isolation. Real software work involves existing code, tests, constraints and the unpleasant fact that changing one line can annoy six others.
 
-That specificity is its strength.
+It is also a perfect example of benchmark lifecycle.
 
-There is a quiet comedy in watching AI companies rediscover problems measurement people have known for decades.
+SWE-bench began by making evaluation more realistic. The original paper introduced a set of software-engineering problems drawn from GitHub issues and pull requests across popular Python repositories. The benchmark was hard enough that early model performance was low; that difficulty made it respected. It seemed to move AI evaluation closer to real work: not “write a function from scratch,” but “enter this existing mess and fix the issue without breaking the house.” [S:source-swe-bench-paper]
 
-A benchmark is created. It is difficult. Everyone respects it. Then models improve, tools adapt, prompt strategies spread, evaluation harnesses become familiar, and the benchmark begins to age. A new benchmark appears to fix the old benchmark’s weaknesses. It too becomes famous. Then it becomes a target. The frontier moves. The scoreboard grows teeth. Somewhere, a team discovers that a model can be made to look much better under one harness than under another, and another little piece of innocence leaves the building.
+That move mattered because many earlier coding evaluations were too clean. They asked for answers in the abstract: produce a function, solve a programming puzzle, complete a snippet. Useful, but not the same as software maintenance. Real repositories are rude. They contain conventions nobody explains twice, tests that encode old decisions, dependencies, naming habits, hidden coupling and comments written by someone who either knew too much or not enough. The benchmark’s appeal came from dragging models into that world.
 
-This is not unique to AI. Education tests, financial benchmarks, university rankings and business-climate indices have all been through versions of the same cycle. AI compresses the cycle because the field moves quickly and because benchmark performance is commercially potent. A few percentage points on a public leaderboard can influence reputation, investment, procurement and user belief. That is a large burden for a test.
+The unit was no longer “can the model write code?” It became “can the model resolve this issue in this existing repository?”
 
-SWE-bench is useful precisely because it tries to move evaluation closer to real work: actual repositories, issues, patches, tests. But “closer” is not “identical.” Professional software engineering includes ambiguous requirements, team coordination, maintenance risk, security judgment, architecture taste, product context, deployment discipline and the social art of not turning every bug fix into a new platform. A benchmark can capture some of that. It cannot capture all of it.
+That is a much better unit.
+
+It is also a more expensive one. To solve such a task, a system may need retrieval, long context, planning, editing, testing and iteration. Once those surrounding tools matter, the benchmark no longer measures a bare language model in isolation. It measures a model inside an evaluation setup. That may be the right thing to measure if the product is also a system. But the public headline often forgets the distinction.
+
+A score can belong to a model, a scaffold, a toolchain, a prompt strategy, a test harness or all of them at once. If the headline says only “Model X scored Y,” some of the machinery has disappeared.
+
+Then the benchmark became important.
+
+Importance changes a benchmark. Once researchers, labs, users and journalists pay attention, performance becomes reputation. Systems are tuned, harnesses improve, scaffolds appear, test-time strategies spread, and the benchmark starts measuring not only raw model ability but the entire evaluation ecosystem around the model. This may be legitimate progress. It may also mean the score is no longer as simple as it looks.
+
+The next step was refinement. OpenAI released SWE-bench Verified as a human-validated subset intended to evaluate the ability to solve real-world software issues more reliably. [S:source-swebench-verified] That is a good benchmark story: the first measure exposes something useful; then people inspect the measure itself and create a cleaner subset.
+
+The need for a verified subset is itself revealing. It says the original benchmark was useful enough to matter and imperfect enough to improve. Some tasks in a broad benchmark may be ambiguous, broken, underspecified, too easy, too hard, or poorly aligned with what the benchmark claims to test. Human validation tries to clean the signal.
+
+This is not a scandal. It is measurement maturing.
+
+Every serious measure goes through this if it survives long enough. The first version proves the category. The second version removes noise. Later versions fight saturation, contamination and strategic adaptation. A benchmark that never changes may be stable because it is excellent. It may also be stable because nobody important is testing it.
+
+SWE-bench Verified therefore gives the book a concrete lifecycle rather than a generic warning. Benchmark created. Benchmark respected. Benchmark inspected. Benchmark refined. Benchmark optimized against. Benchmark later questioned for frontier measurement.
+
+But the lifecycle did not end there. Later, OpenAI argued that SWE-bench Verified was increasingly contaminated and mismeasuring frontier coding progress, recommending SWE-bench Pro for that frontier use case. [S:source-swebench-contamination] Whether one accepts every conclusion or not, the measurement lesson is excellent. A benchmark can be valuable, then become saturated or contaminated for the very systems it helped improve.
+
+Contamination is a particularly modern version of an old problem. In a normal school test, students may practice past papers. In AI, training data, public solutions, benchmark discussion and scaffold design can all blur the line between solving the task and having absorbed its shape. The benchmark becomes part of the environment. The more famous it becomes, the harder it is to keep it pristine.
+
+That is one reason AI evaluation feels so unstable from the outside. The test is not simply administered to passive systems. The test becomes part of the culture building the systems. Researchers read it. Engineers optimize around it. Products advertise against it. Users quote it. Datasets circulate. Harnesses are replicated. The benchmark becomes famous, then fame becomes a variable inside the benchmark’s own usefulness.
+
+This is measurement folding back on itself.
+
+The same thing happens in slower fields, but AI makes it visible because the loop is compressed. A school exam may take years to become overcoached. A university ranking may take years to reshape institutional behavior. An AI benchmark can become a target almost immediately because the field is built around public comparison and rapid iteration.
+
+This does not make the benchmark dishonest. It makes it perishable.
+
+Saturation is the happier-looking problem. A benchmark can become too easy for frontier systems. That sounds like success, and in one sense it is. A hard test forced progress. Then progress made the test less discriminating. The measure did its job and then lost sharpness at the top end.
+
+Both problems show why a benchmark is not a monument. It is a tool with a service life.
+
+The phrase “service life” is important because it avoids moral panic. A benchmark that becomes saturated has not necessarily failed. It may have succeeded so well that it needs replacement. A benchmark that becomes contaminated has not necessarily been useless. It may have become too visible to serve its original purpose cleanly.
+
+That is a calmer way to read benchmark turnover. New tests do not always prove old tests were bad. Sometimes they prove the field moved. Sometimes they prove the old test was too narrow. Sometimes they prove the incentives became too strong. Often they prove several things at once.
+
+It is worth resisting the easy reaction: “If benchmarks keep changing, none of them mean anything.” That is too simple. Road maps change and still help travelers. Medical tests improve and still diagnose. Economic indices revise methods and still inform. The question is not whether a benchmark changes. The question is whether the change is explained, justified and matched to the claim being made.
+
+This is where source notes, methodology pages and benchmark papers matter. They are not decorative paperwork. They are the benchmark telling the reader what sort of trust it wants.
+
+That phrase belongs in AI evaluation, but it also belongs in the rest of the book. A consumer index can become stale. A shipping benchmark can need methodological governance. A readiness ranking can become politicized. A health analogy can travel beyond its assumptions. A measure has a life cycle: invention, adoption, misuse, refinement, replacement or decline.
+
+SWE-bench simply makes that cycle easier to see because it is compressed into a fast-moving technical field.
+
+This is Goodhart with a GPU budget.
+
+A benchmark is created. It is difficult. Everyone respects it. Then models improve, tools adapt, prompt strategies spread, evaluation harnesses become familiar, and the benchmark ages. A new benchmark appears to fix the old benchmark’s weaknesses. It too becomes famous. Then it becomes a target. The frontier moves. The scoreboard grows teeth.
+
+This is not unique to AI. Education tests, financial benchmarks, university rankings and business-climate indices have all been through versions of the same cycle. AI compresses the cycle because the field moves quickly and benchmark performance is commercially potent. A few percentage points on a public leaderboard can influence reputation, investment, procurement and user belief. That is a large burden for a test.
+
+SWE-bench is useful precisely because it tries to move evaluation closer to real work. But “closer” is not “identical.” Professional software engineering includes ambiguous requirements, team coordination, maintenance risk, security judgment, architecture taste, product context, deployment discipline and the social art of not turning every bug fix into a new platform. A benchmark can capture some of that. It cannot capture all of it.
+
+This distinction is not anti-benchmark. It is pro-benchmark sanity.
+
+Without coding benchmarks, the field would drown in anecdotes. One person would say a model saved their week. Another would say it destroyed their afternoon. Both might be true. Benchmarks create a shared object of argument. They let researchers and builders compare systems under known conditions. They make progress legible.
+
+But legibility is not completeness.
+
+The benchmark tells us what happened inside the harness. It does not tell us whether the system understands a company’s architecture, respects security constraints, negotiates product tradeoffs, or knows when not to touch a file. Those capabilities may be tested elsewhere. They may remain untested. Either way, one score should not be allowed to smuggle them in.
+
+This is the same mistake people make with all strong proxies. The better the proxy, the more tempting it becomes to generalize. A weak proxy invites skepticism. A strong proxy invites overreach.
 
 This is not an insult to SWE-bench. It is what makes a benchmark readable. You respect it by keeping its scope intact.
 
-The AI Index is different. It is not one task benchmark but a broad report trying to organize a sprawling field: research, technical performance, responsible AI, economy, science, medicine, education, policy and public opinion. [S:source-stanford-ai-index] That kind of index has a different failure mode. It may be comprehensive, but comprehensive reports can make readers feel that the field itself has been digested for them. It has not. It has been organized.
+The AI Index has a different failure mode. It is not one task benchmark but a broad report trying to organize a sprawling field: research, technical performance, responsible AI, economy, science, medicine, education, policy and public opinion. That kind of index can be comprehensive and still incomplete. It can help readers orient themselves without digesting the field on their behalf.
 
-Organization is valuable. It is not omniscience.
+Government AI readiness rankings have yet another failure mode. They take institutions, infrastructure, data, skills and policy conditions and compress them into rankings. Policymakers need that compression. Journalists need it. Investors and consultants certainly enjoy it. But a country is not “ready” in one dimension. A country may have strong technical talent and weak governance. It may have policy ambition and poor data infrastructure. It may have money and low public trust. A ranking can begin the conversation. It should not end it. [S:source-oxford-ai-readiness]
 
-Government AI readiness rankings have yet another failure mode. They take institutions, infrastructure, data, skills and policy conditions and compress them into rankings. Policymakers need that compression. Journalists need it. Investors and consultants certainly enjoy it. But a country is not “ready” in one dimension. A country may have strong technical talent and weak governance. It may have policy ambition and poor data infrastructure. It may have money and low public trust. A ranking can begin the conversation. It should not end it.
+AI also introduces the problem of demo-as-index. Demonstrations are often more persuasive than evaluations. A model solving a flashy task on video can move public belief more than a careful report. The demo becomes a strange indicator of its own: if it can do this one vivid thing, perhaps it can do the whole category. Sometimes that inference is fair. Often it is a magic trick performed by editing, selection and human patience.
 
-This is the same structure as the Big Mac, upgraded to bureaucracy. One object cannot represent an economy. One readiness score cannot represent a state.
-
-AI also introduces the problem of benchmark theater. Demonstrations are often more persuasive than evaluations. A model solving a flashy task on video can move public belief more than a careful report. The demo becomes a strange index of its own: if it can do this one vivid thing, perhaps it can do the whole category. Sometimes that inference is fair. Often it is a magic trick performed by editing, selection and human patience.
-
-The reader should learn to separate three things:
+A useful distinction is simple:
 
 Capability: what the system can do under specified conditions.
 
@@ -1046,77 +1122,39 @@ Usefulness: whether the result matters in the real workflow.
 
 Benchmarks often measure capability better than reliability, and reliability better than usefulness. The gaps are where disappointment lives.
 
-This chapter should avoid current-score obsession. Scores change quickly and become stale. The manuscript’s durable point is not that one model reached a particular score in a particular month. The durable point is that AI benchmarks are modern strange indicators: vivid compressions of complex capability, useful within method, dangerous when generalized.
+This three-part distinction gives the argument its practical spine.
 
-This keeps the chapter commercially relevant without making it obsolete before publication.
+A model can demonstrate capability by solving a benchmark task. That proves something. It may be an impressive something.
 
-The AI material also prevents the book from feeling retro. Without it, the chapters might seem like a tour of classic odd indicators: burgers, lipstick, underwear, ships. With AI, the reader sees that the measurement problem is not going away. It is migrating into the systems currently reshaping work, policy and investment.
+Reliability asks whether the performance holds across many messy cases, with varied repositories, changing dependencies, incomplete issues and no hidden hand-holding.
 
-There is a satisfying symmetry here. The book opens with a burger because ordinary objects make economics readable. It approaches the end with AI benchmarks because extraordinary machines still need ordinary human habits of measurement: score, rank, compare, compress, argue.
+Usefulness asks whether the result fits into actual work. Did it save time? Did it create review burden? Did it introduce subtle risk? Did it preserve project intent? Did the human still need to understand everything before trusting it?
+
+Most public benchmark talk compresses all three into one score. That compression is useful for headlines and dangerous for decisions.
+
+The reader does not need to know the technical details of every benchmark to benefit from this distinction. It applies whenever a system is evaluated. A school exam measures capability under exam conditions. A driving test measures enough performance to issue a license, not a lifetime of safe driving. A product demo measures a selected flow. A business ranking measures selected regulatory conditions. A software benchmark measures selected tasks under selected assumptions.
+
+The phrase “under selected assumptions” is not a footnote. It is the whole game.
+
+Consider what happens when a model benchmark score enters a business decision. A buyer may not know the harness details. They see a chart. Procurement sees a leader. A founder sees a claim. A journalist sees a headline. The score has moved from evaluation into persuasion. If the benchmark task matches the buyer’s real workflow, the score may help. If it does not, the score becomes expensive theater.
+
+This is the same movement from Chapter 6 in technical clothing. A measure becomes important, then begins shaping behavior around it. Labs optimize. Buyers compare. Investors notice. The benchmark participates in the market it claims to describe.
+
+This is why AI belongs after Goodhart rather than before it. The reader has already learned to ask what happens when people care about a number. AI benchmarks answer: they build around it at speed.
+
+The tone can be skeptical without being anti-progress. Some model improvements are real. Benchmarks help reveal them. A coding model that solves more real repository issues is not doing nothing. But a benchmark score is the beginning of evaluation, not the end of adoption. For a serious user, the next questions are workflow fit, reliability, review burden, security, cost and failure mode.
+
+Those questions are less glamorous than a leaderboard. They are also where usefulness lives.
+
+[VISUAL: benchmark lifecycle — creation, respect, optimization, contamination/saturation, replacement]
+
+Current-score obsession is deliberately avoided for a reason. Exact model rankings may be stale by publication. The durable story is the mechanics: a benchmark frames a task, public scores travel, optimization pressure appears, and scope matters. The reader does not need the current number-one model to understand why “number one” is never a complete sentence.
+
+AI belongs near the end rather than the beginning because it proves the book’s pattern in a modern domain. If the book opened with AI, it would risk becoming a technology book. Here, AI becomes the latest example of an old measurement problem, not the main event.
 
 The machines may be new. Our weakness for leaderboards is ancient.
 
-There is one more reason AI belongs near the end rather than at the beginning.
-
-If the book opened with AI, it would risk becoming a technology book. That would narrow the reader promise and date the manuscript quickly. By placing AI after burgers, work-time, folklore, freight, air and governance, the chapter reads differently. AI becomes the latest example of an old measurement problem, not the main event.
-
-That framing is commercially useful because it lets the book benefit from contemporary relevance without being trapped by a single hype cycle. Model names will change. Benchmarks will change. The deeper pattern will not. People will still need to compress machine capability into scores, and those scores will still be useful, misleading, optimized and misunderstood.
-
-The chapter should also avoid writing as if AI is magic. The benchmark examples are valuable precisely because they demystify. A model is not “smart” in general because it scores well somewhere. It performed a class of tasks under a set of conditions. That sentence is less exciting than the marketing version and much more useful.
-
-This also allows the voice to stay consistent with the rest of the book. The same amused skepticism applied to lipstick can be applied to leaderboards. The target changes from cosmetics counter to model card, but the human weakness is familiar: we want one number to relieve us from thinking.
-
-AI benchmarks will not do that. Nothing in this book will.
-
-The best a good indicator can offer is a disciplined shortcut. The worst offers a shortcut that forgets where it was going.
-
-The AI chapter should also protect against a common future-staleness problem.
-
-Any exact model ranking inserted today may be stale by publication. That does not make the chapter impossible. It means the manuscript should focus on durable benchmark mechanics. The examples should explain how a benchmark frames a task, how public scores travel, how optimization pressure appears and why scope matters. Specific scores can be refreshed later if needed, but the chapter should not depend on them.
-
-This keeps V1 factually safer and more commercially durable. A reader does not need the current number-one model to understand why benchmarks are seductive. They need to understand why “number one” is never a complete sentence.
-
-The chapter can also connect AI benchmarks to the reader’s own experience with tools. Many people already feel the gap between demo and daily use. A system looks astonishing in a clip and then fails on an ordinary task with the confidence of a drunk consultant. A benchmark may explain part of that gap if it measures a clean task while the user’s reality is messy. The reader does not need technical details to understand the distinction between controlled evaluation and lived workflow.
-
-This is where AI becomes less exotic. It joins the rest of the book. The same mental discipline used on burger prices and shipping rates can be used on model scores. The reader asks: what exactly was measured, under what conditions, and what would make the result fail in practice?
-
-That question is more useful than awe.
-
-It is also what disappears when the number enters public conversation.
-
-A leaderboard score travels badly. Inside the benchmark, it has a method, a dataset, a harness, a set of assumptions and a task definition. Outside the benchmark, it becomes “Model X is better.” Better at what? Under which setup? With which tools? On which subset? With how much inference budget? Under what constraints? Did the benchmark leak into training? Did the system optimize for the test rather than the work?
-
-The AI benchmark problem is the Goodhart problem with a GPU budget.
-
-If a benchmark becomes important, labs optimize for it. That may improve real ability. It may also improve benchmark-specific ability. The distinction is not always obvious from the headline score. This does not make benchmarks useless. Without them, everyone would simply shout anecdotes at each other and call it evaluation. Benchmarks are necessary. They are also incomplete.
-
-Government AI readiness rankings show the same compression issue at institutional scale. Oxford Insights’ Government AI Readiness Index ranks governments on their capacity to harness AI for public benefit. [S:source-oxford-ai-readiness] That is useful if read as a structured comparison of policy, technology, data and institutional conditions. It is dangerous if read as a final verdict on a country’s future.
-
-Readiness is not one thing. It is infrastructure, skills, governance, data, procurement, public trust, regulation, investment, state capacity, corruption risk, language coverage, education and many other stubborn details. An index can compress them. It cannot abolish them.
-
-[VISUAL: benchmark leaderboard as modern index metaphor]
-
-AI benchmark culture belongs in this book because it proves the subject is not quaint. Weird measures are not a Victorian hobby involving hemlines and shipping gossip. They are how modern technical systems explain themselves to markets, governments and users.
-
-The same questions recur:
-
-What is the unit?
-
-What is the source?
-
-What is the method?
-
-What is excluded?
-
-Who benefits if the score rises?
-
-What happens when everyone optimizes for it?
-
-The answers are rarely simple. A benchmark may be useful even if it is gameable. A readiness ranking may help policymakers even if it compresses too much. A capability report may reveal real progress while still exaggerating practical reliability. A software benchmark may expose weaknesses in current systems while still failing to capture the full mess of professional engineering.
-
-The mature response is not cynicism. Cynicism is just gullibility wearing black. The mature response is disciplined reading.
-
-When an AI benchmark score appears, ask what task it measures. If it is a coding benchmark, ask whether the task resembles real coding or a contest. If it is an agent benchmark, ask what tools the agent had, how failures were counted and whether the environment rewarded shortcuts. If it is a safety benchmark, ask whether it measures refusal behavior, real-world harm reduction, robustness under pressure or something easier to score.
+When an AI benchmark score appears, ask what task it measures. If it is a coding benchmark, ask whether the task resembles real coding or a contest. Ask what tools were allowed, how failures were counted, whether tests were reliable, whether data leakage is plausible and whether the score reflects a model, a scaffold or a whole evaluation stack.
 
 The same logic applies to all strange indicators. A burger measures one kind of purchasing-power story. Work-time measures affordability through wages. Lipstick measures, at best, a consumer-behavior hypothesis. Shipping measures physical transport markets. Cigarette equivalents measure risk translation. AI benchmarks measure task performance under a defined harness.
 
@@ -1124,7 +1162,7 @@ Each is useful when kept in its cage.
 
 Each becomes dangerous when released into general conversation without a tag.
 
-The AI chapter also reveals why people will keep inventing these measures. As systems become more complex, the demand for simple indicators rises. Nobody wants to read every model card, audit report, evaluation detail and methodology note before forming a view. People want a number. They want a rank. They want a color, badge, score or object. This is not a failure of intelligence. It is a survival mechanism.
+As systems become more complex, the demand for simple indicators rises. Nobody wants to read every model card, audit report, evaluation detail and methodology note before forming a view. People want a number. They want a rank. They want a color, badge, score or object. This is not a failure of intelligence. It is a survival mechanism.
 
 But the more we need compression, the more we need to inspect the compressor.
 
@@ -1132,123 +1170,25 @@ That brings the book to its final task. We have walked through burgers, phones, 
 
 The question is how to read them without becoming either a bore or a sucker.
 
----
-
 ## Chapter 8 — How to Read a Weird Index
 
 A weird index should be enjoyed before it is trusted.
 
-The order matters because suspicion without enjoyment becomes sterile.
+That order matters. Suspicion without enjoyment becomes sterile; it misses why the measure worked in the first place. Enjoyment without suspicion is worse; it lets myths enter the mind, sit down and become furniture. The useful reader does both. Let the indicator land. Then inspect the landing gear.
 
-A person who cannot enjoy a strange indicator will miss why it works. They will see only the flaws: small sample, weak method, noisy proxy, overclaim risk. These objections may be correct and still incomplete. The measure spread because it offered something people wanted. To understand it, you must feel the appeal before you discipline it.
+By now the pattern should feel familiar. A burger can make purchasing power visible. Work-time can make price personal. Lipstick can turn recession anxiety into a story people want to repeat. Freight rates can show the physical economy moving underneath consumer life. Cigarette equivalents can turn invisible risk into a bodily metaphor. LIBOR, Doing Business and AI benchmarks can show what happens when measures become consequential.
 
-But enjoyment without suspicion is worse. That is how myths become facts. A clever sentence enters the mind, finds a comfortable chair and refuses to leave even after the evidence arrives. People do not repeat the Lipstick Index because they have read the empirical literature. They repeat it because it sounds like the kind of thing that should be true. The mind loves “should be true.” It is one of our more expensive habits.
+The final skill is not cynicism. Cynicism would say all indices are lies. That is false and lazy. Many indices are useful. Some are essential. The modern world cannot function without prices, benchmarks, rankings, ratings, standards and indicators. The better skill is conditional respect.
 
-The final chapter should therefore teach a double movement: let the indicator land, then inspect the landing gear.
+Respect the attempt to measure.
 
-This is also the chapter where the reader gets permission not to choose between fun and rigor. Popular economics often splits into two bad modes. One mode is fun and loose, full of entertaining claims that evaporate under pressure. The other is rigorous and dead, with prose that appears to have been stored in a filing cabinet since birth. The best strange indicators deserve a third mode: lively, skeptical, specific.
+Interrogate the translation.
 
-Specificity is the cure for most measurement nonsense.
+Watch the incentives.
 
-Not “shipping says the economy is collapsing.”
+Keep the object in proportion.
 
-Dry bulk freight rates moved under these conditions.
-
-Not “AI can code.”
-
-This system solved this class of repository issues under this harness.
-
-Not “pollution equals cigarettes.”
-
-This PM2.5-based risk analogy translates exposure into a familiar unit under stated assumptions.
-
-Not “lipstick predicts recession.”
-
-Lipstick is a contested affordable-luxury story that may reveal consumer psychology better than macro direction.
-
-The more specific version is less viral. It is also less stupid.
-
-There is no avoiding that tradeoff. The cleanest truth is often less shareable than the best myth. A responsible writer’s job is to make the truth shareable enough without sanding off the parts that keep it true.
-
-That sentence could describe the whole book.
-
-The final checklist should not feel like homework. It should feel like a reader acquiring a set of small defensive weapons. The world will keep throwing numbers at them. Some will arrive from brands, some from governments, some from consultants, some from academics, some from journalists, some from dashboards built by people who confuse color gradients with insight. The reader cannot fully audit all of them. They can learn to ask better first questions.
-
-What is being counted?
-
-Who counted it?
-
-How was it counted?
-
-What was left out?
-
-What would change the conclusion?
-
-Who wants me to believe it?
-
-What happens if people optimize for it?
-
-Those questions will not make anyone invulnerable. They will make them less cheaply fooled.
-
-The chapter should also return to the title objects. Burgers, lipstick and underwear represent three tiers of the book’s argument.
-
-The burger is the friendly proxy: imperfect but methodologically useful.
-
-The lipstick is the seductive myth: psychologically satisfying but contested.
-
-The underwear is the comic warning: memorable enough to travel, weak enough to handle carefully.
-
-Together they make the promise honest. The book is not saying strange indicators are either brilliant or idiotic. It is saying they occupy a spectrum. The reader’s job is to place each one on that spectrum before using it.
-
-Shipping, air and AI broaden the spectrum. They show that the same mental habits apply beyond consumer objects. A port, a pollutant and a software benchmark can all become strange measures once they are translated into a form people can use.
-
-This is why the conclusion should not be cynical. Cynicism would say: all indices are lies. That is false and lazy. Many indices are useful. Some are essential. The modern world cannot function without measurement. Prices, benchmarks, standards, rankings, ratings and indicators coordinate action across systems too large for trust alone.
-
-The better conclusion is conditional respect.
-
-Respect the attempt to measure. Interrogate the translation. Watch the incentives. Keep the object in proportion.
-
-The reader should close the book with a changed instinct. When they see a new index, they should not immediately believe or dismiss it. They should lean forward. A new strange measure is an invitation to ask: what part of reality has been made readable here, and what did the translation quietly leave behind?
-
-The conclusion should be short enough not to feel like a second lecture and strong enough to leave a usable aftertaste. The reader has not been given a system to memorize. They have been given a posture.
-
-Curiosity first.
-
-Then method.
-
-Then limits.
-
-Then incentives.
-
-Then proportion.
-
-That posture can travel beyond the examples in the book. It works on a ranking of cities, a benchmark of models, a price index, a viral chart, a health-risk comparison, a productivity metric, a school score or a platform dashboard. The names change. The reading discipline remains.
-
-This is also why the book should end without pretending to solve measurement. The world will not become less abstract. If anything, it will become more saturated with indicators. Every institution wants a number because numbers travel, compare and persuade. The reader cannot stop that. They can become harder to manipulate by it.
-
-That is a modest promise, but a real one.
-
-And it is a better promise than certainty.
-
-The last page should probably resist a grand flourish. The subject is too practical for thunder. The right ending is firm and plain: the world is too large to see directly, so we will keep inventing measures. The task is not to stop doing that. The task is to remember that every measure is a translation with missing pieces.
-
-That makes the final title callback useful. The burger, lipstick and underwear should reappear not as jokes, but as reminders of scale. A serious idea can enter through an unserious object. A weak myth can teach a strong lesson. A ridiculous unit can make the invisible visible. The reader should leave with permission to enjoy that strangeness and enough skepticism not to be owned by it.
-
-If the book succeeds, the reader will never see a new index in quite the same way. They will still click. They will still smile at the odd comparison. But a second instinct will arrive a moment later.
-
-What does this really measure?
-
-What does it make me feel?
-
-Who benefits if I believe it?
-
-What disappeared in the translation?
-
-That is not a bad set of questions to carry into a measured world.
-
-That is the safest order. Enjoy the oddness. Admire the compression. Let the burger, lipstick, underpants, ship or cigarette do its theatrical work. Then, before repeating the claim with the confidence of a person who has just discovered one graph and lost all humility, ask what the measure is actually doing.
-
-The reader does not need a PhD in statistics for this. A small checklist will do.
+Here is a practical way to do that.
 
 First: what is the object?
 
@@ -1266,9 +1206,9 @@ Fourth: what is the scope?
 
 The Big Mac Index works where Big Macs and data exist. A work-time index depends on selected wages and products. The Baltic Dry Index concerns dry bulk shipping, not all trade. SWE-bench concerns specific software tasks, not all intelligence. A measure that clearly states its scope deserves more trust than one that quietly expands into everything.
 
-Fifth: what is the evidence status?
+Fifth: what is the strength of the claim?
 
-Some measures are robust. Some are plausible. Some are contested. Some are folklore. Some are failed but charming. Some are governance cautionary tales. The label does not need to appear in public prose, but it should exist in the reader’s head. Lipstick and underwear can remain in the book because they are excellent folklore. They should not be promoted into laws.
+This is the lesson from lipstick, underwear and skyscrapers. “This behavior sometimes happens” is not the same as “this diagnoses recession.” “This diagnoses mood” is not the same as “this predicts the future.” A weak claim can become false by promotion. Before believing the sentence, identify how much weight it is trying to carry.
 
 Sixth: what changes when people optimize for it?
 
@@ -1280,7 +1220,33 @@ A measure that cannot be embarrassed is not a measure. It is a belief with forma
 
 [VISUAL: one-page weird-index reader checklist — grayscale-safe]
 
-This checklist is deliberately plain. That is because the skill of reading weird indices is less about advanced math than about intellectual hygiene.
+This checklist is deliberately plain because the skill of reading weird indices is less about advanced mathematics than intellectual hygiene.
+
+The checklist also works because it slows down the moment of belief.
+
+Most bad index reading happens too quickly. The reader sees a clever unit, a sharp ranking or a surprising comparison and immediately turns it into a conclusion. The pause is where judgment lives. Not a long pause. Not a dissertation. Just enough time to ask whether the measure has earned the sentence being built on top of it.
+
+Take the burger. The object is clear. The source is identifiable. The method is explainable. The scope is limited. The claim is modest when handled properly: useful purchasing-power intuition, not currency destiny. That is a healthy strange index.
+
+Take lipstick. The object is clear and the story is memorable. The source trail is weaker, the evidence is contested and the claim often expands beyond what it can support. That does not make the story worthless. It means the right use is cultural and diagnostic, not predictive.
+
+Take LIBOR. The object is not charming at all, but the source and consequence are clear. It shows that a benchmark can become so embedded in contracts and markets that manipulation of the measure becomes manipulation of the world built around it.
+
+Take SWE-bench. The object is a benchmark task: real repository, real issue, generated patch. The source and method are visible enough to inspect. The scope is narrower than public excitement often suggests. The lifecycle — benchmark, verified subset, saturation and contamination concerns — shows that even good measures age.
+
+The same questions produce different verdicts. That is the point. A good reader does not apply one mood to every index. They do not either admire everything or debunk everything. They classify.
+
+Some measures deserve trust.
+
+Some deserve use with caveats.
+
+Some deserve laughter and quarantine.
+
+Some deserve governance.
+
+Some deserve retirement.
+
+This is a better outcome than a single grand theory. The world does not need another person declaring that all metrics are fake or all data is truth. It needs readers who can tell a useful proxy from a shiny trap.
 
 Do not confuse vivid with true.
 
@@ -1292,31 +1258,29 @@ Do not confuse ranked with understood.
 
 Do not confuse a proxy with the thing.
 
-The best strange indicators are humble. They know they are translations. A burger does not become an economy. It points toward purchasing power. An hour of work does not become a life. It points toward affordability. A cigarette-equivalent does not become medical truth. It points toward risk. A benchmark does not become intelligence. It points toward task performance.
+These rules are simple enough to sound obvious. They are not obvious in use.
 
-The worst indicators forget this. Or rather, people forget it for them.
+Markets, media and institutions constantly reward overreading. A ranking becomes a verdict because verdicts travel. A benchmark becomes a claim about intelligence because intelligence sells. A consumer anecdote becomes a recession signal because recession anxiety needs objects. A health analogy becomes literal because literal fear spreads faster than careful explanation.
 
-There is a reason the book’s title uses objects rather than abstractions. Burgers, lipstick and underwear are funny because they are ordinary. That ordinariness is not a gimmick. It is the engine. Humans understand the world by grabbing pieces of it. We take something large, invisible or boring and force it into a shape we can argue about.
+The forces pushing toward exaggeration are strong. The discipline pushing back must be simple enough to survive contact with headlines.
 
-This habit will not disappear. If anything, it will intensify. The world is becoming more measured, not less. There will be more dashboards, rankings, benchmarks, indices, scores, ratings, signals, readiness maps and proprietary confidence indicators. Some will be useful. Some will be nonsense. Many will be useful nonsense, which is the most dangerous category because it earns trust before explaining its limits.
+That is why the book ends with proportion rather than certainty. Proportion is the underrated virtue in measurement. It asks the reader to keep the measure at the right size. The Big Mac Index is big enough to teach PPP and too small to run foreign-exchange strategy. Work-time is big enough to reveal affordability and too small to explain all inequality. Lipstick is big enough to reveal the appeal of recession folklore and too small to forecast the economy. SWE-bench is big enough to test a class of coding performance and too small to settle the future of software work.
 
-The goal is not to become the sort of person who ruins every dinner conversation by asking for methodology before the soup. The goal is to enjoy the strange measure and still notice the hinge.
+Right-sized measures are useful. Inflated measures become myths.
 
-Where does the translation help?
+The title objects now have their jobs. The burger is the friendly proxy: imperfect, methodical enough and excellent at opening a serious idea. The lipstick is the seductive myth: psychologically satisfying, culturally useful and empirically unsafe when overpromoted. The underwear is the comic warning: memorable enough to travel, weak enough to handle carefully.
 
-Where does it distort?
+Together they make the promise honest. Strange indicators are not brilliant or idiotic as a class. They occupy a spectrum. The reader’s job is to place each one on that spectrum before using it.
 
-Where does it become myth?
+That spectrum extends beyond consumer objects. A port, a pollutant and a software benchmark can all become strange measures once they are translated into a form people can use. The names change. The reading discipline remains.
 
-Where does it become an incentive?
+A good strange indicator says: here is one useful way to look.
 
-Where does it become a story people repeat because it is too good to check?
-
-Those questions are enough to make a reader harder to fool.
+A bad one says: here is reality.
 
 The world will remain too large to see directly. We will keep needing proxies. We will keep turning abstraction into objects, hours, ships, cigarettes and scores. That is not a weakness. It is one of the ways humans think.
 
-But a good reader of strange indicators carries two thoughts at once.
+The discipline is to carry two thoughts at once.
 
 The first is delight: what a strange, clever way to see the world.
 
@@ -1324,19 +1288,30 @@ The second is suspicion: what exactly disappeared in the translation?
 
 Hold both, and the burger becomes useful. The lipstick becomes interesting. The underwear becomes funny but contained. The ship becomes a signal. The cigarette becomes a warning with boundaries. The benchmark becomes a tool instead of a shrine.
 
-That is the whole discipline.
+Curiosity first.
+
+Then method.
+
+Then limits.
+
+Then incentives.
+
+Then proportion.
 
 Enjoy the measure.
 
 Do not worship it.
 
+That is enough.
+
 ---
 
 ## Internal Source Notes
 
-These notes are for Manuscript V1 provenance and later endnote/fact-check work.
+These notes are for manuscript provenance and later endnote/fact-check work.
 
 - `source-economist-big-mac`: The Economist Big Mac Index data/methodology repository, including public data, source data and calculation code: https://github.com/TheEconomist/big-mac-data
+- `source-docx-mixed-research`: owner-supplied normalized source pack lead; used only for optional/supporting index leads where the prose does not depend on a consequential factual claim.
 - `source-ubs-prices-and-earnings`: UBS Prices and Earnings / work-time comparisons, used for wage-hour framing.
 - `source-wef-iphone-hours`: World Economic Forum summary of iPhone working-hours comparison, used only as secondary support.
 - `source-investopedia-starbucks`: Starbucks/latte index explainer, used as supporting consumer-object example.
@@ -1346,6 +1321,8 @@ These notes are for Manuscript V1 provenance and later endnote/fact-check work.
 - `source-skyscraper-paper` and `source-market-urbanism`: skyscraper-index references, used with contested/correlation treatment.
 - `source-baltic-exchange`: Baltic Exchange methodology and dry bulk market information: https://www.balticexchange.com/en/data-services/Methodology.html
 - `source-freightos-baltic`: Freightos Baltic Index / container freight methodology: https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/
+- `source-ember-energy`: Ember energy-data source, used as a supporting physical-economy signal reference: https://ember-energy.org/data/
+- `source-electricitymaps`: Electricity Maps operational data product, used only as supporting physical-economy context: https://app.electricitymaps.com/map
 - `source-berkeley-earth`: Berkeley Earth cigarette-equivalent pollution methodology.
 - `source-who-air-quality`: WHO global air quality guidelines: https://www.who.int/publications/i/item/9789240034228
 - `source-openaq`: OpenAQ and AQI Hub, used for air-quality data/AQI-standardization caveats: https://openaq.org/about/initiatives/aqi-hub/
@@ -1358,3 +1335,6 @@ These notes are for Manuscript V1 provenance and later endnote/fact-check work.
 - `source-stanford-ai-index`: Stanford HAI AI Index: https://hai.stanford.edu/ai-index/2026-ai-index-report
 - `source-oxford-ai-readiness`: Oxford Insights Government AI Readiness Index: https://oxfordinsights.com/ai-readiness/government-ai-readiness-index-2025/
 - `source-swe-bench`: SWE-bench project and methodology: https://github.com/swe-bench/SWE-bench
+- `source-swe-bench-paper`: SWE-bench paper / benchmark description, used for real GitHub issue and pull-request framing: https://arxiv.org/abs/2310.06770
+- `source-swebench-verified`: SWE-bench Verified release / human-validated subset, used for benchmark-refinement lifecycle.
+- `source-swebench-contamination`: OpenAI source on SWE-bench Verified contamination/saturation concerns and SWE-bench Pro positioning, used as a benchmark-lifecycle case.

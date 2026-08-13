@@ -1,0 +1,41 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "mission_id": "BOOK-FACTORY-INDICES-005",
+  "state": "STRUCTURAL_EDITORIAL_QA_COMPLETE",
+  "summary": "Manuscript V1 was tightened for repetition and internal-process residue, while Chapters 6 and 7 were enriched with concrete LIBOR, Doing Business and SWE-bench benchmark-lifecycle material. Chapter 8 was restructured into a single ending.",
+  "chapters_tightened": ["introduction", "ch1", "ch2", "ch3", "ch4", "ch5", "ch8"],
+  "chapters_materially_expanded": ["ch6", "ch7"],
+  "major_stories_added_or_enriched": [
+    "LIBOR as embedded financial benchmark with submission mechanics and manipulation incentives",
+    "Doing Business as ranking prestige and institutional-pressure story",
+    "SWE-bench lifecycle from real GitHub issue benchmark to Verified subset and later contamination/saturation concerns"
+  ],
+  "repeated_ideas_removed_or_merged": [
+    "proxy versus reality repeated explanations",
+    "translation/vividness caveats repeated without new domain application",
+    "signal versus explanation restatements",
+    "multiple Chapter 8 endings"
+  ],
+  "internal_process_language_removed": [
+    "V1/manuscript process references",
+    "chapter should / manuscript should production residue",
+    "later fact checking as reader-facing prose"
+  ],
+  "factual_claim_changes": [
+    "AI benchmark prose now avoids current-model leaderboard claims.",
+    "SWE-bench claims now distinguish benchmark, Verified subset and later contamination/saturation concerns.",
+    "LIBOR and Doing Business claims remain bounded to official/institutional source support.",
+    "Folklore claims remain contested/folklore rather than predictive."
+  ],
+  "visual_placeholder_changes": [
+    "Chapter 7 visual modified from generic leaderboard metaphor to benchmark lifecycle.",
+    "Chapter 8 retains one checklist visual.",
+    "No decorative visuals added."
+  ],
+  "narrative_transition_changes": [
+    "Chapter 6 now bridges from Goodhart to AI through concrete consequential measures.",
+    "Chapter 7 now bridges to Chapter 8 through benchmark lifecycle rather than general AI commentary.",
+    "Chapter 8 now follows synthesis, checklist, final synthesis, stop."
+  ]
+}

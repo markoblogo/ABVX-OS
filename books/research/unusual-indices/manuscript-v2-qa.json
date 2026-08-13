@@ -1,0 +1,96 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "mission_id": "BOOK-FACTORY-INDICES-005",
+  "state": "MANUSCRIPT_V2_READY_FOR_HUMAN_REVIEW",
+  "manuscript_path": "books/manuscripts/unusual-indices-book/MASTER_MANUSCRIPT.md",
+  "v1_word_count": 22343,
+  "v2_word_count": 22912,
+  "approximate_words_removed": 4430,
+  "approximate_words_added": 4999,
+  "chapter_word_counts": [
+    {"section": "Introduction — The World, Translated Badly but Usefully", "words": 917},
+    {"section": "Chapter 1 — The Measure You Can Eat", "words": 3142},
+    {"section": "Chapter 2 — Prices Become Human", "words": 3028},
+    {"section": "Chapter 3 — The Folklore of Recession", "words": 2793},
+    {"section": "Chapter 4 — The Economy Under the Economy", "words": 2798},
+    {"section": "Chapter 5 — Air You Can Count", "words": 2711},
+    {"section": "Chapter 6 — When Measures Fight Back", "words": 2777},
+    {"section": "Chapter 7 — Benchmarks for Machines", "words": 2823},
+    {"section": "Chapter 8 — How to Read a Weird Index", "words": 1478}
+  ],
+  "repeated_pass_result": "PASS",
+  "internal_process_language_result": "PASS",
+  "p0_unresolved_count": 0,
+  "p1_unresolved_count": 0,
+  "remaining_p1_items": [],
+  "vague_source_label_result": "PASS_WITH_MINOR_LATER_ENDNOTE_WORK",
+  "source_notes_ready_for_endnote_build": true,
+  "factual_qa_result": "PASS",
+  "voice_qa_result": "PASS",
+  "narrative_qa_result": "PASS",
+  "commercial_promise_result": "PASS",
+  "commercial_density": "COMPACT_AND_RICH",
+  "opening_commercial_test": "STRONG",
+  "title_object_payoff": {
+    "burgers": {
+      "introduced": "Chapter 1",
+      "function": "Friendly proxy for purchasing power and communicative measurement.",
+      "payoff": "Substantive and title-worthy."
+    },
+    "lipstick": {
+      "introduced": "Chapter 3",
+      "function": "Seductive recession folklore and contested behavioral/diagnostic/predictive claim distinction.",
+      "payoff": "Substantive and title-worthy."
+    },
+    "underwear": {
+      "introduced": "Chapter 3",
+      "function": "Comic warning about memorable but weakly evidenced hidden-consumption indicators.",
+      "payoff": "Substantive and title-worthy."
+    }
+  },
+  "chapter_quality": [
+    {"chapter": "Introduction", "rating": "STRONG", "strongest_feature": "Fast thesis setup.", "remaining_risk": "Minor line edit only."},
+    {"chapter": "Chapter 1", "rating": "STRONG", "strongest_feature": "Big Mac opening and communicative measurement.", "remaining_risk": "Could still trim minor proxy restatements in copyedit."},
+    {"chapter": "Chapter 2", "rating": "GOOD", "strongest_feature": "Price-to-time burden is clear and human.", "remaining_risk": "Concrete numeric examples await final data/endnote stage."},
+    {"chapter": "Chapter 3", "rating": "STRONG", "strongest_feature": "Behavioral/diagnostic/predictive claim distinction.", "remaining_risk": "Folklore sources need careful endnote presentation."},
+    {"chapter": "Chapter 4", "rating": "GOOD", "strongest_feature": "Scale shift to physical economy.", "remaining_risk": "Shipping detail should remain non-textbook in final copyedit."},
+    {"chapter": "Chapter 5", "rating": "GOOD", "strongest_feature": "Risk equivalence and analogy boundary.", "remaining_risk": "Health-adjacent claims require final endnote care."},
+    {"chapter": "Chapter 6", "rating": "GOOD", "strongest_feature": "LIBOR and Doing Business now make Goodhart concrete.", "remaining_risk": "Could be expanded further only if human wants a longer book."},
+    {"chapter": "Chapter 7", "rating": "GOOD", "strongest_feature": "SWE-bench lifecycle makes benchmark culture concrete.", "remaining_risk": "SWE-bench Pro/contamination source should be finalized in endnote pass."},
+    {"chapter": "Chapter 8", "rating": "STRONG", "strongest_feature": "Single checklist-to-ending structure.", "remaining_risk": "Short, but functionally complete."}
+  ],
+  "visual_placeholders": {
+    "count": 8,
+    "keep": 6,
+    "modify": 2,
+    "remove": 0
+  },
+  "kindle_editorial_readiness": {
+    "status": "READY_FOR_DESIGN_PROOF",
+    "notes": "No wide tables, raw URL-heavy prose, fixed-position dependencies or layout-dependent jokes detected. Visual markers must degrade to captions/lists."
+  },
+  "paperback_editorial_readiness": {
+    "status": "READY_FOR_DESIGN_PROOF",
+    "notes": "5x8 black-and-white remains plausible. Natural page count may be compact but commercially credible if typography and visuals are handled well."
+  },
+  "intelligence_usage": {
+    "luna_calls": 0,
+    "task_types": [],
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "actual_api_cost_usd": 0,
+    "usefulness": "NONE",
+    "codex_saving_class": "NONE"
+  },
+  "process_cost": {
+    "external_research_actions": 1,
+    "major_source_verification_actions": 3,
+    "chapters_materially_rewritten": 3,
+    "chapters_materially_expanded": 2,
+    "human_gates_during_mission": 0,
+    "codex_mission_count": 1,
+    "actual_cost_class": "EXPENSIVE_ALLOWED"
+  },
+  "design_readiness_recommendation": "Proceed to human Manuscript V2 review before design proof."
+}

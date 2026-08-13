@@ -1,0 +1,101 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "state": "VISUAL_PLAN_READY_FOR_HUMAN_REVIEW",
+  "format_constraints": {
+    "kindle_reflowable": true,
+    "paperback_trim": "5x8",
+    "interior_default": "black-and-white",
+    "decorative_illustrations": false
+  },
+  "visuals": [
+    {
+      "chapter": "ch1",
+      "purpose": "Explain how a local burger price becomes an implied exchange-rate intuition.",
+      "concept": "Simple burger price-to-implied-exchange-rate schematic.",
+      "source_data_requirement": "The Economist Big Mac data if exact values are used; otherwise conceptual only.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Must be understandable from caption and surrounding prose.",
+      "rights_concern": "No McDonald's trade dress/logo reproduction without rights review.",
+      "status": "READY_TO_DESIGN"
+    },
+    {
+      "chapter": "ch2",
+      "purpose": "Make work-time affordability immediately readable.",
+      "concept": "Work-hours ladder for a common product.",
+      "source_data_requirement": "Final selected wage/product dataset before publication.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Use simple bars or ordered list; avoid wide table.",
+      "rights_concern": "Avoid proprietary phone imagery.",
+      "status": "NEEDS_DATA"
+    },
+    {
+      "chapter": "ch3",
+      "purpose": "Distinguish myth, contested signal and useful cultural diagnostic.",
+      "concept": "Myth-versus-measure object row: lipstick, underwear, skyscraper.",
+      "source_data_requirement": "No numeric data required; labels must reflect evidence taxonomy.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Can degrade to text labels.",
+      "rights_concern": "Use generic object silhouettes only.",
+      "status": "READY_TO_DESIGN"
+    },
+    {
+      "chapter": "ch4",
+      "purpose": "Show dry bulk versus container freight scope difference.",
+      "concept": "Dry bulk vessel / container box comparison diagram.",
+      "source_data_requirement": "Baltic Exchange and Freightos methodology references.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Keep to two-column or stacked diagram.",
+      "rights_concern": "No third-party screenshots.",
+      "status": "READY_TO_DESIGN"
+    },
+    {
+      "chapter": "ch5",
+      "purpose": "Explain risk analogy without implying literal cigarette equivalence.",
+      "concept": "PM2.5 exposure to cigarette-equivalent concept graphic with analogy boundary label.",
+      "source_data_requirement": "Berkeley Earth/WHO method notes if numeric example is used.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Must work as a captioned conceptual equivalence.",
+      "rights_concern": "Health-risk claims require final fact-check.",
+      "status": "NEEDS_DATA"
+    },
+    {
+      "chapter": "ch6",
+      "purpose": "Show how a measure becomes a target and changes behavior.",
+      "concept": "Measure-to-target feedback loop.",
+      "source_data_requirement": "Conceptual; LIBOR/Doing Business source notes for caption examples.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Use simple arrows; no fixed-page dependence.",
+      "rights_concern": "None if original diagram.",
+      "status": "READY_TO_DESIGN"
+    },
+    {
+      "chapter": "ch7",
+      "purpose": "Make benchmark lifecycle concrete.",
+      "concept": "Benchmark lifecycle: creation, respect, optimization, contamination/saturation, replacement.",
+      "source_data_requirement": "SWE-bench / SWE-bench Verified / contamination source notes.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Use linear sequence that can stack on small screens.",
+      "rights_concern": "No leaderboard screenshots.",
+      "status": "READY_TO_DESIGN"
+    },
+    {
+      "chapter": "ch8",
+      "purpose": "Give the reader a reusable discipline for reading strange indices.",
+      "concept": "One-page weird-index reader checklist.",
+      "source_data_requirement": "Derived from manuscript; no external data.",
+      "grayscale_safe": true,
+      "kindle_compatibility": "Must degrade to bullet list.",
+      "rights_concern": "None.",
+      "status": "READY_TO_DESIGN"
+    }
+  ],
+  "counts": {
+    "keep": 6,
+    "modify": 2,
+    "remove": 0,
+    "ready_to_design": 6,
+    "needs_data": 2,
+    "optional": 0
+  }
+}
