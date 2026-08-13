@@ -1,0 +1,194 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "state": "COMMERCIAL_PACKAGE_PROPOSED",
+  "human_approval_state": "WAITING_FOR_HUMAN",
+  "primary_reader": "Curious general nonfiction readers who enjoy surprising explanations of economics, data and everyday life, without needing economics, statistics or 1D3X knowledge.",
+  "reader_promise_territories": [
+    {
+      "id": "strange-measures",
+      "label": "STRANGE_MEASURES",
+      "promise": "Ordinary objects can make enormous economic and social realities readable.",
+      "commercial_strength": "Strong curiosity and broad visual range.",
+      "risk": "Can become a list of trivia unless each story teaches a rule of measurement."
+    },
+    {
+      "id": "hidden-signals",
+      "label": "HIDDEN_SIGNALS",
+      "promise": "Mundane products and flows can reveal changes before official numbers feel real.",
+      "commercial_strength": "Feels useful and current; fits markets, shipping, consumer behavior and nowcasting.",
+      "risk": "May sound like investing/business forecasting if subtitle is too narrow."
+    },
+    {
+      "id": "measure-myth",
+      "label": "MEASURE_MYTH",
+      "promise": "Some strange indicators illuminate the world; others are beautiful nonsense.",
+      "commercial_strength": "Adds skepticism, stakes and intellectual credibility.",
+      "risk": "Less instantly playful at thumbnail level."
+    }
+  ],
+  "packages": [
+    {
+      "rank": 1,
+      "title": "Burgers, Lipstick & Underwear",
+      "subtitle": "What everyday objects reveal about the economy",
+      "reader_promise": "A curious tour of the ordinary products people use to measure prices, confidence, purchasing power and hidden stress in the economy.",
+      "scorecard": {
+        "curiosity": 5,
+        "immediate_clarity": 4,
+        "memorability": 5,
+        "amazon_thumbnail_power": 5,
+        "category_clarity": 4,
+        "searchability": 4,
+        "breadth": 5,
+        "visual_potential": 5,
+        "series_brand_ownability": 4,
+        "misclassification_risk": 2
+      },
+      "total_commercial_assessment": "STRONG",
+      "main_risk": "Economics may be invisible if the subtitle is weak.",
+      "why_buy": "It promises a fun, concrete popular-economics read from objects a shopper recognizes instantly.",
+      "cover_proof_ref": "books/research/unusual-indices/cover-proofs/burgers-lipstick-underwear.svg"
+    },
+    {
+      "rank": 2,
+      "title": "Signals in Strange Places",
+      "subtitle": "How burgers, freight and skyscrapers reveal what official numbers miss",
+      "reader_promise": "A guide to finding useful economic and social signals in mundane places, while learning which signals deserve skepticism.",
+      "scorecard": {
+        "curiosity": 4,
+        "immediate_clarity": 4,
+        "memorability": 4,
+        "amazon_thumbnail_power": 4,
+        "category_clarity": 5,
+        "searchability": 4,
+        "breadth": 5,
+        "visual_potential": 4,
+        "series_brand_ownability": 4,
+        "misclassification_risk": 2
+      },
+      "total_commercial_assessment": "STRONG",
+      "main_risk": "Less object-funny than the list title; needs a vivid cover.",
+      "why_buy": "It sounds like useful explanatory nonfiction rather than a novelty list.",
+      "cover_proof_ref": "books/research/unusual-indices/cover-proofs/signals-in-strange-places.svg"
+    },
+    {
+      "rank": 3,
+      "title": "Numbers You Can Feel",
+      "subtitle": "Cigarettes, burgers and everyday units that explain hidden systems",
+      "reader_promise": "A book about translating abstract numbers into familiar measures that readers can remember and question.",
+      "scorecard": {
+        "curiosity": 4,
+        "immediate_clarity": 3,
+        "memorability": 4,
+        "amazon_thumbnail_power": 4,
+        "category_clarity": 4,
+        "searchability": 3,
+        "breadth": 5,
+        "visual_potential": 4,
+        "series_brand_ownability": 4,
+        "misclassification_risk": 2
+      },
+      "total_commercial_assessment": "PROMISING",
+      "main_risk": "Concept-led title needs subtitle to carry the concrete hook.",
+      "why_buy": "It frames the book as emotionally legible data literacy, not technical economics.",
+      "cover_proof_ref": "books/research/unusual-indices/cover-proofs/numbers-you-can-feel.svg"
+    },
+    {
+      "rank": 4,
+      "title": "The Cigarette Index",
+      "subtitle": "Burgers, lattes and the strange measures that make the world readable",
+      "reader_promise": "A memorable entry point into strange measures, beginning with pollution translated into cigarette-equivalent exposure.",
+      "scorecard": {
+        "curiosity": 5,
+        "immediate_clarity": 3,
+        "memorability": 5,
+        "amazon_thumbnail_power": 5,
+        "category_clarity": 2,
+        "searchability": 3,
+        "breadth": 3,
+        "visual_potential": 5,
+        "series_brand_ownability": 4,
+        "misclassification_risk": 5
+      },
+      "total_commercial_assessment": "PROMISING",
+      "main_risk": "Cold shoppers may classify it as a smoking, tobacco, health or pollution book.",
+      "why_buy": "It has the sharpest single hook, but must be broadened immediately by subtitle and cover.",
+      "cover_proof_ref": "books/research/unusual-indices/cover-proofs/the-cigarette-index.svg"
+    },
+    {
+      "rank": 5,
+      "title": "The Weird Index",
+      "subtitle": "A guide to strange economic signals, useful myths and numbers that stick",
+      "reader_promise": "A broad guide to weird indicators and why some help while others mislead.",
+      "scorecard": {
+        "curiosity": 4,
+        "immediate_clarity": 2,
+        "memorability": 3,
+        "amazon_thumbnail_power": 3,
+        "category_clarity": 3,
+        "searchability": 2,
+        "breadth": 5,
+        "visual_potential": 3,
+        "series_brand_ownability": 3,
+        "misclassification_risk": 3
+      },
+      "total_commercial_assessment": "WEAK",
+      "main_risk": "Generic, weakly ownable and already noisy as a web/product phrase.",
+      "why_buy": "Only works if the cover/subtitle do nearly all the commercial work.",
+      "cover_proof_ref": null
+    },
+    {
+      "rank": 6,
+      "title": "The Underwear Index",
+      "subtitle": "What hidden consumer signals reveal about markets, confidence and daily life",
+      "reader_promise": "A recession-signal hook used to explore consumer behavior and unofficial economic indicators.",
+      "scorecard": {
+        "curiosity": 5,
+        "immediate_clarity": 2,
+        "memorability": 5,
+        "amazon_thumbnail_power": 4,
+        "category_clarity": 2,
+        "searchability": 2,
+        "breadth": 2,
+        "visual_potential": 4,
+        "series_brand_ownability": 3,
+        "misclassification_risk": 5
+      },
+      "total_commercial_assessment": "WEAK",
+      "main_risk": "Looks like a consumer-behavior, clothing or novelty/kids title rather than a broad economics/data book.",
+      "why_buy": "Powerful curiosity hook, but too narrow and too easy to misclassify.",
+      "cover_proof_ref": null
+    }
+  ],
+  "recommendation": {
+    "rank_1": "Burgers, Lipstick & Underwear",
+    "rank_2": "Signals in Strange Places",
+    "rank_3": "Numbers You Can Feel",
+    "recommended_package": "Burgers, Lipstick & Underwear",
+    "main_risk": "Needs the subtitle and cover to make the economics/data promise unmistakable.",
+    "mitigation": "Use a subtitle with 'economy' or 'economic signals' and a cover hierarchy that shows ordinary objects connected by data/signal lines."
+  },
+  "content_fit": {
+    "big_mac_index": "strong fit",
+    "iphone_work_time": "strong fit",
+    "starbucks_latte": "strong fit",
+    "cigarette_equivalent": "strong fit but requires health/pollution disclaimer",
+    "lipstick": "strong curiosity fit, weak-evidence caution required",
+    "mens_underwear": "strong curiosity fit, weak-evidence caution required",
+    "skyscraper": "good myth-vs-measure fit",
+    "freight_physical_economy": "strong grounding fit",
+    "manipulation_failure_story": "strong integrity chapter fit",
+    "ai_benchmark_story": "good modern-index appendix/chapter fit"
+  },
+  "luna_usage": {
+    "artifact_ref": "evidence/intelligence/book-factory-indices-002a-luna-support.support.json",
+    "estimated_cost_usd": 0.0013894,
+    "work_replaced": "bounded clustering sanity check over normalized corpus; final scoring and recommendation remain editorial judgment"
+  },
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-INDICES-002A",
+    "source_uri": "docs/audits/book-factory-indices-002a-commercial-package.md",
+    "observed_at": "2026-08-13T00:00:00Z"
+  }
+}

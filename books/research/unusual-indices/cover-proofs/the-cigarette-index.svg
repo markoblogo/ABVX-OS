@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1600" viewBox="0 0 1000 1600" role="img" aria-label="The Cigarette Index rough cover proof">
+  <rect width="1000" height="1600" fill="#1a1513"/>
+  <circle cx="820" cy="210" r="190" fill="#f97316" opacity="0.20"/>
+  <circle cx="180" cy="1320" r="260" fill="#f8fafc" opacity="0.16"/>
+  <path d="M85 1110 C260 960, 400 1260, 560 1100 S830 970, 930 1120" fill="none" stroke="#f97316" stroke-width="18" stroke-linecap="round" opacity="0.85"/>
+  <rect x="70" y="1060" width="175" height="115" rx="28" fill="#f97316" opacity="0.92"/>
+  <rect x="315" y="1005" width="115" height="210" rx="52" fill="#f8fafc" opacity="0.92"/>
+  <rect x="505" y="1070" width="170" height="105" rx="22" fill="none" stroke="#f97316" stroke-width="13" opacity="0.90"/>
+  <line x1="735" y1="1010" x2="890" y2="1210" stroke="#f8fafc" stroke-width="16" stroke-linecap="round" opacity="0.86"/>
+  <line x1="775" y1="1020" x2="930" y2="1220" stroke="#f8fafc" stroke-width="16" stroke-linecap="round" opacity="0.50"/>
+  <text x="70" y="95" class="kicker">POPULAR ECONOMICS / DATA STORIES</text>
+  <text x="70" y="150" class="title">The Cigarette</text>
+  <text x="70" y="222" class="title">Index</text>
+  <text x="70" y="380" class="subtitle">Burgers, lattes and the strange measures</text>
+  <text x="70" y="414" class="subtitle">that make the world readable</text>
+  <text x="70" y="1410" class="author">ANTON BV</text>
+  <text x="70" y="1480" class="note">ROUGH COVER PROOF — NOT FINAL ART</text>
+  <style>
+    .kicker { font: 700 28px Arial, sans-serif; fill: #f97316; letter-spacing: 5px; }
+    .title { font: 900 76px Arial Black, Arial, sans-serif; fill: #fff; letter-spacing: -1px; }
+    .subtitle { font: 500 30px Georgia, serif; fill: #f4efe8; }
+    .author { font: 800 34px Arial, sans-serif; fill: #fff; letter-spacing: 5px; }
+    .note { font: 600 20px Arial, sans-serif; fill: #ffffff88; letter-spacing: 2px; }
+  </style>
+</svg>

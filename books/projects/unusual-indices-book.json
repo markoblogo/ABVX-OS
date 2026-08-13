@@ -129,21 +129,21 @@
     "cigarette-index"
   ],
   "known_gaps": [
-    "Commercial title/subtitle, promise and chapter architecture require human approval before manuscript production.",
-    "No approved cover direction exists yet.",
+    "Commercial package shortlist is proposed; title/subtitle, promise and cover territory require human selection before BookSpec freeze.",
+    "No final cover direction exists yet.",
     "KDP metadata is hypothesis-level only and needs final category/keyword review before submission.",
     "Rights remain mixed for external examples; they can inform commentary but not be copied.",
     "Fact-check queue remains open for all index examples with volatile or third-party claims."
   ],
-  "lifecycle_stage": "CONCEPT",
-  "next_action": "Human decision: approve, revise or reject the proposed commercial BookSpec before any unusual-indices manuscript generation.",
+  "lifecycle_stage": "BOOK_SPEC",
+  "next_action": "Human decision: select title/subtitle, reader promise and cover territory from the commercial package shortlist before BookSpec freeze.",
   "objective": "Turn owner-supplied unusual-index research into a commercially strong Amazon KDP nonfiction book, with owner projects treated only as optional context rather than the primary promotional goal.",
   "preferred_renderer": "PANDOC_XELATEX",
   "primary_objective": "COMMERCIAL_AMAZON_SUCCESS",
   "provenance": {
     "observed_at": "2026-08-13T00:00:00Z",
-    "recorded_by": "BOOK-FACTORY-INDICES-002",
-    "source_uri": "docs/audits/book-factory-indices-002-commercial-positioning.md"
+    "recorded_by": "BOOK-FACTORY-INDICES-002A",
+    "source_uri": "docs/audits/book-factory-indices-002a-commercial-package.md"
   },
   "publication_form": "PROSE_BOOK",
   "publication_profile": "CONVENTIONAL_BOOK",

@@ -1,0 +1,140 @@
+{
+  "captured_at": "2026-08-13T00:00:00Z",
+  "latency_ms": 10956,
+  "model": "gpt-5.6-luna",
+  "output": {
+    "clusters": [
+      {
+        "items": [
+          "Cigarette Equivalent Air Pollution Index",
+          "CO2 Flight Equivalent Index",
+          "story-smoke-in-the-air",
+          "story-climate-in-everyday-units"
+        ],
+        "name": "The Cigarette Index"
+      },
+      {
+        "items": [
+          "Big Mac Index",
+          "Lipstick Index",
+          "Men\u2019s Underwear Index",
+          "Baltic Dry Index",
+          "Skyscraper Index",
+          "story-myth-vs-measurement",
+          "story-goodhart-and-gaming"
+        ],
+        "name": "The Weird Index"
+      },
+      {
+        "items": [
+          "Men\u2019s Underwear Index",
+          "Lipstick Index",
+          "story-myth-vs-measurement",
+          "story-goodhart-and-gaming"
+        ],
+        "name": "The Underwear Index"
+      },
+      {
+        "items": [
+          "Big Mac Index",
+          "Lipstick Index",
+          "Men\u2019s Underwear Index",
+          "Minimum Wage Meal Index",
+          "story-burger-currency",
+          "story-basket-not-single-thing"
+        ],
+        "name": "Burgers, Lipstick & Underwear"
+      },
+      {
+        "items": [
+          "Big Mac Index",
+          "Working Hours Index",
+          "iPhone Work-Time Index",
+          "Haircut Index",
+          "Taxi Affordability Index",
+          "Rent-to-Burger Index",
+          "Cigarette Equivalent Air Pollution Index",
+          "story-hours-not-dollars",
+          "story-climate-in-everyday-units"
+        ],
+        "name": "Numbers You Can Feel"
+      },
+      {
+        "items": [
+          "Baltic Dry Index",
+          "Container Freight Index",
+          "Electricity Demand Index",
+          "Restaurant Reservation Index",
+          "AI Index",
+          "Government AI Readiness Index",
+          "SWE-Bench",
+          "story-physical-vs-consumer-economy",
+          "story-nowcasting-the-economy",
+          "story-ai-as-index-culture"
+        ],
+        "name": "Signals in Strange Places"
+      }
+    ],
+    "content_fit_flags": [
+      "Big Mac Index should be framed as a useful PPP illustration, not a complete currency valuation model.",
+      "Working-hours comparisons offer a strong reader-centered alternative to dollar prices.",
+      "A basket or median is more robust than a single consumer product.",
+      "Lipstick Index is better presented as a media-friendly hypothesis than a dependable predictor.",
+      "Men\u2019s Underwear Index has memorable branding but weak formal evidence.",
+      "Baltic Dry Index provides stronger economic grounding than the folklore indicator family.",
+      "Cigarette-equivalent pollution must be labeled as a risk analogy, not literal chemical-dose equivalence.",
+      "PM2.5, AQI, annual exposure and short-term spikes must not be collapsed into one measure.",
+      "Indices can lose integrity when institutions optimize directly for the measured number.",
+      "AI benchmarks and readiness rankings fit as a modern index family, even when not classical economic indices."
+    ],
+    "package_notes": [
+      {
+        "package": "The Cigarette Index",
+        "risk": "The cigarette comparison can mislead if presented as literal equivalence; PM2.5, AQI, annual exposure and short-term spikes must remain distinct. CO2 flight equivalents may broaden the package but dilute the core.",
+        "strength": "Distinctive, highly legible hook connecting pollution to an everyday unit; supported by the corpus\u2019s explicit risk-analogy framing and measurement caveats."
+      },
+      {
+        "package": "The Weird Index",
+        "risk": "Breadth may feel arbitrary without a clear organizing principle; several candidate indices are explicitly weakly evidenced or better treated as hypotheses.",
+        "strength": "Broadest range of memorable indicators, with a strong built-in myth-versus-measurement tension and room to contrast weak folklore signals with more grounded measures such as the Baltic Dry Index."
+      },
+      {
+        "package": "The Underwear Index",
+        "risk": "The central index is described as memorable but weakly evidenced, limiting authority and potentially narrowing the package\u2019s scope.",
+        "strength": "Memorable title with immediate curiosity and a clear debunking angle; can anchor discussion of formal evidence versus cultural folklore."
+      },
+      {
+        "package": "Burgers, Lipstick & Underwear",
+        "risk": "Lipstick and men\u2019s underwear are both vulnerable to the corpus\u2019s reliability cautions; the title may imply stronger macroeconomic validity than the evidence supports.",
+        "strength": "Commercially vivid combination of familiar objects; supports a clear progression from Big Mac PPP illustration to basket-based measurement and skepticism about folklore indicators."
+      },
+      {
+        "package": "Numbers You Can Feel",
+        "risk": "The package spans consumer prices, affordability and environmental exposure, so it needs a disciplined method to avoid becoming a collection of analogies rather than a coherent index story.",
+        "strength": "Strong reader-access proposition: hours, meals, rent, phones and pollution translate abstractions into lived experience. The corpus directly supports working hours and strange-but-familiar units as explanatory devices."
+      },
+      {
+        "package": "Signals in Strange Places",
+        "risk": "The range is conceptually broad and may require stronger framing to connect classical economic signals with AI indices and benchmark culture.",
+        "strength": "Supports a modern, wide-angle narrative across freight, electricity, reservations and AI; combines physical-economy indicators with emerging benchmark and readiness rankings."
+      }
+    ]
+  },
+  "provider": "cheap.api",
+  "schema_version": "v1",
+  "task": "book-factory-indices-002a-commercial-package-support",
+  "usage": {
+    "estimated_cost_usd": 0.0013894,
+    "input_tokens": 773,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1029,
+    "output_tokens_details": {
+      "reasoning_tokens": 97
+    },
+    "total_tokens": 1802
+  },
+  "work_replaced": "manual clustering sanity check over already-normalized corpus; final ranking remains Codex/human judgment"
+}

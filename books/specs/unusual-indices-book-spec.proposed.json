@@ -6,7 +6,7 @@
   "chapter_count": 9,
   "citation_policy": "Non-obvious factual or historical claims should trace to explicit sources; external index descriptions should retain source provenance.",
   "content_origin": "DERIVED",
-  "current_state": "BOOK_SPEC_PROPOSED",
+  "current_state": "BOOK_SPEC_PROPOSED; COMMERCIAL_PACKAGE_PROPOSED",
   "description": "Proposed Amazon-first BookSpec for human review. The book should read as a compact, story-led popular nonfiction title built around vivid indices, methodological caution and a curated library of unusual comparisons.",
   "distribution_target": "AMAZON_KDP",
   "execution_cost": {
@@ -14,7 +14,7 @@
     "notes": "Use cheap structured API/provider tasks for bounded enrichment and research extraction; use human/Codex only for editorial judgment and manuscript quality gates.",
     "preferred_runtime_cost": "LOW_COST_API"
   },
-  "expected_outcome": "Human decides whether this Amazon-first positioning is strong enough to approve for outline/manuscript production.",
+  "expected_outcome": "Human selects a commercial package direction before BookSpec freeze and manuscript production.",
   "format_specific_qa": [
     {
       "checks": [
