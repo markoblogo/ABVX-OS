@@ -1,0 +1,82 @@
+{
+  "build_seconds": 11.57,
+  "pdffonts_excerpt": [
+    "name                                 type              encoding         emb sub uni object ID",
+    "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+    "RFBWFA+Georgia-Bold                  CID TrueType      Identity-H       yes yes yes      4  0",
+    "UXGQIL+Georgia                       CID TrueType      Identity-H       yes yes yes      6  0",
+    "OIUWSW+Georgia-Italic                CID TrueType      Identity-H       yes yes yes     15  0",
+    "XZEEHM+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     17  0",
+    "MGKIGY+LMMono9-Regular-Identity-H    CID Type 0C       Identity-H       yes yes yes    241  0"
+  ],
+  "pdfinfo_excerpt": [
+    "Pages:           78",
+    "Page size:       360 x 576 pts",
+    "File size:       315081 bytes"
+  ],
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T15:28:42Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-FULL-PRODUCTION",
+    "source_uri": "books/design/unusual-indices-book/build_full_production.py"
+  },
+  "qa_matrix": {
+    "COVER_A_REFINED_BUILT": "PASS",
+    "DIGITAL_PDF_BUILT": "PASS",
+    "EPUB_BUILT": "PASS",
+    "EPUB_COVER_PRESENT": "PASS",
+    "EPUB_NAV_PRESENT": "PASS",
+    "FONTS_OBSERVED": "PASS",
+    "NOTES_PRESENT": "PASS",
+    "NO_LITERAL_TOC_PLACEHOLDER": "PASS",
+    "NO_SOURCE_MARKERS": "PASS",
+    "NO_VISUAL_PLACEHOLDERS": "PASS",
+    "PAPERBACK_BUILT": "PASS",
+    "PAPERBACK_GEOMETRY_5X8": "PASS",
+    "REVIEW_PAGES_RENDERED": "PASS",
+    "TEXT_LAYER_READABLE": "PASS",
+    "USEFUL_VISUAL_INCLUDED": "PASS"
+  },
+  "review_pages": [
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-001-title-page.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-002-copyright-page.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-003-toc-start.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-005-introduction.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-010-chapter-one-body.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-025-chapter-three-body.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-076-notes.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-009-useful-visual.png"
+  ],
+  "schema_version": "v1",
+  "state": "FULL_PRODUCTION_BUILD_READY_FOR_HUMAN_REVIEW",
+  "used_source_ids": [
+    "source-economist-big-mac",
+    "source-investopedia-starbucks",
+    "source-docx-mixed-research",
+    "source-ubs-prices-and-earnings",
+    "source-wef-iphone-hours",
+    "source-numbeo-cost-of-living",
+    "source-rbc-lipstick",
+    "source-lipstick-secondary",
+    "source-medical-economics-weird",
+    "source-skyscraper-paper",
+    "source-market-urbanism",
+    "source-baltic-exchange",
+    "source-freightos-baltic",
+    "source-ember-energy",
+    "source-electricitymaps",
+    "source-berkeley-earth",
+    "source-openaq",
+    "source-who-air-quality",
+    "source-ourworldindata-co2",
+    "claim-goodhart-risk",
+    "source-libor-case",
+    "source-doing-business-report",
+    "source-stanford-ai-index",
+    "source-swe-bench",
+    "source-swe-bench-paper",
+    "source-swebench-verified",
+    "source-swebench-contamination",
+    "source-oxford-ai-readiness"
+  ]
+}

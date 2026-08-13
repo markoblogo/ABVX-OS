@@ -1,0 +1,49 @@
+{
+  "schema_version": "v1",
+  "contract_id": "book-visual-qa",
+  "status": "ADMITTED",
+  "purpose": "Separate human-facing visual QA from technical artifact validation for Book Factory production.",
+  "principle": "TECHNICAL_PASS_DOES_NOT_IMPLY_VISUAL_PASS",
+  "surfaces": [
+    {
+      "surface": "cover",
+      "minimum_proof": "three distinct concepts plus thumbnail comparison",
+      "acceptance": "human selects a direction or rejects all"
+    },
+    {
+      "surface": "interior",
+      "minimum_proof": "full-book contact sheet plus full-size title, copyright, paginated TOC, every chapter opener, representative body and all notes surfaces",
+      "acceptance": "human reviews the complete page rhythm and approves the profile before full production reuse"
+    },
+    {
+      "surface": "data_visual",
+      "minimum_proof": "visual artifact with source, data date, and provenance",
+      "acceptance": "visual explains something better than prose and is not decorative filler"
+    },
+    {
+      "surface": "digital_reader",
+      "minimum_proof": "EPUB/Kindle route without duplicate front matter and with navigable TOC",
+      "acceptance": "format-specific QA before publication"
+    }
+  ],
+  "failure_conditions": [
+    "reader-facing proof labels or placeholder identity",
+    "fake TOC",
+    "manual page patches required to make proof acceptable",
+    "cover illegible at thumbnail size",
+    "generic diagram with no explanatory payoff",
+    "text overflow, broken encoding, or unresolved source markers"
+    ,"blank or nearly empty accidental page"
+    ,"heading hyphenation or excessive body hyphenation"
+    ,"reader-facing internal provenance or local path"
+    ,"print page numbers or running heads in Kindle source"
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-INDICES-009",
+    "derived_from": [
+      "docs/audits/book-factory-indices-006-production-proof.md",
+      "books/artifacts/unusual-indices-book/recovery-proof/human-review-manifest.json",
+      "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json"
+    ]
+  }
+}

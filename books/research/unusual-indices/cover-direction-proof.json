@@ -1,0 +1,22 @@
+{
+  "cover": {
+    "artifact_refs": [
+      "books/artifacts/unusual-indices-book/design-proof/cover/cover-proof-full.png",
+      "books/artifacts/unusual-indices-book/design-proof/cover/cover-proof-amazon-thumbnail.png",
+      "books/artifacts/unusual-indices-book/design-proof/cover/cover-proof-grayscale-thumbnail.png"
+    ],
+    "cover_id": "object-led-cover-direction-proof",
+    "grayscale_thumbnail_result": "PASS_HIERARCHY_VISIBLE",
+    "rights_status": "ORIGINAL_GENERATED_SHAPES_NO_BRANDED_PRODUCT_PHOTOGRAPHY",
+    "status": "DIRECTION_PROOF_READY",
+    "thumbnail_result": "TITLE_DOMINANT_AT_360PX; SUBTITLE_CATEGORY_VISIBLE; AUTHOR_SUBORDINATE"
+  },
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T14:17:04Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-006",
+    "source_uri": "books/design/unusual-indices-book/build_production_proof.py"
+  },
+  "schema_version": "v1",
+  "state": "COVER_DIRECTION_PROOF_READY"
+}

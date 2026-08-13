@@ -1,0 +1,193 @@
+{
+  "schema_version": "v1",
+  "id": "book-factory.known-profile-commercial-nonfiction",
+  "project": "book-factory",
+  "purpose": "Run the admitted COMMERCIAL_NONFICTION_5X8_BW fast path for a compatible book without repeating donor, renderer, typography, front-matter or TOC exploration.",
+  "required_inputs": [
+    {
+      "name": "approved_bookspec",
+      "description": "BookSpec approved for the target title and format set.",
+      "required": true
+    },
+    {
+      "name": "approved_manuscript",
+      "description": "Production-ready manuscript with no open P0/P1 factual blockers.",
+      "required": true
+    },
+    {
+      "name": "source_registry",
+      "description": "Normalized source registry resolving all reader-facing citations and endnotes.",
+      "required": true
+    },
+    {
+      "name": "production_profile",
+      "description": "Admitted commercial nonfiction profile compatible with the requested book and formats.",
+      "required": true
+    },
+    {
+      "name": "cover_direction",
+      "description": "Approved cover direction or a request to produce three bounded concepts.",
+      "required": true
+    }
+  ],
+  "deterministic_steps": [
+    {
+      "id": "preflight",
+      "kind": "check",
+      "description": "Confirm approved BookSpec/manuscript, compatibility with the admitted profile, source state and target formats; fail closed on exceptions.",
+      "command": null,
+      "dry_run_behavior": "execute",
+      "expected_outcome": "admitted profile selected and preflight PASS"
+    },
+    {
+      "id": "source-notes-normalization",
+      "kind": "check",
+      "description": "Resolve reader-facing sources and notes through the existing normalized source contract.",
+      "command": null,
+      "dry_run_behavior": "execute",
+      "expected_outcome": "source and Notes boundary PASS"
+    },
+    {
+      "id": "cover-direction",
+      "kind": "record",
+      "description": "Use the approved cover direction; stop for a bounded human visual decision if none exists.",
+      "command": null,
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "approved cover reference or human gate"
+    },
+    {
+      "id": "representative-proof-if-needed",
+      "kind": "record",
+      "description": "Produce representative interior proof surfaces only when the book exposes a profile exception; otherwise reuse admitted geometry and typography.",
+      "command": null,
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "profile reuse confirmed or bounded human visual gate"
+    },
+    {
+      "id": "full-build",
+      "kind": "command",
+      "description": "Build paperback and Kindle Create input through the admitted toolchain without manual page-specific fixes.",
+      "command": "python3 books/design/<project>/build_full_production.py",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "format-specific publication artifacts"
+    },
+    {
+      "id": "automatic-preflight",
+      "kind": "command",
+      "description": "Run format geometry, TOC, pagination, page balance, hyphenation, links, source leakage and Kindle print-leakage checks.",
+      "command": "python3 -m py_compile books/design/<project>/build_full_production.py && ./bin/abvx validate",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "technical QA PASS without claiming visual acceptance"
+    },
+    {
+      "id": "full-book-contact-sheet",
+      "kind": "check",
+      "description": "Confirm every paperback page is present in the contact sheet and no suspicious page escapes review.",
+      "command": null,
+      "dry_run_behavior": "execute",
+      "expected_outcome": "complete contact sheet and machine-readable QA"
+    },
+    {
+      "id": "human-final-gate",
+      "kind": "record",
+      "description": "Human approves the full contact sheet, final artifacts and publication handoff; technical QA alone cannot close this gate.",
+      "command": null,
+      "dry_run_behavior": "execute",
+      "expected_outcome": "approved publication artifacts or WAITING_FOR_HUMAN"
+    }
+  ],
+  "validation": {
+    "default_tier": "STANDARD",
+    "checks": {
+      "QUICK": [
+        "BookSpec/manuscript/source registry presence",
+        "profile status resolved",
+        "no reader-facing proof residue in rendered text"
+      ],
+      "STANDARD": [
+        "QUICK checks",
+        "preflight contract PASS or explicit proof gate",
+        "text layer QA",
+        "link/source-marker QA",
+        "contact-sheet manifest integrity",
+        "print TOC page-number validation",
+        "Kindle print-artifact leakage validation"
+      ],
+      "FULL": [
+        "STANDARD checks",
+        "full paperback/digital build",
+        "EPUB/Kindle preview QA where tooling is available",
+        "human visual acceptance recorded"
+      ],
+      "CRITICAL": [
+        "FULL checks",
+        "KDP or external publication gate with supervised human approval"
+      ]
+    },
+    "escalate_to_full_on": [
+      "new renderer introduced",
+      "profile admitted",
+      "targeted validation failed",
+      "format output intended for publication rather than proof",
+      "manual layout patch detected"
+    ],
+    "escalate_to_critical_on": [
+      "KDP_submission",
+      "external_publication",
+      "paid_service_change",
+      "rights_or_account_boundary"
+    ]
+  },
+  "expected_outputs": [
+    "production or recovery proof manifest",
+    "cover concept or approved cover record",
+    "representative interior proof pages",
+    "technical QA result",
+    "human visual gate state",
+    "compact evidence for profile admission or rejection"
+  ],
+  "allowed_changes": [
+    "book project/spec state",
+    "profile proof/admission status",
+    "format artifacts and manifests",
+    "source/endnote QA records",
+    "compact Book Factory evidence"
+  ],
+  "prohibited_changes": [
+    "broad manuscript rewrite",
+    "new renderer framework without donor comparison",
+    "manual page-specific patches as production method",
+    "manual print TOC page numbers",
+    "donor audit for a compatible admitted-profile book",
+    "renderer, typography, front-matter or TOC design exploration without a detected exception",
+    "reader-facing internal provenance",
+    "interior visuals enabled without explicit admission",
+    "automatic KDP or external publication",
+    "treating technical build success as visual approval",
+    "decorative visuals without source or explanatory value"
+  ],
+  "escalation_conditions": [
+    "profile not admitted and human visual proof unavailable",
+    "source registry mismatch",
+    "reader-facing proof residue",
+    "cover concept illegible at thumbnail size",
+    "unresolved rights or publication account boundary",
+    "new paid or external production service required"
+  ],
+  "evidence": {
+    "event_type": "BOOK_PRODUCTION_PROOF",
+    "result_on_success": "PASS",
+    "media_event_candidate": null
+  },
+  "provenance": {
+    "version": "1.0.0",
+    "recorded_by": "BOOK-FACTORY-INDICES-009",
+    "observed_at": "2026-08-13T00:00:00Z",
+    "derived_from": [
+      "books/factory/lessons/indices-production-failure-map.json",
+      "books/factory/contracts/commercial-nonfiction-preflight.json",
+      "books/artifacts/unusual-indices-book/recovery-proof/human-review-manifest.json",
+      "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json"
+    ]
+  }
+}

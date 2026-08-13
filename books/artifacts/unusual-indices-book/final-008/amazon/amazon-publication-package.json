@@ -1,0 +1,151 @@
+{
+  "ai_disclosure": {
+    "human_action": "Answer the KDP disclosure questions factually during submission; do not classify generated text or cover art as merely AI-assisted.",
+    "official_rule_summary": "KDP requires disclosure of AI-generated text, images, or translations; AI-assisted content does not require disclosure.",
+    "recommendation": {
+      "cover": "AI_GENERATED \u2014 disclose, because the approved front-cover artwork was created with an AI image-generation tool and then refined.",
+      "interior_images": "NONE \u2014 final interior contains no images.",
+      "text": "AI_GENERATED \u2014 disclose, because AI-based tools created substantial manuscript prose even though the owner directed, reviewed, and approved it.",
+      "translation": "NONE."
+    }
+  },
+  "artifacts": {
+    "approved_front_cover": "books/artifacts/unusual-indices-book/production-build/cover/cover-a-refined-front.png",
+    "kdp_submission": {
+      "capability": "KDP_SUBMISSION_AUTOMATION",
+      "implementation": "DEFERRED",
+      "state": "WAITING_FOR_HUMAN"
+    },
+    "kindle_create_input": "books/artifacts/unusual-indices-book/final-008/kindle/burgers-lipstick-underwear-kindle-create-input.docx",
+    "paperback_interior": "books/artifacts/unusual-indices-book/final-008/paperback/burgers-lipstick-underwear-paperback-interior-5x8-rc.pdf",
+    "paperback_wrap_cover": {
+      "capability": "PAPERBACK_WRAP_COVER_PRODUCTION",
+      "implementation": "DEFERRED",
+      "state": "WAITING_FOR_HUMAN"
+    }
+  },
+  "categories": {
+    "additional_territory": "Science & Math > Mathematics > Statistics",
+    "primary": "Business & Money > Economics > Economic Conditions",
+    "secondary": "Business & Money > Economics > Theory",
+    "selection_note": "Use the closest exact choices shown in the KDP dashboard for the primary marketplace; Amazon states that category options vary by marketplace and can change."
+  },
+  "keywords": [
+    {
+      "field": "unusual economic indicators",
+      "intent": "Readers seeking nonstandard ways to understand the economy",
+      "why": "Core subject without repeating title metadata."
+    },
+    {
+      "field": "popular economics everyday life",
+      "intent": "General readers who want accessible economics",
+      "why": "Matches the book's object-led explanatory style."
+    },
+    {
+      "field": "purchasing power price comparisons",
+      "intent": "Readers interested in Big Mac and work-time comparisons",
+      "why": "Captures the strongest practical concept in Chapters 1\u20132."
+    },
+    {
+      "field": "recession signals consumer behavior",
+      "intent": "Readers curious about lipstick and underwear indicators",
+      "why": "Accurately describes the folklore chapter without promising prediction."
+    },
+    {
+      "field": "data literacy misleading statistics",
+      "intent": "Readers learning to question metrics and proxies",
+      "why": "Matches the book's method-and-limits promise."
+    },
+    {
+      "field": "benchmarks incentives Goodhart law",
+      "intent": "Readers interested in gaming and measurement effects",
+      "why": "Covers governance, rankings, and benchmark failure."
+    },
+    {
+      "field": "economic stories behind numbers",
+      "intent": "Narrative nonfiction readers drawn to human-readable data",
+      "why": "Signals tone and reader benefit without irrelevant high-volume terms."
+    }
+  ],
+  "metadata": {
+    "author": "Anton Biletskyi-Volokh",
+    "contributors": [],
+    "edition_number": null,
+    "language": "English",
+    "subtitle": "What Strange Indicators Really Tell Us About the Economy",
+    "title": "Burgers, Lipstick & Underwear"
+  },
+  "pricing": {
+    "comparables": [
+      {
+        "format": "paperback",
+        "observed_list_price": "GBP 12.99",
+        "pages": 128,
+        "source": "https://www.penguin.co.uk/books/13565/how-to-lie-with-statistics-by-darrell-huff-with-pictures-by-mel-calman/9780140136296",
+        "title": "How to Lie with Statistics"
+      },
+      {
+        "format": "paperback",
+        "observed_list_price": "USD 19.00",
+        "pages": 288,
+        "source": "https://www.penguinrandomhouse.com/books/75341/the-undercover-economist-by-tim-harford/",
+        "title": "The Undercover Economist"
+      },
+      {
+        "format": "paperback",
+        "observed_list_price": "USD 20.00",
+        "pages": 336,
+        "source": "https://www.penguinrandomhouse.com/books/610963/the-data-detective-by-tim-harford/",
+        "title": "The Data Detective"
+      }
+    ],
+    "kindle_launch_usd": 2.99,
+    "kindle_normal_usd": 5.99,
+    "marketplace": "Amazon.com",
+    "paperback_page_count": 80,
+    "paperback_usd": 11.99,
+    "rationale": "Compact popular nonfiction: low-friction launch, sustainable normal eBook value, and paperback above the current US 60-percent royalty threshold while remaining proportionate to length. The 80-page book is priced below substantially longer mainstream popular-economics/data titles and close to the compact 128-page How to Lie with Statistics territory."
+  },
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T16:21:45Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-008",
+    "source_uri": "books/design/unusual-indices-book/build_full_production.py"
+  },
+  "research_provenance": [
+    "https://kdp.amazon.com/en_US/help/topic/G201189630",
+    "https://kdp.amazon.com/en_US/help/topic/G201298500",
+    "https://kdp.amazon.com/en_US/help/topic/G200652170",
+    "https://kdp.amazon.com/en_US/help/topic/G200672390",
+    "https://kdp.amazon.com/en_US/help/topic/G200634560",
+    "https://kdp.amazon.com/en_US/help/topic/G201834340",
+    "https://www.penguin.co.uk/books/13565/how-to-lie-with-statistics-by-darrell-huff-with-pictures-by-mel-calman/9780140136296",
+    "https://www.penguinrandomhouse.com/books/75341/the-undercover-economist-by-tim-harford/",
+    "https://www.penguinrandomhouse.com/books/610963/the-data-detective-by-tim-harford/"
+  ],
+  "rights_checklist": {
+    "citations_imply_endorsement": "PASS_NO_ENDORSEMENT_LANGUAGE_DETECTED",
+    "cover_asset_provenance": "AI_GENERATED_REPO_ARTIFACT_RECORDED; HUMAN_CONFIRM_COMMERCIAL_USE_TERMS",
+    "manuscript_owner_controlled": "HUMAN_CONFIRMATION_REQUIRED",
+    "quotations": "PASS_NO_LONG_QUOTATIONS_DETECTED",
+    "third_party_interior_screenshots": "PASS_NONE",
+    "trademark_implication": "HUMAN_VISUAL_CONFIRMATION_REQUIRED; title objects are editorial references, not endorsement claims"
+  },
+  "sales_copy": {
+    "author_bio": "Anton Biletskyi-Volokh builds and studies market, data, and knowledge systems. His work focuses on how complex information becomes practical enough to use\u2014and honest enough to trust.",
+    "back_cover_description": "The economy is too large to see\u2014so we translate it. A burger becomes an exchange-rate argument. A phone becomes a measure of working time. Lipstick and underwear become recession folklore. Freight rates reveal the physical economy, cigarettes make pollution feel immediate, and AI benchmarks turn machine capability into a score.\n\nBurgers, Lipstick & Underwear is a sharp, entertaining guide to the strange indicators that make complex systems readable. It explains why some proxies reveal something real, why others become beautiful nonsense, and how measures change once people learn to game them.\n\nEnjoy the measure. Inspect the method. Keep the claim in proportion.",
+    "back_cover_headline": "The world is full of numbers. The useful ones give us something to hold.",
+    "full_amazon_description_kdp_html": "<p>The economy is too large to see. So we translate it into things we can hold, buy, count, and remember.</p><p>A burger becomes an exchange-rate argument. A phone becomes a measure of working time. Lipstick and underwear become recession folklore. Freight rates reveal the physical economy moving beneath daily life. Cigarettes make invisible air pollution feel immediate. AI benchmarks turn machine capability into a score\u2014and then change the behavior they were meant to measure.</p><p>Burgers, Lipstick &amp; Underwear is a curious, skeptical tour of the strange indicators people use to understand prices, purchasing power, economic stress, risk, and technological progress. It shows why some rough proxies are genuinely illuminating, why others are beautiful nonsense, and what happens when a measure becomes important enough to game.</p><p>You will learn how to ask better questions of any index: What is the object? Where did the data come from? What does the method actually measure? What disappears in the translation? And what changes when people start optimizing for the score?</p><p><b>This is not a book against weird measures. It is a book about using them with curiosity, method, and proportion.</b></p>",
+    "full_amazon_description_plain": "The economy is too large to see. So we translate it into things we can hold, buy, count, and remember.\n\nA burger becomes an exchange-rate argument. A phone becomes a measure of working time. Lipstick and underwear become recession folklore. Freight rates reveal the physical economy moving beneath daily life. Cigarettes make invisible air pollution feel immediate. AI benchmarks turn machine capability into a score\u2014and then change the behavior they were meant to measure.\n\nBurgers, Lipstick & Underwear is a curious, skeptical tour of the strange indicators people use to understand prices, purchasing power, economic stress, risk, and technological progress. It shows why some rough proxies are genuinely illuminating, why others are beautiful nonsense, and what happens when a measure becomes important enough to game.\n\nYou will learn how to ask better questions of any index: What is the object? Where did the data come from? What does the method actually measure? What disappears in the translation? And what changes when people start optimizing for the score?\n\nThis is not a book against weird measures. It is a book about using them with curiosity, method, and proportion.",
+    "one_line_hook": "The economy is everywhere. Sometimes the clearest way to see it is through a burger, a lipstick, or a pair of underwear.",
+    "selling_points": [
+      "See how ordinary objects make abstract economic ideas readable.",
+      "Separate useful proxies from recession folklore and statistical theatre.",
+      "Learn a practical method for questioning any index, ranking, or benchmark."
+    ],
+    "short_description": "A sharp, entertaining guide to the strange indicators people use to make the economy readable\u2014from Big Macs and iPhone work-hours to lipstick, freight rates, pollution equivalents, and AI benchmarks. It explains why some proxies reveal something real, why others become folklore, and how to tell a useful measure from a seductive mistake.",
+    "website_line": null
+  },
+  "schema_version": "v1",
+  "state": "AMAZON_METADATA_PACKAGE_READY"
+}

@@ -1,0 +1,45 @@
+{
+  "build_seconds": 2.88,
+  "manual_page_patches": 0,
+  "pdffonts_excerpt": [
+    "name                                 type              encoding         emb sub uni object ID",
+    "------------------------------------ ----------------- ---------------- --- --- --- ---------",
+    "JKQMGR+Georgia-Bold                  CID TrueType      Identity-H       yes yes yes      4  0",
+    "QEZXVZ+Georgia                       CID TrueType      Identity-H       yes yes yes      6  0",
+    "JEHFIU+Georgia-Italic                CID TrueType      Identity-H       yes yes yes     15  0",
+    "RHLRWG+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     17  0"
+  ],
+  "pdfinfo_excerpt": [
+    "Pages:           11",
+    "Page size:       360 x 576 pts",
+    "File size:       138074 bytes"
+  ],
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T15:00:53Z",
+    "recorded_by": "BOOK-FACTORY-DESIGN-001",
+    "source_uri": "books/design/unusual-indices-book/build_recovery_proof.py"
+  },
+  "qa_matrix": {
+    "AUTHOR_IDENTITY_CORRECT": "PASS",
+    "CONTACT_SHEET_READY": "PASS",
+    "COVER_THREE_DIRECTIONS": "PASS",
+    "DATA_VISUAL_PROVENANCE": "PASS",
+    "FONTS_OBSERVED": "PASS",
+    "FULL_TOC_EIGHT_CHAPTERS": "PASS",
+    "NOTES_PAGE_PRESENT": "PASS",
+    "NO_MANUAL_PAGE_PATCHES": "PASS",
+    "NO_PRODUCTION_PROOF_READER_RESIDUE": "PASS",
+    "PAPERBACK_GEOMETRY_5X8": "PASS",
+    "SOURCE_MARKER_REMOVAL": "PASS",
+    "TEXT_ENCODING": "PASS",
+    "TITLE_PAGE_NO_RUNNING_HEADER_OR_PAGE_NUMBER_VISIBLE": "PASS"
+  },
+  "schema_version": "v1",
+  "state": "PRODUCTION_RECOVERY_PROOF_READY_FOR_HUMAN",
+  "used_source_ids": [
+    "source-economist-big-mac",
+    "source-investopedia-starbucks",
+    "source-docx-mixed-research"
+  ]
+}

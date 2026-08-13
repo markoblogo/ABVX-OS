@@ -1,0 +1,49 @@
+{
+  "approved_cover_direction": "A",
+  "artifacts": {
+    "cover_front_pdf": "books/artifacts/unusual-indices-book/production-build/cover/cover-a-refined-front.pdf",
+    "cover_front_png": "books/artifacts/unusual-indices-book/production-build/cover/cover-a-refined-front.png",
+    "digital_pdf": "books/artifacts/unusual-indices-book/production-build/digital/burgers-lipstick-underwear-digital-review.pdf",
+    "epub": "books/artifacts/unusual-indices-book/production-build/digital/burgers-lipstick-underwear.epub",
+    "paperback_interior_pdf": "books/artifacts/unusual-indices-book/production-build/paperback/burgers-lipstick-underwear-paperback-interior-5x8.pdf"
+  },
+  "cover_refinement_notes": [
+    "preserve editorial still-life concept",
+    "preserve measurement scale",
+    "improve object integration",
+    "refine subtitle composition",
+    "keep title dominant",
+    "retain restrained editorial palette",
+    "do not reopen broad cover exploration"
+  ],
+  "human_decisions_required": [
+    "approve refined Cover A",
+    "approve full paperback interior",
+    "approve digital PDF/EPUB route",
+    "authorize publication packaging or request correction"
+  ],
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T15:28:42Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-FULL-PRODUCTION",
+    "source_uri": "books/design/unusual-indices-book/build_full_production.py"
+  },
+  "publication_status": "NOT_PUBLISHED",
+  "qa": "books/research/unusual-indices/full-production-qa.json",
+  "rejected_cover_directions": [
+    "B",
+    "C"
+  ],
+  "review_pages": [
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-001-title-page.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-002-copyright-page.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-003-toc-start.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-005-introduction.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-010-chapter-one-body.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-025-chapter-three-body.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-076-notes.png",
+    "books/artifacts/unusual-indices-book/production-build/review-pages/production-009-useful-visual.png"
+  ],
+  "schema_version": "v1",
+  "state": "FULL_PRODUCTION_BUILD_READY_FOR_HUMAN_REVIEW"
+}

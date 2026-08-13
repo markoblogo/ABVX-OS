@@ -88,13 +88,12 @@ This is where strange indicators become interesting. The Big Mac Index is not im
 - the limitations are obvious enough to discuss;
 - the result invites argument rather than obedience.
 
-[VISUAL: simple burger price-to-implied-exchange-rate schematic — grayscale-safe]
 
 That last point matters. Good indicators do not end thought. They start better arguments.
 
 A burger tells the reader: here is one way to see purchasing power. It does not say: here is the final answer. It gives the mind a hook. Once the hook is in place, the heavier machinery can arrive: exchange rates, local wages, non-tradable services, production costs, inflation and income levels. The strange measure has done its job if the reader is now willing to follow the serious idea.
 
-Other consumer-object indices try to borrow the same trick. A Starbucks latte can compare a familiar urban indulgence across places. An IKEA Billy bookcase can turn furniture into a price-level signal. These examples are charming because they are concrete. They are also noisy. A latte is not just milk, coffee and rent. It is brand positioning, city-center foot traffic, wage structure and the cultural willingness to pay too much for hot liquid in a paper cup. A bookcase is not just wood or particleboard; it is shipping, retail strategy and local tax. [S:source-investopedia-starbucks] [S:source-docx-mixed-research]
+Other consumer-object indices try to borrow the same trick. A Starbucks latte can compare a familiar urban indulgence across places. An IKEA Billy bookcase can turn furniture into a price-level signal. These examples are charming because they are concrete. They are also noisy. A latte is not just milk, coffee and rent. It is brand positioning, city-center foot traffic, wage structure and the cultural willingness to pay too much for hot liquid in a paper cup. A bookcase is not just wood or particleboard; it is shipping, retail strategy and local tax. [S:source-investopedia-starbucks]
 
 The temptation is to keep adding objects until a proper basket appears: burgers, lattes, haircuts, taxis, hotel rooms, furniture, phones. In one sense, this is progress. A basket is generally more robust than a single product. In another sense, the charm begins to leak away. The more complete the basket becomes, the closer it moves toward official price statistics. The strange measure becomes less strange and more correct. That may be better for analysis, but worse for memory.
 
@@ -106,73 +105,55 @@ That is the first lesson: a strange index is a translation device before it is a
 
 The best translation is not always the most complete. It is the one that gets enough of the meaning across before the listener walks away.
 
-The Big Mac Index survives because it gives abstraction a bite mark. It takes the elegant but bloodless idea of purchasing power parity and gives it pickles. It shows that a familiar object can carry a serious thought, provided nobody forgets that the object is still just a proxy.
+The Big Mac Index survives because it gives abstraction a bite mark. It takes the elegant but bloodless idea of purchasing power parity and gives it pickles. It also lowers the entry fee to argument. A reader cannot personally audit a national price basket before breakfast, but they can imagine the burger, ask whether McDonald’s is expensive locally and disagree with the measure without being excluded from the conversation.
 
-There is another reason the burger works: it is democratic in the narrow sense that the reader can challenge it.
-
-Most economic measures arrive from above. They are announced by statistical offices, central banks, international institutions, trading screens and research departments. They may be correct, but they are not easily inspectable by normal people. A reader cannot personally audit a national price basket before breakfast. A reader can, however, imagine the burger. They can ask whether McDonald’s is expensive locally. They can wonder whether fast food means the same thing in Delhi, Zurich, Buenos Aires and Dallas. They can disagree with the measure without being excluded from the conversation.
-
-That is underestimated. A strange index often succeeds because it lowers the entry fee to argument.
-
-The measure gives the reader permission to think. This is different from giving the reader permission to be right. A person may misunderstand the Big Mac Index completely and still be closer to the economic idea than they were before. The burger has dragged the abstraction into public territory. Now it can be kicked, corrected and improved.
-
-This explains why many elegant indicators fail as communication. They are clean but socially inert. They sit in reports, admired by people already fluent in the field. Strange indicators cross the border. They carry enough comedy to travel.
-
-There is an old suspicion among serious analysts that popular measures corrupt understanding because they simplify. Sometimes they do. But the alternative is not a population calmly absorbing full methodology notes. The alternative is often no understanding at all. The real standard is not perfection. It is whether the simplification creates a better next question.
+That is the best defense of popular measures. They are not perfect; they are invitations to better questions. The alternative is not a population calmly absorbing full methodology notes. The alternative is often no understanding at all.
 
 The Big Mac creates several. Why does the same product cost different amounts in different countries? Why do exchange rates not equalize the experience of buying things? Why do local wages, rents and taxes matter? Why does a product’s cultural status affect price? Why does a single object teach more quickly than a full basket?
 
 Those are not childish questions. They are the right questions with ketchup on them.
 
-The burger also reveals a hidden aesthetic rule of good indices: the unit should be slightly embarrassing. Not humiliating, just disarming. A measure that looks too official can intimidate the reader into passive acceptance. A measure that looks slightly absurd invites inspection. Nobody worships a hamburger. That is precisely why it can teach.
+The burger also reveals a hidden aesthetic rule of good indices: the unit should be slightly embarrassing. Not humiliating, just disarming. A measure that looks too official can intimidate the reader into passive acceptance. A measure that looks slightly absurd invites inspection.
 
 The trouble begins when the embarrassment disappears. Once the Big Mac Index became famous, it acquired a small institutional dignity. It entered textbooks, investor notes and public argument. That is deserved, but it also changes the reader’s posture. The joke becomes a brand. The brand becomes a reference. The reference begins to sound more authoritative than the method should allow.
 
-This is how even good strange indicators age. They begin as explanations and become objects of belief. A measure that once taught skepticism can become another thing people repeat without checking.
+This is how even good strange indicators age. They begin as explanations and become objects of belief. A measure that once taught skepticism can become another thing people repeat without checking. The way to keep the Big Mac useful is to keep it a little ridiculous. The burger should never be allowed to put on a suit and pretend to be the International Monetary Fund.
 
-The way to keep the Big Mac useful is to keep it a little ridiculous. The burger should never be allowed to put on a suit and pretend to be the International Monetary Fund. It should remain what it is: a clever, rough, commercially contaminated proxy that makes a difficult idea memorable.
-
-That phrase — commercially contaminated — matters. Many people treat contamination as a flaw. In formal measurement, it often is. In popular explanation, it can be a feature. A Big Mac price contains local economic mess. It includes wages, rent, supply chains, brand strategy, taxes and consumer willingness to pay. It is not a pure unit. But ordinary life is not pure. A measure that carries some of the mess may explain more than a measure that cleans itself into irrelevance.
+Its commercial contamination matters. In formal measurement, contamination is often a flaw. In popular explanation, some mess can be a feature. A Big Mac price contains wages, rent, supply chains, brand strategy, taxes and consumer willingness to pay. Ordinary life is not pure. A measure that carries some of the mess may explain more than a measure that cleans itself into irrelevance.
 
 This does not mean any messy object can become an index. A bad proxy is just clutter with ambition. The object must be comparable enough, repeated enough and understandable enough. It must be produced by a process that can be described. It must vary for reasons that are at least partly related to the thing being discussed. And it must fail in ways the reader can grasp.
 
 That last condition is rare. The failure mode of the Big Mac Index is easy to explain: it is one product, sold by one company, affected by local conditions. The failure mode of many complex composite rankings is harder to explain because the formula contains so many choices that criticism itself becomes a profession. A simple proxy can be more honest because its weaknesses are visible.
 
-There is a lesson here for the entire book. We should not ask whether a strange index is “serious” in the abstract. We should ask what job it is doing.
+The practical question is not whether a strange index is “serious” in the abstract. The question is what job it is doing.
 
 If the job is conversation, the Big Mac is excellent. If the job is a first intuition about purchasing power, it is useful. If the job is formal currency valuation, it is insufficient. If the job is lunch, it is arguable.
 
-The same measure can pass one exam and fail another. That does not make it fake. It makes it scoped. Nearly all sensible measurement is scoped. The trouble is that public conversation hates scope. It wants verdicts.
+The same measure can pass one exam and fail another. That does not make it fake. It makes it scoped. Public conversation hates scope. It wants verdicts.
 
 The burger refuses, or should refuse, to provide one. It is at its best when it says: look here, then look deeper.
 
 There is also a hidden lesson in the choice of a branded object. Economists normally prefer categories: food, housing, energy, services, durable goods. Categories are sensible because they reduce the weirdness of individual products. But readers live through individual products. They do not buy “tradable food item adjusted for local service inputs.” They buy lunch. A category may be more accurate, but a named object is easier to remember.
 
-This is why the Big Mac Index belongs to popular economics rather than formal measurement. It is not trying to win against an official statistical basket. It is trying to translate the first step of the idea. Once that step has been taken, more serious material can follow.
-
-The sequence matters. If you begin with methodology, many readers leave before the idea has a pulse. If you begin with the burger, the reader already knows the object before learning the theory. The familiar thing becomes a carrier for the unfamiliar thing. That is a general rule for the book: begin with the object whenever possible, then widen into the system.
+This is why the Big Mac Index belongs to popular economics rather than formal measurement. It is not trying to beat an official statistical basket. It is trying to translate the first step of the idea. If you begin with methodology, many readers leave before the idea has a pulse. If you begin with the burger, the reader already knows the object before learning the theory.
 
 There are bad versions of this technique. A writer can use the object as decoration and never do the intellectual work. The burger becomes a gimmick, the lipstick becomes a joke, the underwear becomes clickbait. The measure appears in the headline but disappears in the analysis. This book cannot do that. The object must always pay rent. It must open a real question, not merely decorate one.
 
 The Big Mac pays rent because it sits exactly where multiple economic forces meet. It is standardized but local. It is global but priced in local currency. It contains traded ingredients and non-tradable services. It is familiar but not universal. It is cheap enough to be mass-market and complex enough to contain labor, rent, logistics and tax. It is a small thing with a surprisingly large shadow.
 
-That does not mean every Big Mac chart deserves trust. The data still has dates. The comparison still has base currencies. GDP-adjusted versions make different claims from raw versions. The index changes as exchange rates and prices change. Exact contemporary rankings need fresh source checks; the durable lesson is the method, not a stale leaderboard.
-
-There is another trap: treating the United States as the natural center of all comparison. The Big Mac Index often uses a dollar baseline because of the product’s origin and global financial convention, but the reader’s real lesson should be broader. Every currency comparison has a point of view. Every base country makes some experiences look normal and others look strange. The index can teach that too.
+That does not mean every Big Mac chart deserves trust. The data still has dates. The comparison still has base currencies. GDP-adjusted versions make different claims from raw versions. Exact contemporary rankings need fresh source checks; the durable lesson is the method, not a stale leaderboard. Every currency comparison also has a point of view. Every base country makes some experiences look normal and others look strange.
 
 If a burger in one country looks cheap from the outside, it may not feel cheap inside the wage structure of that country. This is the bridge to Chapter 2. A currency comparison is not yet a life comparison. The Big Mac can show that exchange rates and local prices diverge, but it cannot tell us how much of a worker’s day the burger consumes. For that, the unit must change.
 
 The burger opens the door. Time walks through it.
 
-There is a nice historical irony in using a mass-produced American sandwich to teach international price theory. The Big Mac is a symbol of standardization, yet the index exists because the standardized thing refuses to have a standardized economic meaning. Same brand, different burden. Same menu item, different currency story. The object promises sameness and delivers variation.
+There is a nice historical irony in using a mass-produced American sandwich to teach international price theory. The Big Mac is a symbol of standardization, yet the index exists because the standardized thing refuses to have a standardized economic meaning. Same brand, different burden. Same menu item, different currency story.
 
 That is the kind of contradiction a good chapter can use. The product’s entire commercial identity says “you know what this is.” The price comparison says “not really.” You may know the object, but you do not know what it means in each economy until you ask how it is priced, earned, taxed, supplied and perceived.
 
 This is why the burger is stronger than a more neutral product might be. A generic basket of groceries would be more representative but less narratively sharp. A bus ticket might be locally important but less global. A luxury watch might travel but would speak to elites. The Big Mac sits awkwardly in the middle: common enough to be legible, standardized enough to compare, compromised enough to be interesting.
 
-The compromise is essential. A strange indicator with no compromise would be a normal indicator. Its flaws are part of the teaching mechanism. They force the reader to think about what “same product” really means. They expose the difference between tradable and non-tradable costs. They show how a global brand still sits on local labor and property markets. They let a simple comparison bloom into serious questions.
-
-The burger does not need endless apology. The caveats matter, but caveat-heavy prose can drain the life from the example. The better rhythm is confidence followed by calibration. Show the burger doing its trick. Then show the trick’s limits. The reader must first see why the measure became famous. Only then will the limitations feel like intelligence rather than pedantry.
+The burger does not need endless apology. The better rhythm is confidence followed by calibration. Show the burger doing its trick. Then show the trick’s limits. The reader must first see why the measure became famous. Only then will the limitations feel like intelligence rather than pedantry.
 
 This rhythm will repeat throughout the book. Let the measure work. Then inspect the mechanism.
 
@@ -182,13 +163,7 @@ People often speak about currencies as if they have an obvious correct value. St
 
 But the sandwich can break the spell of nominal exchange rates. It says: do not look only at the money conversion. Look at what money buys. That single shift is large enough to justify the index’s fame.
 
-The burger also introduces the difference between analytical seriousness and communicative seriousness. An academic model can be analytically serious and communicatively inert. A burger can be analytically rough and communicatively serious. This is not a contradiction. It is two kinds of work.
-
-Analytical seriousness asks: is the method defensible?
-
-Communicative seriousness asks: does the measure help the reader understand the right thing without learning the wrong thing?
-
-The Big Mac Index is good because it does both well enough for its purpose. It is not robust enough for every analytical job, but it is disciplined enough not to be pure gimmick. It has published data, a repeatable idea and obvious caveats. Those three qualities will become part of the reader’s informal test for every later indicator.
+The burger also introduces the difference between analytical seriousness and communicative seriousness. An academic model can be analytically serious and communicatively inert. A burger can be analytically rough and communicatively serious. The Big Mac Index is good because it does both well enough for its purpose. It has published data, a repeatable idea and obvious caveats. Those three qualities will become part of the reader’s informal test for every later indicator.
 
 Does it have data?
 
@@ -236,7 +211,6 @@ Work-time fixes that failure. Not perfectly, but violently enough to be useful.
 
 It also has a moral clarity that economists sometimes dislike because it is hard to hide from. Saying that a phone costs $1,000 sounds like a consumer fact. Saying that it costs three weeks of ordinary labor sounds like a social fact. The object has not changed. The measurement has.
 
-[VISUAL: work-hours ladder for a common product — values to be filled after final data refresh]
 
 The same logic applies to smaller things. A burger can be translated into minutes. A cup of coffee can be translated into slices of a working day. A date night can be translated into the amount of labor required to perform the rituals of urban romance: food, drinks, transport, tickets, perhaps one desperate attempt to look relaxed while checking the bill. [S:source-numbeo-cost-of-living]
 
@@ -296,9 +270,7 @@ This is not academic fussiness. It is the difference between a useful translatio
 
 Work-time also highlights why multiple strange indicators can complement one another. The Big Mac shows purchasing power through a product. The iPhone shows global aspiration through labor burden. A rent-to-burger comparison, if built carefully, might show how shelter distorts ordinary consumption. A date-night comparison might show social life under inflation. None is complete. Together, they create a better texture of affordability than a single headline price.
 
-This is the basket problem returning in another form. A single index is vivid. A family of related indices is more robust. But if the family grows too large, the reader loses the story. The examples need progression, not hoarding.
-
-The argument does not need every affordability comparison in the world. It needs the conversion from price to life to land. Once it does, the examples can stay selective: a phone, a burger, perhaps an evening out. Enough to show the principle. Not enough to become a municipal price database with jokes.
+But the examples need progression, not hoarding. The argument does not need every affordability comparison in the world. It needs the conversion from price to life to land. Enough to show the principle. Not enough to become a municipal price database with jokes.
 
 The strongest insight is simple: affordability is not what something costs in money. It is what it costs in the life available to the person buying it.
 
@@ -310,21 +282,15 @@ A city that sounds expensive may become less frightening once wages enter. A cit
 
 The tone matters. Work-time comparisons can easily become poverty tourism if written badly. The purpose is not to gawk at how many hours someone else must work for a phone. The purpose is to show that prices only become socially meaningful when placed beside income, time and necessity.
 
-The hierarchy of goods matters too. A phone is interesting because it is globally desirable and widely understood, but it is not survival. Food, rent, electricity and transport sit closer to necessity. A date-night index is amusing because it mixes economics with social ritual. Rent-to-burger comparisons are stranger because they reveal how housing can distort ordinary consumption. A minimum-wage meal comparison can be blunt because it moves from lifestyle to basic affordability.
-
-There is no need to settle which of these is best. The point is how the unit changes the feeling. Dollars create distance. Hours create pressure. Necessities create urgency. Social rituals create recognition. Each translation opens a different door.
+The hierarchy of goods matters too. A phone is interesting because it is globally desirable and widely understood, but it is not survival. Food, rent, electricity and transport sit closer to necessity. A date-night index is amusing because it mixes economics with social ritual. Rent-to-burger comparisons are stranger because they reveal how housing can distort ordinary consumption. The point is how the unit changes the feeling: dollars create distance, hours create pressure, necessities create urgency, social rituals create recognition.
 
 There is an especially useful contrast between a phone and a burger. The burger is repeated, perishable and local. The phone is durable, global and aspirational. The burger teaches purchasing power through everyday consumption. The phone teaches inequality through synchronized desire. Both are consumer objects, but they do not perform the same conceptual job.
 
-This helps prevent the book from becoming “fun facts about prices.” The deeper idea is that measurement is an act of framing. A price framed as currency produces one response. The same price framed as work produces another. A good index is not merely a calculator. It is a choice about which human experience should be foregrounded.
+This helps prevent the book from becoming “fun facts about prices.” Measurement is an act of framing. A price framed as currency produces one response. The same price framed as work produces another. A good index is not merely a calculator. It is a choice about which human experience should be foregrounded.
 
 Later, with AI benchmarks, the same lesson will return in a colder form. A model score framed as percentage accuracy produces one response. The same capability framed as hours saved, failure rate or unsupported autonomy risk produces another. The unit shapes the story. Chapter 2 gives the reader that insight in human terms before the technical examples arrive.
 
-It also gives the book its first emotional escalation.
-
-Chapter 1 is clever. Chapter 2 is personal. The Big Mac asks whether currencies make sense. Work-time asks what the economy takes from the person inside it. That movement is important because the book must not remain a cabinet of curiosities. Strange indicators matter because they connect systems to lived experience. If the reader cannot feel the difference between converted price and hours of work, the later chapters will remain clever rather than useful.
-
-The work-time lens also makes room for inequality without turning into a full inequality lecture. Work-time comparisons often use average or representative wages. But many societies are defined by the distance between average and ordinary experience. A city can look affordable under one wage and brutal under another. This means the measure can teach inequality even when it is not designed for that purpose.
+It also gives the book its first emotional escalation. Chapter 1 is clever. Chapter 2 is personal. The Big Mac asks whether currencies make sense. Work-time asks what the economy takes from the person inside it. A city can look affordable under one wage and brutal under another. The measure can teach inequality even when it is not designed for that purpose.
 
 One elegant way to handle this in prose is to present work-time as a question rather than a verdict. “How many hours does this cost?” naturally invites “whose hours?” That second question opens the door to wage distribution, employment type and class without requiring a technical detour.
 
@@ -392,7 +358,6 @@ This is marvellous prose and dangerous analysis.
 
 There may be useful historical and cycle observations around construction booms, credit and property markets. Tall buildings do not grow out of sober pessimism. But the stronger claim — that skyscrapers reliably predict recessions — is contested. Research and critiques have treated the relationship as more correlation story than forecasting law. The image is powerful; the measure is fragile. [S:source-skyscraper-paper] [S:source-market-urbanism]
 
-[VISUAL: myth-versus-measure object row — lipstick, underwear, skyscraper silhouette]
 
 This is not an exercise in sneering at folklore. Folklore often preserves something real. People do buy small comforts under stress. Hidden purchases can be postponed. Construction booms can say something about confidence and credit. Clothes, cosmetics and towers all belong to the economy because everything does. The issue is not whether the stories are stupid. The issue is whether we make them carry more weight than they can bear.
 
@@ -556,7 +521,6 @@ Container freight indices stand in a different room. A container is not dry bulk
 
 People often lump shipping indicators together because ships are involved, which is like lumping restaurants and hospitals together because both contain sinks. Dry bulk and container freight answer different questions. Dry bulk asks about raw materials and vessel classes. Container freight asks about standardized boxes, trade lanes and the flow of goods closer to consumer supply chains.
 
-[VISUAL: dry bulk versus container freight comparison diagram — grayscale-safe]
 
 The difference matters because one of the recurring sins of index reading is category laziness. A measure becomes famous, then gradually expands in casual speech until it appears to measure everything. “Shipping is up” becomes “the economy is strong.” “Containers are expensive” becomes “inflation is coming.” Sometimes those statements may contain something useful. Often they are missing enough detail to be dangerous.
 
@@ -710,7 +674,6 @@ There are several measures in this area, and they are easy to confuse. PM2.5 con
 
 When these measures are mixed casually, the prose becomes dangerous. A writer may take a PM2.5 number, an AQI category, a daily reading and a long-term exposure claim, toss them into the same paragraph and produce something that sounds urgent but no longer means anything precise. That is not popular explanation. That is fog with footnotes.
 
-[VISUAL: PM2.5 concentration to cigarette-equivalent concept graphic — with explicit analogy label]
 
 The cigarette analogy demonstrates the central bargain of this book:
 
@@ -950,7 +913,6 @@ There is a pattern:
 4. People optimize for the valuable measure.
 5. The measure begins to drift away from the reality it was meant to represent.
 
-[VISUAL: measure-to-target feedback loop — grayscale-safe]
 
 The same pattern appears in smaller, legal and ordinary settings. A support team optimizes response time while customers still wait for useful answers. A platform counts engagement and discovers that outrage is wonderfully engaging. A university watches rankings and adjusts what can be counted. A manager measures productivity and gets a performance of productivity.
 
@@ -1146,7 +1108,6 @@ The tone can be skeptical without being anti-progress. Some model improvements a
 
 Those questions are less glamorous than a leaderboard. They are also where usefulness lives.
 
-[VISUAL: benchmark lifecycle — creation, respect, optimization, contamination/saturation, replacement]
 
 Current-score obsession is deliberately avoided for a reason. Exact model rankings may be stale by publication. The durable story is the mechanics: a benchmark frames a task, public scores travel, optimization pressure appears, and scope matters. The reader does not need the current number-one model to understand why “number one” is never a complete sentence.
 
@@ -1218,7 +1179,6 @@ Seventh: what would prove it wrong?
 
 A measure that cannot be embarrassed is not a measure. It is a belief with formatting. If lipstick sales fall during a downturn, what happens to the Lipstick Index? If a benchmark score rises while real-world performance disappoints, what happens to the benchmark story? If a readiness ranking fails to predict readiness, does anyone notice?
 
-[VISUAL: one-page weird-index reader checklist — grayscale-safe]
 
 This checklist is deliberately plain because the skill of reading weird indices is less about advanced mathematics than intellectual hygiene.
 

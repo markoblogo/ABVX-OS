@@ -1,0 +1,59 @@
+{
+  "id": "commercial-nonfiction-5x8-bw-acceptance-001",
+  "source": "BOOK-FACTORY-INDICES-009 human-approved acceptance closeout",
+  "timestamp": "2026-08-13T00:00:00Z",
+  "candidate": "COMMERCIAL_NONFICTION_5X8_BW",
+  "fixture": "unusual-indices-book-approved-production-artifacts",
+  "result": "PASS",
+  "metrics": {
+    "acceptance_scope": "PRODUCTION_READINESS_NOT_AMAZON_PUBLICATION",
+    "project": "unusual-indices-book",
+    "book_title": "Burgers, Lipstick & Underwear",
+    "manuscript_state": "MANUSCRIPT_FINAL_APPROVED",
+    "formats_proven": [
+      "PAPERBACK_INTERIOR_5X8_BW",
+      "KINDLE_CREATE_INPUT_DOCX"
+    ],
+    "paperback_page_count": 80,
+    "kindle_input_format": "DOCX",
+    "front_cover_state": "APPROVED",
+    "paperback_wrap_state": "NOT_CREATED_WAITING_FOR_HUMAN",
+    "amazon_metadata_package_state": "APPROVED_FOR_HUMAN_KDP_ENTRY",
+    "technical_qa": "PASS",
+    "visual_human_approval": "APPROVED",
+    "profile_admission": "ADMITTED",
+    "publication_state": "NOT_SUBMITTED_WAITING_FOR_HUMAN",
+    "remaining_human_actions": [
+      "Kindle Create navigation and preview",
+      "KDP metadata, disclosure and pricing entry",
+      "paperback wrap dimensions and Canva assembly",
+      "KDP Print Previewer",
+      "supervised Kindle and paperback submission"
+    ]
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "books/manuscripts/unusual-indices-book/MASTER_MANUSCRIPT.md",
+    "books/artifacts/unusual-indices-book/final-008/paperback/burgers-lipstick-underwear-paperback-interior-5x8-rc.pdf",
+    "books/artifacts/unusual-indices-book/final-008/kindle/burgers-lipstick-underwear-kindle-create-input.docx",
+    "books/artifacts/unusual-indices-book/production-build/cover/cover-a-refined-front.png",
+    "books/artifacts/unusual-indices-book/final-008/amazon/amazon-publication-package.json",
+    "books/artifacts/unusual-indices-book/final-008/amazon/amazon-publication-package.md",
+    "books/artifacts/unusual-indices-book/final-008/review/paperback-all-pages-contact-sheet.png",
+    "books/research/unusual-indices/source-registry.json",
+    "books/research/unusual-indices/final-production-008-qa.json",
+    "books/design/profiles/commercial-nonfiction-5x8-bw.json"
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-INDICES-009",
+    "source_uri": "books/artifacts/unusual-indices-book/final-008/final-production-manifest.json",
+    "observed_at": "2026-08-13T00:00:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "renderer_toolchain": ["Pandoc", "XeLaTeX", "Poppler", "DOCX"],
+    "profile": "COMMERCIAL_NONFICTION_5X8_BW",
+    "external_publication_performed": false
+  }
+}

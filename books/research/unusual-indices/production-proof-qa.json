@@ -1,0 +1,60 @@
+{
+  "build_time_seconds": {
+    "epub": 0.11,
+    "paperback_pdf": 1.44
+  },
+  "kindle": {
+    "epub": "books/artifacts/unusual-indices-book/design-proof/kindle/unusual-indices-kindle-proof.epub",
+    "epub_entries": 15,
+    "validator": "pandoc EPUB generation + ZIP/OPF/XHTML structural inspection; Kindle Previewer not detected"
+  },
+  "manual_page_patches": 0,
+  "paperback": {
+    "page_size_expected": "5x8",
+    "pdf": "books/artifacts/unusual-indices-book/design-proof/paperback/unusual-indices-production-proof-5x8.pdf",
+    "pdfinfo_excerpt": [
+      "Pages:           8",
+      "Page size:       360 x 576 pts",
+      "File size:       158832 bytes"
+    ],
+    "review_pages": [
+      "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-01.png",
+      "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-03.png",
+      "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-04.png",
+      "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-05.png",
+      "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-07.png",
+      "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-08.png"
+    ]
+  },
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T14:17:07Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-006",
+    "source_uri": "books/design/unusual-indices-book/build_production_proof.py"
+  },
+  "qa_matrix": {
+    "COVER_THUMBNAIL": "PASS",
+    "ENDNOTE_GENERATION": "PASS",
+    "INTERNAL_MARKER_REMOVAL": "PASS",
+    "KINDLE_ALT_TEXT": "PASS",
+    "KINDLE_IMAGE": "PASS",
+    "KINDLE_INTERNAL_LINKS": "PASS",
+    "KINDLE_TOC": "PASS",
+    "MANUSCRIPT_CLEANLINESS": "PASS",
+    "NO_LOCAL_PATH_LEAKAGE": "PASS",
+    "PAPERBACK_BODY_TYPE": "PASS",
+    "PAPERBACK_CHAPTER_OPENING": "PASS",
+    "PAPERBACK_GEOMETRY": "PASS",
+    "PAPERBACK_NOTES": "PASS",
+    "SOURCE_RESOLUTION": "PASS",
+    "TEXT_ENCODING": "PASS",
+    "VISUAL_GRAYSCALE": "PASS",
+    "VISUAL_PROVENANCE": "PASS"
+  },
+  "schema_version": "v1",
+  "source_ids_used_in_proof": [
+    "source-economist-big-mac",
+    "claim-goodhart-risk"
+  ],
+  "state": "PRODUCTION_PROOF_READY_FOR_HUMAN"
+}

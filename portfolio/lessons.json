@@ -235,6 +235,21 @@
       "candidate_capability": "donor_intelligence_harvest",
       "recommended_action": "When publication research yields bounded donor evidence, normalize it into the donor matrix and acceptance-test planning instead of paying for broad donor rediscovery a second time.",
       "status": "recorded"
+    },
+    {
+      "id": "book-factory-commercial-nonfiction-profile-admission",
+      "originating_project": "unusual-indices-book",
+      "originating_mission": "BOOK-FACTORY-INDICES-009",
+      "observed_need": "The first conventional Amazon nonfiction acceptance case proved that Book Factory must keep content, design profile, format production, technical QA, visual QA and publication as separate boundaries, and admit reusable profiles only after human-approved production output.",
+      "classification": "REPEATED_WITHIN_PROJECT",
+      "evidence_refs": [
+        "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json",
+        "books/design/profiles/commercial-nonfiction-5x8-bw.json",
+        "books/artifacts/unusual-indices-book/final-008/final-production-manifest.json"
+      ],
+      "candidate_capability": "known_profile_book_production_fast_path",
+      "recommended_action": "For the next compatible book, use the admitted profile and known-profile playbook; success means producing output faster and at least as good as manual owner plus ChatGPT production without reopening stable system choices.",
+      "status": "promoted"
     }
   ]
 }

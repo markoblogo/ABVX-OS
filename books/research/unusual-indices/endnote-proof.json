@@ -1,0 +1,28 @@
+{
+  "acceptance": {
+    "canonical_retains_internal_markers": true,
+    "future_source_correction_primarily_registry_based": true,
+    "kindle_note_links_backlinks": "PASS",
+    "one_source_multiple_claims_supported": true,
+    "paperback_notes_readable": "PASS",
+    "reader_artifacts_hide_internal_markers": true,
+    "reader_notes_resolve_to_sources": true
+  },
+  "canonical_marker_policy": "Canonical manuscript retains [S:source-id] markers; reader-facing proofs transform them to notes and hide raw markers.",
+  "project_id": "unusual-indices-book",
+  "proof_artifacts": [
+    "books/artifacts/unusual-indices-book/design-proof/paperback/unusual-indices-production-proof-5x8.pdf",
+    "books/artifacts/unusual-indices-book/design-proof/kindle/unusual-indices-kindle-proof.epub"
+  ],
+  "provenance": {
+    "observed_at": "2026-08-13T14:17:07Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-006",
+    "source_uri": "books/research/unusual-indices/source-registry.json"
+  },
+  "schema_version": "v1",
+  "source_ids_used_in_proof": [
+    "source-economist-big-mac",
+    "claim-goodhart-risk"
+  ],
+  "state": "ENDNOTE_SYSTEM_PROVED"
+}

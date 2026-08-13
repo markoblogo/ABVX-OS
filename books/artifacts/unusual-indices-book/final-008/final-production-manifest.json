@@ -1,0 +1,35 @@
+{
+  "approved_cover_direction": "A",
+  "artifacts": {
+    "amazon_copy_pack": "books/artifacts/unusual-indices-book/final-008/amazon/amazon-publication-package.md",
+    "amazon_publication_package": "books/artifacts/unusual-indices-book/final-008/amazon/amazon-publication-package.json",
+    "approved_front_cover": "books/artifacts/unusual-indices-book/production-build/cover/cover-a-refined-front.png",
+    "kindle_create_input": "books/artifacts/unusual-indices-book/final-008/kindle/burgers-lipstick-underwear-kindle-create-input.docx",
+    "paperback_contact_sheet": "books/artifacts/unusual-indices-book/final-008/review/paperback-all-pages-contact-sheet.png",
+    "paperback_interior": "books/artifacts/unusual-indices-book/final-008/paperback/burgers-lipstick-underwear-paperback-interior-5x8-rc.pdf"
+  },
+  "deferred": [
+    "PAPERBACK_WRAP_COVER_PRODUCTION",
+    "KDP_SUBMISSION_AUTOMATION"
+  ],
+  "acceptance_case": "BOOK_FACTORY_ACCEPTANCE_CASE_001",
+  "acceptance_result": "PASS",
+  "human_gate": "HUMAN_FINAL_BOOK_REVIEW_APPROVED; EXTERNAL_PUBLICATION_WAITING_FOR_HUMAN",
+  "interior_visual_count": 0,
+  "prior_work_disposition": {
+    "books/artifacts/unusual-indices-book/design-proof": "REJECTED_HISTORICAL_EVIDENCE_NOT_CANONICAL",
+    "books/artifacts/unusual-indices-book/final-008": "CANONICAL_RELEASE_CANDIDATE_SET",
+    "books/artifacts/unusual-indices-book/production-build": "SUPERSEDED_EXCEPT_APPROVED_FRONT_COVER",
+    "books/artifacts/unusual-indices-book/recovery-proof": "SYSTEM_RECOVERY_EVIDENCE_NOT_FINAL_OUTPUT"
+  },
+  "profile_state": "ADMITTED",
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T16:22:10Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-008",
+    "source_uri": "books/design/unusual-indices-book/build_full_production.py"
+  },
+  "publication_status": "NOT_PUBLISHED",
+  "schema_version": "v1",
+  "state": "PAPERBACK_INTERIOR_RC_READY"
+}

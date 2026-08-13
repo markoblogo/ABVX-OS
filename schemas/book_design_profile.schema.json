@@ -7,6 +7,7 @@
   "required": [
     "schema_version",
     "profile_id",
+    "status",
     "publication_profile",
     "renderer_family",
     "structure_defaults",
@@ -18,6 +19,9 @@
   "properties": {
     "schema_version": { "const": "v1" },
     "profile_id": { "type": "string", "minLength": 1 },
+    "status": {
+      "enum": ["PROOF_REQUIRED", "ADMITTED", "REJECTED", "DEPRECATED"]
+    },
     "publication_profile": {
       "enum": ["CONVENTIONAL_BOOK", "DISCOVERY_BOOKLET", "HANDBOOK", "REPORT"]
     },
@@ -65,8 +69,59 @@
           "TEXT_LAYER",
           "LINKS_CLICKABLE",
           "NO_OVERFLOW_IF_DETECTABLE",
-          "PUBLICATION_PACKET"
+          "PUBLICATION_PACKET",
+          "PRINT_TOC_PAGE_NUMBERS",
+          "CHAPTER_STARTS_NEW_PAGE",
+          "PAGE_BALANCE",
+          "HEADING_HYPHENATION",
+          "BODY_HYPHENATION_RATE",
+          "READER_NOTES_CLEAN",
+          "FULL_BOOK_CONTACT_SHEET",
+          "KINDLE_PRINT_LEAKAGE"
         ]
+      }
+    },
+    "production_rules": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "PRINT_TOC_REQUIRES_PAGE_NUMBERS",
+          "KINDLE_TOC_HAS_NO_PRINT_PAGINATION",
+          "CHAPTER_STARTS_NEW_PAGE",
+          "PRE_CHAPTER_PAGE_BALANCE_REQUIRED",
+          "NO_HEADING_HYPHENATION",
+          "BODY_HYPHENATION_LIMITED",
+          "NO_PROVISIONAL_COPYRIGHT_TEXT",
+          "NO_INTERNAL_PROVENANCE_IN_READER_NOTES",
+          "INTERIOR_VISUALS_OPT_IN",
+          "FULL_BOOK_CONTACT_SHEET_REQUIRED_BEFORE_PROFILE_ADMISSION",
+          "TECHNICAL_QA_DOES_NOT_EQUAL_VISUAL_QA",
+          "KNOWN_PROFILE_FAST_PATH"
+        ]
+      }
+    },
+    "compatibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["compatible", "not_automatically_compatible"],
+      "properties": {
+        "compatible": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "not_automatically_compatible": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
+    "admission": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["acceptance_project", "acceptance_evidence_ref", "approved_at", "supported_publication_class", "renderer_toolchain", "qa_contract_refs", "human_gate_required"],
+      "properties": {
+        "acceptance_project": { "type": "string", "minLength": 1 },
+        "acceptance_evidence_ref": { "type": "string", "minLength": 1 },
+        "approved_at": { "type": "string", "format": "date-time" },
+        "supported_publication_class": { "type": "string", "minLength": 1 },
+        "renderer_toolchain": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "qa_contract_refs": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "human_gate_required": { "type": "boolean" }
       }
     },
     "tokens": {

@@ -1,9 +1,9 @@
 {
   "canonical_manuscript": {
     "locator": "books/manuscripts/unusual-indices-book/MASTER_MANUSCRIPT.md",
-    "notes": "Manuscript V2 editorial candidate exists and awaits human review. Future format artifacts must derive from an approved manuscript lineage after design proof.",
+    "notes": "Human-approved final manuscript for the first COMMERCIAL_NONFICTION_5X8_BW acceptance case.",
     "readiness_state": "READY",
-    "version": "manuscript-v2"
+    "version": "manuscript-final-008"
   },
   "content_origin": "DERIVED",
   "context_request_ids": [
@@ -15,11 +15,11 @@
     {
       "automation_policy": "SUPERVISED_ONLY",
       "blocked_fail_closed": true,
-      "external_state": null,
+      "external_state": "KINDLE_CREATE_INPUT_READY; NOT_SUBMITTED",
       "format": "KINDLE_REFLOWABLE",
-      "next_action": null,
-      "notes": null,
-      "publication_state": "NOT_CREATED",
+      "next_action": "Open the approved DOCX in Kindle Create, verify navigation/preview, enter approved KDP metadata, AI disclosure and pricing, then submit manually.",
+      "notes": "The DOCX input is approved; the Kindle edition has not been created or submitted in KDP.",
+      "publication_state": "DRAFT",
       "qa_boundary": [
         "reflowability",
         "heading/navigation integrity",
@@ -28,16 +28,16 @@
         "Kindle suitability",
         "preview validation"
       ],
-      "waiting_state": "NONE"
+      "waiting_state": "WAITING_HUMAN"
     },
     {
       "automation_policy": "SUPERVISED_ONLY",
       "blocked_fail_closed": true,
-      "external_state": null,
+      "external_state": "PAPERBACK_INTERIOR_READY_FOR_SUBMISSION; PAPERBACK_WRAP_NOT_CREATED; NOT_SUBMITTED",
       "format": "PAPERBACK_INTERIOR",
-      "next_action": null,
-      "notes": null,
-      "publication_state": "NOT_CREATED",
+      "next_action": "Use the approved 80-page 5x8 interior and front cover to calculate and assemble the paperback wrap, then verify in KDP Print Previewer and submit manually.",
+      "notes": "Interior artifact is ready for submission, but the paperback edition remains incomplete until the wrap cover exists.",
+      "publication_state": "READY_FOR_SUBMISSION",
       "qa_boundary": [
         "trim size",
         "margins/gutter",
@@ -45,7 +45,7 @@
         "image resolution",
         "print preview validation"
       ],
-      "waiting_state": "NONE"
+      "waiting_state": "WAITING_HUMAN"
     },
     {
       "automation_policy": "SUPERVISED_ONLY",
@@ -67,60 +67,78 @@
   ],
   "format_artifacts": [
     {
-      "artifact_id": "kindle-reflowable-v0",
-      "file_ref": null,
-      "format": "KINDLE_REFLOWABLE",
-      "generated_at": null,
-      "notes": null,
-      "provenance_classification": "UNKNOWN",
-      "readiness_state": "NOT_CREATED",
-      "source_manuscript_version": "seed-outline-to-manuscript-v0",
-      "validation_status": "NOT_STARTED"
-    },
-    {
-      "artifact_id": "paperback-interior-v0",
-      "file_ref": null,
+      "artifact_id": "paperback-interior-rc-008",
+      "file_ref": "books/artifacts/unusual-indices-book/final-008/paperback/burgers-lipstick-underwear-paperback-interior-5x8-rc.pdf",
       "format": "PAPERBACK_INTERIOR",
-      "generated_at": null,
-      "notes": null,
-      "provenance_classification": "UNKNOWN",
-      "readiness_state": "NOT_CREATED",
-      "source_manuscript_version": "seed-outline-to-manuscript-v0",
-      "validation_status": "NOT_STARTED"
+      "generated_at": "2026-08-13T16:22:10Z",
+      "notes": "Human-approved final 5x8 black-and-white interior release candidate; paperback publication remains blocked on the wrap cover and supervised KDP submission.",
+      "provenance_classification": "AI_ASSISTED",
+      "readiness_state": "READY",
+      "source_manuscript_version": "manuscript-final-008",
+      "validation_status": "PASSED"
     },
     {
-      "artifact_id": "print-cover-v0",
+      "artifact_id": "kindle-create-input-008",
+      "file_ref": "books/artifacts/unusual-indices-book/final-008/kindle/burgers-lipstick-underwear-kindle-create-input.docx",
+      "format": "KINDLE_REFLOWABLE",
+      "generated_at": "2026-08-13T16:22:10Z",
+      "notes": "Human-approved semantic DOCX for manual Kindle Create preparation; no print pagination or running heads. This is an input artifact, not a submitted Kindle edition.",
+      "provenance_classification": "AI_ASSISTED",
+      "readiness_state": "READY",
+      "source_manuscript_version": "manuscript-final-008",
+      "validation_status": "PASSED"
+    },
+    {
+      "artifact_id": "cover-a-approved-front-008",
+      "file_ref": "books/artifacts/unusual-indices-book/production-build/cover/cover-a-refined-front.png",
+      "format": "PRINT_COVER",
+      "generated_at": "2026-08-13T16:22:10Z",
+      "notes": "Human-approved front-cover direction. Paperback wrap remains a separate human task.",
+      "provenance_classification": "AI_GENERATED",
+      "readiness_state": "READY",
+      "source_manuscript_version": "manuscript-final-008",
+      "validation_status": "PASSED"
+    },
+    {
+      "artifact_id": "paperback-wrap-009",
       "file_ref": null,
       "format": "PRINT_COVER",
       "generated_at": null,
-      "notes": null,
-      "provenance_classification": "UNKNOWN",
+      "notes": "Paperback wrap is intentionally not created; owner will use KDP Cover Calculator and Canva after closeout.",
+      "provenance_classification": "HUMAN",
       "readiness_state": "NOT_CREATED",
-      "source_manuscript_version": "seed-outline-to-manuscript-v0",
+      "source_manuscript_version": "manuscript-final-008",
       "validation_status": "NOT_STARTED"
     }
   ],
   "human_gates": [
     {
-      "decision_ref": null,
+      "decision_ref": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json",
       "required": true,
       "rule": "Approve bounded edition scope, thesis, chapter list and source policy before any manuscript generation.",
       "stage": "BOOK_SPEC",
       "state": "APPROVED"
     },
     {
-      "decision_ref": null,
+      "decision_ref": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json",
       "required": true,
       "rule": "Approve manuscript quality, factual confidence and disclosure wording before packaging.",
       "stage": "EDITORIAL_QA",
-      "state": "OPEN"
+      "state": "APPROVED"
     },
     {
-      "decision_ref": null,
+      "decision_ref": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json",
+      "required": true,
+      "rule": "Approve the complete paperback contact sheet, interior, Kindle Create input, front cover and Amazon metadata package before profile admission.",
+      "stage": "VISUAL_QA",
+      "state": "APPROVED"
+    },
+    {
+      "decision_ref": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json",
       "required": true,
       "rule": "Approve final KDP package and supervised submission path before any retailer action.",
       "stage": "SUBMISSION",
-      "state": "NOT_YET_REACHED"
+      "state": "OPEN"
     }
   ],
   "id": "unusual-indices-book",
@@ -129,29 +147,29 @@
     "cigarette-index"
   ],
   "known_gaps": [
-    "Manuscript V2 is complete, compact and structurally edited; human review must approve direction before visual/endnote/design proof.",
-    "Final cover asset does not exist yet; approved territory is object-led popular nonfiction around burger, lipstick and underwear.",
-    "KDP metadata is provisional until manuscript exists.",
-    "Rights remain mixed for external examples; they can inform commentary but not be copied.",
-    "P0 fact check is closed for V2; final endnote pass should preserve source identities and exact citation form."
+    "PAPERBACK_WRAP_COVER_PRODUCTION is DEFERRED and WAITING_FOR_HUMAN.",
+    "KDP_SUBMISSION_AUTOMATION is DEFERRED; manual KDP submission is WAITING_FOR_HUMAN.",
+    "KINDLE_PREVIEWER_AUTOMATION is DEFERRED; owner will verify through Kindle Create manually.",
+    "EPUBCHECK remains a future QA component and is not required for the approved Kindle Create DOCX workflow.",
+    "Owner must confirm manuscript rights and AI-cover commercial-use provenance during KDP submission."
   ],
-  "lifecycle_stage": "BOOK_SPEC",
-  "next_action": "Human decision: review Manuscript V2 and approve direction before BOOK-FACTORY-INDICES-006 — Visual Production + Endnotes + Kindle/Paperback Design Proof.",
+  "lifecycle_stage": "KDP_PACKAGE",
+  "next_action": "Human publication handoff: prepare Kindle in Kindle Create and paperback wrap via KDP Cover Calculator/Canva, then complete supervised KDP preview, metadata entry and submission.",
   "objective": "Turn owner-supplied unusual-index research into a commercially strong Amazon KDP nonfiction book, with owner projects treated only as optional context rather than the primary promotional goal.",
   "preferred_renderer": "PANDOC_XELATEX",
   "primary_objective": "COMMERCIAL_AMAZON_SUCCESS",
   "provenance": {
     "observed_at": "2026-08-13T00:00:00Z",
-    "recorded_by": "BOOK-FACTORY-INDICES-005",
-    "source_uri": "docs/audits/book-factory-indices-005-editorial-v2.md"
+    "recorded_by": "BOOK-FACTORY-INDICES-009",
+    "source_uri": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json"
   },
   "publication_form": "PROSE_BOOK",
   "publication_profile": "CONVENTIONAL_BOOK",
   "readiness": {
-    "cover_strategy": "PARTIAL",
+    "cover_strategy": "READY",
     "disclosure_policy": "READY",
-    "format_artifacts": "MISSING",
-    "kdp_metadata": "PARTIAL",
+    "format_artifacts": "PARTIAL",
+    "kdp_metadata": "READY",
     "manuscript_seed": "READY",
     "outline_seed": "READY",
     "positioning": "READY",

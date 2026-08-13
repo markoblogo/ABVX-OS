@@ -1,0 +1,94 @@
+{
+  "schema_version": "v1",
+  "contract_id": "commercial-nonfiction-preflight",
+  "status": "ADMITTED",
+  "purpose": "Consolidated preflight boundary for a known-profile commercial nonfiction book before full production build.",
+  "applies_to": [
+    "books/design/profiles/commercial-nonfiction-5x8-bw.json"
+  ],
+  "required_inputs": [
+    "approved BookSpec",
+    "approved manuscript",
+    "closed P0/P1 factual uncertainty list",
+    "normalized source registry",
+    "approved or explicitly proof-only cover direction",
+    "approved or explicitly proof-only interior design profile",
+    "format targets for print and digital"
+  ],
+  "checks": [
+    {
+      "id": "manuscript-state",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Manuscript must be approved for production; unresolved P0/P1 factual blockers stop the build."
+    },
+    {
+      "id": "source-registry",
+      "gate": "FAIL_CLOSED",
+      "requirement": "All source markers used in reader-facing notes must resolve to normalized source records."
+    },
+    {
+      "id": "front-matter",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Print and digital artifacts must use real title, author and clean copyright text. Print TOC uses generated final page numbers; Kindle source uses semantic headings without print pagination. No proof labels may leak into reader-facing pages."
+    },
+    {
+      "id": "cover-direction",
+      "gate": "HUMAN_REQUIRED",
+      "requirement": "A new commercial cover direction requires human visual approval before final production."
+    },
+    {
+      "id": "interior-profile",
+      "gate": "HUMAN_REQUIRED",
+      "requirement": "A new interior profile requires human visual approval before profile admission."
+    },
+    {
+      "id": "useful-visuals",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Interior visuals are opt-in. A visual is included only when approved and when data/source provenance or clear explanatory payoff is recorded; zero visuals is valid."
+    },
+    {
+      "id": "format-specific-artifacts",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Paperback, Kindle/EPUB, covers, links, and notes are validated as separate artifacts, not as one generic manuscript export."
+    },
+    {
+      "id": "print-pagination",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Every chapter starts on a new page; suspicious pre-chapter occupancy, blank pages, isolated headings and heading hyphenation block release-candidate status."
+    },
+    {
+      "id": "reader-notes",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Reader-facing notes use identifiable public sources and professional links; internal aliases, filesystem paths and provenance language remain internal."
+    },
+    {
+      "id": "full-book-contact-sheet",
+      "gate": "HUMAN_REQUIRED",
+      "requirement": "Every final paperback page must appear in a contact sheet before profile admission."
+    }
+  ],
+  "prohibited_shortcuts": [
+    "manual page-specific layout patches",
+    "single primitive cover proof as commercial art direction",
+    "technical PDF PASS treated as visual approval",
+    "fake or partial TOC used for production acceptance",
+    "manual print page numbers",
+    "print pagination or running heads carried into Kindle source",
+    "interior visuals added by default",
+    "duplicated title/copyright pages in Kindle output",
+    "generic arrow or box diagrams admitted as production visuals without explanatory value"
+  ],
+  "result_states": {
+    "pass": "PRODUCTION_READY_AFTER_HUMAN_VISUAL_APPROVAL",
+    "conditional": "RECOVERY_PROOF_READY_FOR_HUMAN",
+    "fail": "PRODUCTION_BLOCKED"
+  },
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-INDICES-009",
+    "derived_from": [
+      "books/factory/lessons/indices-production-failure-map.json",
+      "books/artifacts/unusual-indices-book/recovery-proof/human-review-manifest.json",
+      "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json"
+    ]
+  }
+}

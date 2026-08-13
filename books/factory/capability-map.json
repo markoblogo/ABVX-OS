@@ -1,0 +1,55 @@
+{
+  "schema_version": "v1",
+  "state": "COMMERCIAL_NONFICTION_PROFILE_ADMITTED",
+  "capabilities": [
+    {"capability": "RESEARCH", "status": "PROVED_ONCE", "notes": "SourcePack and targeted source normalization worked; avoid broad donor/research reruns for known profiles."},
+    {"capability": "COMMERCIAL_POSITIONING", "status": "PROVED_ONCE", "notes": "Commercial objective and title territory were clarified before manuscript approval."},
+    {"capability": "BOOKSPEC", "status": "PROVED_ONCE", "notes": "BookSpec structure works but profile selection must happen before writing."},
+    {"capability": "MANUSCRIPT_GENERATION", "status": "PROVED_ONCE", "notes": "Manuscript produced and approved after structural revision; first-pass prompt must suppress repetition and internal writing-brief language."},
+    {"capability": "STRUCTURAL_EDITING", "status": "PROVED_ONCE", "notes": "V2 revision closed structure without reopening architecture."},
+    {"capability": "FACT_VERIFICATION", "status": "PROVED_ONCE", "notes": "P0/P1 closure works when tied to manuscript needs rather than exhaustive research."},
+    {"capability": "SOURCE_NORMALIZATION", "status": "PROVED_ONCE", "notes": "Source registry resolves all manuscript markers and separates consequential sources from non-consequential context."},
+    {"capability": "ENDNOTES", "status": "PROVED_ONCE", "notes": "The accepted book resolves 27 reader-facing notes to identifiable public sources with clickable PDF and DOCX links."},
+    {"capability": "COVER_ART_DIRECTION", "status": "PROVED_ONCE", "notes": "Bounded concept exploration produced human-approved Cover A; new directions remain human-gated."},
+    {"capability": "COVER_PRODUCTION", "status": "PARTIAL", "notes": "Image-generation concept route works; final typography/composition and print wrap remain unproved."},
+    {"capability": "INTERIOR_DESIGN", "status": "PROVED_ONCE", "notes": "The 80-page 5x8 black-and-white interior passed full-contact-sheet human visual approval under COMMERCIAL_NONFICTION_5X8_BW."},
+    {"capability": "TYPESETTING", "status": "PROVED_ONCE", "notes": "Pandoc + XeLaTeX produced the approved 5x8 release-candidate interior with generated TOC pagination and reusable page-balance rules."},
+    {"capability": "DATA_VISUALIZATION", "status": "PROVED_ONCE", "notes": "Deterministic Big Mac data visual generated from The Economist CSV; no generic flowchart fallback."},
+    {"capability": "EDITORIAL_ILLUSTRATION", "status": "MISSING", "notes": "No full illustration route admitted; use image-generation/art direction only when explanatory value is high."},
+    {"capability": "EPUB_GENERATION", "status": "PARTIAL", "notes": "Pandoc EPUB proof works; EPUBCheck and Kindle Previewer are not installed locally."},
+    {"capability": "PRINT_PDF_GENERATION", "status": "PROVED_ONCE", "notes": "The approved searchable 80-page paperback interior is ready for submission; print wrap remains a separate deferred capability."},
+    {"capability": "KDP_PREFLIGHT", "status": "MISSING", "notes": "No consolidated final KDP preflight yet; DESIGN-001 defines contract only."},
+    {"capability": "KDP_SUBMISSION", "status": "DEFERRED", "notes": "Submission remains supervised-only; auto-kdp stays future adapter after artifacts are approved."},
+    {"capability": "PAPERBACK_WRAP_COVER_PRODUCTION", "status": "DEFERRED", "notes": "Future seam: final page count and trim/paper choice -> KDP dimensions -> front/spine/back and barcode-safe composition -> print-cover PDF -> preflight."},
+    {"capability": "KINDLE_PREVIEWER_AUTOMATION", "status": "DEFERRED", "notes": "The approved DOCX uses the manual Kindle Create workflow; automated preview remains demand-driven."},
+    {"capability": "EPUBCHECK_QA", "status": "DEFERRED", "notes": "Retain as a future QA component when EPUB becomes a required publication artifact."},
+    {"capability": "POST_PUBLISH_VERIFICATION", "status": "PROVED_ONCE", "notes": "ABVX Books path proved on previous booklet; Amazon KDP post-publish path not yet proved."}
+  ],
+  "codex_role": {
+    "should_own": [
+      "high-value editorial judgment",
+      "architecture",
+      "synthesis",
+      "difficult fact resolution",
+      "production orchestration",
+      "exception handling",
+      "QA interpretation"
+    ],
+    "should_not_routinely_own": [
+      "drawing covers from primitives",
+      "manually typesetting pages",
+      "inventing standard front matter",
+      "manually formatting TOCs",
+      "rebuilding notes for every format",
+      "drawing generic diagrams",
+      "manually fixing page breaks",
+      "repeating stable KDP checks from memory"
+    ],
+    "factory_bypass_rule": "If a future known-profile book requires Codex to manually perform stable production tasks, flag FACTORY_BYPASS and explain the missing capability."
+  },
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-INDICES-009",
+    "observed_at": "2026-08-13T00:00:00Z",
+    "source_uri": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json"
+  }
+}

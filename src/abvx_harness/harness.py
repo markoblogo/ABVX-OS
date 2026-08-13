@@ -232,6 +232,11 @@ def validate_repository(root: Path) -> list[str]:
         for path in sorted((root / "books" / "design" / "profiles").glob("*.json")):
             validate(load_json(path), load_json(book_design_profile_schema_path), schema_path=book_design_profile_schema_path, root=root, location=str(path))
             checked.append(str(path.relative_to(root)))
+    amazon_package_schema_path = root / "schemas" / "amazon_publication_package.schema.json"
+    if amazon_package_schema_path.is_file():
+        for path in sorted((root / "books" / "artifacts").glob("*/final-*/amazon/amazon-publication-package.json")):
+            validate(load_json(path), load_json(amazon_package_schema_path), schema_path=amazon_package_schema_path, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
     research_file_schemas = {
         root / "books" / "research" / "unusual-indices" / "source-document.json": root / "schemas" / "book_research_source_document.schema.json",
         root / "books" / "research" / "unusual-indices" / "normalized-corpus.json": root / "schemas" / "book_research_corpus.schema.json",

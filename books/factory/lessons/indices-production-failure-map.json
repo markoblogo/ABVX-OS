@@ -1,0 +1,110 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "state": "LESSONS_READY",
+  "items": [
+    {
+      "failure": "006 technical proof was treated as nearly sufficient despite visual rejection.",
+      "root_cause": "Technical QA and visual QA were not separate gates.",
+      "reusable_rule": "Technical PASS never implies visual PASS for a new design profile.",
+      "enforcement_layer": "QA",
+      "future_check": "Require VISUAL_ACCEPTANCE=HUMAN_REQUIRED until profile is admitted."
+    },
+    {
+      "failure": "Cover was drawn from primitive geometric shapes and looked non-commercial.",
+      "root_cause": "Cover art direction, artwork generation and typography/composition were collapsed into Codex improvisation.",
+      "reusable_rule": "Commercial covers require 3 distinct concepts routed through specialized visual/design tooling and thumbnail comparison.",
+      "enforcement_layer": "SKILL",
+      "future_check": "Reject single primitive-cover proof for commercial nonfiction."
+    },
+    {
+      "failure": "Interior visuals were generic arrows/boxes that restated prose.",
+      "root_cause": "Visual admission asked whether a visual could be made, not whether it explained something better than prose.",
+      "reusable_rule": "Visuals must be REQUIRED or USEFUL; DECORATIVE and REDUNDANT visuals do not enter production by default.",
+      "enforcement_layer": "PLAYBOOK",
+      "future_check": "Every visual record must include admission verdict and explanatory payoff."
+    },
+    {
+      "failure": "Proof TOC used a fake subset rather than the real eight-chapter structure.",
+      "root_cause": "Technical proof convenience overrode reader-facing plausibility.",
+      "reusable_rule": "Representative proofs must show plausible production front matter and full TOC for the approved book structure.",
+      "enforcement_layer": "PROFILE",
+      "future_check": "TOC surface must contain all approved chapters unless proof scope explicitly excludes TOC."
+    },
+    {
+      "failure": "Reader-facing proof contained production labels and placeholder author identity.",
+      "root_cause": "Artifact-state metadata leaked into reader surfaces.",
+      "reusable_rule": "Proof artifacts may be marked in manifests, not on reader-facing pages/covers unless explicitly a watermark proof.",
+      "enforcement_layer": "QA",
+      "future_check": "Scan rendered text for production-proof residue and placeholder author names."
+    },
+    {
+      "failure": "Default LaTeX output produced functional but not professional typography.",
+      "root_cause": "Renderer validity was mistaken for editorial interior design.",
+      "reusable_rule": "Interior design must start from a profile/template and include visual checks for hyphenation, paragraph color, headings, notes and TOC quality.",
+      "enforcement_layer": "PROFILE",
+      "future_check": "New profile requires human visual review contact sheet."
+    },
+    {
+      "failure": "Source/endnote system was technically promising but not clearly separated from design artifacts.",
+      "root_cause": "Useful source normalization and rejected visual direction shared the same proof slice.",
+      "reusable_rule": "Source registry/endnote seam is reusable; visual artifacts remain unapproved until human accepts design.",
+      "enforcement_layer": "SCHEMA",
+      "future_check": "Project format_artifacts must not point at visually rejected outputs as approved artifacts."
+    },
+    {
+      "failure": "Book Factory repeatedly rediscovered front matter, proof surfaces and gates.",
+      "root_cause": "Known-profile production playbook did not exist.",
+      "reusable_rule": "Known-profile commercial nonfiction uses a fixed production playbook: profile compatibility, source/endnote, visual admission, cover concepts, interior proof, preflight, visual gate, full build.",
+      "enforcement_layer": "PLAYBOOK",
+      "future_check": "Future compatible books must use the playbook before custom production work."
+    },
+    {
+      "failure": "Codex cost went into production-system reasoning that should become reusable machinery.",
+      "root_cause": "Lessons were recorded as narrative audits but not failure-to-rule process memory.",
+      "reusable_rule": "Every expensive acceptance-case correction must map to PROFILE, SKILL, PLAYBOOK, SCHEMA, QA, LESSON or DONOR_POLICY.",
+      "enforcement_layer": "LESSON",
+      "future_check": "Retrospective must emit a machine-readable failure map."
+    },
+    {
+      "failure": "The production proof used a manually written contents list without final page numbers.",
+      "root_cause": "Print navigation was treated as copy instead of an output of final pagination.",
+      "reusable_rule": "Paperback TOC page numbers are generated from final pagination and automatically validated; Kindle source carries no print pagination.",
+      "enforcement_layer": "PROFILE",
+      "future_check": "Fail release-candidate status when any approved chapter lacks a final TOC page number or Kindle source contains print artifacts."
+    },
+    {
+      "failure": "Forced chapter starts exposed nearly empty preceding pages and stranded short transitions.",
+      "root_cause": "Chapter break correctness was checked without whole-book page-rhythm inspection.",
+      "reusable_rule": "Every chapter starts on a new page and a profile-level chapter-tail balance rule prevents orphaned short transitions; every page is reviewed in one contact sheet.",
+      "enforcement_layer": "QA",
+      "future_check": "Flag blank pages, isolated headings and pre-chapter pages below the occupancy threshold."
+    },
+    {
+      "failure": "Default TeX line breaking hyphenated headings and produced visually frequent body hyphenation.",
+      "root_cause": "Hyphenation was not separated by typographic role.",
+      "reusable_rule": "Headings never hyphenate; body hyphenation remains enabled but constrained and measured.",
+      "enforcement_layer": "PROFILE",
+      "future_check": "Fail on heading hyphenation and report body line-end hyphenations per thousand words."
+    },
+    {
+      "failure": "Reader-facing Notes inherited internal source aliases and raw-path-oriented provenance language.",
+      "root_cause": "Internal research traceability and publication bibliography were rendered from the same labels.",
+      "reusable_rule": "Reader Notes require identifiable bibliographic sources and professional links; internal aliases and local paths never render.",
+      "enforcement_layer": "QA",
+      "future_check": "Fail Notes generation on unresolved, generic, internal or non-public source identity."
+    },
+    {
+      "failure": "An interior chart remained after the human chose a text-only interior.",
+      "root_cause": "Useful visual admission was mistaken for a permanent format requirement.",
+      "reusable_rule": "Interior visuals are opt-in per BookSpec and human design decision; zero visuals is valid.",
+      "enforcement_layer": "PLAYBOOK",
+      "future_check": "Rendered interior visual count must match the approved BookSpec exactly."
+    }
+  ],
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-DESIGN-001",
+    "observed_at": "2026-08-13T00:00:00Z",
+    "source_uri": "docs/audits/book-factory-design-001-production-system-repair.md"
+  }
+}

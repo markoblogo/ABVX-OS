@@ -7,6 +7,9 @@ __pycache__/
 .tmp/
 tmp/
 
+# Reproducible page rasters used to assemble the canonical final contact sheet.
+books/artifacts/unusual-indices-book/final-008/review/all-pages/
+
 # Generated local bakeoff output; keep manifests and fixtures, not run logs.
 evidence/bakeoffs/*/runs/*
 evidence/bakeoffs/*/artifacts/*

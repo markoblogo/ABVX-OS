@@ -1,0 +1,60 @@
+{
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T15:00:46Z",
+    "recorded_by": "BOOK-FACTORY-DESIGN-001",
+    "source_uri": "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv"
+  },
+  "schema_version": "v1",
+  "state": "RECOVERY_VISUAL_READY_FOR_HUMAN",
+  "visual": {
+    "artifact_refs": [
+      "books/artifacts/unusual-indices-book/recovery-proof/visuals/big-mac-selected-economies.png"
+    ],
+    "chapter": "Chapter 1",
+    "data_as_of": "2026-07-01",
+    "data_points": [
+      {
+        "dollar_price": 9.0419272929956,
+        "economy": "Switzerland"
+      },
+      {
+        "dollar_price": 7.07922094259998,
+        "economy": "Euro area"
+      },
+      {
+        "dollar_price": 6.22,
+        "economy": "United States"
+      },
+      {
+        "dollar_price": 3.33555703802535,
+        "economy": "Ukraine"
+      },
+      {
+        "dollar_price": 3.91386542210669,
+        "economy": "China"
+      },
+      {
+        "dollar_price": 2.45419485528041,
+        "economy": "India"
+      }
+    ],
+    "data_source_url": "https://raw.githubusercontent.com/TheEconomist/big-mac-data/master/output-data/big-mac-full-index.csv",
+    "grayscale_safe": true,
+    "kindle_safe": true,
+    "purpose": "Show a real, source-backed spread in Big Mac dollar prices faster than prose can.",
+    "rights_status": "DATA_VISUAL_ORIGINAL_RENDERING; NO_BRANDED_PRODUCT_IMAGERY",
+    "source_ids": [
+      "source-economist-big-mac"
+    ],
+    "status": "RECOVERY_PROOF_READY",
+    "transformation": "Filtered latest The Economist CSV to selected economies; plotted dollar_price as horizontal bars.",
+    "units": "USD per Big Mac",
+    "visual_id": "big-mac-selected-economies",
+    "visual_type": "DATA_VISUAL"
+  },
+  "visual_admission": {
+    "reason": "A real source-backed price comparison communicates the spread faster than prose and avoids generic flowchart restatement.",
+    "verdict": "USEFUL"
+  }
+}

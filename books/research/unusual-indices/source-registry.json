@@ -1,0 +1,528 @@
+{
+  "normalization_policy": {
+    "consequential_claim_rule": "No consequential factual claim may depend only on an unidentified or generic alias.",
+    "non_consequential_rule": "Folklore/context aliases may remain only when they support non-consequential color or contested-signal framing.",
+    "reader_notes_rule": "Reader-facing notes use concise source titles and URLs, while canonical manuscript markers remain internal provenance."
+  },
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T14:17:03Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-006",
+    "source_uri": "books/manuscripts/unusual-indices-book/MASTER_MANUSCRIPT.md"
+  },
+  "records": [
+    {
+      "author_or_institution": "The Economist",
+      "claims_supported": [
+        "The Big Mac Index has public data and calculation code; it is a PPP-oriented consumer-object proxy."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "GitHub / The Economist data repository",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 1"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-economist-big-mac",
+      "source_type": "primary_data_methodology",
+      "title": "Data and methodology for the Big Mac index",
+      "url": "https://github.com/TheEconomist/big-mac-data",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Owner / ABVX",
+      "claims_supported": [
+        "Supporting leads for consumer-object index examples only."
+      ],
+      "primary_or_secondary": "lead_only",
+      "publication": "Local source pack",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 1"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-docx-mixed-research",
+      "source_type": "research_lead_pack",
+      "title": "Owner-supplied unusual indices research source pack",
+      "url": "books/source-packs/unusual-indices-book-source-pack.json",
+      "verification_status": "NON_CONSEQUENTIAL_CONTEXT"
+    },
+    {
+      "author_or_institution": "UBS",
+      "claims_supported": [
+        "City-level prices and wages can be converted into working-time affordability comparisons."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "UBS Prices and Earnings",
+      "publication_date": "2015",
+      "related_chapter": [
+        "Chapter 2"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-ubs-prices-and-earnings",
+      "source_type": "institutional_report",
+      "title": "Prices and Earnings 2015",
+      "url": "https://files.illinoispolicy.org/wp-content/uploads/2015/09/ubs-pricesandearnings-2015-en.pdf",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "World Economic Forum",
+      "claims_supported": [
+        "Secondary summary of UBS-style iPhone working-hours comparisons."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "World Economic Forum",
+      "publication_date": "2015-12-07",
+      "related_chapter": [
+        "Chapter 2"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-wef-iphone-hours",
+      "source_type": "reputable_secondary_summary",
+      "title": "Who has to work the longest to buy an iPhone?",
+      "url": "https://www.weforum.org/stories/economic-growth/who-has-to-work-the-longest-to-buy-an-iphone/",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Investopedia",
+      "claims_supported": [
+        "The Starbucks/latte index is an informal PPP-style consumer-object comparison."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "Investopedia",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 1"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-investopedia-starbucks",
+      "source_type": "reputable_secondary_explainer",
+      "title": "Understanding the Starbucks Index",
+      "url": "https://www.investopedia.com/terms/s/starbucks-index.asp",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Numbeo",
+      "claims_supported": [
+        "Cost-of-living examples such as meals, transport and social activities vary by city."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "Numbeo",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 2"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-numbeo-cost-of-living",
+      "source_type": "secondary_database",
+      "title": "Cost of Living database",
+      "url": "https://www.numbeo.com/cost-of-living/",
+      "verification_status": "SUPPORTING_CONTEXT"
+    },
+    {
+      "author_or_institution": "The Guardian",
+      "claims_supported": [
+        "Lipstick Index as recession folklore / affordable-luxury narrative."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "The Guardian",
+      "publication_date": "2001-12-01",
+      "related_chapter": [
+        "Chapter 3"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-rbc-lipstick",
+      "source_type": "contemporaneous_secondary_reporting",
+      "title": "Lauder's large on the lippie index",
+      "url": "https://www.theguardian.com/business/2001/dec/01/6",
+      "verification_status": "VERIFIED_SECONDARY"
+    },
+    {
+      "author_or_institution": "J.P. Morgan Wealth Management / Chase",
+      "claims_supported": [
+        "The Lipstick Index is an economic theory, not an economically proven indicator."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "Chase",
+      "publication_date": "2026-06-05",
+      "related_chapter": [
+        "Chapter 3"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-lipstick-secondary",
+      "source_type": "reputable_secondary_explainer",
+      "title": "What is the Lipstick Index?",
+      "url": "https://www.chase.com/personal/investments/learning-and-insights/article/what-is-lipstick-index",
+      "verification_status": "VERIFIED_SECONDARY"
+    },
+    {
+      "author_or_institution": "David S. Evans and Alexis Pirchio",
+      "claims_supported": [
+        "Men\u2019s underwear and hemline indicators as folklore examples only."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "International Journal of Technology",
+      "publication_date": "2014",
+      "related_chapter": [
+        "Chapter 3"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-medical-economics-weird",
+      "source_type": "academic_paper",
+      "title": "Do Sales of Men's Underwear Really Predict the State of the Economy?",
+      "url": "https://ijtech.eng.ui.ac.id/article/view/1075",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Jason Barr, Bruce Mizrach, Kusum Mundra",
+      "claims_supported": [
+        "The skyscraper effect is contested and has been empirically tested rather than accepted as a simple forecasting law."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Applied Economics",
+      "publication_date": "2015",
+      "related_chapter": [
+        "Chapter 3"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-skyscraper-paper",
+      "source_type": "academic_paper",
+      "title": "Skyscraper Height and the Business Cycle: Separating Myth from Reality",
+      "url": "https://ideas.repec.org/a/taf/applec/v47y2015i2p148-160.html",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Market Urbanism",
+      "claims_supported": [
+        "The skyscraper index circulated as urban/economic commentary and should be treated as a contested story."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "Market Urbanism",
+      "publication_date": "2008-08-26",
+      "related_chapter": [
+        "Chapter 3"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-market-urbanism",
+      "source_type": "secondary_commentary",
+      "title": "Skyscrapers as Economic Indicators",
+      "url": "https://marketurbanism.com/2008/08/26/skyscrapers-as-economic-indicators/",
+      "verification_status": "SUPPORTING_CONTEXT"
+    },
+    {
+      "author_or_institution": "Baltic Exchange",
+      "claims_supported": [
+        "Baltic Exchange indices are methodology-governed freight-market benchmarks."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Baltic Exchange",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 4"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-baltic-exchange",
+      "source_type": "primary_methodology",
+      "title": "Baltic Exchange methodology",
+      "url": "https://www.balticexchange.com/en/data-services/Methodology.html",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Freightos",
+      "claims_supported": [
+        "Freightos Baltic Index provides container-pricing benchmark context."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Freightos",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 4"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-freightos-baltic",
+      "source_type": "primary_methodology",
+      "title": "Freightos Baltic Index",
+      "url": "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Ember",
+      "claims_supported": [
+        "Electricity and energy data can operate as physical-economy signals."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Ember",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 4"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-ember-energy",
+      "source_type": "data_source",
+      "title": "Energy data",
+      "url": "https://ember-energy.org/data/",
+      "verification_status": "SUPPORTING_CONTEXT"
+    },
+    {
+      "author_or_institution": "Electricity Maps",
+      "claims_supported": [
+        "Electricity maps make grid intensity and physical-system conditions visible."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Electricity Maps",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 4"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-electricitymaps",
+      "source_type": "operational_data_product",
+      "title": "Electricity Maps",
+      "url": "https://app.electricitymaps.com/map",
+      "verification_status": "SUPPORTING_CONTEXT"
+    },
+    {
+      "author_or_institution": "Berkeley Earth",
+      "claims_supported": [
+        "PM2.5 exposure can be communicated through a cigarette-equivalent analogy with explicit caveats."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Berkeley Earth",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 5"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-berkeley-earth",
+      "source_type": "methodology_explainer",
+      "title": "Air Pollution and Cigarette Equivalence",
+      "url": "https://berkeleyearth.org/air-pollution-and-cigarette-equivalence/",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "World Health Organization",
+      "claims_supported": [
+        "PM2.5 health-risk context and air-quality guidance."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "WHO",
+      "publication_date": "2021",
+      "related_chapter": [
+        "Chapter 5"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-who-air-quality",
+      "source_type": "official_guideline",
+      "title": "WHO global air quality guidelines",
+      "url": "https://www.who.int/publications/i/item/9789240034228",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "OpenAQ",
+      "claims_supported": [
+        "AQI standardization and data interoperability are nontrivial."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "OpenAQ",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 5"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-openaq",
+      "source_type": "data_initiative",
+      "title": "AQI Hub",
+      "url": "https://openaq.org/about/initiatives/aqi-hub/",
+      "verification_status": "SUPPORTING_CONTEXT"
+    },
+    {
+      "author_or_institution": "Our World in Data",
+      "claims_supported": [
+        "CO2-equivalent and emissions comparisons require careful unit framing."
+      ],
+      "primary_or_secondary": "secondary",
+      "publication": "Our World in Data",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 5"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-ourworldindata-co2",
+      "source_type": "data_explainer",
+      "title": "CO2 and greenhouse gas emissions",
+      "url": "https://ourworldindata.org/co2-and-greenhouse-gas-emissions",
+      "verification_status": "SUPPORTING_CONTEXT"
+    },
+    {
+      "author_or_institution": "Charles A. E. Goodhart",
+      "claims_supported": [
+        "A measure can stop being a good measure when it becomes a target."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Papers in Monetary Economics, Reserve Bank of Australia",
+      "publication_date": "1975",
+      "related_chapter": [
+        "Chapter 6"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "claim-goodhart-risk",
+      "source_type": "primary_conceptual_reference",
+      "title": "Problems of Monetary Management: The U.K. Experience",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-349-17295-5_4",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "U.S. Department of Justice",
+      "claims_supported": [
+        "LIBOR manipulation is a concrete case of a benchmark becoming a target with incentives attached."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Justice Department Archives",
+      "publication_date": "2018-10-17",
+      "related_chapter": [
+        "Chapter 6"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-libor-case",
+      "source_type": "official_legal_record",
+      "title": "Two Former Deutsche Bank Traders Convicted for Role in Scheme to Manipulate Critical Global Benchmark Interest Rate",
+      "url": "https://www.justice.gov/archives/opa/pr/two-former-deutsche-bank-traders-convicted-role-scheme-manipulate-critical-global-benchmark",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "World Bank Group",
+      "claims_supported": [
+        "The Doing Business report was discontinued after data irregularities and integrity concerns."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "World Bank statement",
+      "publication_date": "2021-09-16",
+      "related_chapter": [
+        "Chapter 6"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-doing-business-report",
+      "source_type": "official_statement",
+      "title": "World Bank Group to Discontinue Doing Business Report",
+      "url": "https://www.worldbank.org/en/news/statement/2021/09/16/world-bank-group-to-discontinue-doing-business-report",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Stanford HAI",
+      "claims_supported": [
+        "AI Index organizes AI-related data for broad readers and decision-makers."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Stanford AI Index",
+      "publication_date": "2026",
+      "related_chapter": [
+        "Chapter 7"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-stanford-ai-index",
+      "source_type": "institutional_report",
+      "title": "AI Index Report",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Oxford Insights",
+      "claims_supported": [
+        "Government AI readiness rankings are broad composite indices, not direct capability measurements."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "Oxford Insights",
+      "publication_date": "2025",
+      "related_chapter": [
+        "Chapter 7"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-oxford-ai-readiness",
+      "source_type": "institutional_index",
+      "title": "Government AI Readiness Index",
+      "url": "https://oxfordinsights.com/ai-readiness/government-ai-readiness-index-2025/",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "SWE-bench project",
+      "claims_supported": [
+        "SWE-bench evaluates real-world software issue resolution using GitHub issue/patch tasks."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "GitHub / project site",
+      "publication_date": null,
+      "related_chapter": [
+        "Chapter 7"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-swe-bench",
+      "source_type": "benchmark_project",
+      "title": "SWE-bench",
+      "url": "https://github.com/swe-bench/SWE-bench",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "Carlos E. Jimenez et al.",
+      "claims_supported": [
+        "SWE-bench is built around real GitHub issues and pull requests."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "arXiv",
+      "publication_date": "2023",
+      "related_chapter": [
+        "Chapter 7"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-swe-bench-paper",
+      "source_type": "academic_paper",
+      "title": "SWE-bench: Can Language Models Resolve Real-world GitHub Issues?",
+      "url": "https://arxiv.org/abs/2310.06770",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "SWE-bench / OpenAI collaboration",
+      "claims_supported": [
+        "SWE-bench Verified is a human-filtered subset created to improve task quality."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "SWE-bench project site",
+      "publication_date": "2024",
+      "related_chapter": [
+        "Chapter 7"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-swebench-verified",
+      "source_type": "benchmark_subset",
+      "title": "SWE-bench Verified",
+      "url": "https://www.swebench.com/verified.html",
+      "verification_status": "VERIFIED"
+    },
+    {
+      "author_or_institution": "OpenAI",
+      "claims_supported": [
+        "SWE-bench Verified became less useful for frontier evaluation because of saturation and contamination concerns."
+      ],
+      "primary_or_secondary": "primary",
+      "publication": "OpenAI",
+      "publication_date": "2026",
+      "related_chapter": [
+        "Chapter 7"
+      ],
+      "reviewed_at": "2026-08-13T14:17:03Z",
+      "source_id": "source-swebench-contamination",
+      "source_type": "benchmark_evaluation_note",
+      "title": "Why SWE-bench Verified no longer measures frontier coding capabilities",
+      "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
+      "verification_status": "VERIFIED"
+    }
+  ],
+  "schema_version": "v1",
+  "source_hierarchy": [
+    "original publisher / methodology",
+    "academic paper / official institution",
+    "high-quality journalism / publisher",
+    "reputable secondary source",
+    "original research/source pack only as lead"
+  ],
+  "state": "SOURCE_REGISTRY_READY_FOR_PROOF"
+}

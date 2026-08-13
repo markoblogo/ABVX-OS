@@ -1,0 +1,42 @@
+{
+  "contact_sheet": "books/artifacts/unusual-indices-book/recovery-proof/human-review-contact-sheet.png",
+  "cover_concepts": {
+    "contact_sheet": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-concepts-contact-sheet.png",
+    "cover_a": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-concept-a.png",
+    "cover_a_thumbnail": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-concept-a-thumbnail.png",
+    "cover_b": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-concept-b.png",
+    "cover_b_thumbnail": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-concept-b-thumbnail.png",
+    "cover_c": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-concept-c.png",
+    "cover_c_thumbnail": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-concept-c-thumbnail.png",
+    "thumbnail_comparison": "books/artifacts/unusual-indices-book/recovery-proof/cover/cover-thumbnail-comparison.png"
+  },
+  "human_decisions_required": [
+    "cover direction",
+    "interior profile",
+    "visual language",
+    "whether to proceed to full build"
+  ],
+  "paperback_recovery_pdf": "books/artifacts/unusual-indices-book/recovery-proof/paperback/unusual-indices-recovery-proof-5x8.pdf",
+  "paperback_review_pages": [
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-01-title-page.png",
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-02-copyright-page.png",
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-03-toc.png",
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-04-chapter-opening.png",
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-06-normal-body.png",
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-08-dense-body.png",
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-10-useful-visual.png",
+    "books/artifacts/unusual-indices-book/recovery-proof/paperback/recovery-11-notes-page.png"
+  ],
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T15:00:53Z",
+    "recorded_by": "BOOK-FACTORY-DESIGN-001",
+    "source_uri": "books/design/unusual-indices-book/build_recovery_proof.py"
+  },
+  "qa_matrix": "books/research/unusual-indices/recovery-proof-qa.json",
+  "rejected_006_not_reused_as_design_base": true,
+  "schema_version": "v1",
+  "state": "PRODUCTION_RECOVERY_PROOF_READY_FOR_HUMAN",
+  "useful_visual": "books/artifacts/unusual-indices-book/recovery-proof/visuals/big-mac-selected-economies.png",
+  "visual_record": "books/research/unusual-indices/recovery-visual-record.json"
+}

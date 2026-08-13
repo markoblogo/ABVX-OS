@@ -1,0 +1,52 @@
+{
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T14:17:04Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-006",
+    "source_uri": "books/research/unusual-indices/visual-plan.json"
+  },
+  "schema_version": "v1",
+  "state": "REPRESENTATIVE_VISUALS_PROOF_READY",
+  "visuals": [
+    {
+      "artifact_refs": [
+        "books/artifacts/unusual-indices-book/design-proof/visuals/visual-a-big-mac-schematic.png"
+      ],
+      "chapter": "Chapter 1",
+      "data_as_of": null,
+      "grayscale_safe": true,
+      "kindle_safe": true,
+      "purpose": "Show how a familiar product becomes an exchange-rate intuition.",
+      "rights_status": "ORIGINAL_DIAGRAM_NO_BRANDED_TRADE_DRESS",
+      "source_ids": [
+        "source-economist-big-mac"
+      ],
+      "status": "PROOF_READY",
+      "transformation": "Conceptual flow diagram; no numeric source data transformed.",
+      "units": "conceptual",
+      "visual_id": "visual-a-big-mac-schematic",
+      "visual_type": "comparison_schematic"
+    },
+    {
+      "artifact_refs": [
+        "books/artifacts/unusual-indices-book/design-proof/visuals/visual-b-benchmark-lifecycle.png"
+      ],
+      "chapter": "Chapter 7",
+      "data_as_of": null,
+      "grayscale_safe": true,
+      "kindle_safe": true,
+      "purpose": "Show how a respected benchmark can become optimized, saturated or contaminated.",
+      "rights_status": "ORIGINAL_DIAGRAM_NO_SCREENSHOTS",
+      "source_ids": [
+        "source-swe-bench",
+        "source-swebench-verified",
+        "source-swebench-contamination"
+      ],
+      "status": "PROOF_READY",
+      "transformation": "Conceptual lifecycle diagram; no leaderboard values used.",
+      "units": "conceptual",
+      "visual_id": "visual-b-benchmark-lifecycle",
+      "visual_type": "process_lifecycle"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schema_version": "v1",
+  "profile_id": "commercial-nonfiction-5x8-bw",
+  "status": "ADMITTED",
+  "publication_profile": "CONVENTIONAL_BOOK",
+  "renderer_family": "PANDOC_XELATEX",
+  "structure_defaults": {
+    "internal_title_page": true,
+    "headed_intro": true,
+    "mandatory_chapters": true,
+    "entry_layout": "FLOWING_PROSE",
+    "closing_length": "STANDARD",
+    "screen_first": false
+  },
+  "human_gates": [
+    "RIGHTS_OR_SCOPE",
+    "VOICE_OR_EDITORIAL_DIRECTION",
+    "VISUAL_DIRECTION",
+    "EXTERNAL_PUBLICATION"
+  ],
+  "qa_profile": [
+    "REQUIRED_SECTIONS",
+    "PAGE_COUNT_SANITY",
+    "TEXT_LAYER",
+    "LINKS_CLICKABLE",
+    "NO_OVERFLOW_IF_DETECTABLE",
+    "PRINT_TOC_PAGE_NUMBERS",
+    "CHAPTER_STARTS_NEW_PAGE",
+    "PAGE_BALANCE",
+    "HEADING_HYPHENATION",
+    "BODY_HYPHENATION_RATE",
+    "READER_NOTES_CLEAN",
+    "FULL_BOOK_CONTACT_SHEET",
+    "KINDLE_PRINT_LEAKAGE"
+  ],
+  "production_rules": [
+    "PRINT_TOC_REQUIRES_PAGE_NUMBERS",
+    "KINDLE_TOC_HAS_NO_PRINT_PAGINATION",
+    "CHAPTER_STARTS_NEW_PAGE",
+    "PRE_CHAPTER_PAGE_BALANCE_REQUIRED",
+    "NO_HEADING_HYPHENATION",
+    "BODY_HYPHENATION_LIMITED",
+    "NO_PROVISIONAL_COPYRIGHT_TEXT",
+    "NO_INTERNAL_PROVENANCE_IN_READER_NOTES",
+    "INTERIOR_VISUALS_OPT_IN",
+    "FULL_BOOK_CONTACT_SHEET_REQUIRED_BEFORE_PROFILE_ADMISSION",
+    "TECHNICAL_QA_DOES_NOT_EQUAL_VISUAL_QA",
+    "KNOWN_PROFILE_FAST_PATH"
+  ],
+  "compatibility": {
+    "compatible": [
+      "commercial prose nonfiction",
+      "primarily text",
+      "5x8 paperback",
+      "black-and-white interior",
+      "low visual density",
+      "simple notes",
+      "conventional left-to-right structure",
+      "reflowable Kindle companion workflow"
+    ],
+    "not_automatically_compatible": [
+      "comics or manga",
+      "art books",
+      "cookbooks",
+      "children's illustrated books",
+      "fixed-layout Kindle",
+      "complex technical manuals",
+      "highly tabular books",
+      "color-heavy interiors",
+      "right-to-left publications",
+      "unusual trim or layout requirements"
+    ]
+  },
+  "admission": {
+    "acceptance_project": "unusual-indices-book",
+    "acceptance_evidence_ref": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json",
+    "approved_at": "2026-08-13T00:00:00Z",
+    "supported_publication_class": "Conventional low-visual-density commercial nonfiction with 5x8 black-and-white paperback and reflowable Kindle companion input.",
+    "renderer_toolchain": ["Pandoc", "XeLaTeX", "Poppler", "DOCX for Kindle Create"],
+    "qa_contract_refs": [
+      "books/factory/contracts/commercial-nonfiction-preflight.json",
+      "books/factory/contracts/visual-qa-contract.json",
+      "books/research/unusual-indices/final-production-008-qa.json"
+    ],
+    "human_gate_required": true
+  },
+  "tokens": {
+    "page": "5x8 inch non-bleed paperback interior",
+    "body_font": "Georgia",
+    "heading_font": "Arial",
+    "body_size_pt": 10,
+    "accent_color": "#8a4a32",
+    "content_width_ratio": 0.78,
+    "vertical_spacing": "commercial nonfiction compact-readable",
+    "fact_label_style": "not applicable; source notes use compact chapter-grouped prose",
+    "link_style": "rust underline in proof; plain readable URL in notes",
+    "verdict_style": "not applicable"
+  },
+  "notes": "Admitted after the human-approved Burgers, Lipstick & Underwear acceptance case. Reuse is limited to the declared compatibility boundary and still requires book-specific rights, editorial, visual and external-publication gates.",
+  "provenance": {
+    "recorded_by": "BOOK-FACTORY-INDICES-009",
+    "observed_at": "2026-08-13T00:00:00Z",
+    "source_uri": "evidence/book-factory/commercial-nonfiction-5x8-bw-acceptance-001.evidence.json"
+  }
+}

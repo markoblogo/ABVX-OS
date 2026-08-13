@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/amazon_publication_package.schema.json",
+  "title": "Amazon Publication Package",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "project_id",
+    "state",
+    "metadata",
+    "sales_copy",
+    "keywords",
+    "categories",
+    "pricing",
+    "ai_disclosure",
+    "rights_checklist",
+    "artifacts",
+    "research_provenance",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "project_id": { "type": "string", "minLength": 1 },
+    "state": { "const": "AMAZON_METADATA_PACKAGE_READY" },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "subtitle", "author", "language", "edition_number", "contributors"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "subtitle": { "type": "string", "minLength": 1 },
+        "author": { "type": "string", "minLength": 1 },
+        "language": { "type": "string", "minLength": 1 },
+        "edition_number": { "type": ["string", "null"] },
+        "contributors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "sales_copy": {
+      "type": "object",
+      "required": ["one_line_hook", "short_description", "full_amazon_description_plain", "full_amazon_description_kdp_html", "back_cover_headline", "back_cover_description", "author_bio", "website_line", "selling_points"]
+    },
+    "keywords": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "intent", "why"],
+        "properties": {
+          "field": { "type": "string", "minLength": 1 },
+          "intent": { "type": "string", "minLength": 1 },
+          "why": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "categories": { "type": "object", "required": ["primary", "secondary", "additional_territory", "selection_note"] },
+    "pricing": { "type": "object", "required": ["marketplace", "kindle_launch_usd", "kindle_normal_usd", "paperback_usd", "paperback_page_count", "rationale"] },
+    "ai_disclosure": { "type": "object", "required": ["official_rule_summary", "recommendation", "human_action"] },
+    "rights_checklist": { "type": "object" },
+    "artifacts": { "type": "object", "required": ["kindle_create_input", "paperback_interior", "approved_front_cover", "paperback_wrap_cover", "kdp_submission"] },
+    "research_provenance": { "type": "array", "minItems": 1, "items": { "type": "string", "format": "uri" } },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["recorded_by", "observed_at", "source_uri"],
+      "properties": {
+        "recorded_by": { "type": "string", "minLength": 1 },
+        "observed_at": { "type": "string", "format": "date-time" },
+        "source_uri": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

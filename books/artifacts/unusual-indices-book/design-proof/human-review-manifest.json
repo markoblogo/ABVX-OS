@@ -1,0 +1,59 @@
+{
+  "cover_full_size": "books/artifacts/unusual-indices-book/design-proof/cover/cover-proof-full.png",
+  "cover_grayscale_thumbnail": "books/artifacts/unusual-indices-book/design-proof/cover/cover-proof-grayscale-thumbnail.png",
+  "cover_thumbnail": "books/artifacts/unusual-indices-book/design-proof/cover/cover-proof-amazon-thumbnail.png",
+  "endnote_proof": "books/research/unusual-indices/endnote-proof.json",
+  "human_review_required": [
+    "cover direction",
+    "paperback typography",
+    "Kindle typography/navigation behavior",
+    "visual language",
+    "endnote treatment",
+    "bounded Chapters 1\u20132 copyedit"
+  ],
+  "kindle_epub_proof": "books/artifacts/unusual-indices-book/design-proof/kindle/unusual-indices-kindle-proof.epub",
+  "paperback_proof_pdf": "books/artifacts/unusual-indices-book/design-proof/paperback/unusual-indices-production-proof-5x8.pdf",
+  "paperback_review_pages": [
+    "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-01.png",
+    "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-03.png",
+    "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-04.png",
+    "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-05.png",
+    "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-07.png",
+    "books/artifacts/unusual-indices-book/design-proof/paperback/review-page-08.png"
+  ],
+  "production_metadata": {
+    "author": "Anton BV",
+    "edition_version": "production-proof-v0",
+    "formats_proved": [
+      "KINDLE_REFLOWABLE",
+      "PAPERBACK_INTERIOR"
+    ],
+    "language": "English",
+    "not_finalized": [
+      "Amazon description",
+      "A+ content",
+      "keywords",
+      "categories",
+      "price",
+      "ISBN",
+      "KDP submission"
+    ],
+    "publication_profile": "CONVENTIONAL_BOOK",
+    "subtitle": "What Strange Indicators Really Tell Us About the Economy",
+    "title": "Burgers, Lipstick & Underwear"
+  },
+  "project_id": "unusual-indices-book",
+  "provenance": {
+    "observed_at": "2026-08-13T14:17:07Z",
+    "recorded_by": "BOOK-FACTORY-INDICES-006",
+    "source_uri": "books/design/unusual-indices-book/build_production_proof.py"
+  },
+  "qa_matrix": "books/research/unusual-indices/production-proof-qa.json",
+  "schema_version": "v1",
+  "source_registry": "books/research/unusual-indices/source-registry.json",
+  "state": "PRODUCTION_PROOF_READY_FOR_HUMAN",
+  "visuals": [
+    "books/artifacts/unusual-indices-book/design-proof/visuals/visual-a-big-mac-schematic.png",
+    "books/artifacts/unusual-indices-book/design-proof/visuals/visual-b-benchmark-lifecycle.png"
+  ]
+}
