@@ -1,0 +1,38 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch3",
+  "chapter_title": "The Folklore of Recession",
+  "central_question": "Why do lipstick, underwear and hemlines survive as economic stories even when the evidence is thin?",
+  "approved_stories": ["Lipstick Index", "Men’s Underwear Index", "Hemline Index", "Skyscraper Index"],
+  "verified_claims": [
+    {
+      "claim": "The Lipstick Index is a media-friendly recession hypothesis with contested evidence, not a dependable macro predictor.",
+      "evidence_status": "CONTESTED",
+      "source_refs": ["source-rbc-lipstick", "source-lipstick-secondary", "https://www.chase.com/personal/investments/learning-and-insights/article/what-is-lipstick-index"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "The Men’s Underwear Index is popularly attributed to Alan Greenspan but remains weakly evidenced as a formal macro signal.",
+      "evidence_status": "CONTESTED",
+      "source_refs": ["source-medical-economics-weird", "https://www.researchgate.net/publication/289848302_Do_Sales_of_Men%27s_Underwear_Really_Predict_the_State_of_the_Economy"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "Skyscraper recession claims are better handled as correlation folklore or contested cycle story than as prediction law.",
+      "evidence_status": "CONTESTED",
+      "source_refs": ["source-skyscraper-paper", "source-market-urbanism"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "Hemline evidence is optional folklore and should not carry central argument weight.",
+      "evidence_status": "FOLKLORE",
+      "source_refs": ["source-medical-economics-weird"],
+      "verification_priority": "P2"
+    }
+  ],
+  "useful_numbers_or_examples": ["lipstick as affordable luxury", "underwear as hidden discretionary replacement", "skyscrapers as boom-time monument"],
+  "myth_or_uncertainty_notes": ["Use attribution language carefully.", "Do not claim lipstick or underwear sales predict recessions."],
+  "visual_opportunities": ["[VISUAL: myth-versus-measure object row — lipstick, underwear, skyscraper silhouette]"],
+  "prohibited_or_unsupported_claims": ["Greenspan formally published the Men’s Underwear Index as a reliable Fed tool.", "Lipstick reliably rises in every downturn.", "Tallest buildings predict recessions."]
+}

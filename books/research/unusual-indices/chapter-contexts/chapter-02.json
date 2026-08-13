@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch2",
+  "chapter_title": "Prices Become Human",
+  "central_question": "Why does work-time often explain affordability better than converted prices?",
+  "approved_stories": ["iPhone Work-Time Index", "Working Hours Index", "Date Night Index", "one affordability comparison"],
+  "verified_claims": [
+    {
+      "claim": "Work-time comparisons translate price into local labor burden, but results depend on wage definitions, tax assumptions, working hours and selected product price.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-ubs-prices-and-earnings", "source-wef-iphone-hours"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "Raw dollar comparisons can obscure lived affordability because local wages and prices move differently.",
+      "evidence_status": "PLAUSIBLE",
+      "source_refs": ["source-ubs-prices-and-earnings", "source-numbeo-cost-of-living"],
+      "verification_priority": "P1"
+    },
+    {
+      "claim": "Lifestyle bundles such as date-night comparisons can be readable but are context-sensitive and method-dependent.",
+      "evidence_status": "PLAUSIBLE",
+      "source_refs": ["source-numbeo-cost-of-living"],
+      "verification_priority": "P1"
+    }
+  ],
+  "useful_numbers_or_examples": ["hours of work to buy a phone", "minutes of work to buy a burger", "affordability as time rather than sticker price"],
+  "myth_or_uncertainty_notes": ["Do not make current city rankings unless refreshed.", "Use work-time examples to explain method, not to crown winners."],
+  "visual_opportunities": ["[VISUAL: work-hours ladder for a common product — values to be filled after final data refresh]"],
+  "prohibited_or_unsupported_claims": ["A work-time comparison is objective truth independent of wage source.", "Date-night rankings are stable economic indicators."]
+}

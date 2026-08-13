@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch7",
+  "chapter_title": "Benchmarks for Machines",
+  "central_question": "Why do AI benchmarks repeat the same old index problem in a new technological costume?",
+  "approved_stories": ["AI Index", "SWE-Bench", "Government AI Readiness Index", "Artificial Analysis methodology"],
+  "verified_claims": [
+    {
+      "claim": "Stanford HAI’s AI Index tracks, collates, distills and visualizes data related to artificial intelligence for policymakers, researchers, executives, journalists and the public.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-stanford-ai-index", "https://hai.stanford.edu/ai-index/2026-ai-index-report"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "SWE-bench evaluates language models on real-world GitHub issues by asking a model to generate a patch for a described problem.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-swe-bench", "https://github.com/swe-bench/SWE-bench"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "Government AI readiness rankings are index-like policy tools and should be read cautiously because they compress institutional, technology and data conditions.",
+      "evidence_status": "PLAUSIBLE",
+      "source_refs": ["source-oxford-ai-readiness", "https://oxfordinsights.com/ai-readiness/government-ai-readiness-index-2025/"],
+      "verification_priority": "P1"
+    }
+  ],
+  "useful_numbers_or_examples": ["SWE-bench Verified as human-filtered subset", "AI Index as multi-domain report", "readiness rankings across governments"],
+  "myth_or_uncertainty_notes": ["Avoid model-score current claims unless refreshed.", "Do not treat leaderboard ranking as general intelligence."],
+  "visual_opportunities": ["[VISUAL: benchmark leaderboard as modern index metaphor]"],
+  "prohibited_or_unsupported_claims": ["AI benchmarks measure intelligence in general.", "A single leaderboard score proves real-world capability."]
+}

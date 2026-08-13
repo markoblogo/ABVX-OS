@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch6",
+  "chapter_title": "When Measures Fight Back",
+  "central_question": "What happens when people optimize, manipulate or govern by the measure?",
+  "approved_stories": ["Goodhart risk", "LIBOR manipulation", "Doing Business discontinuation"],
+  "verified_claims": [
+    {
+      "claim": "Goodhart’s law is rooted in the problem that observed statistical regularities can break down when used for control or targeting.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["https://link.springer.com/chapter/10.1007/978-1-349-17295-5_4", "claim-goodhart-risk"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "LIBOR manipulation is a strong benchmark-governance example involving a critical global interest-rate benchmark.",
+      "evidence_status": "MANIPULATION_GOVERNANCE_CASE",
+      "source_refs": ["source-libor-case", "https://www.justice.gov/archives/opa/pr/two-former-deutsche-bank-traders-convicted-role-scheme-manipulate-critical-global-benchmark"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "The World Bank discontinued Doing Business after data irregularities and reviews/audits, making it a governance caution around rankings.",
+      "evidence_status": "MANIPULATION_GOVERNANCE_CASE",
+      "source_refs": ["source-doing-business-report", "https://www.worldbank.org/en/news/statement/2021/09/16/world-bank-group-to-discontinue-doing-business-report"],
+      "verification_priority": "P1"
+    }
+  ],
+  "useful_numbers_or_examples": ["benchmark becomes target", "critical global benchmark interest rate", "ranking discontinued after irregularities"],
+  "myth_or_uncertainty_notes": ["Do not collapse all target-chasing into fraud.", "Keep legal examples factual and bounded."],
+  "visual_opportunities": ["[VISUAL: measure-to-target feedback loop — grayscale-safe]"],
+  "prohibited_or_unsupported_claims": ["Every optimized metric becomes corrupt.", "Doing Business and LIBOR are the same kind of failure."]
+}

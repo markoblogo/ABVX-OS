@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch5",
+  "chapter_title": "Air You Can Count",
+  "central_question": "Can a cigarette-equivalent make pollution understandable without becoming medically misleading?",
+  "approved_stories": ["Cigarette Equivalent Air Pollution Index", "CO2 Flight Equivalent Index"],
+  "verified_claims": [
+    {
+      "claim": "Cigarette-equivalent pollution is a risk analogy built around PM2.5 exposure, not a literal statement that polluted air delivers the same chemical dose as cigarettes.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-berkeley-earth", "source-who-air-quality"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "PM2.5 concentration, AQI, annual exposure and short-term spikes are different measures and must not be used interchangeably.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-who-air-quality", "source-openaq", "https://www.airnow.gov/aqi/aqi-basics", "https://openaq.org/about/initiatives/aqi-hub/"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "CO2 flight-equivalent comparisons translate emissions into familiar travel units but depend on assumptions such as distance, cabin class and non-CO2 effects.",
+      "evidence_status": "PLAUSIBLE",
+      "source_refs": ["source-ourworldindata-co2", "https://www.icao.int/environmental-protection/environmental-tools/icec"],
+      "verification_priority": "P1"
+    }
+  ],
+  "useful_numbers_or_examples": ["PM2.5 as fine particulate matter", "AQI as a communication scale", "CO2-equivalent as a translation device"],
+  "myth_or_uncertainty_notes": ["Keep chapter tied to human-scale measurement, not an air-pollution guide.", "Avoid medical advice."],
+  "visual_opportunities": ["[VISUAL: PM2.5 concentration to cigarette-equivalent concept graphic — with explicit analogy label]"],
+  "prohibited_or_unsupported_claims": ["Polluted air literally equals smoking the same number of cigarettes.", "AQI values are globally standardized.", "A single pollution spike equals long-term exposure."]
+}

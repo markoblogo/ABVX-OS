@@ -1,0 +1,133 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "mission_id": "BOOK-FACTORY-INDICES-004",
+  "state": "MANUSCRIPT_V1_COMPLETE",
+  "manuscript_path": "books/manuscripts/unusual-indices-book/MASTER_MANUSCRIPT.md",
+  "word_count": 22343,
+  "chapter_count": 8,
+  "chapter_context_count": 8,
+  "chapter_word_counts": [
+    {
+      "section": "Introduction — The World, Translated Badly but Usefully",
+      "words": 911
+    },
+    {
+      "section": "Chapter 1 — The Measure You Can Eat",
+      "words": 3181
+    },
+    {
+      "section": "Chapter 2 — Prices Become Human",
+      "words": 3083
+    },
+    {
+      "section": "Chapter 3 — The Folklore of Recession",
+      "words": 2826
+    },
+    {
+      "section": "Chapter 4 — The Economy Under the Economy",
+      "words": 2809
+    },
+    {
+      "section": "Chapter 5 — Air You Can Count",
+      "words": 2757
+    },
+    {
+      "section": "Chapter 6 — When Measures Fight Back",
+      "words": 2136
+    },
+    {
+      "section": "Chapter 7 — Benchmarks for Machines",
+      "words": 2230
+    },
+    {
+      "section": "Chapter 8 — How to Read a Weird Index",
+      "words": 2366
+    }
+  ],
+  "target_assessment": {
+    "approved_target_words": "30000-35000",
+    "no_minimum_word_count": true,
+    "result": "BELOW_TARGET_BUT_COMPLETE_V1",
+    "notes": "Draft is materially below the target range but covers the approved eight-chapter architecture beginning to end. It was not padded merely to hit target."
+  },
+  "content_coverage": {
+    "all_approved_chapters_present": true,
+    "core_content_represented": true,
+    "burgers_present": true,
+    "lipstick_present": true,
+    "underwear_present": true,
+    "economics_central": true,
+    "measure_myth_tension_preserved": true,
+    "owner_project_bias_detected": false
+  },
+  "verification_summary": {
+    "p0_claims_verified_or_conservatively_handled": 10,
+    "p1_claims_verified_or_conservatively_handled": 8,
+    "p2_claims_verified_or_optional": 4,
+    "source_note_markers": 28,
+    "external_research_actions": 5,
+    "luna_relevance_ranking_calls": 0,
+    "luna_cost_usd": 0,
+    "unresolved_blockers": []
+  },
+  "factual_qa": {
+    "unsupported_major_claims_found": false,
+    "contradictory_numbers_found": false,
+    "folklore_presented_as_robust_found": false,
+    "stale_current_status_claims_found": false,
+    "clear_corrections_applied": [
+      "Avoided current country/city/model ranking claims that would require last-minute refresh.",
+      "Treated lipstick, underwear, hemline and skyscraper claims as contested or folklore rather than predictive law.",
+      "Kept cigarette-equivalent pollution as risk analogy rather than literal medical equivalence.",
+      "Distinguished PM2.5, AQI, annual exposure and short-term spikes.",
+      "Kept AI benchmark claims scoped to benchmark task design rather than general intelligence."
+    ]
+  },
+  "voice_qa": {
+    "voice_contract_followed": true,
+    "known_risks": [
+      "Some V1 passages may still need final human tightening for cadence and length.",
+      "Chapter 6 and Chapter 7 are shorter than early chapters and may be candidates for expansion during editorial QA if the human wants a closer 30k-word product."
+    ],
+    "formulaic_transition_scan": {
+      "the_catch_is": 0,
+      "heres_the_thing": 0,
+      "what_happens_when": 1,
+      "of_course": 0,
+      "in_todays_world": 0
+    }
+  },
+  "narrative_qa": {
+    "progression_preserved": true,
+    "sequence": [
+      "familiar economic measurement",
+      "human-scale affordability/time",
+      "seductive folklore",
+      "physical economy",
+      "equivalence/proxy measurement",
+      "incentives/manipulation",
+      "AI benchmark culture",
+      "how to think about strange measures"
+    ],
+    "material_imbalance_flagged": true,
+    "imbalance_notes": "Chapter 6 and Chapter 7 are shorter but perform narrower bridge functions. No automatic padding applied."
+  },
+  "visuals": {
+    "visual_placeholders": 8,
+    "design_started": false,
+    "policy": "grayscale-safe conceptual markers only"
+  },
+  "state_updates": {
+    "book_spec": "BOOK_SPEC_APPROVED",
+    "manuscript": "MANUSCRIPT_V1_COMPLETE",
+    "next_state": "EDITORIAL_QA_READY",
+    "human_state": "WAITING_FOR_HUMAN",
+    "not_set": [
+      "DESIGN_READY",
+      "KINDLE_READY",
+      "PAPERBACK_READY",
+      "KDP_READY"
+    ]
+  }
+}

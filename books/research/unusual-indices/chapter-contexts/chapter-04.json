@@ -1,0 +1,38 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch4",
+  "chapter_title": "The Economy Under the Economy",
+  "central_question": "What can physical movement reveal that consumer anecdotes cannot?",
+  "approved_stories": ["Baltic Dry Index", "Container Freight Index", "Electricity Demand Index", "Restaurant Reservation Index"],
+  "verified_claims": [
+    {
+      "claim": "Baltic dry bulk freight indices are based on route assessments by vetted shipbrokers, reflecting physical bulk cargo trades and market conditions.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-baltic-exchange", "https://www.balticexchange.com/en/data-services/Methodology.html"],
+      "verification_priority": "P1"
+    },
+    {
+      "claim": "Baltic Dry Index is more grounded than consumer folklore but remains a specific shipping-market signal, not a universal economy meter.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-baltic-exchange", "source-tradingeconomics-bdi"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "Freightos Baltic Index concerns 40-foot container spot freight rates and is distinct from dry bulk shipping measures.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-freightos-baltic", "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/"],
+      "verification_priority": "P1"
+    },
+    {
+      "claim": "Electricity demand and restaurant reservations can act as contextual nowcasting signals but should stay supporting, not central.",
+      "evidence_status": "PLAUSIBLE",
+      "source_refs": ["source-ember-energy", "source-electricitymaps"],
+      "verification_priority": "P1"
+    }
+  ],
+  "useful_numbers_or_examples": ["dry bulk cargo", "40-foot container rates", "ships and electricity as physical-economy signals"],
+  "myth_or_uncertainty_notes": ["Do not equate container freight with dry bulk.", "Avoid investment advice."],
+  "visual_opportunities": ["[VISUAL: dry bulk versus container freight comparison diagram — grayscale-safe]"],
+  "prohibited_or_unsupported_claims": ["BDI predicts all recessions.", "Container and dry-bulk indices measure the same thing."]
+}

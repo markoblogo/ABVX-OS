@@ -1,0 +1,26 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch8",
+  "chapter_title": "How to Read a Weird Index",
+  "central_question": "How can readers enjoy strange measures while keeping their skepticism intact?",
+  "approved_stories": ["reader checklist", "source hierarchy", "myth/evidence taxonomy", "callbacks from earlier chapters"],
+  "verified_claims": [
+    {
+      "claim": "A useful strange index needs a clear object, method, source, scope, update cadence, limitations and incentive check.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["chapter-architecture", "verification-queue", "source_hierarchy"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "Source hierarchy should prefer original publisher/methodology and official or academic sources over repeated folklore.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["verification-queue"],
+      "verification_priority": "P0"
+    }
+  ],
+  "useful_numbers_or_examples": ["burger", "hours", "lipstick", "shipping", "cigarettes", "benchmarks"],
+  "myth_or_uncertainty_notes": ["Do not promise a universal formula.", "The chapter is a reading method, not a data-science manual."],
+  "visual_opportunities": ["[VISUAL: one-page weird-index reader checklist — grayscale-safe]"],
+  "prohibited_or_unsupported_claims": ["All weird indices are useful.", "Only official indices are useful."]
+}

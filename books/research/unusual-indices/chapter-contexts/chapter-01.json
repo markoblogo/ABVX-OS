@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1",
+  "project_id": "unusual-indices-book",
+  "chapter_id": "ch1",
+  "chapter_title": "The Measure You Can Eat",
+  "central_question": "Why can a burger explain exchange rates better than an abstract formula can hold reader attention?",
+  "approved_stories": ["Big Mac Index", "Starbucks Latte Index", "IKEA Billy Index"],
+  "verified_claims": [
+    {
+      "claim": "The Economist publishes Big Mac Index data and calculation code, with source data including local Big Mac prices, exchange rates, GDP and population inputs.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-economist-big-mac", "https://github.com/TheEconomist/big-mac-data"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "The Big Mac Index is useful as a vivid purchasing-power-parity illustration but not a complete currency valuation model.",
+      "evidence_status": "ROBUST",
+      "source_refs": ["source-economist-big-mac"],
+      "verification_priority": "P0"
+    },
+    {
+      "claim": "Single-product comparisons are memorable but noisy; supporting examples such as latte or furniture prices should be used as illustrations rather than superior models.",
+      "evidence_status": "PLAUSIBLE",
+      "source_refs": ["source-investopedia-starbucks", "source-docx-mixed-research"],
+      "verification_priority": "P1"
+    }
+  ],
+  "useful_numbers_or_examples": ["Big Mac as a globally recognizable purchasable object", "local currency price divided by US-dollar price as implied exchange-rate intuition"],
+  "myth_or_uncertainty_notes": ["Do not present a burger as a full PPP basket.", "Avoid stale country-specific price claims unless refreshed during later fact-check."],
+  "visual_opportunities": ["[VISUAL: simple burger price-to-implied-exchange-rate schematic — grayscale-safe]"],
+  "prohibited_or_unsupported_claims": ["The Big Mac Index predicts exchange rates reliably.", "A single burger represents the whole economy."]
+}
