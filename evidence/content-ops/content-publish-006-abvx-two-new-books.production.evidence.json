@@ -1,0 +1,58 @@
+{
+  "id": "content-publish-006-abvx-two-new-books-production",
+  "source": "abvx-content-ops",
+  "timestamp": "2026-08-14T13:47:24Z",
+  "candidate": "abvx.writing",
+  "fixture": "content-publish-006-abvx-two-new-books",
+  "result": "PASS",
+  "metrics": {
+    "execution_mode": "PLAYBOOK",
+    "validation_tier": "QUICK",
+    "publish_mode": "REAL_WRITE",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "abvx.publish-writing",
+    "existing_writing_aggregation_sufficient": true,
+    "separate_notes_surface_created": false,
+    "cover_required": false,
+    "broad_repo_rediscovery_avoided": true,
+    "consumer_specific_fixes": [],
+    "article_checks": {
+      "local_writing_listing_desktop": "PASS",
+      "local_writing_listing_mobile": "PASS",
+      "local_article_desktop": "PASS",
+      "local_article_mobile": "PASS",
+      "local_no_cover_behavior": "PASS",
+      "local_canonical_metadata": "PASS",
+      "local_links_rendered": "PASS",
+      "local_no_duplicate_slug": "PASS"
+    },
+    "production_checks": {
+      "live_writing_page": "PASS",
+      "live_article_page": "PASS",
+      "live_article_links": "PASS"
+    },
+    "actual_cost_class": "CHEAP"
+  },
+  "stdout_ref": "internal:abvx.publish-writing.write",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "content/fixtures/content-publish-006-abvx-two-new-books.json",
+    "content/items/content-publish-006-abvx-two-new-books.json",
+    "content/publish-packets/content-publish-006-abvx-two-new-books.json",
+    "events/projects/abvxsite/content_published-two-new-books.json",
+    "evidence/content-ops/content-publish-006-abvx-two-new-books.publish.evidence.json",
+    "/Volumes/Work/Work/ABVXsite/content/writing/two-new-books.md"
+  ],
+  "provenance": {
+    "recorded_by": "ABVX-PUBLISH-BOOKS-NOTE-001",
+    "source_uri": "https://abvx.xyz/writing/two-new-books",
+    "observed_at": "2026-08-14T13:47:24Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "publish_strategy": "consumer_command",
+    "external_mutation_performed": true
+  }
+}

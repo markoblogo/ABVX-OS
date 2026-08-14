@@ -1,0 +1,210 @@
+{
+  "adapter": {
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "id": "abvx.writing",
+    "mechanism": "Consumer-side publish command for native ABVX writing inside the existing /writing surface",
+    "next_commands": [
+      "Emit publish packet from ABVX-OS.",
+      "Run ABVXsite publish-writing command in dry-run mode.",
+      "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
+      "Run npm run build in /Volumes/Work/Work/ABVXsite if a structural exception is reported.",
+      "Commit and deploy through the existing ABVXsite release flow only after human approval."
+    ],
+    "operation_id": "abvx.publish-writing",
+    "publish_strategy": "consumer_command",
+    "target": "scripts/publish-writing.mjs plus /writing and /writing/[slug]",
+    "target_surface": "abvx.writing"
+  },
+  "artifact_refs": [
+    "content/publish-packets/content-publish-006-abvx-two-new-books.json"
+  ],
+  "consumer_operation": {
+    "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --write",
+    "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --dry-run",
+    "id": "abvx.publish-writing",
+    "target_surface": "abvx.writing"
+  },
+  "enrichment": {
+    "author": "Anton BV",
+    "canonical_path": "/writing/two-new-books",
+    "cortex": null,
+    "date_modified": "2026-08-14",
+    "date_published": "2026-08-14",
+    "hreflang": {
+      "en": "/writing/two-new-books"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "/writing",
+      "/books",
+      "/about"
+    ],
+    "machine_summary": "A short note about two very different books published within a few days: one psychological and fragmentary, the other about strange economic indicators and the limits of proxies.",
+    "meta_description": "A short note about two very different books published within a few days: one psychological and fragmentary, the other about strange economic indicators and the...",
+    "open_graph": {
+      "description": "A short note about two very different books published within a few days: one psychological and fragmentary, the other about strange economic indicators and the...",
+      "image": null,
+      "image_alt": null,
+      "title": "Two New Books"
+    },
+    "primary_entities": [
+      "Anton Biletskyi-Volokh",
+      "ABVX",
+      "Fragments from a Therapist\u2019s Notebook",
+      "Burgers, Lipstick & Underwear"
+    ],
+    "primary_source_links": [
+      "owner:approved-prompt",
+      "https://abvx.xyz/books/fragments-from-a-therapists-notebook",
+      "https://abvx.xyz/books/burgers-lipstick-underwear"
+    ],
+    "publisher": "ABVX",
+    "related_projects": [
+      "books",
+      "writing",
+      "about"
+    ],
+    "seo_title": "Two New Books",
+    "sitemap_state": "INDEXABLE",
+    "slug": "two-new-books",
+    "social_preview": {
+      "description": "A short note about two very different books published within a few days: one psychological and fragmentary, the other about strange economic indicators and the...",
+      "image": null,
+      "image_alt": null,
+      "title": "Two New Books"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "books",
+      "psychology",
+      "economics"
+    ],
+    "topics": [
+      "personal writing",
+      "book publication",
+      "psychology and economics"
+    ],
+    "warnings": []
+  },
+  "history": [
+    {
+      "action": "PREPARE",
+      "actor": "abvx-content-ops",
+      "result": "PREPARED",
+      "timestamp": "2026-08-14T13:42:10Z"
+    },
+    {
+      "action": "APPROVE",
+      "actor": "owner",
+      "result": "APPROVED",
+      "timestamp": "2026-08-14T13:42:21Z"
+    },
+    {
+      "action": "PUBLISH",
+      "actor": "abvx-content-ops",
+      "result": "PUBLISH_PACKET_EMITTED",
+      "timestamp": "2026-08-14T13:42:31Z"
+    }
+  ],
+  "human_gate": {
+    "approved_at": "2026-08-14T13:42:21Z",
+    "approved_by": "owner",
+    "required": true,
+    "state": "APPROVED"
+  },
+  "id": "content-publish-006-abvx-two-new-books",
+  "kind": "note",
+  "locales": [
+    "en"
+  ],
+  "payload": {
+    "asset_refs": [],
+    "author": "Anton BV",
+    "body_lines": [
+      "I somehow ended up publishing two books within a few days. They could hardly be more different, which is probably why I enjoy seeing them next to each other.",
+      "## Fragments from a Therapist\u2019s Notebook",
+      "[Fragments from a Therapist\u2019s Notebook](https://abvx.xyz/books/fragments-from-a-therapists-notebook) is the more personal of the two. It is built from short psychological observations rather than one continuous argument, and it moves through trauma, identity, relationships, anxiety, and the ways people explain themselves to themselves.",
+      "Links: [ABVX book page](https://abvx.xyz/books/fragments-from-a-therapists-notebook), [Kindle](https://www.amazon.com/dp/B0HF38FS2X), [Paperback](https://www.amazon.com/dp/B0HCVPYC5D).",
+      "## Burgers, Lipstick & Underwear",
+      "[Burgers, Lipstick & Underwear](https://abvx.xyz/books/burgers-lipstick-underwear) sits much closer to business and economics, but I wrote it as curious popular nonfiction rather than a technical book. It looks at the strange proxies people use to make large systems legible \u2014 burgers, lipstick, underwear, working time, freight, pollution equivalents, benchmarks \u2014 and asks when an indicator really reveals something and when it turns into folklore, oversimplification, or something people learn to game.",
+      "Links: [ABVX book page](https://abvx.xyz/books/burgers-lipstick-underwear), [Kindle](https://www.amazon.com/dp/B0HF5DWCHB), [Paperback](https://www.amazon.com/dp/B0HF7SJJ7N).",
+      "One book comes out of psychology and observation. The other comes out of markets, business, and measurement. They sit at opposite ends of my interests, which is exactly why I wanted both of them to exist."
+    ],
+    "cover_image": null,
+    "date_published": "2026-08-14",
+    "entities": [
+      "Anton Biletskyi-Volokh",
+      "ABVX",
+      "Fragments from a Therapist\u2019s Notebook",
+      "Burgers, Lipstick & Underwear"
+    ],
+    "excerpt": "A short note about two very different books published within a few days: one psychological and fragmentary, the other about strange economic indicators and the limits of proxies.",
+    "image_alt": null,
+    "internal_link_candidates": [
+      "/writing",
+      "/books",
+      "/about"
+    ],
+    "language": "English",
+    "media_event_candidate": null,
+    "publisher": "ABVX",
+    "related_projects": [
+      "books",
+      "writing",
+      "about"
+    ],
+    "seo_title": "Two New Books",
+    "social_description": "A short note about two very different books published within a few days: one psychological and fragmentary, the other about strange economic indicators and the limits of proxies.",
+    "source_refs": [
+      "owner:approved-prompt",
+      "https://abvx.xyz/books/fragments-from-a-therapists-notebook",
+      "https://abvx.xyz/books/burgers-lipstick-underwear"
+    ],
+    "tags": [
+      "books",
+      "psychology",
+      "economics"
+    ],
+    "topics": [
+      "personal writing",
+      "book publication",
+      "psychology and economics"
+    ]
+  },
+  "project": "abvxsite",
+  "provenance": {
+    "observed_at": "2026-08-14T00:00:00Z",
+    "recorded_by": "ABVX-PUBLISH-BOOKS-NOTE-001",
+    "source_uri": null
+  },
+  "publication": {
+    "event_ref": "events/projects/abvxsite/content_published-two-new-books.json",
+    "evidence_ref": "evidence/content-ops/content-publish-006-abvx-two-new-books.publish.evidence.json",
+    "mode": "REPORT_ONLY_HANDOFF",
+    "packet_ref": "content/publish-packets/content-publish-006-abvx-two-new-books.json",
+    "published_at": "2026-08-14T13:42:31Z",
+    "result": "CONDITIONAL_PASS"
+  },
+  "schema_version": "v1",
+  "slug": "two-new-books",
+  "status": "PUBLISH_PACKET_EMITTED",
+  "summary": "A short note about two very different books published within a few days: one psychological and fragmentary, the other about strange economic indicators and the limits of proxies.",
+  "surface": "writing",
+  "title": "Two New Books",
+  "validation": {
+    "blockers": [],
+    "checks": [
+      "consumer dry-run report",
+      "npm run content:validate"
+    ],
+    "exception_flags": {},
+    "tier": "QUICK",
+    "warnings": [
+      "Routine native writing publication remains body-author-controlled.",
+      "Quick tier is valid only while consumer dry-run and content validation both stay green."
+    ]
+  }
+}
