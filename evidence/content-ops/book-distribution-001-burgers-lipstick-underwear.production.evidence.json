@@ -1,0 +1,119 @@
+{
+  "id": "book-distribution-001-burgers-lipstick-underwear-production",
+  "source": "abvx-content-ops",
+  "timestamp": "2026-08-14T11:15:00Z",
+  "candidate": "multi-repo-book-distribution",
+  "fixture": "book-distribution-001-burgers-lipstick-underwear",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "validation_tier": "STANDARD",
+    "publish_mode": "REAL_WRITE_MULTI_REPO",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "abvx_routes_used": [
+      "mn7r.post",
+      "ssi.short-post",
+      "1d3x.article"
+    ],
+    "direct_repo_fallbacks": [
+      "1d3x.home.recommended-reading",
+      "basket.home.recommended-reading",
+      "books.1d3x.com.catalog"
+    ],
+    "destination_status": {
+      "mn7r_blog": "LIVE_CONFIRMED",
+      "spike_blog": "LIVE_CONFIRMED",
+      "1d3x_blog": "LIVE_CONFIRMED",
+      "1d3x_home_recommended_reading": "LIVE_CONFIRMED",
+      "basket_home_recommended_reading": "PUSHED_NOT_LIVE",
+      "books_1d3x_catalog": "PUSHED_NOT_LIVE"
+    },
+    "editorial_variants": {
+      "mn7r": "execution-discipline-and-reference-signals",
+      "spike": "index-methodology-and-dangerous-proxies",
+      "1d3x": "playful-comparative-numbers",
+      "1d3x_home": "homepage-reading-addition",
+      "basket_home": "basket-native-reading-panel",
+      "books_catalog": "amazon-book-card-without-hero-placement"
+    },
+    "verification_results": {
+      "CONFIRMED": 4,
+      "PUSHED_NOT_LIVE": 2
+    },
+    "capability_gaps": [
+      "MULTI_REPO_PUBLICATION_PACKAGE",
+      "RECOMMENDED_READING_BLOCK",
+      "EXTERNAL_COMMERCE_BOOK",
+      "CROSS_REPO_PUBLICATION_STATE",
+      "COMMIT_PUSH_ORCHESTRATION"
+    ],
+    "improvements_made": [
+      "canonical multi-repo Book Distribution Package with destination-specific variants",
+      "per-destination route and verification state tracking inside ABVX-OS packet",
+      "explicit Kindle and Paperback link handling in canonical package"
+    ],
+    "actual_cost_class": "NORMAL"
+  },
+  "stdout_ref": "internal:targeted-validation-and-live-http-checks",
+  "stderr_ref": "internal:books-and-basket-live-surfaces-not-yet-updated-after-push",
+  "artifact_refs": [
+    "content/publish-packets/book-distribution-001-burgers-lipstick-underwear.json",
+    "content/publish-packets/book-distribution-001-mn7r-burgers-lipstick-underwear.json",
+    "content/publish-packets/book-distribution-001-spike-burgers-lipstick-underwear.json",
+    "content/publish-packets/book-distribution-001-1d3x-burgers-lipstick-underwear.json",
+    "external:/Volumes/Work/Work/MN7R/content/blog/why-strange-indicators-matter-to-market-operators.md",
+    "external:/Volumes/Work/Work/index/src/lib/blog-posts.ts",
+    "external:/Volumes/Work/Work/index/src/lib/platform-blog-posts.ts",
+    "external:/Volumes/Work/Work/index/src/components/platform/platform-landing.tsx",
+    "external:/private/tmp/pop-db-completion.YAe1uB/src/components/basket/basket-landing.tsx",
+    "external:/Users/antonbiletskiy-volokh/Documents/Codex/2026-07-03/task-1-audit-the-existing-book/work/repos/book-landings/apps/agro-library/data/catalog.ts",
+    "https://mn7r.com/blog/why-strange-indicators-matter-to-market-operators",
+    "https://spike.1d3x.com/en/blog/useful-index-or-seductive-number",
+    "https://1d3x.com/blog/the-strange-ways-we-turn-the-world-into-numbers",
+    "https://1d3x.com/",
+    "https://pop.1d3x.com/",
+    "https://books.1d3x.com/"
+  ],
+  "provenance": {
+    "recorded_by": "ABVX-PUBLISH-BOOK-DISTRIBUTION-001",
+    "source_uri": "https://abvx.xyz/books/burgers-lipstick-underwear",
+    "observed_at": "2026-08-14T11:15:00Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repositories": [
+      "/Volumes/Work/Work/MN7R",
+      "/Volumes/Work/Work/index",
+      "/private/tmp/pop-db-completion.YAe1uB",
+      "/Users/antonbiletskiy-volokh/Documents/Codex/2026-07-03/task-1-audit-the-existing-book/work/repos/book-landings"
+    ],
+    "external_mutation_performed": true,
+    "deployment_model": "existing git-connected deployment paths only",
+    "production_blocker": "Basket and books surfaces were pushed but remained stale at live URLs during bounded verification",
+    "commits": {
+      "mn7r": "76ac3953",
+      "index": "d7f874e",
+      "basket_worktree": "87f450a",
+      "book_landings": "ac5ae0d"
+    },
+    "pushes": {
+      "mn7r": "origin/main",
+      "index": "origin/main",
+      "basket_worktree": "origin/codex/pop-db-publish-completion",
+      "book_landings": "origin/main"
+    },
+    "validation": [
+      "MN7R: npm run check",
+      "MN7R: npm run landing:smoke",
+      "index: npm run typecheck",
+      "index: npm run build",
+      "book-landings: npm run typecheck --workspace @book-landings/agro-library",
+      "book-landings: npm run build:packages && npm run build --workspace @book-landings/agro-library",
+      "basket worktree: npx tsc --noEmit",
+      "basket worktree: npx next build --webpack",
+      "ABVX-OS: ./bin/abvx validate",
+      "ABVX-OS: git diff --check"
+    ]
+  }
+}

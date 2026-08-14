@@ -1,0 +1,137 @@
+{
+  "schema_version": "v1",
+  "item_id": "book-distribution-001-mn7r-burgers-lipstick-underwear",
+  "kind": "article",
+  "mode": "EXECUTION_READY",
+  "project": "mn7r",
+  "surface": "post",
+  "title": "Why Strange Indicators Matter to Market Operators",
+  "slug": "why-strange-indicators-matter-to-market-operators",
+  "mechanism": "Consumer-side markdown blog publish command for MN7R public blog content",
+  "consumer_repo": "/Volumes/Work/Work/MN7R",
+  "target": "npm run content:publish-post",
+  "validation_tier": "STANDARD",
+  "validation_checks": [
+    "consumer dry-run report",
+    "npm run check",
+    "npm run landing:smoke"
+  ],
+  "consumer_operation": {
+    "id": "mn7r.publish-post",
+    "target_surface": "mn7r",
+    "dry_run_command": "cd /Volumes/Work/Work/MN7R && npm run content:publish-post -- --packet <packet> --dry-run",
+    "apply_command": "cd /Volumes/Work/Work/MN7R && npm run content:publish-post -- --packet <packet> --write"
+  },
+  "enrichment": {
+    "author": "MN7R",
+    "canonical_path": "/blog/why-strange-indicators-matter-to-market-operators",
+    "date_modified": "2026-08-14",
+    "date_published": "2026-08-14",
+    "hreflang": {
+      "en": "/blog/why-strange-indicators-matter-to-market-operators"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "/blog/a-good-offer-is-a-structured-object-not-a-message",
+      "/blog/mn7r-book-en-free-edition"
+    ],
+    "machine_summary": "A MN7R post framing Burgers, Lipstick & Underwear as a useful guide to the difference between practical signals and seductive market folklore.",
+    "meta_description": "Why brokers and operational market teams should care about the line between useful indicators, memorable proxies, and stories that outlive their evidence.",
+    "open_graph": {
+      "title": "Why Strange Indicators Matter to Market Operators",
+      "description": "Why brokers and operational market teams should care about the line between useful indicators, memorable proxies, and stories that outlive their evidence.",
+      "image": "/blog/burgers-lipstick-underwear.png",
+      "image_alt": "Cover of Burgers, Lipstick & Underwear"
+    },
+    "primary_entities": [
+      "MN7R",
+      "Burgers, Lipstick & Underwear",
+      "market signals",
+      "reference prices"
+    ],
+    "primary_source_links": [
+      "https://abvx.xyz/books/burgers-lipstick-underwear",
+      "https://www.amazon.com/dp/B0HF5DWCHB",
+      "https://www.amazon.com/dp/B0HF7SJJ7N"
+    ],
+    "publisher": "MN7R",
+    "seo_title": "Why Strange Indicators Matter to Market Operators",
+    "sitemap_state": "INDEXABLE",
+    "slug": "why-strange-indicators-matter-to-market-operators",
+    "social_preview": {
+      "title": "Why Strange Indicators Matter to Market Operators",
+      "description": "Why brokers and operational market teams should care about the line between useful indicators, memorable proxies, and stories that outlive their evidence.",
+      "image": "/blog/burgers-lipstick-underwear.png",
+      "image_alt": "Cover of Burgers, Lipstick & Underwear"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "Article"
+    },
+    "tags": [
+      "MN7R",
+      "commodity brokerage",
+      "market signals",
+      "reference prices",
+      "data literacy",
+      "books"
+    ],
+    "topics": [
+      "execution discipline",
+      "proxy signals",
+      "market folklore"
+    ],
+    "warnings": []
+  },
+  "payload": {
+    "asset_refs": [
+      "/Users/antonbiletskiy-volokh/Desktop/Burgers Lipstick Underwear.png"
+    ],
+    "author": "MN7R",
+    "excerpt": "Why brokers and operational market teams should care about the line between useful indicators, memorable proxies, and stories that outlive their evidence.",
+    "cover_image": "/blog/burgers-lipstick-underwear.png",
+    "image_alt": "Cover of Burgers, Lipstick & Underwear",
+    "date_published": "2026-08-14",
+    "seo_title": "Why Strange Indicators Matter to Market Operators",
+    "tags": [
+      "MN7R",
+      "commodity brokerage",
+      "market signals",
+      "reference prices",
+      "data literacy",
+      "books"
+    ],
+    "topics": [
+      "execution discipline",
+      "proxy signals",
+      "market folklore"
+    ],
+    "source_refs": [
+      "content/publish-packets/book-distribution-001-burgers-lipstick-underwear.json",
+      "books/artifacts/unusual-indices-book/final-008/amazon/amazon-publication-package.json"
+    ],
+    "body_lines": [
+      "# Why Strange Indicators Matter to Market Operators",
+      "Commodity teams constantly translate messy reality into usable signals.",
+      "A freight level becomes a market mood. A basis move becomes a warning. A flat price becomes an invitation, a ceiling, or a reason to wait. Good operators do not treat these numbers as decoration. They treat them as working tools.",
+      "That is why *Burgers, Lipstick & Underwear: What Strange Indicators Really Tell Us About the Economy* is relevant well beyond popular-economics readers.",
+      "The book is about the strange proxies people use to make large systems readable: burgers, lipstick, underwear, working-time comparisons, freight, pollution equivalents, and AI benchmarks. Its real subject is judgment. Which measures clarify a situation? Which ones survive because they are memorable rather than reliable? And what happens once people start optimizing for the score instead of the thing the score was meant to describe?",
+      "For brokers, traders, and execution teams, that is not an abstract question.",
+      "Markets are full of shorthand. \"Prompt.\" \"Nearby.\" \"Strong demand.\" \"Soft seller.\" \"Tight logistics.\" Those phrases are useful because they compress information. They are dangerous for exactly the same reason. A shorthand indicator can guide the next call, but it can also conceal missing structure, stale assumptions, or a story the desk keeps repeating after the evidence has moved on.",
+      "The book does not argue against simplification. It argues for proportion.",
+      "A good proxy helps a team orient itself quickly. The Big Mac Index works because it turns a difficult question into a legible comparison while still leaving room for the reader to ask what was lost in translation. A bad proxy does the opposite. It feels vivid enough to end the conversation before the operator has asked whether the comparison is still grounded, comparable, or commercially relevant.",
+      "That distinction matters in physical markets because execution discipline depends on knowing what kind of signal you are holding.",
+      "Some signals are operational. Freight tells you something about movement constraints. Basis tells you something about local scarcity, route economics, or timing pressure. Coverage and respondent depth tell you something about whether a benchmark deserves confidence. These are imperfect measures, but they are close to the machinery of the market.",
+      "Other signals are narrative. They travel because they are intuitive, amusing, or emotionally sticky. Those can still be useful. They can help explain a market to a client, frame a commercial discussion, or make a complex issue memorable. But once a narrative signal is treated like a trading instrument, a forecast, or a substitute for deal-quality information, it stops being a shortcut and starts becoming noise.",
+      "That is one of the book's best lessons for commercial teams: a memorable number is not automatically an actionable one.",
+      "The same issue appears inside operational workflows. A desk may rely on one benchmark because \"everyone watches it,\" one spread because it worked last quarter, or one client story because it has become part of internal market folklore. Over time, the team stops asking whether the indicator still maps to the underlying commercial reality. The proxy becomes institutional habit.",
+      "Once that happens, the measure starts managing the people instead of the people managing the measure.",
+      "This is why the subject belongs in the orbit of execution discipline. Teams that work with offers, bids, logistics, basis, and counterparty expectations need the same habit the book keeps returning to: inspect the method, not just the headline. What is being measured? How current is it? What vanished when the world was compressed into one portable signal? What incentives appear once the measure becomes visible?",
+      "Those are not philosophical questions. They shape how desks explain prices to clients, how they interpret public benchmarks, and how they decide which signals deserve operational attention.",
+      "If you work in brokerage or market operations, the value of the book is not that it gives you one more catchy indicator. It sharpens your instincts about indicators in general.",
+      "Read more on ABVX: [Burgers, Lipstick & Underwear](https://abvx.xyz/books/burgers-lipstick-underwear).",
+      "Kindle: [Amazon Kindle edition](https://www.amazon.com/dp/B0HF5DWCHB).",
+      "Paperback: [Amazon paperback edition](https://www.amazon.com/dp/B0HF7SJJ7N)."
+    ]
+  }
+}

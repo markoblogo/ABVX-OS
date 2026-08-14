@@ -1,0 +1,142 @@
+{
+  "schema_version": "v1",
+  "item_id": "book-distribution-001-burgers-lipstick-underwear",
+  "kind": "external_commerce_book_distribution",
+  "mode": "EXECUTION_READY",
+  "generated_at": "2026-08-14T12:00:00Z",
+  "project": "books",
+  "surface": "multi-repo-book-distribution",
+  "title": "Burgers, Lipstick & Underwear",
+  "slug": "burgers-lipstick-underwear",
+  "mechanism": "Canonical ABVX-OS distribution packet with destination-specific editorial variants and external-commerce links",
+  "validation_tier": "STANDARD",
+  "canonical": {
+    "title": "Burgers, Lipstick & Underwear",
+    "subtitle": "What Strange Indicators Really Tell Us About the Economy",
+    "author": "Anton Biletskyi-Volokh",
+    "canonical_url": "https://abvx.xyz/books/burgers-lipstick-underwear",
+    "kindle_url": "https://www.amazon.com/dp/B0HF5DWCHB",
+    "paperback_url": "https://www.amazon.com/dp/B0HF7SJJ7N",
+    "cover_asset": "/Users/antonbiletskiy-volokh/Desktop/Burgers Lipstick Underwear.png",
+    "summary": "A curious, skeptical tour of the strange indicators people use to understand prices, purchasing power, economic stress, risk, and technological progress.",
+    "short_description": "A sharp, entertaining guide to the strange indicators people use to make the economy readable—from Big Macs and iPhone work-hours to lipstick, freight rates, pollution equivalents, and AI benchmarks.",
+    "key_themes": [
+      "Big Mac Index",
+      "working-time affordability",
+      "lipstick and underwear recession folklore",
+      "freight and physical-economy signals",
+      "pollution equivalents",
+      "AI benchmarks",
+      "proxy selection",
+      "Goodhart-style gaming"
+    ],
+    "provenance_refs": [
+      "books/artifacts/unusual-indices-book/final-008/amazon/amazon-publication-package.json",
+      "https://abvx.xyz/books/burgers-lipstick-underwear"
+    ]
+  },
+  "destinations": [
+    {
+      "id": "mn7r.blog",
+      "repo": "/Volumes/Work/Work/MN7R",
+      "route": "mn7r.post",
+      "status": "PUBLISHED",
+      "variant": "execution-discipline-and-reference-signals"
+    },
+    {
+      "id": "spike.blog",
+      "repo": "/Volumes/Work/Work/index",
+      "route": "ssi.short-post",
+      "status": "PUBLISHED",
+      "variant": "index-methodology-and-dangerous-proxies"
+    },
+    {
+      "id": "1d3x.blog",
+      "repo": "/Volumes/Work/Work/index",
+      "route": "1d3x.article",
+      "status": "PUBLISHED",
+      "variant": "playful-comparative-numbers"
+    },
+    {
+      "id": "1d3x.home.recommended-reading",
+      "repo": "/Volumes/Work/Work/index",
+      "route": "direct-repo-fallback",
+      "status": "PUBLISHED",
+      "variant": "homepage-reading-addition"
+    },
+    {
+      "id": "basket.home.recommended-reading",
+      "repo": "/private/tmp/pop-db-completion.YAe1uB",
+      "route": "direct-repo-fallback",
+      "status": "PUBLISHED_PENDING_LIVE",
+      "variant": "basket-native-reading-panel"
+    },
+    {
+      "id": "books.1d3x.com.catalog",
+      "repo": "/Users/antonbiletskiy-volokh/Documents/Codex/2026-07-03/task-1-audit-the-existing-book/work/repos/book-landings",
+      "route": "direct-repo-fallback",
+      "status": "PUBLISHED_PENDING_LIVE",
+      "variant": "amazon-book-card-without-hero-placement"
+    }
+  ],
+  "editorial_variants": {
+    "mn7r": {
+      "angle": "Measurement is part of execution discipline for brokers, traders, and operational teams.",
+      "promises": [
+        "Some indicators make markets readable.",
+        "Some outlive their evidence and become stories.",
+        "The difference matters when teams rely on reference prices and practical signals."
+      ]
+    },
+    "spike": {
+      "angle": "What makes an index useful, memorable, or dangerous?",
+      "promises": [
+        "Proxy selection and comparability are methodological decisions.",
+        "A memorable number can clarify or distort.",
+        "Useful benchmarks require proportion and source discipline."
+      ]
+    },
+    "1d3x": {
+      "angle": "The broad, intellectually playful version about how people turn the world into comparable numbers.",
+      "promises": [
+        "Everyday objects become measurement tools.",
+        "Memorable numbers travel faster than careful explanations.",
+        "Useful simplifications can still become misleading."
+      ]
+    },
+    "reading_blocks": {
+      "angle": "Compact recommendation with obvious commerce links and optional canonical read-more path.",
+      "promises": [
+        "This is an independent book with reader value.",
+        "It is relevant because it studies consumer objects and strange comparison units.",
+        "The Amazon path should be obvious."
+      ]
+    },
+    "books_catalog": {
+      "angle": "A normal catalog card in the existing book-card language, clearly marked as Amazon rather than free/internal.",
+      "promises": [
+        "No fake downloadable edition.",
+        "No hero/fan placement.",
+        "Card order is between Spot-Market Handbook and Contract Execution Officer Handbook."
+      ]
+    }
+  },
+  "publication_state": {
+    "prepared": true,
+    "published": true,
+    "verified_live": "PARTIAL"
+  },
+  "verification_state": {
+    "mn7r": "LIVE_CONFIRMED",
+    "spike": "LIVE_CONFIRMED",
+    "1d3x_blog": "LIVE_CONFIRMED",
+    "1d3x_home": "LIVE_CONFIRMED",
+    "basket_home": "PUSHED_NOT_LIVE",
+    "books_catalog": "PUSHED_NOT_LIVE"
+  },
+  "notes": [
+    "Use admitted ABVX-OS publish routes for MN7R, SPIKE, and 1D3X blog posts.",
+    "Use direct-repo fallback only where ABVX-OS has no current publish surface contract.",
+    "Preserve the owner-supplied cover asset as canonical source provenance."
+  ]
+}
