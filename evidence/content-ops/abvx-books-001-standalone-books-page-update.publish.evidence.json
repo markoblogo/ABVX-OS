@@ -1,0 +1,67 @@
+{
+  "id": "abvx-books-001-standalone-books-page-update-publish-handoff",
+  "source": "abvx-content-ops",
+  "timestamp": "2026-08-14T10:06:24Z",
+  "candidate": "abvx.press.catalogue",
+  "fixture": "abvx-books-001-standalone-books-page-update",
+  "result": "CONDITIONAL_PASS",
+  "metrics": {
+    "execution_mode": "DEEP",
+    "validation_tier": "STANDARD",
+    "publish_mode": "REPORT_ONLY_HANDOFF",
+    "reasoning_steps": 1,
+    "approx_agent_model_usage": "not_metered_locally",
+    "consumer_operation": "abvx.publish-books-catalogue",
+    "books_added": 2,
+    "groups_touched": [
+      "Language, AI & Toki Pona",
+      "Business, AI & Marketing"
+    ],
+    "media_derivatives_added": [
+      "webp",
+      "avif"
+    ],
+    "cover_sizes_before_mb": {
+      "fragments_png": 2.47,
+      "burgers_png": 2.23
+    },
+    "cover_sizes_after_kb": {
+      "fragments_webp": 185,
+      "fragments_avif": 135,
+      "burgers_webp": 143,
+      "burgers_avif": 87
+    },
+    "description_sources": {
+      "fragments": "owner_supplied_amazon_copy",
+      "burgers": "local_book_factory_amazon_package"
+    },
+    "validated_commands": [
+      "npm run content:validate",
+      "npm run build",
+      "git diff --check"
+    ]
+  },
+  "stdout_ref": "internal:none",
+  "stderr_ref": "internal:none",
+  "artifact_refs": [
+    "content/publish-packets/abvx-books-001-standalone-books-page-update.json",
+    "external:/Volumes/Work/Work/ABVXsite/content/books/fragments-from-a-therapists-notebook.md",
+    "external:/Volumes/Work/Work/ABVXsite/content/books/burgers-lipstick-underwear.md",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/fragments-from-a-therapists-notebook/cover.webp",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/fragments-from-a-therapists-notebook/cover.avif",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/burgers-lipstick-underwear/cover.webp",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/burgers-lipstick-underwear/cover.avif",
+    "events/projects/abvxsite/content_published-standalone-books-fragments-and-burgers.json"
+  ],
+  "provenance": {
+    "recorded_by": "manual-abvx-books-update",
+    "source_uri": "https://abvx.xyz/books",
+    "observed_at": "2026-08-14T10:06:24Z"
+  },
+  "environment": {
+    "repository_path": "/Volumes/Work/Work/ABVX-OS",
+    "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+    "publish_strategy": "manual_catalogue_update",
+    "external_mutation_performed": false
+  }
+}

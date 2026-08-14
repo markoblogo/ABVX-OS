@@ -1,0 +1,147 @@
+{
+  "artifact_refs": [
+    "external:/Volumes/Work/Work/ABVXsite/content/books/fragments-from-a-therapists-notebook.md",
+    "external:/Volumes/Work/Work/ABVXsite/content/books/burgers-lipstick-underwear.md",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/fragments-from-a-therapists-notebook/cover.webp",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/fragments-from-a-therapists-notebook/cover.avif",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/burgers-lipstick-underwear/cover.webp",
+    "external:/Volumes/Work/Work/ABVXsite/public/media/books/burgers-lipstick-underwear/cover.avif"
+  ],
+  "consumer_operation": {
+    "apply_command": "Manual ABVXsite books catalogue update in content/books plus media derivatives",
+    "dry_run_command": "Manual inspection of content/books entries and build validation in /Volumes/Work/Work/ABVXsite",
+    "id": "abvx.publish-books-catalogue",
+    "target_surface": "abvx.books"
+  },
+  "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+  "enrichment": {
+    "author": "Anton Biletskyi-Volokh",
+    "canonical_path": "/books",
+    "date_modified": "2026-08-14T10:06:24Z",
+    "date_published": null,
+    "hreflang": {
+      "en": "/books"
+    },
+    "indexability": "INDEXABLE",
+    "internal_link_suggestions": [
+      "/books/fragments-from-a-therapists-notebook",
+      "/books/burgers-lipstick-underwear"
+    ],
+    "machine_summary": "Adds two standalone Amazon books to the ABVX Press books catalogue and aligns their covers with the existing derivative-media pattern.",
+    "meta_description": "ABVX Press books catalogue update adding Fragments from a Therapist’s Notebook and Burgers, Lipstick & Underwear.",
+    "open_graph": {
+      "description": "Two new standalone books added to the ABVX Press catalogue.",
+      "image": "/media/books/burgers-lipstick-underwear/cover.webp",
+      "image_alt": "Burgers, Lipstick & Underwear cover",
+      "title": "ABVX Press standalone books update"
+    },
+    "primary_entities": [
+      "ABVX Press",
+      "Anton Biletskyi-Volokh",
+      "Fragments from a Therapist’s Notebook",
+      "Burgers, Lipstick & Underwear"
+    ],
+    "primary_source_links": [
+      "https://www.amazon.com/dp/B0HF38FS2X",
+      "https://www.amazon.com/dp/B0HCVPYC5D",
+      "https://www.amazon.com/dp/B0HF5DWCHB",
+      "https://www.amazon.com/dp/B0HF7SJJ7N"
+    ],
+    "publisher": "ABVX",
+    "related_projects": [
+      "abvxsite"
+    ],
+    "seo_title": "ABVX Press — two new standalone books",
+    "sitemap_state": "INDEXABLE",
+    "slug": "standalone-books-fragments-and-burgers",
+    "social_preview": {
+      "description": "Two new standalone books added to the ABVX Press catalogue.",
+      "image": "/media/books/burgers-lipstick-underwear/cover.webp",
+      "image_alt": "Burgers, Lipstick & Underwear cover",
+      "title": "ABVX Press standalone books update"
+    },
+    "structured_data": {
+      "status": "SUPPORTED",
+      "type": "CollectionPage"
+    },
+    "tags": [
+      "books",
+      "abvx press",
+      "amazon",
+      "psychology",
+      "economy"
+    ],
+    "topics": [
+      "books catalogue",
+      "publication metadata",
+      "cover media optimization"
+    ],
+    "warnings": [
+      "Consumer repo was updated locally and validated, but no commit/push/deploy was performed in this packet."
+    ]
+  },
+  "generated_at": "2026-08-14T10:06:24Z",
+  "item_id": "abvx-books-001-standalone-books-page-update",
+  "kind": "book_collection_update",
+  "mechanism": "Manual ABVX Press books catalogue update following the existing file-based publication scheme",
+  "mode": "REPORT_ONLY_HANDOFF",
+  "notes": [
+    "Fragments description body used owner-supplied Amazon copy after Amazon anti-bot blocked automated fetch.",
+    "Burgers description body reused the already prepared local Amazon publication package from Book Factory artifacts."
+  ],
+  "payload": {
+    "asset_refs": [
+      "external:/Volumes/Work/Work/ABVXsite/content/books/fragments-from-a-therapists-notebook.md",
+      "external:/Volumes/Work/Work/ABVXsite/content/books/burgers-lipstick-underwear.md",
+      "external:/Volumes/Work/Work/ABVXsite/public/media/books/fragments-from-a-therapists-notebook/cover.webp",
+      "external:/Volumes/Work/Work/ABVXsite/public/media/books/fragments-from-a-therapists-notebook/cover.avif",
+      "external:/Volumes/Work/Work/ABVXsite/public/media/books/burgers-lipstick-underwear/cover.webp",
+      "external:/Volumes/Work/Work/ABVXsite/public/media/books/burgers-lipstick-underwear/cover.avif"
+    ],
+    "books": [
+      {
+        "group": "Language, AI & Toki Pona",
+        "kindle_url": "https://www.amazon.com/dp/B0HF38FS2X",
+        "paperback_url": "https://www.amazon.com/dp/B0HCVPYC5D",
+        "slug": "fragments-from-a-therapists-notebook",
+        "title": "Fragments from a Therapist’s Notebook"
+      },
+      {
+        "group": "Business, AI & Marketing",
+        "kindle_url": "https://www.amazon.com/dp/B0HF5DWCHB",
+        "paperback_url": "https://www.amazon.com/dp/B0HF7SJJ7N",
+        "slug": "burgers-lipstick-underwear",
+        "title": "Burgers, Lipstick & Underwear"
+      }
+    ],
+    "media_event_candidate": null,
+    "optimization": {
+      "added_derivatives": [
+        "webp",
+        "avif"
+      ],
+      "kept_original_png": true
+    },
+    "source_refs": [
+      "owner:prompt-book-links-and-placement",
+      "owner:fragments-amazon-description",
+      "books/artifacts/unusual-indices-book/final-008/amazon/amazon-publication-package.json"
+    ]
+  },
+  "project": "abvxsite",
+  "required_consumer_steps": [
+    "Commit and push ABVXsite changes through the normal release flow.",
+    "Verify /books and both /books/[slug] pages after deployment."
+  ],
+  "schema_version": "v1",
+  "slug": "standalone-books-fragments-and-burgers",
+  "surface": "books",
+  "target": "content/books/*.md and /books catalogue rendering",
+  "title": "ABVX Press standalone books update",
+  "validation_checks": [
+    "npm run content:validate",
+    "npm run build",
+    "git diff --check"
+  ],
+  "validation_tier": "STANDARD"
+}

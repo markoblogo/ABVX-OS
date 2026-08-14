@@ -1,0 +1,29 @@
+{
+  "schema_version": "v1",
+  "id": "abvxsite-content_published-standalone-books-fragments-and-burgers",
+  "type": "CONTENT_PUBLISHED",
+  "project": "abvxsite",
+  "object": {
+    "kind": "book_collection_update",
+    "id": "standalone-books-fragments-and-burgers",
+    "locator": "books:standalone-books-fragments-and-burgers"
+  },
+  "timestamp": "2026-08-14T10:06:24Z",
+  "origin": "HUMAN_INITIATED",
+  "result": "CONDITIONAL_PASS",
+  "execution_mode": "DEEP",
+  "validation_tier": "STANDARD",
+  "portfolio_effect": "NONE",
+  "artifact_refs": [
+    "content/publish-packets/abvx-books-001-standalone-books-page-update.json",
+    "external:/Volumes/Work/Work/ABVXsite/content/books/fragments-from-a-therapists-notebook.md",
+    "external:/Volumes/Work/Work/ABVXsite/content/books/burgers-lipstick-underwear.md"
+  ],
+  "evidence_ref": "evidence/content-ops/abvx-books-001-standalone-books-page-update.publish.evidence.json",
+  "media_event_candidate": null,
+  "provenance": {
+    "recorded_by": "manual-abvx-books-update",
+    "source_uri": "https://abvx.xyz/books",
+    "observed_at": "2026-08-14T10:06:24Z"
+  }
+}
