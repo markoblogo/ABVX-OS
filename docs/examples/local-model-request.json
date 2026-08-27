@@ -1,0 +1,10 @@
+{
+  "request_id": "abvx-local-smoke-001",
+  "question": "What must remain explicit before an agent acts?",
+  "context": [
+    {
+      "id": "operating-constitution",
+      "text": "Consequential external actions require explicit approval and a separate authority review."
+    }
+  ]
+}
