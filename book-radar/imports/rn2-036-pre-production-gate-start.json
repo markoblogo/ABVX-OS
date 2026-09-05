@@ -1,0 +1,37 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [], "opportunities": [], "scores": [], "products": [], "portfolio_products": [], "launches": [], "actuals": [], "calibrations": [],
+  "evidence": [{
+    "id": "evidence:RN2-036:pre-production-gate-start",
+    "opportunity_id": "RN2-036",
+    "observed_at": "2026-09-05",
+    "summary": "Pre-production gate opened from existing RN2 evidence. Current official baseline confirms filing-date routing, the 128-question oral test, changing officeholder answers, English-test components, and exceptions. Production remains unauthorized.",
+    "details": {
+      "gate_status": "CONDITIONAL_GO_AWAITING_PRODUCTION_APPROVAL",
+      "required_before_drafting": ["lock narrow product promise", "verify exact Amazon competitive gap", "define current-officeholder refresh mechanism", "confirm government-source reuse and non-affiliation treatment", "confirm 4-6 Anton-hour ceiling"],
+      "official_sources": ["https://www.usa.gov/naturalization", "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf", "https://www.uscis.gov/sites/default/files/document/guides/test_components.pdf", "https://www.copyright.gov/title17/92chap1.html"]
+    },
+    "source_ref": "docs/audits/rn2-036-pre-production-gate.md"
+  }],
+  "similarity_results": [{
+    "id": "similarity:RN2-036:B0HFTTG5FH:v1",
+    "opportunity_id": "RN2-036",
+    "portfolio_product_id": "portfolio-product:B0HFTTG5FH",
+    "observed_at": "2026-09-05",
+    "model": "portfolio-similarity-v1",
+    "overall_score": 7.5,
+    "classification": "NOVEL",
+    "confidence": "HIGH",
+    "production_eligible": true,
+    "route": "PRODUCTION_ELIGIBLE",
+    "dimensions": {"buyer":{"score":5,"evidence":"Naturalization applicants versus household owner-operators."},"jtbd":{"score":0,"evidence":"Pass an oral civics test versus transfer continuity knowledge."},"trigger":{"score":0,"evidence":"Naturalization interview versus incapacity or absence."},"promise":{"score":0,"evidence":"Test readiness versus life-system continuity."},"format":{"score":20,"evidence":"Both may use compact practical reference structures."},"information_architecture":{"score":5,"evidence":"Drills and civics explanations do not overlap continuity maps."},"search_intent":{"score":0,"evidence":"Distinct query clusters."},"audience":{"score":0,"evidence":"Distinct audiences."},"differentiation":{"score":100,"evidence":"The product theses are fully differentiated."}}
+  }],
+  "decisions": [{
+    "id": "decision:RN2-036:pre-production-gate-start",
+    "opportunity_id": "RN2-036",
+    "decision": "pre_production_gate_conditional_go",
+    "reason": "Novel against imported catalog and supported by current official sources; drafting still requires explicit production approval and the listed gates.",
+    "decided_at": "2026-09-05",
+    "production_authorized": false
+  }]
+}

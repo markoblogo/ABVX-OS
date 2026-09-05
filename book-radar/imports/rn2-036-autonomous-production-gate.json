@@ -1,0 +1,81 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [], "opportunities": [], "scores": [], "products": [], "portfolio_products": [], "launches": [], "actuals": [], "calibrations": [],
+  "evidence": [{
+    "id": "evidence:RN2-036:autonomous-production-gate",
+    "opportunity_id": "RN2-036",
+    "observed_at": "2026-09-05",
+    "summary": "Authoritative sources and deterministic QA make source-dependent production technically feasible, but current products already cover the proposed 128-question, easy-English, oral/interview-practice thesis. Differentiation failed.",
+    "details": {
+      "gate_status": "BLOCKED_SELECT_NEXT_RADAR_CANDIDATE",
+      "source_sufficiency": "PASS",
+      "rights_clarity": "PASS_WITH_ASSET_LEVEL_CONTROLS",
+      "autonomous_factual_qa": "PASS",
+      "legal_scope": "PASS_WITH_EXCLUSIONS",
+      "anton_hours_estimate": "0.75-1.25 excluding upload mechanics",
+      "commercial_evidence": "DEMAND_CONFIRMED",
+      "product_gap": "FAIL",
+      "competitive_differentiation": "FAIL",
+      "amazon_snapshot": {
+        "observed_at": "2026-09-05",
+        "query": "2025 US citizenship civics test study guide 128 questions",
+        "result_count": 179,
+        "recent_visible_rating_counts": [71, 44, 35, 82, 1151],
+        "observed_promises": ["all 128 questions", "easy answers", "practice tests", "interview prep", "audiobook", "flash cards", "large print", "language editions"],
+        "note": "Volatile Amazon.com observations in a France-localized session; not sales data."
+      },
+      "volatile_question_numbers": [23, 29, 30, 38, 39, 57, 61, 62],
+      "official_sources": [
+        "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
+        "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates",
+        "https://www.govinfo.gov/content/pkg/FR-2025-09-18/pdf/2025-18050.pdf",
+        "https://www.usa.gov/naturalization",
+        "https://www.copyright.gov/title17/92chap1.html",
+        "https://myaccount.uscis.gov/legal-terms"
+      ],
+      "replacement_candidate": "RN2-037"
+    },
+    "source_ref": "docs/audits/rn2-036-pre-production-gate.md"
+  }],
+  "similarity_results": [{
+    "id": "similarity:RN2-037:B0HFTTG5FH:v1",
+    "opportunity_id": "RN2-037",
+    "portfolio_product_id": "portfolio-product:B0HFTTG5FH",
+    "observed_at": "2026-09-05",
+    "model": "portfolio-similarity-v1",
+    "overall_score": 4.0,
+    "classification": "NOVEL",
+    "confidence": "HIGH",
+    "production_eligible": true,
+    "route": "PRODUCTION_ELIGIBLE",
+    "dimensions": {
+      "buyer": {"score": 0, "evidence": "Amateur-radio candidates versus household continuity planners."},
+      "jtbd": {"score": 0, "evidence": "Prepare for a licensing exam versus enable family operational handoff."},
+      "trigger": {"score": 0, "evidence": "Upcoming Technician exam versus incapacity, absence or death."},
+      "promise": {"score": 0, "evidence": "Visual exam understanding versus continuity readiness."},
+      "format": {"score": 20, "evidence": "Both may use compact practical reference pages."},
+      "information_architecture": {"score": 0, "evidence": "Exam domains and drills do not overlap continuity maps."},
+      "search_intent": {"score": 0, "evidence": "Distinct query clusters."},
+      "audience": {"score": 0, "evidence": "Distinct audiences."},
+      "differentiation": {"score": 100, "evidence": "The product theses are unrelated."}
+    }
+  }],
+  "decisions": [
+    {
+      "id": "decision:RN2-036:autonomous-production-gate",
+      "opportunity_id": "RN2-036",
+      "decision": "blocked_select_next_radar_candidate",
+      "reason": "Source-dependent production is feasible, but product-gap and differentiation gates fail: the proposed promise is already represented by free tools and current Amazon products.",
+      "decided_at": "2026-09-05",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN2-037:next-pre-production-gate",
+      "opportunity_id": "RN2-037",
+      "decision": "selected_for_pre_production_gate",
+      "reason": "Next-highest existing RN2 deep-scan candidate after RN2-036; passes Portfolio Similarity Gate.",
+      "decided_at": "2026-09-05",
+      "production_authorized": false
+    }
+  ]
+}

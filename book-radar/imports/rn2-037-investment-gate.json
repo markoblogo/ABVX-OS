@@ -1,0 +1,62 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [], "opportunities": [], "scores": [], "products": [], "portfolio_products": [], "launches": [], "actuals": [], "calibrations": [],
+  "evidence": [{
+    "id": "evidence:RN2-037:investment-gate",
+    "opportunity_id": "RN2-037",
+    "observed_at": "2026-09-05",
+    "summary": "Authorized as a diagram-first concept map with a complete 409-ID crosswalk, not a sequential question-bank guide. Current four-year pool, public-domain source, multiple recent entrants and low accumulated review barriers support a bounded production test.",
+    "details": {
+      "gate_status": "AUTHORIZED",
+      "author_dependency": "NONE",
+      "language": "English",
+      "marketplaces": ["Amazon.com", "Amazon.ca", "Amazon.co.uk"],
+      "source_sufficiency": "PASS",
+      "rights_clarity": "PASS",
+      "autonomous_qa": "PASS",
+      "portfolio_similarity": {"score": 4.0, "classification": "NOVEL", "confidence": "HIGH"},
+      "pool": {"effective_from": "2026-07-01", "effective_to": "2030-06-30", "questions": 409, "diagrams": 3, "errata_date": "2026-02-19"},
+      "market_snapshots": [
+        {"query": "2026 2030 ham radio technician visual study guide", "results": 369},
+        {"query": "ham radio technician visual guide illustrated 2026", "results": 195}
+      ],
+      "recent_visible_rating_counts": [2, 3, 8, 11, 16, 21, 49],
+      "product_thesis": "Diagram-first concept map for nontechnical beginners, with original visuals and complete NCVEC question-ID coverage crosswalk; complements rather than duplicates free randomized practice.",
+      "formats": ["paperback", "Kindle"],
+      "page_range": [140, 180],
+      "visual_range": [60, 80],
+      "anton_hours_range": [1.0, 1.75],
+      "codex_hours_range": [32, 48],
+      "paperback_price_usd": 17.99,
+      "kindle_price_usd": 6.99,
+      "units_90d_range": [25, 60],
+      "royalty_per_unit_usd_range": [4.75, 5.75],
+      "planning_ev_90d_usd": 220,
+      "ev_per_anton_hour_usd_range": [125, 220],
+      "controlling_sources": [
+        "https://ncvec.org/index.php/2026-2030-technician-question-pool",
+        "https://www.arrl.org/question-pools/",
+        "https://www.arrl.org/news/new-technician-question-pool-takes-effect-july-1",
+        "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97"
+      ],
+      "invalidation_conditions": [
+        "current competitor owns comparable diagram-first crosswalk positioning with traction",
+        "visual sample does not outperform prose-first explanations",
+        "409-ID crosswalk cannot remain compact and complete",
+        "black-and-white paperback requires price above USD 19.99",
+        "material source drift reduces shelf life",
+        "unresolved factual, formula, diagram or rights claims remain"
+      ]
+    },
+    "source_ref": "docs/audits/rn2-037-investment-gate.md"
+  }],
+  "similarity_results": [],
+  "decisions": [{
+    "id": "decision:RN2-037:investment-gate",
+    "opportunity_id": "RN2-037",
+    "decision": "authorized",
+    "reason": "Current four-year public-domain pool, multiple recent entrants, modest cycle-reset review barriers, and a diagram-first crosswalk thesis distinct from sequential 409-question guides support a low-Anton-touch production experiment.",
+    "decided_at": "2026-09-05",
+    "production_authorized": true
+  }]
+}

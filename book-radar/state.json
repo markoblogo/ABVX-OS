@@ -897,6 +897,38 @@
       "opportunity_id": "RN2-036",
       "production_authorized": false,
       "reason": "Highest evidence-backed RN2 candidate that is distinct from the current portfolio."
+    },
+    {
+      "decided_at": "2026-09-05",
+      "decision": "pre_production_gate_conditional_go",
+      "id": "decision:RN2-036:pre-production-gate-start",
+      "opportunity_id": "RN2-036",
+      "production_authorized": false,
+      "reason": "Novel against imported catalog and supported by current official sources; drafting still requires explicit production approval and the listed gates."
+    },
+    {
+      "decided_at": "2026-09-05",
+      "decision": "blocked_select_next_radar_candidate",
+      "id": "decision:RN2-036:autonomous-production-gate",
+      "opportunity_id": "RN2-036",
+      "production_authorized": false,
+      "reason": "Source-dependent production is feasible, but product-gap and differentiation gates fail: the proposed promise is already represented by free tools and current Amazon products."
+    },
+    {
+      "decided_at": "2026-09-05",
+      "decision": "selected_for_pre_production_gate",
+      "id": "decision:RN2-037:next-pre-production-gate",
+      "opportunity_id": "RN2-037",
+      "production_authorized": false,
+      "reason": "Next-highest existing RN2 deep-scan candidate after RN2-036; passes Portfolio Similarity Gate."
+    },
+    {
+      "decided_at": "2026-09-05",
+      "decision": "authorized",
+      "id": "decision:RN2-037:investment-gate",
+      "opportunity_id": "RN2-037",
+      "production_authorized": true,
+      "reason": "Current four-year public-domain pool, multiple recent entrants, modest cycle-reset review barriers, and a diagram-first crosswalk thesis distinct from sequential 409-question guides support a low-Anton-touch production experiment."
     }
   ],
   "evidence": [
@@ -1967,6 +1999,190 @@
       "opportunity_id": "RN2-036",
       "source_ref": "docs/audits/radar-native-2-existing-product-match.md",
       "summary": "Selected as the strongest genuinely novel RN2 opportunity after applying the portfolio-similarity gate; selection does not authorize production."
+    },
+    {
+      "details": {
+        "gate_status": "CONDITIONAL_GO_AWAITING_PRODUCTION_APPROVAL",
+        "official_sources": [
+          "https://www.usa.gov/naturalization",
+          "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
+          "https://www.uscis.gov/sites/default/files/document/guides/test_components.pdf",
+          "https://www.copyright.gov/title17/92chap1.html"
+        ],
+        "required_before_drafting": [
+          "lock narrow product promise",
+          "verify exact Amazon competitive gap",
+          "define current-officeholder refresh mechanism",
+          "confirm government-source reuse and non-affiliation treatment",
+          "confirm 4-6 Anton-hour ceiling"
+        ]
+      },
+      "id": "evidence:RN2-036:pre-production-gate-start",
+      "observed_at": "2026-09-05",
+      "opportunity_id": "RN2-036",
+      "source_ref": "docs/audits/rn2-036-pre-production-gate.md",
+      "summary": "Pre-production gate opened from existing RN2 evidence. Current official baseline confirms filing-date routing, the 128-question oral test, changing officeholder answers, English-test components, and exceptions. Production remains unauthorized."
+    },
+    {
+      "details": {
+        "amazon_snapshot": {
+          "note": "Volatile Amazon.com observations in a France-localized session; not sales data.",
+          "observed_at": "2026-09-05",
+          "observed_promises": [
+            "all 128 questions",
+            "easy answers",
+            "practice tests",
+            "interview prep",
+            "audiobook",
+            "flash cards",
+            "large print",
+            "language editions"
+          ],
+          "query": "2025 US citizenship civics test study guide 128 questions",
+          "recent_visible_rating_counts": [
+            71,
+            44,
+            35,
+            82,
+            1151
+          ],
+          "result_count": 179
+        },
+        "anton_hours_estimate": "0.75-1.25 excluding upload mechanics",
+        "autonomous_factual_qa": "PASS",
+        "commercial_evidence": "DEMAND_CONFIRMED",
+        "competitive_differentiation": "FAIL",
+        "gate_status": "BLOCKED_SELECT_NEXT_RADAR_CANDIDATE",
+        "legal_scope": "PASS_WITH_EXCLUSIONS",
+        "official_sources": [
+          "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
+          "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates",
+          "https://www.govinfo.gov/content/pkg/FR-2025-09-18/pdf/2025-18050.pdf",
+          "https://www.usa.gov/naturalization",
+          "https://www.copyright.gov/title17/92chap1.html",
+          "https://myaccount.uscis.gov/legal-terms"
+        ],
+        "product_gap": "FAIL",
+        "replacement_candidate": "RN2-037",
+        "rights_clarity": "PASS_WITH_ASSET_LEVEL_CONTROLS",
+        "source_sufficiency": "PASS",
+        "volatile_question_numbers": [
+          23,
+          29,
+          30,
+          38,
+          39,
+          57,
+          61,
+          62
+        ]
+      },
+      "id": "evidence:RN2-036:autonomous-production-gate",
+      "observed_at": "2026-09-05",
+      "opportunity_id": "RN2-036",
+      "source_ref": "docs/audits/rn2-036-pre-production-gate.md",
+      "summary": "Authoritative sources and deterministic QA make source-dependent production technically feasible, but current products already cover the proposed 128-question, easy-English, oral/interview-practice thesis. Differentiation failed."
+    },
+    {
+      "details": {
+        "anton_hours_range": [
+          1.0,
+          1.75
+        ],
+        "author_dependency": "NONE",
+        "autonomous_qa": "PASS",
+        "codex_hours_range": [
+          32,
+          48
+        ],
+        "controlling_sources": [
+          "https://ncvec.org/index.php/2026-2030-technician-question-pool",
+          "https://www.arrl.org/question-pools/",
+          "https://www.arrl.org/news/new-technician-question-pool-takes-effect-july-1",
+          "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97"
+        ],
+        "ev_per_anton_hour_usd_range": [
+          125,
+          220
+        ],
+        "formats": [
+          "paperback",
+          "Kindle"
+        ],
+        "gate_status": "AUTHORIZED",
+        "invalidation_conditions": [
+          "current competitor owns comparable diagram-first crosswalk positioning with traction",
+          "visual sample does not outperform prose-first explanations",
+          "409-ID crosswalk cannot remain compact and complete",
+          "black-and-white paperback requires price above USD 19.99",
+          "material source drift reduces shelf life",
+          "unresolved factual, formula, diagram or rights claims remain"
+        ],
+        "kindle_price_usd": 6.99,
+        "language": "English",
+        "market_snapshots": [
+          {
+            "query": "2026 2030 ham radio technician visual study guide",
+            "results": 369
+          },
+          {
+            "query": "ham radio technician visual guide illustrated 2026",
+            "results": 195
+          }
+        ],
+        "marketplaces": [
+          "Amazon.com",
+          "Amazon.ca",
+          "Amazon.co.uk"
+        ],
+        "page_range": [
+          140,
+          180
+        ],
+        "paperback_price_usd": 17.99,
+        "planning_ev_90d_usd": 220,
+        "pool": {
+          "diagrams": 3,
+          "effective_from": "2026-07-01",
+          "effective_to": "2030-06-30",
+          "errata_date": "2026-02-19",
+          "questions": 409
+        },
+        "portfolio_similarity": {
+          "classification": "NOVEL",
+          "confidence": "HIGH",
+          "score": 4.0
+        },
+        "product_thesis": "Diagram-first concept map for nontechnical beginners, with original visuals and complete NCVEC question-ID coverage crosswalk; complements rather than duplicates free randomized practice.",
+        "recent_visible_rating_counts": [
+          2,
+          3,
+          8,
+          11,
+          16,
+          21,
+          49
+        ],
+        "rights_clarity": "PASS",
+        "royalty_per_unit_usd_range": [
+          4.75,
+          5.75
+        ],
+        "source_sufficiency": "PASS",
+        "units_90d_range": [
+          25,
+          60
+        ],
+        "visual_range": [
+          60,
+          80
+        ]
+      },
+      "id": "evidence:RN2-037:investment-gate",
+      "observed_at": "2026-09-05",
+      "opportunity_id": "RN2-037",
+      "source_ref": "docs/audits/rn2-037-investment-gate.md",
+      "summary": "Authorized as a diagram-first concept map with a complete 409-ID crosswalk, not a sequential question-bank guide. Current four-year pool, public-domain source, multiple recent entrants and low accumulated review barriers support a bounded production test."
     }
   ],
   "launches": [
@@ -6025,6 +6241,106 @@
       "portfolio_product_id": "portfolio-product:B0HFTTG5FH",
       "production_eligible": false,
       "route": "EXISTING_PRODUCT_AUDIT"
+    },
+    {
+      "classification": "NOVEL",
+      "confidence": "HIGH",
+      "dimensions": {
+        "audience": {
+          "evidence": "Distinct audiences.",
+          "score": 0
+        },
+        "buyer": {
+          "evidence": "Naturalization applicants versus household owner-operators.",
+          "score": 5
+        },
+        "differentiation": {
+          "evidence": "The product theses are fully differentiated.",
+          "score": 100
+        },
+        "format": {
+          "evidence": "Both may use compact practical reference structures.",
+          "score": 20
+        },
+        "information_architecture": {
+          "evidence": "Drills and civics explanations do not overlap continuity maps.",
+          "score": 5
+        },
+        "jtbd": {
+          "evidence": "Pass an oral civics test versus transfer continuity knowledge.",
+          "score": 0
+        },
+        "promise": {
+          "evidence": "Test readiness versus life-system continuity.",
+          "score": 0
+        },
+        "search_intent": {
+          "evidence": "Distinct query clusters.",
+          "score": 0
+        },
+        "trigger": {
+          "evidence": "Naturalization interview versus incapacity or absence.",
+          "score": 0
+        }
+      },
+      "id": "similarity:RN2-036:B0HFTTG5FH:v1",
+      "model": "portfolio-similarity-v1",
+      "observed_at": "2026-09-05",
+      "opportunity_id": "RN2-036",
+      "overall_score": 7.5,
+      "portfolio_product_id": "portfolio-product:B0HFTTG5FH",
+      "production_eligible": true,
+      "route": "PRODUCTION_ELIGIBLE"
+    },
+    {
+      "classification": "NOVEL",
+      "confidence": "HIGH",
+      "dimensions": {
+        "audience": {
+          "evidence": "Distinct audiences.",
+          "score": 0
+        },
+        "buyer": {
+          "evidence": "Amateur-radio candidates versus household continuity planners.",
+          "score": 0
+        },
+        "differentiation": {
+          "evidence": "The product theses are unrelated.",
+          "score": 100
+        },
+        "format": {
+          "evidence": "Both may use compact practical reference pages.",
+          "score": 20
+        },
+        "information_architecture": {
+          "evidence": "Exam domains and drills do not overlap continuity maps.",
+          "score": 0
+        },
+        "jtbd": {
+          "evidence": "Prepare for a licensing exam versus enable family operational handoff.",
+          "score": 0
+        },
+        "promise": {
+          "evidence": "Visual exam understanding versus continuity readiness.",
+          "score": 0
+        },
+        "search_intent": {
+          "evidence": "Distinct query clusters.",
+          "score": 0
+        },
+        "trigger": {
+          "evidence": "Upcoming Technician exam versus incapacity, absence or death.",
+          "score": 0
+        }
+      },
+      "id": "similarity:RN2-037:B0HFTTG5FH:v1",
+      "model": "portfolio-similarity-v1",
+      "observed_at": "2026-09-05",
+      "opportunity_id": "RN2-037",
+      "overall_score": 4.0,
+      "portfolio_product_id": "portfolio-product:B0HFTTG5FH",
+      "production_eligible": true,
+      "route": "PRODUCTION_ELIGIBLE"
     }
   ]
 }
