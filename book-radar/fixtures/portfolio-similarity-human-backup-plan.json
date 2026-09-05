@@ -1,0 +1,50 @@
+{
+  "schema_version": "book-radar-similarity-fixture/v1",
+  "id": "similarity:RN2-001:B0HFTTG5FH",
+  "candidate": {
+    "id": "RN2-001",
+    "concept": "Family emergency information binder",
+    "buyer_job": "Households organizing critical information for an emergency",
+    "format": "Substantive fill-in workbook"
+  },
+  "existing_product": {
+    "title": "THE HUMAN BACKUP PLAN",
+    "author": "Morgan Hale",
+    "kindle_asin": "B0HFTTG5FH",
+    "paperback_asin": "B0HFTT2K3S",
+    "publication_date": "2026-08-19",
+    "formats": ["Kindle", "paperback"],
+    "paperback_pages": 251,
+    "observed_at": "2026-09-05",
+    "source": "https://www.amazon.com/dp/B0HFTTG5FH"
+  },
+  "weights": {
+    "buyer": 15,
+    "jtbd": 25,
+    "trigger": 10,
+    "promise": 20,
+    "format": 5,
+    "information_architecture": 10,
+    "search_intent": 5,
+    "audience": 5,
+    "differentiation": 5
+  },
+  "facets": {
+    "buyer": 80,
+    "jtbd": 95,
+    "trigger": 90,
+    "promise": 92,
+    "format": 55,
+    "information_architecture": 78,
+    "search_intent": 62,
+    "audience": 82,
+    "differentiation": 40
+  },
+  "expected": {
+    "overlap_score": 82.9,
+    "classification": "EXISTING_PRODUCT_MATCH",
+    "confidence": "HIGH",
+    "production_eligible": false,
+    "route": "EXISTING_PRODUCT_AUDIT"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [{"id":"asset-radar-v1-2026-09-04","name":"Asset Radar V1","observed_at":"2026-09-04","status":"DECIDED","scoring_model_id":null}],
+  "opportunities": [
+    {"id":"AZ1","radar_run_id":"asset-radar-v1-2026-09-04","buyer_job":"Tour the French Riviera without renting a car","query_cluster":"French Riviera by train; without a car; day trips from Nice","format":"compact field guide","price_band":"paperback $13.99-16.99; Kindle $5.99-7.99","concept":"French Riviera Without a Car","source":"asset-radar-v1"},
+    {"id":"PS6","radar_run_id":"asset-radar-v1-2026-09-04","buyer_job":"Decline requests without guilt or long explanations","query_cluster":"how to say no without guilt; boundary scripts","format":"pocket script book","price_band":null,"concept":"Say No Without the Long Explanation","source":"asset-radar-v1"},
+    {"id":"AG8","radar_run_id":"asset-radar-v1-2026-09-04","buyer_job":"Standardize physical-trade execution and handoffs","query_cluster":"commodity broker operations manual; trade execution","format":"direct B2B PDF and checklist suite","price_band":null,"concept":"Physical Trade Execution Pack","source":"asset-radar-v1"}
+  ],
+  "evidence": [
+    {"id":"evidence:AZ1","opportunity_id":"AZ1","observed_at":"2026-09-04","summary":"Exact train query showed 239 results and no obvious exact-format leader; current traveler questions repeat the job.","source_ref":"asset-radar-v1-broad-scan.md"},
+    {"id":"evidence:PS6","opportunity_id":"PS6","observed_at":"2026-09-04","summary":"Broad demand exists, but results were crowded and exact newcomer traction was weak.","source_ref":"asset-radar-v1-decision.md"},
+    {"id":"evidence:AG8","opportunity_id":"AG8","observed_at":"2026-09-04","summary":"Strong professional job and asset leverage, but Amazon demand was too small; direct B2B distribution is better.","source_ref":"asset-radar-v1-decision.md"}
+  ],
+  "scores": [],
+  "decisions": [
+    {"id":"decision:AZ1:final","opportunity_id":"AZ1","decision":"winner","reason":"Only candidate clearing all Asset Radar gates","decided_at":"2026-09-04","production_authorized":false},
+    {"id":"decision:PS6:final","opportunity_id":"PS6","decision":"runner_up","reason":"Demand real; differentiation and newcomer evidence weak","decided_at":"2026-09-04","production_authorized":false},
+    {"id":"decision:AG8:final","opportunity_id":"AG8","decision":"wildcard_non_kdp","reason":"Better as a direct B2B product; agro advantage does not imply Amazon fit","decided_at":"2026-09-04","production_authorized":false}
+  ],
+  "products": [], "launches": [], "actuals": [], "calibrations": []
+}

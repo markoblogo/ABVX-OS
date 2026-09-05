@@ -1,0 +1,53 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [],
+  "opportunities": [],
+  "evidence": [
+    {
+      "id": "evidence:RN2-001:existing-product-match:B0HFTTG5FH",
+      "opportunity_id": "RN2-001",
+      "observed_at": "2026-09-05",
+      "summary": "The Human Backup Plan already serves the same continuity and handoff thesis. Amazon packaging is broader, longer and less aligned to family-emergency workbook searches.",
+      "details": {"overlap_score":79.9,"classification":"SAME_PRODUCT_THESIS","kindle_asin":"B0HFTTG5FH","paperback_asin":"B0HFTT2K3S","reviews":0,"paperback_pages":251,"publication_date":"2026-08-19"},
+      "source_ref": "docs/audits/radar-native-2-existing-product-match.md"
+    },
+    {
+      "id": "evidence:RN2-036:replacement-selection",
+      "opportunity_id": "RN2-036",
+      "observed_at": "2026-09-05",
+      "summary": "Selected as the strongest genuinely novel RN2 opportunity after applying the portfolio-similarity gate; selection does not authorize production.",
+      "details": {"stored_score":89.4,"estimated_anton_hours":"4-6 h","conservative_90_day_units":{"low":35,"high":80}},
+      "source_ref": "docs/audits/radar-native-2-existing-product-match.md"
+    }
+  ],
+  "scores": [],
+  "portfolio_products": [],
+  "similarity_results": [{
+    "id": "similarity:RN2-001:B0HFTTG5FH:v1",
+    "opportunity_id": "RN2-001",
+    "portfolio_product_id": "portfolio-product:B0HFTTG5FH",
+    "observed_at": "2026-09-05",
+    "model": "portfolio-similarity-v1",
+    "overall_score": 82.9,
+    "classification": "EXISTING_PRODUCT_MATCH",
+    "confidence": "HIGH",
+    "production_eligible": false,
+    "route": "EXISTING_PRODUCT_AUDIT",
+    "dimensions": {
+      "buyer": {"score":80,"evidence":"Both serve people responsible for a household and the family who may need to take over."},
+      "jtbd": {"score":95,"evidence":"Both organize information so another person can keep important life systems operating."},
+      "trigger": {"score":90,"evidence":"Emergency, incapacity, absence, and death substantially overlap."},
+      "promise": {"score":92,"evidence":"Both promise a usable handoff rather than merely storing facts."},
+      "format": {"score":55,"evidence":"RN2-001 is workbook-first; the existing product is a 251-page prose-led guide."},
+      "information_architecture": {"score":78,"evidence":"Shared money, accounts, documents, access, and action instructions; existing product adds business and digital complexity."},
+      "search_intent": {"score":62,"evidence":"Family-emergency binder language differs from continuity and digital-assets language."},
+      "audience": {"score":82,"evidence":"Family audience overlaps; existing product also targets creators and small-business operators."},
+      "differentiation": {"score":40,"evidence":"Existing product explicitly rejects conventional binder positioning, creating surface differentiation but not a new core job."}
+    }
+  }],
+  "decisions": [
+    {"id":"decision:RN2-001:portfolio-similarity","opportunity_id":"RN2-001","decision":"same_product_thesis","reason":"Already represented by The Human Backup Plan; treat RN2-001 as a packaging test, not a new-book opportunity.","decided_at":"2026-09-05","production_authorized":false},
+    {"id":"decision:RN2-036:replacement-winner","opportunity_id":"RN2-036","decision":"winner_after_similarity_gate","reason":"Highest evidence-backed RN2 candidate that is distinct from the current portfolio.","decided_at":"2026-09-05","production_authorized":false}
+  ],
+  "products": [], "launches": [], "actuals": [], "calibrations": []
+}

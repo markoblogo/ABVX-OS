@@ -1,0 +1,12 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [{"id":"radar-native-1-pmp-2026","name":"PMP Radar-native #1","observed_at":"2026-09-04","status":"PRODUCTION_TRACKING","scoring_model_id":null}],
+  "opportunities": [{"id":"PMP-2026-ORIENTATION","radar_run_id":"radar-native-1-pmp-2026","buyer_job":"Understand the 2026 PMP ecosystem, decide whether PMP is relevant, and take the correct next step","query_cluster":"PMP 2026; new PMP exam; PMP eligibility; PMP explained","format":"compact orientation guide; Kindle and paperback","price_band":null,"concept":"Project Management Certification in 2026","source":"pmp-radar-native-1"}],
+  "evidence": [{"id":"evidence:PMP-2026-ORIENTATION","opportunity_id":"PMP-2026-ORIENTATION","observed_at":"2026-09-04","summary":"Approved compact manuscript of approximately 12,500 words; production cycle completed in roughly one day with low Anton involvement.","source_ref":"books/pmp-2026"}],
+  "scores": [],
+  "decisions": [{"id":"decision:PMP-2026-ORIENTATION:final","opportunity_id":"PMP-2026-ORIENTATION","decision":"winner","reason":"Selected as Radar-native experiment #1","decided_at":"2026-09-04","production_authorized":true}],
+  "products": [{"id":"product:PMP-2026-ORIENTATION","opportunity_id":"PMP-2026-ORIENTATION","title":"Project Management Certification in 2026","formats":["Kindle","paperback"],"word_count_approx":12500,"anton_involvement":"low","cycle_time":"approximately one day","status":"KDP_SUBMITTED","status_note":"Kindle publication initiated; paperback submitted/reviewed. Live marketplace status not asserted.","prediction":null,"transitions":[{"status":"SELECTED","at":"2026-09-04"},{"status":"KDP_SUBMITTED","at":"2026-09-04"}]}],
+  "launches": [{"id":"launch:PMP-2026-ORIENTATION:initial","product_id":"product:PMP-2026-ORIENTATION","submitted_at":"2026-09-04","marketplaces":["Amazon KDP"],"formats":["Kindle","paperback"],"list_prices":null,"ads_used":false,"promo_used":false,"live_at":null}],
+  "actuals": [],
+  "calibrations": []
+}

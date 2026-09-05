@@ -1,0 +1,3802 @@
+{
+  "radar_run_id": "radar-native-2-2026-09-05",
+  "research_date": "2026-09-05",
+  "schema_version": "1.0",
+  "score_method": {
+    "weights": {
+      "demand": 20,
+      "momentum": 8,
+      "competition_weakness": 10,
+      "newcomer_viability": 8,
+      "production_feasibility": 15,
+      "shelf_life": 8,
+      "economics": 12,
+      "new_entrant_evidence": 10,
+      "evidence_quality": 9
+    },
+    "formula": "weighted 1-5 score normalized to 100, minus paid-ad and rights/trademark/compliance penalties"
+  },
+  "opportunities": [
+    {
+      "id": "RN2-001",
+      "group": "household",
+      "concept": "Family emergency information binder",
+      "buyer": "households organizing critical information",
+      "buyer_job": "households organizing critical information: family emergency information binder",
+      "query_cluster": "family emergency binder; in case of emergency organizer",
+      "format": "substantive fill-in workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 3,
+        "newcomer_viability": 4,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 4,
+        "evidence_quality": 4
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 82.6,
+      "evidence": "Amazon: 739 results; Aug 2025 indie, 44 ratings, BSR #123,801; strong newcomer evidence",
+      "decision": "top_three",
+      "rejection_reason": null,
+      "deep_scan": {
+        "rank": 1,
+        "estimated_anton_hours": "<=3 h",
+        "conservative_90_day_units": {
+          "low": 25,
+          "high": 55
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.2,
+          "high": 4.2
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 80,
+          "high": 230
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      },
+      "detailed_evidence": {
+        "amazon_query_results": 739,
+        "observed_product": {
+          "title": "Family Emergency Handbook",
+          "publication_date": "2025-08-19",
+          "pages": 107,
+          "price_display": "EUR 11.64",
+          "ratings": 44,
+          "bsr_books": 123801
+        },
+        "sources": [
+          "https://www.amazon.com/s?k=family+emergency+binder+book"
+        ]
+      }
+    },
+    {
+      "id": "RN2-002",
+      "group": "household",
+      "concept": "First-year homeowner maintenance log",
+      "buyer": "first-time homeowners",
+      "buyer_job": "first-time homeowners: first-year homeowner maintenance log",
+      "query_cluster": "home maintenance log book for homeowners",
+      "format": "guided log + seasonal checklists",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 73.6,
+      "evidence": "Amazon: 1,000+ results; broad demand but heavy low-content supply",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 7,
+        "estimated_anton_hours": "<=3 h",
+        "conservative_90_day_units": {
+          "low": 8,
+          "high": 20
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.0,
+          "high": 4.2
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 24,
+          "high": 84
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-003",
+      "group": "household",
+      "concept": "Home inventory for insurance claims",
+      "buyer": "homeowners and renters",
+      "buyer_job": "homeowners and renters: home inventory for insurance claims",
+      "query_cluster": "home inventory book insurance",
+      "format": "room-by-room inventory workbook",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 4
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 62.4,
+      "evidence": "Amazon: 548 results; older leader 43 ratings; 2026 entrants mostly 0–1",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-004",
+      "group": "household",
+      "concept": "Aging-parent information binder",
+      "buyer": "adult children coordinating parents' information",
+      "buyer_job": "adult children coordinating parents' information: aging-parent information binder",
+      "query_cluster": "caregiver binder aging parents",
+      "format": "dual-user organizer",
+      "price_band": "$14.99–18.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 3,
+        "newcomer_viability": 3,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 72.2,
+      "evidence": "Amazon: 217 caregiver-binder results; adjacent family-organizer demand",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 8,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 8,
+          "high": 20
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.2,
+          "high": 4.5
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 26,
+          "high": 90
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-005",
+      "group": "household",
+      "concept": "First apartment move-in inspection",
+      "buyer": "young renters",
+      "buyer_job": "young renters: first apartment move-in inspection",
+      "query_cluster": "first apartment checklist book",
+      "format": "inspection + setup workbook",
+      "price_band": "$9.99–12.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 65.6,
+      "evidence": "Amazon: 240 results; buyer job clear; newcomer traction not established",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-006",
+      "group": "household",
+      "concept": "Digital legacy organizer",
+      "buyer": "adults documenting digital accounts",
+      "buyer_job": "adults documenting digital accounts: digital legacy organizer",
+      "query_cluster": "digital legacy planner",
+      "format": "privacy-first workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 63.8,
+      "evidence": "Broad-screen inference for household; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-007",
+      "group": "household",
+      "concept": "Pet emergency information binder",
+      "buyer": "multi-pet households",
+      "buyer_job": "multi-pet households: pet emergency information binder",
+      "query_cluster": "pet emergency binder",
+      "format": "fill-in reference",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 63.8,
+      "evidence": "Broad-screen inference for household; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-008",
+      "group": "legal_life_admin",
+      "concept": "Executor's first 30 days notebook",
+      "buyer": "first-time executors",
+      "buyer_job": "first-time executors: executor's first 30 days notebook",
+      "query_cluster": "executor notebook estate",
+      "format": "plain-English action notebook",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 4,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 4
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 64.0,
+      "evidence": "Amazon: 113 results; established handbook 522 ratings; legal accuracy burden",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 12,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 5,
+          "high": 14
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.5,
+          "high": 5.0
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 18,
+          "high": 70
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-009",
+      "group": "legal_life_admin",
+      "concept": "Funeral planning conversation workbook",
+      "buyer": "families planning ahead",
+      "buyer_job": "families planning ahead: funeral planning conversation workbook",
+      "query_cluster": "funeral planning workbook",
+      "format": "conversation + preference workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for legal_life_admin; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-010",
+      "group": "legal_life_admin",
+      "concept": "Divorce household transition checklist",
+      "buyer": "separating adults",
+      "buyer_job": "separating adults: divorce household transition checklist",
+      "query_cluster": "divorce moving checklist workbook",
+      "format": "non-legal logistics workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for legal_life_admin; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-011",
+      "group": "legal_life_admin",
+      "concept": "Co-parenting communication log",
+      "buyer": "separated parents",
+      "buyer_job": "separated parents: co-parenting communication log",
+      "query_cluster": "co parenting communication log book",
+      "format": "factual incident/communication log",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for legal_life_admin; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-012",
+      "group": "legal_life_admin",
+      "concept": "Estate-sale organizer",
+      "buyer": "families clearing a home",
+      "buyer_job": "families clearing a home: estate-sale organizer",
+      "query_cluster": "estate sale organizer book",
+      "format": "inventory + sale planner",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for legal_life_admin; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-013",
+      "group": "legal_life_admin",
+      "concept": "Name-change checklist after marriage",
+      "buyer": "newlyweds",
+      "buyer_job": "newlyweds: name-change checklist after marriage",
+      "query_cluster": "name change checklist book",
+      "format": "administrative workbook",
+      "price_band": "$9.99–12.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for legal_life_admin; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-014",
+      "group": "legal_life_admin",
+      "concept": "International move document tracker",
+      "buyer": "families relocating abroad",
+      "buyer_job": "families relocating abroad: international move document tracker",
+      "query_cluster": "moving abroad checklist workbook",
+      "format": "document + deadline planner",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for legal_life_admin; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-015",
+      "group": "education_parenting",
+      "concept": "IEP meeting organizer for parents",
+      "buyer": "parents navigating special education",
+      "buyer_job": "parents navigating special education: iep meeting organizer for parents",
+      "query_cluster": "IEP meeting organizer for parents",
+      "format": "advocacy preparation workbook",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 3,
+        "newcomer_viability": 3,
+        "production_feasibility": 4,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 4
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 66.0,
+      "evidence": "Amazon: 615 results; 2024 notes book 15 ratings; 2026 supply active",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 10,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 6,
+          "high": 16
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.0,
+          "high": 4.2
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 18,
+          "high": 67
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-016",
+      "group": "education_parenting",
+      "concept": "College roommate agreement workbook",
+      "buyer": "first-year college roommates",
+      "buyer_job": "first-year college roommates: college roommate agreement workbook",
+      "query_cluster": "college roommate agreement workbook",
+      "format": "guided agreement + check-ins",
+      "price_band": "$9.99–12.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for education_parenting; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-017",
+      "group": "education_parenting",
+      "concept": "Study-abroad predeparture planner",
+      "buyer": "students going abroad",
+      "buyer_job": "students going abroad: study-abroad predeparture planner",
+      "query_cluster": "study abroad planner checklist",
+      "format": "travel/admin workbook",
+      "price_band": "$12.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for education_parenting; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-018",
+      "group": "education_parenting",
+      "concept": "Homeschool transcript planner",
+      "buyer": "homeschooling high-school families",
+      "buyer_job": "homeschooling high-school families: homeschool transcript planner",
+      "query_cluster": "homeschool transcript planner",
+      "format": "records + planning workbook",
+      "price_band": "$14.99–18.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for education_parenting; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-019",
+      "group": "education_parenting",
+      "concept": "Parent-teacher conference notebook",
+      "buyer": "parents of elementary students",
+      "buyer_job": "parents of elementary students: parent-teacher conference notebook",
+      "query_cluster": "parent teacher conference notebook",
+      "format": "question + notes workbook",
+      "price_band": "$8.99–11.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for education_parenting; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-020",
+      "group": "education_parenting",
+      "concept": "Middle-school executive-function planner",
+      "buyer": "students who need task structure",
+      "buyer_job": "students who need task structure: middle-school executive-function planner",
+      "query_cluster": "middle school executive function planner",
+      "format": "undated guided planner",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for education_parenting; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-021",
+      "group": "education_parenting",
+      "concept": "College move-in command book",
+      "buyer": "families sending a student to college",
+      "buyer_job": "families sending a student to college: college move-in command book",
+      "query_cluster": "college move in planner",
+      "format": "checklist + room planner",
+      "price_band": "$11.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for education_parenting; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-022",
+      "group": "professional",
+      "concept": "Substitute teacher survival guide",
+      "buyer": "new substitute teachers",
+      "buyer_job": "new substitute teachers: substitute teacher survival guide",
+      "query_cluster": "substitute teacher survival guide",
+      "format": "compact field guide + templates",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 4,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 63.0,
+      "evidence": "Amazon: 88 results; specific buyer, weak newcomer proof",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 13,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 4,
+          "high": 12
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.0,
+          "high": 4.2
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 12,
+          "high": 50
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-023",
+      "group": "professional",
+      "concept": "New manager one-to-one meeting system",
+      "buyer": "first-time managers",
+      "buyer_job": "first-time managers: new manager one-to-one meeting system",
+      "query_cluster": "new manager one on one meeting journal",
+      "format": "guided reference + reusable templates",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 68.6,
+      "evidence": "Amazon: 95 exact results; broad management competition",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 9,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 6,
+          "high": 18
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.2,
+          "high": 4.6
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 19,
+          "high": 83
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-024",
+      "group": "professional",
+      "concept": "Warehouse shift handover log",
+      "buyer": "warehouse supervisors",
+      "buyer_job": "warehouse supervisors: warehouse shift handover log",
+      "query_cluster": "warehouse shift handover log book",
+      "format": "structured operations log",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for professional; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-025",
+      "group": "professional",
+      "concept": "Restaurant manager shift handover",
+      "buyer": "restaurant shift managers",
+      "buyer_job": "restaurant shift managers: restaurant manager shift handover",
+      "query_cluster": "restaurant manager shift log book",
+      "format": "operations log + checklists",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for professional; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-026",
+      "group": "professional",
+      "concept": "Freelancer client-onboarding workbook",
+      "buyer": "new freelancers",
+      "buyer_job": "new freelancers: freelancer client-onboarding workbook",
+      "query_cluster": "client onboarding workbook freelancer",
+      "format": "process workbook",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for professional; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-027",
+      "group": "professional",
+      "concept": "Small nonprofit board orientation",
+      "buyer": "first-time nonprofit board members",
+      "buyer_job": "first-time nonprofit board members: small nonprofit board orientation",
+      "query_cluster": "nonprofit board member handbook",
+      "format": "compact primer",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for professional; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-028",
+      "group": "professional",
+      "concept": "Technical behavioral interview stories",
+      "buyer": "engineers preparing interviews",
+      "buyer_job": "engineers preparing interviews: technical behavioral interview stories",
+      "query_cluster": "behavioral interview workbook engineers",
+      "format": "story-bank workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for professional; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-029",
+      "group": "careers",
+      "concept": "Layoff recovery action workbook",
+      "buyer": "recently laid-off professionals",
+      "buyer_job": "recently laid-off professionals: layoff recovery action workbook",
+      "query_cluster": "job loss layoff workbook",
+      "format": "30-day action workbook",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 5,
+        "competition_weakness": 4,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 69.2,
+      "evidence": "Amazon: 45 exact results; timely job, purchase traction unclear",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 11,
+        "estimated_anton_hours": "<=3 h",
+        "conservative_90_day_units": {
+          "low": 5,
+          "high": 15
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 2.8,
+          "high": 4.0
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 14,
+          "high": 60
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-030",
+      "group": "careers",
+      "concept": "First 90 days as a paralegal",
+      "buyer": "new paralegals",
+      "buyer_job": "new paralegals: first 90 days as a paralegal",
+      "query_cluster": "new paralegal guide first job",
+      "format": "career field guide",
+      "price_band": "$14.99–18.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for careers; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-031",
+      "group": "careers",
+      "concept": "Dental assistant career orientation",
+      "buyer": "career changers",
+      "buyer_job": "career changers: dental assistant career orientation",
+      "query_cluster": "dental assistant career guide",
+      "format": "decision primer",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for careers; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-032",
+      "group": "careers",
+      "concept": "Medical coding career orientation",
+      "buyer": "career changers",
+      "buyer_job": "career changers: medical coding career orientation",
+      "query_cluster": "medical coding career guide",
+      "format": "decision primer",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for careers; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-033",
+      "group": "careers",
+      "concept": "Film production assistant field guide",
+      "buyer": "new film crew",
+      "buyer_job": "new film crew: film production assistant field guide",
+      "query_cluster": "production assistant handbook film",
+      "format": "pocket field guide",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for careers; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-034",
+      "group": "careers",
+      "concept": "Trade-school decision workbook",
+      "buyer": "high-school graduates and adults",
+      "buyer_job": "high-school graduates and adults: trade-school decision workbook",
+      "query_cluster": "trade school career workbook",
+      "format": "comparison workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for careers; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-035",
+      "group": "careers",
+      "concept": "Internship reflection and evidence journal",
+      "buyer": "college interns",
+      "buyer_job": "college interns: internship reflection and evidence journal",
+      "query_cluster": "internship reflection journal",
+      "format": "guided portfolio journal",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for careers; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-036",
+      "group": "certification",
+      "concept": "2025 U.S. citizenship civics test guide",
+      "buyer": "naturalization applicants filing under 2025 test",
+      "buyer_job": "naturalization applicants filing under 2025 test: 2025 u.s. citizenship civics test guide",
+      "query_cluster": "US citizenship test study guide 2026 128 questions",
+      "format": "simple-English study guide + oral drills",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 5,
+        "momentum": 5,
+        "competition_weakness": 3,
+        "newcomer_viability": 5,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 5,
+        "new_entrant_evidence": 5,
+        "evidence_quality": 5
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 89.4,
+      "evidence": "Amazon: 627 results; Dec 2025 indie 71 ratings, BSR #7,220, 101 pp; official test changed",
+      "decision": "top_three",
+      "rejection_reason": null,
+      "deep_scan": {
+        "rank": 2,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 35,
+          "high": 80
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.0,
+          "high": 4.2
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 105,
+          "high": 336
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      },
+      "detailed_evidence": {
+        "amazon_query_results_range": [
+          627,
+          667
+        ],
+        "observed_product": {
+          "title": "US Citizenship Test Study Guide 2026 and 2027",
+          "publication_date": "2025-12-29",
+          "pages": 101,
+          "price_display": "EUR 10.34",
+          "ratings": 71,
+          "bsr_books": 7220
+        },
+        "sources": [
+          "https://www.amazon.com/s?k=US+citizenship+test+study+guide+2026+128+questions",
+          "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
+          "https://www.usa.gov/naturalization"
+        ]
+      }
+    },
+    {
+      "id": "RN2-037",
+      "group": "certification",
+      "concept": "2026–2030 ham Technician visual study guide",
+      "buyer": "first-time amateur-radio candidates",
+      "buyer_job": "first-time amateur-radio candidates: 2026–2030 ham technician visual study guide",
+      "query_cluster": "ham radio technician 2026 2030 study guide",
+      "format": "visual cram guide + drills",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 5,
+        "competition_weakness": 3,
+        "newcomer_viability": 5,
+        "production_feasibility": 4,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 5,
+        "evidence_quality": 5
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 81.6,
+      "evidence": "Amazon: 521 results; Jun 2026 indie 21 ratings, BSR #17,899; official public-domain pool new July 2026",
+      "decision": "top_three",
+      "rejection_reason": null,
+      "deep_scan": {
+        "rank": 3,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 20,
+          "high": 50
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.8,
+          "high": 5.2
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 76,
+          "high": 260
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      },
+      "detailed_evidence": {
+        "amazon_query_results_range": [
+          521,
+          526
+        ],
+        "observed_product": {
+          "title": "The Ham Radio Prep Technician Class License Manual (2026-2030)",
+          "publication_date": "2026-06-09",
+          "pages": 340,
+          "price_display": "EUR 14.62",
+          "ratings": 21,
+          "bsr_books": 17899
+        },
+        "sources": [
+          "https://www.amazon.com/s?k=ham+radio+technician+class+2026+2030+study+guide",
+          "https://ncvec.org/index.php/2026-2030-technician-question-pool",
+          "https://www.arrl.org/instruction-arrl-resources"
+        ]
+      }
+    },
+    {
+      "id": "RN2-038",
+      "group": "certification",
+      "concept": "FAA Part 107 weather-and-airspace workbook",
+      "buyer": "commercial-drone candidates",
+      "buyer_job": "commercial-drone candidates: faa part 107 weather-and-airspace workbook",
+      "query_cluster": "FAA Part 107 study guide 2026",
+      "format": "focused visual workbook",
+      "price_band": "$16.99–22.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 4
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 59.4,
+      "evidence": "Amazon: 122 results; ongoing certification demand; high accuracy burden",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Exceeds six-hour gate",
+      "deep_scan": {
+        "rank": 14,
+        "estimated_anton_hours": "7-12 h",
+        "conservative_90_day_units": {
+          "low": 5,
+          "high": 15
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 4.0,
+          "high": 5.5
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 20,
+          "high": 83
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-039",
+      "group": "certification",
+      "concept": "California notary exam plain-English review",
+      "buyer": "California notary candidates",
+      "buyer_job": "California notary candidates: california notary exam plain-english review",
+      "query_cluster": "California notary exam study guide 2026",
+      "format": "state-specific review guide",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 57.6,
+      "evidence": "Broad-screen inference for certification; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-040",
+      "group": "certification",
+      "concept": "EPA 608 core quick review",
+      "buyer": "HVAC certification candidates",
+      "buyer_job": "HVAC certification candidates: epa 608 core quick review",
+      "query_cluster": "EPA 608 study guide 2026",
+      "format": "compact review + practice",
+      "price_band": "$13.99–18.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 57.6,
+      "evidence": "Broad-screen inference for certification; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-041",
+      "group": "certification",
+      "concept": "Food manager exam vocabulary workbook",
+      "buyer": "ESL food-service managers",
+      "buyer_job": "ESL food-service managers: food manager exam vocabulary workbook",
+      "query_cluster": "food manager certification study guide Spanish English",
+      "format": "bilingual vocabulary + drills",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 57.6,
+      "evidence": "Broad-screen inference for certification; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-042",
+      "group": "certification",
+      "concept": "CompTIA Security+ scenario workbook",
+      "buyer": "entry cybersecurity candidates",
+      "buyer_job": "entry cybersecurity candidates: comptia security+ scenario workbook",
+      "query_cluster": "Security+ performance based questions workbook",
+      "format": "scenario practice workbook",
+      "price_band": "$18.99–24.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 10
+      },
+      "score": 57.6,
+      "evidence": "Broad-screen inference for certification; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Accuracy/compliance burden or incumbent strength exceeds fast-slot tolerance"
+    },
+    {
+      "id": "RN2-043",
+      "group": "hobbies",
+      "concept": "Home espresso dialing-in log",
+      "buyer": "home baristas",
+      "buyer_job": "home baristas: home espresso dialing-in log",
+      "query_cluster": "home espresso logbook",
+      "format": "measurement log + troubleshooting",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 4,
+        "newcomer_viability": 3,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 3,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 4
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 74.6,
+      "evidence": "Amazon: 155 results; Nov 2025 logbook 5 ratings; Apr 2026 recipe book 25",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 6,
+        "estimated_anton_hours": "<=3 h",
+        "conservative_90_day_units": {
+          "low": 8,
+          "high": 22
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 2.5,
+          "high": 3.5
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 20,
+          "high": 77
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-044",
+      "group": "hobbies",
+      "concept": "Pickleball beginner field guide",
+      "buyer": "adults starting pickleball",
+      "buyer_job": "adults starting pickleball: pickleball beginner field guide",
+      "query_cluster": "pickleball beginner guide book",
+      "format": "illustrated compact guide",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 4,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 4,
+        "new_entrant_evidence": 4,
+        "evidence_quality": 4
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 76.0,
+      "evidence": "Amazon: 190 results; Jun 2024 beginner guide 28 ratings; visible multi-format pricing",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 4,
+        "estimated_anton_hours": "4-6 h",
+        "conservative_90_day_units": {
+          "low": 12,
+          "high": 30
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.5,
+          "high": 4.8
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 42,
+          "high": 144
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-045",
+      "group": "hobbies",
+      "concept": "Pottery glaze test record",
+      "buyer": "studio potters",
+      "buyer_job": "studio potters: pottery glaze test record",
+      "query_cluster": "pottery glaze test log book",
+      "format": "technical record book",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 62.2,
+      "evidence": "Broad-screen inference for hobbies; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-046",
+      "group": "hobbies",
+      "concept": "3D-printer troubleshooting flowbook",
+      "buyer": "beginner 3D-printer owners",
+      "buyer_job": "beginner 3D-printer owners: 3d-printer troubleshooting flowbook",
+      "query_cluster": "3D printing troubleshooting guide",
+      "format": "visual decision guide",
+      "price_band": "$15.99–21.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 62.2,
+      "evidence": "Broad-screen inference for hobbies; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-047",
+      "group": "hobbies",
+      "concept": "Aquarium water-parameter log",
+      "buyer": "freshwater aquarium keepers",
+      "buyer_job": "freshwater aquarium keepers: aquarium water-parameter log",
+      "query_cluster": "aquarium water parameter log book",
+      "format": "guided log + diagnostics",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 62.2,
+      "evidence": "Broad-screen inference for hobbies; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-048",
+      "group": "hobbies",
+      "concept": "Fountain-pen ink swatch journal",
+      "buyer": "pen collectors",
+      "buyer_job": "pen collectors: fountain-pen ink swatch journal",
+      "query_cluster": "fountain pen ink journal",
+      "format": "swatch/reference journal",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 62.2,
+      "evidence": "Broad-screen inference for hobbies; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-049",
+      "group": "hobbies",
+      "concept": "Laser-engraving settings record",
+      "buyer": "maker-business owners",
+      "buyer_job": "maker-business owners: laser-engraving settings record",
+      "query_cluster": "laser engraving settings log book",
+      "format": "material test log",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 62.2,
+      "evidence": "Broad-screen inference for hobbies; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-050",
+      "group": "outdoors_garden",
+      "concept": "Seed-starting planner by frost date",
+      "buyer": "home gardeners",
+      "buyer_job": "home gardeners: seed-starting planner by frost date",
+      "query_cluster": "seed starting planner frost date",
+      "format": "undated garden workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for outdoors_garden; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-051",
+      "group": "outdoors_garden",
+      "concept": "Beekeeping inspection log",
+      "buyer": "new beekeepers",
+      "buyer_job": "new beekeepers: beekeeping inspection log",
+      "query_cluster": "beekeeping inspection log book",
+      "format": "guided inspection record",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for outdoors_garden; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-052",
+      "group": "outdoors_garden",
+      "concept": "RV maintenance and trip systems log",
+      "buyer": "new RV owners",
+      "buyer_job": "new RV owners: rv maintenance and trip systems log",
+      "query_cluster": "RV maintenance log book",
+      "format": "systems log + checklists",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for outdoors_garden; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-053",
+      "group": "outdoors_garden",
+      "concept": "Day-hike decision and safety cards",
+      "buyer": "casual hikers",
+      "buyer_job": "casual hikers: day-hike decision and safety cards",
+      "query_cluster": "day hiking checklist guide",
+      "format": "compact field guide",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for outdoors_garden; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-054",
+      "group": "outdoors_garden",
+      "concept": "Backyard-bird behavior journal",
+      "buyer": "beginner birders",
+      "buyer_job": "beginner birders: backyard-bird behavior journal",
+      "query_cluster": "backyard bird watching journal",
+      "format": "guided observation journal",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for outdoors_garden; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-055",
+      "group": "outdoors_garden",
+      "concept": "Raised-bed succession planner",
+      "buyer": "small-space gardeners",
+      "buyer_job": "small-space gardeners: raised-bed succession planner",
+      "query_cluster": "raised bed garden planner",
+      "format": "planting workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for outdoors_garden; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-056",
+      "group": "outdoors_garden",
+      "concept": "Kayak trip and safety log",
+      "buyer": "recreational kayakers",
+      "buyer_job": "recreational kayakers: kayak trip and safety log",
+      "query_cluster": "kayak log book safety checklist",
+      "format": "trip log + checklists",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 5
+      },
+      "score": 54.2,
+      "evidence": "Broad-screen inference for outdoors_garden; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-057",
+      "group": "family_gift",
+      "concept": "Grandparent oral-history interview book",
+      "buyer": "adult children and grandchildren",
+      "buyer_job": "adult children and grandchildren: grandparent oral-history interview book",
+      "query_cluster": "grandparent life story interview book",
+      "format": "guided interview keepsake",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 4,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 3,
+        "production_feasibility": 5,
+        "shelf_life": 5,
+        "economics": 4,
+        "new_entrant_evidence": 3,
+        "evidence_quality": 3
+      },
+      "penalties": {
+        "paid_ads": 0,
+        "rights_trademark_compliance": 0
+      },
+      "score": 75.2,
+      "evidence": "Amazon: 139 exact results; giftable, but superstar/holiday competition",
+      "decision": "reject_after_deep_scan",
+      "rejection_reason": "Lower risk-adjusted EV/hour or weaker newcomer evidence than top three",
+      "deep_scan": {
+        "rank": 5,
+        "estimated_anton_hours": "<=3 h",
+        "conservative_90_day_units": {
+          "low": 10,
+          "high": 28
+        },
+        "estimated_royalty_per_unit_usd": {
+          "low": 3.6,
+          "high": 5.0
+        },
+        "estimated_90_day_gross_royalty_usd": {
+          "low": 36,
+          "high": 140
+        },
+        "estimate_note": "Scenario estimate, not forecast; no paid-ad dependence assumed"
+      }
+    },
+    {
+      "id": "RN2-058",
+      "group": "family_gift",
+      "concept": "Family recipe story book",
+      "buyer": "families preserving recipes",
+      "buyer_job": "families preserving recipes: family recipe story book",
+      "query_cluster": "family recipe memory book",
+      "format": "guided keepsake",
+      "price_band": "$15.99–21.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for family_gift; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-059",
+      "group": "family_gift",
+      "concept": "Long-distance grandparent activity book",
+      "buyer": "grandparents and grandchildren apart",
+      "buyer_job": "grandparents and grandchildren apart: long-distance grandparent activity book",
+      "query_cluster": "long distance grandparent grandchild activity book",
+      "format": "shared activity book",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for family_gift; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-060",
+      "group": "family_gift",
+      "concept": "Couples annual review workbook",
+      "buyer": "couples doing yearly planning",
+      "buyer_job": "couples doing yearly planning: couples annual review workbook",
+      "query_cluster": "couples annual review workbook",
+      "format": "guided conversation workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for family_gift; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-061",
+      "group": "family_gift",
+      "concept": "New-dad first-month field notes",
+      "buyer": "first-time fathers",
+      "buyer_job": "first-time fathers: new-dad first-month field notes",
+      "query_cluster": "new dad first month guide",
+      "format": "compact practical guide",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for family_gift; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-062",
+      "group": "family_gift",
+      "concept": "Sibling memory book",
+      "buyer": "adult siblings",
+      "buyer_job": "adult siblings: sibling memory book",
+      "query_cluster": "sibling memory journal gift",
+      "format": "prompted keepsake",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for family_gift; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-063",
+      "group": "family_gift",
+      "concept": "Family meeting workbook",
+      "buyer": "families introducing weekly meetings",
+      "buyer_job": "families introducing weekly meetings: family meeting workbook",
+      "query_cluster": "family meeting planner",
+      "format": "guided recurring workbook",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for family_gift; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-064",
+      "group": "family_gift",
+      "concept": "Empty-nest couples conversation book",
+      "buyer": "new empty nesters",
+      "buyer_job": "new empty nesters: empty-nest couples conversation book",
+      "query_cluster": "empty nest couples workbook",
+      "format": "conversation workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for family_gift; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-065",
+      "group": "activities",
+      "concept": "Airport waiting activity book ages 8–12",
+      "buyer": "families flying with older children",
+      "buyer_job": "families flying with older children: airport waiting activity book ages 8–12",
+      "query_cluster": "airport activity book kids 8 12",
+      "format": "puzzle/activity book",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-066",
+      "group": "activities",
+      "concept": "Restaurant waiting games for families",
+      "buyer": "parents with children 6–10",
+      "buyer_job": "parents with children 6–10: restaurant waiting games for families",
+      "query_cluster": "restaurant activity book kids",
+      "format": "portable activity book",
+      "price_band": "$8.99–11.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-067",
+      "group": "activities",
+      "concept": "Museum detective journal",
+      "buyer": "families visiting museums",
+      "buyer_job": "families visiting museums: museum detective journal",
+      "query_cluster": "museum activity book kids",
+      "format": "reusable observation journal",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-068",
+      "group": "activities",
+      "concept": "Road-trip scavenger hunt for teens",
+      "buyer": "families road-tripping with teens",
+      "buyer_job": "families road-tripping with teens: road-trip scavenger hunt for teens",
+      "query_cluster": "road trip activity book teens",
+      "format": "challenge/activity book",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-069",
+      "group": "activities",
+      "concept": "Rainy campsite activity book",
+      "buyer": "camping families",
+      "buyer_job": "camping families: rainy campsite activity book",
+      "query_cluster": "camping activity book kids",
+      "format": "puzzle/activity book",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-070",
+      "group": "activities",
+      "concept": "Beginner chess notation workbook",
+      "buyer": "children learning tournament chess",
+      "buyer_job": "children learning tournament chess: beginner chess notation workbook",
+      "query_cluster": "chess notation workbook",
+      "format": "practice workbook",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-071",
+      "group": "activities",
+      "concept": "Screen-free dinner conversation book",
+      "buyer": "families wanting conversation prompts",
+      "buyer_job": "families wanting conversation prompts: screen-free dinner conversation book",
+      "query_cluster": "family dinner conversation questions book",
+      "format": "prompt/reference book",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-072",
+      "group": "activities",
+      "concept": "Young naturalist field-note book",
+      "buyer": "children exploring outdoors",
+      "buyer_job": "children exploring outdoors: young naturalist field-note book",
+      "query_cluster": "nature journal kids field guide",
+      "format": "guided field notebook",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 50.6,
+      "evidence": "Broad-screen inference for activities; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-073",
+      "group": "language",
+      "concept": "English for hotel housekeeping",
+      "buyer": "hospitality workers learning job English",
+      "buyer_job": "hospitality workers learning job English: english for hotel housekeeping",
+      "query_cluster": "English for hotel housekeeping book",
+      "format": "visual phrasebook + drills",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-074",
+      "group": "language",
+      "concept": "Spanish for construction supervisors",
+      "buyer": "English-speaking site supervisors",
+      "buyer_job": "English-speaking site supervisors: spanish for construction supervisors",
+      "query_cluster": "construction Spanish pocket guide",
+      "format": "job phrasebook",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-075",
+      "group": "language",
+      "concept": "Medical-English appointment organizer",
+      "buyer": "adult ESL patients",
+      "buyer_job": "adult ESL patients: medical-english appointment organizer",
+      "query_cluster": "medical English phrasebook doctor visit",
+      "format": "phrasebook + appointment worksheet",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-076",
+      "group": "language",
+      "concept": "Pronunciation minimal-pairs workbook",
+      "buyer": "intermediate English learners",
+      "buyer_job": "intermediate English learners: pronunciation minimal-pairs workbook",
+      "query_cluster": "English minimal pairs workbook",
+      "format": "audio-linked practice workbook",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-077",
+      "group": "language",
+      "concept": "Restaurant-server English",
+      "buyer": "new hospitality workers",
+      "buyer_job": "new hospitality workers: restaurant-server english",
+      "query_cluster": "English for restaurant servers",
+      "format": "job phrasebook + dialogues",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-078",
+      "group": "language",
+      "concept": "Airport English for first-time travelers",
+      "buyer": "beginner English travelers",
+      "buyer_job": "beginner English travelers: airport english for first-time travelers",
+      "query_cluster": "airport English phrasebook",
+      "format": "visual phrasebook",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-079",
+      "group": "language",
+      "concept": "Irregular-verbs visual reference",
+      "buyer": "beginner English learners",
+      "buyer_job": "beginner English learners: irregular-verbs visual reference",
+      "query_cluster": "English irregular verbs visual guide",
+      "format": "illustrated reference",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-080",
+      "group": "language",
+      "concept": "Citizenship interview English workbook",
+      "buyer": "naturalization applicants",
+      "buyer_job": "naturalization applicants: citizenship interview english workbook",
+      "query_cluster": "citizenship interview English practice",
+      "format": "oral-response workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for language; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-081",
+      "group": "business",
+      "concept": "Food-truck opening checklist system",
+      "buyer": "new food-truck operators",
+      "buyer_job": "new food-truck operators: food-truck opening checklist system",
+      "query_cluster": "food truck checklist book",
+      "format": "operations workbook",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-082",
+      "group": "business",
+      "concept": "Solo-consultant discovery-call workbook",
+      "buyer": "new consultants",
+      "buyer_job": "new consultants: solo-consultant discovery-call workbook",
+      "query_cluster": "consulting discovery call workbook",
+      "format": "script + notes workbook",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-083",
+      "group": "business",
+      "concept": "Craft-fair seller inventory planner",
+      "buyer": "makers selling in person",
+      "buyer_job": "makers selling in person: craft-fair seller inventory planner",
+      "query_cluster": "craft fair vendor planner",
+      "format": "inventory + event workbook",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-084",
+      "group": "business",
+      "concept": "Podcast guest research workbook",
+      "buyer": "podcast hosts",
+      "buyer_job": "podcast hosts: podcast guest research workbook",
+      "query_cluster": "podcast guest research template book",
+      "format": "research + interview workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-085",
+      "group": "business",
+      "concept": "Short-term-rental turnover log",
+      "buyer": "small hosts and cleaners",
+      "buyer_job": "small hosts and cleaners: short-term-rental turnover log",
+      "query_cluster": "Airbnb cleaning turnover checklist book",
+      "format": "operations log",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-086",
+      "group": "business",
+      "concept": "Home-service estimate notebook",
+      "buyer": "solo tradespeople",
+      "buyer_job": "solo tradespeople: home-service estimate notebook",
+      "query_cluster": "contractor estimate book",
+      "format": "structured estimate log",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-087",
+      "group": "business",
+      "concept": "Microbusiness cash-flow weekly workbook",
+      "buyer": "very small business owners",
+      "buyer_job": "very small business owners: microbusiness cash-flow weekly workbook",
+      "query_cluster": "small business cash flow workbook",
+      "format": "52-week finance workbook",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-088",
+      "group": "business",
+      "concept": "Market-stall seller field book",
+      "buyer": "farmers-market vendors",
+      "buyer_job": "farmers-market vendors: market-stall seller field book",
+      "query_cluster": "farmers market vendor planner",
+      "format": "event + inventory workbook",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for business; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-089",
+      "group": "history_public_domain",
+      "concept": "Federalist Papers plain-English companion",
+      "buyer": "civics readers and students",
+      "buyer_job": "civics readers and students: federalist papers plain-english companion",
+      "query_cluster": "Federalist Papers study guide plain English",
+      "format": "reading companion",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-090",
+      "group": "history_public_domain",
+      "concept": "WWII ration recipes adapted for modern kitchens",
+      "buyer": "budget/history cooks",
+      "buyer_job": "budget/history cooks: wwii ration recipes adapted for modern kitchens",
+      "query_cluster": "WW2 ration cookbook modern",
+      "format": "annotated public-domain transformation",
+      "price_band": "$15.99–21.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-091",
+      "group": "history_public_domain",
+      "concept": "Victorian household hints tested today",
+      "buyer": "history and practical-living readers",
+      "buyer_job": "history and practical-living readers: victorian household hints tested today",
+      "query_cluster": "Victorian household tips book",
+      "format": "gift/reference transformation",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-092",
+      "group": "history_public_domain",
+      "concept": "Historic sea knots visual manual",
+      "buyer": "scouts and beginner boaters",
+      "buyer_job": "scouts and beginner boaters: historic sea knots visual manual",
+      "query_cluster": "navy knots manual illustrated",
+      "format": "public-domain visual guide",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-093",
+      "group": "history_public_domain",
+      "concept": "Classic speeches rhetoric workbook",
+      "buyer": "students and speakers",
+      "buyer_job": "students and speakers: classic speeches rhetoric workbook",
+      "query_cluster": "famous speeches rhetoric workbook",
+      "format": "annotated public-domain workbook",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-094",
+      "group": "history_public_domain",
+      "concept": "Vintage patent drawing gift book",
+      "buyer": "makers and engineers",
+      "buyer_job": "makers and engineers: vintage patent drawing gift book",
+      "query_cluster": "vintage patent drawings book",
+      "format": "curated visual gift book",
+      "price_band": "$18.99–27.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-095",
+      "group": "history_public_domain",
+      "concept": "Historic etiquette for modern situations",
+      "buyer": "gift readers",
+      "buyer_job": "gift readers: historic etiquette for modern situations",
+      "query_cluster": "Victorian etiquette modern life",
+      "format": "humor/annotation gift book",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-096",
+      "group": "history_public_domain",
+      "concept": "Public-domain travel posters coloring book",
+      "buyer": "adult colorists and travel fans",
+      "buyer_job": "adult colorists and travel fans: public-domain travel posters coloring book",
+      "query_cluster": "vintage travel posters coloring book",
+      "format": "restored art coloring book",
+      "price_band": "$12.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 46.2,
+      "evidence": "Broad-screen inference for history_public_domain; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-097",
+      "group": "seasonal",
+      "concept": "2027 Ramadan family planner",
+      "buyer": "Muslim families planning Ramadan",
+      "buyer_job": "Muslim families planning Ramadan: 2027 ramadan family planner",
+      "query_cluster": "Ramadan planner 2027 family",
+      "format": "dated planner + activities",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-098",
+      "group": "seasonal",
+      "concept": "2027 Lent reflection workbook",
+      "buyer": "Christian adults observing Lent",
+      "buyer_job": "Christian adults observing Lent: 2027 lent reflection workbook",
+      "query_cluster": "Lent devotional journal 2027",
+      "format": "dated reflection workbook",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-099",
+      "group": "seasonal",
+      "concept": "Christmas hosting planner for small homes",
+      "buyer": "apartment hosts",
+      "buyer_job": "apartment hosts: christmas hosting planner for small homes",
+      "query_cluster": "Christmas hosting planner",
+      "format": "seasonal workbook",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-100",
+      "group": "seasonal",
+      "concept": "Holiday family-boundary scripts",
+      "buyer": "adults anticipating family conflict",
+      "buyer_job": "adults anticipating family conflict: holiday family-boundary scripts",
+      "query_cluster": "holiday boundary scripts book",
+      "format": "seasonal script guide",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-101",
+      "group": "seasonal",
+      "concept": "2027 celestial events observing log",
+      "buyer": "amateur skywatchers",
+      "buyer_job": "amateur skywatchers: 2027 celestial events observing log",
+      "query_cluster": "astronomy calendar 2027 observing guide",
+      "format": "dated field guide",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-102",
+      "group": "seasonal",
+      "concept": "2027 vegetable-garden planner",
+      "buyer": "home gardeners",
+      "buyer_job": "home gardeners: 2027 vegetable-garden planner",
+      "query_cluster": "garden planner 2027",
+      "format": "dated workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-103",
+      "group": "seasonal",
+      "concept": "Teacher end-of-year memory book",
+      "buyer": "elementary teachers",
+      "buyer_job": "elementary teachers: teacher end-of-year memory book",
+      "query_cluster": "teacher school year memory book",
+      "format": "class keepsake",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-104",
+      "group": "seasonal",
+      "concept": "Advent acts-of-kindness family book",
+      "buyer": "families with children",
+      "buyer_job": "families with children: advent acts-of-kindness family book",
+      "query_cluster": "Advent activity book family",
+      "format": "seasonal activity book",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 4,
+        "competition_weakness": 2,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 0
+      },
+      "score": 55.2,
+      "evidence": "Broad-screen inference for seasonal; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-105",
+      "group": "travel",
+      "concept": "Red-eye flight recovery guide",
+      "buyer": "long-haul leisure travelers",
+      "buyer_job": "long-haul leisure travelers: red-eye flight recovery guide",
+      "query_cluster": "red eye flight sleep guide",
+      "format": "compact practical guide",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-106",
+      "group": "travel",
+      "concept": "Cruise port day decision workbook",
+      "buyer": "first-time cruisers",
+      "buyer_job": "first-time cruisers: cruise port day decision workbook",
+      "query_cluster": "cruise port day planner",
+      "format": "decision workbook",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-107",
+      "group": "travel",
+      "concept": "Accessible hotel-room inspection checklist",
+      "buyer": "travelers with mobility needs",
+      "buyer_job": "travelers with mobility needs: accessible hotel-room inspection checklist",
+      "query_cluster": "accessible travel checklist book",
+      "format": "practical workbook",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-108",
+      "group": "travel",
+      "concept": "Solo-travel emergency plan for women",
+      "buyer": "first-time solo travelers",
+      "buyer_job": "first-time solo travelers: solo-travel emergency plan for women",
+      "query_cluster": "solo female travel safety workbook",
+      "format": "scenario workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-109",
+      "group": "travel",
+      "concept": "Carry-on-only packing system",
+      "buyer": "overpackers taking short trips",
+      "buyer_job": "overpackers taking short trips: carry-on-only packing system",
+      "query_cluster": "carry on packing checklist book",
+      "format": "visual packing workbook",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-110",
+      "group": "travel",
+      "concept": "Jet-lag planner for multi-zone trips",
+      "buyer": "business and long-haul travelers",
+      "buyer_job": "business and long-haul travelers: jet-lag planner for multi-zone trips",
+      "query_cluster": "jet lag planner workbook",
+      "format": "timing workbook",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-111",
+      "group": "travel",
+      "concept": "Interrail reservation tracker",
+      "buyer": "first-time European rail travelers",
+      "buyer_job": "first-time European rail travelers: interrail reservation tracker",
+      "query_cluster": "Interrail planner book",
+      "format": "trip planner",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-112",
+      "group": "travel",
+      "concept": "Road-trip charging planner for EV beginners",
+      "buyer": "new EV road-trippers",
+      "buyer_job": "new EV road-trippers: road-trip charging planner for ev beginners",
+      "query_cluster": "EV road trip planner book",
+      "format": "route/charging workbook",
+      "price_band": "$12.99–16.99",
+      "scores": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 5,
+        "rights_trademark_compliance": 5
+      },
+      "score": 49.2,
+      "evidence": "Broad-screen inference for travel; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Insufficient visible new-entrant traction"
+    },
+    {
+      "id": "RN2-113",
+      "group": "humor_reference",
+      "concept": "Dictionary of obsolete job titles",
+      "buyer": "word and history lovers",
+      "buyer_job": "word and history lovers: dictionary of obsolete job titles",
+      "query_cluster": "obsolete occupations dictionary",
+      "format": "illustrated gift reference",
+      "price_band": "$14.99–19.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    },
+    {
+      "id": "RN2-114",
+      "group": "humor_reference",
+      "concept": "Vintage insults by situation",
+      "buyer": "gift and humor buyers",
+      "buyer_job": "gift and humor buyers: vintage insults by situation",
+      "query_cluster": "vintage insults book",
+      "format": "curated gift book",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    },
+    {
+      "id": "RN2-115",
+      "group": "humor_reference",
+      "concept": "Meeting bingo for corporate life",
+      "buyer": "office gift buyers",
+      "buyer_job": "office gift buyers: meeting bingo for corporate life",
+      "query_cluster": "office meeting bingo book",
+      "format": "humor activity book",
+      "price_band": "$9.99–13.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    },
+    {
+      "id": "RN2-116",
+      "group": "humor_reference",
+      "concept": "Polite ways to leave a conversation",
+      "buyer": "social gift buyers",
+      "buyer_job": "social gift buyers: polite ways to leave a conversation",
+      "query_cluster": "ways to end a conversation book",
+      "format": "humor/reference book",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    },
+    {
+      "id": "RN2-117",
+      "group": "humor_reference",
+      "concept": "Tiny explanations of confusing sports rules",
+      "buyer": "casual sports viewers",
+      "buyer_job": "casual sports viewers: tiny explanations of confusing sports rules",
+      "query_cluster": "sports rules explained simply book",
+      "format": "gift/reference",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    },
+    {
+      "id": "RN2-118",
+      "group": "humor_reference",
+      "concept": "Family group-chat survival manual",
+      "buyer": "adult family members",
+      "buyer_job": "adult family members: family group-chat survival manual",
+      "query_cluster": "family group chat humor book",
+      "format": "gift humor",
+      "price_band": "$10.99–14.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    },
+    {
+      "id": "RN2-119",
+      "group": "humor_reference",
+      "concept": "Corporate acronym decoder",
+      "buyer": "early-career office workers",
+      "buyer_job": "early-career office workers: corporate acronym decoder",
+      "query_cluster": "business acronyms dictionary",
+      "format": "pocket reference",
+      "price_band": "$11.99–15.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    },
+    {
+      "id": "RN2-120",
+      "group": "humor_reference",
+      "concept": "Museum labels translated into normal English",
+      "buyer": "casual museum visitors",
+      "buyer_job": "casual museum visitors: museum labels translated into normal english",
+      "query_cluster": "art museum terms explained",
+      "format": "humor/reference",
+      "price_band": "$13.99–17.99",
+      "scores": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 5,
+        "shelf_life": 3,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2
+      },
+      "penalties": {
+        "paid_ads": 10,
+        "rights_trademark_compliance": 0
+      },
+      "score": 46.6,
+      "evidence": "Broad-screen inference for humor_reference; direct Amazon validation deferred",
+      "decision": "reject",
+      "rejection_reason": "Demand below gate"
+    }
+  ],
+  "final_decision": {
+    "outcome": "WINNER",
+    "winner_id": "RN2-001",
+    "winner": "Family Emergency Handoff Book",
+    "production_should_start": false,
+    "top_three_ids": [
+      "RN2-001",
+      "RN2-036",
+      "RN2-037"
+    ]
+  }
+}

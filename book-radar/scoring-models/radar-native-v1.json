@@ -1,0 +1,30 @@
+{
+  "formula": "weighted 1-5 score normalized to 100, minus paid-ad and rights/trademark/compliance penalties",
+  "hard_gates": [
+    "observable_demand",
+    "newcomer_path",
+    "production_within_budget",
+    "acceptable_rights_and_compliance_risk"
+  ],
+  "id": "radar-native-v1",
+  "penalties": [
+    "paid_ads",
+    "rights_trademark_compliance"
+  ],
+  "scale": {
+    "maximum": 5,
+    "minimum": 1
+  },
+  "version": 1,
+  "weights": {
+    "competition_weakness": 10,
+    "demand": 20,
+    "economics": 12,
+    "evidence_quality": 9,
+    "momentum": 8,
+    "new_entrant_evidence": 10,
+    "newcomer_viability": 8,
+    "production_feasibility": 15,
+    "shelf_life": 8
+  }
+}

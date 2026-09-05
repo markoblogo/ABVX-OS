@@ -1,0 +1,20 @@
+{
+  "schema_version": "book-radar-catalog/v1",
+  "portfolio_products": [{
+    "id": "portfolio-product:B0HFTTG5FH",
+    "title": "THE HUMAN BACKUP PLAN: How to Keep Your Money, Accounts, Digital Assets, Business, and Family Running When You Can’t",
+    "author": "Morgan Hale",
+    "status": "EXISTING",
+    "identifiers": {"kindle_asin":"B0HFTTG5FH","paperback_asin":"B0HFTT2K3S"},
+    "buyer": "Owner-operators of modern households and small businesses with family or dependents",
+    "jtbd": "Give family or dependents enough structured information to keep important parts of life running if the owner is incapacitated, absent, or dead",
+    "trigger": ["temporary incapacity", "long-term absence", "death"],
+    "promise": "A practical continuity and handoff system that lets another person find, understand, maintain, transfer, cancel, archive, or delete important systems",
+    "format": "251-page 6x9 prose-led practical guide with checklists; Kindle and paperback",
+    "information_architecture": ["money accounts devices documents and digital-assets map", "24-hour 7-day and 30-day continuity", "secure access and recovery", "business and project handover", "domains websites royalties crypto subscriptions and AI systems", "KEEP TRANSFER CANCEL ARCHIVE DELETE", "optional AI-assisted family knowledge base"],
+    "query_intent": ["personal continuity plan", "digital assets handover", "family backup plan", "incapacity planning"],
+    "audience": ["families", "dependents", "creators", "small-business owners", "digitally complex households"],
+    "differentiation": ["not a password book", "not a will", "not a conventional end-of-life binder", "modern digital and business scope"],
+    "source": {"url":"https://www.amazon.com/dp/B0HFTTG5FH","observed_at":"2026-09-05"}
+  }]
+}

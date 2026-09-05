@@ -217,6 +217,29 @@ def validate_repository(root: Path) -> list[str]:
         for path in sorted((root / "books" / "projects").glob("*.json")):
             validate(load_json(path), load_json(book_project_schema_path), schema_path=book_project_schema_path, root=root, location=str(path))
             checked.append(str(path.relative_to(root)))
+    book_radar_state_schema = root / "schemas" / "book_radar_state.schema.json"
+    book_radar_state = root / "book-radar" / "state.json"
+    if book_radar_state.is_file():
+        validate(load_json(book_radar_state), load_json(book_radar_state_schema), schema_path=book_radar_state_schema, root=root, location=str(book_radar_state))
+        checked.append(str(book_radar_state.relative_to(root)))
+    scoring_schema = root / "schemas" / "book_radar_scoring_model.schema.json"
+    for path in sorted((root / "book-radar" / "scoring-models").glob("*.json")):
+        validate(load_json(path), load_json(scoring_schema), schema_path=scoring_schema, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
+    import_schema = root / "schemas" / "book_radar_import.schema.json"
+    for path in sorted((root / "book-radar" / "imports").glob("*.json")):
+        value = load_json(path)
+        if value.get("schema_version") == "book-radar-import/v1":
+            validate(value, load_json(import_schema), schema_path=import_schema, root=root, location=str(path))
+            checked.append(str(path.relative_to(root)))
+    similarity_schema = root / "schemas" / "book_radar_similarity_fixture.schema.json"
+    for path in sorted((root / "book-radar" / "fixtures").glob("*.json")):
+        validate(load_json(path), load_json(similarity_schema), schema_path=similarity_schema, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
+    catalog_schema = root / "schemas" / "book_radar_catalog.schema.json"
+    for path in sorted((root / "book-radar" / "catalog-imports").glob("*.json")):
+        validate(load_json(path), load_json(catalog_schema), schema_path=catalog_schema, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
     book_source_pack_schema_path = root / "schemas" / "book_source_pack.schema.json"
     if book_source_pack_schema_path.is_file():
         for path in sorted((root / "books" / "source-packs").glob("*.json")):

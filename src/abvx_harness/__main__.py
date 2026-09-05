@@ -12,6 +12,7 @@ from .intelligence import run_content_enrichment
 from .local_model import answer_local_model
 from .playbooks import load_playbook, replay_playbook
 from .portfolio import inspect_portfolio, render_portfolio
+from .book_radar import add_records as add_book_radar_records, export_state as export_book_radar_state, import_bundle as import_book_radar_bundle, import_catalog as import_book_radar_catalog, render_report as render_book_radar_report, report as book_radar_report
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -71,6 +72,42 @@ def _print_content(value: object, as_json: bool) -> None:
 def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
     argv = argv if argv is not None else sys.argv[1:]
     try:
+        if len(argv) >= 2 and argv[:2] == ["book-radar", "import"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx book-radar import <path> [--json]")
+            result = import_book_radar_bundle(root, Path(positional[0]).resolve())
+            print(json.dumps(result, indent=2, sort_keys=True))
+            return 0
+        if len(argv) >= 2 and argv[:2] == ["book-radar", "catalog-import"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx book-radar catalog-import <path> [--json]")
+            print(json.dumps(import_book_radar_catalog(root, Path(positional[0]).resolve()), indent=2, sort_keys=True))
+            return 0
+        if len(argv) >= 2 and argv[:2] == ["book-radar", "export"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx book-radar export <path> [--json]")
+            result = export_book_radar_state(root, Path(positional[0]).resolve())
+            print(json.dumps(result, indent=2, sort_keys=True))
+            return 0
+        if len(argv) >= 2 and argv[:2] == ["book-radar", "report"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx book-radar report <pipeline|experiments|backlog> [--json]")
+            result = book_radar_report(root, positional[0])
+            print(json.dumps(result, indent=2, sort_keys=True) if options.get("json") else render_book_radar_report(result))
+            return 0
+        radar_actions = {"new-run": "radar_runs", "shortlist": "decisions", "decide": "decisions", "product": "products", "launch": "launches", "actuals": "actuals", "calibrate": "calibrations"}
+        if len(argv) >= 2 and argv[0] == "book-radar" and argv[1] in radar_actions:
+            positional, options = _options(argv[2:])
+            source = options.get("file")
+            if positional or not isinstance(source, str):
+                raise ValidationError(f"usage: ./bin/abvx book-radar {argv[1]} --file <path> [--json]")
+            result = add_book_radar_records(root, radar_actions[argv[1]], Path(source).resolve())
+            print(json.dumps(result, indent=2, sort_keys=True))
+            return 0
         if len(argv) >= 2 and argv[:2] == ["intake", "add"]:
             _, options = _options(argv[2:])
             item = add_intake_item(root, text=options.get("text") if isinstance(options.get("text"), str) else None, url=options.get("url") if isinstance(options.get("url"), str) else None, context=options.get("context") if isinstance(options.get("context"), str) else None, title=options.get("title") if isinstance(options.get("title"), str) else None, summary=options.get("summary") if isinstance(options.get("summary"), str) else None, explicit_type=options.get("type") if isinstance(options.get("type"), str) else None, item_id=options.get("id") if isinstance(options.get("id"), str) else None)
@@ -212,7 +249,7 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             else:
                 print(render_portfolio(portfolio))
             return 0
-        print("usage: ./bin/abvx validate | ... | ./bin/abvx context inspect <pack-id> | ./bin/abvx local-model answer --file <path> [--url <url>]", file=sys.stderr)
+        print("usage: ./bin/abvx validate | ... | ./bin/abvx book-radar <import|catalog-import|new-run|shortlist|decide|product|launch|actuals|report|calibrate|export>", file=sys.stderr)
         return 2
     except (ValidationError, OSError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

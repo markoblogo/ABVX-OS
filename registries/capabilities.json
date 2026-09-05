@@ -90,6 +90,25 @@
       },
       "scope": "Bounded structured semantic execution for allowlisted ABVX tasks through explicit provider routing; gpt-5.6-luna is conditionally admitted as the CHEAP_API fallback for content-enrichment after local model non-admission.",
       "status": "conditional"
+    },
+    {
+      "constraints": [
+        "local-only",
+        "human-gated-production",
+        "immutable-scoring-models",
+        "predictions-and-actuals-kept-distinct",
+        "no-automatic-market-research-or-publishing"
+      ],
+      "id": "book-radar-v0.1",
+      "implementation": "./bin/abvx book-radar",
+      "name": "Book Radar",
+      "provenance": {
+        "observed_at": "2026-09-05T00:00:00Z",
+        "recorded_by": "BOOK-RADAR-001",
+        "source_uri": "docs/book-radar.md"
+      },
+      "scope": "Persistent evidence, scoring, selection, production tracking, launch actuals and calibration for small publishing experiments",
+      "status": "active"
     }
   ],
   "schema_version": "v1"
