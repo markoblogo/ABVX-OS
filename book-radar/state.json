@@ -937,6 +937,14 @@
       "opportunity_id": "RN2-037",
       "production_authorized": true,
       "reason": "The paid visual/crosswalk layer is distinct from free practice and sequential guides; the representative prototype passes all experience gates; authoritative sourcing, public-domain pool rights, deterministic 409-ID QA, print economics, and low Anton involvement are feasible."
+    },
+    {
+      "decided_at": "2026-09-06",
+      "decision": "kdp_ready_awaiting_cover_human_gate",
+      "id": "decision:RN2-037:kdp-ready",
+      "opportunity_id": "RN2-037",
+      "production_authorized": true,
+      "reason": "Authoritative-source, rights, 409-ID, crosswalk, claim-ledger, differentiation, print, and EPUB structural gates passed without Anton subject-matter review."
     }
   ],
   "evidence": [
@@ -2303,6 +2311,62 @@
       "opportunity_id": "RN2-037",
       "source_ref": "RN2-037-production-contract.md",
       "summary": "A 14-page original diagram-first prototype and production blueprint passed beginner, visual, cram, crosswalk, accuracy, print, Kindle, differentiation, rights, economics, and autonomous-QA gates."
+    },
+    {
+      "details": {
+        "actual_anton_subject_matter_hours": 0,
+        "blockers": [
+          "NCVEC CDN blocked automated PDF transfer; an independent NCVEC-member VEC mirror supplied the identical corrected release, cross-checked against the controlling NCVEC page."
+        ],
+        "contract_deviations": [
+          "Final manuscript is approximately 16k words because the 208-page product is diagram-led; prose was not inflated to meet a word target."
+        ],
+        "estimated_anton_hours_remaining_pre_upload": [
+          0.75,
+          1.25
+        ],
+        "formats": [
+          "8x10 black-and-white paperback PDF",
+          "reflowable EPUB 3"
+        ],
+        "independent_release_verification": "PASS",
+        "major_stages": [
+          "source freeze",
+          "pool extraction",
+          "concept graph",
+          "crosswalk",
+          "manuscript",
+          "visuals",
+          "paperback",
+          "Kindle",
+          "factual audit",
+          "preflight",
+          "commercial packaging",
+          "live source refresh"
+        ],
+        "official_public_domain_figures": 3,
+        "original_editable_svg_assets": 89,
+        "pages": 208,
+        "planned_prices_usd": {
+          "kindle": 6.99,
+          "paperback": 17.99
+        },
+        "production_ended": "2026-09-06",
+        "production_started": "2026-09-06",
+        "question_ids_expected": 409,
+        "question_ids_represented": 409,
+        "rework_causes": [
+          "Added exact official T-1/T-2/T-3 figure keys after the independent diagram-reference audit found 12 dependent questions."
+        ],
+        "status": "KDP_READY_AWAITING_COVER_HUMAN_GATE",
+        "unresolved_claims": 0,
+        "word_count": 16233
+      },
+      "id": "evidence:RN2-037:autonomous-production",
+      "observed_at": "2026-09-06",
+      "opportunity_id": "RN2-037",
+      "source_ref": "books/rn2-037/production/production-manifest.json",
+      "summary": "Autonomous production completed as a 208-page diagram-first paperback plus semantic EPUB with a complete verified 409-ID crosswalk."
     }
   ],
   "launches": [

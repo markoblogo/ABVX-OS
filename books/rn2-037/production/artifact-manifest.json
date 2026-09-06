@@ -1,0 +1,91 @@
+{
+  "schema_version": "rn2-037-artifact-manifest/v1",
+  "status": "KDP_READY_AWAITING_COVER_HUMAN_GATE",
+  "generated_at": "2026-09-06",
+  "artifacts": [
+    {
+      "file": "books/rn2-037/manuscript/ham-radio-technician-visual-cram-map.md",
+      "bytes": 99330,
+      "sha256": "726f97bcdb39c99c0c15f142ec6ccb5c14d9cd2840900708accafc0b493e16a1"
+    },
+    {
+      "file": "output/pdf/ham-radio-technician-visual-cram-map-2026-2030-interior.pdf",
+      "bytes": 516015,
+      "sha256": "c5529b25399bb2c8a8bbab6ce3f2a14416dc64c401f7674c51734fc24ab7458b"
+    },
+    {
+      "file": "output/epub/ham-radio-technician-visual-cram-map-2026-2030.epub",
+      "bytes": 214250,
+      "sha256": "6c1939a628da966b9c42a787cf20271d154be1c15a7819719a0bc12d7452f2e1"
+    },
+    {
+      "file": "books/rn2-037/data/question-pool-2026-2030.json",
+      "bytes": 326707,
+      "sha256": "bfe13fbef54794ee7ee5ac624f27c090e38661fb55d38ba4677830a287011ad9"
+    },
+    {
+      "file": "books/rn2-037/data/crosswalk.json",
+      "bytes": 103545,
+      "sha256": "bba01dfffa231866a37b9a9a5fdf6fd02294998a0bef1f2a66cab1cbdd536fdd"
+    },
+    {
+      "file": "books/rn2-037/data/claim-ledger.json",
+      "bytes": 275681,
+      "sha256": "75506d405a1e7da3316dbaf9bf13e2cc8e95df991c9cb2959814d3f8c11ca40a"
+    },
+    {
+      "file": "books/rn2-037/data/source-manifest.json",
+      "bytes": 2191,
+      "sha256": "3ddf582501e38f994c85c726cbb38af581d8352948e89c2e89ff34b605042b00"
+    },
+    {
+      "file": "books/rn2-037/qa/deterministic-qa.json",
+      "bytes": 563,
+      "sha256": "37ed5916f7fdc417f6dfe6501c0d93fd5d839446ac6b42e29d2711548c366488"
+    },
+    {
+      "file": "books/rn2-037/qa/independent-release-verification.json",
+      "bytes": 1473,
+      "sha256": "d6ee5565a62058006c379aa106f225bc4bdca879a6ca2ac791690db71aa80596"
+    },
+    {
+      "file": "books/rn2-037/qa/factual-editorial-audit.md",
+      "bytes": 2400,
+      "sha256": "2dfa3fc6c81268061238adb864f8ea48d9cb5de23deff2bfe292fcc2cc57782a"
+    },
+    {
+      "file": "books/rn2-037/qa/production-preflight.md",
+      "bytes": 1361,
+      "sha256": "4cd295ae7c56349f669f893e705fe2abb15bb5a9fc5d789f878225c8395aa87d"
+    },
+    {
+      "file": "books/rn2-037/commercial/kdp-commercial-package.md",
+      "bytes": 3947,
+      "sha256": "8b064a5b5c67d59e67023a304cdf7639d24cfc980f8016b2f411ec8b3eed3772"
+    },
+    {
+      "file": "books/rn2-037/commercial/kdp-commercial-package.json",
+      "bytes": 1195,
+      "sha256": "ba719797d4c353b620d400f992963a27419edca9579d2aebbac50b2b61deba0f"
+    },
+    {
+      "file": "books/rn2-037/production/editable-master.md",
+      "bytes": 758,
+      "sha256": "2339900b757332b4c10014290a54361703eeb22a5b9b131b5aeb8f58ebb4b2e5"
+    }
+  ],
+  "asset_sets": {
+    "editable_original_svgs": {
+      "directory": "books/rn2-037/visuals/svg",
+      "count": 89
+    },
+    "official_public_domain_figures": {
+      "directory": "books/rn2-037/visuals/official-pool",
+      "count": 3
+    },
+    "contact_sheets": {
+      "directory": "books/rn2-037/qa/contact-sheets",
+      "count": 4
+    }
+  }
+}

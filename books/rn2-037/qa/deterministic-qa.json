@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "expected_question_ids": 409,
+  "extracted_unique_ids": 409,
+  "represented_unique_ids": 409,
+  "missing_ids": [],
+  "extra_ids": [],
+  "unintended_duplicate_primary_ids": 0,
+  "answer_key_integrity": true,
+  "crosswalk_locations_resolve": true,
+  "print_pages": 208,
+  "svg_assets": 89,
+  "svg_xml_valid": true,
+  "visual_ids_used": 90,
+  "claim_rows": 417,
+  "unresolved_claims": 0,
+  "pool_source_sha256": "3618649d64df77f2cf217fa79ef82094fe5d2d41b26d20ce08c46ca1c3d5055a",
+  "pool_validity": [
+    "2026-07-01",
+    "2030-06-30"
+  ]
+}

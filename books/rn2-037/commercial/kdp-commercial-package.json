@@ -1,0 +1,32 @@
+{
+  "schema_version": "rn2-037-commercial-package/v1",
+  "checked_date": "2026-09-06",
+  "title": "Ham Radio Technician Visual Cram Map 2026\u20132030",
+  "subtitle": "A Diagram-First Guide to FCC Element 2 Concepts, Rules, Calculations, and All 409 Official Question IDs",
+  "author": "Northfield Signal Guides",
+  "paperback_price_usd": 17.99,
+  "kindle_price_usd": 6.99,
+  "paperback_print_cost_estimate_usd": 4.54,
+  "paperback_royalty_estimate_usd": 6.25,
+  "kdp_select": "90-day launch test if Amazon-exclusive",
+  "drm": false,
+  "keyword_fields": [
+    "technician class visual study guide",
+    "FCC element 2 concept map",
+    "ham license exam diagrams",
+    "amateur radio beginner review",
+    "electronics formulas antennas safety",
+    "409 question ID crosswalk",
+    "2026 2030 technician pool"
+  ],
+  "category_starting_points": [
+    "Technology & Engineering / Radio",
+    "Study Aids / Professional",
+    "Technology & Engineering / Electronics / General"
+  ],
+  "sources": {
+    "amazon_search_observed": "2026-09-06",
+    "kdp_print_cost": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+    "kdp_royalty": "https://kdp.amazon.com/en_US/help/topic/G201834330"
+  }
+}

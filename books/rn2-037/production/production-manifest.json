@@ -1,0 +1,31 @@
+{
+  "schema_version": "rn2-037-production-manifest/v1",
+  "status": "KDP_READY_AWAITING_COVER_HUMAN_GATE",
+  "title": "Ham Radio Technician Visual Cram Map 2026\u20132030",
+  "author": "Northfield Signal Guides",
+  "trim_inches": [
+    8,
+    10
+  ],
+  "ink": "black and white",
+  "bleed": false,
+  "pages": 208,
+  "manuscript": "books/rn2-037/manuscript/ham-radio-technician-visual-cram-map.md",
+  "paperback_pdf": "output/pdf/ham-radio-technician-visual-cram-map-2026-2030-interior.pdf",
+  "kindle_epub": "output/epub/ham-radio-technician-visual-cram-map-2026-2030.epub",
+  "question_pool": "books/rn2-037/data/question-pool-2026-2030.json",
+  "crosswalk": "books/rn2-037/data/crosswalk.json",
+  "claim_ledger": "books/rn2-037/data/claim-ledger.json",
+  "editable_visuals": "books/rn2-037/visuals/svg",
+  "svg_count": 89,
+  "source_manifest": "books/rn2-037/data/source-manifest.json",
+  "built_date": "2026-09-06",
+  "word_count": 16233,
+  "official_pool_figures": 3,
+  "pdf_sha256": "c5529b25399bb2c8a8bbab6ce3f2a14416dc64c401f7674c51734fc24ab7458b",
+  "epub_sha256": "6c1939a628da966b9c42a787cf20271d154be1c15a7819719a0bc12d7452f2e1",
+  "independent_verification": "books/rn2-037/qa/independent-release-verification.json",
+  "preflight": "books/rn2-037/qa/production-preflight.md",
+  "commercial_package": "books/rn2-037/commercial/kdp-commercial-package.md",
+  "human_gate": "Cover selection, KDP metadata entry/upload, KDP Previewer device check, pricing confirmation, and publication approval."
+}

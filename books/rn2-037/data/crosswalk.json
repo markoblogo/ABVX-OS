@@ -1,0 +1,3701 @@
+{
+  "schema_version": "rn2-037-crosswalk/v1",
+  "pool_source_sha256": "3618649d64df77f2cf217fa79ef82094fe5d2d41b26d20ce08c46ca1c3d5055a",
+  "primary_mapping_rule": "exactly one primary chapter per active official question ID",
+  "chapter_counts": {
+    "1": 50,
+    "2": 46,
+    "3": 22,
+    "4": 22,
+    "5": 35,
+    "6": 23,
+    "7": 47,
+    "8": 23,
+    "9": 37,
+    "10": 68,
+    "11": 36
+  },
+  "mappings": [
+    {
+      "question_id": "T1A01",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 5,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A02",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 5,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A03",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 5,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A04",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 5,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A05",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 5,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A06",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 6,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A07",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 6,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A08",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 6,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A09",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 6,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A10",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 6,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1A11",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 6,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B01",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 7,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B02",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 7,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B03",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 7,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B04",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 7,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B05",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 7,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B06",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 8,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B07",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 8,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B08",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 8,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B09",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 8,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B10",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 8,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B11",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 8,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1B12",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 9,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C01",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 9,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C02",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 9,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C03",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 9,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C04",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 9,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C05",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 10,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C06",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 10,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C07",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 10,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C08",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 10,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C09",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 10,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C10",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 10,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1C11",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 11,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D01",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 11,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D02",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 11,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D03",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 11,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D04",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 11,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D05",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 12,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D06",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 12,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D07",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 12,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D08",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 12,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D09",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 12,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D10",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 13,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D11",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 13,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1D12",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 13,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E01",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 13,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E02",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 13,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E03",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 13,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E04",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 14,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E05",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 14,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E06",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 14,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E07",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 14,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E08",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 14,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E09",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 15,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E10",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 15,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1E11",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1E",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 15,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F01",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 15,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F02",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 15,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F03",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 15,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F04",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 16,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F05",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 16,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F06",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 16,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F07",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 16,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F08",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 16,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F09",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 17,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F10",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 17,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T1F11",
+      "primary_chapter": 10,
+      "primary_chapter_title": "Rules as decision paths",
+      "concept": "T1F",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 17,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A01",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 17,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A02",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 17,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A03",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 18,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A04",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 18,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A05",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 18,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A06",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 18,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A07",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 18,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A08",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 18,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A09",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 19,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A10",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 19,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2A11",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 19,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B01",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 19,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B02",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 19,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B03",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 20,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B04",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 20,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B05",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 20,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B06",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 20,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B07",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 20,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B08",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 20,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B09",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 21,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B10",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 21,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B11",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 21,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B12",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 21,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B13",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 21,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2B14",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 21,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C01",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 22,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C02",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 22,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C03",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 22,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C04",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 22,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C05",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 22,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C06",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 23,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C07",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 23,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C08",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 23,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C09",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 23,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C10",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 23,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C11",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 23,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T2C12",
+      "primary_chapter": 9,
+      "primary_chapter_title": "Getting on the air",
+      "concept": "T2C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 24,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A01",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 24,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A02",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 24,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A03",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 24,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A04",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 24,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A05",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 25,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A06",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 25,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A07",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 25,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A08",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 25,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A09",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 25,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A10",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 25,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A11",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 26,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3A12",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 26,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B01",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 26,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B02",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 26,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B03",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 26,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B04",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 27,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B05",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 27,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B06",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 27,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B07",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 27,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B08",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 27,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B09",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 27,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B10",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 28,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B11",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 28,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3B12",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 28,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C01",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 28,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C02",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 28,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C03",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 28,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C04",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 29,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C05",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 29,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C06",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 29,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C07",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 29,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C08",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 29,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C09",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 30,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C10",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 30,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T3C11",
+      "primary_chapter": 5,
+      "primary_chapter_title": "Waves, frequency, and propagation",
+      "concept": "T3C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 30,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A01",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 30,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A02",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 30,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A03",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 31,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A04",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 31,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A05",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 31,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A06",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 31,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A07",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 31,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A08",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 31,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A09",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 32,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A10",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 32,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A11",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 32,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4A12",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 32,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B01",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 32,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B02",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 32,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B03",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 33,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B04",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 33,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B05",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 33,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B06",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 33,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B07",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 33,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B08",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 34,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B09",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 34,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B10",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 34,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T4B11",
+      "primary_chapter": 8,
+      "primary_chapter_title": "First station and operating controls",
+      "concept": "T4B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 34,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A01",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 34,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A02",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 34,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A03",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 35,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A04",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 35,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A05",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 35,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A06",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 35,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A07",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 35,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A08",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 35,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A09",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 36,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A10",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 36,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5A11",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 36,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B01",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 36,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B02",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 36,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B03",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 37,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B04",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 37,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B05",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 37,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B06",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 37,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B07",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 37,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B08",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 37,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B09",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 38,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B10",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 38,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B11",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 38,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B12",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 38,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5B13",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 38,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C01",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 38,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C02",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 39,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C03",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 39,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C04",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 39,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C05",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 39,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C06",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 39,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C07",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 39,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C08",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 40,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C09",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 40,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C10",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 40,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C11",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 40,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5C12",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 40,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D01",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 40,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D02",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 41,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D03",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 41,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D04",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 41,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D05",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 41,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D06",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 41,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D07",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 41,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D08",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 42,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D09",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 42,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D10",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 42,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D11",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 42,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D12",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 42,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D13",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 42,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T5D14",
+      "primary_chapter": 1,
+      "primary_chapter_title": "Electricity without intimidation",
+      "concept": "T5D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 43,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A01",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 43,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A02",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 43,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A03",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 43,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A04",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 43,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A05",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 44,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A06",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 44,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A07",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 44,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A08",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 44,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A09",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 44,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A10",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 44,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6A11",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 45,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B01",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 45,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B02",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 45,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B03",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 45,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B04",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 45,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B05",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 45,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B06",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 46,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B07",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 46,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B08",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 46,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B09",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 46,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B10",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 46,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B11",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 46,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6B12",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 47,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C01",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 47,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C02",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 47,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C03",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 47,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C04",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 47,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C05",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 48,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C06",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 48,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C07",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 48,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C08",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 48,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C09",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 48,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C10",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 48,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C11",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 49,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6C12",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 49,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D01",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 49,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D02",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 49,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D03",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 49,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D04",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 49,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D05",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 50,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D06",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 50,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D07",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 50,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D08",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 50,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D09",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 50,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D10",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 50,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T6D11",
+      "primary_chapter": 2,
+      "primary_chapter_title": "Components as jobs, not symbols",
+      "concept": "T6D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 51,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A01",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 51,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A02",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 51,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A03",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 51,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A04",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 51,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A05",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 52,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A06",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 52,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A07",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 52,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A08",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 52,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A09",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 52,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A10",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 52,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7A11",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 53,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B01",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 53,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B02",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 53,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B03",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 53,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B04",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 53,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B05",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 54,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B06",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 54,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B07",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 54,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B08",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 54,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B09",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 54,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B10",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 54,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7B11",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 55,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C01",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 55,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C02",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 55,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C03",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 55,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C04",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 55,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C05",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 56,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C06",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 56,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C07",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 56,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C08",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 56,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C09",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 56,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C10",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 56,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7C11",
+      "primary_chapter": 4,
+      "primary_chapter_title": "Troubleshoot by symptom, cause, and safe action",
+      "concept": "T7C",
+      "coverage_mode": "TAUGHT",
+      "source_page": 57,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D01",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 57,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D02",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 57,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D03",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 57,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D04",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 57,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D05",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 57,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D06",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 58,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D07",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 58,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D08",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 58,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D09",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 58,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D10",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 58,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T7D11",
+      "primary_chapter": 3,
+      "primary_chapter_title": "Inside a radio and on the bench",
+      "concept": "T7D",
+      "coverage_mode": "TAUGHT",
+      "source_page": 58,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A01",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 59,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A02",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 59,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A03",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 59,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A04",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 59,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A05",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 59,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A06",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 60,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A07",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 60,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A08",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 60,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A09",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 60,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A10",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 60,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A11",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 60,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8A12",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 61,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B01",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 61,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B02",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 61,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B03",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 61,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B04",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 61,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B05",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 62,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B06",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 62,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B07",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 62,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B08",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 62,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B09",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 62,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B10",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 62,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B11",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 63,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8B12",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 63,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C01",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 63,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C02",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 63,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C03",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 63,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C04",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 64,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C05",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 64,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C06",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 64,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C07",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 64,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C08",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 64,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C09",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 64,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C10",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 65,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8C11",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 65,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D01",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 65,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D02",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 65,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D03",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 65,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D04",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 65,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D05",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 66,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D06",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 66,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D07",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 66,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D08",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 66,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D09",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 66,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D10",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 67,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D11",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 67,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T8D12",
+      "primary_chapter": 7,
+      "primary_chapter_title": "Signals and ways hams communicate",
+      "concept": "T8D",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 67,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A01",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 67,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A02",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 67,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A03",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 68,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A04",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 68,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A05",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 68,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A06",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 68,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A07",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 68,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A08",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 68,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A09",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 69,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A10",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 69,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9A11",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9A",
+      "coverage_mode": "TAUGHT",
+      "source_page": 69,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B01",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 69,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B02",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 69,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B03",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 69,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B04",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 70,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B05",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 70,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B06",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 70,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B07",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 70,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B08",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 70,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B09",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 70,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B10",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 71,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B11",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 71,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T9B12",
+      "primary_chapter": 6,
+      "primary_chapter_title": "Antennas, feed lines, and SWR",
+      "concept": "T9B",
+      "coverage_mode": "TAUGHT",
+      "source_page": 71,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A01",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 71,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A02",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 71,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A03",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 72,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A04",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 72,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A05",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 72,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A06",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 72,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A07",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 72,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A08",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 72,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A09",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 73,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A10",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 73,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A11",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 73,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0A12",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0A",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 73,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B01",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 73,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B02",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 74,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B03",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 74,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B04",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 74,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B05",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 74,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B06",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 74,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B07",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 74,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B08",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 75,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B09",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 75,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B10",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 75,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0B11",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0B",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 75,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C01",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 75,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C02",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 75,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C03",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 76,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C04",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 76,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C05",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 76,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C06",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 76,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C07",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 76,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C08",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 76,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C09",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 77,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C10",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 77,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C11",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 77,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C12",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 77,
+      "secondary_concepts": []
+    },
+    {
+      "question_id": "T0C13",
+      "primary_chapter": 11,
+      "primary_chapter_title": "Safety before shortcuts",
+      "concept": "T0C",
+      "coverage_mode": "DIRECT_RECALL",
+      "source_page": 77,
+      "secondary_concepts": []
+    }
+  ]
+}

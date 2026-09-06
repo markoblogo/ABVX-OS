@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "expected_ids": 409,
+  "extracted_ids": 409,
+  "unique_ids": 409,
+  "missing_ids": [],
+  "duplicate_ids": [],
+  "malformed_questions": 0,
+  "four_options_each": true,
+  "answer_key_resolves": true,
+  "subelement_counts": {
+    "T0": 36,
+    "T1": 68,
+    "T2": 37,
+    "T3": 35,
+    "T4": 23,
+    "T5": 50,
+    "T6": 46,
+    "T7": 44,
+    "T8": 47,
+    "T9": 23
+  },
+  "primary_crosswalk_ids": 409,
+  "primary_crosswalk_unique": 409,
+  "errata_ids_present": true
+}

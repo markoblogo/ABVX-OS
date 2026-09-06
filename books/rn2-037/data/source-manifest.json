@@ -1,0 +1,50 @@
+{
+  "schema_version": "rn2-037-source-freeze/v1",
+  "checked_date": "2026-09-06",
+  "status": "PASS",
+  "controlling_sources": [
+    {
+      "authority": "NCVEC",
+      "url": "https://ncvec.org/index.php/2026-2030-technician-question-pool",
+      "version": "corrected release 2026-02-19",
+      "effective": "2026-07-01/2030-06-30",
+      "rights": "explicit public-domain release",
+      "local_file": "books/rn2-037/sources/raw/ncvec-technician-pool-2026-2030-corrected-2026-02-19.pdf",
+      "note": "Downloaded from an independent NCVEC-member VEC mirror because NCVEC CDN blocked automated transfer; content/version/count/errata cross-checked against the controlling NCVEC page."
+    },
+    {
+      "authority": "FCC eCFR",
+      "url": "https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97",
+      "version": "renderer snapshot 2026-09-03 checked 2026-09-06",
+      "local_file": "books/rn2-037/sources/raw/ecfr-title47-part97-2026-09-03.html"
+    }
+  ],
+  "files": [
+    {
+      "file": "books/rn2-037/sources/raw/ecfr-title47-part97-2026-09-03.html",
+      "sha256": "823a36261fdb86440dab67507551fedd379378faafd44f8def30e148efddf6da",
+      "bytes": 315260
+    },
+    {
+      "file": "books/rn2-037/sources/raw/ecfr-title47-part97-2026-09-06.html",
+      "sha256": "28067e3779cb35d88c60862a187acdbb479d9b4628baf21a6484c1321f1f8f8c",
+      "bytes": 10596
+    },
+    {
+      "file": "books/rn2-037/sources/raw/ncvec-technician-pool-2026-2030-corrected-2026-02-19.pdf",
+      "sha256": "3618649d64df77f2cf217fa79ef82094fe5d2d41b26d20ce08c46ca1c3d5055a",
+      "bytes": 480239
+    },
+    {
+      "file": "books/rn2-037/sources/raw/ncvec-technician-pool-2026-2030-corrected-2026-02-19.txt",
+      "sha256": "1c70a7d5bcefcaeba345911e3cddb134f8250f23a41c7ff7400bf2234e01fd38",
+      "bytes": 115085
+    }
+  ],
+  "live_refresh": {
+    "checked_at": "2026-09-06",
+    "ncvec_result": "No later erratum or withdrawal found; controlling page still lists the February 19, 2026 four-question correction and public-domain release.",
+    "ecfr_result": "Part 97 remained current and displayed as up to date through September 3, 2026.",
+    "content_changes_required": false
+  }
+}
