@@ -65,6 +65,21 @@
       "id": "full-book-contact-sheet",
       "gate": "HUMAN_REQUIRED",
       "requirement": "Every final paperback page must appear in a contact sheet before profile admission."
+    },
+    {
+      "id": "kdp-live-area",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Every rendered text and vector/raster object must remain inside the KDP-safe live area calculated from trim, final page count, binding side and bleed setting. Dense pages receive stricter review."
+    },
+    {
+      "id": "visual-integrity",
+      "gate": "FAIL_CLOSED",
+      "requirement": "Obvious text collisions, missing or duplicated SVG labels, unresolved fonts, and unreadable rasterized labels block release; uncertain raster checks route to visual QA."
+    },
+    {
+      "id": "high-risk-contact-sheet",
+      "gate": "HUMAN_REQUIRED",
+      "requirement": "A separate sheet includes front matter, TOC, first chapter, densest text and visual pages, every worksheet/index/crosswalk, last pages, and all near-boundary pages."
     }
   ],
   "prohibited_shortcuts": [

@@ -1,14 +1,56 @@
 import unittest
 import json
+import zipfile
+import tempfile
 from pathlib import Path
 
 from abvx_harness.harness import validate_repository
+from abvx_harness.book_preflight import audit_epub_toc, audit_page_geometry, audit_print_toc, audit_svg, find_collisions, high_risk_pages
 
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class BookFactoryTests(unittest.TestCase):
+    def test_kdp_safe_area_rejects_text_and_objects_inside_mediabox_but_outside_live_area(self):
+        for name in ("text-outside-safe-area.json", "object-outside-safe-area.json"):
+            fixture = json.loads((ROOT / "books/factory/fixtures/preflight" / name).read_text())
+            result = audit_page_geometry(fixture["pages"], fixture["page_count"], fixture["bleed"])
+            self.assertEqual(result["status"], fixture["expected"])
+
+    def test_visual_collision_and_duplicate_svg_label_fail(self):
+        fixture = json.loads((ROOT / "books/factory/fixtures/preflight/overlapping-text.json").read_text())
+        self.assertTrue(find_collisions(fixture["boxes"]))
+        result = audit_svg(ROOT / "books/factory/fixtures/preflight/corrupt-label.svg", ["MAP"])
+        self.assertEqual(result["status"], "FAIL")
+        self.assertEqual(result["duplicated"], ["MAP"])
+
+    def test_missing_print_and_kindle_contents_fail_closed(self):
+        self.assertEqual(audit_print_toc("Title\nChapter 1\n")["status"], "FAIL")
+        with tempfile.TemporaryDirectory() as directory:
+            epub = Path(directory) / "missing-toc.epub"
+            with zipfile.ZipFile(epub, "w") as archive:
+                archive.writestr("OEBPS/content.opf", "<package/>")
+            self.assertEqual(audit_epub_toc(epub)["status"], "FAIL")
+
+    def test_kindle_navigation_and_reader_contents_pass_together(self):
+        with tempfile.TemporaryDirectory() as directory:
+            epub = Path(directory) / "book.epub"
+            opf = '<package><manifest><item id="nav" href="nav.xhtml"/></manifest><spine><itemref idref="nav"/></spine></package>'
+            nav = '<html><body><nav><a href="chapter.xhtml">Chapter</a></nav></body></html>'
+            with zipfile.ZipFile(epub, "w") as archive:
+                archive.writestr("OEBPS/content.opf", opf)
+                archive.writestr("OEBPS/nav.xhtml", nav)
+                archive.writestr("OEBPS/chapter.xhtml", "<html/>")
+            self.assertEqual(audit_epub_toc(epub)["status"], "PASS")
+
+    def test_high_risk_selection_includes_dense_and_structural_pages(self):
+        records = [{"page": 1, "kind": "front_matter"}, {"page": 4, "kind": "toc"},
+                   {"page": 9, "kind": "first_chapter"}, {"page": 50, "text_density": 99},
+                   {"page": 70, "visual_density": 99}, {"page": 181, "kind": "crosswalk"},
+                   {"page": 208, "kind": "last_page", "near_boundary": True}]
+        self.assertEqual(high_risk_pages(records), [1, 4, 9, 50, 70, 181, 208])
+
     def test_repository_validation_covers_book_contracts(self):
         checked = validate_repository(ROOT)
         self.assertIn("books/projects/fragments-therapists-notebook.json", checked)

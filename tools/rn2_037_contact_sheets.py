@@ -36,4 +36,5 @@ for n in groups_per_ch:
 sheet("chapter-opening-contact-sheet.jpg",openers,4,220)
 sheet("visual-system-contact-sheet.jpg",visual,10,145)
 sheet("representative-page-qa-sheet.jpg",[1,3,5,9,11,12,13,23,24,25,26,99,100,181,201,208],4,220)
+sheet("high-risk-page-contact-sheet.jpg",list(range(1,10))+[12]+list(range(180,209)),6,180)
 print(OUT)

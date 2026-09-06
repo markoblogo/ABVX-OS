@@ -1,0 +1,72 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [],
+  "opportunities": [],
+  "scores": [],
+  "portfolio_products": [],
+  "similarity_results": [],
+  "actuals": [],
+  "calibrations": [],
+  "products": [
+    {
+      "id": "product:RN2-037",
+      "opportunity_id": "RN2-037",
+      "status": "SUBMITTED",
+      "title": "Ham Radio Technician Visual Cram Map 2026-2030",
+      "author": "Northfield Signal Guides",
+      "formats": ["Kindle EPUB 3", "8x10 black-and-white paperback"],
+      "paperback_pages": 208
+    }
+  ],
+  "launches": [
+    {
+      "id": "launch:RN2-037:2026-09-06",
+      "product_id": "product:RN2-037",
+      "submitted_at": "2026-09-06",
+      "kindle_status": "PUBLISHING",
+      "paperback_status": "UNDER_KDP_REVIEW",
+      "recorded_prices_usd": {"kindle": 6.99, "paperback": 17.99},
+      "price_evidence": "commercial package; final storefront prices not yet observed"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence:RN2-037:post-production-actual",
+      "opportunity_id": "RN2-037",
+      "observed_at": "2026-09-06",
+      "summary": "Product completed and submitted. Kindle is publishing; paperback is under KDP review. Final human/KDP preview found four defect classes after an internal PASS.",
+      "details": {
+        "production_window": {"started": "2026-09-06", "completed": "2026-09-06", "precision": "calendar-day only"},
+        "final_pages": 208,
+        "final_formats": ["Kindle EPUB 3", "8x10 black-and-white paperback PDF"],
+        "anton_subject_matter_decisions": 0,
+        "anton_hours_actual": null,
+        "anton_hours_note": "not measured; do not substitute the original estimate",
+        "human_publishing_qa_interventions": [
+          "noticed missing print and Kindle contents and requested regeneration",
+          "reported reader-notice text collision",
+          "reported corrupted or overlapping SVG central labels",
+          "reported KDP Print Previewer live-area failures on page 1 and pages 181-199",
+          "selected or confirmed publishing metadata, cover, prices, and performed KDP upload"
+        ],
+        "post_preflight_false_negatives": [
+          {"class": "PRINT_MARGIN_LIVE_AREA_FAILURE", "observed": "KDP reported text/object outside margins, concentrated on dense crosswalk pages 181-199 and an object on page 1", "corrected": true},
+          {"class": "VISUAL_TEXT_COLLISION_OVERLAP", "observed": "reader-notice/info text blocks overlapped", "corrected": true},
+          {"class": "SVG_VISUAL_LABEL_CORRUPTION", "observed": "central MAP/T5A-like labels rendered duplicated or malformed", "corrected": true},
+          {"class": "TABLE_OF_CONTENTS_OMISSION", "observed": "initial paperback and Kindle artifacts omitted usable contents", "corrected": true}
+        ]
+      },
+      "source_ref": "books/rn2-037/qa/rn2-037-post-production-learning.md"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN2-037:submitted",
+      "opportunity_id": "RN2-037",
+      "decision": "production_completed_and_submitted",
+      "decided_at": "2026-09-06",
+      "production_authorized": true,
+      "reason": "Corrected Kindle and paperback packages were submitted; publication-state verification remains external."
+    }
+  ]
+}

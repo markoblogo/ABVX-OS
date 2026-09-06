@@ -4,6 +4,7 @@
   "status": "ADMITTED",
   "purpose": "Separate human-facing visual QA from technical artifact validation for Book Factory production.",
   "principle": "TECHNICAL_PASS_DOES_NOT_IMPLY_VISUAL_PASS",
+  "post_preflight_learning": "RN2-037_POST_PREFLIGHT_FALSE_NEGATIVES",
   "surfaces": [
     {
       "surface": "cover",
@@ -37,7 +38,15 @@
     ,"heading hyphenation or excessive body hyphenation"
     ,"reader-facing internal provenance or local path"
     ,"print page numbers or running heads in Kindle source"
+    ,"text or vector/raster object outside the calculated KDP live area"
+    ,"obvious text bounding-box collision or duplicated visual label"
+    ,"missing print, Kindle navigation, or required reader-facing contents"
   ],
+  "high_risk_contact_sheet": {
+    "required": true,
+    "pages": ["front matter", "TOC", "first chapter", "densest text", "densest visual", "every worksheet", "every index or crosswalk", "last pages", "near-live-area boundary"],
+    "external_gate": "KDP Previewer remains mandatory"
+  },
   "provenance": {
     "recorded_by": "BOOK-FACTORY-INDICES-009",
     "derived_from": [

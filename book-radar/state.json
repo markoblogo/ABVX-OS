@@ -945,6 +945,14 @@
       "opportunity_id": "RN2-037",
       "production_authorized": true,
       "reason": "Authoritative-source, rights, 409-ID, crosswalk, claim-ledger, differentiation, print, and EPUB structural gates passed without Anton subject-matter review."
+    },
+    {
+      "decided_at": "2026-09-06",
+      "decision": "production_completed_and_submitted",
+      "id": "decision:RN2-037:submitted",
+      "opportunity_id": "RN2-037",
+      "production_authorized": true,
+      "reason": "Corrected Kindle and paperback packages were submitted; publication-state verification remains external."
     }
   ],
   "evidence": [
@@ -2367,6 +2375,57 @@
       "opportunity_id": "RN2-037",
       "source_ref": "books/rn2-037/production/production-manifest.json",
       "summary": "Autonomous production completed as a 208-page diagram-first paperback plus semantic EPUB with a complete verified 409-ID crosswalk."
+    },
+    {
+      "details": {
+        "anton_hours_actual": null,
+        "anton_hours_note": "not measured; do not substitute the original estimate",
+        "anton_subject_matter_decisions": 0,
+        "final_formats": [
+          "Kindle EPUB 3",
+          "8x10 black-and-white paperback PDF"
+        ],
+        "final_pages": 208,
+        "human_publishing_qa_interventions": [
+          "noticed missing print and Kindle contents and requested regeneration",
+          "reported reader-notice text collision",
+          "reported corrupted or overlapping SVG central labels",
+          "reported KDP Print Previewer live-area failures on page 1 and pages 181-199",
+          "selected or confirmed publishing metadata, cover, prices, and performed KDP upload"
+        ],
+        "post_preflight_false_negatives": [
+          {
+            "class": "PRINT_MARGIN_LIVE_AREA_FAILURE",
+            "corrected": true,
+            "observed": "KDP reported text/object outside margins, concentrated on dense crosswalk pages 181-199 and an object on page 1"
+          },
+          {
+            "class": "VISUAL_TEXT_COLLISION_OVERLAP",
+            "corrected": true,
+            "observed": "reader-notice/info text blocks overlapped"
+          },
+          {
+            "class": "SVG_VISUAL_LABEL_CORRUPTION",
+            "corrected": true,
+            "observed": "central MAP/T5A-like labels rendered duplicated or malformed"
+          },
+          {
+            "class": "TABLE_OF_CONTENTS_OMISSION",
+            "corrected": true,
+            "observed": "initial paperback and Kindle artifacts omitted usable contents"
+          }
+        ],
+        "production_window": {
+          "completed": "2026-09-06",
+          "precision": "calendar-day only",
+          "started": "2026-09-06"
+        }
+      },
+      "id": "evidence:RN2-037:post-production-actual",
+      "observed_at": "2026-09-06",
+      "opportunity_id": "RN2-037",
+      "source_ref": "books/rn2-037/qa/rn2-037-post-production-learning.md",
+      "summary": "Product completed and submitted. Kindle is publishing; paperback is under KDP review. Final human/KDP preview found four defect classes after an internal PASS."
     }
   ],
   "launches": [
@@ -2385,6 +2444,18 @@
       "product_id": "product:PMP-2026-ORIENTATION",
       "promo_used": false,
       "submitted_at": "2026-09-04"
+    },
+    {
+      "id": "launch:RN2-037:2026-09-06",
+      "kindle_status": "PUBLISHING",
+      "paperback_status": "UNDER_KDP_REVIEW",
+      "price_evidence": "commercial package; final storefront prices not yet observed",
+      "product_id": "product:RN2-037",
+      "recorded_prices_usd": {
+        "kindle": 6.99,
+        "paperback": 17.99
+      },
+      "submitted_at": "2026-09-06"
     }
   ],
   "opportunities": [
@@ -3827,6 +3898,18 @@
         }
       ],
       "word_count_approx": 12500
+    },
+    {
+      "author": "Northfield Signal Guides",
+      "formats": [
+        "Kindle EPUB 3",
+        "8x10 black-and-white paperback"
+      ],
+      "id": "product:RN2-037",
+      "opportunity_id": "RN2-037",
+      "paperback_pages": 208,
+      "status": "SUBMITTED",
+      "title": "Ham Radio Technician Visual Cram Map 2026-2030"
     }
   ],
   "radar_runs": [
