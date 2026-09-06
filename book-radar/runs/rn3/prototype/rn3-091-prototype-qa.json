@@ -1,0 +1,15 @@
+{
+  "schema_version": "rn3-prototype-qa/v1",
+  "opportunity_id": "RN3-091",
+  "status": "PASS",
+  "scope": "three-card visual direction proof only; not book production",
+  "checks": {
+    "expected_labels_present": "PASS",
+    "duplicate_labels": "PASS",
+    "text_collisions": "PASS",
+    "rasterized_sign_shapes_visible": "PASS",
+    "rasterized_ukrainian_labels_readable": "PASS"
+  },
+  "artifact": "book-radar/runs/rn3/prototype/rn3-091-visual-prototype.png",
+  "note": "Initial stroke-only SVG lost two sign outlines during rasterization. Filled-shape construction corrected the defect before authorization."
+}

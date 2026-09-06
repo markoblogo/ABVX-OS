@@ -1,0 +1,71 @@
+{
+  "observed_at": "2026-09-06",
+  "sources": [
+    {
+      "id": "amazon-fr-query-chantier",
+      "type": "Amazon live search",
+      "url": "https://www.amazon.fr/s?k=carnet+suivi+chantier+renovation&i=stripbooks",
+      "evidence": "66 results"
+    },
+    {
+      "id": "amazon-fr-B0FM81YP69",
+      "type": "Amazon product",
+      "url": "https://www.amazon.fr/dp/B0FM81YP69",
+      "evidence": "Aug 12 2025; EUR34.90; 156 pages; BSR 65,988; 12 reviews"
+    },
+    {
+      "id": "amazon-fr-B0GFNVGW8Q",
+      "type": "Amazon product",
+      "url": "https://www.amazon.fr/dp/B0GFNVGW8Q",
+      "evidence": "Jan 7 2026; EUR12.40; 123 pages; BSR 1,003,248; 1 review"
+    },
+    {
+      "id": "amazon-fr-B0F8BL7G58",
+      "type": "Amazon product",
+      "url": "https://www.amazon.fr/dp/B0F8BL7G58",
+      "evidence": "May 11 2025; Ukrainian; EUR17.20; 147 pages; BSR 207,359; 9 reviews; volume 1 has 10 reviews"
+    },
+    {
+      "id": "amazon-pl-dziennik",
+      "type": "Amazon live search",
+      "url": "https://www.amazon.pl/s?k=dziennik+budowy+domu&i=stripbooks",
+      "evidence": "6 exact results; new Polish entrants Feb-Aug 2026; PLN34.44-117.02"
+    },
+    {
+      "id": "amazon-com-build-planner",
+      "type": "Amazon live search",
+      "url": "https://www.amazon.com/s?k=home+construction+project+planner+workbook&i=stripbooks",
+      "evidence": "over 1,000 results"
+    },
+    {
+      "id": "legifrance-signs",
+      "type": "French official law",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006075080",
+      "evidence": "current signaling taxonomy and specifications"
+    },
+    {
+      "id": "etalab-open-licence",
+      "type": "French official licensing",
+      "url": "https://doc.transport.data.gouv.fr/le-point-d-acces-national/cadre-juridique/conditions-dutilisation-des-donnees/licence-ouverte-etalab",
+      "evidence": "commercial reuse allowed with source and update-date attribution"
+    },
+    {
+      "id": "data-gouv-signs",
+      "type": "French official open data",
+      "url": "https://www.data.gouv.fr/datasets/donnees-de-signalisation-routiere-determinant-la-vitesse-maximale-autorisee",
+      "evidence": "Ministry data, Open Licence 2.0, updated Mar 11 2026"
+    },
+    {
+      "id": "anah-2025",
+      "type": "French official demand context",
+      "url": "https://www.anah.gouv.fr/presse/reouverture-du-guichet-des-aides-de-l-anah-priorite-aux-projets-de-renovation-de-qualite",
+      "evidence": "379,428 homes renovated with Anah support in 2025"
+    }
+  ],
+  "limitations": [
+    "Broad screen uses low-cost query evidence and inference; it is not 180 full Amazon audits.",
+    "Amazon BSR is a volatile snapshot, not unit sales.",
+    "No credible Amazon evidence justified a Belarusian finalist.",
+    "Economics are conservative estimates, not forecasts."
+  ]
+}

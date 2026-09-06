@@ -1,0 +1,1790 @@
+{
+  "broad_rejections": [
+    {
+      "id": "decision:RN3-002:broad",
+      "opportunity_id": "RN3-002",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-003:broad",
+      "opportunity_id": "RN3-003",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-004:broad",
+      "opportunity_id": "RN3-004",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-005:broad",
+      "opportunity_id": "RN3-005",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-007:broad",
+      "opportunity_id": "RN3-007",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-008:broad",
+      "opportunity_id": "RN3-008",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-009:broad",
+      "opportunity_id": "RN3-009",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-010:broad",
+      "opportunity_id": "RN3-010",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-011:broad",
+      "opportunity_id": "RN3-011",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-012:broad",
+      "opportunity_id": "RN3-012",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-013:broad",
+      "opportunity_id": "RN3-013",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-015:broad",
+      "opportunity_id": "RN3-015",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-016:broad",
+      "opportunity_id": "RN3-016",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-017:broad",
+      "opportunity_id": "RN3-017",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-018:broad",
+      "opportunity_id": "RN3-018",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-019:broad",
+      "opportunity_id": "RN3-019",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-020:broad",
+      "opportunity_id": "RN3-020",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-021:broad",
+      "opportunity_id": "RN3-021",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-022:broad",
+      "opportunity_id": "RN3-022",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-023:broad",
+      "opportunity_id": "RN3-023",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-024:broad",
+      "opportunity_id": "RN3-024",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-025:broad",
+      "opportunity_id": "RN3-025",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-026:broad",
+      "opportunity_id": "RN3-026",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-027:broad",
+      "opportunity_id": "RN3-027",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-028:broad",
+      "opportunity_id": "RN3-028",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-029:broad",
+      "opportunity_id": "RN3-029",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-030:broad",
+      "opportunity_id": "RN3-030",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-032:broad",
+      "opportunity_id": "RN3-032",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-033:broad",
+      "opportunity_id": "RN3-033",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-034:broad",
+      "opportunity_id": "RN3-034",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-035:broad",
+      "opportunity_id": "RN3-035",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-038:broad",
+      "opportunity_id": "RN3-038",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-039:broad",
+      "opportunity_id": "RN3-039",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-040:broad",
+      "opportunity_id": "RN3-040",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-041:broad",
+      "opportunity_id": "RN3-041",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-042:broad",
+      "opportunity_id": "RN3-042",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-043:broad",
+      "opportunity_id": "RN3-043",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-044:broad",
+      "opportunity_id": "RN3-044",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-046:broad",
+      "opportunity_id": "RN3-046",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-047:broad",
+      "opportunity_id": "RN3-047",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-048:broad",
+      "opportunity_id": "RN3-048",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-049:broad",
+      "opportunity_id": "RN3-049",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-050:broad",
+      "opportunity_id": "RN3-050",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-051:broad",
+      "opportunity_id": "RN3-051",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-052:broad",
+      "opportunity_id": "RN3-052",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-053:broad",
+      "opportunity_id": "RN3-053",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-054:broad",
+      "opportunity_id": "RN3-054",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-055:broad",
+      "opportunity_id": "RN3-055",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-056:broad",
+      "opportunity_id": "RN3-056",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-057:broad",
+      "opportunity_id": "RN3-057",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-058:broad",
+      "opportunity_id": "RN3-058",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-059:broad",
+      "opportunity_id": "RN3-059",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-060:broad",
+      "opportunity_id": "RN3-060",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-063:broad",
+      "opportunity_id": "RN3-063",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-064:broad",
+      "opportunity_id": "RN3-064",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-065:broad",
+      "opportunity_id": "RN3-065",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-067:broad",
+      "opportunity_id": "RN3-067",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-068:broad",
+      "opportunity_id": "RN3-068",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-069:broad",
+      "opportunity_id": "RN3-069",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-070:broad",
+      "opportunity_id": "RN3-070",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-071:broad",
+      "opportunity_id": "RN3-071",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-072:broad",
+      "opportunity_id": "RN3-072",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-073:broad",
+      "opportunity_id": "RN3-073",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-074:broad",
+      "opportunity_id": "RN3-074",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-075:broad",
+      "opportunity_id": "RN3-075",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-076:broad",
+      "opportunity_id": "RN3-076",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-077:broad",
+      "opportunity_id": "RN3-077",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-078:broad",
+      "opportunity_id": "RN3-078",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-079:broad",
+      "opportunity_id": "RN3-079",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-080:broad",
+      "opportunity_id": "RN3-080",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-081:broad",
+      "opportunity_id": "RN3-081",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-082:broad",
+      "opportunity_id": "RN3-082",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-083:broad",
+      "opportunity_id": "RN3-083",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-084:broad",
+      "opportunity_id": "RN3-084",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-085:broad",
+      "opportunity_id": "RN3-085",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-086:broad",
+      "opportunity_id": "RN3-086",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-087:broad",
+      "opportunity_id": "RN3-087",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-088:broad",
+      "opportunity_id": "RN3-088",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-089:broad",
+      "opportunity_id": "RN3-089",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-090:broad",
+      "opportunity_id": "RN3-090",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-093:broad",
+      "opportunity_id": "RN3-093",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-094:broad",
+      "opportunity_id": "RN3-094",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-095:broad",
+      "opportunity_id": "RN3-095",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-096:broad",
+      "opportunity_id": "RN3-096",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-098:broad",
+      "opportunity_id": "RN3-098",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-099:broad",
+      "opportunity_id": "RN3-099",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-100:broad",
+      "opportunity_id": "RN3-100",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-101:broad",
+      "opportunity_id": "RN3-101",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-102:broad",
+      "opportunity_id": "RN3-102",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-103:broad",
+      "opportunity_id": "RN3-103",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-104:broad",
+      "opportunity_id": "RN3-104",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-105:broad",
+      "opportunity_id": "RN3-105",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-106:broad",
+      "opportunity_id": "RN3-106",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-107:broad",
+      "opportunity_id": "RN3-107",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-108:broad",
+      "opportunity_id": "RN3-108",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-109:broad",
+      "opportunity_id": "RN3-109",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-110:broad",
+      "opportunity_id": "RN3-110",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-111:broad",
+      "opportunity_id": "RN3-111",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-112:broad",
+      "opportunity_id": "RN3-112",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-113:broad",
+      "opportunity_id": "RN3-113",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-114:broad",
+      "opportunity_id": "RN3-114",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-115:broad",
+      "opportunity_id": "RN3-115",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-116:broad",
+      "opportunity_id": "RN3-116",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-117:broad",
+      "opportunity_id": "RN3-117",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-118:broad",
+      "opportunity_id": "RN3-118",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-119:broad",
+      "opportunity_id": "RN3-119",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-120:broad",
+      "opportunity_id": "RN3-120",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-123:broad",
+      "opportunity_id": "RN3-123",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-124:broad",
+      "opportunity_id": "RN3-124",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-125:broad",
+      "opportunity_id": "RN3-125",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-126:broad",
+      "opportunity_id": "RN3-126",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-127:broad",
+      "opportunity_id": "RN3-127",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-128:broad",
+      "opportunity_id": "RN3-128",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-129:broad",
+      "opportunity_id": "RN3-129",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-130:broad",
+      "opportunity_id": "RN3-130",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-131:broad",
+      "opportunity_id": "RN3-131",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-132:broad",
+      "opportunity_id": "RN3-132",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-133:broad",
+      "opportunity_id": "RN3-133",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-134:broad",
+      "opportunity_id": "RN3-134",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-135:broad",
+      "opportunity_id": "RN3-135",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-136:broad",
+      "opportunity_id": "RN3-136",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-137:broad",
+      "opportunity_id": "RN3-137",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-138:broad",
+      "opportunity_id": "RN3-138",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-139:broad",
+      "opportunity_id": "RN3-139",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-140:broad",
+      "opportunity_id": "RN3-140",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-141:broad",
+      "opportunity_id": "RN3-141",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-142:broad",
+      "opportunity_id": "RN3-142",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-143:broad",
+      "opportunity_id": "RN3-143",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-144:broad",
+      "opportunity_id": "RN3-144",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-145:broad",
+      "opportunity_id": "RN3-145",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-146:broad",
+      "opportunity_id": "RN3-146",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-147:broad",
+      "opportunity_id": "RN3-147",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-148:broad",
+      "opportunity_id": "RN3-148",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-149:broad",
+      "opportunity_id": "RN3-149",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-150:broad",
+      "opportunity_id": "RN3-150",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-152:broad",
+      "opportunity_id": "RN3-152",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-153:broad",
+      "opportunity_id": "RN3-153",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-154:broad",
+      "opportunity_id": "RN3-154",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-155:broad",
+      "opportunity_id": "RN3-155",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-157:broad",
+      "opportunity_id": "RN3-157",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-158:broad",
+      "opportunity_id": "RN3-158",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-159:broad",
+      "opportunity_id": "RN3-159",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-160:broad",
+      "opportunity_id": "RN3-160",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-161:broad",
+      "opportunity_id": "RN3-161",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-162:broad",
+      "opportunity_id": "RN3-162",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-163:broad",
+      "opportunity_id": "RN3-163",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-164:broad",
+      "opportunity_id": "RN3-164",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-165:broad",
+      "opportunity_id": "RN3-165",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-166:broad",
+      "opportunity_id": "RN3-166",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-167:broad",
+      "opportunity_id": "RN3-167",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-168:broad",
+      "opportunity_id": "RN3-168",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-169:broad",
+      "opportunity_id": "RN3-169",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-171:broad",
+      "opportunity_id": "RN3-171",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-172:broad",
+      "opportunity_id": "RN3-172",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-173:broad",
+      "opportunity_id": "RN3-173",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-174:broad",
+      "opportunity_id": "RN3-174",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-175:broad",
+      "opportunity_id": "RN3-175",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-176:broad",
+      "opportunity_id": "RN3-176",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-177:broad",
+      "opportunity_id": "RN3-177",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-178:broad",
+      "opportunity_id": "RN3-178",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-179:broad",
+      "opportunity_id": "RN3-179",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    },
+    {
+      "id": "decision:RN3-180:broad",
+      "opportunity_id": "RN3-180",
+      "decision": "rejected_at_broad_screen",
+      "reason": "Insufficient combined demand evidence, differentiation, KDP fit, or low-touch feasibility",
+      "decided_at": "2026-09-06"
+    }
+  ],
+  "deep_gate_exclusions": [
+    {
+      "id": "RN3-006",
+      "working_product": "caregiver medication handoff log",
+      "language": "EN",
+      "marketplace": "Amazon.com",
+      "buyer_jtbd": "caregiver medication handoff log",
+      "query_cluster": "caregiver medication handoff log",
+      "format": "paperback workbook/visual guide",
+      "demand": 3,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 3,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 43,
+        "classification": "ADJACENT"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS_WITH_WARNING",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-014",
+      "working_product": "wildfire evacuation binder",
+      "language": "EN",
+      "marketplace": "Amazon.com",
+      "buyer_jtbd": "wildfire evacuation binder",
+      "query_cluster": "wildfire evacuation binder",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 43,
+        "classification": "ADJACENT"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS_WITH_WARNING",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-036",
+      "working_product": "carnet relevé chantier pour devis",
+      "language": "FR",
+      "marketplace": "Amazon.fr",
+      "buyer_jtbd": "carnet relevé chantier pour devis",
+      "query_cluster": "carnet relevé chantier pour devis",
+      "format": "paperback workbook/visual guide",
+      "demand": 3,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 3,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 3,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-037",
+      "working_product": "carnet liaison assistante maternelle",
+      "language": "FR",
+      "marketplace": "Amazon.fr",
+      "buyer_jtbd": "carnet liaison assistante maternelle",
+      "query_cluster": "carnet liaison assistante maternelle",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 3,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 43,
+        "classification": "ADJACENT"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS_WITH_WARNING",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-045",
+      "working_product": "guide visuel habilitation électrique",
+      "language": "FR",
+      "marketplace": "Amazon.fr",
+      "buyer_jtbd": "guide visuel habilitation électrique",
+      "query_cluster": "guide visuel habilitation électrique",
+      "format": "paperback workbook/visual guide",
+      "demand": 3,
+      "momentum": 3,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 3,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 3,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-062",
+      "working_product": "визуальный словарь французских дорожных знаков",
+      "language": "RU",
+      "marketplace": "Amazon.fr",
+      "buyer_jtbd": "визуальный словарь французских дорожных знаков",
+      "query_cluster": "визуальный словарь французских дорожных знаков",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "PASS",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-066",
+      "working_product": "журнал ухода за пожилым родственником",
+      "language": "RU",
+      "marketplace": "Amazon.fr",
+      "buyer_jtbd": "журнал ухода за пожилым родственником",
+      "query_cluster": "журнал ухода за пожилым родственником",
+      "format": "paperback workbook/visual guide",
+      "demand": 3,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 3,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 43,
+        "classification": "ADJACENT"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS_WITH_WARNING",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-092",
+      "working_product": "французька школа розмовник для батьків",
+      "language": "UK",
+      "marketplace": "Amazon.fr",
+      "buyer_jtbd": "французька школа розмовник для батьків",
+      "query_cluster": "французька школа розмовник для батьків",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 3,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-097",
+      "working_product": "підготовка до DELF B1 українською",
+      "language": "UK",
+      "marketplace": "Amazon.fr",
+      "buyer_jtbd": "підготовка до DELF B1 українською",
+      "query_cluster": "підготовка до DELF B1 українською",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "direct",
+      "shelf_life": 4,
+      "production_feasibility": 3,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "PASS"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-121",
+      "working_product": "беларуская азбука з малюнкамі",
+      "language": "BE",
+      "marketplace": "Amazon.pl",
+      "buyer_jtbd": "беларуская азбука з малюнкамі",
+      "query_cluster": "беларуская азбука з малюнкамі",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "costed native QA",
+      "shelf_life": 4,
+      "production_feasibility": 3,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 3,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "COSTED"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-122",
+      "working_product": "сямейная гісторыя рабочы сшытак",
+      "language": "BE",
+      "marketplace": "Amazon.pl",
+      "buyer_jtbd": "сямейная гісторыя рабочы сшытак",
+      "query_cluster": "сямейная гісторыя рабочы сшытак",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "costed native QA",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "COSTED"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-156",
+      "working_product": "wizualny przewodnik UDT wózki widłowe",
+      "language": "PL",
+      "marketplace": "Amazon.pl",
+      "buyer_jtbd": "wizualny przewodnik UDT wózki widłowe",
+      "query_cluster": "wizualny przewodnik UDT wózki widłowe",
+      "format": "paperback workbook/visual guide",
+      "demand": 3,
+      "momentum": 2,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "costed native QA",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 3,
+        "momentum": 2,
+        "competition_weakness": 3,
+        "newcomer_viability": 3,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "COSTED"
+      },
+      "gate_survives_final_ranking": false
+    },
+    {
+      "id": "RN3-170",
+      "working_product": "mapa matury ustnej angielski",
+      "language": "PL",
+      "marketplace": "Amazon.pl",
+      "buyer_jtbd": "mapa matury ustnej angielski",
+      "query_cluster": "mapa matury ustnej angielski",
+      "format": "paperback workbook/visual guide",
+      "demand": 2,
+      "momentum": 3,
+      "competition_weakness": 3,
+      "newcomer_evidence": 2,
+      "commercial_differentiation": 3,
+      "free_alternative_pressure": 3,
+      "paid_value_layer": "structured offline utility beyond freely available facts",
+      "author_dependency": "LOW",
+      "language_qa": "costed native QA",
+      "shelf_life": 4,
+      "production_feasibility": 4,
+      "economics": 3,
+      "evidence_quality": 2,
+      "metrics": {
+        "demand": 2,
+        "momentum": 3,
+        "competition_weakness": 3,
+        "newcomer_viability": 2,
+        "production_feasibility": 4,
+        "shelf_life": 4,
+        "economics": 3,
+        "new_entrant_evidence": 2,
+        "evidence_quality": 2,
+        "commercial_differentiation": 3,
+        "free_alternative_pressure": 3,
+        "author_dependency": "LOW"
+      },
+      "portfolio_similarity": {
+        "overlap_score": 10,
+        "classification": "NOVEL"
+      },
+      "gates": {
+        "portfolio_similarity": "PASS",
+        "commercial_differentiation": "PASS",
+        "source_rights": "CONDITIONAL",
+        "currentness": "CONDITIONAL",
+        "autonomous_qa": "PASS",
+        "paid_value_layer": "PASS",
+        "language_qa": "COSTED"
+      },
+      "gate_survives_final_ranking": false
+    }
+  ]
+}

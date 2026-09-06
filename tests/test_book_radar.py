@@ -85,6 +85,18 @@ class BookRadarTests(unittest.TestCase):
             self.assertEqual(before, after)
             self.assertEqual(load_state(root)["similarity_results"][0]["route"], "EXISTING_PRODUCT_AUDIT")
 
+    def test_rn3_multilingual_run_is_complete_and_production_not_started(self):
+        bundle = json.loads((ROOT / "book-radar/imports/radar-native-3-multilingual.json").read_text())
+        contract = json.loads((ROOT / "book-radar/runs/rn3/production-contract.json").read_text())
+        self.assertEqual(len(bundle["opportunities"]), 180)
+        self.assertEqual({item["language"] for item in bundle["opportunities"]}, {"EN", "FR", "RU", "UK", "BE", "PL"})
+        self.assertEqual(len(bundle["similarity_results"]), 18)
+        finalists = [d for d in bundle["decisions"] if d["decision"] == "finalist"]
+        self.assertEqual([d["opportunity_id"] for d in sorted(finalists, key=lambda d: d["rank"])], ["RN3-091", "RN3-031", "RN3-151", "RN3-061", "RN3-001"])
+        self.assertEqual(contract["status"], "PRODUCTION_AUTHORIZED_NOT_STARTED")
+        self.assertFalse(contract["production_started"])
+        self.assertTrue((ROOT / contract["prototype_qa"]).is_file())
+
 
 if __name__ == "__main__":
     unittest.main()

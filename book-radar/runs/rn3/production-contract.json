@@ -1,0 +1,79 @@
+{
+  "schema_version": "rn3-production-contract/v1",
+  "opportunity_id": "RN3-091",
+  "status": "PRODUCTION_AUTHORIZED_NOT_STARTED",
+  "prototype_qa": "book-radar/runs/rn3/prototype/rn3-091-prototype-qa.json",
+  "product": "French Road Signs in Ukrainian: A Visual Vocabulary Atlas",
+  "buyer": "Ukrainian-speaking learner or licensed driver in France",
+  "jtbd": "decode French road signs and high-friction road/exam vocabulary without translating a full French manual",
+  "promise": "Recognize the sign, understand the French term, and know the required action in plain Ukrainian",
+  "differentiation": "A sign-first bilingual visual atlas and recall system, not a prose Code de la route summary or copied question bank",
+  "paid_value_layer": "portable curated visual decoding, false-friend warnings, action language, spaced review and refresh guidance",
+  "language": "Ukrainian with essential French terms",
+  "market": "Amazon.fr plus EU distribution",
+  "format": "120-page standard-color 8.5x11 paperback and reflowable Kindle companion",
+  "optimal_product_scale": "100-130 pages; approximately 8,000-12,000 words; 120-160 original/licensed sign visuals",
+  "content_architecture": [
+    "how to read French sign families",
+    "danger and priority",
+    "prohibitions and obligations",
+    "direction and information",
+    "parking and stopping",
+    "temporary signs and roadworks",
+    "markings, lights and gestures",
+    "exam-scene vocabulary",
+    "quick visual review",
+    "source/update note"
+  ],
+  "source_model": [
+    "current consolidated Code de la route and 1967 signaling order on Legifrance",
+    "Sécurité routière official sign taxonomy",
+    "Open Licence 2.0 data from data.gouv.fr",
+    "official exam-format materials"
+  ],
+  "rights_model": "Use legal facts and independently drawn diagrams from regulatory specifications; reuse only assets carrying explicit Open Licence terms with source/date attribution. Do not copy competitor text, proprietary question banks, or Bayard-partner illustrations.",
+  "qa_model": [
+    "source ledger per sign/claim",
+    "French identifier-to-Ukrainian term crosswalk",
+    "expected-label and SVG collision checks",
+    "independent factual audit",
+    "current Legifrance diff check",
+    "full KDP-safe/high-risk visual preflight"
+  ],
+  "language_qa_model": "Automated Ukrainian consistency pass followed by Anton's bounded 30-minute review of title, TOC, 12 representative pages and metadata; French source terms mechanically cross-checked",
+  "author_strategy": "Neutral imprint/pseudonym with no invented driving-instructor, legal, government or immigration credentials; explicit independent-study-aid disclaimer",
+  "production_pipeline": [
+    "freeze sources and rights",
+    "build sign taxonomy",
+    "draft bilingual entries",
+    "generate visuals",
+    "crosswalk QA",
+    "paperback/Kindle build",
+    "high-risk contact sheet",
+    "independent audit",
+    "pre-publication source refresh"
+  ],
+  "anton_gates": [
+    "choose one of three covers",
+    "bounded Ukrainian sample review",
+    "price and KDP upload"
+  ],
+  "anton_hours": 0.75,
+  "economics": {
+    "price_eur": 22.9,
+    "conservative_90_day_units": 35,
+    "estimated_royalty_per_unit_eur": 6.2,
+    "estimated_90_day_ev_eur": 217,
+    "ev_per_anton_hour_eur": 289,
+    "estimates": true
+  },
+  "kill_conditions": [
+    "explicit asset reuse rights cannot be confirmed",
+    "prototype signs are illegible at paperback size",
+    "standard-color royalty falls below EUR4.50",
+    "source-to-label QA cannot reach 100 percent",
+    "product collapses into generic prose already supplied by the incumbent",
+    "Anton sample review finds material Ukrainian-language defects"
+  ],
+  "production_started": false
+}
