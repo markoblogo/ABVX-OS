@@ -929,6 +929,14 @@
       "opportunity_id": "RN2-037",
       "production_authorized": true,
       "reason": "Current four-year public-domain pool, multiple recent entrants, modest cycle-reset review barriers, and a diagram-first crosswalk thesis distinct from sequential 409-question guides support a low-Anton-touch production experiment."
+    },
+    {
+      "decided_at": "2026-09-05",
+      "decision": "final_go_ready_for_autonomous_production_tomorrow",
+      "id": "decision:RN2-037:production-contract",
+      "opportunity_id": "RN2-037",
+      "production_authorized": true,
+      "reason": "The paid visual/crosswalk layer is distinct from free practice and sequential guides; the representative prototype passes all experience gates; authoritative sourcing, public-domain pool rights, deterministic 409-ID QA, print economics, and low Anton involvement are feasible."
     }
   ],
   "evidence": [
@@ -2183,6 +2191,118 @@
       "opportunity_id": "RN2-037",
       "source_ref": "docs/audits/rn2-037-investment-gate.md",
       "summary": "Authorized as a diagram-first concept map with a complete 409-ID crosswalk, not a sequential question-bank guide. Current four-year pool, public-domain source, multiple recent entrants and low accumulated review barriers support a bounded production test."
+    },
+    {
+      "details": {
+        "anton_hours_range": [
+          0.75,
+          1.25
+        ],
+        "author_dependency": "NONE",
+        "deterministic_qa": {
+          "checks": [
+            "official and mapped ID set equality",
+            "no missing, extra, or duplicate primary mappings",
+            "subelement and group integrity",
+            "answer-key and errata integrity",
+            "diagram-reference and alt-text integrity",
+            "source URL, retrieval time, version, hash, and validity dates",
+            "independent source-derived factual audit",
+            "pre-publication NCVEC and FCC refresh"
+          ],
+          "expected_active_ids": 409,
+          "primary_mapping_per_id": 1,
+          "status": "PASS"
+        },
+        "economics": {
+          "ev_per_anton_hour_usd_range": [
+            180,
+            300
+          ],
+          "paperback_royalty_at_17_99_and_216_pages_usd": 6.12,
+          "planning_ev_90d_usd": 225,
+          "precision_note": "Planning estimates, not forecasts; final KDP calculator refresh required.",
+          "printing_cost_at_216_pages_usd": 4.67,
+          "royalty_90d_range_usd": [
+            140,
+            360
+          ],
+          "units_90d_range": [
+            25,
+            60
+          ]
+        },
+        "formats": [
+          "8x10 black-and-white paperback",
+          "reflowable Kindle"
+        ],
+        "gate_status": "FINAL_GO_READY_FOR_AUTONOMOUS_PRODUCTION_TOMORROW",
+        "kill_criteria": [
+          "equivalent diagram-first complete-crosswalk competitor with meaningful traction",
+          "full scope degrades into sequential question-bank paraphrase",
+          "official pool cannot reconcile to 409 unique active IDs",
+          "unresolved critical or high technical, rule, safety, key, or rights claim",
+          "essential visual cannot be independently created or survive grayscale and Kindle",
+          "useful layout exceeds 240 pages or needs price above USD 19.99",
+          "material source drift shortens shelf life or invalidates mapping",
+          "Anton subject or structural dependency exceeds two hours"
+        ],
+        "page_count": {
+          "buyer_value_ceiling": 240,
+          "minimum_viable": 184,
+          "optimal_range": [
+            208,
+            224
+          ],
+          "reason": "Large-format diagram readability, 409-ID traceability, adequate navigation and review space, and viable large-trim black-ink economics."
+        },
+        "pricing": {
+          "kindle_target_usd": 6.99,
+          "paperback_allowed_usd": [
+            17.99,
+            18.99
+          ],
+          "paperback_hard_ceiling_usd": 19.99,
+          "paperback_target_usd": 17.99
+        },
+        "primary_promise": "See the reusable patterns behind the 2026-2030 Technician pool, recognize which pattern a question tests, and route every official ID to the supporting concept.",
+        "product_thesis": "A visual concept-and-misconception map for nontechnical first-time Technician candidates, paired with free randomized practice and a complete 409-question-ID diagnostic crosswalk.",
+        "production_autonomy": "Codex owns source freeze, extraction, concept graph, draft, diagrams, crosswalk, claim ledger, independent factual audit, layout, Kindle conversion, preflight, and packaging research.",
+        "prototype": {
+          "cluster": "Ohm's law, series/parallel circuits, and meter placement",
+          "kindle_linear_equivalent": "docs/prototypes/rn2-037-visual-prototype-kindle-linear.md",
+          "pages": 14,
+          "pdf": "output/pdf/rn2-037-visual-prototype.pdf",
+          "tests": {
+            "accuracy": "PASS",
+            "beginner": "PASS",
+            "cram": "PASS",
+            "crosswalk": "PASS",
+            "differentiation": "PASS",
+            "kindle": "PASS",
+            "print": "PASS",
+            "visual": "PASS"
+          }
+        },
+        "pseudonym": "Northfield Signal Guides",
+        "source_and_rights": {
+          "fcc": "Current eCFR Title 47 Part 97 and official FCC/OET sources",
+          "independent_notice_required": true,
+          "pool": "NCVEC February 19, 2026 release plus later official errata/withdrawals",
+          "pool_public_domain": true,
+          "status": "PASS",
+          "third_party_boundary": "ARRL and competitor pedagogy, prose, diagrams, layouts, and mnemonics are market evidence only and must not be copied."
+        },
+        "visual_range": [
+          75,
+          95
+        ]
+      },
+      "id": "evidence:RN2-037:production-contract",
+      "observed_at": "2026-09-05",
+      "opportunity_id": "RN2-037",
+      "source_ref": "RN2-037-production-contract.md",
+      "summary": "A 14-page original diagram-first prototype and production blueprint passed beginner, visual, cram, crosswalk, accuracy, print, Kindle, differentiation, rights, economics, and autonomous-QA gates."
     }
   ],
   "launches": [
