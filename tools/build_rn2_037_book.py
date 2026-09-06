@@ -184,13 +184,19 @@ def write_svg(group, title, keywords, variant):
     return vid
 
 
-def draw_map(c, group, title, keywords, variant=1):
+def draw_map(c, group, title, keywords, variant=1, center_y=380):
     if variant==1:
-        cx,cy=288,380; c.setFillColor(INK); c.circle(cx,cy,62,fill=1,stroke=0)
-        c.setFillColor(white); c.setFont("Body-Bold",18); c.drawCentredString(cx,cy+4,group)
+        cx,cy=288,center_y
+        nodes=[]
         for i,k in enumerate(keywords):
             a=2*math.pi*i/len(keywords)-math.pi/2; x=cx+190*math.cos(a); y=cy+145*math.sin(a)
-            c.setStrokeColor(INK); c.setLineWidth(1.5); c.line(cx,cy,x,y)
+            nodes.append((i,k,x,y))
+        c.setStrokeColor(INK); c.setLineWidth(1.5)
+        for _,_,x,y in nodes:
+            c.line(cx,cy,x,y)
+        c.setFillColor(INK); c.circle(cx,cy,62,fill=1,stroke=0)
+        c.setFillColor(white); c.setFont("Body-Bold",18); c.drawCentredString(cx,cy+4,group)
+        for i,k,x,y in nodes:
             c.setFillColor(GREEN if i%2==0 else TAN); c.roundRect(x-66,y-20,132,40,8,fill=1,stroke=0)
             c.setFillColor(INK); c.setFont("Body-Bold",8.5)
             for j,line in enumerate(wrap_lines(k,112,"Body-Bold",8.5)[:2]): c.drawCentredString(x,y+4-j*10,line)
@@ -254,8 +260,8 @@ def build_pdf(pool):
     draw_text(c,"A diagram-first guide to the FCC Element 2 concepts, rules, and calculations beginners mix up",42,H-370,W-110,15,21,"Body",white)
     draw_text(c,"NORTHFIELD SIGNAL GUIDES",42,70,W-84,10,14,"Body-Bold",GREEN); c.showPage()
     p=new(); y=page_title(c,"Reader notice","Independent study aid",p,"Front matter")
-    draw_text(c,"This book is not affiliated with or endorsed by the Federal Communications Commission, NCVEC, ARRL, any Volunteer Examiner Coordinator, or any examination provider.",42,y,W-84,12,17,"Body-Bold")
-    y=draw_text(c,"The official NCVEC question pool controls question wording and accepted answers. FCC Part 97 controls the rules. This edition uses the corrected pool released February 19, 2026, effective July 1, 2026 through June 30, 2030. Check NCVEC for later errata or withdrawals.",42,y-30,W-84,11,16)
+    y=draw_text(c,"This book is not affiliated with or endorsed by the Federal Communications Commission, NCVEC, ARRL, any Volunteer Examiner Coordinator, or any examination provider.",42,y,W-84,12,17,"Body-Bold")
+    y=draw_text(c,"The official NCVEC question pool controls question wording and accepted answers. FCC Part 97 controls the rules. This edition uses the corrected pool released February 19, 2026, effective July 1, 2026 through June 30, 2030. Check NCVEC for later errata or withdrawals.",42,y-22,W-84,11,16)
     draw_text(c,"No pass, score, or study-time result is promised. This is an exam companion, not an operating handbook, engineering reference, or substitute for current rules and safe local practice.",42,y-26,W-84,11,16); c.showPage()
     front=[
       ("How the book works","LEARN → PRACTISE → DIAGNOSE → RETURN","Learn one reusable model here. Practise with a free randomized tool. When you miss an item, use its official ID to return to the model. This book deliberately does not imitate an exam simulator."),
@@ -273,10 +279,12 @@ def build_pdf(pool):
             yy=520
             for label,pg in toc:
                 c.setFont("Body",9.5); c.setFillColor(INK); c.drawString(58,yy,label); c.drawRightString(W-58,yy,str(pg)); yy-=20
+        elif title=="The whole system":
+            draw_text(c,body,58,y-86,W-116,10.5,15,"Body",INK,max_lines=4)
         else:
             card(c,42,y-95,W-84,125,"THE WORKING RULE",body,GREEN,11,10)
         if title=="The whole system":
-            draw_map(c,"MAP",title,["power","equipment","signal","feed line","antenna"],1); visual_ids.append("V-FRONT-SYSTEM")
+            draw_map(c,"MAP",title,["power","equipment","signal","feed line","antenna"],1,center_y=300); visual_ids.append("V-FRONT-SYSTEM")
         else:
             draw_text(c,"Keep the task narrow: identify the relationship, choose the safe or lawful action, and connect the item to its official ID.",58,220,W-116,12,18,"Body-Bold",MID)
         c.showPage()
@@ -288,8 +296,9 @@ def build_pdf(pool):
         draw_map(c,f"CH {ch}",title,chapter_keys,1); vid=write_svg(f"CH{ch:02d}",title,chapter_keys,"MAP"); visual_ids.append(vid)
         draw_text(c,"Official groups: "+", ".join(groups),42,90,W-84,9,13,"Body-Bold",MID); c.showPage()
         p=new(); y=page_title(c,f"Chapter {ch}","Your route through this chapter",p,title)
+        card_gap=78 if len(groups)>4 else 92
         for i,g in enumerate(groups):
-            t,o,_,_=TOPICS[g]; card(c,42,y-i*92,W-84,72,g+"  "+t,o,GREEN if i%2==0 else LIGHT,10,8.5)
+            t,o,_,_=TOPICS[g]; card(c,42,y-i*card_gap,W-84,72,g+"  "+t,o,GREEN if i%2==0 else LIGHT,10,8.5)
         draw_text(c,"After the last group, use the official-pool anchors to identify weak spots. Do randomized exam practice outside this book.",42,105,W-84,10.5,15,"Body-Bold",MID); c.showPage()
         for group in groups:
             t,o,model,keys=TOPICS[group]; qs=by_group[group]
