@@ -74,7 +74,7 @@
     {
       "id": "automatic-preflight",
       "kind": "command",
-      "description": "Run format geometry, TOC, pagination, page balance, hyphenation, links, source leakage and Kindle print-leakage checks.",
+      "description": "Run format geometry, visible print TOC with final page numbers, interactive EPUB TOC in reading order, pagination, page balance, hyphenation, links, source leakage and Kindle print-leakage checks.",
       "command": "python3 -m py_compile books/design/<project>/build_full_production.py && ./bin/abvx validate",
       "dry_run_behavior": "report_only",
       "expected_outcome": "technical QA PASS without claiming visual acceptance"
@@ -110,7 +110,8 @@
         "text layer QA",
         "link/source-marker QA",
         "contact-sheet manifest integrity",
-        "print TOC page-number validation",
+        "visible print TOC with final page-number validation",
+        "interactive EPUB TOC target resolution and reading-order validation",
         "Kindle print-artifact leakage validation"
       ],
       "FULL": [

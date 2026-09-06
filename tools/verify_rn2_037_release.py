@@ -66,6 +66,9 @@ def main() -> None:
             except ET.ParseError:
                 xml_ok = False
         xhtml = "\n".join(z.read(n).decode("utf-8") for n in names if n.endswith(".xhtml"))
+        nav_text = z.read("OEBPS/nav.xhtml").decode("utf-8")
+        opf_text = z.read("OEBPS/content.opf").decode("utf-8")
+        nav_targets = re.findall(r'<a href="([^"]+)"', nav_text)
         image_refs = re.findall(r"<img\s+[^>]*src=", xhtml)
         alt_refs = re.findall(r"<img\s+[^>]*alt=\"[^\"]+\"", xhtml)
         official_figures = {f"OEBPS/images/figure-t{i}.png" for i in range(1, 4)}
@@ -84,11 +87,15 @@ def main() -> None:
         "pdf_pages_208": bool(page_match and int(page_match.group(1)) == 208),
         "pdf_trim_8x10": bool(size_match and abs(float(size_match.group(1)) - 576) < 0.1 and abs(float(size_match.group(2)) - 720) < 0.1),
         "pdf_fonts_embedded": bool(font_rows) and all(" yes " in f" {row} " for row in font_rows),
+        "pdf_visible_contents_with_page_numbers": "Contents" in pdftext and all(f"{title} {page}" in re.sub(r"\s+", " ", pdftext) for title, page in [("Electricity without intimidation", 9), ("Rules as decision paths", 131), ("Complete 409-ID crosswalk", 181)]),
         "epub_zip_valid": zip_ok,
         "epub_mimetype_valid": mimetype_ok,
         "epub_xml_valid": xml_ok,
         "epub_every_image_has_alt": len(image_refs) == len(alt_refs) and len(image_refs) > 0,
         "epub_official_diagrams_present": official_figures.issubset(set(names)),
+        "epub_interactive_toc_present": bool(nav_targets) and all(f"OEBPS/{target}" in names for target in nav_targets),
+        "epub_toc_visible_in_reading_order": '<itemref idref="nav"/>' in opf_text,
+        "epub_ncx_compatibility_toc": "OEBPS/toc.ncx" in names and 'toc="ncx"' in opf_text,
         "independent_notice_present": "not affiliated with or endorsed" in manuscript.lower(),
         "no_pass_promise": not bool(re.search(r"guarantee(?:d)? (?:you will )?pass|pass guarantee", manuscript, re.I)),
     }

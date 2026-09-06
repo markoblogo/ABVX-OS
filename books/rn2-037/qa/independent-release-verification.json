@@ -15,11 +15,15 @@
     "pdf_pages_208": true,
     "pdf_trim_8x10": true,
     "pdf_fonts_embedded": true,
+    "pdf_visible_contents_with_page_numbers": true,
     "epub_zip_valid": true,
     "epub_mimetype_valid": true,
     "epub_xml_valid": true,
     "epub_every_image_has_alt": true,
     "epub_official_diagrams_present": true,
+    "epub_interactive_toc_present": true,
+    "epub_toc_visible_in_reading_order": true,
+    "epub_ncx_compatibility_toc": true,
     "independent_notice_present": true,
     "no_pass_promise": true
   },
@@ -34,8 +38,8 @@
     "pdf_pages": 208
   },
   "hashes": {
-    "pdf_sha256": "c5529b25399bb2c8a8bbab6ce3f2a14416dc64c401f7674c51734fc24ab7458b",
-    "epub_sha256": "6c1939a628da966b9c42a787cf20271d154be1c15a7819719a0bc12d7452f2e1",
+    "pdf_sha256": "bdfadc9b8b570ea1282056e13ca923aa8293f9c8623717f36e09e60833ebd99c",
+    "epub_sha256": "1ea337d472087d3e03491c98ee739ab2a2ff3d3093c1a5b0ac7125d8e8b49e5b",
     "pool_json_sha256": "bfe13fbef54794ee7ee5ac624f27c090e38661fb55d38ba4677830a287011ad9"
   },
   "limitation": "EPUB structural validation is deterministic; representative device rendering remains a KDP Previewer publishing-gate check."

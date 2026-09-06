@@ -22,10 +22,15 @@
   "built_date": "2026-09-06",
   "word_count": 16233,
   "official_pool_figures": 3,
-  "pdf_sha256": "c5529b25399bb2c8a8bbab6ce3f2a14416dc64c401f7674c51734fc24ab7458b",
-  "epub_sha256": "6c1939a628da966b9c42a787cf20271d154be1c15a7819719a0bc12d7452f2e1",
+  "pdf_sha256": "bdfadc9b8b570ea1282056e13ca923aa8293f9c8623717f36e09e60833ebd99c",
+  "epub_sha256": "1ea337d472087d3e03491c98ee739ab2a2ff3d3093c1a5b0ac7125d8e8b49e5b",
   "independent_verification": "books/rn2-037/qa/independent-release-verification.json",
   "preflight": "books/rn2-037/qa/production-preflight.md",
   "commercial_package": "books/rn2-037/commercial/kdp-commercial-package.md",
-  "human_gate": "Cover selection, KDP metadata entry/upload, KDP Previewer device check, pricing confirmation, and publication approval."
+  "human_gate": "Cover selection, KDP metadata entry/upload, KDP Previewer device check, pricing confirmation, and publication approval.",
+  "table_of_contents": {
+    "print_visible_with_final_page_numbers": true,
+    "epub_interactive_and_in_reading_order": true,
+    "epub_ncx_compatibility": true
+  }
 }

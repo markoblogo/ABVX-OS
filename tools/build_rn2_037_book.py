@@ -261,14 +261,14 @@ def build_pdf(pool):
       ("How the book works","LEARN → PRACTISE → DIAGNOSE → RETURN","Learn one reusable model here. Practise with a free randomized tool. When you miss an item, use its official ID to return to the model. This book deliberately does not imitate an exam simulator."),
       ("Read an ID","T5D06 is an address","T5 identifies electrical principles. D identifies the group. 06 identifies the question. The address remains stable inside this pool cycle and makes every concept traceable."),
       ("What the exam samples","35 questions from 10 subelements","The exam uses a fixed blueprint across rules, procedures, propagation, practices, electrical principles, components, circuits, signals, antennas, and safety. You need 26 correct answers to pass."),
-      ("Map of the book","Eleven learning routes","The contents follow beginner dependencies rather than pool order."),
+      ("Contents","Chapters and reference","The chapters follow beginner dependencies rather than pool order."),
       ("The whole system","One station, many views","Electrical power drives equipment. Equipment creates and receives signals. Feed lines and antennas connect the station to a propagation path. Operating rules and safety constrain every step."),
       ("Before exam day","Refresh and practise","Check the current NCVEC pool page, use randomized practice, and verify exam arrangements with the chosen examination provider. Do not rely on an old pool or a memorized answer if an erratum changes it."),
     ]
     for title,big,body in front:
         p=new(); y=page_title(c,"Orientation",title,p,"Front matter")
         draw_text(c,big,42,y-32,W-84,22,28,"Body-Bold")
-        if title=="Map of the book":
+        if title=="Contents":
             toc=[("1 Electricity without intimidation",9),("2 Components as jobs, not symbols",27),("3 Inside a radio and on the bench",45),("4 Troubleshoot by symptom and cause",55),("5 Waves, frequency, and propagation",65),("6 Antennas, feed lines, and SWR",79),("7 Signals and ways hams communicate",89),("8 First station and operating controls",107),("9 Getting on the air",117),("10 Rules as decision paths",131),("11 Safety before shortcuts",157),("Final visual review",171),("Complete 409-ID crosswalk",181),("Sources and reference",201)]
             yy=520
             for label,pg in toc:
@@ -471,12 +471,14 @@ def build_epub(manuscript_text, visual_ids):
         x=f'''<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml"><head><title>{html.escape(title)}</title><link rel="stylesheet" href="style.css"/></head><body>{''.join(body)}</body></html>'''
         (tmp/"OEBPS"/fn).write_text(x,encoding="utf-8"); items.append((f"s{i:02d}",fn))
     navx=''.join(f'<li><a href="{fn}">{html.escape(t)}</a></li>' for fn,t in nav)
-    (tmp/"OEBPS"/"nav.xhtml").write_text(f'''<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"><head><title>Contents</title></head><body><nav epub:type="toc"><h1>Contents</h1><ol>{navx}</ol></nav></body></html>''',encoding="utf-8")
+    (tmp/"OEBPS"/"nav.xhtml").write_text(f'''<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops"><head><title>Contents</title><link rel="stylesheet" href="style.css"/></head><body><nav epub:type="toc" id="toc"><h1>Contents</h1><ol>{navx}</ol></nav></body></html>''',encoding="utf-8")
+    ncx_points=''.join(f'<navPoint id="navPoint-{i}" playOrder="{i}"><navLabel><text>{html.escape(t)}</text></navLabel><content src="{fn}"/></navPoint>' for i,(fn,t) in enumerate(nav,1))
+    (tmp/"OEBPS"/"toc.ncx").write_text(f'''<?xml version="1.0" encoding="utf-8"?><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head><meta name="dtb:uid" content="urn:uuid:rn2-037-2026"/></head><docTitle><text>Ham Radio Technician Visual Cram Map 2026–2030</text></docTitle><navMap>{ncx_points}</navMap></ncx>''',encoding="utf-8")
     image_manifest=''.join(f'<item id="img{i}" href="images/{svg.name}" media-type="image/svg+xml"/>' for i,svg in enumerate(svg_files,1))
     image_manifest += ''.join(f'<item id="poolfig{i}" href="images/{png.name}" media-type="image/png"/>' for i,png in enumerate(official_files,1))
-    manifest='<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/><item id="css" href="style.css" media-type="text/css"/>'+''.join(f'<item id="{i}" href="{fn}" media-type="application/xhtml+xml"/>' for i,fn in items)+image_manifest
-    spine=''.join(f'<itemref idref="{i}"/>' for i,_ in items)
-    (tmp/"OEBPS"/"content.opf").write_text(f'''<?xml version="1.0" encoding="utf-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="bookid">urn:uuid:rn2-037-2026</dc:identifier><dc:title>Ham Radio Technician Visual Cram Map 2026–2030</dc:title><dc:creator>Northfield Signal Guides</dc:creator><dc:language>en</dc:language><meta property="dcterms:modified">2026-09-06T00:00:00Z</meta></metadata><manifest>{manifest}</manifest><spine>{spine}</spine></package>''',encoding="utf-8")
+    manifest='<item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/><item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/><item id="css" href="style.css" media-type="text/css"/>'+''.join(f'<item id="{i}" href="{fn}" media-type="application/xhtml+xml"/>' for i,fn in items)+image_manifest
+    spine='<itemref idref="nav"/>'+''.join(f'<itemref idref="{i}"/>' for i,_ in items)
+    (tmp/"OEBPS"/"content.opf").write_text(f'''<?xml version="1.0" encoding="utf-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="bookid">urn:uuid:rn2-037-2026</dc:identifier><dc:title>Ham Radio Technician Visual Cram Map 2026–2030</dc:title><dc:creator>Northfield Signal Guides</dc:creator><dc:language>en</dc:language><meta property="dcterms:modified">2026-09-06T00:00:00Z</meta></metadata><manifest>{manifest}</manifest><spine toc="ncx">{spine}</spine></package>''',encoding="utf-8")
     OUTEPUB.mkdir(parents=True,exist_ok=True)
     with zipfile.ZipFile(EPUB_OUT,"w") as z:
         z.write(tmp/"mimetype","mimetype",compress_type=zipfile.ZIP_STORED)

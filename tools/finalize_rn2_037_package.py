@@ -74,14 +74,14 @@ NCVEC expressly released the question pool into the public domain. The three off
 ## Paperback
 
 - 208 pages; exact 8 × 10 inch trim; no bleed; black-and-white/grayscale interior.
-- Embedded Arial regular and bold fonts; bookmarks, contents, page numbers, chapter openers, review, sources, and all 409 crosswalk routes present.
+- Embedded Arial regular and bold fonts; visible contents with final page numbers, bookmarks, page numbers, chapter openers, review, sources, and all 409 crosswalk routes present.
 - Automated text/ID checks pass; full-book, chapter-opening, visual-system, and representative-page contact sheets inspected after the correction pass.
 - No accidental blank pages, clipping, or overlap found in the rendered 208-page contact sheet. Official figure pages 38–39 and representative anchor pages were inspected at full resolution.
 - Final PDF SHA-256: `{sha(PDF)}`.
 
 ## Kindle
 
-- EPUB 3 ZIP, mimetype, XML/XHTML/SVG parsing, manifest, navigation document, headings, Unicode, and image references pass.
+- EPUB 3 ZIP, mimetype, XML/XHTML/SVG parsing, manifest, interactive navigation targets, visible contents in reading order, NCX compatibility navigation, headings, Unicode, and image references pass.
 - 71 instructional image placements carry 71 non-empty alt attributes; essential explanations remain in linear text.
 - Final EPUB SHA-256: `{sha(EPUB)}`.
 - No local epubcheck, Kindle Previewer CLI, or reliable multi-device renderer was available. Open the EPUB once in KDP Previewer at phone, tablet, and e-reader widths before approving publication. This is visual device QA, not subject-matter review.
@@ -193,6 +193,7 @@ Choose the closest current KDP category labels during upload; category taxonomie
         "preflight": "books/rn2-037/qa/production-preflight.md",
         "commercial_package": "books/rn2-037/commercial/kdp-commercial-package.md",
         "human_gate": "Cover selection, KDP metadata entry/upload, KDP Previewer device check, pricing confirmation, and publication approval.",
+        "table_of_contents": {"print_visible_with_final_page_numbers": True, "epub_interactive_and_in_reading_order": True, "epub_ncx_compatibility": True},
     })
     write(manifest_path, json.dumps(manifest, indent=2))
 

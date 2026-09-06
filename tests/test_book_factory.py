@@ -42,6 +42,15 @@ class BookFactoryTests(unittest.TestCase):
         self.assertEqual(project["status"], "WAITING_FOR_HUMAN")
         self.assertIn("BOOK_FACTORY_ACCEPTANCE_CASE_COMPLETE", json.loads((ROOT / "books/specs/unusual-indices-book-spec.proposed.json").read_text())["current_state"])
 
+    def test_all_book_production_requires_format_specific_contents(self):
+        policy = (ROOT / "docs/book-production-policy.md").read_text()
+        playbook = json.loads((ROOT / "playbooks/book-factory.known-profile-commercial-nonfiction.json").read_text())
+        standard = playbook["validation"]["checks"]["STANDARD"]
+        self.assertIn("Every reader-facing book", policy)
+        self.assertIn("visible print TOC", " ".join(standard))
+        self.assertIn("interactive EPUB TOC", " ".join(standard))
+        self.assertIn("reading order", policy)
+
     def test_final_unusual_indices_qa_is_release_candidate_ready(self):
         qa = json.loads((ROOT / "books/research/unusual-indices/final-production-008-qa.json").read_text())
         self.assertEqual(qa["state"], "PAPERBACK_INTERIOR_RC_READY")

@@ -10,13 +10,13 @@
     },
     {
       "file": "output/pdf/ham-radio-technician-visual-cram-map-2026-2030-interior.pdf",
-      "bytes": 516015,
-      "sha256": "c5529b25399bb2c8a8bbab6ce3f2a14416dc64c401f7674c51734fc24ab7458b"
+      "bytes": 515999,
+      "sha256": "bdfadc9b8b570ea1282056e13ca923aa8293f9c8623717f36e09e60833ebd99c"
     },
     {
       "file": "output/epub/ham-radio-technician-visual-cram-map-2026-2030.epub",
-      "bytes": 214250,
-      "sha256": "6c1939a628da966b9c42a787cf20271d154be1c15a7819719a0bc12d7452f2e1"
+      "bytes": 215122,
+      "sha256": "1ea337d472087d3e03491c98ee739ab2a2ff3d3093c1a5b0ac7125d8e8b49e5b"
     },
     {
       "file": "books/rn2-037/data/question-pool-2026-2030.json",
@@ -45,8 +45,8 @@
     },
     {
       "file": "books/rn2-037/qa/independent-release-verification.json",
-      "bytes": 1473,
-      "sha256": "d6ee5565a62058006c379aa106f225bc4bdca879a6ca2ac791690db71aa80596"
+      "bytes": 1654,
+      "sha256": "07850335be65b9d8625d09b11782e29e00e59bd951b38902688a2283c6c4b4e9"
     },
     {
       "file": "books/rn2-037/qa/factual-editorial-audit.md",
@@ -55,8 +55,8 @@
     },
     {
       "file": "books/rn2-037/qa/production-preflight.md",
-      "bytes": 1361,
-      "sha256": "4cd295ae7c56349f669f893e705fe2abb15bb5a9fc5d789f878225c8395aa87d"
+      "bytes": 1469,
+      "sha256": "3ab3d6d20a6240da06ff581d778f426d7904f7ed1a107c9033c92ebb868f58bc"
     },
     {
       "file": "books/rn2-037/commercial/kdp-commercial-package.md",
