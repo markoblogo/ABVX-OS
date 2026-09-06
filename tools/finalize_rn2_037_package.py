@@ -74,6 +74,7 @@ NCVEC expressly released the question pool into the public domain. The three off
 ## Paperback
 
 - 208 pages; exact 8 × 10 inch trim; no bleed; black-and-white/grayscale interior.
+- KDP safe-area correction verified: the title page has no full-page background object, and the 21-row crosswalk pages 181–199 finish above the bottom content margin.
 - Embedded Arial regular and bold fonts; visible contents with final page numbers, bookmarks, page numbers, chapter openers, review, sources, and all 409 crosswalk routes present.
 - Automated text/ID checks pass; full-book, chapter-opening, visual-system, and representative-page contact sheets inspected after the correction pass.
 - No accidental blank pages, clipping, or overlap found in the rendered 208-page contact sheet. Official figure pages 38–39 and representative anchor pages were inspected at full resolution.
@@ -194,6 +195,7 @@ Choose the closest current KDP category labels during upload; category taxonomie
         "commercial_package": "books/rn2-037/commercial/kdp-commercial-package.md",
         "human_gate": "Cover selection, KDP metadata entry/upload, KDP Previewer device check, pricing confirmation, and publication approval.",
         "table_of_contents": {"print_visible_with_final_page_numbers": True, "epub_interactive_and_in_reading_order": True, "epub_ncx_compatibility": True},
+        "kdp_safe_area": {"title_page_full_bleed_object": False, "crosswalk_pages_181_199_compacted": True},
     })
     write(manifest_path, json.dumps(manifest, indent=2))
 

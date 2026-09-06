@@ -38,8 +38,8 @@
     "pdf_pages": 208
   },
   "hashes": {
-    "pdf_sha256": "d68ad1392cd315dcad3543936ce2da321ffc790a4be683741b71ccf4946ed56c",
-    "epub_sha256": "0c587bcca3be34422a8ffc9d91090235358dfa44eb3dbe230fc3a26f24e557e9",
+    "pdf_sha256": "1a7b900a53dccbf056dccc0255297f90f33e586bab655254b467078f7cea06e8",
+    "epub_sha256": "e584c68d1d33ac33173e2de53871ad14db590bd81eaaa9ca3206ecbe98dfbde3",
     "pool_json_sha256": "bfe13fbef54794ee7ee5ac624f27c090e38661fb55d38ba4677830a287011ad9"
   },
   "limitation": "EPUB structural validation is deterministic; representative device rendering remains a KDP Previewer publishing-gate check."

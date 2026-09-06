@@ -254,11 +254,11 @@ def build_pdf(pool):
     def new():
         nonlocal page; page+=1; return page
     # 8 front-matter pages
-    p=new(); c.setFillColor(INK); c.rect(0,0,W,H,fill=1,stroke=0); c.setFillColor(white)
-    draw_text(c,"HAM RADIO\nTECHNICIAN",42,H-150,W-84,34,39,"Body-Bold",white)
-    draw_text(c,"VISUAL CRAM MAP\n2026–2030",42,H-260,W-84,30,35,"Body-Bold",GREEN)
-    draw_text(c,"A diagram-first guide to the FCC Element 2 concepts, rules, and calculations beginners mix up",42,H-370,W-110,15,21,"Body",white)
-    draw_text(c,"NORTHFIELD SIGNAL GUIDES",42,70,W-84,10,14,"Body-Bold",GREEN); c.showPage()
+    p=new(); c.setFillColor(INK)
+    draw_text(c,"HAM RADIO\nTECHNICIAN",54,H-150,W-108,34,39,"Body-Bold",INK)
+    draw_text(c,"VISUAL CRAM MAP\n2026–2030",54,H-260,W-108,30,35,"Body-Bold",MID)
+    draw_text(c,"A diagram-first guide to the FCC Element 2 concepts, rules, and calculations beginners mix up",54,H-370,W-130,15,21,"Body",INK)
+    draw_text(c,"NORTHFIELD SIGNAL GUIDES",54,70,W-108,10,14,"Body-Bold",MID); c.showPage()
     p=new(); y=page_title(c,"Reader notice","Independent study aid",p,"Front matter")
     y=draw_text(c,"This book is not affiliated with or endorsed by the Federal Communications Commission, NCVEC, ARRL, any Volunteer Examiner Coordinator, or any examination provider.",42,y,W-84,12,17,"Body-Bold")
     y=draw_text(c,"The official NCVEC question pool controls question wording and accepted answers. FCC Part 97 controls the rules. This edition uses the corrected pool released February 19, 2026, effective July 1, 2026 through June 30, 2030. Check NCVEC for later errata or withdrawals.",42,y-22,W-84,11,16)
@@ -373,10 +373,10 @@ def build_pdf(pool):
         if idx==1: c.bookmarkPage("crosswalk"); c.addOutlineEntry("Complete 409-ID crosswalk","crosswalk",0)
         y=page_title(c,"Complete 409-ID crosswalk",f"Question routes {idx} of 20",p,"Crosswalk")
         for q in chunk:
-            c.setFillColor(GREEN if int(q["id"][-2:])%2 else LIGHT); c.roundRect(42,y-23,W-84,27,4,fill=1,stroke=0)
-            c.setFillColor(INK); c.setFont("Body-Bold",8.7); c.drawString(50,y-13,q["id"])
-            c.setFont("Body",8.2); c.drawString(102,y-13,f"Chapter {q['primary_chapter']} · {q['group']} · primary concept page {anchors[q['group']]}")
-            c.drawRightString(W-50,y-13,q["coverage_mode"].replace("_"," ").title()); y-=31
+            c.setFillColor(GREEN if int(q["id"][-2:])%2 else LIGHT); c.roundRect(42,y-20,W-84,23,4,fill=1,stroke=0)
+            c.setFillColor(INK); c.setFont("Body-Bold",8.4); c.drawString(50,y-12,q["id"])
+            c.setFont("Body",7.9); c.drawString(102,y-12,f"Chapter {q['primary_chapter']} · {q['group']} · primary concept page {anchors[q['group']]}")
+            c.drawRightString(W-50,y-12,q["coverage_mode"].replace("_"," ").title()); y-=25
         c.showPage()
     # 8 back pages
     backs=[
