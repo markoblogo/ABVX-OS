@@ -1,0 +1,1030 @@
+{
+  "schema_version": "radar-native-5-rejections/v1",
+  "count": 256,
+  "rejections": [
+    {
+      "id": "RN5-013",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-014",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-017",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-019",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-022",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-023",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-025",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-027",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-028",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-029",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-031",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-032",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-033",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-034",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-035",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-037",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-038",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-040",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-041",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-042",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-043",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-044",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-046",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-047",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-048",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-049",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-050",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-051",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-052",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-053",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-054",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-055",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-056",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-057",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-058",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-059",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-061",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-062",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-063",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-064",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-065",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-066",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-067",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-068",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-069",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-070",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-071",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-072",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-073",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-074",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-075",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-076",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-077",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-078",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-079",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-080",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-081",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-082",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-083",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-084",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-085",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-086",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-087",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-088",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-089",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-090",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-091",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-092",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-093",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-094",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-095",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-096",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-097",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-098",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-099",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-100",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-101",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-102",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-103",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-104",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-105",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-106",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-107",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-108",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-109",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-110",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-111",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-112",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-113",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-114",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-115",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-116",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-117",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-118",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-119",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-120",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-121",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-122",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-123",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-124",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-125",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-126",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-127",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-128",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-129",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-130",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-131",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-132",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-133",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-134",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-135",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-136",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-137",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-138",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-139",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-140",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-141",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-142",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-143",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-144",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-145",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-146",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-147",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-148",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-149",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-150",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-151",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-152",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-153",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-154",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-155",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-156",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-157",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-158",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-159",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-160",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-161",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-162",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-163",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-164",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-165",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-166",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-167",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-168",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-169",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-170",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-171",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-172",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-173",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-174",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-175",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-176",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-177",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-178",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-179",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-180",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-181",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-182",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-183",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-184",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-185",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-186",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-187",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-188",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-189",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-190",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-191",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-192",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-193",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-194",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-195",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-196",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-197",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-198",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-199",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-200",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-201",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-202",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-203",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-204",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-205",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-206",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-207",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-208",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-209",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-210",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-211",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-212",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-213",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-214",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-215",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-216",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-217",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-218",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-219",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-220",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-221",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-222",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-223",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-224",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-225",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-226",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-227",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-228",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-229",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-230",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-231",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-232",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-233",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-234",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-235",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-236",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-237",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-238",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-239",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-240",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-241",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-242",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-243",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-244",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-245",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-246",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-247",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-248",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-249",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-250",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-251",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-252",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-253",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-254",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-255",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-256",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-257",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-258",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-259",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-260",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-261",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-262",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-263",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-264",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-265",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-266",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-267",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-268",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-269",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-270",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-271",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-272",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-273",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-274",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-275",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-276",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-277",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    },
+    {
+      "id": "RN5-278",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-279",
+      "reason": "FORMAT_UNVERIFIED"
+    },
+    {
+      "id": "RN5-280",
+      "reason": "lower evidence-adjusted priority within architecture/language cohort"
+    }
+  ]
+}

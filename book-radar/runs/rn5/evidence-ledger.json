@@ -1,0 +1,109 @@
+{
+  "schema_version": "radar-native-5-evidence/v1",
+  "observed_at": "2026-09-07",
+  "sources": [
+    {
+      "id": "KDP-LANG",
+      "title": "Book Supported Languages",
+      "publisher": "Amazon KDP",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G200673300",
+      "use": "format eligibility"
+    },
+    {
+      "id": "DOE-SOLAR",
+      "title": "Decisions, Decisions: Choosing a Solar Installer",
+      "publisher": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/cmei/systems/articles/decisions-decisions-choosing-solar-installer",
+      "use": "quote and cost-per-watt comparison"
+    },
+    {
+      "id": "CFPB-SOLAR",
+      "title": "Consumer advisory: costly and complex solar loans",
+      "publisher": "Consumer Financial Protection Bureau",
+      "url": "https://www.consumerfinance.gov/archive/newsroom/consumer-advisory-steer-clear-of-costly-and-complex-loans-for-solar-energy-installation/",
+      "use": "loan fees and written proposal comparison"
+    },
+    {
+      "id": "FTC-SOLAR",
+      "title": "Solar energy is rising in popularity. So are the scams",
+      "publisher": "Federal Trade Commission",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2024/09/solar-energy-rising-popularity-so-are-scams",
+      "use": "consumer-risk context"
+    },
+    {
+      "id": "ENERGYSAGE-2025",
+      "title": "21st Solar & Storage Marketplace Report release",
+      "publisher": "EnergySage",
+      "url": "https://www.energysage.com/press/energysage-marketplace-intel-report-21/",
+      "use": "millions of transaction points and active shopper demand"
+    },
+    {
+      "id": "FSA-OFFERS",
+      "title": "How To Evaluate Your Aid Offers",
+      "publisher": "Federal Student Aid",
+      "url": "https://studentaid.gov/articles/evaluating-financial-aid-offers/",
+      "use": "nonstandard aid-offer comparison job"
+    },
+    {
+      "id": "FR-PAC",
+      "title": "Coup de pouce chauffage",
+      "publisher": "Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/actualites/A18042?lang=fr",
+      "use": "French heat-pump process volatility"
+    },
+    {
+      "id": "AMZ-SOLAR-EXACT",
+      "title": "Amazon search: solar quote comparison workbook",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=solar+quote+comparison+workbook&i=stripbooks",
+      "use": "exact shelf"
+    },
+    {
+      "id": "AMZ-SOLAR-ADJ",
+      "title": "Amazon search: solar panel buying guide homeowner",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=solar+panel+buying+guide+homeowner&i=stripbooks",
+      "use": "adjacent newcomer traction"
+    },
+    {
+      "id": "AMZ-FA",
+      "title": "Amazon search: financial aid offer comparison workbook",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=financial+aid+offer+comparison+workbook&i=stripbooks",
+      "use": "exact shelf"
+    },
+    {
+      "id": "AMZ-PAC",
+      "title": "Amazon.fr search: comparer devis pompe a chaleur",
+      "publisher": "Amazon.fr",
+      "url": "https://www.amazon.fr/s?k=comparer+devis+pompe+%C3%A0+chaleur&i=stripbooks",
+      "use": "exact shelf"
+    },
+    {
+      "id": "AMZ-PADEL",
+      "title": "Amazon search: padel rules pocket guide",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=padel+rules+pocket+guide&i=stripbooks",
+      "use": "newcomer and pricing"
+    },
+    {
+      "id": "AMZ-EV",
+      "title": "Amazon search: used electric vehicle battery health buyer guide",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=used+electric+vehicle+battery+health+buyer+guide&i=stripbooks",
+      "use": "competition"
+    },
+    {
+      "id": "AMZ-INSPECT",
+      "title": "Amazon search: home inspection report decoder buyer guide",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=home+inspection+report+decoder+buyer+guide&i=stripbooks",
+      "use": "incumbent and newcomer traction"
+    }
+  ],
+  "limitations": [
+    "Amazon results are location-sensitive and showed EUR delivery-localized prices; BSR and page counts were not visible and were not invented.",
+    "Unit and royalty values are conservative hypotheses, not forecasts.",
+    "Only the top seven received finalist-level evidence; other deep candidates were screened to stop at diminishing returns."
+  ]
+}

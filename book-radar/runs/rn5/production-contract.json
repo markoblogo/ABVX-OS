@@ -1,0 +1,92 @@
+{
+  "schema_version": "rn5-production-contract/v1",
+  "opportunity_id": "RN5-001",
+  "status": "CONDITIONAL_GO_AWAITING_HUMAN_PRODUCT_GATE",
+  "market_thesis": "U.S. homeowners actively compare costly, structurally inconsistent solar and battery proposals; exact KDP workbook competition is weak while adjacent solar guides show recent entrant traction.",
+  "product_thesis": "A vendor-neutral paper workbook that converts 2–4 real proposals into one comparable decision packet.",
+  "buyer": "U.S. homeowner holding two or more rooftop-solar/battery proposals",
+  "buyer_job": "normalize proposals before signing a high-value contract",
+  "prior_knowledge": "none required",
+  "confusions": [
+    "cash price versus financed principal",
+    "cost per watt",
+    "production assumptions",
+    "equipment equivalence",
+    "scope exclusions",
+    "warranty responsibility",
+    "transfer and payoff terms"
+  ],
+  "promise": "Make competing proposals comparable and expose the questions that must be resolved before signing.",
+  "non_promise": "No savings guarantee, installer recommendation, engineering design, tax, financial or legal advice.",
+  "better_or_faster": "Complete a disciplined comparison in one sitting instead of reconciling multiple sales formats ad hoc.",
+  "specific_advantage": "Buyer proposals → normalized cash/loan, equipment, assumptions, warranty and exclusion fields → an apples-to-apples sign-or-question decision packet.",
+  "raw_data_transformation": {
+    "raw_source": "the buyer’s actual proposals plus DOE/CFPB/FTC decision criteria",
+    "transformation": "extracts cash price, financed principal, cost per watt, production assumptions, equipment, warranties, exclusions and transfer terms into a comparable decision record",
+    "buyer_value": "independent reusable paper workspace that works with quotes from any installer, not lead-generation software"
+  },
+  "paid_value": "independent reusable paper workspace that works with quotes from any installer, not lead-generation software",
+  "intentionally_not": "A solar installation manual, lead-generation marketplace, ROI promise or financing recommendation.",
+  "language": "EN",
+  "marketplace": "Amazon.com",
+  "primary_format": "PAPERBACK",
+  "secondary_formats": [
+    "KINDLE"
+  ],
+  "format_eligibility_status": {
+    "PAPERBACK": "SUPPORTED",
+    "KINDLE": "SUPPORTED"
+  },
+  "format_specific_commercial_role": {
+    "PAPERBACK": "PRIMARY writable workbook",
+    "KINDLE": "NOT_JUSTIFIED unless converted into a non-writable companion"
+  },
+  "format_constraint": "Writing and side-by-side comparison make reflowable Kindle a poor primary fit.",
+  "format_opportunity": "English paperback is supported and matches the physical decision job.",
+  "product_class": "COMPARISON_GUIDE",
+  "content_architecture": [
+    "orient and collect quotes",
+    "normalize price and financing",
+    "normalize system and production assumptions",
+    "scope and equipment",
+    "warranties and responsible parties",
+    "red flags and questions",
+    "decision record"
+  ],
+  "source_model": "DOE, CFPB, FTC and other authoritative current sources control factual guidance; user proposals are the working inputs.",
+  "rights_model": "Original worksheets and paraphrased government guidance with source attribution; no competitor text or proprietary proposal template reproduced.",
+  "author_model": "Neutral imprint; no invented installer, engineering, financial or legal credentials.",
+  "factual_qa": "Every factual claim maps to a dated source ledger; calculations have deterministic worked tests; annual and pre-publication refresh.",
+  "language_qa": "English editorial pass and prohibited-claim scan.",
+  "product_quality_qa": "Representative pages must prove quote normalization, decision usefulness and writable print ergonomics.",
+  "editorial_formalism_qa": "Reject repeated empty forms, template leakage, unexplained fields, slide-page rhythm and generic filler.",
+  "representative_product_gate": "REQUIRED; eight-page sample created.",
+  "human_product_gate": "REQUIRED before full production because value depends on worksheet interaction and hierarchy.",
+  "technical_qa": "Print TOC, writable spacing, no-bleed object audit, fonts, page geometry, formula fixtures and KDP Previewer.",
+  "commercial_package_requirements": "Current Amazon rescan, print cost, paperback price, seven keywords, three category targets, truthful neutral description and cover brief after layout freeze.",
+  "expected_anton_hours": {
+    "subject_matter_hours": 0,
+    "product_taste_minutes": 20,
+    "language_review_minutes": 0,
+    "correction_minutes": 20,
+    "cover_minutes": 20,
+    "kdp_upload_minutes": 30,
+    "total_hours": 1.5
+  },
+  "economics": {
+    "price_usd": 16.99,
+    "royalty_per_unit_estimate_usd": 6.5,
+    "units_90_day_conservative": 30,
+    "ev_90_day_estimate_usd": 195,
+    "ev_per_anton_hour_usd": 130,
+    "advertising_assumption": "organic test; paid ads not required for thesis"
+  },
+  "kill_conditions": [
+    "human sample gate fails",
+    "pre-production Amazon rescan finds multiple direct workbooks with meaningful traction",
+    "authoritative source model cannot support a field",
+    "scope drifts into individualized financing/tax/legal or engineering advice",
+    "estimated Anton time exceeds 2.5 hours"
+  ],
+  "dataset_driven": true
+}

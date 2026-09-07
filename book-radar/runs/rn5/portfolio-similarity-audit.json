@@ -1,0 +1,109 @@
+{
+  "schema_version": "portfolio-similarity-audit/v1",
+  "catalog_checked": [
+    "THE HUMAN BACKUP PLAN",
+    "PMP 2026 in a Nutshell",
+    "Ham Radio Technician Visual Cram Map 2026-2030",
+    "Французькі правила й дорожні знаки українською"
+  ],
+  "results": [
+    {
+      "opportunity_id": "RN5-001",
+      "score": 8,
+      "classification": "NOVEL",
+      "production_eligible": true,
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible overlap only",
+        "information_architecture": "decision transformation, not continuity/exam/road-sign atlas"
+      }
+    },
+    {
+      "opportunity_id": "RN5-004",
+      "score": 9,
+      "classification": "NOVEL",
+      "production_eligible": true,
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible overlap only",
+        "information_architecture": "decision transformation, not continuity/exam/road-sign atlas"
+      }
+    },
+    {
+      "opportunity_id": "RN5-005",
+      "score": 42,
+      "classification": "ADJACENT",
+      "production_eligible": true,
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible overlap only",
+        "information_architecture": "decision transformation, not continuity/exam/road-sign atlas"
+      }
+    },
+    {
+      "opportunity_id": "RN5-002",
+      "score": 8,
+      "classification": "NOVEL",
+      "production_eligible": true,
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible overlap only",
+        "information_architecture": "decision transformation, not continuity/exam/road-sign atlas"
+      }
+    },
+    {
+      "opportunity_id": "RN5-007",
+      "score": 13,
+      "classification": "NOVEL",
+      "production_eligible": true,
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible overlap only",
+        "information_architecture": "decision transformation, not continuity/exam/road-sign atlas"
+      }
+    },
+    {
+      "opportunity_id": "RN5-003",
+      "score": 11,
+      "classification": "NOVEL",
+      "production_eligible": true,
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible overlap only",
+        "information_architecture": "decision transformation, not continuity/exam/road-sign atlas"
+      }
+    },
+    {
+      "opportunity_id": "RN5-006",
+      "score": 10,
+      "classification": "NOVEL",
+      "production_eligible": true,
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible overlap only",
+        "information_architecture": "decision transformation, not continuity/exam/road-sign atlas"
+      }
+    }
+  ]
+}

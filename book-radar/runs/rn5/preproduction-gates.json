@@ -1,0 +1,57 @@
+{
+  "schema_version": "radar-native-5-gates/v1",
+  "outcomes": [
+    {
+      "rank": 1,
+      "opportunity_id": "RN5-001",
+      "market": "PASS",
+      "format": "PASS",
+      "portfolio": "PASS",
+      "source_model": "PASS",
+      "rights": "PASS_WITH_ATTRIBUTION",
+      "commercial_differentiation": "PASS",
+      "product_quality": "REPRESENTATIVE_SAMPLE_REQUIRED",
+      "human_product_gate": "REQUIRED",
+      "outcome": "CONDITIONAL_GO_AWAITING_HUMAN_PRODUCT_GATE",
+      "production_authorized": "CONDITIONAL"
+    },
+    {
+      "rank": 2,
+      "opportunity_id": "RN5-004",
+      "outcome": "NOT_RUN_AFTER_HIGHER_RANKED_SURVIVOR",
+      "production_authorized": false
+    },
+    {
+      "rank": 3,
+      "opportunity_id": "RN5-005",
+      "outcome": "NOT_RUN_AFTER_HIGHER_RANKED_SURVIVOR",
+      "production_authorized": false
+    },
+    {
+      "rank": 4,
+      "opportunity_id": "RN5-002",
+      "outcome": "NOT_RUN_AFTER_HIGHER_RANKED_SURVIVOR",
+      "production_authorized": false
+    },
+    {
+      "rank": 5,
+      "opportunity_id": "RN5-007",
+      "outcome": "NOT_RUN_AFTER_HIGHER_RANKED_SURVIVOR",
+      "production_authorized": false
+    },
+    {
+      "rank": 6,
+      "opportunity_id": "RN5-003",
+      "outcome": "NOT_RUN_AFTER_HIGHER_RANKED_SURVIVOR",
+      "production_authorized": false
+    },
+    {
+      "rank": 7,
+      "opportunity_id": "RN5-006",
+      "outcome": "NOT_RUN_AFTER_HIGHER_RANKED_SURVIVOR",
+      "production_authorized": false
+    }
+  ],
+  "final_decision": "CONDITIONAL_GO_AWAITING_HUMAN_PRODUCT_GATE",
+  "production_started": false
+}
