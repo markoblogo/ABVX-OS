@@ -1,0 +1,1218 @@
+{
+  "schema_version": "radar-native-6-rejections/v1",
+  "count": 303,
+  "rejections": [
+    {
+      "id": "RN6-011",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-018",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-020",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-024",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-026",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-028",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-030",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-032",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-033",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-034",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-035",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-036",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-038",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-039",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-040",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-042",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-043",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-044",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-045",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-046",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-048",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-049",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-050",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-051",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-052",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-053",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-054",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-055",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-056",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-057",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-058",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-059",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-060",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-061",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-062",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-063",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-064",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-065",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-066",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-067",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-068",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-069",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-070",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-071",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-072",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-073",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-074",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-075",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-076",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-077",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-078",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-079",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-080",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-081",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-082",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-083",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-084",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-085",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-086",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-087",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-088",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-089",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-090",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-091",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-092",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-093",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-094",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-095",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-096",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-097",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-098",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-099",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-100",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-101",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-102",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-103",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-104",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-105",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-106",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-107",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-108",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-109",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-110",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-111",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-112",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-113",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-114",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-115",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-116",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-117",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-118",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-119",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-120",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-121",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-122",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-123",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-124",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-125",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-126",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-127",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-128",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-129",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-130",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-131",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-132",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-133",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-134",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-135",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-136",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-137",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-138",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-139",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-140",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-141",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-142",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-143",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-144",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-145",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-146",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-147",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-148",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-149",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-150",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-151",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-152",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-153",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-154",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-155",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-156",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-157",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-158",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-159",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-160",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-161",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-162",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-163",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-164",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-165",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-166",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-167",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-168",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-169",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-170",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-171",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-172",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-173",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-174",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-175",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-176",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-177",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-178",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-179",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-180",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-181",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-182",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-183",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-184",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-185",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-186",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-187",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-188",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-189",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-190",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-191",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-192",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-193",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-194",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-195",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-196",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-197",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-198",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-199",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-200",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-201",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-202",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-203",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-204",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-205",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-206",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-207",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-208",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-209",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-210",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-211",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-212",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-213",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-214",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-215",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-216",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-217",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-218",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-219",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-220",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-221",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-222",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-223",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-224",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-225",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-226",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-227",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-228",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-229",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-230",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-231",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-232",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-233",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-234",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-235",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-236",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-237",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-238",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-239",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-240",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-241",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-242",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-243",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-244",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-245",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-246",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-247",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-248",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-249",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-250",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-251",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-252",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-253",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-254",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-255",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-256",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-257",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-258",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-259",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-260",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-261",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-262",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-263",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-264",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-265",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-266",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-267",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-268",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-269",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-270",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-271",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-272",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-273",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-274",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-275",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-276",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-277",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-278",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-279",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-280",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-281",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-282",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-283",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-284",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-285",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-286",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-287",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-288",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-289",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-290",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-291",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-292",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-293",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-294",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-295",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-296",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-297",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-298",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-299",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-300",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-301",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-302",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-303",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-304",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-305",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-306",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-307",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-308",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-309",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-310",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-311",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-312",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-313",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-314",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-315",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-316",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-317",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-318",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-319",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-320",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-321",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-322",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-323",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-324",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-325",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-326",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-327",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-328",
+      "reason": "lower evidence-adjusted priority within diverse cohort"
+    },
+    {
+      "id": "RN6-329",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    },
+    {
+      "id": "RN6-330",
+      "reason": "FORMAT_ELIGIBILITY_FAIL"
+    }
+  ]
+}

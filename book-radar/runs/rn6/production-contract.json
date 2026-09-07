@@ -1,0 +1,11 @@
+{
+  "schema_version": "rn6-production-contract/v1",
+  "status": "NOT_READY_NO_PRODUCT",
+  "opportunity_id": null,
+  "product": null,
+  "reason": "No finalist cleared all investment gates; therefore no production contract is fabricated.",
+  "representative_product_gate": "NOT_REQUIRED",
+  "human_product_gate": "NOT_REQUIRED",
+  "production_authorized": false,
+  "production_started": false
+}

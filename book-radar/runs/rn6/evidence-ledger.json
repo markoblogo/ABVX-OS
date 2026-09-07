@@ -1,0 +1,98 @@
+{
+  "schema_version": "radar-native-6-evidence/v1",
+  "observed_at": "2026-09-08",
+  "sources": [
+    {
+      "id": "KDP-LANG",
+      "label": "OBSERVED",
+      "title": "Book Supported Languages",
+      "publisher": "Amazon KDP",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G200673300",
+      "use": "EN and FR support print/Kindle; UK and PL print-only; Russian and Belarusian absent from the supported-language list"
+    },
+    {
+      "id": "AMZ-SWIM",
+      "label": "OBSERVED",
+      "title": "Amazon Books search: swim meet parent guide",
+      "url": "https://www.amazon.com/s?k=swim+meet+parent+guide&i=stripbooks",
+      "observation": "108 results; no direct field guide established in visible first block"
+    },
+    {
+      "id": "AMZ-CHURCH-SOUND",
+      "label": "OBSERVED",
+      "title": "Amazon Books search: church sound volunteer guide",
+      "url": "https://www.amazon.com/s?k=church+sound+volunteer+guide&i=stripbooks",
+      "observation": "68 results; direct incumbents visible"
+    },
+    {
+      "id": "GREAT-CHURCH-SOUND",
+      "label": "OBSERVED",
+      "title": "Great Church Sound second edition",
+      "url": "https://www.amazon.com/dp/0996642315",
+      "observation": "direct 320-page illustrated incumbent with checklists and companion resources"
+    },
+    {
+      "id": "AMZ-HANDWRITING",
+      "label": "OBSERVED",
+      "title": "Amazon Books search: historical handwriting genealogy workbook",
+      "url": "https://www.amazon.com/s?k=historical+handwriting+genealogy+workbook&i=stripbooks",
+      "observation": "198 results"
+    },
+    {
+      "id": "READ-CURSIVE",
+      "label": "OBSERVED",
+      "title": "Read Cursive Fast",
+      "url": "https://www.amazon.com/dp/B0GNJ99141",
+      "observation": "139 pages; about EUR17.20 paperback; 13 ratings; progressive historical-document practice and answer key; February 2026 listing with older reviews"
+    },
+    {
+      "id": "AMZ-CEMETERY",
+      "label": "OBSERVED",
+      "title": "Amazon Books search: cemetery symbols field guide",
+      "url": "https://www.amazon.com/s?k=cemetery+symbols+field+guide&i=stripbooks",
+      "observation": "38 results"
+    },
+    {
+      "id": "STORIES-STONE",
+      "label": "OBSERVED",
+      "title": "Stories in Stone",
+      "url": "https://www.amazon.com/dp/158685321X",
+      "observation": "established direct color-photo field guide; approximately 280 ratings reported by current secondary catalog evidence"
+    },
+    {
+      "id": "AMZ-CENSUS",
+      "label": "OBSERVED",
+      "title": "Amazon Books search: US census records visual guide genealogy",
+      "url": "https://www.amazon.com/s?k=US+census+records+visual+guide+genealogy&i=stripbooks",
+      "observation": "17 results; exact recent competitor ranked first"
+    },
+    {
+      "id": "CENSUS-DIRECT",
+      "label": "OBSERVED",
+      "title": "US Census Records: Reading and Interpreting Records",
+      "url": "https://www.amazon.com/dp/B0GNZVJ118",
+      "observation": "published February 17 2026; 89 pages; about EUR8.59; 4 ratings; BSR #1,291,966"
+    },
+    {
+      "id": "AMZ-STAGE",
+      "label": "OBSERVED",
+      "title": "Amazon Books search: community theater stage manager handbook",
+      "url": "https://www.amazon.com/s?k=community+theater+stage+manager+handbook&i=stripbooks",
+      "observation": "68 results"
+    },
+    {
+      "id": "STAGE-COMMUNITY",
+      "label": "OBSERVED",
+      "title": "Recent stage-management learning discussions",
+      "url": "https://www.reddit.com/r/stagemanagement/comments/1bnvqau/",
+      "observation": "new and returning community-theatre participants ask for books and training"
+    }
+  ],
+  "limitations": [
+    "Amazon pages are location-sensitive and displayed delivery-localized EUR prices.",
+    "Result counts are noisy query observations, not market size.",
+    "BSR was recorded only where directly visible; it was not imputed.",
+    "Economics are conservative hypotheses, not forecasts.",
+    "Deep candidates below the Top 10 retain UNKNOWN where product-level evidence was not economical to gather after no finalist cleared."
+  ]
+}

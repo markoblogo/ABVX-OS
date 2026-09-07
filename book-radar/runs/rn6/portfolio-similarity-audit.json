@@ -1,0 +1,557 @@
+{
+  "schema_version": "portfolio-similarity-audit/v1",
+  "catalog_checked": [
+    "PMP 2026 in a Nutshell",
+    "Ham Radio Technician Visual Cram Map 2026-2030",
+    "Французькі правила й дорожні знаки українською",
+    "Solar Proposal Decoder + Buyer Decision System",
+    "THE HUMAN BACKUP PLAN",
+    "Toki Pona project",
+    "Burgers, Lipstick & Underwear",
+    "Your SaaS Bill Is Ridiculous",
+    "Fragments from a Therapist’s Notebook"
+  ],
+  "catalog_complete_for_known_projects": true,
+  "results": [
+    {
+      "opportunity_id": "RN6-001",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-002",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-003",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-004",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-005",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-006",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-007",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-008",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-009",
+      "topic_similarity": {
+        "score": 28,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-010",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-012",
+      "topic_similarity": {
+        "score": 28,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-013",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-014",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-015",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-016",
+      "topic_similarity": {
+        "score": 28,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-017",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-019",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-021",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-022",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-023",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-025",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-027",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-029",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-031",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-037",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-041",
+      "topic_similarity": {
+        "score": 28,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    },
+    {
+      "opportunity_id": "RN6-047",
+      "topic_similarity": {
+        "score": 12,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM"
+      },
+      "product_architecture_similarity": {
+        "score": 18,
+        "nearest": "none material"
+      },
+      "dimension_evidence": {
+        "buyer": "different",
+        "jtbd": "different",
+        "trigger": "different",
+        "promise": "different",
+        "format": "possible generic overlap only",
+        "information_architecture": "explicitly scored separately"
+      }
+    }
+  ]
+}
