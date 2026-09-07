@@ -1,0 +1,893 @@
+{
+  "claims": [
+    {
+      "claim_id": "FR-A13a",
+      "claim": "Endroit fréquenté par les enfants / Ділянка, де на дорозі можуть з'явитися діти",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A13a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A13b",
+      "claim": "Passage pour piétons / Попереду пішохідний перехід",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A13b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A14",
+      "claim": "Autres dangers / Інша небезпека, не показана окремим символом",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A14",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A15a1",
+      "claim": "Passage d'animaux domestiques / Можлива поява свійських тварин",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A15a1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A15b",
+      "claim": "Passage d'animaux sauvages / Можлива поява диких тварин",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A15b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A15c",
+      "claim": "Passage de cavaliers / Можлива поява вершників",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A15c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A16",
+      "claim": "Descente dangereuse / Небезпечний спуск",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A16",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A17",
+      "claim": "Annonce de feux tricolores / Попереду світлофор",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A17",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A18",
+      "claim": "Circulation dans les deux sens / Починається двосторонній рух",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A18",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A19",
+      "claim": "Risque de chutes de pierres / Можливе падіння каміння",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A19",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A1a",
+      "claim": "Virage à droite / Небезпечний поворот праворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A1a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A1b",
+      "claim": "Virage à gauche / Небезпечний поворот ліворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A1b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A1c",
+      "claim": "Succession de virages, premier à droite / Серія поворотів, перший праворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A1c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A1d",
+      "claim": "Succession de virages, premier à gauche / Серія поворотів, перший ліворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A1d",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A20",
+      "claim": "Débouché sur un quai ou une berge / Виїзд на набережну або берег",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A20",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A21",
+      "claim": "Débouché de cyclistes / Можливий виїзд велосипедистів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A21",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A23",
+      "claim": "Traversée d'une aire de danger aérien / Низьколітні літаки або інша повітряна небезпека",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A23",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A24",
+      "claim": "Vent latéral / Сильний боковий вітер",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A24",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A2a",
+      "claim": "Cassis ou dos-d'âne / Різка нерівність дороги",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A2a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A2b",
+      "claim": "Ralentisseur de type dos-d'âne / Штучна дорожня нерівність",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A2b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A3",
+      "claim": "Chaussée rétrécie / Дорога звужується з обох боків",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A3",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A3a",
+      "claim": "Chaussée rétrécie par la droite / Дорога звужується праворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A3a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A3b",
+      "claim": "Chaussée rétrécie par la gauche / Дорога звужується ліворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A3b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A4",
+      "claim": "Chaussée particulièrement glissante / Слизька дорога",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A4",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-A6",
+      "claim": "Pont mobile / Розвідний міст",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-A6",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB1",
+      "claim": "Intersection où la priorité à droite est applicable / Перехрестя з правилом «перешкода праворуч»",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB2",
+      "claim": "Intersection avec une route dont les usagers doivent céder le passage / Ви маєте пріоритет на найближчому перехресті",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB2",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB25",
+      "claim": "Carrefour à sens giratoire / Круговий рух із обов'язком поступитися на в'їзді",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB25",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB3a",
+      "claim": "Cédez le passage à l'intersection / Дати дорогу",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB3a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB3b",
+      "claim": "Cédez le passage à l'intersection à distance indiquée / Попередження про «Дати дорогу» попереду",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB3b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB4",
+      "claim": "Arrêt à l'intersection / STOP: повна зупинка й дати дорогу",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB4",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB5",
+      "claim": "Arrêt à l'intersection à distance indiquée / Попередження про STOP попереду",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB5",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB6",
+      "claim": "Indication du caractère prioritaire d'une route / Головна дорога",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB6",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-AB7",
+      "claim": "Fin du caractère prioritaire d'une route / Кінець головної дороги",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-AB7",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B0",
+      "claim": "Circulation interdite à tout véhicule dans les deux sens / Рух усіх транспортних засобів заборонено в обох напрямках",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B0",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B1",
+      "claim": "Sens interdit à tout véhicule / В'їзд у цьому напрямку заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B10a",
+      "claim": "Accès interdit aux véhicules transportant plus d'une quantité indiquée de produits explosifs ou inflammables / В'їзд заборонено транспортові з визначеною кількістю вибухових або легкозаймистих вантажів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B10a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B11",
+      "claim": "Accès interdit aux véhicules dont la largeur dépasse la valeur indiquée / Обмеження максимальної ширини",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B11",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B12",
+      "claim": "Accès interdit aux véhicules dont la hauteur dépasse la valeur indiquée / Обмеження максимальної висоти",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B12",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B13",
+      "claim": "Accès interdit aux véhicules dont le poids total dépasse la valeur indiquée / Обмеження максимальної маси",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B13",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B13a",
+      "claim": "Accès interdit aux véhicules dont le poids par essieu dépasse la valeur indiquée / Обмеження навантаження на вісь",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B13a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B14_30",
+      "claim": "Limitation de vitesse à 30 km/h / Максимальна швидкість 30 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B14_30",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B14_50",
+      "claim": "Limitation de vitesse à 50 km/h / Максимальна швидкість 50 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B14_50",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B14_70",
+      "claim": "Limitation de vitesse à 70 km/h / Максимальна швидкість 70 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B14_70",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B14_90",
+      "claim": "Limitation de vitesse à 90 km/h / Максимальна швидкість 90 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B14_90",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B14_110",
+      "claim": "Limitation de vitesse à 110 km/h / Максимальна швидкість 110 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B14_110",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B14_130",
+      "claim": "Limitation de vitesse à 130 km/h / Максимальна швидкість 130 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B14_130",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B15",
+      "claim": "Cédez le passage à la circulation venant en sens inverse / Дати дорогу зустрічному транспорту",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B15",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B16",
+      "claim": "Interdiction de signaux sonores / Звуковий сигнал заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B16",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B17-70m",
+      "claim": "Interdiction de maintenir un intervalle inférieur à 70 mètres / Мінімальна дистанція 70 метрів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B17-70m",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B18a",
+      "claim": "Accès interdit aux véhicules transportant des marchandises explosives ou inflammables / Заборона для транспорту з вибуховими або легкозаймистими вантажами",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B18a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B18b",
+      "claim": "Accès interdit aux véhicules transportant des marchandises pouvant polluer les eaux / Заборона для вантажів, небезпечних для води",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B18b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B18c",
+      "claim": "Accès interdit aux véhicules transportant des marchandises dangereuses / Заборона для транспорту з небезпечними вантажами",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B18c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B19",
+      "claim": "Autre interdiction dont la nature est indiquée / Інша заборона, зазначена написом або символом",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B19",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B2a",
+      "claim": "Interdiction de tourner à gauche à la prochaine intersection / Поворот ліворуч на найближчому перехресті заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B2a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B2b",
+      "claim": "Interdiction de tourner à droite à la prochaine intersection / Поворот праворуч на найближчому перехресті заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B2b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B2c",
+      "claim": "Interdiction de faire demi-tour / Розворот заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B2c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B3",
+      "claim": "Interdiction de dépasser / Обгін моторних транспортних засобів заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B3",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B3a",
+      "claim": "Interdiction aux véhicules de transport de marchandises de dépasser / Вантажним транспортним засобам обгін заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B3a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B4",
+      "claim": "Arrêt au poste de douane / Зупинка перед митницею",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B4",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B5a",
+      "claim": "Arrêt au poste de gendarmerie / Зупинка перед постом жандармерії",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B5a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B5b",
+      "claim": "Arrêt au poste de police / Зупинка перед постом поліції",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B5b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B5c",
+      "claim": "Arrêt au poste de péage / Зупинка перед пунктом оплати",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B5c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B6a1",
+      "claim": "Stationnement interdit / Стоянка заборонена",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B6a1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B6a2",
+      "claim": "Stationnement interdit du 1er au 15 du mois / Стоянка заборонена з 1-го до 15-го числа",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B6a2",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B6a3",
+      "claim": "Stationnement interdit du 16 à la fin du mois / Стоянка заборонена з 16-го до кінця місяця",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B6a3",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B6d",
+      "claim": "Arrêt et stationnement interdits / Зупинка і стоянка заборонені",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B6d",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B7a",
+      "claim": "Accès interdit aux véhicules à moteur à l'exception des cyclomoteurs / В'їзд моторних транспортних засобів заборонено, крім мопедів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B7a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B7b",
+      "claim": "Accès interdit à tous les véhicules à moteur / В'їзд усіх моторних транспортних засобів заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B7b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B8",
+      "claim": "Accès interdit aux véhicules affectés au transport de marchandises / В'їзд вантажного транспорту заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B8",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B9a",
+      "claim": "Accès interdit aux piétons / Рух пішоходів заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B9a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B9b",
+      "claim": "Accès interdit aux cycles / Рух велосипедів заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B9b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B9c",
+      "claim": "Accès interdit aux véhicules à traction animale / Рух гужового транспорту заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B9c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B9d",
+      "claim": "Accès interdit aux véhicules agricoles à moteur / Рух моторної сільськогосподарської техніки заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B9d",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B9e",
+      "claim": "Accès interdit aux voitures à bras / Рух ручних візків заборонено",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B9e",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21-1",
+      "claim": "Direction obligatoire à droite à la prochaine intersection / Обов'язковий поворот праворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21-1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21-2",
+      "claim": "Direction obligatoire à gauche à la prochaine intersection / Обов'язковий поворот ліворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21-2",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21a1",
+      "claim": "Contournement obligatoire par la droite / Об'їзд перешкоди праворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21a1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21a2",
+      "claim": "Contournement obligatoire par la gauche / Об'їзд перешкоди ліворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21a2",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21b",
+      "claim": "Direction obligatoire tout droit / Рух лише прямо",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21c1",
+      "claim": "Direction obligatoire à la prochaine intersection : à droite / На найближчому перехресті рух лише праворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21c1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21c2",
+      "claim": "Direction obligatoire à la prochaine intersection : à gauche / На найближчому перехресті рух лише ліворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21c2",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21d1",
+      "claim": "Directions obligatoires à la prochaine intersection : tout droit ou à droite / На найближчому перехресті рух лише прямо або праворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21d1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B21e",
+      "claim": "Directions obligatoires à la prochaine intersection : à droite ou à gauche / На найближчому перехресті рух лише праворуч або ліворуч",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B21e",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B22a",
+      "claim": "Piste ou bande obligatoire pour les cycles / Обов'язкова велосипедна доріжка або смуга",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B22a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B22b",
+      "claim": "Chemin obligatoire pour piétons / Обов'язкова доріжка для пішоходів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B22b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B22c",
+      "claim": "Chemin obligatoire pour cavaliers / Обов'язковий шлях для вершників",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B22c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B25-30",
+      "claim": "Vitesse minimale obligatoire de 30 km/h / Мінімальна обов'язкова швидкість 30 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B25-30",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B25-50",
+      "claim": "Vitesse minimale obligatoire de 50 km/h / Мінімальна обов'язкова швидкість 50 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B25-50",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B26",
+      "claim": "Chaînes à neige obligatoires / Ланцюги протиковзання обов'язкові",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B26",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B27a",
+      "claim": "Voie réservée aux transports en commun / Смуга, обов'язкова для громадського транспорту",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B27a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B31",
+      "claim": "Fin de toutes les interdictions précédemment signalées / Кінець усіх раніше встановлених заборон для рухомих транспортних засобів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B31",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B33_30",
+      "claim": "Fin de limitation de vitesse à 30 km/h / Кінець обмеження 30 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B33_30",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B33_50",
+      "claim": "Fin de limitation de vitesse à 50 km/h / Кінець обмеження 50 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B33_50",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B33_70",
+      "claim": "Fin de limitation de vitesse à 70 km/h / Кінець обмеження 70 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B33_70",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B33_90",
+      "claim": "Fin de limitation de vitesse à 90 km/h / Кінець обмеження 90 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B33_90",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B34",
+      "claim": "Fin d'interdiction de dépasser / Кінець заборони обгону",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B34",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B34a",
+      "claim": "Fin d'interdiction de dépasser pour les véhicules de transport de marchandises / Кінець заборони обгону для вантажного транспорту",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B34a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B35",
+      "claim": "Fin d'interdiction de signaux sonores / Кінець заборони звукових сигналів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B35",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B30",
+      "claim": "Entrée d'une zone à vitesse limitée à 30 km/h / В'їзд у зону 30 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B30",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B50a",
+      "claim": "Sortie d'une zone de stationnement interdit / Виїзд із зони забороненої стоянки",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B50a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B51",
+      "claim": "Sortie d'une zone à vitesse limitée à 30 km/h / Кінець зони 30 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B51",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B52",
+      "claim": "Entrée d'une zone de rencontre / В'їзд у житлово-пішохідну зону rencontre",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B52",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B53",
+      "claim": "Sortie d'une zone de rencontre / Виїзд із зони rencontre",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B53",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B54",
+      "claim": "Entrée d'une aire piétonne / В'їзд у пішохідну зону",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B54",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B55",
+      "claim": "Sortie d'une aire piétonne / Виїзд із пішохідної зони",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B55",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-B6b1",
+      "claim": "Entrée d'une zone à stationnement interdit / В'їзд у зону забороненої стоянки",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-B6b1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C107",
+      "claim": "Route à accès réglementé / Початок дороги для автомобілів із спеціальним режимом доступу",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C107",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C108",
+      "claim": "Fin de route à accès réglementé / Кінець дороги для автомобілів із спеціальним режимом",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C108",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C12",
+      "claim": "Circulation à sens unique / Односторонній рух",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C12",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C13a",
+      "claim": "Impasse / Тупик",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C13a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C13b",
+      "claim": "Présignalisation d'une impasse / Попередження про тупик",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C13b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C1a",
+      "claim": "Parc de stationnement / Місце для стоянки",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C1a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C1b",
+      "claim": "Parc de stationnement à durée limitée avec contrôle par disque / Стоянка з обмеженням часу та паркувальним диском",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C1b",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C1c",
+      "claim": "Parc de stationnement payant / Платна стоянка",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C1c",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C20a",
+      "claim": "Passage pour piétons / Місце пішохідного переходу",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C20a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C23",
+      "claim": "Stationnement réglementé pour les caravanes et autocaravanes / Регульована стоянка для караванів і автодомів",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C23",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C24a_ex1",
+      "claim": "Conditions particulières de circulation par voie / Особливі правила руху за смугами",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C24a_ex1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C27",
+      "claim": "Ralentisseur de type dos-d'âne / Місце розташування штучної нерівності",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C27",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C3",
+      "claim": "Risque d'incendie / Зона підвищеної пожежної небезпеки",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C3",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C4a_30",
+      "claim": "Vitesse conseillée à 30 km/h / Рекомендована швидкість 30 км/год",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C4a_30",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-C5",
+      "claim": "Station de taxis / Стоянка таксі",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-C5",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-CE1",
+      "claim": "Poste de secours / Пункт першої допомоги",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-CE1",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-CE2a",
+      "claim": "Poste d'appel d'urgence / Пункт екстреного виклику",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-CE2a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-CE14",
+      "claim": "Installations accessibles aux personnes handicapées / Об'єкт доступний для людей з інвалідністю",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-CE14",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-CE15a",
+      "claim": "Poste de distribution de carburant / Автозаправна станція",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-CE15a",
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "FR-CE16",
+      "claim": "Restaurant / Ресторан",
+      "source_id": "SRC-LEGIFRANCE",
+      "asset_id": "ASSET-CE16",
+      "status": "VERIFIED"
+    }
+  ]
+}

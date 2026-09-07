@@ -1,0 +1,11 @@
+{
+  "schema_version": "visual-reference-product-quality/v1",
+  "status": "PASS",
+  "artifact": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-prototype.pdf",
+  "scores": {"information_density":4.4,"perceived_value":4.5,"editorial_enrichment":4.6,"target_reader_advantage":4.8,"page_purpose":4.5,"learning_value":4.6},
+  "average": 4.57,
+  "density_signal": {"flagged_pages":[],"advisory":true,"intentional_sparse_pages":[1]},
+  "criteria": {"more_valuable_than_v1":"PASS","intentional_space":"PASS","ukrainian_prior_knowledge_leveraged":"PASS","comparison_adds_information":"PASS","important_differences_taught":"PASS","calm_and_readable":"PASS","commercially_credible":"PASS","target_reader_specificity":"PASS"},
+  "technical_preflight_independent": true,
+  "human_user_perspective_gate": "PENDING"
+}

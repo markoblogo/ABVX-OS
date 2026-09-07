@@ -1,0 +1,45 @@
+{
+  "checked": "2026-09-06",
+  "sources": [
+    {
+      "id": "SRC-LEGIFRANCE",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006075080",
+      "checked": "2026-09-06",
+      "sha256": null,
+      "retrieval": "LIVE_WEB_VERIFIED_2026-09-06; anti-bot blocked archival download",
+      "observed_version": "consolidated text in force; data last updated 2025-09-08",
+      "licence": "Licence Ouverte 2.0 for Cerema SVG publication; legal text reused as factual authority; Sécurité routière PDF used as reference only",
+      "attribution": "Source: Cerema / Ministère chargé des transports; licence Etalab 2.0; retrieved 2026-09-06"
+    },
+    {
+      "id": "SRC-CEREMA",
+      "url": "https://equipementsdelaroute.cerema.fr/signaux-au-format-svg-a654.html",
+      "checked": "2026-09-06",
+      "sha256": "55283cb7325f94b51eec9c7e4a301c8fe65e5db952d83fc37d90473dd158f829",
+      "retrieval": "LOCAL_COPY",
+      "observed_version": null,
+      "licence": "Licence Ouverte 2.0 for Cerema SVG publication; legal text reused as factual authority; Sécurité routière PDF used as reference only",
+      "attribution": "Source: Cerema / Ministère chargé des transports; licence Etalab 2.0; retrieved 2026-09-06"
+    },
+    {
+      "id": "SRC-LICENCE",
+      "url": "https://github.com/etalab/licence-ouverte/blob/master/LO.md",
+      "checked": "2026-09-06",
+      "sha256": "39ef798a6ef409a4154c5e297ef78cc53c901c5bf84c22f5943c76d086bbefd0",
+      "retrieval": "LOCAL_COPY",
+      "observed_version": null,
+      "licence": "Licence Ouverte 2.0 for Cerema SVG publication; legal text reused as factual authority; Sécurité routière PDF used as reference only",
+      "attribution": "Source: Cerema / Ministère chargé des transports; licence Etalab 2.0; retrieved 2026-09-06"
+    },
+    {
+      "id": "SRC-SECURITE_ROUTIERE",
+      "url": "https://www.securite-routiere.gouv.fr/sites/default/files/2021-05/apr_panneaux2017.pdf",
+      "checked": "2026-09-06",
+      "sha256": "4c533b9a85dfc916c3a50ed6a42ba57559f8bc36139e8cf9fad4636d4f3803da",
+      "retrieval": "LOCAL_COPY",
+      "observed_version": null,
+      "licence": "Licence Ouverte 2.0 for Cerema SVG publication; legal text reused as factual authority; Sécurité routière PDF used as reference only",
+      "attribution": "Source: Cerema / Ministère chargé des transports; licence Etalab 2.0; retrieved 2026-09-06"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": "rn3-091-v2-prototype-qa/v1",
+  "status": "PASS",
+  "pages": 14,
+  "word_count": 884,
+  "required_archetypes": [
+    "opening",
+    "system_difference",
+    "speed_enforcement",
+    "sign_primer",
+    "two_up",
+    "four_up",
+    "match",
+    "near_match",
+    "different_system",
+    "no_direct_analogue",
+    "high_value_difference",
+    "quick_review",
+    "vocabulary_index"
+  ],
+  "artifact": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-prototype.pdf",
+  "human_gate": "PENDING"
+}

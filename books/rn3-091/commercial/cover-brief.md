@@ -1,0 +1,3 @@
+# Cover brief
+
+Create three thumbnail-first options. Primary title in Ukrainian: «ФРАНЦУЗЬКІ ДОРОЖНІ ЗНАКИ УКРАЇНСЬКОЮ». Secondary line: «Візуальний словник для водіїв у Франції». Use one large, unmistakable sign-family motif (red warning triangle, red prohibition ring, blue obligation circle) as original geometric composition. Strong blue/white/red palette, but no French government marks, Marianne, agency logos, driving-school marks, flags as official cues, or dense sign mosaics. The Ukrainian promise must remain readable at 160 px width. Back cover: four-step promise, 127-sign count, independent-guide notice, and space for KDP barcode. Final spine width must be calculated from KDP after paper/color/page settings are fixed.

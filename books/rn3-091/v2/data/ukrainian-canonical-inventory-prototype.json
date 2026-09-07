@@ -1,0 +1,14 @@
+{
+  "schema_version": "rn3-091-ua-inventory/v1",
+  "scope": "V2 prototype subset; full inventory is gated",
+  "checked_at": "2026-09-06",
+  "controlling_source": "https://zakon.rada.gov.ua/go/1306-2001-%D0%BF",
+  "source_version": "current edition dated 2026-04-09",
+  "entries": [
+    {"id":"UA-2.1","designation":"Дати дорогу","family":"priority","meaning":"Give way at the uncontrolled intersection as specified by the rule","source_location":"Annex 1, section 2"},
+    {"id":"UA-2.2","designation":"Проїзд без зупинки заборонено","family":"priority","meaning":"Stop before the stop line, or before the sign if no line is present, then give way","source_location":"Annex 1, section 2"},
+    {"id":"UA-3.29","designation":"Обмеження максимальної швидкості","family":"prohibition","meaning":"Driving above the speed displayed on the sign is prohibited","source_location":"Annex 1, section 3"},
+    {"id":"UA-1.21","designation":"Перехрещення рівнозначних доріг","family":"warning","meaning":"Warns of an intersection of roads of equal priority","source_location":"Annex 1, section 1"},
+    {"id":"UA-5.34","designation":"Житлова зона","family":"information","meaning":"Marks a residential zone governed by section 26","source_location":"Annex 1, section 5 and section 26"}
+  ]
+}

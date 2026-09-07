@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checked": "2026-09-06",
+  "checks": {
+    "inventory_count": true,
+    "unique_ids": true,
+    "unique_codes": true,
+    "all_svg": true,
+    "all_png": true,
+    "asset_ledger_complete": true,
+    "all_sources": true,
+    "french_nonempty": true,
+    "ukrainian_nonempty": true,
+    "actions_nonempty": true,
+    "pdf_pages_124": true,
+    "pdf_fonts_embedded": true,
+    "toc_print": true,
+    "epub_exists": true
+  },
+  "entry_count": 127,
+  "page_count": 124,
+  "word_count": 2682,
+  "note": "Automated crosswalk and package checks; rendered-page contact sheets are generated separately."
+}

@@ -49,3 +49,7 @@ Future catalog records should be supplied as `book-radar-catalog/v1` JSON and im
 - Radar-native #2: all 120 native structured opportunities, evidence, reproducible scores, screening decisions, top three, and winner. Its winner remains unproduced and unauthorized.
 
 Calibration records should compare predicted ranges with checkpoint actuals, identify systematic score error, and propose a new scoring-model version. They must never mutate the model used by an earlier run.
+
+## Visual/reference Product Quality Gate
+
+Factual QA, technical PDF/EPUB preflight and KDP package validity do not establish commercial product quality. Visual/reference books receive a separate advisory gate covering information density, perceived value, editorial enrichment, target-reader advantage, page purpose and learning value. Ordinary pages with very low usable-area fill or an isolated, obviously groupable entry are flagged; title pages, section openers and deliberate teaching spreads may be explicitly excluded. A failed product-quality gate blocks a KDP-ready claim without changing Radar's global opportunity-scoring weights.

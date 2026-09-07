@@ -1,0 +1,13 @@
+{
+  "product": "RN3-091",
+  "build_date": "2026-09-06",
+  "trim": "8.5 x 11 in",
+  "interior": "standard color on white paper",
+  "bleed": false,
+  "pages": 124,
+  "entries": 127,
+  "paperback_pdf": "output/pdf/french-road-signs-in-ukrainian-visual-vocabulary-atlas-interior.pdf",
+  "kindle_epub": "output/epub/french-road-signs-in-ukrainian-visual-vocabulary-atlas.epub",
+  "editable_master": "books/rn3-091/manuscript/final-manuscript.md",
+  "target_price_eur": 22.9
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {"id":"evidence:RN3-091:v1-product-quality-false-positive","opportunity_id":"RN3-091","kind":"product_quality_audit","observed_at":"2026-09-06","data":{"classification":"PRODUCT_QUALITY_FALSE_POSITIVE","v1_preserved":true,"fixture":"book-radar/quality-fixtures/product-quality-rn3-091-v1.json"}},
+    {"id":"evidence:RN3-091:v2-prototype","opportunity_id":"RN3-091","kind":"prototype","observed_at":"2026-09-06","data":{"pages":14,"product_quality":"PASS","human_gate":"PENDING","artifact":"output/pdf/french-road-signs-for-ukrainian-drivers-v2-prototype.pdf"}}
+  ],
+  "decisions": [
+    {"id":"decision:RN3-091:v1-product-quality-fail","opportunity_id":"RN3-091","decision":"PRODUCT_QUALITY_FALSE_POSITIVE","decided_at":"2026-09-06","reason":"Factual, technical and package QA did not establish commercial product quality."},
+    {"id":"decision:RN3-091:v2-prototype-gate","opportunity_id":"RN3-091","decision":"PROTOTYPE_AWAITING_HUMAN_PRODUCT_GATE","decided_at":"2026-09-06","reason":"The 14-page V2 prototype passed source, technical and product-quality QA; full production remains blocked pending the single user-perspective gate."}
+  ]
+}

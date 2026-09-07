@@ -1,0 +1,13 @@
+{
+  "schema_version": "rn3-production-contract/v2",
+  "opportunity_id": "RN3-091",
+  "version": "V2",
+  "status": "PROTOTYPE_AWAITING_HUMAN_PRODUCT_GATE",
+  "product_thesis": "A practical transition guide for a Ukrainian driver who already understands the Ukrainian road system and needs to identify what transfers safely, what only looks similar, and what must be relearned in France.",
+  "buyer": "Ukrainian-speaking licensed driver or learner in France with prior Ukrainian road-system knowledge",
+  "prototype": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-prototype.pdf",
+  "prototype_qa": "books/rn3-091/v2/qa/product-quality-qa.json",
+  "human_gate_question": "Does this comparison/product experience correspond to the questions and confusion a Ukrainian driver in France actually has?",
+  "full_production_authorized": false,
+  "v1_preserved": true
+}

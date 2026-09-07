@@ -1,0 +1,11 @@
+{
+  "schema_version": "rn3-091-comparison-graph/v1",
+  "scope": "prototype subset",
+  "comparisons": [
+    {"fr_sign_id":"AB4","ua_comparison_type":"MATCH","ua_sign_ids":["UA-2.2"],"visual_similarity":0.98,"meaning_similarity":0.95,"rule_similarity":0.92,"comparison_note_uk":"Знак і базова дія майже однакові.","important_difference_uk":"Точне місце зупинки пояснюється правилами кожної країни.","action_note_uk":"Повністю зупиніться й дайте дорогу.","source_fr":"FR-SIGN-AB4; FR-R415-6","source_ua":"UA-PDR-2.2","confidence":"HIGH"},
+    {"fr_sign_id":"AB3a","ua_comparison_type":"MATCH","ua_sign_ids":["UA-2.1"],"visual_similarity":0.98,"meaning_similarity":0.95,"rule_similarity":0.9,"comparison_note_uk":"Форма і базова вимога поступитися переносяться безпечно.","source_fr":"FR-SIGN-AB3A","source_ua":"UA-PDR-2.1","confidence":"HIGH"},
+    {"fr_sign_id":"B14_50","ua_comparison_type":"NEAR_MATCH","ua_sign_ids":["UA-3.29"],"visual_similarity":0.94,"meaning_similarity":0.95,"rule_similarity":0.62,"comparison_note_uk":"Обидва знаки задають максимум 50 км/год.","important_difference_uk":"Практика фіксації та пороги санкцій різні; технічна поправка не є дозволеним перевищенням.","source_fr":"FR-R413-2; FR-RADAR-2025","source_ua":"UA-PDR-3.29; UA-KUPAP-122","confidence":"HIGH"},
+    {"fr_sign_id":"AB1","ua_comparison_type":"DIFFERENT_SYSTEM","ua_sign_ids":["UA-1.21"],"visual_similarity":0.9,"meaning_similarity":0.86,"rule_similarity":0.68,"comparison_note_uk":"Обидві системи знають пріоритет праворуч, але водієві у Франції важливо не чекати окремого знака перед кожним його застосуванням.","source_fr":"FR-R415-5; FR-SIGN-AB1","source_ua":"UA-PDR-16.12; UA-PDR-1.21","confidence":"HIGH"},
+    {"fr_sign_id":"B52","ua_comparison_type":"NO_DIRECT_ANALOGUE","ua_sign_ids":["UA-5.34"],"visual_similarity":0.35,"meaning_similarity":0.48,"rule_similarity":0.35,"comparison_note_uk":"Українська житлова зона є лише точкою асоціації, а не прямим юридичним аналогом zone de rencontre.","important_difference_uk":"У Франції це окремий режим зі швидкістю 20 км/год і пріоритетом пішоходів на проїзній частині.","source_fr":"FR-R110-2; FR-SIGN-B52","source_ua":"UA-PDR-5.34; UA-PDR-26","confidence":"HIGH"}
+  ]
+}

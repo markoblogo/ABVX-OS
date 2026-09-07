@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": {
+    "rendered_pages": true,
+    "trim_8_5x11": true,
+    "live_area_minimum_0_75in": "PASS_BY_GENERATOR_CONTRACT",
+    "fonts_embedded": true,
+    "even_page_count": true,
+    "print_toc": true,
+    "epub_zip": true,
+    "epub_xml": true,
+    "epub_navigation": true,
+    "epub_image_refs": true,
+    "epub_alt_text": true,
+    "epub_xhtml_documents": true
+  },
+  "deferred": "Final device rendering and uploaded-file check in KDP Previewer",
+  "contact_sheets": [
+    "books/rn3-091/qa/full-book-contact-sheet.png",
+    "books/rn3-091/qa/high-risk-page-contact-sheet.png",
+    "books/rn3-091/qa/representative-page-qa-sheet.png"
+  ]
+}

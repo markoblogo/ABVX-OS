@@ -1,7 +1,9 @@
 {
   "schema_version": "rn3-production-contract/v1",
   "opportunity_id": "RN3-091",
-  "status": "PRODUCTION_AUTHORIZED_NOT_STARTED",
+  "status": "PRODUCT_QUALITY_FALSE_POSITIVE",
+  "superseded_by": "book-radar/runs/rn3/production-contract-v2.json",
+  "product_quality_finding": "V1 passed factual, technical and package checks but failed the human commercial-product review because most pages contained one small entry and little editorial value.",
   "prototype_qa": "book-radar/runs/rn3/prototype/rn3-091-prototype-qa.json",
   "product": "French Road Signs in Ukrainian: A Visual Vocabulary Atlas",
   "buyer": "Ukrainian-speaking learner or licensed driver in France",
@@ -75,5 +77,7 @@
     "product collapses into generic prose already supplied by the incumbent",
     "Anton sample review finds material Ukrainian-language defects"
   ],
-  "production_started": false
+  "production_started": "2026-09-06",
+  "production_ended": "2026-09-06",
+  "production_result": "books/rn3-091/production/production-manifest.json"
 }

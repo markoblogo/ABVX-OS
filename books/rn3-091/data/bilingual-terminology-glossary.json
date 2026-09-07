@@ -1,0 +1,512 @@
+{
+  "terms": [
+    {
+      "fr": "Accès interdit aux cycles",
+      "uk": "Рух велосипедів заборонено"
+    },
+    {
+      "fr": "Accès interdit aux piétons",
+      "uk": "Рух пішоходів заборонено"
+    },
+    {
+      "fr": "Accès interdit aux voitures à bras",
+      "uk": "Рух ручних візків заборонено"
+    },
+    {
+      "fr": "Accès interdit aux véhicules affectés au transport de marchandises",
+      "uk": "В'їзд вантажного транспорту заборонено"
+    },
+    {
+      "fr": "Accès interdit aux véhicules agricoles à moteur",
+      "uk": "Рух моторної сільськогосподарської техніки заборонено"
+    },
+    {
+      "fr": "Accès interdit aux véhicules dont la hauteur dépasse la valeur indiquée",
+      "uk": "Обмеження максимальної висоти"
+    },
+    {
+      "fr": "Accès interdit aux véhicules dont la largeur dépasse la valeur indiquée",
+      "uk": "Обмеження максимальної ширини"
+    },
+    {
+      "fr": "Accès interdit aux véhicules dont le poids par essieu dépasse la valeur indiquée",
+      "uk": "Обмеження навантаження на вісь"
+    },
+    {
+      "fr": "Accès interdit aux véhicules dont le poids total dépasse la valeur indiquée",
+      "uk": "Обмеження максимальної маси"
+    },
+    {
+      "fr": "Accès interdit aux véhicules transportant des marchandises dangereuses",
+      "uk": "Заборона для транспорту з небезпечними вантажами"
+    },
+    {
+      "fr": "Accès interdit aux véhicules transportant des marchandises explosives ou inflammables",
+      "uk": "Заборона для транспорту з вибуховими або легкозаймистими вантажами"
+    },
+    {
+      "fr": "Accès interdit aux véhicules transportant des marchandises pouvant polluer les eaux",
+      "uk": "Заборона для вантажів, небезпечних для води"
+    },
+    {
+      "fr": "Accès interdit aux véhicules transportant plus d'une quantité indiquée de produits explosifs ou inflammables",
+      "uk": "В'їзд заборонено транспортові з визначеною кількістю вибухових або легкозаймистих вантажів"
+    },
+    {
+      "fr": "Accès interdit aux véhicules à moteur à l'exception des cyclomoteurs",
+      "uk": "В'їзд моторних транспортних засобів заборонено, крім мопедів"
+    },
+    {
+      "fr": "Accès interdit aux véhicules à traction animale",
+      "uk": "Рух гужового транспорту заборонено"
+    },
+    {
+      "fr": "Accès interdit à tous les véhicules à moteur",
+      "uk": "В'їзд усіх моторних транспортних засобів заборонено"
+    },
+    {
+      "fr": "Annonce de feux tricolores",
+      "uk": "Попереду світлофор"
+    },
+    {
+      "fr": "Arrêt au poste de douane",
+      "uk": "Зупинка перед митницею"
+    },
+    {
+      "fr": "Arrêt au poste de gendarmerie",
+      "uk": "Зупинка перед постом жандармерії"
+    },
+    {
+      "fr": "Arrêt au poste de police",
+      "uk": "Зупинка перед постом поліції"
+    },
+    {
+      "fr": "Arrêt au poste de péage",
+      "uk": "Зупинка перед пунктом оплати"
+    },
+    {
+      "fr": "Arrêt et stationnement interdits",
+      "uk": "Зупинка і стоянка заборонені"
+    },
+    {
+      "fr": "Arrêt à l'intersection",
+      "uk": "STOP: повна зупинка й дати дорогу"
+    },
+    {
+      "fr": "Arrêt à l'intersection à distance indiquée",
+      "uk": "Попередження про STOP попереду"
+    },
+    {
+      "fr": "Autre interdiction dont la nature est indiquée",
+      "uk": "Інша заборона, зазначена написом або символом"
+    },
+    {
+      "fr": "Autres dangers",
+      "uk": "Інша небезпека, не показана окремим символом"
+    },
+    {
+      "fr": "Carrefour à sens giratoire",
+      "uk": "Круговий рух із обов'язком поступитися на в'їзді"
+    },
+    {
+      "fr": "Cassis ou dos-d'âne",
+      "uk": "Різка нерівність дороги"
+    },
+    {
+      "fr": "Chaussée particulièrement glissante",
+      "uk": "Слизька дорога"
+    },
+    {
+      "fr": "Chaussée rétrécie",
+      "uk": "Дорога звужується з обох боків"
+    },
+    {
+      "fr": "Chaussée rétrécie par la droite",
+      "uk": "Дорога звужується праворуч"
+    },
+    {
+      "fr": "Chaussée rétrécie par la gauche",
+      "uk": "Дорога звужується ліворуч"
+    },
+    {
+      "fr": "Chaînes à neige obligatoires",
+      "uk": "Ланцюги протиковзання обов'язкові"
+    },
+    {
+      "fr": "Chemin obligatoire pour cavaliers",
+      "uk": "Обов'язковий шлях для вершників"
+    },
+    {
+      "fr": "Chemin obligatoire pour piétons",
+      "uk": "Обов'язкова доріжка для пішоходів"
+    },
+    {
+      "fr": "Circulation dans les deux sens",
+      "uk": "Починається двосторонній рух"
+    },
+    {
+      "fr": "Circulation interdite à tout véhicule dans les deux sens",
+      "uk": "Рух усіх транспортних засобів заборонено в обох напрямках"
+    },
+    {
+      "fr": "Circulation à sens unique",
+      "uk": "Односторонній рух"
+    },
+    {
+      "fr": "Conditions particulières de circulation par voie",
+      "uk": "Особливі правила руху за смугами"
+    },
+    {
+      "fr": "Contournement obligatoire par la droite",
+      "uk": "Об'їзд перешкоди праворуч"
+    },
+    {
+      "fr": "Contournement obligatoire par la gauche",
+      "uk": "Об'їзд перешкоди ліворуч"
+    },
+    {
+      "fr": "Cédez le passage à l'intersection",
+      "uk": "Дати дорогу"
+    },
+    {
+      "fr": "Cédez le passage à l'intersection à distance indiquée",
+      "uk": "Попередження про «Дати дорогу» попереду"
+    },
+    {
+      "fr": "Cédez le passage à la circulation venant en sens inverse",
+      "uk": "Дати дорогу зустрічному транспорту"
+    },
+    {
+      "fr": "Descente dangereuse",
+      "uk": "Небезпечний спуск"
+    },
+    {
+      "fr": "Direction obligatoire tout droit",
+      "uk": "Рух лише прямо"
+    },
+    {
+      "fr": "Direction obligatoire à droite à la prochaine intersection",
+      "uk": "Обов'язковий поворот праворуч"
+    },
+    {
+      "fr": "Direction obligatoire à gauche à la prochaine intersection",
+      "uk": "Обов'язковий поворот ліворуч"
+    },
+    {
+      "fr": "Direction obligatoire à la prochaine intersection : à droite",
+      "uk": "На найближчому перехресті рух лише праворуч"
+    },
+    {
+      "fr": "Direction obligatoire à la prochaine intersection : à gauche",
+      "uk": "На найближчому перехресті рух лише ліворуч"
+    },
+    {
+      "fr": "Directions obligatoires à la prochaine intersection : tout droit ou à droite",
+      "uk": "На найближчому перехресті рух лише прямо або праворуч"
+    },
+    {
+      "fr": "Directions obligatoires à la prochaine intersection : à droite ou à gauche",
+      "uk": "На найближчому перехресті рух лише праворуч або ліворуч"
+    },
+    {
+      "fr": "Débouché de cyclistes",
+      "uk": "Можливий виїзд велосипедистів"
+    },
+    {
+      "fr": "Débouché sur un quai ou une berge",
+      "uk": "Виїзд на набережну або берег"
+    },
+    {
+      "fr": "Endroit fréquenté par les enfants",
+      "uk": "Ділянка, де на дорозі можуть з'явитися діти"
+    },
+    {
+      "fr": "Entrée d'une aire piétonne",
+      "uk": "В'їзд у пішохідну зону"
+    },
+    {
+      "fr": "Entrée d'une zone de rencontre",
+      "uk": "В'їзд у житлово-пішохідну зону rencontre"
+    },
+    {
+      "fr": "Entrée d'une zone à stationnement interdit",
+      "uk": "В'їзд у зону забороненої стоянки"
+    },
+    {
+      "fr": "Entrée d'une zone à vitesse limitée à 30 km/h",
+      "uk": "В'їзд у зону 30 км/год"
+    },
+    {
+      "fr": "Fin d'interdiction de dépasser",
+      "uk": "Кінець заборони обгону"
+    },
+    {
+      "fr": "Fin d'interdiction de dépasser pour les véhicules de transport de marchandises",
+      "uk": "Кінець заборони обгону для вантажного транспорту"
+    },
+    {
+      "fr": "Fin d'interdiction de signaux sonores",
+      "uk": "Кінець заборони звукових сигналів"
+    },
+    {
+      "fr": "Fin de limitation de vitesse à 30 km/h",
+      "uk": "Кінець обмеження 30 км/год"
+    },
+    {
+      "fr": "Fin de limitation de vitesse à 50 km/h",
+      "uk": "Кінець обмеження 50 км/год"
+    },
+    {
+      "fr": "Fin de limitation de vitesse à 70 km/h",
+      "uk": "Кінець обмеження 70 км/год"
+    },
+    {
+      "fr": "Fin de limitation de vitesse à 90 km/h",
+      "uk": "Кінець обмеження 90 км/год"
+    },
+    {
+      "fr": "Fin de route à accès réglementé",
+      "uk": "Кінець дороги для автомобілів із спеціальним режимом"
+    },
+    {
+      "fr": "Fin de toutes les interdictions précédemment signalées",
+      "uk": "Кінець усіх раніше встановлених заборон для рухомих транспортних засобів"
+    },
+    {
+      "fr": "Fin du caractère prioritaire d'une route",
+      "uk": "Кінець головної дороги"
+    },
+    {
+      "fr": "Impasse",
+      "uk": "Тупик"
+    },
+    {
+      "fr": "Indication du caractère prioritaire d'une route",
+      "uk": "Головна дорога"
+    },
+    {
+      "fr": "Installations accessibles aux personnes handicapées",
+      "uk": "Об'єкт доступний для людей з інвалідністю"
+    },
+    {
+      "fr": "Interdiction aux véhicules de transport de marchandises de dépasser",
+      "uk": "Вантажним транспортним засобам обгін заборонено"
+    },
+    {
+      "fr": "Interdiction de dépasser",
+      "uk": "Обгін моторних транспортних засобів заборонено"
+    },
+    {
+      "fr": "Interdiction de faire demi-tour",
+      "uk": "Розворот заборонено"
+    },
+    {
+      "fr": "Interdiction de maintenir un intervalle inférieur à 70 mètres",
+      "uk": "Мінімальна дистанція 70 метрів"
+    },
+    {
+      "fr": "Interdiction de signaux sonores",
+      "uk": "Звуковий сигнал заборонено"
+    },
+    {
+      "fr": "Interdiction de tourner à droite à la prochaine intersection",
+      "uk": "Поворот праворуч на найближчому перехресті заборонено"
+    },
+    {
+      "fr": "Interdiction de tourner à gauche à la prochaine intersection",
+      "uk": "Поворот ліворуч на найближчому перехресті заборонено"
+    },
+    {
+      "fr": "Intersection avec une route dont les usagers doivent céder le passage",
+      "uk": "Ви маєте пріоритет на найближчому перехресті"
+    },
+    {
+      "fr": "Intersection où la priorité à droite est applicable",
+      "uk": "Перехрестя з правилом «перешкода праворуч»"
+    },
+    {
+      "fr": "Limitation de vitesse à 110 km/h",
+      "uk": "Максимальна швидкість 110 км/год"
+    },
+    {
+      "fr": "Limitation de vitesse à 130 km/h",
+      "uk": "Максимальна швидкість 130 км/год"
+    },
+    {
+      "fr": "Limitation de vitesse à 30 km/h",
+      "uk": "Максимальна швидкість 30 км/год"
+    },
+    {
+      "fr": "Limitation de vitesse à 50 km/h",
+      "uk": "Максимальна швидкість 50 км/год"
+    },
+    {
+      "fr": "Limitation de vitesse à 70 km/h",
+      "uk": "Максимальна швидкість 70 км/год"
+    },
+    {
+      "fr": "Limitation de vitesse à 90 km/h",
+      "uk": "Максимальна швидкість 90 км/год"
+    },
+    {
+      "fr": "Parc de stationnement",
+      "uk": "Місце для стоянки"
+    },
+    {
+      "fr": "Parc de stationnement payant",
+      "uk": "Платна стоянка"
+    },
+    {
+      "fr": "Parc de stationnement à durée limitée avec contrôle par disque",
+      "uk": "Стоянка з обмеженням часу та паркувальним диском"
+    },
+    {
+      "fr": "Passage d'animaux domestiques",
+      "uk": "Можлива поява свійських тварин"
+    },
+    {
+      "fr": "Passage d'animaux sauvages",
+      "uk": "Можлива поява диких тварин"
+    },
+    {
+      "fr": "Passage de cavaliers",
+      "uk": "Можлива поява вершників"
+    },
+    {
+      "fr": "Passage pour piétons",
+      "uk": "Місце пішохідного переходу"
+    },
+    {
+      "fr": "Passage pour piétons",
+      "uk": "Попереду пішохідний перехід"
+    },
+    {
+      "fr": "Piste ou bande obligatoire pour les cycles",
+      "uk": "Обов'язкова велосипедна доріжка або смуга"
+    },
+    {
+      "fr": "Pont mobile",
+      "uk": "Розвідний міст"
+    },
+    {
+      "fr": "Poste d'appel d'urgence",
+      "uk": "Пункт екстреного виклику"
+    },
+    {
+      "fr": "Poste de distribution de carburant",
+      "uk": "Автозаправна станція"
+    },
+    {
+      "fr": "Poste de secours",
+      "uk": "Пункт першої допомоги"
+    },
+    {
+      "fr": "Présignalisation d'une impasse",
+      "uk": "Попередження про тупик"
+    },
+    {
+      "fr": "Ralentisseur de type dos-d'âne",
+      "uk": "Місце розташування штучної нерівності"
+    },
+    {
+      "fr": "Ralentisseur de type dos-d'âne",
+      "uk": "Штучна дорожня нерівність"
+    },
+    {
+      "fr": "Restaurant",
+      "uk": "Ресторан"
+    },
+    {
+      "fr": "Risque d'incendie",
+      "uk": "Зона підвищеної пожежної небезпеки"
+    },
+    {
+      "fr": "Risque de chutes de pierres",
+      "uk": "Можливе падіння каміння"
+    },
+    {
+      "fr": "Route à accès réglementé",
+      "uk": "Початок дороги для автомобілів із спеціальним режимом доступу"
+    },
+    {
+      "fr": "Sens interdit à tout véhicule",
+      "uk": "В'їзд у цьому напрямку заборонено"
+    },
+    {
+      "fr": "Sortie d'une aire piétonne",
+      "uk": "Виїзд із пішохідної зони"
+    },
+    {
+      "fr": "Sortie d'une zone de rencontre",
+      "uk": "Виїзд із зони rencontre"
+    },
+    {
+      "fr": "Sortie d'une zone de stationnement interdit",
+      "uk": "Виїзд із зони забороненої стоянки"
+    },
+    {
+      "fr": "Sortie d'une zone à vitesse limitée à 30 km/h",
+      "uk": "Кінець зони 30 км/год"
+    },
+    {
+      "fr": "Station de taxis",
+      "uk": "Стоянка таксі"
+    },
+    {
+      "fr": "Stationnement interdit",
+      "uk": "Стоянка заборонена"
+    },
+    {
+      "fr": "Stationnement interdit du 16 à la fin du mois",
+      "uk": "Стоянка заборонена з 16-го до кінця місяця"
+    },
+    {
+      "fr": "Stationnement interdit du 1er au 15 du mois",
+      "uk": "Стоянка заборонена з 1-го до 15-го числа"
+    },
+    {
+      "fr": "Stationnement réglementé pour les caravanes et autocaravanes",
+      "uk": "Регульована стоянка для караванів і автодомів"
+    },
+    {
+      "fr": "Succession de virages, premier à droite",
+      "uk": "Серія поворотів, перший праворуч"
+    },
+    {
+      "fr": "Succession de virages, premier à gauche",
+      "uk": "Серія поворотів, перший ліворуч"
+    },
+    {
+      "fr": "Traversée d'une aire de danger aérien",
+      "uk": "Низьколітні літаки або інша повітряна небезпека"
+    },
+    {
+      "fr": "Vent latéral",
+      "uk": "Сильний боковий вітер"
+    },
+    {
+      "fr": "Virage à droite",
+      "uk": "Небезпечний поворот праворуч"
+    },
+    {
+      "fr": "Virage à gauche",
+      "uk": "Небезпечний поворот ліворуч"
+    },
+    {
+      "fr": "Vitesse conseillée à 30 km/h",
+      "uk": "Рекомендована швидкість 30 км/год"
+    },
+    {
+      "fr": "Vitesse minimale obligatoire de 30 km/h",
+      "uk": "Мінімальна обов'язкова швидкість 30 км/год"
+    },
+    {
+      "fr": "Vitesse minimale obligatoire de 50 km/h",
+      "uk": "Мінімальна обов'язкова швидкість 50 км/год"
+    },
+    {
+      "fr": "Voie réservée aux transports en commun",
+      "uk": "Смуга, обов'язкова для громадського транспорту"
+    }
+  ]
+}

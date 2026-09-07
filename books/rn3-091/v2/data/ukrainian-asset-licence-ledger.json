@@ -1,0 +1,12 @@
+{
+  "schema_version": "rn3-091-ua-asset-rights/v1",
+  "status": "PASS_FOR_PROTOTYPE_REDRAWS",
+  "checked_at": "2026-09-06",
+  "source": "Verkhovna Rada of Ukraine legislation portal",
+  "source_url": "https://zakon.rada.gov.ua/go/1306-2001-%D0%BF",
+  "rights_notice": "The portal states that all content is available under CC BY 4.0 unless otherwise indicated.",
+  "use_model": "Prototype Ukrainian comparators are original deterministic vector redraws limited to normative shapes, colors, numbers and words. Attribute the official rule source and CC BY 4.0 portal notice; do not use driving-school or commercial artwork.",
+  "full_production_gate": "Recheck the portal notice, the current legal text and every separately sourced asset before full V2 production.",
+  "assets": ["UA-2.1-redraw","UA-2.2-redraw","UA-3.29-redraw"],
+  "excluded": ["third-party driving-school graphics","Wikipedia artwork","unlicensed search-result images"]
+}

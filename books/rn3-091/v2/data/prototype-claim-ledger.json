@@ -1,0 +1,16 @@
+{
+  "schema_version": "rn3-091-v2-claim-ledger/v1",
+  "checked_at": "2026-09-06",
+  "claims": [
+    {"id":"FR-R415-6","claim":"At a French STOP-controlled intersection, the driver must stop at the edge of the approached carriageway, then yield and enter only when safe.","source":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842245","status":"VERIFIED","volatility":"LOW"},
+    {"id":"FR-R413-2","claim":"French national default speed limits include 130 motorway, 110 divided carriageway and 80 other roads; rain reductions apply.","source":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042240048","status":"VERIFIED","volatility":"MEDIUM"},
+    {"id":"FR-RADAR-2025","claim":"For fixed radars, retained speed deducts 5 km/h below 100 km/h or 5 percent above 100 km/h; the correction is larger for specified mobile systems.","source":"https://validation.securite-routiere.gouv.fr/sites/default/files/2025-05/brochure_radars_print.pdf","status":"VERIFIED","volatility":"HIGH"},
+    {"id":"UA-KUPAP-122","claim":"Article 122 establishes administrative liability for exceeding the speed limit by more than 20 km/h, with a higher tier above 50 km/h.","source":"https://zakon.rada.gov.ua/go/8073-10","status":"VERIFIED","volatility":"HIGH"},
+    {"id":"UA-PDR-3.29","claim":"Ukrainian sign 3.29 prohibits driving faster than the value shown.","source":"https://zakon.rada.gov.ua/go/1306-2001-%D0%BF","status":"VERIFIED","volatility":"MEDIUM"},
+    {"id":"FR-R415-5","claim":"At an otherwise uncontrolled French intersection, the driver arriving from the left must yield to the driver arriving from the right.","source":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842244","status":"VERIFIED","volatility":"LOW"},
+    {"id":"UA-PDR-16.12","claim":"At an uncontrolled intersection of roads of equal priority in Ukraine, a driver yields to vehicles approaching from the right, subject to stated exceptions.","source":"https://zakon.rada.gov.ua/go/1306-2001-%D0%BF","status":"VERIFIED","volatility":"LOW"},
+    {"id":"FR-R110-2","claim":"A French zone de rencontre has a 20 km/h limit and pedestrians may use the carriageway with priority over vehicles; cycle directions follow the statutory default subject to local decisions.","source":"https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045650507","status":"VERIFIED","volatility":"MEDIUM"},
+    {"id":"UA-PDR-5.34","claim":"Ukraine identifies a residential zone with sign 5.34 and section 26 governs the zone.","source":"https://zakon.rada.gov.ua/go/1306-2001-%D0%BF","status":"VERIFIED","volatility":"MEDIUM"}
+  ],
+  "prepublication_refresh_required":["FR-RADAR-2025","UA-KUPAP-122","FR-R413-2","FR-R110-2","UA-PDR-3.29","UA-PDR-5.34"]
+}

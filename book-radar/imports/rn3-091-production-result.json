@@ -1,0 +1,51 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [],
+  "opportunities": [],
+  "scores": [],
+  "products": [],
+  "portfolio_products": [],
+  "launches": [],
+  "actuals": [],
+  "calibrations": [],
+  "similarity_results": [],
+  "evidence": [
+    {
+      "id": "evidence:RN3-091:autonomous-production",
+      "opportunity_id": "RN3-091",
+      "observed_at": "2026-09-06",
+      "summary": "Autonomous production completed as a 124-page standard-color paperback and semantic EPUB with 127 official Cerema sign assets and a source-linked bilingual inventory.",
+      "details": {
+        "production_started": "2026-09-06",
+        "production_ended": "2026-09-06",
+        "status": "KDP_READY_AWAITING_HUMAN_GATES",
+        "language": "Ukrainian with essential French terminology",
+        "marketplace": "Amazon.fr",
+        "pages": 124,
+        "word_count": 2682,
+        "sign_entries": 127,
+        "official_licensed_assets": 127,
+        "formats": ["8.5x11 standard-color paperback PDF", "reflowable EPUB 3"],
+        "interior_decision": "COLOR_REQUIRED_FOR_SIGN_RECOGNITION",
+        "independent_release_verification": "PASS",
+        "actual_anton_subject_matter_hours": 0,
+        "estimated_anton_hours_remaining_pre_upload": 0.75,
+        "planned_prices_eur": {"paperback": 22.9, "kindle": 7.99},
+        "blockers": ["Legifrance anti-bot response blocked local HTML archival; current consolidated content was verified live and URL/version metadata were retained."],
+        "rework_causes": ["Corrected B21 arrow-family designations during independent legal-source reconciliation.", "Removed a non-embedded default PDF font and moved to an even 124-page interior."],
+        "contract_deviations": ["Final word count is below the indicative range because the finished product is a sign-dominant atlas; useful visual coverage was preserved without prose padding."]
+      },
+      "source_ref": "books/rn3-091/production/production-manifest.json"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN3-091:kdp-ready",
+      "opportunity_id": "RN3-091",
+      "decision": "kdp_ready_awaiting_human_gates",
+      "reason": "Source, rights, 127-entry crosswalk, bilingual, visual, print and EPUB gates passed; only cover selection, KDP upload/Previewer and final commercial confirmation remain human gates.",
+      "decided_at": "2026-09-06",
+      "production_authorized": true
+    }
+  ]
+}

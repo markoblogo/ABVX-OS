@@ -1,0 +1,10 @@
+{
+  "fixture_id": "product-quality-rn3-091-v1",
+  "classification": "PRODUCT_QUALITY_FALSE_POSITIVE",
+  "technical_status": "PASS",
+  "factual_status": "PASS",
+  "package_status": "PASS",
+  "product_quality_status": "FAIL",
+  "reason": "Most ordinary pages isolate one small sign entry despite an obvious grouping opportunity and provide too little comparison or editorial enrichment for the target reader.",
+  "regression_expectation": "Technical and factual passes must never imply product-quality pass."
+}

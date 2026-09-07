@@ -2266,6 +2266,28 @@
       "opportunity_id": "RN3-091",
       "production_authorized": true,
       "reason": "Observable Ukrainian-language newcomer traction, a distinct visual vocabulary paid layer, authoritative French sources and deterministic bilingual QA support autonomous production."
+    },
+    {
+      "decided_at": "2026-09-06",
+      "decision": "kdp_ready_awaiting_human_gates",
+      "id": "decision:RN3-091:kdp-ready",
+      "opportunity_id": "RN3-091",
+      "production_authorized": true,
+      "reason": "Source, rights, 127-entry crosswalk, bilingual, visual, print and EPUB gates passed; only cover selection, KDP upload/Previewer and final commercial confirmation remain human gates."
+    },
+    {
+      "decided_at": "2026-09-06",
+      "decision": "PRODUCT_QUALITY_FALSE_POSITIVE",
+      "id": "decision:RN3-091:v1-product-quality-fail",
+      "opportunity_id": "RN3-091",
+      "reason": "Factual, technical and package QA did not establish commercial product quality."
+    },
+    {
+      "decided_at": "2026-09-06",
+      "decision": "PROTOTYPE_AWAITING_HUMAN_PRODUCT_GATE",
+      "id": "decision:RN3-091:v2-prototype-gate",
+      "opportunity_id": "RN3-091",
+      "reason": "The 14-page V2 prototype passed source, technical and product-quality QA; full production remains blocked pending the single user-perspective gate."
     }
   ],
   "evidence": [
@@ -5899,6 +5921,69 @@
       "opportunity_id": "RN3-180",
       "source_ref": "book-radar/runs/rn3/evidence-ledger.json",
       "summary": "Broad-screen hypothesis; rejected before costly evidence collection"
+    },
+    {
+      "details": {
+        "actual_anton_subject_matter_hours": 0,
+        "blockers": [
+          "Legifrance anti-bot response blocked local HTML archival; current consolidated content was verified live and URL/version metadata were retained."
+        ],
+        "contract_deviations": [
+          "Final word count is below the indicative range because the finished product is a sign-dominant atlas; useful visual coverage was preserved without prose padding."
+        ],
+        "estimated_anton_hours_remaining_pre_upload": 0.75,
+        "formats": [
+          "8.5x11 standard-color paperback PDF",
+          "reflowable EPUB 3"
+        ],
+        "independent_release_verification": "PASS",
+        "interior_decision": "COLOR_REQUIRED_FOR_SIGN_RECOGNITION",
+        "language": "Ukrainian with essential French terminology",
+        "marketplace": "Amazon.fr",
+        "official_licensed_assets": 127,
+        "pages": 124,
+        "planned_prices_eur": {
+          "kindle": 7.99,
+          "paperback": 22.9
+        },
+        "production_ended": "2026-09-06",
+        "production_started": "2026-09-06",
+        "rework_causes": [
+          "Corrected B21 arrow-family designations during independent legal-source reconciliation.",
+          "Removed a non-embedded default PDF font and moved to an even 124-page interior."
+        ],
+        "sign_entries": 127,
+        "status": "KDP_READY_AWAITING_HUMAN_GATES",
+        "word_count": 2682
+      },
+      "id": "evidence:RN3-091:autonomous-production",
+      "observed_at": "2026-09-06",
+      "opportunity_id": "RN3-091",
+      "source_ref": "books/rn3-091/production/production-manifest.json",
+      "summary": "Autonomous production completed as a 124-page standard-color paperback and semantic EPUB with 127 official Cerema sign assets and a source-linked bilingual inventory."
+    },
+    {
+      "data": {
+        "classification": "PRODUCT_QUALITY_FALSE_POSITIVE",
+        "fixture": "book-radar/quality-fixtures/product-quality-rn3-091-v1.json",
+        "v1_preserved": true
+      },
+      "id": "evidence:RN3-091:v1-product-quality-false-positive",
+      "kind": "product_quality_audit",
+      "observed_at": "2026-09-06",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "artifact": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-prototype.pdf",
+        "human_gate": "PENDING",
+        "pages": 14,
+        "product_quality": "PASS"
+      },
+      "id": "evidence:RN3-091:v2-prototype",
+      "kind": "prototype",
+      "observed_at": "2026-09-06",
+      "opportunity_id": "RN3-091"
     }
   ],
   "launches": [
