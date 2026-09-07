@@ -1,0 +1,22 @@
+{
+  "observed_at": "2026-09-07",
+  "method": "Buyer, JTBD, trigger, promise, format, information architecture, search intent, audience and differentiation; title similarity excluded.",
+  "portfolio_checked": [
+    "THE HUMAN BACKUP PLAN",
+    "Project Management Certification in 2026",
+    "Ham Radio Technician Visual Cram Map 2026-2030",
+    "French road rules/signs FR-UA transition guide",
+    "Toki Pona project",
+    "Burgers, Lipstick & Underwear",
+    "Your SaaS Bill Is Ridiculous",
+    "Fragments from a Therapist's Notebook"
+  ],
+  "result": "All 18 deep-scan candidates were NOVEL or low-overlap ADJACENT. None was blocked as an existing-product match, repackage candidate or cannibalization risk.",
+  "highest_overlap": {
+    "opportunity_id": "RN4-123",
+    "score": 31,
+    "classification": "NOVEL",
+    "evidence": "Shares migrant-language utility and Amazon.fr with RN3, but the buyer job is school communication rather than driving-system transfer."
+  },
+  "note": "Only Human Backup Plan is currently represented in the persistent portfolio_products collection. The remaining known books were checked in this run artifact so the gate used the complete known portfolio without silently inventing catalog records."
+}

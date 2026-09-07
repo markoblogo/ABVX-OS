@@ -1,0 +1,54 @@
+{
+  "observed_at": "2026-09-07",
+  "method": "Direct Amazon result-page inspection plus current primary sources for regulated finalists. Search-result counts and visible ratings are snapshots, not unit-sales data.",
+  "sources": [
+    {
+      "id": "amazon-com-wedding-speech-workbook",
+      "type": "Amazon live search",
+      "url": "https://www.amazon.com/s?k=wedding+speech+workbook",
+      "evidence": "78 results. First page contained at least five books dated Aug 24-Sep 3 2026 with no visible ratings. Older manuals showed 33, 46 and 54 ratings. Visible paperback prices were mostly about EUR7.73-EUR17.20 when delivered to France."
+    },
+    {
+      "id": "amazon-fr-carnet-suivi-chantier",
+      "type": "Amazon live search",
+      "url": "https://www.amazon.fr/s?k=carnet+suivi+chantier+r%C3%A9novation",
+      "evidence": "61 results. Most visible books were EUR5.99-EUR12.16 and had zero to nine ratings; many near-duplicate journals were present. This weakens the earlier RN3 price-power thesis."
+    },
+    {
+      "id": "amazon-com-vsme",
+      "type": "Amazon live search",
+      "url": "https://www.amazon.com/s?k=VSME+sustainability+reporting+workbook",
+      "evidence": "12 broad sustainability-reporting results, but no clearly exact VSME workbook. A 2024 practical reporting title showed 12 ratings; a June 2026 CSRD/ESRS title had no visible rating."
+    },
+    {
+      "id": "ec-2026-voluntary-standard",
+      "type": "European Commission primary source",
+      "url": "https://finance.ec.europa.eu/news/commission-adopts-revised-sustainability-reporting-standards-reduce-administrative-burdens-eu-2026-07-03_en",
+      "evidence": "On July 3, 2026 the Commission adopted revised ESRS and a voluntary reporting standard for smaller companies, making pre-July VSME packaging unusually volatile."
+    },
+    {
+      "id": "ec-2025-vsme-recommendation",
+      "type": "European Commission primary source",
+      "url": "https://finance.ec.europa.eu/publications/commission-presents-voluntary-sustainability-reporting-standard-ease-burden-smes_en",
+      "evidence": "The July 30, 2025 recommendation framed VSME as a way for SMEs to answer sustainability requests from large companies and financial institutions."
+    },
+    {
+      "id": "efrag-vsme-hub",
+      "type": "EFRAG primary source",
+      "url": "https://www.efrag.org/en/smes-and-sustainability-reporting",
+      "evidence": "EFRAG provides free standards, educational videos and digital-template support, increasing free-alternative pressure."
+    },
+    {
+      "id": "eulogy-workbook-author-source",
+      "type": "Author/publisher interview",
+      "url": "https://music.amazon.com/podcasts/d80f4408-8fe5-4980-9c7a-00aba6596e84/begin---derbyshire-writing-school-podcast",
+      "evidence": "A 2023 professional eulogy writer marketed a 169-page A4 workbook at GBP9.99 with sixteen worksheets. This demonstrates a concrete incumbent architecture, not current sales traction."
+    }
+  ],
+  "limitations": [
+    "Amazon did not expose BSR on inspected search pages; no BSR was inferred.",
+    "Ratings and result counts can change and do not prove sales.",
+    "Most broad candidates deliberately received only cheap screening evidence.",
+    "No candidate was authorized on inference alone."
+  ]
+}

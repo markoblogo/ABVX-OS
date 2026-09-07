@@ -1,0 +1,806 @@
+{
+  "broad_rejections": [
+    {
+      "opportunity_id": "RN4-002",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-003",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-004",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-005",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-007",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-008",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-009",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-010",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-012",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-013",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-014",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-015",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-016",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-018",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-019",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-020",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-021",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-023",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-024",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-025",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-026",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-028",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-029",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-030",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-031",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-032",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-034",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-035",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-036",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-037",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-038",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-039",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-040",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-041",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-042",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-043",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-044",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-045",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-046",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-047",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-048",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-050",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-051",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-052",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-053",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-054",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-055",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-056",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-057",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-058",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-059",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-060",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-061",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-062",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-063",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-064",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-065",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-066",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-067",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-068",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-069",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-071",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-072",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-073",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-074",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-075",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-076",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-077",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-078",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-079",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-081",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-082",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-083",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-084",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-085",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-086",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-087",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-088",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-089",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-090",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-091",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-092",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-093",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-094",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-095",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-098",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-099",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-100",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-101",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-103",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-104",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-105",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-106",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-108",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-109",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-110",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-111",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-112",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-113",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-114",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-115",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-116",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-117",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-118",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-119",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-120",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-121",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-122",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-124",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-125",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-126",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-127",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-129",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-130",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-131",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-132",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-133",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-134",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-135",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-136",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-137",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-138",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-139",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-140",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-141",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-142",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-143",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-144",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-145",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-146",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-147",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-148",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-149",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-150",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-151",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-152",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-153",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-154",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-156",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-157",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-158",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-159",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-160",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-161",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-162",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-163",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-164",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-165",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-166",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-167",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-168",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-169",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-170",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-171",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-172",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-173",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-174",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-175",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-176",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-177",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-178",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-179",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-180",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-181",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-183",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-184",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-185",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-186",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-187",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-188",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-189",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-190",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-191",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-192",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-193",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-194",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-195",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-196",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-197",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-198",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-199",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    },
+    {
+      "opportunity_id": "RN4-200",
+      "reason": "Rejected at broad screen: weaker evidence, differentiation, safety/rights fit, or execution economics than the diversified cutoff."
+    }
+  ],
+  "deep_gate_exclusions": [
+    {
+      "opportunity_id": "RN4-001",
+      "reason": "copycat surge and no observed newcomer traction"
+    },
+    {
+      "opportunity_id": "RN4-006",
+      "reason": "author trust and grief sensitivity; evidence too weak"
+    },
+    {
+      "opportunity_id": "RN4-011",
+      "reason": "low-content clutter and degraded price power"
+    },
+    {
+      "opportunity_id": "RN4-017",
+      "reason": "high expert and illustration dependency"
+    },
+    {
+      "opportunity_id": "RN4-022",
+      "reason": "specialist accuracy and free calculator pressure"
+    },
+    {
+      "opportunity_id": "RN4-027",
+      "reason": "logbook commoditization"
+    },
+    {
+      "opportunity_id": "RN4-033",
+      "reason": "review moat and gift packaging dependence"
+    },
+    {
+      "opportunity_id": "RN4-049",
+      "reason": "legal-boundary and privacy risk"
+    },
+    {
+      "opportunity_id": "RN4-070",
+      "reason": "weak paid book value layer"
+    },
+    {
+      "opportunity_id": "RN4-080",
+      "reason": "generic differentiation"
+    },
+    {
+      "opportunity_id": "RN4-096",
+      "reason": "rapid standards volatility and buyer-channel mismatch"
+    },
+    {
+      "opportunity_id": "RN4-097",
+      "reason": "legal/compliance exposure and free web tools"
+    },
+    {
+      "opportunity_id": "RN4-102",
+      "reason": "platform/legal volatility; specialist audit needed"
+    },
+    {
+      "opportunity_id": "RN4-107",
+      "reason": "short shelf life and legal framing risk"
+    },
+    {
+      "opportunity_id": "RN4-123",
+      "reason": "translation apps create severe free pressure"
+    },
+    {
+      "opportunity_id": "RN4-128",
+      "reason": "safety language and buyer-channel mismatch"
+    },
+    {
+      "opportunity_id": "RN4-155",
+      "reason": "accessibility claims require specialist validation"
+    },
+    {
+      "opportunity_id": "RN4-182",
+      "reason": "asset-heavy product quality risk"
+    }
+  ]
+}

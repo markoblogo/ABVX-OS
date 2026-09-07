@@ -1,0 +1,36 @@
+{
+  "outcomes": [
+    {
+      "opportunity_id": "RN4-001",
+      "outcome": "BLOCKED",
+      "blocking_evidence": "copycat surge and no observed newcomer traction",
+      "production_authorized": false
+    },
+    {
+      "opportunity_id": "RN4-006",
+      "outcome": "BLOCKED",
+      "blocking_evidence": "author trust and grief sensitivity; evidence too weak",
+      "production_authorized": false
+    },
+    {
+      "opportunity_id": "RN4-011",
+      "outcome": "BLOCKED",
+      "blocking_evidence": "low-content clutter and degraded price power",
+      "production_authorized": false
+    },
+    {
+      "opportunity_id": "RN4-096",
+      "outcome": "BLOCKED",
+      "blocking_evidence": "rapid standards volatility and buyer-channel mismatch",
+      "production_authorized": false
+    },
+    {
+      "opportunity_id": "RN4-182",
+      "outcome": "BLOCKED",
+      "blocking_evidence": "asset-heavy product quality risk",
+      "production_authorized": false
+    }
+  ],
+  "final_decision": "NO_PRODUCT",
+  "production_started": false
+}
