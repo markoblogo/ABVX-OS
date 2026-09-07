@@ -1,0 +1,58 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "products": [
+    {
+      "id": "product:RN5-001",
+      "opportunity_id": "RN5-001",
+      "title": "Solar Proposal Decoder",
+      "author": "Casey Rowan",
+      "status": "PACKAGING",
+      "status_note": "KDP-ready 57-page PDF interior (58 pages after KDP rounding); content, layout, QA and commercial package frozen. Awaiting human cover selection, live KDP template, upload and Print Previewer.",
+      "primary_format": "PAPERBACK",
+      "formats": [
+        {"format":"PAPERBACK","eligibility":"SUPPORTED","commercial_role":"PRIMARY","production_status":"KDP_READY_AWAITING_HUMAN_COVER_UPLOAD"},
+        {"format":"KINDLE","eligibility":"SUPPORTED","commercial_role":"NOT_COMMERCIALLY_JUSTIFIED","production_status":"NOT_PRODUCED"}
+      ],
+      "content_version": "RN5-001-v1.0",
+      "paperback_pdf_pages": 57,
+      "kdp_rounded_page_count": 58,
+      "word_count": 8311,
+      "paperback_price_usd": 16.99,
+      "printing_cost_usd": 2.84,
+      "estimated_royalty_usd": 7.35,
+      "anton_involvement": {"subject_matter_hours":0,"full_production_hours":0,"human_gate_and_future_upload_time":"not instrumented","prior_estimate_total_hours":1.5},
+      "rework": {"human_product_gate_1":"CONDITIONAL_FAIL","prototype_2":"PASS","full_production_content_rebuilds":0,"full_production_qa_correction_cycles":1},
+      "production_learnings": ["A decoder-first reference can carry paid value while the write-in packet remains an execution layer.","One three-proposal packet was sufficient; duplicating blank packets would have padded the product.","The write-in matrices make Kindle technically supported but commercially unjustified.","Large-trim black-ink economics are favorable below the 110-page fixed-cost threshold."]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence:RN5-001:full-production-v1",
+      "opportunity_id": "RN5-001",
+      "kind": "production_result",
+      "observed_at": "2026-09-07",
+      "summary": "Full decoder-first manuscript, paperback production master, write-in packet, source/claim/volatility ledgers, visual QA sheets and final commercial package completed.",
+      "details": {"content_version":"RN5-001-v1.0","pdf_pages":57,"kdp_rounded_page_count":58,"word_count":8311,"source_qa":"PASS","factual_qa":"PASS","editorial_productization":"PASS","editorial_formalism":"PASS","product_quality":"PASS","paperback_preflight":"PASS","kindle":"NOT_JUSTIFIED","commercial_package":"PASS"},
+      "source_ref": "books/rn5-001/production/release-manifest.json"
+    },
+    {
+      "id": "evidence:RN5-001:commercial-refresh-final",
+      "opportunity_id": "RN5-001",
+      "kind": "commercial_refresh",
+      "observed_at": "2026-09-07",
+      "summary": "Exact Amazon query showed no direct homeowner proposal-comparison workbook; adjacent 2026 homeowner solar books showed visible current activity.",
+      "details": {"paperback_price_usd":16.99,"printing_cost_usd":2.84,"estimated_royalty_usd":7.35,"exact_query_direct_matches":0},
+      "source_ref": "books/rn5-001/commercial/amazon-commercial-refresh.json"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN5-001:kdp-ready-human-cover-upload-gate",
+      "opportunity_id": "RN5-001",
+      "decision": "KDP_READY_AWAITING_HUMAN_COVER_UPLOAD_GATE",
+      "decided_at": "2026-09-07",
+      "reason": "The approved paid-value mechanism survives full production; all internal content, factual, editorial, product-quality, format, technical and commercial gates pass. External cover and KDP preview remain human-controlled.",
+      "production_authorized": false
+    }
+  ]
+}

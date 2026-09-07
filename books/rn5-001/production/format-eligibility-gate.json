@@ -1,0 +1,20 @@
+{
+  "schema_version": "rn5-001-format-eligibility/v1",
+  "checked": "2026-09-07",
+  "language": "English",
+  "primary_marketplace": "Amazon.com",
+  "paperback": {
+    "platform_support": "SUPPORTED",
+    "buyer_utility": "HIGH",
+    "commercial_role": "PRIMARY",
+    "decision": "PRODUCED"
+  },
+  "kindle": {
+    "platform_support": "SUPPORTED",
+    "reflowable_utility": "LOW",
+    "commercial_role": "UNCLEAR",
+    "reason": "The core job depends on handwriting, roomy three-way matrices, source-page annotation, and a retained physical decision packet. Reflow strips away the primary execution layer; a prose-only Kindle would be a materially different product.",
+    "decision": "NOT_JUSTIFIED"
+  },
+  "final_secondary_format_decision": "KINDLE_NOT_PRODUCED"
+}

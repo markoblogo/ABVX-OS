@@ -1,0 +1,13 @@
+{
+  "schema_version": "rn5-001-volatility-ledger/v1",
+  "high_volatility": [
+    "federal tax incentives",
+    "state and local incentives",
+    "utility tariffs and export compensation",
+    "net-metering rules",
+    "financing products and rates",
+    "program eligibility"
+  ],
+  "manuscript_policy": "No current numeric advice. Verify directly with responsible authority or provider before reliance.",
+  "prepublication_refresh_required": true
+}

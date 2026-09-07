@@ -1,0 +1,12 @@
+{
+  "schema_version": "rn5-001-factual-source-audit/v1",
+  "status": "PASS",
+  "source_qa": "PASS",
+  "factual_qa": "PASS",
+  "authoritative_sources": 8,
+  "consequential_claims": 11,
+  "unresolved_claims": [],
+  "rights_note": "Facts and independently written explanations are used; no competitor proposal or book text is reproduced. Government source wording is paraphrased except short names and formulas. Synthetic examples are author-created.",
+  "scope_audit": "PASS \u2014 no installer selection, individualized financing/tax/legal/engineering advice, savings promise, or current incentive amount.",
+  "refresh_boundary": "HIGH-volatility incentives, utility rules, financing products/rates and program eligibility are excluded from numeric evergreen advice and routed to responsible current sources."
+}

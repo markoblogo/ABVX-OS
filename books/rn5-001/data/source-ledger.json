@@ -1,0 +1,106 @@
+{
+  "schema_version": "rn5-001-source-ledger/v1",
+  "checked": "2026-09-07",
+  "sources": [
+    {
+      "id": "DOE-INSTALLER",
+      "authority": "U.S. Department of Energy",
+      "title": "Decisions, Decisions: Choosing a Solar Installer",
+      "url": "https://www.energy.gov/cmei/systems/articles/decisions-decisions-choosing-solar-installer",
+      "checked": "2026-09-07",
+      "supports": [
+        "compare several bids",
+        "installer transparency and credentials",
+        "roof questions",
+        "cash cost per watt"
+      ]
+    },
+    {
+      "id": "DOE-HOME",
+      "authority": "U.S. Department of Energy",
+      "title": "Homeowner's Guide to Solar",
+      "url": "https://www.energy.gov/cmei/systems/homeowners-guide-solar",
+      "checked": "2026-09-07",
+      "supports": [
+        "production estimates",
+        "finance-model overview",
+        "current-program refresh warning"
+      ]
+    },
+    {
+      "id": "DOE-BID",
+      "authority": "U.S. Department of Energy",
+      "title": "WAP Solar Bid Request Template",
+      "url": "https://www.energy.gov/sites/default/files/2024-02/wap-solar-bid-request-template_022624.pdf",
+      "checked": "2026-09-07",
+      "supports": [
+        "proposal field anatomy",
+        "system, price, production, scope and warranty fields"
+      ]
+    },
+    {
+      "id": "CFPB-SOLAR",
+      "authority": "Consumer Financial Protection Bureau",
+      "title": "Issue Spotlight: Solar Financing",
+      "url": "https://www.consumerfinance.gov/data-research/research-reports/issue-spotlight-solar-financing/",
+      "checked": "2026-09-07",
+      "supports": [
+        "cash versus financed principal",
+        "fees and markups",
+        "tax-credit assumptions",
+        "expected prepayments",
+        "re-amortization",
+        "uncertain savings"
+      ]
+    },
+    {
+      "id": "FTC-HOME",
+      "authority": "Federal Trade Commission",
+      "title": "Solar Power for Your Home",
+      "url": "https://consumer.ftc.gov/articles/solar-power-your-home",
+      "checked": "2026-09-07",
+      "supports": [
+        "utility fixed charges",
+        "bid comparison",
+        "leases and PPAs",
+        "warranties",
+        "repairs",
+        "transfer and contracts"
+      ]
+    },
+    {
+      "id": "FTC-SCAM",
+      "authority": "Federal Trade Commission",
+      "title": "Solar energy is rising in popularity. So are the scams",
+      "url": "https://consumer.ftc.gov/consumer-alerts/2024/09/solar-energy-rising-popularity-so-are-scams",
+      "checked": "2026-09-07",
+      "supports": [
+        "pressure tactics",
+        "unsupported government/free claims",
+        "review before signing"
+      ]
+    },
+    {
+      "id": "NREL-PVWATTS",
+      "authority": "National Renewable Energy Laboratory",
+      "title": "PVWatts Calculator and technical documentation",
+      "url": "https://pvwatts.nrel.gov/",
+      "checked": "2026-09-07",
+      "supports": [
+        "production estimate purpose",
+        "input and loss categories"
+      ]
+    },
+    {
+      "id": "IRS-REFRESH",
+      "authority": "Internal Revenue Service",
+      "title": "Residential Clean Energy Credit",
+      "url": "https://www.irs.gov/credits-deductions/residential-clean-energy-credit",
+      "checked": "2026-09-07",
+      "supports": [
+        "incentive volatility only"
+      ],
+      "note": "Book states no current percentage or eligibility rule; consumer must verify current personal treatment."
+    }
+  ]
+}

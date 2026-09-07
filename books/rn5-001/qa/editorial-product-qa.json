@@ -1,0 +1,22 @@
+{
+  "schema_version": "rn5-001-editorial-product-qa/v1",
+  "status": "PASS",
+  "gates": {
+    "product_thesis": "PASS",
+    "representative_product": "PASS",
+    "editorial_productization": "PASS",
+    "information_density": "PASS",
+    "typographic_readability": "PASS",
+    "editorial_formalism": "PASS",
+    "repetition": "PASS",
+    "page_purpose": "PASS",
+    "raw_to_product_transformation": "PASS"
+  },
+  "evidence": {
+    "reference_before_forms": true,
+    "forms_not_majority": true,
+    "duplicate_long_paragraphs": 0,
+    "body_size_pt": 10.8,
+    "full_book_contact_sheet": "books/rn5-001/qa/contact-sheets/full-book-contact-sheet.png"
+  }
+}

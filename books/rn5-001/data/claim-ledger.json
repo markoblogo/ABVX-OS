@@ -1,0 +1,105 @@
+{
+  "schema_version": "rn5-001-claim-ledger/v1",
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "DOE recommends comparing quotes and describes cash cost per watt as cost divided by capacity in watts.",
+      "sources": [
+        "DOE-INSTALLER"
+      ],
+      "volatility": "LOW",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "C02",
+      "claim": "CFPB documents solar-specific loan cases where financed principal includes fees or markups above cash price.",
+      "sources": [
+        "CFPB-SOLAR"
+      ],
+      "volatility": "MEDIUM",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "C03",
+      "claim": "Some solar loans can assume a large prepayment and later payment change or re-amortization.",
+      "sources": [
+        "CFPB-SOLAR"
+      ],
+      "volatility": "MEDIUM",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "C04",
+      "claim": "Personal tax benefit is not guaranteed merely because a proposal assumes one.",
+      "sources": [
+        "CFPB-SOLAR",
+        "IRS-REFRESH"
+      ],
+      "volatility": "HIGH",
+      "status": "VERIFIED_WITH_REFRESH_BOUNDARY"
+    },
+    {
+      "id": "C05",
+      "claim": "FTC consumer guidance distinguishes purchase, lease, and PPA structures and advises detailed bid/contract comparison.",
+      "sources": [
+        "FTC-HOME"
+      ],
+      "volatility": "LOW",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "C06",
+      "claim": "Utility fixed charges can remain even when solar reduces purchased kWh.",
+      "sources": [
+        "FTC-HOME"
+      ],
+      "volatility": "HIGH_LOCAL",
+      "status": "VERIFIED_GENERAL_ONLY"
+    },
+    {
+      "id": "C07",
+      "claim": "PVWatts estimates production for grid-connected PV systems and models multiple system-loss categories.",
+      "sources": [
+        "NREL-PVWATTS"
+      ],
+      "volatility": "LOW",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "C08",
+      "claim": "DOE advises asking about roof condition, repairs, damage/leak responsibility, installer transparency and warranty coverage.",
+      "sources": [
+        "DOE-INSTALLER"
+      ],
+      "volatility": "LOW",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "C09",
+      "claim": "A government bid template demonstrates the practical relevance of defined system, production, price, scope and warranty fields.",
+      "sources": [
+        "DOE-BID"
+      ],
+      "volatility": "LOW",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "C10",
+      "claim": "All prices, equipment, companies and worked scenarios in the book are synthetic.",
+      "sources": [],
+      "volatility": "NONE",
+      "status": "AUTHOR_CONTROLLED"
+    },
+    {
+      "id": "C11",
+      "claim": "Federal, state, utility, incentive and financing specifics require refresh rather than evergreen numeric advice.",
+      "sources": [
+        "IRS-REFRESH",
+        "DOE-HOME",
+        "CFPB-SOLAR"
+      ],
+      "volatility": "HIGH",
+      "status": "CONTROLLED_BY_EXCLUSION_AND_REFRESH"
+    }
+  ]
+}

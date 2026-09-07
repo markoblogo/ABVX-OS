@@ -1,0 +1,95 @@
+{
+  "schema_version": "rn5-001-commercial-package/v1",
+  "status": "FINAL_AFTER_CONTENT_LAYOUT_QA_FREEZE",
+  "title": "Solar Proposal Decoder",
+  "subtitle": "A Homeowner's System for Comparing Quotes, Financing, Production Claims, Scope, and Warranties Before Signing",
+  "author": "Casey Rowan",
+  "author_bio": "Casey Rowan creates independent, source-grounded consumer decision tools. No installer, engineering, financial, tax, legal, or government affiliation is claimed.",
+  "description": "Three solar proposals can make three different numbers look decisive. One leads with a low monthly payment. Another leads with annual production. A third shows a \u201cnet\u201d price after assumptions. Those headlines are not directly comparable.\n\nSolar Proposal Decoder gives homeowners a buyer-owned method for turning real proposals into one documented decision packet. It teaches you how to:\n\n\u2022 locate the cash price, financed principal, system size, equipment, production model, scope, exclusions, and warranty terms;\n\u2022 separate facts, estimates, sales claims, and missing information;\n\u2022 calculate cash cost per watt, financed premium, scheduled payments, and production per installed kW\u2014without hiding each metric\u2019s limitations;\n\u2022 decode claims such as \u201clow monthly payment,\u201d \u201c100% offset,\u201d \u201cturnkey,\u201d and \u201c25-year warranty\u201d;\n\u2022 turn every material gap into a proposal-specific written question;\n\u2022 log replies and revised documents; and\n\u2022 record the final choice, trade-offs, and remaining uncertainty.\n\nThe book includes an original synthetic three-quote case plus a practical write-in comparison packet for up to three real proposals. It does not rank installers, promise savings, recommend financing, determine tax eligibility, or replace professional advice. All examples are synthetic, and volatile incentives and utility rules are routed back to the responsible current source.",
+  "keywords": [
+    "residential photovoltaic buyer workbook",
+    "compare installer bids",
+    "rooftop system financing questions",
+    "home energy contract checklist",
+    "warranty scope worksheet",
+    "production estimate assumptions",
+    "before signing contractor agreement"
+  ],
+  "categories": [
+    {
+      "rank": 1,
+      "path": "Crafts, Hobbies & Home > Home Improvement & Design > How-to & Home Improvements",
+      "reason": "Primary buyer job is evaluating a major home-improvement proposal before signing.",
+      "fallback": "Crafts, Hobbies & Home > Sustainable Living"
+    },
+    {
+      "rank": 2,
+      "path": "Business & Money > Personal Finance > Money Management",
+      "reason": "The system normalizes cash, financing and contractual obligations without giving investment advice.",
+      "fallback": "Business & Money > Personal Finance > Budgeting"
+    },
+    {
+      "rank": 3,
+      "path": "Science & Math > Energy > Solar",
+      "reason": "The subject is residential solar and production-model evidence.",
+      "fallback": "Engineering & Transportation > Engineering > Energy Production & Extraction"
+    }
+  ],
+  "primary_marketplace": "Amazon.com",
+  "planned_formats": [
+    "PAPERBACK"
+  ],
+  "format_eligibility_status": {
+    "PAPERBACK": "SUPPORTED",
+    "KINDLE": "SUPPORTED_BUT_NOT_JUSTIFIED"
+  },
+  "format_settings": {
+    "language": "English",
+    "trim": "8.5 x 11 in",
+    "ink": "Black & white",
+    "paper": "White",
+    "bleed": "No bleed",
+    "cover_finish": "Matte",
+    "reading_direction": "Left to right",
+    "low_content": "No",
+    "large_print": "No",
+    "pdf_pages": 57,
+    "kdp_rounded_page_count": 58,
+    "isbn": "KDP free ISBN or publisher-owned ISBN \u2014 human publishing choice",
+    "territories": "All territories where rights are held",
+    "expanded_distribution": "Optional; royalty estimated separately"
+  },
+  "paperback_price": 16.99,
+  "printing_cost_usd": 2.84,
+  "royalty_rate": 0.6,
+  "estimated_paperback_royalty_usd": 7.35,
+  "expanded_distribution_royalty_rate": 0.4,
+  "estimated_expanded_distribution_royalty_usd": 3.96,
+  "price_checked": "2026-09-07",
+  "economics_source": "KDP Paperback Printing Cost and Paperback Royalty official help; large-trim black ink, 24\u2013110 pages uses $2.84 fixed Amazon.com printing cost; $16.99 receives 60% rate.",
+  "content_version": "RN5-001-v1.0",
+  "commercial_package_content_version": "RN5-001-v1.0",
+  "open_content_or_layout_correction_gates": 0,
+  "cover_brief": {
+    "status": "BRIEF_ONLY_AWAITING_HUMAN_COVER_GATE",
+    "trim": "8.5 x 11 in paperback",
+    "page_count_for_kdp_template": 58,
+    "interior": "black ink on white paper, no bleed",
+    "finish": "matte",
+    "front_cover_hierarchy": [
+      "SOLAR PROPOSAL DECODER",
+      "A Homeowner's System for Comparing Quotes, Financing, Production Claims, Scope, and Warranties Before Signing",
+      "FIND \u2022 EXTRACT \u2022 NORMALIZE \u2022 CHALLENGE \u2022 ASK \u2022 VERIFY \u2022 DECIDE",
+      "Casey Rowan"
+    ],
+    "concept": "A clean consumer-document aesthetic: three offset proposal sheets converge into one organized decision packet. Use a restrained navy, white, pale blue and solar-gold cover palette; no rooftop stock-photo clich\u00e9, sunburst, government seal, savings promise, red-alert scam language, or installer endorsement.",
+    "back_cover_copy": "Three proposals. Three different headlines. One buyer-owned decision packet. Learn where the important facts live, normalize price and production without hiding assumptions, decode broad sales claims, generate written installer questions, and preserve the answers before signing.",
+    "production_instruction": "Generate the final wrap only from the current KDP cover template using 8.5 x 11 in, black-and-white white-paper interior, and KDP's rounded 58-page count. Keep all live text inside the template safe zone and leave the barcode area clear."
+  },
+  "ai_generated_content_disclosure": {
+    "text": "YES",
+    "images": "NO",
+    "translations": "NO",
+    "note": "Answer the live KDP disclosure fields truthfully; KDP wording may change."
+  }
+}

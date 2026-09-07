@@ -1,0 +1,34 @@
+{
+  "schema_version": "rn5-001-release-manifest/v1",
+  "status": "KDP_READY_AWAITING_HUMAN_COVER_AND_PUBLISHING_GATE",
+  "content_version": "RN5-001-v1.0",
+  "commercial_package_content_version": "RN5-001-v1.0",
+  "gates": {
+    "market": "PASS",
+    "product_thesis": "PASS",
+    "representative_product": "PASS",
+    "factual_source": "PASS",
+    "language": "PASS",
+    "editorial": "PASS",
+    "product_quality": "PASS",
+    "technical": "PASS",
+    "toc_navigation": "PASS",
+    "commercial_package": "PASS",
+    "kdp_external_preview": "HUMAN_PENDING"
+  },
+  "authorization": {
+    "status": "KDP_READY",
+    "failures": []
+  },
+  "paperback_pdf": "output/pdf/solar-proposal-decoder-buyer-decision-system-paperback.pdf",
+  "production_master": "books/rn5-001/production/solar-proposal-decoder-production-master.pdf",
+  "kindle": "NOT_JUSTIFIED",
+  "cover": "BRIEF_ONLY",
+  "human_actions": [
+    "choose final cover",
+    "generate cover from live KDP 58-page template",
+    "upload files",
+    "run KDP Print Previewer",
+    "publish"
+  ]
+}
