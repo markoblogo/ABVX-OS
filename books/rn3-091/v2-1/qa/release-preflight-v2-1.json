@@ -6,7 +6,7 @@
     "page_count_kdp_range": true,
     "trim_8_5x11": true,
     "kdp_safe_text_margins": true,
-    "generator_object_margin_48pt": true,
+    "generator_object_margin_54pt": true,
     "fonts_embedded": true,
     "print_toc_present": true,
     "toc_one_page": true,
@@ -237,7 +237,7 @@
   },
   "density_samples": {
     "1": {
-      "ink_ratio": 0.1088,
+      "ink_ratio": 0.1348,
       "last_content_ratio": 0.908,
       "unused_lower_ratio": 0
     },
@@ -367,7 +367,7 @@
     }
   },
   "hashes": {
-    "pdf": "fb27e978b9f6bba7f2d67185d56605c83028366c612270fc3a4cd3405934f154",
+    "pdf": "be69f08cd8c2d3363a68087f053ee950d497318e30480204f1fa5c7f7f9bf828",
     "epub": "70ee7c49f7f5755207f926834f11a3a7c16983cc2e5de493d79ffdf7bc1e598a"
   },
   "deferred": [

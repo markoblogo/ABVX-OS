@@ -1,0 +1,27 @@
+{
+  "schema_version": "kdp-language-format-support/v1",
+  "checked_at": "2026-09-07",
+  "platform": "KDP",
+  "source": "https://kdp.amazon.com/en_US/help/topic/G200673300",
+  "records": [
+    {"language":"EN","format":"PAPERBACK","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"EN","format":"HARDCOVER","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"EN","format":"KINDLE","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"FR","format":"PAPERBACK","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"FR","format":"HARDCOVER","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"FR","format":"KINDLE","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"PL","format":"PAPERBACK","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"PL","format":"HARDCOVER","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"PL","format":"KINDLE","marketplace":"ALL","status":"UNSUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"UK","format":"PAPERBACK","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"UK","format":"HARDCOVER","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"UK","format":"KINDLE","marketplace":"ALL","status":"UNSUPPORTED","checked_at":"2026-09-07","confidence":"HIGH","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"RU","format":"PAPERBACK","marketplace":"ALL","status":"UNVERIFIED","checked_at":"2026-09-07","confidence":"NONE","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"RU","format":"HARDCOVER","marketplace":"ALL","status":"UNVERIFIED","checked_at":"2026-09-07","confidence":"NONE","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"RU","format":"KINDLE","marketplace":"ALL","status":"UNVERIFIED","checked_at":"2026-09-07","confidence":"NONE","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"BE","format":"PAPERBACK","marketplace":"ALL","status":"UNVERIFIED","checked_at":"2026-09-07","confidence":"NONE","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"BE","format":"HARDCOVER","marketplace":"ALL","status":"UNVERIFIED","checked_at":"2026-09-07","confidence":"NONE","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"},
+    {"language":"BE","format":"KINDLE","marketplace":"ALL","status":"UNVERIFIED","checked_at":"2026-09-07","confidence":"NONE","source":"https://kdp.amazon.com/en_US/help/topic/G200673300"}
+  ],
+  "refresh_rule": "Recheck the official KDP supported-languages page before any format-specific production begins. UNVERIFIED never authorizes production."
+}

@@ -3877,6 +3877,14 @@
       "opportunity_id": "RN4-155",
       "production_authorized": false,
       "reason": "accessibility claims require specialist validation"
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "PAPERBACK_SUBMITTED_UNDER_REVIEW",
+      "id": "decision:RN3-091:paperback-under-review",
+      "opportunity_id": "RN3-091",
+      "production_authorized": false,
+      "reason": "Corrected paperback was submitted. Kindle is not planned because KDP does not list Ukrainian as Kindle-supported; publication is not yet verified."
     }
   ],
   "evidence": [
@@ -10135,6 +10143,31 @@
       "observed_at": "2026-09-07",
       "opportunity_id": "RN4-182",
       "summary": "Buyers pay for color workbooks, but physical-media competitors and color print cost are strong."
+    },
+    {
+      "data": {
+        "epub_work": "PRESERVED_AS_HISTORICAL_UNNECESSARY_WORK",
+        "format_constraint": "UKRAINIAN_KINDLE_UNSUPPORTED",
+        "format_opportunity": "UKRAINIAN_PRINT_SUPPORTED",
+        "source": "https://kdp.amazon.com/en_US/help/topic/G200673300"
+      },
+      "id": "evidence:RN3-091:format-eligibility",
+      "kind": "format_eligibility",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "classification": "KDP_EXTERNAL_MARGIN_FALSE_NEGATIVE",
+        "correction": "all opening artwork inset 54 pt",
+        "external_preview": "CONTROLLING_GATE",
+        "page": 1,
+        "root_cause": "text-only bbox audit did not inspect vector decorations"
+      },
+      "id": "evidence:RN3-091:kdp-page1-margin",
+      "kind": "external_preview_regression",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
     }
   ],
   "launches": [
@@ -10165,6 +10198,14 @@
         "paperback": 17.99
       },
       "submitted_at": "2026-09-06"
+    },
+    {
+      "id": "launch:RN3-091:2026-09-07",
+      "kindle_status": "NOT_PLANNED_FORMAT_LANGUAGE_CONSTRAINT",
+      "paperback_status": "UNDER_REVIEW",
+      "product_id": "product:RN3-091",
+      "publication_status": "NOT_VERIFIED_LIVE",
+      "submitted_at": "2026-09-07"
     }
   ],
   "opportunities": [
@@ -16799,6 +16840,37 @@
       "paperback_pages": 208,
       "status": "SUBMITTED",
       "title": "Ham Radio Technician Visual Cram Map 2026-2030"
+    },
+    {
+      "author": "Route Atlas Press",
+      "format_constraint": "Ukrainian is not listed as a KDP Kindle-supported language on the official supported-languages page checked 2026-09-07.",
+      "format_opportunity": "Ukrainian paperback and hardcover are listed as supported; the paperback is the primary product.",
+      "formats": [
+        {
+          "commercial_role": "PRIMARY",
+          "eligibility": "SUPPORTED",
+          "format": "PAPERBACK",
+          "production_status": "SUBMITTED_UNDER_REVIEW"
+        },
+        {
+          "commercial_role": "FORMAT_LANGUAGE_CONSTRAINT",
+          "eligibility": "UNSUPPORTED",
+          "format": "KINDLE",
+          "production_status": "NOT_PLANNED"
+        },
+        {
+          "commercial_role": "NOT_COMMERCIALLY_JUSTIFIED",
+          "eligibility": "SUPPORTED",
+          "format": "HARDCOVER",
+          "production_status": "NOT_PLANNED"
+        }
+      ],
+      "id": "product:RN3-091",
+      "language": "UK",
+      "opportunity_id": "RN3-091",
+      "primary_format": "PAPERBACK",
+      "status": "PAPERBACK_UNDER_REVIEW",
+      "title": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u044c\u043a\u0456 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0439 \u0434\u043e\u0440\u043e\u0436\u043d\u0456 \u0437\u043d\u0430\u043a\u0438 \u0443\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u043e\u044e"
     }
   ],
   "radar_runs": [

@@ -6,7 +6,8 @@ from typing import Any
 
 PRODUCT_CONTRACT_FIELDS = (
     "buyer", "buyer_job", "prior_knowledge", "confusions", "better_or_faster",
-    "paid_value", "specific_advantage", "intentionally_not",
+    "paid_value", "specific_advantage", "intentionally_not", "primary_format",
+    "secondary_formats", "format_eligibility_status", "format_specific_commercial_role",
 )
 RELEASE_GATES = (
     "market", "product_thesis", "representative_product", "factual_source",
@@ -15,7 +16,7 @@ RELEASE_GATES = (
 )
 COMMERCIAL_PACKAGE_FIELDS = (
     "title", "subtitle", "author", "description", "keywords", "categories",
-    "paperback_price", "kindle_price", "primary_marketplace", "format_settings",
+    "primary_marketplace", "format_settings",
     "cover_brief", "content_version", "commercial_package_content_version",
 )
 HUMAN_TASTE_TRIGGERS = {
@@ -23,6 +24,41 @@ HUMAN_TASTE_TRIGGERS = {
     "prior_knowledge_dependent", "first_in_product_class", "low_automated_quality_confidence",
 }
 DATA_DRIVEN_CLASSES = {"EXAM_PREP", "PUBLIC_DOMAIN_TRANSFORMATION", "VISUAL_REFERENCE", "COMPARISON_GUIDE"}
+FORMAT_STATUSES = {"SUPPORTED", "UNSUPPORTED", "UNVERIFIED"}
+
+def assess_format_eligibility(*, language: str, marketplace: str, formats: list[str], support_records: list[dict[str, Any]]) -> dict[str, Any]:
+    """Resolve KDP format support from dated records; unknown combinations fail closed."""
+    resolved: dict[str, Any] = {}
+    for requested in formats:
+        fmt = requested.upper()
+        matches = [r for r in support_records if r.get("platform", "KDP").upper() == "KDP"
+                   and str(r.get("language", "")).upper() == language.upper()
+                   and str(r.get("format", "")).upper() == fmt
+                   and r.get("marketplace") in {marketplace, "ALL"}]
+        record = matches[-1] if matches else {}
+        status = record.get("status", "UNVERIFIED")
+        if status not in FORMAT_STATUSES:
+            status = "UNVERIFIED"
+        resolved[fmt] = {
+            "status": status,
+            "production_allowed": status == "SUPPORTED",
+            "source": record.get("source"),
+            "checked_at": record.get("checked_at"),
+            "confidence": record.get("confidence", "NONE"),
+        }
+    return {"language": language.upper(), "marketplace": marketplace, "formats": resolved,
+            "status": "PASS" if resolved and all(v["production_allowed"] for v in resolved.values()) else "FAIL"}
+
+def audit_no_bleed_objects(objects: list[dict[str, Any]], *, page_width: float, page_height: float, safe_inset: float) -> dict[str, Any]:
+    """Catch generator-owned vector/image objects that a text-bbox audit cannot see."""
+    failures = []
+    for obj in objects:
+        bbox = obj.get("bbox", [])
+        valid = len(bbox) == 4 and bbox[0] >= safe_inset and bbox[1] >= safe_inset and bbox[2] <= page_width-safe_inset and bbox[3] <= page_height-safe_inset
+        if not valid:
+            failures.append({"id": obj.get("id", "UNKNOWN"), "bbox": bbox})
+    return {"status": "PASS" if not failures else "FAIL", "failures": failures,
+            "objects_checked": len(objects), "safe_inset": safe_inset}
 
 def validate_product_contract(contract: dict[str, Any]) -> dict[str, Any]:
     missing = [key for key in PRODUCT_CONTRACT_FIELDS if not contract.get(key)]
@@ -55,7 +91,16 @@ def validate_commercial_package(package: dict[str, Any]) -> dict[str, Any]:
         missing.append("keywords.exactly_7")
     if package.get("categories") and len(package["categories"]) != 3:
         missing.append("categories.exactly_3")
-    for key in ("paperback_price", "kindle_price"):
+    planned = package.get("planned_formats")
+    formats = [str(v).upper() for v in planned] if planned else ["PAPERBACK", "KINDLE"]
+    eligibility = package.get("format_eligibility_status", {})
+    for fmt in formats:
+        key = f"{fmt.lower()}_price"
+        if not package.get(key):
+            missing.append(key)
+        if planned and eligibility.get(fmt) != "SUPPORTED":
+            missing.append(f"format_eligibility_status.{fmt}.SUPPORTED")
+    for key in tuple(f"{fmt.lower()}_price" for fmt in formats):
         value = package.get(key)
         if value is not None and (not isinstance(value, (int, float)) or value <= 0):
             missing.append(f"{key}.positive_number")

@@ -1,0 +1,10 @@
+{
+  "schema_version": "publishing-margin-regression/v1",
+  "case_id": "RN3-091-V2.1.1-PAGE1",
+  "page_points": [612, 792],
+  "safe_inset_points": 18,
+  "failure_fixture": [{"id":"full-page-background","bbox":[0,0,612,792]}],
+  "corrected_fixture": [{"id":"opening-panel","bbox":[54,54,558,738]}],
+  "expected": {"failure_fixture":"FAIL","corrected_fixture":"PASS"},
+  "external_evidence": "KDP Print Previewer reported object outside margins on manuscript page 1."
+}

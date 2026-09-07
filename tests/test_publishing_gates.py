@@ -1,10 +1,35 @@
 import json, tempfile, unittest
 from pathlib import Path
-from abvx_harness.publishing_gates import validate_product_contract, validate_commercial_package, representative_product_requirement, record_human_product_gate, release_authorization
+from abvx_harness.publishing_gates import audit_no_bleed_objects, assess_format_eligibility, validate_product_contract, validate_commercial_package, representative_product_requirement, record_human_product_gate, release_authorization
 
-GOOD={"buyer":"learner","buyer_job":"learn a system","prior_knowledge":"none or adjacent system","confusions":["transfer traps"],"better_or_faster":"recognize and act","paid_value":"curated comparisons","specific_advantage":"two-system map","intentionally_not":"legal advice","product_class":"COMPARISON_GUIDE","dataset_driven":True,"raw_data_transformation":{"raw_source":"two official rule sets","transformation":"comparison graph and explanations","buyer_value":"safe transfer and faster learning"}}
+GOOD={"buyer":"learner","buyer_job":"learn a system","prior_knowledge":"none or adjacent system","confusions":["transfer traps"],"better_or_faster":"recognize and act","paid_value":"curated comparisons","specific_advantage":"two-system map","intentionally_not":"legal advice","primary_format":"PAPERBACK","secondary_formats":["KINDLE"],"format_eligibility_status":{"PAPERBACK":"SUPPORTED","KINDLE":"SUPPORTED"},"format_specific_commercial_role":{"PAPERBACK":"PRIMARY","KINDLE":"SECONDARY"},"product_class":"COMPARISON_GUIDE","dataset_driven":True,"raw_data_transformation":{"raw_source":"two official rule sets","transformation":"comparison graph and explanations","buyer_value":"safe transfer and faster learning"}}
 
 class PublishingGateTests(unittest.TestCase):
+    def test_format_eligibility_is_versioned_and_fails_closed(self):
+        records=[
+            {"language":"UK","format":"PAPERBACK","platform":"KDP","marketplace":"ALL","status":"SUPPORTED","checked_at":"2026-09-07","confidence":"HIGH"},
+            {"language":"UK","format":"KINDLE","platform":"KDP","marketplace":"ALL","status":"UNSUPPORTED","checked_at":"2026-09-07","confidence":"HIGH"},
+        ]
+        result=assess_format_eligibility(language="UK",marketplace="Amazon.fr",formats=["PAPERBACK","KINDLE","HARDCOVER"],support_records=records)
+        self.assertEqual(result["formats"]["PAPERBACK"]["status"],"SUPPORTED")
+        self.assertFalse(result["formats"]["KINDLE"]["production_allowed"])
+        self.assertEqual(result["formats"]["HARDCOVER"]["status"],"UNVERIFIED")
+
+    def test_contract_requires_explicit_format_plan(self):
+        bad={**GOOD};bad.pop("format_eligibility_status")
+        result=validate_product_contract(bad)
+        self.assertEqual(result["status"],"FAIL")
+        self.assertIn("format_eligibility_status",result["missing"])
+
+    def test_no_bleed_full_page_object_reproduces_external_margin_failure(self):
+        result=audit_no_bleed_objects([{"id":"background","bbox":[0,0,612,792]}],page_width=612,page_height=792,safe_inset=18)
+        self.assertEqual(result["status"],"FAIL")
+        self.assertEqual(result["failures"][0]["id"],"background")
+
+    def test_no_bleed_inset_decoration_passes(self):
+        result=audit_no_bleed_objects([{"id":"opening-panel","bbox":[54,54,558,738]}],page_width=612,page_height=792,safe_inset=18)
+        self.assertEqual(result["status"],"PASS")
+
     def test_dataset_product_requires_declared_transformation(self):
         bad={**GOOD};bad.pop("raw_data_transformation")
         self.assertEqual(validate_product_contract(bad)["status"],"FAIL")
@@ -37,6 +62,14 @@ class PublishingGateTests(unittest.TestCase):
         self.assertEqual(result["status"],"FAIL")
         self.assertIn("content_version.match",result["missing"])
         self.assertIn("open_content_or_layout_correction_gates.zero",result["missing"])
+
+    def test_commercial_package_only_requires_prices_for_planned_supported_formats(self):
+        package={"title":"T","subtitle":"S","author":"A","description":"D","keywords":[str(i) for i in range(7)],"categories":["a","b","c"],"paperback_price":18.9,"primary_marketplace":"Amazon.fr","format_settings":{"paperback":{}},"cover_brief":"brief.md","content_version":"V2.1.1","commercial_package_content_version":"V2.1.1","open_content_or_layout_correction_gates":0,"planned_formats":["PAPERBACK"],"format_eligibility_status":{"PAPERBACK":"SUPPORTED","KINDLE":"UNSUPPORTED"}}
+        self.assertEqual(validate_commercial_package(package)["status"],"PASS")
+        package["planned_formats"].append("KINDLE")
+        result=validate_commercial_package(package)
+        self.assertEqual(result["status"],"FAIL")
+        self.assertIn("format_eligibility_status.KINDLE.SUPPORTED",result["missing"])
 
     def test_commercial_false_pass_blocks_kdp_ready(self):
         gates={k:"PASS" for k in ("market","product_thesis","representative_product","factual_source","language","editorial","product_quality","technical","toc_navigation")}

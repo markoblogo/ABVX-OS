@@ -20,7 +20,9 @@
     "Livres > Dictionnaires, langues et encyclopédies > Français langue étrangère"
   ],
   "paperback_price": 18.90,
-  "kindle_price": 7.99,
+  "kindle_price": null,
+  "planned_formats": ["PAPERBACK"],
+  "format_eligibility_status": {"PAPERBACK":"SUPPORTED","KINDLE":"UNSUPPORTED","HARDCOVER":"SUPPORTED"},
   "currency": "EUR",
   "primary_marketplace": "Amazon.fr",
   "format_settings": {
@@ -31,12 +33,6 @@
       "bleed": "no bleed",
       "finish": "matte",
       "pages": 84
-    },
-    "kindle": {
-      "format": "reflowable EPUB 3",
-      "drm": "no",
-      "kdp_select": "no",
-      "royalty_percent": 70
     }
   },
   "cover_brief": "books/rn3-091/v2-1/commercial/cover-brief-v2.1.md",
@@ -44,7 +40,7 @@
   "estimated_paperback_royalty_eur": 7.65,
   "research_date": "2026-09-07",
   "category_ui_status": "KDP UI SELECTION TO CONFIRM",
-  "status": "FINAL",
+  "status": "FINAL_PAPERBACK_ONLY",
   "content_version": "V2.1.1",
   "commercial_package_content_version": "V2.1.1",
   "open_content_or_layout_correction_gates": 0

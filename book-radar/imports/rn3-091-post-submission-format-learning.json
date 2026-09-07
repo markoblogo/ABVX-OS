@@ -1,0 +1,39 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "products": [{
+    "id": "product:RN3-091",
+    "opportunity_id": "RN3-091",
+    "status": "PAPERBACK_UNDER_REVIEW",
+    "title": "Французькі правила й дорожні знаки українською",
+    "author": "Route Atlas Press",
+    "language": "UK",
+    "primary_format": "PAPERBACK",
+    "formats": [
+      {"format":"PAPERBACK","eligibility":"SUPPORTED","production_status":"SUBMITTED_UNDER_REVIEW","commercial_role":"PRIMARY"},
+      {"format":"KINDLE","eligibility":"UNSUPPORTED","production_status":"NOT_PLANNED","commercial_role":"FORMAT_LANGUAGE_CONSTRAINT"},
+      {"format":"HARDCOVER","eligibility":"SUPPORTED","production_status":"NOT_PLANNED","commercial_role":"NOT_COMMERCIALLY_JUSTIFIED"}
+    ],
+    "format_constraint": "Ukrainian is not listed as a KDP Kindle-supported language on the official supported-languages page checked 2026-09-07.",
+    "format_opportunity": "Ukrainian paperback and hardcover are listed as supported; the paperback is the primary product."
+  }],
+  "launches": [{
+    "id": "launch:RN3-091:2026-09-07",
+    "product_id": "product:RN3-091",
+    "submitted_at": "2026-09-07",
+    "paperback_status": "UNDER_REVIEW",
+    "kindle_status": "NOT_PLANNED_FORMAT_LANGUAGE_CONSTRAINT",
+    "publication_status": "NOT_VERIFIED_LIVE"
+  }],
+  "evidence": [
+    {"id":"evidence:RN3-091:format-eligibility","opportunity_id":"RN3-091","kind":"format_eligibility","observed_at":"2026-09-07","data":{"format_constraint":"UKRAINIAN_KINDLE_UNSUPPORTED","format_opportunity":"UKRAINIAN_PRINT_SUPPORTED","source":"https://kdp.amazon.com/en_US/help/topic/G200673300","epub_work":"PRESERVED_AS_HISTORICAL_UNNECESSARY_WORK"}},
+    {"id":"evidence:RN3-091:kdp-page1-margin","opportunity_id":"RN3-091","kind":"external_preview_regression","observed_at":"2026-09-07","data":{"classification":"KDP_EXTERNAL_MARGIN_FALSE_NEGATIVE","page":1,"root_cause":"text-only bbox audit did not inspect vector decorations","correction":"all opening artwork inset 54 pt","external_preview":"CONTROLLING_GATE"}}
+  ],
+  "decisions": [{
+    "id": "decision:RN3-091:paperback-under-review",
+    "opportunity_id": "RN3-091",
+    "decision": "PAPERBACK_SUBMITTED_UNDER_REVIEW",
+    "decided_at": "2026-09-07",
+    "production_authorized": false,
+    "reason": "Corrected paperback was submitted. Kindle is not planned because KDP does not list Ukrainian as Kindle-supported; publication is not yet verified."
+  }]
+}

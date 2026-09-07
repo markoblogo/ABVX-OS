@@ -15,6 +15,8 @@
         "product-quality-independent-from-technical-qa",
         "representative-sample-profile-driven",
         "human-product-taste-gated-when-triggered",
+        "format-eligibility-fails-closed-before-format-production",
+        "generator-owned-no-bleed-objects-audited-separately-from-text",
         "kdp-external-preview-remains-human",
         "no-radar-score-mutation"
       ],
@@ -26,7 +28,7 @@
         "recorded_by": "RN2-037-RN3-091-REGRESSION",
         "source_uri": "books/factory/lessons/publishing-quality-false-positives-v1.json"
       },
-      "scope": "Versioned product-contract, representative-product, product-quality, human-taste, raw-data-transformation and release gates for reusable book production",
+      "scope": "Versioned product-contract, format-eligibility, representative-product, product-quality, human-taste, raw-data-transformation, no-bleed object and release gates for reusable book production",
       "status": "active"
     },
     {

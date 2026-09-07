@@ -162,14 +162,16 @@ def build_pdf(rows):
   family_starts.setdefault(fam,p);p+=1
  index_start=p+2;sources_start=index_start+len(idx_specs)
  c=Canvas(str(PDF),pagesize=(W,H),pageCompression=1,initialFontName='Atlas');c.setTitle('Французькі правила й дорожні знаки українською - V2.1');page=1
- # Restrained full-colour opening: French tricolour, road line and real sign forms.
- c.setFillColor(HexColor('#F8F5EE'));c.rect(0,0,W,H,fill=1,stroke=0)
- for col,x in [(BLUE,0),(white,16),(RED,32)]:c.setFillColor(col);c.rect(x,0,16,H,fill=1,stroke=0)
- c.setFillColor(INK);c.setFont('Atlas-Bold',30);c.drawString(78,H-132,'ФРАНЦУЗЬКІ ПРАВИЛА');c.drawString(78,H-173,'Й ДОРОЖНІ ЗНАКИ');c.setFillColor(BLUE);c.setFont('Atlas-Bold',27);c.drawString(78,H-215,'УКРАЇНСЬКОЮ')
- c.setFillColor(GRAY);c.setFont('Atlas',14.5);c.drawString(80,H-258,'Практичний довідник для першого знайомства');c.drawString(80,H-280,'і перенесення водійського досвіду до Франції')
+ # Restrained full-colour opening. This is a no-bleed interior, so every
+ # decorative object stays inside the print-safe inset instead of touching trim.
+ opening_inset=54
+ c.setFillColor(HexColor('#F8F5EE'));c.roundRect(opening_inset,opening_inset,W-2*opening_inset,H-2*opening_inset,8,fill=1,stroke=0)
+ for col,x in [(BLUE,opening_inset),(white,opening_inset+10),(RED,opening_inset+20)]:c.setFillColor(col);c.rect(x,opening_inset,10,H-2*opening_inset,fill=1,stroke=0)
+ c.setFillColor(INK);c.setFont('Atlas-Bold',30);c.drawString(104,H-132,'ФРАНЦУЗЬКІ ПРАВИЛА');c.drawString(104,H-173,'Й ДОРОЖНІ ЗНАКИ');c.setFillColor(BLUE);c.setFont('Atlas-Bold',27);c.drawString(104,H-215,'УКРАЇНСЬКОЮ')
+ c.setFillColor(GRAY);c.setFont('Atlas',14.5);c.drawString(106,H-258,'Практичний довідник для першого знайомства');c.drawString(106,H-280,'і перенесення водійського досвіду до Франції')
  c.setStrokeColor(HexColor('#CCD3D8'));c.setLineWidth(22);c.line(86,154,W-80,154);c.setStrokeColor(white);c.setLineWidth(2);c.setDash(10,8);c.line(86,154,W-80,154);c.setDash()
  for r,x,s in [(rows[0],105,104),(rows[22],255,114),(rows[61],420,104)]:sign(c,r,x,205,s)
- c.setFillColor(INK);c.setFont('Atlas-Bold',10.5);c.drawString(80,86,'КОЛЬОРОВЕ ВИДАННЯ');c.setFont('Atlas',10);c.drawString(80,66,'Незалежний навчальний довідник');c.showPage();page+=1
+ c.setFillColor(INK);c.setFont('Atlas-Bold',10.5);c.drawString(106,86,'КОЛЬОРОВЕ ВИДАННЯ');c.setFont('Atlas',10);c.drawString(106,66,'Незалежний навчальний довідник');c.showPage();page+=1
  y=head(c,'Перед початком','Як користуватися книгою','Французьке правило подано першим; українське порівняння допомагає вчитися, але не замінює чинний знак.')
  y=sub(c,'Якщо ви починаєте з нуля',M,y);y=para(c,'Спочатку прочитайте ключові відмінності та дві сторінки про візуальну граматику. Потім рухайтеся атласом сімействами знаків.',M,y,W-2*M)
  y=sub(c,'Якщо ви вже водили в Україні',M,y);y=para(c,'Позначки порівняння відділяють те, що можна впізнати за досвідом, від правил, які треба перевивчити для Франції.',M,y,W-2*M)
