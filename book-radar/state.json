@@ -2288,6 +2288,13 @@
       "id": "decision:RN3-091:v2-prototype-gate",
       "opportunity_id": "RN3-091",
       "reason": "The 14-page V2 prototype passed source, technical and product-quality QA; full production remains blocked pending the single user-perspective gate."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "REPRESENTATIVE_PRODUCT_FAIL_HUMAN_GATE_1",
+      "id": "decision:RN3-091:v2-human-product-gate-1",
+      "opportunity_id": "RN3-091",
+      "reason": "Market and Product Thesis V2 pass, but the first representative product failed human product-taste review; full V2 production is blocked pending prototype 2."
     }
   ],
   "evidence": [
@@ -5983,6 +5990,43 @@
       "id": "evidence:RN3-091:v2-prototype",
       "kind": "prototype",
       "observed_at": "2026-09-06",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "TECHNICAL_FALSE_POSITIVE": true,
+        "classification": "TECHNICAL_QA_FALSE_POSITIVE",
+        "lesson": "Internal technical PASS did not replace KDP external preview.",
+        "record": "books/factory/lessons/publishing-quality-false-positives-v1.json"
+      },
+      "id": "evidence:RN2-037:technical-qa-false-positive",
+      "kind": "production_feedback",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN2-037"
+    },
+    {
+      "data": {
+        "PRODUCT_FALSE_POSITIVE": true,
+        "PRODUCT_QUALITY_REWORK": true,
+        "classification": "PRODUCT_QUALITY_FALSE_POSITIVE",
+        "record": "books/factory/lessons/publishing-quality-false-positives-v1.json"
+      },
+      "id": "evidence:RN3-091:v1-product-false-positive-system",
+      "kind": "production_feedback",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "HUMAN_PRODUCT_GATE_REQUIRED": true,
+        "PRODUCT_THESIS_STRENGTH": "PASS",
+        "full_production": "BLOCKED",
+        "reason": "Slide-like sparse composition and an invalid global assumption of Ukrainian driving experience.",
+        "representative_product": "FAIL"
+      },
+      "id": "evidence:RN3-091:v2-prototype-1-human-fail",
+      "kind": "representative_product_feedback",
+      "observed_at": "2026-09-07",
       "opportunity_id": "RN3-091"
     }
   ],

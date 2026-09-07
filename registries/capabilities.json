@@ -12,6 +12,25 @@
     },
     {
       "constraints": [
+        "product-quality-independent-from-technical-qa",
+        "representative-sample-profile-driven",
+        "human-product-taste-gated-when-triggered",
+        "kdp-external-preview-remains-human",
+        "no-radar-score-mutation"
+      ],
+      "id": "book-production-quality-gates",
+      "implementation": "src/abvx_harness/publishing_gates.py",
+      "name": "Book Production Quality Gates",
+      "provenance": {
+        "observed_at": "2026-09-07T00:00:00Z",
+        "recorded_by": "RN2-037-RN3-091-REGRESSION",
+        "source_uri": "books/factory/lessons/publishing-quality-false-positives-v1.json"
+      },
+      "scope": "Versioned product-contract, representative-product, product-quality, human-taste, raw-data-transformation and release gates for reusable book production",
+      "status": "active"
+    },
+    {
+      "constraints": [
         "local-only",
         "no-automatic-routing",
         "no-external-fetch-by-default",

@@ -1,0 +1,13 @@
+{
+  "schema_version":"product-quality-profiles/v1",
+  "profiles":{
+    "PROSE_GUIDE":{"representative_sample":"sample chapters","density_signal":"text flow and page-purpose review"},
+    "VISUAL_REFERENCE":{"representative_sample":"6-16 hardest representative pages","density_signal":"required"},
+    "WORKBOOK":{"representative_sample":"6-16 pages including writable tasks","density_signal":"required with usability exceptions"},
+    "EXAM_PREP":{"representative_sample":"instruction, teaching, retrieval and answer-navigation pages","density_signal":"required when visual"},
+    "ACTIVITY_BOOK":{"representative_sample":"6-16 varied activities","density_signal":"required"},
+    "PUBLIC_DOMAIN_TRANSFORMATION":{"representative_sample":"raw-to-product transformation proof","density_signal":"profile dependent"},
+    "COMPARISON_GUIDE":{"representative_sample":"6-16 pages including hard comparison cases","density_signal":"required"}
+  },
+  "human_gate_triggers":["novel_format","layout_dependent","visual_differentiation","prior_knowledge_dependent","first_in_product_class","low_automated_quality_confidence"]
+}

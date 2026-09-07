@@ -1,11 +1,15 @@
 {
   "schema_version": "visual-reference-product-quality/v1",
-  "status": "PASS",
+  "status": "FAIL",
   "artifact": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-prototype.pdf",
-  "scores": {"information_density":4.4,"perceived_value":4.5,"editorial_enrichment":4.6,"target_reader_advantage":4.8,"page_purpose":4.5,"learning_value":4.6},
-  "average": 4.57,
+  "scores": {"buyer_fit":3.2,"jtbd_delivery":3.5,"paid_value":4.0,"information_density":2.4,"perceived_value":3.0,"editorial_enrichment":3.8,"prior_knowledge_leverage":3.4,"format_fit":2.0,"repetition_template_fatigue":2.7,"page_purpose":2.8},
+  "average": 3.08,
   "density_signal": {"flagged_pages":[],"advisory":true,"intentional_sparse_pages":[1]},
-  "criteria": {"more_valuable_than_v1":"PASS","intentional_space":"PASS","ukrainian_prior_knowledge_leveraged":"PASS","comparison_adds_information":"PASS","important_differences_taught":"PASS","calm_and_readable":"PASS","commercially_credible":"PASS","target_reader_specificity":"PASS"},
+  "criteria": {"more_valuable_than_v1":"PASS","intentional_space":"FAIL","ukrainian_prior_knowledge_leveraged":"PARTIAL","comparison_adds_information":"PASS","important_differences_taught":"PASS","calm_and_readable":"PASS","commercially_credible":"FAIL","target_reader_specificity":"FAIL"},
   "technical_preflight_independent": true,
-  "human_user_perspective_gate": "PENDING"
+  "automated_assessment_before_human_gate": "PASS",
+  "human_user_perspective_gate": "FAIL",
+  "failure_classification": "PRODUCT_EXPERIENCE_GATE_FAIL",
+  "human_findings": ["slide-deck composition","insufficient ordinary-page density","global prior-driving assumption","English reader-facing taxonomy"],
+  "release_effect": "FULL_PRODUCTION_BLOCKED"
 }

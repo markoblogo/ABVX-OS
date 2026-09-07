@@ -6,6 +6,7 @@ from pathlib import Path
 
 from abvx_harness.harness import validate_repository
 from abvx_harness.book_preflight import audit_epub_toc, audit_page_geometry, audit_print_toc, audit_svg, find_collisions, high_risk_pages
+from abvx_harness.publishing_gates import release_authorization
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -92,6 +93,11 @@ class BookFactoryTests(unittest.TestCase):
         self.assertIn("visible print TOC", " ".join(standard))
         self.assertIn("interactive EPUB TOC", " ".join(standard))
         self.assertIn("reading order", policy)
+
+    def test_technical_validity_alone_never_means_kdp_ready(self):
+        result = release_authorization({"technical": "PASS", "toc_navigation": "PASS"})
+        self.assertEqual(result["status"], "PRODUCTION_BLOCKED")
+        self.assertIn("product_quality", {item["gate"] for item in result["failures"]})
 
     def test_final_unusual_indices_qa_is_release_candidate_ready(self):
         qa = json.loads((ROOT / "books/research/unusual-indices/final-production-008-qa.json").read_text())

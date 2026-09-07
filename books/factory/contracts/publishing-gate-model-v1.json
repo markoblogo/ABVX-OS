@@ -1,0 +1,8 @@
+{
+  "schema_version":"publishing-gate-model/v1",
+  "model_id":"PUBLISHING-GATES-V1",
+  "purpose":"Separate market selection, product definition, representative experience, product quality, technical manufacturability and external preview evidence.",
+  "sequence":["MARKET","PRODUCT_THESIS","REPRESENTATIVE_PRODUCT","FULL_PRODUCTION","FACTUAL_SOURCE_QA","LANGUAGE_QA","EDITORIAL_QA","PRODUCT_QUALITY_QA","TECHNICAL_PRODUCTION_QA","TOC_NAVIGATION_QA","KDP_EXTERNAL_PREVIEW","RELEASE"],
+  "waivers":{"REPRESENTATIVE_PRODUCT":"Allowed only when the product profile does not materially depend on unusual design, pedagogy, comparison, workbook usability or information architecture.","LANGUAGE_QA":"Allowed for a single-language book after explicit declaration."},
+  "invariants":["PRODUCT_QUALITY is independent from FACTUAL_SOURCE, EDITORIAL and TECHNICAL","TECHNICAL PASS cannot change PRODUCT_QUALITY FAIL","KDP READY requires every mandatory gate","PAGE COUNT is neither cost nor value","human taste is retained where marginal value is high"]
+}

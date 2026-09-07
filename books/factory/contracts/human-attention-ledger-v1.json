@@ -1,0 +1,5 @@
+{
+  "schema_version":"human-attention-ledger/v1",
+  "categories":["SUBJECT_MATTER_HOURS","PRODUCT_TASTE_MINUTES","COVER_MINUTES","KDP_UPLOAD_MINUTES","CORRECTION_MINUTES"],
+  "rule":"Track high-leverage human judgment separately from routine publishing mechanics; do not collapse it into generic owner hours."
+}

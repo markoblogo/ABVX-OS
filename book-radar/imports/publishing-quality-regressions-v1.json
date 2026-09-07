@@ -1,0 +1,11 @@
+{
+  "schema_version":"book-radar-import/v1",
+  "evidence":[
+    {"id":"evidence:RN2-037:technical-qa-false-positive","opportunity_id":"RN2-037","kind":"production_feedback","observed_at":"2026-09-07","data":{"TECHNICAL_FALSE_POSITIVE":true,"classification":"TECHNICAL_QA_FALSE_POSITIVE","lesson":"Internal technical PASS did not replace KDP external preview.","record":"books/factory/lessons/publishing-quality-false-positives-v1.json"}},
+    {"id":"evidence:RN3-091:v1-product-false-positive-system","opportunity_id":"RN3-091","kind":"production_feedback","observed_at":"2026-09-07","data":{"PRODUCT_FALSE_POSITIVE":true,"PRODUCT_QUALITY_REWORK":true,"classification":"PRODUCT_QUALITY_FALSE_POSITIVE","record":"books/factory/lessons/publishing-quality-false-positives-v1.json"}},
+    {"id":"evidence:RN3-091:v2-prototype-1-human-fail","opportunity_id":"RN3-091","kind":"representative_product_feedback","observed_at":"2026-09-07","data":{"PRODUCT_THESIS_STRENGTH":"PASS","HUMAN_PRODUCT_GATE_REQUIRED":true,"representative_product":"FAIL","full_production":"BLOCKED","reason":"Slide-like sparse composition and an invalid global assumption of Ukrainian driving experience."}}
+  ],
+  "decisions":[
+    {"id":"decision:RN3-091:v2-human-product-gate-1","opportunity_id":"RN3-091","decision":"REPRESENTATIVE_PRODUCT_FAIL_HUMAN_GATE_1","decided_at":"2026-09-07","reason":"Market and Product Thesis V2 pass, but the first representative product failed human product-taste review; full V2 production is blocked pending prototype 2."}
+  ]
+}

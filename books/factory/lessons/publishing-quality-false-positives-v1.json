@@ -1,0 +1,8 @@
+{
+  "schema_version":"publishing-quality-lessons/v1",
+  "cases":[
+    {"id":"RN2-037","classification":"TECHNICAL_QA_FALSE_POSITIVE","automated_belief":"Internal preflight PASS","human_external_finding":["KDP-safe margin violations","object and text overflow","visual text collisions","malformed SVG labels","missing print and Kindle TOC"],"corrective_action":"margin, collision, SVG-label, TOC/navigation and high-risk page checks","reusable_lesson":"Internal technical validity does not replace format-specific KDP preview."},
+    {"id":"RN3-091-V1","classification":"PRODUCT_QUALITY_FALSE_POSITIVE","automated_belief":"Factual, rights, language, technical and package PASS implied KDP READY","human_external_finding":["excessive whitespace","database-dump feeling","one trivial entry stretched to a page","weak paid transformation"],"corrective_action":"separate Product Quality Gate and require representative experience for design-dependent products","reusable_lesson":"A manufacturable correct PDF can still be a weak commercial product."},
+    {"id":"RN3-091-V2-PROTOTYPE-1","classification":"PRODUCT_EXPERIENCE_GATE_FAIL","automated_belief":"Comparison thesis and internal Product Quality heuristics PASS","human_external_finding":["slide-deck composition","insufficient ordinary-page density","global assumption of prior Ukrainian driving knowledge","English reader-facing taxonomy"],"corrective_action":"second eight-page normal-book prototype for both novice and transfer audiences","reusable_lesson":"The hardest representative pages and a short human taste gate are required when layout and prior knowledge define the value."}
+  ]
+}

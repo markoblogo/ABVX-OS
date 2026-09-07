@@ -1,0 +1,6 @@
+{
+  "schema_version":"product-contract/v1",
+  "required_fields":["buyer","buyer_job","prior_knowledge","confusions","better_or_faster","paid_value","specific_advantage","intentionally_not"],
+  "dataset_driven_requirement":{"required_fields":["raw_source","transformation","buyer_value"],"fail_state":"FULL_PRODUCTION_BLOCKED"},
+  "rule":"Topic, TOC and page budget alone cannot authorize full production."
+}
