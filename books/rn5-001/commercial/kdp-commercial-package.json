@@ -1,5 +1,5 @@
 {
-  "schema_version": "rn5-001-commercial-package/v1",
+  "schema_version": "rn5-001-commercial-package/v2",
   "status": "FINAL_AFTER_CONTENT_LAYOUT_QA_FREEZE",
   "title": "Solar Proposal Decoder",
   "subtitle": "A Homeowner's System for Comparing Quotes, Financing, Production Claims, Scope, and Warranties Before Signing",
@@ -69,6 +69,34 @@
   "economics_source": "KDP Paperback Printing Cost and Paperback Royalty official help; large-trim black ink, 24\u2013110 pages uses $2.84 fixed Amazon.com printing cost; $16.99 receives 60% rate.",
   "content_version": "RN5-001-v1.1",
   "commercial_package_content_version": "RN5-001-v1.1",
+  "pricing": {
+    "price_status": "FINAL",
+    "final_price_version": "RN5-001-v1.1",
+    "final_content_version": "RN5-001-v1.1",
+    "final_layout_version": "RN5-001-v1.1",
+    "formats": {
+      "PAPERBACK": {
+        "recommended_list_price": 16.99,
+        "currency": "USD",
+        "primary_marketplace": "Amazon.com",
+        "acceptable_test_range": {
+          "minimum": 15.99,
+          "maximum": 17.99,
+          "currency": "USD"
+        },
+        "production_or_delivery_cost": 2.84,
+        "royalty_rate_tier": "60% Amazon marketplace royalty tier",
+        "estimated_royalty_per_sale": 7.35,
+        "pricing_rationale": "The direct proposal-decoder niche remains visibly underserved. Current adjacent homeowner solar paperbacks cluster around EUR 12.90\u201317.20 in the Amazon.com France-delivery view. The 8 x 10 write-in decision system offers more transaction-specific utility than a general guide, while $16.99 remains inside the visible substitute band and preserves a $7.35 estimated Amazon.com royalty.",
+        "date_checked": "2026-09-08",
+        "final_trim": "8 x 10 in",
+        "final_page_count": 58,
+        "ink": "Black & white",
+        "paper": "White",
+        "final_printing_cost": 2.84
+      }
+    }
+  },
   "open_content_or_layout_correction_gates": 0,
   "cover_brief": {
     "status": "BRIEF_ONLY_AWAITING_HUMAN_COVER_GATE",

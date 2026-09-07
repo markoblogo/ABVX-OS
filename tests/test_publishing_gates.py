@@ -1,8 +1,11 @@
 import json, tempfile, unittest
 from pathlib import Path
-from abvx_harness.publishing_gates import audit_no_bleed_objects, assess_format_eligibility, validate_product_contract, validate_commercial_package, validate_callout_layout, validate_format_layout, representative_product_requirement, record_human_product_gate, release_authorization
+from abvx_harness.publishing_gates import audit_no_bleed_objects, assess_format_eligibility, validate_product_contract, validate_commercial_artifacts, validate_commercial_package, validate_callout_layout, validate_format_layout, representative_product_requirement, record_human_product_gate, release_authorization
 
 GOOD={"buyer":"learner","buyer_job":"learn a system","prior_knowledge":"none or adjacent system","confusions":["transfer traps"],"better_or_faster":"recognize and act","paid_value":"curated comparisons","specific_advantage":"two-system map","intentionally_not":"legal advice","primary_format":"PAPERBACK","secondary_formats":["KINDLE"],"format_eligibility_status":{"PAPERBACK":"SUPPORTED","KINDLE":"SUPPORTED"},"format_specific_commercial_role":{"PAPERBACK":"PRIMARY","KINDLE":"SECONDARY"},"product_class":"COMPARISON_GUIDE","dataset_driven":True,"raw_data_transformation":{"raw_source":"two official rule sets","transformation":"comparison graph and explanations","buyer_value":"safe transfer and faster learning"}}
+
+def commercial_package():
+    return {"title":"T","subtitle":"S","author":"A","description":"D","keywords":[str(i) for i in range(7)],"categories":["a","b","c"],"paperback_price":16.99,"primary_marketplace":"Amazon.com","planned_formats":["PAPERBACK"],"format_eligibility_status":{"PAPERBACK":"SUPPORTED"},"format_settings":{"trim":"8 x 10 in","ink":"Black & white","paper":"White","kdp_rounded_page_count":58},"cover_brief":"brief.md","content_version":"V1","commercial_package_content_version":"V1","open_content_or_layout_correction_gates":0,"pricing":{"price_status":"FINAL","final_price_version":"V1","final_content_version":"V1","final_layout_version":"V1","formats":{"PAPERBACK":{"recommended_list_price":16.99,"currency":"USD","primary_marketplace":"Amazon.com","acceptable_test_range":{"minimum":15.99,"maximum":17.99},"production_or_delivery_cost":2.84,"royalty_rate_tier":"60%","estimated_royalty_per_sale":7.35,"pricing_rationale":"Current substitutes and buyer value support the recommendation.","date_checked":"2026-09-08","final_trim":"8 x 10 in","final_page_count":58,"ink":"Black & white","paper":"White","final_printing_cost":2.84}}}}
 
 class PublishingGateTests(unittest.TestCase):
     def test_format_eligibility_is_versioned_and_fails_closed(self):
@@ -51,25 +54,47 @@ class PublishingGateTests(unittest.TestCase):
         self.assertEqual(release_authorization({"technical":"PASS"})["status"],"PRODUCTION_BLOCKED")
 
     def test_commercial_package_requires_copy_paste_complete_metadata(self):
-        package={"title":"T","subtitle":"S","author":"A","description":"D","keywords":[str(i) for i in range(7)],"categories":["a","b","c"],"paperback_price":18.9,"kindle_price":7.99,"primary_marketplace":"Amazon.fr","format_settings":{"paperback":{},"kindle":{}},"cover_brief":"brief.md","content_version":"V2.1","commercial_package_content_version":"V2.1","open_content_or_layout_correction_gates":0}
+        package=commercial_package()
         self.assertEqual(validate_commercial_package(package)["status"],"PASS")
         package.pop("paperback_price")
         self.assertEqual(validate_commercial_package(package)["status"],"FAIL")
 
     def test_commercial_package_cannot_finalize_against_stale_content(self):
-        package={"title":"T","subtitle":"S","author":"A","description":"D","keywords":[str(i) for i in range(7)],"categories":["a","b","c"],"paperback_price":18.9,"kindle_price":7.99,"primary_marketplace":"Amazon.fr","format_settings":{"paperback":{},"kindle":{}},"cover_brief":"brief.md","content_version":"V2.1","commercial_package_content_version":"V2","open_content_or_layout_correction_gates":1}
+        package=commercial_package();package['commercial_package_content_version']='OLD';package['open_content_or_layout_correction_gates']=1
         result=validate_commercial_package(package)
         self.assertEqual(result["status"],"FAIL")
         self.assertIn("content_version.match",result["missing"])
         self.assertIn("open_content_or_layout_correction_gates.zero",result["missing"])
 
     def test_commercial_package_only_requires_prices_for_planned_supported_formats(self):
-        package={"title":"T","subtitle":"S","author":"A","description":"D","keywords":[str(i) for i in range(7)],"categories":["a","b","c"],"paperback_price":18.9,"primary_marketplace":"Amazon.fr","format_settings":{"paperback":{}},"cover_brief":"brief.md","content_version":"V2.1.1","commercial_package_content_version":"V2.1.1","open_content_or_layout_correction_gates":0,"planned_formats":["PAPERBACK"],"format_eligibility_status":{"PAPERBACK":"SUPPORTED","KINDLE":"UNSUPPORTED"}}
+        package=commercial_package();package['format_eligibility_status']['KINDLE']='UNSUPPORTED'
         self.assertEqual(validate_commercial_package(package)["status"],"PASS")
         package["planned_formats"].append("KINDLE")
         result=validate_commercial_package(package)
         self.assertEqual(result["status"],"FAIL")
         self.assertIn("format_eligibility_status.KINDLE.SUPPORTED",result["missing"])
+
+    def test_missing_final_price_in_metadata_blocks_release(self):
+        fixture=json.loads((Path(__file__).resolve().parents[1]/'book-radar/quality-fixtures/kdp-final-pricing-gate.json').read_text())
+        self.assertEqual(next(x for x in fixture['cases'] if x['id']=='missing_metadata_price')['expected'],'FAIL')
+        package=commercial_package()
+        artifacts={"commercial_package":"16.99","metadata_card":"keywords and categories only","kdp_upload_card":"16.99","pricing_analysis":"16.99","book_radar_record":"16.99"}
+        self.assertEqual(validate_commercial_artifacts(package,artifacts)['status'],'FAIL')
+
+    def test_price_for_old_page_count_requires_recalculation(self):
+        package=commercial_package();package['pricing']['formats']['PAPERBACK']['final_page_count']=57
+        result=validate_commercial_package(package)
+        self.assertEqual(result['status'],'FAIL')
+        self.assertEqual(result['price_status'],'RECALCULATION_REQUIRED')
+
+    def test_provisional_price_blocks_release(self):
+        package=commercial_package();package['pricing']['price_status']='PROVISIONAL'
+        self.assertEqual(validate_commercial_package(package)['status'],'FAIL')
+
+    def test_final_price_consistent_everywhere_passes(self):
+        package=commercial_package();artifacts={name:'Recommended price $16.99' for name in ('commercial_package','metadata_card','kdp_upload_card','pricing_analysis','book_radar_record')}
+        self.assertEqual(validate_commercial_package(package)['status'],'PASS')
+        self.assertEqual(validate_commercial_artifacts(package,artifacts)['status'],'PASS')
 
     def test_commercial_false_pass_blocks_kdp_ready(self):
         gates={k:"PASS" for k in ("market","product_thesis","representative_product","factual_source","language","editorial","product_quality","technical","toc_navigation")}

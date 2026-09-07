@@ -53,5 +53,8 @@
   "paperback_price_usd": 16.99,
   "printing_cost_usd": 2.84,
   "estimated_paperback_royalty_usd": 7.35,
-  "open_content_or_layout_correction_gates": 0
+  "open_content_or_layout_correction_gates": 0,
+  "final_price_version": "RN5-001-v1.1",
+  "final_layout_version": "RN5-001-v1.1",
+  "price_status": "FINAL"
 }

@@ -5901,6 +5901,14 @@
       "opportunity_id": "RN5-001",
       "production_authorized": false,
       "reason": "All five callout pages show distinct exterior breathing room; collision and optical-spacing gates now pass independently."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "FINAL_PRICE_USD_16_99",
+      "id": "decision:RN5-001:final-price-16-99",
+      "opportunity_id": "RN5-001",
+      "production_authorized": false,
+      "reason": "The price remains inside the visible adjacent shelf while reflecting the higher buyer utility of a proposal-decoding and write-in decision system; fixed print cost and 60% royalty yield approximately $7.35."
     }
   ],
   "evidence": [
@@ -13475,6 +13483,55 @@
       "opportunity_id": "RN5-001",
       "source_ref": "books/rn5-001/qa/contact-sheets/callout-spacing-contact-sheet.png",
       "summary": "Exterior spacing was separated into before, after-body and after-heading constants; all five callout pages passed measured and raster visual QA without changing pagination."
+    },
+    {
+      "details": {
+        "classification": "COMMERCIAL_PACKAGE_INCOMPLETE_FALSE_PASS",
+        "occurrence": 1
+      },
+      "id": "evidence:RN3-091:commercial-package-incomplete-false-pass-history",
+      "kind": "COMMERCIAL_PACKAGE_INCOMPLETE_FALSE_PASS",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091",
+      "source_ref": "book-radar/imports/rn3-091-v2-commercial-package-result.json",
+      "summary": "Historical first occurrence: KDP-ready state was reached before a complete final commercial package existed."
+    },
+    {
+      "details": {
+        "classification": "REPEAT_REGRESSION",
+        "occurrence": 2,
+        "root_cause": "The prior validation boundary checked package presence and versions but not final-price completeness and cross-artifact consistency."
+      },
+      "id": "evidence:RN5-001:final-price-metadata-omission",
+      "kind": "FINAL_PRICE_METADATA_OMISSION",
+      "observed_at": "2026-09-08",
+      "opportunity_id": "RN5-001",
+      "source_ref": "books/rn5-001/commercial/pricing-analysis.md",
+      "summary": "Second occurrence: price existed in some RN5 production artifacts but the reusable gate did not require a final pricing section and consistent recommendation across every upload artifact."
+    },
+    {
+      "details": {
+        "acceptable_test_range": [
+          15.99,
+          17.99
+        ],
+        "currency": "USD",
+        "estimated_royalty": 7.35,
+        "final_content_version": "RN5-001-v1.1",
+        "final_layout_version": "RN5-001-v1.1",
+        "final_price_version": "RN5-001-v1.1",
+        "price_status": "FINAL",
+        "primary_marketplace": "Amazon.com",
+        "printing_cost": 2.84,
+        "recommended_list_price": 16.99,
+        "royalty_rate": 0.6
+      },
+      "id": "evidence:RN5-001:final-pricing-complete",
+      "kind": "final_pricing",
+      "observed_at": "2026-09-08",
+      "opportunity_id": "RN5-001",
+      "source_ref": "books/rn5-001/commercial/kdp-commercial-package.json",
+      "summary": "The final 8 x 10, 58-page paperback is priced at $16.99 on Amazon.com after current substitute and KDP economics verification."
     }
   ],
   "launches": [

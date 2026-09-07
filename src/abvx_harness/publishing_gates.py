@@ -18,6 +18,7 @@ COMMERCIAL_PACKAGE_FIELDS = (
     "title", "subtitle", "author", "description", "keywords", "categories",
     "primary_marketplace", "format_settings",
     "cover_brief", "content_version", "commercial_package_content_version",
+    "pricing",
 )
 HUMAN_TASTE_TRIGGERS = {
     "novel_format", "layout_dependent", "visual_differentiation",
@@ -144,21 +145,72 @@ def validate_commercial_package(package: dict[str, Any]) -> dict[str, Any]:
     planned = package.get("planned_formats")
     formats = [str(v).upper() for v in planned] if planned else ["PAPERBACK", "KINDLE"]
     eligibility = package.get("format_eligibility_status", {})
+    pricing = package.get("pricing", {})
+    price_formats = pricing.get("formats", {}) if isinstance(pricing, dict) else {}
     for fmt in formats:
         key = f"{fmt.lower()}_price"
         if not package.get(key):
             missing.append(key)
         if planned and eligibility.get(fmt) != "SUPPORTED":
             missing.append(f"format_eligibility_status.{fmt}.SUPPORTED")
+        price = price_formats.get(fmt, {})
+        required_price_fields = (
+            "recommended_list_price", "currency", "primary_marketplace",
+            "acceptable_test_range", "production_or_delivery_cost",
+            "royalty_rate_tier", "estimated_royalty_per_sale",
+            "pricing_rationale", "date_checked",
+        )
+        for field in required_price_fields:
+            if price.get(field) is None or price.get(field) == "":
+                missing.append(f"pricing.formats.{fmt}.{field}")
+        if fmt == "PAPERBACK":
+            for field in ("final_trim", "final_page_count", "ink", "paper", "final_printing_cost"):
+                if price.get(field) is None or price.get(field) == "":
+                    missing.append(f"pricing.formats.{fmt}.{field}")
+            settings = package.get("format_settings", {})
+            expected = {
+                "final_trim": settings.get("trim"),
+                "final_page_count": settings.get("kdp_rounded_page_count"),
+                "ink": settings.get("ink"),
+                "paper": settings.get("paper"),
+            }
+            for field, value in expected.items():
+                if price.get(field) != value:
+                    missing.append(f"pricing.formats.{fmt}.{field}.matches_final_format")
     for key in tuple(f"{fmt.lower()}_price" for fmt in formats):
         value = package.get(key)
         if value is not None and (not isinstance(value, (int, float)) or value <= 0):
             missing.append(f"{key}.positive_number")
     if package.get("content_version") != package.get("commercial_package_content_version"):
         missing.append("content_version.match")
+    if pricing.get("price_status") != "FINAL":
+        missing.append("pricing.price_status.FINAL")
+    for version_field in ("final_price_version", "final_content_version", "final_layout_version"):
+        if pricing.get(version_field) != package.get("content_version"):
+            missing.append(f"pricing.{version_field}.matches_content_version")
     if package.get("open_content_or_layout_correction_gates") != 0:
         missing.append("open_content_or_layout_correction_gates.zero")
-    return {"status": "PASS" if not missing else "FAIL", "missing": sorted(set(missing))}
+    dependency_mismatch = any("matches_final_format" in item or "matches_content_version" in item for item in missing)
+    return {"status": "PASS" if not missing else "FAIL", "price_status": "RECALCULATION_REQUIRED" if dependency_mismatch else pricing.get("price_status", "MISSING"), "missing": sorted(set(missing))}
+
+def validate_commercial_artifacts(package: dict[str, Any], artifacts: dict[str, str]) -> dict[str, Any]:
+    """Require the final recommendation in every operational pricing artifact."""
+    failures = []
+    required = ("commercial_package", "metadata_card", "kdp_upload_card", "pricing_analysis", "book_radar_record")
+    for name in required:
+        if not artifacts.get(name):
+            failures.append(f"artifacts.{name}.required")
+    for fmt in package.get("planned_formats", []):
+        price = package.get("pricing", {}).get("formats", {}).get(str(fmt).upper(), {}).get("recommended_list_price")
+        if not isinstance(price, (int, float)):
+            failures.append(f"pricing.formats.{str(fmt).upper()}.recommended_list_price")
+            continue
+        tokens = {f"{price:.2f}", f"${price:.2f}", str(price)}
+        for name in required:
+            text = artifacts.get(name, "")
+            if text and not any(token in text for token in tokens):
+                failures.append(f"artifacts.{name}.{str(fmt).upper()}.final_price")
+    return {"status":"PASS" if not failures else "FAIL","failures":sorted(set(failures))}
 
 def release_authorization(gates: dict[str, str], mandatory: list[str] | None = None) -> dict[str, Any]:
     required = mandatory or list(RELEASE_GATES); failures=[]

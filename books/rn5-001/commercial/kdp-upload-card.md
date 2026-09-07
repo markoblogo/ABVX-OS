@@ -58,12 +58,20 @@ The book includes an original synthetic three-quote case plus a practical write-
 - Left-to-right
 - Not low-content
 - PDF interior pages: 57; KDP rounded print count: 58
-- Primary marketplace: Amazon.com
-- List price: $16.99
-- Printing cost estimate: $2.84
-- Standard Amazon royalty estimate: $7.35 per unit
-- Expanded Distribution royalty estimate: $3.96 per unit
 - ISBN: choose KDP free ISBN or publisher-owned ISBN at upload
+
+## PRICING
+
+- Primary marketplace: Amazon.com
+- Paperback recommended list price: $16.99 USD
+- Acceptable test range: $15.99–$17.99 USD
+- Printing cost: $2.84
+- Royalty tier: 60% on Amazon.com at this list price
+- Estimated royalty: approximately $7.35 per sale
+- Expanded Distribution: NO initially — the product is a specialized direct-to-consumer workbook, while Expanded Distribution reduces the estimated royalty to $3.96 and does not guarantee retailer or library orders.
+- Other marketplace prices: use KDP-converted equivalents as the initial treatment, then review the live values for obvious outliers before publication.
+- Price last verified: September 8, 2026
+- Confirm the live printing cost and royalty in KDP immediately before publication; this confirmation does not replace the $16.99 recommendation.
 
 ## AI-generated content disclosure
 

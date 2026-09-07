@@ -1,6 +1,6 @@
 {
   "schema_version": "rn5-001-amazon-commercial-refresh/v1",
-  "observed_at": "2026-09-07",
+  "observed_at": "2026-09-08",
   "marketplace": "Amazon.com (delivery context displayed to France; visible prices rendered in EUR)",
   "exact_query": {
     "query": "solar proposal comparison workbook",
@@ -11,15 +11,16 @@
   },
   "adjacent_query": {
     "query": "solar homeowner guide",
-    "visible_result_count": 491,
+    "visible_result_count": 488,
     "observations": [
       {"title":"The Homeowner's Solar Survival Guide","published":"2026-05-12","ratings":17,"visible_paperback_price_eur":12.90},
       {"title":"Solar Panel Installation: A Homeowner's Guide to Residential Solar (2026 Edition)","published":"2026-06-08","ratings":null,"visible_paperback_price_eur":12.90},
       {"title":"Solar System Sizing Workbook 2026","published":"2026-04-17","ratings":1,"visible_paperback_price_eur":15.48},
-      {"title":"Kick Your Electric Bill To The Curb","published":"2026-05-26","ratings":2,"visible_paperback_price_eur":17.20}
+      {"title":"Kick Your Electric Bill To The Curb","published":"2026-05-26","ratings":2,"visible_paperback_price_eur":17.20},
+      {"title":"Solar Without the Scam","published":"2026-09-06","ratings":null,"visible_paperback_price_eur":17.20}
     ],
     "interpretation": "A broad, active adjacent shelf includes recent entrants, but visible products emphasize general education, installation, sizing, or savings rather than proposal extraction and written-question workflow."
   },
-  "commercial_decision": "Proceed with differentiated paperback-first proposal decoder at USD 16.99; no paid-ad dependency assumed.",
+  "commercial_decision": "Freeze the differentiated paperback-first proposal decoder at USD 16.99. The product sits inside the visible adjacent shelf while offering a more transaction-specific reference-plus-workbook system; no paid-ad dependency is assumed.",
   "limitations": ["Amazon results and prices are dynamic.","BSR was not visible in the search-state evidence.","Displayed EUR prices reflect the browsing delivery/currency context and are not used as the Amazon.com list-price input."]
 }

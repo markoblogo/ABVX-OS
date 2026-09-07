@@ -279,6 +279,21 @@
       "candidate_capability": "callout_optical_spacing_qa",
       "recommended_action": "GEOMETRIC NON-OVERLAP ≠ GOOD TYPOGRAPHIC SPACING. Keep collision QA and raster-reviewed optical-spacing QA independent.",
       "status": "promoted"
+    },
+    {
+      "id": "rn5-001-final-price-metadata-repeat-regression",
+      "originating_project": "book-radar",
+      "originating_mission": "RN5-001",
+      "observed_need": "After RN3-091 exposed an incomplete commercial-package false pass, RN5-001 still reached KDP-ready state without a mandatory final price section in every operational metadata artifact.",
+      "classification": "REPEATED_NEED",
+      "evidence_refs": [
+        "book-radar/imports/rn3-091-v2-commercial-package-result.json",
+        "book-radar/imports/rn5-001-final-pricing-regression.json",
+        "books/rn5-001/commercial/pricing-analysis.md"
+      ],
+      "candidate_capability": "mandatory_final_price_metadata_gate",
+      "recommended_action": "Fail KDP_READY unless each eligible commercial format has a FINAL evidence-based recommendation whose content, layout, trim and page-count versions match and whose price appears in every upload artifact.",
+      "status": "promoted"
     }
   ]
 }

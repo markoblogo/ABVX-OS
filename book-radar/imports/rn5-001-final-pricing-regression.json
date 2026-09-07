@@ -1,0 +1,42 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:RN3-091:commercial-package-incomplete-false-pass-history",
+      "opportunity_id": "RN3-091",
+      "kind": "COMMERCIAL_PACKAGE_INCOMPLETE_FALSE_PASS",
+      "observed_at": "2026-09-07",
+      "summary": "Historical first occurrence: KDP-ready state was reached before a complete final commercial package existed.",
+      "details": {"classification":"COMMERCIAL_PACKAGE_INCOMPLETE_FALSE_PASS","occurrence":1},
+      "source_ref": "book-radar/imports/rn3-091-v2-commercial-package-result.json"
+    },
+    {
+      "id": "evidence:RN5-001:final-price-metadata-omission",
+      "opportunity_id": "RN5-001",
+      "kind": "FINAL_PRICE_METADATA_OMISSION",
+      "observed_at": "2026-09-08",
+      "summary": "Second occurrence: price existed in some RN5 production artifacts but the reusable gate did not require a final pricing section and consistent recommendation across every upload artifact.",
+      "details": {"classification":"REPEAT_REGRESSION","occurrence":2,"root_cause":"The prior validation boundary checked package presence and versions but not final-price completeness and cross-artifact consistency."},
+      "source_ref": "books/rn5-001/commercial/pricing-analysis.md"
+    },
+    {
+      "id": "evidence:RN5-001:final-pricing-complete",
+      "opportunity_id": "RN5-001",
+      "kind": "final_pricing",
+      "observed_at": "2026-09-08",
+      "summary": "The final 8 x 10, 58-page paperback is priced at $16.99 on Amazon.com after current substitute and KDP economics verification.",
+      "details": {"price_status":"FINAL","recommended_list_price":16.99,"currency":"USD","acceptable_test_range":[15.99,17.99],"primary_marketplace":"Amazon.com","printing_cost":2.84,"royalty_rate":0.60,"estimated_royalty":7.35,"final_price_version":"RN5-001-v1.1","final_content_version":"RN5-001-v1.1","final_layout_version":"RN5-001-v1.1"},
+      "source_ref": "books/rn5-001/commercial/kdp-commercial-package.json"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN5-001:final-price-16-99",
+      "opportunity_id": "RN5-001",
+      "decision": "FINAL_PRICE_USD_16_99",
+      "decided_at": "2026-09-08",
+      "reason": "The price remains inside the visible adjacent shelf while reflecting the higher buyer utility of a proposal-decoding and write-in decision system; fixed print cost and 60% royalty yield approximately $7.35.",
+      "production_authorized": false
+    }
+  ]
+}

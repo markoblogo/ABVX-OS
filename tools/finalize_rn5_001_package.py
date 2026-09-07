@@ -3,14 +3,14 @@
 from __future__ import annotations
 import json
 from pathlib import Path
-from abvx_harness.publishing_gates import validate_commercial_package, release_authorization
+from abvx_harness.publishing_gates import validate_commercial_artifacts, validate_commercial_package, release_authorization
 
 ROOT=Path(__file__).resolve().parents[1]
 BOOK=ROOT/'books'/'rn5-001'; COMM=BOOK/'commercial'; PROD=BOOK/'production'; QA=BOOK/'qa'
 COMM.mkdir(parents=True,exist_ok=True)
 manifest=json.loads((PROD/'production-manifest.json').read_text())
 qa=json.loads((QA/'release-qa.json').read_text())
-assert manifest['status']=='CONTENT_LAYOUT_AND_QA_FROZEN' and qa['status']=='PASS'
+assert manifest.get('content_frozen') and manifest.get('layout_frozen') and qa['status']=='PASS'
 assert manifest['content_version']=='RN5-001-v1.1' and manifest['trim_name']=='8x10'
 assert manifest['pdf_pages']==57 and manifest['kdp_rounded_page_count']==58
 
@@ -34,7 +34,7 @@ categories=[
   {"rank":3,"path":"Science & Math > Energy > Solar","reason":"The subject is residential solar and production-model evidence.","fallback":"Engineering & Transportation > Engineering > Energy Production & Extraction"},
 ]
 package={
-  "schema_version":"rn5-001-commercial-package/v1",
+  "schema_version":"rn5-001-commercial-package/v2",
   "status":"FINAL_AFTER_CONTENT_LAYOUT_QA_FREEZE",
   "title":"Solar Proposal Decoder",
   "subtitle":"A Homeowner's System for Comparing Quotes, Financing, Production Claims, Scope, and Warranties Before Signing",
@@ -57,6 +57,30 @@ package={
   "economics_source":"KDP Paperback Printing Cost and Paperback Royalty official help; large-trim black ink, 24–110 pages uses $2.84 fixed Amazon.com printing cost; $16.99 receives 60% rate.",
   "content_version":"RN5-001-v1.1",
   "commercial_package_content_version":"RN5-001-v1.1",
+  "pricing":{
+    "price_status":"FINAL",
+    "final_price_version":"RN5-001-v1.1",
+    "final_content_version":"RN5-001-v1.1",
+    "final_layout_version":"RN5-001-v1.1",
+    "formats":{
+      "PAPERBACK":{
+        "recommended_list_price":16.99,
+        "currency":"USD",
+        "primary_marketplace":"Amazon.com",
+        "acceptable_test_range":{"minimum":15.99,"maximum":17.99,"currency":"USD"},
+        "production_or_delivery_cost":2.84,
+        "royalty_rate_tier":"60% Amazon marketplace royalty tier",
+        "estimated_royalty_per_sale":7.35,
+        "pricing_rationale":"The direct proposal-decoder niche remains visibly underserved. Current adjacent homeowner solar paperbacks cluster around EUR 12.90–17.20 in the Amazon.com France-delivery view. The 8 x 10 write-in decision system offers more transaction-specific utility than a general guide, while $16.99 remains inside the visible substitute band and preserves a $7.35 estimated Amazon.com royalty.",
+        "date_checked":"2026-09-08",
+        "final_trim":"8 x 10 in",
+        "final_page_count":58,
+        "ink":"Black & white",
+        "paper":"White",
+        "final_printing_cost":2.84
+      }
+    }
+  },
   "open_content_or_layout_correction_gates":0,
   "cover_brief":{
     "status":"BRIEF_ONLY_AWAITING_HUMAN_COVER_GATE",
@@ -112,12 +136,20 @@ Series: None
 - Left-to-right
 - Not low-content
 - PDF interior pages: {manifest['pdf_pages']}; KDP rounded print count: {manifest['kdp_rounded_page_count']}
-- Primary marketplace: Amazon.com
-- List price: $16.99
-- Printing cost estimate: $2.84
-- Standard Amazon royalty estimate: $7.35 per unit
-- Expanded Distribution royalty estimate: $3.96 per unit
 - ISBN: choose KDP free ISBN or publisher-owned ISBN at upload
+
+## PRICING
+
+- Primary marketplace: Amazon.com
+- Paperback recommended list price: $16.99 USD
+- Acceptable test range: $15.99–$17.99 USD
+- Printing cost: $2.84
+- Royalty tier: 60% on Amazon.com at this list price
+- Estimated royalty: approximately $7.35 per sale
+- Expanded Distribution: NO initially — the product is a specialized direct-to-consumer workbook, while Expanded Distribution reduces the estimated royalty to $3.96 and does not guarantee retailer or library orders.
+- Other marketplace prices: use KDP-converted equivalents as the initial treatment, then review the live values for obvious outliers before publication.
+- Price last verified: September 8, 2026
+- Confirm the live printing cost and royalty in KDP immediately before publication; this confirmation does not replace the $16.99 recommendation.
 
 ## AI-generated content disclosure
 
@@ -139,6 +171,87 @@ Series: None
 5. Order/inspect a physical proof if desired, then publish.
 """
 (COMM/'kdp-upload-card.md').write_text(card)
+metadata=f"""# RN5-001 — final KDP metadata card
+
+## Identity
+
+- Title: {package['title']}
+- Subtitle: {package['subtitle']}
+- Author: {package['author']}
+- Language: English
+- Edition: 1
+- Series: None
+
+## Description
+
+{description}
+
+## Keywords
+
+"""+"\n".join(f"{i}. {v}" for i,v in enumerate(package['keywords'],1))+"""
+
+## Categories
+
+"""+"\n".join(f"{c['rank']}. {c['path']}" for c in categories)+"""
+
+## Paperback format
+
+- 8 x 10 inches; black-and-white ink on white paper; no bleed; matte cover
+- 57 PDF pages / 58 KDP pages
+- Not low-content; not large print
+
+## PRICING
+
+- Recommended list price: $16.99 USD
+- Primary marketplace: Amazon.com
+- Acceptable test range: $15.99–$17.99 USD
+- Printing cost: $2.84
+- Royalty tier: 60%
+- Estimated royalty: approximately $7.35 per Amazon.com sale
+- Price status: FINAL
+- Price version: RN5-001-v1.1
+- Price checked: September 8, 2026
+"""
+(COMM/'metadata-card.md').write_text(metadata)
+pricing_analysis="""# RN5-001 final pricing analysis
+
+## Recommendation
+
+**Recommended Amazon.com paperback list price: $16.99 USD.**
+
+Acceptable controlled test range: **$15.99–$17.99 USD**. Price status: **FINAL** for RN5-001-v1.1.
+
+## Frozen production inputs
+
+- Trim: 8 x 10 inches
+- Final KDP page count: 58
+- Interior: black ink on white paper
+- Printing cost: $2.84 on Amazon.com
+- Royalty tier: 60% at $16.99
+- Estimated standard royalty: (0.60 × $16.99) − $2.84 = **$7.35**
+- Estimated Expanded Distribution royalty: (0.40 × $16.99) − $2.84 = **$3.96**
+
+## Current market evidence
+
+The September 8, 2026 Amazon.com search view, displayed for delivery to France, showed current adjacent homeowner-solar paperbacks at EUR 12.90, EUR 15.48, and EUR 17.20. Examples included *The Homeowner's Solar Survival Guide* (EUR 12.90), *Solar System Sizing Workbook 2026* (EUR 15.48), and *Kick Your Electric Bill To The Curb* and *Solar Without the Scam* (EUR 17.20). The earlier exact-query check found no direct solar-proposal-comparison workbook.
+
+These displayed EUR prices are directional substitute evidence, not Amazon.com USD list-price inputs. The final product is a specialized 8 x 10 reference-plus-write-in decision system rather than a generic solar introduction. $16.99 places it near the upper-middle of the visible substitute shelf without charging an unsupported premium.
+
+## Distribution decision
+
+Do not enable Expanded Distribution initially. The product is specialized and direct-to-consumer; the lower $3.96 estimated royalty is not justified by any demonstrated bookstore or library demand, and enrollment does not guarantee orders.
+
+Use KDP-converted prices for other marketplaces initially and review the live grid for obvious outliers. Confirm KDP's live cost and royalty immediately before publication; this does not replace the frozen $16.99 recommendation.
+
+## Sources
+
+- Amazon.com live search evidence checked September 8, 2026; results displayed in EUR because the delivery context was France.
+- KDP Paperback Printing Cost: https://kdp.amazon.com/en_US/help/topic/G201834340
+- KDP Paperback Royalty: https://kdp.amazon.com/en_US/help/topic/G201834330
+- KDP Print Book Pricing: https://kdp.amazon.com/en_US/help/topic/G8BKPU9AGVZSF9QF
+- KDP Expanded Distribution: https://kdp.amazon.com/en_US/help/topic/GQTT4W3T5AYK7L45
+"""
+(COMM/'pricing-analysis.md').write_text(pricing_analysis)
 def display(v):
     if isinstance(v,list): return ' / '.join(map(str,v))
     return str(v)
@@ -147,10 +260,17 @@ def display(v):
 format_gate={"schema_version":"rn5-001-format-eligibility/v1","checked":"2026-09-07","language":"English","primary_marketplace":"Amazon.com","paperback":{"platform_support":"SUPPORTED","buyer_utility":"HIGH","commercial_role":"PRIMARY","decision":"PRODUCED"},"kindle":{"platform_support":"SUPPORTED","reflowable_utility":"LOW","commercial_role":"UNCLEAR","reason":"The core job depends on handwriting, roomy three-way matrices, source-page annotation, and a retained physical decision packet. Reflow strips away the primary execution layer; a prose-only Kindle would be a materially different product.","decision":"NOT_JUSTIFIED"},"final_secondary_format_decision":"KINDLE_NOT_PRODUCED"}
 (PROD/'format-eligibility-gate.json').write_text(json.dumps(format_gate,indent=2)+"\n")
 
-gates={"market":"PASS","product_thesis":"PASS","representative_product":"PASS","factual_source":"PASS","language":"PASS","editorial":"PASS","product_quality":"PASS","technical":"PASS","toc_navigation":"PASS","commercial_package":"PASS","kdp_external_preview":"HUMAN_PENDING"}
+artifact_result=validate_commercial_artifacts(package,{
+  "commercial_package":(COMM/'kdp-commercial-package.json').read_text(),
+  "metadata_card":metadata,
+  "kdp_upload_card":card,
+  "pricing_analysis":pricing_analysis,
+  "book_radar_record":(ROOT/'book-radar'/'state.json').read_text(),
+})
+gates={"market":"PASS","product_thesis":"PASS","representative_product":"PASS","factual_source":"PASS","language":"PASS","editorial":"PASS","product_quality":"PASS","technical":"PASS","toc_navigation":"PASS","commercial_package":"PASS" if result['status']=='PASS' and artifact_result['status']=='PASS' else "FAIL","kdp_external_preview":"HUMAN_PENDING"}
 auth=release_authorization(gates)
-release={"schema_version":"rn5-001-release-manifest/v1.1","status":"KDP_READY_AWAITING_HUMAN_COVER_AND_PUBLISHING_GATE" if auth['status']=='KDP_READY' else "NOT_READY","content_version":"RN5-001-v1.1","commercial_package_content_version":"RN5-001-v1.1","gates":gates,"authorization":auth,"paperback_pdf":"output/pdf/solar-proposal-decoder-buyer-decision-system-paperback.pdf","production_master":"books/rn5-001/production/solar-proposal-decoder-production-master.pdf","kindle":"NOT_JUSTIFIED","cover":"BRIEF_ONLY","human_actions":["choose final cover","generate cover from live KDP 58-page template","upload files","run KDP Print Previewer","publish"]}
+release={"schema_version":"rn5-001-release-manifest/v1.2","status":"KDP_READY_AWAITING_HUMAN_COVER_AND_PUBLISHING_GATE" if auth['status']=='KDP_READY' else "NOT_READY","content_version":"RN5-001-v1.1","commercial_package_content_version":"RN5-001-v1.1","final_layout_version":"RN5-001-v1.1","final_price_version":"RN5-001-v1.1","price_status":"FINAL","pricing_hard_gate":gates['commercial_package'],"gates":gates,"authorization":auth,"paperback_pdf":"output/pdf/solar-proposal-decoder-buyer-decision-system-paperback.pdf","production_master":"books/rn5-001/production/solar-proposal-decoder-production-master.pdf","kindle":"NOT_JUSTIFIED","cover":"BRIEF_ONLY","human_actions":["choose final cover","generate cover from live KDP 58-page template","upload files","run KDP Print Previewer","publish"]}
 (PROD/'release-manifest.json').write_text(json.dumps(release,indent=2)+"\n")
-manifest.update({'status':release['status'],'commercial_package':'PASS','commercial_package_content_version':'RN5-001-v1.1','kindle':'NOT_JUSTIFIED','paperback_price_usd':16.99,'printing_cost_usd':2.84,'estimated_paperback_royalty_usd':7.35,'open_content_or_layout_correction_gates':0})
+manifest.update({'status':release['status'],'commercial_package':gates['commercial_package'],'commercial_package_content_version':'RN5-001-v1.1','final_price_version':'RN5-001-v1.1','final_layout_version':'RN5-001-v1.1','price_status':'FINAL','paperback_price_usd':16.99,'printing_cost_usd':2.84,'estimated_paperback_royalty_usd':7.35,'open_content_or_layout_correction_gates':0})
 (PROD/'production-manifest.json').write_text(json.dumps(manifest,indent=2)+"\n")
-print(json.dumps({'commercial_package':result['status'],'release':release['status'],'price':16.99,'printing_cost':2.84,'royalty':7.35},indent=2))
+print(json.dumps({'commercial_package':result['status'],'artifact_consistency':artifact_result['status'],'pricing_hard_gate':gates['commercial_package'],'release':release['status'],'price':16.99,'printing_cost':2.84,'royalty':7.35},indent=2))

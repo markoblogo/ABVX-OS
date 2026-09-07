@@ -16,8 +16,14 @@ class RN5001ProductionTests(unittest.TestCase):
         package=json.loads((BOOK/'commercial'/'kdp-commercial-package.json').read_text())
         self.assertEqual(package['content_version'],package['commercial_package_content_version'])
         self.assertEqual(package['open_content_or_layout_correction_gates'],0)
+        self.assertEqual(package['pricing']['price_status'],'FINAL')
+        self.assertEqual(package['pricing']['final_price_version'],'RN5-001-v1.1')
+        self.assertEqual(package['pricing']['formats']['PAPERBACK']['recommended_list_price'],16.99)
         self.assertEqual(len(package['keywords']),7)
         self.assertEqual(len(package['categories']),3)
+        for name in ('metadata-card.md','kdp-upload-card.md','pricing-analysis.md'):
+            text=(BOOK/'commercial'/name).read_text()
+            self.assertIn('$16.99',text)
 
     def test_format_gate(self):
         gate=json.loads((BOOK/'production'/'format-eligibility-gate.json').read_text())

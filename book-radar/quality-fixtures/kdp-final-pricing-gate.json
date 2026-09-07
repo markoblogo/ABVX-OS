@@ -1,0 +1,10 @@
+{
+  "schema_version": "kdp-final-pricing-gate-fixture/v1",
+  "regression": "RN5-001_FINAL_PRICE_METADATA_OMISSION",
+  "cases": [
+    {"id":"missing_metadata_price","package_complete":true,"keywords_present":true,"categories_present":true,"pricing_analysis_present":true,"metadata_card_has_final_price":false,"expected":"FAIL"},
+    {"id":"old_page_count","price_status":"FINAL","priced_page_count":57,"final_page_count":58,"expected":"FAIL","derived_price_status":"RECALCULATION_REQUIRED"},
+    {"id":"provisional_price","price_status":"PROVISIONAL","expected":"FAIL"},
+    {"id":"consistent_final_price","price_status":"FINAL","recommended_list_price":16.99,"price_present_in_all_artifacts":true,"versions_match":true,"expected":"PASS"}
+  ]
+}
