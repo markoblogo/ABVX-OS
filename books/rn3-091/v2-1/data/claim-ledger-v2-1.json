@@ -1,0 +1,1318 @@
+{
+  "schema_version": "rn3-091-v2.1-claims/v1",
+  "checked_at": "2026-09-07",
+  "claims": [
+    {
+      "claim_id": "FR-A13a",
+      "claim": "Endroit fréquenté par les enfants / Ділянка, де на дорозі можуть з'явитися діти",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A13b",
+      "claim": "Passage pour piétons / Попереду пішохідний перехід",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A14",
+      "claim": "Autres dangers / Інша небезпека, не показана окремим символом",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A15a1",
+      "claim": "Passage d'animaux domestiques / Можлива поява свійських тварин",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A15b",
+      "claim": "Passage d'animaux sauvages / Можлива поява диких тварин",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A15c",
+      "claim": "Passage de cavaliers / Можлива поява вершників",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A16",
+      "claim": "Descente dangereuse / Небезпечний спуск",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A17",
+      "claim": "Annonce de feux tricolores / Попереду світлофор",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A18",
+      "claim": "Circulation dans les deux sens / Починається двосторонній рух",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A19",
+      "claim": "Risque de chutes de pierres / Можливе падіння каміння",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A1a",
+      "claim": "Virage à droite / Небезпечний поворот праворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A1b",
+      "claim": "Virage à gauche / Небезпечний поворот ліворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A1c",
+      "claim": "Succession de virages, premier à droite / Серія поворотів, перший праворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A1d",
+      "claim": "Succession de virages, premier à gauche / Серія поворотів, перший ліворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A20",
+      "claim": "Débouché sur un quai ou une berge / Виїзд на набережну або берег",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A21",
+      "claim": "Débouché de cyclistes / Можливий виїзд велосипедистів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A23",
+      "claim": "Traversée d'une aire de danger aérien / Низьколітні літаки або інша повітряна небезпека",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A24",
+      "claim": "Vent latéral / Сильний боковий вітер",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A2a",
+      "claim": "Cassis ou dos-d'âne / Різка нерівність дороги",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A2b",
+      "claim": "Ralentisseur de type dos-d'âne / Штучна дорожня нерівність",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A3",
+      "claim": "Chaussée rétrécie / Дорога звужується з обох боків",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A3a",
+      "claim": "Chaussée rétrécie par la droite / Дорога звужується праворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A3b",
+      "claim": "Chaussée rétrécie par la gauche / Дорога звужується ліворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A4",
+      "claim": "Chaussée particulièrement glissante / Слизька дорога",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-A6",
+      "claim": "Pont mobile / Розвідний міст",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB1",
+      "claim": "Intersection où la priorité à droite est applicable / Перехрестя з правилом «перешкода праворуч»",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB2",
+      "claim": "Intersection avec une route dont les usagers doivent céder le passage / Ви маєте пріоритет на найближчому перехресті",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB25",
+      "claim": "Carrefour à sens giratoire / Круговий рух із обов'язком поступитися на в'їзді",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB3a",
+      "claim": "Cédez le passage à l'intersection / Дати дорогу",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB3b",
+      "claim": "Cédez le passage à l'intersection à distance indiquée / Попередження про «Дати дорогу» попереду",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB4",
+      "claim": "Arrêt à l'intersection / STOP: повна зупинка й дати дорогу",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB5",
+      "claim": "Arrêt à l'intersection à distance indiquée / Попередження про STOP попереду",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB6",
+      "claim": "Indication du caractère prioritaire d'une route / Головна дорога",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-AB7",
+      "claim": "Fin du caractère prioritaire d'une route / Кінець головної дороги",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B0",
+      "claim": "Circulation interdite à tout véhicule dans les deux sens / Рух усіх транспортних засобів заборонено в обох напрямках",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B1",
+      "claim": "Sens interdit à tout véhicule / В'їзд у цьому напрямку заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B10a",
+      "claim": "Accès interdit aux véhicules transportant plus d'une quantité indiquée de produits explosifs ou inflammables / В'їзд заборонено транспортові з визначеною кількістю вибухових або легкозаймистих вантажів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B11",
+      "claim": "Accès interdit aux véhicules dont la largeur dépasse la valeur indiquée / Обмеження максимальної ширини",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B12",
+      "claim": "Accès interdit aux véhicules dont la hauteur dépasse la valeur indiquée / Обмеження максимальної висоти",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B13",
+      "claim": "Accès interdit aux véhicules dont le poids total dépasse la valeur indiquée / Обмеження максимальної маси",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B13a",
+      "claim": "Accès interdit aux véhicules dont le poids par essieu dépasse la valeur indiquée / Обмеження навантаження на вісь",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B14_30",
+      "claim": "Limitation de vitesse à 30 km/h / Максимальна швидкість 30 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B14_50",
+      "claim": "Limitation de vitesse à 50 km/h / Максимальна швидкість 50 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B14_70",
+      "claim": "Limitation de vitesse à 70 km/h / Максимальна швидкість 70 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B14_90",
+      "claim": "Limitation de vitesse à 90 km/h / Максимальна швидкість 90 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B14_110",
+      "claim": "Limitation de vitesse à 110 km/h / Максимальна швидкість 110 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B14_130",
+      "claim": "Limitation de vitesse à 130 km/h / Максимальна швидкість 130 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B15",
+      "claim": "Cédez le passage à la circulation venant en sens inverse / Дати дорогу зустрічному транспорту",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B16",
+      "claim": "Interdiction de signaux sonores / Звуковий сигнал заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B17-70m",
+      "claim": "Interdiction de maintenir un intervalle inférieur à 70 mètres / Мінімальна дистанція 70 метрів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B18a",
+      "claim": "Accès interdit aux véhicules transportant des marchandises explosives ou inflammables / Заборона для транспорту з вибуховими або легкозаймистими вантажами",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B18b",
+      "claim": "Accès interdit aux véhicules transportant des marchandises pouvant polluer les eaux / Заборона для вантажів, небезпечних для води",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B18c",
+      "claim": "Accès interdit aux véhicules transportant des marchandises dangereuses / Заборона для транспорту з небезпечними вантажами",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B19",
+      "claim": "Autre interdiction dont la nature est indiquée / Інша заборона, зазначена написом або символом",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B2a",
+      "claim": "Interdiction de tourner à gauche à la prochaine intersection / Поворот ліворуч на найближчому перехресті заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B2b",
+      "claim": "Interdiction de tourner à droite à la prochaine intersection / Поворот праворуч на найближчому перехресті заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B2c",
+      "claim": "Interdiction de faire demi-tour / Розворот заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B3",
+      "claim": "Interdiction de dépasser / Обгін моторних транспортних засобів заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B3a",
+      "claim": "Interdiction aux véhicules de transport de marchandises de dépasser / Вантажним транспортним засобам обгін заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B4",
+      "claim": "Arrêt au poste de douane / Зупинка перед митницею",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B5a",
+      "claim": "Arrêt au poste de gendarmerie / Зупинка перед постом жандармерії",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B5b",
+      "claim": "Arrêt au poste de police / Зупинка перед постом поліції",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B5c",
+      "claim": "Arrêt au poste de péage / Зупинка перед пунктом оплати",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B6a1",
+      "claim": "Stationnement interdit / Стоянка заборонена",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B6a2",
+      "claim": "Stationnement interdit du 1er au 15 du mois / Стоянка заборонена з 1-го до 15-го числа",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B6a3",
+      "claim": "Stationnement interdit du 16 à la fin du mois / Стоянка заборонена з 16-го до кінця місяця",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B6d",
+      "claim": "Arrêt et stationnement interdits / Зупинка і стоянка заборонені",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B7a",
+      "claim": "Accès interdit aux véhicules à moteur à l'exception des cyclomoteurs / В'їзд моторних транспортних засобів заборонено, крім мопедів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B7b",
+      "claim": "Accès interdit à tous les véhicules à moteur / В'їзд усіх моторних транспортних засобів заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B8",
+      "claim": "Accès interdit aux véhicules affectés au transport de marchandises / В'їзд вантажного транспорту заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B9a",
+      "claim": "Accès interdit aux piétons / Рух пішоходів заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B9b",
+      "claim": "Accès interdit aux cycles / Рух велосипедів заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B9c",
+      "claim": "Accès interdit aux véhicules à traction animale / Рух гужового транспорту заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B9d",
+      "claim": "Accès interdit aux véhicules agricoles à moteur / Рух моторної сільськогосподарської техніки заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B9e",
+      "claim": "Accès interdit aux voitures à bras / Рух ручних візків заборонено",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21-1",
+      "claim": "Direction obligatoire à droite à la prochaine intersection / Обов'язковий поворот праворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21-2",
+      "claim": "Direction obligatoire à gauche à la prochaine intersection / Обов'язковий поворот ліворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21a1",
+      "claim": "Contournement obligatoire par la droite / Об'їзд перешкоди праворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21a2",
+      "claim": "Contournement obligatoire par la gauche / Об'їзд перешкоди ліворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21b",
+      "claim": "Direction obligatoire tout droit / Рух лише прямо",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21c1",
+      "claim": "Direction obligatoire à la prochaine intersection : à droite / На найближчому перехресті рух лише праворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21c2",
+      "claim": "Direction obligatoire à la prochaine intersection : à gauche / На найближчому перехресті рух лише ліворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21d1",
+      "claim": "Directions obligatoires à la prochaine intersection : tout droit ou à droite / На найближчому перехресті рух лише прямо або праворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B21e",
+      "claim": "Directions obligatoires à la prochaine intersection : à droite ou à gauche / На найближчому перехресті рух лише праворуч або ліворуч",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B22a",
+      "claim": "Piste ou bande obligatoire pour les cycles / Обов'язкова велосипедна доріжка або смуга",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B22b",
+      "claim": "Chemin obligatoire pour piétons / Обов'язкова доріжка для пішоходів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B22c",
+      "claim": "Chemin obligatoire pour cavaliers / Обов'язковий шлях для вершників",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B25-30",
+      "claim": "Vitesse minimale obligatoire de 30 km/h / Мінімальна обов'язкова швидкість 30 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B25-50",
+      "claim": "Vitesse minimale obligatoire de 50 km/h / Мінімальна обов'язкова швидкість 50 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B26",
+      "claim": "Chaînes à neige obligatoires / Ланцюги протиковзання обов'язкові",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B27a",
+      "claim": "Voie réservée aux transports en commun / Смуга, обов'язкова для громадського транспорту",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B31",
+      "claim": "Fin de toutes les interdictions précédemment signalées / Кінець усіх раніше встановлених заборон для рухомих транспортних засобів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B33_30",
+      "claim": "Fin de limitation de vitesse à 30 km/h / Кінець обмеження 30 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B33_50",
+      "claim": "Fin de limitation de vitesse à 50 km/h / Кінець обмеження 50 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B33_70",
+      "claim": "Fin de limitation de vitesse à 70 km/h / Кінець обмеження 70 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B33_90",
+      "claim": "Fin de limitation de vitesse à 90 km/h / Кінець обмеження 90 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B34",
+      "claim": "Fin d'interdiction de dépasser / Кінець заборони обгону",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B34a",
+      "claim": "Fin d'interdiction de dépasser pour les véhicules de transport de marchandises / Кінець заборони обгону для вантажного транспорту",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B35",
+      "claim": "Fin d'interdiction de signaux sonores / Кінець заборони звукових сигналів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B30",
+      "claim": "Entrée d'une zone à vitesse limitée à 30 km/h / В'їзд у зону 30 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B50a",
+      "claim": "Sortie d'une zone de stationnement interdit / Виїзд із зони забороненої стоянки",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B51",
+      "claim": "Sortie d'une zone à vitesse limitée à 30 km/h / Кінець зони 30 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B52",
+      "claim": "Entrée d'une zone de rencontre / В'їзд у житлово-пішохідну зону rencontre",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B53",
+      "claim": "Sortie d'une zone de rencontre / Виїзд із зони rencontre",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B54",
+      "claim": "Entrée d'une aire piétonne / В'їзд у пішохідну зону",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B55",
+      "claim": "Sortie d'une aire piétonne / Виїзд із пішохідної зони",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-B6b1",
+      "claim": "Entrée d'une zone à stationnement interdit / В'їзд у зону забороненої стоянки",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C107",
+      "claim": "Route à accès réglementé / Початок дороги для автомобілів із спеціальним режимом доступу",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C108",
+      "claim": "Fin de route à accès réglementé / Кінець дороги для автомобілів із спеціальним режимом",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C12",
+      "claim": "Circulation à sens unique / Односторонній рух",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C13a",
+      "claim": "Impasse / Тупик",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C13b",
+      "claim": "Présignalisation d'une impasse / Попередження про тупик",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C1a",
+      "claim": "Parc de stationnement / Місце для стоянки",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C1b",
+      "claim": "Parc de stationnement à durée limitée avec contrôle par disque / Стоянка з обмеженням часу та паркувальним диском",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C1c",
+      "claim": "Parc de stationnement payant / Платна стоянка",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C20a",
+      "claim": "Passage pour piétons / Місце пішохідного переходу",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C23",
+      "claim": "Stationnement réglementé pour les caravanes et autocaravanes / Регульована стоянка для караванів і автодомів",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C24a_ex1",
+      "claim": "Conditions particulières de circulation par voie / Особливі правила руху за смугами",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C27",
+      "claim": "Ralentisseur de type dos-d'âne / Місце розташування штучної нерівності",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C3",
+      "claim": "Risque d'incendie / Зона підвищеної пожежної небезпеки",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C4a_30",
+      "claim": "Vitesse conseillée à 30 km/h / Рекомендована швидкість 30 км/год",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-C5",
+      "claim": "Station de taxis / Стоянка таксі",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-CE1",
+      "claim": "Poste de secours / Пункт першої допомоги",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-CE2a",
+      "claim": "Poste d'appel d'urgence / Пункт екстреного виклику",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-CE14",
+      "claim": "Installations accessibles aux personnes handicapées / Об'єкт доступний для людей з інвалідністю",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-CE15a",
+      "claim": "Poste de distribution de carburant / Автозаправна станція",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "FR-CE16",
+      "claim": "Restaurant / Ресторан",
+      "source_ids": [
+        "FR-SIGNS"
+      ],
+      "status": "VERIFIED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-01",
+      "claim": "Швидкість: знак, вимірювання, санкція: У Франції загальні максимуми залежать від типу дороги: 130 км/год на автомагістралі, 110 на дорозі з розділеними напрямками та 80 на інших дорогах поза населеними пунктами, якщо знак або уповноважений орган не встановив інше. Під час дощу частина максимумів знижується. Конкретний знак і дорожні умови важливіші за число, яке водій пам’ятає як типове. Ліміт - це межа, яку не можна перевищувати. Виміряна швидкість - показання приладу. Утримана швидкість - результат після нормативної технічної поправки. Для французького стаціонарного радара від виміряного значення віднімають 5 км/год до 100 км/год або 5% понад 100 км/год. Це поправка на вимірювання, а не особистий запас водія. Український знак 3.29 також забороняє рух швидше числа на знаку. Стаття 122 КУпАП окремо встановлює пороги адміністративної відповідальності. Поріг санкції не додається до дозволеної швидкості. У Франції не використовуйте українське побутове уявлення про «плюс двадцять», а технічну поправку радара не перетворюйте на дозвіл їхати швидше.",
+      "source_ids": [
+        "FR-SPEED",
+        "FR-RADAR",
+        "UA-PDR",
+        "UA-SPEED"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-02",
+      "claim": "Пріоритет праворуч: На французькому перехресті без іншого регулювання водій, який наближається зліва, поступається водієві праворуч. Знак AB1 попереджає про застосування правила попереду, але саме правило не народжується зі знака. У незнайомому кварталі відсутність знака «головна дорога» не означає автоматичної переваги. В Україні на рівнозначному нерегульованому перехресті також поступаються транспортові праворуч. Переноситься принцип, але не звичка читати статус кожної дороги за одним знайомим знаком. У Франції оцініть розмітку, знаки на своєму та поперечному напрямках і фактичну геометрію виїзду. Перед малопомітним перехрестям приберіть ногу з акселератора, перевірте правий бік і будьте готові поступитися. Якщо пріоритет установлено світлофором, STOP, «Дати дорогу» або знаком пріоритетної дороги, дійте за цим регулюванням. Порівняння з Україною допомагає пам’яті, але рішення приймається за французькою ситуацією.",
+      "source_ids": [
+        "FR-PRIORITY",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-03",
+      "claim": "Кільця і кругові перехрестя: На carrefour à sens giratoire водій при в’їзді поступається тим, хто вже рухається кільцем. Найкорисніша підказка - комбінація попередження AB25, знака «Дати дорогу», розмітки й напрямків смуг. Кругла геометрія сама по собі не пояснює всіх правил конкретного вузла. На українському нерегульованому перехресті з круговим рухом, позначеному знаком 4.10, перевагу мають транспортні засоби, які вже рухаються по колу. Базова дія схожа. Відмінності частіше виникають у смугах, стрілках, виборі з’їзду та локальній організації руху. Не вирішуйте завдання «хто головний» лише за словом rond-point або за формою острівця. Спочатку прочитайте знаки на своєму в’їзді. Завчасно оберіть смугу, контролюйте велосипеди й мотоцикли збоку та подайте сигнал перед виїздом відповідно до фактичного маневру.",
+      "source_ids": [
+        "FR-PRIORITY",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-04",
+      "claim": "Алкоголь: поріг не є ціллю: Для водія зі звичайним посвідченням у Франції заборонено керувати з концентрацією алкоголю в крові 0,5 г/л або вище, що відповідає 0,25 мг/л у видихуваному повітрі. Для окремих категорій, зокрема водіїв у випробувальний період, діє нижчий поріг. Перед поїздкою перевіряйте свою категорію в актуальному офіційному джерелі. Навіть якщо число в іншій країні здається знайомим, процедура контролю, категорії водіїв і наслідки можуть відрізнятися. Ні кава, ні душ, ні коротке очікування не роблять результат передбачуваним. Поріг закону не є рекомендацією щодо безпечної кількості алкоголю. Якщо ви пили, не будуйте маршрут навколо приблизного розрахунку. Призначте тверезого водія, скористайтеся транспортом або залиште автомобіль. Ця книга пояснює дорожню систему, але не оцінює індивідуальний стан і не замінює медичну чи правову консультацію.",
+      "source_ids": [
+        "FR-ALCOHOL",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-05",
+      "claim": "Телефон, екран і навушники: У Франції водієві транспортного засобу в русі заборонено користуватися телефоном, який тримають у руці. В Україні під час руху також не можна користуватися засобами зв’язку, тримаючи їх у руці. Спільна практична дія проста: налаштуйте маршрут і зв’язок до початку руху. Французьке правило додатково забороняє носити у вусі пристрій, здатний відтворювати звук, крім слухового апарата та вузьких законних винятків. Один навушник або звичайна гарнітура не є надійним обхідним шляхом. Вбудована система автомобіля не скасовує обов’язку зберігати увагу. Якщо треба торкатися екрана, зупиніться там, де стоянка або зупинка дозволена й безпечна. Аварійна сигналізація не перетворює небезпечне місце на дозволене. Для навігації використовуйте голосові підказки та кріплення, але не читайте довгі повідомлення під час руху.",
+      "source_ids": [
+        "FR-PHONE",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-06",
+      "claim": "Зупинка і стоянка: У французькому місті режим стоянки часто задають разом: знак, стрілка або додаткова табличка, дорожня розмітка, зона і місцеві правила оплати. Один вільний проміжок біля бордюру ще не означає, що там можна залишити автомобіль. Перевірте також виїзди, переходи, смуги й доступ спецслужб. У побуті ці слова легко змішати. Для практики важливо розрізняти коротку посадку або висадку від залишення автомобіля, але конкретна юридична оцінка залежить від ситуації. Не використовуйте аварійні вогні як універсальний дозвіл. Український досвід допоможе впізнати багато заборонних форм, але кольори бордюру, платні зони, диски, паркомати та місцеві часові режими можуть бути іншими. Збережіть підтвердження оплати, перевірте межі зони і прочитайте дрібний текст до того, як відійдете від автомобіля.",
+      "source_ids": [
+        "FR-GENERAL",
+        "FR-SIGNS",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-07",
+      "claim": "Пішоходи: намір теж важливий: Водій у Франції повинен поступитися, за потреби зупинившись, пішоходу, який законно почав переходити або чітко показує намір це зробити. Такий самий захист діє для пішоходів у пішохідній зоні та zone de rencontre. Не чекайте, поки людина фізично опиниться перед капотом. Школи, зупинки, припарковані фургони, ринки й вузькі історичні вулиці створюють сліпі зони. Попереджувальний знак не задає точну швидкість, але вимагає підготуватися. Перенесіть ногу до гальма й залиште простір для непередбачуваного кроку. Звичка поступатися на переході переноситься, але формулювання про явний намір пішохода варто засвоїти окремо. На повороті контролюйте не лише автомобілі, а й людей, які перетинають дорогу, на яку ви повертаєте. У сумніві обирайте швидкість, що дозволяє реально зупинитися.",
+      "source_ids": [
+        "FR-PEDESTRIAN",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-08",
+      "claim": "Велосипеди і спільний простір: У Франції велосипедна інфраструктура може включати окремі смуги, доріжки, двосторонній рух велосипедів на вулиці з одностороннім рухом для автомобілів і спеціальні сигнали. Синій знак може позначати обов’язковий шлях, а квадратний - інформувати про режим. Повна композиція важливіша за один символ. Перед поворотом перевірте дзеркала й мертву зону, особливо справа. Велосипедист може рухатися прямо вздовж краю або спеціальної смуги. Не перетинайте його траєкторію лише тому, що ваш автомобіль уже почав маневр. Не припускайте, що велосипедист завжди рухається за схемою, знайомою з української вулиці. Зональні правила та дозволені напрямки можуть відрізнятися. Якщо бачите додатковий велосипедний символ біля світлофора або під знаком, прочитайте саме дозволений напрямок і умову поступитися.",
+      "source_ids": [
+        "FR-GENERAL",
+        "FR-SIGNS",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-09",
+      "claim": "Автомагістраль і аварійна ситуація: На автомагістралі прискорювальна смуга допомагає узгодити швидкість, але не надає автоматичної переваги. Оцініть потік заздалегідь і не зупиняйтеся наприкінці смуги без крайньої потреби. Після обгону повертайтеся праворуч, якщо умови дозволяють. У Франції в автомобілі мають бути доступні світловідбивний жилет і попереджувальний трикутник. Жилет надягають перед виходом. Трикутник не встановлюють, якщо це створює небезпеку; на автомагістралі не виходьте в потік заради формальної дії. Увімкніть аварійні вогні й переходьте за захисний бар’єр, якщо це можливо безпечно. Побачивши зупинений транспорт або дорожню службу з увімкненими спеціальними сигналами, зменште швидкість і максимально віддаліться, змінивши смугу, коли це можливо. Це окрема практична звичка: не просто «дивитися», а створити фізичний простір для людей біля дороги.",
+      "source_ids": [
+        "FR-EQUIPMENT",
+        "FR-GENERAL"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-10",
+      "claim": "Zone 30, zone de rencontre, aire piétonne: Зональний знак діє не як одиничне обмеження біля стовпа. Він позначає вхід у територію з узгодженими правилами, а дія триває до відповідного виходу. Тому після повороту всередині зони ліміт не обов’язково повторять. Zone 30 задає зональний максимум 30 км/год. У zone de rencontre максимум 20 км/год, а пішоходи можуть користуватися проїзною частиною й мають пріоритет. Aire piétonne орієнтована на пішоходів, а доступ моторизованого транспорту обмежений установленими умовами. Спочатку назвіть тип зони, потім знайдіть число, символи й додаткові умови. Не перекладайте zone de rencontre буквально як звичайну «житлову зону»: український режим може бути корисною асоціацією, але не прямим юридичним аналогом.",
+      "source_ids": [
+        "FR-ZONES",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-11",
+      "claim": "Crit’Air і ZFE: Crit’Air класифікує транспортний засіб за екологічною категорією. ZFE-m - територія, де місцева влада застосовує обмеження за цими категоріями. Наявність наклейки не гарантує доступу до кожної зони; важливий її клас і актуальні місцеві правила. Межі, години, дозволені категорії, винятки й тимчасові заходи відрізняються між агломераціями та змінюються. Друкований список швидко старіє. Перед поїздкою перевірте потрібне місто в офіційному сервісі, а не покладайтеся на пам’ять або стару сторінку. Не припускайте, що іноземний номер автоматично звільняє від правил. Завчасно перевірте порядок отримання Crit’Air і строки доставки. Купуйте лише через офіційний канал: схожі комерційні сайти можуть брати значно дорожче за посередництво.",
+      "source_ids": [
+        "FR-CRITAIR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-12",
+      "claim": "Радари й контроль: Французьке обмеження діє незалежно від того, бачите ви камеру чи ні. Контроль може бути стаціонарним, мобільним або пов’язаним із ділянкою. Навігаційний застосунок не є джерелом права і не замінює спостереження за знаком. Технічна поправка застосовується владою до показання визначеним способом. Водій не додає її до ліміту. У документі про порушення розрізняйте дозволену, виміряну й утриману швидкість; це три різні поля. Плануйте швидкість за знаком, загальним правилом і умовами. Не намагайтеся відновити «безпечний запас» з порогу санкції іншої країни. Якщо отримали офіційний документ і не розумієте процедуру оскарження, користуйтеся офіційною інструкцією або кваліфікованою допомогою; ця книга не дає індивідуальної правової поради.",
+      "source_ids": [
+        "FR-RADAR",
+        "FR-SPEED",
+        "UA-SPEED"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-13",
+      "claim": "Дощ, туман і зимові зони: У Франції дощ змінює частину загальних швидкісних максимумів. Навіть коли число формально не змінилося, водій зобов’язаний пристосувати швидкість до видимості, стану поверхні та руху. Ліміт - стеля, а не обіцянка безпечної швидкості. У визначених гірських зонах у зимовий період діють вимоги до зимових шин або протиковзних пристроїв; межі позначаються знаками й залежать від рішень у відповідних департаментах. Перед маршрутом перевірте чинний сезон, територію та прийнятне маркування шин. Оцініть маршрут до виїзду: погода, висота, перекриття, обладнання і запас часу. Ланцюги, які лежать у багажнику, мало допоможуть, якщо водій не знає, як їх установити. Не зупиняйтеся для монтажу в небезпечному місці.",
+      "source_ids": [
+        "FR-SPEED",
+        "FR-WINTER"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-14",
+      "claim": "Світло, сигнал і видимість: Сигнал світлофора, вказівка регулювальника, дорожній знак і розмітка утворюють систему. Якщо один елемент тимчасово змінює режим, не продовжуйте дію за старою звичкою. Біля робіт особливо уважно шукайте тимчасові сигнали й напрямки. Знак B16 забороняє звукові сигнали за встановленим режимом. Загалом клаксон не є способом висловити невдоволення. Використовуйте його лише в дозволеній ситуації, пов’язаній із безпекою, а не як заміну прогнозуванню. Перевіряйте справність фар, покажчиків повороту й аварійної сигналізації. У тунелі, тумані або сутінках не покладайтеся лише на автоматичний режим автомобіля. Рішення має відповідати фактичній видимості та вимогам знаків.",
+      "source_ids": [
+        "FR-GENERAL",
+        "FR-SIGNS",
+        "FR-EQUIPMENT"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-15",
+      "claim": "Місцеве правило і додаткова табличка: Форма знака визначається національною системою, але конкретний режим може встановлювати місцева влада: швидкість, стоянку, напрямок, доступ за категоріями або часом. Тому однаковий знак у двох містах може мати різні уточнення. Стрілка, відстань, категорія транспорту, дні й години на табличці не є другорядним декором. Вони відповідають на запитання «кому», «коли», «де починається» і «як довго діє». Спочатку прочитайте головний знак, потім кожне уточнення. Не робіть висновок з одного знайомого символу, якщо під ним є текст. У незнайомій зоні сфотографуйте композицію після безпечної зупинки або занотуйте умови. Якщо французький текст незрозумілий, оберіть консервативну дію й перевірте офіційне правило.",
+      "source_ids": [
+        "FR-SIGNS",
+        "FR-GENERAL",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    },
+    {
+      "claim_id": "INTRO-16",
+      "claim": "Перед першою самостійною поїздкою: Вивчіть чотири сімейства: трикутник попереджає, червоне коло переважно забороняє, синє коло задає обов’язкову дію, квадрат або прямокутник інформує чи запускає режим. Потім додайте STOP, «Дати дорогу», пріоритет праворуч і зональні знаки. Спочатку позначте, що справді переноситься: базова форма багатьох знаків, рух праворуч, повна зупинка на STOP. Окремо вивчіть пастки: пріоритет без очікуваного знака, зональну дію, телефон і навушники, Crit’Air, технічну поправку радара. Перед маршрутом перевірте документи й страхування, Crit’Air/ZFE для потрібного міста, погоду та зимові вимоги, платні дороги, паркування біля пункту призначення. У дорозі дотримуйтеся послідовності: форма - символ - число - табличка - межі дії - практична команда.",
+      "source_ids": [
+        "FR-SIGNS",
+        "FR-GENERAL",
+        "FR-CRITAIR",
+        "FR-WINTER",
+        "UA-PDR"
+      ],
+      "status": "SOURCE_MAPPED",
+      "refresh_before_publication": true
+    }
+  ]
+}

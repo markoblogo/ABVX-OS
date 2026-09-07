@@ -1,0 +1,18 @@
+{
+  "schema_version": "rn3-091-editorial-formalism-qa/v1",
+  "status": "PASS",
+  "checks": {
+    "no_reader_template_meta": true,
+    "one_page_toc": true,
+    "family_guides_present": true,
+    "repeated_long_line_ceiling": true,
+    "comparison_badge_width_within_visual_column": true,
+    "specific_self_checks_or_omitted": true,
+    "editorial_asymmetry": true
+  },
+  "metrics": {
+    "maximum_exact_long_line_repetition": 2,
+    "body_pt": 12.1,
+    "atlas_explanatory_pt": 11.3
+  }
+}

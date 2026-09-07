@@ -11,7 +11,12 @@ PRODUCT_CONTRACT_FIELDS = (
 RELEASE_GATES = (
     "market", "product_thesis", "representative_product", "factual_source",
     "language", "editorial", "product_quality", "technical", "toc_navigation",
-    "kdp_external_preview",
+    "commercial_package", "kdp_external_preview",
+)
+COMMERCIAL_PACKAGE_FIELDS = (
+    "title", "subtitle", "author", "description", "keywords", "categories",
+    "paperback_price", "kindle_price", "primary_marketplace", "format_settings",
+    "cover_brief", "content_version", "commercial_package_content_version",
 )
 HUMAN_TASTE_TRIGGERS = {
     "novel_format", "layout_dependent", "visual_differentiation",
@@ -42,6 +47,23 @@ def record_human_product_gate(record: dict[str, Any], *, result: str, finding: s
     updated["representative_product"] = result
     if result == "FAIL": updated["full_production"] = "BLOCKED"
     return updated
+
+def validate_commercial_package(package: dict[str, Any]) -> dict[str, Any]:
+    """Fail closed on the copy/paste fields needed to reach a human KDP upload gate."""
+    missing = [key for key in COMMERCIAL_PACKAGE_FIELDS if not package.get(key)]
+    if package.get("keywords") and len(package["keywords"]) != 7:
+        missing.append("keywords.exactly_7")
+    if package.get("categories") and len(package["categories"]) != 3:
+        missing.append("categories.exactly_3")
+    for key in ("paperback_price", "kindle_price"):
+        value = package.get(key)
+        if value is not None and (not isinstance(value, (int, float)) or value <= 0):
+            missing.append(f"{key}.positive_number")
+    if package.get("content_version") != package.get("commercial_package_content_version"):
+        missing.append("content_version.match")
+    if package.get("open_content_or_layout_correction_gates") != 0:
+        missing.append("open_content_or_layout_correction_gates.zero")
+    return {"status": "PASS" if not missing else "FAIL", "missing": sorted(set(missing))}
 
 def release_authorization(gates: dict[str, str], mandatory: list[str] | None = None) -> dict[str, Any]:
     required = mandatory or list(RELEASE_GATES); failures=[]

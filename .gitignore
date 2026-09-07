@@ -7,6 +7,11 @@ __pycache__/
 .tmp/
 tmp/
 
+# Reproducible publishing intermediates; keep final EPUB/PDF, manifests and contact sheets.
+books/*/v*/production/epub-v*/
+books/*/v*/qa/rendered-pages-v*/
+books/*/v*/qa/pdf-bbox-v*.xhtml
+
 # Reproducible page rasters used to assemble the canonical final contact sheet.
 books/artifacts/unusual-indices-book/final-008/review/all-pages/
 

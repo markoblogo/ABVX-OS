@@ -1,0 +1,111 @@
+{
+  "schema_version": "rn3-091-v2.1-sources/v1",
+  "checked_at": "2026-09-07",
+  "sources": [
+    {
+      "id": "FR-SIGNS",
+      "title": "Arrêté du 24 novembre 1967 relatif à la signalisation",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006075080",
+      "role": "French sign names and meanings",
+      "volatility": "MEDIUM"
+    },
+    {
+      "id": "FR-SPEED",
+      "title": "Code de la route, R413-2 and R413-17",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042240048",
+      "role": "speed limits and adaptation",
+      "volatility": "MEDIUM"
+    },
+    {
+      "id": "FR-RADAR",
+      "title": "Sécurité routière - radars",
+      "url": "https://validation.securite-routiere.gouv.fr/sites/default/files/2025-05/brochure_radars_print.pdf",
+      "role": "technical measurement correction",
+      "volatility": "HIGH"
+    },
+    {
+      "id": "FR-PRIORITY",
+      "title": "Code de la route, R415-5, R415-6, R415-10",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842244",
+      "role": "right priority, stop and roundabouts",
+      "volatility": "LOW"
+    },
+    {
+      "id": "FR-ZONES",
+      "title": "Code de la route, R110-2",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045650507",
+      "role": "Zone 30, meeting and pedestrian zones",
+      "volatility": "MEDIUM"
+    },
+    {
+      "id": "FR-PHONE",
+      "title": "Code de la route, R412-6-1",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041910422",
+      "role": "hand-held phone and in-ear audio devices",
+      "volatility": "LOW"
+    },
+    {
+      "id": "FR-ALCOHOL",
+      "title": "Service-Public - Alcool au volant",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F36485/3",
+      "role": "current alcohol thresholds",
+      "volatility": "HIGH"
+    },
+    {
+      "id": "FR-PEDESTRIAN",
+      "title": "Code de la route, R415-11",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037411323/2026-01-06",
+      "role": "pedestrian priority",
+      "volatility": "LOW"
+    },
+    {
+      "id": "FR-CRITAIR",
+      "title": "Service-Public - vignette Crit’Air",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F33371",
+      "role": "Crit’Air and locally variable ZFE rules",
+      "volatility": "HIGH"
+    },
+    {
+      "id": "FR-EQUIPMENT",
+      "title": "Service-Public - équipements obligatoires",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F19459",
+      "role": "vest, triangle and vehicle equipment",
+      "volatility": "MEDIUM"
+    },
+    {
+      "id": "FR-WINTER",
+      "title": "Ministère de l’Intérieur - rouler en sécurité en montagne",
+      "url": "https://www.interieur.gouv.fr/actualites/actualites-du-ministere/cap-sur-montagne-roulez-en-toute-securite-en-hiver",
+      "role": "2026 mountain-zone winter equipment",
+      "volatility": "HIGH"
+    },
+    {
+      "id": "FR-GENERAL",
+      "title": "Code de la route - texte consolidé",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006074228",
+      "role": "parking, motorway, cyclist and lighting rules",
+      "volatility": "MEDIUM"
+    },
+    {
+      "id": "UA-PDR",
+      "title": "Правила дорожнього руху України",
+      "url": "https://zakon.rada.gov.ua/go/1306-2001-%D0%BF",
+      "role": "Ukrainian comparison baseline",
+      "volatility": "MEDIUM"
+    },
+    {
+      "id": "UA-SPEED",
+      "title": "КУпАП, стаття 122",
+      "url": "https://zakon.rada.gov.ua/go/8073-10",
+      "role": "Ukrainian speed-liability threshold",
+      "volatility": "HIGH"
+    }
+  ],
+  "prepublication_refresh": [
+    "FR-RADAR",
+    "FR-ALCOHOL",
+    "FR-CRITAIR",
+    "FR-WINTER",
+    "UA-SPEED"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": "rn3-091-v2-production/v1",
+  "status": "AWAITING_FINAL_HUMAN_PUBLISHING_COVER_GATE",
+  "built_at": "2026-09-07",
+  "trim": "8.5 x 11 in",
+  "bleed": false,
+  "paperback_pdf": "output/pdf/french-road-rules-and-signs-for-ukrainians-v2-interior.pdf",
+  "kindle_epub": "output/epub/french-road-rules-and-signs-for-ukrainians-v2.epub",
+  "pages": 92,
+  "sign_entries": 127,
+  "intro_pages": 16,
+  "atlas_page_entry_counts": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2
+  ],
+  "toc": [
+    {
+      "title": "Ключові відмінності",
+      "page": 6
+    },
+    {
+      "title": "Як читати французькі знаки",
+      "page": 22
+    },
+    {
+      "title": "Небезпека",
+      "page": 24
+    },
+    {
+      "title": "Пріоритет",
+      "page": 36
+    },
+    {
+      "title": "Заборони",
+      "page": 40
+    },
+    {
+      "title": "Обов’язкові дії",
+      "page": 60
+    },
+    {
+      "title": "Кінець обмежень",
+      "page": 68
+    },
+    {
+      "title": "Зони й режими",
+      "page": 72
+    },
+    {
+      "title": "Інформаційні знаки",
+      "page": 76
+    },
+    {
+      "title": "Сервіси",
+      "page": 83
+    },
+    {
+      "title": "Швидкий повтор",
+      "page": 85
+    },
+    {
+      "title": "Французько-український покажчик",
+      "page": 87
+    },
+    {
+      "title": "Джерела й оновлення",
+      "page": 91
+    }
+  ],
+  "typographic_scale": {
+    "body_pt": 10.8,
+    "leading_pt": 14.7,
+    "secondary_pt": 8.9
+  },
+  "full_production_authorized_by": "HUMAN_PRODUCT_GATE_2_PASS"
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:RN3-091:v2-1-1-index-visual-fix",
+      "opportunity_id": "RN3-091",
+      "kind": "final_production_qa",
+      "observed_at": "2026-09-07",
+      "data": {
+        "initial_index_visual_qa": "FAIL",
+        "final_index_visual_qa": "PASS",
+        "correction_scope": "paperback index only",
+        "final_content_version": "V2.1.1",
+        "final_page_count": 84,
+        "final_word_count": 5552,
+        "all_index_entries_present": 127
+      }
+    },
+    {
+      "id": "evidence:RN3-091:final-production-state",
+      "opportunity_id": "RN3-091",
+      "kind": "production_closeout",
+      "observed_at": "2026-09-07",
+      "data": {
+        "product": "French road rules/signs FR↔UA transition guide",
+        "language": "Ukrainian with French terminology",
+        "primary_marketplace": "Amazon.fr",
+        "final_product_version": "V2.1.1",
+        "final_page_count": 84,
+        "final_word_count": 5552,
+        "final_formats": ["8.5 x 11 standard-colour paperback", "reflowable EPUB 3"],
+        "paperback_price_eur": 18.90,
+        "kindle_price_eur": 7.99,
+        "printing_cost_eur": 3.69,
+        "estimated_paperback_royalty_eur": 7.65,
+        "product_quality_rework": true,
+        "human_product_gates": 2,
+        "subject_matter_human_dependency": "LOW_PRODUCT_INSIGHT_ONLY",
+        "human_product_taste_interventions": [
+          "rejected slide-deck density and prior-knowledge assumption",
+          "required normal-book typography, pagination and editorial asymmetry",
+          "required full commercial finalization only after content freeze"
+        ],
+        "predicted_values_reference": "book-radar/state.json scores and original RN3 evidence",
+        "sales_actuals": "NOT_AVAILABLE_NOT_LIVE"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN3-091:ready-for-human-publishing-v2-1-1",
+      "opportunity_id": "RN3-091",
+      "decision": "READY_FOR_HUMAN_PUBLISHING",
+      "decided_at": "2026-09-07",
+      "reason": "The only final production defect, index truncation, was corrected without changing the 84-page economics. All internal content, product, source, language, rights, navigation, margin, format and commercial gates pass. Amazon publication and uploaded-file previews remain human actions.",
+      "production_authorized": false
+    }
+  ]
+}

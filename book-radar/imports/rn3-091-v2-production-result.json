@@ -1,0 +1,53 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:RN3-091:v2-human-product-gate-2",
+      "opportunity_id": "RN3-091",
+      "kind": "human_product_gate",
+      "observed_at": "2026-09-07",
+      "data": {
+        "human_result": "CONDITIONAL_PASS",
+        "typography_comparison": "PASS",
+        "body_size_increase": 1.137,
+        "body_leading_increase": 1.122,
+        "secondary_size_increase": 1.114,
+        "crowding": "NONE_OBSERVED",
+        "artifact": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-typography-proof.pdf"
+      }
+    },
+    {
+      "id": "evidence:RN3-091:v2-full-production",
+      "opportunity_id": "RN3-091",
+      "kind": "production_result",
+      "observed_at": "2026-09-07",
+      "data": {
+        "status": "AWAITING_FINAL_HUMAN_PUBLISHING_COVER_GATE",
+        "paperback_pages": 92,
+        "word_count": 7059,
+        "sign_entries": 127,
+        "intro_pages": 16,
+        "atlas_density": "2-3 signs per ordinary atlas page",
+        "paperback": "output/pdf/french-road-rules-and-signs-for-ukrainians-v2-interior.pdf",
+        "kindle": "output/epub/french-road-rules-and-signs-for-ukrainians-v2.epub",
+        "qa": "books/rn3-091/v2/qa/release-preflight-v2.json"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN3-091:v2-human-product-gate-pass",
+      "opportunity_id": "RN3-091",
+      "decision": "HUMAN_PRODUCT_GATE_2_PASS",
+      "decided_at": "2026-09-07",
+      "reason": "The requested typography correction improved printed readability and vertical use without adding filler or creating crowding."
+    },
+    {
+      "id": "decision:RN3-091:v2-await-final-publishing-gate",
+      "opportunity_id": "RN3-091",
+      "decision": "AWAITING_FINAL_HUMAN_PUBLISHING_COVER_GATE",
+      "decided_at": "2026-09-07",
+      "reason": "Paperback, EPUB, source, bilingual, product-quality, visual, TOC, margin and technical QA passed; uploaded-file previews and cover remain human gates."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "rn3-091-commercial-finalization-audit/v1",
+  "status": "PASS",
+  "content_version": "V2.1.1",
+  "commercial_package_content_version": "V2.1.1",
+  "open_content_or_layout_correction_gates": 0,
+  "order": [
+    "V2.1_CONTENT_REBUILT",
+    "V2.1.1_INDEX_FIX_LAYOUT_FROZEN_AT_84_PAGES",
+    "RELEASE_QA_PASS",
+    "COMMERCIAL_PACKAGE_RECALCULATED",
+    "CONTENT_COMMERCIAL_VERSION_MATCH_VERIFIED"
+  ],
+  "process_regression_closed": "COMMERCIAL_PASS_EXECUTED_BEFORE_CONTENT_REBUILD"
+}

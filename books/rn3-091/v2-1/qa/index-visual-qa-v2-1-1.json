@@ -1,0 +1,20 @@
+{
+  "schema_version": "rn3-091-index-visual-qa/v1",
+  "status": "PASS",
+  "content_version": "V2.1.1",
+  "inspected_pages": [78, 79, 80, 81, 82],
+  "inspection_mode": "180 DPI raster, full visible-page inspection",
+  "initial_defect": "Long French and Ukrainian index entries were visibly truncated in V2.1 fixed-width rows.",
+  "correction": "Wrapped French and Ukrainian columns with dynamic row heights; official terms and meanings preserved in full.",
+  "checks": {
+    "french_terms_fully_readable": true,
+    "ukrainian_meanings_fully_readable": true,
+    "sign_codes_fully_readable": true,
+    "columns_do_not_collide": true,
+    "text_not_clipped": true,
+    "inside_kdp_safe_margins": true,
+    "print_size_typography_usable": true,
+    "all_127_entries_present": true
+  },
+  "open_defects": 0
+}

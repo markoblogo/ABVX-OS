@@ -1,0 +1,43 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:RN3-091:v2-commercial-package-regression",
+      "opportunity_id": "RN3-091",
+      "kind": "commercial_package_regression",
+      "observed_at": "2026-09-07",
+      "data": {
+        "classification": "COMMERCIAL_PACKAGE_INCOMPLETE_FALSE_PASS",
+        "root_cause": "commercial package completeness was not enforced",
+        "required_model": "KDP READY = CONTENT + PRODUCT + TECHNICAL + COMMERCIALLY PACKAGED + HUMAN UPLOAD READY"
+      }
+    },
+    {
+      "id": "evidence:RN3-091:v2-commercial-package-v2-1",
+      "opportunity_id": "RN3-091",
+      "kind": "commercial_package",
+      "observed_at": "2026-09-07",
+      "data": {
+        "status": "PASS",
+        "primary_marketplace": "Amazon.fr",
+        "paperback_price_eur": 18.90,
+        "kindle_price_eur": 7.99,
+        "printing_cost_eur": 3.97,
+        "estimated_paperback_royalty_eur": 7.37,
+        "keyword_fields": 7,
+        "category_targets": 3,
+        "metadata": "books/rn3-091/v2/commercial/metadata-card-v2.1.md"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN3-091:v2-commercial-package-v2-1-ready",
+      "opportunity_id": "RN3-091",
+      "decision": "COMMERCIALLY_PACKAGED_AWAITING_HUMAN_UPLOAD_AND_COVER",
+      "decided_at": "2026-09-07",
+      "reason": "Fresh Amazon.fr scan, researched prices and KDP economics, complete metadata, ranked category targets, seven keyword fields, format settings and cover handoff now exist. Category selection, cover choice and uploaded-file previews remain human gates.",
+      "production_authorized": false
+    }
+  ]
+}

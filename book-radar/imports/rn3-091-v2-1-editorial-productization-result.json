@@ -1,0 +1,55 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:RN3-091:v2-1-commercial-before-content-regression",
+      "opportunity_id": "RN3-091",
+      "kind": "publishing_process_regression",
+      "observed_at": "2026-09-07",
+      "data": {
+        "classification": "COMMERCIAL_PASS_EXECUTED_BEFORE_CONTENT_REBUILD",
+        "reusable_rule": "COMMERCIAL FINALIZATION MUST OCCUR AFTER FINAL CONTENT/LAYOUT FREEZE."
+      }
+    },
+    {
+      "id": "evidence:RN3-091:v2-1-editorial-productization",
+      "opportunity_id": "RN3-091",
+      "kind": "editorial_productization",
+      "observed_at": "2026-09-07",
+      "data": {
+        "status": "PASS",
+        "content_version": "V2.1.1",
+        "pages": 84,
+        "body_pt": 12.1,
+        "atlas_explanatory_pt": 11.3,
+        "toc_pages": 1,
+        "open_content_or_layout_correction_gates": 0,
+        "preflight": "books/rn3-091/v2-1/qa/release-preflight-v2-1.json"
+      }
+    },
+    {
+      "id": "evidence:RN3-091:v2-1-commercial-final",
+      "opportunity_id": "RN3-091",
+      "kind": "commercial_package",
+      "observed_at": "2026-09-07",
+      "data": {
+        "status": "FINAL",
+        "content_version": "V2.1.1",
+        "paperback_price_eur": 18.90,
+        "kindle_price_eur": 7.99,
+        "printing_cost_eur": 3.69,
+        "estimated_paperback_royalty_eur": 7.65
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN3-091:v2-1-kdp-ready-human-gate",
+      "opportunity_id": "RN3-091",
+      "decision": "KDP_READY_V2_1_AWAITING_HUMAN_PUBLISHING_GATE",
+      "decided_at": "2026-09-07",
+      "reason": "V2.1 content and layout are frozen, all release QA passes, the commercial package targets the same V2.1 content, and no content or layout correction gate remains open.",
+      "production_authorized": false
+    }
+  ]
+}

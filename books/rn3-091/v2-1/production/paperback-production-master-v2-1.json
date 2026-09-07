@@ -1,0 +1,12 @@
+{
+  "schema_version": "rn3-091-paperback-production-master/v1",
+  "content_version": "V2.1.1",
+  "source_generator": "tools/build_rn3_091_v2_1_book.py",
+  "manuscript": "books/rn3-091/v2-1/manuscript/final-manuscript-v2-1.md",
+  "output_pdf": "output/pdf/french-road-rules-and-signs-for-ukrainians-v2-1-interior.pdf",
+  "trim": "8.5 x 11 in",
+  "bleed": false,
+  "pages": 84,
+  "pdf_sha256": "fb27e978b9f6bba7f2d67185d56605c83028366c612270fc3a4cd3405934f154",
+  "content_layout_state": "FROZEN"
+}

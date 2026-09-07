@@ -1,0 +1,24 @@
+{
+  "schema_version": "rn3-091-v2-editorial-factual-audit/v1",
+  "status": "PASS",
+  "checked_at": "2026-09-07",
+  "scope": {
+    "sign_entries": 127,
+    "intro_sections": 16,
+    "comparison_records": 127
+  },
+  "checks": {
+    "french_sign_claims_map_to_legifrance": true,
+    "ukrainian_comparisons_map_to_current_pdr": true,
+    "volatile_claims_have_refresh_gate": true,
+    "cerema_asset_rights_and_attribution": true,
+    "reader_taxonomy_ukrainian_only": true,
+    "both_experience_levels_supported": true,
+    "individual_legal_advice_excluded": true,
+    "filler_prose_added_for_layout": false
+  },
+  "limitations": [
+    "Local factual audit maps claims to controlling sources; volatile sources must be refreshed immediately before publication.",
+    "KDP and Kindle uploaded-file previews remain human publication gates."
+  ]
+}

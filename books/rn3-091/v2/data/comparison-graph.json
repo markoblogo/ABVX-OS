@@ -1,0 +1,1148 @@
+{
+  "schema_version": "rn3-091-comparison-graph/v2",
+  "entries": [
+    {
+      "fr_sign_id": "A13a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Ділянка, де на дорозі можуть з'явитися діти».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A13b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Попереду пішохідний перехід».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A14",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Інша небезпека, не показана окремим символом».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A15a1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Можлива поява свійських тварин».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A15b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Можлива поява диких тварин».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A15c",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Можлива поява вершників».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A16",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Небезпечний спуск».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A17",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Попереду світлофор».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A18",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Починається двосторонній рух».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A19",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Можливе падіння каміння».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A1a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Небезпечний поворот праворуч».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A1b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Небезпечний поворот ліворуч».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A1c",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Серія поворотів, перший праворуч».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A1d",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Серія поворотів, перший ліворуч».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A20",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Виїзд на набережну або берег».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A21",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Можливий виїзд велосипедистів».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A23",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Низьколітні літаки або інша повітряна небезпека».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A24",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Сильний боковий вітер».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A2a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Різка нерівність дороги».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A2b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Штучна дорожня нерівність».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A3",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Дорога звужується з обох боків».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A3a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Дорога звужується праворуч».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A3b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Дорога звужується ліворуч».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A4",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Слизька дорога».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "A6",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Попереджувальна логіка знайома, але французький символ треба пов’язати саме з ризиком «Розвідний міст».",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB1",
+      "comparison_type": "DIFFERENT_SYSTEM",
+      "reader_label_uk": "В Україні інакше",
+      "comparison_note_uk": "Правило праворуч існує в обох країнах, але у Франції не чекайте окремого AB1 перед кожним його застосуванням.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB2",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Принцип пріоритету може бути знайомим, але вирішальними залишаються французькі знаки на конкретному в’їзді.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB25",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Базова дія близька: на в’їзді поступіться тим, хто вже на колі. Смуги, стрілки й світлофор перевіряйте окремо.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB3a",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Форма й вимога поступитися дуже близькі до українського знака 2.1. Повна зупинка потрібна лише коли без неї неможливо безпечно поступитися.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB3b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Принцип пріоритету може бути знайомим, але вирішальними залишаються французькі знаки на конкретному в’їзді.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB4",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Форма й базова дія збігаються з українським STOP: потрібна повна зупинка, а не дуже повільний проїзд.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB5",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Принцип пріоритету може бути знайомим, але вирішальними залишаються французькі знаки на конкретному в’їзді.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB6",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Головна дорога» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "AB7",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець головної дороги» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B0",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Рух усіх транспортних засобів заборонено в обох напрямках» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B1",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «В'їзд у цьому напрямку заборонено» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B10a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «В'їзд заборонено транспортові з визначеною кількістю вибухових або легкозаймистих вантажів» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B11",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Обмеження максимальної ширини» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B12",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Обмеження максимальної висоти» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B13",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Обмеження максимальної маси» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B13a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Обмеження навантаження на вісь» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B14-30",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Число задає максимум в обох системах. Вимірювання і пороги відповідальності не переносяться між країнами.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B14-50",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Число задає максимум в обох системах. Вимірювання і пороги відповідальності не переносяться між країнами.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B14-70",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Число задає максимум в обох системах. Вимірювання і пороги відповідальності не переносяться між країнами.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B14-90",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Число задає максимум в обох системах. Вимірювання і пороги відповідальності не переносяться між країнами.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B14-110",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Число задає максимум в обох системах. Вимірювання і пороги відповідальності не переносяться між країнами.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B14-130",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Число задає максимум в обох системах. Вимірювання і пороги відповідальності не переносяться між країнами.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B15",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Дати дорогу зустрічному транспорту» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B16",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Звуковий сигнал заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B17-70m",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Мінімальна дистанція 70 метрів» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B18a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Заборона для транспорту з вибуховими або легкозаймистими вантажами» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B18b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Заборона для вантажів, небезпечних для води» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B18c",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Заборона для транспорту з небезпечними вантажами» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B19",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Інша заборона, зазначена написом або символом» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B2a",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Поворот ліворуч на найближчому перехресті заборонено» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B2b",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Поворот праворуч на найближчому перехресті заборонено» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B2c",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Розворот заборонено» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B3",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Обгін моторних транспортних засобів заборонено» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B3a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Вантажним транспортним засобам обгін заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B4",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Зупинка перед митницею» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B5a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Зупинка перед постом жандармерії» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B5b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Зупинка перед постом поліції» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B5c",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Зупинка перед пунктом оплати» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B6a1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Стоянка заборонена» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B6a2",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Стоянка заборонена з 1-го до 15-го числа» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B6a3",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Стоянка заборонена з 16-го до кінця місяця» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B6d",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Зупинка і стоянка заборонені» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B7a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «В'їзд моторних транспортних засобів заборонено, крім мопедів» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B7b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «В'їзд усіх моторних транспортних засобів заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B8",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «В'їзд вантажного транспорту заборонено» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B9a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Рух пішоходів заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B9b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Рух велосипедів заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B9c",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Рух гужового транспорту заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B9d",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Рух моторної сільськогосподарської техніки заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B9e",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Червоне коло допомагає впізнати заборону; окремо перевірте, кого саме стосується «Рух ручних візків заборонено» і де вона закінчується.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21-1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Обов'язковий поворот праворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21-2",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Обов'язковий поворот ліворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21a1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Об'їзд перешкоди праворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21a2",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Об'їзд перешкоди ліворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Рух лише прямо» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21c1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «На найближчому перехресті рух лише праворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21c2",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «На найближчому перехресті рух лише ліворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21d1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «На найближчому перехресті рух лише прямо або праворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B21e",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «На найближчому перехресті рух лише праворуч або ліворуч» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B22a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Обов'язкова велосипедна доріжка або смуга» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B22b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Обов'язкова доріжка для пішоходів» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B22c",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Обов'язковий шлях для вершників» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B25-30",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Мінімальна обов'язкова швидкість 30 км/год» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B25-50",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Мінімальна обов'язкова швидкість 50 км/год» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B26",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Ланцюги протиковзання обов'язкові» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B27a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Синій круг підказує обов’язкову дію. Напрямок або категорію «Смуга, обов'язкова для громадського транспорту» прочитайте буквально, без переносу місцевої звички.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B31",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець усіх раніше встановлених заборон для рухомих транспортних засобів» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B33-30",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець обмеження 30 км/год» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B33-50",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець обмеження 50 км/год» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B33-70",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець обмеження 70 км/год» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B33-90",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець обмеження 90 км/год» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B34",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець заборони обгону» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B34a",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець заборони обгону для вантажного транспорту» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B35",
+      "comparison_type": "MATCH",
+      "reader_label_uk": "Збігається",
+      "comparison_note_uk": "Базова команда «Кінець заборони звукових сигналів» має близький український відповідник. Уточнення й межі дії читайте за французькою композицією.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B30",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Схожий образ не гарантує однакової території дії. У Франції знайдіть знак виходу з цього режиму.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B50a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Схожий образ не гарантує однакової території дії. У Франції знайдіть знак виходу з цього режиму.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B51",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Схожий образ не гарантує однакової території дії. У Франції знайдіть знак виходу з цього режиму.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "B52",
+      "comparison_type": "NO_DIRECT_ANALOGUE",
+      "reader_label_uk": "Прямого аналога немає",
+      "comparison_note_uk": "Українська житлова зона є лише асоціацією. Французька zone de rencontre окремо задає максимум 20 і пріоритет пішоходів.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "HIGH"
+    },
+    {
+      "fr_sign_id": "B53",
+      "comparison_type": "NO_DIRECT_ANALOGUE",
+      "reader_label_uk": "Прямого аналога немає",
+      "comparison_note_uk": "Для навчання не використовуйте український знак як юридичний еквівалент. Запам’ятайте французький режим окремо.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "HIGH"
+    },
+    {
+      "fr_sign_id": "B54",
+      "comparison_type": "NO_DIRECT_ANALOGUE",
+      "reader_label_uk": "Прямого аналога немає",
+      "comparison_note_uk": "Для навчання не використовуйте український знак як юридичний еквівалент. Запам’ятайте французький режим окремо.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "HIGH"
+    },
+    {
+      "fr_sign_id": "B55",
+      "comparison_type": "NO_DIRECT_ANALOGUE",
+      "reader_label_uk": "Прямого аналога немає",
+      "comparison_note_uk": "Для навчання не використовуйте український знак як юридичний еквівалент. Запам’ятайте французький режим окремо.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "HIGH"
+    },
+    {
+      "fr_sign_id": "B6b1",
+      "comparison_type": "NO_DIRECT_ANALOGUE",
+      "reader_label_uk": "Прямого аналога немає",
+      "comparison_note_uk": "Для навчання не використовуйте український знак як юридичний еквівалент. Запам’ятайте французький режим окремо.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "HIGH"
+    },
+    {
+      "fr_sign_id": "C107",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Дотримуйтеся правил, що діють на такій дорозі, та наступних обмежень» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C108",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Після знака перевірте загальні правила й нові обмеження» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C12",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Рухайтеся лише в показаному напрямку» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C13a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Дорога не має наскрізного проїзду» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C13b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Перевірте, чи потрібна вам ця гілка маршруту» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C1a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Паркуйтеся в межах розмітки та перевірте додаткові умови» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C1b",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Встановіть диск і дотримуйтеся зазначеного часу» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C1c",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Перевірте спосіб оплати, години та максимальний час» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C20a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Будьте готові пропустити пішоходів» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C23",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Перевірте умови на додаткових табличках» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C24a-ex1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Зіставте знак над смугою зі своїм транспортом і напрямком» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C27",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Проїдьте нерівність на малій швидкості» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C3",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Не використовуйте вогонь і дотримуйтеся місцевих обмежень» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C4a-30",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Це рекомендація, але дорожні умови можуть вимагати ще меншої швидкості» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "C5",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Інформаційний символ може бути зрозумілим без перекладу, але практичну дію «Не паркуйтеся на місцях, зарезервованих для таксі» уточнює французький контекст.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "CE1",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Піктограма легко впізнається, проте вона повідомляє про сервіс, а не обіцяє негайний або безумовний доступ до нього.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "CE2a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Піктограма легко впізнається, проте вона повідомляє про сервіс, а не обіцяє негайний або безумовний доступ до нього.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "CE14",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Піктограма легко впізнається, проте вона повідомляє про сервіс, а не обіцяє негайний або безумовний доступ до нього.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "CE15a",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Піктограма легко впізнається, проте вона повідомляє про сервіс, а не обіцяє негайний або безумовний доступ до нього.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    },
+    {
+      "fr_sign_id": "CE16",
+      "comparison_type": "NEAR_MATCH",
+      "reader_label_uk": "Схожий, але є різниця",
+      "comparison_note_uk": "Піктограма легко впізнається, проте вона повідомляє про сервіс, а не обіцяє негайний або безумовний доступ до нього.",
+      "source_fr": "FR-SIGNS",
+      "source_ua": "UA-PDR",
+      "confidence": "MEDIUM"
+    }
+  ]
+}

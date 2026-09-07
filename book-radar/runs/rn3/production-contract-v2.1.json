@@ -1,0 +1,36 @@
+{
+  "schema_version": "rn3-production-contract/v2.1",
+  "opportunity_id": "RN3-091",
+  "version": "V2.1.1",
+  "status": "READY_FOR_HUMAN_PUBLISHING",
+  "content_version": "V2.1.1",
+  "commercial_package_content_version": "V2.1.1",
+  "open_content_or_layout_correction_gates": 0,
+  "gate_states": {
+    "market": "PASS",
+    "product_thesis": "PASS",
+    "representative_product": "PASS",
+    "typography": "PASS",
+    "factual_source": "PASS",
+    "language": "PASS",
+    "editorial": "PASS",
+    "editorial_formalism": "PASS",
+    "product_quality": "PASS",
+    "technical": "PASS",
+    "toc_navigation": "PASS",
+    "commercial_package": "PASS",
+    "full_production": "PASS",
+    "kdp_external_preview": "HUMAN_PENDING",
+    "cover": "HUMAN_PENDING"
+  },
+  "artifacts": {
+    "manuscript": "books/rn3-091/v2-1/manuscript/final-manuscript-v2-1.md",
+    "paperback_master": "books/rn3-091/v2-1/production/paperback-production-master-v2-1.json",
+    "paperback_pdf": "output/pdf/french-road-rules-and-signs-for-ukrainians-v2-1-interior.pdf",
+    "kindle_epub": "output/epub/french-road-rules-and-signs-for-ukrainians-v2-1.epub",
+    "release_qa": "books/rn3-091/v2-1/qa/release-preflight-v2-1.json",
+    "commercial_package": "books/rn3-091/v2-1/commercial/commercial-package-v2.1.json"
+  },
+  "commercial_finalization_rule": "COMMERCIAL FINALIZATION MUST OCCUR AFTER FINAL CONTENT/LAYOUT FREEZE.",
+  "next_action": "Human cover selection and uploaded-file checks in KDP Print Previewer and Kindle Previewer."
+}

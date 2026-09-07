@@ -2295,6 +2295,44 @@
       "id": "decision:RN3-091:v2-human-product-gate-1",
       "opportunity_id": "RN3-091",
       "reason": "Market and Product Thesis V2 pass, but the first representative product failed human product-taste review; full V2 production is blocked pending prototype 2."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "HUMAN_PRODUCT_GATE_2_PASS",
+      "id": "decision:RN3-091:v2-human-product-gate-pass",
+      "opportunity_id": "RN3-091",
+      "reason": "The requested typography correction improved printed readability and vertical use without adding filler or creating crowding."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "AWAITING_FINAL_HUMAN_PUBLISHING_COVER_GATE",
+      "id": "decision:RN3-091:v2-await-final-publishing-gate",
+      "opportunity_id": "RN3-091",
+      "reason": "Paperback, EPUB, source, bilingual, product-quality, visual, TOC, margin and technical QA passed; uploaded-file previews and cover remain human gates."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "COMMERCIALLY_PACKAGED_AWAITING_HUMAN_UPLOAD_AND_COVER",
+      "id": "decision:RN3-091:v2-commercial-package-v2-1-ready",
+      "opportunity_id": "RN3-091",
+      "production_authorized": false,
+      "reason": "Fresh Amazon.fr scan, researched prices and KDP economics, complete metadata, ranked category targets, seven keyword fields, format settings and cover handoff now exist. Category selection, cover choice and uploaded-file previews remain human gates."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "KDP_READY_V2_1_AWAITING_HUMAN_PUBLISHING_GATE",
+      "id": "decision:RN3-091:v2-1-kdp-ready-human-gate",
+      "opportunity_id": "RN3-091",
+      "production_authorized": false,
+      "reason": "V2.1 content and layout are frozen, all release QA passes, the commercial package targets the same V2.1 content, and no content or layout correction gate remains open."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "READY_FOR_HUMAN_PUBLISHING",
+      "id": "decision:RN3-091:ready-for-human-publishing-v2-1-1",
+      "opportunity_id": "RN3-091",
+      "production_authorized": false,
+      "reason": "The only final production defect, index truncation, was corrected without changing the 84-page economics. All internal content, product, source, language, rights, navigation, margin, format and commercial gates pass. Amazon publication and uploaded-file previews remain human actions."
     }
   ],
   "evidence": [
@@ -6026,6 +6064,153 @@
       },
       "id": "evidence:RN3-091:v2-prototype-1-human-fail",
       "kind": "representative_product_feedback",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "artifact": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-typography-proof.pdf",
+        "body_leading_increase": 1.122,
+        "body_size_increase": 1.137,
+        "crowding": "NONE_OBSERVED",
+        "human_result": "CONDITIONAL_PASS",
+        "secondary_size_increase": 1.114,
+        "typography_comparison": "PASS"
+      },
+      "id": "evidence:RN3-091:v2-human-product-gate-2",
+      "kind": "human_product_gate",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "atlas_density": "2-3 signs per ordinary atlas page",
+        "intro_pages": 16,
+        "kindle": "output/epub/french-road-rules-and-signs-for-ukrainians-v2.epub",
+        "paperback": "output/pdf/french-road-rules-and-signs-for-ukrainians-v2-interior.pdf",
+        "paperback_pages": 92,
+        "qa": "books/rn3-091/v2/qa/release-preflight-v2.json",
+        "sign_entries": 127,
+        "status": "AWAITING_FINAL_HUMAN_PUBLISHING_COVER_GATE",
+        "word_count": 7059
+      },
+      "id": "evidence:RN3-091:v2-full-production",
+      "kind": "production_result",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "classification": "COMMERCIAL_PACKAGE_INCOMPLETE_FALSE_PASS",
+        "required_model": "KDP READY = CONTENT + PRODUCT + TECHNICAL + COMMERCIALLY PACKAGED + HUMAN UPLOAD READY",
+        "root_cause": "commercial package completeness was not enforced"
+      },
+      "id": "evidence:RN3-091:v2-commercial-package-regression",
+      "kind": "commercial_package_regression",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "category_targets": 3,
+        "estimated_paperback_royalty_eur": 7.37,
+        "keyword_fields": 7,
+        "kindle_price_eur": 7.99,
+        "metadata": "books/rn3-091/v2/commercial/metadata-card-v2.1.md",
+        "paperback_price_eur": 18.9,
+        "primary_marketplace": "Amazon.fr",
+        "printing_cost_eur": 3.97,
+        "status": "PASS"
+      },
+      "id": "evidence:RN3-091:v2-commercial-package-v2-1",
+      "kind": "commercial_package",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "classification": "COMMERCIAL_PASS_EXECUTED_BEFORE_CONTENT_REBUILD",
+        "reusable_rule": "COMMERCIAL FINALIZATION MUST OCCUR AFTER FINAL CONTENT/LAYOUT FREEZE."
+      },
+      "id": "evidence:RN3-091:v2-1-commercial-before-content-regression",
+      "kind": "publishing_process_regression",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "atlas_explanatory_pt": 11.3,
+        "body_pt": 12.1,
+        "content_version": "V2.1",
+        "open_content_or_layout_correction_gates": 0,
+        "pages": 84,
+        "preflight": "books/rn3-091/v2-1/qa/release-preflight-v2-1.json",
+        "status": "PASS",
+        "toc_pages": 1
+      },
+      "id": "evidence:RN3-091:v2-1-editorial-productization",
+      "kind": "editorial_productization",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "content_version": "V2.1",
+        "estimated_paperback_royalty_eur": 7.65,
+        "kindle_price_eur": 7.99,
+        "paperback_price_eur": 18.9,
+        "printing_cost_eur": 3.69,
+        "status": "FINAL"
+      },
+      "id": "evidence:RN3-091:v2-1-commercial-final",
+      "kind": "commercial_package",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "all_index_entries_present": 127,
+        "correction_scope": "paperback index only",
+        "final_content_version": "V2.1.1",
+        "final_index_visual_qa": "PASS",
+        "final_page_count": 84,
+        "final_word_count": 5552,
+        "initial_index_visual_qa": "FAIL"
+      },
+      "id": "evidence:RN3-091:v2-1-1-index-visual-fix",
+      "kind": "final_production_qa",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN3-091"
+    },
+    {
+      "data": {
+        "estimated_paperback_royalty_eur": 7.65,
+        "final_formats": [
+          "8.5 x 11 standard-colour paperback",
+          "reflowable EPUB 3"
+        ],
+        "final_page_count": 84,
+        "final_product_version": "V2.1.1",
+        "final_word_count": 5552,
+        "human_product_gates": 2,
+        "human_product_taste_interventions": [
+          "rejected slide-deck density and prior-knowledge assumption",
+          "required normal-book typography, pagination and editorial asymmetry",
+          "required full commercial finalization only after content freeze"
+        ],
+        "kindle_price_eur": 7.99,
+        "language": "Ukrainian with French terminology",
+        "paperback_price_eur": 18.9,
+        "predicted_values_reference": "book-radar/state.json scores and original RN3 evidence",
+        "primary_marketplace": "Amazon.fr",
+        "printing_cost_eur": 3.69,
+        "product": "French road rules/signs FR\u2194UA transition guide",
+        "product_quality_rework": true,
+        "sales_actuals": "NOT_AVAILABLE_NOT_LIVE",
+        "subject_matter_human_dependency": "LOW_PRODUCT_INSIGHT_ONLY"
+      },
+      "id": "evidence:RN3-091:final-production-state",
+      "kind": "production_closeout",
       "observed_at": "2026-09-07",
       "opportunity_id": "RN3-091"
     }

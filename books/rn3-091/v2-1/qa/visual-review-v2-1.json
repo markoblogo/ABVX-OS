@@ -1,0 +1,22 @@
+{
+  "schema_version": "rn3-091-visual-review/v1",
+  "status": "PASS",
+  "reviewed_at": "2026-09-07",
+  "reviewed_surfaces": [
+    "full-book-contact-sheet-v2-1.png",
+    "front-matter-contact-sheet-v2-1.png",
+    "key-differences-contact-sheet-v2-1.png",
+    "atlas-representative-contact-sheet-v2-1.png",
+    "high-risk-contact-sheet-v2-1.png"
+  ],
+  "checks": {
+    "no_clipped_or_overlapping_text": true,
+    "body_and_atlas_text_readable": true,
+    "toc_fits_one_page": true,
+    "comparison_badges_stay_inside_visual_column": true,
+    "opening_supports_colour_edition_promise": true,
+    "editorial_pagination_avoids_slide_deck_rhythm": true,
+    "no_reader_facing_template_meta": true
+  },
+  "defects_open": 0
+}

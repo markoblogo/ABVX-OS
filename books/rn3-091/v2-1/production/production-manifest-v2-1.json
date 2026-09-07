@@ -1,0 +1,141 @@
+{
+  "schema_version": "rn3-091-v2.1-production/v1",
+  "status": "CONTENT_LAYOUT_FROZEN_AWAITING_COMMERCIAL_FINALIZATION",
+  "built_at": "2026-09-07",
+  "content_version": "V2.1.1",
+  "trim": "8.5 x 11 in",
+  "bleed": false,
+  "paperback_pdf": "output/pdf/french-road-rules-and-signs-for-ukrainians-v2-1-interior.pdf",
+  "kindle_epub": "output/epub/french-road-rules-and-signs-for-ukrainians-v2-1.epub",
+  "pages": 84,
+  "sign_entries": 127,
+  "intro_topics": 16,
+  "intro_pages": 9,
+  "index_pages": 5,
+  "atlas_page_entry_counts": [
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    2
+  ],
+  "toc": [
+    {
+      "title": "Ключові відмінності",
+      "page": 4
+    },
+    {
+      "title": "Як читати французькі знаки",
+      "page": 13
+    },
+    {
+      "title": "Небезпека",
+      "page": 15
+    },
+    {
+      "title": "Пріоритет",
+      "page": 27
+    },
+    {
+      "title": "Заборони",
+      "page": 31
+    },
+    {
+      "title": "Обов’язкові дії",
+      "page": 51
+    },
+    {
+      "title": "Кінець обмежень",
+      "page": 59
+    },
+    {
+      "title": "Зони й режими",
+      "page": 63
+    },
+    {
+      "title": "Інформаційні знаки",
+      "page": 67
+    },
+    {
+      "title": "Сервіси",
+      "page": 74
+    },
+    {
+      "title": "Швидкий повтор",
+      "page": 76
+    },
+    {
+      "title": "Французько-український покажчик",
+      "page": 78
+    },
+    {
+      "title": "Джерела й оновлення",
+      "page": 83
+    }
+  ],
+  "typographic_scale": {
+    "body_pt": 12.1,
+    "leading_pt": 16.4,
+    "secondary_pt": 10.4,
+    "atlas_explanatory_pt": 11.3,
+    "index_fr_pt": 8.7,
+    "index_uk_pt": 8.5
+  },
+  "full_production_authorized_by": "HUMAN_PRODUCT_GATE_2_PASS"
+}

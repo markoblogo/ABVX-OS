@@ -1,0 +1,22 @@
+{
+  "schema_version": "rn3-091-v2-gate2-prototype-qa/v1",
+  "status": "PASS",
+  "pages": 8,
+  "word_count": 1417,
+  "page_types": [
+    "prose_differences_1",
+    "prose_differences_2",
+    "dense_sign_primer",
+    "two_sign_atlas_1",
+    "two_sign_atlas_2",
+    "four_sign_atlas",
+    "important_comparison",
+    "quick_review_index"
+  ],
+  "english_reader_taxonomy_absent": true,
+  "global_prior_experience_assumption_absent": true,
+  "full_production": "BLOCKED",
+  "human_product_gate": 2,
+  "human_gate_status": "PENDING",
+  "artifact": "output/pdf/french-road-signs-for-ukrainian-drivers-v2-gate2-prototype.pdf"
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": "rn3-091-typography-comparison/v1",
+  "status": "PASS",
+  "type_scale": {
+    "body_pt": [
+      9.5,
+      10.8
+    ],
+    "body_leading_pt": [
+      13.1,
+      14.7
+    ],
+    "secondary_pt": [
+      7.9,
+      8.8
+    ],
+    "primary_sign_px_equivalent": [
+      98,
+      108
+    ]
+  },
+  "ratios": {
+    "body_size": 1.137,
+    "body_leading": 1.122,
+    "secondary_size": 1.114,
+    "sign_size": 1.102
+  },
+  "pages": [
+    {
+      "page_type": "prose",
+      "gate2": {
+        "last_content_ratio": 0.586,
+        "unused_lower_ratio_before_footer": 0.234,
+        "ink_ratio": 0.0869
+      },
+      "typography_proof": {
+        "last_content_ratio": 0.696,
+        "unused_lower_ratio_before_footer": 0.124,
+        "ink_ratio": 0.1044
+      }
+    },
+    {
+      "page_type": "two_sign",
+      "gate2": {
+        "last_content_ratio": 0.749,
+        "unused_lower_ratio_before_footer": 0.071,
+        "ink_ratio": 0.0877
+      },
+      "typography_proof": {
+        "last_content_ratio": 0.77,
+        "unused_lower_ratio_before_footer": 0.05,
+        "ink_ratio": 0.0978
+      }
+    },
+    {
+      "page_type": "four_sign",
+      "gate2": {
+        "last_content_ratio": 0.677,
+        "unused_lower_ratio_before_footer": 0.143,
+        "ink_ratio": 0.0937
+      },
+      "typography_proof": {
+        "last_content_ratio": 0.681,
+        "unused_lower_ratio_before_footer": 0.139,
+        "ink_ratio": 0.0937
+      }
+    }
+  ],
+  "crowding": "NONE_OBSERVED",
+  "decision": "HUMAN_PRODUCT_GATE_2_PASS"
+}
