@@ -1,0 +1,18 @@
+{
+  "schema_version": "rn5-001-prototype-v2-qa/v1",
+  "status": "PASS",
+  "checks": {
+    "page_count_14": true,
+    "letter_size": true,
+    "all_pages_have_footer": true,
+    "proposal_anatomy": true,
+    "red_flag_decoder": true,
+    "calculation_layer": true,
+    "three_quote_scenario": true,
+    "question_generator": true,
+    "final_packet": true,
+    "free_alternative_differentiation": true
+  },
+  "pages": 14,
+  "production_started": false
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "rn5-001-product-thesis/v2",
+  "opportunity_id": "RN5-001",
+  "status": "HUMAN_PRODUCT_GATE_2_PASS_PRODUCTION_AUTHORIZED",
+  "human_gate_1": {
+    "result": "CONDITIONAL_FAIL",
+    "finding": "The first sample proved utility but resembled an 8–15 page printable worksheet and did not prove sufficient paid-book value."
+  },
+  "product_thesis": "Solar Proposal Decoder + Buyer Decision System",
+  "promise": "Teach a homeowner to extract, normalize, challenge, compare, and document the information inside real competing solar proposals before signing.",
+  "paid_value_transformation": "Real proposals → located claims and source references → normalized calculations with limitations → proposal-specific written questions → documented buyer decision packet.",
+  "recommended_product_architecture": "Paperback-first reusable reference plus write-in buyer system. Approximately 88–112 pages only if the full content earns that space: roughly half reference/teaching and half two complete three-quote decision packets. No downloadable asset is required or promised.",
+  "primary_format": "PAPERBACK",
+  "secondary_formats": [],
+  "format_eligibility_status": {"PAPERBACK":"SUPPORTED"},
+  "format_specific_commercial_role": {"PAPERBACK":"PRIMARY — reference and write-in execution system"},
+  "one_sentence_reason_to_buy": "Unlike a spreadsheet, calculator, or installer marketplace, this buyer-owned system teaches you where proposal claims live, how to normalize them without hiding their limits, and how to turn every material gap into a written installer question and auditable decision packet.",
+  "prototype_2": {
+    "artifact": "book-radar/runs/rn5/representative-sample-v2/solar-proposal-decoder-buyer-decision-system-prototype-v2.pdf",
+    "pages": 14,
+    "internal_qa": "PASS",
+    "paid_value_layer": "PASS",
+    "proposal_decoding": "PASS",
+    "claim_red_flag_decoder": "PASS",
+    "calculation_layer": "PASS",
+    "decision_scenario": "PASS",
+    "question_generator": "PASS",
+    "free_alternative_differentiation": "PASS"
+  },
+  "human_gate_2": {
+    "result": "PASS",
+    "decided_at": "2026-09-07",
+    "finding": "The second prototype proves sufficient paid-book value and the decoder-first product experience is approved."
+  },
+  "production_authorized": true,
+  "next_gate": "FULL PRODUCTION"
+}

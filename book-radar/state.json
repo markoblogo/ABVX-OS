@@ -5853,6 +5853,30 @@
       "opportunity_id": "RN5-001",
       "production_authorized": false,
       "reason": "Market, source, rights, format, differentiation and portfolio gates pass; worksheet product quality requires one human sample decision."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "CONDITIONAL_FAIL_OPPORTUNITY_ALIVE",
+      "id": "decision:RN5-001:human-product-gate-1-conditional-fail",
+      "opportunity_id": "RN5-001",
+      "production_authorized": false,
+      "reason": "The first prototype proved utility but not enough paid-book value."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "PROTOTYPE_2_AWAITING_HUMAN_PRODUCT_GATE",
+      "id": "decision:RN5-001:prototype-2-awaiting-human-gate",
+      "opportunity_id": "RN5-001",
+      "production_authorized": false,
+      "reason": "The second sample adds proposal anatomy, claim decoding, calculations, a three-quote scenario, question generation, and a final decision packet. Human product judgment still controls."
+    },
+    {
+      "decided_at": "2026-09-07",
+      "decision": "HUMAN_PRODUCT_GATE_2_PASS_PRODUCTION_AUTHORIZED",
+      "id": "decision:RN5-001:human-product-gate-2-pass",
+      "opportunity_id": "RN5-001",
+      "production_authorized": true,
+      "reason": "Human review approved the paid-value mechanism and authorized autonomous full production under the frozen decoder-first thesis."
     }
   ],
   "evidence": [
@@ -13288,6 +13312,44 @@
       "opportunity_id": "RN5-060",
       "source_ref": "book-radar/runs/rn5/deep-scan.json",
       "summary": "Raw inputs \u2192 buyer-specific sequence \u2192 documented next action."
+    },
+    {
+      "details": {
+        "finding": "First sample remained too close to an 8\u201315 page printable worksheet.",
+        "opportunity_alive": true,
+        "result": "CONDITIONAL_FAIL"
+      },
+      "id": "evidence:RN5-001:human-product-gate-1",
+      "kind": "human_product_gate",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN5-001",
+      "summary": "CONDITIONAL FAIL: utility proven, paid-book value not yet proven."
+    },
+    {
+      "details": {
+        "artifact": "book-radar/runs/rn5/representative-sample-v2/solar-proposal-decoder-buyer-decision-system-prototype-v2.pdf",
+        "human_gate": "PENDING",
+        "internal_qa": "PASS",
+        "production_started": false
+      },
+      "id": "evidence:RN5-001:representative-sample-v2",
+      "kind": "representative_product",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN5-001",
+      "summary": "Fourteen-page Solar Proposal Decoder + Buyer Decision System sample built and internally verified."
+    },
+    {
+      "details": {
+        "approved_thesis": "Solar Proposal Decoder + Buyer Decision System",
+        "primary_format": "PAPERBACK-FIRST REFERENCE + WRITE-IN BUYER DECISION SYSTEM",
+        "production_authorized": true,
+        "result": "PASS"
+      },
+      "id": "evidence:RN5-001:human-product-gate-2",
+      "kind": "human_product_gate",
+      "observed_at": "2026-09-07",
+      "opportunity_id": "RN5-001",
+      "summary": "PASS: Prototype #2 proves paid-book value and controls full production."
     }
   ],
   "launches": [

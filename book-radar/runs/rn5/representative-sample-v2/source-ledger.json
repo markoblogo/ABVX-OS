@@ -1,0 +1,13 @@
+{
+  "schema_version": "rn5-001-prototype-v2-source-ledger/v1",
+  "checked_at": "2026-09-07",
+  "sources": [
+    {"id":"DOE-COMPARE","title":"Decisions, Decisions: Choosing a Solar Installer","publisher":"U.S. Department of Energy","url":"https://www.energy.gov/cmei/systems/articles/decisions-decisions-choosing-solar-installer","supports":["compare multiple quotes","cash cost per watt formula","proposal scope questions"]},
+    {"id":"DOE-BID-FIELDS","title":"Request for Solar System Installation bid template","publisher":"U.S. Department of Energy","url":"https://www.energy.gov/sites/default/files/2024-02/wap-solar-bid-request-template_022624.pdf","supports":["system size","annual production estimate","offset percentage","warranty and full bid fields"]},
+    {"id":"CFPB-FINANCING","title":"Issue Spotlight: Solar Financing","publisher":"Consumer Financial Protection Bureau","url":"https://www.consumerfinance.gov/data-research/research-reports/issue-spotlight-solar-financing/","supports":["cash price versus financed principal","dealer-fee risk","expected prepayment and payment-change risk","uncertain savings"]},
+    {"id":"CFPB-ADVISORY","title":"Consumer advisory: Steer clear of costly and complex loans for solar energy installation","publisher":"Consumer Financial Protection Bureau","url":"https://www.consumerfinance.gov/archive/newsroom/consumer-advisory-steer-clear-of-costly-and-complex-loans-for-solar-energy-installation/","supports":["written cost and work breakdown","multiple installer and lender proposals"]},
+    {"id":"FTC-SOLAR","title":"Solar energy is rising in popularity. So are the scams","publisher":"Federal Trade Commission","url":"https://consumer.ftc.gov/consumer-alerts/2024/09/solar-energy-rising-popularity-so-are-scams","supports":["free/no-cost and government-affiliation claim caution","compare reputable quotes"]},
+    {"id":"FTC-HOME","title":"Solar Power for Your Home","publisher":"Federal Trade Commission","url":"https://consumer.ftc.gov/articles/solar-power-your-home","supports":["buy lease and PPA distinctions","incentive eligibility varies","sale and transfer questions"]}
+  ],
+  "prototype_boundary": "All companies, buyers, prices, systems, payment schedules, production estimates, warranties, and proposal identifiers in the sample are synthetic. Calculations illustrate comparison mechanics only."
+}
