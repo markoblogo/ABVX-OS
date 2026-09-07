@@ -1,6 +1,6 @@
 import json, tempfile, unittest
 from pathlib import Path
-from abvx_harness.publishing_gates import audit_no_bleed_objects, assess_format_eligibility, validate_product_contract, validate_commercial_package, representative_product_requirement, record_human_product_gate, release_authorization
+from abvx_harness.publishing_gates import audit_no_bleed_objects, assess_format_eligibility, validate_product_contract, validate_commercial_package, validate_callout_layout, validate_format_layout, representative_product_requirement, record_human_product_gate, release_authorization
 
 GOOD={"buyer":"learner","buyer_job":"learn a system","prior_knowledge":"none or adjacent system","confusions":["transfer traps"],"better_or_faster":"recognize and act","paid_value":"curated comparisons","specific_advantage":"two-system map","intentionally_not":"legal advice","primary_format":"PAPERBACK","secondary_formats":["KINDLE"],"format_eligibility_status":{"PAPERBACK":"SUPPORTED","KINDLE":"SUPPORTED"},"format_specific_commercial_role":{"PAPERBACK":"PRIMARY","KINDLE":"SECONDARY"},"product_class":"COMPARISON_GUIDE","dataset_driven":True,"raw_data_transformation":{"raw_source":"two official rule sets","transformation":"comparison graph and explanations","buyer_value":"safe transfer and faster learning"}}
 
@@ -76,5 +76,19 @@ class PublishingGateTests(unittest.TestCase):
         gates["kdp_external_preview"]="HUMAN_PENDING"
         result=release_authorization(gates)
         self.assertIn({"gate":"commercial_package","state":"MISSING"},result["failures"])
+
+    def test_format_layout_gate_requires_real_trim_evidence_and_writable_forms(self):
+        good={"trim_candidates":[{"trim":"7x10"},{"trim":"8x10"}],"selected_trim":"8x10","callout_layout":{"space_before_pt":18,"space_after_body_pt":18,"space_after_heading_pt":22,"internal_padding_pt":12,"overlap_count":0,"measured":[{"id":"A","before_gap_pt":18,"after_gap_pt":22,"following_type":"HEADING"}]},"form_layout":{"short_row_min_pt":28,"long_row_min_pt":48,"three_column_answer_width_in":1.75,"editorial_asymmetry":True},"chapter_end_whitespace_signal_pages":[]}
+        self.assertEqual(validate_format_layout(good)["status"],"PASS")
+        bad={**good,"callout_layout":{"space_before_pt":2,"space_after_body_pt":2,"space_after_heading_pt":2,"internal_padding_pt":2,"overlap_count":1,"measured":[{"id":"A","before_gap_pt":2,"after_gap_pt":2,"following_type":"BODY"}]},"chapter_end_whitespace_signal_pages":[11]}
+        result=validate_format_layout(bad)
+        self.assertEqual(result["status"],"FAIL")
+        self.assertIn("chapter_end_whitespace_signal_pages.empty",result["failures"])
+
+    def test_callout_collision_and_optical_spacing_are_independent(self):
+        record={"space_before_pt":4,"space_after_body_pt":4,"space_after_heading_pt":4,"internal_padding_pt":12,"overlap_count":0,"measured":[{"id":"Q","before_gap_pt":4,"after_gap_pt":4,"following_type":"BODY"}]}
+        result=validate_callout_layout(record)
+        self.assertEqual(result["collision"]["status"],"PASS")
+        self.assertEqual(result["optical_spacing"]["status"],"FAIL")
 
 if __name__=='__main__': unittest.main()

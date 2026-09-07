@@ -26,6 +26,56 @@ HUMAN_TASTE_TRIGGERS = {
 DATA_DRIVEN_CLASSES = {"EXAM_PREP", "PUBLIC_DOMAIN_TRANSFORMATION", "VISUAL_REFERENCE", "COMPARISON_GUIDE"}
 FORMAT_STATUSES = {"SUPPORTED", "UNSUPPORTED", "UNVERIFIED"}
 
+def validate_callout_layout(record: dict[str, Any]) -> dict[str, Any]:
+    """Keep collision safety and optical spacing as independent gates."""
+    collision_failures = []
+    optical_failures = []
+    if int(record.get("overlap_count", -1)) != 0:
+        collision_failures.append("overlap_count.zero")
+    if float(record.get("internal_padding_pt", 0)) < 9:
+        collision_failures.append("internal_padding_pt.minimum_9")
+    for key, minimum in (("space_before_pt", 15), ("space_after_body_pt", 15), ("space_after_heading_pt", 18)):
+        if float(record.get(key, 0)) < minimum:
+            optical_failures.append(f"{key}.minimum_{minimum}")
+    measured = record.get("measured", [])
+    if not measured:
+        optical_failures.append("measured.required")
+    for item in measured:
+        if float(item.get("before_gap_pt", 0)) < 15:
+            optical_failures.append(f"{item.get('id','UNKNOWN')}.before_gap_pt.minimum_15")
+        threshold = 18 if item.get("following_type") == "HEADING" else 15
+        if float(item.get("after_gap_pt", 0)) < threshold:
+            optical_failures.append(f"{item.get('id','UNKNOWN')}.after_gap_pt.minimum_{threshold}")
+    return {
+        "collision": {"status": "PASS" if not collision_failures else "FAIL", "failures": collision_failures},
+        "optical_spacing": {"status": "PASS" if not optical_failures else "FAIL", "failures": sorted(set(optical_failures))},
+    }
+
+def validate_format_layout(record: dict[str, Any]) -> dict[str, Any]:
+    """Fail closed on reusable workbook-format evidence and spacing constraints."""
+    failures = []
+    candidates = record.get("trim_candidates", [])
+    selected = record.get("selected_trim")
+    if len(candidates) < 2:
+        failures.append("trim_candidates.at_least_2")
+    if selected not in {c.get("trim") for c in candidates}:
+        failures.append("selected_trim.in_candidates")
+    callout_result = validate_callout_layout(record.get("callout_layout", {}))
+    for gate, result in callout_result.items():
+        failures.extend(f"callout_layout.{gate}.{item}" for item in result["failures"])
+    forms = record.get("form_layout", {})
+    if float(forms.get("short_row_min_pt", 0)) < 26:
+        failures.append("form_layout.short_row_min_pt.minimum_26")
+    if float(forms.get("long_row_min_pt", 0)) < 44:
+        failures.append("form_layout.long_row_min_pt.minimum_44")
+    if float(forms.get("three_column_answer_width_in", 0)) < 1.6:
+        failures.append("form_layout.three_column_answer_width_in.minimum_1.6")
+    if not forms.get("editorial_asymmetry"):
+        failures.append("form_layout.editorial_asymmetry")
+    if record.get("chapter_end_whitespace_signal_pages"):
+        failures.append("chapter_end_whitespace_signal_pages.empty")
+    return {"status": "PASS" if not failures else "FAIL", "failures": failures}
+
 def assess_format_eligibility(*, language: str, marketplace: str, formats: list[str], support_records: list[dict[str, Any]]) -> dict[str, Any]:
     """Resolve KDP format support from dated records; unknown combinations fail closed."""
     resolved: dict[str, Any] = {}

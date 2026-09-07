@@ -1,14 +1,14 @@
 {
-  "schema_version": "rn5-001-release-qa/v1",
+  "schema_version": "rn5-001-release-qa/v1.2",
   "status": "PASS",
-  "content_version": "RN5-001-v1.0",
+  "content_version": "RN5-001-v1.1",
   "pdf_pages": 57,
   "kdp_rounded_page_count": 58,
   "word_count": 8311,
   "checks": {
     "pdf_exists": true,
     "master_matches_release": true,
-    "trim_letter": true,
+    "trim_8x10": true,
     "page_count_minimum": true,
     "no_accidental_blank_pages": true,
     "safe_text_bounds": true,
@@ -25,6 +25,12 @@
     "volatility_ledger": true,
     "reference_first": true,
     "forms_not_majority": true,
+    "callout_collision_qa": true,
+    "callout_optical_spacing_qa": true,
+    "semantic_callouts_rendered": true,
+    "chapter_end_whitespace_signal": true,
+    "write_in_usability": true,
+    "format_layout_gate": true,
     "contact_sheets": true
   },
   "formula_checks": {
@@ -35,11 +41,62 @@
     "scenario_b_total": true,
     "scenario_c_total": true
   },
+  "callout_layout_gate": {
+    "collision": {
+      "status": "PASS",
+      "failures": []
+    },
+    "optical_spacing": {
+      "status": "PASS",
+      "failures": []
+    }
+  },
+  "callout_measurements": [
+    {
+      "id": "THE PAUSE RULE",
+      "page": 5,
+      "before_gap_pt": 15.2,
+      "after_gap_pt": 73.0,
+      "following_type": "HEADING"
+    },
+    {
+      "id": "QUICK TEST",
+      "page": 7,
+      "before_gap_pt": 15.2,
+      "after_gap_pt": 18.0,
+      "following_type": "HEADING"
+    },
+    {
+      "id": "EXTRACTION STANDARD",
+      "page": 11,
+      "before_gap_pt": 15.2,
+      "after_gap_pt": 73.0,
+      "following_type": "HEADING"
+    },
+    {
+      "id": "DECODER DISCIPLINE",
+      "page": 18,
+      "before_gap_pt": 15.2,
+      "after_gap_pt": 73.0,
+      "following_type": "HEADING"
+    },
+    {
+      "id": "WARRANTY TEST",
+      "page": 23,
+      "before_gap_pt": 15.2,
+      "after_gap_pt": 73.0,
+      "following_type": "HEADING"
+    }
+  ],
+  "format_layout_gate": {
+    "status": "PASS",
+    "failures": []
+  },
   "blank_pages": [],
   "out_of_bounds": [],
   "duplicate_long_paragraphs": [],
-  "pdf_sha256": "87ad8302b23f1b1ed6962197bc89a7ff37c3a59f3908a4e178df49e5d54dfe4f",
-  "master_sha256": "87ad8302b23f1b1ed6962197bc89a7ff37c3a59f3908a4e178df49e5d54dfe4f",
+  "pdf_sha256": "346a66334b7ad94a1be0724b3707fe89ac52fc41637586d76c7a9f8f39fac5b0",
+  "master_sha256": "346a66334b7ad94a1be0724b3707fe89ac52fc41637586d76c7a9f8f39fac5b0",
   "deferred": [
     "KDP Print Previewer uploaded-file check",
     "physical proof review",

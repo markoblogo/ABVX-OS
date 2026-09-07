@@ -1,0 +1,56 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "products": [
+    {
+      "id": "product:RN5-001:v1.1",
+      "opportunity_id": "RN5-001",
+      "title": "Solar Proposal Decoder",
+      "author": "Casey Rowan",
+      "status": "PACKAGING",
+      "status_note": "RN5-001 v1.1 rebuilt at selected 8 x 10 trim after a three-format same-content comparison; 57 PDF pages, 58 KDP pages, awaiting human cover and publishing gate.",
+      "primary_format": "PAPERBACK",
+      "formats": [
+        {"format":"PAPERBACK","eligibility":"SUPPORTED","commercial_role":"PRIMARY","production_status":"KDP_READY_AWAITING_HUMAN_COVER_UPLOAD"},
+        {"format":"KINDLE","eligibility":"SUPPORTED","commercial_role":"NOT_COMMERCIALLY_JUSTIFIED","production_status":"NOT_PRODUCED"}
+      ],
+      "content_version": "RN5-001-v1.1",
+      "paperback_pdf_pages": 57,
+      "kdp_rounded_page_count": 58,
+      "word_count": 8311,
+      "paperback_price_usd": 16.99,
+      "printing_cost_usd": 2.84,
+      "estimated_royalty_usd": 7.35,
+      "production_learnings": ["TRIM SIZE IS A PRODUCT DECISION, NOT A DEFAULT PRODUCTION SETTING.","The 8 x 10 trim preserves readable 10.9 pt body type and about 1.75-inch answer cells while avoiding the thin office-manual feel of 8.5 x 11.","Callout spacing and chapter-end whitespace need deterministic regression gates in addition to technical preflight."]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence:RN5-001:format-layout-false-positive",
+      "opportunity_id": "RN5-001",
+      "kind": "FORMAT_LAYOUT_FALSE_POSITIVE",
+      "observed_at": "2026-09-08",
+      "summary": "The initial 8.5 x 11 release passed technical QA but had not validated physical-product fit, trim alternatives, semantic spacing or chapter-end whitespace.",
+      "details": {"reusable_rule":"TRIM SIZE IS A PRODUCT DECISION, NOT A DEFAULT PRODUCTION SETTING.","tested_trims":["7x10","8x10","8.5x11"],"selected_trim":"8x10"},
+      "source_ref": "books/rn5-001/production/rn5-001-trim-size-decision.md"
+    },
+    {
+      "id": "evidence:RN5-001:format-layout-v1.1",
+      "opportunity_id": "RN5-001",
+      "kind": "production_result",
+      "observed_at": "2026-09-08",
+      "summary": "RN5-001 v1.1 rebuilt at 8 x 10 with explicit callout spacing, asymmetric writable forms, non-forced part transitions and deterministic format-layout QA.",
+      "details": {"content_version":"RN5-001-v1.1","pdf_pages":57,"kdp_rounded_page_count":58,"body_size_pt":10.9,"three_column_answer_width_in":1.75,"chapter_end_whitespace_signal_pages":[],"format_layout_qa":"PASS"},
+      "source_ref": "books/rn5-001/qa/release-qa.json"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN5-001:select-8x10-v1.1",
+      "opportunity_id": "RN5-001",
+      "decision": "SELECT_8X10_COMPACT_FIELD_GUIDE_WORKBOOK",
+      "decided_at": "2026-09-08",
+      "reason": "The same-content comparison showed that 8 x 10 best balances printed readability, writable width, page density, physical feel and unchanged large-trim economics.",
+      "production_authorized": false
+    }
+  ]
+}

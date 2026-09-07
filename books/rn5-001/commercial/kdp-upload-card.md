@@ -51,7 +51,7 @@ The book includes an original synthetic three-quote case plus a practical write-
 
 ## Paperback settings
 
-- 8.5 x 11 inches
+- 8 x 10 inches
 - Black & white ink on white paper
 - No bleed
 - Matte cover

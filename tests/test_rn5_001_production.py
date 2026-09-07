@@ -29,6 +29,15 @@ class RN5001ProductionTests(unittest.TestCase):
         self.assertEqual(qa['status'],'PASS')
         self.assertEqual(qa['pdf_pages'],57)
         self.assertEqual(qa['kdp_rounded_page_count'],58)
+        self.assertEqual(qa['content_version'],'RN5-001-v1.1')
+        self.assertTrue(qa['checks']['format_layout_gate'])
+        self.assertTrue(qa['checks']['callout_collision_qa'])
+        self.assertTrue(qa['checks']['callout_optical_spacing_qa'])
+        self.assertEqual(len(qa['callout_measurements']),5)
+        self.assertTrue((BOOK/'qa/contact-sheets/callout-spacing-contact-sheet.png').exists())
+        comparison=json.loads((BOOK/'production'/'rn5-001-trim-size-comparison.json').read_text())
+        self.assertEqual(comparison['selected_trim'],'8x10')
+        self.assertFalse(comparison['ambiguous'])
         for path in [ROOT/'output/pdf/solar-proposal-decoder-buyer-decision-system-paperback.pdf',BOOK/'production/solar-proposal-decoder-production-master.pdf',BOOK/'qa/contact-sheets/full-book-contact-sheet.png',BOOK/'qa/contact-sheets/high-risk-contact-sheet.png',BOOK/'qa/contact-sheets/worksheet-contact-sheet.png']:
             self.assertTrue(path.exists(),path)
 

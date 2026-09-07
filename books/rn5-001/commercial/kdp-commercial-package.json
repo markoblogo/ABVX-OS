@@ -45,7 +45,7 @@
   },
   "format_settings": {
     "language": "English",
-    "trim": "8.5 x 11 in",
+    "trim": "8 x 10 in",
     "ink": "Black & white",
     "paper": "White",
     "bleed": "No bleed",
@@ -65,14 +65,14 @@
   "estimated_paperback_royalty_usd": 7.35,
   "expanded_distribution_royalty_rate": 0.4,
   "estimated_expanded_distribution_royalty_usd": 3.96,
-  "price_checked": "2026-09-07",
+  "price_checked": "2026-09-08",
   "economics_source": "KDP Paperback Printing Cost and Paperback Royalty official help; large-trim black ink, 24\u2013110 pages uses $2.84 fixed Amazon.com printing cost; $16.99 receives 60% rate.",
-  "content_version": "RN5-001-v1.0",
-  "commercial_package_content_version": "RN5-001-v1.0",
+  "content_version": "RN5-001-v1.1",
+  "commercial_package_content_version": "RN5-001-v1.1",
   "open_content_or_layout_correction_gates": 0,
   "cover_brief": {
     "status": "BRIEF_ONLY_AWAITING_HUMAN_COVER_GATE",
-    "trim": "8.5 x 11 in paperback",
+    "trim": "8 x 10 in paperback",
     "page_count_for_kdp_template": 58,
     "interior": "black ink on white paper, no bleed",
     "finish": "matte",
@@ -84,7 +84,7 @@
     ],
     "concept": "A clean consumer-document aesthetic: three offset proposal sheets converge into one organized decision packet. Use a restrained navy, white, pale blue and solar-gold cover palette; no rooftop stock-photo clich\u00e9, sunburst, government seal, savings promise, red-alert scam language, or installer endorsement.",
     "back_cover_copy": "Three proposals. Three different headlines. One buyer-owned decision packet. Learn where the important facts live, normalize price and production without hiding assumptions, decode broad sales claims, generate written installer questions, and preserve the answers before signing.",
-    "production_instruction": "Generate the final wrap only from the current KDP cover template using 8.5 x 11 in, black-and-white white-paper interior, and KDP's rounded 58-page count. Keep all live text inside the template safe zone and leave the barcode area clear."
+    "production_instruction": "Generate the final wrap only from the current KDP cover template using 8 x 10 in, black-and-white white-paper interior, and KDP's rounded 58-page count. Keep all live text inside the template safe zone and leave the barcode area clear."
   },
   "ai_generated_content_disclosure": {
     "text": "YES",

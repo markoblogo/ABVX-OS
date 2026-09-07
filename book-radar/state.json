@@ -5885,6 +5885,22 @@
       "opportunity_id": "RN5-001",
       "production_authorized": false,
       "reason": "The approved paid-value mechanism survives full production; all internal content, factual, editorial, product-quality, format, technical and commercial gates pass. External cover and KDP preview remain human-controlled."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "SELECT_8X10_COMPACT_FIELD_GUIDE_WORKBOOK",
+      "id": "decision:RN5-001:select-8x10-v1.1",
+      "opportunity_id": "RN5-001",
+      "production_authorized": false,
+      "reason": "The same-content comparison showed that 8 x 10 best balances printed readability, writable width, page density, physical feel and unchanged large-trim economics."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "LOCAL_TYPOGRAPHIC_CORRECTION_PASS",
+      "id": "decision:RN5-001:callout-optical-spacing-corrected",
+      "opportunity_id": "RN5-001",
+      "production_authorized": false,
+      "reason": "All five callout pages show distinct exterior breathing room; collision and optical-spacing gates now pass independently."
     }
   ],
   "evidence": [
@@ -13394,6 +13410,71 @@
       "opportunity_id": "RN5-001",
       "source_ref": "books/rn5-001/commercial/amazon-commercial-refresh.json",
       "summary": "Exact Amazon query showed no direct homeowner proposal-comparison workbook; adjacent 2026 homeowner solar books showed visible current activity."
+    },
+    {
+      "details": {
+        "reusable_rule": "TRIM SIZE IS A PRODUCT DECISION, NOT A DEFAULT PRODUCTION SETTING.",
+        "selected_trim": "8x10",
+        "tested_trims": [
+          "7x10",
+          "8x10",
+          "8.5x11"
+        ]
+      },
+      "id": "evidence:RN5-001:format-layout-false-positive",
+      "kind": "FORMAT_LAYOUT_FALSE_POSITIVE",
+      "observed_at": "2026-09-08",
+      "opportunity_id": "RN5-001",
+      "source_ref": "books/rn5-001/production/rn5-001-trim-size-decision.md",
+      "summary": "The initial 8.5 x 11 release passed technical QA but had not validated physical-product fit, trim alternatives, semantic spacing or chapter-end whitespace."
+    },
+    {
+      "details": {
+        "body_size_pt": 10.9,
+        "chapter_end_whitespace_signal_pages": [],
+        "content_version": "RN5-001-v1.1",
+        "format_layout_qa": "PASS",
+        "kdp_rounded_page_count": 58,
+        "pdf_pages": 57,
+        "three_column_answer_width_in": 1.75
+      },
+      "id": "evidence:RN5-001:format-layout-v1.1",
+      "kind": "production_result",
+      "observed_at": "2026-09-08",
+      "opportunity_id": "RN5-001",
+      "source_ref": "books/rn5-001/qa/release-qa.json",
+      "summary": "RN5-001 v1.1 rebuilt at 8 x 10 with explicit callout spacing, asymmetric writable forms, non-forced part transitions and deterministic format-layout QA."
+    },
+    {
+      "details": {
+        "affected_callouts": 5,
+        "collision_qa": "PASS",
+        "prior_optical_spacing_qa": "FALSE_PASS",
+        "reusable_rule": "GEOMETRIC NON-OVERLAP \u2260 GOOD TYPOGRAPHIC SPACING."
+      },
+      "id": "evidence:RN5-001:callout-optical-spacing-false-pass",
+      "kind": "CALLOUT_OPTICAL_SPACING_FALSE_PASS",
+      "observed_at": "2026-09-08",
+      "opportunity_id": "RN5-001",
+      "source_ref": "books/rn5-001/qa/release-qa.json",
+      "summary": "Geometric non-overlap passed while human review found insufficient exterior vertical rhythm around five callout blocks."
+    },
+    {
+      "details": {
+        "callout_collision_qa": "PASS",
+        "callout_optical_spacing_qa": "PASS",
+        "content_version": "RN5-001-v1.1",
+        "kdp_pages": 58,
+        "pages_visually_inspected": "5/5",
+        "pdf_pages": 57,
+        "trim": "8x10"
+      },
+      "id": "evidence:RN5-001:callout-optical-spacing-corrected",
+      "kind": "production_correction",
+      "observed_at": "2026-09-08",
+      "opportunity_id": "RN5-001",
+      "source_ref": "books/rn5-001/qa/contact-sheets/callout-spacing-contact-sheet.png",
+      "summary": "Exterior spacing was separated into before, after-body and after-heading constants; all five callout pages passed measured and raster visual QA without changing pagination."
     }
   ],
   "launches": [
@@ -24063,6 +24144,41 @@
       },
       "status": "PACKAGING",
       "status_note": "KDP-ready 57-page PDF interior (58 pages after KDP rounding); content, layout, QA and commercial package frozen. Awaiting human cover selection, live KDP template, upload and Print Previewer.",
+      "title": "Solar Proposal Decoder",
+      "word_count": 8311
+    },
+    {
+      "author": "Casey Rowan",
+      "content_version": "RN5-001-v1.1",
+      "estimated_royalty_usd": 7.35,
+      "formats": [
+        {
+          "commercial_role": "PRIMARY",
+          "eligibility": "SUPPORTED",
+          "format": "PAPERBACK",
+          "production_status": "KDP_READY_AWAITING_HUMAN_COVER_UPLOAD"
+        },
+        {
+          "commercial_role": "NOT_COMMERCIALLY_JUSTIFIED",
+          "eligibility": "SUPPORTED",
+          "format": "KINDLE",
+          "production_status": "NOT_PRODUCED"
+        }
+      ],
+      "id": "product:RN5-001:v1.1",
+      "kdp_rounded_page_count": 58,
+      "opportunity_id": "RN5-001",
+      "paperback_pdf_pages": 57,
+      "paperback_price_usd": 16.99,
+      "primary_format": "PAPERBACK",
+      "printing_cost_usd": 2.84,
+      "production_learnings": [
+        "TRIM SIZE IS A PRODUCT DECISION, NOT A DEFAULT PRODUCTION SETTING.",
+        "The 8 x 10 trim preserves readable 10.9 pt body type and about 1.75-inch answer cells while avoiding the thin office-manual feel of 8.5 x 11.",
+        "Callout spacing and chapter-end whitespace need deterministic regression gates in addition to technical preflight."
+      ],
+      "status": "PACKAGING",
+      "status_note": "RN5-001 v1.1 rebuilt at selected 8 x 10 trim after a three-format same-content comparison; 57 PDF pages, 58 KDP pages, awaiting human cover and publishing gate.",
       "title": "Solar Proposal Decoder",
       "word_count": 8311
     }

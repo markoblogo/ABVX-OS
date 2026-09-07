@@ -250,6 +250,35 @@
       "candidate_capability": "known_profile_book_production_fast_path",
       "recommended_action": "For the next compatible book, use the admitted profile and known-profile playbook; success means producing output faster and at least as good as manual owner plus ChatGPT production without reopening stable system choices.",
       "status": "promoted"
+    },
+    {
+      "id": "rn5-001-trim-size-product-decision",
+      "originating_project": "book-radar",
+      "originating_mission": "RN5-001",
+      "observed_need": "A technically valid default trim produced a format-layout false positive: the content passed preflight but the physical object still felt like a thin office manual and had not been compared against credible alternatives.",
+      "classification": "REPEATED_WITHIN_PROJECT",
+      "evidence_refs": [
+        "books/rn5-001/production/rn5-001-trim-size-comparison.json",
+        "books/rn5-001/production/rn5-001-trim-size-decision.md",
+        "output/pdf/rn5-001-trim-size-comparison.pdf"
+      ],
+      "candidate_capability": "format_layout_gate",
+      "recommended_action": "TRIM SIZE IS A PRODUCT DECISION, NOT A DEFAULT PRODUCTION SETTING. Compare the same representative content in plausible trims and validate callout spacing, writable form geometry and chapter-end whitespace before commercial finalization.",
+      "status": "promoted"
+    },
+    {
+      "id": "rn5-001-callout-optical-spacing-false-pass",
+      "originating_project": "book-radar",
+      "originating_mission": "RN5-001",
+      "observed_need": "Callout blocks passed geometric non-overlap checks but still sat optically too close to adjacent paragraphs and headings at physical reading size.",
+      "classification": "REPEATED_WITHIN_PROJECT",
+      "evidence_refs": [
+        "books/rn5-001/qa/release-qa.json",
+        "books/rn5-001/qa/contact-sheets/callout-spacing-contact-sheet.png"
+      ],
+      "candidate_capability": "callout_optical_spacing_qa",
+      "recommended_action": "GEOMETRIC NON-OVERLAP ≠ GOOD TYPOGRAPHIC SPACING. Keep collision QA and raster-reviewed optical-spacing QA independent.",
+      "status": "promoted"
     }
   ]
 }

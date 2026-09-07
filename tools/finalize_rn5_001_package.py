@@ -11,6 +11,8 @@ COMM.mkdir(parents=True,exist_ok=True)
 manifest=json.loads((PROD/'production-manifest.json').read_text())
 qa=json.loads((QA/'release-qa.json').read_text())
 assert manifest['status']=='CONTENT_LAYOUT_AND_QA_FROZEN' and qa['status']=='PASS'
+assert manifest['content_version']=='RN5-001-v1.1' and manifest['trim_name']=='8x10'
+assert manifest['pdf_pages']==57 and manifest['kdp_rounded_page_count']==58
 
 description="""Three solar proposals can make three different numbers look decisive. One leads with a low monthly payment. Another leads with annual production. A third shows a “net” price after assumptions. Those headlines are not directly comparable.
 
@@ -44,28 +46,28 @@ package={
   "primary_marketplace":"Amazon.com",
   "planned_formats":["PAPERBACK"],
   "format_eligibility_status":{"PAPERBACK":"SUPPORTED","KINDLE":"SUPPORTED_BUT_NOT_JUSTIFIED"},
-  "format_settings":{"language":"English","trim":"8.5 x 11 in","ink":"Black & white","paper":"White","bleed":"No bleed","cover_finish":"Matte","reading_direction":"Left to right","low_content":"No","large_print":"No","pdf_pages":manifest['pdf_pages'],"kdp_rounded_page_count":manifest['kdp_rounded_page_count'],"isbn":"KDP free ISBN or publisher-owned ISBN — human publishing choice","territories":"All territories where rights are held","expanded_distribution":"Optional; royalty estimated separately"},
+  "format_settings":{"language":"English","trim":"8 x 10 in","ink":"Black & white","paper":"White","bleed":"No bleed","cover_finish":"Matte","reading_direction":"Left to right","low_content":"No","large_print":"No","pdf_pages":manifest['pdf_pages'],"kdp_rounded_page_count":manifest['kdp_rounded_page_count'],"isbn":"KDP free ISBN or publisher-owned ISBN — human publishing choice","territories":"All territories where rights are held","expanded_distribution":"Optional; royalty estimated separately"},
   "paperback_price":16.99,
   "printing_cost_usd":2.84,
   "royalty_rate":0.60,
   "estimated_paperback_royalty_usd":7.35,
   "expanded_distribution_royalty_rate":0.40,
   "estimated_expanded_distribution_royalty_usd":3.96,
-  "price_checked":"2026-09-07",
+  "price_checked":"2026-09-08",
   "economics_source":"KDP Paperback Printing Cost and Paperback Royalty official help; large-trim black ink, 24–110 pages uses $2.84 fixed Amazon.com printing cost; $16.99 receives 60% rate.",
-  "content_version":"RN5-001-v1.0",
-  "commercial_package_content_version":"RN5-001-v1.0",
+  "content_version":"RN5-001-v1.1",
+  "commercial_package_content_version":"RN5-001-v1.1",
   "open_content_or_layout_correction_gates":0,
   "cover_brief":{
     "status":"BRIEF_ONLY_AWAITING_HUMAN_COVER_GATE",
-    "trim":"8.5 x 11 in paperback",
+    "trim":"8 x 10 in paperback",
     "page_count_for_kdp_template":58,
     "interior":"black ink on white paper, no bleed",
     "finish":"matte",
     "front_cover_hierarchy":["SOLAR PROPOSAL DECODER","A Homeowner's System for Comparing Quotes, Financing, Production Claims, Scope, and Warranties Before Signing","FIND • EXTRACT • NORMALIZE • CHALLENGE • ASK • VERIFY • DECIDE","Casey Rowan"],
     "concept":"A clean consumer-document aesthetic: three offset proposal sheets converge into one organized decision packet. Use a restrained navy, white, pale blue and solar-gold cover palette; no rooftop stock-photo cliché, sunburst, government seal, savings promise, red-alert scam language, or installer endorsement.",
     "back_cover_copy":"Three proposals. Three different headlines. One buyer-owned decision packet. Learn where the important facts live, normalize price and production without hiding assumptions, decode broad sales claims, generate written installer questions, and preserve the answers before signing.",
-    "production_instruction":"Generate the final wrap only from the current KDP cover template using 8.5 x 11 in, black-and-white white-paper interior, and KDP's rounded 58-page count. Keep all live text inside the template safe zone and leave the barcode area clear.",
+    "production_instruction":"Generate the final wrap only from the current KDP cover template using 8 x 10 in, black-and-white white-paper interior, and KDP's rounded 58-page count. Keep all live text inside the template safe zone and leave the barcode area clear.",
   },
   "ai_generated_content_disclosure":{"text":"YES","images":"NO","translations":"NO","note":"Answer the live KDP disclosure fields truthfully; KDP wording may change."},
 }
@@ -103,7 +105,7 @@ Series: None
 
 ## Paperback settings
 
-- 8.5 x 11 inches
+- 8 x 10 inches
 - Black & white ink on white paper
 - No bleed
 - Matte cover
@@ -147,8 +149,8 @@ format_gate={"schema_version":"rn5-001-format-eligibility/v1","checked":"2026-09
 
 gates={"market":"PASS","product_thesis":"PASS","representative_product":"PASS","factual_source":"PASS","language":"PASS","editorial":"PASS","product_quality":"PASS","technical":"PASS","toc_navigation":"PASS","commercial_package":"PASS","kdp_external_preview":"HUMAN_PENDING"}
 auth=release_authorization(gates)
-release={"schema_version":"rn5-001-release-manifest/v1","status":"KDP_READY_AWAITING_HUMAN_COVER_AND_PUBLISHING_GATE" if auth['status']=='KDP_READY' else "NOT_READY","content_version":"RN5-001-v1.0","commercial_package_content_version":"RN5-001-v1.0","gates":gates,"authorization":auth,"paperback_pdf":"output/pdf/solar-proposal-decoder-buyer-decision-system-paperback.pdf","production_master":"books/rn5-001/production/solar-proposal-decoder-production-master.pdf","kindle":"NOT_JUSTIFIED","cover":"BRIEF_ONLY","human_actions":["choose final cover","generate cover from live KDP 58-page template","upload files","run KDP Print Previewer","publish"]}
+release={"schema_version":"rn5-001-release-manifest/v1.1","status":"KDP_READY_AWAITING_HUMAN_COVER_AND_PUBLISHING_GATE" if auth['status']=='KDP_READY' else "NOT_READY","content_version":"RN5-001-v1.1","commercial_package_content_version":"RN5-001-v1.1","gates":gates,"authorization":auth,"paperback_pdf":"output/pdf/solar-proposal-decoder-buyer-decision-system-paperback.pdf","production_master":"books/rn5-001/production/solar-proposal-decoder-production-master.pdf","kindle":"NOT_JUSTIFIED","cover":"BRIEF_ONLY","human_actions":["choose final cover","generate cover from live KDP 58-page template","upload files","run KDP Print Previewer","publish"]}
 (PROD/'release-manifest.json').write_text(json.dumps(release,indent=2)+"\n")
-manifest.update({'status':release['status'],'commercial_package':'PASS','commercial_package_content_version':'RN5-001-v1.0','kindle':'NOT_JUSTIFIED','paperback_price_usd':16.99,'printing_cost_usd':2.84,'estimated_paperback_royalty_usd':7.35,'open_content_or_layout_correction_gates':0})
+manifest.update({'status':release['status'],'commercial_package':'PASS','commercial_package_content_version':'RN5-001-v1.1','kindle':'NOT_JUSTIFIED','paperback_price_usd':16.99,'printing_cost_usd':2.84,'estimated_paperback_royalty_usd':7.35,'open_content_or_layout_correction_gates':0})
 (PROD/'production-manifest.json').write_text(json.dumps(manifest,indent=2)+"\n")
 print(json.dumps({'commercial_package':result['status'],'release':release['status'],'price':16.99,'printing_cost':2.84,'royalty':7.35},indent=2))

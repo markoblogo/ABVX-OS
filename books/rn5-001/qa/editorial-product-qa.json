@@ -1,5 +1,5 @@
 {
-  "schema_version": "rn5-001-editorial-product-qa/v1",
+  "schema_version": "rn5-001-editorial-product-qa/v1.1",
   "status": "PASS",
   "gates": {
     "product_thesis": "PASS",
@@ -10,13 +10,20 @@
     "editorial_formalism": "PASS",
     "repetition": "PASS",
     "page_purpose": "PASS",
+    "callout_collision": "PASS",
+    "chapter_end_whitespace": "PASS",
+    "write_in_usability": "PASS",
+    "table_object_collision": "PASS",
     "raw_to_product_transformation": "PASS"
   },
   "evidence": {
     "reference_before_forms": true,
     "forms_not_majority": true,
     "duplicate_long_paragraphs": 0,
-    "body_size_pt": 10.8,
+    "body_size_pt": 10.9,
+    "selected_trim": "8x10",
+    "three_column_answer_width_in": 1.75,
+    "chapter_end_whitespace_signal_pages": [],
     "full_book_contact_sheet": "books/rn5-001/qa/contact-sheets/full-book-contact-sheet.png"
   }
 }

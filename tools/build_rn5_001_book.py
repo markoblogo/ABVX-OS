@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -13,7 +14,6 @@ from pypdf import PdfReader
 from reportlab.lib import colors
 from reportlab.lib.colors import HexColor
 from reportlab.lib.enums import TA_CENTER, TA_LEFT
-from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.pdfbase import pdfmetrics
@@ -35,17 +35,24 @@ from reportlab.platypus.tableofcontents import TableOfContents
 ROOT = Path(__file__).resolve().parents[1]
 BOOK = ROOT / "books" / "rn5-001"
 MANUSCRIPT = BOOK / "manuscript" / "solar-proposal-decoder-buyer-decision-system.md"
-PDF = ROOT / "output" / "pdf" / "solar-proposal-decoder-buyer-decision-system-paperback.pdf"
+TRIMS={"7x10":(7*inch,10*inch),"8x10":(8*inch,10*inch),"8.5x11":(8.5*inch,11*inch)}
+TRIM_NAME=os.environ.get("RN5_TRIM","8x10")
+W,H=TRIMS[TRIM_NAME]
+COMPARISON_BUILD=os.environ.get("RN5_COMPARISON_BUILD")=="1"
+PDF = Path(os.environ.get("RN5_OUTPUT_PDF",str(ROOT / "output" / "pdf" / "solar-proposal-decoder-buyer-decision-system-paperback.pdf")))
 MASTER = BOOK / "production" / "solar-proposal-decoder-production-master.pdf"
 PROD = BOOK / "production"
 DATA = BOOK / "data"
 QA = BOOK / "qa"
 
-W, H = letter
-INNER = 0.72 * inch
-OUTER = 0.62 * inch
-TOP = 0.62 * inch
-BOTTOM = 0.62 * inch
+INNER = 0.70 * inch
+OUTER = 0.60 * inch
+TOP = 0.60 * inch
+BOTTOM = 0.64 * inch
+CALLOUT_SPACE_BEFORE=25
+CALLOUT_SPACE_AFTER_BODY=25
+CALLOUT_SPACE_AFTER_HEADING=27
+CALLOUT_INTERNAL_PADDING=12
 INK = HexColor("#1B2630")
 NAVY = HexColor("#17324D")
 BLUE = HexColor("#2C6B88")
@@ -77,7 +84,7 @@ class BookDocTemplate(BaseDocTemplate):
     def __init__(self, filename: str):
         super().__init__(
             filename,
-            pagesize=letter,
+            pagesize=(W,H),
             leftMargin=INNER,
             rightMargin=OUTER,
             topMargin=TOP,
@@ -116,19 +123,21 @@ class BookDocTemplate(BaseDocTemplate):
 
 
 styles = getSampleStyleSheet()
-BODY = ParagraphStyle("Body", fontName="ABVX", fontSize=10.8, leading=15.2, textColor=INK, spaceAfter=7.5)
+BODY = ParagraphStyle("Body", fontName="ABVX", fontSize=10.9, leading=15.4, textColor=INK, spaceAfter=7.5)
 BODY_FIRST = ParagraphStyle("BodyFirst", parent=BODY, firstLineIndent=14)
 SMALL = ParagraphStyle("Small", parent=BODY, fontSize=8.5, leading=11.6, textColor=GRAY)
 BULLET = ParagraphStyle("Bullet", parent=BODY, leftIndent=15, firstLineIndent=-9, bulletIndent=4, spaceAfter=4.5)
-H1 = ParagraphStyle("H1", fontName="ABVX-Bold", fontSize=20, leading=23, textColor=NAVY, spaceBefore=12, spaceAfter=10)
-H2 = ParagraphStyle("H2", fontName="ABVX-Bold", fontSize=14.5, leading=18, textColor=NAVY, spaceBefore=11, spaceAfter=6)
-H3 = ParagraphStyle("H3", fontName="ABVX-Bold", fontSize=11.4, leading=14, textColor=BLUE, spaceBefore=8, spaceAfter=4)
-PART = ParagraphStyle("Part", fontName="ABVX-Bold", fontSize=22, leading=26, textColor=NAVY, spaceBefore=30, spaceAfter=14)
-QUOTE = ParagraphStyle("Quote", parent=BODY, leftIndent=18, rightIndent=10, borderColor=BLUE, borderWidth=1.2, borderPadding=10, backColor=PALE, spaceBefore=7, spaceAfter=10)
+H1 = ParagraphStyle("H1", fontName="ABVX-Bold", fontSize=19, leading=22, textColor=NAVY, spaceBefore=14, spaceAfter=9, keepWithNext=1)
+H2 = ParagraphStyle("H2", fontName="ABVX-Bold", fontSize=14.5, leading=18, textColor=NAVY, spaceBefore=11, spaceAfter=6, keepWithNext=1)
+H3 = ParagraphStyle("H3", fontName="ABVX-Bold", fontSize=11.4, leading=14, textColor=BLUE, spaceBefore=8, spaceAfter=4, keepWithNext=1)
+PART = ParagraphStyle("Part", fontName="ABVX-Bold", fontSize=18.5, leading=22, textColor=NAVY, spaceBefore=22, spaceAfter=10, keepWithNext=1, borderColor=MID, borderWidth=0, borderPadding=0)
+QUOTE_BODY = ParagraphStyle("QuoteBody", parent=BODY, leftIndent=16, rightIndent=8, borderColor=BLUE, borderWidth=1.2, borderPadding=CALLOUT_INTERNAL_PADDING, backColor=PALE, spaceBefore=CALLOUT_SPACE_BEFORE, spaceAfter=CALLOUT_SPACE_AFTER_BODY)
+QUOTE_HEADING = ParagraphStyle("QuoteHeading", parent=QUOTE_BODY, spaceAfter=CALLOUT_SPACE_AFTER_HEADING, keepWithNext=1)
 CELL = ParagraphStyle("Cell", fontName="ABVX", fontSize=8.3, leading=10.2, textColor=INK)
 CELL_B = ParagraphStyle("CellB", parent=CELL, fontName="ABVX-Bold")
 FORM_LABEL = ParagraphStyle("FormLabel", fontName="ABVX-Bold", fontSize=8.6, leading=10.4, textColor=NAVY)
 FORM_TEXT = ParagraphStyle("FormText", fontName="ABVX", fontSize=8.2, leading=10.2, textColor=INK)
+AVAILABLE=W-INNER-OUTER
 
 
 def P(text: str, style=BODY):
@@ -172,8 +181,8 @@ def reader_notice(text: str):
 def toc_page():
     toc = TableOfContents()
     toc.levelStyles = [
-        ParagraphStyle("TOC0", fontName="ABVX-Bold", fontSize=9.2, leading=12.4, textColor=NAVY, leftIndent=0, firstLineIndent=0, spaceBefore=2),
-        ParagraphStyle("TOC1", fontName="ABVX", fontSize=8.4, leading=10.8, textColor=INK, leftIndent=14, firstLineIndent=0),
+        ParagraphStyle("TOC0", fontName="ABVX-Bold", fontSize=8.5, leading=9.8, textColor=NAVY, leftIndent=0, firstLineIndent=0, spaceBefore=1),
+        ParagraphStyle("TOC1", fontName="ABVX", fontSize=7.7, leading=9.0, textColor=INK, leftIndent=14, firstLineIndent=0),
     ]
     return [Paragraph("CONTENTS", PART), toc, PageBreak()]
 
@@ -189,12 +198,20 @@ def parse_lines(lines: list[str]):
             out.append(P(" ".join(x.strip() for x in para), BODY_FIRST))
             para = []
 
-    def flush_quote():
+    def flush_quote(before_heading=False):
         nonlocal quote
         if quote:
             text = "<br/>".join(html.escape(x.lstrip("> ")) for x in quote if x.strip("> "))
-            out.append(Paragraph(text, QUOTE))
+            out.append(Paragraph(text, QUOTE_HEADING if before_heading else QUOTE_BODY))
             quote = []
+
+    def next_content_is_heading(index):
+        for candidate in lines[index + 1:]:
+            candidate = candidate.strip()
+            if not candidate:
+                continue
+            return candidate.startswith(("# ", "## ", "### ", "# PART"))
+        return False
 
     i = 0
     while i < len(lines):
@@ -206,17 +223,17 @@ def parse_lines(lines: list[str]):
         elif s.startswith(">"):
             flush_para(); quote.append(s)
         elif not s:
-            flush_para(); flush_quote()
+            flush_para(); flush_quote(next_content_is_heading(i))
         elif s == "---":
             flush_para(); flush_quote(); out.append(Spacer(1, 5)); out.append(HRFlowable(width="100%", thickness=.7, color=MID, spaceAfter=6))
         elif s.startswith("# PART"):
-            flush_para(); flush_quote(); out.extend([PageBreak(), Paragraph(html.escape(s[2:]), PART)])
+            flush_para(); flush_quote(True); out.extend([Spacer(1,12),HRFlowable(width="100%",thickness=1.4,color=BLUE,spaceBefore=8,spaceAfter=5),Paragraph(html.escape(s[2:]), PART)])
         elif s.startswith("# "):
-            flush_para(); flush_quote(); out.append(Paragraph(html.escape(s[2:]), H1))
+            flush_para(); flush_quote(True); out.append(Paragraph(html.escape(s[2:]), H1))
         elif s.startswith("## "):
-            flush_para(); flush_quote(); out.append(Paragraph(html.escape(s[3:]), H2))
+            flush_para(); flush_quote(True); out.append(Paragraph(html.escape(s[3:]), H2))
         elif s.startswith("### "):
-            flush_para(); flush_quote(); out.append(Paragraph(html.escape(s[4:]), H3))
+            flush_para(); flush_quote(True); out.append(Paragraph(html.escape(s[4:]), H3))
         elif re.match(r"^[-*] ", s):
             flush_para(); flush_quote(); out.append(Paragraph("• " + html.escape(s[2:]), BULLET))
         elif re.match(r"^\d+\. ", s):
@@ -237,7 +254,7 @@ def line_rows(labels, height=25):
 def form_table(labels, heights=None, widths=None):
     rows = [[P(label, FORM_LABEL), ""] for label in labels]
     heights = heights or [27]*len(rows)
-    widths = widths or [1.75*inch, 5.05*inch]
+    widths = widths or [min(1.65*inch,AVAILABLE*.28), AVAILABLE-min(1.65*inch,AVAILABLE*.28)]
     return Table(rows, colWidths=widths, rowHeights=heights, repeatRows=0,
                  style=TableStyle([("GRID",(0,0),(-1,-1),.55,MID),("BACKGROUND",(0,0),(0,-1),PALE),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),7),("RIGHTPADDING",(0,0),(-1,-1),7),("TOPPADDING",(0,0),(-1,-1),6)]))
 
@@ -245,7 +262,8 @@ def form_table(labels, heights=None, widths=None):
 def matrix(title, rows, left=1.75*inch, row_h=38):
     data = [[P("FIELD", CELL_B), P("PROPOSAL A", CELL_B), P("PROPOSAL B", CELL_B), P("PROPOSAL C", CELL_B)]]
     data += [[P(r, FORM_LABEL), "", "", ""] for r in rows]
-    return [Paragraph(title, H2), Table(data, colWidths=[left]+[(W-INNER-OUTER-left)/3]*3, rowHeights=[26]+[row_h]*len(rows), repeatRows=1,
+    heights=row_h if isinstance(row_h,list) else [row_h]*len(rows)
+    return [Paragraph(title, H2), Table(data, colWidths=[left]+[(W-INNER-OUTER-left)/3]*3, rowHeights=[26]+heights, repeatRows=1,
       style=TableStyle([("GRID",(0,0),(-1,-1),.55,MID),("BACKGROUND",(0,0),(-1,0),NAVY),("TEXTCOLOR",(0,0),(-1,0),colors.white),("BACKGROUND",(0,1),(0,-1),PALE),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),5),("RIGHTPADDING",(0,0),(-1,-1),5),("TOPPADDING",(0,0),(-1,-1),5)]))]
 
 
@@ -259,25 +277,25 @@ def worksheet(name: str):
         letter_name = name[-1].upper()
         pages=[]
         groups=[
-            ("Commercial extraction",["Transaction type","Gross cash price","Discounts / adders","Financed principal","APR and term","Payment schedule","Expected prepayment / change","Lease/PPA rate + escalator","Cancellation / transfer"]),
-            ("System and production extraction",["DC system size","Module make/model/count","Inverter make/model/AC size","Battery model/capability","Year-1 production","Usage baseline / offset","Shade/weather source","Loss + degradation assumptions","Guarantee + remedy"]),
-            ("Scope and warranty extraction",["Roof / structural","Electrical / service","Permits / inspections","Interconnection / utility","Trenching / site work","Allowances / change orders","Product/performance warranties","Workmanship / roof coverage","Labor / responsible party"]),
+            ("Commercial extraction",["Transaction type","Gross cash price","Discounts / adders","Financed principal","APR and term","Payment schedule","Expected prepayment / change","Lease/PPA rate + escalator","Cancellation / transfer"],[30,34,42,34,34,58,52,52,52]),
+            ("System and production extraction",["DC system size","Module make/model/count","Inverter make/model/AC size","Battery model/capability","Year-1 production","Usage baseline / offset","Shade/weather source","Loss + degradation assumptions","Guarantee + remedy"],[30,52,54,58,34,44,54,58,54]),
+            ("Scope and warranty extraction",["Roof / structural","Electrical / service","Permits / inspections","Interconnection / utility","Trenching / site work","Allowances / change orders","Product/performance warranties","Workmanship / roof coverage","Labor / responsible party"],[56,56,44,48,48,58,58,58,48]),
         ]
-        for idx,(title,labels) in enumerate(groups):
-            pages.extend([PageBreak(),Paragraph(f"Proposal {letter_name}: {title}", H1), *common, form_table(labels,[47]*len(labels))])
+        for idx,(title,labels,heights) in enumerate(groups):
+            pages.extend([PageBreak(),Paragraph(f"Proposal {letter_name}: {title}", H1), *common, form_table(labels,heights)])
         return pages
     if name == "price-comparison":
-        return [PageBreak(),*matrix("Normalized price comparison",["Gross cash price","DC system watts","Raw cash $/W","Battery / unequal scope","Adjusted view (labeled)","Deposit / milestones","Largest price contingency","Source references"],1.55*inch,43)]
+        return [PageBreak(),*matrix("Normalized price comparison",["Gross cash price","DC system watts","Raw cash $/W","Battery / unequal scope","Adjusted view (labeled)","Deposit / milestones","Largest price contingency","Source references"],min(1.45*inch,AVAILABLE*.24),[32,28,28,52,48,42,55,34])]
     if name == "financing-comparison":
-        return [PageBreak(),*matrix("Financing / contract comparison",["Amount financed / principal","Difference vs cash","APR","Term","Payment levels + dates","Expected prepayment","Official total of payments","Fees / balloon","Security interest","Early payoff","Sale / transfer","Source references"],1.62*inch,34)]
+        return [PageBreak(),*matrix("Financing / contract comparison",["Amount financed / principal","Difference vs cash","APR","Term","Payment levels + dates","Expected prepayment","Official total of payments","Fees / balloon","Security interest","Early payoff","Sale / transfer","Source references"],min(1.50*inch,AVAILABLE*.25),[35,36,28,28,54,48,42,38,32,36,48,32])]
     if name == "system-comparison":
-        return [PageBreak(),*matrix("System comparison",["DC / AC capacity","Modules","Inverter / optimizers","Battery / backup loads","Mounting / layout","Monitoring","Substitution clause","Function that matters","Source references"],1.58*inch,41)]
+        return [PageBreak(),*matrix("System comparison",["DC / AC capacity","Modules","Inverter / optimizers","Battery / backup loads","Mounting / layout","Monitoring","Substitution clause","Function that matters","Source references"],min(1.48*inch,AVAILABLE*.25),[30,48,48,54,48,30,50,48,30])]
     if name == "production-comparison":
-        return [PageBreak(),*matrix("Production-model comparison",["Year-1 kWh","kWh per installed kW","Usage baseline","Offset definition","Shade / site source","Weather source","Loss assumptions","Degradation / availability","Utility/export assumptions","Guarantee + remedy","Unresolved difference"],1.62*inch,36)]
+        return [PageBreak(),*matrix("Production-model comparison",["Year-1 kWh","kWh per installed kW","Usage baseline","Offset definition","Shade / site source","Weather source","Loss assumptions","Degradation / availability","Utility/export assumptions","Guarantee + remedy","Unresolved difference"],min(1.50*inch,AVAILABLE*.25),[30,28,36,42,48,34,52,40,54,46,52])]
     if name == "scope-comparison":
-        return [PageBreak(),*matrix("Scope and responsibility",["Roof / reroofing","Structural work","Main panel / service","Trenching / conduit","Permits / corrections","Inspection / rework","Interconnection / utility","HOA / other approvals","Monitoring / commissioning","Exclusions / allowances","Change-order control"],1.62*inch,36)]
+        return [PageBreak(),*matrix("Scope and responsibility",["Roof / reroofing","Structural work","Main panel / service","Trenching / conduit","Permits / corrections","Inspection / rework","Interconnection / utility","HOA / other approvals","Monitoring / commissioning","Exclusions / allowances","Change-order control"],min(1.50*inch,AVAILABLE*.25),[48,40,48,48,42,42,48,40,42,54,52])]
     if name == "warranty-comparison":
-        return [PageBreak(),*matrix("Warranty responsibility map",["Module product","Module performance","Inverter / optimizer","Battery","Installer workmanship","Roof penetrations","Production guarantee","Labor / diagnosis","Shipping / removal","Transfer / registration","Responsible company"],1.62*inch,36)]
+        return [PageBreak(),*matrix("Warranty responsibility map",["Module product","Module performance","Inverter / optimizer","Battery","Installer workmanship","Roof penetrations","Production guarantee","Labor / diagnosis","Shipping / removal","Transfer / registration","Responsible company"],min(1.50*inch,AVAILABLE*.25),[44,44,44,48,52,48,52,48,42,42,38])]
     if name.startswith("questions-"):
         letter_name=name[-1].upper(); rows=[]
         for i in range(1,7):
@@ -285,13 +303,15 @@ def worksheet(name: str):
         data=[]
         for r in rows:
             data.append(r[:2]); data.append(r[2:])
-        return [PageBreak(),Paragraph(f"Proposal {letter_name}: written questions",H1),P("Name the proposal and source. Ask for a number, definition, responsibility, or controlling document.",SMALL),Table(data,colWidths=[1.35*inch,5.45*inch],rowHeights=[24,49]*6,style=TableStyle([("GRID",(0,0),(-1,-1),.55,MID),("BACKGROUND",(0,0),(0,-1),PALE),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),6),("TOPPADDING",(0,0),(-1,-1),5)]))]
+        qleft=min(1.25*inch,AVAILABLE*.22)
+        return [PageBreak(),Paragraph(f"Proposal {letter_name}: written questions",H1),P("Name the proposal and source. Ask for a number, definition, responsibility, or controlling document.",SMALL),Table(data,colWidths=[qleft,AVAILABLE-qleft],rowHeights=[23,64]*6,style=TableStyle([("GRID",(0,0),(-1,-1),.55,MID),("BACKGROUND",(0,0),(0,-1),PALE),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),6),("TOPPADDING",(0,0),(-1,-1),5)]))]
     if name == "answer-log":
-        return [PageBreak(),*matrix("Answer and revision log",["Question ID","Sent / received","Answer status","Written answer source","Price effect","Scope/design effect","Revised document + date","Still unresolved"],1.45*inch,43)]
+        return [PageBreak(),*matrix("Answer and revision log",["Question ID","Sent / received","Answer status","Written answer source","Price effect","Scope/design effect","Revised document + date","Still unresolved"],min(1.38*inch,AVAILABLE*.23),[28,32,32,54,38,48,48,54])]
     if name == "pause-check":
         labels=["Transaction / owner clear","Cash vs financed basis clear","All payment changes clear","Incentive assumptions separated","Exact system identified","Production differences explained","Roof/electrical exposure clear","Scope/change orders clear","Warranty responsibility clear","Transfer/cancellation clear","Conflicts resolved in writing"]
         data=[[P("CHECK",CELL_B),P("YES / NO",CELL_B),P("EVIDENCE OR REQUIRED ACTION",CELL_B)]]+[[P(x,FORM_LABEL),"",""] for x in labels]
-        return [PageBreak(),Paragraph("Pause-condition review",H1),P("A NO does not automatically reject the proposal. It means the decision packet is incomplete.",SMALL),Table(data,colWidths=[2.25*inch,.8*inch,3.75*inch],rowHeights=[27]+[37]*len(labels),style=TableStyle([("GRID",(0,0),(-1,-1),.55,MID),("BACKGROUND",(0,0),(-1,0),NAVY),("TEXTCOLOR",(0,0),(-1,0),colors.white),("BACKGROUND",(0,1),(0,-1),PALE),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),6),("TOPPADDING",(0,0),(-1,-1),5)]))]
+        c1=min(2.05*inch,AVAILABLE*.34);c2=min(.72*inch,AVAILABLE*.12)
+        return [PageBreak(),Paragraph("Pause-condition review",H1),P("A NO does not automatically reject the proposal. It means the decision packet is incomplete.",SMALL),Table(data,colWidths=[c1,c2,AVAILABLE-c1-c2],rowHeights=[27]+[37]*len(labels),style=TableStyle([("GRID",(0,0),(-1,-1),.55,MID),("BACKGROUND",(0,0),(-1,0),NAVY),("TEXTCOLOR",(0,0),(-1,0),colors.white),("BACKGROUND",(0,1),(0,-1),PALE),("VALIGN",(0,0),(-1,-1),"TOP"),("LEFTPADDING",(0,0),(-1,-1),6),("TOPPADDING",(0,0),(-1,-1),5)]))]
     if name == "decision-record":
         return [PageBreak(),Paragraph("Decision record",H1),P("Record the reason, not just the winner. Acknowledge remaining uncertainty.",SMALL),form_table(["Decision date","Selected proposal / no decision","Transaction type","Main reasons","Trade-offs accepted","Material facts relied on","Documents controlling decision","Remaining uncertainty","Independent advice obtained","Next action / deadline"],[30,38,30,68,60,68,48,60,42,42]),Spacer(1,8),P("This record documents a process; it does not guarantee performance, savings, service, or legal outcome.",SMALL)]
     return []
@@ -345,20 +365,22 @@ def build():
         "-dPDFSETTINGS=/prepress", f"-sOutputFile={embedded}", str(PDF)
     ], check=True)
     embedded.replace(PDF)
-    shutil.copyfile(PDF, MASTER)
-    build_ledgers()
+    if not COMPARISON_BUILD:
+        shutil.copyfile(PDF, MASTER)
+        build_ledgers()
     reader = PdfReader(str(PDF))
     words = len(re.findall(r"\b[A-Za-z0-9][A-Za-z0-9'/-]*\b", raw))
     pages = len(reader.pages)
     manifest = {
         "schema_version":"rn5-001-production-manifest/v1",
         "status":"CONTENT_AND_LAYOUT_BUILT_AWAITING_QA",
-        "content_version":"RN5-001-v1.0",
+        "content_version":"RN5-001-v1.1",
         "title":"Solar Proposal Decoder",
         "subtitle":"A Homeowner's System for Comparing Quotes, Financing, Production Claims, Scope, and Warranties Before Signing",
         "author":"Casey Rowan",
         "format":"paperback",
-        "trim_inches":[8.5,11],
+        "trim_inches":[round(W/inch,2),round(H/inch,2)],
+        "trim_name":TRIM_NAME,
         "bleed":False,
         "ink":"black and white",
         "paper":"white",
@@ -366,15 +388,20 @@ def build():
         "pages":pages,
         "word_count":words,
         "body_font":"Arial embedded",
-        "body_size_pt":10.8,
-        "minimum_margin_inches":0.62,
+        "body_size_pt":10.9,
+        "callout_layout":{"space_before_pt":CALLOUT_SPACE_BEFORE,"space_after_body_pt":CALLOUT_SPACE_AFTER_BODY,"space_after_heading_pt":CALLOUT_SPACE_AFTER_HEADING,"internal_padding_pt":CALLOUT_INTERNAL_PADDING},
+        "form_layout":{"short_row_min_pt":28,"long_row_min_pt":48,"three_column_answer_width_in":round((AVAILABLE-min(1.45*inch,AVAILABLE*.24))/3/inch,2),"editorial_asymmetry":True},
+        "physical_product":"COMPACT FIELD GUIDE + WORKBOOK",
+        "trim_decision":"books/rn5-001/production/rn5-001-trim-size-decision.md",
+        "minimum_margin_inches":0.60,
         "manuscript":str(MANUSCRIPT.relative_to(ROOT)),
         "paperback_pdf":str(PDF.relative_to(ROOT)),
         "production_master":str(MASTER.relative_to(ROOT)),
         "kindle":"NOT_JUSTIFIED_PENDING_FORMAT_GATE_RECORD",
         "synthetic_examples_only":True,
     }
-    (PROD/"production-manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
+    if not COMPARISON_BUILD:
+        (PROD/"production-manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
     print(json.dumps(manifest,indent=2))
 
 

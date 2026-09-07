@@ -6,7 +6,7 @@ BRIEF_ONLY_AWAITING_HUMAN_COVER_GATE
 
 **Trim**
 
-8.5 x 11 in paperback
+8 x 10 in paperback
 
 **Page Count For Kdp Template**
 
@@ -34,4 +34,4 @@ Three proposals. Three different headlines. One buyer-owned decision packet. Lea
 
 **Production Instruction**
 
-Generate the final wrap only from the current KDP cover template using 8.5 x 11 in, black-and-white white-paper interior, and KDP's rounded 58-page count. Keep all live text inside the template safe zone and leave the barcode area clear.
+Generate the final wrap only from the current KDP cover template using 8 x 10 in, black-and-white white-paper interior, and KDP's rounded 58-page count. Keep all live text inside the template safe zone and leave the barcode area clear.

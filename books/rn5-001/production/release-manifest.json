@@ -1,8 +1,8 @@
 {
-  "schema_version": "rn5-001-release-manifest/v1",
+  "schema_version": "rn5-001-release-manifest/v1.1",
   "status": "KDP_READY_AWAITING_HUMAN_COVER_AND_PUBLISHING_GATE",
-  "content_version": "RN5-001-v1.0",
-  "commercial_package_content_version": "RN5-001-v1.0",
+  "content_version": "RN5-001-v1.1",
+  "commercial_package_content_version": "RN5-001-v1.1",
   "gates": {
     "market": "PASS",
     "product_thesis": "PASS",

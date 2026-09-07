@@ -1,0 +1,179 @@
+{
+  "schema_version": "rn5-001-trim-comparison/v1",
+  "tested_at": "2026-09-08",
+  "current_trim": "8.5x11",
+  "tested_trims": {
+    "7x10": {
+      "trim_inches": [
+        7,
+        10
+      ],
+      "pages": 61,
+      "kdp_pages": 62,
+      "body_pt": 10.9,
+      "usable_width_in": 5.7,
+      "answer_cell_width_in": 1.44,
+      "average_prose_vertical_utilization": 0.91,
+      "chapter_end_whitespace_signal_pages": [],
+      "printing_cost_usd": 2.84,
+      "representative_pages": [
+        {
+          "label": "Normal prose",
+          "phrase": "The four evidence labels",
+          "page": 6
+        },
+        {
+          "label": "Dense Claim Decoder",
+          "phrase": "Low monthly payment",
+          "page": 15
+        },
+        {
+          "label": "Semantic callout",
+          "phrase": "THE PAUSE RULE",
+          "page": 5
+        },
+        {
+          "label": "Proposal extraction form",
+          "phrase": "Proposal A: Commercial extraction",
+          "page": 36
+        },
+        {
+          "label": "Three-column comparison",
+          "phrase": "Normalized price comparison",
+          "page": 45
+        },
+        {
+          "label": "Written-question form",
+          "phrase": "Proposal A: written questions",
+          "page": 51
+        },
+        {
+          "label": "Decision Record",
+          "phrase": "Record the reason, not just the winner",
+          "page": 56
+        },
+        {
+          "label": "Part transition",
+          "phrase": "PART III",
+          "page": 12
+        }
+      ]
+    },
+    "8x10": {
+      "trim_inches": [
+        8,
+        10
+      ],
+      "pages": 57,
+      "kdp_pages": 58,
+      "body_pt": 10.9,
+      "usable_width_in": 6.7,
+      "answer_cell_width_in": 1.75,
+      "average_prose_vertical_utilization": 0.919,
+      "chapter_end_whitespace_signal_pages": [],
+      "printing_cost_usd": 2.84,
+      "representative_pages": [
+        {
+          "label": "Normal prose",
+          "phrase": "The four evidence labels",
+          "page": 6
+        },
+        {
+          "label": "Dense Claim Decoder",
+          "phrase": "Low monthly payment",
+          "page": 14
+        },
+        {
+          "label": "Semantic callout",
+          "phrase": "THE PAUSE RULE",
+          "page": 5
+        },
+        {
+          "label": "Proposal extraction form",
+          "phrase": "Proposal A: Commercial extraction",
+          "page": 33
+        },
+        {
+          "label": "Three-column comparison",
+          "phrase": "Normalized price comparison",
+          "page": 42
+        },
+        {
+          "label": "Written-question form",
+          "phrase": "Proposal A: written questions",
+          "page": 48
+        },
+        {
+          "label": "Decision Record",
+          "phrase": "Record the reason, not just the winner",
+          "page": 53
+        },
+        {
+          "label": "Part transition",
+          "phrase": "PART III",
+          "page": 11
+        }
+      ]
+    },
+    "8.5x11": {
+      "trim_inches": [
+        8.5,
+        11
+      ],
+      "pages": 54,
+      "kdp_pages": 54,
+      "body_pt": 10.9,
+      "usable_width_in": 7.2,
+      "answer_cell_width_in": 1.92,
+      "average_prose_vertical_utilization": 0.915,
+      "chapter_end_whitespace_signal_pages": [],
+      "printing_cost_usd": 2.84,
+      "representative_pages": [
+        {
+          "label": "Normal prose",
+          "phrase": "The four evidence labels",
+          "page": 6
+        },
+        {
+          "label": "Dense Claim Decoder",
+          "phrase": "Low monthly payment",
+          "page": 13
+        },
+        {
+          "label": "Semantic callout",
+          "phrase": "THE PAUSE RULE",
+          "page": 5
+        },
+        {
+          "label": "Proposal extraction form",
+          "phrase": "Proposal A: Commercial extraction",
+          "page": 30
+        },
+        {
+          "label": "Three-column comparison",
+          "phrase": "Normalized price comparison",
+          "page": 39
+        },
+        {
+          "label": "Written-question form",
+          "phrase": "Proposal A: written questions",
+          "page": 45
+        },
+        {
+          "label": "Decision Record",
+          "phrase": "Record the reason, not just the winner",
+          "page": 50
+        },
+        {
+          "label": "Part transition",
+          "phrase": "PART III",
+          "page": 10
+        }
+      ]
+    }
+  },
+  "selected_trim": "8x10",
+  "physical_product": "COMPACT FIELD GUIDE + WORKBOOK",
+  "decision": "8x10 preserves 10.9 pt reading type and materially useful writing rows while giving three-column answer cells about 1.75 inches wide. It removes the thin large-manual feel of 8.5x11 without the constrained 1.44-inch three-way cells of 7x10. All candidates remain in the same KDP large-trim fixed printing-cost tier at their projected page counts.",
+  "ambiguous": false
+}

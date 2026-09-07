@@ -1,0 +1,33 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:RN5-001:callout-optical-spacing-false-pass",
+      "opportunity_id": "RN5-001",
+      "kind": "CALLOUT_OPTICAL_SPACING_FALSE_PASS",
+      "observed_at": "2026-09-08",
+      "summary": "Geometric non-overlap passed while human review found insufficient exterior vertical rhythm around five callout blocks.",
+      "details": {"reusable_rule":"GEOMETRIC NON-OVERLAP ≠ GOOD TYPOGRAPHIC SPACING.","collision_qa":"PASS","prior_optical_spacing_qa":"FALSE_PASS","affected_callouts":5},
+      "source_ref": "books/rn5-001/qa/release-qa.json"
+    },
+    {
+      "id": "evidence:RN5-001:callout-optical-spacing-corrected",
+      "opportunity_id": "RN5-001",
+      "kind": "production_correction",
+      "observed_at": "2026-09-08",
+      "summary": "Exterior spacing was separated into before, after-body and after-heading constants; all five callout pages passed measured and raster visual QA without changing pagination.",
+      "details": {"content_version":"RN5-001-v1.1","trim":"8x10","pdf_pages":57,"kdp_pages":58,"callout_collision_qa":"PASS","callout_optical_spacing_qa":"PASS","pages_visually_inspected":"5/5"},
+      "source_ref": "books/rn5-001/qa/contact-sheets/callout-spacing-contact-sheet.png"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN5-001:callout-optical-spacing-corrected",
+      "opportunity_id": "RN5-001",
+      "decision": "LOCAL_TYPOGRAPHIC_CORRECTION_PASS",
+      "decided_at": "2026-09-08",
+      "reason": "All five callout pages show distinct exterior breathing room; collision and optical-spacing gates now pass independently.",
+      "production_authorized": false
+    }
+  ]
+}
