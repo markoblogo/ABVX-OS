@@ -2,7 +2,7 @@
 
 ## Decision
 
-**PILOT AFTER E1; DO NOT ADOPT YET.**
+**REJECTED AFTER E1 PILOT. DO NOT INSERT INTO THE MANUSCRIPT.**
 
 The psychology-note archive is thematically compatible with *Good Dog, Bad System*. Its strongest material concerns false selves, emotional numbing, care and refusal, dependence, boundaries, borrowed identity and freedom through responsibility.
 
@@ -13,26 +13,25 @@ The psychology-note archive is thematically compatible with *Good Dog, Bad Syste
 - A psychologist voice can sound like diagnosis or advice and flatten morally ambiguous scenes.
 - Frequent interludes would interrupt progression and page-turn momentum.
 
-## Bounded pilot
+## Completed pilot
 
-After chapters 1–9 are expanded, produce two versions of the act break:
+After chapters 1–9 were expanded, two versions of the act break were compared:
 
 1. the chapter 9 ending directly into chapter 10;
 2. the same transition with one 180–250-word marginal note by an in-world psychologist reading the emerging Hearth record.
 
-The pilot note should examine how relief can preserve a person while also preserving the situation hurting them. It must not summarize the plot, diagnose Nika or Mriya, disclose future events or quote the source notes directly.
+The candidate note examined how relief can preserve a person while also preserving the situation hurting them. It did not diagnose Nika or Mriya, disclose future events or quote the source notes directly.
 
-## Adoption gate
+## Adoption result
 
-Adopt only if the note:
+The note failed the gate because it:
 
-- adds a new inference;
-- sounds like a person inside Vesper rather than an authorial lecture;
-- preserves uncertainty and dark humor;
-- leaves the reader more eager to enter chapter 10;
-- fits inside the existing act word target.
+- restated the already dramatized relationship among relief, pain and agency;
+- required an unexplained archival voice before any Hearth record exists;
+- reduced ambiguity by interpreting Mriya's choice for the reader;
+- interrupted the direct cliffhanger from the loss of home to the shepherd's command to choose.
 
-If adopted, use at most one note per act. Do not place commentary after chapter 36's final line.
+No psychologist interludes will be used in the current manuscript. The owner notes remain available as a private thematic QA source.
 
 ## Source boundary
 

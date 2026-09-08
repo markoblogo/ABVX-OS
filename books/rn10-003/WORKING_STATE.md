@@ -11,16 +11,16 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 29,901 words by `wc -w` against the 84,600-word architecture.
+- Current manuscript count: 34,364 words by `wc -w` against the 84,600-word architecture.
 - Full structural audit and exact 36-chapter expansion map are complete.
-- Chapters 1–6 have completed two expansion gates: 13,053 tracked words against a 13,300-word target, within 1.9%.
-- Story architecture is complete; chapters 7–36 expansion, developmental editing and line editing remain required.
-- The psychologist-commentary idea is approved only for a bounded post-E1 pilot and is not part of the manuscript.
+- Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
+- Story architecture is complete; chapters 10–36 expansion, developmental editing and line editing remain required.
+- The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Expand chapters 7–9 toward 7,200 words total and close Act I within 3% of its 20,500-word target. Establish the gas fault before ignition, turn canine authority and Favor into a visible ethical danger, reveal the retained residue to Nika, and make the loss of apartment 4B irreversible.
+Expand chapters 10–12 toward 6,700 words total. Give Good Dog and Bad Dog attractive, demonstrated capabilities; deepen Atlas and Pixel as credible advocates; make Mriya's refusal costly; and earn Stray through a concrete third choice rather than a label selection.
 
 ## Continuity anchors
 

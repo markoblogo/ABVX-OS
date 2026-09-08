@@ -1774,6 +1774,30 @@ The ground-floor landing smelled of gas.
 
 It threaded beneath the caretaker’s lemon chemical and the damp wool of six residents arguing near the front entrance. Thin. Recent. Increasing.
 
+The residents had gathered because the building had begun performing every ordinary function incorrectly.
+
+Water came from the kitchen taps in bursts strong enough to throw cups from sinks. The radiators warmed with the boiler controls off. The entrance lock released whenever the stalled tram opened its doors outside, then sealed when the doors closed. Mrs. Varga stood at the center of these events with a ring of keys and the offended certainty that maintenance failures were personal criticism.
+
+“The return valve is stuck,” she said. “I reset the circulation pump and we all continue our lives.”
+
+Emil stopped on the last turn of the stairs. Borscht stopped because Emil's leash did.
+
+“Don't reset anything,” Emil said. “Pressure came through the service main.”
+
+“You repaired trams.”
+
+“Which is how I know when a building behaves like one.”
+
+Mrs. Varga selected a long brass key. “The food in the basement freezer is thawing.”
+
+That gave the argument a constituency. The first-floor couple had stored a month's meat there. The electronics man had two boxes of temperature-sensitive adhesive. A woman in a green coat needed insulin from the locked medical refrigerator. Each fact made opening the basement more reasonable.
+
+No one had yet noticed the gas.
+
+Mriya separated it from the crowd. It entered through the lower door seam, fresh enough to retain the metallic bite of the coupling that released it. Beneath that lay canal mineral, gray Cache residue, and the hot rubber smell of a pipe forced beyond its intended shape.
+
+One of the building's pulses had opened something that should have remained closed.
+
 Mriya stopped halfway down the last flight.
 
 Nika did not.
@@ -1788,11 +1812,33 @@ Mriya barked.
 
 Every human in the entrance hall turned toward her. Their combined irritation briefly overwhelmed the gas.
 
+Borscht's head rose.
+
+The old dog language carried enough: wrong air, closed place, leave. Near the mineral pulse, System-shaped meaning flickered between them and added pressure, spark, below. It arrived broken but useful.
+
+Borscht reversed under Emil's feet and pulled toward the stairs.
+
+“Now you don't want the pharmacy?” Emil asked.
+
+“Gas,” Nika said.
+
+The word made every human inhale to check, which was not useful but did make them quiet.
+
+The woman in green covered her mouth. The first-floor husband looked toward the street. Mrs. Varga looked toward the basement key as if authority over a door included authority over what waited behind it.
+
 Mrs. Varga, the caretaker, stood beside the basement door with a ring of keys. She had a square body, a square haircut, and the permanent scent of someone cleaning up after other people’s decisions.
 
 “That animal,” she said. “I heard it last night.”
 
 “She doesn’t usually—”
+
+“It scratched for forty minutes. Mr. Pell wandered the halls in a dressing gown. Something broke upstairs.”
+
+Nika's scent tightened around the hidden residue she did not know existed. “She was frightened.”
+
+Mrs. Varga pointed the brass key toward Mriya. “Then control her.”
+
+The word reached Mriya without System help.
 
 Mriya barked again and pulled Nika up one step.
 
@@ -1803,6 +1849,8 @@ Mriya lunged across her knees.
 Nika stumbled backward onto the stair.
 
 A white spark snapped from the loose switch beside the basement door.
+
+The switch had hung crooked since before Mriya arrived. This morning's pressure pulse had pushed damp through the wall behind it. One exposed contact touched the metal plate when Mrs. Varga's keys struck the door.
 
 The hall inhaled.
 
@@ -1816,9 +1864,43 @@ Nika dropped over Mriya, covering her head.
 
 Heat rolled through the hall and withdrew.
 
+The flame consumed the thin layer nearest the door and died for lack of air. It left paint blistered around the frame and a blue tongue moving inside the keyhole.
+
+Mriya heard the damaged coupling continue to feed the room.
+
+First ignition: warning.
+
+The next would have the air Mrs. Varga gave it.
+
 “Out,” Nika shouted. “Everyone out. Don’t touch the switch.”
 
 This was a command designed for humans. They obeyed badly but in the correct direction.
+
+The first-floor husband grabbed the freezer keys from the tiles. His wife slapped them from his hand. The woman in green tried to reach the basement for her insulin until Emil opened his canvas medicine case and showed her a spare sealed syringe pack.
+
+“Cold bag in my apartment,” she said.
+
+“A refrigerator is replaceable,” Emil said.
+
+“So am I, according to my employer.”
+
+“They are mistaken.”
+
+He put one arm around her and turned her toward the street. Borscht moved against their ankles, herding two humans while believing he had invented the practice.
+
+Nika counted residents at the entrance. Her false clarity found a task and became frighteningly good at it.
+
+“Baby?”
+
+“Outside.”
+
+“Third floor?”
+
+“Here.”
+
+“Cats?”
+
+The two cats passed overhead inside a laundry basket carried by a woman with blood on one wrist. The parallel emergency remained vocal.
 
 Mrs. Varga remained beside the basement door, staring at the blackened wall. “The boiler was inspected.”
 
@@ -1838,6 +1920,16 @@ Nika caught her wrist.
 
 “I have to shut it off.”
 
+“The cutoff is inside?” Nika asked.
+
+“Behind the first pipe.”
+
+Emil coughed in the smoke. “Opening that door feeds it.”
+
+Mrs. Varga looked at the residents now crossing the pavement. Twenty years of keys hung from her hand. If she left without closing the valve, the building would fail under her care. If she entered and closed it, every complaint made about her this morning would become gratitude.
+
+Responsibility and pride smelled nearly identical until the moment of choice.
+
 Mriya barked at Nika and backed toward the exit.
 
 Nika looked at her.
@@ -1845,6 +1937,10 @@ Nika looked at her.
 The moment held a choice. Mriya smelled it pass through the human: embarrassment, doubt, the memory of tunnel water, the impossible break in the packets.
 
 Nika let go of Mrs. Varga and followed the dog.
+
+She did not move because Mriya dragged her, frightened her, or changed her mind invisibly. She looked once at the blue flame in the keyhole, once at Mriya's braced legs, then chose the open street.
+
+That distinction mattered to something listening beneath the building.
 
 Cold meaning settled over them both.
 
@@ -1858,7 +1954,37 @@ Mrs. Varga opened the basement door.
 
 Air rushed inward.
 
+The door moved only a hand's width before pressure pulled it from her grip. Fresh air crossed the blue flame. Gas waiting along the ceiling found it in a line that ran from switch to coupling.
+
 The second ignition slammed the door back into her. Nika dragged her across the threshold of the building while two residents pulled from outside. Smoke folded along the ceiling. Somewhere below, a pipe tore free with a shriek.
+
+The floor lifted beneath Mriya's paws and settled one edge lower. The lemon chemical bottle fell from Mrs. Varga's cleaning cart. Glass broke. Citrus and ammonia rose through the smoke.
+
+For one breath, Mriya lost every useful scent. Chemical vapor burned her nose. Smoke erased the gas. The new Scent reached for more information and found only pain.
+
+She could see Nika three steps away and could not locate her inside the air.
+
+Old knowledge returned first: noise, door, foot, pain, run.
+
+Mriya turned toward the stairwell.
+
+Then Nika coughed.
+
+The sound held no System shape. It was small, human, and behind her.
+
+Mriya chose against the old sequence. She crossed the broken tiles toward Nika with her nose useless and her hip failing. Adaptation offered no hidden route. She pushed her shoulder beneath Mrs. Varga's good arm while Nika lifted the other side.
+
+For three steps they carried the person who had tried to kick her.
+
+At the entrance clean rain reached Mriya's nose. Nika returned all at once: blood, wet coat, medicine, fear flattened by Relief. The world became readable again.
+
+Scent +1 could be overwhelmed. Adaptation +1 could be refused. Neither ability replaced the choice to turn back.
+
+Nika wrapped both arms beneath Mrs. Varga's shoulders. Her bandaged palm reopened. Relief let her ignore it. The electronics man seized Nika's coat. Emil held the entrance door while the woman in green pulled from the pavement.
+
+They moved as a chain assembled without permission.
+
+Mriya backed ahead of them, barking each time Nika's heel approached the broken threshold. No notice appeared. No Favor was spent. The humans followed because each could see the next person's weight.
 
 They reached the pavement.
 
@@ -1874,9 +2000,61 @@ A dark mark existed around the caretaker now. It was not visible, but neither wa
 
 The notice vanished.
 
+Mrs. Varga could still hear Mriya. The System had not taken sound from her or made danger invisible. It withdrew the shaped certainty that had crossed to Nika when trust opened between them. Future warnings would arrive as bark, teeth, motion, and whatever evidence Mrs. Varga was willing to recognize herself.
+
+The penalty was absence of help.
+
+That made it no less dangerous.
+
 Mrs. Varga tried to stand. When Nika told her to stay down, she obeyed immediately.
 
 Sirens approached from the river road.
+
+Nika knelt in the rain, one hand pressed over the split in Mrs. Varga's wrist without touching the bent bone. She gave the approaching responders the building number, the gas location, the resident count, and the words `possible structural shift` in that order.
+
+Only after the last fact did she look at her own bleeding palm.
+
+Mriya pressed against her side.
+
+Nika's pulse remained too fast. Relief called it efficient.
+
+The first fire engine stopped across both tram tracks. Four people descended carrying masks, hose, tools, and the calm urgency of a pack that had practiced its positions. Mriya moved toward the senior one.
+
+He raised a hand. “Dog back.”
+
+She barked once toward the basement, then turned her head to the vent where pressure pushed smoke sideways instead of upward.
+
+“Back,” he repeated.
+
+The warning reached him as sound. No recognized bond connected them. Mriya ran to the vent, stopped beyond the dark smoke, and looked back.
+
+Nika understood. “The break is low on the east wall. Water's coming through behind it.”
+
+The firefighter looked from her to the dog. “You went inside?”
+
+“She did.”
+
+“You understand her?”
+
+“When I pay attention.”
+
+That answer he accepted. He sent two crew members along the outer wall instead of through the blackened entrance. They found the basement window already bowing under pressure and cleared everyone from the pavement before it cracked.
+
+No System notice rewarded Mriya. The firefighter had trusted Nika's report, not the dog. The useful chain contained translation, doubt, and a decision made by someone responsible for its cost.
+
+Mriya preferred it.
+
+An ambulance arrived behind the engine. Mrs. Varga allowed the medics to touch her wrist only after giving Nika the basement keys and making her promise that no resident would enter unescorted.
+
+“Including you,” Nika said.
+
+“Especially the third floor.”
+
+The electronics man protested from a safe distance.
+
+As they lifted Mrs. Varga, Mriya smelled the dark outline around her again. The caretaker saw the fractured basement window, the smoke, and Mriya watching her. Evidence existed. Trust did not return merely because evidence became embarrassing.
+
+Mrs. Varga turned her face away.
 
 Humans gathered around Mriya. Their smells changed as the story passed between them. She had stopped on the stair. She had known. Nika had listened. Mrs. Varga had not.
 
@@ -1888,6 +2066,30 @@ Borscht pushed through the crowd in a red harness, towing Emil Pell behind him.
 
 “You are in charge,” he announced.
 
+Near the building's mineral current, Borscht's meaning arrived clear enough to contain admiration and relief. He had watched humans follow Mriya out. To him leadership was the creature at the front when everyone survived.
+
+“They chose exits,” Mriya said.
+
+“After you chose first.”
+
+“Nika chose.”
+
+Borscht considered Nika kneeling beside the ambulance, still giving names to a medic while blood darkened her own bandage.
+
+“Then she is in charge.”
+
+“She is injured.”
+
+“Leaders often are. It helps identify them.”
+
+Emil reached them and clipped Borscht's leash shorter. “Stop recruiting.”
+
+The shaped speech thinned as he pulled Borscht away from the wet basement wall.
+
+“You should accept before someone worse does,” Borscht called.
+
+That was how authority entered: first as the name other creatures gave to survival, then as a thing the System offered to store.
+
 Mriya looked at the smoke rising from the building that contained her bowl, Nika’s bed, and the yellow blanket.
 
 It did not feel like being in charge.
@@ -1898,9 +2100,77 @@ Firefighters found no fire large enough to explain the damage.
 
 They found a split gas coupling, a blackened switch, and a basement wall damp with canal water though the canal lay six streets away. They shut off the building and told everyone to wait outside.
 
+The senior firefighter drew the pipe routes on the back of a bakery carton. Gas entered from the west. Water entered from the north. The old municipal return line had been sealed behind the boiler before Nika was born. All three converged beneath the wall that now sweated river water.
+
+“Pressure moved backward,” Emil said.
+
+“Pressure doesn't choose backward,” the firefighter replied.
+
+“Then perhaps it was badly raised.”
+
+Two crew members carried sensors into the basement. Both returned with wet boots. One instrument reported gas. The second reported electrical charge in a disconnected pipe. A third displayed a row of symbols, turned itself off, and refused further participation.
+
+Mriya smelled gray residue in the water coating their soles.
+
+Each time a firefighter crossed the threshold, the hidden sweetness in apartment 4B responded above them. The building held two connected wounds: one beneath the boiler, one inside the yellow blanket.
+
 Rain made the waiting democratic.
 
+It did not make it private.
+
+Neighbors from three buildings filled the opposite pavement. The bakery opened its awning and sold coffee until the card reader failed, then distributed it according to the owner's changing opinion of who looked cold. Two people recorded the blackened entrance on their phones. A third recorded the people recording it.
+
+The story formed before the smoke cleared.
+
+`Old dog smells gas.`
+
+`Rescue dog saves building.`
+
+`Caretaker ignores miracle animal.`
+
+No version included the tunnel, the gray packet, or Mriya nearly choosing sleep beside Nika. Public stories removed the parts that made praise difficult.
+
 Mrs. Varga went to hospital. Residents divided into those who had always distrusted the boiler and those who had never been informed there was a boiler. Nika sat beneath the bakery awning with Mriya pressed between her knees.
+
+A young man with a cracked phone asked Nika to repeat what happened.
+
+“She stopped on the stairs,” Nika said.
+
+“Before you smelled anything?”
+
+“I never smelled it.”
+
+“How did she know?”
+
+Nika's hand paused on Mriya's shoulder. Tunnel water moved through her scent, then flattened beneath the previous night's Relief.
+
+“She's a dog.”
+
+The answer disappointed him. He turned the camera toward Mriya and made a high sound intended to manufacture attention.
+
+Mriya looked away.
+
+“Can you make her bark?”
+
+“No.”
+
+“Sit?”
+
+“Probably. She doesn't work for me.”
+
+The sentence pleased Mriya until the cold structure inside her recognized Nika as a source.
+
+The woman from the first floor crouched and offered Mriya a strip of emergency biscuit. “Good dog.”
+
+Nothing entered Mriya's collar.
+
+The electronics man repeated it. A child touched two fingers to Mriya's wet back and called her the best dog in Vesper. The words carried gratitude, excitement, and the temporary generosity of people who believed danger had ended.
+
+No Favor appeared.
+
+Recognition was narrower than attention. These humans had accepted Nika's account of Mriya. They had not placed their own decisions in her care.
+
+Then Nika checked Mriya's body again and spoke from the private route built between them.
 
 She checked Mriya’s paws, ears, eyes, and ribs for the third time.
 
@@ -1922,6 +2192,12 @@ Not the warmth of fingers. Not relief. Something smaller and brighter clicked in
 
 The number included the basement warning and the praise. Two small pieces of Nika, counted and made available.
 
+Recognition had accumulated in two different moments. The first came when Nika accepted a warning and changed her own path. The second came when she named Mriya good and placed meaning on the act.
+
+The System stored both as permission to influence the person who had granted them.
+
+Trust entered. Control came out.
+
 Mriya stood so quickly that her hip slipped.
 
 “Easy.” Nika reached for her.
@@ -1940,6 +2216,10 @@ Mriya wanted her to stop.
 
 The thought sharpened.
 
+She did not form a command. She did not choose a word from a notice. She wanted distance with the same ordinary force she had wanted the tunnel man to release her collar.
+
+The System treated wanting as sufficient authority.
+
 One bright piece vanished.
 
 Nika stopped.
@@ -1948,15 +2228,53 @@ Her forward foot settled back beneath her. Her hand dropped. Confusion crossed h
 
 “Okay,” she said. “Space.”
 
+The young man's phone remained between them. “Did she just tell you to stop?”
+
+Nika glanced at him, embarrassed. “Body language.”
+
+Mriya smelled the blank place widen around the explanation. Nika remembered deciding to offer space. She could supply reasons: Mriya's lowered head, the rain, the crowd. Each reason was true enough to conceal the missing instant.
+
+The System had not turned Nika into a puppet. It had removed the disagreement that would have revealed the string.
+
 Mriya smelled no fear. No force. Nika believed the decision had been hers.
 
 The remaining piece of Favor became heavy.
+
+Mriya tested its boundary without spending it.
+
+She wanted Borscht to leave Emil's coat and come to her. Nothing happened. Borscht continued digging a nest beneath the sleeve.
+
+She wanted the young man to lower his phone. Nothing happened.
+
+She looked at Nika and wanted her to touch the damaged edge of Mriya's ear.
+
+The bright piece warmed.
+
+Source and target were the same. Favor was not general command. It was trust converted into a private route back through the giver.
+
+Mriya withdrew the wish before it sharpened.
+
+Nika touched her ear anyway.
+
+The action smelled uncertain, worried, and entirely her own.
 
 Borscht sat beneath a neighboring awning with Emil’s coat draped over him like a tent. “That was excellent,” he said.
 
 Mriya stared.
 
 “The stopping. He never stops when I ask.” Borscht nodded toward Emil, who was explaining to a firefighter that small dogs required different evacuation protocols. “Can you do it to anyone?”
+
+“No,” Mriya told him.
+
+Away from the Cache field, Borscht received refusal, Nika, wrong. His ears lowered.
+
+“Did it hurt her?”
+
+Mriya looked at the blank place in Nika's scent.
+
+“It removed the hurt before she could have it.”
+
+Borscht understood less of the sentence and more of its danger. He crawled out from Emil's coat and sat on Mriya's wet paw.
 
 Mriya approached Nika carefully.
 
@@ -1970,9 +2288,49 @@ The tunnel man had reached for Nika with a hand. Mriya had reached with a wish. 
 
 “I’m fine,” Nika said. “I think.”
 
+She tried to remember why she had stopped. Mriya smelled her searching the moment, finding smooth edges where resistance should have been.
+
+“Did you—” Nika began.
+
+The senior firefighter called her name from the entrance. The question closed without disappearing.
+
+He returned the apartment keys inside a clear evidence bag. “You are not going back in.”
+
+“My wallet is upstairs.”
+
+“Then your wallet is having a private evening.”
+
+“Dog food. Medication. Documents.”
+
+“We will escort residents after the structure is assessed.”
+
+Nika looked at the soot above the door. False clarity arranged the obstacles: rear courtyard, iron stairs, bathroom window latch, four minutes up, three down.
+
+Mriya smelled the plan forming before Nika admitted it.
+
 She looked toward apartment 4B. “My work bag is still up there. My wallet. Your food.”
 
 The firefighters had blocked the entrance, but residents had begun negotiating in clusters. Humans believed a barrier became less official when enough people complained near it.
+
+The bakery owner found a marker and wrote names on flattened pastry boxes. Hospital for Mrs. Varga. Sister across town for Emil, if the river route reopened. Hotel for the first-floor family, if card systems returned. Unknown beside Nika.
+
+“Shelter takes dogs,” someone offered.
+
+“She already came from one,” Nika said.
+
+The answer closed that route.
+
+Leon did not answer the shelter phone. Soren did not answer the courier line. Nika had money she could not see in an account she could not access and a photograph of an identity document upstairs in the building she could not enter.
+
+She wrote `Nika + Mriya` beneath Unknown.
+
+Emil added `Borscht` in letters large enough to occupy the remaining cardboard.
+
+For ten minutes the list created the appearance of a plan. Then the woman in green left in an ambulance, the hotel stopped answering, and rain erased the ink beside three names.
+
+Nika watched the water carry each destination into the gutter.
+
+False clarity offered her the rear stairs.
 
 Nika rubbed both palms over her face.
 
@@ -1984,9 +2342,17 @@ Mriya smelled the choice before it became movement: Nika intended to enter throu
 
 The pipes beneath the street pulsed again.
 
+This pulse lifted water from a basement vent in a clear arc. It struck the pavement and steamed despite the rain. Firefighters moved their barrier back. The bakery lights brightened, burst, and went dark.
+
+Above them, the fourth-floor radiator knocked three times.
+
 The mineral trace flowed upward through the building. It touched the hidden Cache residue on the fourth floor, and the residue answered.
 
 Sweetness blossomed behind the windows of 4B.
+
+Condensation cleared from that window while every other pane remained gray. The yellow blanket was not visible from the street, but its comfort pressed outward. Mriya smelled the bare floor beside it, the full water bowl, the sofa, and Nika's hand hanging in sleep.
+
+Home offered itself without smoke, bills, pain, or questions.
 
 Nika’s face softened as she looked up.
 
@@ -2000,7 +2366,19 @@ The last Favor waited.
 
 Mriya could make her stop. The System offered the possibility with the bland helpfulness of a leash hanging beside a door.
 
+One wish would keep Nika on the safe side of the barrier. No argument. No dangerous route. No need to explain the secret under the blanket.
+
+Protection had never been offered so efficiently.
+
 She did not spend it.
+
+Mriya moved instead. She blocked Nika's knees. When Nika stepped sideways, Mriya moved sideways. When Nika pushed gently at her shoulder, Mriya resisted with weight the human could feel and refuse.
+
+Nika became angry.
+
+“Stop.”
+
+The anger was immediate, inconvenient, and alive. Mriya welcomed it.
 
 She bit the repaired strap of the orange bag Nika had carried outside and pulled toward the street.
 
@@ -2020,6 +2398,10 @@ Nika released the strap.
 
 “All right,” she whispered. “I believe you.”
 
+Belief cost her the wallet, the documents, the dog food, and the possibility that the apartment was still safe. She looked furious about each one.
+
+Mriya had not removed the price.
+
 No notice appeared. No point was awarded.
 
 The choice smelled entirely like Nika.
@@ -2028,11 +2410,63 @@ Mriya leaned against her leg.
 
 For the first time since the tunnel, the System had nothing useful to say.
 
+Nika remained angry long enough to prove the choice had survived.
+
+“When I stopped,” she said, “that was you.”
+
+It was not phrased as a question.
+
+Mriya held still.
+
+“I remember deciding. But I don't remember deciding.” Nika pressed two fingers against her forehead. “That sentence is stupid.”
+
+The young man with the cracked phone had moved on to the fire engine. No one else watched them.
+
+Mriya lowered her head until her nose touched the wet pavement.
+
+Nika could have mistaken submission for apology. Instead she crouched, keeping one hand beyond reach.
+
+“Did you know you could do that?”
+
+Mriya looked toward the building.
+
+“Right. Dog.”
+
+The word did not carry contempt. It carried the exhaustion of having a necessary argument without a shared language.
+
+Nika sat beside her under the awning, leaving a strip of cold air between their bodies.
+
+“You don't get to make me safe like that.”
+
+Mriya smelled no withdrawal of affection. Only a boundary, newly placed and expensive.
+
+She could erase the anger with the remaining Favor.
+
+She did not.
+
+After a while Nika moved her hand into the space between them, palm up. Mriya chose to place her muzzle there.
+
+The blank remained. So did the boundary.
+
 # Chapter Nine: The Price of Disbelief
 
 The building opened again at dusk.
 
 One firefighter escorted each resident upstairs for medicine, documents, and enough clothing to survive the night elsewhere. No one was permitted to remain. The gas was off, the electricity was off, and something had damaged the foundation beneath the rear wall.
+
+Red paper seals crossed the basement door and both street entrances. A structural inspector had marked the rear elevation with three black circles. He would not explain them to residents, which gave the circles greater authority than words.
+
+The bakery cardboard now listed destinations beside everyone except Nika, Emil, and their dogs. Emil's sister lived across the river, where tram service had stopped and the pedestrian bridge was closed after its expansion joints began humming. The shelter line still failed. Night approached with the administrative confidence of something that had never needed an address.
+
+Firefighters returned medicine first. Then passports. Then warm clothes. Every resident discovered that the official order differed from the private order of things that mattered.
+
+The first-floor couple argued for a wooden box of letters. The electronics man requested six hard drives and no coat. Emil wanted Borscht's cloth rabbit before his own tablets.
+
+Nika asked for the orange bag.
+
+It was already on her shoulder.
+
+Relief had left her efficient enough to forget what she had saved.
 
 Nika waited until her name was called.
 
@@ -2041,6 +2475,10 @@ Nika waited until her name was called.
 Mriya planted herself on Nika’s boot.
 
 “She’s coming.”
+
+“Structure's moving.”
+
+“Then I need the creature who notices movement before I do.”
 
 The firefighter looked too tired to create a second emergency. “Two minutes.”
 
@@ -2055,6 +2493,26 @@ Mriya caught the hem of her coat.
 “I know.” Nika covered her nose with the bandaged hand. “Two minutes.”
 
 They moved quickly. Wallet. Documents. Dog food. Two sweaters. The dented flask. Nika left the three mugs and took the photograph from the refrigerator door, though Mriya had never smelled the person in it.
+
+The photograph showed Nika beside another woman at the sea, both squinting into wind. Its paper held old salt, refrigerator metal, and the faint skin oil of hands that had once touched it often. The woman herself had left no living scent in apartment 4B.
+
+Nika put it inside the shelter folder.
+
+She reached for the electricity notice, saw the tunnel time written across it, and folded the unpaid bill around her identity papers. Rent, proof, danger, and home entered the same plastic sleeve.
+
+Mriya went to the bowls. The food bowl fit in the orange bag. The water bowl did not. She pushed it once across the tile, remembering the full bowl as evidence that Nika would return.
+
+Nika understood the movement.
+
+“We can't take everything.”
+
+Mriya looked at the three mugs.
+
+“Those aren't everything.”
+
+Nika chose the chipped blue one and wrapped it in a sweater. The other two remained on the table, handles turned toward absent hands.
+
+The apartment required decisions faster than grief could approve them.
 
 The yellow blanket lay in its corner, smooth and inviting.
 
@@ -2074,7 +2532,41 @@ Nika’s scent changed. Not anger first. Hurt.
 
 “You knew.”
 
+Nika crouched beside the blanket but did not touch it. The gel brightened along the yellow bones.
+
+“Last night?” she asked. “When I couldn't wake up?”
+
+Mriya's ears lowered.
+
+“This morning you kept standing on the blanket.” Nika looked toward the bathroom. “You moved it. You knew what it did.”
+
+Each correct observation sharpened hurt into anger.
+
+Mriya approached.
+
+Nika raised the bandaged hand between them.
+
+“No.”
+
+The boundary stopped Mriya more completely than Favor had stopped Nika beneath the awning.
+
+She sat.
+
+Nika's anger changed because it had been obeyed. It did not soften. It became specific.
+
+“You saved me and then kept the thing that did it. Because it helped your hip? Because you thought I needed it?”
+
+Both.
+
+“You don't get to decide what I need while hiding it from me.”
+
+There was no System notice for a human boundary. No penalty. No reward. Only the hand held up and the distance Mriya chose not to cross.
+
 There was no human answer Mriya could give. She had saved Nika. She had kept part. Both facts occupied the room.
+
+Borscht's scent waited beyond the hall with Emil. He knew enough to have warned Nika. He had helped conceal the residue instead.
+
+The secret had already recruited a pack before any pack existed.
 
 The firefighter shouted from the hall.
 
@@ -2096,13 +2588,67 @@ They reached the landing as doors opened along the corridor.
 
 Emil Pell stood outside 4A with a suitcase. Borscht circled his ankles. From the stairs below came Mrs. Varga’s voice, sharp with pain and authority.
 
+Borscht smelled the open Cache immediately. Near the residue flooding through the floor, shaped speech returned with painful clarity.
+
+“It grew.”
+
+“You knew,” Mriya said.
+
+His body lowered until his belly touched the boards. “I knew there was some.”
+
+“You helped hide it.”
+
+“You said most was gone.”
+
+“I said nothing.”
+
+Borscht's ears flattened. The distinction reached him.
+
+Nika watched the exchange: one dog rigid, the other shrinking beside Emil's suitcase. She could hear only a low growl and two small whines, but secrecy had a posture.
+
+“He knew too,” she said.
+
+Mriya did not protect him with silence. She looked at Borscht, then at the split blanket in the apartment.
+
+Nika understood enough.
+
+“Great. My dog has been here two days and already formed a conspiracy.”
+
+The dark humor in her voice did not reduce the hurt beneath it.
+
+Borscht looked up at Emil. His human scratched behind one ear, unaware of the confession.
+
+The first pack action Mriya had created was not rescue or leadership. It was shared concealment.
+
 “That dog caused this.”
 
 She had returned from hospital with her wrist in a blue splint. Two uniformed municipal officers followed her. Behind them stood the man from the tunnel.
 
 He wore a clean coat now. Without canal water and darkness, he could have belonged behind any service counter in Vesper. His injured hand was hidden in a glove.
 
+A city badge hung at his chest: `SUBSURFACE MATERIALS — RECOVERY`. The photograph showed the same narrow face with less fear in it. No name appeared, only a personnel number and a blue stripe used by contractors permitted to look official near locked doors.
+
+One officer carried a scanner. Its dial moved toward apartment 4B each time the pipes pulsed. The other held an animal-control loop folded against his leg.
+
 “There was an unauthorized animal entry at the depot,” he said. “Contaminated material is missing.”
+
+“You grabbed her collar and chased us with a cutting tool,” Nika said.
+
+“I attempted to protect municipal inventory from an uncontrolled animal.”
+
+“You reached inside your coat before she broke it.”
+
+The officer with the scanner looked at his gloved hand.
+
+“Injury during containment,” the tunnel man said.
+
+His account used true objects in the wrong order. The System smell around him was deliberate concealment polished into procedure.
+
+Nika lifted her phone. “I documented the attack.”
+
+The network remained dead. The report remained unsent. Still, the photographs existed, and the tunnel man did not know what they showed.
+
+His fear sharpened.
 
 Nika moved in front of Mriya.
 
@@ -2119,6 +2665,10 @@ The dark mark around Mrs. Varga thickened. Guidance reduced. Trust unrestored. M
 The building shifted beneath them.
 
 Dust lifted from the steps.
+
+The inspector's black circles had described shear points. Mriya smelled them opening: wet mortar, old timber, gas residue, and the mineral line pushing upward behind the rear wall. The main staircase rested against that wall. The rear corridor crossed away from it.
+
+Two routes. One supported by evidence no human could smell.
 
 Mriya barked toward the rear corridor.
 
@@ -2137,6 +2687,10 @@ The sound carried warning, route, collapse, now.
 Mrs. Varga heard only a dog.
 
 The first three steps folded into the hall.
+
+Mrs. Varga fell only as far as her knees because the officer with the scanner caught the back of her coat. The scanner struck a step and split open. Its needle continued pointing toward 4B after the casing broke.
+
+The second officer tried to reach them from above. A crack crossed the landing between his boots. He chose the rear corridor without waiting for permission.
 
 One officer caught the rail. The other fell against the wall. Mrs. Varga disappeared to her knees in plaster and broken wood.
 
@@ -2164,6 +2718,10 @@ The man’s fingers opened.
 
 His surprise lasted longer than his obedience.
 
+This Favor did not come from him. Mriya spent the remaining piece of Nika through a stranger's hand because the System recognized a threat to their bond. Nika's trust became force against someone she had never authorized it to touch.
+
+Useful did not become clean merely because the target deserved it.
+
 Mriya ran.
 
 Nika followed her into the rear corridor. Emil and Borscht waited at the fire door because humans, unlike dogs, could be stopped by a metal bar whose purpose was clearly marked. Nika struck it with her hip. Rain and evening air rushed in.
@@ -2171,6 +2729,20 @@ Nika followed her into the rear corridor. Emil and Borscht waited at the fire do
 They descended the iron stairs as apartment 4B lost its window.
 
 Glass fell into the courtyard. Sweetness poured after it, invisible to the humans and bright as rot to every dog in the district.
+
+The rear wall opened beneath the window. Brick separated from plaster in a vertical line, exposing wallpaper, pipe, and the edge of Nika's blue sofa to the rain. The radiator pulled halfway through the floor before its pipe snapped.
+
+The break released a cloud of gray warmth. It carried the smell of painless sleep across the courtyard.
+
+Nika stopped on the fire stair.
+
+For one second her body leaned toward it.
+
+Mriya did not use Favor. There was none left.
+
+“Keep moving,” Emil said from below.
+
+Nika gripped the rail and moved by her own strength.
 
 Barking began street by street.
 
@@ -2190,13 +2762,39 @@ They crossed the courtyard together: one woman with a torn orange bag, one old d
 
 Behind them, the building gave a deep tired groan.
 
+The fourth-floor corner settled outward. Apartment 4B remained standing, then ceased to be a room. The exterior wall folded into the courtyard with the blue sofa, the kitchen table, two mugs, and the yellow blanket burning without flame inside the falling plaster.
+
+Firefighters shouted from the street. A red inspection seal tore free and followed the debris down.
+
 Mriya looked back once.
 
 The fourth-floor window still smelled of toast beneath the smoke and unnatural sweetness. Her bowl remained beside the counter. Nika’s bed remained unmade. Home had been repetition, and now repetition had ended.
 
+The window frame dropped while Mriya watched. Toast vanished beneath wet dust.
+
+No return remained to be negotiated.
+
+Nika made a sound that might have become laughter if it had found enough air.
+
+“Electricity bill solved,” she said.
+
+She still carried the notice around her identity papers. The rent reminder remained on her phone. Human systems would continue requesting payment from an apartment that no longer possessed an outside wall.
+
+Mriya leaned toward her, then stopped before touching. The boundary from upstairs remained until Nika changed it.
+
+Nika noticed. Rain moved through the space between them.
+
+She put her hand on Mriya's shoulder herself.
+
+The choice did not mean forgiveness. It meant the old dog did not have to face the falling building alone.
+
+Mriya accepted exactly that much.
+
 Nika touched the damaged edge of Mriya’s ear.
 
 “Still together,” she said.
+
+Anger remained in the words. So did choice.
 
 That was also a kind of home.
 

@@ -6,16 +6,16 @@
   "required_addition_words": 62108,
   "counting_rule": "wc-style tokens; 31 front-matter words are allocated to chapter 1 so current chapter totals equal the complete manuscript count",
   "expansion_progress": {
-    "completed_gate": "E1_CHAPTERS_1_6",
-    "completed_gates": ["E1_CHAPTERS_1_3", "E1_CHAPTERS_4_6"],
-    "expanded_chapters": [1, 2, 3, 4, 5, 6],
-    "next_expansion_chapters": [7, 8, 9],
-    "manuscript_words_after_gate": 29901,
-    "words_added_from_baseline": 7409,
-    "chapter_actuals_using_counting_rule": {"1": 2160, "2": 2137, "3": 2313, "4": 2180, "5": 2154, "6": 2109},
-    "chapter_target_total": 13300,
-    "chapter_actual_total": 13053,
-    "target_variance_percent": -1.9,
+    "completed_gate": "E1_ACT_GATE",
+    "completed_gates": ["E1_CHAPTERS_1_3", "E1_CHAPTERS_4_6", "E1_CHAPTERS_7_9", "E1_ACT_GATE"],
+    "expanded_chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "next_expansion_chapters": [10, 11, 12],
+    "manuscript_words_after_gate": 34364,
+    "words_added_from_baseline": 11872,
+    "chapter_actuals_using_counting_rule": {"1": 2160, "2": 2137, "3": 2313, "4": 2180, "5": 2154, "6": 2109, "7": 2280, "8": 2197, "9": 2395},
+    "chapter_target_total": 20500,
+    "chapter_actual_total": 19925,
+    "target_variance_percent": -2.8,
     "gate_result": "PASS"
   },
   "expansion_policy": [
@@ -25,7 +25,7 @@
     "Keep System notices sparse and earn every numerical change through action."
   ],
   "optional_psychologist_commentary_device": {
-    "decision": "PILOT_AFTER_E1_NOT_ADOPTED",
+    "decision": "REJECTED_AFTER_E1_PILOT",
     "source_id": "OWNER-NOTES-001",
     "pilot_location": "after chapter 9",
     "pilot_words": [180, 250],
