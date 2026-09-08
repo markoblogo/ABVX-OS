@@ -123,9 +123,9 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["chapters_drafted"], 27)
-        self.assertEqual(progress["next_chapter"], 28)
-        self.assertEqual(manuscript.count("# Chapter "), 27)
+        self.assertEqual(progress["chapters_drafted"], 33)
+        self.assertEqual(progress["next_chapter"], 34)
+        self.assertEqual(manuscript.count("# Chapter "), 33)
         self.assertIn("[CACHE DETECTED]", manuscript)
         self.assertIn("[CLASSIFICATION PENDING]", manuscript)
         self.assertIn("[CLASS ACQUIRED: STRAY]", manuscript)
@@ -134,6 +134,8 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertIn("[BOND 2 → 0]", manuscript)
         self.assertIn("[NONSTANDARD ACCESS NETWORK]", manuscript)
         self.assertIn("[SPECIES-SPECIFIC SUPPLY LAW]", manuscript)
+        self.assertIn("[CONDITIONAL ALLY: ROOK]", manuscript)
+        self.assertIn("[CHOSEN SCENT]", manuscript)
 
 
 if __name__ == "__main__":

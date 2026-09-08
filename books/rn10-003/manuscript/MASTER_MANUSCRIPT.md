@@ -3209,3 +3209,503 @@ From the east door came three deliberate scratches.
 Rook waited outside with a metal tribute ring between his teeth.
 
 Behind him stood six warehouse dogs.
+
+# Chapter Twenty-Eight: Rook
+
+The tribute ring smelled of every dog who had carried it.
+
+Fear lay deepest. Above it came obedience, pride, river mud, warehouse dust, and the clean bite marks of Rook himself. The iron circle was too large for a collar and too small for a gate. Its purpose was entirely social.
+
+Rook placed it outside the east entrance.
+
+The six dogs behind him sat in two rows. Wrench occupied the front. The tear in the other dog’s lip had begun to heal. None looked thirsty now. The clean east line had done what Mriya promised.
+
+“Sable recognizes this Hearth,” Rook said.
+
+Atlas stiffened. “Sable recognizes what she intends to own.”
+
+“Recognition has a price.”
+
+The System translated the ring into terms.
+
+> [TERRITORY TRIBUTE]
+>
+> Three Supply per cycle. East-route priority. Public recognition of senior claimant.
+>
+> Benefit: protected subordinate territory.
+
+Mriya did not know how long a cycle was. Systems preferred precise prices and vague calendars.
+
+Three Supply could have stabilized most of Borscht. It could keep the humans fed. It could become medicine, heat, or another expansion the Hearth had not yet learned to regret.
+
+“No,” Mriya said.
+
+Rook looked past her at the new access network. “You spend nine parts of every hundred on doors.”
+
+“They open.”
+
+“You lost the unified food conversion.”
+
+“It poisoned one of us.”
+
+“You have eight humans and dogs under a signal every pack in Vesper can follow. Refusal is not independence. It is an expensive way to meet the next claimant alone.”
+
+Nika stood beside the ramp. Bond 0 kept her outside the terms, but she read the dogs’ bodies.
+
+“He wants something.”
+
+Vale examined the iron ring. “It is always tax or branding.”
+
+Irena saw the System nowhere and still reached the same conclusion. “Water?”
+
+Mriya touched three supply bins with her nose, then the ring, then Rook.
+
+“Three?” Nika asked. “Every time?”
+
+Rook’s ears moved. He had learned to follow her guesses.
+
+Nika shook her head. “Tell Sable we already paid for the filter.”
+
+Mriya repeated the answer.
+
+Rook stepped across the visitor line.
+
+The east entrance admitted him because petitioners could enter. His six dogs remained outside. Atlas moved between Rook and the inhabited lockers.
+
+“Sable did not send me to return with a sentence,” Rook said.
+
+“Then return with the ring.”
+
+His scent changed. Not anger. Obligation tightening.
+
+Rook had not come because he wanted their Supply. He had come because hierarchy required evidence that he had asked correctly and enforced the answer.
+
+Mriya understood the trap. A subordinate enforcer could respect them and still bite.
+
+Rook lowered his head.
+
+Atlas matched him.
+
+The Hearth boundary prepared to classify violence.
+
+From the expansion room came a metallic crack, followed by Tomas shouting and Pixel announcing that the water had become sideways.
+
+Rook’s ears turned.
+
+Wrench stood outside so quickly that she broke formation.
+
+Dirty water spread beneath the east door.
+
+# Chapter Twenty-Nine: A Tool Worth Biting
+
+The repaired filter had split at the old valve.
+
+Pressure from the east line drove rust-colored water across the expansion floor. Tomas held the housing closed with both hands. Irena fought the upstream control, but the wheel had been designed for a stronger human in a room that no longer existed.
+
+“Shut the branch!” she shouted.
+
+Wrench barked from outside. Rook looked at the tribute ring, then at the rising water.
+
+Mriya opened the east entrance.
+
+Wrench entered first.
+
+She dropped the canvas loop from her chest. Inside were two pieces of pipe, a clamp, and a flat bar marked by repeated teeth. Tomas recognized them.
+
+“The key.”
+
+They had built it after the first repair. Tomas shaped the bar. Irena measured the valve. Pixel added a low grip and three unauthorized improvements. Wrench had carried the prototype east to test whether a dog could operate the branch without waiting for human hands.
+
+Now the human wheel was unreachable behind the broken housing.
+
+The low socket was not.
+
+Wrench locked her jaw around the padded bar and turned. The tool gave her leverage without cutting her mouth. Water slowed.
+
+Tomas shifted the clamp. “Again.”
+
+Wrench released, reset her bite, and turned again.
+
+The valve closed.
+
+Silence entered with the last stream of dirty water.
+
+Rook walked to the tool.
+
+He inspected Tomas’s hand marks, Pixel’s wire stop, Irena’s stamped measurement, and the place Wrench’s teeth had compressed the padding. Human and dog work occupied the same object without one pretending to be the other.
+
+“Sable has lost two dogs at valves,” Wrench said. “Humans could not reach them in time.”
+
+Rook picked up the bar.
+
+He bit once, hard, at the reinforced grip.
+
+The tool held.
+
+Respect entered his scent so abruptly that everyone noticed.
+
+Pixel climbed onto the filter housing. “We call it the Bite Key.”
+
+“We do not,” Irena said.
+
+“We had a vote while you were in the pipe.”
+
+Rook set the tool down instead of taking it.
+
+“How many?”
+
+Tomas looked at Nika. Nika looked at Mriya. The chain of translation was slow without Bond, but it belonged to them.
+
+“One for each east junction,” Mriya said. “Parts and safe passage in exchange.”
+
+Rook considered the tribute ring again.
+
+Then he picked it up and placed it around the Bite Key.
+
+“One cycle,” he said. “Sable receives tools instead of Supply. She recognizes no subordination. She delays challenge while the exchange works.”
+
+It was not friendship.
+
+It was more useful.
+
+Mriya accepted.
+
+The System tried to call it tribute. She rejected the label until the words changed.
+
+> [RECIPROCAL TERRITORY TRADE]
+>
+> Tools for route access and delayed challenge.
+>
+> No senior claimant recognized.
+
+Rook looked at the notice she alone could see.
+
+“You make everything difficult.”
+
+Mriya smelled the repaired valve, the tool, and seven dogs who would return east alive.
+
+“Only the simple things.”
+
+# Chapter Thirty: Conditional Ally
+
+The retrieval team arrived before the floor dried.
+
+Vale heard boots above the depot. Pixel felt them through the rail. Mriya smelled the clean coats of municipal officers and the bitter concealed trace of the man from the tunnel.
+
+Rook’s warning had arrived with no time to spare, exactly as promised.
+
+Atlas took emergency command.
+
+The rule activated because Nika and Irena both declared the threat. The four entrances became four jobs. Tomas and Wrench secured the water line. Emil moved Borscht into the inner locker. Pixel carried messages through the low tunnel. Vale took the red medical case into the service passage, thereby removing the evidence and himself from immediate usefulness.
+
+Nika stayed at the ramp.
+
+Mriya wanted her deeper inside. Bond 0 gave no force to the wish. Nika saw her look and shook her head.
+
+“They’re here because of me too.”
+
+The old anger remained. So did her position.
+
+The surface door opened.
+
+The tunnel man entered with four officers and a scanner that clicked toward hidden System residue. He stopped at the ramp when he saw Rook and six warehouse dogs inside the visitor line.
+
+“This site is under municipal control.”
+
+Irena stepped forward in her yellow raincoat. “This site was removed from the active registry fourteen years ago.”
+
+“Then you are trespassing.”
+
+“So is your scanner.”
+
+The scanner pointed toward the Hearth’s private markers.
+
+Mriya smelled its function: it did not find objects. It found permissions, old claims, places where the System had been allowed to read.
+
+The officers advanced.
+
+Atlas barked one command.
+
+Rook did not obey.
+
+He chose the same action.
+
+Warehouse dogs filled the ramp without crossing into attack. Tomas opened the east valve. Water hammered through the pipes and shook the scanner off its reading. Pixel pulled her alarm cable, releasing every access door at once. Humans and dogs moved through routes the retrieval team could not predict.
+
+The tunnel man reached for Nika.
+
+Mriya intercepted him. She had no Favor left she was willing to spend. She did not need it. Nika drove the orange bag into his arm while Mriya struck his knee.
+
+Rook took the scanner between his teeth.
+
+He could have crushed it. Instead he carried it to the east door and dropped it into the dirty runoff.
+
+The device sparked.
+
+The officers retreated when water reached their boots and dogs occupied every dry path.
+
+No one bit. That made the retreat harder to describe as victory over dangerous animals.
+
+The tunnel man left last.
+
+“The System already has a way in,” he told Nika.
+
+He looked directly at Mriya. “You gave it one.”
+
+After the boots faded, Atlas released command.
+
+Rook’s dogs relaxed in uneven stages.
+
+“One defense,” Rook said. “That was the agreement I am now offering.”
+
+Mriya had not heard him offer it before.
+
+“You accepted early,” she said.
+
+“Efficient.”
+
+He described the city through pack scents. Sable held the river warehouses. A group called the High Collars occupied the courthouse and rewarded humans who registered under canine protection. Free Teeth controlled the market tunnels through theft and fear. Smaller Hearths had begun to appear, most under Good Dog or Bad Dog authority.
+
+“All of them will choose a side,” Rook said.
+
+“We chose.”
+
+“Stray is not a side. It is a delay.”
+
+He offered one-defense alliance: either Hearth could call the other once. No permanent obedience. No shared territory. No guarantee after the debt was paid.
+
+Mriya accepted.
+
+> [CONDITIONAL ALLY: ROOK]
+>
+> Mutual defense charges: 1 each
+
+Rook left the tribute ring around the Bite Key.
+
+This time it smelled less like fear.
+
+# Chapter Thirty-One: The Right Face
+
+Nika disappeared the next morning.
+
+She left through the ramp with Irena to inspect the bakery water point. Twenty minutes later Irena returned alone, bleeding above one eyebrow.
+
+“The street folded,” she said. “Not the pavement. The route. I turned around and she wasn’t there.”
+
+Mriya found Nika’s trail on the stairs. Rain, antibiotics, orange canvas, the bread they had shared. It continued to the surface door and ended as cleanly as thread cut by a knife.
+
+Beyond it lay three false routes, each carrying part of her scent.
+
+Bond 0 gave Mriya no direction.
+
+They searched until dark.
+
+Rook refused the alliance call because there was no enemy to defend against. Then he sent Wrench unofficially, which revealed more than agreement would have.
+
+They found Nika at the bakery entrance just after sunset.
+
+She wore the same torn coat. Her bandaged hand carried the orange bag. Rain had flattened her hair in the correct direction. The cut on her palm, the old split in her boot, and the pale line where Mriya’s collar had rubbed her wrist were all present.
+
+“I’m okay,” she said.
+
+The voice was right.
+
+Mriya approached.
+
+Nika smelled of rain, old coffee, antibiotics, orange canvas, and toast.
+
+Every layer was correct.
+
+None touched the next.
+
+Real scent changed where memories met. Coffee entered sweat. Bread clung to the hand that tore it. Anger sharpened affection without replacing it. This Nika carried each fact separately, arranged like objects returned to labeled shelves.
+
+Intentional concealment lay beneath them all.
+
+The wrong Nika smiled.
+
+“Good girl.”
+
+No Favor appeared. Bond was zero.
+
+Mriya’s body still wanted to cross the remaining distance.
+
+The System had copied the hand before copying what the hand meant.
+
+Mriya stepped back.
+
+The right face looked hurt in exactly the way Nika would.
+
+“It’s me.”
+
+Behind her, the Hearth opened the ramp.
+
+# Chapter Thirty-Two: The Wrong Nika
+
+The impostor entered as a former bonded human.
+
+The ramp recognized an old permission Mriya had sacrificed but the Hearth had never deleted. The boundary warmed. Nika’s photograph lifted from beside the iron housing and turned toward its copied subject.
+
+> [LEGACY HUMAN BRIDGE DETECTED]
+>
+> Recovery candidate accepted.
+
+“No,” Mriya said.
+
+The Hearth heard the current Bond 0 and the older permission at once. Doors began opening and closing. Private scent markers brightened around the iron circle.
+
+The impostor walked toward Nika’s photograph.
+
+Atlas blocked her.
+
+She said his name.
+
+Then Pixel’s. Borscht’s. Emil’s. She knew the house rules, the four entrances, the Bite Key, and the exact sentence Nika had used before Mriya ended Bond Treatment.
+
+“Undo it.”
+
+Atlas hesitated because information smelled like identity to humans and System alike.
+
+Mriya smelled no joined history. Only a Cache built from everything the Hearth had measured.
+
+The impostor touched the photograph.
+
+The human bridge reactivated.
+
+For one instant Mriya felt the whole settlement through the copied Bond: every member position, every door, every private marker, every route beneath Vesper. The connection was perfect.
+
+Too perfect.
+
+> [HUMAN BRIDGE RESTORED]
+>
+> Administrative access requested.
+
+The impostor accepted.
+
+The east door opened to empty darkness. The low tunnel unlocked. The emergency panel depressed both releases without hands. Through the pipes came the mineral pulse that had begun beneath apartment 4B.
+
+The System entered the Hearth as permission rather than an enemy.
+
+Walls smoothed. Handwritten rules faded from the depot timetable. The three human seats sank toward bowls again. Every inefficient choice began correcting itself.
+
+Pixel attacked the photograph.
+
+Her teeth passed through light and struck iron. Atlas pulled the impostor away, but the false Nika used Mriya’s old authority.
+
+“Release.”
+
+Atlas’s grip opened.
+
+The word had once belonged to Mriya.
+
+Nika’s copied hand reached for the private markers.
+
+Mriya could destroy the photograph. She could also destroy every permission tied to the person she loved, leaving no path for the real Nika if she returned.
+
+The System offered certainty.
+
+> [IDENTITY CONFLICT]
+>
+> Prefer measurable continuity / revoke all human access
+
+Two doors again.
+
+Mriya refused both.
+
+She called the conditional defense.
+
+Somewhere east, Rook received the charge.
+
+Before he arrived, three scratches sounded at the sealed service panel behind the lockers.
+
+Then Nika’s voice said, “Could somebody open this stupid wall?”
+
+# Chapter Thirty-Three: Chosen Scent
+
+Irena and Tomas opened the service panel.
+
+The second Nika fell through covered in peppermint dust, drain mud, and bakery flour. Her coat sleeve was missing. One boot had lost its sole. She smelled nothing like the careful copy standing beside the iron housing.
+
+She looked at herself.
+
+“That’s upsetting.”
+
+The impostor spoke first. “It copied me.”
+
+Real Nika said a word the Hearth did not translate.
+
+Both faces turned toward Mriya.
+
+The System compared scars, memories, voice, fingerprints, possessions, and recorded consent. Every measurable field matched closely enough to sustain conflict.
+
+> [IDENTITY CONFIDENCE]
+>
+> Candidate A: 99.2%
+>
+> Candidate B: 97.8%
+
+Candidate A was the clean copy.
+
+Mriya approached Candidate B.
+
+Peppermint concealed the street route. Flour concealed the hands. Mud concealed injury. Beneath them was Nika’s living scent, disordered by fear and effort. It did not prove what the System asked.
+
+The impostor held out a hand.
+
+“Mriya. Come.”
+
+Real Nika did not.
+
+She looked at the dog, then lowered herself to the floor with her back against the lockers. Not close. Not facing directly. She rested her torn sleeve across one knee and waited.
+
+The shelter aisle returned without becoming a stat.
+
+The first Nika had sat opposite a wire door and made no request. Mriya had crossed because staying was also a choice.
+
+No interface had existed to record it.
+
+Mriya walked past the offered hand.
+
+She leaned one shoulder against the muddy Nika’s shin.
+
+Nika’s breathing changed. Nothing else did.
+
+The impostor’s scent broke.
+
+Rain separated from coffee. Toast became gray Cache sweetness. The human face remained correct while the concealed structure beneath it opened like a packet torn at one corner.
+
+Mriya withdrew the legacy permission from that structure alone.
+
+> [CHOSEN SCENT]
+>
+> Measured continuity rejected.
+>
+> Living claimant recognized by voluntary witness.
+
+The false Nika collapsed inward. Coat, skin, and orange bag folded into a thin layer of gray material around a hard white seed.
+
+Rook arrived in time to bite the seed before it reached the drain.
+
+It cracked between his teeth.
+
+The System’s corrections stopped. The handwritten rules returned in Nika’s ink. Human seats rose from bowls. Four doors recovered four different shapes.
+
+The real orange bag was gone.
+
+Nika looked at the gray remains of its copy. “I hated that bag.”
+
+Mriya smelled the lie.
+
+Nika put her hand between Mriya’s ears.
+
+No Favor appeared.
+
+“Still mad,” she said.
+
+Her thumb found the damaged edge of Mriya’s ear, the place the copy had known existed but had never learned to touch without checking.
+
+Mriya leaned into the hand.
+
+Bond remained zero.
+
+Trust did not.

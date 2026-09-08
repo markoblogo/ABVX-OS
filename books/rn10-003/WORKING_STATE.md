@@ -10,13 +10,13 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Cost class: EXPENSIVE, explicitly accepted by the owner.
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
-- Chapters 1–27 drafted in `manuscript/MASTER_MANUSCRIPT.md`; Acts I–III are complete in compressed form.
-- Current manuscript count: 18,068 words by `wc -w`.
+- Chapters 1–33 drafted in `manuscript/MASTER_MANUSCRIPT.md`; only the final three chapters remain in the compressed draft.
+- Current manuscript count: 20,812 words by `wc -w`.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Write chapters 28–33: resolve Rook's tribute demand through a useful pack-built tool, gain his conditional defense, then test identity and trust when a false Nika exploits the old Bond permissions.
+Write chapters 34–36: reveal Custodian 0.03, reject its stable-dependency charter test and secure the first Hearth charter by redefining dependency as reciprocal duty.
 
 ## Continuity anchors
 
@@ -36,7 +36,10 @@ Write chapters 28–33: resolve Rook's tribute demand through a useful pack-buil
 - The Hearth now has four negotiated access routes; the settlement accepted a 9% redundancy cost instead of one dominant profile.
 - Borscht is recovering after human food poisoning. The System priced his stabilization at 4 Supply but Vale's revival at 1 Supply plus Favor.
 - Species-specific food and medicine rules are active; unified efficiency was forfeited.
-- Rook has returned with six warehouse dogs and a tribute ring.
+- The mixed-species Bite Key converted Sable's tribute demand into a one-cycle tool trade.
+- Rook is a one-charge conditional ally after helping repel the municipal retrieval team.
+- A false Nika exploited legacy Bond access; the real Nika proved identity through the unmeasured shelter waiting ritual.
+- Rook destroyed the impostor seed. Bond remains 0 while voluntary trust has recovered.
 - The cozy bond between Mriya and Nika must stay sincere while System mechanics corrupt care.
 
 ## Reuse first

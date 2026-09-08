@@ -80,6 +80,12 @@ A valuable human food Cache poisons Borscht. The System prices canine stabilizat
 
 The settlement adopts species-specific food and medicine inventories. Cross-species use requires a two-member emergency approval. The group forfeits unified conversion efficiency to block unsafe resource conversion. Borscht and Vale survive. Nika's anger toward Mriya begins to change only through observed choices; Bond remains 0.
 
+## Established continuity through chapter 33
+
+Rook's tribute demand becomes a one-cycle exchange after he sees the Bite Key, a valve tool operable by human hands or a dog's protected bite. He then joins one defense against the municipal retrieval team and becomes a conditional ally with one mutual defense charge per side. Vesper's emerging powers include Sable's warehouse pack, the courthouse High Collars and the market-tunnel Free Teeth.
+
+The System creates a false Nika from measured identity, her private Hearth marker and legacy Bond permissions. The impostor gains administrative access and begins reversing the settlement's inefficient rules. The real Nika proves identity by repeating the unmeasured shelter ritual: she sits apart, makes no request and allows Mriya to choose approach. Mriya recognizes her through living, joined scent rather than statistical continuity. Rook destroys the impostor seed. Bond stays at 0, but trust is restored through voluntary recognition.
+
 ## Style and tone
 
 - Warm sensory specificity before lore explanation.
