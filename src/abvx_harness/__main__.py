@@ -12,6 +12,7 @@ from .intelligence import run_content_enrichment
 from .local_model import answer_local_model
 from .playbooks import load_playbook, replay_playbook
 from .portfolio import inspect_portfolio, render_portfolio
+from .roles import inspect_role, list_roles, route_role
 from .book_radar import add_records as add_book_radar_records, export_state as export_book_radar_state, import_bundle as import_book_radar_bundle, import_catalog as import_book_radar_catalog, render_report as render_book_radar_report, report as book_radar_report
 
 
@@ -72,6 +73,34 @@ def _print_content(value: object, as_json: bool) -> None:
 def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
     argv = argv if argv is not None else sys.argv[1:]
     try:
+        if argv in (["role", "list"], ["role", "list", "--json"]):
+            roles = list_roles(root)
+            if argv[-1] == "--json":
+                print(json.dumps(roles, indent=2, sort_keys=True))
+            else:
+                for role in roles:
+                    print(f"{role['id']} [{role['status']}] {role['name']}")
+            return 0
+        if len(argv) >= 3 and argv[:2] == ["role", "inspect"]:
+            positional, options = _options(argv[2:])
+            if len(positional) != 1:
+                raise ValidationError("usage: ./bin/abvx role inspect <role-id> [--json]")
+            role = inspect_role(root, positional[0])
+            print(json.dumps(role, indent=2, sort_keys=True) if options.get("json") else f"{role['name']}: {role['purpose']}")
+            return 0
+        if len(argv) >= 2 and argv[:2] == ["role", "route"]:
+            positional, options = _options(argv[2:])
+            text = options.get("text")
+            if positional or not isinstance(text, str):
+                raise ValidationError("usage: ./bin/abvx role route --text <request> [--json]")
+            result = route_role(root, text)
+            if options.get("json"):
+                print(json.dumps(result, indent=2, sort_keys=True))
+            else:
+                print(f"primary: {result['primary_role']['id']}")
+                if result["supporting_roles"]:
+                    print("supporting: " + ", ".join(role["id"] for role in result["supporting_roles"]))
+            return 0
         if len(argv) >= 2 and argv[:2] == ["book-radar", "import"]:
             positional, options = _options(argv[2:])
             if len(positional) != 1:
@@ -249,7 +278,7 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
             else:
                 print(render_portfolio(portfolio))
             return 0
-        print("usage: ./bin/abvx validate | ... | ./bin/abvx book-radar <import|catalog-import|new-run|shortlist|decide|product|launch|actuals|report|calibrate|export>", file=sys.stderr)
+        print("usage: ./bin/abvx validate | ./bin/abvx role <list|inspect|route> | ... | ./bin/abvx book-radar <import|catalog-import|new-run|shortlist|decide|product|launch|actuals|report|calibrate|export>", file=sys.stderr)
         return 2
     except (ValidationError, OSError, KeyError, ValueError) as exc:
         print(f"ERROR: {exc}", file=sys.stderr)

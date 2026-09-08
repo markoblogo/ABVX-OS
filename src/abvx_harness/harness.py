@@ -193,6 +193,10 @@ def validate_repository(root: Path) -> list[str]:
     if publishing_adapter_schema_path.is_file() and publishing_adapter_registry_path.is_file():
         validate(load_json(publishing_adapter_registry_path), load_json(publishing_adapter_schema_path), schema_path=publishing_adapter_schema_path, root=root, location=str(publishing_adapter_registry_path))
         checked.append(str(publishing_adapter_registry_path.relative_to(root)))
+    professional_roles_schema_path = root / "schemas" / "professional_roles.schema.json"
+    professional_roles_registry_path = root / "registries" / "professional-roles.json"
+    if professional_roles_schema_path.is_file() and professional_roles_registry_path.is_file():
+        validate(load_json(professional_roles_registry_path), load_json(professional_roles_schema_path), schema_path=professional_roles_schema_path, root=root, location=str(professional_roles_registry_path))
     analytics_observation_schema_path = root / "schemas" / "analytics_observation.schema.json"
     if analytics_observation_schema_path.is_file():
         for path in sorted((root / "observations" / "analytics").glob("*.json")):

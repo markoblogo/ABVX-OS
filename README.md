@@ -24,6 +24,7 @@ Current implemented subsystems:
 - Playbooks: compact deterministic routines for proven repeated operations.
 - Donor-first policy: candidate registry, capability gaps, and cost/approval guardrails for future platform work.
 - Evidence model: machine-readable decisions, audits, bakeoffs, project onboarding evidence, and routine replay receipts.
+- Professional role routing: local deterministic selection of a primary specialist and bounded supporting roles without granting runtime authority.
 
 Development Ops is only one subsystem inside this larger Personal Operator shape.
 
@@ -40,6 +41,8 @@ For a fresh coding session, use this order:
 5. [docs/donor-first-policy.md](docs/donor-first-policy.md)
 
 Then load only task-specific docs such as [docs/context-retrieval.md](docs/context-retrieval.md), [docs/intake.md](docs/intake.md), [docs/provider-contract.md](docs/provider-contract.md), or [docs/roadmap.md](docs/roadmap.md).
+
+For personal and professional specialist routing, read [docs/professional-role-routing.md](docs/professional-role-routing.md).
 
 ## Future scope
 

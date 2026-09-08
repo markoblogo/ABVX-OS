@@ -2,6 +2,19 @@
   "schema_version": "v1",
   "entries": [
     {
+      "id": "professional-role-patterns-agency-agents",
+      "capability_area": "Professional role design",
+      "candidate": "agency-agents",
+      "locator": "msitarzewski/agency-agents",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "Repository and Codex conversion audit plus owner-approved role-routing direction",
+      "evidence_refs": [
+        "docs/professional-role-routing.md",
+        "registries/professional-roles.json"
+      ],
+      "notes": "Use selected role workflows and deliverable patterns as MIT-licensed donor material. Do not install the full prompt corpus or treat donor personas, pseudo-memory, tools, metrics, or authority as verified ABVX behavior."
+    },
+    {
       "id": "mission-control-loopx",
       "capability_area": "Mission/control",
       "candidate": "LoopX",

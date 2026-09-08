@@ -17,7 +17,7 @@ Current canonical ownership split is:
 
 ## Control plane and providers
 
-The control plane owns registries, normalized entities, event envelopes, routing state, policy evaluation, evidence, and approval gates. Providers perform bounded work behind explicit interfaces: intake/source adapters, research, code intelligence, task execution, media processing, publishing, and deployment. Provider output is untrusted input until validated and recorded with provenance.
+The control plane owns registries, normalized entities, event envelopes, professional role profiles, routing state, policy evaluation, evidence, and approval gates. Providers perform bounded work behind explicit interfaces: intake/source adapters, research, code intelligence, task execution, media processing, publishing, and deployment. Provider output is untrusted input until validated and recorded with provenance.
 
 Current active ABVX subsystems are intentionally small:
 
@@ -26,6 +26,7 @@ Current active ABVX subsystems are intentionally small:
 - read-only Cortex retrieval
 - playbook replay
 - evidence-backed bakeoffs and decisions
+- deterministic professional-role routing with no authority effect
 - optional mission-state provider boundary
 
 Optional generated project intelligence or wiki projections may exist later, but they are not canonical truth sources.
