@@ -3,7 +3,12 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-from abvx_harness.book_radar_discovery import commercial_discovery_decision, rank_commercial_candidates
+from abvx_harness.book_radar_discovery import (
+    commercial_discovery_decision,
+    rank_commercial_candidates,
+    validate_listing_package,
+    validate_listing_pattern_scan,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -59,7 +64,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
     def test_user_supplied_rn10_003_is_a_bounded_concept_gate(self):
         concept = json.loads((RUN / "rn10-003-concept-gate.json").read_text())
         self.assertEqual(concept["id"], "RN10-003")
-        self.assertEqual(concept["status"], "CONCEPT_PACKAGE_READY_FOR_MARKET_VALIDATION")
+        self.assertEqual(concept["status"], "LISTING_PATTERN_GATE_PASS")
         self.assertFalse(concept["production_authorized"])
         self.assertEqual(len(concept["progression_system"]["primary_stats"]), 5)
         self.assertEqual(len(concept["situation_map"]), 12)
@@ -70,11 +75,27 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         listing = concept["listing_package"]
         self.assertEqual(len(listing["keyword_fields"]), 7)
         self.assertEqual(len(listing["category_targets"]), 3)
-        self.assertEqual(len(listing["test_variants"]), 3)
+        self.assertEqual(listing["alternatives_considered"][0]["title"], "Good Dog, Bad System")
         keyword_text = " ".join(listing["keyword_fields"]).lower()
         self.assertNotIn("kindle unlimited", keyword_text)
         self.assertNotIn("kdp select", keyword_text)
         self.assertNotIn("dungeon crawler carl", keyword_text)
+
+    def test_current_listing_scan_is_bounded_and_noncausal(self):
+        scan = json.loads((RUN / "rn10-003-listing-patterns.json").read_text())
+        validate_listing_pattern_scan(scan)
+        self.assertEqual(len(scan["sampled_listings"]), 12)
+        self.assertGreaterEqual(len(scan["detail_checks"]), 2)
+        self.assertTrue(all(
+            pattern["causal_status"] == "CORRELATIONAL_ONLY"
+            for pattern in scan["observed_patterns"]
+        ))
+
+    def test_rn10_003_package_clears_the_listing_contract(self):
+        concept = json.loads((RUN / "rn10-003-concept-gate.json").read_text())
+        scan = json.loads((RUN / "rn10-003-listing-patterns.json").read_text())
+        validate_listing_package(concept["listing_package"], scan)
+        self.assertFalse(concept["listing_pattern_gate"]["manuscript_allowed"])
 
 
 if __name__ == "__main__":

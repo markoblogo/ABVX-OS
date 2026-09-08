@@ -31,6 +31,21 @@ predictions. Easy production never rescues weak demand. Include full editing,
 quality review, illustration, verification, rights and owner attention in cost.
 Genre satisfaction and narrative quality are real production requirements.
 
+When a concept reaches packaging, run a current listing-pattern gate before a
+manuscript decision. Sample at least eight ranked titles and two detail pages;
+separate established franchises from recent or less-established entries. Record
+title/subtitle structure, series signaling, cover hierarchy, price, format,
+description opening, progression promise and review language. These patterns are
+correlations on a volatile retail surface, not explanations of sales.
+
+If a live reader panel is unavailable, do not invent or simulate one. Use the
+listing-pattern gate for the pre-production decision, then learn from the real
+listing after publication. KDP orders, KENP and rank are market outcomes but do
+not reveal impressions. Title and subtitle must be settled before publication;
+test later changes only on mutable surfaces such as description, keywords,
+categories, price and cover. Amazon Ads impressions and clicks may support a
+conversion experiment only after separate spend authorization.
+
 `last30days-skill` is admitted as an optional pre-card discovery sensor at the
 pinned revision recorded in `book-radar/audits/last30days-skill-assessment.json`.
 Use it to nominate fast-moving topics, recurring requests and audience language.

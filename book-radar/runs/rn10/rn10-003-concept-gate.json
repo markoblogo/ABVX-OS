@@ -3,10 +3,10 @@
   "id": "RN10-003",
   "created_at": "2026-09-08",
   "origin": "USER_SUPPLIED_POST_RUN_CONCEPT",
-  "status": "CONCEPT_PACKAGE_READY_FOR_MARKET_VALIDATION",
+  "status": "LISTING_PATTERN_GATE_PASS",
   "production_authorized": false,
   "working_concept": {
-    "title": "The Scent System",
+    "title": "Good Dog, Bad System",
     "subtitle": "A Darkly Comic System Apocalypse LitRPG",
     "series": "Good Dogs of the Apocalypse",
     "series_number": 1,
@@ -97,7 +97,7 @@
     {"beat": 12, "source_ref": "2.12", "seed": "A tiny sacred figure harvesting an absurd resource", "transformation": "Mriya finds a miniature administrator harvesting System resources and bargains for a provisional territory charter.", "story_function": "Book resolution and series expansion"}
   ],
   "listing_package": {
-    "title": "The Scent System",
+    "title": "Good Dog, Bad System",
     "subtitle": "A Darkly Comic System Apocalypse LitRPG",
     "series": "Good Dogs of the Apocalypse",
     "hook": "Cozy for the dogs. Apocalypse for everyone else.",
@@ -116,35 +116,29 @@
       "Post-apocalyptic science fiction and fantasy",
       "Humorous fantasy"
     ],
-    "cover_brief": "Foreground an appealing but alert shelter dog in a warm domestic pool of light; let the lower or rear half of the image reveal a ruined contemporary city, scent trails and restrained interface glyphs. The first read at thumbnail size is charming dog adventure; the second read is dark comic apocalypse. Use a dark palette with one toxic-neon accent, bold legible title type, no gore and no generic cute-cartoon treatment.",
+    "cover_brief": "Set GOOD DOG / BAD SYSTEM in very large, high-contrast type. Foreground an appealing but alert shelter dog in warm domestic light; let the lower or rear half reveal a ruined contemporary city, scent trails and restrained interface glyphs. The first read at thumbnail size is charming dog adventure; the second is dark comic apocalypse. Use a dark palette with one toxic-neon accent, no gore, no generic cute-cartoon treatment and no cluttered stat panels.",
     "tone_accuracy_rule": "The opening may feel cozy, but subtitle, description and secondary cover read must signal the later black comedy and system apocalypse.",
-    "test_variants": [
-      {"title": "The Scent System", "subtitle": "A Darkly Comic System Apocalypse LitRPG", "hook": "Cozy for the dogs. Apocalypse for everyone else."},
+    "alternatives_considered": [
+      {"title": "Good Dog, Bad System", "subtitle": "A Darkly Comic System Apocalypse LitRPG", "hook": "Cozy for the dogs. Apocalypse for everyone else.", "decision": "SELECTED_AFTER_LISTING_PATTERN_SCAN"},
+      {"title": "The Scent System", "subtitle": "A Darkly Comic System Apocalypse LitRPG", "hook": "Cozy for the dogs. Apocalypse for everyone else.", "decision": "REJECTED_AS_TOO_ABSTRACT_FOR_A_NEW_SERIES"},
       {"title": "Apocalypse Is a Good Dog", "subtitle": "A Civilization-Building LitRPG", "hook": "She only wanted a home. The System gave her a city."},
       {"title": "Every Cache Is Territory", "subtitle": "A Dog-POV System Apocalypse LitRPG", "hook": "Sit. Stay. Level up. Take the city."}
     ],
     "price": "DEFER_UNTIL_LENGTH_KENPC_AND_CURRENT_COMPARABLE_SCAN",
     "category_verification": "REQUIRED_IN_LIVE_KDP_TAXONOMY_AT_UPLOAD"
   },
-  "market_validation_gate": {
-    "inputs": [
-      "Five current comparables spanning comic system apocalypse, nonhuman protagonist and civilization building",
-      "Three title, subtitle and hook variants",
-      "Blind packaging test with 15 qualified LitRPG readers"
-    ],
-    "pass_conditions": [
-      "At least 5 of 15 readers choose RN10-003 first against comparable packaging",
-      "At least 8 of 15 correctly expect dog POV, dark comedy, system apocalypse and building progression",
-      "No more than 2 of 15 misclassify it as cozy pet fiction"
-    ],
-    "next_if_pass": "OUTLINE_AND_SAMPLE_GATE",
-    "next_if_fail": "REPACKAGE_ONCE_OR_ARCHIVE",
+  "listing_pattern_gate": {
+    "status": "PASS",
+    "evidence": "book-radar/runs/rn10/rn10-003-listing-patterns.json",
+    "decision": "Use Good Dog, Bad System as the lead title; keep explicit System Apocalypse LitRPG language, visible Book 1 series placement, strong dog focal point and a description that moves from home to threat to progression promise.",
+    "next_if_authorized": "OUTLINE_AND_SAMPLE_GATE",
+    "post_publication_gate": "REAL_MARKET_OBSERVATION",
     "manuscript_allowed": false
   },
   "open_items": [
-    "A preliminary exact web search found no obvious book collision for the lead title or series name; repeat the check directly in Amazon and KDP before cover production",
+    "A preliminary exact web search found no obvious book collision for Good Dog, Bad System or the series name; repeat the check directly in Amazon and KDP before cover production",
     "Choose fictional city versus Kyiv-inspired setting during premise test",
-    "Validate English-market voice with genre readers",
+    "Validate English-market voice during the outline and sample editorial gate",
     "Set price only after length, KENPC, print page count and comparable economics are known"
   ]
 }

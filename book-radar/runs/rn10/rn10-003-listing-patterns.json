@@ -1,0 +1,139 @@
+{
+  "schema_version": "book-radar-listing-pattern-scan/v1",
+  "id": "RN10-003-LISTING-PATTERNS",
+  "market": "AMAZON_US_GAMELIT_LITRPG",
+  "observed_at": "2026-09-08",
+  "source_url": "https://www.amazon.com/Best-Sellers-GameLit-LitRPG-Fiction/zgbs/books/99546083011",
+  "snapshot_type": "CURRENT_BESTSELLER_SURFACE_AND_DETAIL_PAGES",
+  "policy_sources": [
+    {"purpose": "Post-publication mutable and locked fields", "url": "https://kdp.amazon.com/en_US/help/topic/G200736410"},
+    {"purpose": "Keyword limit and updates", "url": "https://kdp.amazon.com/en_US/help/topic/G201743260"},
+    {"purpose": "Advertising impressions, clicks, attributed orders and KENP", "url": "https://kdp.amazon.com/en_US/help/topic/G201499010"}
+  ],
+  "sampled_listings": [
+    {"rank": 1, "asin": "B0C1R52V2J", "title": "The Eye of the Bedlam Bride: Dungeon Crawler Carl Book 6", "format": "KINDLE", "price_eur": 5.16, "rating_count": 58912, "segment": "FRANCHISE"},
+    {"rank": 2, "asin": "B0DJWKWV8W", "title": "This Inevitable Ruin: Dungeon Crawler Carl Book 7", "format": "KINDLE", "price_eur": 5.16, "rating_count": 48344, "segment": "FRANCHISE"},
+    {"rank": 3, "asin": "B0GJJDXG4L", "title": "A Parade of Horribles: Dungeon Crawler Carl Book 8", "format": "KINDLE", "price_eur": 6.02, "rating_count": 33406, "segment": "FRANCHISE"},
+    {"rank": 10, "asin": "B0H8H6FRBB", "title": "Healer Unranked: Rebirth of the Strongest Archmage Book Two: An OP MC Cozy Slice of Life LitRPG Adventure", "format": "KINDLE", "price_eur": 4.29, "rating_count": 255, "segment": "CURRENT_SERIES"},
+    {"rank": 12, "asin": "B0H7LMNNKN", "title": "Return of the Archmage Book 3: OP MC System Apocalypse Regression Litrpg", "format": "KINDLE", "price_eur": 4.29, "rating_count": 165, "segment": "CURRENT_SERIES"},
+    {"rank": 13, "asin": "B0H7FCJ21J", "title": "Healer Unranked: Rebirth of the Strongest Archmage: An OP MC Cozy Slice of Life LitRPG Adventure", "format": "KINDLE", "price_eur": 4.29, "rating_count": 1731, "segment": "CURRENT_BOOK_ONE"},
+    {"rank": 15, "asin": "B0H5NQP7VZ", "title": "Starter Zone Survivor: A LitRPG Survival Progression Fantasy", "format": "KINDLE", "price_eur": 4.29, "rating_count": 1283, "segment": "CURRENT_BOOK_ONE"},
+    {"rank": 17, "asin": "B0GSH4PXGM", "title": "The Primal Hunter 16: A LitRPG Adventure", "format": "KINDLE", "price_eur": 6.88, "rating_count": 4026, "segment": "FRANCHISE"},
+    {"rank": 18, "asin": "B0H6R9FGVJ", "title": "Claim The Fallen 1: A LitRPG Adventure", "format": "KINDLE", "price_eur": 5.16, "rating_count": 1639, "segment": "CURRENT_BOOK_ONE"},
+    {"rank": 20, "asin": "B0H9WVT81D", "title": "Reborn as the Storm Saint: An OP MC Progression Fantasy Adventure", "format": "KINDLE", "price_eur": 4.29, "rating_count": 565, "segment": "CURRENT_BOOK_ONE"},
+    {"rank": 23, "asin": "B0H75JS9BG", "title": "Betrayed By The Hero's Party For Having A 'Useless' Class, Now Their Legendary Loot Is Falling Apart Book 1: An Overpowered Cozy LitRPG", "format": "KINDLE", "price_eur": 3.43, "rating_count": 1323, "segment": "CURRENT_BOOK_ONE"},
+    {"rank": 26, "asin": "B0FXXQDNFF", "title": "Evaluation (Earth Reformation Book 1)", "format": "KINDLE", "price_eur": 4.29, "rating_count": 5513, "segment": "ESTABLISHED_BOOK_ONE"}
+  ],
+  "detail_checks": [
+    {
+      "asin": "B0H8H6FRBB",
+      "title": "Healer Unranked: Rebirth of the Strongest Archmage Book Two",
+      "observations": [
+        "Title and subtitle explicitly name OP MC, cozy slice of life and LitRPG adventure.",
+        "Description opens with a compact threat, establishes warm daily life, then breaks it with horror and ends with a trope promise.",
+        "Cover uses a very large fantasy title, luminous blue-gold magic, a small central character and a visible book number.",
+        "The observed edition displayed 243 Kindle pages, EUR 4.29 and 255 ratings."
+      ]
+    },
+    {
+      "asin": "B0H5NQP7VZ",
+      "title": "Starter Zone Survivor",
+      "observations": [
+        "Title names the scenario and subtitle states LitRPG survival progression fantasy.",
+        "Description starts with the anomaly, uses short escalating skill examples, gives the protagonist a personal goal and closes with an explicit feature list.",
+        "The observed edition displayed 377 Kindle pages, EUR 4.29, 1,283 ratings and a five-book series.",
+        "Visible review synthesis praised premise, engagement and pace but reported confusion, repetition and perceived AI-like prose. Packaging did not remove the quality penalty."
+      ]
+    },
+    {
+      "asin": "B0FXXQDNFF",
+      "title": "Evaluation",
+      "observations": [
+        "A short abstract title works with an explicit series label, a clear System premise and strong series depth.",
+        "Description establishes the System, survival stakes, protagonist competence, personal family objective and expected game mechanics.",
+        "Cover uses one large word, a solitary figure, environmental scale and strong light-dark contrast.",
+        "The observed edition displayed 416 Kindle pages, EUR 4.29, 5,513 ratings and a six-book series; visible review synthesis emphasized readability, character, pace and progression."
+      ]
+    }
+  ],
+  "observed_patterns": [
+    {
+      "id": "LP-01",
+      "observation": "Eight of twelve sampled titles state LitRPG or progression language directly in the title or subtitle; known franchises can rely more heavily on series recognition.",
+      "evidence_basis": "12 ranked listings",
+      "application": "A new RN10-003 title must carry LitRPG and system-apocalypse language in visible metadata.",
+      "causal_status": "CORRELATIONAL_ONLY"
+    },
+    {
+      "id": "LP-02",
+      "observation": "Nine of twelve sampled titles state a series, installment or book number in the displayed title; all three inspected detail pages also expose a series card.",
+      "evidence_basis": "12 ranked listings",
+      "application": "Launch RN10-003 as Book 1 with a stable series name and a complete first-book objective.",
+      "causal_status": "CORRELATIONAL_ONLY"
+    },
+    {
+      "id": "LP-03",
+      "observation": "Nine of twelve sampled Kindle prices cluster from EUR 4.29 through EUR 5.16 in the France-delivery view.",
+      "evidence_basis": "12 ranked listings",
+      "application": "Use USD marketplace pricing and KENPC economics at production time; treat the observed cluster as a reference, not an automatic price.",
+      "causal_status": "CORRELATIONAL_ONLY"
+    },
+    {
+      "id": "LP-04",
+      "observation": "Visible covers prioritize a large readable title, one dominant character or ensemble, high contrast and fantasy or System lighting; series identity repeats across volumes.",
+      "evidence_basis": "Bestseller-grid visual inspection plus three detail pages",
+      "application": "Use a large GOOD DOG / BAD SYSTEM title, one lovable dog focal point, warm domestic light against a dark city and one neon System accent.",
+      "causal_status": "CORRELATIONAL_ONLY"
+    },
+    {
+      "id": "LP-05",
+      "observation": "All three inspected descriptions establish the anomaly or threat early, identify the protagonist's concrete objective and state the progression or trope promise.",
+      "evidence_basis": "3 detail pages",
+      "application": "RN10-003 description must open on the dog/System anomaly, name the home-building objective and close with explicit genre features.",
+      "causal_status": "CORRELATIONAL_ONLY"
+    },
+    {
+      "id": "LP-06",
+      "observation": "Warm or light daily life can coexist with severe background stakes; current listing and review language shows readers can understand this contrast when both halves are stated.",
+      "evidence_basis": "Healer Unranked description and Evaluation review synthesis",
+      "application": "Keep the sincere cozy opening, then state the black-comic System-apocalypse destination in subtitle, cover and description.",
+      "causal_status": "CORRELATIONAL_ONLY"
+    },
+    {
+      "id": "LP-07",
+      "observation": "Review language rewards a distinctive premise, understandable protagonist, progression, pace and series pull, while confusion, repetition and perceived machine-like prose remain visible negatives.",
+      "evidence_basis": "2 detail-page review sets",
+      "application": "Add editorial gates for causal clarity, repetition, character attachment, progression cadence and human-sounding prose; listing optimization cannot substitute for them.",
+      "causal_status": "CORRELATIONAL_ONLY"
+    }
+  ],
+  "package_contract": {
+    "required_fields": ["title", "subtitle", "series", "hook", "description", "keyword_fields", "category_targets", "cover_brief"],
+    "required_discovery_terms": ["LitRPG", "System Apocalypse"],
+    "max_keyword_fields": 7,
+    "max_category_targets": 3,
+    "immutable_before_publication": ["title", "subtitle"],
+    "mutable_after_publication": ["description", "keyword_fields", "category_targets", "price", "cover"],
+    "editorial_quality_gates": ["causal clarity", "repetition", "character attachment", "progression cadence", "human-sounding prose"]
+  },
+  "battle_test_contract": {
+    "without_paid_impressions": {
+      "observe": ["orders", "KENP read", "royalties", "sales rank", "rating and review language"],
+      "limit": "These outcomes do not reveal impressions and therefore cannot separate visibility from conversion."
+    },
+    "with_separately_authorized_amazon_ads": {
+      "hold_constant": ["targeting", "bid", "price", "measurement window"],
+      "change_one_at_a_time": ["cover", "description", "keywords and categories"],
+      "observe": ["impressions", "click-through rate", "attributed orders", "attributed KENP", "spend"],
+      "limit": "Title and subtitle are not test surfaces after publication because KDP locks them."
+    }
+  },
+  "limitations": [
+    "The bestseller page is updated frequently and this is one dated snapshot.",
+    "Ratings, prices and ranks are not unit sales and do not reveal advertising spend.",
+    "Dungeon Crawler Carl dominates the top positions and is an incumbent outlier, not a newcomer baseline.",
+    "Amazon's France-delivery view displayed EUR conversions; final pricing must use the target marketplace directly.",
+    "Visual observations cover the visible grid and three detail pages rather than every sampled cover.",
+    "Co-occurring listing features cannot establish which feature caused a sale."
+  ]
+}

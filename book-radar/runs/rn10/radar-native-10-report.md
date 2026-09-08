@@ -36,8 +36,8 @@ After the run, `mvanhorn/last30days-skill` was qualified for future use as an op
 
 ## Post-run user-supplied concept: RN10-003
 
-RN10-003, *The Scent System*, is recorded separately from the nine scanned market cards. It combines the user-owned “Собакокалипсис” premise with twelve substantially transformed situation prompts from a second supplied source. Its working position is a dog-POV, darkly comic system-apocalypse and civilization-building LitRPG.
+RN10-003, *Good Dog, Bad System*, is recorded separately from the nine scanned market cards. It combines the user-owned “Собакокалипсис” premise with twelve substantially transformed situation prompts from a second supplied source. Its working position is a dog-POV, darkly comic system-apocalypse and civilization-building LitRPG.
 
 The tonal sequence is deliberate: a sincerely cozy opening with lovable dogs and affectionate owner routines, an uncanny System shift, then black comedy as care becomes dependency and canine settlement mechanics become political power. The package must expose both the cozy entry and darker destination so readers do not mistake it for pure cozy pet fiction.
 
-The concept gate includes a first-volume synopsis, five-stat progression system, twelve-beat map, three-book first-season arc and provisional Amazon metadata. Status: `CONCEPT_PACKAGE_READY_FOR_MARKET_VALIDATION`. Production remains unauthorized; the next gate is a blind packaging test with qualified LitRPG readers.
+The concept gate includes a first-volume synopsis, five-stat progression system, twelve-beat map, three-book first-season arc and provisional Amazon metadata. The unavailable reader-panel gate was replaced by a dated Amazon listing-pattern scan and later real-market observation. Status: `LISTING_PATTERN_GATE_PASS`. Production remains unauthorized; the next optional gate is outline and sample development.

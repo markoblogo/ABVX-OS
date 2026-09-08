@@ -391,3 +391,62 @@ def rank_commercial_candidates(cards: list[dict[str, Any]], *, as_of: date) -> l
         -COMMERCIAL_TIERS[card["commercial_tier"]],
         PRODUCTION_EFFORT[card["production_effort"]],
     ))
+
+
+def validate_listing_pattern_scan(scan: dict[str, Any]) -> None:
+    """Validate a current-market packaging scan without treating correlation as causation."""
+    required = (
+        "id", "market", "observed_at", "source_url", "snapshot_type",
+        "sampled_listings", "detail_checks", "observed_patterns",
+        "package_contract", "limitations",
+    )
+    if any(scan.get(field) in (None, "", []) for field in required):
+        raise ValidationError("listing pattern scan missing required fields")
+    date.fromisoformat(scan["observed_at"])
+    listings = scan["sampled_listings"]
+    if len(listings) < 8:
+        raise ValidationError("listing pattern scan requires at least eight ranked listings")
+    ranks = set()
+    asins = set()
+    for item in listings:
+        for field in ("rank", "asin", "title", "format", "rating_count"):
+            if item.get(field) in (None, ""):
+                raise ValidationError(f"sampled listing missing {field}")
+        if type(item["rank"]) is not int or item["rank"] < 1:
+            raise ValidationError("listing rank must be a positive integer")
+        if type(item["rating_count"]) is not int or item["rating_count"] < 0:
+            raise ValidationError("rating count must be a nonnegative integer")
+        if item["rank"] in ranks or item["asin"] in asins:
+            raise ValidationError("listing sample ranks and ASINs must be unique")
+        ranks.add(item["rank"])
+        asins.add(item["asin"])
+    if len(scan["detail_checks"]) < 2:
+        raise ValidationError("listing pattern scan requires at least two detail pages")
+    for pattern in scan["observed_patterns"]:
+        for field in ("id", "observation", "application", "evidence_basis", "causal_status"):
+            if not pattern.get(field):
+                raise ValidationError(f"listing pattern missing {field}")
+        if pattern["causal_status"] != "CORRELATIONAL_ONLY":
+            raise ValidationError("listing patterns may not be labeled causal")
+    contract = scan["package_contract"]
+    if not contract.get("required_fields") or contract.get("max_keyword_fields") != 7:
+        raise ValidationError("listing package contract is incomplete")
+    if contract.get("max_category_targets") != 3:
+        raise ValidationError("listing package contract must respect the KDP category limit")
+
+
+def validate_listing_package(package: dict[str, Any], scan: dict[str, Any]) -> None:
+    """Check a proposed package against the market-scan contract before production."""
+    validate_listing_pattern_scan(scan)
+    contract = scan["package_contract"]
+    for field in contract["required_fields"]:
+        if package.get(field) in (None, "", []):
+            raise ValidationError(f"listing package missing {field}")
+    if len(package["keyword_fields"]) > contract["max_keyword_fields"]:
+        raise ValidationError("listing package exceeds keyword-field limit")
+    if len(package["category_targets"]) > contract["max_category_targets"]:
+        raise ValidationError("listing package exceeds category-target limit")
+    searchable = " ".join((package["title"], package["subtitle"], package["description"])).casefold()
+    for required_term in contract.get("required_discovery_terms", []):
+        if required_term.casefold() not in searchable:
+            raise ValidationError(f"listing package missing discovery term: {required_term}")

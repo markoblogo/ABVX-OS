@@ -2,24 +2,31 @@
 
 This package is for validation. No KDP listing has been created.
 
+## What the current shelf changed
+
+The September 8 Amazon snapshot sampled twelve ranked listings and inspected three detail pages. Eight of twelve state LitRPG or progression language in the title/subtitle, nine state a series or installment in the displayed title, and nine sit between EUR 4.29 and EUR 5.16 in the observed France-delivery view. All three detail pages also expose series cards. Their descriptions lead with an anomaly or threat, give the protagonist a concrete objective and close with a progression/trope promise.
+
+These are recurring features among current sellers, not proof that the features caused their sales. The structured evidence and limitations are recorded in `rn10-003-listing-patterns.json`.
+
 ## Metadata
 
-- **Title:** *The Scent System*
+- **Title:** *Good Dog, Bad System*
 - **Subtitle:** *A Darkly Comic System Apocalypse LitRPG*
 - **Series:** *Good Dogs of the Apocalypse*, Book 1
 - **Hook:** **Cozy for the dogs. Apocalypse for everyone else.**
 
 The title, subtitle, series field and cover must use the same wording. Before production, recheck exact-title and series-name collisions.
 
-## Packages to test
+## Alternatives considered
 
-| | Title | Subtitle | Hook |
+| Decision | Title | Subtitle | Hook |
 |---|---|---|---|
-| A | *The Scent System* | *A Darkly Comic System Apocalypse LitRPG* | Cozy for the dogs. Apocalypse for everyone else. |
-| B | *Apocalypse Is a Good Dog* | *A Civilization-Building LitRPG* | She only wanted a home. The System gave her a city. |
-| C | *Every Cache Is Territory* | *A Dog-POV System Apocalypse LitRPG* | Sit. Stay. Level up. Take the city. |
+| Selected | *Good Dog, Bad System* | *A Darkly Comic System Apocalypse LitRPG* | Cozy for the dogs. Apocalypse for everyone else. |
+| Too abstract | *The Scent System* | *A Darkly Comic System Apocalypse LitRPG* | Cozy for the dogs. Apocalypse for everyone else. |
+| Reserve | *Apocalypse Is a Good Dog* | *A Civilization-Building LitRPG* | She only wanted a home. The System gave her a city. |
+| Reserve | *Every Cache Is Territory* | *A Dog-POV System Apocalypse LitRPG* | Sit. Stay. Level up. Take the city. |
 
-Package A is the editorial lead. The test determines whether its mood contrast outperforms the more explicit genre promises in B and C. A preliminary exact web search found no obvious book collision for A or its series name; repeat the search directly in Amazon and KDP before commissioning a cover.
+The current bestseller scan favors an immediately legible concept plus explicit genre metadata for a new series. *The Scent System* is more elegant but reads like an abstract mechanism or nonfiction product without the subtitle. *Good Dog, Bad System* carries protagonist, conflict, tone and System vocabulary at thumbnail level. A preliminary exact web search found no obvious book collision; repeat the search directly in Amazon and KDP before commissioning a cover.
 
 ## Description
 
@@ -57,7 +64,7 @@ Verify the exact live paths during upload; KDP taxonomy may change.
 
 ## Cover brief
 
-Foreground an appealing but alert shelter dog inside a warm domestic pool of light. Behind or below that cozy first read, reveal a ruined contemporary city, scent trails and restrained interface glyphs. At thumbnail size the cover should first say “charming dog adventure,” then “dark comic apocalypse.”
+Set **GOOD DOG / BAD SYSTEM** in very large, high-contrast type. Foreground an appealing but alert shelter dog inside a warm domestic pool of light. Behind or below that cozy first read, reveal a ruined contemporary city, scent trails and restrained interface glyphs. At thumbnail size the cover should first say “charming dog adventure,” then “dark comic apocalypse.”
 
 Use a dark palette with one toxic-neon accent and a large, legible title. Avoid gore, a purely cute cartoon treatment and cluttered game-interface panels. The contrast belongs in the image: the dog remains lovable while the world around her becomes alarming.
 
@@ -71,3 +78,9 @@ The package must communicate all four elements without explanation:
 - a cozy opening that turns into black comedy and apocalypse.
 
 Price remains open until manuscript length, KENPC, print page count and current comparable economics are known.
+
+## Real market test
+
+Once published, track orders, KENP, royalties, sales rank and review language. These are actual outcomes, but without impressions they cannot distinguish weak visibility from weak conversion.
+
+Title and subtitle must be final before publication because KDP locks them afterward. Description, keywords, categories, price and cover remain optimization surfaces. Change one surface at a time. If Amazon Ads spend is later authorized, hold targeting, bid, price and measurement window constant and compare impressions, clicks, attributed orders and attributed KENP.

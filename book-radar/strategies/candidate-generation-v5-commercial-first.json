@@ -9,7 +9,9 @@
   "entrypoints": [
     "validate_commercial_candidate",
     "commercial_discovery_decision",
-    "rank_commercial_candidates"
+    "rank_commercial_candidates",
+    "validate_listing_pattern_scan",
+    "validate_listing_package"
   ],
   "search_unit": "READERSHIP x READING_MOTIVATION x BOOK_MARKET x READER_PROMISE x DISCOVERY_CHANNEL",
   "markets": [
@@ -57,6 +59,21 @@
     "Low word count or quick AI drafting does not prove easy production.",
     "A hard delivery/rights constraint may exclude a commercially strong concept but must not relabel its demand as weak."
   ],
+  "listing_pattern_gate": {
+    "purpose": "Replace unavailable reader panels with a reproducible desk scan before production, followed by observed market performance after publication.",
+    "minimum_ranked_listings": 8,
+    "minimum_detail_pages": 2,
+    "record": "book-radar/runs/rn10/rn10-003-listing-patterns.json",
+    "rules": [
+      "Record current rank, format, price and ratings as a volatile snapshot, never as unit sales.",
+      "Separate franchise incumbents from reachable new-series examples.",
+      "Inspect title, subtitle, series display, cover hierarchy, opening hook, progression promise and review language.",
+      "Observed bestseller patterns are correlational and may shape packaging; they cannot prove why a title sold.",
+      "Lock title and subtitle before publication because KDP generally prevents changing them after release.",
+      "Use description, keywords, categories, price and cover as post-publication optimization surfaces, changing one surface at a time.",
+      "Without impression data, orders and KENP cannot distinguish poor visibility from poor conversion. Use Amazon Ads metrics only after separate spend authorization."
+    ]
+  },
   "next_pass": {
     "market_scan_first": true,
     "compare_multiple_titles_per_promising_market": true,

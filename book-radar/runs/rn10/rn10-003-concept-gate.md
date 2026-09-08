@@ -1,14 +1,14 @@
-# RN10-003 — The Scent System
+# RN10-003 — Good Dog, Bad System
 
 ## Decision
 
-**CONCEPT_PACKAGE_READY_FOR_MARKET_VALIDATION. Production is not authorized.**
+**LISTING_PATTERN_GATE: PASS. Production is not authorized.**
 
 This is a user-supplied post-run concept and does not replace either RN10 finalist or consume the original scan quota. The source essay supplies the world and escalation engine. The second source is used only as an internal bank of abstract situations, each substantially transformed into a causally connected LitRPG beat.
 
 ## Positioning
 
-- **Working title:** *The Scent System*
+- **Working title:** *Good Dog, Bad System*
 - **Series:** *Good Dogs of the Apocalypse*, Book 1
 - **Subtitle:** *A Darkly Comic System Apocalypse LitRPG*
 - **Hook:** **Cozy for the dogs. Apocalypse for everyone else.**
@@ -67,4 +67,6 @@ The third book can bring the essay’s Plan Barbossa logic into open political c
 
 ## Gate
 
-Compare three packages against five current genre comparables with 15 qualified LitRPG readers. Continue only if at least 5 choose RN10-003 first, at least 8 correctly read the intended genre/tone, and no more than 2 mistake it for cozy pet fiction. Passing authorizes an outline and sample gate, not a manuscript.
+The unavailable 15-reader panel has been removed. A dated scan of twelve current Amazon bestseller entries and three detail pages supports a more explicit new-series package: *Good Dog, Bad System* plus the subtitle *A Darkly Comic System Apocalypse LitRPG*. The scan does not prove that any individual element causes sales; it shows the conventions readers currently encounter on the shelf.
+
+The next step, if separately authorized, is an outline and sample gate. After publication, real orders, KENP, rank and review language become the evidence. Without impressions they cannot separate weak visibility from weak conversion. A controlled Amazon Ads comparison would add impressions and clicks, but requires separate spend authorization.
