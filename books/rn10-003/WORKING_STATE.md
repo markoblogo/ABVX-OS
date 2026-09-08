@@ -11,17 +11,18 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 38,726 words by `wc -w` against the 84,600-word architecture.
+- Current manuscript count: 43,277 words by `wc -w` against the 84,600-word architecture.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
-- Story architecture is complete; chapters 13–36 expansion, developmental editing and line editing remain required.
+- Chapters 13–15 passed the Pack Hearth gate at 6,490 tracked words against a 6,900-word target, within 5.9%.
+- Story architecture is complete; chapters 16–36 expansion, developmental editing and line editing remain required.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Expand chapters 13–15 toward 6,900 words total. Map the hidden sanitation room and its municipal history, turn cleanup and private markers into conflict-bearing group labor, demonstrate Pack Hearth capabilities and limits, and end with the first external response to its broadcast.
+Expand chapters 16–18 toward 7,000 words total. Establish the authoritative Supply ledger and Rook exchange, give Tomas, Irena and Vale distinct claim-generated arrivals and motives, then test membership rules and the 12% efficiency penalty through concrete access conflicts.
 
 ## Continuity anchors
 

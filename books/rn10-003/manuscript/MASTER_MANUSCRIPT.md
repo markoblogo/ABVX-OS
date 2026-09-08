@@ -3658,9 +3658,33 @@ A fifth followed at a distance and insisted this did not count.
 
 Pixel found the door because it vibrated differently from the wall.
 
+They reached it by the route chosen at the blind turn.
+
+The right-hand passage narrowed after twelve steps and passed beneath the loading platform. Its ceiling carried a line of red pipes no longer red beneath mineral scale. The floor rose just enough to keep floodwater behind them at ankle depth, then divided around a concrete pier stamped `U4`.
+
+Chosen Route held through the first bend because every member had accepted the dry branch. At the pier it stopped again.
+
+Left descended toward rats and standing water. Straight ended at a rusted ladder whose lower rungs had been cut away. Right carried dry dust, peppermint, and the faint pull of air through old ventilation.
+
+Mriya tested right. Nika followed with Pixel's lamp. Emil marked the pier with a strip torn from the failed campaign poster. Borscht contributed by urinating on the left branch, which made its status clearer but not more useful.
+
+Atlas came last, outside Chosen Route. He counted junctions by touching each wall with one shoulder. Guarding their departure apparently included remembering how to reverse it.
+
+After two more turns they reached a service corridor tiled in green.
+
 “Hollow,” she said, pressing one ear to green tile. “And there is a machine behind it that wants to wake up.”
 
 They had descended two flights beneath the depot through a stairwell designed for boots and indifferent to paws. The flood remained above them, held back by drains that groaned with the effort. Here the air was dry, mineral, and old enough to have forgotten sunlight.
+
+The first flight had started behind a half-open inspection cage. Its steps ran parallel to the tram tracks. The second turned east beneath the yard and ended at a landing with three doors: pump control, chemical storage, and a gap where a door had been removed so completely that only lighter paint remembered it.
+
+The green corridor extended from that absence. One wall followed the municipal main toward the river warehouses. The other backed against the depot foundation. Above them sat the flooded track bed. Below them, through cracks in the tile, Mriya smelled older drains descending toward a network too deep for Chosen Route to claim.
+
+They now had one known way back: corridor, two right turns, concrete pier, rising passage, two flights, tram shed. The ladder might offer a second exit if its missing rungs could be replaced. The narrow service passage behind the unseen room might offer a third.
+
+Mriya stored each turn in scent. Nika drew them on the back of the electricity notice wrapped around her documents.
+
+“The city will be thrilled to know its infrastructure fits beside my overdue balance,” she said.
 
 Faded letters on the wall meant nothing to Mriya. Nika read them aloud.
 
@@ -3668,7 +3692,37 @@ Faded letters on the wall meant nothing to Mriya. Nika read them aloud.
 
 “Comforting,” Emil said.
 
+He wiped grime from a smaller line beneath the name.
+
+`PERSONNEL DECONTAMINATION / LOSS RECOVERY / EMERGENCY RETURN`.
+
+“Recovery of what?” Nika asked.
+
+“Municipal language avoids objects when the objects are expensive,” Emil said.
+
+A row of hooks carried brittle tags with dates spanning thirty years. The newest ended six years earlier. Beside them, a metal inspection card showed monthly signatures, then three entries stamped `ACCESS SUSPENDED`, followed by six years of empty boxes.
+
+The pipes had no equivalent gap in their accumulated scent. Water, pressure checks, chemical flushes, and gloved hands had continued after the room disappeared from inspection.
+
+Someone had stopped recording access without stopping use.
+
+Nika compared the inspection card with the pipe diagram. The final official signature and the first suspended stamp were in different inks but the same handwriting. After suspension, the worker had continued marking pressure checks as tiny cuts along the underside of the card frame, invisible unless someone knelt.
+
+Emil counted the cuts. “Every month for nearly four years.”
+
+“Why hide maintenance on a room the city already owned?” Nika asked.
+
+“Because the city stopped owning what happened here,” Atlas said from the corridor.
+
+The designation loss recovery settled into a less comforting shape. This had been a place where workers returned after contamination, injury, or something the public maps were not meant to record. Sealing the public entrance protected the secret. Keeping the water alive protected the work.
+
+Mriya smelled no recent fear, only oil and method. Whatever the room had done, its last hidden caretaker had kept it usable rather than occupied.
+
 The corridor ended at a tiled wall.
+
+It looked continuous until Nika's lamp crossed it sideways. Tiles around one rectangle reflected less light. Their grout held newer cement over older steel. A ventilation slot at floor level had been filled with plaster, but air still entered around its edges.
+
+Pixel pressed each tile with a paw. Most answered with stone. Six answered with a thin metallic tremor that travelled downward and returned through the floor.
 
 Pixel scratched where she heard the hollow place. Nika cleared dust from a square metal plate. It had no handle, only a slot clogged with rust.
 
@@ -3682,15 +3736,49 @@ Nika held out her hand. Pixel placed the wire in it.
 
 It took Nika six attempts, two cuts, and one word Emil pretended not to hear. The hidden latch clicked.
 
+The wire had reached a mechanical release, not an electronic lock. That mattered. The failed city network could not close it again.
+
+Pixel watched Nika withdraw the copper with a new bend near its tip.
+
+“Improved,” she said.
+
+Nika offered it back. Pixel inspected the bend, accepted ownership of the improvement, and tucked it beneath her collar.
+
 The wall opened inward.
 
 Air moved past them carrying bleach, stagnant water, mouse nests, and a dense record of workers who had changed clothes here for decades. Boots had stood beneath benches. Wet coats had hung from hooks. Sandwiches had been eaten in secret. Someone had cried repeatedly in the far corner and concealed it with peppermint.
 
 The room contained four rusted lockers, a drain, a cracked sink, and a circular iron housing set into the floor. Pipes converged on it from every wall.
 
+It was smaller than its echoes had promised. The hidden door occupied the west wall. Lockers and a narrow bench crowded the north. The sink leaned from the south wall under a manifold of six valves, each tagged with a colour that time had reduced to shades of brown. On the east, two lockers stood three fingers away from the tile, leaving a black seam that breathed colder air.
+
+The iron circle divided the remaining floor so precisely that Emil could not pass it with his suitcase unless everyone else flattened themselves against a wall. If the room became shelter, movement would have to be negotiated every time someone stood, slept, washed, or wanted the door.
+
+Nika measured it in human strides. “Five people could change clothes here.”
+
+“We have two,” Emil said.
+
+“And five dogs.”
+
+“Pixel counts as storage.”
+
+From inside the locker, Pixel said, “I count storage.”
+
 Mriya’s Scent widened.
 
 The workers’ old traces became legible layers. Beneath them lay intentional concealment of a different kind. The room itself had been removed from plans, sealed, and forgotten while its connections remained alive.
+
+Mriya followed the concealment to the east wall. The last locker had been bolted down after the others. Behind it, someone had scratched a maintenance diagram directly into tile: one line for the municipal main, one for the drain, one for a return pipe ending at a square marked `IV-3`. The same hand had added two initials beneath it: `I.V.`
+
+The marks smelled faintly of machine oil, burned wool, and the peppermint used to cover private grief. Newer repairs crossed the old diagram. Whoever had maintained the room after its official closure had known both systems and had wanted the next person to know where they met.
+
+“Initials,” Nika said. “Or a valve designation.”
+
+Pixel tapped the pipe above `IV-3`. The eastern wall answered half a breath later, then the floor beneath the iron circle answered again.
+
+“It goes somewhere awake,” she said.
+
+No one knew the initials. The room already carried the evidence of their work.
 
 The System noticed.
 
@@ -3706,6 +3794,16 @@ Emil tested the sink. Brown water coughed from the tap, then ran clear.
 
 “It has water,” he said, reverent.
 
+The clear stream lasted ten breaths. Then it narrowed to a thread and the pipe behind the wall began to knock.
+
+Emil closed the tap at once. He waited, opened it again, and received another short run of clean water.
+
+“A settling tank,” he said. “Or a tired filter. We have water in portions, not a spring.”
+
+Nika placed an empty bottle beneath the tap and watched grit collect around its bottom. “And not until we know what the filter removes.”
+
+The word water lost some of its holiness and became a task.
+
 Borscht inspected the drain. “It has history.”
 
 Pixel climbed into an open locker and declared it structurally suitable for crackers.
@@ -3713,6 +3811,20 @@ Pixel climbed into an open locker and declared it structurally suitable for crac
 Atlas remained in the corridor.
 
 Mriya followed the room’s boundaries. Chosen Route showed which parts the party could occupy safely. One corner had loose tile. The iron housing radiated old heat without being warm. A narrow service passage continued behind the lockers toward the city.
+
+Pixel entered the seam before anyone could discuss it. Her tail disappeared, then reappeared when she reversed out with grey dust across her nose.
+
+“Six of me,” she reported. “Then a grille. Locked from the other side. Air, old wires, and one dead pigeon.”
+
+“Can a person fit?” Nika asked.
+
+Pixel considered Emil. “Not that person with the suitcase.”
+
+They shifted the two eastern lockers far enough to expose the passage. Nika could enter on hands and knees, Mriya by lowering her head, and Emil only by turning one shoulder and leaving the suitcase behind. Chosen Route traced the passage as traversable for three members and failed where Emil’s chest met the narrowed masonry.
+
+A second exit that abandoned one member was not an exit for the party.
+
+Mriya marked it untested. Pixel objected to the word because she had tested it. Mriya changed the meaning to untested for all of us. Pixel accepted the distinction reluctantly.
 
 It could become shelter.
 
@@ -3732,6 +3844,26 @@ Mriya waited.
 
 “We clean it. We check the exits. Nobody seals that door.”
 
+“Nobody claims the water alone,” Emil added.
+
+Pixel emerged from the locker. “Objects found in individual lockers require a finder’s hearing before communal redistribution.”
+
+“You mean before we stop you stealing them,” Nika said.
+
+“That wording assumes the decision.”
+
+Borscht put both front paws on the dry rim of the drain. “No one sleeps on this until it stops smelling like municipal soup.”
+
+Mriya listened until the jokes settled. Stay had become a list of costs. They would clean a room none of them yet owned, test routes that might fail, and share a resource whose capacity they did not understand.
+
+Nika folded the map and looked directly at her. “And no System choice made for me because you think there isn’t time.”
+
+The preserved Cache in the orange bag seemed suddenly louder than the pipes.
+
+Mriya held Nika’s gaze. “Ask before choosing for another.”
+
+Nika’s shoulders lowered, but the old hurt did not leave her scent. “Put that first.”
+
 Emil nodded. Pixel nodded because everyone else had. Borscht rolled on a worker’s ancient boot mark.
 
 Atlas said, “A facility requires authority.”
@@ -3740,7 +3872,11 @@ Atlas said, “A facility requires authority.”
 
 “Agreements break.”
 
+“A ruined room requires work,” Mriya said. “Authority can arrive when it carries something.”
+
 “So do doors.” Pixel held up the bent copper wire.
+
+Atlas’s ears moved back. He remained outside, but when the hidden door began to drift shut he placed a broken length of tile beneath it. The gesture contradicted him more effectively than anyone else could.
 
 The iron housing beneath the floor gave a slow mechanical turn.
 
@@ -3754,6 +3890,30 @@ Cleaning began with objects.
 
 Nika swept broken tile with a strip of locker door. Emil cleared the sink. Pixel removed three mouse nests and returned two after learning that removal and possession were separate acts. Borscht supervised the drain.
 
+The first argument concerned the lockers.
+
+Mriya wanted them away from the eastern passage so the second exit remained visible. Pixel wanted them against the passage because three metal walls and a door made excellent private rooms. Emil wanted one beneath the sink to hold the bottles upright. Nika pointed out that every arrangement left someone climbing over someone else in the dark.
+
+Atlas watched them move the first locker twice.
+
+“A leader would place it,” he said.
+
+“A leader would still have to move it when Pixel refuses to sleep there,” Nika replied.
+
+Pixel sat precisely where the locker needed to go.
+
+They compromised by laying the smallest locker on its side beside the western wall. It became a shelf, a step to Pixel’s alcove, and proof that compromise could weigh almost as much as Emil.
+
+The next argument concerned the drain.
+
+Borscht had not been supervising it. He had been keeping everyone away from a nest of pale insects beneath the grate. When Emil lifted the rusted cover, the insects scattered into a sludge of hair, cloth fibres, and hardened soap. Air rose through it carrying the last six years of water that had entered but not properly left.
+
+Nika wrapped her injured hand in the least dirty corner of a shirt. Mriya caught the other sleeve between her teeth. Together they pulled the obstruction free while Emil held the grate and Borscht barked whenever the sludge moved in a way he considered intentional.
+
+The drain swallowed half a bottle of brown water. Then it breathed without bubbling.
+
+No one celebrated. The smell made celebration structurally impossible.
+
 Mriya carried ruined cloth into the corridor one mouthful at a time.
 
 Atlas watched without helping.
@@ -3762,7 +3922,35 @@ Atlas watched without helping.
 
 Mriya dropped a moldy sleeve. “The room needed cleaning before it needed an owner.”
 
+“Work creates a claim,” Atlas said.
+
+“Then help and claim part of it.”
+
+He looked into the room: at Nika wiping old grease from the valve tags, Emil sorting usable hooks from rusted ones, Pixel testing each locker hinge, and Borscht guarding the uncovered drain.
+
+Atlas pushed the heaviest locker two paw lengths when it jammed.
+
+“That is guarding,” he said.
+
+Mriya did not embarrass him by naming it otherwise.
+
 At midnight the physical dirt was gone.
+
+Gone meant collected into two piles outside the door, the tiles scrubbed with water they could not afford to drink, the sink reduced from dangerous to merely stained, and every sharp edge marked with strips of orange vinyl. It meant five sleeping places in a room suited to four standing workers. It meant a clear line from the hidden door to the eastern passage and an agreement that nothing would be stored across either route.
+
+Nika wrote the rules on the back of the map. Pixel corrected the drawing of her alcove to make it larger.
+
+Only then did they clean themselves.
+
+The distinction caused the third argument. Nika wanted the first clear water for her cut. Emil wanted it reserved for drinking. Mriya’s coat held tunnel oil and flood water that would transfer to every surface she touched. Borscht had walked through the drain sludge. Pixel claimed not to be dirty because the dust on her belonged to the passage.
+
+They waited for the pipes to refill, watching a bottle beneath the tap as if attention could increase pressure. When the stream returned, Emil divided it: one cup for wounds, one for paws, one sealed for drinking. Nika washed first because broken skin changed the risk. Mriya accepted the order despite thirst. Pixel accepted only after being allowed to wash her own paws.
+
+Atlas refused his share.
+
+“Visitors do not consume reserves before inhabitants,” he said.
+
+“Visitors who moved lockers do,” Nika replied, and placed the cup beyond the threshold where the Hearth could not count him. He drank after everyone looked away.
 
 The deeper dirt remained.
 
@@ -3786,7 +3974,13 @@ Nika covered it with her hand.
 
 Her refusal was immediate. Good.
 
+The photograph held Nika at perhaps fourteen, wedged between her mother and a dog Mriya had never smelled. All three stood on the river embankment before the flood barriers, squinting into summer. Its paper carried old hand cream, attic dust, and the repeated pressure of Nika checking that the faces had not faded.
+
+It was not merely an image of home. It was evidence that Nika had once expected Vesper to remain recognizable.
+
 Mriya turned to her own collar. Shelter, Leon, disinfectant, eleven weeks of wire doors, and the first pressure of Nika’s hand lived beneath the newer rain. It was the strongest history she carried.
+
+The collar also remembered the first door Leon had opened for her and the last one he could not. It held the sour fear of adoption visits, the bright metal smell of the tag machine, and Nika kneeling without reaching, allowing Mriya to choose the final distance herself.
 
 She could surrender it and let the room know every abandonment attached to her neck.
 
@@ -3802,9 +3996,19 @@ Borscht produced a cloth rabbit from Emil’s suitcase. One ear was dark with ye
 
 Emil’s face changed. “I packed that for you.”
 
+The rabbit had once possessed two ears, a stitched nose, and the smell of a child who no longer visited. Emil had repaired it with blue thread after Borscht tore the belly open during a thunderstorm. The new stitches carried blood from a needle slipped into Emil’s thumb and the lavender of the woman who had laughed at him for swearing.
+
 Borscht placed it beside the housing, then retrieved it, then placed it again.
 
 The System waited.
+
+Waiting made the offerings worse. No countdown hurried them. No threat justified surrender. They could leave the room cold and walk back toward the depot with one reliable exit, one damaged ladder, and the flood above. They could keep their private objects and lose the first shelter that had asked what rules they wanted.
+
+Mriya tested smaller markers. A loose hair carried her body but too little history. Mud from the tunnel carried recent danger but belonged equally to everyone. The broken campaign vinyl contained Nika’s labour, not her private self.
+
+The System rejected none of them. It simply did not begin.
+
+It wanted something whose loss would matter.
 
 Mriya understood the trap. A facility built from private histories could protect them. It could also search them. The room would know what comforted Nika, what frightened Emil, what Pixel valued enough to steal, where Borscht went when he dreamed.
 
@@ -3828,9 +4032,27 @@ Emergency declaration smelled like a hole large enough for power to enter.
 
 Mriya added, “An emergency must be recognized by two.”
 
+Nika understood the shape of the negotiation from Mriya’s posture. “Two inhabitants,” she said. “Separately. And the room reveals only what solves the emergency.”
+
+Emil pointed to the door. “What if one person is alone?”
+
+Mriya considered the warm promise beneath the iron housing. A perfect safeguard would fail exactly when only one conscious inhabitant remained. A loose safeguard would turn fear into permission.
+
+“One may call,” she said. “The Hearth warns everyone. It waits for a second unless delay will kill someone.”
+
+The System offered no assurance about who would define kill.
+
+Mriya pushed harder. “Immediate physical danger only. Not hunger. Not missing property. Not suspicion.”
+
 The System paused.
 
 > [CONDITION ACCEPTED]
+
+> Two-person recognition required for private access.
+>
+> Sole-witness exception: imminent death or irreversible bodily harm.
+>
+> Disclosure limited to necessary route, object, or action.
 
 Atlas stepped into the room.
 
@@ -3846,11 +4068,27 @@ The condition held.
 
 Nika watched Mriya’s body tighten. Then she took the photograph from her bag.
 
+She did not offer it at once. She asked Emil whether the handkerchief could stand for both of them. The System left the requirement unchanged. She offered her apartment key, but its scent held metal, pockets, and the hands of a landlord—access without belonging. She pressed her bandage to the iron circle. Fresh blood was private, but it contained pain rather than history.
+
+Mriya could have told her that the photograph was correct. She could smell how completely it answered the room. Instead she stepped back from the housing and left the space between Nika and the choice empty.
+
+The others waited with her.
+
 “Only while we stay,” she said.
+
+She looked at Mriya before placing it down. “This does not mean you choose for me next time.”
+
+“It means you chose now,” Mriya said.
 
 She laid it beside the collar.
 
 Emil surrendered a folded handkerchief carrying his late wife’s lavender soap. Borscht added the cloth rabbit. Pixel unknotted a red thread from beneath her own collar, stolen from the blanket of the first human who had thrown her out.
+
+Emil unfolded the handkerchief once before letting it go. The initials in one corner had been repaired so many times they were more thread than cloth. He had carried it through the hospital, the funeral, three apartments, and every morning when making coffee for one cup still felt like an error.
+
+Borscht pressed his nose to the rabbit’s damaged ear. It carried the nights he had slept against Emil’s knees and the months when Emil had spoken mostly to him because answering humans required more strength.
+
+Pixel held the red thread between her teeth. It came from a blanket left in a cardboard box beneath the viaduct. The human scent on it had first meant rescue, then confinement, then an empty morning. She had kept one thread because discarding evidence did not change the verdict.
 
 Atlas remained by the door.
 
@@ -3861,6 +4099,34 @@ No one argued.
 The iron circle turned.
 
 Water moved through the walls. Warm air rose from the drain. The cracked tiles held their damage but lost their dampness. The room inhaled five private histories and made no claim to the sixth dog watching.
+
+Pixel tested the agreement immediately.
+
+“Emergency,” she announced. “One cracker is missing.”
+
+Nothing opened. No memory surfaced. The Hearth did not even warm.
+
+“Discriminatory,” she said.
+
+Then the drain struck from below.
+
+Black water climbed between the bars, carrying chemical bitterness sharp enough to sting Mriya’s nose. The cleaning had freed the blockage; it had also opened their room to pressure from the lower main.
+
+Nika saw the rising water. “Emergency.”
+
+Emil looked from the drain to the six unlabelled valves. “Recognized.”
+
+The Hearth moved without opening anyone’s history. A line of heat crossed the floor from Emil’s handkerchief to the south manifold, then stopped beneath the fourth valve. From Nika’s photograph came the remembered spatial certainty of a river barrier closing against water—not the river, not her mother’s face, only the action required now.
+
+“Fourth,” Nika said.
+
+Emil turned it. The wheel resisted until Atlas braced one shoulder against him from the doorway. The pipe screamed, the black water stopped one tile from Mriya’s collar, and the drain began to fall.
+
+The heated line vanished.
+
+No one had seen anything else.
+
+Mriya smelled relief mixed with a new and more accurate fear. Their condition worked. The thing it controlled was powerful enough to need it.
 
 For the first time that night, Atlas looked uncertain about which side of the doorway was safer.
 
@@ -3876,6 +4142,12 @@ The leg held.
 
 She crossed the room once. Then again, faster.
 
+On the third crossing the old catch returned. It was smaller, a warning instead of a blade, but it remained.
+
+Mriya slowed.
+
+The Hearth had eased swelling and warmed the muscles guarding the damaged joint. It had not rebuilt what years had worn away. When she pressed weight sideways, pain answered. When she tried to spring onto the low bench, the leg refused before she left the floor.
+
 Nika laughed.
 
 It was not the emptied laughter of Cached Relief. It broke in the middle and came with tears, fatigue, and the smell of a person who had lost a home and found one small impossible mercy beneath it.
@@ -3884,6 +4156,12 @@ It was not the emptied laughter of Cached Relief. It broke in the middle and cam
 
 Mriya ran three steps and stopped before dignity suffered lasting harm.
 
+Nika offered her injured palm to the warmth. The torn skin stopped leaking and the trembling in her fingers eased. The cut did not close. Dirt still had to be washed out, cloth still had to be boiled, and infection remained possible.
+
+Emil examined both of them with the suspicion of a man who had lived long enough to distrust miracles advertised without dosage.
+
+“Minor recovery,” he said when the words reached him through Borscht’s recognition. “It means the adjective matters.”
+
 The Hearth completed itself around them. Pipes carried clean water. The iron lockers warmed into sleeping alcoves. A pale boundary settled at the doorway, recognizable through Scent as a rule: those invited could rest; those hunted could ask; those pursuing could not cross unseen.
 
 > [PACK HEARTH ESTABLISHED]
@@ -3891,6 +4169,34 @@ The Hearth completed itself around them. Pipes carried clean water. The iron loc
 > Inhabitants: 5
 >
 > Rest, minor recovery, shared warning available.
+
+The Hearth demonstrated its boundaries as soon as they tested them.
+
+Warmth ended exactly at the hidden doorway. The bowl Atlas had used in the corridor cooled while its rim remained inside. Clean water arrived in short releases and required time to gather again. The lockers held body heat but produced no blankets. Shared warning marked a crossed threshold, a fast approach, or immediate harm; it supplied no name, motive, or truth.
+
+Pixel asked for crackers.
+
+Nothing happened.
+
+She asked for a smaller number of crackers in case the first request had seemed unreasonable.
+
+Nothing happened with greater precision.
+
+The Hearth offered shelter, recovery, water, and warning. It did not create food, widen the eastern passage, repair the missing ladder rungs, or decide who deserved admission.
+
+They tested the warning because relying on an undefined alarm was another form of hope.
+
+Emil stepped into the corridor and approached slowly. The boundary remained quiet. He returned, then ran toward it with one arm raised. A pulse of heat touched every inhabitant before his shoe crossed the tile.
+
+Pixel hid behind the eastern lockers and scratched the wall. The Hearth marked movement inside the room but issued no shared warning. Borscht growled at Mriya in play; nothing happened. Atlas approached from outside with his teeth visible and intent carefully empty. The warning arrived as a dull pressure without identifying him.
+
+“It reads action,” Nika said. “Or what action looks like.”
+
+Atlas lowered his lips. “Then anyone patient can cross.”
+
+The boundary had no answer.
+
+Mriya stored the lesson with the map. Warning bought seconds against speed. It offered nothing against permission wrongly given, a quiet lie, poison carried as food, or someone already inside.
 
 Borscht climbed into the lowest locker with his rabbit and immediately tested rest.
 
@@ -3912,6 +4218,36 @@ They settled on asking before taking.
 
 Borscht woke long enough to demand breakfast before governance. The rule was adopted unanimously.
 
+Breakfast consisted of two crushed biscuits from Nika’s bag, the heel of Emil’s bread, and water released in turns so the settling chamber could recover. Nika divided the food on the flattened locker shelf. Pixel watched every portion and said nothing when hers proved equal.
+
+Afterward they arranged sleep.
+
+Emil took the floor beside Borscht’s low locker because his knees could not manage the higher alcoves. Pixel kept the upper locker and tied her red thread around its handle only after asking whether a temporary mark counted as ownership. Nika placed her coat beside Mriya near the iron circle, away from the photograph.
+
+The room did not feel comfortable. The floor remained hard, the air smelled of opened drains, and every pipe noise woke someone. Yet the inconveniences belonged to decisions they had made together. That difference allowed calm to enter without disguising itself as relief.
+
+Nika lay with her back toward Mriya for several minutes.
+
+“I’m still angry,” she said.
+
+“Yes.”
+
+“The warm floor doesn’t fix that.”
+
+“No.”
+
+Nika shifted until one hand rested close enough for Mriya to smell the clean bandage. She did not touch her.
+
+Mriya remained within the distance offered.
+
+The others settled by degrees. Emil removed his shoes so the soles would not carry drain residue onto the cleaned tiles. Borscht dreamed with one paw over the rabbit. Pixel descended once to place the copper wire beside her thread, reconsidered, and returned it to her collar. Atlas sat beyond the doorway where the warmth ended, awake by choice or habit.
+
+For eleven minutes, measured by the recharge knocks in the water pipe, no one asked the System for anything.
+
+Mriya listened to five uneven breaths. A shelter could become a cage through locks, a pack through command, a cure through appetite. This room had become none of them yet. Its safety existed only because every person inside continued doing small, inconvenient things: leaving the door open, preserving a route, counting portions, accepting anger, staying close without closing the offered distance.
+
+The calm was not granted. It was maintained.
+
 Atlas listened from the corridor.
 
 Mriya carried a bowl of water to the doorway and pushed it toward him.
@@ -3928,6 +4264,12 @@ Mriya looked behind her. Nika had chosen the floor beside Mriya instead of the w
 
 “This has return,” Mriya said.
 
+“Return to what?” Atlas asked.
+
+Mriya looked at the markers around the iron circle. “A place where leaving is allowed.”
+
+Atlas’s gaze moved to the open door, then to the tile he had wedged beneath it. The Hearth did not draw him across. His absence from its warmth remained the price of his independence and evidence that the boundary respected it.
+
 Atlas studied the offered threshold.
 
 Then every pipe in the room struck at once.
@@ -3939,6 +4281,30 @@ Mriya’s expanded Scent followed it. The Hearth’s warmth ran through abandone
 Across the district, dogs lifted their heads.
 
 Mriya felt them as points of attention.
+
+The first answer came through a narrow market drain: one dog, awake beneath overturned stalls, sending hunger and disbelief along the wet metal. The signal reached the Hearth and stopped. It could tell Mriya that attention existed. It could not tell her whether the dog was harmless.
+
+Near the old shelter, four scents rose almost together. One carried pups. One carried antiseptic. Two moved away as soon as they recognized territory, fear outweighing thirst.
+
+At the river warehouses, an answer passed from dog to dog in a disciplined sequence. No voice entered the room. Instead Mriya felt pressure tests against the signal—distance, water, number, exits—as if an unseen pack were measuring a door before deciding whether to knock.
+
+Along the rail spur, seven bodies changed direction. Three continued north. Two stopped. Two began moving underground.
+
+The broadcast did not summon everyone. It gave every nearby dog a reason to choose.
+
+Choices returned through the pipes in fragments. The dog under the market sent the water-shape twice and then withdrew into stillness. The two near the shelter moved their pups farther from the signal. Along the rail spur, one dog marked the route for others and remained above ground. The river group did something more organized: it sent one attention forward, held two at a junction, and kept the rest beyond the Hearth’s reach.
+
+Atlas recognized the pattern before Mriya did.
+
+“They are checking whether the signal lies,” he said.
+
+“Can it?”
+
+“Rooms do not need to lie. Owners do.”
+
+Mriya looked at the open doorway. A signal promising safe sleep did not prove that sleepers could leave. Clean water could be bait. Five inhabitants could mean a community or five prisoners.
+
+The Hearth broadcast facts and omitted governance. Anyone answering would have to discover the difference at the threshold.
 
 One beneath the market.
 
@@ -3962,6 +4328,12 @@ The System supplied the omitted condition with impeccable timing.
 >
 > Shelter invites petition, trade, challenge, and claim.
 
+Four permissions, bundled as if they carried equal risk.
+
+Mriya tested the signal for refusal. She could mute the location, but doing so also concealed water from those who needed it. She could narrow it to recognized dogs, but then no stranger could petition. She could close the boundary against challenge, but claim would still arrive physically at the door.
+
+The Hearth protected a threshold. It could not remove them from the district around it.
+
 Pixel peered down from her locker. “Trade sounds good.”
 
 “Claim does not,” Emil said.
@@ -3972,7 +4344,11 @@ Nika stood beside Mriya. “How many?”
 
 Mriya listened through the Hearth.
 
-Three from the east. More stopping above. One large dog pacing beyond the sealed door Pixel had opened.
+Three from the east. More stopping above. One large dog pacing beyond the eastern grille Pixel had found.
+
+Above them, paws crossed the depot platform and paused over the green corridor. A solitary dog scratched once at the concrete, received no path down, and moved on. From the market came a brief request shaped like water. The Hearth translated it into attention and offered Mriya no way to answer without opening the territory signal wider.
+
+She chose silence. The first external decision made through the Hearth was already an exclusion.
 
 Atlas crossed the threshold.
 
@@ -3986,9 +4362,29 @@ Atlas pretended not to hear.
 
 Metal scraped in the eastern passage.
 
+It came once, paused, then came twice. Not an accident: a signal made with something hard against the grille Pixel had found.
+
+The Hearth marked three approaching bodies but could not distinguish the dog carrying metal from the dogs carrying teeth. Mriya moved to the boundary. Nika stood behind her with the empty water bowl. Emil shifted the suitcase away from the eastern route so retreat remained possible. Pixel climbed down from her locker rather than hiding inside it.
+
+Atlas smelled the air.
+
+“Warehouse dogs,” he said. “Oil on one. Blood on another. The large one has been here before.”
+
+The hidden caretaker’s oil lived in the room’s older layers. The approaching scent was not identical, but it belonged to the same world of tools, valves, and routes kept functional after officials stopped looking.
+
+The eastern grille moved. Whoever approached possessed either a key or enough knowledge to make one unnecessary.
+
+The room’s second exit had become someone else’s first entrance.
+
 A dark Doberman entered the edge of Mriya’s Scent, accompanied by two lean dogs who moved when he moved. He smelled of tools, warehouse dust, and a hierarchy no one questioned twice.
 
 He stopped beyond the Hearth boundary.
+
+The pale line recognized all three as uninvited and did nothing else. No wall rose. No force pushed them back. Shelter invites petition meant they could stand there indefinitely, armed with patience, while the inhabitants exhausted food and water inside.
+
+The Doberman examined the cleaned drain, the shifted lockers, the open western door, and the five markers around the iron circle. His attention lingered on the initials scratched behind the lockers.
+
+He understood more of the room than they did.
 
 “Who holds this territory?” he asked.
 
