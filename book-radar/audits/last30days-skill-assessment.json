@@ -1,0 +1,51 @@
+{
+  "schema_version": "external-research-sensor-assessment/v1",
+  "assessed_at": "2026-09-08",
+  "candidate": {
+    "repository": "https://github.com/mvanhorn/last30days-skill",
+    "revision": "310f0b405db2d84adb4993bbf140cef9584057d2",
+    "version": "3.23.1",
+    "license": "MIT"
+  },
+  "decision": "ADMIT_AS_OPTIONAL_DISCOVERY_SENSOR",
+  "why_useful": [
+    "Searches multiple recent community and media sources and retains engagement metadata.",
+    "Discovery mode ranks emerging topics using cross-source evidence and momentum labels.",
+    "Can expose repeated requests, complaints and audience language before a topic appears in slower publishing reports.",
+    "Its opt-in Amazon lane can add current product prices, ratings and a bounded sample of recent written reviews."
+  ],
+  "limits": [
+    "Engagement measures attention and conversation, not book purchases.",
+    "Polymarket volume concerns event beliefs and is not evidence that readers will buy a related book.",
+    "Amazon ratings and reviews are useful buyer evidence but do not reveal competitor unit sales or acquisition cost.",
+    "Coverage depends on configured sources, authentication and third-party availability; missing results are not negative demand evidence.",
+    "A 30-day window can overvalue short-lived spikes that close before production and discovery mature."
+  ],
+  "radar_contract": {
+    "stage": "NOMINATION_BEFORE_MARKET_CARD",
+    "may_support": [
+      "trend nomination",
+      "reader-language extraction",
+      "buyer-scenario discovery",
+      "timing and demand-window hypotheses"
+    ],
+    "may_not_support_alone": [
+      "book-demand claim",
+      "commercial tier",
+      "new-author reachability",
+      "unit economics",
+      "production authorization"
+    ],
+    "required_follow_up": [
+      "Verify comparable book transactions or bounded traction proxies from independent origins.",
+      "Inspect relevant titles and reader-choice evidence in the target marketplace.",
+      "Estimate production lead time against the observed demand window.",
+      "Record source coverage and keep UNKNOWN distinct from NEGATIVE."
+    ]
+  },
+  "implementation": {
+    "status": "QUALIFIED_NOT_INSTALLED",
+    "reason": "RN10 was completed with direct sources; installing or scheduling the external skill is a separate operational choice.",
+    "recommended_trial": "Use one bounded discovery query in the next run, then compare nomination precision and deep-scan yield against the direct-source baseline."
+  }
+}

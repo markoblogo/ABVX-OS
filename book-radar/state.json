@@ -47622,6 +47622,16 @@
       "production_authorized": false,
       "status": "EVIDENCE_BACKED_CONCEPT",
       "strategy": "candidate-generation-v4-book-demand"
+    },
+    {
+      "deep_scanned": 5,
+      "id": "RN10",
+      "name": "Radar-Native Discovery #10 commercial-first",
+      "observed_at": "2026-09-08",
+      "opportunities_scanned": 9,
+      "production_authorized": false,
+      "status": "TWO_MARKET_CONCEPTS_AWAITING_POSITIONING_GATE",
+      "strategy": "candidate-generation-v5-commercial-first"
     }
   ],
   "schema_version": "book-radar-state/v1",

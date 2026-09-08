@@ -285,3 +285,109 @@ def early_discovery_decision(card: dict[str, Any], *, as_of: date) -> str:
     if gap["status"] != "SUPPORTED" or not gap["source_ids"]:
         return "INSUFFICIENT_EVIDENCE"
     return "DEEP_SCAN_ELIGIBLE"
+
+
+# v5 is opt-in: historical v3/v4 cards and decisions retain their meaning.
+BOOK_MARKETS = {
+    "FICTION", "BUSINESS", "POPULAR_NONFICTION", "HOBBY",
+    "CHILDREN_EDUCATION", "GIFT_VISUAL", "PRACTICAL_REFERENCE",
+}
+COMMERCIAL_TIERS = {"UNKNOWN": 0, "WEAK": 1, "MODERATE": 2, "STRONG": 3}
+PRODUCTION_EFFORT = {"LOW": 0, "MEDIUM": 1, "HIGH": 2}
+COMMERCIAL_CLAIMS = ("book_demand", "reader_choice", "reachability", "unit_economics")
+
+
+def validate_commercial_candidate(card: dict[str, Any]) -> None:
+    """Validate reader value, not a mandatory functional problem or market gap."""
+    required = (
+        "id", "market", "buyer", "reading_motivation", "reader_promise",
+        "book_format", "discovery_path", "claims", "observations",
+        "commercial_tier", "commercial_rationale", "production_effort",
+        "production_plan", "quality_gate", "rights_status", "delivery_status",
+        "demand_window",
+    )
+    if any(card.get(field) in (None, "", []) for field in required):
+        raise ValidationError("commercial candidate missing required fields")
+    if card["market"] not in BOOK_MARKETS:
+        raise ValidationError("invalid book market")
+    if card["commercial_tier"] not in COMMERCIAL_TIERS:
+        raise ValidationError("invalid commercial tier")
+    if card["production_effort"] not in PRODUCTION_EFFORT:
+        raise ValidationError("invalid production effort")
+    if card["rights_status"] not in {"CLEAR", "BLOCKED", "UNKNOWN"}:
+        raise ValidationError("invalid rights status")
+    if card["delivery_status"] not in {"FEASIBLE", "INFEASIBLE", "UNKNOWN"}:
+        raise ValidationError("invalid delivery status")
+    if set(card["claims"]) != set(COMMERCIAL_CLAIMS):
+        raise ValidationError("commercial claims must cover demand, choice, reachability and economics")
+    sources = {}
+    for obs in card["observations"]:
+        for field in ("source_id", "independence_key", "observed_at", "observation",
+                      "interpretation", "alternative_explanation", "evidence_kind"):
+            if not obs.get(field):
+                raise ValidationError(f"commercial observation missing {field}")
+        date.fromisoformat(obs["observed_at"])
+        if obs["source_id"] in sources:
+            raise ValidationError("duplicate commercial source id")
+        if obs["evidence_kind"] not in {
+            "PURCHASE", "TRACTION_PROXY", "READER_REQUEST", "LISTING", "TREND", "COST"
+        }:
+            raise ValidationError("invalid commercial evidence kind")
+        sources[obs["source_id"]] = obs
+    for claim in card["claims"].values():
+        if claim.get("status") not in EVIDENCE_STATUSES or not claim.get("rationale"):
+            raise ValidationError("commercial claim requires status and rationale")
+        ids = claim.get("source_ids")
+        if not isinstance(ids, list) or any(source not in sources for source in ids):
+            raise ValidationError("commercial claim has unresolved sources")
+        if claim["status"] != "UNKNOWN" and not ids:
+            raise ValidationError("commercial claim requires evidence")
+    window = card["demand_window"]
+    days = window.get("preparation_days")
+    if type(days) is not int or days < 0:
+        raise ValidationError("commercial window requires preparation_days")
+    if window.get("closes"):
+        date.fromisoformat(window["closes"])
+
+
+def commercial_discovery_decision(card: dict[str, Any], *, as_of: date) -> str:
+    """Commercial evidence first; no novelty, unmet-task or utility-book requirement."""
+    validate_commercial_candidate(card)
+    claims = card["claims"]
+    if card["rights_status"] == "BLOCKED" or any(
+        claim["status"] == "NEGATIVE" for claim in claims.values()
+    ):
+        return "REJECTED_ON_EVIDENCE"
+    if card["rights_status"] == "UNKNOWN" or any(
+        claim["status"] == "UNKNOWN" for claim in claims.values()
+    ):
+        return "INSUFFICIENT_EVIDENCE"
+    sources = {obs["source_id"]: obs for obs in card["observations"]}
+    demand_origins = {
+        sources[source]["independence_key"].strip().casefold()
+        for source in claims["book_demand"]["source_ids"]
+        if sources[source]["evidence_kind"] in {"PURCHASE", "TRACTION_PROXY"}
+    }
+    if len(demand_origins) < 2 or COMMERCIAL_TIERS[card["commercial_tier"]] < 2:
+        return "INSUFFICIENT_EVIDENCE"
+    if card["delivery_status"] == "INFEASIBLE" or not demand_window_viable(
+        card["demand_window"], as_of=as_of
+    ):
+        return "ATTRACTIVE_BUT_NOT_FOR_US"
+    if card["delivery_status"] == "UNKNOWN":
+        return "INSUFFICIENT_EVIDENCE"
+    return "DEEP_SCAN_ELIGIBLE"
+
+
+def rank_commercial_candidates(cards: list[dict[str, Any]], *, as_of: date) -> list[dict[str, Any]]:
+    """Rank only eligible cards: commercial tier first, effort second, stable ties.
+
+    Tiers are documented research judgments, not estimated sales or probabilities.
+    This does not authorize production or modify historical portfolio scoring.
+    """
+    eligible = [card for card in cards if commercial_discovery_decision(card, as_of=as_of)
+                == "DEEP_SCAN_ELIGIBLE"]
+    return sorted(eligible, key=lambda card: (
+        -COMMERCIAL_TIERS[card["commercial_tier"]],
+        PRODUCTION_EFFORT[card["production_effort"]],
+    ))

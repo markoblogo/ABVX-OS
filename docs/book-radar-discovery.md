@@ -1,5 +1,55 @@
 # Book Radar discovery
 
+## Active policy: commercial potential first (v5)
+
+Current strategy: `book-radar/strategies/candidate-generation-v5-commercial-first.json`.
+Use `validate_commercial_candidate`, `commercial_discovery_decision`, then
+`rank_commercial_candidates` in `src/abvx_harness/book_radar_discovery.py`
+for new runs. Do not pass new fiction/business cards through the historical
+problem/gap validators below. Existing v3/v4 run formats and scoring stay intact.
+
+Search unit: `READERSHIP × READING MOTIVATION × BOOK MARKET × READER PROMISE × CHANNEL`.
+Explore fiction, business, popular nonfiction, hobbies, children/education,
+gift/visual books and practical references. Reading for pleasure, curiosity,
+identity, atmosphere or a gift is valid. No compulsory deadline, practical
+problem, dissatisfied review or unprecedented mechanism is needed.
+
+Start by comparing existing markets and several relevant titles, including
+plausible entry by less established authors. Category demand and the ability
+of a new book to reach readers are separate. Do not use celebrity success as
+proof of accessible entry. Small markets may qualify on viable economics.
+
+Commercial evidence is primary. Document demand, reason to choose our book,
+reachability and unit economics with sources and uncertainties. Require two
+independent origins for comparable purchases/traction; reviews and ranks remain
+proxies, not unit-sales claims. Emotional and entertainment value need evidence
+of reader preferences, not proof of a missing utilitarian feature.
+
+Rank eligible cards by STRONG then MODERATE commercial tier, and within each
+by LOW/MEDIUM/HIGH production effort. These are reasoned research bands, not
+predictions. Easy production never rescues weak demand. Include full editing,
+quality review, illustration, verification, rights and owner attention in cost.
+Genre satisfaction and narrative quality are real production requirements.
+
+`last30days-skill` is admitted as an optional pre-card discovery sensor at the
+pinned revision recorded in `book-radar/audits/last30days-skill-assessment.json`.
+Use it to nominate fast-moving topics, recurring requests and audience language.
+Its opt-in Amazon lane may supply current prices, ratings and recent review
+samples. Never convert social engagement, prediction activity, ratings, reviews
+or a trend label directly into book demand, reachability or unit economics.
+Every nominated topic must still clear the normal independent market evidence
+gates. Record unavailable sources as coverage limits rather than negative demand.
+
+RN10 applied these limits across all market families without finalist quotas:
+at most 20 cards, 5 deep checks and 2 concepts. Future runs retain those bounds
+unless separately changed. No discovery result authorizes production. Leave portfolio listings,
+Monday audit and its schedule untouched. RN9's prototype instruction is deferred;
+preserve its artifacts as history. Read this active policy before any old run's
+next-step instruction.
+
+## Historical v3/v4 policy (for interpreting old records only)
+
+
 The generation unit is a buyer situation, not a topic or title:
 
 `BUYER × PURCHASE TRIGGER × JOB TO BE DONE × CURRENT SPEND × UNMET NEED`

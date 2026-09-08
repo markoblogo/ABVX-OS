@@ -1,0 +1,11 @@
+{
+  "schema_version":"book-radar-commercial-deep-checks/v1",
+  "run_id":"RN10",
+  "checks":[
+    {"id":"RN10-001","decision":"CONCEPT_VALIDATION_ELIGIBLE","finding":"Large romance demand, specialist retail and an indie entry path are independently supported. Later-life protagonists are a legible choice attribute, but exact segment volume and organic Amazon reach remain unknown.","production":"MEDIUM: a full novel requires human-grade structural and line editing plus genre-reader validation.","next":"Validate a small set of distinct premises and comparable shelves before drafting."},
+    {"id":"RN10-002","decision":"CONCEPT_VALIDATION_ELIGIBLE","finding":"LitRPG is an indie-native digital market with substantial publisher-reported sales, a dedicated Amazon surface and current readers acquiring and requesting softer progression stories.","production":"HIGH: series expectations, 80k-100k words, progression consistency, editing and cover quality.","next":"Test the premise and series promise against current cozy-progression comparables before drafting."},
+    {"id":"RN10-004","decision":"ATTRACTIVE_BUT_NOT_READY","finding":"Children's activity books have strong measured growth, but licenses, brand distribution, bundled materials and color production confound a KDP entrant case.","production":"HIGH: original art, puzzle testing and age-appropriate review.","next":"Hold until an unlicensed KDP entry path and unit economics are evidenced."},
+    {"id":"RN10-005","decision":"INSUFFICIENT_EVIDENCE","finding":"Cozy coloring has category growth and an indie-origin success example, but discoverability and art economics for a new brand remain unknown.","production":"HIGH: original consistent art and print testing.","next":"No production; collect newcomer-level reach and cost evidence only if revisited."},
+    {"id":"RN10-008","decision":"REJECTED_FOR_CURRENT_PASS","finding":"Self-help growth is concentrated enough that it does not establish a low-authority newcomer opportunity; no specific promise or channel was found.","production":"Apparently LOW, but credible thesis and authority make true effort higher.","next":"Do not generate a generic self-help concept from category growth."}
+  ]
+}

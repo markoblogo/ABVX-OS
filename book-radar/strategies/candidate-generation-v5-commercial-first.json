@@ -1,0 +1,76 @@
+{
+  "schema_version": "candidate-generation-strategy/v5",
+  "id": "candidate-generation-v5-commercial-first",
+  "status": "ACTIVE_EXPERIMENT",
+  "effective_from": "2026-09-08",
+  "supersedes_for_future_runs": "candidate-generation-v4-book-demand",
+  "cost_class": "CHEAP",
+  "implementation": "src/abvx_harness/book_radar_discovery.py",
+  "entrypoints": [
+    "validate_commercial_candidate",
+    "commercial_discovery_decision",
+    "rank_commercial_candidates"
+  ],
+  "search_unit": "READERSHIP x READING_MOTIVATION x BOOK_MARKET x READER_PROMISE x DISCOVERY_CHANNEL",
+  "markets": [
+    "FICTION",
+    "BUSINESS",
+    "POPULAR_NONFICTION",
+    "HOBBY",
+    "CHILDREN_EDUCATION",
+    "GIFT_VISUAL",
+    "PRACTICAL_REFERENCE"
+  ],
+  "priority_order": [
+    "evidence-backed commercial potential",
+    "relatively easy production at required reader quality"
+  ],
+  "ranking": "Commercial tier descending, then production effort ascending; only eligible candidates. No additive ease bonus.",
+  "commercial_tiers": {
+    "STRONG": "Corroborated relevant demand plus convincing evidence of reachable entry for a comparable new title, supported economics and explicit uncertainties. Fame-driven sales alone cannot establish this tier.",
+    "MODERATE": "Corroborated comparable demand and supported entry/economics, but material uncertainty remains.",
+    "WEAK": "Category interest or isolated purchases with inadequate entry/economics evidence.",
+    "UNKNOWN": "Insufficient observations; never infer zero demand."
+  },
+  "evidence_rules": [
+    "At least two independent origins support comparable book purchases or dated traction proxies; explain proxy limits and source independence.",
+    "Reader choice may rest on genre experience, voice, audience, topic, language, curation, design or explanation; no mandatory novel mechanism or unsolved practical problem.",
+    "Claims cover book demand, reader choice, reachability and unit economics; unknown costs or acquisition assumptions remain explicit.",
+    "Source kinds and tiers are researcher judgments to audit, not automatic truth or invented unit sales."
+  ],
+  "fresh_demand_sensor": {
+    "candidate": "mvanhorn/last30days-skill",
+    "role": "Optional nomination and language sensor before market validation",
+    "allowed_signals": [
+      "cross-source topic velocity",
+      "repeated reader requests and complaints",
+      "audience vocabulary",
+      "recent Amazon prices, ratings and written-review samples when its opt-in Amazon lane is configured"
+    ],
+    "evidence_boundary": "Attention, engagement, requests, prediction-market activity, ratings and reviews do not by themselves establish book purchases, newcomer reachability or unit economics.",
+    "admission_rule": "Promote a nomination to a market card only after separate book-market evidence is collected and source independence is checked.",
+    "assessment": "book-radar/audits/last30days-skill-assessment.json"
+  },
+  "production_rules": [
+    "Estimate drafting, editorial revision, fact checking, illustrations, rights, layout, owner time and ongoing updates.",
+    "Fiction needs narrative and genre-quality review; business needs credible substantiation; visual and children books need appropriate art/pedagogy review.",
+    "Low word count or quick AI drafting does not prove easy production.",
+    "A hard delivery/rights constraint may exclude a commercially strong concept but must not relabel its demand as weak."
+  ],
+  "next_pass": {
+    "market_scan_first": true,
+    "compare_multiple_titles_per_promising_market": true,
+    "review_all_markets_without_finalist_quotas": true,
+    "candidate_limit": 20,
+    "deep_limit": 5,
+    "final_limit": 2,
+    "last_completed_run": "RN10",
+    "run_now": false
+  },
+  "scope": [
+    "New concepts only; no portfolio listing audit or Monday schedule changes.",
+    "RN9-001 remains historical; prototype instruction deferred by current user direction.",
+    "No production, publication or paid research authorized."
+  ],
+  "historical_scoring_weights_changed": false
+}

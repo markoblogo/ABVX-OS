@@ -1,5 +1,12 @@
 # Book Radar v0.1
 
+## Active discovery policy
+
+For new searches, read [Book Radar discovery](book-radar-discovery.md) first.
+The active v5 strategy ranks evidence-backed commercial potential before
+production effort across fiction, business and other book markets. Historical
+run instructions and scoring models do not override this policy.
+
 Book Radar is the small persistent memory for evidence-led publishing experiments. It records the path from discovery through actual D0/D7/D30/D60/D90 results without performing research, producing a book, publishing, or spending money automatically.
 
 ## Storage and invariants
