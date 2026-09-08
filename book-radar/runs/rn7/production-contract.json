@@ -1,0 +1,70 @@
+{
+  "schema_version": "rn7-production-contract/v1",
+  "opportunity_id": "RN7-001",
+  "status": "CONDITIONAL_GO_AWAITING_HUMAN_PRODUCT_GATE",
+  "market_thesis": "English-speaking French-property buyers face a mandatory, French-language multi-report DDT during a consequential transaction; exact Amazon competition is weak and adjacent newcomer evidence exists but is modest.",
+  "product_thesis": "A bounded report-to-questions field guide that teaches buyers to extract findings, identify what each diagnostic does not establish, cross-check reports and create written follow-up for their notaire or qualified professional.",
+  "buyer": "English-speaking buyer of an existing French home",
+  "trigger": "receipt of the DDT before signing or completing the purchase",
+  "jtbd": "understand what the dossier says, what it does not say, and which written questions require answers before commitment",
+  "prior_knowledge": "none; French terms introduced only where required",
+  "promise": "Turn a dense French DDT into a traceable map of findings, boundaries, missing evidence and next questions.",
+  "non_promises": [
+    "not legal advice",
+    "not a building survey or diagnosis",
+    "not energy, engineering, health or financial advice",
+    "does not recommend whether to buy a property"
+  ],
+  "paid_value": "Works directly against the buyer’s real dossier and prevents translation from becoming unsupported interpretation.",
+  "commercial_differentiation": "actual DDT → report facts and scope boundaries → cross-report checks and professional questions",
+  "free_alternative": "French official explanations, machine translation and the buyer’s notaire",
+  "raw_to_product_transformation": "official report structure plus a synthetic example → extraction/boundary/question method → buyer-owned decision record",
+  "language": "EN with essential French document terms",
+  "marketplace": "Amazon.co.uk primary; Amazon.fr secondary",
+  "format_eligibility": {
+    "paperback": "SUPPORTED",
+    "kindle": "SUPPORTED_BUT_SECONDARY"
+  },
+  "primary_format": "PAPERBACK",
+  "secondary_formats": [
+    "KINDLE_REFERENCE_ONLY_IF_REFLOWABLE_VALUE_SURVIVES"
+  ],
+  "trim_optimization_requirement": "YES; compare 7.5x9.25 and 8x10 after content architecture",
+  "source_model": "current Service-Public/Notaires/legislation-controlled source ledger plus original synthetic report fragments",
+  "rights_model": "paraphrase official explanations; reproduce only verified government material; all report fragments and diagrams original",
+  "volatility": "MEDIUM; source refresh before publication and at least annually",
+  "author_model": "neutral pseudonym; no invented legal, surveying, estate-agent or engineering credentials",
+  "factual_qa": "every current claim mapped to controlling source; independent claim-ledger audit and pre-publication refresh",
+  "language_qa": "English editorial QA plus French terminology verification against controlling forms/sources",
+  "product_quality_qa": "representative sample must prove report → boundary → question mechanism and writable print ergonomics",
+  "editorial_formalism_qa": "reject repeated empty templates, overconfident paraphrase, slide-deck pagination and generic warnings",
+  "representative_product_gate": "SAMPLE_CREATED_PENDING_HUMAN_REVIEW",
+  "human_product_gate": "REQUIRED",
+  "technical_qa": "print TOC, safe margins, embedded fonts, readable synthetic fragments, PDF preflight and optional EPUB accessibility",
+  "commercial_package_requirements": "current Amazon rescan, truthful independent positioning, pricing from frozen pagination and no professional-affiliation claims",
+  "pricing_hard_gate": "final price only after final page count and current KDP print cost",
+  "expected_anton_involvement": {
+    "subject_matter_hours": 0,
+    "product_taste_minutes": 15,
+    "language_review_minutes": 0,
+    "expected_correction_minutes": 15,
+    "cover_minutes": 15,
+    "kdp_upload_minutes": 10,
+    "total_hours": 0.9
+  },
+  "economics": {
+    "price_gbp_estimate": 14.99,
+    "royalty_per_unit_usd_equivalent_estimate": 7.1,
+    "conservative_90_day_units": 28,
+    "ev_90_day_usd_estimate": 198.8,
+    "ev_per_anton_hour_usd_estimate": 220.9,
+    "paid_ads_required": false
+  },
+  "kill_conditions": [
+    "human sample gate fails",
+    "current Amazon rescan finds a direct DDT workbook with meaningful traction",
+    "safe boundary between explanation and professional advice cannot be maintained",
+    "authoritative current sources do not cover a material chapter",
+    "Anton time exceeds 1.5 hours"
+  ]
+}

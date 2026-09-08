@@ -1,0 +1,60 @@
+{
+  "schema_version": "radar-native-7-evidence/v1",
+  "observed_at": "2026-09-08",
+  "sources": [
+    {
+      "id": "KDP-LANG",
+      "label": "OBSERVED",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G200673300",
+      "use": "format eligibility"
+    },
+    {
+      "id": "AMZ-DDT",
+      "label": "OBSERVED",
+      "url": "https://www.amazon.co.uk/s?k=French+property+diagnostic+report+guide&i=stripbooks",
+      "observation": "2 relevant results; 2025 adjacent entrant 1 rating; 2012 handbook 15 ratings"
+    },
+    {
+      "id": "NOTAIRES-DDT",
+      "label": "OBSERVED",
+      "url": "https://www.ppr.notaires.fr/en/property-surveys",
+      "observation": "DDT groups mandatory diagnostics and is annexed to sale agreements"
+    },
+    {
+      "id": "NOTAIRES-MARKET",
+      "label": "OBSERVED",
+      "url": "https://www.csn.notaires.fr/en/node/2593",
+      "observation": "921,000 existing-home transactions in 12 months to September 2025"
+    },
+    {
+      "id": "INSEE-FOREIGN",
+      "label": "OBSERVED",
+      "url": "https://www.insee.fr/fr/statistiques/8538622",
+      "observation": "660,000 French homes wholly or partly owned by people resident abroad in 2022"
+    },
+    {
+      "id": "COMMUNITY-DDT",
+      "label": "ANECDOTAL_OBSERVED",
+      "url": "https://www.reddit.com/r/expats/comments/1ghvvxx/buying_a_house_in_france/",
+      "observation": "buyer reports describe large untranslated diagnostics and uncertainty about their limits"
+    },
+    {
+      "id": "AMZ-CAM",
+      "label": "OBSERVED",
+      "url": "https://www.amazon.com/s?k=CAM+reconciliation+commercial+lease+guide&i=stripbooks",
+      "observation": "two direct 2026 entrants with 5 and 2 ratings"
+    },
+    {
+      "id": "AMZ-FREIGHT",
+      "label": "OBSERVED",
+      "url": "https://www.amazon.com/s?k=freight+claim+evidence+guide&i=stripbooks",
+      "observation": "older direct guides with 7 and 3 ratings; no recent direct workflow entrant observed"
+    }
+  ],
+  "limitations": [
+    "Amazon is location-sensitive; prices displayed to France.",
+    "Result counts and ratings are observations, not sales estimates.",
+    "BSR was not visible for RN7-001 and was not invented.",
+    "Unit and royalty figures are hypotheses."
+  ]
+}

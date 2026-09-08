@@ -1,0 +1,18 @@
+{
+  "schema_version": "rn7-calibration-comparison/v1",
+  "rn4_rn6_baseline": {
+    "broad_to_deep_pct": 8.5,
+    "deep_to_finalist_pct": 31.9,
+    "finalist_authorization_pct": 4.5,
+    "commercial_intent_confidence": "NOT_RECORDED"
+  },
+  "rn7": {
+    "broad_to_deep_pct": 8.3,
+    "deep_to_finalist_pct": 33.3,
+    "finalist_gate_survival_pct": 10.0,
+    "mean_commercial_intent_confidence": 3.41,
+    "median_commercial_intent_confidence": 4,
+    "late_rejection_rate_pct": 90.0
+  },
+  "interpretation": "Promotion volume stayed stable while one candidate reached conditional gate. This is directionally consistent with improved precision, but one out-of-sample run is insufficient to claim causal improvement."
+}

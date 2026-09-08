@@ -1,0 +1,406 @@
+{
+  "schema_version": "portfolio-similarity-audit/v1",
+  "catalog_checked": [
+    "PMP 2026 in a Nutshell",
+    "Ham Radio Technician Visual Cram Map",
+    "French road rules/signs for Ukrainian readers",
+    "Solar Proposal Decoder",
+    "THE HUMAN BACKUP PLAN",
+    "Toki Pona project",
+    "Burgers, Lipstick & Underwear",
+    "Your SaaS Bill Is Ridiculous",
+    "Fragments from a Therapist’s Notebook"
+  ],
+  "results": [
+    {
+      "opportunity_id": "RN7-001",
+      "topic_similarity": {
+        "score": 22,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 54,
+        "nearest": "RN5-001",
+        "classification": "ADJACENT_ARCHITECTURE"
+      }
+    },
+    {
+      "opportunity_id": "RN7-002",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-003",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-004",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-005",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-006",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-007",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-008",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-009",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-010",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-011",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-012",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-013",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-014",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-015",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-016",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-017",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-018",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-019",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-020",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-021",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-022",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-023",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-024",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-025",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-026",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-027",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-028",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-029",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    },
+    {
+      "opportunity_id": "RN7-030",
+      "topic_similarity": {
+        "score": 18,
+        "classification": "NOVEL",
+        "confidence": "MEDIUM-HIGH"
+      },
+      "architecture_similarity": {
+        "score": 28,
+        "nearest": "none material",
+        "classification": "LOW"
+      }
+    }
+  ]
+}
