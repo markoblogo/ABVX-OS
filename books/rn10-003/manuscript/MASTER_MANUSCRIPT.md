@@ -2113,3 +2113,647 @@ Stray offered nothing easy.
 Mriya looked back at the five private markers arranged around the iron circle.
 
 “We do,” she said.
+
+# Chapter Sixteen: Three Empty Bowls
+
+The Doberman considered the answer.
+
+His two companions stood one pace behind him. One had a torn lip. The other carried a length of pipe in a canvas loop across her chest. Neither looked at the water bowl Atlas had emptied.
+
+Their thirst filled the corridor.
+
+“I am Rook,” the Doberman said. “East rail and the river warehouses answer to Sable.”
+
+Mriya waited for the part that mattered.
+
+“This room draws from our line.”
+
+The Hearth’s pipes carried water beneath his words. Mriya could smell its route now: down from a cracked municipal main, through old filters in the sanitation unit, then east toward warehouses where rust and salt had entered the system.
+
+The clean water did not belong to Rook.
+
+It did not belong to Mriya either.
+
+This was going to make negotiations difficult.
+
+“Your line is poisoned,” she said.
+
+Rook’s torn-lipped companion shifted. The dog with the pipe did not.
+
+“Which is why this room was left unused,” Rook replied. “Open the flow east.”
+
+Pixel jumped down from her locker. “What do we get?”
+
+Atlas gave her a look.
+
+“Negotiation,” she said. “It is one of our values now.”
+
+Rook smelled almost amused. “You continue breathing in Sable’s tunnels.”
+
+Nika heard only the dogs’ quiet growls and huffs. She crouched beside Mriya. “Is this about the water?”
+
+Mriya touched the pipe, then pointed her nose east.
+
+Irena did not exist in their lives yet, so no one present could explain the system of valves. Nika could, however, recognize a demand.
+
+“We can share,” she said. “But we need something back.”
+
+Mriya looked at Rook.
+
+“Information,” she said. “Safe routes. Parts for the filter. Warning before anyone comes to claim us.”
+
+“I came to warn you.”
+
+“You came to measure us.”
+
+The torn-lipped dog’s tail moved once.
+
+Rook ignored it. “One container of clean water now. One line east after inspection. I bring the parts and mark one safe route to the surface. The Hearth owes no obedience. Sable receives the right to petition before a rival challenge.”
+
+Atlas stepped closer to Mriya. “A right to arrive first becomes a right to command.”
+
+“Only if we forget the difference,” she said.
+
+The Hearth listened.
+
+Its boundary trembled around Rook, invitation and refusal balanced at the same point. Cold meaning opened above the iron circle.
+
+> [SUPPLY DECISION]
+>
+> Reserve: 8 portions
+>
+> Share / Hoard / Trade
+
+Eight portions sounded abundant until Mriya counted the room. Five inhabitants. Atlas drinking as a visitor. Three dogs in the corridor. No food except the remains in Nika’s bag and whatever Borscht considered breakfast.
+
+Hoard smelled safe.
+
+Trade smelled like ownership wearing a cleaner coat.
+
+Share smelled inefficient.
+
+Mriya chose Share with conditions already spoken.
+
+The sink released water into the dented flask. Nika filled it, watching the level stop by itself exactly below the rim. She carried it to the boundary.
+
+Rook did not take it.
+
+He looked at the dog with the pipe. She stepped forward, accepted the flask, and drank first. The torn-lipped dog drank second. Rook drank last.
+
+Hierarchy, but not the one Mriya had expected.
+
+“Her name is Wrench,” Rook said, indicating the pipe carrier. “She will inspect the line at first light.”
+
+Wrench returned the flask.
+
+“Filters,” she said. “Two cracked. One missing. Humans stripped it before the System.”
+
+“Can you repair them?” Pixel asked.
+
+“Can you stop stealing wire?”
+
+Pixel looked offended by the relevance of the question.
+
+Rook turned east. “You will have parts.”
+
+“And warning,” Mriya said.
+
+“If there is time.”
+
+He left with his two dogs. Atlas watched until their scents separated from the corridor.
+
+The Hearth counted the exchange.
+
+> [SHARED SUPPLY RECOGNIZED]
+>
+> Pack +1
+>
+> Three dependent claims generated.
+
+Three shallow depressions opened in the warm floor around the iron housing.
+
+They resembled bowls.
+
+They were much too large for dogs.
+
+Emil knelt beside one. “Was that there before?”
+
+Nika touched the rim of another. The stone was warm.
+
+Mriya smelled the claims inside them. Empty human shapes. Hunger, shelter, usefulness. The System had rewarded generosity by assigning them more mouths.
+
+Borscht inspected the nearest bowl.
+
+“Breakfast has become ambitious,” he said.
+
+# Chapter Seventeen: Delivered People
+
+The first person arrived through the east tunnel carrying a filter on his back.
+
+He was broad, bearded, and smelled of machine oil, fever, and the warehouse dogs. Rook walked beside him without a leash. The man walked beside Rook as though a leash would have been redundant.
+
+“Tomas,” Rook said.
+
+Tomas looked past Mriya and stopped at Atlas.
+
+“Police?” he asked.
+
+Atlas sat straighter.
+
+The old harness marks beneath his fur answered before anyone could. Tomas lowered the filter and approached him with both hands visible.
+
+“Your officer?” Nika asked Rook, receiving no answer she could hear.
+
+Tomas shook his head. “No officer. Dogs got us out when the warehouse doors locked. This one”—he pointed at Rook—“kept bringing tools until I understood.”
+
+Rook had delivered a repairman to fulfill the trade.
+
+The first empty bowl filled with a thin line of light.
+
+Tomas saw only warm stone. He looked around the room, saw Nika, Emil, two small dogs, Mriya, and Atlas holding the doorway.
+
+He addressed Atlas.
+
+“Where do you want the filter?”
+
+Atlas glanced at Mriya.
+
+Mriya enjoyed the glance more than she should have.
+
+The second person arrived from the service passage behind the lockers.
+
+She opened a panel everyone else had mistaken for wall and emerged in a yellow municipal raincoat, coughing dust. Her hair had been cut with little regard for symmetry. A ring of access cards hung from her belt.
+
+“Nobody touch the main valves,” she said. “This unit is connected to half of South Vesper, and someone has reversed the recovery flow.”
+
+Her scent struck Nika first.
+
+Recognition passed between them.
+
+“Irena?” Nika said.
+
+The woman stared. “Courier Vale.”
+
+“You complained about my bicycle in the records office.”
+
+“You parked it against a fire door.”
+
+“There was a fire door?”
+
+Irena looked at the dogs, the occupied lockers, and Tomas holding a filter. “Who authorized this?”
+
+Nika pointed at Mriya.
+
+It was meant as a joke.
+
+Irena did not laugh.
+
+The second stone bowl took on the scent of raincoat rubber, old maps, and institutional outrage.
+
+The third person came through the surface door after knocking.
+
+This alone made him suspicious.
+
+He was narrow, clean despite the city, and wore a dark suit with running shoes. He carried a box of packaged pastries and introduced himself as Vale.
+
+Nika stared at him. “That’s my surname.”
+
+“It has served me well.”
+
+“Is it yours?”
+
+“At the moment.”
+
+Vale looked around the Hearth with quick, appreciative attention. He noticed the clean water, warm floor, hidden entrance, assembled humans, and dogs positioned at every approach.
+
+Then he looked directly at Mriya.
+
+“You’re the one in charge.”
+
+Mriya smelled no System class on him. Only talent.
+
+He set the pastries beside her.
+
+The third bowl filled.
+
+> [DEPENDENT CLAIMS DELIVERED]
+>
+> Allocation pending.
+
+Mriya disliked every word.
+
+Tomas assumed Atlas owned the work.
+
+Irena assumed Nika owned the room badly.
+
+Vale assumed Mriya owned everyone and wanted to make himself useful to her first.
+
+The System appeared satisfied with all three errors.
+
+# Chapter Eighteen: House Rules
+
+The Hearth rejected Tomas first.
+
+He stepped toward the sink with the cracked filter and the boundary hardened beneath his boot. There was no wall. His body simply refused to continue.
+
+“What the hell?”
+
+Irena tried next because municipal employment had taught her that unexplained barriers were usually intended for other people. She stopped at the same line.
+
+Vale remained outside and observed.
+
+“Access control,” he said. “Excellent.”
+
+Nika crossed the boundary freely. Emil crossed. Pixel crossed carrying a pastry she had not asked for, then reversed direction when three residents looked at her.
+
+The three human-sized bowls waited empty again.
+
+Mriya smelled what the Hearth required. Claims had been delivered, but the room could not reconcile their ownership.
+
+The simple solution opened first.
+
+> [ALLOCATION AVAILABLE]
+>
+> Assign each dependent to a recognized canine authority.
+
+Atlas could take Tomas. Mriya could take Vale. Irena’s attention had already settled on Nika, which the System might translate through Bond.
+
+The Hearth would open. The filters would be repaired. Eight people and dogs would sleep warm.
+
+Mriya remembered the shelter card clipped to her kennel: female, mixed breed, senior, property of the City of Vesper.
+
+“No,” she said.
+
+The boundary stayed closed.
+
+Nika watched her. “Another bad option?”
+
+Mriya walked to the three bowls, then to each waiting person, then shook her collar hard enough for the tag to strike the buckle.
+
+Nika understood part of it. “It wants us to assign them?”
+
+Vale smiled. “I’m flexible.”
+
+“That is not reassuring,” Irena said.
+
+They negotiated rules on opposite sides of an invisible line.
+
+Tomas required access to tools and the right to refuse unsafe repairs.
+
+Irena required a map of every pipe the Hearth altered and a municipal override in case the water system threatened the district.
+
+Pixel objected to override as a word and to maps as a method of telling strangers where things were.
+
+Vale required nothing, which made Nika require a list of what he intended to do.
+
+“Procurement,” he said. “Messages. Relationships. I know which shops have generators and which owners left before the bridges closed.”
+
+“How?”
+
+“Relationships.”
+
+Emil required a door he could open without asking a dog. Borscht required Emil.
+
+Atlas required one command structure during attack.
+
+Mriya required two voices to declare an emergency, a path out for anyone leaving, and no person assigned as property.
+
+Nika wrote the rules on the back of a depot timetable.
+
+“Contribute what you can,” she read. “Ask before taking. Private histories stay private. Two members declare an emergency. During an immediate attack, Atlas coordinates defense until the danger ends. Anyone may leave. Anyone may refuse a task. No one owns another member.”
+
+Vale raised a hand. “Can we own non-members?”
+
+No one answered.
+
+“Useful clarification,” he said.
+
+Each person and dog accepted in the way available to them. Humans signed the timetable. Dogs placed a paw, nose, or in Pixel’s case a stolen self-inking stamp beneath the words.
+
+Atlas did not sign. He stood inside the threshold as a visitor and accepted only the emergency command rule.
+
+The three stone bowls changed.
+
+They became seats: low warm ledges shaped for human bodies rather than vessels waiting to be filled.
+
+> [DEPENDENCY REDEFINED: MEMBERSHIP]
+>
+> Efficiency penalty: 12%
+>
+> Consent stability increased.
+
+The boundary opened.
+
+Tomas carried in the filter. Irena went directly to the pipes. Vale distributed pastries he had probably not acquired through relationships.
+
+For the first time, the Hearth held more people than dogs.
+
+It did not collapse.
+
+Its warmth weakened slightly. The water slowed. Space became scarce.
+
+But every person who entered could also turn around and leave.
+
+Mriya watched them test the door.
+
+All three returned.
+
+# Chapter Nineteen: Bond Treatment
+
+Nika’s wound smelled wrong by morning.
+
+She concealed it beneath clean cloth and activity. She helped Tomas fit the filter, followed Irena through the service passage, counted food with Emil, and challenged Vale’s definition of procurement. Each task sharpened her scent for a few minutes. Between them came fever.
+
+Mriya followed her until Nika became irritated.
+
+“I’m fine.”
+
+The lie lacked structure.
+
+Nika had slept less than an hour. Cached Relief had removed fatigue without restoring what fatigue protected. The tunnel, the fire, the collapse, and the cold night above the flood remained inside her body as unpaid work.
+
+At the edge of the Hearth, she missed a step.
+
+Mriya caught her knee with one shoulder. Nika sat down too quickly.
+
+“Just stood up wrong.”
+
+She had been standing.
+
+Irena knelt and unwrapped the hand. Redness travelled from the cut toward Nika’s wrist.
+
+“She needs antibiotics.”
+
+Vale knew a pharmacy with a rear entrance. Tomas knew three reasons the route was unsafe. Irena knew the clinic’s emergency stock had been moved before communications failed. Everyone possessed part of a solution. None could assemble it before the fever worsened.
+
+The Hearth offered its own.
+
+> [BOND TREATMENT AVAILABLE]
+>
+> Stabilize recognized human through bonded vitality.
+>
+> Side effects scale with duration.
+
+Mriya searched the notice for the missing price.
+
+There was none.
+
+“What?” Nika asked. She recognized the stillness now.
+
+Mriya touched Nika’s hand, then her own chest. She pressed close, stepped away, and pressed close again.
+
+“You can do something?”
+
+Mriya smelled fear beneath the question. Not fear of her. Fear of becoming too weak to remain useful.
+
+Nika held out the infected hand. “Do it.”
+
+The consent was real and incomplete.
+
+Mriya thought of the gray packet in apartment 4B. Help offered fastest where questions were slowest.
+
+She looked at Irena.
+
+Irena could not see the interface, but she understood Nika’s pulse and temperature. “Stabilize her if you can. We still find medicine.”
+
+Two voices for an emergency: Nika and Irena.
+
+Mriya activated Bond Treatment.
+
+The Hearth’s warmth left the floor and entered Nika through Mriya’s shoulder. Fever opened like a scent trail. Mriya followed it into blood, exhaustion, and the deep cold place where Nika stored every demand she had survived by postponing collapse.
+
+Mriya gave stability.
+
+Nika’s breathing slowed. The red line stopped climbing.
+
+Pain struck Mriya behind the ribs. Her healed hip weakened, but held.
+
+> [BOND TREATMENT ACTIVE]
+>
+> Human function stabilized.
+>
+> Proximity recommended.
+
+Recommended smelled harmless.
+
+Nika opened her eyes.
+
+“Better,” she said.
+
+This time the word was true.
+
+# Chapter Twenty: Useful Happiness
+
+Nika repaired the east filter before Tomas finished explaining how.
+
+She held the light, found the damaged seal, cut a replacement from the orange bag’s waterproof lining, and tightened the housing with Pixel’s copper wire. When clean water entered the east pipe, she laughed and hugged Mriya hard enough to lift her front paws.
+
+“We did it.”
+
+Mriya smelled no fever.
+
+She also smelled no fatigue, anger, or hurt.
+
+Nika forgave the hidden Cached Relief without mentioning it. She forgave Vale for stealing her surname, Pixel for stealing a pastry, and Irena for recording the Hearth as an unauthorized pressure anomaly on a paper map. She made breakfast from crackers and the least damaged pastries. She created a repair schedule. She volunteered for the pharmacy run that was no longer urgent but remained sensible.
+
+Happiness made her remarkably productive.
+
+“I’ll go with her,” Irena said.
+
+They packed water and left through the surface passage.
+
+Mriya felt Nika move along Chosen Route. Ten steps. Twenty. The connection stretched but remained warm.
+
+At thirty-two steps, Nika stopped.
+
+She returned smiling.
+
+“Forgot the map.”
+
+Irena handed it to her.
+
+They left again.
+
+At thirty-two steps, Nika stopped.
+
+This time Mriya followed far enough to see her at the top of the stairs. Nika gripped the rail. Her breath came too fast. Sweat carried the sharp beginning of panic.
+
+“I think we should check the other exit first,” she said.
+
+Irena looked down at Mriya, then back at Nika. “Come one step farther.”
+
+Nika tried.
+
+Her foot lifted and returned to the same stair.
+
+The smile stayed on her face while terror gathered beneath it.
+
+Mriya climbed toward her.
+
+The terror vanished with each step Mriya closed.
+
+Nika exhaled. “See? Fine.”
+
+Mriya backed down.
+
+Nika’s hand tightened on the rail.
+
+The System clarified only after the test.
+
+> [BOND TREATMENT: FUNCTIONAL COHERENCE]
+>
+> Stability source must remain within bonded range.
+>
+> Separation attempts corrected.
+
+Corrected.
+
+Mriya returned to the Hearth. Nika followed with visible relief and immediately began organizing the medical supplies they did not have.
+
+The effect spread beyond distance. When Mriya lay down, Nika worked beside her. When Mriya crossed to the sink, Nika found a reason to inspect the filter. When Mriya slept, Nika slept lightly with one hand against her fur.
+
+She was cheerful, efficient, and trapped.
+
+Borscht watched Nika relocate a stack of tools for the third time.
+
+“Humans are much easier when happy,” he said.
+
+Atlas stood at the threshold. “So are dogs.”
+
+Mriya looked at him.
+
+Good Dog certainty ran through his posture, but his scent carried memory: commands obeyed before pain could be considered, praise arriving after danger, purpose mistaken for choice.
+
+“End it,” he said.
+
+Mriya tried.
+
+The Bond resisted. Treatment had woven itself around everything Nika received from proximity: calm, energy, direction, the ability to ignore infection until medicine arrived. Pulling it free smelled like tearing skin from a healed wound.
+
+The interface offered continuation rewards instead.
+
+> [SUSTAINED BOND AVAILABLE]
+>
+> Human efficiency +18%
+>
+> Settlement cohesion increased.
+
+Nika completed the food inventory and smiled at Mriya.
+
+“We’re going to be okay.”
+
+Mriya had heard that sentence on the kitchen floor while Cached Relief filled the room.
+
+She no longer believed happiness that could not leave.
+
+# Chapter Twenty-One: Let Go
+
+They found antibiotics before noon.
+
+Vale produced them from an emergency cabinet in the tram office and declined to explain why his relationships required a bent screwdriver. Irena verified the label. Tomas checked the seal. Nika took the first dose while sitting against Mriya’s side.
+
+The medical need ended.
+
+Bond Treatment did not.
+
+Mriya led Nika to the surface stair. At thirty-two steps the panic returned. Nika laughed through it.
+
+“This is ridiculous.”
+
+She still could not move.
+
+Mriya walked back and placed her nose against the bandaged hand.
+
+Nika’s scent cleared enough for fear to become anger.
+
+“Did you do this?”
+
+Mriya held still.
+
+The answer was yes and not alone. Nika had asked. Irena had agreed. The System had hidden the consequence. None of that opened the stair.
+
+“Undo it.”
+
+Mriya searched the Bond.
+
+There was no treatment toggle. No release choice. The connection had become part of her Bond stat, thickened by every day since the shelter: toast, rain, the loading ramp Mriya no longer visited in dreams, Nika’s hand waiting instead of reaching.
+
+To remove the trap, she would have to weaken all of it.
+
+> [BOND SEVERANCE]
+>
+> End treatment by reducing source bond.
+>
+> Cost: Bond 2 → 0. Human bridge and extended Chosen Route suspended.
+
+Zero smelled like the blue shelter door closing.
+
+Without the human bridge, the Hearth would no longer translate Mriya’s intent through Nika’s membership. Chosen Route would shorten. The mixed party might fail. Nika might walk up the stairs and discover that returning made no sense.
+
+Mriya had spent her life learning that those who could leave eventually did.
+
+Nika pulled against the invisible range until her whole body shook.
+
+Mriya accepted the cost.
+
+The Bond did not snap. It loosened thread by thread.
+
+The first morning in apartment 4B became memory instead of strength.
+
+The yellow blanket became fabric instead of territory.
+
+Nika’s praise lost its stored warmth. Her hand between Mriya’s ears became only a hand, precious because it could be withdrawn.
+
+Pain returned to Mriya’s hip.
+
+The Hearth dimmed behind them.
+
+> [BOND 2 → 0]
+>
+> Bond Treatment ended.
+>
+> Human bridge suspended.
+
+Nika fell forward one step.
+
+Mriya moved to catch her, but Nika caught the rail herself.
+
+She climbed.
+
+At ten steps she stopped and looked back. Mriya could read her face but no longer feel her position through Chosen Route.
+
+“Stay,” Nika said.
+
+The command carried no System force. It still hurt.
+
+Mriya stayed.
+
+Nika climbed out of sight.
+
+The surface door opened. City air entered: smoke, river salt, frightened crowds, distant dogs, routes in every direction.
+
+The door closed.
+
+Mriya waited at the bottom of the stairs.
+
+One minute became many. Borscht came and sat against her front leg without speaking. Atlas stood farther back. No one offered reassurance they could not prove.
+
+Footsteps returned.
+
+Nika descended carrying a paper bag from the bakery near apartment 4B. The bakery’s windows had survived. Its owner had traded six rolls for news of the clean east water.
+
+Nika stopped one step above Mriya.
+
+Her scent was exhausted, angry, frightened, and entirely her own.
+
+“I’m still mad at you,” she said.
+
+Mriya lowered her head.
+
+Nika sat on the stair and opened the bag. She tore one roll in half, gave Mriya the larger piece, then reconsidered and made the halves equal.
+
+“I came back,” she said.
+
+No stat increased.
+
+Mriya ate beside her anyway.

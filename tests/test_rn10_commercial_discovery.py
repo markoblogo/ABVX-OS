@@ -123,13 +123,15 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["chapters_drafted"], 15)
-        self.assertEqual(progress["next_chapter"], 16)
-        self.assertEqual(manuscript.count("# Chapter "), 15)
+        self.assertEqual(progress["chapters_drafted"], 21)
+        self.assertEqual(progress["next_chapter"], 22)
+        self.assertEqual(manuscript.count("# Chapter "), 21)
         self.assertIn("[CACHE DETECTED]", manuscript)
         self.assertIn("[CLASSIFICATION PENDING]", manuscript)
         self.assertIn("[CLASS ACQUIRED: STRAY]", manuscript)
         self.assertIn("[PACK HEARTH ESTABLISHED]", manuscript)
+        self.assertIn("[DEPENDENCY REDEFINED: MEMBERSHIP]", manuscript)
+        self.assertIn("[BOND 2 → 0]", manuscript)
 
 
 if __name__ == "__main__":
