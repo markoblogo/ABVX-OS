@@ -1,0 +1,11 @@
+{
+  "schema_version":"book-radar-final-actions/v1",
+  "run_id":"RN8",
+  "decision":"NO_NEW_PRODUCT",
+  "actions":[
+    {"rank":1,"action":"COLLECT_VISIBILITY_DATA","target":"existing live portfolio","reason":"KDP verifies availability and sales history but exposes no search impressions or detail-page traffic; zero-unit titles cannot yet be split into discovery versus conversion failure."},
+    {"rank":2,"action":"AUDIT_EXISTING_PACKAGING","target":"THE HUMAN BACKUP PLAN","reason":"RN8-006 is an existing-product match; test title/search language, paperback/workbook orientation, and family-emergency emphasis before creating anything new."},
+    {"rank":3,"action":"MONITOR_TRIGGER","target":"RN8-001 General Class 2027-2031 visual cram map","reason":"Strongest novel book-channel fit, but wait for the official new question pool and obtain visible newcomer evidence."}
+  ],
+  "production_authorized":false
+}

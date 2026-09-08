@@ -1,0 +1,26 @@
+{
+  "schema_version":"book-radar-import/v1",
+  "radar_runs":[{"id":"RN8","name":"Radar-Native Discovery #8 book-demand-first","observed_at":"2026-09-08","status":"NO_NEW_PRODUCT_COLLECT_VISIBILITY_DATA","opportunities_scanned":15,"deep_scanned":6,"production_authorized":false,"strategy":"candidate-generation-v4-book-demand"}],
+  "opportunities":[
+    {"id":"RN8-001","radar_run_id":"RN8","buyer_job":"General candidate needs a visual map for the 2027-2031 pool","query_cluster":"General class ham radio study guide 2027 2031","format":"PAPERBACK","price_band":19.99,"concept":"General Class Visual Cram Map"},
+    {"id":"RN8-002","radar_run_id":"RN8","buyer_job":"First-time traveler needs a resilient 2027 eclipse plan","query_cluster":"2027 total solar eclipse travel guide","format":"PAPERBACK","price_band":16.99,"concept":"2027 Eclipse First-Timer Field Guide"},
+    {"id":"RN8-003","radar_run_id":"RN8","buyer_job":"AP Precalculus student needs paced year-long extra practice","query_cluster":"AP Precalculus practice book 2027","format":"PAPERBACK","price_band":18.99,"concept":"AP Precalculus Year-Long Practice Bridge"},
+    {"id":"RN8-004","radar_run_id":"RN8","buyer_job":"Older Windows 10 user needs an ESU-to-Windows-11 decision path","query_cluster":"Windows 11 for seniors 2026 book","format":"PAPERBACK","price_band":17.99,"concept":"Windows 10 ESU-to-11 Senior Transition"},
+    {"id":"RN8-006","radar_run_id":"RN8","buyer_job":"Household owner needs a family continuity handoff","query_cluster":"family emergency binder organizer","format":"PAPERBACK","price_band":16.99,"concept":"Family Emergency Handoff Book"},
+    {"id":"RN8-010","radar_run_id":"RN8","buyer_job":"CDL candidate needs to rehearse a state-specific pre-trip oral sequence","query_cluster":"CDL pre trip inspection study guide 2026","format":"PAPERBACK","price_band":16.99,"concept":"CDL Pre-Trip Oral Rehearsal Workbook"}
+  ],
+  "evidence":[
+    {"id":"evidence:RN8:authenticated-kdp","observed_at":"2026-09-08","summary":"Authenticated KDP showed published formats live and 76 processed units over 90 days; September 1-8 had zero processed orders and 92 KENP pages.","source_ref":"book-radar/runs/rn8/portfolio-zero-sales-diagnostic.json"},
+    {"id":"evidence:RN8:book-demand-screen","observed_at":"2026-09-08","summary":"Fifteen buyer situations screened; six deep checked; none authorized.","source_ref":"book-radar/runs/rn8/buyer-situations.json"},
+    {"id":"evidence:RN8:external-sources","observed_at":"2026-09-08","summary":"Triggers, listings, paid format proxies, and buyer requests kept separate.","source_ref":"book-radar/runs/rn8/evidence-ledger.json"}
+  ],
+  "decisions":[
+    {"id":"decision:RN8:final","opportunity_id":"RN8-001","decision":"NO_NEW_PRODUCT_COLLECT_VISIBILITY_DATA","reason":"Visibility measurement and equal-window portfolio diagnosis are higher priority than another book.","decided_at":"2026-09-08","production_authorized":false},
+    {"id":"decision:RN8-001:monitor","opportunity_id":"RN8-001","decision":"MONITOR_TRIGGER","reason":"Wait for official General pool and newcomer traction.","decided_at":"2026-09-08","production_authorized":false},
+    {"id":"decision:RN8-002:monitor","opportunity_id":"RN8-002","decision":"MONITOR_TRIGGER","reason":"Incumbent, volatility, and traction questions remain.","decided_at":"2026-09-08","production_authorized":false},
+    {"id":"decision:RN8-003:stop","opportunity_id":"RN8-003","decision":"ATTRACTIVE_BUT_NOT_FOR_US","reason":"Subject authority and question burden exceed delivery boundary.","decided_at":"2026-09-08","production_authorized":false},
+    {"id":"decision:RN8-004:stop","opportunity_id":"RN8-004","decision":"REJECTED_WINDOW","reason":"Preparation cannot precede the trigger close.","decided_at":"2026-09-08","production_authorized":false},
+    {"id":"decision:RN8-006:audit","opportunity_id":"RN8-006","decision":"AUDIT_EXISTING_PACKAGING","reason":"Existing-product match; duplicate production blocked.","decided_at":"2026-09-08","production_authorized":false},
+    {"id":"decision:RN8-010:insufficient","opportunity_id":"RN8-010","decision":"INSUFFICIENT_EVIDENCE","reason":"State scope, traction, and QA remain unresolved.","decided_at":"2026-09-08","production_authorized":false}
+  ]
+}

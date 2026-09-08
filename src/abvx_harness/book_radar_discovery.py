@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import date
 from typing import Any
 
 from .harness import ValidationError
@@ -31,6 +32,38 @@ REQUIRED_SITUATION_FIELDS = (
     "unmet_need",
     "publishing_format_fit",
     "discovery_channel",
+)
+
+BOOK_DEMAND_EVIDENCE_TYPES = {
+    "OBSERVED_FORMAT_PURCHASES",
+    "CURRENT_BOOK_TRACTION_PROXY",
+    "EXPLICIT_BOOK_REQUEST",
+    "LISTING_ONLY",
+    "TREND_ONLY",
+    "SERVICE_SPEND_ONLY",
+    "NONE",
+}
+BOOK_DEMAND_STRENGTHS = {"STRONG", "MODERATE", "WEAK", "UNKNOWN", "NEGATIVE"}
+ASSET_FIT_STATUSES = {"PACKAGING_AUDIT", "SCENARIO_ADAPTATION", "NEW_CONTENT_REQUIRED", "NO_FIT"}
+TRIGGER_CONFIDENCE = {"CONFIRMED", "LIKELY", "SPECULATIVE", "NONE"}
+NEXT_DECISIONS = {
+    "VALIDATE_NEW_BOOK",
+    "AUDIT_EXISTING_PACKAGING",
+    "MONITOR_TRIGGER",
+    "COLLECT_VISIBILITY_DATA",
+    "STOP",
+    "INSUFFICIENT_EVIDENCE",
+}
+REQUIRED_BOOK_BUYING_FIELDS = (
+    "discovery_source",
+    "book_demand_evidence",
+    "discovery_path",
+    "unmet_scenario",
+    "external_trigger",
+    "demand_window",
+    "existing_asset_fit",
+    "uncertainties",
+    "next_decision",
 )
 
 
@@ -83,3 +116,86 @@ def recommend_decision(
 def independent_publishers(source_records: list[dict[str, Any]]) -> int:
     """Count independent publishers, not pages or URLs from the same seller."""
     return len({record["publisher"].strip().casefold() for record in source_records if record.get("publisher")})
+
+
+def validate_book_buying_situation(candidate: dict[str, Any]) -> None:
+    """Validate the book-demand-first discovery extension without breaking v3 records."""
+    validate_buyer_situation(candidate)
+    missing = [field for field in REQUIRED_BOOK_BUYING_FIELDS if candidate.get(field) in (None, "")]
+    if missing:
+        raise ValidationError(f"book-buying situation missing fields: {missing}")
+
+    demand = candidate["book_demand_evidence"]
+    if demand.get("type") not in BOOK_DEMAND_EVIDENCE_TYPES:
+        raise ValidationError("invalid book demand evidence type")
+    if demand.get("strength") not in BOOK_DEMAND_STRENGTHS:
+        raise ValidationError("invalid book demand evidence strength")
+    if not isinstance(demand.get("source_ids"), list):
+        raise ValidationError("book demand evidence source_ids must be an array")
+    if demand["strength"] not in {"UNKNOWN", "NEGATIVE"} and not demand["source_ids"]:
+        raise ValidationError("positive book demand evidence requires sources")
+
+    trigger = candidate["external_trigger"]
+    if trigger.get("confidence") not in TRIGGER_CONFIDENCE:
+        raise ValidationError("invalid external trigger confidence")
+    if not isinstance(trigger.get("source_ids"), list):
+        raise ValidationError("external trigger source_ids must be an array")
+
+    asset = candidate["existing_asset_fit"]
+    if asset.get("status") not in ASSET_FIT_STATUSES or not asset.get("reason"):
+        raise ValidationError("invalid existing asset fit")
+    if not isinstance(candidate["uncertainties"], list):
+        raise ValidationError("uncertainties must be an array")
+    if candidate["next_decision"] not in NEXT_DECISIONS:
+        raise ValidationError("invalid next decision")
+
+    window = candidate["demand_window"]
+    if not isinstance(window.get("preparation_days"), int) or window["preparation_days"] < 0:
+        raise ValidationError("demand window requires non-negative preparation_days")
+    for field in ("opens", "closes"):
+        if window.get(field):
+            date.fromisoformat(window[field])
+
+
+def book_demand_supported(evidence: dict[str, Any]) -> bool:
+    """A topic trend, service spend, or listing alone is not evidence that this book is bought."""
+    return (
+        evidence.get("type")
+        in {"OBSERVED_FORMAT_PURCHASES", "CURRENT_BOOK_TRACTION_PROXY", "EXPLICIT_BOOK_REQUEST"}
+        and evidence.get("strength") in {"STRONG", "MODERATE"}
+        and bool(evidence.get("source_ids"))
+    )
+
+
+def rights_ready(*, original_public_domain: bool, translation_rights: str) -> bool:
+    """Public-domain source status never silently grants rights to a translation."""
+    return original_public_domain and translation_rights in {"PUBLIC_DOMAIN", "LICENSED", "ORIGINAL_TRANSLATION"}
+
+
+def diagnose_zero_sales(*, sales: int, impressions: int | None, live_verified: bool) -> str:
+    """Separate availability/visibility failure from observed conversion."""
+    if not live_verified:
+        return "PUBLIC_AVAILABILITY_UNVERIFIED"
+    if sales == 0 and impressions is None:
+        return "INSUFFICIENT_VISIBILITY_DATA"
+    if sales == 0 and impressions == 0:
+        return "NO_OBSERVED_VISIBILITY"
+    if sales == 0:
+        return "ZERO_CONVERSION_IN_OBSERVED_TRAFFIC"
+    return "SALES_OBSERVED"
+
+
+def demand_window_viable(window: dict[str, Any], *, as_of: date) -> bool:
+    """Reject a temporary opportunity when preparation finishes after its demand window."""
+    closes = date.fromisoformat(window["closes"]) if window.get("closes") else None
+    if closes is None:
+        return True
+    return (closes - as_of).days > window["preparation_days"]
+
+
+def eligible_for_new_book(candidate: dict[str, Any], *, as_of: date) -> bool:
+    """Assets and small-market labels cannot override weak demand or a missed window."""
+    validate_book_buying_situation(candidate)
+    return book_demand_supported(candidate["book_demand_evidence"]) and demand_window_viable(
+        candidate["demand_window"], as_of=as_of
+    )

@@ -1,0 +1,18 @@
+{
+  "schema_version":"book-radar-portfolio-diagnostic/v1",
+  "run_id":"RN8",
+  "observed_at":"2026-09-08",
+  "input_claim":{"claim":"zero Amazon sales across all books","source":"user_report","status":"CONTRADICTED_BY_AUTHENTICATED_KDP_REPORT"},
+  "verified_observations":{"published_titles_visible_on_bookshelf":20,"bookshelf_status":"PUBLISHED_FORMATS_LIVE","orders_2026_09_01_to_2026_09_08":0,"kenp_pages_2026_09_01_to_2026_09_08":92,"estimated_royalties_eur_2026_09_01_to_2026_09_08":0.38,"processed_units_2026_06_11_to_2026_09_08":76,"ebook_units_90d":47,"print_units_90d":29},
+  "diagnosis":{"availability":"VERIFIED_LIVE_FOR_PUBLISHED_FORMATS","discovery":"UNKNOWN_NO_IMPRESSION_OR_QUERY_DATA","conversion":"UNKNOWN_FOR_ZERO_SELLERS_WITHOUT_TRAFFIC_DENOMINATOR","product_fit":"MIXED_PORTFOLIO_HAS_OBSERVED_SALES_BUT_NEW_EXPERIMENTS_HAVE_NONE","observation_time":"INSUFFICIENT_FOR_NEW_EXPERIMENTS_1_TO_4_DAYS; MEANINGFUL_90D_PORTFOLIO_WINDOW_EXISTS"},
+  "new_experiments":[
+    {"id":"PMP-2026","live":true,"submitted":"2026-09-04","processed_units_90d":0,"interpretation":"only four days observed; no discovery denominator"},
+    {"id":"RN2-037","live":true,"submitted":"2026-09-06","processed_units_90d":0,"interpretation":"only two days observed; no discovery denominator"},
+    {"id":"RN3-091","live":true,"submitted":"2026-09-07","processed_units_90d":0,"interpretation":"only one day observed; no discovery denominator"},
+    {"id":"RN5-001","live":true,"submitted":"2026-09-07","processed_units_90d":0,"interpretation":"only one day observed; no discovery denominator"}
+  ],
+  "existing_product_case":{"id":"HUMAN-BACKUP-PLAN","live":true,"submitted":"2026-08-19","processed_units_90d":0,"interpretation":"longer but still short observation; packaging/search mismatch remains plausible, conversion cannot be diagnosed without impressions or detail-page traffic"},
+  "portfolio_sales_examples":[{"title":"Fragments from a Therapist's Notebook","units":26},{"title":"Meditations of Marcus Aurelius — in Toki Pona","units":14},{"title":"Marcus Aurelius' Guide to the Zombie Apocalypse","units":12}],
+  "priority":"COLLECT_VISIBILITY_DATA_BEFORE_NEW_PRODUCT",
+  "sources":["SRC-RN8-KDP-BOOKSHELF","SRC-RN8-KDP-ORDERS-90D","SRC-RN8-KDP-MONTH"]
+}

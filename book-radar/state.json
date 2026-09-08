@@ -11007,6 +11007,62 @@
       "opportunity_id": "RN7R-012",
       "production_authorized": false,
       "reason": "Credible condition interpretation and image standards require specialist editorial judgment."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "NO_NEW_PRODUCT_COLLECT_VISIBILITY_DATA",
+      "id": "decision:RN8:final",
+      "opportunity_id": "RN8-001",
+      "production_authorized": false,
+      "reason": "Visibility measurement and equal-window portfolio diagnosis are higher priority than another book."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "MONITOR_TRIGGER",
+      "id": "decision:RN8-001:monitor",
+      "opportunity_id": "RN8-001",
+      "production_authorized": false,
+      "reason": "Wait for official General pool and newcomer traction."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "MONITOR_TRIGGER",
+      "id": "decision:RN8-002:monitor",
+      "opportunity_id": "RN8-002",
+      "production_authorized": false,
+      "reason": "Incumbent, volatility, and traction questions remain."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "id": "decision:RN8-003:stop",
+      "opportunity_id": "RN8-003",
+      "production_authorized": false,
+      "reason": "Subject authority and question burden exceed delivery boundary."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "REJECTED_WINDOW",
+      "id": "decision:RN8-004:stop",
+      "opportunity_id": "RN8-004",
+      "production_authorized": false,
+      "reason": "Preparation cannot precede the trigger close."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "AUDIT_EXISTING_PACKAGING",
+      "id": "decision:RN8-006:audit",
+      "opportunity_id": "RN8-006",
+      "production_authorized": false,
+      "reason": "Existing-product match; duplicate production blocked."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "id": "decision:RN8-010:insufficient",
+      "opportunity_id": "RN8-010",
+      "production_authorized": false,
+      "reason": "State scope, traction, and QA remain unresolved."
     }
   ],
   "evidence": [
@@ -23453,6 +23509,24 @@
       "opportunity_id": "RN7R-012",
       "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json",
       "summary": "Credible condition interpretation and image standards require specialist editorial judgment."
+    },
+    {
+      "id": "evidence:RN8:authenticated-kdp",
+      "observed_at": "2026-09-08",
+      "source_ref": "book-radar/runs/rn8/portfolio-zero-sales-diagnostic.json",
+      "summary": "Authenticated KDP showed published formats live and 76 processed units over 90 days; September 1-8 had zero processed orders and 92 KENP pages."
+    },
+    {
+      "id": "evidence:RN8:book-demand-screen",
+      "observed_at": "2026-09-08",
+      "source_ref": "book-radar/runs/rn8/buyer-situations.json",
+      "summary": "Fifteen buyer situations screened; six deep checked; none authorized."
+    },
+    {
+      "id": "evidence:RN8:external-sources",
+      "observed_at": "2026-09-08",
+      "source_ref": "book-radar/runs/rn8/evidence-ledger.json",
+      "summary": "Triggers, listings, paid format proxies, and buyer requests kept separate."
     }
   ],
   "launches": [
@@ -47137,6 +47211,60 @@
       "price_band": "UNVALIDATED",
       "query_cluster": "Collector and conservation search",
       "radar_run_id": "RN7-PAID-NEED"
+    },
+    {
+      "buyer_job": "General candidate needs a visual map for the 2027-2031 pool",
+      "concept": "General Class Visual Cram Map",
+      "format": "PAPERBACK",
+      "id": "RN8-001",
+      "price_band": 19.99,
+      "query_cluster": "General class ham radio study guide 2027 2031",
+      "radar_run_id": "RN8"
+    },
+    {
+      "buyer_job": "First-time traveler needs a resilient 2027 eclipse plan",
+      "concept": "2027 Eclipse First-Timer Field Guide",
+      "format": "PAPERBACK",
+      "id": "RN8-002",
+      "price_band": 16.99,
+      "query_cluster": "2027 total solar eclipse travel guide",
+      "radar_run_id": "RN8"
+    },
+    {
+      "buyer_job": "AP Precalculus student needs paced year-long extra practice",
+      "concept": "AP Precalculus Year-Long Practice Bridge",
+      "format": "PAPERBACK",
+      "id": "RN8-003",
+      "price_band": 18.99,
+      "query_cluster": "AP Precalculus practice book 2027",
+      "radar_run_id": "RN8"
+    },
+    {
+      "buyer_job": "Older Windows 10 user needs an ESU-to-Windows-11 decision path",
+      "concept": "Windows 10 ESU-to-11 Senior Transition",
+      "format": "PAPERBACK",
+      "id": "RN8-004",
+      "price_band": 17.99,
+      "query_cluster": "Windows 11 for seniors 2026 book",
+      "radar_run_id": "RN8"
+    },
+    {
+      "buyer_job": "Household owner needs a family continuity handoff",
+      "concept": "Family Emergency Handoff Book",
+      "format": "PAPERBACK",
+      "id": "RN8-006",
+      "price_band": 16.99,
+      "query_cluster": "family emergency binder organizer",
+      "radar_run_id": "RN8"
+    },
+    {
+      "buyer_job": "CDL candidate needs to rehearse a state-specific pre-trip oral sequence",
+      "concept": "CDL Pre-Trip Oral Rehearsal Workbook",
+      "format": "PAPERBACK",
+      "id": "RN8-010",
+      "price_band": 16.99,
+      "query_cluster": "CDL pre trip inspection study guide 2026",
+      "radar_run_id": "RN8"
     }
   ],
   "portfolio_products": [
@@ -47422,6 +47550,16 @@
       "production_authorized": false,
       "status": "CONSIDER_DIGITAL_FORMAT",
       "strategy": "candidate-generation-v3-paid-need"
+    },
+    {
+      "deep_scanned": 6,
+      "id": "RN8",
+      "name": "Radar-Native Discovery #8 book-demand-first",
+      "observed_at": "2026-09-08",
+      "opportunities_scanned": 15,
+      "production_authorized": false,
+      "status": "NO_NEW_PRODUCT_COLLECT_VISIBILITY_DATA",
+      "strategy": "candidate-generation-v4-book-demand"
     }
   ],
   "schema_version": "book-radar-state/v1",

@@ -1,0 +1,61 @@
+{
+  "schema_version": "candidate-generation-strategy/v4",
+  "id": "candidate-generation-v4-book-demand",
+  "status": "ACTIVE_EXPERIMENT",
+  "effective_from_run": "RN8",
+  "search_unit": "BUYER x PURCHASE_TRIGGER x BOOK_BUYING_JOB x SEARCH_OR_DISTRIBUTION_CHANNEL x UNMET_SCENARIO",
+  "inherits": "candidate-generation-v3-paid-need",
+  "discovery_directions": [
+    "existing book demand and unmet scenarios",
+    "cultural events and adaptations",
+    "technology changes",
+    "recurring and calendar demand",
+    "external buyer requests"
+  ],
+  "required_additional_fields": [
+    "discovery_source",
+    "book_demand_evidence",
+    "discovery_path",
+    "unmet_scenario",
+    "external_trigger",
+    "demand_window",
+    "existing_asset_fit",
+    "uncertainties",
+    "next_decision"
+  ],
+  "book_demand_evidence_types": [
+    "OBSERVED_FORMAT_PURCHASES",
+    "CURRENT_BOOK_TRACTION_PROXY",
+    "EXPLICIT_BOOK_REQUEST",
+    "LISTING_ONLY",
+    "TREND_ONLY",
+    "SERVICE_SPEND_ONLY",
+    "NONE"
+  ],
+  "rules": [
+    "topic interest and external trends do not establish demand for our edition",
+    "service spending does not establish book demand",
+    "a listing establishes supply, not purchases",
+    "BSR reviews suggestions and trends are dated proxies, not unit sales",
+    "zero sales without verified availability and impressions do not establish absent demand",
+    "small niches are judged against production cost competition and owner attention rather than rejected by size",
+    "existing assets reduce production cost but never compensate for weak need or weak book demand",
+    "temporary opportunities must retain a meaningful selling window after preparation",
+    "public-domain source text does not grant rights to a modern translation illustration or branded packaging",
+    "a useful book must work without personal service",
+    "RN7R-009 is reserved for a possible digital direction and excluded from active KDP discovery"
+  ],
+  "run_limits": {
+    "buyer_situations": 25,
+    "deep_checks": 6,
+    "final_actions": 3,
+    "watch_items": 5
+  },
+  "historical_compatibility": {
+    "prior_runs_immutable": true,
+    "RN6_decision": "NO_PRODUCT",
+    "RN7_original_run_preserved": true,
+    "RN7_paid_need_preserved": true,
+    "permanent_scoring_weights_changed": false
+  }
+}

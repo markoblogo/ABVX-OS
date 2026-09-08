@@ -21,4 +21,27 @@ advantage remains. `READY_FOR_VALIDATION` never authorizes production.
 
 Current executable rules live in
 `src/abvx_harness/book_radar_discovery.py`; the experimental strategy is
-`book-radar/strategies/candidate-generation-v3-paid-need.json`.
+`book-radar/strategies/candidate-generation-v4-book-demand.json`.
+
+## Book-demand-first extension
+
+From RN8, candidates enter deep scan only after recording why a buyer chooses
+a book, workbook, or reference; the dated evidence for purchases of a
+comparable format; the discovery path; and the unmet use scenario. Topic
+interest, service spending, listings, reviews, BSR, suggestions, and trends
+remain separate signals and are never converted into unit-sales claims.
+
+Temporary opportunities record a confirmed or bounded trigger, demand window,
+and preparation time. Public-domain status is tracked separately for the source
+text, translations, illustrations, and packaging. Existing assets are matched
+only after external demand is established; fit may route to a packaging audit,
+scenario adaptation, new content, or no fit.
+
+Zero-sales diagnosis is layered: verify public availability first, then
+visibility, conversion, product fit, and observation duration. Without
+impressions or verified live dates, zero sales is an observation with an
+unknown denominator, not evidence of zero demand.
+
+Authenticated portfolio evidence may be collected under
+`docs/kdp-portfolio-audit.md`. This channel is read-only and must not be used
+to change listings without a separate explicit publishing instruction.

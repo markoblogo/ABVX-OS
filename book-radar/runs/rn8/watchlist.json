@@ -1,0 +1,10 @@
+{
+  "schema_version":"book-radar-watchlist/v1",
+  "run_id":"RN8",
+  "items":[
+    {"id":"RN8-001","watch_for":"official 2027-2031 General pool release and current independent-book traction"},
+    {"id":"RN8-002","watch_for":"newcomer guide traction and a defensible itinerary/safety gap"},
+    {"id":"RN8-010","watch_for":"state-bounded buyer evidence and independent-title traction"},
+    {"id":"RN8-011","watch_for":"Amazon purchase/review evidence for beginner source-citation workbooks"}
+  ]
+}

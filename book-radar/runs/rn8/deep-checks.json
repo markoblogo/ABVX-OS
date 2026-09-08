@@ -1,0 +1,12 @@
+{
+  "schema_version":"book-radar-deep-checks/v1",
+  "run_id":"RN8",
+  "checks":[
+    {"id":"RN8-001","result":"MONITOR_TRIGGER","why":"Real manual/class channel and a scheduled pool change; new pool and newcomer traction are missing.","production_authorized":false},
+    {"id":"RN8-002","result":"MONITOR_TRIGGER","why":"Real fixed event and paid guide market, but incumbents, travel volatility, and no Amazon traction evidence prevent investment.","production_authorized":false},
+    {"id":"RN8-003","result":"ATTRACTIVE_BUT_NOT_FOR_US","why":"Explicit scenario and book buying exist; subject authority, original question volume, and incumbents make autonomous production unattractive.","production_authorized":false},
+    {"id":"RN8-004","result":"REJECT_WINDOW","why":"The confirmed October 2026 trigger closes before a conservative book can be built and indexed.","production_authorized":false},
+    {"id":"RN8-006","result":"AUDIT_EXISTING_PACKAGING","why":"Demand points to an existing portfolio thesis, so a new title would duplicate rather than test a novel market.","production_authorized":false},
+    {"id":"RN8-010","result":"INSUFFICIENT_EVIDENCE","why":"Recent independent supply and a checklist request are encouraging, but sales, state-specific scope, and autonomous QA remain unresolved.","production_authorized":false}
+  ]
+}
