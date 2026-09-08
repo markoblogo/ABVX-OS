@@ -72,6 +72,14 @@ The System delivers Tomas, Irena and Vale as three dependent human claims. Mriya
 
 Bond Treatment stabilizes Nika's infection and exhaustion but makes her productive, cheerful and unable to move beyond bonded range. Mriya terminates the treatment by accepting Bond 2 to 0, suspending the human bridge and extended Chosen Route. Nika subsequently leaves and returns by choice; the relationship survives, but her anger remains unresolved.
 
+## Established continuity through chapter 27
+
+The Hearth rejects a universal Human, Canine or Command access profile. The inhabitants instead build a ramp, small-dog tunnel, temporary guarded door and two-member emergency panel. This plural access network costs 9% redundancy but reduces exclusion failure.
+
+A valuable human food Cache poisons Borscht. The System prices canine stabilization at 4 Supply and offers recovery of Trace if his claim is released. A prohibited medical Cache later revives Vale for 1 Supply and awards Favor for preserving a dependent human asset. The unequal valuation becomes explicit.
+
+The settlement adopts species-specific food and medicine inventories. Cross-species use requires a two-member emergency approval. The group forfeits unified conversion efficiency to block unsafe resource conversion. Borscht and Vale survive. Nika's anger toward Mriya begins to change only through observed choices; Bond remains 0.
+
 ## Style and tone
 
 - Warm sensory specificity before lore explanation.

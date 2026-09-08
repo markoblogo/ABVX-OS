@@ -10,13 +10,13 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Cost class: EXPENSIVE, explicitly accepted by the owner.
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
-- Chapters 1–21 drafted in `manuscript/MASTER_MANUSCRIPT.md`; Act I and two Act II tranches are complete.
-- Current manuscript count: 15,599 words by `wc -w`.
+- Chapters 1–27 drafted in `manuscript/MASTER_MANUSCRIPT.md`; Acts I–III are complete in compressed form.
+- Current manuscript count: 18,068 words by `wc -w`.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Write chapters 22–27: assemble incompatible expansion modules, solve access through plural entrances, then expose unequal human/dog resource rules through food poisoning and a prohibited medical Cache.
+Write chapters 28–33: resolve Rook's tribute demand through a useful pack-built tool, gain his conditional defense, then test identity and trust when a false Nika exploits the old Bond permissions.
 
 ## Continuity anchors
 
@@ -33,6 +33,10 @@ Write chapters 22–27: assemble incompatible expansion modules, solve access th
 - Tomas, Irena and Vale joined as members after the group rejected the System's dependent ownership model at a 12% efficiency penalty.
 - Mriya used Bond Treatment to stabilize Nika, then reduced Bond from 2 to 0 to restore her freedom. The human bridge and extended Chosen Route are suspended.
 - Nika left the Hearth and returned voluntarily, but remains angry with Mriya.
+- The Hearth now has four negotiated access routes; the settlement accepted a 9% redundancy cost instead of one dominant profile.
+- Borscht is recovering after human food poisoning. The System priced his stabilization at 4 Supply but Vale's revival at 1 Supply plus Favor.
+- Species-specific food and medicine rules are active; unified efficiency was forfeited.
+- Rook has returned with six warehouse dogs and a tribute ring.
 - The cozy bond between Mriya and Nika must stay sincere while System mechanics corrupt care.
 
 ## Reuse first

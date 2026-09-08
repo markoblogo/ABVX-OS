@@ -2757,3 +2757,455 @@ Nika sat on the stair and opened the bag. She tore one roll in half, gave Mriya 
 No stat increased.
 
 Mriya ate beside her anyway.
+
+# Chapter Twenty-Two: Assembly Required
+
+The expansion arrived in pieces.
+
+At dawn the iron housing opened and lifted six metal bundles from beneath the floor. They unfolded across the Hearth with the confidence of objects that assumed instructions were a courtesy.
+
+One bundle became a narrow tunnel lined with grips for claws.
+
+One became a door with a human handle.
+
+One became a waist-high gate that opened only when Atlas stood before it.
+
+The remaining pieces refused to become anything while Pixel watched them.
+
+“They know me,” she said.
+
+Cold labels appeared for Mriya alone.
+
+> [HEARTH EXPANSION MODULES]
+>
+> Select primary access profile: Human / Canine / Command
+
+There was no Stray option.
+
+Bond 0 left the human words beyond Mriya’s reach. Nika saw hardware. Mriya saw functions. Neither could pass the whole problem to the other.
+
+Nika still smelled angry.
+
+She had returned by choice, shared bread, and slept with her back against the opposite wall. These facts did not cancel one another.
+
+Tomas lifted a steel frame. “Human door. Standard width.”
+
+Irena examined the claw tunnel. “That connects to a drainage branch too small for us.”
+
+Atlas stood before the command gate. It opened with a clean mechanical sound.
+
+“Controlled access,” he said. “One entrance. One guard.”
+
+Pixel put her head through the narrow tunnel. “Three entrances. Four if we remove this grate.”
+
+“That is a drain.”
+
+“That is an entrance with low expectations.”
+
+The Hearth had grown crowded. Eight inhabitants now slept among lockers, pipes, tools, food, maps, and the personal space Vale claimed not to need while occupying more than anyone. A second room would give them storage and a route away from the east tunnel.
+
+The modules offered it cheaply if they agreed who the room was for.
+
+Human promised light, dry floor, and a lock dogs could not operate.
+
+Canine promised scent channels, low tunnels, and no human-sized exit.
+
+Command promised both species under one controlled gate.
+
+Mriya smelled the hidden cost in each: someone would always need permission.
+
+Nika ran her fingers over the human handle. “This can’t be the only option.”
+
+Mriya touched all three frames in turn.
+
+Nika understood the objection, if not the interface. “Then we build before choosing.”
+
+The System disliked the order of operations.
+
+Every module folded flat.
+
+Assembly markings appeared on the floor: clean lines visible to humans, scent instructions visible to dogs, and vibration cues Pixel alone could detect. None described the same final structure.
+
+Tomas sat back on his heels. “It has three sets of plans.”
+
+“Four,” Pixel said. “The floor is tapping.”
+
+Vale smiled. “Good. A committee.”
+
+Mriya missed the human bridge enough to resent herself for missing it.
+
+# Chapter Twenty-Three: Pieces That Refuse
+
+Atlas imposed order at midday.
+
+He divided the work by competence. Tomas assembled frames. Irena traced utilities. Nika sorted fasteners. Emil held the light. Vale acquired missing parts from a location he continued to describe as nearby. Dogs carried, tested, and guarded.
+
+For one hour, the expansion progressed.
+
+The command gate became a central frame. The human door attached to its west side. The claw tunnel joined below. All traffic converged on the place Atlas could supervise.
+
+“Functional,” Tomas said.
+
+Mriya walked the route.
+
+Atlas could see everyone enter. A person carrying supplies had room. A small dog could pass beneath without being stepped on. It was efficient.
+
+It also smelled like a kennel designed by someone kind.
+
+Pixel reached the same conclusion by a shorter route.
+
+She disappeared into the drain.
+
+The floor began tapping rapidly.
+
+“Pixel,” Atlas said.
+
+Metal scraped behind the wall. A latch snapped. The terrier emerged through the unfinished expansion room with a cable between her teeth.
+
+“Solved the lock.”
+
+The command gate closed.
+
+Atlas stepped toward it. The gate opened halfway, detected Pixel’s bypass, and shut again.
+
+The human door locked. The claw tunnel contracted around Borscht’s middle.
+
+He backed out with a sound of personal betrayal.
+
+Every module pulled against every other. Tomas dropped his wrench as the floor shifted. Nika and Irena jumped into the old Hearth. Vale remained in the new room with the emergency food crate he had just delivered.
+
+“I have good news,” he called through the sealed door. “The room works.”
+
+Then the original Hearth boundary hardened.
+
+Emil tried to enter and stopped at the line. Borscht, on the other side, tried to reach him and met the same resistance.
+
+The settlement had divided itself according to the competing plans.
+
+Humans in one zone. Dogs in another. Command at the center. Exceptions nowhere.
+
+> [ACCESS CONFLICT]
+>
+> Unauthorized topology detected.
+>
+> Hearth sealed pending primary profile.
+
+Atlas planted himself before the gate. “Command profile. Now.”
+
+The choice opened for Mriya.
+
+It would free everyone. It would also give Atlas permanent control of the only shared entrance.
+
+Pixel scratched from inside the wall. “Canine profile. Humans can ask.”
+
+Nika pressed her hand against the invisible boundary. Mriya stood one body length away, unable to cross.
+
+“Don’t choose for us again,” Nika said.
+
+Bond 0 carried no intent between them. Only voice, posture, history.
+
+Mriya stepped away from the offered profiles.
+
+The floor cooled.
+
+The water stopped.
+
+The Hearth had locked out its own inhabitants rather than tolerate an entrance it could not classify.
+
+# Chapter Twenty-Four: A Door for Everyone
+
+The solution began with Borscht.
+
+He did not understand primary profiles. He understood that Emil was visible and unreachable. After exhausting barking, scratching, and allegations against architecture, he lay down at the boundary.
+
+Emil lay down opposite him.
+
+Neither asked to control the gate. They wanted one path between two specific bodies.
+
+Mriya followed that scent.
+
+She placed Borscht’s cloth rabbit at the boundary. Emil put his lavender handkerchief opposite it. The two private markers had built the Hearth once. Now they described a route that mattered to both sides.
+
+A narrow opening warmed between them.
+
+Borscht walked through.
+
+The System had not authorized it. The Hearth had recognized it.
+
+Mriya went to Nika. Her own collar remained around the iron housing; Nika’s photograph lay beside it. Mriya pushed the collar toward the human side. Nika understood and placed the photograph against the boundary.
+
+“A door for us?”
+
+Mriya shook her head. Then she pointed her nose toward Irena, Tomas, Vale, Pixel, Atlas, every occupied part of the settlement.
+
+“A door for each agreement,” Nika said.
+
+They dismantled the central frame.
+
+Atlas objected until Mriya asked whether a gate that trapped its guard was command or decoration. He answered by carrying the heaviest brace.
+
+Tomas separated the human handle from the lock. Irena gave each route a manual release connected to the old sanitation line. Pixel returned the stolen cable and installed it as a low alarm wire. Emil marked the accessible path with strips of cloth. Vale negotiated his own release from the new room by surrendering the food crate before anyone opened it.
+
+They built four entrances.
+
+A wide ramp for people, large dogs, tools, and anyone injured.
+
+A low tunnel for small dogs that opened from either side.
+
+A guarded east door whose authority ended when the guard stepped away.
+
+An emergency panel that required two different members to press its releases.
+
+No entrance served everyone equally. Together they allowed everyone through.
+
+Mriya presented the structure to the Hearth.
+
+> [NONSTANDARD ACCESS NETWORK]
+>
+> Redundancy cost: 9%
+>
+> Exclusion failure reduced.
+
+The water returned.
+
+Warmth spread across the old room and into the new one. Boundaries softened. Emil and Borscht crossed the low tunnel together, though Emil had to crawl and later denied doing so.
+
+Nika opened the ramp and walked outside. She returned without looking at Mriya for permission.
+
+Atlas tested the east door. It obeyed while he stood guard and released when he left.
+
+Pixel tested every route and found only the emergency panel impossible to open alone.
+
+“Defective,” she said.
+
+“Successful,” Irena replied.
+
+Mriya stood where the central gate had been.
+
+The Hearth no longer had one front door.
+
+It had choices with hinges.
+
+# Chapter Twenty-Five: Human Food
+
+Vale’s crate contained twelve silver packets, six tins, four bars wrapped in red paper, and a jar of concentrated sweet spread.
+
+The System counted it before anyone opened the first packet.
+
+> [HUMAN CONSUMABLE CACHE]
+>
+> Supply value: 11
+>
+> Settlement efficiency available through unified rationing.
+
+Eleven portions could keep the humans working while Tomas finished the filter and Irena reopened the surface water point. Unified rationing offered another efficiency reward if all food entered one shared pool.
+
+Nika read the labels.
+
+“Dogs can’t eat half of this.”
+
+The System did not revise its valuation.
+
+Emil separated the safe tins. Tomas put the red bars on a high shelf. Vale argued that high shelves were a psychological concept in a room with Pixel.
+
+They counted the food twice.
+
+The sweet spread vanished during the second count.
+
+Borscht lay beneath the lowest locker with the open jar between his paws.
+
+His muzzle shone. His tail moved weakly when Emil called his name.
+
+Then it stopped.
+
+The smell struck Mriya: artificial sweetness, stomach distress, fear moving rapidly into blood. Human food. Dog poison.
+
+Emil dropped to his knees.
+
+“What did he eat?”
+
+Nika grabbed the jar. Irena read the ingredients and swore. Tomas cleared the room around Borscht. Their voices became fast and human, full of knowledge Mriya could not enter with Bond 0.
+
+The Hearth offered a canine assessment.
+
+> [MEMBER FAILURE: CANINE]
+>
+> Stabilization cost: 4 Supply
+>
+> Alternative: release claim and recover 1 Trace
+
+Release claim smelled like letting Borscht die efficiently.
+
+Mriya chose stabilization.
+
+Four of the eleven portions vanished from the System’s count. Warmth concentrated beneath Borscht but did not cure him. It held his breathing unevenly while Irena used the old municipal radio to reach someone who understood the label.
+
+Emil pressed both hands around Borscht without squeezing.
+
+“He didn’t know.”
+
+Pixel crouched behind the locker. She had not stolen the jar. Her scent said she had shown Borscht how to reach the shelf.
+
+“I thought food was food,” she whispered.
+
+So had the System.
+
+The shared pool remained valued at seven portions. The safe dog tins and the poisonous sweet spread still carried the same Supply mark.
+
+Mriya watched Borscht shake against the warm floor.
+
+Unified did not mean equal.
+
+It meant the differences were cheaper to ignore.
+
+# Chapter Twenty-Six: Bad Medicine
+
+Vale left while everyone watched Borscht.
+
+He returned through the ramp carrying a red metal case chained to one wrist. Smoke followed him. So did the hidden scent Mriya had first found beneath the municipal depot: intentional concealment, sharp and folded.
+
+Vale reached the Hearth boundary and collapsed.
+
+The case struck the floor outside.
+
+Nika ran to him. Tomas pulled him across the threshold. Irena found a burn along his sleeve and a pulse that weakened beneath her fingers.
+
+“What did he do?” Emil asked.
+
+“Procurement,” Nika said.
+
+The red case opened under Mriya’s Scent.
+
+> [PROHIBITED MEDICAL CACHE]
+>
+> Intended allocation: registered emergency personnel
+>
+> Claiming constitutes resource diversion.
+
+Bad Dog offered Fear Claim. Good Dog offered retrieval for a recognized handler. Stray offered no approved use.
+
+Vale stopped breathing.
+
+Mriya claimed the Cache anyway.
+
+The chain fell open. Nika saw compartments of sealed medicine and a compact resuscitation unit. Irena knew which pieces mattered. Tomas connected power from the Hearth. Their hands worked while Mriya held the claim against the System’s refusal.
+
+One pulse passed through Vale.
+
+Then another.
+
+He drew breath with a violent cough.
+
+The System counted.
+
+> [DEPENDENT HUMAN ASSET PRESERVED]
+>
+> Cost: 1 Supply
+>
+> Pack productivity retained. Favor +1.
+
+One portion.
+
+Borscht had cost four merely to remain in danger. Vale’s return earned Favor.
+
+Mriya smelled the comparison as clearly as blood.
+
+Nika sat back against the wall. “He went for medicine.”
+
+The red case held supplies a human clinic could use and almost nothing marked safe for dogs. Vale had risked himself because the radio voice said Borscht needed help the Hearth could not provide.
+
+His act was foolish, useful, and his own.
+
+The System reduced it to preserved productivity.
+
+Pixel stood beside Borscht. “Is he worth four of Vale?”
+
+Atlas answered before Mriya could.
+
+“The System counts function.”
+
+“Whose function?”
+
+No one knew.
+
+Mriya spent the new Favor on nothing.
+
+She wanted no profit from the measurement.
+
+# Chapter Twenty-Seven: Different Rules
+
+Borscht survived the night.
+
+The radio instructions, Hearth warmth, and one dog-safe item from the red case carried him through. By morning he could lift his head. By noon he objected to breakfast portions, which Emil accepted as a medical milestone.
+
+Vale woke later and asked whether his heroic procurement had improved his membership status.
+
+“You stole emergency medicine,” Irena said.
+
+“I redirected it toward an emergency.”
+
+“You nearly died.”
+
+“That established sincerity.”
+
+Nika laughed once before remembering she remained angry with several people and one dog.
+
+They placed every consumable in the expansion room.
+
+Human food went on marked shelves. Dog-safe food went into sealed floor bins. Shared water remained shared. Medicine received two inventories: intended species and actual emergency use. Pixel proposed a third inventory called edible despite labels. The proposal failed.
+
+Mriya presented the distinction to the Hearth.
+
+The System resisted.
+
+> [UNIFIED SUPPLY LAW ACTIVE]
+>
+> Separate valuation reduces conversion efficiency.
+>
+> Confirm species-specific rules?
+
+Separate rules would cost them. Fewer System portions from the same food. Slower facility growth. Less strength when Rook or Sable returned.
+
+Unified rules had almost converted Borscht into Trace.
+
+Mriya confirmed.
+
+> [SPECIES-SPECIFIC SUPPLY LAW]
+>
+> Efficiency bonus forfeited.
+>
+> Unsafe conversion blocked. Cross-species use requires two-member emergency approval.
+
+The eleven portions became six human portions, two canine portions, and one shared medical reserve. Two portions disappeared into the cost of admitting reality.
+
+No one celebrated.
+
+Emil fed Borscht from the first canine portion. Borscht ate slowly, glaring at the spoon.
+
+Nika sat beside Mriya near the open ramp.
+
+“You spent four on him,” she said.
+
+Mriya looked at Borscht.
+
+“And you gave up whatever the machine wanted to give you for saving Vale.”
+
+The unspent Favor remained, cold and available.
+
+Nika’s anger had not vanished. It had changed shape. It now contained evidence that Mriya could refuse an advantage even when no one forced her.
+
+Nika rested her hand on the floor between them.
+
+She did not touch Mriya.
+
+Mriya placed one paw beside it.
+
+Across the room, the new entrances opened and closed for different bodies under different rules. The settlement used more material, more time, and more food than the System preferred.
+
+It also kept everyone alive.
+
+From the east door came three deliberate scratches.
+
+Rook waited outside with a metal tribute ring between his teeth.
+
+Behind him stood six warehouse dogs.
