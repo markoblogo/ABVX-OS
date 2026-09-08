@@ -33,3 +33,11 @@ Industry category totals do not forecast a title. Bestseller pages, recommendati
 The KDP portfolio, current listings and Monday audit were untouched. RN9-001 remains historical and its prototype instruction is deferred. No publication, spend, contact or production occurred.
 
 After the run, `mvanhorn/last30days-skill` was qualified for future use as an optional nomination sensor. It was not installed or used to generate RN10 evidence. The admission contract is recorded in `book-radar/audits/last30days-skill-assessment.json` and does not treat engagement as purchase evidence.
+
+## Post-run user-supplied concept: RN10-003
+
+RN10-003, *The Scent System*, is recorded separately from the nine scanned market cards. It combines the user-owned “Собакокалипсис” premise with twelve substantially transformed situation prompts from a second supplied source. Its working position is a dog-POV, darkly comic system-apocalypse and civilization-building LitRPG.
+
+The tonal sequence is deliberate: a sincerely cozy opening with lovable dogs and affectionate owner routines, an uncanny System shift, then black comedy as care becomes dependency and canine settlement mechanics become political power. The package must expose both the cozy entry and darker destination so readers do not mistake it for pure cozy pet fiction.
+
+The concept gate includes a first-volume synopsis, five-stat progression system, twelve-beat map, three-book first-season arc and provisional Amazon metadata. Status: `CONCEPT_PACKAGE_READY_FOR_MARKET_VALIDATION`. Production remains unauthorized; the next gate is a blind packaging test with qualified LitRPG readers.

@@ -48,13 +48,33 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertEqual([item["id"] for item in ranked], ["RN10-002", "RN10-001"])
         decisions = {item["id"]: commercial_discovery_decision(item, as_of=date(2026, 9, 8)) for item in cards}
         self.assertEqual(decisions["RN10-009"], "REJECTED_ON_EVIDENCE")
-        self.assertEqual(decisions["RN10-003"], "INSUFFICIENT_EVIDENCE")
+        self.assertEqual(decisions["RN10-010"], "INSUFFICIENT_EVIDENCE")
 
     def test_final_concepts_match_ranked_cards(self):
         cards = json.loads((RUN / "market-cards.json").read_text())["cards"]
         ranked = rank_commercial_candidates(cards, as_of=date(2026, 9, 8))
         final = json.loads((RUN / "final-concepts.json").read_text())["concepts"]
         self.assertEqual([item["id"] for item in final], [item["id"] for item in ranked])
+
+    def test_user_supplied_rn10_003_is_a_bounded_concept_gate(self):
+        concept = json.loads((RUN / "rn10-003-concept-gate.json").read_text())
+        self.assertEqual(concept["id"], "RN10-003")
+        self.assertEqual(concept["status"], "CONCEPT_PACKAGE_READY_FOR_MARKET_VALIDATION")
+        self.assertFalse(concept["production_authorized"])
+        self.assertEqual(len(concept["progression_system"]["primary_stats"]), 5)
+        self.assertEqual(len(concept["situation_map"]), 12)
+        self.assertEqual(len({item["source_ref"] for item in concept["situation_map"]}), 12)
+
+    def test_rn10_003_listing_package_is_searchable_without_metadata_abuse(self):
+        concept = json.loads((RUN / "rn10-003-concept-gate.json").read_text())
+        listing = concept["listing_package"]
+        self.assertEqual(len(listing["keyword_fields"]), 7)
+        self.assertEqual(len(listing["category_targets"]), 3)
+        self.assertEqual(len(listing["test_variants"]), 3)
+        keyword_text = " ".join(listing["keyword_fields"]).lower()
+        self.assertNotIn("kindle unlimited", keyword_text)
+        self.assertNotIn("kdp select", keyword_text)
+        self.assertNotIn("dungeon crawler carl", keyword_text)
 
 
 if __name__ == "__main__":

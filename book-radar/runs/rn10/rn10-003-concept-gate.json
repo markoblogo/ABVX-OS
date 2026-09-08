@@ -1,0 +1,150 @@
+{
+  "schema_version": "book-radar-fiction-concept/v1",
+  "id": "RN10-003",
+  "created_at": "2026-09-08",
+  "origin": "USER_SUPPLIED_POST_RUN_CONCEPT",
+  "status": "CONCEPT_PACKAGE_READY_FOR_MARKET_VALIDATION",
+  "production_authorized": false,
+  "working_concept": {
+    "title": "The Scent System",
+    "subtitle": "A Darkly Comic System Apocalypse LitRPG",
+    "series": "Good Dogs of the Apocalypse",
+    "series_number": 1,
+    "hook": "Cozy for the dogs. Apocalypse for everyone else.",
+    "genre": "Darkly comic system-apocalypse and civilization-building LitRPG",
+    "tone_arc": [
+      "Deliberately warm domestic comedy and affectionate dog-owner routines",
+      "An uncanny shift as care, treats and obedience acquire visible System values",
+      "Black comedy as canine settlement building becomes human dependency and control"
+    ],
+    "reader_promise": "A dog-POV LitRPG with territory progression, settlement building, pack politics, escalating satire, no harem and a complete first-book objective.",
+    "format_hypothesis": "KINDLE_FIRST_SERIES",
+    "target_length_words": {
+      "minimum": 75000,
+      "maximum": 90000
+    }
+  },
+  "source_contract": {
+    "owned_world_engine": {
+      "source": "Собакокалипсис или как остный нюх на закладки поработил человечество.docx",
+      "sha256": "f44991c44661b8098665e2048b766cefd0fb5c397bfa4fa23f230b187aa59509",
+      "role": "World premise and escalation engine: scent, specialization, economy, political power and canine rule"
+    },
+    "situation_bank": {
+      "source": "ЧОРНАЯ Вадим Саханенко.pdf",
+      "sha256": "289112bce0ebdf2156d0f68c483b3d009064c9e12b357e7825401617fa50b4ae",
+      "role": "Internal prompts for transformed situations; no text, characters, sequencing language or expression is reused",
+      "volume_one_refs": "Book 1, chapter 2, situations 1-12"
+    }
+  },
+  "volume_one_synopsis": "Mriya, an aging shelter mutt, begins in a deliberately cozy world of blankets, treats and small rituals with Nika, a burned-out courier who takes her home. When Mriya follows a strange scent into a service tunnel, she finds both a hidden package and a System interface no human can see. The System classifies intentional hiding as Caches, converts canine instincts into progression and lets dogs claim neglected city spaces. Mriya tries to protect Nika and keep their domestic life intact, but every helpful upgrade also makes humans more dependent on the pack. Refusing the System's Good Dog and Bad Dog choices, she unlocks the rare Stray class. She recruits rival dogs, turns a ruined utility room into the first Pack Hearth and learns to manage three incompatible human followers. Failed construction, species-specific consumables and a trusted human who no longer smells like herself reveal that the System is testing more than survival. By the finale, Mriya secures a provisional territory charter from a hidden administrator. The pack has a home, Nika is safe and the first objective is complete; the final reveal shows that the same canine interface is awakening across the city.",
+  "first_season": [
+    {
+      "book": 1,
+      "purpose": "System awakening and first canine territory",
+      "complete_objective": "Found and defend the first Pack Hearth"
+    },
+    {
+      "book": 2,
+      "purpose": "Build a canine district through classes, trades and human management",
+      "complete_objective": "Make the district self-sustaining before rival packs absorb it"
+    },
+    {
+      "book": 3,
+      "purpose": "Turn settlement mechanics into city-scale politics and launch Plan Barbossa",
+      "complete_objective": "Choose whether canine rule protects humanity or owns it"
+    }
+  ],
+  "progression_system": {
+    "design_rule": "Every upgrade must change a relationship, a place or a strategic choice; numbers alone do not count as progression.",
+    "core_loop": [
+      "Detect and interpret a Cache",
+      "Choose whether to share, exploit, conceal or destroy it",
+      "Convert the result into Trust, Supply or Territory",
+      "Recruit dogs and humans, then build a facility",
+      "Absorb the social consequence and trigger a larger threat"
+    ],
+    "primary_stats": [
+      {"name": "Scent", "function": "Find traces and infer what produced them"},
+      {"name": "Bond", "function": "Understand and influence humans"},
+      {"name": "Pack", "function": "Coordinate, recruit and lead dogs"},
+      {"name": "Territory", "function": "Claim, build and defend places"},
+      {"name": "Adaptation", "function": "Resist toxins, environments and System anomalies"}
+    ],
+    "resources": ["Trace", "Favor", "Supply", "Territory"],
+    "class_turn": "Mriya rejects the binary Good Dog/Bad Dog selection and unlocks Stray: bonuses from negotiated loyalty, mixed-species settlements and rule-breaking solutions.",
+    "volume_one_progression": [
+      "Interface access and Cache identification",
+      "First Bond skill with Nika",
+      "Stray class unlock",
+      "Pack recruitment and role assignment",
+      "Pack Hearth construction",
+      "Provisional territory charter"
+    ]
+  },
+  "situation_map": [
+    {"beat": 1, "source_ref": "2.1", "seed": "Near-death interruption", "transformation": "In a service tunnel, a human capture attempt coincides with Mriya's System awakening and first Cache.", "story_function": "Inciting incident"},
+    {"beat": 2, "source_ref": "2.2", "seed": "Bliss with a shutdown condition", "transformation": "A recovered resource pacifies its human users but becomes dangerous if it runs through waking.", "story_function": "First moral choice"},
+    {"beat": 3, "source_ref": "2.3", "seed": "Belief enforced by reward and punishment", "transformation": "The System rewards humans who recognize canine authority and penalizes disbelief, exposing coercion inside apparent care.", "story_function": "Theme declaration"},
+    {"beat": 4, "source_ref": "2.4", "seed": "Rejected by both moral destinations", "transformation": "Mriya qualifies as neither Good Dog nor Bad Dog and unlocks the Stray class.", "story_function": "Class choice"},
+    {"beat": 5, "source_ref": "2.5", "seed": "Restoration through an undignified object", "transformation": "The pack converts a ruined sanitation room into a restorative facility, beginning settlement play.", "story_function": "First build"},
+    {"beat": 6, "source_ref": "2.6", "seed": "A feeding ritual produces unexpected people", "transformation": "A resource-sharing ritual delivers three incompatible human followers the pack must house and manage.", "story_function": "Settlement complication"},
+    {"beat": 7, "source_ref": "2.7", "seed": "Belief produces healing and success", "transformation": "A Bond upgrade heals one follower and improves her life while making her dependent on Mriya's progression.", "story_function": "Benefit with cost"},
+    {"beat": 8, "source_ref": "2.8", "seed": "A happiness kit whose pieces do not fit", "transformation": "The first Pack Hearth build fails because its modules, dogs and humans are mechanically incompatible.", "story_function": "Midpoint failure"},
+    {"beat": 9, "source_ref": "2.9", "seed": "Food and poison reverse their roles", "transformation": "Species-specific consumable effects reveal that the System values dogs and humans by different rules.", "story_function": "World-rule reveal"},
+    {"beat": 10, "source_ref": "2.10", "seed": "A lethal figure admires another's tool", "transformation": "A hostile canine enforcer pauses to admire a pack-built tool, opening a route to diplomacy and recruitment.", "story_function": "Unexpected alliance"},
+    {"beat": 11, "source_ref": "2.11", "seed": "An embrace reveals an altered identity", "transformation": "A trusted human returns with the right face and the wrong scent, revealing a System avatar inside the settlement.", "story_function": "Betrayal and reversal"},
+    {"beat": 12, "source_ref": "2.12", "seed": "A tiny sacred figure harvesting an absurd resource", "transformation": "Mriya finds a miniature administrator harvesting System resources and bargains for a provisional territory charter.", "story_function": "Book resolution and series expansion"}
+  ],
+  "listing_package": {
+    "title": "The Scent System",
+    "subtitle": "A Darkly Comic System Apocalypse LitRPG",
+    "series": "Good Dogs of the Apocalypse",
+    "hook": "Cozy for the dogs. Apocalypse for everyone else.",
+    "description": "Mriya was supposed to find one buried package. Instead, she found the System.\n\nHumans cannot see its menus. Dogs can.\n\nEvery hidden Cache offers experience. Every city block can become territory. Every human bond can unlock food, shelter, medicine—or something much worse. When an aging shelter mutt chooses neither Good Dog nor Bad Dog, she unlocks the forbidden Stray class and accidentally founds the city's first canine settlement.\n\nNow Mriya must turn a ruined service tunnel into a home, unite rival dogs and manage the unstable humans who think they are still in charge. But each new facility makes the pack stronger and humanity more dependent. Somewhere beneath the city, a tiny administrator is measuring whether people are useful enough to keep.\n\nFor the dogs, it is civilization building. For everyone else, it is the apocalypse.\n\nA darkly comic, dog-POV LitRPG with territory progression, settlement building, pack politics and no harem.",
+    "keyword_fields": [
+      "dark comedy system apocalypse",
+      "dog protagonist progression fantasy",
+      "civilization building fantasy",
+      "city building LitRPG",
+      "nonhuman main character",
+      "satirical post apocalyptic fantasy",
+      "pack politics survival adventure"
+    ],
+    "category_targets": [
+      "GameLit and LitRPG fantasy",
+      "Post-apocalyptic science fiction and fantasy",
+      "Humorous fantasy"
+    ],
+    "cover_brief": "Foreground an appealing but alert shelter dog in a warm domestic pool of light; let the lower or rear half of the image reveal a ruined contemporary city, scent trails and restrained interface glyphs. The first read at thumbnail size is charming dog adventure; the second read is dark comic apocalypse. Use a dark palette with one toxic-neon accent, bold legible title type, no gore and no generic cute-cartoon treatment.",
+    "tone_accuracy_rule": "The opening may feel cozy, but subtitle, description and secondary cover read must signal the later black comedy and system apocalypse.",
+    "test_variants": [
+      {"title": "The Scent System", "subtitle": "A Darkly Comic System Apocalypse LitRPG", "hook": "Cozy for the dogs. Apocalypse for everyone else."},
+      {"title": "Apocalypse Is a Good Dog", "subtitle": "A Civilization-Building LitRPG", "hook": "She only wanted a home. The System gave her a city."},
+      {"title": "Every Cache Is Territory", "subtitle": "A Dog-POV System Apocalypse LitRPG", "hook": "Sit. Stay. Level up. Take the city."}
+    ],
+    "price": "DEFER_UNTIL_LENGTH_KENPC_AND_CURRENT_COMPARABLE_SCAN",
+    "category_verification": "REQUIRED_IN_LIVE_KDP_TAXONOMY_AT_UPLOAD"
+  },
+  "market_validation_gate": {
+    "inputs": [
+      "Five current comparables spanning comic system apocalypse, nonhuman protagonist and civilization building",
+      "Three title, subtitle and hook variants",
+      "Blind packaging test with 15 qualified LitRPG readers"
+    ],
+    "pass_conditions": [
+      "At least 5 of 15 readers choose RN10-003 first against comparable packaging",
+      "At least 8 of 15 correctly expect dog POV, dark comedy, system apocalypse and building progression",
+      "No more than 2 of 15 misclassify it as cozy pet fiction"
+    ],
+    "next_if_pass": "OUTLINE_AND_SAMPLE_GATE",
+    "next_if_fail": "REPACKAGE_ONCE_OR_ARCHIVE",
+    "manuscript_allowed": false
+  },
+  "open_items": [
+    "A preliminary exact web search found no obvious book collision for the lead title or series name; repeat the check directly in Amazon and KDP before cover production",
+    "Choose fictional city versus Kyiv-inspired setting during premise test",
+    "Validate English-market voice with genre readers",
+    "Set price only after length, KENPC, print page count and comparable economics are known"
+  ]
+}
