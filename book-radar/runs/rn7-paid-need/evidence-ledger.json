@@ -1,0 +1,218 @@
+{
+  "schema_version": "book-radar-evidence-ledger/v2",
+  "run_id": "RN7-PAID-NEED",
+  "sources": [
+    {
+      "id": "EPA-SEPTIC",
+      "publisher": "U.S. Environmental Protection Agency",
+      "url": "https://www.epa.gov/septic/new-homebuyers-brochure-and-guide-septic-systems",
+      "checked_at": "2026-09-08",
+      "observation": "Current free homebuyer guide explains septic systems and recommends pre-purchase inspection.",
+      "interpretation": "Problem exists; a general buyer guide is already free.",
+      "limitations": "Does not measure book purchases."
+    },
+    {
+      "id": "AMZ-SEPTIC",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=septic+inspection+home+buyer+guide&i=stripbooks",
+      "checked_at": "2026-09-08",
+      "observation": "A direct 2026 Kindle title, Septic System Risk for Homebuyers (ASIN B0GRBXQFN7), promises inspection interpretation and risk framing.",
+      "interpretation": "The proposed advantage is already claimed by a current entrant.",
+      "limitations": "Visibility, reviews and rank were insufficient for a sales estimate."
+    },
+    {
+      "id": "NRVIA-COST",
+      "publisher": "National RV Inspectors Association",
+      "url": "https://nrvia.org/2023/08/brad-siedschlag-found-inspecting-rvs-to-be-a-portal-to-a-better-life/",
+      "checked_at": "2026-09-08",
+      "observation": "Published inspector examples quote roughly $740–$1,500 depending on vehicle, excluding add-ons.",
+      "interpretation": "RV buyers visibly spend on inspection and receive detailed reports.",
+      "limitations": "Association profile of one inspector; not a market average."
+    },
+    {
+      "id": "NRVIA-BUYER",
+      "publisher": "National RV Inspectors Association",
+      "url": "https://nrvia.org/what-you-need-to-know/",
+      "checked_at": "2026-09-08",
+      "observation": "Buyer guidance says to request scope, sample report and points of inspection.",
+      "interpretation": "There is a concrete pre-purchase information job.",
+      "limitations": "Provider association has an incentive to promote inspections."
+    },
+    {
+      "id": "AMZ-RV",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=RV+inspection+report+buyer+guide&i=stripbooks",
+      "checked_at": "2026-09-08",
+      "observation": "371 results; visible direct/near-direct books include two June 2026 buyer guides at about EUR12–15, a 2020 inspection title with 15 ratings, and older buyer guides with 50–71 ratings.",
+      "interpretation": "Book format is established but the accessible advantage is weak.",
+      "limitations": "Query count is noisy; ratings and prices are observations, not unit estimates."
+    },
+    {
+      "id": "CAI-RESERVE",
+      "publisher": "Community Associations Institute",
+      "url": "https://www.caionline.org/advocacy/public-policies/reserve-study-and-funding/",
+      "checked_at": "2026-09-08",
+      "observation": "Reserve studies combine physical and financial analysis and can affect special assessments; CAI supports disclosure to buyers.",
+      "interpretation": "A consequential buyer document and problem exist.",
+      "limitations": "Policy statement, not consumer purchase data; rules vary by state."
+    },
+    {
+      "id": "AMZ-HOA",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=HOA+reserve+study+buyer+guide&i=stripbooks",
+      "checked_at": "2026-09-08",
+      "observation": "Five exact results, including direct buyer-due-diligence products published Aug 12, Aug 25, Sep 5, Sep 6 and Sep 7, 2026; visible prices roughly EUR11–19 and one title had 2 ratings.",
+      "interpretation": "The exact shelf filled rapidly; no distinct accessible advantage remains in the tested thesis.",
+      "limitations": "Very new titles have little traction history."
+    },
+    {
+      "id": "FSA-OFFERS",
+      "publisher": "U.S. Department of Education, Federal Student Aid",
+      "url": "https://studentaid.gov/articles/evaluating-financial-aid-offers/",
+      "checked_at": "2026-09-08",
+      "observation": "Official current guidance explains comparison of non-standardized aid offers and costs.",
+      "interpretation": "Problem and decision deadline are real.",
+      "limitations": "Does not establish paid book demand."
+    },
+    {
+      "id": "NICHE-DECODER",
+      "publisher": "Niche",
+      "url": "https://www.niche.com/about/niche-launches-college-financial-aid-comparison-tool-to-help-families-decode-and-compare-offers/",
+      "checked_at": "2026-09-08",
+      "observation": "A free upload-based financial-aid decoder launched in March 2026.",
+      "interpretation": "A proposed normalization workbook faces a stronger free substitute.",
+      "limitations": "Vendor announcement; adoption not disclosed."
+    },
+    {
+      "id": "AAEP-PPE",
+      "publisher": "American Association of Equine Practitioners",
+      "url": "https://aaep.org/resource/dont-skip-the-purchase-exam/",
+      "checked_at": "2026-09-08",
+      "observation": "AAEP advises buyers to invest in a customized purchase exam and communicate intended use to the veterinarian.",
+      "interpretation": "Problem and professional spending are established.",
+      "limitations": "No price or book-demand evidence."
+    },
+    {
+      "id": "AAEP-REPORT",
+      "publisher": "American Association of Equine Practitioners",
+      "url": "https://aaep.org/resource/guidelines-for-reporting-purchase-examinations/",
+      "checked_at": "2026-09-08",
+      "observation": "Reporting guidance makes the veterinarian responsible for exam scope while suitability remains the buyer's decision.",
+      "interpretation": "A buyer aid would require careful veterinary boundaries and expert review.",
+      "limitations": "Professional guidance, not a buyer product study."
+    },
+    {
+      "id": "DOE-AUDIT",
+      "publisher": "U.S. Department of Energy",
+      "url": "https://www.energy.gov/sites/prod/files/guide_to_home_energy_assessments.pdf",
+      "checked_at": "2026-09-08",
+      "observation": "A professional assessment is intended to identify cost-effective energy improvements.",
+      "interpretation": "Homeowners buy an assessment to prioritize spending.",
+      "limitations": "Older guide and no current service-price data."
+    },
+    {
+      "id": "AMZ-ENERGY",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=home+energy+audit+report+guide&i=stripbooks",
+      "checked_at": "2026-09-08",
+      "observation": "16 results; visible books focus on DIY audits, energy efficiency or professional training. A 2024 DIY guide was about EUR10.75; a 2023 title had 13 ratings; a June 2026 playbook had no visible rating.",
+      "interpretation": "Adjacent book buying exists, but demand for post-audit report-to-action workflow is unproved.",
+      "limitations": "No BSR history and query matching is imperfect."
+    },
+    {
+      "id": "AARP-HIRE",
+      "publisher": "AARP",
+      "url": "https://www.aarp.org/caregiving/financial-legal/who-to-hire-caregiving-support/",
+      "checked_at": "2026-09-08",
+      "observation": "AARP reports one-third of family caregivers use paid help and explains agency versus direct-hire trade-offs.",
+      "interpretation": "Families visibly pay and face a consequential vendor-selection job.",
+      "limitations": "The cited share comes from AARP/NAC research; it does not measure book demand."
+    },
+    {
+      "id": "AARP-CHECKLIST",
+      "publisher": "AARP",
+      "url": "https://www.aarp.org/caregiving/home-care/hiring-caregiver/",
+      "checked_at": "2026-09-08",
+      "observation": "Free guidance and a contract-question checklist already exist.",
+      "interpretation": "A paid product must normalize actual agency proposals and answers, not repeat generic questions.",
+      "limitations": "Free alternative quality not tested with buyers."
+    },
+    {
+      "id": "AMZ-CARE",
+      "publisher": "Amazon.com",
+      "url": "https://www.amazon.com/s?k=hire+in-home+caregiver+comparison+workbook&i=stripbooks",
+      "checked_at": "2026-09-08",
+      "observation": "Exact query returned one direct 1995 family guide with 1 rating. Adjacent paid caregiving formats include a 2024 toolkit with 162 ratings and current paperback logs around EUR7–10.",
+      "interpretation": "Book-format spending exists adjacent to a weak exact shelf; proposal comparison is not visibly served.",
+      "limitations": "Search placement and ratings do not establish conversion for the proposed product."
+    },
+    {
+      "id": "ISA-REPORTS",
+      "publisher": "International Society of Arboriculture",
+      "url": "https://www.isa-arbor.com/Online-Learning/More-Resources/Sample-Reports",
+      "checked_at": "2026-09-08",
+      "observation": "ISA publishes multiple professional sample tree-risk reports.",
+      "interpretation": "Homeowners can receive structured reports but interpretation is safety-sensitive.",
+      "limitations": "No consumer spending or book-demand measure."
+    },
+    {
+      "id": "FRESNO-FOOD",
+      "publisher": "County of Fresno",
+      "url": "https://www.fresnocountyca.gov/Departments/Public-Health/Environmental-Health/Consumer-Food-Program/Mobile-Food-Vendors/Fresno-County-Mobile-Food-Vendor-Permit-Inspection-Checklist",
+      "checked_at": "2026-09-08",
+      "observation": "Mobile food vendors must obtain a permit and pass local vehicle inspection before opening.",
+      "interpretation": "Trigger and deadline are strong.",
+      "limitations": "County-specific rules make a national book volatile."
+    },
+    {
+      "id": "AARP-WORKBOOK",
+      "publisher": "AARP",
+      "url": "https://employerportal.aarp.org/resource/financial-workbook-for-family-caregivers/",
+      "checked_at": "2026-09-08",
+      "observation": "AARP provides a free caregiver financial workbook and reports substantial caregiver out-of-pocket spending.",
+      "interpretation": "General caregiver organization is well supplied for free; agency-proposal comparison must be narrower.",
+      "limitations": "Out-of-pocket care spending is not publishing spend."
+    },
+    {
+      "id": "ABYC-SURVEY",
+      "publisher": "American Boat & Yacht Council",
+      "url": "https://abycinc.org/recreational-boaters/surveying-a-boat/",
+      "checked_at": "2026-09-08",
+      "observation": "ABYC says a prepurchase survey produces a technical written report for purchase decisions, negotiation, insurance and lending; buyers should ask the surveyor to explain unclear findings.",
+      "interpretation": "The buyer job and professional spend are real, but safety and technical interpretation belong to qualified professionals.",
+      "limitations": "No book-demand or survey-price evidence."
+    },
+    {
+      "id": "ASV-RECORDS",
+      "publisher": "Association of Shelter Veterinarians",
+      "url": "https://www.sheltervet.org/assets/docs/6__Medical_Health_Final_07AUG2024.pdf",
+      "checked_at": "2026-09-08",
+      "observation": "Shelter standards call for accurate dated medical records covering findings, tests, procedures and treatments.",
+      "interpretation": "A record-handoff job exists, but buyer dissatisfaction and publishing spend were not established.",
+      "limitations": "Professional shelter standard, not consumer demand evidence."
+    },
+    {
+      "id": "CCI-CONDITION",
+      "publisher": "Canadian Conservation Institute",
+      "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/condition-reporting-paintings-examination-techniques.html",
+      "checked_at": "2026-09-08",
+      "observation": "Official conservation guidance provides a detailed condition-report checklist and specialist terminology.",
+      "interpretation": "Condition reporting is a real structured job; safe interpretation remains specialist work.",
+      "limitations": "No consumer spending or book-demand evidence."
+    },
+    {
+      "id": "RAM-DUE-DILIGENCE",
+      "publisher": "Responsible Art Market",
+      "url": "https://www.responsibleartmarket.org/guidelines/art-transaction-due-diligence-toolkit/toolkit/",
+      "checked_at": "2026-09-08",
+      "observation": "The toolkit recommends an independent specialist conservator and treats condition reports as important transaction documents.",
+      "interpretation": "A consequential art-purchase job exists but creates specialist dependency.",
+      "limitations": "Industry guidance, not publishing demand evidence."
+    }
+  ],
+  "rules": {
+    "sales_not_invented": true,
+    "single_bsr_not_sales_estimate": true,
+    "same_publisher_pages_count_once": true
+  }
+}

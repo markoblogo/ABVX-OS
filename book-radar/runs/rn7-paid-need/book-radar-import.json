@@ -1,0 +1,1341 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "radar_runs": [
+    {
+      "id": "RN7-PAID-NEED",
+      "name": "RN7 paid-need recalibration",
+      "observed_at": "2026-09-08",
+      "status": "READY_FOR_VALIDATION",
+      "strategy": "candidate-generation-v3-paid-need",
+      "production_authorized": false
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "RN7R-001",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Separate costly findings, questions and negotiation items without replacing an inspector",
+      "query_cluster": "Amazon and RV-inspection search",
+      "format": "Paperback worksheet is plausible",
+      "price_band": "UNVALIDATED",
+      "concept": "RV inspection report decision companion",
+      "buyer_situation": {
+        "buyer": "Used RV buyer",
+        "payer": "Buyer",
+        "purchase_trigger": "Independent inspection report arrives before contingency expires",
+        "deadline": "Days",
+        "current_solution": "Inspector call, forums, notes",
+        "current_spend": "Professional inspection commonly hundreds to over $1,000",
+        "unmet_need": "Long photo-rich report is hard to turn into a bounded action list"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-BUYER"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-COST"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-BUYER"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-002",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Identify reserve, assessment and document questions",
+      "query_cluster": "Amazon and HOA buyer search",
+      "format": "Paperback packet is plausible",
+      "price_band": "UNVALIDATED",
+      "concept": "HOA reserve-study buyer packet",
+      "buyer_situation": {
+        "buyer": "Condo/HOA homebuyer",
+        "payer": "Buyer",
+        "purchase_trigger": "Disclosure packet arrives before closing",
+        "deadline": "Days",
+        "current_solution": "Agent, attorney, online articles",
+        "current_spend": "Legal/inspection services and consequential property purchase",
+        "unmet_need": "Reserve and meeting documents are hard to connect"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-003",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Extract findings, missing tests and professional questions",
+      "query_cluster": "Amazon and homebuyer search",
+      "format": "Paperback worksheet is plausible",
+      "price_band": "UNVALIDATED",
+      "concept": "Septic inspection report decoder",
+      "buyer_situation": {
+        "buyer": "Homebuyer buying a septic property",
+        "payer": "Buyer",
+        "purchase_trigger": "Inspection report arrives before commitment",
+        "deadline": "Days",
+        "current_solution": "EPA guide, inspector, agent",
+        "current_spend": "Inspection and possible repair/replacement",
+        "unmet_need": "Generic guides do not necessarily structure the buyer's report"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-SEPTIC"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-SEPTIC",
+            "EPA-SEPTIC"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-SEPTIC"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-004",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Compare net cost, gift aid, work study and debt",
+      "query_cluster": "Search and school counseling",
+      "format": "Workbook is technically suitable",
+      "price_band": "UNVALIDATED",
+      "concept": "Financial-aid offer normalizer",
+      "buyer_situation": {
+        "buyer": "Student and parent choosing a U.S. college",
+        "payer": "Family",
+        "purchase_trigger": "Aid offers arrive before enrollment deadline",
+        "deadline": "Weeks",
+        "current_solution": "Official worksheet, free upload tools, spreadsheets",
+        "current_spend": "Tuition and education financing",
+        "unmet_need": "Offers use inconsistent structures"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        },
+        "book_format_demand": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "NICHE-DECODER"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "NICHE-DECODER",
+            "FSA-OFFERS"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-005",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Define intended use, preserve findings and ask the veterinarian precise questions",
+      "query_cluster": "Equestrian search and tack channels",
+      "format": "Guided workbook could help",
+      "price_band": "UNVALIDATED",
+      "concept": "Horse PPE question and decision record",
+      "buyer_situation": {
+        "buyer": "First-time horse buyer",
+        "payer": "Buyer",
+        "purchase_trigger": "Veterinarian schedules or delivers a purchase exam",
+        "deadline": "Days",
+        "current_solution": "Trainer and veterinarian discussion",
+        "current_spend": "Customized veterinary purchase examination",
+        "unmet_need": "Emotional purchase and non-binary findings are difficult to document"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-PPE",
+            "AAEP-REPORT"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-PPE"
+          ]
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-REPORT"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-PPE"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AAEP-REPORT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-006",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Convert recommendations into assumptions, quote requests and staged decisions",
+      "query_cluster": "Amazon and energy-audit search",
+      "format": "Reusable reference plus write-in packet",
+      "price_band": "UNVALIDATED",
+      "concept": "Home energy-audit action sorter",
+      "buyer_situation": {
+        "buyer": "Homeowner who bought an energy audit",
+        "payer": "Homeowner",
+        "purchase_trigger": "Professional audit report arrives before retrofit quotes",
+        "deadline": "Weeks",
+        "current_solution": "Auditor call, contractor quotes, spreadsheet",
+        "current_spend": "Assessment and later retrofit work",
+        "unmet_need": "Reports and contractor proposals are difficult to compare"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-ENERGY"
+          ]
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-ENERGY"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-007",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Understand stated limitations and prepare follow-up questions",
+      "query_cluster": "Search after report receipt",
+      "format": "Short reference is possible",
+      "price_band": "UNVALIDATED",
+      "concept": "Tree-risk report question companion",
+      "buyer_situation": {
+        "buyer": "Homeowner receiving an arborist report",
+        "payer": "Homeowner",
+        "purchase_trigger": "Risk report arrives after a tree concern or insurer request",
+        "deadline": "Days",
+        "current_solution": "Arborist call and online search",
+        "current_spend": "Professional arborist assessment",
+        "unmet_need": "Risk categories and limitations can be misunderstood"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ISA-REPORTS"
+          ]
+        },
+        "spending_evidence": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ISA-REPORTS"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "ISA-REPORTS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-008",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Map local requirements to evidence and open items",
+      "query_cluster": "County search",
+      "format": "Local binder could fit",
+      "price_band": "UNVALIDATED",
+      "concept": "Food-truck pre-opening inspection binder",
+      "buyer_situation": {
+        "buyer": "First-time mobile food vendor",
+        "payer": "Owner",
+        "purchase_trigger": "Local pre-operational inspection is scheduled",
+        "deadline": "Days",
+        "current_solution": "County checklist and consultant",
+        "current_spend": "Vehicle buildout, permits and consulting",
+        "unmet_need": "Requirements are scattered across agencies"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-009",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Normalize scope, minimum hours, backup coverage, supervision, exclusions and written answers",
+      "query_cluster": "Amazon, caregiving search and employer caregiver programs",
+      "format": "Reference plus write-in comparison packet",
+      "price_band": "UNVALIDATED",
+      "concept": "In-home caregiver agency proposal comparator",
+      "buyer_situation": {
+        "buyer": "Family member arranging paid home care",
+        "payer": "Family",
+        "purchase_trigger": "Two or more agency assessments or proposals arrive",
+        "deadline": "Days",
+        "current_solution": "Calls, AARP checklist, personal notes",
+        "current_spend": "Paid home-care services",
+        "unmet_need": "Generic checklists do not preserve proposal differences and answers"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-HIRE",
+            "AARP-CHECKLIST"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-HIRE",
+            "AARP-WORKBOOK"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE"
+          ]
+        },
+        "competitive_gap": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE",
+            "AARP-CHECKLIST"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE",
+            "AARP-HIRE"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-CHECKLIST"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-010",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Separate findings, limitations and specialist questions",
+      "query_cluster": "Boat-buyer search",
+      "format": "Paperback packet plausible",
+      "price_band": "UNVALIDATED",
+      "concept": "Marine survey report follow-up pack",
+      "buyer_situation": {
+        "buyer": "Used recreational boat buyer",
+        "payer": "Buyer",
+        "purchase_trigger": "Condition-and-value survey arrives before closing/insurance",
+        "deadline": "Days",
+        "current_solution": "Surveyor and broker calls",
+        "current_spend": "Professional marine survey",
+        "unmet_need": "Long reports mix safety, valuation and maintenance"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "RN7R-011",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Create a clean questions-and-record handoff for the new veterinarian",
+      "query_cluster": "Pet adoption and Amazon search",
+      "format": "Write-in organizer plausible",
+      "price_band": "UNVALIDATED",
+      "concept": "Rescue-dog medical record organizer",
+      "buyer_situation": {
+        "buyer": "New adopter of a dog with fragmented records",
+        "payer": "Adopter",
+        "purchase_trigger": "Shelter and veterinary records arrive around adoption",
+        "deadline": "Weeks",
+        "current_solution": "Folder, clinic portal, notes",
+        "current_spend": "Veterinary visit and insurance",
+        "unmet_need": "Records may use different names and omit history"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ASV-RECORDS"
+          ]
+        },
+        "spending_evidence": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "delivery_fit": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        }
+      }
+    },
+    {
+      "id": "RN7R-012",
+      "radar_run_id": "RN7-PAID-NEED",
+      "buyer_job": "Preserve condition facts and questions for seller, insurer or conservator",
+      "query_cluster": "Collector and conservation search",
+      "format": "Archival workbook plausible",
+      "price_band": "UNVALIDATED",
+      "concept": "Art condition-report handoff book",
+      "buyer_situation": {
+        "buyer": "New small collector buying a work with a condition report",
+        "payer": "Collector",
+        "purchase_trigger": "Condition report arrives before purchase or transport",
+        "deadline": "Days",
+        "current_solution": "Dealer explanation and personal notes",
+        "current_spend": "Appraisal, insurance or conservation services",
+        "unmet_need": "Specialist language and photographic condition changes are hard to track"
+      },
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CCI-CONDITION",
+            "RAM-DUE-DILIGENCE"
+          ]
+        },
+        "spending_evidence": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "RAM-DUE-DILIGENCE"
+          ]
+        }
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence:RN7R-001:paid-need",
+      "opportunity_id": "RN7R-001",
+      "observed_at": "2026-09-08",
+      "summary": "Direct and near-direct books already cover inspection, deal breakers and buying decisions; no defensible accessible advantage was found.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "NRVIA-BUYER"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "NRVIA-COST"
+            ]
+          },
+          "book_format_demand": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-RV"
+            ]
+          },
+          "competitive_gap": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "AMZ-RV"
+            ]
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-RV"
+            ]
+          },
+          "delivery_fit": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "NRVIA-BUYER"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-002:paid-need",
+      "opportunity_id": "RN7R-002",
+      "observed_at": "2026-09-08",
+      "summary": "Five very recent exact books now claim the same due-diligence job; a narrower advantage was not evidenced.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "CAI-RESERVE"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "CAI-RESERVE"
+            ]
+          },
+          "book_format_demand": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-HOA"
+            ]
+          },
+          "competitive_gap": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "AMZ-HOA"
+            ]
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-HOA"
+            ]
+          },
+          "delivery_fit": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "CAI-RESERVE"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-003:paid-need",
+      "opportunity_id": "RN7R-003",
+      "observed_at": "2026-09-08",
+      "summary": "A current direct entrant already promises inspection interpretation and risk framing alongside a strong free official guide.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "EPA-SEPTIC"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "EPA-SEPTIC"
+            ]
+          },
+          "book_format_demand": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-SEPTIC"
+            ]
+          },
+          "competitive_gap": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "AMZ-SEPTIC",
+              "EPA-SEPTIC"
+            ]
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-SEPTIC"
+            ]
+          },
+          "delivery_fit": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "EPA-SEPTIC"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-004:paid-need",
+      "opportunity_id": "RN7R-004",
+      "observed_at": "2026-09-08",
+      "summary": "Free official and upload-based normalization tools beat a static workbook on the same outcome.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "FSA-OFFERS"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "FSA-OFFERS"
+            ]
+          },
+          "book_format_demand": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "NICHE-DECODER"
+            ]
+          },
+          "competitive_gap": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "NICHE-DECODER",
+              "FSA-OFFERS"
+            ]
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "FSA-OFFERS"
+            ]
+          },
+          "delivery_fit": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "FSA-OFFERS"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-005:paid-need",
+      "opportunity_id": "RN7R-005",
+      "observed_at": "2026-09-08",
+      "summary": "Credible sequencing and safe boundaries require equine-veterinary expertise outside the autonomous production model.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AAEP-PPE",
+              "AAEP-REPORT"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AAEP-PPE"
+            ]
+          },
+          "book_format_demand": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "competitive_gap": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AAEP-REPORT"
+            ]
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AAEP-PPE"
+            ]
+          },
+          "delivery_fit": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "AAEP-REPORT"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-006:paid-need",
+      "opportunity_id": "RN7R-006",
+      "observed_at": "2026-09-08",
+      "summary": "Adjacent books exist, but no reliable evidence yet shows buyers will purchase a post-audit report-to-action system.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "DOE-AUDIT"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "DOE-AUDIT"
+            ]
+          },
+          "book_format_demand": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-ENERGY"
+            ]
+          },
+          "competitive_gap": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-ENERGY"
+            ]
+          },
+          "delivery_fit": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "DOE-AUDIT"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-007:paid-need",
+      "opportunity_id": "RN7R-007",
+      "observed_at": "2026-09-08",
+      "summary": "Safety consequences and specialist interpretation create unacceptable expert dependency.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "ISA-REPORTS"
+            ]
+          },
+          "spending_evidence": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "book_format_demand": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "competitive_gap": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "ISA-REPORTS"
+            ]
+          },
+          "delivery_fit": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "ISA-REPORTS"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-008:paid-need",
+      "opportunity_id": "RN7R-008",
+      "observed_at": "2026-09-08",
+      "summary": "County variation and update burden exceed the fast autonomous publishing boundary.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "FRESNO-FOOD"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "FRESNO-FOOD"
+            ]
+          },
+          "book_format_demand": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "competitive_gap": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "FRESNO-FOOD"
+            ]
+          },
+          "delivery_fit": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "FRESNO-FOOD"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-009:paid-need",
+      "opportunity_id": "RN7R-009",
+      "observed_at": "2026-09-08",
+      "summary": "Independent evidence supports the paid decision and adjacent book use; the untested assumption is willingness to buy this narrower comparison packet.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AARP-HIRE",
+              "AARP-CHECKLIST"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AARP-HIRE",
+              "AARP-WORKBOOK"
+            ]
+          },
+          "book_format_demand": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-CARE"
+            ]
+          },
+          "competitive_gap": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-CARE",
+              "AARP-CHECKLIST"
+            ]
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AMZ-CARE",
+              "AARP-HIRE"
+            ]
+          },
+          "delivery_fit": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "AARP-CHECKLIST"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-010:paid-need",
+      "opportunity_id": "RN7R-010",
+      "observed_at": "2026-09-08",
+      "summary": "Marine safety and survey interpretation require expertise not established here.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "ABYC-SURVEY"
+            ]
+          },
+          "spending_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "ABYC-SURVEY"
+            ]
+          },
+          "book_format_demand": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "competitive_gap": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "reachability": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "ABYC-SURVEY"
+            ]
+          },
+          "delivery_fit": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "ABYC-SURVEY"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-011:paid-need",
+      "opportunity_id": "RN7R-011",
+      "observed_at": "2026-09-08",
+      "summary": "The record job exists, but consumer dissatisfaction, spending and book-format demand were not independently established in this bounded pass.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "ASV-RECORDS"
+            ]
+          },
+          "spending_evidence": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "book_format_demand": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "competitive_gap": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "reachability": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "delivery_fit": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    },
+    {
+      "id": "evidence:RN7R-012:paid-need",
+      "opportunity_id": "RN7R-012",
+      "observed_at": "2026-09-08",
+      "summary": "Credible condition interpretation and image standards require specialist editorial judgment.",
+      "details": {
+        "evidence_dimensions": {
+          "problem_evidence": {
+            "status": "SUPPORTED",
+            "source_ids": [
+              "CCI-CONDITION",
+              "RAM-DUE-DILIGENCE"
+            ]
+          },
+          "spending_evidence": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "book_format_demand": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "competitive_gap": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "reachability": {
+            "status": "UNKNOWN",
+            "source_ids": []
+          },
+          "delivery_fit": {
+            "status": "NEGATIVE",
+            "source_ids": [
+              "RAM-DUE-DILIGENCE"
+            ]
+          }
+        },
+        "source_ledger": "book-radar/runs/rn7-paid-need/evidence-ledger.json"
+      },
+      "source_ref": "book-radar/runs/rn7-paid-need/buyer-situations.json"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision:RN7R-001:paid-need",
+      "opportunity_id": "RN7R-001",
+      "decision": "REJECTED_ON_EVIDENCE",
+      "reason": "Direct and near-direct books already cover inspection, deal breakers and buying decisions; no defensible accessible advantage was found.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-002:paid-need",
+      "opportunity_id": "RN7R-002",
+      "decision": "REJECTED_ON_EVIDENCE",
+      "reason": "Five very recent exact books now claim the same due-diligence job; a narrower advantage was not evidenced.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-003:paid-need",
+      "opportunity_id": "RN7R-003",
+      "decision": "REJECTED_ON_EVIDENCE",
+      "reason": "A current direct entrant already promises inspection interpretation and risk framing alongside a strong free official guide.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-004:paid-need",
+      "opportunity_id": "RN7R-004",
+      "decision": "REJECTED_ON_EVIDENCE",
+      "reason": "Free official and upload-based normalization tools beat a static workbook on the same outcome.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-005:paid-need",
+      "opportunity_id": "RN7R-005",
+      "decision": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "reason": "Credible sequencing and safe boundaries require equine-veterinary expertise outside the autonomous production model.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-006:paid-need",
+      "opportunity_id": "RN7R-006",
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "reason": "Adjacent books exist, but no reliable evidence yet shows buyers will purchase a post-audit report-to-action system.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-007:paid-need",
+      "opportunity_id": "RN7R-007",
+      "decision": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "reason": "Safety consequences and specialist interpretation create unacceptable expert dependency.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-008:paid-need",
+      "opportunity_id": "RN7R-008",
+      "decision": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "reason": "County variation and update burden exceed the fast autonomous publishing boundary.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-009:paid-need",
+      "opportunity_id": "RN7R-009",
+      "decision": "READY_FOR_VALIDATION",
+      "reason": "Independent evidence supports the paid decision and adjacent book use; the untested assumption is willingness to buy this narrower comparison packet.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-010:paid-need",
+      "opportunity_id": "RN7R-010",
+      "decision": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "reason": "Marine safety and survey interpretation require expertise not established here.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-011:paid-need",
+      "opportunity_id": "RN7R-011",
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "reason": "The record job exists, but consumer dissatisfaction, spending and book-format demand were not independently established in this bounded pass.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    },
+    {
+      "id": "decision:RN7R-012:paid-need",
+      "opportunity_id": "RN7R-012",
+      "decision": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "reason": "Credible condition interpretation and image standards require specialist editorial judgment.",
+      "decided_at": "2026-09-08",
+      "production_authorized": false
+    }
+  ],
+  "similarity_results": [
+    {
+      "id": "similarity:RN7R-009:B0HFTTG5FH",
+      "opportunity_id": "RN7R-009",
+      "portfolio_product_id": "portfolio-product:B0HFTTG5FH",
+      "facets": {
+        "buyer": 20,
+        "jtbd": 20,
+        "trigger": 15,
+        "promise": 25,
+        "format": 75,
+        "information_architecture": 75,
+        "search_intent": 15,
+        "audience": 20,
+        "differentiation": 30
+      },
+      "weights": {
+        "buyer": 15,
+        "jtbd": 25,
+        "trigger": 10,
+        "promise": 20,
+        "format": 5,
+        "information_architecture": 10,
+        "search_intent": 5,
+        "audience": 5,
+        "differentiation": 5
+      },
+      "overlap_score": 29.0,
+      "classification": "NOVEL",
+      "confidence": "HIGH",
+      "production_eligible": true,
+      "route": "PRODUCTION_ELIGIBLE"
+    }
+  ]
+}

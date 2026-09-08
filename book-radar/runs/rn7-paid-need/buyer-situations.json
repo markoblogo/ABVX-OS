@@ -1,0 +1,641 @@
+{
+  "schema_version": "book-radar-buyer-situations/v1",
+  "run_id": "RN7-PAID-NEED",
+  "strategy": "candidate-generation-v3-paid-need",
+  "observed_at": "2026-09-08",
+  "count": 12,
+  "situations": [
+    {
+      "id": "RN7R-001",
+      "name": "RV inspection report decision companion",
+      "buyer": "Used RV buyer",
+      "payer": "Buyer",
+      "purchase_trigger": "Independent inspection report arrives before contingency expires",
+      "job_to_be_done": "Separate costly findings, questions and negotiation items without replacing an inspector",
+      "deadline": "Days",
+      "current_solution": "Inspector call, forums, notes",
+      "current_spend": "Professional inspection commonly hundreds to over $1,000",
+      "unmet_need": "Long photo-rich report is hard to turn into a bounded action list",
+      "publishing_format_fit": "Paperback worksheet is plausible",
+      "discovery_channel": "Amazon and RV-inspection search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-BUYER"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-COST"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-BUYER"
+          ]
+        }
+      },
+      "decision_state": "REJECTED_ON_EVIDENCE",
+      "decision_reason": "Direct and near-direct books already cover inspection, deal breakers and buying decisions; no defensible accessible advantage was found."
+    },
+    {
+      "id": "RN7R-002",
+      "name": "HOA reserve-study buyer packet",
+      "buyer": "Condo/HOA homebuyer",
+      "payer": "Buyer",
+      "purchase_trigger": "Disclosure packet arrives before closing",
+      "job_to_be_done": "Identify reserve, assessment and document questions",
+      "deadline": "Days",
+      "current_solution": "Agent, attorney, online articles",
+      "current_spend": "Legal/inspection services and consequential property purchase",
+      "unmet_need": "Reserve and meeting documents are hard to connect",
+      "publishing_format_fit": "Paperback packet is plausible",
+      "discovery_channel": "Amazon and HOA buyer search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        }
+      },
+      "decision_state": "REJECTED_ON_EVIDENCE",
+      "decision_reason": "Five very recent exact books now claim the same due-diligence job; a narrower advantage was not evidenced."
+    },
+    {
+      "id": "RN7R-003",
+      "name": "Septic inspection report decoder",
+      "buyer": "Homebuyer buying a septic property",
+      "payer": "Buyer",
+      "purchase_trigger": "Inspection report arrives before commitment",
+      "job_to_be_done": "Extract findings, missing tests and professional questions",
+      "deadline": "Days",
+      "current_solution": "EPA guide, inspector, agent",
+      "current_spend": "Inspection and possible repair/replacement",
+      "unmet_need": "Generic guides do not necessarily structure the buyer's report",
+      "publishing_format_fit": "Paperback worksheet is plausible",
+      "discovery_channel": "Amazon and homebuyer search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-SEPTIC"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-SEPTIC",
+            "EPA-SEPTIC"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-SEPTIC"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        }
+      },
+      "decision_state": "REJECTED_ON_EVIDENCE",
+      "decision_reason": "A current direct entrant already promises inspection interpretation and risk framing alongside a strong free official guide."
+    },
+    {
+      "id": "RN7R-004",
+      "name": "Financial-aid offer normalizer",
+      "buyer": "Student and parent choosing a U.S. college",
+      "payer": "Family",
+      "purchase_trigger": "Aid offers arrive before enrollment deadline",
+      "job_to_be_done": "Compare net cost, gift aid, work study and debt",
+      "deadline": "Weeks",
+      "current_solution": "Official worksheet, free upload tools, spreadsheets",
+      "current_spend": "Tuition and education financing",
+      "unmet_need": "Offers use inconsistent structures",
+      "publishing_format_fit": "Workbook is technically suitable",
+      "discovery_channel": "Search and school counseling",
+      "discovery_origin": "SERVICE_OR_TRAINING_SPEND",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        },
+        "book_format_demand": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "NICHE-DECODER"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "NICHE-DECODER",
+            "FSA-OFFERS"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FSA-OFFERS"
+          ]
+        }
+      },
+      "decision_state": "REJECTED_ON_EVIDENCE",
+      "decision_reason": "Free official and upload-based normalization tools beat a static workbook on the same outcome."
+    },
+    {
+      "id": "RN7R-005",
+      "name": "Horse PPE question and decision record",
+      "buyer": "First-time horse buyer",
+      "payer": "Buyer",
+      "purchase_trigger": "Veterinarian schedules or delivers a purchase exam",
+      "job_to_be_done": "Define intended use, preserve findings and ask the veterinarian precise questions",
+      "deadline": "Days",
+      "current_solution": "Trainer and veterinarian discussion",
+      "current_spend": "Customized veterinary purchase examination",
+      "unmet_need": "Emotional purchase and non-binary findings are difficult to document",
+      "publishing_format_fit": "Guided workbook could help",
+      "discovery_channel": "Equestrian search and tack channels",
+      "discovery_origin": "SERVICE_OR_TRAINING_SPEND",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-PPE",
+            "AAEP-REPORT"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-PPE"
+          ]
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-REPORT"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AAEP-PPE"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AAEP-REPORT"
+          ]
+        }
+      },
+      "decision_state": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "decision_reason": "Credible sequencing and safe boundaries require equine-veterinary expertise outside the autonomous production model."
+    },
+    {
+      "id": "RN7R-006",
+      "name": "Home energy-audit action sorter",
+      "buyer": "Homeowner who bought an energy audit",
+      "payer": "Homeowner",
+      "purchase_trigger": "Professional audit report arrives before retrofit quotes",
+      "job_to_be_done": "Convert recommendations into assumptions, quote requests and staged decisions",
+      "deadline": "Weeks",
+      "current_solution": "Auditor call, contractor quotes, spreadsheet",
+      "current_spend": "Assessment and later retrofit work",
+      "unmet_need": "Reports and contractor proposals are difficult to compare",
+      "publishing_format_fit": "Reusable reference plus write-in packet",
+      "discovery_channel": "Amazon and energy-audit search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-ENERGY"
+          ]
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-ENERGY"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        }
+      },
+      "decision_state": "INSUFFICIENT_EVIDENCE",
+      "decision_reason": "Adjacent books exist, but no reliable evidence yet shows buyers will purchase a post-audit report-to-action system."
+    },
+    {
+      "id": "RN7R-007",
+      "name": "Tree-risk report question companion",
+      "buyer": "Homeowner receiving an arborist report",
+      "payer": "Homeowner",
+      "purchase_trigger": "Risk report arrives after a tree concern or insurer request",
+      "job_to_be_done": "Understand stated limitations and prepare follow-up questions",
+      "deadline": "Days",
+      "current_solution": "Arborist call and online search",
+      "current_spend": "Professional arborist assessment",
+      "unmet_need": "Risk categories and limitations can be misunderstood",
+      "publishing_format_fit": "Short reference is possible",
+      "discovery_channel": "Search after report receipt",
+      "discovery_origin": "UNMET_NEED",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ISA-REPORTS"
+          ]
+        },
+        "spending_evidence": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ISA-REPORTS"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "ISA-REPORTS"
+          ]
+        }
+      },
+      "decision_state": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "decision_reason": "Safety consequences and specialist interpretation create unacceptable expert dependency."
+    },
+    {
+      "id": "RN7R-008",
+      "name": "Food-truck pre-opening inspection binder",
+      "buyer": "First-time mobile food vendor",
+      "payer": "Owner",
+      "purchase_trigger": "Local pre-operational inspection is scheduled",
+      "job_to_be_done": "Map local requirements to evidence and open items",
+      "deadline": "Days",
+      "current_solution": "County checklist and consultant",
+      "current_spend": "Vehicle buildout, permits and consulting",
+      "unmet_need": "Requirements are scattered across agencies",
+      "publishing_format_fit": "Local binder could fit",
+      "discovery_channel": "County search",
+      "discovery_origin": "SERVICE_OR_TRAINING_SPEND",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "FRESNO-FOOD"
+          ]
+        }
+      },
+      "decision_state": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "decision_reason": "County variation and update burden exceed the fast autonomous publishing boundary."
+    },
+    {
+      "id": "RN7R-009",
+      "name": "In-home caregiver agency proposal comparator",
+      "buyer": "Family member arranging paid home care",
+      "payer": "Family",
+      "purchase_trigger": "Two or more agency assessments or proposals arrive",
+      "job_to_be_done": "Normalize scope, minimum hours, backup coverage, supervision, exclusions and written answers",
+      "deadline": "Days",
+      "current_solution": "Calls, AARP checklist, personal notes",
+      "current_spend": "Paid home-care services",
+      "unmet_need": "Generic checklists do not preserve proposal differences and answers",
+      "publishing_format_fit": "Reference plus write-in comparison packet",
+      "discovery_channel": "Amazon, caregiving search and employer caregiver programs",
+      "discovery_origin": "SERVICE_OR_TRAINING_SPEND",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-HIRE",
+            "AARP-CHECKLIST"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-HIRE",
+            "AARP-WORKBOOK"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE"
+          ]
+        },
+        "competitive_gap": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE",
+            "AARP-CHECKLIST"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE",
+            "AARP-HIRE"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-CHECKLIST"
+          ]
+        }
+      },
+      "decision_state": "READY_FOR_VALIDATION",
+      "decision_reason": "Independent evidence supports the paid decision and adjacent book use; the untested assumption is willingness to buy this narrower comparison packet."
+    },
+    {
+      "id": "RN7R-010",
+      "name": "Marine survey report follow-up pack",
+      "buyer": "Used recreational boat buyer",
+      "payer": "Buyer",
+      "purchase_trigger": "Condition-and-value survey arrives before closing/insurance",
+      "job_to_be_done": "Separate findings, limitations and specialist questions",
+      "deadline": "Days",
+      "current_solution": "Surveyor and broker calls",
+      "current_spend": "Professional marine survey",
+      "unmet_need": "Long reports mix safety, valuation and maintenance",
+      "publishing_format_fit": "Paperback packet plausible",
+      "discovery_channel": "Boat-buyer search",
+      "discovery_origin": "SERVICE_OR_TRAINING_SPEND",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "ABYC-SURVEY"
+          ]
+        }
+      },
+      "decision_state": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "decision_reason": "Marine safety and survey interpretation require expertise not established here."
+    },
+    {
+      "id": "RN7R-011",
+      "name": "Rescue-dog medical record organizer",
+      "buyer": "New adopter of a dog with fragmented records",
+      "payer": "Adopter",
+      "purchase_trigger": "Shelter and veterinary records arrive around adoption",
+      "job_to_be_done": "Create a clean questions-and-record handoff for the new veterinarian",
+      "deadline": "Weeks",
+      "current_solution": "Folder, clinic portal, notes",
+      "current_spend": "Veterinary visit and insurance",
+      "unmet_need": "Records may use different names and omit history",
+      "publishing_format_fit": "Write-in organizer plausible",
+      "discovery_channel": "Pet adoption and Amazon search",
+      "discovery_origin": "UNMET_NEED",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "ASV-RECORDS"
+          ]
+        },
+        "spending_evidence": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "delivery_fit": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        }
+      },
+      "decision_state": "INSUFFICIENT_EVIDENCE",
+      "decision_reason": "The record job exists, but consumer dissatisfaction, spending and book-format demand were not independently established in this bounded pass."
+    },
+    {
+      "id": "RN7R-012",
+      "name": "Art condition-report handoff book",
+      "buyer": "New small collector buying a work with a condition report",
+      "payer": "Collector",
+      "purchase_trigger": "Condition report arrives before purchase or transport",
+      "job_to_be_done": "Preserve condition facts and questions for seller, insurer or conservator",
+      "deadline": "Days",
+      "current_solution": "Dealer explanation and personal notes",
+      "current_spend": "Appraisal, insurance or conservation services",
+      "unmet_need": "Specialist language and photographic condition changes are hard to track",
+      "publishing_format_fit": "Archival workbook plausible",
+      "discovery_channel": "Collector and conservation search",
+      "discovery_origin": "UNMET_NEED",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CCI-CONDITION",
+            "RAM-DUE-DILIGENCE"
+          ]
+        },
+        "spending_evidence": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "book_format_demand": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "delivery_fit": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "RAM-DUE-DILIGENCE"
+          ]
+        }
+      },
+      "decision_state": "ATTRACTIVE_BUT_NOT_FOR_US",
+      "decision_reason": "Credible condition interpretation and image standards require specialist editorial judgment."
+    }
+  ]
+}

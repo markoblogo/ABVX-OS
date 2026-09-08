@@ -1,0 +1,57 @@
+{
+  "schema_version": "candidate-generation-strategy/v3",
+  "id": "candidate-generation-v3-paid-need",
+  "status": "ACTIVE_EXPERIMENT",
+  "effective_from_run": "RN7-PAID-NEED",
+  "search_unit": "BUYER x PURCHASE_TRIGGER x JOB_TO_BE_DONE x CURRENT_SPEND x UNMET_NEED",
+  "sequence": [
+    "record buyer situation",
+    "collect primary evidence",
+    "assess six evidence dimensions",
+    "only then propose a publishing product",
+    "route to one of four decision states"
+  ],
+  "required_situation_fields": [
+    "buyer",
+    "payer",
+    "purchase_trigger",
+    "job_to_be_done",
+    "deadline",
+    "current_solution",
+    "current_spend",
+    "unmet_need",
+    "publishing_format_fit",
+    "discovery_channel"
+  ],
+  "evidence_dimensions": [
+    "problem_evidence",
+    "spending_evidence",
+    "book_format_demand",
+    "competitive_gap",
+    "reachability",
+    "delivery_fit"
+  ],
+  "evidence_statuses": ["SUPPORTED", "NEGATIVE", "UNKNOWN"],
+  "decision_states": [
+    "REJECTED_ON_EVIDENCE",
+    "INSUFFICIENT_EVIDENCE",
+    "ATTRACTIVE_BUT_NOT_FOR_US",
+    "READY_FOR_VALIDATION"
+  ],
+  "rules": [
+    "paid services or courses support spending evidence but not book-format demand",
+    "forum questions and search-result counts alone do not prove sales",
+    "missing evidence is not negative evidence",
+    "a strong competitor is not a rejection unless no accessible advantage remains",
+    "a free alternative is not a rejection when a distinct paid outcome is evidenced",
+    "absence of an exact competitor is not evidence of a competitive gap",
+    "finalists require independent publishers; multiple pages from one seller count once",
+    "retain rights, language, format, factual reliability, portfolio similarity and Anton-attention gates"
+  ],
+  "historical_compatibility": {
+    "prior_runs_immutable": true,
+    "RN6_decision": "NO_PRODUCT",
+    "RN7_original_run_preserved": true,
+    "permanent_scoring_weights_changed": false
+  }
+}

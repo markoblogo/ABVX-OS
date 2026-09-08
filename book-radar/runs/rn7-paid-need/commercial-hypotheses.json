@@ -1,0 +1,68 @@
+{
+  "schema_version": "book-radar-commercial-hypotheses/v1",
+  "count": 2,
+  "production_authorized": false,
+  "external_tests_launched": false,
+  "hypotheses": [
+    {
+      "opportunity_id": "RN7R-009",
+      "status": "READY_FOR_VALIDATION",
+      "buyer_and_moment": "Adult child or spouse comparing home-care agencies after receiving proposals.",
+      "promised_result": "A traceable apples-to-apples record of scope, scheduling, backup coverage, supervision, exclusions, price structure and unanswered questions.",
+      "content_and_format": "US-focused 7.5x9.25 paperback reference plus write-in comparison packet; no medical, employment-law or care-plan advice.",
+      "price_hypothesis": {
+        "value_usd": 14.99,
+        "confidence": "LOW",
+        "basis": "Adjacent current caregiver paperbacks are visibly sold around EUR7–10 and the direct old guide has no usable price; test $14.99 as a consequential-decision workbook anchor, not a final price."
+      },
+      "paid_alternatives": [
+        "home-care agency placement and care-management services"
+      ],
+      "free_alternatives": [
+        "AARP hiring guidance and checklist",
+        "personal spreadsheet or notes"
+      ],
+      "specific_advantage": "Works against actual proposals and preserves what each agency said; it does not repeat a generic hiring checklist.",
+      "reachable_channel": "Amazon exact-query shelf plus caregiver-resource search; employer caregiver programs are a possible later channel, not assumed.",
+      "main_unverified_assumption": "Families will pay for proposal normalization rather than use the free checklist.",
+      "cheapest_test": {
+        "not_authorized": "One-page offer and four-page non-medical comparison packet shown to 8–12 people currently comparing agencies; ask for a real $12 purchase of the finished packet, with no preorder.",
+        "signals": "Record view, comprehension, purchase attempt and completed payment separately."
+      },
+      "continue_if": "At least 2 completed payments from 10 qualified current buyers and no recurring demand for medical/legal guidance.",
+      "reject_if": "No completed payment after 10 qualified exposures, or buyers primarily want individualized care/legal advice.",
+      "anton_involvement": "About 30 minutes to approve test packaging; no subject-matter judgment."
+    },
+    {
+      "opportunity_id": "RN7R-006",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "buyer_and_moment": "Homeowner holding a professional energy-audit report before requesting retrofit quotes.",
+      "promised_result": "Turn recommendations into staged quote requests, assumptions and a decision record.",
+      "content_and_format": "Paperback reference and write-in action packet; no engineering or savings guarantee.",
+      "price_hypothesis": {
+        "value_usd": 14.99,
+        "confidence": "LOW",
+        "basis": "Visible adjacent home-energy paperbacks cluster roughly around EUR8–21, but report-decoder demand is unobserved."
+      },
+      "paid_alternatives": [
+        "energy auditor follow-up",
+        "contractor consultation"
+      ],
+      "free_alternatives": [
+        "DOE guide",
+        "auditor report",
+        "spreadsheets"
+      ],
+      "specific_advantage": "Post-audit coordination across competing retrofit quotes rather than DIY auditing.",
+      "reachable_channel": "Amazon home-energy-audit queries.",
+      "main_unverified_assumption": "Post-audit homeowners seek a book-shaped coordination tool.",
+      "cheapest_test": {
+        "not_authorized": "Keyword-specific offer test against a four-page report-to-quote packet with 10 recent audit buyers; require completed payment, not stated interest.",
+        "signals": "Track view, click, request and completed payment separately."
+      },
+      "continue_if": "At least 2 completed payments from 10 qualified recent-audit homeowners.",
+      "reject_if": "No payments or buyers expect engineering/savings advice.",
+      "anton_involvement": "About 30 minutes to approve test packaging."
+    }
+  ]
+}

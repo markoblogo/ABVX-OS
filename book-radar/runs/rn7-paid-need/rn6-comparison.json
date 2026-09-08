@@ -1,0 +1,30 @@
+{
+  "RN6": {
+    "situations": 330,
+    "spending_evidence_share": "NOT_RECORDED",
+    "book_format_evidence_share": "NOT_RECORDED",
+    "late_gate_failures": 10
+  },
+  "RN7_paid_need": {
+    "situations": 12,
+    "deep_checks": 5,
+    "spending_evidence_supported_share": 0.75,
+    "book_format_supported_share": 0.417,
+    "states": {
+      "REJECTED_ON_EVIDENCE": 4,
+      "INSUFFICIENT_EVIDENCE": 2,
+      "ATTRACTIVE_BUT_NOT_FOR_US": 5,
+      "READY_FOR_VALIDATION": 1
+    },
+    "research_cost_proxy": {
+      "sources": 23,
+      "sources_per_supported_validation_hypothesis": 23
+    }
+  },
+  "interpretation": "RN7 detects several late-stage RN6-style failures at broad/deep screening, but different sample construction and missing RN6 fields prevent a causal or statistical improvement claim.",
+  "source_utility": {
+    "books_and_materials": "Best at proving book-format behavior and exposing direct competitors; weak at proving the underlying job alone.",
+    "service_or_training_spend": "Best at proving consequential spending and trigger; does not prove book demand.",
+    "unmet_need_sources": "Useful for generating situations; weakest for willingness-to-pay without independent spending and format evidence."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "book-radar-retained-gates/v1",
+  "opportunity_id": "RN7R-009",
+  "rights": {
+    "status": "PASS",
+    "basis": "Original comparison forms; external guidance paraphrased and cited."
+  },
+  "language": {
+    "status": "PASS",
+    "basis": "English is supported; no bilingual dependency."
+  },
+  "format": {
+    "status": "PASS",
+    "basis": "Paperback reference/workbook is KDP-compatible; no final files created."
+  },
+  "factual_reliability": {
+    "status": "PASS_WITH_REFRESH",
+    "basis": "Current AARP and source-ledger claims; state-specific employment and medical advice excluded."
+  },
+  "portfolio_similarity": {
+    "status": "PASS",
+    "catalog_checked": "persistent portfolio catalog plus known production architectures",
+    "matched_product": "THE HUMAN BACKUP PLAN",
+    "architecture_warning": "RN5-001 uses a similar proposals-to-decision mechanism, but serves a different buyer, trigger and promise.",
+    "facets": {
+      "buyer": 20,
+      "jtbd": 20,
+      "trigger": 15,
+      "promise": 25,
+      "format": 75,
+      "information_architecture": 75,
+      "search_intent": 15,
+      "audience": 20,
+      "differentiation": 30
+    },
+    "weights": {
+      "buyer": 15,
+      "jtbd": 25,
+      "trigger": 10,
+      "promise": 20,
+      "format": 5,
+      "information_architecture": 10,
+      "search_intent": 5,
+      "audience": 5,
+      "differentiation": 5
+    },
+    "overlap_score": 29.0,
+    "classification": "NOVEL",
+    "confidence": "HIGH",
+    "production_eligible": true,
+    "route": "PRODUCTION_ELIGIBLE"
+  },
+  "anton_attention": {
+    "status": "PASS",
+    "validation_hours_estimate": 0.5
+  },
+  "production_authorized": false
+}

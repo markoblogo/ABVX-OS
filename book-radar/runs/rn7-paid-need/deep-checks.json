@@ -1,0 +1,284 @@
+{
+  "schema_version": "book-radar-deep-checks/v1",
+  "count": 5,
+  "candidates": [
+    {
+      "id": "RN7R-001",
+      "name": "RV inspection report decision companion",
+      "buyer": "Used RV buyer",
+      "payer": "Buyer",
+      "purchase_trigger": "Independent inspection report arrives before contingency expires",
+      "job_to_be_done": "Separate costly findings, questions and negotiation items without replacing an inspector",
+      "deadline": "Days",
+      "current_solution": "Inspector call, forums, notes",
+      "current_spend": "Professional inspection commonly hundreds to over $1,000",
+      "unmet_need": "Long photo-rich report is hard to turn into a bounded action list",
+      "publishing_format_fit": "Paperback worksheet is plausible",
+      "discovery_channel": "Amazon and RV-inspection search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-BUYER"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-COST"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-RV"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "NRVIA-BUYER"
+          ]
+        }
+      },
+      "decision_state": "REJECTED_ON_EVIDENCE",
+      "decision_reason": "Direct and near-direct books already cover inspection, deal breakers and buying decisions; no defensible accessible advantage was found."
+    },
+    {
+      "id": "RN7R-002",
+      "name": "HOA reserve-study buyer packet",
+      "buyer": "Condo/HOA homebuyer",
+      "payer": "Buyer",
+      "purchase_trigger": "Disclosure packet arrives before closing",
+      "job_to_be_done": "Identify reserve, assessment and document questions",
+      "deadline": "Days",
+      "current_solution": "Agent, attorney, online articles",
+      "current_spend": "Legal/inspection services and consequential property purchase",
+      "unmet_need": "Reserve and meeting documents are hard to connect",
+      "publishing_format_fit": "Paperback packet is plausible",
+      "discovery_channel": "Amazon and HOA buyer search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-HOA"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "CAI-RESERVE"
+          ]
+        }
+      },
+      "decision_state": "REJECTED_ON_EVIDENCE",
+      "decision_reason": "Five very recent exact books now claim the same due-diligence job; a narrower advantage was not evidenced."
+    },
+    {
+      "id": "RN7R-003",
+      "name": "Septic inspection report decoder",
+      "buyer": "Homebuyer buying a septic property",
+      "payer": "Buyer",
+      "purchase_trigger": "Inspection report arrives before commitment",
+      "job_to_be_done": "Extract findings, missing tests and professional questions",
+      "deadline": "Days",
+      "current_solution": "EPA guide, inspector, agent",
+      "current_spend": "Inspection and possible repair/replacement",
+      "unmet_need": "Generic guides do not necessarily structure the buyer's report",
+      "publishing_format_fit": "Paperback worksheet is plausible",
+      "discovery_channel": "Amazon and homebuyer search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-SEPTIC"
+          ]
+        },
+        "competitive_gap": {
+          "status": "NEGATIVE",
+          "source_ids": [
+            "AMZ-SEPTIC",
+            "EPA-SEPTIC"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-SEPTIC"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "EPA-SEPTIC"
+          ]
+        }
+      },
+      "decision_state": "REJECTED_ON_EVIDENCE",
+      "decision_reason": "A current direct entrant already promises inspection interpretation and risk framing alongside a strong free official guide."
+    },
+    {
+      "id": "RN7R-006",
+      "name": "Home energy-audit action sorter",
+      "buyer": "Homeowner who bought an energy audit",
+      "payer": "Homeowner",
+      "purchase_trigger": "Professional audit report arrives before retrofit quotes",
+      "job_to_be_done": "Convert recommendations into assumptions, quote requests and staged decisions",
+      "deadline": "Weeks",
+      "current_solution": "Auditor call, contractor quotes, spreadsheet",
+      "current_spend": "Assessment and later retrofit work",
+      "unmet_need": "Reports and contractor proposals are difficult to compare",
+      "publishing_format_fit": "Reusable reference plus write-in packet",
+      "discovery_channel": "Amazon and energy-audit search",
+      "discovery_origin": "BOOKS_AND_MATERIALS",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-ENERGY"
+          ]
+        },
+        "competitive_gap": {
+          "status": "UNKNOWN",
+          "source_ids": []
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-ENERGY"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "DOE-AUDIT"
+          ]
+        }
+      },
+      "decision_state": "INSUFFICIENT_EVIDENCE",
+      "decision_reason": "Adjacent books exist, but no reliable evidence yet shows buyers will purchase a post-audit report-to-action system."
+    },
+    {
+      "id": "RN7R-009",
+      "name": "In-home caregiver agency proposal comparator",
+      "buyer": "Family member arranging paid home care",
+      "payer": "Family",
+      "purchase_trigger": "Two or more agency assessments or proposals arrive",
+      "job_to_be_done": "Normalize scope, minimum hours, backup coverage, supervision, exclusions and written answers",
+      "deadline": "Days",
+      "current_solution": "Calls, AARP checklist, personal notes",
+      "current_spend": "Paid home-care services",
+      "unmet_need": "Generic checklists do not preserve proposal differences and answers",
+      "publishing_format_fit": "Reference plus write-in comparison packet",
+      "discovery_channel": "Amazon, caregiving search and employer caregiver programs",
+      "discovery_origin": "SERVICE_OR_TRAINING_SPEND",
+      "evidence_dimensions": {
+        "problem_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-HIRE",
+            "AARP-CHECKLIST"
+          ]
+        },
+        "spending_evidence": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-HIRE",
+            "AARP-WORKBOOK"
+          ]
+        },
+        "book_format_demand": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE"
+          ]
+        },
+        "competitive_gap": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE",
+            "AARP-CHECKLIST"
+          ]
+        },
+        "reachability": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AMZ-CARE",
+            "AARP-HIRE"
+          ]
+        },
+        "delivery_fit": {
+          "status": "SUPPORTED",
+          "source_ids": [
+            "AARP-CHECKLIST"
+          ]
+        }
+      },
+      "decision_state": "READY_FOR_VALIDATION",
+      "decision_reason": "Independent evidence supports the paid decision and adjacent book use; the untested assumption is willingness to buy this narrower comparison packet."
+    }
+  ]
+}
