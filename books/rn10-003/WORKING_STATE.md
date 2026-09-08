@@ -10,13 +10,13 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Cost class: EXPENSIVE, explicitly accepted by the owner.
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
-- Chapters 1–3 drafted in `manuscript/MASTER_MANUSCRIPT.md`.
-- Current manuscript count: approximately 3,280 words.
+- Chapters 1–9 drafted in `manuscript/MASTER_MANUSCRIPT.md`; Act I is complete.
+- Current manuscript count: 8,053 words by `wc -w`.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Write chapters 4–9, covering Cached Relief, the shutdown condition, Mriya’s first secret, measurable canine authority and the event that forces Mriya and Nika out of apartment 4B.
+Write chapters 10–15: reject the offered Good Dog / Bad Dog binary, unlock Stray through negotiated loyalty, form the first voluntary party and establish the Pack Hearth beneath the depot.
 
 ## Continuity anchors
 
@@ -24,7 +24,9 @@ Write chapters 4–9, covering Cached Relief, the shutdown condition, Mriya’s 
 - POV: close third person through Mriya; scent and body precede visual abstraction.
 - Mriya destroyed the tunnel Cache and gained Scent +1 and Adaptation +1.
 - Good Dog / Bad Dog classification is available but remains unresolved until chapters 10–12.
-- A second sealed object carrying the wrong scent is hidden inside Nika’s orange delivery bag.
+- Mriya interrupted Cached Relief but secretly retained residue; Nika discovered the secret.
+- Praise can become spendable Favor. Mriya has used it to influence Nika and the tunnel man, and recognizes the ethical danger.
+- Apartment 4B is lost. Mriya, Nika, Emil and Borscht reached the tram depot, where Atlas and Pixel wait.
 - The cozy bond between Mriya and Nika must stay sincere while System mechanics corrupt care.
 
 ## Reuse first

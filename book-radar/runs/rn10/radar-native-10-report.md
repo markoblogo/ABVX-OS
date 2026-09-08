@@ -44,4 +44,4 @@ The concept gate includes a first-volume synopsis, five-stat progression system,
 
 ## Post-gate production authorization
 
-The owner subsequently authorized development of the first English manuscript for Kindle and paperback. RN10-003 now has a production contract, BookSpec, series bible, voice contract and 36-chapter developmental outline targeting 84,600 words. Drafting has begun with chapters 1–3. Format production, listing freeze and publication remain blocked until the edited manuscript receives owner approval.
+The owner subsequently authorized development of the first English manuscript for Kindle and paperback. RN10-003 now has a production contract, BookSpec, series bible, voice contract and 36-chapter developmental outline targeting 84,600 words. Chapters 1–9 and the complete first act are drafted at 8,053 working words. The act moves from sincere domestic safety through Cached Relief and quantified affection to the loss of apartment 4B; the Good Dog / Bad Dog class decision remains open for chapters 10–12. Format production, listing freeze and publication remain blocked until the edited manuscript receives owner approval.
