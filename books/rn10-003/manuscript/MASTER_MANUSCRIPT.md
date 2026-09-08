@@ -74,11 +74,91 @@ No patting. No grabbing. Just weight and warmth.
 
 Leon laughed too loudly, because humans made noise when something inside them became difficult to carry.
 
+Then he stopped laughing and took Nika into the little room beside the kennels, where decisions became forms.
+
+Mriya followed as far as the doorway. Leon left it open.
+
+The room smelled of paper, disinfectant, and the private worry people brought to questions about money. Nika sat beneath a poster showing twelve smiling dogs with all their difficult parts cropped out. Leon asked about the apartment, the landlord, work hours, emergency care, and whether anyone else lived with her.
+
+“No,” Nika said four times.
+
+The fifth question was about savings.
+
+Nika rubbed the split toe of one boot against the other. “Enough for the adoption fee.”
+
+“That wasn’t the question.”
+
+“Enough for the first vet visit if nothing dramatic happens.”
+
+Leon looked toward Mriya’s hip.
+
+Nika looked too. She had already noticed the way Mriya placed her left foot. That improved her standing slightly.
+
+“My morning route ends near Saint Orra’s clinic,” she said. “They know me. I deliver their lab envelopes.”
+
+“That is not the same as being able to pay them.”
+
+“No. It’s the same as knowing which door to knock on while I panic.”
+
+Leon folded his hands over the blank form. He did not smell convinced.
+
+Nika’s phone lit on the table. `RENT — FINAL REMINDER` appeared above a row of numbers. She turned it facedown without reading them.
+
+“You can take a week,” Leon said.
+
+Behind him, a young dog threw himself against a kennel door because a family had entered the building. Hope made an undignified sound.
+
+Nika watched Mriya instead.
+
+“If I take a week, I’ll make a list,” she said. “The list will say fourth floor, no lift, irregular work, not enough money, too old, bad idea. It’ll be accurate.”
+
+“Accurate can be useful.”
+
+“Not always.”
+
+She picked up the pen.
+
+Mriya understood none of the marks Nika made. She understood the smell beneath them: fear, yes, but not the fear of a person walking toward a mistake by accident. This fear had its eyes open.
+
+Leon brought out a paper collar, a small bag of food, and a folder thick with instructions. Nika paid the fee. The machine rejected her card once. On the second attempt she moved money between accounts while pretending to inspect the poster.
+
+“Very responsible,” Leon said.
+
+“I contain multitudes.”
+
+He crouched beside Mriya and checked the buckle of her old collar. His fingers paused at the torn edge of her ear.
+
+“Blue door,” he told her quietly. “You can still change your mind before the blue door.”
+
+Mriya looked at Nika, who was trying to fit the food, folder, leash, and her own lunch into the orange bag. The lunch lost.
+
+Mriya walked through the blue door first.
+
 The apartment was on the fourth floor of a narrow building in South Vesper. There was no lift. By the second landing, Mriya had revised her opinion of Nika’s load-bearing capacity and her own.
 
 “We can be old together,” Nika told her.
 
 Mriya was not old. She was thoroughly tested.
+
+On the third landing her left leg stopped cooperating. Mriya held it above the stair and studied the remaining flight.
+
+Nika did not pull the leash. She put the shelter folder and food bag down, sat two steps above her, and removed the broken boot. A red line crossed two of her toes where the wet seam had rubbed them.
+
+“Excellent,” she said. “We’re both defective.”
+
+They rested while somebody fried onions behind the nearest door. Nika read the dosage label on Mriya’s tablets twice. Then she tore a strip from the paper bag, folded the pills into it, and placed the packet in her left pocket.
+
+Mriya climbed the final flight slowly. Nika matched her, one damaged step for one damaged step, though humans usually preferred to conceal weakness by moving faster.
+
+At apartment 4B, Nika touched the key to the lock and paused.
+
+“Last chance,” she said.
+
+The blue shelter door was four districts away. Leon was farther. Going back would require descending all the stairs, which made the suggestion unserious.
+
+Mriya pressed her nose against the door.
+
+Nika opened it.
 
 The building offered a layered account of its inhabitants. The ground floor belonged to dust, wet umbrellas, and the bitter chemical the caretaker used to erase urine without convincing anyone. The first floor held a baby, two cats, and a marriage conducted mostly through doors. The second contained boiled cabbage and a small dog whose bark arrived several seconds before his courage. On the third, someone repaired electronics at a kitchen table. Hot metal and anxious plastic seeped beneath the door.
 
@@ -98,6 +178,16 @@ Mriya distrusted it immediately.
 
 “I panicked,” Nika said. “There were choices.”
 
+Nika unpacked the shelter folder at the table. Vaccination page beside the unpaid electricity bill. Feeding instructions over the courier rota. Emergency numbers beneath a notice informing her that the building’s boiler inspection had been postponed again.
+
+She read every page. She whispered the expensive words—bloodwork, imaging, sedation—as if saying them softly might reduce their cost. Then she set an alarm for Mriya’s tablets and divided the remaining money in her wallet into three piles: rent, food, and everything that refused to belong to either.
+
+The third pile received two coins.
+
+Mriya placed one paw on the rent pile.
+
+“Good,” Nika said. “You can handle finance.”
+
 She removed the orange bag and set it on a chair. Mriya watched carefully. Bags were mobile territories. Some held food. Some held hands that hurt. Some simply disappeared with a person’s scent inside them.
 
 Nika filled the water bowl.
@@ -113,6 +203,14 @@ By evening, they had established six rules.
 Nika was allowed to enter the bathroom alone but not to close the door completely. Mriya was allowed on the sofa as long as neither of them called it permission. Food placed in the left bowl belonged to Mriya. Food dropped anywhere else remained under negotiation. The orange bag could leave only if Nika left with it. The yellow blanket belonged to no one. The space beside it, on the bare floor, belonged to Mriya.
 
 The sixth rule concerned the front door.
+
+Before opening it, Nika touched three places in order: left pocket, right pocket, orange-bag strap. Keys. Phone. Work. When she returned from taking rubbish downstairs, she touched the same three places and then tapped the door twice with two knuckles before entering.
+
+“So you know it’s me,” she told Mriya.
+
+Mriya knew it was her from the first landing. Humans needed rituals because their noses left them exposed to uncertainty.
+
+Still, she watched closely.
 
 At half past nine, someone climbed the stairs carrying a paper sack. Mriya smelled fried chicken through two walls and stood before she was awake. Her bark struck the apartment hard enough to wake dust from the radiator.
 
@@ -214,6 +312,52 @@ Mriya paused.
 
 “Everything is temporary,” said the nose, and sneezed dust.
 
+The door opened before Nika could pull Mriya away.
+
+An old man stood behind it in a dressing gown and slippers, holding a leash attached to a body much smaller than the voice it contained. Borscht was low, broad, and colored like a carpet that had survived several governments. He leaned forward until the leash drew a straight line from his chest to the old man’s wrist.
+
+“Emil Pell,” the man said. He looked at Mriya, then at Nika. “You finally brought home somebody sensible.”
+
+“We met yesterday.”
+
+“Exactly. Still time to make a good impression.”
+
+Borscht pushed his nose toward Mriya’s cheek. He smelled of liver, dust, heart medicine, and absolute confidence that the corridor belonged to him.
+
+“I guard the second floor,” his posture said.
+
+“From what?”
+
+Borscht considered this.
+
+“The third floor.”
+
+Emil bent slowly and offered Mriya the back of his fingers. She smelled machine oil beneath the soap, the same trace that seeped from the electronics room above. A tremor moved through his hand. Borscht leaned against his slipper until it eased.
+
+“Boiler’s knocking again,” Emil told Nika. “Mrs. Varga says it’s pipes. Mrs. Varga says everything is pipes until it becomes someone else’s fault.”
+
+As if summoned by criticism, a door below opened.
+
+“It is the pipes,” a woman called up the stairwell.
+
+The building carried her voice to every floor and improved it with echoes.
+
+Nika smiled despite the ringing phone in her pocket. “I’ll tell the caretaker.”
+
+“You told him last month.”
+
+“Then I’ll tell him with emotional depth.”
+
+The phone rang again. Nika checked the screen, and hurry replaced amusement in her scent. She touched left pocket, right pocket, orange-bag strap.
+
+Keys. Phone. Work.
+
+“Tonight,” she told Mriya. “We’ll attempt social life tonight.”
+
+Borscht sat on Emil’s slipper.
+
+“Coward,” he observed.
+
 Nika tugged the leash. “Come on.”
 
 Outside, she walked Mriya around the block, collected what humans insisted on collecting, and returned her to the apartment with a biscuit that tasted of compressed apology.
@@ -229,6 +373,24 @@ Nika’s footsteps descended. Her scent stretched through the stairwell, thinned
 Mriya listened until the building swallowed it.
 
 She did not bark. Barking was for changes that could still be argued with.
+
+She placed one paw against the bottom of the door. Nika’s fading trail waited on the other side, organized into steps: fourth landing, third, second, pause beside Borscht, first, street.
+
+The red-cap man had also left in steps. The difference between departure and abandonment did not arrive at the beginning. It arrived later, after hunger, darkness, and all the explanations a dog could invent had been used.
+
+From below came the scrape of Emil’s slippers. Borscht paused outside apartment 4B and breathed beneath the door.
+
+“Gone?”
+
+Mriya kept her paw where it was.
+
+“Returns,” Borscht decided.
+
+This was based on no evidence available to him.
+
+Emil called his name. The small dog’s nails retreated down the stairs.
+
+Mriya remained at the door until Nika’s scent vanished completely. Then she chose the kitchen, where the full water bowl constituted a fact.
 
 She inspected the kitchen, the bathroom, and the sofa. The mugs had not moved. The bowls remained. The yellow blanket continued its campaign of excessive friendliness.
 
@@ -288,6 +450,58 @@ The trail led east.
 
 Evening traffic chopped it into pieces. Mriya found it at kerbs and drain covers, lost it beneath restaurant vents, and recovered it where Dockside’s older streets dipped toward the river. Nika followed with the resigned gait of a person who had once believed she made decisions.
 
+At first they retraced the ordinary route.
+
+Nika’s workday remained on Vesper in thirty-seven small deposits. At the corner kiosk, paper and cheap coffee marked the place where she had collected the morning manifest. A blue thread from her sleeve clung to the bicycle rack outside Saint Orra’s clinic. She had waited there long enough for her boots to leave damp half-moons beneath the awning.
+
+“Blood samples,” Nika said when Mriya pulled toward the side door. “Not snacks.”
+
+The clinic vent offered a complex rebuttal.
+
+From there the route climbed Ledger Hill, where old banks had become apartments for people who still wanted columns at their entrances. Nika’s scent stopped at three brass doors and one service door that smelled of cabbage, toner, and a child with a fever. Mriya found the place where Nika had set down the orange bag to retie the broken boot with parcel cord.
+
+At the crest, tram cables crossed above them in black lines. The Number Six screeched around the square and covered the trail with hot metal. Mriya circled twice until her hip tightened. The correct scent waited beneath a bench: Nika’s coffee, spilled into rainwater, and the compressed apology biscuit she had apparently broken in half before leaving.
+
+Mriya ate the evidence.
+
+“That was mine,” Nika said.
+
+It had clearly been addressed to the dog.
+
+The route descended through the market arcade. Fishmongers washed silver scales into the drains. A florist stacked buckets behind shutters. Bread cooled somewhere above a narrow lane, filling the air with a false promise of home. Nika’s trail entered a print shop and emerged carrying ink, warm paper, and the irritation of a man who had signed for something after denying he had ordered it.
+
+This was what Nika did while the apartment waited. She moved other people’s urgent objects between doors. Medicine, contracts, keys, proofs, replacement machine parts, envelopes marked fragile by people who then dropped them into the orange bag from a distance. The route bent whenever a dispatcher called. Lunch happened standing up or not at all.
+
+Mriya read the shape of it and understood why Nika returned smelling of the whole city but belonging to none of it.
+
+At Canal Street, the trail divided. The fresh branch led south toward home. The older one continued east beneath the tram viaduct.
+
+Nika tugged gently. “We went this way. Home is that way.”
+
+Mriya tested both.
+
+Home carried toast, radiator dust, Borscht beneath a door, and the yellow blanket pretending not to wait.
+
+East carried the wrong scent.
+
+It touched Nika’s boot where the pavement narrowed beside roadworks. Someone had wheeled a covered municipal cart across her path. Rubber tires, wet canvas, two humans in protective gloves. One had stood watch. The other had dropped something small enough to strike the curb without being seen.
+
+The trace led to a storm drain.
+
+Mriya pushed her muzzle between the iron bars. Bitter flowers rose from running water. The same current passed beneath apartment 4B, not as a continuous trail but as scattered residue caught in the buried network of Vesper.
+
+Her left hip throbbed from Ledger Hill. Rain had worked through the fur along her spine. She could turn south. She could learn whether Nika returned twice in the same day. The apartment could become repetition.
+
+Below the street, metal knocked softly against stone.
+
+Mriya chose east.
+
+Nika saw the change before the leash tightened. “Whatever you’ve decided, I object on procedural grounds.”
+
+They followed the storm drains toward Dockside. The streets widened and emptied. Shops became loading bays. Apartment smells gave way to tar, river mud, rope, diesel, and warehouses holding things no one intended to use nearby.
+
+The wrong scent strengthened at every drain cover.
+
 “You know,” she said, “normal dogs sniff trees.”
 
 Mriya sniffed a tree to demonstrate flexibility.
@@ -319,6 +533,12 @@ From somewhere below the depot came a soft mechanical knock.
 The wrong scent sharpened.
 
 Mriya pulled.
+
+Pain caught deep in her left hip. She shifted her weight and pulled again. The fence gap scraped one shoulder in advance, and the service door beyond it promised stairs going down. Every sensible part of her body described the cost.
+
+Then the scrape came again, followed by a human cough cut short.
+
+The hidden thing was not alone.
 
 Nika planted both boots. “We have known each other for twenty-four hours.”
 
@@ -364,6 +584,16 @@ Mriya stepped backward.
 
 The service door touched her tail. Behind it, Nika was forcing herself through the broken fence and continuing a one-sided discussion about trust.
 
+The doorway opened onto a concrete platform no wider than Nika’s orange bag. Three routes left it.
+
+To the right, steps climbed to a steel hatch painted with a white municipal number. Rust sealed its lower edge. Straight ahead, the main service passage sloped beneath the embankment, broad enough for a maintenance cart and crowded overhead with pipes. To the left, a narrow inspection walk followed a drainage channel toward the river. Black water hurried below its broken railing.
+
+The man stood in the main passage between Mriya and the only route wide enough for Nika.
+
+Behind him, twenty paces down, the passage split around a square support column. One branch carried the bitter-flower scent. The other carried moving air and the distant mineral breath of the river.
+
+Mriya marked the shape of the place because frightened bodies needed exits even when frightened minds had forgotten them.
+
 The light moved.
 
 “There,” a man said.
@@ -377,6 +607,18 @@ It was the wrong direction. She knew this. Nika was behind her, the street behin
 Noise, door, foot, pain, run.
 
 The tunnel descended. Pipes crowded its ceiling. Water shone in a channel along one wall. The hidden scent lay everywhere now, packed into seams and recesses, a hundred deliberate silences waiting inside the concrete.
+
+She passed the support column and took the branch with moving air.
+
+It ended after twelve strides at a collapsed grille.
+
+Beyond the bars, evening showed as a gray strip above the river. The opening was large enough for water and rats. Not for Mriya. Certainly not for Nika. Silt beneath the grille held the prints of work boots pointing inward. Whoever used the depot knew another way through.
+
+The man’s light struck the wall behind her.
+
+Mriya turned back. The support column divided the beam, giving her one breath of darkness. The bitter branch lay opposite. A yellow ladder rose between the pipes there, but its top disappeared into concrete. No hatch. No exit. Only storage alcoves cut into the embankment and the drainage channel running past them.
+
+The geography reduced itself to one fact: to reach Nika, Mriya had to pass the man.
 
 “Stop!” the man shouted.
 
@@ -397,6 +639,20 @@ Every packet had an edge in the air. Every edge connected to every hand that had
 The man swore.
 
 His fear changed. Mriya was no longer an animal in the wrong place. She was a witness.
+
+He kicked the empty crate aside and blocked the passage with his body. Behind him Nika reached the support column, breathing hard. The fence had torn her coat at the shoulder. She held the broken half of the leash clip in one hand.
+
+“Move away from my dog,” she said.
+
+The sentence was damaged by fear but remained structurally sound.
+
+“This area is closed.”
+
+“Your sign fell down.”
+
+“Leave.”
+
+Nika looked at Mriya. Mriya looked at the glove. Neither obeyed.
 
 He lunged.
 
@@ -428,6 +684,14 @@ No purchase.
 
 The current was not deep, but it was fast, and the collar had become a hand that did not need an arm.
 
+The broken grille waited downstream.
+
+Water dragged Mriya sideways until one rear leg slipped fully into the channel. Her hip struck the concrete lip. Pain opened white through her body. The collar pulled her neck against the bracket; the current pulled everything else away. When she tried to bark, water entered instead.
+
+Her front claws found a seam and tore. One nail bent backward. The seam gave her no hold.
+
+The gray strip of evening beyond the grille flashed again in her mind. If the strap broke, the current would carry her there. If it did not, the collar would keep her here until breath stopped. Two outcomes, both efficiently arranged.
+
 Light fractured on the water.
 
 The man stood above her. He looked at the floating packets, then toward the entrance, calculating which loss mattered more.
@@ -435,6 +699,12 @@ The man stood above her. He looked at the floating packets, then toward the entr
 Nika hit him with the orange delivery bag.
 
 It was not an elegant weapon. A metal flask inside improved it.
+
+The first swing struck his wrist. The second missed and caught the bag on the torn corner of the crate. Orange canvas split along an old seam.
+
+One intact packet, pinned beneath the crate when the others spilled, sprang loose. It struck Nika’s shin and slid across the wet floor. She stepped back to keep her balance. The packet rose on the toe of her broken boot, tipped into the open seam, and disappeared between the bag’s outer canvas and its frayed lining.
+
+No one looked at it.
 
 The light spun away. The man staggered. Nika fell to her knees beside the channel and reached down.
 
@@ -451,6 +721,14 @@ Not a command.
 Mriya lifted her muzzle.
 
 Nika caught the collar, found the buckle, and tore it open. The current took Mriya two body lengths before Nika grabbed the fur at her shoulders and pulled.
+
+Nika slid forward on both knees. Her injured palm struck the channel edge. Blood crossed her skin at once, sharp and bright. For a moment more of Nika hung over the water than remained on the platform.
+
+Mriya planted the uninjured rear paw against the wall. Nika pulled. The orange bag caught around the support column and held them both.
+
+Canvas creaked.
+
+Inside its torn lining, the hidden packet pressed flat but did not break.
 
 They collapsed together on the wet concrete.
 
@@ -508,6 +786,12 @@ Leave smelled like the loading ramp and eleven days of waiting.
 
 The man reached inside his coat.
 
+Metal touched metal inside it.
+
+Nika gathered the broken leash around one fist. Her bleeding hand left dark marks on the blue fabric. She had no room to swing the bag again; its strap remained looped around the support column, and the passage behind her ended at the river grille.
+
+Mriya smelled the three routes, the sealed hatch, the blocked entrance, the man’s intended next step, Nika’s fear, and the packets rushing toward the river. The information arrived together and without mercy. More scent did not make the choice smaller. It made every possible failure present at once.
+
 Mriya chose.
 
 The packets in the channel split open at once.
@@ -530,11 +814,73 @@ The other was blood on a frightened hand.
 
 Mriya disliked them both.
 
+The tunnel did not become easier.
+
+Her new awareness widened until it hurt. Rust had intention because someone had ignored it. The sealed hatch carried six years of hands, rain, paint, and decisions not to repair it. The man’s coat contained metal, paper, old smoke, and three separate fears. Nika’s blood overwhelmed the rest.
+
+Mriya tried to follow the strongest useful trail and found only the nearest one.
+
+Scent +1 did not tell her what mattered.
+
+Adaptation +1 did not mend the bent nail, release her hip, or place knowledge inside Nika’s head. It offered possibilities at the edge of action: shift weight before the damaged joint failed; lower her body beneath the man’s reach; use the pipe-shadow where his lamp would blind him. Each possibility existed only while she moved. None promised survival.
+
+The man abandoned the empty packets and pulled a compact metal tool from his coat. Not a weapon. A cutting handle with a hooked jaw. He stepped out of the channel toward the orange strap around the column.
+
+If he cut it, Nika would lose the thing holding her clear of the water.
+
+Mriya lowered her body.
+
+The pipe-shadow appeared as absence inside the flood of scents. She entered it. The man turned the light too late. Mriya drove her shoulder into the back of his knee.
+
+He fell against the yellow ladder. The cutting tool skittered under the pipes.
+
+Nika freed the bag strap and pointed toward the support column. “Which way?”
+
+The main passage returned to the platform and street, but the man lay across it. The inspection walk led along the channel, narrowing before it reached the service door. Mriya smelled moving air through the rusted hatch above the entrance steps.
+
+She chose the hatch.
+
+They ran back around the column. Nika climbed two steps at a time and struck the hatch with her good shoulder. It did not move.
+
+The man rose behind them.
+
+Mriya jumped, caught the hanging inspection tag in her teeth, and pulled. The tag tore away. Beneath it, rust had spared a small release lever from paint.
+
+Nika saw the movement, seized the lever, and put her weight on it.
+
+The hatch opened three fingers. Rainwater and street noise entered. So did the smell of a tram braking above them.
+
+Nika pushed again. The gap widened enough for Mriya. Mriya climbed through, turned, and braced her front feet on wet pavement while Nika forced her shoulders after her.
+
+The man caught Nika’s ankle.
+
+Nika kicked once. The parcel cord and loose sole of her broken boot remained in his hand. The boot and the rest of her came free.
+
+They lay behind the depot fence while the hatch slammed below. A second later the hooked tool struck its underside.
+
+Mriya could smell the man searching for another exit. She could smell three possible routes under the yard. She could not tell which one he would use.
+
+More was not certainty.
+
 Nika seized the broken leash. “Run.”
 
 This command was well designed.
 
 They ran toward the street together.
+
+They took the shortest route home until Mriya lost it beneath the tram viaduct. Every drain carried bitter residue now. Every pedestrian wore hidden intentions: keys concealed in fists, sweets concealed in pockets, anger concealed behind closed mouths. She stopped in the market arcade, dizzy with other people’s secrets.
+
+Nika touched three places in order.
+
+Left pocket. Right pocket. Orange-bag strap.
+
+Then she tapped the bag twice with two knuckles, the rhythm meant for their front door.
+
+“Here,” she said. “Follow the ugly bag.”
+
+Mriya found bicycle grease, printer ink, soup, Nika’s blood, and home. She held that one joined scent above the rest.
+
+They went south slowly. Nika limped without one boot. Mriya’s hip trembled each time she stepped off a kerb. Neither allowed the other to stop.
 
 Inside the orange bag, beneath the dented flask, a thin sealed object carried the wrong scent home with them.
 

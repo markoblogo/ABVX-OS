@@ -47640,7 +47640,7 @@
       "opportunities_scanned": 0,
       "deep_scanned": 0,
       "production_authorized": true,
-      "status": "STRUCTURAL_AUDIT_COMPLETE_EXPANSION_READY",
+      "status": "EXPANSION_E1_CHAPTERS_1_3_GATE_PASS",
       "strategy": "candidate-generation-v5-commercial-first"
     }
   ],

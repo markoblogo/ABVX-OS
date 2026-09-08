@@ -5,6 +5,17 @@
   "target_words": 84600,
   "required_addition_words": 62108,
   "counting_rule": "wc-style tokens; 31 front-matter words are allocated to chapter 1 so current chapter totals equal the complete manuscript count",
+  "expansion_progress": {
+    "completed_gate": "E1_CHAPTERS_1_3",
+    "expanded_chapters": [1, 2, 3],
+    "manuscript_words_after_gate": 25792,
+    "words_added_from_baseline": 3300,
+    "chapter_actuals_using_counting_rule": {"1": 2160, "2": 2137, "3": 2313},
+    "chapter_target_total": 6700,
+    "chapter_actual_total": 6610,
+    "target_variance_percent": -1.3,
+    "gate_result": "PASS"
+  },
   "expansion_policy": [
     "Add scenes, reversals, consequences, relationship movement and setting evidence; do not pad existing paragraphs.",
     "Preserve every chapter's current entry and exit turn unless the structural audit explicitly requires a causal bridge.",
