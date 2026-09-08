@@ -1,0 +1,17 @@
+{
+  "schema_version":"book-radar-import/v1",
+  "radar_runs":[{"id":"RN9","name":"Radar-Native Discovery #9 evidence-led","observed_at":"2026-09-08","status":"EVIDENCE_BACKED_CONCEPT","opportunities_scanned":9,"deep_scanned":5,"production_authorized":false,"strategy":"candidate-generation-v4-book-demand"}],
+  "opportunities":[
+    {"id":"RN9-001","radar_run_id":"RN9","buyer_job":"New RV owner needs a source-linked maintenance evidence trail","query_cluster":"RV maintenance log book; RV maintenance handbook","format":"PAPERBACK","price_band":15.99,"concept":"RV Maintenance Evidence Book"},
+    {"id":"RN9-002","radar_run_id":"RN9","buyer_job":"Solo sewist needs a usable self-fitting triage sequence","query_cluster":"sewing fitting book; pattern fitting book","format":"PAPERBACK_COLOR","price_band":24.99,"concept":"Self-Fitting Triage Workbook for Sewists"}
+  ],
+  "evidence":[
+    {"id":"evidence:RN9:cards","observed_at":"2026-09-08","summary":"Nine bounded observation-first cards were screened through purchase, scenario, accessible-gap, independence, rights, expertise and timing gates.","source_ref":"book-radar/runs/rn9/evidence-cards.json"},
+    {"id":"evidence:RN9:external","observed_at":"2026-09-08","summary":"Twenty-two external observations from four source families were stored with dated interpretation and alternative explanations in the evidence cards.","source_ref":"book-radar/runs/rn9/evidence-ledger.json"},
+    {"id":"evidence:RN9:deep","observed_at":"2026-09-08","summary":"Five candidates were deep checked; only RV reached evidence-backed concept status and sewing remains watch-only.","source_ref":"book-radar/runs/rn9/deep-checks.json"}
+  ],
+  "decisions":[
+    {"id":"decision:RN9-001:concept","opportunity_id":"RN9-001","decision":"EVIDENCE_BACKED_CONCEPT","reason":"Independent purchase and request evidence support a physical record, while buyer complaints identify a guided evidence-system gap beyond blank logs.","decided_at":"2026-09-08","production_authorized":false},
+    {"id":"decision:RN9-002:watch","opportunity_id":"RN9-002","decision":"WATCH","reason":"The buyer problem and physical-book preference are real, but original visual production and expert QA feasibility remain unproven.","decided_at":"2026-09-08","production_authorized":false}
+  ]
+}

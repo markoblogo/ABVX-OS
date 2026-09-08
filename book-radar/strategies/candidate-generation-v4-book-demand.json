@@ -2,6 +2,7 @@
   "schema_version": "candidate-generation-strategy/v4",
   "id": "candidate-generation-v4-book-demand",
   "status": "ACTIVE_EXPERIMENT",
+  "revision": 2,
   "effective_from_run": "RN8",
   "search_unit": "BUYER x PURCHASE_TRIGGER x BOOK_BUYING_JOB x SEARCH_OR_DISTRIBUTION_CHANNEL x UNMET_SCENARIO",
   "inherits": "candidate-generation-v3-paid-need",
@@ -11,6 +12,25 @@
     "technology changes",
     "recurring and calendar demand",
     "external buyer requests"
+  ],
+  "source_families": [
+    "existing book buyers",
+    "direct requests for a book solution",
+    "confirmed external events",
+    "specialized stable markets"
+  ],
+  "evidence_foundations": [
+    "BOOK_PURCHASE_EVIDENCE",
+    "SPECIFIC_BUYER_SCENARIO",
+    "ACCESSIBLE_GAP"
+  ],
+  "pre_deep_scan_gates": [
+    "comparable book purchase evidence is supported",
+    "buyer trigger task and desired result are specific",
+    "a concrete gap is evidenced and deliverable",
+    "a plausible discovery path is named",
+    "rights expertise language format and demand-window blockers are checked",
+    "at least two independent origins support advancement"
   ],
   "required_additional_fields": [
     "discovery_source",
@@ -51,6 +71,10 @@
     "final_actions": 3,
     "watch_items": 5
   },
+  "revision_history": [
+    {"revision":1,"effective_from_run":"RN8","change":"book-demand-first baseline"},
+    {"revision":2,"effective_from_run":"RN9","change":"observation-first evidence cards and three-foundation early gate"}
+  ],
   "historical_compatibility": {
     "prior_runs_immutable": true,
     "RN6_decision": "NO_PRODUCT",

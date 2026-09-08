@@ -65,6 +65,24 @@ REQUIRED_BOOK_BUYING_FIELDS = (
     "uncertainties",
     "next_decision",
 )
+EVIDENCE_CARD_FIELDS = (
+    "buyer",
+    "purchase_reason",
+    "specific_task",
+    "comparable_book_purchase_evidence",
+    "unmet_scenario",
+    "accessible_gap",
+    "book_format",
+    "format_reason",
+    "discovery_query_or_channel",
+    "observations",
+    "source_independence",
+    "freshness",
+    "production_constraints",
+    "main_uncertainty",
+    "rights_status",
+    "expertise_status",
+)
 
 
 def validate_buyer_situation(candidate: dict[str, Any]) -> None:
@@ -199,3 +217,71 @@ def eligible_for_new_book(candidate: dict[str, Any], *, as_of: date) -> bool:
     return book_demand_supported(candidate["book_demand_evidence"]) and demand_window_viable(
         candidate["demand_window"], as_of=as_of
     )
+
+
+def validate_evidence_card(card: dict[str, Any]) -> None:
+    """Validate the short observation-first card used before concept formulation."""
+    missing = [field for field in EVIDENCE_CARD_FIELDS if card.get(field) in (None, "")]
+    if missing:
+        raise ValidationError(f"evidence card missing fields: {missing}")
+    for field in ("comparable_book_purchase_evidence", "accessible_gap"):
+        claim = card[field]
+        if claim.get("status") not in EVIDENCE_STATUSES:
+            raise ValidationError(f"{field} has invalid status")
+        if not isinstance(claim.get("source_ids"), list):
+            raise ValidationError(f"{field} source_ids must be an array")
+        if claim["status"] != "UNKNOWN" and not claim["source_ids"]:
+            raise ValidationError(f"{field} requires source evidence")
+    if not isinstance(card["observations"], list) or not card["observations"]:
+        raise ValidationError("evidence card requires observations")
+    observation_fields = {
+        "source_id",
+        "independence_key",
+        "observed_at",
+        "observation",
+        "interpretation",
+        "alternative_explanation",
+    }
+    for observation in card["observations"]:
+        missing_observation = [field for field in observation_fields if not observation.get(field)]
+        if missing_observation:
+            raise ValidationError(f"observation missing fields: {missing_observation}")
+        date.fromisoformat(observation["observed_at"])
+    independence = card["source_independence"]
+    if not isinstance(independence.get("minimum_independent_sources"), int):
+        raise ValidationError("source independence requires an integer threshold")
+    if independence["minimum_independent_sources"] < 2 or not independence.get("rationale"):
+        raise ValidationError("source independence requires at least two origins and a rationale")
+    freshness = card["freshness"]
+    date.fromisoformat(freshness["as_of"])
+    if freshness.get("window_closes"):
+        date.fromisoformat(freshness["window_closes"])
+    if not isinstance(freshness.get("preparation_days"), int) or freshness["preparation_days"] < 0:
+        raise ValidationError("freshness requires non-negative preparation_days")
+    if not isinstance(card["production_constraints"], list):
+        raise ValidationError("production_constraints must be an array")
+
+
+def early_discovery_decision(card: dict[str, Any], *, as_of: date) -> str:
+    """Apply purchase, scenario, gap, independence, rights, expertise, and time gates early."""
+    validate_evidence_card(card)
+    if card["rights_status"] != "CLEAR":
+        return "REJECTED_ON_EVIDENCE"
+    if card["expertise_status"] == "UNAVAILABLE":
+        return "ATTRACTIVE_BUT_NOT_FOR_US"
+    freshness = card["freshness"]
+    if freshness.get("window_closes") and not demand_window_viable(
+        {"closes": freshness["window_closes"], "preparation_days": freshness["preparation_days"]},
+        as_of=as_of,
+    ):
+        return "REJECTED_ON_EVIDENCE"
+    independent_origins = {item["independence_key"] for item in card["observations"]}
+    if len(independent_origins) < card["source_independence"]["minimum_independent_sources"]:
+        return "INSUFFICIENT_EVIDENCE"
+    purchase = card["comparable_book_purchase_evidence"]
+    if purchase["status"] != "SUPPORTED" or not purchase["source_ids"]:
+        return "INSUFFICIENT_EVIDENCE"
+    gap = card["accessible_gap"]
+    if gap["status"] != "SUPPORTED" or not gap["source_ids"]:
+        return "INSUFFICIENT_EVIDENCE"
+    return "DEEP_SCAN_ELIGIBLE"

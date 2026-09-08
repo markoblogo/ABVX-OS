@@ -1,0 +1,10 @@
+{
+  "schema_version":"book-radar-portfolio-duplication-check/v1",
+  "run_id":"RN9",
+  "scope":"DUPLICATION_CHECK_ONLY",
+  "portfolio_audit_performed":false,
+  "checks":[
+    {"opportunity_id":"RN9-001","highest_match":"THE HUMAN BACKUP PLAN","score":12,"classification":"NOVEL","reason":"Both preserve records, but buyer, trigger, operational task, search intent and outcome differ: vehicle maintenance evidence versus family continuity after owner absence."},
+    {"opportunity_id":"RN9-002","highest_match":"THE HUMAN BACKUP PLAN","score":5,"classification":"NOVEL","reason":"Garment self-fitting has no material buyer-job, promise, format-use or query overlap with the current portfolio record."}
+  ]
+}

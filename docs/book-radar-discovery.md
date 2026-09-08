@@ -45,3 +45,21 @@ unknown denominator, not evidence of zero demand.
 Authenticated portfolio evidence may be collected under
 `docs/kdp-portfolio-audit.md`. This channel is read-only and must not be used
 to change listings without a separate explicit publishing instruction.
+
+## Observation-first evidence card
+
+From RN9, do not formulate a concept before recording three separate
+foundations: comparable book-purchase evidence, a specific buyer scenario, and
+an accessible unmet scenario. Each card records the dated observation,
+interpretation, alternative explanation, and an independence key. Repeated
+pages or links from one origin count once.
+
+Before deep scan, reject or hold candidates with unknown book purchasing,
+unsupported gaps, fewer than two independent origins, blocked rights,
+unavailable expertise, or a demand window shorter than production. A direct
+request for free advice is not book-purchase evidence. An event plus an old
+official guide is only an analogy until a current buyer path is visible.
+
+The machine-readable card schema is
+`schemas/book_radar_evidence_cards.schema.json`; behavioral gates live in
+`src/abvx_harness/book_radar_discovery.py`.

@@ -1,0 +1,10 @@
+{
+  "schema_version":"book-radar-source-family-effectiveness/v1",
+  "run_id":"RN9",
+  "families":[
+    {"family":"EXISTING_BOOK_BUYERS","usefulness":"HIGHEST","finding":"Recent purchaser language exposed both the natural book format and concrete defects in current products. It supplied the strongest accessible-gap evidence for RV and sewing."},
+    {"family":"DIRECT_BOOK_REQUESTS","usefulness":"HIGH_FOR_SCENARIO_LOW_FOR_PAYMENT","finding":"Requests revealed exact moments of struggle and vocabulary, but a request alone did not prove a buyer would choose or pay for a book."},
+    {"family":"SPECIALIZED_STABLE_MARKETS","usefulness":"HIGH_FOR_FORMAT_AND_SUBSTITUTES","finding":"Specialist stores and authorities established price, format and free-substitute baselines; they often weakened rather than strengthened a candidate by revealing trusted incumbents."},
+    {"family":"CONFIRMED_EXTERNAL_EVENTS","usefulness":"LOW_WITHOUT_BUYER_EVIDENCE","finding":"macOS 27 and Rugby World Cup 2027 confirmed timing only. Neither produced an accessible, independently supported book gap in this pass."}
+  ]
+}

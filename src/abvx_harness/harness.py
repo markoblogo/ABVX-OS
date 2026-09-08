@@ -41,14 +41,15 @@ def validate(instance: Any, schema: dict[str, Any], *, schema_path: Path, root: 
     if "$ref" in schema:
         ref = schema["$ref"]
         ref_file, _, pointer = ref.partition("#")
-        target_schema = root_schema
+        reference_root = root_schema
         target_path = schema_path
         if ref_file:
             target_path = (schema_path.parent / ref_file).resolve()
-            target_schema = load_json(target_path)
+            reference_root = load_json(target_path)
+        target_schema = reference_root
         if pointer:
-            target_schema = _pointer(target_schema, pointer)
-        validate(instance, target_schema, schema_path=target_path, root=root, location=location, root_schema=target_schema)
+            target_schema = _pointer(reference_root, pointer)
+        validate(instance, target_schema, schema_path=target_path, root=root, location=location, root_schema=reference_root)
         return
     if "const" in schema and instance != schema["const"]:
         raise ValidationError(f"{location}: expected {schema['const']!r}")
@@ -245,6 +246,10 @@ def validate_repository(root: Path) -> list[str]:
         for path in sorted((root / "books" / "source-packs").glob("*.json")):
             validate(load_json(path), load_json(book_source_pack_schema_path), schema_path=book_source_pack_schema_path, root=root, location=str(path))
             checked.append(str(path.relative_to(root)))
+    evidence_cards_schema = root / "schemas" / "book_radar_evidence_cards.schema.json"
+    for path in sorted((root / "book-radar" / "runs").glob("*/evidence-cards.json")):
+        validate(load_json(path), load_json(evidence_cards_schema), schema_path=evidence_cards_schema, root=root, location=str(path))
+        checked.append(str(path.relative_to(root)))
     book_spec_schema_path = root / "schemas" / "book_spec.schema.json"
     if book_spec_schema_path.is_file():
         for path in sorted((root / "books" / "specs").glob("*.json")):

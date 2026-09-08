@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://abvx.invalid/schemas/book-radar-evidence-cards/v1",
+  "title":"Book Radar Observation-First Evidence Cards",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schema_version","run_id","observed_at","cards"],
+  "properties":{
+    "schema_version":{"const":"book-radar-evidence-cards/v1"},
+    "run_id":{"type":"string","minLength":1},
+    "observed_at":{"type":"string","format":"date"},
+    "cards":{"type":"array","maxItems":20,"items":{"$ref":"#/$defs/card"}}
+  },
+  "$defs":{
+    "claim":{"type":"object","additionalProperties":false,"required":["status","source_ids"],"properties":{"status":{"enum":["SUPPORTED","NEGATIVE","UNKNOWN"]},"source_ids":{"type":"array","items":{"type":"string","minLength":1}}}},
+    "observation":{"type":"object","additionalProperties":false,"required":["source_id","independence_key","observed_at","observation","interpretation","alternative_explanation"],"properties":{"source_id":{"type":"string","minLength":1},"independence_key":{"type":"string","minLength":1},"observed_at":{"type":"string","format":"date"},"observation":{"type":"string","minLength":1},"interpretation":{"type":"string","minLength":1},"alternative_explanation":{"type":"string","minLength":1}}},
+    "card":{"type":"object","additionalProperties":true,"required":["id","source_family","buyer","purchase_reason","specific_task","comparable_book_purchase_evidence","unmet_scenario","accessible_gap","book_format","format_reason","discovery_query_or_channel","observations","source_independence","freshness","production_constraints","main_uncertainty","rights_status","expertise_status","early_decision"],"properties":{"id":{"type":"string","minLength":1},"source_family":{"enum":["EXISTING_BOOK_BUYERS","DIRECT_BOOK_REQUESTS","CONFIRMED_EXTERNAL_EVENTS","SPECIALIZED_STABLE_MARKETS"]},"comparable_book_purchase_evidence":{"$ref":"#/$defs/claim"},"accessible_gap":{"$ref":"#/$defs/claim"},"observations":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/observation"}},"production_constraints":{"type":"array","items":{"type":"string"}},"early_decision":{"enum":["DEEP_SCAN_ELIGIBLE","INSUFFICIENT_EVIDENCE","REJECTED_ON_EVIDENCE","ATTRACTIVE_BUT_NOT_FOR_US"]}}}
+  }
+}

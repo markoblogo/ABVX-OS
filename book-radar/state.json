@@ -11063,6 +11063,22 @@
       "opportunity_id": "RN8-010",
       "production_authorized": false,
       "reason": "State scope, traction, and QA remain unresolved."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "EVIDENCE_BACKED_CONCEPT",
+      "id": "decision:RN9-001:concept",
+      "opportunity_id": "RN9-001",
+      "production_authorized": false,
+      "reason": "Independent purchase and request evidence support a physical record, while buyer complaints identify a guided evidence-system gap beyond blank logs."
+    },
+    {
+      "decided_at": "2026-09-08",
+      "decision": "WATCH",
+      "id": "decision:RN9-002:watch",
+      "opportunity_id": "RN9-002",
+      "production_authorized": false,
+      "reason": "The buyer problem and physical-book preference are real, but original visual production and expert QA feasibility remain unproven."
     }
   ],
   "evidence": [
@@ -23527,6 +23543,24 @@
       "observed_at": "2026-09-08",
       "source_ref": "book-radar/runs/rn8/evidence-ledger.json",
       "summary": "Triggers, listings, paid format proxies, and buyer requests kept separate."
+    },
+    {
+      "id": "evidence:RN9:cards",
+      "observed_at": "2026-09-08",
+      "source_ref": "book-radar/runs/rn9/evidence-cards.json",
+      "summary": "Nine bounded observation-first cards were screened through purchase, scenario, accessible-gap, independence, rights, expertise and timing gates."
+    },
+    {
+      "id": "evidence:RN9:external",
+      "observed_at": "2026-09-08",
+      "source_ref": "book-radar/runs/rn9/evidence-ledger.json",
+      "summary": "Twenty-two external observations from four source families were stored with dated interpretation and alternative explanations in the evidence cards."
+    },
+    {
+      "id": "evidence:RN9:deep",
+      "observed_at": "2026-09-08",
+      "source_ref": "book-radar/runs/rn9/deep-checks.json",
+      "summary": "Five candidates were deep checked; only RV reached evidence-backed concept status and sewing remains watch-only."
     }
   ],
   "launches": [
@@ -47265,6 +47299,24 @@
       "price_band": 16.99,
       "query_cluster": "CDL pre trip inspection study guide 2026",
       "radar_run_id": "RN8"
+    },
+    {
+      "buyer_job": "New RV owner needs a source-linked maintenance evidence trail",
+      "concept": "RV Maintenance Evidence Book",
+      "format": "PAPERBACK",
+      "id": "RN9-001",
+      "price_band": 15.99,
+      "query_cluster": "RV maintenance log book; RV maintenance handbook",
+      "radar_run_id": "RN9"
+    },
+    {
+      "buyer_job": "Solo sewist needs a usable self-fitting triage sequence",
+      "concept": "Self-Fitting Triage Workbook for Sewists",
+      "format": "PAPERBACK_COLOR",
+      "id": "RN9-002",
+      "price_band": 24.99,
+      "query_cluster": "sewing fitting book; pattern fitting book",
+      "radar_run_id": "RN9"
     }
   ],
   "portfolio_products": [
@@ -47559,6 +47611,16 @@
       "opportunities_scanned": 15,
       "production_authorized": false,
       "status": "NO_NEW_PRODUCT_COLLECT_VISIBILITY_DATA",
+      "strategy": "candidate-generation-v4-book-demand"
+    },
+    {
+      "deep_scanned": 5,
+      "id": "RN9",
+      "name": "Radar-Native Discovery #9 evidence-led",
+      "observed_at": "2026-09-08",
+      "opportunities_scanned": 9,
+      "production_authorized": false,
+      "status": "EVIDENCE_BACKED_CONCEPT",
       "strategy": "candidate-generation-v4-book-demand"
     }
   ],
