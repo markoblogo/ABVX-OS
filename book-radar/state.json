@@ -10974,6 +10974,18 @@
     },
     {
       "decided_at": "2026-09-08",
+      "decision": "CONSIDER_DIGITAL_FORMAT",
+      "evidence_refs": [
+        "book-radar/runs/rn7-paid-need/rn7r-009-channel-format-gate.md",
+        "book-radar/runs/rn7-paid-need/rn7r-009-channel-format-evidence.json"
+      ],
+      "id": "decision:RN7R-009:channel-format-gate",
+      "opportunity_id": "RN7R-009",
+      "production_authorized": false,
+      "reason": "The self-service paid advantage remains plausible, but digital delivery fits the urgent, reusable, family-collaborative job better than paperback; qualified low-touch acquisition and portfolio eligibility for digital products remain unproven."
+    },
+    {
+      "decided_at": "2026-09-08",
       "decision": "ATTRACTIVE_BUT_NOT_FOR_US",
       "id": "decision:RN7R-010:paid-need",
       "opportunity_id": "RN7R-010",
@@ -47408,7 +47420,7 @@
       "name": "RN7 paid-need recalibration",
       "observed_at": "2026-09-08",
       "production_authorized": false,
-      "status": "READY_FOR_VALIDATION",
+      "status": "CONSIDER_DIGITAL_FORMAT",
       "strategy": "candidate-generation-v3-paid-need"
     }
   ],

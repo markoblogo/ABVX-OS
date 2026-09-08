@@ -1,0 +1,227 @@
+{
+  "schema_version": "book-radar-channel-format-gate/v1",
+  "opportunity_id": "RN7R-009",
+  "checked_at": "2026-09-08",
+  "cost_class": "NORMAL",
+  "decision": "CONSIDER_DIGITAL_FORMAT",
+  "production_authorized": false,
+  "historical_decision_preserved": "READY_FOR_VALIDATION",
+  "buyer": {
+    "decision_maker": "Adult child, spouse, or other family member arranging privately paid non-medical home care",
+    "payer": "Family member",
+    "trigger": "Two or more agency assessments or proposals arrive while care is needed within days",
+    "qualification_requirement": "Currently holds at least two agency proposals or assessment outputs"
+  },
+  "paid_advantage": {
+    "inputs": [
+      "two to four agency proposals",
+      "consultation notes",
+      "written follow-up answers"
+    ],
+    "transformation": "Normalize schedule, minimum hours, duties, prices, extra fees, terms, backup, supervision, exclusions, assumptions, and missing answers, then generate agency-specific written questions.",
+    "outputs": [
+      "normalized comparison",
+      "unresolved-question list per agency",
+      "answer log",
+      "decision and reason record"
+    ],
+    "self_service_viable": true,
+    "excluded_claims": [
+      "clinical quality assessment",
+      "agency safety certification",
+      "legal or contract interpretation",
+      "installer-style or agency recommendation"
+    ]
+  },
+  "channels": [
+    {
+      "id": "AMAZON_KDP",
+      "format": "paperback/workbook",
+      "new_author_access": "OPEN_BUT_ORGANIC_DISCOVERY_UNPROVEN",
+      "buyer_path": "Amazon query to product page to shipped paperback",
+      "audience_evidence": "One old direct family guide with one rating; adjacent caregiver books and logs show paid activity.",
+      "constraints": [
+        "delivery delay",
+        "weak reuse and remote collaboration",
+        "qualified-buyer impressions not observable",
+        "CAC unknown"
+      ],
+      "economics": {
+        "scenario_only": true,
+        "list_price_usd": 14.99,
+        "assumed_pages": 60,
+        "trim": "7.5x9.25 large trim",
+        "ink": "black",
+        "royalty_rate": 0.6,
+        "printing_cost_usd": 2.84,
+        "contribution_before_ads_and_fixed_costs_usd": 6.15,
+        "cac": "UNKNOWN"
+      }
+    },
+    {
+      "id": "ETSY",
+      "format": "instant digital download",
+      "new_author_access": "OPEN_WITH_ONBOARDING_AND_UNPROVEN_ORGANIC_PLACEMENT",
+      "buyer_path": "Etsy or web query to listing to instant download",
+      "audience_evidence": "High-review generic caregiver printables exist; family hiring guides are priced about $7.99-$39.95; one direct private-vs-agency comparison printable is $2.99 with one review.",
+      "constraints": [
+        "crowded low-price generic shelf",
+        "qualified-buyer impressions not observable",
+        "shop setup and support expand portfolio model",
+        "CAC unknown"
+      ],
+      "economics": {
+        "scenario_only": true,
+        "price_eur": 12.0,
+        "listing_fee_usd": 0.2,
+        "transaction_fee_rate": 0.065,
+        "france_processing_fee_rate": 0.04,
+        "france_processing_fixed_eur": 0.3,
+        "france_regulatory_fee_rate": 0.0114,
+        "approx_contribution_before_vat_ads_refunds_support_and_fixed_costs_eur": 10.1,
+        "cac": "UNKNOWN"
+      }
+    },
+    {
+      "id": "GUMROAD_DIRECT",
+      "format": "instant digital download",
+      "new_author_access": "CHECKOUT_OPEN_DISCOVERY_BLOCKED_UNTIL_PRIOR_SALES",
+      "buyer_path": "external traffic or referral to direct product link",
+      "audience_evidence": "A $21.99 private-caregiver toolkit exists, but it concerns hiring individuals rather than comparing agency proposals.",
+      "constraints": [
+        "Discover requires at least $100 genuine prior sales, risk review, and one product sale",
+        "requires owned traffic, referrals, ads, partnerships, or manual outreach",
+        "not a standalone acquisition channel for this test"
+      ],
+      "economics": {
+        "direct_fee": "10% + $0.50 plus payment processing",
+        "discover_fee_rate": 0.3,
+        "cac": "UNKNOWN"
+      }
+    }
+  ],
+  "ten_qualified_exposures": {
+    "available_within_current_attention_budget": "NOT_DEMONSTRATED",
+    "reason": "Marketplace impressions do not verify that viewers currently hold multiple agency proposals; qualified access otherwise requires recruitment or partnerships.",
+    "missing_evidence": [
+      "low-touch source of current proposal holders",
+      "qualification rate",
+      "time to ten qualified exposures",
+      "CAC"
+    ]
+  },
+  "format_assessment": {
+    "kdp_paperback": {
+      "buyer_use_fit": "PARTIAL",
+      "portfolio_fit": "PASS"
+    },
+    "standalone_digital": {
+      "buyer_use_fit": "BEST_OF_TESTED_FORMATS",
+      "portfolio_fit": "REQUIRES_SEPARATE_DECISION"
+    },
+    "no_product": {
+      "buyer_use_fit": "N/A",
+      "portfolio_fit": "PASS"
+    }
+  },
+  "next_test": {
+    "authorized": false,
+    "single_uncertainty": "Can one low-touch channel deliver ten people currently comparing at least two agency proposals?",
+    "continue_signal": "A named channel, qualification method, bounded cost, and bounded Anton workload are established before launch.",
+    "stop_signal": "Access requires recurring manual recruitment, professional partnerships, or paid acquisition with no bounded CAC.",
+    "insufficient_signal": "Fewer than ten verified qualified exposures.",
+    "does_not_prove": [
+      "KDP demand",
+      "long-run conversion",
+      "organic ranking",
+      "unit economics"
+    ],
+    "old_two_of_ten_threshold_retained": false
+  },
+  "sources": [
+    {
+      "id": "AARP-HIRE-REFRESH",
+      "publisher": "AARP",
+      "url": "https://www.aarp.org/caregiving/home-care/hiring-caregiver/",
+      "observation": "Current hiring sequence includes needs assessment, agency consultation, written questions, minimum-hour, backup, responsibility, and cost considerations.",
+      "limitation": "Proves the decision job, not paid-tool demand."
+    },
+    {
+      "id": "AARP-WHO-TO-HIRE-2026",
+      "publisher": "AARP",
+      "url": "https://www.aarp.org/caregiving/financial-legal/who-to-hire-caregiving-support/",
+      "observation": "Current 2026 guidance distinguishes paid home-care options and responsibility trade-offs.",
+      "limitation": "Editorial guidance is not buyer conversion evidence."
+    },
+    {
+      "id": "KDP-ROYALTY-2026",
+      "publisher": "Amazon KDP",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+      "observation": "Amazon.com paperbacks at $9.99 or above use the 60% royalty tier before printing cost.",
+      "limitation": "Does not establish traffic, CAC, or sales."
+    },
+    {
+      "id": "KDP-PRINT-COST-2026",
+      "publisher": "Amazon KDP",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+      "observation": "A 24-110 page black-ink large-trim Amazon.com paperback has a $2.84 fixed printing cost.",
+      "limitation": "Final cost depends on actual production specification and marketplace."
+    },
+    {
+      "id": "ETSY-CAREGIVING-SHELF-2026",
+      "publisher": "Etsy",
+      "url": "https://www.etsy.com/market/caregiving_printable",
+      "observation": "Paid caregiver printables show visible ratings, but the shelf is dominated by low-priced logs and planners; one direct comparison item shows one review.",
+      "limitation": "Reviews do not equal sales and search placement is personalized and volatile."
+    },
+    {
+      "id": "ETSY-FAMILY-HIRING-2026",
+      "publisher": "Etsy",
+      "url": "https://www.etsy.com/shop/PrivateCareTemplates",
+      "observation": "Family hiring guides and templates are listed between about $7.99 and $39.95.",
+      "limitation": "Listing presence does not establish sales of an agency-proposal comparator."
+    },
+    {
+      "id": "ETSY-FEES-2026",
+      "publisher": "Etsy",
+      "url": "https://www.etsy.com/legal/fees/",
+      "observation": "$0.20 listing fee and 6.5% transaction fee; advertising fees are additional.",
+      "limitation": "Account-specific setup, VAT, currency, deposit, and advertising costs may apply."
+    },
+    {
+      "id": "ETSY-FR-PAYMENTS-2026",
+      "publisher": "Etsy",
+      "url": "https://help.etsy.com/hc/fr/articles/115015628847-Que-sont-les-frais-de-traitement-des-paiements-pour-vendre-sur-Etsy",
+      "observation": "France payment processing is 4% plus EUR 0.30.",
+      "limitation": "VAT on fees may apply."
+    },
+    {
+      "id": "ETSY-FR-REGULATORY-2026",
+      "publisher": "Etsy",
+      "url": "https://help.etsy.com/hc/fr/articles/1500011073202-Que-sont-les-frais-d-exploitation-r%C3%A9glementaires",
+      "observation": "France regulatory operating fee is 1.14%.",
+      "limitation": "Fee can change."
+    },
+    {
+      "id": "GUMROAD-FEES-2026",
+      "publisher": "Gumroad",
+      "url": "https://gumroad.com/help/article/66-gumroads-fees",
+      "observation": "Direct sales cost 10% plus $0.50 plus processing; Discover sales cost 30%.",
+      "limitation": "Does not establish discovery volume."
+    },
+    {
+      "id": "GUMROAD-DISCOVER-2026",
+      "publisher": "Gumroad",
+      "url": "https://gumroad.com/help/article/79/gumroad-discover",
+      "observation": "Discover requires at least $100 in genuine prior sales, risk review, and one product sale.",
+      "limitation": "Eligibility does not guarantee traffic after admission."
+    },
+    {
+      "id": "FREE-AGENCY-COMPARISON-2026",
+      "publisher": "CareTeam",
+      "url": "https://careteamwf.com/wp-content/uploads/Care-Comparison-Worksheet.pdf",
+      "observation": "A free one-page provider-authored agency comparison worksheet is publicly available.",
+      "limitation": "Provider-authored and not an independent quality standard."
+    }
+  ]
+}
