@@ -61,4 +61,3 @@ Return:
 - Do not mix draft labels, internal paths, prompts, or production notes into reader-facing output.
 - Do not treat successful rendering as editorial or publication approval.
 - Do not generate a full illustration set before the representative visual is approved.
-
