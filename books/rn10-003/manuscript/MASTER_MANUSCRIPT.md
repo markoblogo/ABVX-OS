@@ -1393,3 +1393,723 @@ The shepherd stepped into their path.
 Mriya smelled law on him, polished and old.
 
 She kept walking.
+
+# Chapter Ten: Good Dog / Bad Dog
+
+Atlas did not move.
+
+He was larger at close range. Age had silvered the fur around his muzzle but left the rest of him arranged with military economy. His ears pointed forward. His weight rested evenly across all four paws. Even his tail appeared to have received instructions.
+
+Mriya stopped because walking into another dog was not the same as refusing him.
+
+The terrier behind Atlas darted sideways to inspect Nika’s orange bag.
+
+“Pixel,” Atlas said.
+
+Pixel stopped. Her paws did not. They shifted against the wet concrete as if each had proposed a different destination.
+
+The third dog, a narrow brown hound, slipped out from beneath the tram and disappeared through a gap in the fence. He had chosen before Mriya arrived.
+
+Atlas watched him go without turning his head.
+
+“Bad Dog,” Pixel said. She sounded delighted. “Took it ten minutes ago. It gave him a bite that opens locks.”
+
+From beyond the fence came a metallic snap, then the hound’s triumphant bark.
+
+“It gave him permission to damage what was not his,” Atlas said.
+
+“Locks don’t have owners.”
+
+“Everything has an owner.”
+
+Mriya smelled the depot. Rust, old oil, wet weeds, rats, three sleeping places, and a layer of mineral cold beneath the tracks. Territory had not yet settled here. The place was being argued over by scent and by something newer.
+
+Nika stepped beside her. She could not hear the dogs’ meanings, but she understood the stillness.
+
+“Friends of yours?”
+
+Borscht pushed forward. “We have known them for nearly a minute.”
+
+Atlas ignored him. “Choose Good Dog. Your human already follows your warnings. Approval will make you strong enough to defend her.”
+
+Cold meaning unfolded as if he had spoken a command the System recognized.
+
+> [CLASS PATH: GOOD DOG]
+>
+> Power through recognized service.
+>
+> Initial skill: Trusted Command
+
+The offered path smelled of polished floors, leather leads, and hands that knew exactly where a dog should stand. Beneath that was warmth: food earned, doors opened, danger faced with someone at her side.
+
+It would be easy to keep Nika safe if Nika’s praise could become power whenever Mriya pleased her.
+
+Atlas lowered his head by the smallest amount. “There is no shame in purpose.”
+
+“There is if someone else chooses it,” Pixel said.
+
+She sprang onto a coupling between two dead tram cars. A length of copper wire hung from her mouth.
+
+“Bad Dog gives you what you can take.”
+
+The second path opened.
+
+> [CLASS PATH: BAD DOG]
+>
+> Power through recognized violation.
+>
+> Initial skill: Fear Claim
+
+That path smelled of a meal guarded successfully and the sharp moment when a hand withdrew before teeth. No waiting. No gratitude. No risk that love would be measured and found insufficient.
+
+Mriya remembered the tunnel man’s fingers opening when she spent Favor. She had liked the release. She had hated how quickly the world obeyed.
+
+“Both work,” Pixel said. “I tested them.”
+
+“You cannot test a class,” Atlas said.
+
+“You can test the stealing part.”
+
+Emil leaned toward Nika. “Are they having a meeting?”
+
+“I think we’re the agenda.”
+
+The mineral pulse beneath the tracks strengthened. Somewhere inside the depot, a loose metal panel began to tap.
+
+Atlas glanced toward it. For the first time his weight shifted.
+
+“The city is filling with choices,” he said. “Dogs who wait will belong to dogs who did not.”
+
+Mriya looked at Nika.
+
+Rain had darkened her hair and found the cut in her coat. One hand held the orange bag. The other rested open at her side, close enough to touch Mriya and making no demand.
+
+Good Dog promised power if that hand approved.
+
+Bad Dog promised power if it feared.
+
+Both paths placed the hand at the center.
+
+Mriya was tired of systems that described her by what humans did.
+
+She turned away from the choices.
+
+Atlas stepped after her. “You cannot establish territory unclassified.”
+
+Mriya sniffed along the base of the nearest tram.
+
+“Then I will sleep without establishing it.”
+
+Pixel dropped the wire.
+
+Borscht gave a happy bark. “I am already excellent at that.”
+
+The cold text remained behind Mriya’s eyes. Patient. Certain. Two doors held open forever.
+
+She walked between them without entering either.
+
+# Chapter Eleven: Neither
+
+The first thing Mriya lost was speech.
+
+Borscht said something about a sandwich beneath the tram, but the meaning collapsed into ordinary yaps and whines before it reached her. Atlas’s warning became a growl. Pixel’s questions arrived as a rapid sequence of sounds with no more sense than rain on sheet metal.
+
+The dogs stared at her.
+
+Mriya smelled their confusion. She answered with posture: ears forward, tail low, no threat.
+
+Pixel barked a question.
+
+Mriya could not answer it.
+
+The second loss followed when she tested the air. The mineral current beneath the depot remained, but its hidden edges were gone. Ordinary smells crowded over it: oil, mouse droppings, algae, wet shoes. Scent +1 had not vanished. Access had narrowed, as if a door inside her nose had been closed.
+
+The System finally spoke.
+
+> [CLASSIFICATION DECLINED]
+>
+> Provisional benefits suspended.
+>
+> Reconsideration remains available.
+
+Her left hip took that moment to remind her of every stair between the shelter and apartment 4B.
+
+Mriya sat.
+
+Nika crouched in front of her. “What happened?”
+
+The cold choices hovered at the edge of thought. Trusted Command would restore speech, sight, and Favor. Fear Claim would do the same without asking anyone to call her good.
+
+Mriya lowered her head until it rested against Nika’s chest.
+
+Nika held her carefully.
+
+No warmth clicked into a resource.
+
+Relief came with the absence of reward.
+
+Atlas walked beneath the tram and circled twice before lying down. His front paws aligned. Good Dog clung to his scent now: not perfume or mark, but a clean structural certainty. The depot seemed more willing to place him in it.
+
+Pixel vanished through a maintenance hatch and returned with half a packet of crackers. Bad Dog made a bright tear through her scent. She had taken something and been recognized for taking it.
+
+She pushed one cracker toward Mriya.
+
+Mriya ate it. Refusing a class did not require refusing food.
+
+Nika and Emil made shelter between the tram and a concrete wall. They used Emil’s coat, Nika’s two sweaters, the orange bag, and a sheet of advertising vinyl Pixel had found without the legal distinction between abandoned and stolen.
+
+For several minutes it was almost domestic.
+
+Borscht discovered that the coupling beneath the tram magnified his snore. Emil objected to the floor. Nika arranged a sweater under Mriya’s hip and pretended not to notice when Mriya moved off it, then back onto it.
+
+“In the morning,” Emil said, “we go to my sister.”
+
+Nika checked her phone. Still no signal. “If the river road is open.”
+
+“It will be open.”
+
+His certainty smelled constructed.
+
+The depot answered with a deep knock beneath them.
+
+Pixel shot upright. Atlas was standing before the echo ended.
+
+Water pushed through the maintenance hatch.
+
+Not rainwater. It carried stone, rust, and the canal’s buried pressure. A black sheet spread across the floor, swallowing Pixel’s crackers and moving toward the humans’ shelter.
+
+Atlas barked an order.
+
+Borscht obeyed. Pixel did not. She darted toward the hatch, drawn by something glittering in the flow.
+
+Mriya tried to call her back.
+
+Only a bark came.
+
+Pixel put one paw on the metal rim. It tore loose. The current caught her chest and folded her into the opening.
+
+Mriya lunged.
+
+Her teeth closed on Pixel’s hind leg. Pain shot through Mriya’s hip and turned the floor sideways. She held on.
+
+Atlas seized Mriya’s collar. Borscht seized Atlas’s tail. This contributed little force but considerable conviction.
+
+Nika splashed toward them.
+
+Mriya wanted to spend Favor. There was none. She wanted the hidden strength of a class. She had refused it.
+
+So she did the work with an old jaw and a damaged hip.
+
+Nika grabbed Pixel beneath the front legs. Atlas pulled backward. Pixel came free with a cough and an expression of deep offense.
+
+The hatch dropped into darkness.
+
+Water climbed over Mriya’s paws.
+
+Atlas released her collar. His certainty had changed. Good Dog still held him straight, but a question now disturbed the clean lines.
+
+He touched his nose to Mriya’s damaged ear.
+
+She understood no words.
+
+His meaning was clear anyway.
+
+You refused power and came.
+
+Mriya looked at Pixel trembling against Nika’s coat.
+
+Neither had cost her.
+
+It had not decided her.
+
+# Chapter Twelve: Stray Class
+
+The water divided the depot into temporary islands.
+
+Atlas chose the raised loading platform. Emil chose the tram roof after discovering the platform was already occupied by a dog who considered edges jurisdictional. Pixel chose Nika’s lap and claimed the decision was medical.
+
+Mriya chose the floor until the floor reached her belly.
+
+Nika lifted her.
+
+Mriya objected with dignity and no practical effect.
+
+“You can hate me from up here,” Nika said, setting her on the tram’s lowest step.
+
+Mriya could smell Nika’s injured hand reopening beneath the bandage. She also smelled the hurt left from apartment 4B. The secret had not been washed away with the building.
+
+“You hid that thing,” Nika said quietly. “You knew it was dangerous.”
+
+Emil was securing the advertising sheet above them. He tried not to listen and failed in a considerate manner.
+
+Mriya held Nika’s gaze.
+
+The System offered Good Dog again. Apology could become obedience. Forgiveness could restore Favor.
+
+Mriya turned her head away from the prompt and pushed her nose into the torn orange bag.
+
+She found the silver-taped seam, the dented flask, Nika’s wallet, and the photograph taken from the refrigerator. She drew the photograph out gently and placed it between them.
+
+It smelled only of Nika now. The other person in the image had become smooth paper and fading ink.
+
+Nika picked it up.
+
+“My mother,” she said. “Before she left Vesper.”
+
+Mriya touched the yellowed corner, then the empty bag, then Nika’s bandaged hand.
+
+Things kept could still leave. Things hidden could still cause harm. She had no human words for the arrangement.
+
+Nika watched her.
+
+“You kept it because it helped.”
+
+Mriya did not move.
+
+“And because you hurt.”
+
+Her scent held anger. It also held recognition.
+
+Nika put the photograph away. “You don’t get to choose for me.”
+
+Mriya lowered her head.
+
+“And I don’t get to choose for you.”
+
+Nika unfastened the broken leash from Mriya’s collar.
+
+She set it on the tram step.
+
+“I’m going to find somewhere dry. You can come. Borscht and Emil can come. Those two can come if they want.” She glanced at Atlas and Pixel. “But nobody owns anybody.”
+
+The sentence changed the air.
+
+Atlas’s ears rose. Pixel stopped shivering. Even Borscht woke.
+
+Mriya understood them again.
+
+Not through a returned benefit. Their scents aligned for one moment around an offered route with no closed gate at its end.
+
+Cold meaning formed slowly, as if the System were reading a rule it had not expected to use.
+
+> [UNLISTED PATH DETECTED]
+>
+> Loyalty offered without command or fear.
+>
+> Accept cost: rewards require renewed consent.
+
+Mriya smelled the cost. No approval could be stored forever. No frightened creature could be counted as loyal. A companion who changed their mind would take part of her strength with them.
+
+It was inefficient.
+
+It was alive.
+
+Mriya stepped over the leash and stood beside Nika.
+
+> [CLASS ACQUIRED: STRAY]
+>
+> Initial skill: Chosen Route
+>
+> Party formation available.
+
+The System presented each nearby scent separately.
+
+Nika: willing, unresolved grievance.
+
+Borscht: willing, unclear comprehension.
+
+Emil: willing if Borscht is included.
+
+Pixel: willing, likely to steal supplies.
+
+Atlas: unwilling to join; willing to guard departure.
+
+Mriya almost laughed. It came out as a sneeze.
+
+She offered the route to Nika first.
+
+Nika saw nothing. She did see Mriya look toward the dark opening beneath the platform, then back to her.
+
+“Together,” she said. “Until one of us says otherwise.”
+
+Her scent joined Mriya’s without becoming part of it.
+
+Borscht accepted before being asked. The System refused him.
+
+“Unclear comprehension,” Pixel said, delighted.
+
+Emil scratched Borscht under the chin and explained, with unnecessary detail, that they were leaving the depot as a group and that heroic exploration did not remove breakfast rules.
+
+Borscht listened.
+
+When Mriya offered again, he considered the matter for nearly three seconds.
+
+“Yes,” he said. “But breakfast remains under appeal.”
+
+Emil joined because Borscht had. Pixel joined after placing the stolen copper wire on the ground and stating that future theft would be discussed according to urgency.
+
+Atlas remained on the platform.
+
+“A pack that permits departure is a pack designed to fail,” he said.
+
+Mriya tested her returned voice. “A pack that forbids it has already failed.”
+
+Atlas looked away first.
+
+Chosen Route opened through the depot: not a glowing path, but a shared awareness of where each member stood and which passages all of them could cross. One route led beneath the loading platform into the mineral dark.
+
+Mriya took it.
+
+Four scents followed by choice.
+
+A fifth followed at a distance and insisted this did not count.
+
+# Chapter Thirteen: The Ruined Room
+
+Pixel found the door because it vibrated differently from the wall.
+
+“Hollow,” she said, pressing one ear to green tile. “And there is a machine behind it that wants to wake up.”
+
+They had descended two flights beneath the depot through a stairwell designed for boots and indifferent to paws. The flood remained above them, held back by drains that groaned with the effort. Here the air was dry, mineral, and old enough to have forgotten sunlight.
+
+Faded letters on the wall meant nothing to Mriya. Nika read them aloud.
+
+“Municipal Sanitation Unit Four.”
+
+“Comforting,” Emil said.
+
+The corridor ended at a tiled wall.
+
+Pixel scratched where she heard the hollow place. Nika cleared dust from a square metal plate. It had no handle, only a slot clogged with rust.
+
+Pixel looked at the copper wire she had surrendered before joining.
+
+Mriya waited.
+
+“Discuss according to urgency,” Pixel said.
+
+Nika held out her hand. Pixel placed the wire in it.
+
+It took Nika six attempts, two cuts, and one word Emil pretended not to hear. The hidden latch clicked.
+
+The wall opened inward.
+
+Air moved past them carrying bleach, stagnant water, mouse nests, and a dense record of workers who had changed clothes here for decades. Boots had stood beneath benches. Wet coats had hung from hooks. Sandwiches had been eaten in secret. Someone had cried repeatedly in the far corner and concealed it with peppermint.
+
+The room contained four rusted lockers, a drain, a cracked sink, and a circular iron housing set into the floor. Pipes converged on it from every wall.
+
+Mriya’s Scent widened.
+
+The workers’ old traces became legible layers. Beneath them lay intentional concealment of a different kind. The room itself had been removed from plans, sealed, and forgotten while its connections remained alive.
+
+The System noticed.
+
+> [FACILITY CACHE DETECTED]
+>
+> Former function: sanitation and recovery
+>
+> Eligible adaptation: Pack Hearth
+
+Nika stepped over a fallen locker door. “It’s dry.”
+
+Emil tested the sink. Brown water coughed from the tap, then ran clear.
+
+“It has water,” he said, reverent.
+
+Borscht inspected the drain. “It has history.”
+
+Pixel climbed into an open locker and declared it structurally suitable for crackers.
+
+Atlas remained in the corridor.
+
+Mriya followed the room’s boundaries. Chosen Route showed which parts the party could occupy safely. One corner had loose tile. The iron housing radiated old heat without being warm. A narrow service passage continued behind the lockers toward the city.
+
+It could become shelter.
+
+The word become mattered.
+
+The System offered a claim. Mriya smelled ownership in it and refused before the choices fully opened.
+
+Nothing happened.
+
+Then she tried differently.
+
+She looked at Nika, Emil, Borscht, and Pixel. She walked the room once and stopped at the center. Stay?
+
+Nika understood first. “For tonight?”
+
+Mriya waited.
+
+“We clean it. We check the exits. Nobody seals that door.”
+
+Emil nodded. Pixel nodded because everyone else had. Borscht rolled on a worker’s ancient boot mark.
+
+Atlas said, “A facility requires authority.”
+
+“It has rules,” Mriya said. “Rules can be agreed.”
+
+“Agreements break.”
+
+“So do doors.” Pixel held up the bent copper wire.
+
+The iron housing beneath the floor gave a slow mechanical turn.
+
+Dust trembled from the pipes.
+
+The room had heard them.
+
+# Chapter Fourteen: What Counts as Clean
+
+Cleaning began with objects.
+
+Nika swept broken tile with a strip of locker door. Emil cleared the sink. Pixel removed three mouse nests and returned two after learning that removal and possession were separate acts. Borscht supervised the drain.
+
+Mriya carried ruined cloth into the corridor one mouthful at a time.
+
+Atlas watched without helping.
+
+“You are performing labor before the claim,” he said.
+
+Mriya dropped a moldy sleeve. “The room needed cleaning before it needed an owner.”
+
+At midnight the physical dirt was gone.
+
+The deeper dirt remained.
+
+Every old scent in the room had been hidden by design. Workers had changed identities here: street clothes to uniforms, private exhaustion to public service, fear to competence. The facility had stored the difference. Now it wanted new material.
+
+Cold text spread across Mriya’s awareness and touched every party member through Chosen Route.
+
+> [RESTORATION REQUIREMENT]
+>
+> One private scent marker per inhabitant.
+>
+> Submitted history becomes accessible to the Hearth.
+
+Nika could not see the words, but she saw all four dogs turn toward their possessions.
+
+“What does it want?”
+
+Mriya went to the orange bag and touched the photograph.
+
+Nika covered it with her hand.
+
+Her refusal was immediate. Good.
+
+Mriya turned to her own collar. Shelter, Leon, disinfectant, eleven weeks of wire doors, and the first pressure of Nika’s hand lived beneath the newer rain. It was the strongest history she carried.
+
+She could surrender it and let the room know every abandonment attached to her neck.
+
+She backed away.
+
+Pixel brought her copper wire to the iron housing, then snatched it back. “It is mine because I found it.”
+
+“You stole it,” Atlas said.
+
+“That is a kind of finding with consequences.”
+
+Borscht produced a cloth rabbit from Emil’s suitcase. One ear was dark with years of sleep.
+
+Emil’s face changed. “I packed that for you.”
+
+Borscht placed it beside the housing, then retrieved it, then placed it again.
+
+The System waited.
+
+Mriya understood the trap. A facility built from private histories could protect them. It could also search them. The room would know what comforted Nika, what frightened Emil, what Pixel valued enough to steal, where Borscht went when he dreamed.
+
+Useful things were becoming dangerous with impressive consistency.
+
+Mriya put her collar beside the iron circle.
+
+She did not release it.
+
+“Only while we stay,” she said, shaping the condition toward the System. “No history after departure. No member may search another without permission.”
+
+The pipes knocked once.
+
+> [CONDITION PARTIALLY ACCEPTED]
+>
+> Departure removes future access. Facility retains structural learning.
+>
+> Private search requires consent or emergency declaration.
+
+Emergency declaration smelled like a hole large enough for power to enter.
+
+Mriya added, “An emergency must be recognized by two.”
+
+The System paused.
+
+> [CONDITION ACCEPTED]
+
+Atlas stepped into the room.
+
+“It negotiated,” he said.
+
+“So did she,” Pixel replied.
+
+Mriya released the collar.
+
+The iron housing drew its scent without moving the leather. For one painful instant the shelter opened around her: bleach, wire, dogs departing with strangers, Leon pretending not to grieve. Everyone connected through Chosen Route received only the fact that something private had been given, not its content.
+
+The condition held.
+
+Nika watched Mriya’s body tighten. Then she took the photograph from her bag.
+
+“Only while we stay,” she said.
+
+She laid it beside the collar.
+
+Emil surrendered a folded handkerchief carrying his late wife’s lavender soap. Borscht added the cloth rabbit. Pixel unknotted a red thread from beneath her own collar, stolen from the blanket of the first human who had thrown her out.
+
+Atlas remained by the door.
+
+“I am not an inhabitant.”
+
+No one argued.
+
+The iron circle turned.
+
+Water moved through the walls. Warm air rose from the drain. The cracked tiles held their damage but lost their dampness. The room inhaled five private histories and made no claim to the sixth dog watching.
+
+For the first time that night, Atlas looked uncertain about which side of the doorway was safer.
+
+# Chapter Fifteen: Pack Hearth
+
+The floor became warm beneath Mriya’s hip.
+
+Heat entered slowly, asking nothing. It moved through the old joint, along the muscle that had tightened around it for years, and into the place where pain usually waited before she stood.
+
+Mriya rose.
+
+The leg held.
+
+She crossed the room once. Then again, faster.
+
+Nika laughed.
+
+It was not the emptied laughter of Cached Relief. It broke in the middle and came with tears, fatigue, and the smell of a person who had lost a home and found one small impossible mercy beneath it.
+
+“Look at you.”
+
+Mriya ran three steps and stopped before dignity suffered lasting harm.
+
+The Hearth completed itself around them. Pipes carried clean water. The iron lockers warmed into sleeping alcoves. A pale boundary settled at the doorway, recognizable through Scent as a rule: those invited could rest; those hunted could ask; those pursuing could not cross unseen.
+
+> [PACK HEARTH ESTABLISHED]
+>
+> Inhabitants: 5
+>
+> Rest, minor recovery, shared warning available.
+
+Borscht climbed into the lowest locker with his rabbit and immediately tested rest.
+
+Pixel chose the highest locker, which required three failed jumps and one successful use of Emil’s suitcase.
+
+Nika washed her injured hand in the sink. Emil spread the advertising vinyl across the doorway to block the light without blocking the exit.
+
+They made house rules because Nika insisted that shelter without rules became another emergency.
+
+No hidden Caches inside.
+
+No spending influence on party members.
+
+No biting except for immediate defense.
+
+Pixel requested clarification on property. Emil proposed that objects belonged to whoever could explain where they came from. Pixel objected that this discriminated against talent.
+
+They settled on asking before taking.
+
+Borscht woke long enough to demand breakfast before governance. The rule was adopted unanimously.
+
+Atlas listened from the corridor.
+
+Mriya carried a bowl of water to the doorway and pushed it toward him.
+
+He drank without entering.
+
+“A Hearth makes dependence,” he said.
+
+“So does a pack.”
+
+“A pack has command.”
+
+Mriya looked behind her. Nika had chosen the floor beside Mriya instead of the warmest locker. Emil slept with one hand hanging near Borscht. Pixel had placed the copper wire at the center of the room where everyone could see it.
+
+“This has return,” Mriya said.
+
+Atlas studied the offered threshold.
+
+Then every pipe in the room struck at once.
+
+The sound travelled outward beneath Vesper.
+
+Mriya’s expanded Scent followed it. The Hearth’s warmth ran through abandoned mains, service tunnels, drains, and buried rails. It announced clean water, safe sleep, five inhabitants, one unclaimed doorway. It carried the private shape of their settlement without revealing the histories that built it.
+
+Across the district, dogs lifted their heads.
+
+Mriya felt them as points of attention.
+
+One beneath the market.
+
+Four around the river warehouses.
+
+Seven moving together along the old rail spur.
+
+And nearer, three disciplined scents advancing through the tunnel from the east.
+
+Atlas stood.
+
+The fur along his spine rose.
+
+“You broadcast it.”
+
+Mriya had not known.
+
+The System supplied the omitted condition with impeccable timing.
+
+> [TERRITORY SIGNAL ACTIVE]
+>
+> Shelter invites petition, trade, challenge, and claim.
+
+Pixel peered down from her locker. “Trade sounds good.”
+
+“Claim does not,” Emil said.
+
+He could not see the notice, but the approaching vibration had reached the floor.
+
+Nika stood beside Mriya. “How many?”
+
+Mriya listened through the Hearth.
+
+Three from the east. More stopping above. One large dog pacing beyond the sealed door Pixel had opened.
+
+Atlas crossed the threshold.
+
+The boundary recognized him as a visitor. He placed himself between the inhabitants and the corridor with the ease of an old habit.
+
+“I am not joining,” he said.
+
+“You are guarding,” Borscht observed from inside his locker.
+
+Atlas pretended not to hear.
+
+Metal scraped in the eastern passage.
+
+A dark Doberman entered the edge of Mriya’s Scent, accompanied by two lean dogs who moved when he moved. He smelled of tools, warehouse dust, and a hierarchy no one questioned twice.
+
+He stopped beyond the Hearth boundary.
+
+“Who holds this territory?” he asked.
+
+The old answers waited.
+
+Good Dog: name the human.
+
+Bad Dog: name herself.
+
+Stray offered nothing easy.
+
+Mriya looked back at the five private markers arranged around the iron circle.
+
+“We do,” she said.

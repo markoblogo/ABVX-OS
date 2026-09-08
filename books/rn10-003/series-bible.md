@@ -56,6 +56,14 @@ Good Dog grants power through obedience and human approval. Bad Dog grants power
 
 Facilities are social machines, not decorative bases. A Pack Hearth provides rest only if its inhabitants accept shared rules. A Scent Archive preserves discoveries but also makes private histories searchable. A Treat Exchange stabilizes supply while turning affection into currency. Every useful facility creates a new ethical problem.
 
+## Established continuity through chapter 15
+
+Mriya refuses both Good Dog and Bad Dog and loses her provisional System benefits before unlocking Stray. Stray's first skill, Chosen Route, permits a voluntary mixed human-dog party; its rewards require renewed consent and weaken when members leave.
+
+The initial party is Mriya, Nika, Borscht, Emil and Pixel. Atlas refuses membership but guards the new Hearth as a visitor. The party's first rules prohibit hidden Caches, spending influence on party members and taking without asking.
+
+The Pack Hearth occupies a concealed former sanitation room beneath the tram depot. Restoration required a private scent marker from each inhabitant. The negotiated privacy rule permits searches only with consent or an emergency recognized by two members. The Hearth heals minor harm and shares warnings, but its activation broadcasts an invitation to petition, trade, challenge and claim.
+
 ## Style and tone
 
 - Warm sensory specificity before lore explanation.
