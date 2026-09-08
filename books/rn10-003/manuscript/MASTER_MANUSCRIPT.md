@@ -890,6 +890,20 @@ By the time they reached apartment 4B, Nika smelled of blood, canal water, and a
 
 Mriya approved of none of these things.
 
+The fourth-floor stairs had required three negotiations and one rest. Nika's boot bent where the sole had torn away, forcing her to climb on the outside of her foot. Mriya's left hip had stopped making distinctions between lifting, lowering, and standing still. Her bent front nail clicked against each step.
+
+At the apartment door Nika touched left pocket, right pocket, orange-bag strap. Her fingers left a spot of blood on the canvas. She tapped twice, waited as if someone inside might answer, then laughed through her nose.
+
+“Still us,” she said.
+
+The apartment smelled as it had that morning. Toast. Dust. Old coffee. The full water bowl. Nothing had entered while they were gone. Nothing had followed them visibly.
+
+Mriya checked under the table, behind the sofa, and inside the bathroom before allowing Nika to close the door. By then Nika had locked it twice and pushed the chair beneath the handle.
+
+“Temporary,” she said.
+
+Mriya knew temporary arrangements. They were permanent arrangements that had not yet admitted what they were.
+
 She stood across the bathroom doorway while Nika cleaned the cut on her palm. The room was too small for both of them and too important to leave unguarded. Pink water circled the drain. Nika hissed when antiseptic touched skin.
 
 “It’s a scratch.”
@@ -914,9 +928,63 @@ Her breath shortened.
 
 Mriya leaned harder.
 
+Nika's good hand found the fur at Mriya's neck. Her fingers tightened, released, and tightened again.
+
+“I thought he was going to drown you.”
+
+The words changed the room. Until then the tunnel had existed as water carried home in their clothes. Now the collar pulled again. The current found Mriya's chest. Her weight shifted toward the door without permission.
+
+Nika released her at once.
+
+“Sorry. Sorry.” She placed both hands flat on her knees, one bandaged and one shaking. “You don't know what that means.”
+
+Mriya knew sorry. Sorry was a human sound used when pain had already occurred and when a biscuit might appear. Nika had no biscuit.
+
+She had followed through a fence she could barely fit through. She had put her hand in black water beneath a dog she had known for one day. Now she was trying to make the event smaller so there would be room to remain inside it.
+
+Mriya sat across the doorway instead of leaving.
+
+Nika breathed until the tunnel receded from her scent.
+
 “I need tea.”
 
 Tea was one of Nika’s less effective solutions, but it happened in the kitchen, where Mriya could watch the door.
+
+First Nika photographed the cut, the torn coat, Mriya's collar, and the gray-blue bruises rising through the skin of her knees. She opened the city incident page on her phone. The page loaded without its form. She tried the police number. The call produced three empty clicks and ended.
+
+“Fine,” she said. “Dispatcher.”
+
+That call connected. Nika told a man named Soren that she had been attacked beneath the Dockside municipal depot while retrieving her dog. Soren asked whether the deliveries had been completed.
+
+Nika looked at the orange bag.
+
+“Thirty-six of thirty-seven.”
+
+He informed her that the route metric would record an incomplete shift unless she marked the final package inaccessible.
+
+“A man tried to drown my dog.”
+
+“Is the package inaccessible?”
+
+Nika ended the call. She stood very still. Then she placed the phone face down beside the unpaid electricity bill and filled the kettle too high.
+
+Mriya's front paw left a red crescent on the tile.
+
+Nika saw it. The kettle ceased to matter. She sat on the floor, brought the paw into her lap, and found the bent nail.
+
+“You walked all the way home on this.”
+
+Mriya attempted to recover the paw. Nika held it without squeezing.
+
+She washed away the canal grit, clipped only the hanging edge, and wrapped the toe with a strip torn from her least clean dish towel. The work took longer with one injured hand. Twice she stopped when Mriya's muscles tightened.
+
+“Tell me if it hurts.”
+
+Mriya had been telling her. Humans wanted pain translated into a language that absolved them for missing it earlier.
+
+Still, Nika waited after every touch.
+
+When she finished, Mriya licked the bandage on Nika's palm once. An exchange of inadequate medical care had been completed.
 
 The orange delivery bag waited on the chair.
 
@@ -940,6 +1008,18 @@ There were no choices this time.
 
 The sweetness spread.
 
+It reached the apartment through small injuries first.
+
+The torn sole stopped pressing against Nika's foot. Her shoulders settled evenly. The cut in her palm ceased pulling at the bandage. Mriya's bent nail withdrew from attention. Pain remained discoverable if she searched for it, but searching began to seem impolite.
+
+The kettle's vibration travelled into the counter. The counter passed it to the pipe. Somewhere below, metal answered with a pulse too low for Nika to hear.
+
+The gray packet answered from inside the orange lining.
+
+Warmth moved backward through the building's plumbing. The radiator released one long knock, then became silent. Water in the bathroom pipe stopped shuddering. For the first time since they entered, the kitchen light held steady instead of dimming whenever the refrigerator woke.
+
+Relief did not distinguish bodies from structures. It found resistance and made resistance stop.
+
 It did not enter through Mriya’s nose. It entered through everything else and then pretended it had always been there. The radiator stopped clicking. The street below softened. The ache in her left hip loosened like a knot under warm fingers.
 
 Nika’s shoulders fell.
@@ -955,6 +1035,18 @@ Steam filled the kitchen. Mriya barked once. Nika blinked, turned off the burner
 Mriya smelled the bandage, the wet coat, and the tunnel still trapped in both their coats.
 
 They were not all right.
+
+Nika tested her injured hand. She opened and closed it without flinching. Then she removed the chair from beneath the door, unlocked the second lock, and left only the ordinary latch in place.
+
+“I overreacted.”
+
+Mriya smelled the man's glove as clearly as if it were still around her collar.
+
+Nika picked up her phone and reopened the incomplete incident form. The blank fields no longer seemed urgent. She saved the three photographs to a folder called `later`, then deleted the unfinished report.
+
+“Tomorrow,” she said.
+
+The word carried no intention toward morning.
 
 Nika made no tea. She put two slices of bread into the toaster and sat on the floor beside it. When Mriya came close, Nika folded herself around her neck.
 
@@ -972,6 +1064,40 @@ That was when she understood the danger.
 
 Nothing had improved.
 
+The improvements continued anyway.
+
+Nika's phone showed a new message from Soren warning that missed routes would affect priority assignments. She read it and smiled. Not bitterly. Not bravely. The message simply failed to reach her.
+
+The radiator warmed the wet coats. The stain above the window dried around its edges. In the wall behind the food bowl, water and mineral residue moved through the same old pipe. Each pulse from the street met the packet's sweetness and returned smoother.
+
+Mriya drank. The water tasted faintly of stone after rain.
+
+She should have moved the bag then.
+
+Instead she ate. The shelter food no longer carried the medicinal dust she disliked. The metal bowl did not scrape unpleasantly against the tile. When she shifted her weight, her hip obeyed without bargaining.
+
+Nika found the packet of Mriya's tablets in her left pocket.
+
+“You need one of these.”
+
+Mriya took the tablet inside a piece of cold chicken. It tasted only of chicken.
+
+That was useful.
+
+Nika cleaned the broken sole with a dishcloth, wrapped it to the boot with parcel cord, and stood. The repair should have hurt. It did not. She crossed the kitchen, returned, and crossed again with increasing confidence.
+
+“See?” she said. “Functional.”
+
+Mriya walked after her. No click from the bent nail. No weakness in the back leg. They completed three circuits around the table like two creatures testing a world that had finally corrected its opinion of them.
+
+On the fourth circuit Nika forgot why they were walking.
+
+She stopped beside the radiator and looked at the warm floor.
+
+“We could sleep.”
+
+The suggestion smelled better than food.
+
 Nika lay down on the kitchen floor without removing her wet clothes. Her injured hand rested beside the warm base of the radiator. The bandage had begun to darken.
 
 Mriya nudged her shoulder.
@@ -979,6 +1105,30 @@ Mriya nudged her shoulder.
 “Five minutes,” Nika murmured.
 
 Mriya nudged harder.
+
+The sweetness offered an answer to every objection. Nika needed sleep. Mriya needed rest. The door was locked. The bowls were full. Morning would bring forms, doctors, money, and the man beneath the depot. None of those things could enter if they stayed on the warm floor.
+
+Mriya lowered herself beside Nika.
+
+Her damaged hip touched tile without pain. She rested her muzzle across Nika's ankle. The torn sole under her chin smelled of wet pavement and flight. Nika's pulse moved softly through it.
+
+One breath became ten.
+
+The apartment released its edges. Door, window, corridor, and street ceased requiring inspection. Mriya's eyes closed.
+
+Beneath her muzzle, Nika's foot grew colder.
+
+The fact arrived without urgency. Relief surrounded it and suggested that cold was only the absence of discomfort.
+
+Mriya stood so quickly that the bent nail struck the tile.
+
+No pain followed.
+
+That frightened her more than pain would have.
+
+She barked beside Nika's ear. She pushed the metal food bowl across the floor. She pulled the yellow blanket over Nika, then away again when the gesture felt too much like accepting the sleep. Nika responded only by turning her face toward the radiator.
+
+Five minutes had no intention of ending.
 
 Nika’s body yielded without waking. Her breath was slow and smooth. Too smooth. It lacked the little catches and changes that meant a sleeping human was still listening to the world.
 
@@ -1026,9 +1176,59 @@ Tonight the light was still hours away.
 
 That should have been enough time.
 
+The microwave clock said 01:18. Nika's alarm would sound at 05:45. Between those numbers lay four hours and twenty-seven minutes, a quantity Mriya understood only through changes in the building.
+
+The baby on the first floor cried shortly after one. The electronics above them clicked off before two. At half past two, the bakery truck reversed through the lane with three soft warnings. Each sound brought morning closer.
+
+Nika did not move for any of them.
+
+Mriya checked her after each attempt on the packet. Breath: slow. Heart: slower than before, still present. Bandage: darkening. Skin: cooling where wet clothes touched it, warm where the radiator reached. Scent: losing edges.
+
+The cold meaning did not show a countdown. It did not need to. Dawn was already measuring Nika.
+
 The gray packet lay in the sink without seam or opening. Water slid off it. Mriya had tried her teeth, her claws, the edge of the wastebasket, and a method involving the toilet lid that ended with a noise large enough to wake anyone who could be woken.
 
+She tried distance.
+
+The bathroom window opened four fingers before paint stopped it. Mriya pushed the packet onto the sill. Sweetness thinned in the bathroom and thickened along the outside wall. A pipe below answered with a low pulse. The packet did not need to remain in the room. It needed only a connected path.
+
+She knocked it into the bathtub and turned on the cold tap with her muzzle. Water gathered around the gray shell, then warmed against it. Steam softened the mirror. The sweetness returned through the drain.
+
+She pushed it into the toilet and struck the lever. The cistern emptied. The packet rose on clean water and waited without embarrassment.
+
+She carried it to the freezer. Cold air rolled over her face. The packet made the frost along the back wall melt into clear lines. The refrigerator motor quieted. Somewhere in the kitchen Nika sighed with pleasure.
+
+Every solution became another route.
+
+Mriya returned the packet to the sink because the sink at least admitted where its pipe went.
+
+The front door offered distance without plumbing. Mriya carried the packet there and rose against the wood. The handle sat above her reach. She pulled the hanging sleeve of Nika's wet coat until the coat fell, searched its pockets, and found keys that meant nothing to paws.
+
+She could wake a neighbor only from inside a locked apartment. Nika had designed the boundary to keep danger out and then become the creature trapped within it.
+
+Mriya struck the door with one paw.
+
+The second floor answered with Borscht's bark. Too far. Too ordinary.
+
+She struck again while holding the packet near the threshold. Sweetness entered the metal strip beneath the door. The radiator pipe answered. Borscht's next bark stopped halfway through, altered by attention.
+
+The Cache could cross the boundary even when she could not.
+
+Mriya scratched.
+
 Nika remained on the kitchen floor.
+
+Mriya attempted to wake the parts of her separately.
+
+She licked the injured palm. No withdrawal. She pressed a cold nose beneath Nika's jaw. No complaint. She carried one piece of forgotten toast from the toaster and placed it against Nika's lips. Nika breathed in the smell and smiled without opening her mouth.
+
+The smile was worse than stillness. It belonged to a human receiving exactly what she wanted after wanting had been removed.
+
+Mriya barked toward the ceiling. The third-floor electronics man struck his floor once in reply. Nika slept.
+
+She dragged the water bowl close and splashed it with one paw. Drops crossed Nika's cheek. Her skin tightened from cold, but she did not wake.
+
+The body still defended itself. The person had stopped participating.
 
 Each time Mriya left the bathroom, the relief grew stronger. The sensible part of her wanted to lie beside Nika and accept the gift. Her hip did not hurt. Her wet coat had become warm. The world had stopped asking things of them.
 
@@ -1049,6 +1249,10 @@ The cold meaning stirred.
 > Wake state binds beneficiary to provider.
 
 Mriya did not know beneficiary or provider. She knew binds.
+
+She knew something else now. The System's meanings did not explain themselves in human sentences. They arrived as structures laid over instincts she already possessed. `Beneficiary` smelled like the creature receiving warmth. `Provider` smelled like the mouth controlling access to food. `Bind` smelled like a leash with no hand visible at the other end.
+
+Understanding was adaptation. Agreement was separate.
 
 She carried the packet to the front door and scratched.
 
@@ -1078,11 +1282,35 @@ His tail stopped.
 
 The word did not arrive as human language. It came with the same impossible certainty as the cold text, carrying a whole bundle of dog meaning: good food left unattended, a warm lap with no exit, a hand that kept stroking after the skin beneath it had become sore.
 
+Before the tunnel, Mriya would have understood enough. Dogs had always spoken through weight, breath, ears, tail, distance, and the scents bodies released before bodies could lie. The old language was precise about danger, hunger, play, ownership, pain, and whether another dog intended to cross a line. It was poor at absent things. Yesterday could be carried as a smell. Tomorrow was usually hunger that had not happened.
+
+Now Borscht's snort arrived with an inside and an outside. His body offered the old meaning—want, warning, uncertainty. Something opened that bundle and showed the relation between its parts. Mriya did not hear a human voice. She received a shaped intention exact enough to answer.
+
+The sweet field around the Cache made the shaping stronger. Beyond the apartment door Borscht remained himself, but the System recognized another canine mind touching the same active object and built a narrow bridge between them.
+
+Emil heard only snorts.
+
+“You wake the entire building and now you whisper,” he told Borscht.
+
+Borscht's ears moved toward him. Affection, impatience, protection. Mriya understood those without help. His next thought—*the old man startles when the pipes knock because his heart counts badly*—arrived only when Borscht put his nose back to the threshold and the sweet field joined them.
+
+The bridge carried meaning. It did not carry facts Borscht did not possess, and it did not make him sensible.
+
 Mriya looked at him.
 
 Borscht looked back.
 
 “Do you also have the words?” he asked.
+
+Mriya tested the bridge.
+
+“The words came in the tunnel.”
+
+What left her throat was a low sound and one sharp breath. Emil shifted backward. Borscht received water, dark, hidden objects, and cold choices. The order blurred before it reached him.
+
+“A wet basement gave you reading?” he asked.
+
+Close enough.
 
 Mriya pushed the packet toward the gap.
 
@@ -1098,6 +1326,10 @@ There was no time to explain that many important things opened at throats.
 
 Together they worked one edge beneath the metal strip holding the threshold. Borscht pulled from the hall. Mriya pressed from inside. The packet creased.
 
+The metal strip lifted less than a claw. Borscht's teeth slipped twice. Each time he lost contact with the packet, his precise meaning collapsed into effort sounds and the old language of frustration. Each time he bit the gray corner again, the bridge returned.
+
+Mriya adjusted her grip. Adaptation offered angles but no strength. Borscht supplied the smaller jaw. The threshold supplied the edge. Neither dog could have opened the Cache alone.
+
 A breath of sweetness escaped.
 
 Borscht went still.
@@ -1112,6 +1344,14 @@ He yelped and released the packet.
 
 The crease remained.
 
+The bakery truck sounded again in the lane.
+
+03:07.
+
+Two hours and thirty-eight minutes until Nika's alarm.
+
+From the kitchen came one smooth breath, then another. The bandage had stopped smelling of fresh blood. Relief had solved the bleeding by making Nika still enough for it to slow. The solution and the danger were the same act.
+
 Mriya hooked one lower tooth into it and dragged backward. The black mark stretched like skin. Something inside resisted, then tore with a soft sigh.
 
 The apartment changed.
@@ -1125,6 +1365,10 @@ Mriya ran to her.
 Nika’s eyes moved beneath closed lids. Her breath broke its perfect rhythm. Color returned to the scent of her skin.
 
 The packet was not empty. A bead of clear gel clung inside the torn gray shell, carrying a concentrated sweetness that made Mriya’s teeth ache.
+
+The bathroom radiator struck once. Pipes answered below, not randomly now but in sequence: fourth floor, third, second, first, basement. The pulse continued beneath the street toward Dockside.
+
+The torn Cache had interrupted its promise to Nika. It had not withdrawn from the network carrying it.
 
 The cold meaning offered itself once more.
 
@@ -1146,13 +1390,45 @@ Mriya smelled the question and the man waiting behind him, embarrassed by his ow
 
 It was the first word she had ever given another dog that felt like speech instead of posture.
 
+Outside the packet's concentrated field, the bridge weakened. Borscht received alive, upstairs, relief. The rest returned to scent and position.
+
+“You sound farther away,” he said.
+
+Mriya moved the torn shell closer to the door. His face sharpened inside her awareness.
+
+“Now?”
+
+“Too close.”
+
+That established the rule as well as any rule involving Borscht could be established: ordinary dog meaning existed everywhere bodies could reach one another; shaped System speech required compatible recognition and a live connection. Distance, barriers, or broken access reduced it back to the old language.
+
+Humans remained outside both versions unless dogs translated through action.
+
 Borscht’s nails danced against the landing.
 
 “Good,” he said. “I have always liked upstairs.”
 
 His owner carried him away while he explained that he would return tomorrow with breakfast.
 
-Mriya waited until the steps faded. Then she lifted her paw.
+“He says good night,” Emil called through the door.
+
+Borscht had said nothing of the kind.
+
+The microwave clock changed to 04:51.
+
+Fifty-four minutes remained.
+
+Mriya returned to Nika. The water on her cheek had dried. Her injured hand was no longer bleeding, but two fingertips had gone pale beneath the bandage. Mriya pulled at the loose end until the wrapping opened enough for blood to return.
+
+Nika made a small sound. Not waking. Close.
+
+The torn Cache had weakened the sleep, but weakness was not safety. Mriya sat with one paw against Nika's ribs and counted breaths through the bakery delivery, the first plumbing cough, and the gradual paling of the window.
+
+At 05:32 Nika's breathing changed on its own. A hitch entered the smooth rhythm. Then a second.
+
+Ordinary imperfection returned before the alarm could claim credit.
+
+When Nika's breathing held its imperfect rhythm, Mriya returned to the bathroom and lifted her paw.
 
 The bead shone in the torn packet.
 
@@ -1170,7 +1446,7 @@ She carried the residue to the yellow blanket, opened a loose fold with her nose
 
 Nika woke on the kitchen floor and declared it the best sleep of her adult life.
 
-This was not true. Mriya remembered a Sunday three months earlier when rain had cancelled work and Nika had slept until noon with one hand buried in the fur of Mriya’s neck. That sleep had smelled deep and untangled. This one smelled scraped clean.
+This was not true. On their first night, Nika had slept on the sofa with one hand hanging toward the yellow blanket. Her breathing had changed whenever footsteps crossed the landing. Dreams had moved beneath her skin, untidy and alive. This sleep smelled scraped clean.
 
 Humans confused absence with rest.
 
@@ -1188,17 +1464,85 @@ Memory moved through her scent in fragments: tunnel water, the man’s lamp, Mri
 
 “We had a bad night.”
 
+Nika found the photographs on her phone. Bruised knees. Torn coat. Mriya's collar laid across the bathroom sink. She moved through them with the detached interest of someone checking another courier's proof of delivery.
+
+The unfinished incident form remained in the recent-app list.
+
+“Did I delete this?”
+
+Mriya looked at her.
+
+“Useful.” Nika reopened it. She typed the depot address, stopped at `Describe the threat`, and stared at the empty field. “He grabbed you.”
+
+Her body supplied none of the terror that belonged to the sentence.
+
+She wrote `municipal employee attempted to restrain dog`.
+
+Mriya growled.
+
+“Fine. Unknown man.”
+
+The form failed when Nika tried to send it. She saved a copy. This time she named the folder `DEPOT`, not `later`, and wrote the time on the electricity notice because it was the only paper within reach.
+
+The acts were sensible. The person performing them smelled absent from their weight.
+
 Mriya touched her nose to the bandaged hand.
 
-Nika flinched, inspected it, and frowned. “I should probably report him.”
+Nika flinched, inspected it, and frowned. “I should send that before I forget again.”
 
 Her phone showed no signal.
 
 She held it toward the window. No signal there either. On the street, two car alarms competed without conviction. A tram stood motionless beneath the wires. People gathered around it, holding their own phones high as if asking the sky to choose one.
 
-Nika made coffee. She washed the blood from her coat. She repaired the delivery bag with silver tape and ate both pieces of last night’s cold toast.
+Nika made coffee. She washed the blood from her coat and ate both pieces of last night’s cold toast.
 
 Each act followed the previous one with terrible efficiency.
+
+She cleaned the cut again without reacting to the antiseptic. She tied the loose boot sole with fresh parcel cord, swept the broken mug, wiped tunnel water from the hall, and put the chair back beneath the table. Six minutes after waking, the apartment looked more orderly than it had before Mriya arrived.
+
+She filled Mriya's bowl, replaced the water, and swallowed two pain tablets with hot coffee. The tablets carried a warning smell. Nika read the label, calculated the hours since she last ate, and took them anyway.
+
+“Toast counts.”
+
+Mriya inspected the two cold black slices.
+
+“Toast counts emotionally.”
+
+Nika opened the refrigerator, found half an onion, mustard, and a container whose contents had advanced beyond smell into policy. She threw the container away, put the onion back, and wrote `groceries` at the top of the list.
+
+Then she checked the time and called Soren again. No network. She put on the torn coat as if a working phone were the only thing separating her from a full delivery shift.
+
+Her body had missed a night, lost blood, swallowed medicine without food, and received no vote.
+
+Nika opened the shelter folder and built a list.
+
+`vet`.
+
+`replacement collar`.
+
+`report depot`.
+
+`finish route 37`.
+
+`pay electricity`.
+
+She added boxes beside each item and checked `report depot` because the unsent form existed.
+
+Mriya nosed the phone.
+
+“It's handled.”
+
+Handled smelled like the hidden packet had smelled before it opened: fear pressed flat and stored out of sight.
+
+Nika repaired the orange lining last. She pinched the torn layers together and covered them with silver tape from the inside. Her fingers paused at a wet gray smear near the bottom seam.
+
+She rubbed it between thumb and forefinger.
+
+The residue beneath the yellow blanket warmed in answer.
+
+Nika's face softened. “Glue.”
+
+She sealed the smear inside the bag.
 
 Mriya watched from beside the yellow blanket.
 
@@ -1214,6 +1558,30 @@ It eased.
 
 This was information, not weakness.
 
+Mriya moved to the kitchen and waited until the full weight of her hip returned. Then she crossed back to the blanket and let the sweetness take its edge away.
+
+Once could be an observation.
+
+She repeated it.
+
+The third time, she carried the blanket to the bathroom. The torn packet shifted inside its fold. She could drop the residue into the toilet. Water would carry it toward the depot network, where destroying the larger Cache had required a choice the System recognized. She could scrape it into the rubbish and place the rubbish beyond the building. She could wake Borscht and make the secret shared.
+
+Nika dropped a spoon in the kitchen.
+
+Mriya turned before it struck the floor.
+
+Nika had already caught it against her thigh with the bandaged hand. She laughed, set it beside the coffee, and resumed writing her list. No pain reached her face.
+
+The residue could make that possible again.
+
+If Nika's hand became infected. If the clinic demanded money. If the tunnel man returned. If exhaustion made her slow at the wrong door. Mriya arranged the future into emergencies until keeping the residue smelled like protection.
+
+She carried the blanket back.
+
+Not claim. Not share. Not destroy.
+
+Keep was a choice the System had not offered, which made it feel like her own.
+
 Nika knelt beside her and ran both hands along Mriya’s ribs, legs, and spine. Her touch was careful until it reached the left hip.
 
 Mriya’s muscle tightened.
@@ -1227,6 +1595,20 @@ Nika knew this. Her jaw changed.
 “I’ll figure it out.”
 
 The phrase smelled of every bill beneath the fruit bowl.
+
+Nika called Saint Orra's clinic. The network connected long enough for a recorded voice to explain that emergency visits required payment at intake. Then the call dissolved into static.
+
+She opened her banking screen. The balance failed to load. Relief had not added money. It had only removed the part of her that feared not having it.
+
+“I can take Dockside again tonight,” she said. “Hazard rate.”
+
+Mriya stood.
+
+“That was a joke.”
+
+It had not smelled like one.
+
+Nika added `ask Leon about clinic` beneath the vet item, then checked the box as if adding a second task had completed the first.
 
 From the landing came rapid scratching.
 
@@ -1266,6 +1648,48 @@ His tail gave one uncertain sweep.
 
 The gray-haired man introduced himself as Emil Pell and apologized again. Nika introduced Mriya. The humans discussed the dead phone network, the stopped tram, and a low mechanical vibration that had travelled through the pipes before dawn.
 
+Emil had brought more than Borscht. A canvas medicine case hung from his wrist. Inside it, glass bottles touched whenever his hand shook. Mriya smelled the bitter tablets Borscht carried in his blood and a different medicine marked by Emil's sweat.
+
+“Pharmacy opens at eight,” he said. “If their shutters work. The lift at my clinic won't, which is less relevant now that this building has trained me for mountains.”
+
+Borscht leaned against his ankle.
+
+The old language said steady. Stay. Mine to support.
+
+Near the torn Cache, the shaped bridge added: *He missed the evening heart tablet because he gave the last clean water to me.*
+
+Mriya looked at Emil's medicine case.
+
+“No,” Borscht said. “His.”
+
+The word carried a rule older than either of them.
+
+Emil noticed the attention. “He has a valve problem. I have a rhythm problem. Between us, we own one satisfactory heart.”
+
+Nika laughed. The sound was clean, immediate, and emptied too soon.
+
+“Were you always here?” she asked.
+
+“Twenty-two years. I repaired signal controls for the tram authority until they discovered younger people could misunderstand them for less money.” Emil nodded toward the wall. “That vibration isn't the boiler. Boiler knocks travel up one riser. This came through the mains and the old service return together.”
+
+“Meaning?”
+
+“Meaning two systems that don't meet are agreeing about something.”
+
+The pipe pulsed beneath his words.
+
+Borscht pressed closer to the floor. Near the blanket, his meaning sharpened again.
+
+“The warm thing is answering.”
+
+Mriya stepped between him and the fold.
+
+Emil mistook the movement for protectiveness toward Nika. “Good dog.”
+
+Cold meaning stirred behind Mriya's eyes but did not form a notice. Praise touched the new structure inside her and vanished before it could become anything countable.
+
+Not yet.
+
 Mriya listened to the walls.
 
 The vibration was still there.
@@ -1280,11 +1704,65 @@ The System did not speak.
 
 That silence was worse. It allowed the secret to remain entirely hers.
 
+From the street came the sound of the stalled tram doors opening all at once. A minute later they closed without passengers. Across the courtyard, every tap in the opposite building began running. Residents shouted from windows. Pigeons lifted from the roof in a single gray sheet and turned inland instead of toward the river.
+
+Emil went to Nika's window. “Signals, water pressure, telephone exchange.”
+
+“Related?” Nika asked.
+
+“They share maintenance tunnels.”
+
+Mriya smelled Dockside through the pipe.
+
+Metal. Mineral water. Bitter flowers reduced to traces too small for old senses and bright enough for Scent +1. Destroying the Cache had emptied the packets. It had not removed what the city had already carried away.
+
+The residue under her paw warmed at each pulse, drawing comfort from the same route that carried failure.
+
+Mriya moved the blanket away from the radiator.
+
+The pulse weakened.
+
+She pushed it back.
+
+The pulse strengthened.
+
+Borscht watched. He understood the experiment. He also understood the lie inside it.
+
+“Most?” he asked.
+
+Mriya did not answer.
+
+He looked toward Emil, whose fingers counted his own pulse at the window. Then Borscht sat beside Mriya with his back to the blanket, making himself part of the concealment.
+
+Friends knew things.
+
+Friends sometimes helped keep the wrong ones.
+
 Nika clipped the repaired leash to Mriya’s collar.
 
 “Come on. If the city is ending, we should buy groceries before everyone notices.”
 
-Her voice was lighter than it had been in months.
+Her voice was lighter than it had been at the shelter, when tiredness had seemed to occupy every place wanting should have lived.
+
+She packed water, the medicine case, two shopping bags, and the shelter folder into the orange bag. Emil objected to surrendering his tablets until Nika pointed out that his dressing gown had no pockets. He returned to 2A for trousers and emerged wearing them beneath the gown.
+
+“Preparedness,” he said.
+
+Borscht wore a red harness with a handle across the back. Emil checked its buckle twice. If the stairs failed him, he intended to carry the dog. If Emil failed, Borscht intended something less physically plausible.
+
+Nika touched left pocket, right pocket, orange-bag strap.
+
+Keys. Phone. Work, though no dispatcher could reach her.
+
+At the apartment door she paused and looked back at the blanket.
+
+For one terrible second, Mriya believed she knew.
+
+“Ugly thing,” Nika said.
+
+She meant the yellow bones.
+
+Mriya remained between Nika and the hidden residue until Nika turned toward the stairs.
 
 Mriya followed her into the hall.
 

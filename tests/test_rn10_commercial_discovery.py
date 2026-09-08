@@ -124,9 +124,9 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["status"], "EXPANSION_E1_CHAPTERS_1_3_GATE_PASS")
+        self.assertEqual(progress["status"], "EXPANSION_E1_CHAPTERS_1_6_GATE_PASS")
         self.assertEqual(progress["draft_words"], len(manuscript.split()))
-        self.assertEqual(progress["expanded_chapters"], [1, 2, 3])
+        self.assertEqual(progress["expanded_chapters"], [1, 2, 3, 4, 5, 6])
         self.assertEqual(progress["chapters_drafted"], 36)
         self.assertIsNone(progress["next_chapter"])
         self.assertEqual(manuscript.count("# Chapter "), 36)
@@ -165,8 +165,8 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
             "PILOT_AFTER_E1_NOT_ADOPTED",
         )
         gate = expansion["expansion_progress"]
-        self.assertEqual(gate["expanded_chapters"], [1, 2, 3])
-        self.assertEqual(gate["chapter_actual_total"], 6610)
+        self.assertEqual(gate["expanded_chapters"], [1, 2, 3, 4, 5, 6])
+        self.assertEqual(gate["chapter_actual_total"], 13053)
         self.assertLessEqual(abs(gate["target_variance_percent"]), 3)
 
 
