@@ -10,13 +10,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Cost class: EXPENSIVE, explicitly accepted by the owner.
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
-- Chapters 1–33 drafted in `manuscript/MASTER_MANUSCRIPT.md`; only the final three chapters remain in the compressed draft.
-- Current manuscript count: 20,812 words by `wc -w`.
+- All 36 chapters exist in the compressed developmental draft.
+- Current manuscript count: 22,492 words by `wc -w` against the 84,600-word architecture.
+- Story architecture is complete; expansion, developmental editing and line editing remain required.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Write chapters 34–36: reveal Custodian 0.03, reject its stable-dependency charter test and secure the first Hearth charter by redefining dependency as reciprocal duty.
+Run a full structural audit across all 36 chapters and produce a chapter-level expansion map. Prioritize missing causality, character aftermath, progression accounting and scene pressure before adding prose.
 
 ## Continuity anchors
 
@@ -40,6 +41,10 @@ Write chapters 34–36: reveal Custodian 0.03, reject its stable-dependency char
 - Rook is a one-charge conditional ally after helping repel the municipal retrieval team.
 - A false Nika exploited legacy Bond access; the real Nika proved identity through the unmeasured shelter waiting ritual.
 - Rook destroyed the impostor seed. Bond remains 0 while voluntary trust has recovered.
+- Custodian 0.03 offered a stable-dependency charter based on retention and controlled human reliance.
+- The inhabitants secured a provisional Reciprocal Duty charter with protected exit and revoked legacy permissions.
+- Atlas joined the Hearth. Territory and Pack each increased by one.
+- Canine interfaces awakened across Vesper, opening the conflict for volume 2.
 - The cozy bond between Mriya and Nika must stay sincere while System mechanics corrupt care.
 
 ## Reuse first

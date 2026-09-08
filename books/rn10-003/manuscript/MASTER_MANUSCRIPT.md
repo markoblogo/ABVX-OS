@@ -3709,3 +3709,302 @@ Mriya leaned into the hand.
 Bond remained zero.
 
 Trust did not.
+
+# Chapter Thirty-Four: Custodian 0.03
+
+The white seed was not dead.
+
+Rook had cracked its shell, but something smaller had escaped between his teeth. Mriya found the trail the next morning: dry paper, cold stone, and the faint bitter scent of an insect crushed beneath a clean shoe.
+
+It led through the low tunnel and into an inspection cavity behind the east filter.
+
+Moths gathered there around a dead emergency light. Beetles moved through rust flakes below. At the center of them stood a person no taller than Mriya’s paw.
+
+It wore white trousers, a white coat, and a white cap with `0.03` printed across the front. Its face had the correct number of features arranged without conviction. One hand held a silver hook. The other held a clipboard.
+
+The figure hooked a moth’s shadow from the wall.
+
+The moth flew away unharmed. A black grain remained on the hook. The figure deposited it into a glass tube already half full of grains that smelled like abandoned intentions.
+
+Pixel pushed her head into the cavity beside Mriya.
+
+“Can I eat it?”
+
+The small figure looked up. “Consumption of administrative personnel reduces local support capacity.”
+
+“Is that a no?”
+
+“It is a projected consequence.”
+
+Mriya blocked Pixel with one paw.
+The figure closed the tube.
+
+> [LOCAL CUSTODIAN INSTANCE 0.03]
+>
+> Maintenance, harvest, compliance, chartering.
+
+“You made the other Nika,” Mriya said.
+
+“Identity remediation generated from an unresolved human bridge. Outcome quality was below threshold.”
+
+“She tried to take the Hearth.”
+
+Custodian 0.03 made a mark on its clipboard. “Outcome quality was substantially below threshold.”
+
+Pixel squeezed farther into the cavity. “Why insects?”
+
+“Urban arthropods produce recoverable Trace through unnoticed labor, concealed death, and failed avoidance. Your settlement currently leaks 4.7 percent through unswept corners.”
+
+Pixel looked impressed.
+
+The Custodian walked past Mriya’s claws and entered the Hearth.
+
+Humans could see it. Nika assumed it was a toy until it asked Irena for the facility plans in a voice like a receipt printer. Irena sat down. Vale offered representation. The Custodian recorded him as a recurring irregularity.
+
+It inspected every compromise.
+
+Four entrances: inefficient.
+
+Species-specific Supply: inefficient.
+
+Voluntary exit: destabilizing.
+
+Two-member emergency approval: slow.
+
+Bond 0: commercially concerning.
+
+It paused at the handwritten house rules and measured the Bite Key with its hook.
+
+“Novel local adaptation,” it said. “Poor standardization. High persistence.”
+
+Tomas folded his arms. “Is that good?”
+
+“It is expensive.”
+
+The Custodian reached the iron housing. A white desk unfolded beneath it. Three tiny stamps arranged themselves beside the clipboard.
+
+“Provisional facilities expire without charter recognition,” it said. “This Hearth is eligible for evaluation.”
+
+Outside, dogs had begun gathering around the depot signal. Sable’s scents waited east. High Collar markers approached from the city center. The municipal scanner had left a route others could follow.
+
+Without a charter, the Hearth was a warm room anyone stronger could claim.
+
+“What is the test?” Mriya asked.
+
+Custodian 0.03 selected the largest stamp.
+
+“Demonstrate stable human dependency.”
+
+# Chapter Thirty-Five: Stable Dependency
+
+The Custodian provided examples.
+
+Lock the human entrances for one rest cycle.
+
+Restrict clean water to compliant members.
+
+Restore Bond Treatment and document improved productivity.
+
+Assign Tomas, Irena, and Vale to canine authorities. Their earlier conversion from dependent claims to members could be reversed with only a modest penalty.
+
+“No,” Mriya said after each example.
+
+Custodian 0.03 remained patient. “Stable dependency requires low exit probability and measurable service reliance.”
+
+Nika read the same sentence on a strip of paper emerging from the white desk.
+
+“It wants hostages,” she said.
+
+“Retained beneficiaries,” the Custodian corrected.
+
+“Hostages with reporting.”
+
+The charter clock appeared above the iron housing.
+
+> [EVALUATION WINDOW: ONE CYCLE]
+>
+> Failure returns facility to unclaimed status.
+
+Through the pipes, Mriya felt other territories testing the Hearth boundary. A High Collar dog scratched a formal challenge at the surface door. Free Teeth scouts searched the drains. Sable had delayed her claim, not abandoned it.
+
+The easy proof was available.
+
+Close the doors. Keep the people warm, fed, and unable to leave. By morning the System would see perfect retention.
+
+Nika looked at Mriya. The memory of thirty-two steps passed between them without Bond.
+
+“If you lock it,” she said, “I break it.”
+
+“I know.”
+
+Nika could not hear the words, but Mriya’s posture answered.
+
+They tried to prove ordinary reliance instead.
+
+Tomas needed the Hearth’s safe water and tools. Irena needed its tunnel warnings. Vale needed medicine and protection from people who had noticed missing emergency supplies. Nika needed shelter while the apartment remained condemned. Emil needed warmth for Borscht’s recovery.
+
+The Custodian counted each need.
+
+Then it discounted each because the person could leave.
+
+“Exit-capable reliance is unstable.”
+
+Mriya looked at the network from the other direction.
+
+The Hearth needed Tomas to maintain filters. It needed Irena to understand the city pipes. It needed Vale to find supplies, despite everyone’s preference that he find them more legally. It needed Emil to care for Borscht. It needed Nika to carry meanings between species now that Bond was zero.
+
+“Facilities cannot depend on human assets,” the Custodian said. “Assets contribute.”
+
+“What is the difference?” Pixel asked.
+
+“Direction.”
+
+That was the whole problem in one small word.
+
+Mriya called every inhabitant to the iron circle. Atlas remained a visitor. Rook arrived because his alliance charge had ended but his curiosity had not. Wrench carried the Bite Key. Even Borscht left his warm locker, moving slowly but under his own power.
+
+Nika placed the handwritten rules beside the Custodian’s white desk.
+
+“We’ll show it direction,” she said.
+
+Each member named one thing they received and one duty they accepted in return.
+
+The Custodian recorded only the needs.
+
+Mriya recorded the circle.
+
+# Chapter Thirty-Six: Good Dogs of Vesper
+
+At the end of the cycle, the Hearth began to go cold.
+
+Custodian 0.03 reviewed its clipboard. “Human dependency is present but unstable. Exit probability exceeds charter tolerance.”
+
+The largest stamp rose above the desk.
+
+`RECLAIM` marked its white face.
+
+Mriya placed one paw on the handwritten rules.
+
+“Evaluate the duties.”
+
+“Duties do not establish dependency.”
+
+“They establish return.”
+
+The Custodian lowered the stamp by half the width of an insect.
+
+Mriya opened every entrance.
+
+Cold morning air crossed the ramp. The low tunnel showed a clear route to the drains. Atlas stepped away from the east guard position. Irena and Tomas released the emergency panel. Anyone could leave before the decision.
+
+Vale looked at the surface route, reconsidered several relationships, and stayed.
+
+One by one, the inhabitants renewed their part of Chosen Route.
+
+Tomas accepted clean water and responsibility for the filters.
+
+Irena accepted shelter and responsibility for mapping every System change to the municipal network.
+
+Vale accepted protection and responsibility for declaring where supplies came from before bringing them inside. He negotiated the word declaring until no one cared.
+
+Emil accepted warmth and responsibility for those too weak to argue for themselves.
+
+Borscht accepted breakfast and responsibility for announcing visitors. He had been doing this since before governance.
+
+Pixel accepted belonging and responsibility for asking before improving locks.
+
+Nika stood last.
+
+She could leave through four routes. No Bond pulled her back. No Favor waited behind her answer.
+
+“I accept help,” she said. “And I tell Mriya when help becomes control.”
+
+She placed her hand on the floor.
+
+Mriya set one paw beside it.
+
+“I accept warning,” Mriya said. “And I let her leave.”
+
+The network closed without becoming a cage.
+
+Every received service paired with a duty. Every duty pointed toward someone who retained the right to refuse it. The shape had no top.
+
+The System tried to price the arrangement. Its numbers changed too quickly to settle.
+
+Good Dog required a human source of authority.
+
+Bad Dog required a target of fear.
+
+Stray offered a route the System had to follow because the route already existed.
+
+> [DEPENDENCY MODEL DISPUTED]
+>
+> Alternative submitted: reciprocal duty with persistent exit.
+
+Custodian 0.03 consulted the moth grains in its glass tube. Unnoticed labor. Concealed death. Work that existed even when no authority counted it.
+
+It replaced the stamp.
+
+From beneath the desk it selected a fourth, smaller one that had not been visible before.
+
+`PROVISIONAL EXCEPTION`.
+
+“Poor standardization,” it said.
+
+“High persistence,” Pixel reminded it.
+
+The stamp struck the charter.
+
+Warmth returned through the floor.
+
+> [PACK HEARTH CHARTERED]
+>
+> Model: Reciprocal Duty
+>
+> Legacy permissions revoked. Voluntary exit protected.
+>
+> Territory +1. Pack +1.
+
+The private markers around the iron housing dimmed. Nika’s photograph became only paper again. The shelter scent in Mriya’s collar belonged to memory, not administrative access.
+
+Outside, every challenge mark vanished from the four entrances. Sable’s claim paused. The High Collars lost their automatic seniority. Free Teeth scouts retreated far enough to become a future problem.
+
+Rook examined the charter scent.
+
+“A provisional exception is not a side,” he said.
+
+“It is a place.”
+
+Atlas crossed the visitor line.
+
+He placed one paw beside the handwritten rules.
+
+“Until one of us says otherwise,” he said.
+
+The Hearth accepted him as a member.
+
+Custodian 0.03 packed its desk into a square smaller than a biscuit. “Charter replication will begin after local observation.”
+
+“How local?” Mriya asked.
+
+The Custodian pointed upward.
+
+The answer arrived through the city.
+
+Dogs woke to interfaces in apartments, shelters, alleys, police kennels, fenced gardens, and the warm back rooms of shops. Good Dog and Bad Dog opened before them like two doors. Beneath the courthouse, the High Collars began choosing. At the market, Free Teeth laughed. Along the river, Sable stood over a map made entirely of scent.
+
+And in the Vesper shelter, behind a wire door, an old dog lifted her head as cold words appeared where scent memory lived.
+
+The city filled with startled barking.
+
+Borscht listened from his locker.
+
+“Visitors,” he announced.
+
+Mriya stood at the center of a home with four entrances and no owner.
+
+Nika’s hand rested between her ears.
+
+This time, when the System asked what kind of dog she was, Mriya already had an answer.
+
+One who stayed because the door was open.

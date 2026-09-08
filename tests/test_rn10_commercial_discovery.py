@@ -120,12 +120,14 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         progress = json.loads(
             (ROOT / "books/rn10-003/manuscript/progress.json").read_text()
         )
+        radar_state = json.loads((ROOT / "book-radar/state.json").read_text())
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["chapters_drafted"], 33)
-        self.assertEqual(progress["next_chapter"], 34)
-        self.assertEqual(manuscript.count("# Chapter "), 33)
+        self.assertEqual(progress["status"], "COMPRESSED_DEVELOPMENTAL_DRAFT_COMPLETE")
+        self.assertEqual(progress["chapters_drafted"], 36)
+        self.assertIsNone(progress["next_chapter"])
+        self.assertEqual(manuscript.count("# Chapter "), 36)
         self.assertIn("[CACHE DETECTED]", manuscript)
         self.assertIn("[CLASSIFICATION PENDING]", manuscript)
         self.assertIn("[CLASS ACQUIRED: STRAY]", manuscript)
@@ -136,6 +138,12 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertIn("[SPECIES-SPECIFIC SUPPLY LAW]", manuscript)
         self.assertIn("[CONDITIONAL ALLY: ROOK]", manuscript)
         self.assertIn("[CHOSEN SCENT]", manuscript)
+        self.assertIn("[LOCAL CUSTODIAN INSTANCE 0.03]", manuscript)
+        self.assertIn("[PACK HEARTH CHARTERED]", manuscript)
+        production_run = next(
+            run for run in radar_state["radar_runs"] if run["id"] == "RN10-003-PRODUCTION"
+        )
+        self.assertEqual(production_run["status"], progress["status"])
 
 
 if __name__ == "__main__":

@@ -86,6 +86,14 @@ Rook's tribute demand becomes a one-cycle exchange after he sees the Bite Key, a
 
 The System creates a false Nika from measured identity, her private Hearth marker and legacy Bond permissions. The impostor gains administrative access and begins reversing the settlement's inefficient rules. The real Nika proves identity by repeating the unmeasured shelter ritual: she sits apart, makes no request and allows Mriya to choose approach. Mriya recognizes her through living, joined scent rather than statistical continuity. Rook destroys the impostor seed. Bond stays at 0, but trust is restored through voluntary recognition.
 
+## Established continuity through chapter 36
+
+Custodian 0.03 harvests Trace from unnoticed urban insect labor and audits the Hearth. It offers a charter if Mriya demonstrates stable human dependency, defining stability through restricted exit, controlled resources, Bond Treatment or assigned human dependents.
+
+The inhabitants instead define reciprocal duty: each accepted service is paired with a responsibility, refusal remains possible and all entrances stay open during evaluation. The System grants a provisional exception charter under the Reciprocal Duty model. It protects voluntary exit, revokes legacy permissions and awards Territory +1 and Pack +1.
+
+Atlas joins the Hearth after chartering. Bond remains 0. As the charter begins local replication, canine interfaces awaken across Vesper, including the shelter, courthouse, market tunnels and river territory. This opens volume 2's district-scale conflict.
+
 ## Style and tone
 
 - Warm sensory specificity before lore explanation.

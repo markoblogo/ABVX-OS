@@ -47640,7 +47640,7 @@
       "opportunities_scanned": 0,
       "deep_scanned": 0,
       "production_authorized": true,
-      "status": "DEVELOPMENTAL_DRAFT_IN_PROGRESS",
+      "status": "COMPRESSED_DEVELOPMENTAL_DRAFT_COMPLETE",
       "strategy": "candidate-generation-v5-commercial-first"
     }
   ],
