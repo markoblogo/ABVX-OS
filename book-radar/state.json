@@ -47632,6 +47632,16 @@
       "production_authorized": false,
       "status": "TWO_MARKET_CONCEPTS_AWAITING_POSITIONING_GATE",
       "strategy": "candidate-generation-v5-commercial-first"
+    },
+    {
+      "id": "RN10-003-PRODUCTION",
+      "name": "Good Dog, Bad System volume 1",
+      "observed_at": "2026-09-08",
+      "opportunities_scanned": 0,
+      "deep_scanned": 0,
+      "production_authorized": true,
+      "status": "DEVELOPMENTAL_DRAFT_IN_PROGRESS",
+      "strategy": "candidate-generation-v5-commercial-first"
     }
   ],
   "schema_version": "book-radar-state/v1",

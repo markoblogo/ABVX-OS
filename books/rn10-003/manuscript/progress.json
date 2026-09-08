@@ -1,0 +1,17 @@
+{
+  "schema_version": "fiction-manuscript-progress/v1",
+  "book_id": "rn10-003-good-dog-bad-system",
+  "status": "DEVELOPMENTAL_DRAFT_IN_PROGRESS",
+  "target_words": 84600,
+  "chapters_planned": 36,
+  "chapters_drafted": 3,
+  "draft_words": 3280,
+  "draft_completion_percent": 3.9,
+  "last_completed_chapter": 3,
+  "next_chapter": 4,
+  "next_title": "Cached Relief",
+  "current_act": 1,
+  "continuity_state": "Mriya and Nika escaped the municipal service tunnel; Mriya destroyed the first Cache, gained Scent +1 and Adaptation +1, protected an unregistered Bond and was offered Good Dog / Bad Dog classification. A second sealed object carrying the wrong scent is hidden inside Nika's orange delivery bag.",
+  "format_production_started": false,
+  "listing_finalized": false
+}

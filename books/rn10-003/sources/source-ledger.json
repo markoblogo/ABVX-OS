@@ -1,0 +1,23 @@
+{
+  "schema_version": "rn10-fiction-source-ledger/v1",
+  "book_id": "rn10-003-good-dog-bad-system",
+  "sources": [
+    {
+      "id": "OWNER-ESSAY-001",
+      "title": "Собакокалипсис или как остный нюх на закладки поработил человечество",
+      "sha256": "f44991c44661b8098665e2048b766cefd0fb5c397bfa4fa23f230b187aa59509",
+      "ownership": "USER_CONFIRMED_FULL_OWNERSHIP",
+      "allowed_use": "Premise, world logic, escalation, adaptation and original development",
+      "reader_facing_attribution": "OWNER_DECISION_PENDING"
+    },
+    {
+      "id": "SITUATION-BANK-001",
+      "title": "ЧОРНАЯ",
+      "sha256": "289112bce0ebdf2156d0f68c483b3d009064c9e12b357e7825401617fa50b4ae",
+      "ownership": "NOT_ASSERTED",
+      "allowed_use": "Abstract situation prompts only under the user's transformation instruction",
+      "prohibited_use": "No copied wording, verse, characters, distinctive expression or close scene recreation",
+      "volume_one_scope": "Book 1, chapter 2, prompts 1-12"
+    }
+  ]
+}

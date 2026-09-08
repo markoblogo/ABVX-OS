@@ -1,0 +1,65 @@
+{
+  "schema_version": "rn10-fiction-production-contract/v1",
+  "opportunity_id": "RN10-003",
+  "status": "PRODUCTION_AUTHORIZED_DRAFTING",
+  "cost_class": "EXPENSIVE",
+  "authorization": {
+    "source": "Direct owner instruction to begin the first manuscript for Kindle and paperback",
+    "observed_at": "2026-09-08"
+  },
+  "working_title": "Good Dog, Bad System",
+  "series": "Good Dogs of the Apocalypse",
+  "volume": 1,
+  "language": "English",
+  "market": "English-language LitRPG readers",
+  "genre": "Darkly comic System Apocalypse and civilization-building LitRPG",
+  "reader_promise": "A lovable dog protagonist builds a safe home and a functioning pack while every caring upgrade quietly increases canine power over humans.",
+  "tone_arc": "Sincere cozy domestic opening -> uncanny System discovery -> black-comic settlement building -> morally disturbing victory",
+  "target_words": {"minimum": 75000, "preferred": 84600, "maximum": 90000},
+  "chapter_plan": {"count": 36, "average_words": 2350, "structure": "Four acts; twelve source-derived story functions expanded into setup, choice and consequence"},
+  "story_completion": "Mriya founds and defends the first Pack Hearth and receives a provisional territory charter; the citywide canine awakening supplies sequel pull.",
+  "primary_format": "KINDLE_REFLOWABLE",
+  "secondary_format": "PAPERBACK",
+  "format_plan": {
+    "kindle": "Semantic chapter headings, reflowable paragraphs, accessible System notices, no print pagination or decorative dependency.",
+    "paperback": "Provisional 5.5 x 8.5 inch black-and-white cream-paper novel; final trim, page count, gutter, typography and price follow manuscript freeze.",
+    "interior_visuals": "NONE_PLANNED"
+  },
+  "source_boundary": {
+    "owned_source": "The user's Собакокалипсис essay supplies the world premise and escalation logic.",
+    "situation_source": "The supplied ЧОРНАЯ file supplies abstract prompts only. No wording, characters, imagery sequence or verse expression may be copied.",
+    "transformation_rule": "Every prompt becomes a new causal event with original characters, setting, mechanics, dialogue and outcome."
+  },
+  "continuity_gates": [
+    "Dog-limited close third-person point of view remains sensory and embodied.",
+    "Every stat increase changes a relationship, place or strategic option.",
+    "Cache, Bond, Pack, Territory and Adaptation rules remain consistent.",
+    "Settlement resources balance scarcity, tradeoffs and visible consequences.",
+    "The cozy opening is emotionally real rather than a disposable fakeout.",
+    "Care-versus-control theme escalates through choices rather than exposition."
+  ],
+  "editorial_gates": [
+    "Causal clarity and scene-to-scene consequence",
+    "Character attachment to Mriya and Nika",
+    "Progression cadence without stat-screen overload",
+    "Controlled repetition and varied sentence rhythm",
+    "Humor arising from dog logic and power inversion rather than constant gags",
+    "No machine-like summaries, generic filler or unexplained competence",
+    "No operational depiction of illegal trade methods"
+  ],
+  "production_sequence": [
+    "BookSpec, series bible, voice contract and 36-chapter outline",
+    "Opening tranche and continuity review",
+    "Complete developmental draft",
+    "Structural revision",
+    "Line edit and continuity audit",
+    "Owner manuscript approval",
+    "Kindle and paperback production",
+    "Listing freeze and KDP preparation"
+  ],
+  "listing_policy": "The existing package remains provisional. Final description, cover, categories, keywords and price follow owner approval of the edited manuscript.",
+  "ai_disclosure": "KDP AI-generated-content disclosure will be required if the final manuscript substantially retains generated prose.",
+  "production_authorized": true,
+  "format_production_authorized": false,
+  "publication_authorized": false
+}

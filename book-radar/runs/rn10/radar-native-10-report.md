@@ -41,3 +41,7 @@ RN10-003, *Good Dog, Bad System*, is recorded separately from the nine scanned m
 The tonal sequence is deliberate: a sincerely cozy opening with lovable dogs and affectionate owner routines, an uncanny System shift, then black comedy as care becomes dependency and canine settlement mechanics become political power. The package must expose both the cozy entry and darker destination so readers do not mistake it for pure cozy pet fiction.
 
 The concept gate includes a first-volume synopsis, five-stat progression system, twelve-beat map, three-book first-season arc and provisional Amazon metadata. The unavailable reader-panel gate was replaced by a dated Amazon listing-pattern scan and later real-market observation. Status: `LISTING_PATTERN_GATE_PASS`. Production remains unauthorized; the next optional gate is outline and sample development.
+
+## Post-gate production authorization
+
+The owner subsequently authorized development of the first English manuscript for Kindle and paperback. RN10-003 now has a production contract, BookSpec, series bible, voice contract and 36-chapter developmental outline targeting 84,600 words. Drafting has begun with chapters 1–3. Format production, listing freeze and publication remain blocked until the edited manuscript receives owner approval.

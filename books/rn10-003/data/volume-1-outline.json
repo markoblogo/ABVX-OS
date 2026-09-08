@@ -1,0 +1,71 @@
+{
+  "schema_version": "fiction-developmental-outline/v1",
+  "book_id": "rn10-003-good-dog-bad-system",
+  "target_words": 84600,
+  "acts": [
+    {
+      "act": 1,
+      "title": "Home",
+      "target_words": 20500,
+      "chapters": [
+        {"chapter": 1, "title": "A Home That Smelled of Toast", "target_words": 2200, "source_ref": "2.1-A", "turn": "Nika brings Mriya home; mutual routines create a fragile but sincere domestic refuge."},
+        {"chapter": 2, "title": "The Wrong Smell", "target_words": 2200, "source_ref": "2.1-B", "turn": "Mriya detects an intentional hidden scent beneath an ordinary delivery route and chooses to follow it."},
+        {"chapter": 3, "title": "The Hand in the Tunnel", "target_words": 2300, "source_ref": "2.1-C", "turn": "A capture attempt in a service tunnel becomes a near-death event and awakens the System."},
+        {"chapter": 4, "title": "Cached Relief", "target_words": 2200, "source_ref": "2.2-A", "turn": "The first Cache calms Nika and makes home feel unnaturally perfect."},
+        {"chapter": 5, "title": "Before Waking", "target_words": 2200, "source_ref": "2.2-B", "turn": "Mriya learns the calming resource must be shut down before its human user wakes."},
+        {"chapter": 6, "title": "A Better Morning", "target_words": 2200, "source_ref": "2.2-C", "turn": "Mriya saves Nika but keeps part of the resource, establishing the first secret between them."},
+        {"chapter": 7, "title": "Recognized Authority", "target_words": 2400, "source_ref": "2.3-A", "turn": "The System rewards a human for obeying a dog’s warning and penalizes another for ignoring it."},
+        {"chapter": 8, "title": "Good Girl", "target_words": 2300, "source_ref": "2.3-B", "turn": "Nika’s praise becomes measurable Favor, making affection feel transactional for the first time."},
+        {"chapter": 9, "title": "The Price of Disbelief", "target_words": 2500, "source_ref": "2.3-C", "turn": "A frightened neighbor rejects canine authority and triggers a threat that drives Mriya from the apartment."}
+      ]
+    },
+    {
+      "act": 2,
+      "title": "Stray",
+      "target_words": 20600,
+      "chapters": [
+        {"chapter": 10, "title": "Good Dog / Bad Dog", "target_words": 2200, "source_ref": "2.4-A", "turn": "The System offers the binary class choice while Atlas demands obedience and Pixel urges theft."},
+        {"chapter": 11, "title": "Neither", "target_words": 2200, "source_ref": "2.4-B", "turn": "Mriya refuses both paths and loses easy rewards."},
+        {"chapter": 12, "title": "Stray Class", "target_words": 2300, "source_ref": "2.4-C", "turn": "A negotiated act of loyalty unlocks Stray and lets the dogs form a voluntary party."},
+        {"chapter": 13, "title": "The Ruined Room", "target_words": 2200, "source_ref": "2.5-A", "turn": "The party finds an abandoned sanitation room beneath a municipal depot."},
+        {"chapter": 14, "title": "What Counts as Clean", "target_words": 2300, "source_ref": "2.5-B", "turn": "Restoration requires each inhabitant to surrender a private scent marker."},
+        {"chapter": 15, "title": "Pack Hearth", "target_words": 2400, "source_ref": "2.5-C", "turn": "The facility heals Mriya’s old pain but broadcasts the settlement to rival dogs."},
+        {"chapter": 16, "title": "Three Empty Bowls", "target_words": 2100, "source_ref": "2.6-A", "turn": "A sharing ritual creates three human-sized claims on the Hearth’s scarce supply."},
+        {"chapter": 17, "title": "Delivered People", "target_words": 2400, "source_ref": "2.6-B", "turn": "Tomas, Irena and Vale arrive through different routes and assume different owners."},
+        {"chapter": 18, "title": "House Rules", "target_words": 2500, "source_ref": "2.6-C", "turn": "Mriya must define rules that humans and dogs can both accept before the Hearth rejects them."}
+      ]
+    },
+    {
+      "act": 3,
+      "title": "The Hearth",
+      "target_words": 21000,
+      "chapters": [
+        {"chapter": 19, "title": "Bond Treatment", "target_words": 2200, "source_ref": "2.7-A", "turn": "Nika’s worsening exhaustion becomes the first test of a Bond healing skill."},
+        {"chapter": 20, "title": "Useful Happiness", "target_words": 2300, "source_ref": "2.7-B", "turn": "The skill works and makes Nika productive, cheerful and subtly unable to leave Mriya."},
+        {"chapter": 21, "title": "Let Go", "target_words": 2400, "source_ref": "2.7-C", "turn": "Mriya weakens her own Bond to restore Nika’s choice, sacrificing a major advantage."},
+        {"chapter": 22, "title": "Assembly Required", "target_words": 2200, "source_ref": "2.8-A", "turn": "The Hearth receives expansion modules designed for incompatible species and social roles."},
+        {"chapter": 23, "title": "Pieces That Refuse", "target_words": 2400, "source_ref": "2.8-B", "turn": "Atlas imposes order, Pixel cheats the build and the settlement physically locks them out."},
+        {"chapter": 24, "title": "A Door for Everyone", "target_words": 2500, "source_ref": "2.8-C", "turn": "Mriya solves the build through negotiated access rather than one universal entrance."},
+        {"chapter": 25, "title": "Human Food", "target_words": 2200, "source_ref": "2.9-A", "turn": "A valuable human consumable poisons a dog and turns Supply into a species conflict."},
+        {"chapter": 26, "title": "Bad Medicine", "target_words": 2400, "source_ref": "2.9-B", "turn": "A prohibited Cache revives a collapsing human, exposing unequal System values."},
+        {"chapter": 27, "title": "Different Rules", "target_words": 2400, "source_ref": "2.9-C", "turn": "The pack chooses separate resource laws and loses the System’s efficiency bonus."}
+      ]
+    },
+    {
+      "act": 4,
+      "title": "Charter",
+      "target_words": 22500,
+      "chapters": [
+        {"chapter": 28, "title": "Rook", "target_words": 2300, "source_ref": "2.10-A", "turn": "A rival enforcer enters the Hearth to collect territory tribute."},
+        {"chapter": 29, "title": "A Tool Worth Biting", "target_words": 2300, "source_ref": "2.10-B", "turn": "Rook’s respect for a pack-built tool interrupts violence and opens negotiation."},
+        {"chapter": 30, "title": "Conditional Ally", "target_words": 2400, "source_ref": "2.10-C", "turn": "Rook joins for one defense and reveals the city’s emerging pack hierarchy."},
+        {"chapter": 31, "title": "The Right Face", "target_words": 2300, "source_ref": "2.11-A", "turn": "Nika returns after a disappearance looking correct and smelling wrong."},
+        {"chapter": 32, "title": "The Wrong Nika", "target_words": 2500, "source_ref": "2.11-B", "turn": "The impostor uses Mriya’s Bond permissions to open the Hearth to the System."},
+        {"chapter": 33, "title": "Chosen Scent", "target_words": 2500, "source_ref": "2.11-C", "turn": "The real Nika proves identity through a shared routine that the System never measured."},
+        {"chapter": 34, "title": "Custodian 0.03", "target_words": 2300, "source_ref": "2.12-A", "turn": "Mriya discovers a miniature administrator harvesting resources from urban insects."},
+        {"chapter": 35, "title": "Stable Dependency", "target_words": 2600, "source_ref": "2.12-B", "turn": "The Custodian offers a charter if Mriya proves that humans depend on the Pack Hearth."},
+        {"chapter": 36, "title": "Good Dogs of Vesper", "target_words": 3300, "source_ref": "2.12-C", "turn": "Mriya secures the charter by redefining dependency as reciprocal duty; the Hearth survives as canine interfaces awaken across the city."}
+      ]
+    }
+  ]
+}

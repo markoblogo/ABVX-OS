@@ -97,6 +97,36 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         validate_listing_package(concept["listing_package"], scan)
         self.assertFalse(concept["listing_pattern_gate"]["manuscript_allowed"])
 
+    def test_rn10_003_production_is_authorized_but_formats_are_not(self):
+        contract = json.loads((RUN / "rn10-003-production-contract.json").read_text())
+        self.assertEqual(contract["status"], "PRODUCTION_AUTHORIZED_DRAFTING")
+        self.assertEqual(contract["cost_class"], "EXPENSIVE")
+        self.assertTrue(contract["production_authorized"])
+        self.assertFalse(contract["format_production_authorized"])
+        self.assertFalse(contract["publication_authorized"])
+
+    def test_rn10_003_outline_is_complete_and_matches_target(self):
+        outline = json.loads(
+            (ROOT / "books/rn10-003/data/volume-1-outline.json").read_text()
+        )
+        chapters = [chapter for act in outline["acts"] for chapter in act["chapters"]]
+        self.assertEqual([chapter["chapter"] for chapter in chapters], list(range(1, 37)))
+        self.assertEqual(sum(chapter["target_words"] for chapter in chapters), 84600)
+        self.assertEqual(len({chapter["source_ref"] for chapter in chapters}), 36)
+
+    def test_rn10_003_manuscript_has_started_and_matches_package(self):
+        concept = json.loads((RUN / "rn10-003-concept-gate.json").read_text())
+        spec = json.loads((ROOT / "books/rn10-003/book-spec.json").read_text())
+        progress = json.loads(
+            (ROOT / "books/rn10-003/manuscript/progress.json").read_text()
+        )
+        manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
+        self.assertEqual(spec["title"], concept["listing_package"]["title"])
+        self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
+        self.assertEqual(progress["chapters_drafted"], 3)
+        self.assertEqual(manuscript.count("# Chapter "), 3)
+        self.assertIn("[CACHE DETECTED]", manuscript)
+
 
 if __name__ == "__main__":
     unittest.main()
