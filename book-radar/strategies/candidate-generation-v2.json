@@ -1,0 +1,116 @@
+{
+  "schema_version": "candidate-generation-strategy/v2",
+  "id": "candidate-generation-v2",
+  "status": "ACTIVE_EXPERIMENT",
+  "effective_from_run": "RN7",
+  "previous_behavior": "Generated primarily from plausible underserved buyer jobs and architecture diversity; commercial intent was assessed inconsistently and source origin was not persisted.",
+  "audit_evidence_ref": "book-radar/audits/discovery-effectiveness-rn4-rn6-audit.json",
+  "mix": {
+    "commercial_intent_oriented_target_pct": 75,
+    "exploratory_weak_prior_target_pct": 25,
+    "hard_quota": false
+  },
+  "required_generation_questions": [
+    "who needs this",
+    "what happened that creates need now",
+    "current workaround",
+    "why workaround is unsatisfactory",
+    "why a book is natural",
+    "what evidence suggests paid behavior",
+    "what is the raw-to-product transformation"
+  ],
+  "experimental_fields": {
+    "purchase_trigger_strength": {
+      "scale": [
+        0,
+        5
+      ],
+      "use": [
+        "generation",
+        "promotion",
+        "tie_breaking"
+      ]
+    },
+    "value_of_solving": {
+      "scale": [
+        0,
+        5
+      ],
+      "use": [
+        "generation",
+        "promotion",
+        "tie_breaking"
+      ]
+    },
+    "time_to_need": {
+      "values": [
+        "NOW_DAYS",
+        "WEEKS",
+        "ONGOING",
+        "SOMEDAY_CURIOSITY",
+        "UNKNOWN"
+      ],
+      "use": [
+        "promotion",
+        "analysis"
+      ]
+    },
+    "book_purchase_naturalness": {
+      "scale": [
+        0,
+        5
+      ],
+      "use": [
+        "generation",
+        "promotion",
+        "tie_breaking"
+      ]
+    },
+    "wtp_proxy_strength": {
+      "scale": [
+        0,
+        5
+      ],
+      "use": [
+        "generation",
+        "promotion",
+        "tie_breaking"
+      ]
+    },
+    "commercial_intent_confidence": {
+      "scale": [
+        0,
+        5
+      ],
+      "use": [
+        "promotion",
+        "analysis"
+      ]
+    },
+    "source_origin": {
+      "values": [
+        "AMAZON_FIRST",
+        "COMMUNITY_REDDIT",
+        "OFFICIAL_COMPLEXITY",
+        "SEARCH_QUERY",
+        "COMPETITOR_ADJACENCY",
+        "REGULATORY_CHANGE",
+        "MARKETPLACE_GAP",
+        "LANGUAGE_ARBITRAGE",
+        "PORTFOLIO_ASSET_DERIVATION",
+        "OTHER"
+      ],
+      "use": [
+        "analysis"
+      ]
+    }
+  },
+  "explicit_non_changes": [
+    "permanent scoring weights unchanged",
+    "existing hard gates unchanged",
+    "historical RN4-RN6 records unchanged",
+    "language coverage unchanged",
+    "NO_PRODUCT remains valid",
+    "low-trigger evergreen hobby/reference candidates remain eligible through exploratory path"
+  ]
+}

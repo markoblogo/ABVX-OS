@@ -1,0 +1,174 @@
+{
+  "schema_version": "discovery-effectiveness-audit/v1",
+  "scope": [
+    "RN4",
+    "RN5",
+    "RN6"
+  ],
+  "source_of_truth": [
+    "book-radar/runs/rn4",
+    "book-radar/runs/rn5",
+    "book-radar/runs/rn6",
+    "RN5 human gate and production records"
+  ],
+  "data_quality": {
+    "status": "PASS_WITH_LIMITATIONS",
+    "limitations": [
+      "RN5 stopped investment testing after the rank-1 survivor, so six finalists are neither passes nor rejections.",
+      "RN4 broad rejection reasons are aggregated rather than candidate-specific.",
+      "Discovery source was not persisted per candidate; source-type conversion cannot be measured reliably.",
+      "Positive cases are calibration examples, not a statistically representative sample."
+    ]
+  },
+  "per_run": {
+    "RN4": {
+      "broad": 200,
+      "deep": 18,
+      "finalists": 5,
+      "gates_tested": 5,
+      "gate_pass": 0,
+      "authorized": 0,
+      "human_required": 0,
+      "human_pass": 0,
+      "broad_to_deep_pct": 9.0,
+      "deep_to_finalist_pct": 27.8,
+      "finalist_to_gate_pass_pct": 0.0,
+      "tested_gate_pass_pct": 0.0,
+      "gate_pass_to_authorization_pct": null,
+      "authorization_to_human_pass_pct": null
+    },
+    "RN5": {
+      "broad": 280,
+      "deep": 24,
+      "finalists": 7,
+      "gates_tested": 1,
+      "gate_pass": 1,
+      "authorized": 1,
+      "human_required": 1,
+      "human_pass": 1,
+      "broad_to_deep_pct": 8.6,
+      "deep_to_finalist_pct": 29.2,
+      "finalist_to_gate_pass_pct": 14.3,
+      "tested_gate_pass_pct": 100.0,
+      "gate_pass_to_authorization_pct": 100.0,
+      "authorization_to_human_pass_pct": 100.0
+    },
+    "RN6": {
+      "broad": 330,
+      "deep": 27,
+      "finalists": 10,
+      "gates_tested": 10,
+      "gate_pass": 0,
+      "authorized": 0,
+      "human_required": 0,
+      "human_pass": 0,
+      "broad_to_deep_pct": 8.2,
+      "deep_to_finalist_pct": 37.0,
+      "finalist_to_gate_pass_pct": 0.0,
+      "tested_gate_pass_pct": 0.0,
+      "gate_pass_to_authorization_pct": null,
+      "authorization_to_human_pass_pct": null
+    }
+  },
+  "totals": {
+    "broad": 810,
+    "deep": 69,
+    "finalists": 22,
+    "gates_tested": 16,
+    "gate_pass": 1,
+    "authorized": 1,
+    "human_required": 1,
+    "human_pass": 1,
+    "broad_to_deep_pct": 8.5,
+    "deep_to_finalist_pct": 31.9,
+    "finalist_to_authorization_pct": 4.5,
+    "tested_gate_pass_pct": 6.3
+  },
+  "late_rejections": {
+    "denominator": 15,
+    "method": "one primary reason per blocked finalist; RN5 untested finalists excluded",
+    "categories": {
+      "DEMAND_TOO_WEAK": {
+        "count": 1,
+        "proportion_pct": 6.7
+      },
+      "NEWCOMER_EVIDENCE_TOO_WEAK": {
+        "count": 1,
+        "proportion_pct": 6.7
+      },
+      "SATURATION": {
+        "count": 2,
+        "proportion_pct": 13.3
+      },
+      "FREE_ALTERNATIVE_TOO_STRONG": {
+        "count": 0,
+        "proportion_pct": 0.0
+      },
+      "DIFFERENTIATION_TOO_WEAK": {
+        "count": 2,
+        "proportion_pct": 13.3
+      },
+      "BOOK_FORMAT_FIT_WEAK": {
+        "count": 0,
+        "proportion_pct": 0.0
+      },
+      "PAID_VALUE_TOO_WEAK": {
+        "count": 1,
+        "proportion_pct": 6.7
+      },
+      "AUTHOR_DEPENDENCY_TOO_HIGH": {
+        "count": 3,
+        "proportion_pct": 20.0
+      },
+      "RIGHTS/SOURCE_RISK": {
+        "count": 0,
+        "proportion_pct": 0.0
+      },
+      "VOLATILITY": {
+        "count": 2,
+        "proportion_pct": 13.3
+      },
+      "PORTFOLIO_OVERLAP": {
+        "count": 0,
+        "proportion_pct": 0.0
+      },
+      "PRODUCT_QUALITY_RISK": {
+        "count": 3,
+        "proportion_pct": 20.0
+      },
+      "FORMAT_ELIGIBILITY": {
+        "count": 0,
+        "proportion_pct": 0.0
+      },
+      "OTHER": {
+        "count": 0,
+        "proportion_pct": 0.0
+      }
+    }
+  },
+  "weakness_location": {
+    "classification": "MIXED",
+    "primary": "DEEP_PROMOTION_AND_FINAL_RANKING",
+    "evidence": "RN6 promoted ten candidates despite weak direct purchase-intent/newcomer evidence already visible for several; final gates nevertheless correctly caught author, quality and volatility risks that were not cheap-screenable."
+  },
+  "experimental_signal_findings": {
+    "purchase_trigger_strength": "USEFUL",
+    "value_of_solving": "USEFUL",
+    "time_to_need": "USEFUL",
+    "book_purchase_naturalness": "USEFUL",
+    "wtp_proxy_strength": "USEFUL",
+    "commercial_intent_confidence": "USEFUL",
+    "basis": "RN1/RN2 have explicit exam triggers; RN3 has immediate cross-system navigation; RN5 has a high-value contract decision. RN6 curiosity/ongoing-interest candidates lacked equivalent purchase evidence despite plausible JTBDs."
+  },
+  "positive_case_archetypes": [
+    "credential/exam decision",
+    "credential/exam performance",
+    "cross-system practical transition",
+    "high-value purchase decision"
+  ],
+  "architecture_finding": "No evidence of RN5 decoder overfit in RN6 Top 10; none used DATA_TO_DECISION. Architecture frequency alone did not predict authorization.",
+  "language_finding": "Multilingual search adds real cross-system asymmetry (RN3), but also volume and format/language QA friction. Preserve coverage and gate eligibility early.",
+  "source_effectiveness": "INCONCLUSIVE quantitatively because item-level origin was not stored. Qualitatively, external/community discovery found problems while Amazon evidence killed weak paid-book theses; persist source_origin in future runs.",
+  "conclusion": "MINOR_GENERATION_CALIBRATION_JUSTIFIED",
+  "recommended_change": "Record and use six experimental commercial-intent signals plus source_origin for generation and promotion; preserve 25% exploratory candidates; do not alter permanent scoring weights or historical records."
+}
