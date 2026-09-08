@@ -633,6 +633,19 @@
         "docs/audits/content-ops-003-mn7r-blog-donor-reassessment.md"
       ],
       "notes": "Slice decision: not needed because adopting a typed content-layer tool now would amount to a cross-consumer migration, not a bounded cost reduction."
+    },
+    {
+      "id": "publishing-visual-explanation-show-me",
+      "capability_area": "Publishing/editorial visuals",
+      "candidate": "show-me",
+      "locator": "humanlayer/skills/plugins/show-me",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "Owner-approved local installation and bounded ABVX publishing adaptation",
+      "evidence_refs": [
+        "books/factory/skills/publishing-visual-explainer/SKILL.md",
+        "books/factory/capability-map.json"
+      ],
+      "notes": "Reuse the smallest-useful-visual routing pattern under MIT. ABVX adds publishing-specific source, rights, format, representative-proof and human approval gates; it does not depend on the donor plugin at runtime."
     }
   ]
 }

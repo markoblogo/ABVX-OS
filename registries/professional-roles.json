@@ -140,10 +140,10 @@
       "default_mode": "draft",
       "authority_effect": "none",
       "context_scope": "The approved content asset, target channel, publishing policy, and observed platform state.",
-      "capabilities": ["publishing packets", "metadata and packaging", "channel adaptation", "release verification"],
+      "capabilities": ["publishing packets", "metadata and packaging", "channel adaptation", "release verification", "editorial visual briefing and asset packaging"],
       "boundaries": ["Preparation, platform save, publication, and public verification are separate states.", "External publishing requires the applicable gate."],
-      "triggers": [{"term":"опубликовать","weight":10},{"term":"публикация","weight":9},{"term":"amazon kdp","weight":12},{"term":"kdp","weight":10},{"term":"medium","weight":7},{"term":"substack","weight":7},{"term":"publish","weight":10}],
-      "donor_refs": ["msitarzewski/agency-agents: marketing/multi-platform-publisher"]
+      "triggers": [{"term":"опубликовать","weight":10},{"term":"публикация","weight":9},{"term":"amazon kdp","weight":12},{"term":"kdp","weight":10},{"term":"medium","weight":7},{"term":"substack","weight":7},{"term":"publish","weight":10},{"term":"инфографику","weight":12},{"term":"инфографика","weight":10},{"term":"график для книги","weight":12},{"term":"диаграмма для книги","weight":12},{"term":"book infographic","weight":12},{"term":"editorial illustration","weight":12}],
+      "donor_refs": ["msitarzewski/agency-agents: marketing/multi-platform-publisher", "humanlayer/skills: show-me"]
     },
     {
       "id": "senior-software-engineer",

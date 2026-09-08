@@ -130,6 +130,26 @@
       },
       "scope": "Persistent evidence, scoring, selection, production tracking, launch actuals and calibration for small publishing experiments",
       "status": "active"
+    },
+    {
+      "constraints": [
+        "visuals-must-answer-a-reader-question",
+        "source-and-transformation-provenance-required",
+        "representative-visual-before-full-set",
+        "technical-and-human-visual-gates-separate",
+        "no-external-publication-authority",
+        "optional-companions-only"
+      ],
+      "id": "publishing-visual-explainer",
+      "implementation": "books/factory/skills/publishing-visual-explainer/SKILL.md",
+      "name": "Publishing Visual Explainer",
+      "provenance": {
+        "observed_at": "2026-09-09T00:00:00Z",
+        "recorded_by": "PUBLISHING-VISUAL-001",
+        "source_uri": "books/factory/skills/publishing-visual-explainer/SKILL.md"
+      },
+      "scope": "Editorial routing and production gates for evidence-backed charts, diagrams, infographics and explanatory illustrations across book and publishing assets",
+      "status": "conditional"
     }
   ],
   "schema_version": "v1"

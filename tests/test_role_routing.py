@@ -27,6 +27,12 @@ class ProfessionalRoleRoutingTests(unittest.TestCase):
         self.assertEqual(result["primary_role"]["id"], "researcher")
         self.assertIn("writer", [role["id"] for role in result["supporting_roles"]])
 
+    def test_routes_book_infographic_to_publishing_manager(self):
+        result = route_role(ROOT, "Создай инфографику и поясняющий график для книги")
+
+        self.assertEqual(result["primary_role"]["id"], "publishing-manager")
+        self.assertIn("инфографику", result["primary_role"]["matched_triggers"])
+
     def test_routes_architecture_and_implementation_to_two_engineering_roles(self):
         result = route_role(ROOT, "Спроектируй архитектуру сервиса и реализуй изменения в коде")
 

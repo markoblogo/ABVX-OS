@@ -15,7 +15,7 @@
     {"capability": "INTERIOR_DESIGN", "status": "PROVED_ONCE", "notes": "The 80-page 5x8 black-and-white interior passed full-contact-sheet human visual approval under COMMERCIAL_NONFICTION_5X8_BW."},
     {"capability": "TYPESETTING", "status": "PROVED_ONCE", "notes": "Pandoc + XeLaTeX produced the approved 5x8 release-candidate interior with generated TOC pagination and reusable page-balance rules."},
     {"capability": "DATA_VISUALIZATION", "status": "PROVED_ONCE", "notes": "Deterministic Big Mac data visual generated from The Economist CSV; no generic flowchart fallback."},
-    {"capability": "EDITORIAL_ILLUSTRATION", "status": "MISSING", "notes": "No full illustration route admitted; use image-generation/art direction only when explanatory value is high."},
+    {"capability": "EDITORIAL_ILLUSTRATION", "status": "PARTIAL", "notes": "A repo-local visual-routing skill now covers briefs, format selection, provenance, representative proofs and gates; no full illustration route or accepted production set exists yet."},
     {"capability": "EPUB_GENERATION", "status": "PARTIAL", "notes": "Pandoc EPUB proof works; EPUBCheck and Kindle Previewer are not installed locally."},
     {"capability": "PRINT_PDF_GENERATION", "status": "PROVED_ONCE", "notes": "The approved searchable 80-page paperback interior is ready for submission; print wrap remains a separate deferred capability."},
     {"capability": "KDP_PREFLIGHT", "status": "PARTIAL", "notes": "Reusable internal technical checks exist; KDP external preview remains human-gated and distinct."},

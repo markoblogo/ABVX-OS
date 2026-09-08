@@ -17,6 +17,8 @@ Prevent Codex from improvising a commercial book design or treating a technicall
 7. For paperback release candidates, generate TOC page numbers from final pagination, start every chapter on a new page, run page-balance and hyphenation QA, and render every page into one contact sheet.
 8. Build Kindle Create input separately from print: semantic headings only, with no running heads, page numbers, forced print breaks, or print TOC pagination.
 
+When an interior or promotional visual is justified, load [Publishing Visual Explainer](../publishing-visual-explainer/SKILL.md) and approve one representative visual before producing a set.
+
 ## Admitted-profile fast path
 
 For a compatible book using an admitted profile, start from the existing profile, contracts and toolchain. Do not repeat donor audits, renderer research, typography/front-matter/TOC exploration or manual page patching. The bounded route is: approved BookSpec and manuscript -> admitted profile -> source/notes normalization -> approved cover direction -> representative proof only if needed -> human visual gate -> full build and automatic preflight -> full contact sheet -> human final gate -> publication artifacts.

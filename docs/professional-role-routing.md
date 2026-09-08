@@ -11,6 +11,8 @@ The canonical registry is `registries/professional-roles.json`. It currently inc
 - researcher, writer, and publishing manager;
 - senior software engineer and software architect.
 
+The publishing manager routes justified book and channel visuals through `books/factory/skills/publishing-visual-explainer/SKILL.md`. The skill selects the smallest useful chart, diagram, infographic, or illustration route and keeps source, rights, technical QA, and human visual approval explicit.
+
 Use:
 
 ```sh
