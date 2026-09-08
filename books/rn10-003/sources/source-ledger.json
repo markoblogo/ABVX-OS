@@ -18,6 +18,15 @@
       "allowed_use": "Abstract situation prompts only under the user's transformation instruction",
       "prohibited_use": "No copied wording, verse, characters, distinctive expression or close scene recreation",
       "volume_one_scope": "Book 1, chapter 2, prompts 1-12"
+    },
+    {
+      "id": "OWNER-NOTES-001",
+      "title": "Phy-notes",
+      "sha256": "6289256bb99a62b32cd50c8f91ecc90f6ca4dc315ac8315f78df87ceae6d9b2d",
+      "ownership": "USER_CONFIRMED_OWNER_COLLECTION",
+      "allowed_use": "Thematic adaptation for an optional in-world psychologist-commentary pilot after expansion tranche E1",
+      "prohibited_use": "No identifiable client material, embedded third-party quotations, clinical advice or unsupported diagnosis of fictional characters",
+      "current_manuscript_use": "NONE; DEVICE NOT ADOPTED"
     }
   ]
 }

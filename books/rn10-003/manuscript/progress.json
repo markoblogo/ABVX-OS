@@ -1,7 +1,7 @@
 {
   "schema_version": "fiction-manuscript-progress/v1",
   "book_id": "rn10-003-good-dog-bad-system",
-  "status": "COMPRESSED_DEVELOPMENTAL_DRAFT_COMPLETE",
+  "status": "STRUCTURAL_AUDIT_COMPLETE_EXPANSION_READY",
   "target_words": 84600,
   "chapters_planned": 36,
   "chapters_drafted": 36,

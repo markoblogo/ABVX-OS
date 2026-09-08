@@ -124,7 +124,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["status"], "COMPRESSED_DEVELOPMENTAL_DRAFT_COMPLETE")
+        self.assertEqual(progress["status"], "STRUCTURAL_AUDIT_COMPLETE_EXPANSION_READY")
         self.assertEqual(progress["chapters_drafted"], 36)
         self.assertIsNone(progress["next_chapter"])
         self.assertEqual(manuscript.count("# Chapter "), 36)
@@ -144,6 +144,24 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
             run for run in radar_state["radar_runs"] if run["id"] == "RN10-003-PRODUCTION"
         )
         self.assertEqual(production_run["status"], progress["status"])
+
+    def test_rn10_003_expansion_map_closes_exact_target_gap(self):
+        expansion = json.loads(
+            (ROOT / "books/rn10-003/data/chapter-expansion-map.json").read_text()
+        )
+        chapters = expansion["chapters"]
+        self.assertEqual([chapter["chapter"] for chapter in chapters], list(range(1, 37)))
+        self.assertEqual(sum(chapter["current_words"] for chapter in chapters), 22492)
+        self.assertEqual(sum(chapter["target_words"] for chapter in chapters), 84600)
+        self.assertEqual(sum(chapter["add_words"] for chapter in chapters), 62108)
+        self.assertTrue(all(
+            chapter["current_words"] + chapter["add_words"] == chapter["target_words"]
+            for chapter in chapters
+        ))
+        self.assertEqual(
+            expansion["optional_psychologist_commentary_device"]["decision"],
+            "PILOT_AFTER_E1_NOT_ADOPTED",
+        )
 
 
 if __name__ == "__main__":

@@ -12,12 +12,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
 - Current manuscript count: 22,492 words by `wc -w` against the 84,600-word architecture.
+- Full structural audit and exact 36-chapter expansion map are complete.
 - Story architecture is complete; expansion, developmental editing and line editing remain required.
+- The psychologist-commentary idea is approved only for a bounded post-E1 pilot and is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Run a full structural audit across all 36 chapters and produce a chapter-level expansion map. Prioritize missing causality, character aftermath, progression accounting and scene pressure before adding prose.
+Expand chapters 1–3 by approximately 3,390 words total, ending each chapter within 10% of its target. Repair Nika's material context, the ordinary Vesper route, tunnel geography, the near-death sequence and the second Cache's entry into the orange bag.
 
 ## Continuity anchors
 
