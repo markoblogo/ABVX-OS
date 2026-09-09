@@ -4408,11 +4408,29 @@ His two companions stood one pace behind him. One had a torn lip. The other carr
 
 Their thirst filled the corridor.
 
+It was not the thirst of one missed drink. Salt had dried in the fur beneath their mouths. The torn-lipped dog swallowed twice without producing saliva. Wrench kept her weight off one rear paw, where white crystals had formed around a split pad.
+
+Rook alone carried water in his scent, old and metallic. He had drunk enough to negotiate clearly and no more.
+
+Atlas moved half a step across the doorway. The Hearth warned its inhabitants of speed and teeth but offered no judgment about the three dogs waiting beyond the line. Mriya had to decide whether discipline meant restraint or simply violence postponed.
+
 “I am Rook,” the Doberman said. “East rail and the river warehouses answer to Sable.”
+
+The name Sable travelled differently through the three visitors. Wrench heard duty. The torn-lipped dog heard safety purchased at a price. Rook heard a command he had accepted long before this room woke.
+
+“And you answer to Sable,” Atlas said.
+
+Rook did not look at him. “When the answer keeps others alive.”
 
 Mriya waited for the part that mattered.
 
 “This room draws from our line.”
+
+He described the east line through embodied fragments that Mriya could understand: a reservoir tank above the warehouses, a burst pipe beneath the salt sheds, dogs carrying rusted containers up three flights because pumps had failed. The humans trapped there had opened their stored water to the dogs during the first day. By the second, the lowest tank tasted of brine. By the third, two dogs could no longer stand.
+
+Sable controlled the dry routes between buildings. Rook maintained them. Wrench understood what remained of the valves. None of those skills removed salt from water.
+
+The room beneath the depot did.
 
 The Hearth’s pipes carried water beneath his words. Mriya could smell its route now: down from a cracked municipal main, through old filters in the sanitation unit, then east toward warehouses where rust and salt had entered the system.
 
@@ -4427,6 +4445,16 @@ This was going to make negotiations difficult.
 Rook’s torn-lipped companion shifted. The dog with the pipe did not.
 
 “Which is why this room was left unused,” Rook replied. “Open the flow east.”
+
+“The filter is incomplete,” Mriya said.
+
+“The water in your bowl is clean.”
+
+“One bowl is not a line.”
+
+“It is one dog who drinks tonight.”
+
+The torn-lipped companion kept his eyes on the floor. Rook had brought the strongest argument in his body and made it stand silently beside him.
 
 Pixel jumped down from her locker. “What do we get?”
 
@@ -4448,6 +4476,16 @@ Mriya looked at Rook.
 
 “Information,” she said. “Safe routes. Parts for the filter. Warning before anyone comes to claim us.”
 
+Pixel added, “Wire.”
+
+Wrench touched the canvas loop with her muzzle. “Wire is a part.”
+
+“Then enough parts.”
+
+Nika could not hear the terms, so Mriya rebuilt them with objects. She nudged the water bowl east, touched Pixel’s wire, walked two steps toward the surface route, then placed herself at the threshold and raised her head in warning. Nika repeated each item aloud. Emil wrote them beneath the house rules.
+
+Nothing would depend on a translation only dogs could remember.
+
 “I came to warn you.”
 
 “You came to measure us.”
@@ -4460,6 +4498,14 @@ Atlas stepped closer to Mriya. “A right to arrive first becomes a right to com
 
 “Only if we forget the difference,” she said.
 
+“The right is one petition,” Nika said after Mriya shaped the distinction through Chosen Route. “No priority over an emergency. No permanent access. No promise to agree.”
+
+Rook listened to her human sounds through Mriya’s recognized meaning. “Sable will hear that as disrespect.”
+
+“Will Sable hear the water?” Mriya asked.
+
+Wrench’s tail moved once.
+
 The Hearth listened.
 
 Its boundary trembled around Rook, invitation and refusal balanced at the same point. Cold meaning opened above the iron circle.
@@ -4469,6 +4515,22 @@ Its boundary trembled around Rook, invitation and refusal balanced at the same p
 > Reserve: 8 portions
 >
 > Share / Hoard / Trade
+
+Mriya opened the unfamiliar word reserve and received a ledger rather than an explanation.
+
+> [SUPPLY LEDGER]
+>
+> Opening balance: 8
+>
+> Sources: recovered water pressure 3 / usable shelter material 2 / stored heat 1 / contributed provisions 2
+>
+> One portion may sustain, repair, convert, or extend. Results depend on recipient classification.
+
+The two crushed biscuits and Emil’s bread had become the same kind of number as pipe pressure. Supply did not mean food. It meant the System’s estimate of convertible survival, with every difference hidden inside results depend.
+
+Pixel asked whether one cracker equalled one portion.
+
+The ledger declined to become less alarming.
 
 Eight portions sounded abundant until Mriya counted the room. Five inhabitants. Atlas drinking as a visitor. Three dogs in the corridor. No food except the remains in Nika’s bag and whatever Borscht considered breakfast.
 
@@ -4480,11 +4542,39 @@ Share smelled inefficient.
 
 Mriya chose Share with conditions already spoken.
 
+The choice did not activate.
+
+> Confirm expenditure: 1 Supply
+>
+> Deliverable: one clean-water release now; east-line access conditional on inspection
+>
+> Projected reserve: 7
+
+One eighth of everything the Hearth considered useful for a flask and a future opening. The water itself could not be that scarce. The price included recognition, pressure, and the obligation created by letting the east line know where clean water lived.
+
+Mriya looked at Nika. Chosen Route carried willingness, not advice. Nika studied the written terms, counted the inhabitants, and touched the empty bottle set aside for morning.
+
+“One,” she said. “Then inspection before the line.”
+
+Emil agreed. Borscht agreed after confirming breakfast still existed outside the ledger. Pixel agreed in exchange for a written definition of enough wire. Atlas offered no vote because he had refused membership.
+
+Mriya confirmed.
+
 The sink released water into the dented flask. Nika filled it, watching the level stop by itself exactly below the rim. She carried it to the boundary.
 
 Rook did not take it.
 
 He looked at the dog with the pipe. She stepped forward, accepted the flask, and drank first. The torn-lipped dog drank second. Rook drank last.
+
+The portion was enough for three mouths because the System had priced an outcome rather than a volume. The flask emptied. The sink coughed once behind Nika, and one of the eight faint pressure marks Mriya could now smell around the iron housing went dark.
+
+> [SUPPLY LEDGER UPDATED]
+>
+> Opening balance: 8
+>
+> East-water exchange: -1
+>
+> Available: 7
 
 Hierarchy, but not the one Mriya had expected.
 
@@ -4493,6 +4583,16 @@ Hierarchy, but not the one Mriya had expected.
 Wrench returned the flask.
 
 “Filters,” she said. “Two cracked. One missing. Humans stripped it before the System.”
+
+She drew the filter arrangement in dust with the end of her pipe. Two chambers could be patched with mesh and sealing compound. The missing third stage needed charcoal, cloth, and a housing broad enough to slow the flow. Opening the east line before replacing it would pull salt backward and ruin the clean settling tank.
+
+Rook had demanded immediate flow knowing Wrench would refuse it.
+
+Mriya looked from one to the other.
+
+“Sable ordered an open line,” Rook said. “I brought the dog who could prove why delay serves the order better.”
+
+Obedience had not removed his judgment. It had taught him how to carry judgment inside the shape of compliance.
 
 “Can you repair them?” Pixel asked.
 
@@ -4506,7 +4606,39 @@ Rook turned east. “You will have parts.”
 
 “If there is time.”
 
+“Then the line opens if there are parts,” Mriya said. “And warning.”
+
+Rook’s scent hardened. “Sable owns warning on the east routes.”
+
+“You offered it.”
+
+“Conditionally.”
+
+“So is the water.”
+
+Wrench looked at Rook. The torn-lipped dog looked at the empty flask. Rook looked toward the pipes carrying a resource none of them could take without damaging it.
+
+“Warning when a known force enters the east tunnels,” he said. “Not Sable’s plans. Not rumor. If I can send it without abandoning a route.”
+
+Nika wrote every limitation down.
+
 He left with his two dogs. Atlas watched until their scents separated from the corridor.
+
+Nika read the agreement back from the timetable although only half the participants understood her words. Mriya carried each term through Chosen Route. Pixel interrupted twice: once to replace parts with usable parts, and once to establish that wire shorter than her body did not qualify as enough. Emil added that opening the east line required a clean test at the far end, not merely inside the Hearth.
+
+Atlas found the missing weakness.
+
+“Who closes it if they take water and do not bring parts?”
+
+Mriya touched the fourth valve.
+
+“Who closes it if they arrive through that passage while you sleep?”
+
+The Hearth could warn them. The narrow passage could admit Pixel and Mriya. It could also admit Wrench, Rook, and any dog Sable sent. Their new trade route was a new attack route.
+
+Nika added a temporary bar to the list of required parts.
+
+The exchange had produced one flask of water, one future route, one conditional warning, and five separate ways for the terms to fail. That made it more real than a promise.
 
 The Hearth counted the exchange.
 
@@ -4515,6 +4647,20 @@ The Hearth counted the exchange.
 > Pack +1
 >
 > Three dependent claims generated.
+
+The phrase opened three impressions beneath Mriya’s Scent.
+
+The first claim smelled of hot metal and hands able to fit the missing housing. The second carried municipal maps, access paths, and the hidden return line marked `I.V.` The third was stranger: doors opened through conversation, stored food located, danger displaced onto someone else.
+
+Repair. Infrastructure. Acquisition.
+
+Useful answers to three immediate problems.
+
+The System had generated them from the water exchange as if spending one portion had purchased the right to receive people. Mriya felt the attraction before the disgust. With the first claim, the filter might work. With the second, the room might stop flooding. With the third, breakfast might become more than a rule.
+
+For a moment the bowls showed completed outcomes: clear water travelling east, the drain closing before contamination, shelves holding food. No people appeared in those visions. Only hands, functions, and results.
+
+The System was offering competence with the difficult parts removed.
 
 Three shallow depressions opened in the warm floor around the iron housing.
 
@@ -4536,7 +4682,23 @@ Borscht inspected the nearest bowl.
 
 The first person arrived through the east tunnel carrying a filter on his back.
 
+He did not arrive immediately.
+
+At first light Wrench returned alone. She entered only as far as the boundary, laid out sealing cord, charcoal sacks, two rolls of mesh, and a steel housing too large for any dog to grip. The trade parts were complete. The hands required to fit them were not.
+
+She inspected the line from the corridor while Nika copied her gestures and Emil labelled valves. When Wrench struck the eastern pipe twice, the Hearth exposed a pressure route leading away from the room. One branch ended in salt. Another ended in a collapsed warehouse stair. A third held the shape of the first empty claim.
+
+Rook could see it too.
+
+“The System says your repair belongs to a human,” Mriya said.
+
+Wrench bared her teeth at the steel housing. “The housing says the same thing.”
+
+Rook left by the third branch. He returned two hours later with a man who had chosen to come because the alternative was allowing dogs to drag pieces past him until he understood.
+
 He was broad, bearded, and smelled of machine oil, fever, and the warehouse dogs. Rook walked beside him without a leash. The man walked beside Rook as though a leash would have been redundant.
+
+The filter frame was tied across his shoulders with cargo straps. Each step drove the lower buckle into a wound at his waist. His fever smelled shallow but real. He had brought a hammer, two wrenches, and no food.
 
 “Tomas,” Rook said.
 
@@ -4552,9 +4714,23 @@ The old harness marks beneath his fur answered before anyone could. Tomas lowere
 
 Tomas shook his head. “No officer. Dogs got us out when the warehouse doors locked. This one”—he pointed at Rook—“kept bringing tools until I understood.”
 
+The warehouse doors had locked during the first System pulse. Tomas and six others had spent a night between stacked refrigeration units while the loading bay filled with smoke from a stalled generator. Rook found a ventilation gap. Wrench found the manual chain. The humans followed because the dogs returned after every failed attempt.
+
+Tomas had remained behind when the others moved upriver. The salt line fed fire suppression in two occupied buildings. If it failed completely, the sprinklers would pump brine until the heads corroded shut.
+
+“I repair the filter, restore the east branch, and go back,” he said. “That is the arrangement.”
+
+Rook’s silence meant the arrangement had more conditions than Tomas knew.
+
 Rook had delivered a repairman to fulfill the trade.
 
 The first empty bowl filled with a thin line of light.
+
+The claim pulled warmth toward Tomas’s hands. His swollen fingers loosened around the straps. A low ledge rose beneath the filter before he dropped it, shaped at exactly the height needed to remove the housing without bending the frame.
+
+Useful.
+
+Tomas noticed the ledge and accepted it as another feature of a room already violating reasonable expectations.
 
 Tomas saw only warm stone. He looked around the room, saw Nika, Emil, two small dogs, Mriya, and Atlas holding the doorway.
 
@@ -4562,15 +4738,51 @@ He addressed Atlas.
 
 “Where do you want the filter?”
 
+His immediate objective narrowed the room. He ignored the sleeping alcoves, the pastries Pixel wished existed, and the question of ownership. He inspected the cracked chambers, tasted one drop from the east return, and spat into the drain.
+
+“Nothing opens until I isolate that branch,” he said. “And nobody promises water before I pressure-test the seals.”
+
+Rook’s ears tilted back.
+
+“That includes your dog,” Tomas told Atlas, mistaking the glance for command.
+
 Atlas glanced at Mriya.
 
 Mriya enjoyed the glance more than she should have.
 
 The second person arrived from the service passage behind the lockers.
 
+Her arrival began as a pressure alarm.
+
+While Tomas unfastened the filter, the fourth valve vibrated beneath Emil’s label. The Hearth marked movement beyond the narrow eastern service passage: one human, approaching from a direction Chosen Route had never tested. Pixel entered the gap and returned with the smell of yellow rubber and a message delivered in ordinary alarm rather than shaped speech.
+
+“Person. Tools. Angry before meeting us.”
+
+Metal turned inside the wall. The hidden panel opened toward the lockers, forcing everyone to drag the smallest one aside for the third time.
+
 She opened a panel everyone else had mistaken for wall and emerged in a yellow municipal raincoat, coughing dust. Her hair had been cut with little regard for symmetry. A ring of access cards hung from her belt.
 
+The smell Mriya had found around the scratched `I.V.` initials came with her: machine oil, burned wool, and peppermint. Older now, mixed with raincoat rubber and the dust of municipal tunnels, but the same hand.
+
 “Nobody touch the main valves,” she said. “This unit is connected to half of South Vesper, and someone has reversed the recovery flow.”
+
+She crossed directly to the diagram behind the locker and put two fingers beneath the initials.
+
+“You maintained it,” Nika said.
+
+“I assisted someone who maintained a facility that officially did not exist.”
+
+“That sounds like maintaining it.”
+
+“It sounds like surviving municipal liability.”
+
+Irena had been a junior network technician when Unit Four disappeared from the plans. Her supervisor ordered the doors sealed after workers returned from an unrecorded spill beneath the freight yards. Then he gave her a separate key and told her to keep the recovery line alive in case the same workers needed it again.
+
+The workers never returned. The monthly pressure checks continued until her department replaced people with remote sensors. Irena had made one final diagram because remote sensors were best at confirming what their databases allowed to exist.
+
+This morning a dead sensor had reported reverse pressure from a deleted room.
+
+She came to prevent contaminated water from entering the southern main, not to find shelter.
 
 Her scent struck Nika first.
 
@@ -4580,6 +4792,8 @@ Recognition passed between them.
 
 The woman stared. “Courier Vale.”
 
+Nika’s employment record used her surname first on every delivery docket: Vale, Nika. Irena had remembered the bicycle, the blocked door, and the courier who argued that fire exits should be visible from both directions.
+
 “You complained about my bicycle in the records office.”
 
 “You parked it against a fire door.”
@@ -4587,6 +4801,10 @@ The woman stared. “Courier Vale.”
 “There was a fire door?”
 
 Irena looked at the dogs, the occupied lockers, and Tomas holding a filter. “Who authorized this?”
+
+Before anyone answered, she tested the fourth valve and found the new shut position that had stopped the backflow. She examined Nika’s handwritten labels, corrected two, and left four unchanged. Tomas asked for pressure figures. Irena recited them from memory. Their disagreement began before their introduction and concerned whether the east line could tolerate his patched housing.
+
+It was the first conversation in the room that did not need a dog to make it possible.
 
 Nika pointed at Mriya.
 
@@ -4596,11 +4814,33 @@ Irena did not laugh.
 
 The second stone bowl took on the scent of raincoat rubber, old maps, and institutional outrage.
 
+Lines warmed across its surface: the southern main, the east return, the drainage branch, and one narrow route to a municipal access chamber above the tram yard. Irena could not see the map, but when she placed her palm on the stone she paused over exactly the point where the warm route turned.
+
+The claim had matched her to the room before she chose anything.
+
+“I need an hour,” she said. “Then I isolate this unit from the potable main.”
+
+If she succeeded, the Hearth would keep its small settling tank and lose access to the city pressure feeding it. If she failed, South Vesper could receive whatever the System decided clean meant.
+
+Her objective opposed their shelter and protected everyone outside it.
+
 The third person came through the surface door after knocking.
 
 This alone made him suspicious.
 
+The knock arrived while Irena and Tomas argued over pressure. Three measured taps, a pause, then two. The Hearth issued no warning because the person waited beyond the threshold without speed or visible weapon.
+
+Atlas went up the mapped route. Mriya followed far enough to keep him inside Chosen Route. At the removed chemical-storage door they found the solitary market dog from the first broadcast. He carried no water request now. He carried butter, sugar, and the scent of a man waiting above.
+
+The dog had approached the Hearth signal during the night, received no answer, and returned to the market. There he found Vale trading directions for food beside a bakery whose emergency generator still worked. Vale noticed that every stray near the tram yard faced the same buried point. He fed one and followed when it ran back.
+
+The System had offered a route. Vale had found someone else who could see it.
+
+He waited at the surface cage because walking uninvited into a guarded tunnel struck him as inefficient.
+
 He was narrow, clean despite the city, and wore a dark suit with running shoes. He carried a box of packaged pastries and introduced himself as Vale.
+
+The suit had been brushed, not clean. Smoke lived beneath one sleeve, flour beneath the other, and someone else’s blood along a cuff scrubbed with cold water. His running shoes were one size too large. He had adapted his appearance from whatever the city left unattended, preserving the outline of a person expected to enter rooms.
 
 Nika stared at him. “That’s my surname.”
 
@@ -4609,6 +4849,18 @@ Nika stared at him. “That’s my surname.”
 “Is it yours?”
 
 “At the moment.”
+
+“Why are you here?” Nika asked.
+
+Vale looked toward the market dog, who had already begun eating the corner of the pastry box.
+
+“The streets are dividing into people with doors and people outside them. I know where supplies are, which doors still open, and what each person believes they own. I require a place that can remain warm after sunset.”
+
+“You followed a dog.”
+
+“I followed demonstrated demand.”
+
+His immediate goal was neither rescue nor municipal safety. It was position. He had recognized the first hidden room gathering water, skills, and guards and wanted to enter before it acquired a waiting list.
 
 Vale looked around the Hearth with quick, appreciative attention. He noticed the clean water, warm floor, hidden entrance, assembled humans, and dogs positioned at every approach.
 
@@ -4620,11 +4872,49 @@ Mriya smelled no System class on him. Only talent.
 
 He set the pastries beside her.
 
+Mriya did not touch them.
+
+“Payment?” she asked.
+
+“Introduction.”
+
+“To whom?”
+
+“Whichever authority understands it first.”
+
+Vale could not hear her shaped words directly. Nika translated from Mriya’s gestures, and his eyes sharpened when he realized the dog had asked the question rather than supplied its subject.
+
+He moved the pastries from beside Mriya to the centre shelf.
+
+“Introduction to everyone, then.”
+
 The third bowl filled.
+
+Its warmth did not make a map or a work ledge. It marked a sequence of reachable stores through scent: yeast and canned fruit beneath the market, batteries behind a shuttered pharmacy, blankets in a hotel laundry. Each route terminated in a human relationship carried on Vale’s clothes—favour owed, lie accepted, name borrowed.
+
+The knowledge was useful and unverifiable.
+
+“The bakery owner gave those to you?” Nika asked.
+
+“The bakery owner agreed they should feed people.”
+
+“Which people?”
+
+“We did not burden the agreement with a list.”
+
+Vale stayed because the market dog had already led two armed men toward a warmer shelter and because the borrowed shoes belonged to one of them. He mentioned this only after Atlas moved between him and the surface route.
+
+Outside, a dog barked once and stopped.
+
+The Hearth now held three solutions and at least three new dangers.
 
 > [DEPENDENT CLAIMS DELIVERED]
 >
 > Allocation pending.
+
+The claim impressions sharpened. Tomas’s bowl offered a repair bonus while he worked under recognized canine direction. Irena’s offered broader infrastructure visibility if assigned to a territorial authority. Vale’s offered acquisition yield when acting for an owner.
+
+The benefits were immediate, tailored, and phrased so that ownership sounded like organization.
 
 Mriya disliked every word.
 
@@ -4634,15 +4924,35 @@ Irena assumed Nika owned the room badly.
 
 Vale assumed Mriya owned everyone and wanted to make himself useful to her first.
 
+None had arrived intending to join.
+
+Tomas intended to remain for two pressure cycles because patched seals failed when first warmed. Then Rook told him the return stair had flooded behind them. Reaching the warehouses now required the surface route through streets where dogs and humans had begun closing crossings.
+
+Irena intended to isolate the main and report to the southern control office. Her access card opened the deleted unit and nothing above it; the city network no longer recognized her employee number. The Hearth was the only place where the pressure map still responded to changes she made.
+
+Vale intended to stay until the men following him chose a different market. He also intended, less temporarily, to become necessary before anyone compared his stories.
+
+Shelter mattered to all three. Work, unfinished duty, and danger gave each a separate reason to return after leaving remained possible.
+
 The System appeared satisfied with all three errors.
 
 # Chapter Eighteen: House Rules
 
 The Hearth rejected Tomas first.
 
+Until then, the three newcomers had occupied the strip between the open hidden door and the pale inner boundary. The claim ledges warmed their hands and exposed useful routes, but the sink, iron housing, markers, and sleeping alcoves remained on the other side.
+
+Tomas had passed the filter frame inward piece by piece. Every transfer required Nika to lift what he could have carried once. Irena had reached the valve panel only by leaning across the line with her boots planted in the corridor. Vale had made himself useful by distributing pastries from exactly where the Hearth prevented him taking anything else.
+
 He stepped toward the sink with the cracked filter and the boundary hardened beneath his boot. There was no wall. His body simply refused to continue.
 
 “What the hell?”
+
+He tried again without the filter. His boot stopped at the same place. He stepped backward, walked outside through the western door, and entered with both hands raised. The refusal followed identity, not carried objects.
+
+“It let my tools through.”
+
+“Your tools have not asked to leave,” Vale said.
 
 Irena tried next because municipal employment had taught her that unexplained barriers were usually intended for other people. She stopped at the same line.
 
@@ -4650,9 +4960,17 @@ Vale remained outside and observed.
 
 “Access control,” he said. “Excellent.”
 
+“For whom?” Irena asked.
+
+“Whoever controls it.”
+
+The answer made the boundary feel less like protection.
+
 Nika crossed the boundary freely. Emil crossed. Pixel crossed carrying a pastry she had not asked for, then reversed direction when three residents looked at her.
 
 The three human-sized bowls waited empty again.
+
+The useful impressions remained. Tomas’s ledge still warmed the filter housing. Irena’s map still marked pressure. Vale’s bowl still carried routes to supplies. The Hearth wanted their functions close while keeping their bodies conditional.
 
 Mriya smelled what the Hearth required. Claims had been delivered, but the room could not reconcile their ownership.
 
@@ -4662,15 +4980,59 @@ The simple solution opened first.
 >
 > Assign each dependent to a recognized canine authority.
 
+Three assignments opened beneath the notice.
+
+> Atlas → Tomas: repair compliance +25%; unsafe-task refusal subject to handler review
+>
+> Mriya → Vale: acquisition yield +20%; recovered goods attributed to owner
+>
+> Mriya or bonded human authority → Irena: infrastructure visibility +1; override reserved to territorial owner
+
+The offers solved existing friction with insulting efficiency. Tomas would carry the filter across. Vale’s uncertain routes would become measurable yield. Irena could see the same pipe map as the dogs. Each benefit attached to a dog who could approve, redirect, or keep the result.
+
+Pixel studied the numbers. “Could I have Vale?”
+
+“No,” Mriya said.
+
+“I was testing whether the problem was allocation or your preference.”
+
 Atlas could take Tomas. Mriya could take Vale. Irena’s attention had already settled on Nika, which the System might translate through Bond.
 
 The Hearth would open. The filters would be repaired. Eight people and dogs would sleep warm.
+
+Its projection added more temptations. Full dependent allocation would preserve the complete heating radius, open the sink at current pressure, and convert the three claim ledges into work stations. Future labour, recovered goods, and infrastructure gains would convert at full value because recognized owners simplified where every result belonged.
+
+No penalty appeared because ownership was the System’s preferred efficiency.
 
 Mriya remembered the shelter card clipped to her kennel: female, mixed breed, senior, property of the City of Vesper.
 
 “No,” she said.
 
 The boundary stayed closed.
+
+Tomas lowered the cracked filter. “Did the dog just refuse me?”
+
+“She refused owning you,” Nika said.
+
+“I hadn’t offered.”
+
+“That was part of the problem.”
+
+Irena stopped reaching for the valve. The reverse pressure ticked behind the wall.
+
+“Discuss philosophy after we isolate the southern main.”
+
+The fourth valve began to tremble. Black water did not rise yet, but Mriya smelled the same chemical bitterness that had preceded the backflow.
+
+Nika declared an emergency. Emil recognized it.
+
+The Hearth opened a narrow temporary path from Irena’s boots to the valve and nowhere else.
+
+She crossed, turned the wheel a quarter rotation, checked the pressure with two fingers, and marked the safe position in chalk. The path vanished as soon as the vibration stopped. Irena found herself inside the boundary for one breath, then the Hearth guided her body back without force, a warmth receding toward the door.
+
+The emergency rule admitted expertise for one necessary action. It did not settle whether the expert could drink, sleep, inspect the markers, or return to the valve without two voices.
+
+“That will become intolerable by morning,” Irena said.
 
 Nika watched her. “Another bad option?”
 
@@ -4684,9 +5046,27 @@ Vale smiled. “I’m flexible.”
 
 They negotiated rules on opposite sides of an invisible line.
 
+Nika divided the timetable into three columns: access, obligation, exit. Vale suggested a fourth for benefits. She told him benefits belonged beside the obligations that produced them.
+
+Before writing general rules, they used the problems already in the room.
+
 Tomas required access to tools and the right to refuse unsafe repairs.
 
+He demonstrated unsafe by asking Atlas to hold the filter housing while he loosened a corroded band. The metal sprang outward hard enough to cut the air where a human wrist would have been. Under the offered allocation, Tomas could refuse only until his handler reviewed the task. Atlas understood danger, but not pipe pressure, steel fatigue, or the sound Tomas heard before the band broke.
+
+“The person doing skilled work decides whether it is safe,” Nika wrote.
+
+“Unless the work endangers everyone,” Irena said.
+
+They added review by two members, including one who understood the work when available. The Hearth disliked when available because it could not price uncertainty.
+
 Irena required a map of every pipe the Hearth altered and a municipal override in case the water system threatened the district.
+
+Pixel asked who owned municipal. Irena answered everyone, which caused Vale to laugh and Tomas to ask who had sealed the room off the maps.
+
+Irena revised her demand. She could close a connection when measurements showed immediate contamination outside the Hearth. Reopening it required two members, one from the Hearth and one responsible for the affected line. All changes stayed on a physical map visible to inhabitants and visitors using the system.
+
+Mriya accepted closing danger. She refused an override that could silently remove their water while they slept.
 
 Pixel objected to override as a word and to maps as a method of telling strangers where things were.
 
@@ -4698,15 +5078,53 @@ Vale required nothing, which made Nika require a list of what he intended to do.
 
 “Relationships.”
 
+Vale’s concrete access problem arrived from above.
+
+Footsteps crossed the tram shed. Two humans stopped at the inspection cage and called his borrowed name. One carried metal. The Hearth warned of the fast object when it struck the bars, not of the patient voices that came first.
+
+Atlas took the doorway without being asked. “Immediate threat,” he said.
+
+Nika and Emil recognized it. The Hearth warned every inhabitant, but no command rule existed yet.
+
+Atlas placed Mriya beside the eastern passage, Pixel above the hidden latch, and Borscht with Emil behind the iron housing. He directed Tomas to brace the locker shelf and Nika to extinguish Pixel’s lamp. No one argued because the danger was present and every instruction matched a visible need. They followed him by choice, with no System authority holding them to it.
+
+Vale began to suggest negotiation. Atlas ordered silence.
+
+The men tested the cage, found the lower stair flooded, and left after promising Vale consequences in three different names.
+
+His coordination ended when their footsteps disappeared. Atlas returned to the corridor before anyone could let emergency become government.
+
+They wrote that automatic end into the rule.
+
 Emil required a door he could open without asking a dog. Borscht required Emil.
+
+The western latch stood above Borscht’s reach and required Pixel’s wire or a human hand. The eastern grille admitted dogs and excluded Emil. A person could leave through the surface stair only if the inspection cage remained unjammed.
+
+No current exit served every body independently.
+
+They could not rebuild the passages tonight. They could require that no route be locked while its alternative excluded an inhabitant, keep a release tool on both sides of the western door, and assign an awake door partner until redundant access existed.
+
+Borscht accepted membership only if Emil’s exit counted as his own. Emil accepted only if Borscht could withdraw without requiring Emil to surrender his place.
+
+The distinction took three attempts to phrase. They ended with bonded companions may leave together without either being treated as abandoned property.
 
 Atlas required one command structure during attack.
 
 Mriya required two voices to declare an emergency, a path out for anyone leaving, and no person assigned as property.
 
+She also required that useful work remain with the worker. Tomas’s repaired filter could serve the Hearth without becoming Atlas’s production. Irena’s map could protect the territory without belonging to Mriya. Supplies Vale obtained entered shared inventory only after he disclosed the agreement used to obtain them.
+
+Vale objected that disclosure could damage relationships.
+
+“Then keep the relationship and the supplies outside,” Nika said.
+
 Nika wrote the rules on the back of a depot timetable.
 
 “Contribute what you can,” she read. “Ask before taking. Private histories stay private. Two members declare an emergency. During an immediate attack, Atlas coordinates defense until the danger ends. Anyone may leave. Anyone may refuse a task. No one owns another member.”
+
+She added the clauses that had cost them time: skilled workers judged immediate safety; dangerous decisions could be reviewed by two; infrastructure closures required recorded evidence; no access route could be locked while its alternative excluded someone; acquired supplies arrived with their obligations disclosed.
+
+The timetable had become difficult to read. That seemed appropriate. Simple rules had repeatedly concealed who paid for them.
 
 Vale raised a hand. “Can we own non-members?”
 
@@ -4716,7 +5134,27 @@ No one answered.
 
 Each person and dog accepted in the way available to them. Humans signed the timetable. Dogs placed a paw, nose, or in Pixel’s case a stolen self-inking stamp beneath the words.
 
+Acceptance happened separately.
+
+Tomas signed after crossing out required repairs and replacing it with agreed repairs. He would stay through the east-line pressure test, teach someone else to service the filter, and decide afterward whether the warehouse route was safe enough to return. He contributed the housing, tools, and his labour without surrendering them.
+
+Irena signed after attaching her chalk pressure map to the timetable. She would remain while the deleted unit affected the southern main. She retained the right to close a measured contamination path and accepted the two-member rule for reopening it.
+
+Vale signed using that name and added no surname. He disclosed that the pastries came from a bakery owner who expected a message about her brother upriver. Until the message was attempted, the box carried an obligation. He would map reachable supplies and name the agreements behind them.
+
+Nika accepted while looking at Mriya. “No choices for another member because there isn’t time.”
+
+Mriya placed her paw beneath the line.
+
+Emil and Borscht marked the paper together. Pixel stamped it twice and was allowed one signature. Atlas withheld his.
+
 Atlas did not sign. He stood inside the threshold as a visitor and accepted only the emergency command rule.
+
+The Hearth offered him membership once. It promised stronger warning and recognized authority during every threat rather than only declared emergencies.
+
+Atlas refused. “Command that cannot end is ownership with better posture.”
+
+He returned beyond the warm line. His emergency role remained a borrowed function, not a rank.
 
 The three stone bowls changed.
 
@@ -4728,9 +5166,37 @@ They became seats: low warm ledges shaped for human bodies rather than vessels w
 >
 > Consent stability increased.
 
+The Hearth showed the arithmetic.
+
+> [MEMBERSHIP TERMS]
+>
+> Current Supply balance: 7
+>
+> Future contribution conversion: 88%
+>
+> Unconverted materials remain physical inventory.
+
+No portion vanished immediately. Instead, every future repair, recovered good, and infrastructure gain would yield twelve percent less System value. Dependent allocation would have preserved full conversion and the tailored authority bonuses. Membership made the loss recur whenever they worked.
+
+In return, the three people gained independent access, retained their work, and could withdraw future contribution by leaving.
+
 The boundary opened.
 
+It opened differently for each person. Tomas received a broad path between the filter, tools, sink, and western door. Irena received the valve wall, drain, map ledge, and both inspected exits. Vale received the common shelf, water point, sleeping floor, and doors, but no path to the private markers or stored tools.
+
+“Why am I restricted?” Vale asked.
+
+“Ask before taking,” Nika said.
+
+The boundary had translated a rule into architecture without making him anyone’s dependent.
+
 Tomas carried in the filter. Irena went directly to the pipes. Vale distributed pastries he had probably not acquired through relationships.
+
+Tomas seated the new housing and found his hands no longer artificially warmed. The dependent repair bonus was gone. He needed Nika to hold the lamp and Wrench to brace the pipe from the other side. The work took longer and belonged visibly to all three.
+
+Irena touched the ledge where the claim map had appeared. Its full network view had vanished. She rebuilt the relevant branches in chalk from measurements, old memory, and Mriya’s indications. Their map contained uncertainty the offered bonus would have hidden.
+
+Vale opened the pastry box only after Nika wrote bakery message beside it. Pixel asked for one and received it. The Hearth counted the remaining food as Supply potential without assigning its acquisition to an owner.
 
 For the first time, the Hearth held more people than dogs.
 
@@ -4738,9 +5204,21 @@ It did not collapse.
 
 Its warmth weakened slightly. The water slowed. Space became scarce.
 
+The costs arrived together. Warmth withdrew from the highest locker, forcing Pixel to move lower or sleep cold. The settling tank took twelve knocks to recharge instead of ten. The minor recovery field reached Nika’s bandaged hand only when she sat near the iron circle. Eight bodies turned every clear route into a negotiation.
+
+The balance remained seven. New hands increased what the Hearth could physically accomplish without creating food, medicine, or stored pressure. The 88% conversion rate promised that future gains would count for less. Supply and comfort were related without being interchangeable.
+
 But every person who entered could also turn around and leave.
 
 Mriya watched them test the door.
+
+Tomas crossed first, carried one tool into the corridor, and returned because the filter required another pressure cycle.
+
+Irena crossed with her access cards, climbed as far as the first dry landing, and returned because the southern gauge changed when she left the unit.
+
+Vale crossed last. Atlas did not block him. He listened for the men above, considered the flood toward the east, and returned carrying the market dog’s empty pastry wrapper.
+
+The Hearth reduced none of their access when they came back. Leaving had not become betrayal.
 
 All three returned.
 
@@ -5280,11 +5758,15 @@ The System counted it before anyone opened the first packet.
 
 > [HUMAN CONSUMABLE CACHE]
 >
-> Supply value: 11
+> Inventory conversion: +11 Supply
+>
+> Previous balance: 7
+>
+> Current balance: 18
 >
 > Settlement efficiency available through unified rationing.
 
-Eleven portions could keep the humans working while Tomas finished the filter and Irena reopened the surface water point. Unified rationing offered another efficiency reward if all food entered one shared pool.
+Eighteen portions could keep the humans working while Tomas finished the filter and Irena reopened the surface water point. Unified rationing offered another efficiency reward if all food entered one shared pool.
 
 Nika read the labels.
 
@@ -5324,7 +5806,7 @@ Release claim smelled like letting Borscht die efficiently.
 
 Mriya chose stabilization.
 
-Four of the eleven portions vanished from the System’s count. Warmth concentrated beneath Borscht but did not cure him. It held his breathing unevenly while Irena used the old municipal radio to reach someone who understood the label.
+Four of the eighteen portions vanished from the System’s count. Warmth concentrated beneath Borscht but did not cure him. It held his breathing unevenly while Irena used the old municipal radio to reach someone who understood the label.
 
 Emil pressed both hands around Borscht without squeezing.
 
@@ -5336,7 +5818,7 @@ Pixel crouched behind the locker. She had not stolen the jar. Her scent said she
 
 So had the System.
 
-The shared pool remained valued at seven portions. The safe dog tins and the poisonous sweet spread still carried the same Supply mark.
+The shared pool remained valued at fourteen portions. The safe dog tins and the poisonous sweet spread still carried the same Supply mark.
 
 Mriya watched Borscht shake against the warm floor.
 
@@ -5387,6 +5869,10 @@ The System counted.
 > [DEPENDENT HUMAN ASSET PRESERVED]
 >
 > Cost: 1 Supply
+>
+> Previous balance: 14
+>
+> Current balance: 13
 >
 > Pack productivity retained. Favor +1.
 
@@ -5462,7 +5948,9 @@ Mriya confirmed.
 >
 > Unsafe conversion blocked. Cross-species use requires two-member emergency approval.
 
-The eleven portions became six human portions, two canine portions, and one shared medical reserve. Two portions disappeared into the cost of admitting reality.
+The thirteen portions became six human portions, four canine portions, and one shared medical reserve. Two portions disappeared into the cost of admitting reality.
+
+> [SUPPLY LEDGER UPDATED: 11]
 
 No one celebrated.
 

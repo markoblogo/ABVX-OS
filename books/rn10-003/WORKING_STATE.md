@@ -11,18 +11,20 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 43,277 words by `wc -w` against the 84,600-word architecture.
+- Current manuscript count: 48,252 words by `wc -w` against the 84,600-word architecture.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
 - Chapters 13–15 passed the Pack Hearth gate at 6,490 tracked words against a 6,900-word target, within 5.9%.
-- Story architecture is complete; chapters 16–36 expansion, developmental editing and line editing remain required.
+- Chapters 16–18 passed the membership gate at 6,783 tracked words against a 7,000-word target, within 3.1%; Act II is complete.
+- The authoritative Supply sequence is now 8 - 1 + 11 - 4 - 1 - 2 = 11 across chapters 16–27.
+- Story architecture is complete; chapters 19–36 expansion, developmental editing and line editing remain required.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Expand chapters 16–18 toward 7,000 words total. Establish the authoritative Supply ledger and Rook exchange, give Tomas, Irena and Vale distinct claim-generated arrivals and motives, then test membership rules and the 12% efficiency penalty through concrete access conflicts.
+Expand chapters 19–21 toward 6,900 words total. Build Nika's infection and exhaustion, exhaust credible non-System care, expose the incomplete consent and escalating coercion of Bond Treatment, then make its termination and Nika's voluntary return carry lasting consequences for the whole Hearth.
 
 ## Continuity anchors
 
