@@ -11,7 +11,7 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 69,531 words by `wc -w` against the 84,600-word architecture.
+- Current manuscript count: 75,377 words by `wc -w` against the 84,600-word architecture.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
@@ -22,13 +22,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Chapters 22–24 passed the plural-access gate at 6,653 tracked words against a 7,100-word target, within 6.3%.
 - Chapters 25–27 passed the species-resource gate at 6,670 tracked words against a 7,000-word target, within 4.7%; Act III is complete.
 - Chapters 28–30 passed the tribute-tool-alliance gate at 6,984 tracked words against a 7,000-word target, within 0.2%.
-- Story architecture is complete; chapters 31–36 expansion, developmental editing and line editing remain required.
+- Chapters 31–33 passed the identity gate at 7,005 tracked words against a 7,300-word target, within 4.0%.
+- Story architecture is complete; chapters 34–36 expansion, developmental editing and line editing remain required.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Expand chapters 31–33 toward 7,300 words total. Make Nika's disappearance and the false return spatially legible, let the impostor earn provisional access through accurate memories while living scent and unmeasured behavior accumulate contradictions, then make the real Nika's return, Rook's defense charge and destruction of the impostor seed pay off without restoring Bond.
+Expand chapters 34–36 toward 8,200 words total and complete Act IV. Give Custodian 0.03 a concrete insect-scale resource economy, make its stable-dependency charter genuinely attractive, then earn the Reciprocal Duty charter through observable mutual obligations, resolve the immediate territory claims and awaken canine interfaces across Vesper without erasing the costs carried into volume 2.
 
 ## Continuity anchors
 

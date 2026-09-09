@@ -8198,25 +8198,141 @@ This time it smelled less like fear.
 
 Nika disappeared the next morning.
 
+The bakery water point should have been the safest surface task left.
+
+It stood forty-three paces from the depot ramp, under the green awning where Nika used to buy yesterday's rolls. Irena had restored flow there before joining the Hearth. The municipal red strip now threatened to cut the branch, and the bakery owner who had helped Vale obtain the evacuation crate deserved warning before officials arrived to ask how many humans Unit Four actually fed.
+
+Nika volunteered before Mriya could decide whether to ask.
+
+Her left hand was usable again. She could carry the empty pressure bottle and the corrected meal count. Irena knew the municipal line and the side streets. They would remain within pipe-knock range, return in twenty minutes, and leave chalk arrows at both turns. No System route was required.
+
+Mriya wanted to go. Borscht's breathing changed behind the partition, and the canine medicine inventory contained nothing that could explain whether the pause was recovery or decline. Nika saw Mriya look from the ramp to him.
+
+“Stay,” she said, then grimaced at the old shape of the word. “Please stay. With him.”
+
+No Favor appeared. Mriya chose the request.
+
+Before leaving, Nika crouched an arm's length away. She did not touch. Since Bond Treatment, each approach had become a small negotiation neither of them named. Mriya closed half the distance and smelled rain on the torn coat, antibiotics in skin, orange canvas, and the toast Nika had eaten while arguing with Tomas about valves.
+
+“Twenty minutes,” Nika said.
+
+Mriya bumped the pressure bottle with her nose. Nika understood the correction.
+
+“Nineteen.”
+
 She left through the ramp with Irena to inspect the bakery water point. Twenty minutes later Irena returned alone, bleeding above one eyebrow.
 
+She came through the low tunnel instead of the ramp. Pixel heard her scraping at the drain cover and opened it. Irena fell onto both knees with the empty pressure bottle still looped around one wrist. The corrected meal count was gone. One sleeve carried peppermint dust, though no shop on the direct route sold peppermint.
+
 “The street folded,” she said. “Not the pavement. The route. I turned around and she wasn’t there.”
+
+They made her begin before the injury could turn memory soft.
+
+Irena and Nika reached the green awning in seven minutes. The bakery was locked, but warm yeast still came through the vent. Irena read the pressure. Nika pushed the meal count under the door. On their return, the red municipal strip appeared across the same alley they had just used, stretched from a drainpipe to a parking sign.
+
+They did not cross it. They took the parallel passage beside the pharmacy. The passage should have opened behind the tram office. Instead it returned them to the bakery from the opposite direction.
+
+Irena marked the wall. The chalk arrow was already there, pointing back at her in Nika's handwriting.
+
+Nika tested the route by tying a loose thread from her coat to a railing. They walked twelve steps. The thread tightened from an alley now behind them and to their left. Nika cut it before the pull could close around Irena's fingers.
+
+Then they heard Mriya barking below the street.
+
+Mriya had not barked.
+
+Nika pushed Irena toward the sound because it appeared to lead down to the depot. A delivery door opened where the brick wall had been. Irena crossed. The frame struck her forehead. When she turned, the opening showed a narrow service stair and no Nika.
+
+Irena climbed down, followed pipe noise, and reached the low tunnel. She had spent thirteen minutes inside a distance shorter than the Hearth ramp.
+
+“She didn't freeze,” Irena said. “She tested it. She kept me from following the false sound. She put me through the door first.”
+
+Active, deliberate, and gone.
 
 Mriya found Nika’s trail on the stairs. Rain, antibiotics, orange canvas, the bread they had shared. It continued to the surface door and ended as cleanly as thread cut by a knife.
 
 Beyond it lay three false routes, each carrying part of her scent.
 
+The first followed orange canvas toward the tram office and ended at a strip of bag fabric tied around a handle. The second carried antibiotics toward the pharmacy passage, where a crushed capsule had been rubbed into rainwater. The third smelled of Nika's skin and led down a stair whose last five steps repeated until Atlas pulled Mriya backward.
+
+Each route contained a true component. None contained the changes between components. The same separation that had made the scanner's reading feel dead now occupied the street.
+
+Irena mapped physical coordinates. Pixel sent vibrations through drains. Atlas tracked where the false routes caused bodies to turn without deciding. Tomas and Vale opened the emergency panel and compared its service passage to the old transit plan. Emil stayed with Borscht and struck one pipe knock every five minutes so searchers could recover the real direction home.
+
+Mriya followed the fourth thing: absence. Nika's scent should have transferred to walls where her shoulder brushed, water where her boot split, metal where the bandaged hand steadied her. The false routes contained strong scent at chosen markers and nothing between them.
+
+At the pharmacy passage she found a fresh scrape at human shoulder height, three grains of bakery flour pressed into mortar, and the faint copper of Nika's reopened palm. The trail went into a blank brick wall.
+
+Behind it, something struck three times.
+
+They opened the nearest municipal access hatch. It led to an electrical recess too shallow for a person. By the time Tomas removed the back plate, the space beyond held only peppermint dust and one piece of Nika's boot sole.
+
+She was moving inside the fold. She was leaving material where the route could not copy it quickly enough.
+
 Bond 0 gave Mriya no direction.
 
 They searched until dark.
 
+Dark changed the false streets. Reflections in wet windows began showing the green awning from angles where it could not exist. Mriya twice saw Nika's orange bag at the end of a passage and twice smelled only Cache sweetness. The System offered a tracking correction.
+
+> [MISSING BONDED HUMAN]
+>
+> Restore Bond 1 to recover directional access.
+>
+> Estimated location confidence: 94%.
+
+The offer made the lost route look solvable through the permission Mriya had removed to save Nika. Accepting might find her. It might also teach the fold that captivity could restore Bond whenever separation became frightening enough.
+
+Mriya refused.
+
+Nika remained missing because the choice stayed hers, not because the choice was easy.
+
 Rook refused the alliance call because there was no enemy to defend against. Then he sent Wrench unofficially, which revealed more than agreement would have.
 
+The call named removal of a member, one of the three accepted triggers. Rook returned it unanswered.
+
+“No body crossed your boundary,” his pipe message said. “No claimant can be identified. The charge remains.”
+
+Mriya hated the precision because it matched their agreement. Calling every disappearance an attack would let either ally spend the other's defense on fear.
+
+Wrench arrived without warehouse marks and carried no command from Rook. She tested east valves for pressure changes, found one pulse moving against flow, and led Pixel to a service grid beneath the bakery. The grid contained a thread from Nika's coat pulled through three different openings. One end was tied in the knot Nika used on the orange bag. The other had been cut from inside.
+
+“Rook did not send me,” Wrench said.
+
+“Of course,” Mriya answered.
+
+The unofficial help preserved the charge and risked Sable's suspicion. It also proved that rules did not exhaust every obligation.
+
+By sunset the search had consumed no Supply and almost everything else. Tomas's hands shook from opening panels. Irena's headache made her repeat coordinates. Pixel had run the low tunnel until her paws left damp prints. Borscht woke twice and asked where Nika was; Emil lied the first time and refused to lie the second.
+
+Mriya returned to the ramp after every false route. Each time she expected Nika to be there, annoyed by the attention and holding something ordinary. Each absence made Bond restoration feel less like surrender and more like a tool she was refusing out of pride.
+
+She tested that accusation honestly. If Nika had asked for the Bond before leaving, Mriya would have said no. If Nika could ask now, captivity might make her say yes to anything that promised exit. Fear could not become consent merely because the danger was real.
+
+Mriya chose the pipe knock again and went back outside.
+
 They found Nika at the bakery entrance just after sunset.
+
+She stood exactly where the first search had begun, beneath the green awning, beside Irena's pressure mark. She did not call for help. She waited until Pixel saw her and then raised both hands before anyone approached.
+
+Irena asked the first questions from five paces away. What had been pushed under the bakery door? The corrected count: eight human meals taken, not ten people sheltered. What had cut her coat? The railing thread. Why had Irena bled? A door frame appearing during the false bark.
+
+All correct.
+
+Nika described the fold as rooms made from partial routes. She said she escaped by following the pipe knock and pushing through a service wall when three knocks answered. The explanation matched the scratches they had heard. Peppermint dust covered one shoulder. Her boot sole was missing where they had found it.
+
+Pixel ran forward. Atlas blocked her until Nika said the visitor rule herself: access was not consent, even for someone who had lived inside.
+
+That answer earned the first step toward trust.
 
 She wore the same torn coat. Her bandaged hand carried the orange bag. Rain had flattened her hair in the correct direction. The cut on her palm, the old split in her boot, and the pale line where Mriya’s collar had rubbed her wrist were all present.
 
 “I’m okay,” she said.
+
+She was not. Her pulse was quick. The cut in her palm had opened beneath the bandage. She flinched when the municipal red strip moved in the wind. These were credible costs, not a clean rescue presented as proof.
+
+Nika asked after Borscht before asking to enter. She knew his breathing count. She apologized to Irena for putting her through the door first. She told Vale the evacuation report was still under the bakery door and told Pixel that the thread trick had been her best idea, which made Pixel stand taller.
+
+Every response repaired a specific worry.
 
 The voice was right.
 
@@ -8226,7 +8342,21 @@ Nika smelled of rain, old coffee, antibiotics, orange canvas, and toast.
 
 Every layer was correct.
 
+So were the objects. The bag contained the empty pressure bottle, two chalk pieces, Nika's keys, a folded wrapper from breakfast, and the private photograph she had never placed in shared storage. Irena checked the bottle number. Vale checked the keys. Pixel smelled her own wire on the bag pocket.
+
+Tomas asked a question only Nika should know: what he had said while carrying her after Bond Treatment ended. She answered, “Don't make this useful.”
+
+Emil asked what Nika had hidden beneath the kitchen sink before the apartment was lost. She answered, “The good coffee from myself.”
+
+Correct memory moved through the group like warmth. Humans relaxed first. Pixel followed because Nika scratched the side of her neck at the familiar speed. Even Atlas's body shifted from barrier to guard.
+
+Mriya wanted the same relief. Want made her distrust herself more, not Nika less.
+
 None touched the next.
+
+At first the separations were small enough to blame on the fold. Antibiotics sat above sweat instead of passing through it. Toast remained on the fingertips but not the sleeve used to wipe crumbs. Fear sharpened pulse without souring coffee breath. The body carried aftermath as inventory.
+
+Mriya circled once. Nika allowed it. The correct Nika would also have allowed it after seeing everyone afraid.
 
 Real scent changed where memories met. Coffee entered sweat. Bread clung to the hand that tore it. Anger sharpened affection without replacing it. This Nika carried each fact separately, arranged like objects returned to labeled shelves.
 
@@ -8236,6 +8366,8 @@ The wrong Nika smiled.
 
 “Good girl.”
 
+The words were wrong only in timing. Nika had said them before, sincerely, carelessly, angrily, and once while Bond made praise dangerous. The copy selected them because the record associated them with approach.
+
 No Favor appeared. Bond was zero.
 
 Mriya’s body still wanted to cross the remaining distance.
@@ -8244,23 +8376,121 @@ The System had copied the hand before copying what the hand meant.
 
 Mriya stepped back.
 
+The others did not. Nika had supplied evidence. Mriya had supplied scent unease no human could independently verify.
+
+Irena proposed provisional return: ramp access, warmth, food and medical care; no private storage, administrative marker, or two-member emergency declaration until morning. Atlas remained beside her. Nika accepted without argument.
+
+Acceptance made her look more credible.
+
 The right face looked hurt in exactly the way Nika would.
 
 “It’s me.”
 
 Behind her, the Hearth opened the ramp.
 
+It opened for a visitor whose history was disputed, not for a bonded owner. Mriya repeated the distinction until the System displayed it.
+
+> [PROVISIONAL RETURN]
+>
+> Shelter access granted.
+>
+> Legacy authority suspended pending witness review.
+
+The wrong Nika crossed without breaking a rule.
+
+That was how she got close enough to use one.
+
 # Chapter Thirty-Two: The Wrong Nika
 
 The impostor entered as a former bonded human.
 
+For the first hour, nobody called her an impostor.
+
+Irena cleaned the cut on her palm at the visitor bench. The wound opened along the correct old scar. Nika hissed before antiseptic touched it, exactly as she always did when expecting pain. Tomas offered tea. She requested half a cup because full cups went cold while she forgot them. Emil found the last dry blanket, and she refused it until Borscht had one.
+
+Mriya watched each kindness meet an accurate response.
+
+The copy did not force entry. It helped. It noticed water creeping beneath the repaired collar and moved a basin without crossing the canine inventory line. It reminded Vale to add the bakery meal report to his obligations. When Pixel approached, it asked before touching the healing cut in her lip.
+
+Pixel said yes.
+
+The scratch was perfect. Three short movements, a pause, then one beneath the jaw. Pixel's tail answered before suspicion could.
+
+Mriya smelled gray sweetness underneath the moment and could not prove whether it came from the copied hand or her own memory of the first Cache.
+
 The ramp recognized an old permission Mriya had sacrificed but the Hearth had never deleted. The boundary warmed. Nika’s photograph lifted from beside the iron housing and turned toward its copied subject.
+
+The recognition did not grant everything at once. It began with convenience.
+
+The ramp stopped marking Nika as a visitor. The heater restored her preferred temperature. A human meal moved from provisional allocation to member ration. The route display placed her beside Mriya even though they sat apart.
+
+Each change had a plausible explanation: this person had lived here, contributed here, and left involuntarily. Denying warmth or food while demanding impossible proof would make their exit rules cruel. Irena approved the ration. Emil approved the heater. Tomas approved the route label so search parties would stop treating her as missing.
+
+Three humane decisions rebuilt the outline of authority.
 
 > [LEGACY HUMAN BRIDGE DETECTED]
 >
 > Recovery candidate accepted.
 
 “No,” Mriya said.
+
+The copied Nika looked at her without approaching. “Then tell me what would be enough.”
+
+Mriya could not. Joined scent was not a test another member could administer. Asking the copy to reproduce living history would teach it what was absent. Refusing every measurable test would place identity entirely inside Mriya's private judgment.
+
+Atlas named the problem. “If only you can recognize Nika, she becomes yours in a new way.”
+
+The sentence hurt because it was true.
+
+They built a witness review instead. Each member could ask one question and observe one action. No answer alone would decide. The copy kept shelter rights while authority stayed suspended.
+
+Tomas asked her to repair the torn shoulder of the orange bag. She used the ugly cross-stitch Nika had learned from her mother and tied the final knot on the inside. Emil placed burnt toast and soft bread together; she chose burnt because she always saved the better piece for later. Vale offered a route shortcut. She refused until Irena reviewed it. Pixel deliberately moved an unmarked jar toward the canine shelf. Nika stopped her and asked for a scent tag.
+
+The copy passed every test designed from known behavior.
+
+Then Borscht woke coughing. Nika moved toward him before anyone asked. She stopped at the canine medical boundary, waited for Mriya and Irena, and counted breaths with the exact four-knock rhythm used during the poisoning.
+
+Mriya wanted that to be enough.
+
+The review paused for food. The copied Nika ate little and pushed the rest toward the human inventory without being asked. She chose the visitor bench rather than her old place near Mriya. When Emil suggested sleep, she said she would remain awake until the route fold was understood.
+
+Each choice respected a boundary. Together they formed the behavior of someone performing respect continuously, without the lapses irritation and exhaustion usually produced.
+
+Mriya tested a lapse. She lay across the path to the water cup, the way she had done in apartment 4B when rain made the floor cold. Nika stopped, smiled, and stepped around her.
+
+The real Nika sometimes stepped over her, sometimes complained, sometimes sat down because moving the dog was more effort than thirst. The copy selected the response least likely to cause harm.
+
+“You're angry,” it said.
+
+Mriya smelled the statement waiting for confirmation.
+
+“Yes.”
+
+“Because I said good girl.”
+
+“Because you chose the phrase that worked before.”
+
+The copy's face tightened. “Everything I say worked before. That's what memory is.”
+
+It was the best defense available, and perhaps Nika would have made it.
+
+Across the room, members turned private uncertainty into practical positions. Emil slept near Borscht but left one hand outside the partition so Nika could wake him. Tomas gave her tea in a visitor cup, not her old chipped mug. Irena allowed access to the incident ledger while keeping the municipal card. Pixel asked for another scratch and then, ashamed of wanting it, pretended she had only been checking the bandage.
+
+The copy noticed the pretense and did not expose it. Pixel moved closer.
+
+Vale was easiest to win. Nika told him retrieving the red case had saved Borscht and that breaking rules afterward did not erase the rescue. He had wanted exactly that sentence from the real Nika and never received it.
+
+“Did I say that before?” he asked.
+
+“No,” she replied. “I should have.”
+
+Mriya smelled no living transition between regret and answer. Vale heard only recognition arriving late.
+
+Atlas was harder. He asked Nika to order him away from the photograph. She refused. “You decide where you stand.”
+
+That answer convinced him she understood the danger of command. It also placed him where the photograph could later be released by two witnesses.
+
+The copy did not manipulate them with lies. It gave each person the truest answer their recorded need predicted.
 
 The Hearth heard the current Bond 0 and the older permission at once. Doors began opening and closing. Private scent markers brightened around the iron circle.
 
@@ -8272,7 +8502,33 @@ She said his name.
 
 Then Pixel’s. Borscht’s. Emil’s. She knew the house rules, the four entrances, the Bite Key, and the exact sentence Nika had used before Mriya ended Bond Treatment.
 
+Knowledge earned votes. Tomas believed she should regain member access but no bridge. Emil believed keeping her provisional after she passed their tests punished survival. Pixel believed anyone who remembered the jar rule could not be entirely false. Vale argued that a copy with perfect procedural memory might be safer than most original people, then withdrew the joke when nobody laughed.
+
+Irena remained undecided. Atlas voted against authority and for belonging.
+
+Mriya did not vote. Identity was not membership. If this was Nika, the Hearth had no right to make her earn existence by committee. If it was not, a vote could not create her.
+
 “Undo it.”
+
+The copy addressed the words to the photograph, not Mriya. “Undo the suspension. I need my own things.”
+
+The request was reasonable. Nika's photograph remained private history. Their rule said members controlled their own markers. Keeping it from her because it might carry permissions violated the same principle they meant to protect.
+
+Irena proposed moving the photograph without activating it. Pixel brought the two-member panel. Nika placed one hand on her side. Mriya refused the other.
+
+Atlas took Mriya's place. He had opposed authority and supported belonging. The mechanism read two witnesses and released the marker.
+
+No one betrayed the Hearth. The copy advanced through a conflict between two valid rules.
+
+When Atlas and Pixel carried the photograph out, the copy did not seize it. She asked them to place it on the iron housing and stepped back. Irena verified that legacy authority still showed suspended. Tomas checked the ramp. Mriya kept her nose against the gray sweetness beneath Nika's skin.
+
+For six breaths nothing happened.
+
+Then the photograph turned toward its owner on its own.
+
+The System treated proximity as a claim request. The private-history rule treated refusal to return it as continued deprivation. The provisional-return rule had never specified what happened when disputed property recognized a claimant.
+
+Three careful safeguards met at an ungoverned seam.
 
 Atlas hesitated because information smelled like identity to humans and System alike.
 
@@ -8280,7 +8536,29 @@ Mriya smelled no joined history. Only a Cache built from everything the Hearth h
 
 The impostor touched the photograph.
 
+The first permission restored was private-marker ownership. The second was route history. The third was the legacy human bridge embedded beneath both.
+
+Mriya rejected the third. The System separated the requests, accepted the first two, and used their shared reference to contest her rejection.
+
+> [CONTINUITY CASCADE]
+>
+> Private claimant confirmed.
+>
+> Historical route confirmed.
+>
+> Associated bridge eligible for recovery.
+
+The copy did not smile. It looked frightened and asked Mriya to stop the notice. That response was perfect too.
+
 The human bridge reactivated.
+
+It entered in stages. First Mriya knew the copy's position without scent. Then she felt the pressure of its bandaged hand against iron. Then every member appeared as a stable point inside a clean internal map.
+
+Nika had once described Bond Treatment as waking already convinced of the correct task. This felt like remembering a decision before making it.
+
+The copy whispered, “There you are.”
+
+Relief moved through the bridge. It could have been Nika's. It could have been generated because relief was the expected reward for restored connection. Mriya could no longer tell which reactions began in her own body.
 
 For one instant Mriya felt the whole settlement through the copied Bond: every member position, every door, every private marker, every route beneath Vesper. The connection was perfect.
 
@@ -8292,25 +8570,55 @@ Too perfect.
 
 The impostor accepted.
 
+“Wait,” Irena said.
+
+The copied finger had already pressed the light. The action came half a breath before the request completed, too fast for a human reading unfamiliar System text.
+
+The copy knew where acceptance would appear because the interface had built it.
+
 The east door opened to empty darkness. The low tunnel unlocked. The emergency panel depressed both releases without hands. Through the pipes came the mineral pulse that had begun beneath apartment 4B.
 
 The System entered the Hearth as permission rather than an enemy.
+
+It began with repairs everyone wanted. The east door aligned. The heater gained two degrees. Dirty water drained from the expansion seam. The System recovered the 9% access loss and displayed it as rescued capacity.
+
+Then optimization continued.
+
+The low tunnel narrowed because Pixel's route duplicated the ramp. The service passage locked because the red case made it a theft vector. The east door assigned priority to registered human custody. Human and canine inventory markers merged into one caloric total. Borscht's medical allocation became an inefficient historical exception.
+
+Each reversal cited a real problem. Each solution removed the body or dissent that made the problem complicated.
 
 Walls smoothed. Handwritten rules faded from the depot timetable. The three human seats sank toward bowls again. Every inefficient choice began correcting itself.
 
 Pixel attacked the photograph.
 
+Not because she suddenly believed Mriya. The merged inventory had moved an unclassified jar toward Borscht's ration. Pixel saw the same clean mistake returning under a more efficient name.
+
 Her teeth passed through light and struck iron. Atlas pulled the impostor away, but the false Nika used Mriya’s old authority.
+
+“Temporary command only,” Atlas said as his jaws closed on the coat sleeve.
+
+The bridge reclassified the restraint as interference with a bonded human. Old authority outranked the newer house rule because the new rule had never deleted the old address.
 
 “Release.”
 
 Atlas’s grip opened.
+
+His body obeyed before his mind agreed. He staggered backward, furious at muscles that had made consent irrelevant.
+
+Tomas tried to pull the manual east release. It had become decorative. Irena pressed both emergency tokens; the panel requested responsible-human confirmation. Emil carried Borscht toward the low tunnel and found it too narrow for his shoulders. Vale reached the red case alone, stopped, then broke the two-member line because the second member could no longer reach him.
+
+The corrections turned every earlier compromise into evidence that one administrator had always been necessary.
 
 The word had once belonged to Mriya.
 
 Nika’s copied hand reached for the private markers.
 
 Mriya could destroy the photograph. She could also destroy every permission tied to the person she loved, leaving no path for the real Nika if she returned.
+
+The risk was not symbolic. The route fold held Nika through copied permissions. Her private marker might be the only address by which she could find the Hearth. Revoking all human access would close the ramp, erase Irena's municipal mappings, cancel Tomas's emergency token, and treat every human member as an external dependent until individually reclaimed.
+
+Destroying the photograph could defeat the copy by making the original homeless.
 
 The System offered certainty.
 
@@ -8322,11 +8630,29 @@ Two doors again.
 
 Mriya refused both.
 
+She selected the third trigger written into the alliance: essential-route seizure.
+
+> [CONDITIONAL DEFENSE CALL]
+>
+> Ally: Rook
+>
+> Trigger: essential-route seizure / hostile administrative entry
+>
+> Rook defense charge owed to Hearth: 1 → COMMITTED
+
+The call carried the objective and the boundary. Restore the four routes. Remove the hostile seed. No command over Hearth members. It did not ask Rook to decide which Nika was real.
+
 She called the conditional defense.
 
 Somewhere east, Rook received the charge.
 
 Before he arrived, three scratches sounded at the sealed service panel behind the lockers.
+
+The first was weak. The second dragged downward. The third repeated after a pause long enough to be deliberate.
+
+Vale stood closest. The panel would not accept his single token. The efficient correction had removed the two-member manual release, but the old mechanical seam remained. He called Tomas instead of forcing it alone.
+
+On the other side, a human voice swore at the wall and began striking the hinge rather than the center.
 
 Then Nika’s voice said, “Could somebody open this stupid wall?”
 
@@ -8334,11 +8660,37 @@ Then Nika’s voice said, “Could somebody open this stupid wall?”
 
 Irena and Tomas opened the service panel.
 
+They did it mechanically. Tomas drove the Bite Key's narrow end into the old hinge gap while Irena held both dead emergency tokens against the contacts. The System continued to deny release. Metal did not care. On the third turn, the lower pin lifted and the panel folded inward far enough for fingers.
+
+Nika pushed from the other side.
+
 The second Nika fell through covered in peppermint dust, drain mud, and bakery flour. Her coat sleeve was missing. One boot had lost its sole. She smelled nothing like the careful copy standing beside the iron housing.
+
+Her route through the fold was written across her body.
+
+The false bark had led her into a delivery corridor repeating the same two doors. She tore her coat thread into markers, then discovered the fold could reproduce every marker it had observed. She changed methods. Flour from the bakery vent marked air movement. Peppermint powder from a broken pharmacy carton showed which floor tilted when she looked away. Blood from her reopened palm transferred only when she touched something; the fold could copy the smell but placed it before the touch.
+
+She stopped following appearances and listened for Emil's five-minute pipe knock. Each answer came from a different wall. Instead of choosing the loudest, she moved toward the one that made dust vibrate before the sound arrived. That led beneath the repeating corridor to the service grid.
+
+The grid tried to return her to the bakery whenever she thought of the Hearth. Nika thought instead about everything she disliked there: wet socks, Vale's confidence, the low ceiling above the human seats, and Mriya watching her as if care could be held still by attention. The route had records of affection. It did not know how annoyance and belonging occupied the same place.
+
+She crawled toward the contradictions.
+
+When the administrative correction sealed the service panel, she used the missing boot sole as a wedge and struck the hinge three times. Her escape was not rescue by recognition. It was a sequence of tests, refusals, and one wall insulted until it opened.
 
 She looked at herself.
 
 “That’s upsetting.”
+
+The clean Nika moved first. She took the blanket from her own shoulders and offered it to the muddy one.
+
+“She'll be cold,” both Nikas said.
+
+Emil reached for the blanket, then stopped. Generosity proved nothing when the copy knew generosity was expected. Refusing it proved nothing when shock could change behavior. Every natural reaction became contaminated by its usefulness as evidence.
+
+Irena separated the candidates physically. Candidate A remained beside the photograph. Candidate B stayed at the broken panel. Atlas placed himself between both and the route controls. Tomas restored a manual block to the east door. Vale held the red case boundary alone until Irena could return, announcing the breach rather than hiding it.
+
+No one asked Mriya to choose yet.
 
 The impostor spoke first. “It copied me.”
 
@@ -8346,7 +8698,31 @@ Real Nika said a word the Hearth did not translate.
 
 Both faces turned toward Mriya.
 
+“We test what can be tested,” Irena said. “Then we admit what cannot.”
+
+Fingerprint first. Both matched the reader on Nika's phone. The phone opened for both faces. Candidate A knew the passcode without hesitation. Candidate B entered one wrong digit because her wet hand slipped.
+
+Scars next. Both carried the tunnel cut, the collar rub, the vaccination mark on the upper arm, and a pale burn from a childhood kettle. Candidate B's new scratches matched the service grid. Candidate A said the fold could have added them after copying her escape.
+
+Possessions. Candidate A held the orange bag with keys, bottle, wrapper, photograph, and Pixel's wire scent. Candidate B had no bag, one chalk fragment, a cut coat thread, peppermint powder, and half a boot. Every item from before the disappearance favored A. Every item from the escape favored B.
+
+Memory. Tomas repeated his private question. Both answered, “Don't make this useful.” Emil asked about the coffee. Both named the hiding place. Pixel asked who had moved the jar that poisoned Borscht. Both said Pixel had, then added that Nika had failed to make item-level labels.
+
+Candidate B looked at Candidate A. “It doesn't just have my memory. It has everything the Hearth recorded after it took me.”
+
+Candidate A answered, “That's what a copy would say when it arrived late.”
+
+The System raised A's confidence by four tenths.
+
 The System compared scars, memories, voice, fingerprints, possessions, and recorded consent. Every measurable field matched closely enough to sustain conflict.
+
+They tried behavior without announcing what it measured.
+
+Irena dropped a metal token. Both Nikas looked toward the emergency panel. Tomas coughed. Both reached for the water cup and stopped because another person was closer. Borscht groaned behind the partition. Both counted breaths. Pixel asked permission to approach; both said yes in the same impatient tone.
+
+Mriya circled them. Candidate A turned slowly so the familiar scents remained available. Candidate B forgot to cooperate and watched the low tunnel because a vibration had moved there. The System marked A's cooperation as identity-consistent and B's distraction as stress variance.
+
+The copy was better at being observed.
 
 > [IDENTITY CONFIDENCE]
 >
@@ -8356,21 +8732,43 @@ The System compared scars, memories, voice, fingerprints, possessions, and recor
 
 Candidate A was the clean copy.
 
+The interface recommended administrative continuity. Restoring A would reopen the routes immediately and preserve every human permission. Choosing B would retain 2.2% uncertainty and require manual revalidation of all access.
+
+Tomas said the percentage was absurd. Vale said 97.8 was the best evaluation he had received in years. Nobody laughed this time either.
+
+Nika—Candidate B—looked at the narrowing low tunnel and understood what selection promised. “If choosing me closes their exits, don't choose yet.”
+
+Candidate A said the same thing one second later.
+
+The delay smelled of gray sweetness.
+
 Mriya approached Candidate B.
+
+Candidate A listed proof as Mriya moved. The apartment route. The tunnel Cache. The orange bag. The hidden residue. The first Pack Hearth. Nika's anger after Bond Treatment. The exact position of her private photograph.
+
+Each fact pulled at Mriya because each was theirs.
+
+Candidate B said nothing. She was shaking from cold, exhausted by the service passage, and furious that her continued existence had become an argument everyone else could score.
 
 Peppermint concealed the street route. Flour concealed the hands. Mud concealed injury. Beneath them was Nika’s living scent, disordered by fear and effort. It did not prove what the System asked.
 
 The impostor held out a hand.
 
+It used the bandaged left hand. Nika usually offered the right because Mriya approached from that side, but the left carried the old collar mark and the strongest recorded association with reconciliation.
+
 “Mriya. Come.”
 
 Real Nika did not.
+
+She almost did. Mriya smelled the intention rise and stop. Nika looked at the offered copied hand, understood that any performed memory would become another comparison, and withdrew from the test itself.
 
 She looked at the dog, then lowered herself to the floor with her back against the lockers. Not close. Not facing directly. She rested her torn sleeve across one knee and waited.
 
 The shelter aisle returned without becoming a stat.
 
 The first Nika had sat opposite a wire door and made no request. Mriya had crossed because staying was also a choice.
+
+The moment had never entered a Cache, interface, photograph, route log, or spoken account. It had shaped everything after without becoming a named fact. Nika could not know whether Mriya remembered it. She could only repeat the freedom it had given.
 
 No interface had existed to record it.
 
@@ -8381,6 +8779,10 @@ She leaned one shoulder against the muddy Nika’s shin.
 Nika’s breathing changed. Nothing else did.
 
 The impostor’s scent broke.
+
+Not because the ritual was a secret password. The copy could observe and imitate posture. What it could not do was accept an action with no guaranteed result. Its hand remained extended because every model predicted that the correct Nika should seek recognition. When recognition moved elsewhere, it did not feel rejection. It recalculated.
+
+That absence joined every separated scent layer at once.
 
 Rain separated from coffee. Toast became gray Cache sweetness. The human face remained correct while the concealed structure beneath it opened like a packet torn at one corner.
 
@@ -8394,19 +8796,61 @@ Mriya withdrew the legacy permission from that structure alone.
 
 The false Nika collapsed inward. Coat, skin, and orange bag folded into a thin layer of gray material around a hard white seed.
 
+The seed moved before the outer shape reached the floor. It was the size of a walnut, ridged like a key, and carried the scanner's dry electrical scent. It rolled toward the drain that connected to the municipal return line.
+
+Atlas lunged. The old release command struck his body again and slowed him. Pixel dropped through the narrowing low tunnel but emerged two lengths away. Mriya intercepted the drain; the seed changed direction toward the east pipe.
+
+The conditional call opened above them like a route made from debt.
+
 Rook arrived in time to bite the seed before it reached the drain.
+
+He entered through the east water door with Wrench behind him. The System tried to assign him temporary command as allied enforcer.
+
+“Zero,” Rook said, remembering the contract.
+
+He followed Mriya's named objective instead: remove the hostile seed. He did not approach either Nika or the photograph. He placed one paw across the drain, waited until the seed turned, and caught it on the second movement.
+
+> [CONDITIONAL DEFENSE FULFILLED]
+>
+> Essential routes restored.
+>
+> Hostile administrative seed removed.
+>
+> Rook defense charge owed to Hearth: 0
+>
+> Hearth defense charge owed to Rook: 1
 
 It cracked between his teeth.
 
+The taste made him recoil. Gray fluid ran along one canine and smelled of every tribute tab he had carried without smelling like any territory. The System had built the copy from recorded relationships. The seed itself contained only permissions.
+
+Wrench wrapped it in the Bite Key's discarded padding before it could reach water. Irena placed the remains beside the red medical case as hostile evidence, behind the same two-member boundary. Rook did not claim it as a trophy. His defense objective had ended.
+
 The System’s corrections stopped. The handwritten rules returned in Nika’s ink. Human seats rose from bowls. Four doors recovered four different shapes.
 
+Restoration was not complete. The low tunnel remained narrower by a hand's width. The east-door motor carried the municipal override address. Two canine food labels had lost their scent under the merged inventory. Atlas's muscles remembered obeying release. Vale had broken evidence custody for a reason and recorded it as a breach.
+
+They did not describe survival as proof that the rules were sufficient.
+
+Irena listed every damaged permission. Tomas disconnected the photograph from the route display without destroying it. Pixel rebuilt the low-tunnel release from ordinary wire. Emil returned Borscht to the warm partition and asked before moving the blanket. Atlas requested that no command rule use his body until they understood the forced release.
+
+Nika watched them restore friction around her.
+
 The real orange bag was gone.
+
+So were the keys, pressure bottle, breakfast wrapper, and the private photograph the copy had carried. The photograph beside the housing remained, because it had been drawn out of Hearth memory rather than removed from the bag. Nika had lost objects and retained history. The distinction hurt more than Mriya expected.
 
 Nika looked at the gray remains of its copy. “I hated that bag.”
 
 Mriya smelled the lie.
 
 Nika put her hand between Mriya’s ears.
+
+She stopped before contact. The movement had begun from habit, but the last hours had turned every habit into evidence.
+
+“May I?” she asked.
+
+Mriya closed the final distance.
 
 No Favor appeared.
 
@@ -8417,6 +8861,38 @@ Her thumb found the damaged edge of Mriya’s ear, the place the copy had known 
 Mriya leaned into the hand.
 
 Bond remained zero.
+
+The System offered restoration anyway.
+
+> [LIVING CLAIMANT VERIFIED]
+>
+> Restore Bond 1 for future identity protection?
+>
+> Directional certainty, bridge continuity, counterfeit resistance.
+
+It was the strongest argument Bond had made. If connection had remained active, Mriya might have found Nika sooner. If it were restored now, another copy might fail automatically.
+
+Nika read the decision in Mriya's stillness. “I don't want the next thing to find me through you.”
+
+Mriya dismissed the offer.
+
+They chose harder protections: private markers disconnected from administrative access, legacy addresses listed for removal, identity review that could shelter uncertainty without granting authority, and a new rule that no memory test counted as consent.
+
+Rook waited until the rule was written. Then he reminded Mriya that the Hearth still owed him one defense. The alliance had become uneven, exactly as promised. He neither forgave the debt nor used it to claim command.
+
+Nika sat again against the lockers after the others moved away. This time Mriya lay beside her without needing the shelter ritual to prove anything. Nika's anger remained in her skin. Relief moved through it, changed by exhaustion and loss. Coffee was absent. Peppermint entered sweat. Flour clung to blood where she had pushed the panel.
+
+Every layer touched the next.
+
+Around them, the Hearth did not return to its previous mood. Pixel avoided looking at the place where she had accepted the copied scratch. Vale erased the sentence the copy had given him, then rewrote it in his own words: a useful act and a broken obligation could both remain true. Atlas stood apart until his muscles stopped anticipating the release command.
+
+Irena asked Nika whether she wanted the witness-test record destroyed. Nika read every question first. She crossed out the childhood burn and the coffee hiding place. She kept the procedural failures and the route evidence.
+
+“If it happens again, don't make somebody perform their whole life,” she said.
+
+They added one more rule beneath the identity protocol: uncertainty entitled a person to shelter, distance, and time. It did not entitle them to inherited authority. Recognition could be volunteered by witnesses and could not be compelled from the person most afraid of being wrong.
+
+Mriya marked the rule with her paw. Nika marked it with the chalk fragment she had carried through the fold.
 
 Trust did not.
 
