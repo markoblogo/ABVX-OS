@@ -124,7 +124,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["status"], "DEVELOPMENTAL_AUDIT_COMPLETE_REVISION_REQUIRED")
+        self.assertEqual(progress["status"], "P0_DEVELOPMENTAL_REVISION_GATE_PASS_P1_REQUIRED")
         self.assertEqual(progress["draft_words"], len(manuscript.split()))
         self.assertEqual(progress["expanded_chapters"], list(range(1, 37)))
         self.assertEqual(progress["chapters_drafted"], 36)
@@ -187,19 +187,32 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         )
         self.assertEqual(production_run["status"], progress["status"])
 
-    def test_rn10_003_developmental_audit_is_prioritized_and_source_preserving(self):
+    def test_rn10_003_p0_revision_is_canonical_and_preserves_the_audit_baseline(self):
         progress = json.loads((ROOT / "books/rn10-003/manuscript/progress.json").read_text())
         revision = json.loads((ROOT / "books/rn10-003/data/developmental-revision-map.json").read_text())
+        continuity = json.loads((ROOT / "books/rn10-003/continuity/series-continuity-pack.json").read_text())
         manuscript = ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md"
         import hashlib
         digest = hashlib.sha256(manuscript.read_bytes()).hexdigest()
-        self.assertEqual(revision["decision"], "REVISION_REQUIRED")
-        self.assertFalse(revision["manuscript_edited"])
+        self.assertEqual(revision["decision"], "P0_COMPLETE_P1_REQUIRED")
+        self.assertTrue(revision["manuscript_edited"])
         self.assertEqual(len(revision["p0"]), 5)
         self.assertEqual(len(revision["p1"]), 6)
         self.assertEqual(len(revision["p2"]), 3)
-        self.assertEqual(digest, revision["audited_sha256"])
-        self.assertEqual(digest, progress["audited_manuscript_sha256"])
+        self.assertEqual(digest, revision["post_p0_sha256"])
+        self.assertEqual(digest, progress["current_manuscript_sha256"])
+        self.assertNotEqual(digest, revision["audited_sha256"])
+        self.assertEqual(revision["audited_sha256"], progress["audited_manuscript_sha256"])
+        self.assertEqual(continuity["authority"], "CANONICAL_FOR_ALL_SERIES_VOLUMES")
+        progression = continuity["book_1"]["progression"]
+        self.assertEqual(progression["resources"]["supply"], 11)
+        self.assertEqual(progression["resources"]["favor"], 1)
+        self.assertEqual(progression["mriya"]["stats"]["bond"], 0)
+        self.assertEqual(progression["alliance"]["hearth_owes_rook"], 1)
+        text = manuscript.read_text()
+        self.assertIn("[NONSTANDARD PERSISTENCE RECORDED]", text)
+        self.assertIn("[STRAY STATUS — BOOK ONE CLOSE]", text)
+        self.assertIn("Between breaths, Nika gave the route in fragments.", text)
         self.assertEqual(revision["passed_ledgers"]["bond"], 0)
         self.assertEqual(revision["passed_ledgers"]["hearth_to_rook_defense_charge"], 1)
 

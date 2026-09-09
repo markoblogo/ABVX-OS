@@ -1,5 +1,7 @@
 # Good Dogs of the Apocalypse — series bible
 
+Canonical dates, geography, progression balances and volume-to-volume debts live in `continuity/series-continuity-pack.json`. That file is authoritative for all future books; changes require an explicit canon migration.
+
 ## Narrative contract
 
 The series begins as an affectionate dog-and-owner story and becomes a black comedy about civilization, dependency and power. The dogs never stop being lovable. That is why their rise is funny, moving and frightening.

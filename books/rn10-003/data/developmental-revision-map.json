@@ -3,8 +3,11 @@
   "book_id": "rn10-003-good-dog-bad-system",
   "audited_manuscript_words": 81327,
   "audited_sha256": "bc14f8c4b20108430cdfcc5e840946df3bf7fef7d5a863aae2beb1368d271ccf",
-  "decision": "REVISION_REQUIRED",
-  "manuscript_edited": false,
+  "decision": "P0_COMPLETE_P1_REQUIRED",
+  "manuscript_edited": true,
+  "post_p0_manuscript_words": 81770,
+  "post_p0_sha256": "3b4d47d605c9bce2473aeda3c5ec4067b012b8b40494d517e4bb51eab09742ef",
+  "continuity_pack": "continuity/series-continuity-pack.json",
   "p0": [
     {"id":"DEV-P0-01","chapters":"1-36","issue":"canonical_calendar","acceptance":"A day-by-day ledger supports every explicit time reference and recovery interval."},
     {"id":"DEV-P0-02","chapters":"33","issue":"close_third_pov_breach","acceptance":"Nika's escape is delivered through speech, questions and evidence available to Mriya."},
@@ -31,5 +34,5 @@
     "hearth_to_rook_defense_charge": 1,
     "bond": 0
   },
-  "next_action": "BUILD_CONTINUITY_PACK_THEN_APPLY_P0_REVISIONS"
+  "next_action": "APPLY_P1_DEVELOPMENTAL_REVISIONS"
 }

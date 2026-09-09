@@ -11,7 +11,7 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 81,327 words by `wc -w` against the 84,600-word architecture, within 3.9%.
+- Current manuscript count: 81,770 words by `wc -w` against the 84,600-word architecture, within 3.3%.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
@@ -25,14 +25,15 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Chapters 31–33 passed the identity gate at 7,005 tracked words against a 7,300-word target, within 4.0%.
 - Chapters 34–36 passed the charter and Act IV gate at 7,630 tracked words against an 8,200-word target, within 7.0%.
 - All 36 chapters are expanded. Developmental editing and line editing remain required.
-- Full developmental audit is complete without manuscript edits. Decision: REVISION REQUIRED.
-- Revision map contains 5 P0, 6 P1 and 3 P2 items. Supply and alliance ledgers pass; chronology, progression visibility, one POV breach, late faction setup and exception-rule setup require P0 work.
+- The source-preserving developmental audit baseline recorded `REVISION_REQUIRED` before manuscript edits.
+- Its revision map contains 5 P0, 6 P1 and 3 P2 items. Supply and alliance ledgers passed at the audit baseline.
+- Canonical series continuity pack is active. All five P0 revisions passed; six P1 developmental revisions remain.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Build the continuity pack required by DEV-P0-01, DEV-P0-03 and DEV-P1-01: a canonical day-by-day calendar, city/Hearth geography map, and System/progression ledger. Then apply the five P0 revisions as one controlled developmental pass before touching P1/P2 prose.
+Apply the six P1 developmental revisions using the canonical continuity pack: normalize route names and geography, close Emil's sister decision, reconcile Favor 1, seed the Bite Key and Custodian earlier, and differentiate Tomas, Irena and Emil. Then run the second developmental gate before line editing.
 
 ## Continuity anchors
 

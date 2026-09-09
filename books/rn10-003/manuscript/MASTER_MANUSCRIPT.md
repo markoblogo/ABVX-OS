@@ -2650,6 +2650,8 @@ The network remained dead. The report remained unsent. Still, the photographs ex
 
 His fear sharpened.
 
+He was not trying only to recover the apartment Cache. The scanner turned toward permissions: who had opened the hidden route, which human the dog protected, and what municipal claim could carry that access elsewhere. When the officers looked to him for procedure, his relief smelled like institutional cover.
+
 Nika moved in front of Mriya.
 
 The action smelled better than any command.
@@ -3656,6 +3658,8 @@ A fifth followed at a distance and insisted this did not count.
 
 # Chapter Thirteen: The Ruined Room
 
+On the fourth day after Nika opened the shelter door, Chosen Route led them beneath the depot.
+
 Pixel found the door because it vibrated differently from the wall.
 
 They reached it by the route chosen at the blind turn.
@@ -4170,6 +4174,18 @@ The Hearth completed itself around them. Pipes carried clean water. The iron loc
 >
 > Rest, minor recovery, shared warning available.
 
+> [NONSTANDARD PERSISTENCE RECORDED]
+>
+> Voluntary mixed group sustained without recognized command.
+>
+> Classification: unresolved. Observation retained.
+
+> [STRAY STATUS]
+>
+> Scent 1 / Adaptation 1 / Bond 1
+>
+> Skill: Chosen Route / Facility: provisional Pack Hearth
+
 The Hearth demonstrated its boundaries as soon as they tested them.
 
 Warmth ended exactly at the hidden doorway. The bowl Atlas had used in the corridor cooled while its rim remained inside. Clean water arrived in short releases and required time to gather again. The lockers held body heat but produced no blankets. Shared warning marked a crossed threshold, a fast approach, or immediate harm; it supplied no name, motive, or truth.
@@ -4294,6 +4310,8 @@ The broadcast did not summon everyone. It gave every nearby dog a reason to choo
 
 Choices returned through the pipes in fragments. The dog under the market sent the water-shape twice and then withdrew into stillness. The two near the shelter moved their pups farther from the signal. Along the rail spur, one dog marked the route for others and remained above ground. The river group did something more organized: it sent one attention forward, held two at a junction, and kept the rest beyond the Hearth’s reach.
 
+From the courthouse came a different pattern: dogs moving beside registered humans, doors opening in response to tags, protection already acquiring paperwork. Under the market, the first dog returned with three others and the scent of food taken from a weaker mouth. The Hearth did not know their names yet. It knew the city was inventing institutions faster than safety.
+
 Atlas recognized the pattern before Mriya did.
 
 “They are checking whether the signal lies,” he said.
@@ -4401,6 +4419,8 @@ Mriya looked back at the five private markers arranged around the iron circle.
 “We do,” she said.
 
 # Chapter Sixteen: Three Empty Bowls
+
+The fifth morning began with another territory asking for water.
 
 The Doberman considered the answer.
 
@@ -5228,6 +5248,8 @@ All three returned.
 
 # Chapter Nineteen: Bond Treatment
 
+By the sixth day, Nika's cut had become an infection the Hearth could smell but not cure.
+
 Nika’s wound smelled wrong by morning.
 
 The change began hours earlier.
@@ -5906,6 +5928,14 @@ The Hearth’s recovery field withdrew from Nika’s hand and Mriya’s hip. War
 >
 > Human bridge suspended.
 
+> [STRAY STATUS]
+>
+> Scent 1 / Adaptation 1 / Bond 0
+>
+> Chosen Route: canine/local members only
+>
+> Cost accepted: human bridge, Favor access through Bond
+
 Nika fell forward one step.
 
 Her happiness disappeared first. Fatigue followed, then the ache in her hand, anger, shame at the things she had forgiven, and grief so layered Mriya could not separate its sources.
@@ -6017,6 +6047,8 @@ The east water remained closed until morning. The human bridge remained absent. 
 Mriya ate beside her anyway.
 
 # Chapter Twenty-Two: Assembly Required
+
+They spent the seventh and eighth days turning one hidden room into a network that different bodies could survive.
 
 The expansion arrived in pieces.
 
@@ -6734,6 +6766,8 @@ It had choices with hinges.
 
 # Chapter Twenty-Five: Human Food
 
+On the ninth morning, the new entrances worked and the food did not.
+
 Vale’s crate contained twelve silver packets, six tins, four bars wrapped in red paper, and a jar of concentrated sweet spread.
 
 It had entered the Hearth during the access crisis, when everyone valued the fact that Vale had returned more than the route he had used.
@@ -7388,6 +7422,12 @@ Mriya confirmed.
 >
 > Unsafe conversion blocked. Cross-species use requires two-member emergency approval.
 
+> [NONSTANDARD PERSISTENCE UPDATED]
+>
+> Unsafe efficiency rejected twice: access / resources.
+>
+> Local survival network remains active.
+
 > [SUPPLY RECONCILIATION]
 >
 > Opening Hearth balance: 8
@@ -7523,6 +7563,8 @@ Behind him stood six warehouse dogs.
 The east line had delivered clean water. The access network had announced independent territory. The medical Cache had transmitted a retrieval claim. Their reduced Supply and divided inventories were about to be tested by someone who considered efficiency a form of power.
 
 # Chapter Twenty-Eight: Rook
+
+Rook brought Sable's tribute on the tenth day.
 
 The tribute ring smelled of every dog who had carried it.
 
@@ -8196,6 +8238,8 @@ This time it smelled less like fear.
 
 # Chapter Thirty-One: The Right Face
 
+The eleventh morning began with a route short enough to trust.
+
 Nika disappeared the next morning.
 
 The bakery water point should have been the safest surface task left.
@@ -8668,6 +8712,8 @@ The second Nika fell through covered in peppermint dust, drain mud, and bakery f
 
 Her route through the fold was written across her body.
 
+Between breaths, Nika gave the route in fragments. Irena repeated each answer so Mriya could join words to flour, blood, peppermint, torn cloth, and the mud drying along Nika's knees.
+
 The false bark had led her into a delivery corridor repeating the same two doors. She tore her coat thread into markers, then discovered the fold could reproduce every marker it had observed. She changed methods. Flour from the bakery vent marked air movement. Peppermint powder from a broken pharmacy carton showed which floor tilted when she looked away. Blood from her reopened palm transferred only when she touched something; the fold could copy the smell but placed it before the touch.
 
 She stopped following appearances and listened for Emil's five-minute pipe knock. Each answer came from a different wall. Instead of choosing the loudest, she moved toward the one that made dust vibrate before the sound arrived. That led beneath the repeating corridor to the service grid.
@@ -8675,6 +8721,8 @@ She stopped following appearances and listened for Emil's five-minute pipe knock
 The grid tried to return her to the bakery whenever she thought of the Hearth. Nika thought instead about everything she disliked there: wet socks, Vale's confidence, the low ceiling above the human seats, and Mriya watching her as if care could be held still by attention. The route had records of affection. It did not know how annoyance and belonging occupied the same place.
 
 She crawled toward the contradictions.
+
+That was Nika's phrase. Mriya understood it through the way irritation, fear, and relief crossed inside her living scent while she spoke.
 
 When the administrative correction sealed the service panel, she used the missing boot sole as a wedge and struck the hinge three times. Her escape was not rescue by recognition. It was a sequence of tests, refusals, and one wall insulted until it opened.
 
@@ -8897,6 +8945,8 @@ Mriya marked the rule with her paw. Nika marked it with the chalk fragment she h
 Trust did not.
 
 # Chapter Thirty-Four: Custodian 0.03
+
+The twelfth day began inside the evidence they thought Rook had destroyed.
 
 The white seed was not dead.
 
@@ -9603,6 +9653,16 @@ Warmth returned through the floor.
 >
 > External alliances and debts: retained.
 
+> [STRAY STATUS — BOOK ONE CLOSE]
+>
+> Scent 1 / Adaptation 1 / Bond 0
+>
+> Supply 11 / Favor 1 unspent
+>
+> Pack awards 2 / Territory awards 1
+>
+> Hearth owes Rook one defense
+
 The private markers around the iron housing dimmed. Nika’s photograph became only paper again. The shelter scent in Mriya’s collar belonged to memory, not administrative access.
 
 Outside, every challenge mark vanished from the four entrances. Sable’s claim paused. The High Collars lost their automatic seniority. Free Teeth scouts retreated far enough to become a future problem.
@@ -9700,6 +9760,8 @@ At the market, Free Teeth laughed. Their leader selected Bad Dog before the prom
 Along the river, Sable stood over a map made entirely of scent. It showed every subordinate territory, every tribute route, the Bite Key exchange, and one provisional exception where ownership should have been. Rook stood beside her carrying no Supply. The Hearth's unspent defense charge glowed between them.
 
 Sable did not attack. She began counting who would wake next.
+
+In a municipal room above the dead tram registry, the tunnel man watched the same awakenings appear as access incidents. The failed retrieval file remained open beside Nika's copied profile and the red-case claim. He assigned the citywide pattern a recovery number.
 
 And in the Vesper shelter, behind a wire door, an old dog lifted her head as cold words appeared where scent memory lived.
 

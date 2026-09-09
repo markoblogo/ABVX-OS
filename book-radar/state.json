@@ -47640,7 +47640,7 @@
       "opportunities_scanned": 0,
       "deep_scanned": 0,
       "production_authorized": true,
-      "status": "DEVELOPMENTAL_AUDIT_COMPLETE_REVISION_REQUIRED",
+      "status": "P0_DEVELOPMENTAL_REVISION_GATE_PASS_P1_REQUIRED",
       "strategy": "candidate-generation-v5-commercial-first"
     }
   ],

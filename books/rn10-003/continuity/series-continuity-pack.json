@@ -1,0 +1,33 @@
+{
+  "schema_version": "good-dogs-series-continuity/v1",
+  "authority": "CANONICAL_FOR_ALL_SERIES_VOLUMES",
+  "book_1": {
+    "calendar": [
+      {"day":1,"chapters":"1-3","events":"adoption, ordinary route, tunnel Cache"},
+      {"day":2,"chapters":"4-9","events":"Cached Relief, boiler crisis, apartment loss"},
+      {"day":3,"chapters":"10-12","events":"depot refuge, class refusal, Stray"},
+      {"day":4,"chapters":"13-15","events":"sanitation-room discovery, cleanup, Pack Hearth"},
+      {"day":5,"chapters":"16-18","events":"Rook trade, delivered people, membership rules"},
+      {"day":6,"chapters":"19-21","events":"Nika decline, Bond Treatment, voluntary return"},
+      {"days":"7-8","chapters":"22-24","events":"module trials and four-route expansion"},
+      {"day":9,"chapters":"25-27","events":"food Cache, Borscht poisoning, medical Cache, species law"},
+      {"day":10,"chapters":"28-30","events":"tribute, Bite Key, municipal retrieval defense"},
+      {"day":11,"chapters":"31-33","events":"route fold, counterfeit Nika, Chosen Scent"},
+      {"day":12,"chapters":"34-36","events":"Custodian audit, charter cycle, citywide awakening"}
+    ],
+    "geography": {
+      "city":"Vesper, European port city divided by river, rail, market tunnels and buried municipal services",
+      "surface_anchors":{"apartment_4b":"South Vesper above first Cache conduit","tram_depot":"abandoned Unit Four depot","bakery":"43 paces from Hearth ramp","pharmacy_passage":"parallel surface route distorted by fold","courthouse":"High Collars","river_warehouses":"Sable","market_tunnels":"Free Teeth","shelter":"Mriya's former municipal shelter"},
+      "hearth_routes":{"ramp":"primary surface and legal approach","low_tunnel":"small-body drain route and message line","east_water_door":"warehouse, water and Sable route","service_passage":"municipal/pharmacy route behind two-member emergency panel"},
+      "naming_rule":"Use these four route names consistently; emergency panel is the control for service passage, not a fifth route."
+    },
+    "progression": {
+      "mriya":{"class":"Stray","stats":{"scent":1,"adaptation":1,"bond":0,"pack_awards":2,"territory_awards":1},"skills":["Chosen Route"],"status":"chartered Pack Hearth leader without ownership"},
+      "resources":{"supply":11,"favor":1,"favor_origin":"Vale preservation","favor_status":"unspent and ethically disputed","trace":"no retained quantified balance"},
+      "alliance":{"rook_owes_hearth":0,"hearth_owes_rook":1,"command_rights_shared":0},
+      "facility":{"model":"Reciprocal Duty","status":"provisional exception","guaranteed_supply":0,"voluntary_exit":true,"legacy_permissions":"revoked"}
+    }
+  },
+  "volume_2_carryovers": ["Hearth owes Rook one defense","Favor 1 remains unspent","municipal red-case claim and tunnel man remain active","Sable retains protectorate and Bite Key relationship","High Collars retain legal infrastructure","Free Teeth retain market pressure and one shelter witness","Custodian observation continues","Stray option is now discoverable citywide","Bond remains 0"],
+  "retcon_policy":"Future manuscripts must preserve this pack or record an explicit canon migration with affected chapters and rationale."
+}
