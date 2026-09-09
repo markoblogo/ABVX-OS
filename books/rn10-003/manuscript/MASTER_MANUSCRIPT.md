@@ -6016,15 +6016,71 @@ Mriya ate beside her anyway.
 
 The expansion arrived in pieces.
 
+It arrived after the Hearth failed three ordinary tasks before breakfast.
+
+First, Tomas needed to remove the filter housing while Nika took her antibiotics. The tool ledge and the only place warm enough for her recovering hand occupied the same tile. Nika moved. Tomas apologized. The housing slipped anyway and struck the edge of the iron circle.
+
+Second, Irena opened the valve map while Emil carried water from the sink. Vale stepped aside to clear his path and blocked the western door. Borscht tried to pass beneath him, Pixel dropped from the upper locker, and the market dog retreated into the drain. For one breath, every usable route contained a body moving in a different direction.
+
+Third, Wrench scratched at the east grille with a pressure warning. Atlas could reach her only by crossing the sleeping area where Nika had finally rested. He woke her, the shortened Hearth warmth left her bandaged hand, and the water release finished before Irena understood which branch Wrench meant.
+
+Nothing catastrophic happened. The filter gained a dent. Nika missed ten minutes of sleep. East water arrived late. Small failures accumulated because the room forced every activity through the same floor.
+
+Nika added them to the timetable under a new heading: things that need their own place.
+
+Repairs. Sleeping. Food. Medicine. Maps. Visitors. A route that did not cross any of them.
+
+The list was longer than the wall.
+
 At dawn the iron housing opened and lifted six metal bundles from beneath the floor. They unfolded across the Hearth with the confidence of objects that assumed instructions were a courtesy.
+
+The System had interpreted crowding as demand.
+
+> [DENSITY THRESHOLD EXCEEDED]
+>
+> Conflicting functions: 7
+>
+> Access interference events: 11
+>
+> Expansion volume available beyond east partition.
+
+The partition lay behind the old lockers beside Irena’s scratched diagram. When Tomas struck it with his knuckles, the wall returned an empty echo twice the size of Unit Four. A blocked inspection room waited beyond it, connected to the same drains and none of the current warmth.
+
+The six bundles were enough to open and govern that room. They were not enough to decide who could use it.
 
 One bundle became a narrow tunnel lined with grips for claws.
 
+Pixel entered before it finished unfolding. The tunnel accepted her weight, shaped scent channels toward three exits, and contracted behind her hind legs so no human arm could reach through.
+
+“Excellent,” she said from inside.
+
+Borscht tried next. His shoulders fit. His middle did not. The grips angled for climbing rather than his preferred method of forward persistence.
+
+Canine did not mean every dog.
+
 One became a door with a human handle.
+
+Tomas opened it easily. The frame widened for his shoulders and for the filter housing. Nika opened it with her uninjured hand. Emil needed both hands because the hinge resisted slowly, but he could pass upright.
+
+Mriya jumped for the handle and touched metal without moving the latch. Atlas could reach it by standing against the door, but opening it required the balance of a younger hip. Pixel found a gap beneath the frame and discovered it ended in a smooth steel plate.
+
+Human promised independent access to every person and dependence to every dog.
 
 One became a waist-high gate that opened only when Atlas stood before it.
 
+It recognized his old service posture before he agreed to anything. When he faced the frame, it opened wide enough for Tomas and low enough for Pixel. When he turned his head, it narrowed. When he stepped away, it closed without a sound.
+
+Mriya tested from the opposite side. Her Stray class did not count as authority. Nika’s membership did not count. A second dog standing beside Atlas made no difference.
+
+Command served everyone while one recognized guard remained present.
+
 The remaining pieces refused to become anything while Pixel watched them.
+
+When she looked away, one showed hinge holes matching the human frame. Another aligned itself with the command gate. The final bundle vibrated toward the claw tunnel. Pixel turned back and all three collapsed.
+
+“They object to expertise,” she said.
+
+The vibration pattern under her paws said something more precise: unauthorized variation detected. The pieces anticipated bypasses and treated the dog most likely to find them as a defect in advance.
 
 “They know me,” she said.
 
@@ -6036,11 +6092,33 @@ Cold labels appeared for Mriya alone.
 
 There was no Stray option.
 
+Mriya tried combining Human and Canine. The projected room split lengthwise: dry light and tool space on one side, scent channels and low sleeping niches on the other. The internal divider had no shared latch.
+
+She tried Human and Command. The human door became an emergency exit that only Atlas could authorize from inside.
+
+She tried Canine and Command. The low tunnels converged beneath the guarded gate, allowing small dogs to enter and preventing them from leaving when command closed.
+
+Every combination resolved incompatibility by assigning one profile priority.
+
 Bond 0 left the human words beyond Mriya’s reach. Nika saw hardware. Mriya saw functions. Neither could pass the whole problem to the other.
+
+They attempted old communication.
+
+Mriya touched the human handle, then each dog, then waited outside the frame. Nika understood exclusion but not that the door could become a one-way emergency exit. Mriya walked through the claw tunnel and pressed her body against Borscht. Nika understood size but not the scent routes hidden in its walls.
+
+Pixel tapped the command bundle in groups of three. Tomas heard loose metal. Mriya heard a topology warning. Irena drew what she could infer. Their four explanations overlapped without becoming one plan.
+
+Before Bond zero, Nika would have carried Mriya’s complete intention into human language. Missing the bridge now cost time, errors, and the temptation to let the System choose a cleaner translation.
 
 Nika still smelled angry.
 
 She had returned by choice, shared bread, and slept with her back against the opposite wall. These facts did not cancel one another.
+
+Nika had taken the sleeping place nearest the western door. Expansion would let her keep a route that did not pass Mriya. She wanted the new room. She also watched every interface pause in Mriya’s body for signs that another choice was being made around her.
+
+“Tell me what you can,” she said. “Then wait.”
+
+Mriya touched each profile and enacted its exclusion again. Nika wrote what she saw instead of guessing the missing parts.
 
 Tomas lifted a steel frame. “Human door. Standard width.”
 
@@ -6060,13 +6138,37 @@ The Hearth had grown crowded. Eight inhabitants now slept among lockers, pipes, 
 
 The modules offered it cheaply if they agreed who the room was for.
 
+Cheap meant the standing seven Supply remained untouched. The recovered bundles, dead inspection room, and existing pipes counted as already owned material. Selecting one profile would convert them at full efficiency.
+
+Refusing priority changed the projection.
+
+> Mixed-profile assembly unsupported.
+>
+> Manual adaptation may reduce usable volume, recovery reach, and access efficiency.
+
+The warning had no percentage yet. It waited for their design before pricing disobedience.
+
 Human promised light, dry floor, and a lock dogs could not operate.
+
+Tomas valued the dry floor because filter parts rusted in Unit Four. Irena valued the light because colour mattered on the valve map. Nika valued a handle she could use while injured. Emil valued a passage wide enough to carry Borscht if he could not walk.
+
+Every benefit was necessary. The lock remained necessary only if danger was assumed to have paws.
 
 Canine promised scent channels, low tunnels, and no human-sized exit.
 
+Mriya could smell contamination through three branches before it reached the room. Pixel could cross without waking anyone. Borscht could have warm floor niches if they widened one turn. Dogs would no longer depend on human hands for the western latch.
+
+The humans would depend on dogs for every warning and every object stored beyond the tunnel.
+
 Command promised both species under one controlled gate.
 
+It also promised the fastest emergency response. Atlas demonstrated by placing everyone in a line and opening the gate once. Tomas carried the housing, Nika carried medicine, Pixel crossed below, and Borscht passed without being stepped on. The entire movement took less time than their morning collision around the sink.
+
+Efficiency made control look like courtesy.
+
 Mriya smelled the hidden cost in each: someone would always need permission.
+
+She did not reject the benefits. She rejected making one body’s independence depend permanently on another body performing a role.
 
 Nika ran her fingers over the human handle. “This can’t be the only option.”
 
@@ -6076,9 +6178,47 @@ Nika understood the objection, if not the interface. “Then we build before cho
 
 The System disliked the order of operations.
 
+> Selection deferred.
+>
+> Recovery services suspended in expansion volume.
+>
+> Assembly errors remain inhabitant responsibility.
+
+No warmth would enter the new room while they experimented. No System correction would stop a frame falling or a tunnel sealing around someone. Building before choosing transferred risk from the interface to them.
+
 Every module folded flat.
 
 Assembly markings appeared on the floor: clean lines visible to humans, scent instructions visible to dogs, and vibration cues Pixel alone could detect. None described the same final structure.
+
+Irena copied the human lines in chalk. Mriya walked the scent routes while Nika followed and marked where she turned. Pixel dictated vibration through taps that Borscht counted incorrectly and Emil recorded correctly after noticing the pattern repeated every seven beats.
+
+They overlaid the plans.
+
+The human hinge occupied the canine scent vent. The command post stood where Pixel’s low route needed to turn. The emergency release for the human door passed through the wall the vibration plan identified as hollow. Three correct instructions demanded the same pieces in incompatible positions.
+
+Tomas proposed building each profile in sequence to discover which assumptions failed physically. Atlas proposed choosing the command frame as a temporary spine because it held every other piece without requiring permanent activation.
+
+Mriya disliked the shape and could not refute the engineering.
+
+Temporary command would become their experiment. Whether it remained temporary would depend on what happened when efficiency met a need the central gate had not anticipated.
+
+They established conditions before lifting anything. The spine would remain temporary. Atlas’s recognition would coordinate movement, not determine membership. Any person could stop work for immediate danger. Pixel could inspect every vibration path before a brace covered it. No profile would be confirmed merely because they had assembled around it.
+
+Nika asked Mriya to repeat the last condition with action. Mriya stood before the command gate, let it open, and walked away without crossing.
+
+Only then did Nika add her signature.
+
+The agreement did not restore the human bridge. It produced a slower substitute: demonstration, writing, separate acceptance, and the possibility that someone had still misunderstood.
+
+Atlas placed one paw beside the word temporary.
+
+“Until the work period ends,” he said.
+
+Pixel looked at the drain, the lowering braces, and the route the vibration plan showed beneath them.
+
+“Until nothing important gets built over,” she added.
+
+Tomas thought she meant a cable. Mriya smelled that Pixel meant herself.
 
 Tomas sat back on his heels. “It has three sets of plans.”
 
@@ -6092,11 +6232,47 @@ Mriya missed the human bridge enough to resent herself for missing it.
 
 Atlas imposed order at midday.
 
+He asked first.
+
+The command frame could hold the other profiles while they tested them, and Atlas was the only inhabitant it recognized. He proposed one work period under his coordination, ending when the six bundles stood or when any member called immediate danger.
+
+Nika wrote temporary beside his name. Mriya placed her paw beneath it. Pixel declined to mark the paper and agreed not to interfere with assembled pieces until the period ended.
+
+Atlas waited for each answer. Then his posture changed.
+
 He divided the work by competence. Tomas assembled frames. Irena traced utilities. Nika sorted fasteners. Emil held the light. Vale acquired missing parts from a location he continued to describe as nearby. Dogs carried, tested, and guarded.
+
+He established one route for material entering, one for people leaving, and a clear square around every moving hinge. He sent Borscht ahead of heavy pieces because everyone noticed and stepped around him. He placed Pixel on vibration checks where her talent became part of the plan rather than a problem to contain.
+
+Mriya carried bolts between Tomas and Nika. Without the human bridge, she could not explain why one bundle smelled electrically wrong. Atlas saw her stop, halted the entire line with one bark, and waited until Irena found a live municipal cable beneath it.
+
+No one was shocked. No frame fell. No medicine dose was missed.
 
 For one hour, the expansion progressed.
 
+The attraction of command was not abstract. Tomas stopped searching for tools because they arrived in order. Irena marked utilities before anyone drilled. Emil rested between light changes. Vale returned with brackets whose origin remained questionable but whose dimensions were correct.
+
+The command frame opened before each load and closed after it. Traffic stopped colliding. The second room gained a dry platform, two intact walls, and a clear route wide enough for the filter housing.
+
+The System recognized the pattern.
+
+> [COMMAND TOPOLOGY STABLE]
+>
+> Assembly speed +22%
+>
+> Access conflicts: 0
+>
+> Permanent profile available.
+
+Atlas ignored the offer. Mriya noticed how long he looked at the zero.
+
 The command gate became a central frame. The human door attached to its west side. The claw tunnel joined below. All traffic converged on the place Atlas could supervise.
+
+That convergence was why it worked. It was also the first weakness.
+
+When Wrench scratched at the east grille, Atlas could not inspect the warning without closing the gate behind him. When he drank, every load waited. When he checked Nika’s route, Pixel’s tunnel closed. The system had eliminated conflicting movement by making one dog’s attention infrastructure.
+
+Atlas did not complain. Service had taught him to confuse indispensability with success.
 
 “Functional,” Tomas said.
 
@@ -6106,9 +6282,27 @@ Atlas could see everyone enter. A person carrying supplies had room. A small dog
 
 It also smelled like a kennel designed by someone kind.
 
+Wide enough. Dry. Carefully observed. Locked for safety. Every need anticipated except the need to leave while the kind person was elsewhere.
+
 Pixel reached the same conclusion by a shorter route.
 
+During her vibration check she found that the final command brace would cover the old drain opening. Once bolted, her only route into the expansion room would begin beneath Atlas’s gate. She tapped the warning through the floor.
+
+Tomas heard the pattern and asked for ten minutes to finish stabilizing the frame. Atlas told Pixel to wait until the load cleared. Both decisions were reasonable. The brace lowered another finger toward the drain.
+
+Pixel remembered a cardboard box beneath a viaduct and a human who had intended to return. Waiting had once converted an open top into a whole night.
+
+“My route closes in ten minutes,” she said.
+
+“Your route is not approved,” Atlas replied.
+
+“That is why it requires me.”
+
 She disappeared into the drain.
+
+Mriya caught only her tail. Pixel had promised not to interfere with assembled pieces. She had decided the cable behind the wall was not yet a piece and therefore remained available to interpretation.
+
+The motivation did not make the decision consensual. It made the mistake belong to Pixel rather than to random mischief.
 
 The floor began tapping rapidly.
 
@@ -6118,21 +6312,63 @@ Metal scraped behind the wall. A latch snapped. The terrier emerged through the 
 
 “Solved the lock.”
 
+The cable was the low control loop intended to tell all three profiles whether the central frame was open. Pixel had rerouted it around Atlas’s recognition plate. The gate read open from below and unauthorized from above.
+
+For half a breath, the bypass worked. Pixel crossed without Atlas. The command frame remained wide. She looked at Mriya with triumph.
+
+Then the human lock detected an opening it had not authorized.
+
 The command gate closed.
+
+Atlas was still standing before it.
+
+Recognition no longer mattered because two correct signals contradicted each other. The frame tried to obey guard presence and intrusion control at once.
 
 Atlas stepped toward it. The gate opened halfway, detected Pixel’s bypass, and shut again.
 
 The human door locked. The claw tunnel contracted around Borscht’s middle.
 
+He was following Emil’s light through the low route when the grips turned sideways. His ribs were not crushed, but forward movement stopped. Emil dropped the lamp and reached from the old room. His fingers ended a hand’s length from Borscht’s collar.
+
+“Back,” Atlas ordered.
+
+Borscht tried. The tunnel had narrowed behind him too.
+
+Pixel released the cable. Nothing reset.
+
 He backed out with a sound of personal betrayal.
 
 Every module pulled against every other. Tomas dropped his wrench as the floor shifted. Nika and Irena jumped into the old Hearth. Vale remained in the new room with the emergency food crate he had just delivered.
 
+Tomas landed in the unfinished central strip. The floor marked him human, repair function, and unauthorized topology at the same time. It held his left boot while the rest of him could move.
+
+Irena reached the valve wall. The new expansion pipe had opened during the shift and begun pulling from the settling tank. She could close it, but the wheel now lay across the hardened old boundary.
+
+Mriya and Pixel remained near the drain side. Atlas stood at command centre, recognized and unable to make the frame obey. Emil was in the western corridor. Borscht lay trapped between him and everyone else.
+
+The four plans had not merely divided species. They had divided functions: food, water, repair, warning, and care.
+
 “I have good news,” he called through the sealed door. “The room works.”
+
+Nika’s next antibiotic dose sat in the food crate with Vale while clean water remained beside Irena.
+
+Vale held up the packet. “I would like the record to show that I did not create this access problem.”
+
+Pixel lowered her head. “I created an access solution.”
+
+“The distinction is currently around Borscht’s stomach.”
 
 Then the original Hearth boundary hardened.
 
+The sleeping alcoves cooled. The sink released one final cup and stopped. The expansion room took pressure from the settling tank without sending warmth back.
+
 Emil tried to enter and stopped at the line. Borscht, on the other side, tried to reach him and met the same resistance.
+
+Mriya crawled to the tunnel and pressed her shoulder against Borscht’s. The metal gave no room. Chosen Route carried his willingness to reverse and his growing fear, but it could not make masonry wider.
+
+Emil lay flat and pushed the cloth rabbit toward him. It stopped at the boundary.
+
+Borscht could see his person, smell his marker, and reach neither.
 
 The settlement had divided itself according to the competing plans.
 
@@ -6144,25 +6380,125 @@ Humans in one zone. Dogs in another. Command at the center. Exceptions nowhere.
 >
 > Hearth sealed pending primary profile.
 
+Three emergency resolutions appeared.
+
+Human would open Nika, Irena, Tomas, Emil, and Vale’s zones while keeping the dogs where they were until carried.
+
+Canine would release Borscht and Pixel, reopen water through scent control, and leave the humans behind locked handles.
+
+Command would free every zone immediately under Atlas and convert the temporary spine into the permanent entrance.
+
+The last option was the only one that solved the whole crisis at once.
+
+Atlas tested whether Trusted Command could force the temporary frame to behave without confirming it. He stood square, gave the opening signal, and put every part of his trained certainty into the order.
+
+The gate moved one finger. Good Dog authority could strengthen recognized command. It could not reconcile a human lock, canine bypass, and topology refusal.
+
+The System offered him a personal path around the conflict.
+
+> [GOOD DOG SYNERGY]
+>
+> Accept permanent guard authority.
+>
+> Trusted Command becomes structural within Hearth territory.
+
+His class would stop depending on people hearing him. Doors, routes, and boundaries would obey the posture his handler had taught him. He could protect everyone before asking whether they understood.
+
+Atlas looked toward Emil counting Borscht’s breaths.
+
+“It would work,” he said.
+
+Mriya smelled how much he wanted that to be enough.
+
 Atlas planted himself before the gate. “Command profile. Now.”
+
+His demand came from Borscht’s shortening breath, Nika’s medicine beyond reach, and water draining into an unfinished room. It also came from a System offer shaped exactly like the work he had done well.
+
+> Confirm Command: restore all access / retain +22% assembly speed / recognize permanent gate authority.
+
+Atlas could save them by accepting the role the room had already designed around him.
 
 The choice opened for Mriya.
 
 It would free everyone. It would also give Atlas permanent control of the only shared entrance.
 
+It would bind him too. The gate required his presence. Rest, injury, departure, or disagreement would become settlement failure. Permanent authority was permanent duty with no one else able to release him.
+
 Pixel scratched from inside the wall. “Canine profile. Humans can ask.”
+
+Her voice carried shame beneath defiance. Canine would free her to repair the bypass she had broken. It would also make Emil ask a dog to reach Borscht.
 
 Nika pressed her hand against the invisible boundary. Mriya stood one body length away, unable to cross.
 
+Without the human bridge, Mriya could not give Nika the full projected cost. She touched Atlas, the only gate, then placed her body where he had stood and lay down as if exhausted. She pointed toward every sealed zone.
+
+Nika watched twice.
+
+“If he leaves, we lock again?”
+
+Mriya touched her nose to the floor.
+
+“If he gets hurt?”
+
+Again.
+
+Nika understood enough to refuse urgency as permission.
+
 “Don’t choose for us again,” Nika said.
+
+The words hurt because Mriya had not chosen yet and because Nika had reason to say them before she did.
+
+Mriya waited for Nika to press her uninjured palm flat against the boundary. Nika waited for Emil to say Borscht was still breathing. Then she nodded once—not toward a profile, but toward more time.
 
 Bond 0 carried no intent between them. Only voice, posture, history.
 
 Mriya stepped away from the offered profiles.
 
+She did not have a replacement yet.
+
+Atlas’s growl followed her. “Refusal is still a choice. Borscht pays for this one.”
+
+He was right.
+
+Mriya went to the trapped tunnel and began testing every seam with Scent. Pixel crawled back toward the cable. Tomas freed his boot by leaving the shoe inside the floor. Nika wrote the three profile consequences on the wall so no one could later claim the easy option had carried no cost.
+
+Refusing the profile did not mean refusing coordinated action.
+
+Atlas braced the upper gate with his shoulders so its weight stopped feeding the contracting tunnel. The opening around Borscht widened by one breath. Mriya pushed from the expansion side while Emil called the rhythm from the corridor.
+
+Pixel reached the bypass junction. She could restore Atlas’s control by reconnecting the cut cable, but the lock had fused around her unauthorized loop. Pulling it free would remove the vibration alarm from the low route.
+
+“Do it,” Atlas said.
+
+Pixel hesitated. The wire was her route, her warning, and her proof that the command frame was not the only answer.
+
+Then Borscht failed to answer Emil’s count.
+
+Pixel bit through her own bypass.
+
+The claw grips loosened enough for Borscht to breathe deeply. They did not release him. The command gate opened one finger and stopped, still waiting for a primary profile.
+
+On the human side, Irena traced the water pipe with chalk and shouted numbers Tomas could follow from the central strip. He removed the lower brace in the sequence she called. Pressure stopped draining into the expansion room.
+
+Vale flattened Nika’s medicine packet and pushed it beneath the sealed human door. The gap accepted paper where it rejected his fingers. Nika took the dose dry, then used the final cup beside Irena.
+
+No single action solved the topology. Together they reduced the emergency from immediate to survivable.
+
+Atlas remained beneath the gate, muscles shaking under a role he had not accepted permanently. Pixel returned from the wall with half the cable and placed it on the floor where everyone could see.
+
+“I broke the agreement,” she said.
+
+Atlas’s first answer was anger. His second came after Borscht completed another breath.
+
+“Yes.”
+
+He did not turn the admission into permission to own her next decision.
+
 The floor cooled.
 
 The water stopped.
+
+Borscht’s breathing became shallow. Emil counted each breath aloud from the other side.
 
 The Hearth had locked out its own inhabitants rather than tolerate an entrance it could not classify.
 
@@ -6170,11 +6506,21 @@ The Hearth had locked out its own inhabitants rather than tolerate an entrance i
 
 The solution began with Borscht.
 
+It began after twenty-three minutes of survival without resolution.
+
+Atlas held the central weight. Tomas and Irena stopped the water loss. Pixel’s severed bypass prevented further contraction. Nika had medicine. Vale had food. Emil still could not touch Borscht.
+
+The System continued offering three complete answers. Mriya continued finding no shared route inside any of them.
+
 He did not understand primary profiles. He understood that Emil was visible and unreachable. After exhausting barking, scratching, and allegations against architecture, he lay down at the boundary.
+
+His anger ended before his need did. He placed his nose against the line and breathed toward Emil. Emil matched the rhythm from the other side.
 
 Emil lay down opposite him.
 
 Neither asked to control the gate. They wanted one path between two specific bodies.
+
+The distinction changed what Mriya smelled. Primary profiles began with a category and forced bodies to fit it. Borscht and Emil began with two bodies and one agreed purpose.
 
 Mriya followed that scent.
 
@@ -6182,11 +6528,23 @@ She placed Borscht’s cloth rabbit at the boundary. Emil put his lavender handk
 
 A narrow opening warmed between them.
 
+It was not a door. It existed only along the line between the two markers and only while both inhabitants sought the same crossing. The command frame tried to classify it, failed, and released one claw grip rather than the whole tunnel.
+
 Borscht walked through.
+
+Emil caught him, checked his ribs, and discovered the deepest injury was an opinion about tunnels. Borscht pressed his face into the lavender handkerchief, then returned the rabbit to his mouth.
+
+The opening cooled but did not vanish entirely. A trace remained where reciprocal need had altered the boundary.
 
 The System had not authorized it. The Hearth had recognized it.
 
-Mriya went to Nika. Her own collar remained around the iron housing; Nika’s photograph lay beside it. Mriya pushed the collar toward the human side. Nika understood and placed the photograph against the boundary.
+Mriya went to Nika. Her own collar remained around the iron housing; Nika’s photograph remained inside Nika’s coat after she withdrew it from the Hearth. Mriya pushed the collar toward the human side.
+
+Nika took out the photograph and held it without placing it on the iron circle.
+
+“This is a design marker,” she said. “It does not restore private access.”
+
+Mriya waited until Nika touched the paper to the boundary herself.
 
 “A door for us?”
 
@@ -6194,23 +6552,95 @@ Mriya shook her head. Then she pointed her nose toward Irena, Tomas, Vale, Pixel
 
 “A door for each agreement,” Nika said.
 
+The phrase was incomplete but usable. They did not need a unique door for every pair. They needed separate routes whose authority came from the people using them rather than one profile governing all movement.
+
+Irena drew four columns on the expansion wall: ordinary entry, small-body entry, defended entry, emergency release. Tomas added width, load, hinges, and failure direction. Pixel added a fifth row called what happens when the obvious plan is wrong.
+
+Atlas remained beneath the command brace until they could replace its weight. His objection had not disappeared. Neither had the evidence that his temporary system had prevented every assembly injury before Pixel’s bypass.
+
 They dismantled the central frame.
+
+They did it in an order Atlas chose.
+
+Tomas supported the human hinge. Irena isolated the live cable. Mriya and Pixel pulled low fasteners through the drain. Nika read the written sequence aloud because speech still coordinated humans even when it no longer carried canine intention. Emil kept Borscht outside the contraction zone. Vale held the medicine, food, and three bolts he claimed had rolled into his pocket.
+
+The command gate released Atlas last. He stumbled when its weight stopped recognizing him. Mriya caught one shoulder. He accepted the help without calling it command.
 
 Atlas objected until Mriya asked whether a gate that trapped its guard was command or decoration. He answered by carrying the heaviest brace.
 
+“It worked,” he said while they moved it.
+
+Mriya did not deny that.
+
+“Until one route disagreed.”
+
+“Every route will disagree eventually.”
+
+“Then no route can be the whole door.”
+
+Atlas carried the brace to the east wall, where it could support a guarded entrance without becoming the centre of the settlement.
+
 Tomas separated the human handle from the lock. Irena gave each route a manual release connected to the old sanitation line. Pixel returned the stolen cable and installed it as a low alarm wire. Emil marked the accessible path with strips of cloth. Vale negotiated his own release from the new room by surrendering the food crate before anyone opened it.
+
+No contribution worked on the first attempt.
+
+Tomas removed the lock and discovered the handle depended on its housing for support. The door sagged until Nika suggested turning the command brace sideways as a lintel. It held weight without recognizing authority.
+
+Irena connected all manual releases to one pipe, then cut the connection when Pixel pointed out that one broken main would disable every exit. She divided them between mechanical cable, pressure latch, and paired electrical contacts.
+
+Pixel’s first alarm wire opened the low route whenever anyone stepped on it. Borscht crossed successfully. So did the food crate when Vale dropped it. Pixel added a direction loop and a deliberate paw plate.
+
+Emil’s cloth marks were visible to humans and meaningless in darkness. Mriya rubbed each with a different safe scent. The markers then served eyes, noses, and hands following a wall.
+
+Vale refused to surrender the entire crate until Nika reminded him the food already carried a bakery obligation. He surrendered control of it, retained one pastry by agreement, and used the empty metal straps as hinge brackets.
 
 They built four entrances.
 
 A wide ramp for people, large dogs, tools, and anyone injured.
 
+The first ramp was too steep. Tomas could carry the filter frame down it, but Emil could not descend while holding Borscht. Mriya’s hip slipped on the smooth plate. Nika tested the incline by pushing the loaded tool crate with one hand and stopping at the point where control became weight.
+
+They lengthened the ramp into the new room, losing part of the dry work platform. Tomas cut cross-grips for boots. Pixel added low side strips for paws. Nika walked it carrying a cup filled to the rim. Mriya climbed without her hip giving way. Emil descended with Borscht in both arms while Borscht objected to the premise but not the result.
+
+The ramp cost space and granted passage without a class check.
+
 A low tunnel for small dogs that opened from either side.
+
+Pixel designed its turn around the drain route the command brace had nearly sealed. Her first version fit her and trapped Borscht at the shoulders. Borscht refused a second test until Tomas widened the bend using a section from the canine module.
+
+The widened tunnel admitted Mriya too, but not Atlas. They raised one section. Atlas could crawl if injured; in ordinary use he preferred the ramp. A mechanical flap opened under pressure from either direction. The low alarm wire warned the Hearth before the flap moved and remained visible enough to repair.
+
+Pixel installed a bypass beside the latch, then declared it on the map. A hidden route had become a shared exception without ceasing to be clever.
 
 A guarded east door whose authority ended when the guard stepped away.
 
+This entrance faced Rook’s line and therefore needed refusal as much as access. They reused the command recognition plate without its permanent profile. Any member standing on the guard mark could hold the door, see an approaching threshold warning, and open or deny the latch. When the guard stepped away, authority ended and the door returned to the house rules.
+
+Atlas tested it first. The gate responded to his posture and offered permanent recognition again. He stepped off the mark. The offer vanished. Nika stood there next; the door gave her the same temporary control. Pixel stood there and discovered guard authority did not include ownership of everyone’s wire.
+
+Wrench approached from the east. Atlas let Nika choose whether to open. Nika asked Irena about pressure, Mriya about scent, and Pixel about the low alarm. Only then did she release the door.
+
+Guarding became a task someone performed, not a species or identity.
+
 An emergency panel that required two different members to press its releases.
 
+The first pair of releases sat at human shoulder height. Pixel could reach neither. The second placed one low and one high, which meant two small dogs could not open it together. Irena objected that an emergency system requiring the correct body types was another profile in disguise.
+
+Tomas built two vertical rails with movable contacts. Each release could slide from paw height to hand height. The panel required pressure on different rails within three breaths, so one long body could not hold both by stretching. Vale attempted with a broom and proved objects could fake membership. Pixel added scent plates that required two recognized inhabitants, while Irena preserved a mechanical override visible behind breakable glass for a future failure of the System.
+
+They tested human and human, dog and dog, and mixed pairs. Each combination opened the boundary and announced which route had released. No private history opened with it.
+
 No entrance served everyone equally. Together they allowed everyone through.
+
+They ran the morning failures again.
+
+Tomas moved the filter housing down the ramp while Nika took medicine beside the warm circle. Emil carried water without crossing the valve map. Wrench delivered an east warning through the guarded door while sleepers remained undisturbed. Pixel crossed the low tunnel during every test because she considered repeated verification a form of celebration.
+
+Then Irena blocked each entrance in turn.
+
+With the ramp closed, humans used the emergency panel and dogs used the tunnel. With the tunnel closed, Pixel could use the ramp and complain about distances. With the east door locked, the western and emergency routes remained. When the emergency panel failed, no ordinary route changed.
+
+The network did not prevent exclusion. It prevented one exclusion from becoming universal.
 
 Mriya presented the structure to the Hearth.
 
@@ -6220,21 +6650,79 @@ Mriya presented the structure to the Hearth.
 >
 > Exclusion failure reduced.
 
+Mriya opened the cost before accepting.
+
+> [ACCESS NETWORK PROJECTION]
+>
+> Independent ordinary routes: 3
+>
+> Paired emergency route: 1
+>
+> Current Supply balance: 7
+>
+> Supply expenditure: 0
+>
+> Expansion service efficiency: 91%
+>
+> Single-control lockout exposure: 0
+
+The standing Supply remained seven. The loss would recur through the expanded room: nine percent less heat, recovery reach, water throughput, and converted value from work performed there. The standard profiles offered full service because each reused one path for every body.
+
+Four routes required four sets of hinges, warnings, releases, and empty space. Redundancy consumed capacity even when no one moved.
+
+Mriya presented the terms separately. Nika read the numbers. Tomas checked whether 91% still kept the filter platform dry. Irena calculated that water recharge would lengthen from twelve pipe knocks to thirteen. Emil asked whether the far sleeping corner would remain warm enough for Borscht. Pixel asked whether zero lockout exposure included deliberate theft. It did not.
+
+They accepted one by one.
+
+Acceptance included maintenance. Tomas took weekly responsibility for the ramp hinges until he trained a second person. Pixel and Borscht would test the low flap from both sides each morning. The active guard would inspect the east release at every change. Irena and one rotating member would test the emergency panel without opening private histories.
+
+Vale offered to coordinate the schedule. Nika wrote it herself and left blank spaces for refusals.
+
+Four entrances did not distribute responsibility automatically. Without repeated work, redundancy would become four different ways to fail.
+
 The water returned.
+
+It returned after thirteen knocks.
+
+The east-line release came one knock later. Wrench answered from the far side with two deliberate strikes: pressure received, salt absent. Their slower network still completed the promise to Rook.
 
 Warmth spread across the old room and into the new one. Boundaries softened. Emil and Borscht crossed the low tunnel together, though Emil had to crawl and later denied doing so.
 
+Warmth reached the expansion floor but not its outer corners. The repair platform stayed dry. The far sleeping niche remained cool enough that Borscht rejected it and the market dog accepted it. Minor recovery operated along the ramp and central floor, not inside every route.
+
+The nine percent was not a symbolic moral fee. It shaped where they could sleep, how long water took, and how much future work the System would recognize.
+
 Nika opened the ramp and walked outside. She returned without looking at Mriya for permission.
+
+She carried her photograph inside her coat. The design use had not restored it as a Hearth marker. The ramp opened because membership and mechanics recognized her, not because Bond had returned.
 
 Atlas tested the east door. It obeyed while he stood guard and released when he left.
 
+He tested the delay by stepping away during opening. The door stopped without trapping the crossing body, then became available to the next member on the mark. He ran the test until the System stopped offering permanent authority.
+
+“Less efficient,” he said.
+
+“Yes,” Mriya replied.
+
+He looked at the four routes, the displaced work platform, and Borscht moving freely beside Emil. “Functional.”
+
 Pixel tested every route and found only the emergency panel impossible to open alone.
+
+She tried a paw and her nose, two paws, the broom, a loop of wire, and Vale holding the second release without agreeing to an emergency. The panel rejected the first four and accepted the last only after Vale gave a separate recognition.
+
+“He is easily influenced,” Pixel said.
+
+“I participated in quality assurance,” Vale replied.
 
 “Defective,” she said.
 
 “Successful,” Irena replied.
 
 Mriya stood where the central gate had been.
+
+The floor retained a pale outline of its efficient shape. Nothing occupied it now. Traffic divided before reaching the centre: tools toward the ramp, small bodies toward the tunnel, east visitors toward a temporary guard, emergency access toward two decisions.
+
+The empty outline cost them speed. It also meant no inhabitant had to remain there so everyone else could move.
 
 The Hearth no longer had one front door.
 

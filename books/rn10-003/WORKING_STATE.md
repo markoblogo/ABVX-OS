@@ -11,7 +11,7 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 53,235 words by `wc -w` against the 84,600-word architecture.
+- Current manuscript count: 58,550 words by `wc -w` against the 84,600-word architecture.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
@@ -19,13 +19,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Chapters 16–18 passed the membership gate at 6,783 tracked words against a 7,000-word target, within 3.1%; Act II is complete.
 - The authoritative Supply sequence is now 8 - 1 + 11 - 4 - 1 - 2 = 11 across chapters 16–27.
 - Chapters 19–21 passed the Bond Treatment gate at 6,550 tracked words against a 6,900-word target, within 5.1%.
-- Story architecture is complete; chapters 22–36 expansion, developmental editing and line editing remain required.
+- Chapters 22–24 passed the plural-access gate at 6,653 tracked words against a 7,100-word target, within 6.3%.
+- Story architecture is complete; chapters 25–36 expansion, developmental editing and line editing remain required.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Expand chapters 22–24 toward 7,100 words total. Make crowding and operational need justify expansion, render the Human, Canine and Command modules physically incompatible, let Atlas's imposed order succeed before it fails, and build four negotiated entrances through prototypes whose redundancy has a measurable 9% cost.
+Expand chapters 25–27 toward 7,000 words total and complete the Act III gate. Establish how the human food enters shared inventory, make Borscht and Pixel's mistake causally fair, exhaust safe responses before spending 4 Supply, give Vale a motivated route to the prohibited medical Cache, then force a species-specific resource vote that closes the ledger at 11.
 
 ## Continuity anchors
 

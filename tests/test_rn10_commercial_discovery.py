@@ -124,9 +124,9 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["status"], "EXPANSION_E3_CHAPTERS_19_21_BOND_GATE_PASS")
+        self.assertEqual(progress["status"], "EXPANSION_E3_CHAPTERS_22_24_ACCESS_GATE_PASS")
         self.assertEqual(progress["draft_words"], len(manuscript.split()))
-        self.assertEqual(progress["expanded_chapters"], list(range(1, 22)))
+        self.assertEqual(progress["expanded_chapters"], list(range(1, 25)))
         self.assertEqual(progress["chapters_drafted"], 36)
         self.assertIsNone(progress["next_chapter"])
         self.assertEqual(manuscript.count("# Chapter "), 36)
@@ -139,6 +139,10 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertIn("The System treated the reaching body as updated consent.", manuscript)
         self.assertIn("The settlement had lost an efficient bridge because the bridge was also a person.", manuscript)
         self.assertIn("The limit hurt and made the return credible.", manuscript)
+        self.assertIn("Assembly speed +22%", manuscript)
+        self.assertIn("Expansion service efficiency: 91%", manuscript)
+        self.assertIn("Single-control lockout exposure: 0", manuscript)
+        self.assertIn("The network did not prevent exclusion. It prevented one exclusion from becoming universal.", manuscript)
         self.assertIn("Opening balance: 8", manuscript)
         self.assertIn("East-water exchange: -1", manuscript)
         self.assertIn("Current Supply balance: 7", manuscript)
@@ -176,8 +180,8 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
             "REJECTED_AFTER_E1_PILOT",
         )
         gate = expansion["expansion_progress"]
-        self.assertEqual(gate["expanded_chapters"], list(range(1, 22)))
-        self.assertEqual(gate["chapter_actual_total"], 46316)
+        self.assertEqual(gate["expanded_chapters"], list(range(1, 25)))
+        self.assertEqual(gate["chapter_actual_total"], 52969)
         self.assertLessEqual(abs(gate["target_variance_percent"]), 4)
 
 
