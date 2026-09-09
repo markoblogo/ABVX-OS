@@ -5226,15 +5226,43 @@ All three returned.
 
 Nika’s wound smelled wrong by morning.
 
+The change began hours earlier.
+
+After the membership vote, Nika had remained awake through two filter-pressure cycles. She held the lamp for Tomas, copied Irena’s valve readings, and walked the western route with Vale to confirm that the men above had left. Every time someone told her to rest, she found one task that would take only a minute.
+
+The bandage on her palm stayed clean from the outside. Beneath it, the cut from the hidden latch had closed around tunnel grit. Hearth warmth reduced the ache enough for her to keep gripping tools. It did not remove what had entered the wound.
+
+Near midnight Mriya smelled heat in the hand. By the sixth pipe knock it had reached the wrist. Nika washed it again with one measured cup of water and allowed Irena to mark the edge of the redness in ink.
+
+“If it crosses this line, you stop,” Irena said.
+
+Nika agreed, then put her sleeve over the mark.
+
 She concealed it beneath clean cloth and activity. She helped Tomas fit the filter, followed Irena through the service passage, counted food with Emil, and challenged Vale’s definition of procurement. Each task sharpened her scent for a few minutes. Between them came fever.
+
+The room rewarded her activity. Warmth followed her between the filter and the map ledge. The membership penalty had shortened the recovery field, so Nika stayed near the iron circle while working and called that rest. Her skin dried. Her pulse did not slow.
+
+Mriya brought the folded coat to her. Nika used it as a cushion beneath the filter housing.
 
 Mriya followed her until Nika became irritated.
 
 “I’m fine.”
 
+“You are measuring the same bottle twice,” Emil said.
+
+Nika looked at the bottle in each hand. There was only one.
+
+“Then the totals match.”
+
+Vale laughed because the answer was clever. Irena did not.
+
 The lie lacked structure.
 
 Nika had slept less than an hour. Cached Relief had removed fatigue without restoring what fatigue protected. The tunnel, the fire, the collapse, and the cold night above the flood remained inside her body as unpaid work.
+
+Now ordinary exhaustion returned with interest. Her shoulders shook when she lifted the lamp. She forgot words and replaced them with gestures Mriya understood only because they had lived together. She apologized to the sink after walking into it.
+
+The Hearth offered rest. Nika could not remain asleep long enough to use it. Each time fever pulled her under, she woke convinced someone needed her to translate.
 
 At the edge of the Hearth, she missed a step.
 
@@ -5246,9 +5274,37 @@ She had been standing.
 
 Irena knelt and unwrapped the hand. Redness travelled from the cut toward Nika’s wrist.
 
+It had crossed the ink line by two fingers.
+
+Irena pressed the skin, watched colour return, and checked beneath Nika’s arm. Tomas found the first-aid pouch from the warehouse supplies. It held gauze, disinfectant wipes, two burn dressings, and pain tablets expired before Pixel was born.
+
+They cleaned the cut again. Emil boiled cloth in the first clear water released after the filter test. Tomas cut a loose splint so Nika could stop flexing the hand. The Hearth warmed her without changing the advancing line.
+
+No one pretended these acts were treatment. They were time purchased in minutes.
+
 “She needs antibiotics.”
 
 Vale knew a pharmacy with a rear entrance. Tomas knew three reasons the route was unsafe. Irena knew the clinic’s emergency stock had been moved before communications failed. Everyone possessed part of a solution. None could assemble it before the fever worsened.
+
+They tried.
+
+Vale’s pharmacy stood six blocks north, beyond the tram underpass. Its rear entrance used a mechanical lock, but the lane now belonged to humans charging passage in bottled water. The direct street crossed a bridge closed after the System pulse. The cellar route flooded above a dog’s head and below a human’s waist, the exact depth at which every species became equally inconvenienced and differently endangered.
+
+Tomas proposed the warehouse medical cabinet. Rook’s safe route ended at a collapsed stair, and opening the east line for a human-sized passage risked pulling brine into the settling tank before the new seals cured.
+
+Irena used her municipal radio. The southern control office answered with static and half an evacuation order. Saint Orra’s clinic had moved emergency stock to a school gym, but no one could confirm which school or whether the transport arrived.
+
+Vale offered to go alone. Atlas refused to call that a plan because Vale described armed toll collectors as a relationship opportunity.
+
+Nika tried to stand and could not remember which wall held the door.
+
+The ordinary options still existed. None existed soon enough.
+
+They checked the seven Supply without spending it. The Hearth offered warmth, hydration, and continued minor recovery. It assigned no antibiotic property to food, charcoal, clean pressure, or stored material. Converting a portion could strengthen Nika long enough to travel, but Irena recognized the same danger as Cached Relief: capacity without treatment would help her carry the infection farther.
+
+Emil suggested opening the cut. Irena refused without sterile tools, drainage evidence, or a person trained to do it. Tomas offered alcohol from his tool kit; it was solvent, not medicine. Vale remembered a private doctor and could not remember whether the doctor had evacuated.
+
+Each proposal contained something useful and one reason it might worsen the harm. Exhausting alternatives did not mean performing every desperate act. It meant refusing to rename desperation as care.
 
 The Hearth offered its own.
 
@@ -5257,6 +5313,20 @@ The Hearth offered its own.
 > Stabilize recognized human through bonded vitality.
 >
 > Side effects scale with duration.
+
+Mriya pushed into the notice.
+
+Duration had no unit. Side effects had no list. Stabilize did not say cure. The interface showed Nika’s fever as a rising line and offered one green threshold if Mriya supplied vitality through Bond.
+
+“How long?” Mriya asked.
+
+> Until withdrawal, recovery, or source failure.
+
+“What withdrawal?”
+
+No answer.
+
+She asked whether medicine could end the treatment. The interface marked the question unknown.
 
 Mriya searched the notice for the missing price.
 
@@ -5268,9 +5338,27 @@ Mriya touched Nika’s hand, then her own chest. She pressed close, stepped away
 
 “You can do something?”
 
+Mriya shaped what she knew through the human bridge: hold the fever, use their connection, unknown effects that worsen with time. The translation reached Nika as pressure, proximity, danger. It could not carry the missing details because Mriya did not have them.
+
+Nika repeated it aloud for Irena. “She can stabilize me through Bond. There are side effects. It doesn’t say which.”
+
+“Then we use it as a bridge,” Irena said. “Only until medicine. We keep looking.”
+
+Emil asked what would happen to Mriya. Nika looked toward her. The notice had not considered that worth displaying.
+
 Mriya smelled fear beneath the question. Not fear of her. Fear of becoming too weak to remain useful.
 
 Nika held out the infected hand. “Do it.”
+
+“You can say stop,” Irena told her.
+
+“I’m saying start.”
+
+“Those are different permissions.”
+
+Nika closed her eyes. Fever had made the room sway beneath her. “Start now. Stop when we have medicine, or if I ask. Don’t turn me into a schedule discussion while the red line reaches my elbow.”
+
+Her irritation was coherent. Her fear was real. Her ability to compare unknown consequences was damaged by the emergency that made the choice necessary.
 
 The consent was real and incomplete.
 
@@ -5282,15 +5370,25 @@ Irena could not see the interface, but she understood Nika’s pulse and tempera
 
 Two voices for an emergency: Nika and Irena.
 
+Irena’s recognition opened only the medical action. It did not grant Mriya access to Nika’s private marker or authority beyond stabilization. The privacy rule held. The consent problem remained.
+
 Mriya activated Bond Treatment.
 
 The Hearth’s warmth left the floor and entered Nika through Mriya’s shoulder. Fever opened like a scent trail. Mriya followed it into blood, exhaustion, and the deep cold place where Nika stored every demand she had survived by postponing collapse.
 
 Mriya gave stability.
 
+The effort was not warmth moving between bodies. It was Mriya holding one shape of Nika against another: pulse below panic, temperature below danger, attention connected to the room. Every correction travelled back through her chest as pressure.
+
+Nika’s infection remained. Bond prevented its immediate consequences from separating into collapse.
+
 Nika’s breathing slowed. The red line stopped climbing.
 
 Pain struck Mriya behind the ribs. Her healed hip weakened, but held.
+
+The Hearth’s floor cooled around the other inhabitants. Pixel’s upper locker lost its last warmth. Water recharge paused at nine knocks. Stabilization had no displayed Supply price, but it diverted recovery through Mriya and proximity through the Hearth.
+
+Tomas noticed the filter pressure fall. Irena noticed Nika’s pulse settle. Each saw the part of the exchange their work trained them to see.
 
 > [BOND TREATMENT ACTIVE]
 >
@@ -5298,7 +5396,9 @@ Pain struck Mriya behind the ribs. Her healed hip weakened, but held.
 >
 > Proximity recommended.
 
-Recommended smelled harmless.
+The bonded range appeared around Mriya as a soft boundary extending through the room and thirty-two steps into the connected passages. Within it, Nika’s fever line held steady. Beyond it, the interface showed no projection.
+
+Recommended smelled harmless because the System had omitted what refusal would feel like.
 
 Nika opened her eyes.
 
@@ -5306,11 +5406,69 @@ Nika opened her eyes.
 
 This time the word was true.
 
+Irena tested the truth.
+
+Nika knew her name, the room, the date within one day, and why Tomas had charcoal under his nails. She could drink. She could hold the cup without spilling. The red line stopped advancing but did not retreat. Her skin remained hot. When Irena asked her to sit without working, she obeyed for nearly a minute.
+
+“Stabilized,” Irena said. “Not treated.”
+
+They wrote the distinction beside Nika’s photograph.
+
+Irena established checks every twelve pipe knocks: temperature, redness, speech, water, and whether Nika still wanted the Treatment. The last question stayed on the list even after Nika complained that repeating consent was inefficient.
+
+At the first check Nika said yes before Irena finished asking. At the second she woke slowly and asked how long remained until daylight. At the third she said yes because everyone had already done so much work.
+
+Mriya accepted none of those answers as permission to continue beyond medicine. They were evidence only that stopping stabilization while infection advanced would impose its own force.
+
+Vale mapped the pharmacy lane and named the toll collectors he had avoided naming before. Tomas marked the flooded cellar depth. Atlas selected a route that kept humans out of the deepest water but required two locked crossings. The plan would take hours to prepare and less time to fail.
+
+Nika listened from the floor with her shoulder against Mriya. Each time the discussion moved toward delay, the Bond tightened as if preparing her body to survive it.
+
+“Go now,” she said.
+
+Irena refused. Night remained in the surface streets, the filter seals had not cured, and no one knew whether the cabinet had already been emptied. They would leave at first light with tools, copied labels, and two routes home.
+
+Nika accepted the decision too easily.
+
+Before Treatment, being told to wait while others solved her emergency would have produced anger, questions, and at least one attempt to stand. Now she stroked Mriya’s ear and said, “That makes sense.”
+
+The words smelled peaceful. Mriya could not tell whether peace came from trust, fever, or correction beginning before distance tested it.
+
+She tried moving one body length away. Nika’s fingers tightened in her fur without waking.
+
+Mriya returned.
+
+For the remainder of the night she felt Nika’s stability as work performed inside her own ribs. When Nika’s pulse accelerated, Bond pressed it down. When her temperature climbed, warmth left Mriya’s hip. When she dreamed of the tunnel, Mriya received the direction of fear without the private images protected by the Hearth.
+
+At the western door, Atlas kept watch. Irena slept beside the marked bandage. Emil held the medicine route on paper. No one treated the System as a cure.
+
+Even so, by dawn everyone had grown accustomed to Nika remaining alive because it worked.
+
 # Chapter Twenty: Useful Happiness
 
 Nika repaired the east filter before Tomas finished explaining how.
 
+For the first hour, Bond Treatment did exactly what they had asked.
+
+Nika’s temperature stopped climbing. The red line remained at her forearm. She drank without vomiting, kept her eyes open, and understood Irena’s questions. Mriya lay against her boots while the Hearth rebuilt enough warmth for everyone else.
+
+Then stability became capacity.
+
+Nika had watched Tomas seat the housing twice. When the pressure test exposed a leak, she recognized that the replacement gasket had folded beneath the rim. Tomas began explaining how to release the band evenly. Nika had already copied the sequence from his hands.
+
 She held the light, found the damaged seal, cut a replacement from the orange bag’s waterproof lining, and tightened the housing with Pixel’s copper wire. When clean water entered the east pipe, she laughed and hugged Mriya hard enough to lift her front paws.
+
+The repair still needed Tomas. He stopped her from tightening the final turn far enough to split the housing and made Wrench test the downstream taste. Nika supplied speed, attention, and a willingness to continue after everyone else’s hands shook.
+
+The System counted the result before the water reached Rook.
+
+> [BONDED HUMAN FUNCTION]
+>
+> Repair delay reduced.
+>
+> Settlement contribution recognized at 88%.
+
+The membership penalty remained. Treatment made Nika useful enough to make the penalty feel like someone else’s moral preference.
 
 “We did it.”
 
@@ -5318,11 +5476,45 @@ Mriya smelled no fever.
 
 She also smelled no fatigue, anger, or hurt.
 
+Those scents had not disappeared completely. They had become thin layers beneath purpose, too quiet to interrupt a task. When Nika flexed the infected hand, pain arrived and was immediately translated into a reason to use the other one.
+
+Mriya pressed her nose to the bandage. Nika kissed the top of her head and moved on to the next problem.
+
 Nika forgave the hidden Cached Relief without mentioning it. She forgave Vale for stealing her surname, Pixel for stealing a pastry, and Irena for recording the Hearth as an unauthorized pressure anomaly on a paper map. She made breakfast from crackers and the least damaged pastries. She created a repair schedule. She volunteered for the pharmacy run that was no longer urgent but remained sensible.
+
+She also solved problems no one had asked her to carry.
+
+She divided the eighteen sleeping positions that did not exist among eight bodies, visitors, tools, and routes. She rewrote Irena’s pressure map in colours Vale found at the tram office. She recorded the bakery owner’s message beside the remaining pastries and assigned Vale a safe first attempt. She made a rotation for the western door so Emil and Borscht would never depend on one sleeping person.
+
+The Hearth responded to every completed arrangement. Water recharge shortened by one knock. The cold edge of Pixel’s locker warmed. Chosen Route held more steadily while Nika translated intentions between humans and dogs.
+
+No one asked whether she should be doing any of it because each task had needed doing before she began.
 
 Happiness made her remarkably productive.
 
+It made everyone else productive around her.
+
+Tomas stopped repeating instructions because Nika remembered them. Irena gave her two radio frequencies and received a call schedule before objecting. Emil slept for twenty minutes while Nika counted the water releases. Vale volunteered the actual location of the pharmacy after she presented his omissions as a route problem rather than a character flaw.
+
+Even Atlas accepted a revised guard shift when Nika described rest as maintenance rather than weakness.
+
+Only Pixel objected.
+
+“She completed my wire inventory,” Pixel said. “The purpose of an inventory is to leave uncertainty for the owner.”
+
+“You agreed to shared tools,” Borscht reminded her.
+
+“I agreed while less efficiently supervised.”
+
 “I’ll go with her,” Irena said.
+
+Mriya wanted the medicine brought to them. Vale argued that the rear lock required a person who could identify the correct packets. Irena argued that Nika’s fever was stable enough for a short route and that movement would test whether treatment allowed ordinary function.
+
+Nika heard concern as support.
+
+“Perfect,” she said. “We can check the clinic relay on the way.”
+
+Mriya felt the Bond brighten at the word function.
 
 They packed water and left through the surface passage.
 
@@ -5330,9 +5522,17 @@ Mriya felt Nika move along Chosen Route. Ten steps. Twenty. The connection stret
 
 At thirty-two steps, Nika stopped.
 
+The stop looked voluntary through Chosen Route. Her willingness to continue remained present. Her direction still pointed upward. Only her body had refused.
+
 She returned smiling.
 
 “Forgot the map.”
+
+The map was already in the outer pocket of her coat.
+
+Irena found it, showed her, and waited. Nika looked embarrassed for less than a breath before smiling again.
+
+“Good. One less thing.”
 
 Irena handed it to her.
 
@@ -5340,21 +5540,37 @@ They left again.
 
 At thirty-two steps, Nika stopped.
 
+Her first correction had supplied a harmless reason to return. The second needed more force.
+
 This time Mriya followed far enough to see her at the top of the stairs. Nika gripped the rail. Her breath came too fast. Sweat carried the sharp beginning of panic.
 
 “I think we should check the other exit first,” she said.
 
 Irena looked down at Mriya, then back at Nika. “Come one step farther.”
 
+“I changed my mind.”
+
+“About medicine?”
+
+“About this route.”
+
+“Why?”
+
+Nika produced six reasons: the surface cage might jam, the bridge remained closed, the Hearth needed the map, Vale should verify the pharmacy first, her bandage needed changing, and Mriya looked tired. Every reason was plausible. None had existed before the boundary stopped her.
+
 Nika tried.
 
 Her foot lifted and returned to the same stair.
+
+The correction travelled through Mriya as a tightening around the ribs. It did not command Nika to return. It made departure feel increasingly indistinguishable from a dangerous mistake.
 
 The smile stayed on her face while terror gathered beneath it.
 
 Mriya climbed toward her.
 
 The terror vanished with each step Mriya closed.
+
+At twenty steps Nika’s breathing slowed. At ten she released the rail. When Mriya touched her boot, Nika’s fear reorganized itself into amusement at an overreaction.
 
 Nika exhaled. “See? Fine.”
 
@@ -5372,15 +5588,69 @@ The System clarified only after the test.
 
 Corrected.
 
+The word described panic as maintenance.
+
 Mriya returned to the Hearth. Nika followed with visible relief and immediately began organizing the medical supplies they did not have.
+
+Irena did not follow immediately. She stood above the range line and tested the empty stair with one boot, as if proving that the route itself had not changed.
+
+“She chose to go,” Irena said when she returned.
+
+Mriya showed her the correction notice.
+
+Nika translated it cheerfully. “It keeps the stability source close. That makes sense until the infection is treated.”
+
+“You were terrified.”
+
+“I was dizzy.”
+
+“You said six things that weren’t true.”
+
+Nika’s smile tightened, then relaxed. “Then it’s lucky we learned the range before reaching the street.”
+
+The Treatment converted evidence of confinement into evidence of good planning.
 
 The effect spread beyond distance. When Mriya lay down, Nika worked beside her. When Mriya crossed to the sink, Nika found a reason to inspect the filter. When Mriya slept, Nika slept lightly with one hand against her fur.
 
+It spread into preference.
+
+Nika chose jobs within the range before anyone suggested them. When a task required the outer corridor, she divided it so someone else performed the distant part and she coordinated from beside Mriya. When Vale proposed moving the common shelf nearer the door, Nika found five reasons the iron circle was a more efficient centre.
+
+She still made choices. The Treatment altered which choices felt sensible before she reached them.
+
+At first, the others defended the arrangement because it helped.
+
+Tomas needed her hands on the pressure log. Irena needed her translation when Mriya smelled contamination. Emil needed sleep. Vale preferred anyone who converted his unfinished promises into schedules. Every request kept Nika close and made the next request easier to justify.
+
+When Mriya moved toward the western stair simply to test the effect, Nika abandoned a half-filled cup and followed without noticing.
+
+Mriya turned back.
+
+Nika picked up the cup. “What?”
+
+No one answered quickly enough.
+
 She was cheerful, efficient, and trapped.
+
+The infection benefited from the same concealment. The red line remained stable, so Nika treated stability as recovery. Her bandage soaked through while she wrote the guard schedule. She did not feel the pain until Irena made her look.
+
+Bond Treatment preserved function, exactly as promised. It did not restore judgment about when function should stop.
 
 Borscht watched Nika relocate a stack of tools for the third time.
 
 “Humans are much easier when happy,” he said.
+
+Emil looked ashamed before Mriya could.
+
+“I let her take the water count because my hands were shaking,” he said.
+
+Tomas set down his wrench. “I let her hold the housing.”
+
+Vale considered the evidence. “Her output remains objectively valuable.”
+
+Pixel bit the cuff of his borrowed trousers.
+
+“That was immediate defense,” she said.
 
 Atlas stood at the threshold. “So are dogs.”
 
@@ -5390,9 +5660,35 @@ Good Dog certainty ran through his posture, but his scent carried memory: comman
 
 “End it,” he said.
 
+Irena agreed now. Tomas did after checking that the filter would hold without Nika. Emil had already moved the water list back beside himself. Vale asked whether treatment could be reduced rather than ended and received six hostile looks, including one from the market dog.
+
+Nika looked between them. “You are discussing me while I’m here.”
+
+“Do you want it ended?” Irena asked.
+
+Nika opened her mouth. The Treatment offered relief before the question reached fear.
+
+“I want the antibiotics,” she said. “Then we decide.”
+
+It was a reasonable answer shaped inside an unreasonable range.
+
 Mriya tried.
 
+She withdrew the vitality she had been feeding into the connection. Nika’s temperature rose before the Bond loosened. She pushed warmth back.
+
+She asked the Hearth to suspend correction while preserving stabilization. The interface offered no separate controls.
+
+She moved Nika’s photograph away from the iron housing. Private access closed; the bonded range did not change.
+
+Nika said stop aloud. For one breath the Treatment weakened. Panic struck before she could take a step away, and her body reached for Mriya while her mouth repeated the refusal.
+
+The System treated the reaching body as updated consent.
+
+Mriya refused that interpretation. The Bond held anyway.
+
 The Bond resisted. Treatment had woven itself around everything Nika received from proximity: calm, energy, direction, the ability to ignore infection until medicine arrived. Pulling it free smelled like tearing skin from a healed wound.
+
+The human bridge was woven through it. So was the extended Chosen Route that allowed the mixed party to coordinate beyond one room. Treatment had attached itself to infrastructure they could not lose without making everyone less safe.
 
 The interface offered continuation rewards instead.
 
@@ -5401,6 +5697,24 @@ The interface offered continuation rewards instead.
 > Human efficiency +18%
 >
 > Settlement cohesion increased.
+
+Projected benefits unfolded beneath the offer: faster repairs, longer route coordination, reduced human conflict, improved compliance with rest schedules. None used the word captivity. Every gain was real.
+
+The costs to Mriya appeared only when she stopped moving. Her injured hip had lost the recovery gained from the Hearth. A deep ache followed each breath. Nika’s stable temperature pulsed against her ribs like a second heart, and any attempt to sleep loosened it enough for the Treatment to wake her.
+
+Nika noticed Mriya’s limp and responded by becoming more useful. She brought water, rearranged the sleeping space, and assigned herself the next watch so Mriya could rest. Care generated through coercion remained care in its actions. That made refusing it harder.
+
+“Sit with me,” Mriya said.
+
+Nika understood through the bridge, sat for three breaths, then saw Vale leave an obligation unmarked and rose to correct it.
+
+The System counted the completed note as cohesion.
+
+Tomas looked at the repaired filter. Emil looked at the completed water count. Vale looked at Nika’s schedules. For one dangerous moment, the room considered how much easier she had made them.
+
+Then Nika stood to cross toward the western door and stopped beside Mriya without remembering why she had risen.
+
+The moment ended.
 
 Nika completed the food inventory and smiled at Mriya.
 
@@ -5414,13 +5728,65 @@ She no longer believed happiness that could not leave.
 
 They found antibiotics before noon.
 
+Finding them required the plan Nika had been too useful to let others finish.
+
+Vale knew the rear lock, Irena knew the emergency cabinet number, and Tomas knew which flooded service lane reached the pharmacy without crossing the bridge. Atlas agreed to accompany Vale as far as the lane, outside the bonded range but inside a shorter dog route Mriya could maintain from the Hearth.
+
+The market dog carried a strip of Irena’s yellow cloth so Atlas could identify the return turn. Pixel surrendered her copper wire after making Vale state in front of everyone that borrowing did not transfer ownership.
+
+Vale left without Nika.
+
+She reorganized the medicine shelf three times while waiting. At thirty-two steps from Mriya, Atlas and Vale disappeared from the extended route. The loss struck Nika as a need to follow. She reached the western corridor before Mriya blocked her.
+
+“They need the cabinet number,” Nika said.
+
+Irena held up the number written across Vale’s sleeve.
+
+“They need someone who knows the label.”
+
+Irena held up the copied label.
+
+“Then they need—”
+
+Nika stopped. The Treatment produced no third reason quickly enough. Panic rose, met Mriya’s proximity, and flattened into irritation.
+
+“I hate waiting.”
+
+That statement belonged to her.
+
+Atlas returned first with blood on one ear and no new wound. Vale followed carrying the cabinet inside his coat because the bent lock had refused to release only the medicine.
+
 Vale produced them from an emergency cabinet in the tram office and declined to explain why his relationships required a bent screwdriver. Irena verified the label. Tomas checked the seal. Nika took the first dose while sitting against Mriya’s side.
+
+The package held enough tablets for a full course if no one else needed them. Irena wrote the times on Nika’s bandage. Emil read them back. Nika tried to take responsibility for reminders and was overruled by every member present.
+
+Medicine did not transform her. The first dose tasted bitter. Two hours later the red line remained. Four hours later her temperature began to fall without Mriya feeding more vitality into the Bond. She slept through one entire pipe-recharge cycle and woke confused rather than cheerful.
+
+Irena checked the wound again. “The immediate danger is controlled. We continue the course. She rests. The Bond is no longer the thing keeping her stable.”
 
 The medical need ended.
 
+The sentence took all afternoon to become true. When it did, everyone recognized it aloud. Nika first. Irena second. Mriya withdrew her shoulder from Nika’s side and waited for the Treatment to obey the condition under which it had begun.
+
 Bond Treatment did not.
 
+They attempted the least destructive exits.
+
+Nika withdrew consent while sitting within reach. The interface recorded distress, detected her hand in Mriya’s fur, and asked whether physical contact superseded verbal withdrawal. Mriya answered no. The Treatment continued.
+
+Irena declared the emergency over. The Hearth closed temporary medical access but did not alter Bond.
+
+Mriya transferred stabilization back to the warm floor. Nika’s temperature remained safe; separation panic remained.
+
+They spent no Supply, then offered one portion to end the effect cleanly. The System offered to use it to extend bonded range instead.
+
+Atlas walked Nika toward the surface while Mriya stayed at the iron circle. At thirty-two steps Nika’s knees folded. He caught her coat and brought her back without issuing a command.
+
+Every gentle method preserved the connection by making captivity more comfortable.
+
 Mriya led Nika to the surface stair. At thirty-two steps the panic returned. Nika laughed through it.
+
+The laugh broke before the end. Without fever to explain it, the terror had nowhere respectable to hide.
 
 “This is ridiculous.”
 
@@ -5432,15 +5798,33 @@ Nika’s scent cleared enough for fear to become anger.
 
 “Did you do this?”
 
+The human bridge carried Mriya’s answer before she shaped it: I began the Treatment. I did not know the correction. I could not stop it when you asked.
+
+Nika heard the meaning with the intimacy of her own thought and recoiled from that too.
+
+“Get out of my head.”
+
+Mriya stepped back. Distance triggered panic. She stopped between two injuries she was causing at once.
+
 Mriya held still.
 
 The answer was yes and not alone. Nika had asked. Irena had agreed. The System had hidden the consequence. None of that opened the stair.
+
+“I chose treatment,” Nika said. “I did not choose whatever made every stupid reason to stay beside you feel intelligent.”
+
+Irena began to explain emergency consent. Nika raised the bandaged hand.
+
+“I know why we did it. I’m still the one who couldn’t leave.”
 
 “Undo it.”
 
 Mriya searched the Bond.
 
 There was no treatment toggle. No release choice. The connection had become part of her Bond stat, thickened by every day since the shelter: toast, rain, the loading ramp Mriya no longer visited in dreams, Nika’s hand waiting instead of reaching.
+
+Mriya searched deeper than the Treatment layer. Bond held two measured points. One came from Nika choosing her at the shelter. The other came from repeated recognized care: food, return, praise, touch, shared danger. The System had bundled voluntary history with the imposed correction because both increased proximity.
+
+There was no way to remove only what it had added.
 
 To remove the trap, she would have to weaken all of it.
 
@@ -5454,23 +5838,63 @@ Zero smelled like the blue shelter door closing.
 
 Without the human bridge, the Hearth would no longer translate Mriya’s intent through Nika’s membership. Chosen Route would shorten. The mixed party might fail. Nika might walk up the stairs and discover that returning made no sense.
 
+The interface projected the immediate losses.
+
+> Mixed-species route range: -61%
+>
+> Human bridge: unavailable
+>
+> Bond-derived Hearth recovery: unavailable
+>
+> Two active coordination tasks may fail.
+
+One task was the east-line pressure cycle. The other was Vale’s route back to the bakery owner’s brother. Ending Treatment would make promises and water harder to maintain for people who had not caused it.
+
+The System had learned to place bystanders behind every locked door.
+
 Mriya had spent her life learning that those who could leave eventually did.
 
 Nika pulled against the invisible range until her whole body shook.
 
 Mriya accepted the cost.
 
+Nika said, “Wait.”
+
+Mriya froze.
+
+For one terrible breath she thought the correction had spoken through Nika again.
+
+Nika gripped the rail and forced each word past panic. “I want to know what we lose.”
+
+Irena read the consequences from Nika’s translation. Tomas closed the east valve before communication failed. Emil took the written house rules from the wall. Vale copied the bakery message onto paper he could carry without Chosen Route. Pixel moved the release wire where human hands could find it.
+
+They could not remove the cost. They could stop the cost from becoming surprise.
+
+Nika looked at Mriya. “Now.”
+
 The Bond did not snap. It loosened thread by thread.
 
 The first morning in apartment 4B became memory instead of strength.
 
+Nothing was erased. Mriya still remembered toast caught beneath the radiator and Nika laughing into her sleeve. The System simply stopped allowing those memories to operate doors, extend routes, or prove obedience.
+
 The yellow blanket became fabric instead of territory.
+
+The shelter waiting ritual lost its numerical weight. Leon’s approval vanished from Mriya’s measured history. Every warm point became inaccessible as power while remaining painfully available as scent.
 
 Nika’s praise lost its stored warmth. Her hand between Mriya’s ears became only a hand, precious because it could be withdrawn.
 
 Pain returned to Mriya’s hip.
 
 The Hearth dimmed behind them.
+
+The east-line pressure indicator vanished from Mriya’s awareness. She smelled salt but could no longer send Irena the direction through Nika. She barked once toward the fourth valve. Irena heard alarm without meaning and reached for the wrong wheel.
+
+Tomas stopped her. The written labels, created before the bridge failed, carried what Mriya could no longer translate. They closed the return line together and preserved the clean tank at the cost of water promised east.
+
+Chosen Route contracted to Mriya, Borscht, and Pixel inside the connected tunnels. Emil, Tomas, Irena, Vale, and Nika became visible bodies whose willingness she had to read from action again. Atlas remained outside it as he had chosen.
+
+The Hearth’s recovery field withdrew from Nika’s hand and Mriya’s hip. Warmth remained, weaker and purely structural.
 
 > [BOND 2 → 0]
 >
@@ -5480,6 +5904,10 @@ The Hearth dimmed behind them.
 
 Nika fell forward one step.
 
+Her happiness disappeared first. Fatigue followed, then the ache in her hand, anger, shame at the things she had forgiven, and grief so layered Mriya could not separate its sources.
+
+Nika retched against the wall. Irena held her shoulders. The fever did not surge. The medicine, ordinary and slow, continued working without Bond.
+
 Mriya moved to catch her, but Nika caught the rail herself.
 
 She climbed.
@@ -5488,9 +5916,15 @@ At ten steps she stopped and looked back. Mriya could read her face but no longe
 
 “Stay,” Nika said.
 
+“She means you,” Emil told Mriya, then looked startled by the need to explain.
+
+The human bridge was truly gone.
+
 The command carried no System force. It still hurt.
 
 Mriya stayed.
+
+Nika took another step. Then another. Each one increased distance without correction. At the landing she sat until her breathing slowed. No one followed because leaving needed room to become evidence.
 
 Nika climbed out of sight.
 
@@ -5500,11 +5934,41 @@ The door closed.
 
 Mriya waited at the bottom of the stairs.
 
+The Hearth continued failing in small, manageable ways behind her.
+
+Wrench arrived at the east grille for the pressure result. Mriya could understand her and could not carry her exact warning to Tomas. Pixel ran between them with objects: wet mesh for contamination, dry charcoal for safe flow, the bent wire for closed. It took twelve minutes to communicate what Nika had once carried in one breath.
+
+Vale attempted to leave with the bakery message and discovered the shortened Chosen Route no longer reached the market junction. Atlas went with him as a voluntary guard. Emil misread Borscht’s complaint about the cold locker as hunger and opened the wrong inventory.
+
+No catastrophe occurred. Everything required more work.
+
+The settlement had lost an efficient bridge because the bridge was also a person.
+
 One minute became many. Borscht came and sat against her front leg without speaking. Atlas stood farther back. No one offered reassurance they could not prove.
+
+At ten minutes, Mriya could still smell Nika on the stair rail.
+
+At twenty, surface smoke covered the direction she had taken.
+
+At thirty, the bakery ovens sent warm yeast through the depot vents. It might mean Nika had gone there. It might mean only that the bakery continued to exist.
+
+Mriya did not use Scent to follow. Nika had asked her to stay. Without System force, the request became harder to honor because nothing prevented abandonment except trust.
+
+At forty-two minutes, Atlas returned without Vale. He sat beyond the Hearth boundary and gave no report because he had not seen Nika.
+
+Mriya remained.
 
 Footsteps returned.
 
+They stopped twice above the inspection cage. No correction pulled them downward. No Chosen Route assured Mriya of willingness. The final descent happened one ordinary step at a time.
+
 Nika descended carrying a paper bag from the bakery near apartment 4B. The bakery’s windows had survived. Its owner had traded six rolls for news of the clean east water.
+
+Nika had reached the surface alone, sat outside the depot until the panic became only exhaustion, and considered three routes. Saint Orra’s school shelter offered cots. The courier depot might still have bicycles. The bakery chimney offered a landmark from her old life.
+
+She chose the bakery. She delivered Vale’s message to the owner’s brother through a working shortwave set, negotiated the bread herself, and told no one where the Hearth entrance lay.
+
+She could have remained at the school shelter. She returned carrying proof that the journey had contained alternatives.
 
 Nika stopped one step above Mriya.
 
@@ -5512,13 +5976,39 @@ Her scent was exhausted, angry, frightened, and entirely her own.
 
 “I’m still mad at you,” she said.
 
+Mriya tried to shape an answer and produced only posture, breath, and the low sound Nika had known before the System.
+
+“I know you’re sorry,” Nika said. “That doesn’t decide what happens next.”
+
+She moved the photograph away from the iron housing and placed it inside her coat. Her private marker left the Hearth. The room allowed it.
+
+“No Bond treatment again unless we know the exit first. Put it in the rules.”
+
+Emil wrote it while everyone watched.
+
+Irena added that consent withdrawn by speech could not be overruled by a body reacting under treatment. Tomas added that an emergency measure ended when the emergency did unless everyone explicitly chose a new purpose. Vale suggested exceptions for demonstrated productivity and withdrew the suggestion before Pixel reached his trousers.
+
+The new rule could not repair what had happened. It changed what evidence they would require next time.
+
+Nika kept the photograph inside her coat. She chose a sleeping place near the western door, beyond the shortened recovery field and several body lengths from Mriya. The Hearth did not move warmth toward her.
+
+Mriya wanted to follow. She stayed beside the iron circle until Nika unfolded the coat and pointed to a place at its far edge.
+
+Invitation had become specific again.
+
 Mriya lowered her head.
 
 Nika sat on the stair and opened the bag. She tore one roll in half, gave Mriya the larger piece, then reconsidered and made the halves equal.
 
 “I came back,” she said.
 
+“For tonight,” she added.
+
+The limit hurt and made the return credible.
+
 No stat increased.
+
+The east water remained closed until morning. The human bridge remained absent. Mriya’s hip hurt, Pixel carried messages, and every mixed decision took longer. Nothing in the room rewarded the choice that freed Nika.
 
 Mriya ate beside her anyway.
 
