@@ -47640,7 +47640,7 @@
       "opportunities_scanned": 0,
       "deep_scanned": 0,
       "production_authorized": true,
-      "status": "EXPANSION_E3_CHAPTERS_22_24_ACCESS_GATE_PASS",
+      "status": "EXPANSION_E3_ACT_GATE_PASS",
       "strategy": "candidate-generation-v5-commercial-first"
     }
   ],

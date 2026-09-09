@@ -11,7 +11,7 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 58,550 words by `wc -w` against the 84,600-word architecture.
+- Current manuscript count: 64,132 words by `wc -w` against the 84,600-word architecture.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
@@ -20,13 +20,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - The authoritative Supply sequence is now 8 - 1 + 11 - 4 - 1 - 2 = 11 across chapters 16–27.
 - Chapters 19–21 passed the Bond Treatment gate at 6,550 tracked words against a 6,900-word target, within 5.1%.
 - Chapters 22–24 passed the plural-access gate at 6,653 tracked words against a 7,100-word target, within 6.3%.
-- Story architecture is complete; chapters 25–36 expansion, developmental editing and line editing remain required.
+- Chapters 25–27 passed the species-resource gate at 6,670 tracked words against a 7,000-word target, within 4.7%; Act III is complete.
+- Story architecture is complete; chapters 28–36 expansion, developmental editing and line editing remain required.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Expand chapters 25–27 toward 7,000 words total and complete the Act III gate. Establish how the human food enters shared inventory, make Borscht and Pixel's mistake causally fair, exhaust safe responses before spending 4 Supply, give Vale a motivated route to the prohibited medical Cache, then force a species-specific resource vote that closes the ledger at 11.
+Expand chapters 28–30 toward 7,000 words total. Establish Sable's tribute system and Rook's conflicted enforcement role, develop the Bite Key from a tested mixed-species repair tool into a negotiated substitute for Supply, then use every entrance and rule during the municipal retrieval attack and earn Rook as a one-charge conditional ally.
 
 ## Continuity anchors
 

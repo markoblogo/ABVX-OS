@@ -4560,6 +4560,10 @@ Emil agreed. Borscht agreed after confirming breakfast still existed outside the
 
 Mriya confirmed.
 
+The Hearth asked whether human medicine could ever be used on dogs or canine resources on humans. An absolute division would have made the red-case item inaccessible one night earlier.
+
+They retained cross-species use only after two members identified an immediate need, checked available guidance, and recorded the transfer. Emergency did not make every item safe. It allowed an exception to be considered without quietly merging the inventories again.
+
 The sink released water into the dented flask. Nika filled it, watching the level stop by itself exactly below the rim. She carried it to the boundary.
 
 Rook did not take it.
@@ -6732,7 +6736,27 @@ It had choices with hinges.
 
 Vale’s crate contained twelve silver packets, six tins, four bars wrapped in red paper, and a jar of concentrated sweet spread.
 
+It had entered the Hearth during the access crisis, when everyone valued the fact that Vale had returned more than the route he had used.
+
+Now Nika made him disclose it.
+
+The crate came from a municipal evacuation store beneath the tram office. Vale had found the inventory through a bakery owner who once supplied emergency shelters. The outer door stood open. The inner cage remained locked. Vale persuaded a frightened clerk that Unit Four was an operating shelter and showed him Irena’s copied pressure map as evidence.
+
+“Did you say I authorized it?” Irena asked.
+
+“I said your map demonstrated operational continuity.”
+
+“Did he understand that sentence?”
+
+“He understood the raincoat stamp.”
+
+The clerk released one crate on condition that the Hearth report how many human evacuees it fed. Vale had promised a number later. He had not mentioned five dogs, a visiting Atlas, one market stray, or the warehouse line.
+
+The food was acquired through a real agreement with an obligation no one had yet accepted.
+
 The System counted it before anyone opened the first packet.
+
+Its scent classification arrived as one smooth layer: edible, sealed, caloric, convertible. Mriya could distinguish meat, grain, sugar, oil, and chemicals beneath it. The interface treated those differences as details of the same resource.
 
 > [HUMAN CONSUMABLE CACHE]
 >
@@ -6744,35 +6768,131 @@ The System counted it before anyone opened the first packet.
 >
 > Settlement efficiency available through unified rationing.
 
+The extra eleven portions assumed one pool, one conversion rule, and no loss from deciding which body could use which item. The 88% membership rate and 91% expansion service rate had already made every gain feel smaller. Unified rationing offered a way to recover efficiency without changing either principle openly.
+
+Vale liked it immediately. “A common inventory. Finally, something uncomplicated.”
+
+Pixel sniffed the System mark. “All food.”
+
+Mriya smelled food with differences. She could not translate ingredient names through Bond zero.
+
 Eighteen portions could keep the humans working while Tomas finished the filter and Irena reopened the surface water point. Unified rationing offered another efficiency reward if all food entered one shared pool.
 
 Nika read the labels.
 
+The silver packets were human ration meals. Four contained meat safe enough for dogs in small amounts; others carried onion powder or concentrated seasoning. The tins divided between fish, beans, and a processed spread whose label listed ingredients no one could pronounce quickly. The red bars contained cocoa. The jar was a calorie-dense sweetener intended for people who could not chew solid food.
+
 “Dogs can’t eat half of this.”
+
+“Which half?” Pixel asked.
+
+Nika held up items one by one and used the new storage map: open paw for dog-safe, flat hand for human-only, crossed wrists for unknown. Mriya repeated the categories through scent where she could. Borscht watched the food move farther away while breakfast remained mostly water and one shared tin.
+
+He had eaten less since the access build began. The 91% expansion field warmed work before storage, and every delayed water cycle postponed food preparation. Emil had shared his bread, but bread smelled like kindness rather than a dog ration. The new crate was the first abundance Borscht had seen since the flood.
+
+When Nika said half, he understood that some food was forbidden and some remained. He did not understand how to identify the boundary without a scent rule.
 
 The System did not revise its valuation.
 
+> Unified pool remains valid.
+>
+> Individual incompatibility does not alter settlement Supply.
+
+The word individual moved the danger out of the ledger and into whoever happened to eat it.
+
 Emil separated the safe tins. Tomas put the red bars on a high shelf. Vale argued that high shelves were a psychological concept in a room with Pixel.
+
+They had storage zones but no species rule yet. Human-only meant a handwritten label Nika could read and dogs could not. The scent marks were applied to shelves, not every item. Unknown items remained on the central table until Irena could check them.
+
+The jar lost its paper label when condensation loosened the glue. Irena placed it beside the unknown tins. Vale moved it while clearing space for Tomas. Pixel saw it arrive beneath the human-only shelf without receiving the crossed-wrist signal.
+
+Every person believed someone else had completed the classification.
+
+Mriya noticed the gap and went to the east door when Wrench sent a pressure change. She intended to return after one knock. The new network required attention at four entrances, and redundancy did not create four Mriyas.
+
+During that single absence, the second count began.
 
 They counted the food twice.
 
+On the first count, Vale read names, Nika recorded, and Emil marked the lower dog-safe bin with cloth carrying Borscht’s scent. On the second, Irena checked ingredients while Tomas moved sealed items to their shelves.
+
+Pixel discovered the high shelf remained reachable from the low tunnel frame. She climbed to prove Vale’s psychological concept correct. Borscht waited below because he had been told food would be shared after counting.
+
+The humans spoke rapidly about eleven Supply, reporting obligations, and whether one fish tin belonged in the dog bin. Bond zero left the dogs with tone, gestures, and the System’s single edible mark.
+
+Borscht asked whether the smooth jar was counted.
+
+Pixel saw it outside every marked zone. “Not yet.”
+
+“Then it may disappear before allocation.”
+
+Pixel understood the fear. Food outside a claim had vanished from her before. She did not want the jar for herself. She pushed it down so Borscht could hold it until the count included him.
+
+The lid had been loosened during inspection.
+
 The sweet spread vanished during the second count.
+
+No one noticed because the written total still matched eleven Supply.
+
+Mriya returned from the east door carrying Wrench’s safe-pressure signal. She smelled the missing jar before she saw the empty place. The common ledger remained complete, so the Hearth offered no warning and no location.
+
+She followed individual scent instead: Pixel’s paws along the shelf, Borscht waiting below, the sweetener smeared toward the lowest locker. Scent found what Supply accounting had declared unchanged.
+
+By the time she reached him, the jar had been open for four pipe knocks. That became the first reliable time in the medical call.
 
 Borscht lay beneath the lowest locker with the open jar between his paws.
 
+He had eaten less than half. The rest shone across the cloth rabbit, his chest, and the floor where he had tried to push the jar away after the first wrong taste. The sweetness concealed a bitter chemical edge beneath it.
+
+Pixel stood inside the low tunnel, still holding the loosened paper label.
+
 His muzzle shone. His tail moved weakly when Emil called his name.
+
+Borscht tried to answer. His legs moved without lifting him. The Hearth warning arrived only when his body failed, not when unified Supply entered an incompatible body.
 
 Then it stopped.
 
 The smell struck Mriya: artificial sweetness, stomach distress, fear moving rapidly into blood. Human food. Dog poison.
 
+The System continued displaying the jar as eleven-part inventory. Its contribution value did not fall when Borscht did.
+
 Emil dropped to his knees.
 
 “What did he eat?”
 
+Pixel carried the detached label to Nika. Nika matched its torn edge to the glue on the jar. Irena read the small print twice and found the birch-derived sweetener hidden beneath three other names.
+
+Emil reached toward Borscht’s mouth. Irena stopped him.
+
+“We call someone before we improvise.”
+
 Nika grabbed the jar. Irena read the ingredients and swore. Tomas cleared the room around Borscht. Their voices became fast and human, full of knowledge Mriya could not enter with Bond 0.
 
+They slowed because speed without shared understanding had helped create the error.
+
+Nika drew the jar, then a crossed dog. Irena wrote the ingredient on the municipal radio card. Tomas cleared the low route and opened the ramp in case they needed to carry Borscht. Vale ran to the surface relay while Emil kept Borscht on the cloth rabbit and counted breaths.
+
+The first radio answer was an evacuation loop. The second was a human nurse who recognized the ingredient and said they needed veterinary guidance. The third came from someone at the school shelter who had once worked at Saint Orra’s animal clinic.
+
+The voice asked Borscht’s weight, the amount missing, the time, and whether he remained conscious. No one knew the exact time because the ledger had counted Supply instead of the moment the jar moved.
+
+They followed only the safe holding instructions the voice could give remotely. The specific treatment required equipment and canine medicine stored in a clinic transport that had not reached the school.
+
+Vale knew another cache in the tram office.
+
+He said nothing yet.
+
 The Hearth offered a canine assessment.
+
+Before accepting it, Mriya tested the ordinary resources around them.
+
+Water could clean Borscht’s fur and prevent more of the spread entering his mouth. It could not remove what was already in blood. Hearth warmth could reduce shock and support breathing. Minor recovery marked the poisoning as ongoing input and refused to repair against it.
+
+The human ration packets contained no suitable medicine. Nika’s antibiotics were wrong. Irena’s first-aid pouch was wrong. Tomas’s supplies were wrong. The school voice remained on the radio and could tell them when Borscht worsened without changing what happened next.
+
+Wrench ran east to ask the warehouse dogs. Rook sent back the location of a veterinary storefront above flood level. Its shutters were sealed and its stock unknown.
+
+Every safer route required more time than Borscht’s breathing offered.
 
 > [MEMBER FAILURE: CANINE]
 >
@@ -6780,23 +6900,83 @@ The Hearth offered a canine assessment.
 >
 > Alternative: release claim and recover 1 Trace
 
+The System priced two different futures.
+
+Four Supply would hold a member whose usefulness it classified as canine. Releasing him would convert his death into one reusable unit of information. Neither option promised cure.
+
+The current balance of eighteen contained the food that poisoned him. Spending four meant losing nearly a quarter of their counted survival to resist a danger the same count still called valuable.
+
+Mriya looked at the inhabitants who could not see the choice. Emil understood only that Borscht was failing. Nika saw Mriya’s stillness and recognized an interface decision. She placed four fingers against the floor, then pointed to Borscht.
+
+Mriya confirmed with one paw.
+
+Irena kept the radio beside his head. “If it buys time, buy time.”
+
+Emil did not ask the price. “He is not inventory.”
+
 Release claim smelled like letting Borscht die efficiently.
 
 Mriya chose stabilization.
 
+The choice required two confirmations because four Supply exceeded the Hearth’s ordinary single-action threshold.
+
+> Confirm: -4 Supply / stabilize current failure / cause not removed.
+
+Mriya accepted again.
+
 Four of the eighteen portions vanished from the System’s count. Warmth concentrated beneath Borscht but did not cure him. It held his breathing unevenly while Irena used the old municipal radio to reach someone who understood the label.
+
+The expansion corners went cold. Water recharge slowed beyond thirteen knocks. The east line closed automatically to preserve pressure. Four portions became time under Borscht’s body and absence everywhere else.
 
 Emil pressed both hands around Borscht without squeezing.
 
 “He didn’t know.”
 
+“I showed him,” Pixel said from behind the locker.
+
+Emil looked at her. His grief produced anger before words. Pixel did not retreat into the tunnel.
+
+“You showed him food,” Mriya said.
+
+“I showed him how to reach it.”
+
+“Did you know?”
+
+Pixel shook so hard the paper label rattled between her teeth. “I knew humans put food where dogs cannot take it. I did not know food could be wrong after the System called it Supply.”
+
+Responsibility remained. Blame did not need to become ownership either.
+
 Pixel crouched behind the locker. She had not stolen the jar. Her scent said she had shown Borscht how to reach the shelf.
 
 “I thought food was food,” she whispered.
 
+Borscht’s eyes opened at her voice. He moved one paw toward the jar and stopped before touching it.
+
+“I thought counted meant shared,” he said.
+
+The error belonged to a missing species rule, a detached label, a unified interface, human assumptions, hunger, and Pixel’s decision. None removed the others.
+
 So had the System.
 
 The shared pool remained valued at fourteen portions. The safe dog tins and the poisonous sweet spread still carried the same Supply mark.
+
+Vale looked from Borscht to the red emergency symbol on Irena’s radio card.
+
+“The tram cabinet,” he said.
+
+Irena turned. “What cabinet?”
+
+“The one the clerk would not open.”
+
+“Why?”
+
+“Registered emergency personnel only. Red case. Medical lock.”
+
+The school voice asked whether they had a particular canine stabilizer. Irena repeated the name. Vale recognized nothing except the possibility that a medical case might contain it.
+
+“You stay,” Nika told him. “We plan a route.”
+
+Vale looked at the low, uneven movement of Borscht’s chest. Planning had become another word for time.
 
 Mriya watched Borscht shake against the warm floor.
 
@@ -6808,9 +6988,37 @@ It meant the differences were cheaper to ignore.
 
 Vale left while everyone watched Borscht.
 
+He left after Nika told him to stay.
+
+For seven minutes he obeyed. He repeated the red cabinet location, described the tram office, and admitted that the emergency cage had a second lock connected to a municipal alarm. Irena began drawing a route. Tomas searched for insulated tools. Atlas asked who guarded the office.
+
+Vale answered each question until the radio voice said Borscht’s next decline might come before a team crossed the flooded underpass.
+
+Then he placed the tram-office key beside Nika, waited until everyone looked toward a change in Borscht’s breathing, and took it back.
+
+He did not ask Mriya because Bond zero prevented her from locating him once he left the room. He did not ask Atlas because Atlas would refuse an untested solo route. He did not ask Nika because she had already answered.
+
+The choice belonged entirely to him.
+
+It was not entirely generous.
+
+Vale had brought the food under an obligation he shaped to fit. He had watched Pixel accept blame and Emil refuse to convert Borscht into Trace. If the red case contained what the dog needed, Vale could repair the damage and prove his usefulness at once. He understood both motives and selected the version easier to carry.
+
 He returned through the ramp carrying a red metal case chained to one wrist. Smoke followed him. So did the hidden scent Mriya had first found beneath the municipal depot: intentional concealment, sharp and folded.
 
+Mriya smelled his route backward.
+
+He had crossed the tram shed while smoke from a failed generator filled its roof. The clerk who released the food crate had abandoned the office after the alarm began. Vale used the borrowed access card on the outer cage and Pixel’s wire on the mechanical cabinet.
+
+The wire opened the first catch and triggered the second.
+
+A chain deployed from inside the cabinet, intended to secure the case to an emergency worker’s belt. Vale clipped it around his wrist because the handle had locked and the smoke left no time to understand the mechanism. When he pulled, the cabinet released the case and sent a silent claim through the municipal line.
+
+On the return stairs, a fire door closed between him and the dry route. He crossed the generator room instead. Heat burned his sleeve. Smoke took the air he needed to climb. The wide ramp admitted him while unconscious because they had built it for anyone injured.
+
 Vale reached the Hearth boundary and collapsed.
+
+The shared warning arrived one step before his body struck the ramp. It identified rapid entry and bodily failure. It could not say whether the chained case was medicine, danger, or both.
 
 The case struck the floor outside.
 
@@ -6820,6 +7028,14 @@ Nika ran to him. Tomas pulled him across the threshold. Irena found a burn along
 
 “Procurement,” Nika said.
 
+The word carried no humor this time.
+
+Pixel found her copper wire twisted inside the case lock. Vale had taken it from the declared tool shelf after asking no one. Her scent moved toward anger, then stopped at the burn along his arm.
+
+“Borrowing still requires return,” she said.
+
+“He returned attached,” Borscht whispered from the warm floor.
+
 The red case opened under Mriya’s Scent.
 
 > [PROHIBITED MEDICAL CACHE]
@@ -6828,17 +7044,55 @@ The red case opened under Mriya’s Scent.
 >
 > Claiming constitutes resource diversion.
 
+The concealment was administrative rather than physical. The case had been visible behind glass. Its intended users, contents, and removal alarm were hidden behind authorization the System recognized as ownership.
+
+Mriya opened the warning.
+
+> Source authority retains retrieval claim.
+>
+> Unauthorized use will disclose Cache location.
+>
+> Approved options: surrender / preserve registered responder / assign to recognized human authority.
+
+None addressed the member failing beside it or the dog it had been taken to help.
+
 Bad Dog offered Fear Claim. Good Dog offered retrieval for a recognized handler. Stray offered no approved use.
+
+Fear Claim would make the case hers because its custodians feared losing it. Good Dog retrieval would return it through a human who counted as authority. Both paths made the medical contents available only by accepting someone else’s ownership logic.
+
+Stray provided the ability to refuse and no protection from the consequence.
 
 Vale stopped breathing.
 
+Nika checked his pulse. Irena opened the burned shirt. Tomas reached for the case and the chain tightened around Vale’s wrist.
+
+The Hearth offered to spend one Supply to preserve him before anyone had identified the medicine. Borscht still consumed four portions of stabilization across the room.
+
+Mriya waited one breath for an ordinary alternative. Irena attempted the compact mask visible through the case window. The lock refused her municipal card because she was infrastructure staff, not registered emergency personnel. Tomas tried the physical hinge. It carried current from the alarm line.
+
+One breath ended.
+
 Mriya claimed the Cache anyway.
+
+She chose no offered ownership path. She placed Stray recognition on the immediate reciprocal obligation: Vale had risked his life to bring a possible aid for Borscht; the Hearth now owed action to the member at its door.
+
+The System rejected the reasoning and accepted the physical claim.
 
 The chain fell open. Nika saw compartments of sealed medicine and a compact resuscitation unit. Irena knew which pieces mattered. Tomas connected power from the Hearth. Their hands worked while Mriya held the claim against the System’s refusal.
 
+The radio voice identified one sealed canine-compatible item by its markings. It might help Borscht after Vale breathed. Every other useful compartment served human bodies first.
+
+Emil stared at it while Nika and Irena worked over Vale. Saving Vale was also the fastest path to the medicine his dog needed. The moral comparison and the practical one refused to separate.
+
 One pulse passed through Vale.
 
+The expansion lights dimmed. Supply did not move yet; the case used stored charge.
+
 Then another.
+
+The charge failed. Tomas connected the Hearth lead. The System demanded the one portion it had projected before releasing recovery warmth into Vale.
+
+Mriya confirmed.
 
 He drew breath with a violent cough.
 
@@ -6854,9 +7108,19 @@ The System counted.
 >
 > Pack productivity retained. Favor +1.
 
+> Unauthorized Cache diversion recorded.
+>
+> Retrieval claim transmitted.
+
 One portion.
 
+The balance moved from fourteen to thirteen. Borscht remained on four portions of active stabilization. Vale returned fully to breathing after one and generated a reward because his projected work survived.
+
 Borscht had cost four merely to remain in danger. Vale’s return earned Favor.
+
+The difference could not be explained by body size. Vale was larger. It could not be explained by medicine: the case supplied most of his recovery, while the Hearth spent four to hold Borscht against poison. The notice named the distinction directly—dependent human asset, canine member failure.
+
+Membership had changed their rules. It had not changed the System’s valuation beneath them.
 
 Mriya smelled the comparison as clearly as blood.
 
@@ -6864,11 +7128,73 @@ Nika sat back against the wall. “He went for medicine.”
 
 The red case held supplies a human clinic could use and almost nothing marked safe for dogs. Vale had risked himself because the radio voice said Borscht needed help the Hearth could not provide.
 
+Irena opened the one canine-compatible packet only after the school voice confirmed it. The Hearth did not count that item as significant Supply. Emil administered nothing until the instructions were clear. When the item entered Borscht’s support, his breathing steadied enough for the four-portion field to stop escalating.
+
+It did not wake him.
+
+Emil looked from the sealed packet to Vale’s motionless body. Gratitude and anger occupied him together. The man had ignored a direct refusal, stolen a tool, activated pursuit, and carried the only compatible aid they had found.
+
+“If he wakes,” Emil said, “I will thank him. Then I will be furious.”
+
+Nika adjusted Vale’s dressing. “That is allowed.”
+
+Useful outcomes did not require clean motives. Harmful methods did not erase the life they helped preserve. The Hearth would have to hold both facts without converting one into the other.
+
+The remaining contents created another decision. Returning the case might reduce the retrieval claim, though Irena could not guarantee an automated authority would recognize voluntary return after unauthorized use. Keeping it offered wound dressings, human medicine, and one empty slot where the canine-compatible item had been.
+
+Emil wanted it kept until Borscht woke. Tomas wanted the power cell disconnected from the municipal line. Irena wanted an exact inventory and a sealed path for return. Vale wanted everyone to notice he was not proposing anything.
+
+They did not claim the contents as ordinary Supply. They placed the case behind the two-member emergency panel and recorded every opening. The chain remained outside as evidence of origin.
+
+Containment did not cancel the transmitted location. It made their response reviewable when retrieval arrived.
+
 His act was foolish, useful, and his own.
+
+Nika sat beside Vale when he woke long enough to cough.
+
+“I told you to stay.”
+
+“You did.”
+
+“That wasn’t unclear.”
+
+“No.”
+
+“Why?”
+
+Vale looked toward Borscht. “Because I knew where the cabinet was.”
+
+It was the first answer he gave without turning motive into a relationship.
+
+It was not an acquittal.
+
+When Vale could sit, Nika placed the melted wire, stolen access card, and red case before him. She listed the rules he had broken: ask before taking, disclose obligations, allow refusal, do not create a hidden route that others must rescue.
+
+“If the case saved Borscht, would that make the route acceptable?” Vale asked.
+
+“It would make the result useful,” Nika said. “You still made everyone else pay for a choice they rejected.”
+
+Vale looked at Mriya. “You understand deciding before permission.”
+
+The hidden Cached Relief moved through the room without Bond carrying it. Mriya held his gaze and did not defend either of them.
+
+Vale accepted loss of independent procurement until another member reviewed his routes. He would repair Pixel’s wire, report the food crate honestly, and help Irena map the retrieval signal he had activated.
+
+“Temporary?” he asked.
+
+“Until trust changes through evidence,” Nika said.
+
+The phrase could mean improvement or decline. Vale signed it anyway.
+
+Pixel recovered the melted wire and did not call the debt settled.
 
 The System reduced it to preserved productivity.
 
 Pixel stood beside Borscht. “Is he worth four of Vale?”
+
+Nika heard only the small dog’s questioning sound. Mriya recreated the comparison with portions on the floor: four beside Borscht, one beside Vale, Favor beside the human.
+
+Understanding moved across the room without the human bridge. Tomas stopped adjusting the power lead. Irena looked at the case designation. Emil looked at every ration the System still called unified.
 
 Atlas answered before Mriya could.
 
@@ -6878,17 +7204,71 @@ Atlas answered before Mriya could.
 
 No one knew.
 
+Mriya tested the valuation with questions the interface answered indirectly.
+
+If Vale lost the ability to procure, his preservation value fell. If Borscht gained warning or tracking functions, his stabilization cost remained four. If Atlas became a permanent guard, his failure cost increased because territory depended on him. The System priced bodies by their relationship to output and control, then called the result neutral.
+
+It had not decided humans were sacred. It had decided productive dependents were cheap to preserve and canine members expensive to repair.
+
+The red case knew where it belonged.
+
+A pulse left its broken lock, travelled into Irena’s old municipal return line, and moved toward the surface network. Mriya followed it through Scent until it passed beyond the Hearth. Something distant answered: not a person, but an authorization system recording location, asset, and unauthorized user.
+
+Irena saw a red indicator wake on her access card.
+
+“Retrieval protocol,” she said. “If any municipal unit still follows those signals, they know the case is here.”
+
+Her access card showed no destination name, only three stages: locate, isolate, recover. Unit Four now occupied the locate stage. The next response might be an automated lock, a human team, or another System claimant using municipal authority as a class.
+
+Irena tried to acknowledge custody. The card rejected her department. She tried to report emergency use. The network accepted the report and retained the retrieval claim. She disconnected the case power cell; the red indicator continued on stored charge.
+
+“We cannot make it unseen,” she said.
+
+Mriya smelled the outgoing route. It followed the same municipal lines that carried clean water, warnings, and the Hearth’s first signal. Closing every connection might conceal the case and would also blind the settlement.
+
+They chose preparation over disappearance. Atlas inspected the four entrances. Tomas marked where the red chain could be displayed before anyone crossed the boundary. Nika placed the radio log beside it. Evidence would not stop force. It would prevent the Hearth from needing Vale’s version of events as its only defense.
+
+Vale had brought help, a debt, and a future attack through the same ramp.
+
 Mriya spent the new Favor on nothing.
 
+The interface offered uses. Favor could reduce Vale’s recovery time, increase his willingness to disclose routes, or soften Irena’s objection to retaining the case. Each option would turn the System’s preference for human productivity into influence over the humans who had just exposed it.
+
+Mriya closed every offer.
+
 She wanted no profit from the measurement.
+
+The Favor remained available. Refusal did not erase where it came from.
 
 # Chapter Twenty-Seven: Different Rules
 
 Borscht survived the night.
 
+Survival required everyone the unified ledger had failed to distinguish.
+
+Emil counted breaths and refused sleep. Irena kept the radio open through static. Nika recorded the time of every change. Tomas maintained power to the warm floor. Pixel carried water from the sink because she was the only dog small enough to use the low tunnel without forcing people to step over Borscht.
+
+Mriya held the four-portion stabilization and smelled each unit working: one against falling temperature, one against failing breath, one against the poison’s continuing damage, one preserving the narrow space in which ordinary care could matter.
+
+Vale lay in the next zone under one portion of recovery, breathing evenly enough to snore.
+
+No one blamed him for surviving efficiently. No one could stop seeing the comparison.
+
 The radio instructions, Hearth warmth, and one dog-safe item from the red case carried him through. By morning he could lift his head. By noon he objected to breakfast portions, which Emil accepted as a medical milestone.
 
+The school voice warned that improvement did not make the remaining human rations safe. Irena wrote the instruction in words. Mriya asked for a form every dog could read.
+
+They placed the empty sweetener jar at the centre of the room and reconstructed its path.
+
+Vale described the evacuation agreement. Nika described the labels. Irena described the unknown table. Tomas admitted moving items beneath the wrong shelf. Pixel described the climb and the jar she pushed down. Borscht described the System mark and waiting for his share.
+
+Emil described assuming a high shelf was a rule.
+
+The account contained no single moment when everyone possessed enough information to prevent the mistake. It contained six moments when someone believed classification belonged to another person.
+
 Vale woke later and asked whether his heroic procurement had improved his membership status.
+
+His burned arm was dressed. The red case remained inside a chalk boundary near the emergency panel, visible to the municipal retrieval signal and inaccessible without two members. Pixel’s copper wire lay beside it, returned with a melted end.
 
 “You stole emergency medicine,” Irena said.
 
@@ -6898,13 +7278,51 @@ Vale woke later and asked whether his heroic procurement had improved his member
 
 “That established sincerity.”
 
+“It established a location for whoever owns that case,” Irena said.
+
+The red indicator on her access card still blinked every forty breaths.
+
+Vale’s smile weakened. “Then we should decide whether returning it kills the dog.”
+
+The one canine-compatible item had been used. Returning the rest would reduce the retrieval claim and remove human medicine the settlement might need. Keeping it protected future members and invited the authority that classified its use as theft.
+
+They added that choice to the resource debate rather than letting urgency decide it alone.
+
 Nika laughed once before remembering she remained angry with several people and one dog.
 
 They placed every consumable in the expansion room.
 
+The wide ramp allowed the inventory to move without crossing Borscht’s recovery area. The low tunnel let Pixel inspect dog-safe storage from both sides. The 91% expansion service rate kept the outer shelves cold and dry, useful for medicine even while it cost warmth elsewhere.
+
+Redundancy had become the infrastructure that allowed them to separate what unified accounting had confused.
+
 Human food went on marked shelves. Dog-safe food went into sealed floor bins. Shared water remained shared. Medicine received two inventories: intended species and actual emergency use. Pixel proposed a third inventory called edible despite labels. The proposal failed.
 
+Words alone were insufficient. Human-only shelves received a smooth metal edge and the scent of bitter orange. Dog-safe bins used rough cloth carrying Borscht’s and Pixel’s accepted marks. Unknown items went behind the paired emergency panel with no edible scent. Every individual package received the same marker as its zone so a detached label could not erase classification again.
+
+Pixel asked who could open the dog bins.
+
+“Dogs,” Nika said.
+
+“Without asking?”
+
+“Within the ration agreed for the day.”
+
+Pixel considered a rule that restricted quantity without making humans permanent food authorities. “Acceptable for a first draft.”
+
 Mriya presented the distinction to the Hearth.
+
+The interface read the separate piles and immediately tried to simplify them.
+
+> Assign unified ration authority?
+>
+> Recognized human custodian may prevent incompatible distribution.
+>
+> Efficiency preserved. Current Supply: 13.
+
+The System offered to solve species risk through ownership by a careful human. Emil could control Borscht’s food. Nika could control Mriya’s. One responsible person could protect dogs who could not read labels while keeping all thirteen portions.
+
+After the night they had survived, the offer was attractive.
 
 The System resisted.
 
@@ -6914,9 +7332,53 @@ The System resisted.
 >
 > Confirm species-specific rules?
 
+It supplied three paths.
+
+Unified authority kept thirteen Supply and assigned final ration control to one human custodian.
+
+Discarding every incompatible or unknown item reduced the balance to nine and removed most medical flexibility.
+
+Species-specific law kept distinct inventories, retained emergency cross-use through two members, and charged two Supply for lower conversion efficiency.
+
+There was no path that preserved all resources, independent access, and safety.
+
 Separate rules would cost them. Fewer System portions from the same food. Slower facility growth. Less strength when Rook or Sable returned.
 
+Rook’s clean-water trade had already made the Hearth visible. The red case had transmitted its location. Spending two now meant meeting the next demand with eleven instead of thirteen.
+
+Tomas argued for unified authority first.
+
+“We mark the food, Emil controls the dog bin, and we keep the reserve. Procedures can solve this without burning supplies.”
+
+Emil looked at Borscht. “I would do it.”
+
+Mriya believed him. That was why the choice was difficult.
+
+Vale supported him because the city outside did not refund moral expenses. “Thirteen buys more mistakes than eleven.”
+
+Irena pointed to the jar. “The procedure failed before anyone broke it. The shared value never warned the animal consuming it.”
+
+Nika opposed making care into permanent authority. “Emil should protect Borscht. That doesn’t mean the room should classify Borscht’s food as Emil’s decision.”
+
+Atlas remained at the visitor line. “Separate stores create separate weakness. An enemy learns which one to take.”
+
+Pixel answered, “One store created one mistake everywhere.”
+
 Unified rules had almost converted Borscht into Trace.
+
+They voted with physical tokens because Bond zero no longer carried every meaning.
+
+Nika placed three bolts on the floor for the options. Humans marked a choice on paper and placed it beside a bolt. Dogs carried their private or declared markers: Mriya’s collar tag, Pixel’s repaired wire, Borscht’s rabbit, Atlas nothing because he remained a visitor.
+
+Emil began beside unified authority. Before the count, Borscht pushed the rabbit toward species-specific law.
+
+“You would still feed me,” he told Emil. “I would also know which food is mine.”
+
+Emil moved his paper.
+
+Tomas kept his vote with unified authority. Vale joined him. Irena and Nika chose separation. Pixel chose separation and surrendered unsupervised inventory access until she learned every new scent mark. Mriya chose separation last.
+
+The decision did not require unanimity. It required that those losing efficiency remain able to leave. Tomas and Vale recorded their objection and stayed.
 
 Mriya confirmed.
 
@@ -6926,25 +7388,109 @@ Mriya confirmed.
 >
 > Unsafe conversion blocked. Cross-species use requires two-member emergency approval.
 
+> [SUPPLY RECONCILIATION]
+>
+> Opening Hearth balance: 8
+>
+> East-water exchange: -1
+>
+> Human consumable Cache: +11
+>
+> Borscht stabilization: -4
+>
+> Vale preservation: -1
+>
+> Species-specific conversion: -2
+>
+> Available Supply: 11
+
 The thirteen portions became six human portions, four canine portions, and one shared medical reserve. Two portions disappeared into the cost of admitting reality.
+
+The System removed value before moving objects. No tin vanished. No packet grew lighter. Two portions ceased to be convertible because safe categories prevented the Hearth from treating every calorie, chemical, and medicine as interchangeable.
+
+The six human portions could no longer stabilize a dog by default. The four canine portions could not be spent to increase human work output. The shared medical reserve required a recorded purpose rather than a species label.
+
+They tested the law before trusting it.
+
+Pixel carried one silver human packet toward the dog bin. The Hearth marked incompatibility before she crossed the rough cloth boundary and offered no unified edible scent. She returned it without anyone taking it from her.
+
+Nika carried a dog-safe tin toward the human shelf. The System allowed storage and blocked conversion into human productivity. Objects could move. Their values no longer followed the most efficient recipient automatically.
+
+Irena and Emil opened the emergency panel together and presented a remaining human dressing for possible canine use. The Hearth required the radio note, intended purpose, and two separate confirmations. It did not declare the dressing safe. It allowed them to record a guided exception if one became necessary.
+
+The rules created warning and friction. They did not manufacture expertise.
 
 > [SUPPLY LEDGER UPDATED: 11]
 
 No one celebrated.
 
+The practical work continued.
+
+Irena sealed the remaining red case and copied its contents without assuming the intended species guaranteed actual use. Tomas mounted the unknown cabinet beside the emergency panel. Nika made paired symbols for every inventory. Emil prepared Borscht’s ration from an item the radio voice had confirmed. Pixel watched and named each scent before touching the bin.
+
+Vale wrote the evacuation clerk’s obligation on the wall: report actual human meals, do not count dogs as people fed, do not erase dogs from resources used. The statement would satisfy no municipal form. It described what happened.
+
+Tomas and Vale recorded their dissent beside the final ledger. Keeping disagreement visible cost nothing the System measured. It prevented the majority decision from becoming a story in which everyone had always agreed.
+
+Atlas asked which inventory fed visitors. The answer required a fifth line: visitors received food by item and species, with the obligation stated before acceptance. Rook’s dogs would not become members by drinking. Humans using the ramp would not become Vale’s reported evacuees without consent.
+
 Emil fed Borscht from the first canine portion. Borscht ate slowly, glaring at the spoon.
+
+“This is mine?” he asked.
+
+“Your ration,” Emil said, following the rough cloth mark with one finger.
+
+“And you?”
+
+Emil held up his separate packet.
+
+Borscht ate again. Difference no longer meant he had been excluded from the count.
+
+Pixel waited until he finished.
+
+“I moved the jar,” she said.
+
+“Yes.”
+
+“I thought I was protecting your share.”
+
+“Yes.”
+
+“Are you angry?”
+
+Borscht considered the question with the seriousness usually reserved for breakfast. “I was poisoned. Anger is included.”
+
+Pixel lowered herself until her chest touched the floor.
+
+“You also came back through the tunnel,” he said. “That is included too.”
+
+He did not forgive her on schedule. He allowed her to learn the new bin markers beside him. Pixel accepted proximity without treating it as absolution.
 
 Nika sat beside Mriya near the open ramp.
 
 “You spent four on him,” she said.
 
+Bond zero left Mriya unable to answer with meaning. She placed four small bolts beside Borscht, one beside the sleeping Vale, and the untouched Favor token apart from both.
+
+Nika understood the refusal through evidence rather than intimacy.
+
 Mriya looked at Borscht.
 
 “And you gave up whatever the machine wanted to give you for saving Vale.”
 
+Mriya touched the Favor and pushed it away again.
+
+“That doesn’t fix the Bond,” Nika said.
+
+Mriya lowered her head.
+
+“But it counts.”
+
 The unspent Favor remained, cold and available.
 
 Nika’s anger had not vanished. It had changed shape. It now contained evidence that Mriya could refuse an advantage even when no one forced her.
+
+Nika moved her sleeping coat one body length closer to the warm field. She kept the photograph inside it. The distance between them changed without becoming a restored stat.
 
 Nika rested her hand on the floor between them.
 
@@ -6954,13 +7500,27 @@ Mriya placed one paw beside it.
 
 Across the room, the new entrances opened and closed for different bodies under different rules. The settlement used more material, more time, and more food than the System preferred.
 
+The resource zones mirrored the doors. No single shelf served everyone. No single entrance served everyone. Every distinction required labels, maintenance, and people willing to explain it again.
+
+Acting as if differences did not exist had been simpler. The simplicity had nearly killed Borscht and had rewarded Vale’s survival as retained productivity.
+
 It also kept everyone alive.
+
+For the first time since the poisoning, the Hearth held eleven Supply whose permitted uses matched the bodies depending on it.
+
+The end of the crisis revealed what Act III had changed. Bond could save and imprison. One entrance could protect and exclude. One resource law could simplify and poison. Every efficient system had worked exactly as described while hiding who absorbed its errors.
+
+The Hearth now possessed slower routes, divided stores, recorded objections, eleven portions, and members harder to optimize without asking.
+
+It was weaker in every way Sable could count.
 
 From the east door came three deliberate scratches.
 
 Rook waited outside with a metal tribute ring between his teeth.
 
 Behind him stood six warehouse dogs.
+
+The east line had delivered clean water. The access network had announced independent territory. The medical Cache had transmitted a retrieval claim. Their reduced Supply and divided inventories were about to be tested by someone who considered efficiency a form of power.
 
 # Chapter Twenty-Eight: Rook
 
