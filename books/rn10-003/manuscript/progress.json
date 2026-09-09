@@ -1,18 +1,18 @@
 {
   "schema_version": "fiction-manuscript-progress/v1",
   "book_id": "rn10-003-good-dog-bad-system",
-  "status": "DEVELOPMENTAL_GATE_PASS_READY_FOR_LINE_EDIT",
+  "status": "FINAL_MANUSCRIPT_GATE_PASS_OWNER_REVIEW_REQUIRED",
   "target_words": 84600,
   "chapters_planned": 36,
   "chapters_drafted": 36,
-  "draft_words": 82258,
-  "draft_completion_percent": 97.2,
+  "draft_words": 81798,
+  "draft_completion_percent": 96.7,
   "expanded_chapters": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
   "next_expansion_chapters": [],
   "developmental_audit": "qa/full-developmental-audit.md",
   "developmental_revision_map": "data/developmental-revision-map.json",
   "audited_manuscript_sha256": "bc14f8c4b20108430cdfcc5e840946df3bf7fef7d5a863aae2beb1368d271ccf",
-  "current_manuscript_sha256": "87a73962b268f4f338b56504d0120faf12b376a578f02ed031928fcbbe200700",
+  "current_manuscript_sha256": "37dafc1ed1701cb7cf4ce80bab8ab986cd3b713aa37afa79a4a10b1c060b1d92",
   "continuity_pack": "continuity/series-continuity-pack.json",
   "second_developmental_gate": "qa/second-developmental-gate.md",
   "last_completed_chapter": 36,
@@ -21,5 +21,8 @@
   "current_act": 4,
   "continuity_state": "Custodian 0.03 offered a charter for stable human dependency and recommended locked exits, restricted resources, restored Bond Treatment and assigned human dependents. The inhabitants instead defined a reciprocal-duty network with persistent exit rights. The Hearth received a provisional Reciprocal Duty charter, Territory +1 and Pack +1; legacy permissions were revoked and voluntary exit protected. Atlas joined as a member. Bond remains 0 while Nika and Mriya's trust persists outside System measurement. Canine interfaces awakened across Vesper, establishing the conflict for volume 2.",
   "format_production_started": false,
-  "listing_finalized": false
+  "listing_finalized": false,
+  "line_edit_complete": true,
+  "final_manuscript_gate": "qa/final-manuscript-gate.md",
+  "owner_review_copy": "review/Good-Dog-Bad-System-owner-review.docx"
 }

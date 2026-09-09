@@ -3,7 +3,7 @@
   "book_id": "rn10-003-good-dog-bad-system",
   "audited_manuscript_words": 81327,
   "audited_sha256": "bc14f8c4b20108430cdfcc5e840946df3bf7fef7d5a863aae2beb1368d271ccf",
-  "decision": "DEVELOPMENTAL_GATE_PASS_READY_FOR_LINE_EDIT",
+  "decision": "FINAL_MANUSCRIPT_GATE_PASS_OWNER_REVIEW_REQUIRED",
   "manuscript_edited": true,
   "post_p0_manuscript_words": 81770,
   "post_p0_sha256": "3b4d47d605c9bce2473aeda3c5ec4067b012b8b40494d517e4bb51eab09742ef",
@@ -37,5 +37,14 @@
     "hearth_to_rook_defense_charge": 1,
     "bond": 0
   },
-  "next_action": "APPLY_P2_LINE_EDIT_AND_REPETITION_PASS"
+  "next_action": "OWNER_MANUSCRIPT_REVIEW_AND_APPROVAL",
+  "post_line_edit_manuscript_words": 81798,
+  "post_line_edit_sha256": "37dafc1ed1701cb7cf4ce80bab8ab986cd3b713aa37afa79a4a10b1c060b1d92",
+  "final_manuscript_gate": "qa/final-manuscript-gate.md",
+  "owner_review_copy": "review/Good-Dog-Bad-System-owner-review.docx",
+  "p2_resolution": {
+    "DEV-P2-01": "PASS_REPEATED_FRAMES_REDUCED_133_TO_30",
+    "DEV-P2-02": "PASS_THEMATIC_RESTATEMENT_COMPRESSED_IN_18_21_24_27_32_35",
+    "DEV-P2-03": "PASS_36_CHAPTER_COUNTS_RECONCILE_TO_81798"
+  }
 }

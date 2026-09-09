@@ -24,17 +24,18 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Chapters 28–30 passed the tribute-tool-alliance gate at 6,984 tracked words against a 7,000-word target, within 0.2%.
 - Chapters 31–33 passed the identity gate at 7,005 tracked words against a 7,300-word target, within 4.0%.
 - Chapters 34–36 passed the charter and Act IV gate at 7,630 tracked words against an 8,200-word target, within 7.0%.
-- All 36 chapters are expanded. Developmental editing and line editing remain required.
+- All 36 chapters are expanded. The controlled developmental and line-edit passes are complete at 81,798 words.
 - The source-preserving developmental audit baseline recorded `REVISION_REQUIRED` before manuscript edits.
 - Its revision map contains 5 P0, 6 P1 and 3 P2 items. Supply and alliance ledgers passed at the audit baseline.
-- Canonical series continuity pack v2 is active. All five P0 and all six P1 revisions passed; the second developmental gate found no new structural blocker.
-- Three P2 line-edit targets remain: repeated sentence frames, adjacent thematic restatement and per-chapter count metadata.
+- Canonical series continuity pack v2 is active. All five P0, all six P1 and all three P2 revisions passed; the final manuscript gate found no structural or continuity blocker.
+- The five tracked repeated frames fell from 133 to 30 occurrences. Thematic restatement was compressed in chapters 18, 21, 24, 27, 32 and 35, and all 36 chapter counts now reconcile to the complete manuscript total.
+- The owner review copy is `review/Good-Dog-Bad-System-owner-review.docx`.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
-## Next drafting unit
+## Next review unit
 
-Run the controlled P2 line edit: vary repeated sentence frames without weakening Mriya's scent POV, compress thematic restatement in chapters 18, 21, 24, 27, 32 and 35, and rebuild exact per-chapter counts. Then repeat the manuscript gate before owner review.
+Owner reads the review DOCX and either approves the manuscript or supplies chapter-specific revision notes. Kindle and paperback production begin only after manuscript approval.
 
 ## Continuity anchors
 

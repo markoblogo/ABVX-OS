@@ -64,7 +64,7 @@ Mriya stepped into the aisle.
 
 Nika’s breathing changed. Nothing else did.
 
-Mriya inspected the broken boot, the orange bag, and both damp knees. Then she leaned one shoulder against Nika’s shin. It was not surrender. It was a test of load-bearing capacity.
+Mriya inspected the broken boot, the orange bag, and both damp knees. Then she leaned one shoulder against Nika’s shin. She was testing load-bearing capacity, not surrendering.
 
 Nika’s hand settled between her ears.
 
@@ -130,7 +130,7 @@ He crouched beside Mriya and checked the buckle of her old collar. His fingers p
 
 “Blue door,” he told her quietly. “You can still change your mind before the blue door.”
 
-Mriya looked at Nika, who was trying to fit the food, folder, leash, and her own lunch into the orange bag. The lunch lost.
+Nika tried to fit the food, folder, leash, and her own lunch into the orange bag while Mriya watched. The lunch lost.
 
 Mriya walked through the blue door first.
 
@@ -212,7 +212,7 @@ Mriya knew it was her from the first landing. Humans needed rituals because thei
 
 Still, she watched closely.
 
-At half past nine, someone climbed the stairs carrying a paper sack. Mriya smelled fried chicken through two walls and stood before she was awake. Her bark struck the apartment hard enough to wake dust from the radiator.
+At half past nine, someone climbed the stairs carrying a paper sack. Fried chicken reached Mriya through two walls, and she stood before she was awake. Her bark struck the apartment hard enough to wake dust from the radiator.
 
 Nika dropped a mug.
 
@@ -436,11 +436,11 @@ Mriya followed the trace up to the hem, then back down. Nika had walked through 
 
 “I showered yesterday.”
 
-Mriya looked at the door.
+Her attention settled on the door.
 
 “Absolutely not.”
 
-Mriya looked at the door more clearly.
+The door came into focus.
 
 Nika closed her eyes. “You spent nine hours alone and now you want another walk.”
 
@@ -652,7 +652,7 @@ The sentence was damaged by fear but remained structurally sound.
 
 “Leave.”
 
-Nika looked at Mriya. Mriya looked at the glove. Neither obeyed.
+Nika watched her. Mriya held her attention on the glove. Neither obeyed.
 
 He lunged.
 
@@ -698,7 +698,7 @@ The man stood above her. He looked at the floating packets, then toward the entr
 
 Nika hit him with the orange delivery bag.
 
-It was not an elegant weapon. A metal flask inside improved it.
+Elegance was unnecessary. A metal flask inside improved it.
 
 The first swing struck his wrist. The second missed and caught the bag on the torn corner of the crate. Orange canvas split along an old seam.
 
@@ -790,7 +790,7 @@ Metal touched metal inside it.
 
 Nika gathered the broken leash around one fist. Her bleeding hand left dark marks on the blue fabric. She had no room to swing the bag again; its strap remained looped around the support column, and the passage behind her ended at the river grille.
 
-Mriya smelled the three routes, the sealed hatch, the blocked entrance, the man’s intended next step, Nika’s fear, and the packets rushing toward the river. The information arrived together and without mercy. More scent did not make the choice smaller. It made every possible failure present at once.
+The three routes, sealed hatch, blocked entrance, man’s intended next step, Nika’s fear, and packets rushing toward the river crowded her nose at once. The information arrived together and without mercy. More scent did not make the choice smaller. It made every possible failure present at once.
 
 Mriya chose.
 
@@ -836,7 +836,7 @@ He fell against the yellow ladder. The cutting tool skittered under the pipes.
 
 Nika freed the bag strap and pointed toward the support column. “Which way?”
 
-The main passage returned to the platform and street, but the man lay across it. The inspection walk led along the channel, narrowing before it reached the service door. Mriya smelled moving air through the rusted hatch above the entrance steps.
+The main passage returned to the platform and street, but the man lay across it. The inspection walk led along the channel, narrowing before it reached the service door. Moving air threaded through the rusted hatch above the entrance steps.
 
 She chose the hatch.
 
@@ -1032,7 +1032,7 @@ Steam filled the kitchen. Mriya barked once. Nika blinked, turned off the burner
 
 “We’re all right,” she said.
 
-Mriya smelled the bandage, the wet coat, and the tunnel still trapped in both their coats.
+Bandage, wet coat, and tunnel water remained trapped around them.
 
 They were not all right.
 
@@ -1040,7 +1040,7 @@ Nika tested her injured hand. She opened and closed it without flinching. Then s
 
 “I overreacted.”
 
-Mriya smelled the man's glove as clearly as if it were still around her collar.
+The man's glove returned in scent as clearly as if it were still around her collar.
 
 Nika picked up her phone and reopened the incomplete incident form. The blank fields no longer seemed urgent. She saved the three photographs to a folder called `later`, then deleted the unfinished report.
 
@@ -1384,7 +1384,7 @@ She put one paw over the residue.
 
 “Is she alive?” Borscht asked through the door.
 
-Mriya smelled the question and the man waiting behind him, embarrassed by his own concern.
+The question carried the scent of the man waiting behind him and embarrassment at his own concern.
 
 “Yes.”
 
@@ -1452,7 +1452,7 @@ Humans confused absence with rest.
 
 “Why am I on the floor?” Nika asked.
 
-Mriya looked at the orange bag.
+Her gaze moved to the orange bag.
 
 Its lining hung open in strips. The chair stood crooked. A broken mug lay gathered into a dish towel on the table, though Mriya did not remember gathering it.
 
@@ -1470,7 +1470,7 @@ The unfinished incident form remained in the recent-app list.
 
 “Did I delete this?”
 
-Mriya looked at her.
+Mriya held her gaze.
 
 “Useful.” Nika reopened it. She typed the depot address, stopped at `Describe the threat`, and stared at the empty field. “He grabbed you.”
 
@@ -1624,7 +1624,7 @@ He deposited it on the floor with ceremony.
 
 Nika looked from the sausage to Mriya. “You have friends now?”
 
-Mriya smelled the torn packet beneath the blanket.
+The torn packet's scent sharpened beneath the blanket.
 
 Friends knew things.
 
@@ -1648,7 +1648,7 @@ His tail gave one uncertain sweep.
 
 The gray-haired man introduced himself as Emil Pell and apologized again. Nika introduced Mriya. The humans discussed the dead phone network, the stopped tram, and a low mechanical vibration that had travelled through the pipes before dawn.
 
-Emil had brought more than Borscht. A canvas medicine case hung from his wrist. Inside it, glass bottles touched whenever his hand shook. Mriya smelled the bitter tablets Borscht carried in his blood and a different medicine marked by Emil's sweat.
+Emil had brought more than Borscht. A canvas medicine case hung from his wrist. Inside it, glass bottles touched whenever his hand shook. Bitter tablets travelled in Borscht's blood; Emil's sweat marked a different medicine.
 
 “Pharmacy opens at eight,” he said. “If their shutters work. The lift at my clinic won't, which is less relevant now that this building has trained me for mountains.”
 
@@ -1658,7 +1658,7 @@ The old language said steady. Stay. Mine to support.
 
 Near the torn Cache, the shaped bridge added: *He missed the evening heart tablet because he gave the last clean water to me.*
 
-Mriya looked at Emil's medicine case.
+Emil's medicine case drew her attention.
 
 “No,” Borscht said. “His.”
 
@@ -1712,7 +1712,7 @@ Emil went to Nika's window. “Signals, water pressure, telephone exchange.”
 
 “They share maintenance tunnels.”
 
-Mriya smelled Dockside through the pipe.
+Dockside reached her through the pipe.
 
 Metal. Mineral water. Bitter flowers reduced to traces too small for old senses and bright enough for Scent +1. Destroying the Cache had emptied the packets. It had not removed what the city had already carried away.
 
@@ -1904,7 +1904,7 @@ The two cats passed overhead inside a laundry basket carried by a woman with blo
 
 Mrs. Varga remained beside the basement door, staring at the blackened wall. “The boiler was inspected.”
 
-Mriya smelled another pulse through the pipes.
+Another pulse travelled through the pipes.
 
 Gas hissed behind the door.
 
@@ -1934,7 +1934,7 @@ Mriya barked at Nika and backed toward the exit.
 
 Nika looked at her.
 
-The moment held a choice. Mriya smelled it pass through the human: embarrassment, doubt, the memory of tunnel water, the impossible break in the packets.
+The moment held a choice. It passed through the human as embarrassment, doubt, remembered tunnel water, and the impossible break in the packets.
 
 Nika let go of Mrs. Varga and followed the dog.
 
@@ -2090,7 +2090,7 @@ The shaped speech thinned as he pulled Borscht away from the wet basement wall.
 
 That was how authority entered: first as the name other creatures gave to survival, then as a thing the System offered to store.
 
-Mriya looked at the smoke rising from the building that contained her bowl, Nika’s bed, and the yellow blanket.
+Smoke rose from the building that contained her bowl, Nika’s bed, and the yellow blanket.
 
 It did not feel like being in charge.
 
@@ -2110,7 +2110,7 @@ The senior firefighter drew the pipe routes on the back of a bakery carton. Gas 
 
 Two crew members carried sensors into the basement. Both returned with wet boots. One instrument reported gas. The second reported electrical charge in a disconnected pipe. A third displayed a row of symbols, turned itself off, and refused further participation.
 
-Mriya smelled gray residue in the water coating their soles.
+Gray residue sharpened in the water coating their soles.
 
 Each time a firefighter crossed the threshold, the hidden sweetness in apartment 4B responded above them. The building held two connected wounds: one beneath the boiler, one inside the yellow blanket.
 
@@ -2148,7 +2148,7 @@ Nika's hand paused on Mriya's shoulder. Tunnel water moved through her scent, th
 
 The answer disappointed him. He turned the camera toward Mriya and made a high sound intended to manufacture attention.
 
-Mriya looked away.
+Mriya turned her head.
 
 “Can you make her bark?”
 
@@ -2176,7 +2176,7 @@ She checked Mriya’s paws, ears, eyes, and ribs for the third time.
 
 “You saved me.”
 
-Mriya smelled the truth in it and rested her chin on Nika’s thigh.
+Truth warmed the scent, and Mriya rested her chin on Nika’s thigh.
 
 Nika bent over her. “Good girl.”
 
@@ -2232,11 +2232,11 @@ The young man's phone remained between them. “Did she just tell you to stop?�
 
 Nika glanced at him, embarrassed. “Body language.”
 
-Mriya smelled the blank place widen around the explanation. Nika remembered deciding to offer space. She could supply reasons: Mriya's lowered head, the rain, the crowd. Each reason was true enough to conceal the missing instant.
+The blank place widened around the explanation. Nika remembered deciding to offer space. She could supply reasons: Mriya's lowered head, the rain, the crowd. Each reason was true enough to conceal the missing instant.
 
 The System had not turned Nika into a puppet. It had removed the disagreement that would have revealed the string.
 
-Mriya smelled no fear. No force. Nika believed the decision had been hers.
+No fear or force marked Nika, who believed the decision had been hers.
 
 The remaining piece of Favor became heavy.
 
@@ -2270,7 +2270,7 @@ Away from the Cache field, Borscht received refusal, Nika, wrong. His ears lower
 
 “Did it hurt her?”
 
-Mriya looked at the blank place in Nika's scent.
+Her attention stayed on the blank place in Nika's scent.
 
 “It removed the hurt before she could have it.”
 
@@ -2288,7 +2288,7 @@ The tunnel man had reached for Nika with a hand. Mriya had reached with a wish. 
 
 “I’m fine,” Nika said. “I think.”
 
-She tried to remember why she had stopped. Mriya smelled her searching the moment, finding smooth edges where resistance should have been.
+She tried to remember why she had stopped. Her search moved through the moment and found smooth edges where resistance should have been.
 
 “Did you—” Nika began.
 
@@ -2306,7 +2306,7 @@ He returned the apartment keys inside a clear evidence bag. “You are not going
 
 Nika looked at the soot above the door. False clarity arranged the obstacles: rear courtyard, iron stairs, bathroom window latch, four minutes up, three down.
 
-Mriya smelled the plan forming before Nika admitted it.
+The plan gathered in Nika before she admitted it.
 
 She looked toward apartment 4B. “My work bag is still up there. My wallet. Your food.”
 
@@ -2338,7 +2338,7 @@ Nika rubbed both palms over her face.
 
 She stood.
 
-Mriya smelled the choice before it became movement: Nika intended to enter through the bakery courtyard and climb the rear fire stairs.
+The choice became scent before movement: Nika intended to enter through the bakery courtyard and climb the rear fire stairs.
 
 The pipes beneath the street pulsed again.
 
@@ -2364,7 +2364,7 @@ Nika tried to pass.
 
 The last Favor waited.
 
-Mriya could make her stop. The System offered the possibility with the bland helpfulness of a leash hanging beside a door.
+Mriya could make her stop. The possibility appeared with the bland helpfulness of a leash hanging beside a door.
 
 One wish would keep Nika on the safe side of the barrier. No argument. No dangerous route. No need to explain the secret under the blanket.
 
@@ -2414,7 +2414,7 @@ Nika remained angry long enough to prove the choice had survived.
 
 “When I stopped,” she said, “that was you.”
 
-It was not phrased as a question.
+The words came as an order.
 
 Mriya held still.
 
@@ -2428,7 +2428,7 @@ Nika could have mistaken submission for apology. Instead she crouched, keeping o
 
 “Did you know you could do that?”
 
-Mriya looked toward the building.
+Her ears turned toward the building.
 
 “Right. Dog.”
 
@@ -2602,7 +2602,7 @@ His body lowered until his belly touched the boards. “I knew there was some.�
 
 “I said nothing.”
 
-Borscht's ears flattened. The distinction reached him.
+Borscht's ears flattened as he understood.
 
 Nika watched the exchange: one dog rigid, the other shrinking beside Emil's suitcase. She could hear only a low growl and two small whines, but secrecy had a posture.
 
@@ -2754,7 +2754,7 @@ The tunnel man appeared four floors above them.
 
 “Not the river,” Nika said.
 
-Mriya smelled uniforms approaching from the front, the mineral pulse beneath the road, and a clean strip of air leading through the bakery yard toward the abandoned tram depot.
+Uniform starch approached from the front, the mineral pulse climbed beneath the road, and clean air led through the bakery yard toward the abandoned tram depot.
 
 She chose the depot.
 
@@ -2768,7 +2768,7 @@ The fourth-floor corner settled outward. Apartment 4B remained standing, then ce
 
 Firefighters shouted from the street. A red inspection seal tore free and followed the debris down.
 
-Mriya looked back once.
+She glanced back once.
 
 The fourth-floor window still smelled of toast beneath the smoke and unnatural sweetness. Her bowl remained beside the counter. Nika’s bed remained unmade. Home had been repetition, and now repetition had ended.
 
@@ -2814,7 +2814,7 @@ The shepherd stepped into their path.
 
 “Choose,” he said.
 
-Mriya smelled law on him, polished and old.
+Law clung to him, polished and old.
 
 She kept walking.
 
@@ -2878,7 +2878,7 @@ She pushed the water toward Emil.
 
 Emil saw only a small terrier stealing water from a larger dog and chose not to question the result.
 
-Mriya smelled the depot. Rust, old oil, wet weeds, rats, three sleeping places, and a layer of mineral cold beneath the tracks. Territory had not yet settled here. The place was being argued over by scent and by something newer.
+The depot entered her as rust, old oil, wet weeds, rats, three sleeping places, and mineral cold beneath the tracks. Territory had not yet settled here. The place was being argued over by scent and by something newer.
 
 Nika stepped beside her. She could not hear the dogs’ meanings, but she understood the stillness.
 
@@ -3054,7 +3054,7 @@ Good Dog had held a line through trust. Bad Dog had taken the opening created by
 
 Mriya's unclassified resistance had worked once because the attacker was careless. The next dog might not be.
 
-Mriya looked at Nika.
+Mriya studied Nika.
 
 Rain had darkened her hair and found the cut in her coat. One hand held the orange bag. The other rested open at her side, close enough to touch Mriya and making no demand.
 
@@ -3122,7 +3122,7 @@ Mriya had not lost the dogs.
 
 She had lost speed.
 
-Mriya smelled their confusion. She answered with posture: ears forward, tail low, no threat.
+Their confusion sharpened. She answered with posture: ears forward, tail low, no threat.
 
 Pixel barked a question.
 
@@ -3132,7 +3132,7 @@ The second loss followed when she tested the air. The mineral current beneath th
 
 She could still separate rain from river water and Nika from twenty fading human trails. She could no longer smell which locked panel concealed intent or which route the System considered claimable. The extra sense had become a sharper nose without the layer that organized concealment.
 
-Adaptation remained in her body as remembered possibilities, but no new possibility appeared when she tested the depot floor. Her hip hurt. The nearest dry place was occupied. The System offered no angle.
+Adaptation remained in her body as remembered possibilities, but no new possibility appeared when she tested the depot floor. Her hip hurt. The nearest dry place was occupied. No angle appeared.
 
 The System finally spoke.
 
@@ -3354,7 +3354,7 @@ Atlas lowered himself beside Pixel and kept his body between her and the hatch. 
 
 Good Dog could learn restraint from a dog with no class.
 
-Mriya looked at Pixel trembling against Nika’s coat.
+Mriya watched Pixel tremble against Nika’s coat.
 
 Neither had cost her.
 
@@ -3406,7 +3406,7 @@ Nika's anger had changed since the apartment. Shock had burned away, leaving a c
 
 “I understand why,” she said. “That's the problem. It helped your pain. It helped me sleep. You thought you could keep it for the bad day when I would be grateful afterward.”
 
-Mriya smelled imagined futures collapsing one by one.
+Imagined futures collapsed one by one in the air.
 
 “Maybe you were right. Maybe tomorrow I need it and hate that it's gone.” Nika tightened the knot on her own bandage. “It still had to be my risk too.”
 
@@ -3414,7 +3414,7 @@ Mriya moved one step closer and stopped outside the distance Nika had refused up
 
 Nika did not close it yet.
 
-The System offered Good Dog again. Apology could become obedience. Forgiveness could restore Favor.
+Good Dog returned. Apology could become obedience. Forgiveness could restore Favor.
 
 Mriya turned her head away from the prompt and pushed her nose into the torn orange bag.
 
@@ -3534,7 +3534,7 @@ Cold meaning formed slowly, as if the System were reading a rule it had not expe
 >
 > Thoughts, obedience, and private intent excluded.
 
-Mriya smelled the cost. No approval could be stored forever. No frightened creature could be counted as loyal. A companion who changed their mind would take part of her strength with them.
+The cost carried no ambiguity. No approval could be stored forever. No frightened creature could be counted as loyal. A companion who changed their mind would take part of her strength with them.
 
 Consent would renew when a route changed destination, risk, or terms. A member could leave by moving beyond the shared path or withdrawing willingness. The loss would be immediate: their position vanished, group reach shortened, and any benefit requiring them ended.
 
@@ -3682,7 +3682,7 @@ They had descended two flights beneath the depot through a stairwell designed fo
 
 The first flight had started behind a half-open inspection cage. Its steps ran parallel to the tram tracks. The second turned east beneath the yard and ended at a landing with three doors: pump control, chemical storage, and a gap where a door had been removed so completely that only lighter paint remembered it.
 
-The green corridor extended from that absence. One wall followed the municipal main toward the river warehouses. The other backed against the depot foundation. Above them sat the flooded track bed. Below them, through cracks in the tile, Mriya smelled older drains descending toward a network too deep for Chosen Route to claim.
+The green corridor extended from that absence. One wall followed the municipal main toward the river warehouses. The other backed against the depot foundation. Above them sat the flooded track bed. Below them, through cracks in the tile, older drains descended in scent toward a network too deep for Chosen Route to claim.
 
 They now had one known way back: corridor, two right turns, concrete pier, rising passage, two flights, tram shed. The ladder might offer a second exit if its missing rungs could be replaced. The narrow service passage behind the unseen room might offer a third.
 
@@ -3720,7 +3720,7 @@ Emil counted the cuts. “Every month for nearly four years.”
 
 The designation loss recovery settled into a less comforting shape. This had been a place where workers returned after contamination, injury, or something the public maps were not meant to record. Sealing the public entrance protected the secret. Keeping the water alive protected the work.
 
-Mriya smelled no recent fear, only oil and method. Whatever the room had done, its last hidden caretaker had kept it usable rather than occupied.
+No recent fear remained there, only oil and method. Whatever the room had done, its last hidden caretaker had kept it usable rather than occupied.
 
 The corridor ended at a tiled wall.
 
@@ -3834,13 +3834,13 @@ They shifted the two eastern lockers far enough to expose the passage. Nika coul
 
 A second exit that abandoned one member was not an exit for the party.
 
-Mriya marked it untested. Pixel objected to the word because she had tested it. Mriya changed the meaning to untested for all of us. Pixel accepted the distinction reluctantly.
+Mriya marked it untested. Pixel objected to the word because she had tested it. Mriya changed the meaning to untested for all of us. Pixel accepted the revised meaning reluctantly.
 
 It could become shelter.
 
 The word become mattered.
 
-The System offered a claim. Mriya smelled ownership in it and refused before the choices fully opened.
+A claim surfaced. Mriya smelled ownership in it and refused before the choices fully opened.
 
 Nothing happened.
 
@@ -3952,7 +3952,7 @@ Nika wrote the rules on the back of the map. Pixel corrected the drawing of her 
 
 Only then did they clean themselves.
 
-The distinction caused the third argument. Nika wanted the first clear water for her cut. Emil wanted it reserved for drinking. Mriya’s coat held tunnel oil and flood water that would transfer to every surface she touched. Borscht had walked through the drain sludge. Pixel claimed not to be dirty because the dust on her belonged to the passage.
+That division caused the third argument. Nika wanted the first clear water for her cut. Emil wanted it reserved for drinking. Mriya’s coat held tunnel oil and flood water that would transfer to every surface she touched. Borscht had walked through the drain sludge. Pixel claimed not to be dirty because the dust on her belonged to the passage.
 
 They waited for the pipes to refill, watching a bottle beneath the tap as if attention could increase pressure. When the stream returned, Emil divided it: one cup for wounds, one for paws, one sealed for drinking. Nika washed first because broken skin changed the risk. Mriya accepted the order despite thirst. Pixel accepted only after being allowed to wash her own paws.
 
@@ -3986,7 +3986,7 @@ Her refusal was immediate. Good.
 
 The photograph held Nika at perhaps fourteen, wedged between her mother and a dog Mriya had never smelled. All three stood on the river embankment before the flood barriers, squinting into summer. Its paper carried old hand cream, attic dust, and the repeated pressure of Nika checking that the faces had not faded.
 
-It was not merely an image of home. It was evidence that Nika had once expected Vesper to remain recognizable.
+More than an image of home, it proved Nika had once expected Vesper to remain recognizable.
 
 Mriya turned to her own collar. Shelter, Leon, disinfectant, eleven weeks of wire doors, and the first pressure of Nika’s hand lived beneath the newer rain. It was the strongest history she carried.
 
@@ -4050,7 +4050,7 @@ Mriya considered the warm promise beneath the iron housing. A perfect safeguard 
 
 “One may call,” she said. “The Hearth warns everyone. It waits for a second unless delay will kill someone.”
 
-The System offered no assurance about who would define kill.
+Nothing in the offer said who would define kill.
 
 Mriya pushed harder. “Immediate physical danger only. Not hunger. Not missing property. Not suspicion.”
 
@@ -4136,7 +4136,7 @@ The heated line vanished.
 
 No one had seen anything else.
 
-Mriya smelled relief mixed with a new and more accurate fear. Their condition worked. The thing it controlled was powerful enough to need it.
+Relief mixed with a new and more accurate fear. Their condition worked. The thing it controlled was powerful enough to need it.
 
 For the first time that night, Atlas looked uncertain about which side of the doorway was safer.
 
@@ -4160,7 +4160,7 @@ The Hearth had eased swelling and warmed the muscles guarding the damaged joint.
 
 Nika laughed.
 
-It was not the emptied laughter of Cached Relief. It broke in the middle and came with tears, fatigue, and the smell of a person who had lost a home and found one small impossible mercy beneath it.
+Unlike the emptied laughter of Cached Relief, this broke in the middle with tears, fatigue, and the smell of a person who had lost a home and found one small impossible mercy beneath it.
 
 “Look at you.”
 
@@ -4282,13 +4282,13 @@ He drank without entering.
 
 “A pack has command.”
 
-Mriya looked behind her. Nika had chosen the floor beside Mriya instead of the warmest locker. Emil slept with one hand hanging near Borscht. Pixel had placed the copper wire at the center of the room where everyone could see it.
+Behind her, Nika had chosen the floor beside Mriya instead of the warmest locker. Emil slept with one hand hanging near Borscht. Pixel had placed the copper wire at the center of the room where everyone could see it.
 
 “This has return,” Mriya said.
 
 “Return to what?” Atlas asked.
 
-Mriya looked at the markers around the iron circle. “A place where leaving is allowed.”
+She counted the markers around the iron circle. “A place where leaving is allowed.”
 
 Atlas’s gaze moved to the open door, then to the tile he had wedged beneath it. The Hearth did not draw him across. His absence from its warmth remained the price of his independence and evidence that the boundary respected it.
 
@@ -4326,7 +4326,7 @@ Atlas recognized the pattern before Mriya did.
 
 “Rooms do not need to lie. Owners do.”
 
-Mriya looked at the open doorway. A signal promising safe sleep did not prove that sleepers could leave. Clean water could be bait. Five inhabitants could mean a community or five prisoners.
+The open doorway held her attention. A signal promising safe sleep did not prove that sleepers could leave. Clean water could be bait. Five inhabitants could mean a community or five prisoners.
 
 The Hearth broadcast facts and omitted governance. Anyone answering would have to discover the difference at the threshold.
 
@@ -4420,7 +4420,7 @@ Bad Dog: name herself.
 
 Stray offered nothing easy.
 
-Mriya looked back at the five private markers arranged around the iron circle.
+Before leaving, Mriya counted the five private markers around the iron circle.
 
 “We do,” she said.
 
@@ -4434,7 +4434,7 @@ His two companions stood one pace behind him. One had a torn lip. The other carr
 
 Their thirst filled the corridor.
 
-It was not the thirst of one missed drink. Salt had dried in the fur beneath their mouths. The torn-lipped dog swallowed twice without producing saliva. Wrench kept her weight off one rear paw, where white crystals had formed around a split pad.
+One missed drink could not produce this thirst. Salt had dried in the fur beneath their mouths. The torn-lipped dog swallowed twice without producing saliva. Wrench kept her weight off one rear paw, where white crystals had formed around a split pad.
 
 Rook alone carried water in his scent, old and metallic. He had drunk enough to negotiate clearly and no more.
 
@@ -4498,7 +4498,7 @@ Irena did not exist in their lives yet, so no one present could explain the syst
 
 “We can share,” she said. “But we need something back.”
 
-Mriya looked at Rook.
+She studied Rook.
 
 “Information,” she said. “Safe routes. Parts for the filter. Warning before anyone comes to claim us.”
 
@@ -4578,7 +4578,7 @@ The choice did not activate.
 
 One eighth of everything the Hearth considered useful for a flask and a future opening. The water itself could not be that scarce. The price included recognition, pressure, and the obligation created by letting the east line know where clean water lived.
 
-Mriya looked at Nika. Chosen Route carried willingness, not advice. Nika studied the written terms, counted the inhabitants, and touched the empty bottle set aside for morning.
+Mriya studied Nika. Chosen Route carried willingness, not advice. Nika studied the written terms, counted the inhabitants, and touched the empty bottle set aside for morning.
 
 “One,” she said. “Then inspection before the line.”
 
@@ -4618,7 +4618,7 @@ She drew the filter arrangement in dust with the end of her pipe. Two chambers c
 
 Rook had demanded immediate flow knowing Wrench would refuse it.
 
-Mriya looked from one to the other.
+Her attention moved between them.
 
 “Sable ordered an open line,” Rook said. “I brought the dog who could prove why delay serves the order better.”
 
@@ -4702,7 +4702,7 @@ Emil knelt beside one. “Was that there before?”
 
 Nika touched the rim of another. The stone was warm.
 
-Mriya smelled the claims inside them. Empty human shapes. Hunger, shelter, usefulness. The System had rewarded generosity by assigning them more mouths.
+Inside the bowls, claims held empty human shapes: hunger, shelter, usefulness. The System had rewarded generosity by assigning them more mouths.
 
 Borscht inspected the nearest bowl.
 
@@ -4898,7 +4898,7 @@ Then he looked directly at Mriya.
 
 “You’re the one in charge.”
 
-Mriya smelled no System class on him. Only talent.
+No System class marked him. Only talent.
 
 He set the pastries beside her.
 
@@ -5002,7 +5002,7 @@ The three human-sized bowls waited empty again.
 
 The useful impressions remained. Tomas’s ledge still warmed the filter housing. Irena’s map still marked pressure. Vale’s bowl still carried routes to supplies. The Hearth wanted their functions close while keeping their bodies conditional.
 
-Mriya smelled what the Hearth required. Claims had been delivered, but the room could not reconcile their ownership.
+The Hearth’s requirement surfaced: claims had been delivered, but the room could not reconcile their ownership.
 
 The simple solution opened first.
 
@@ -5028,8 +5028,6 @@ Pixel studied the numbers. “Could I have Vale?”
 
 Atlas could take Tomas. Mriya could take Vale. Irena’s attention had already settled on Nika, which the System might translate through Bond.
 
-The Hearth would open. The filters would be repaired. Eight people and dogs would sleep warm.
-
 Its projection added more temptations. Full dependent allocation would preserve the complete heating radius, open the sink at current pressure, and convert the three claim ledges into work stations. Future labour, recovered goods, and infrastructure gains would convert at full value because recognized owners simplified where every result belonged.
 
 No penalty appeared because ownership was the System’s preferred efficiency.
@@ -5052,7 +5050,7 @@ Irena stopped reaching for the valve. The reverse pressure ticked behind the wal
 
 “Discuss philosophy after we isolate the southern main.”
 
-The fourth valve began to tremble. Black water did not rise yet, but Mriya smelled the same chemical bitterness that had preceded the backflow.
+The fourth valve began to tremble. Black water did not rise yet, but the chemical bitterness preceding the earlier backflow returned.
 
 Nika declared an emergency. Emil recognized it.
 
@@ -5140,7 +5138,7 @@ They could not rebuild the passages tonight. They could require that no route be
 
 Borscht accepted membership only if Emil’s exit counted as his own. Emil accepted only if Borscht could withdraw without requiring Emil to surrender his place.
 
-The distinction took three attempts to phrase. They ended with bonded companions may leave together without either being treated as abandoned property.
+The rule took three attempts to phrase. They ended with bonded companions may leave together without either being treated as abandoned property.
 
 Atlas required one command structure during attack.
 
@@ -5226,8 +5224,6 @@ It opened differently for each person. Tomas received a broad path between the f
 
 “Ask before taking,” Nika said.
 
-The boundary had translated a rule into architecture without making him anyone’s dependent.
-
 Tomas carried in the filter. Irena went directly to the pipes. Vale distributed pastries he had probably not acquired through relationships.
 
 Tomas seated the new housing and found his hands no longer artificially warmed. The dependent repair bonus was gone. He needed Nika to hold the lamp and Wrench to brace the pipe from the other side. The work took longer and belonged visibly to all three.
@@ -5244,7 +5240,7 @@ Its warmth weakened slightly. The water slowed. Space became scarce.
 
 The costs arrived together. Warmth withdrew from the highest locker, forcing Pixel to move lower or sleep cold. The settling tank took twelve knocks to recharge instead of ten. The minor recovery field reached Nika’s bandaged hand only when she sat near the iron circle. Eight bodies turned every clear route into a negotiation.
 
-The balance remained seven. New hands increased what the Hearth could physically accomplish without creating food, medicine, or stored pressure. The 88% conversion rate promised that future gains would count for less. Supply and comfort were related without being interchangeable.
+The balance remained seven. New hands increased what the Hearth could physically accomplish, while the 88% conversion rate made every future gain count for less.
 
 But every person who entered could also turn around and leave.
 
@@ -5272,7 +5268,7 @@ After the membership vote, Nika had remained awake through two filter-pressure c
 
 The bandage on her palm stayed clean from the outside. Beneath it, the cut from the hidden latch had closed around tunnel grit. Hearth warmth reduced the ache enough for her to keep gripping tools. It did not remove what had entered the wound.
 
-Near midnight Mriya smelled heat in the hand. By the sixth pipe knock it had reached the wrist. Nika washed it again with one measured cup of water and allowed Irena to mark the edge of the redness in ink.
+Near midnight, heat reached the hand. By the sixth pipe knock it had reached the wrist. Nika washed it again with one measured cup of water and allowed Irena to mark the edge of the redness in ink.
 
 “If it crosses this line, you stop,” Irena said.
 
@@ -5386,7 +5382,7 @@ Nika repeated it aloud for Irena. “She can stabilize me through Bond. There ar
 
 Emil asked what would happen to Mriya. Nika looked toward her. The notice had not considered that worth displaying.
 
-Mriya smelled fear beneath the question. Not fear of her. Fear of becoming too weak to remain useful.
+Fear lay beneath the question. Not fear of her. Fear of becoming too weak to remain useful.
 
 Nika held out the infected hand. “Do it.”
 
@@ -5512,7 +5508,7 @@ The membership penalty remained. Treatment made Nika useful enough to make the p
 
 “We did it.”
 
-Mriya smelled no fever.
+No fever remained.
 
 She also smelled no fatigue, anger, or hurt.
 
@@ -5848,7 +5844,7 @@ Mriya stepped back. Distance triggered panic. She stopped between two injuries s
 
 Mriya held still.
 
-The answer was yes and not alone. Nika had asked. Irena had agreed. The System had hidden the consequence. None of that opened the stair.
+Nika had asked. Irena had agreed. The System had hidden the consequence. None of that opened the stair.
 
 “I chose treatment,” Nika said. “I did not choose whatever made every stupid reason to stay beside you feel intelligent.”
 
@@ -5916,13 +5912,7 @@ The Bond did not snap. It loosened thread by thread.
 
 The first morning in apartment 4B became memory instead of strength.
 
-Nothing was erased. Mriya still remembered toast caught beneath the radiator and Nika laughing into her sleeve. The System simply stopped allowing those memories to operate doors, extend routes, or prove obedience.
-
-The yellow blanket became fabric instead of territory.
-
-The shelter waiting ritual lost its numerical weight. Leon’s approval vanished from Mriya’s measured history. Every warm point became inaccessible as power while remaining painfully available as scent.
-
-Nika’s praise lost its stored warmth. Her hand between Mriya’s ears became only a hand, precious because it could be withdrawn.
+Toast beneath the radiator, Nika laughing into her sleeve, the yellow blanket, and the shelter waiting ritual remained in scent. They no longer operated doors, extended routes, or proved obedience. Nika’s hand between Mriya’s ears became precious because it could be withdrawn.
 
 Pain returned to Mriya’s hip.
 
@@ -5989,8 +5979,6 @@ Wrench arrived at the east grille for the pressure result. Mriya could understan
 Vale attempted to leave with the bakery message and discovered the shortened Chosen Route no longer reached the market junction. Atlas went with him as a voluntary guard. Emil misread Borscht’s complaint about the cold locker as hunger and opened the wrong inventory.
 
 No catastrophe occurred. Everything required more work.
-
-The settlement had lost an efficient bridge because the bridge was also a person.
 
 One minute became many. Borscht came and sat against her front leg without speaking. Atlas stood farther back. No one offered reassurance they could not prove.
 
@@ -6216,7 +6204,7 @@ It also promised the fastest emergency response. Atlas demonstrated by placing e
 
 Efficiency made control look like courtesy.
 
-Mriya smelled the hidden cost in each: someone would always need permission.
+Each plan carried the same hidden cost: someone would always need permission.
 
 She did not reject the benefits. She rejected making one body’s independence depend permanently on another body performing a role.
 
@@ -6268,7 +6256,7 @@ Pixel looked at the drain, the lowering braces, and the route the vibration plan
 
 “Until nothing important gets built over,” she added.
 
-Tomas thought she meant a cable. Mriya smelled that Pixel meant herself.
+Tomas thought she meant a cable. Pixel’s scent made clear she meant herself.
 
 Tomas sat back on his heels. “It has three sets of plans.”
 
@@ -6444,7 +6432,7 @@ Atlas tested whether Trusted Command could force the temporary frame to behave w
 
 The gate moved one finger. Good Dog authority could strengthen recognized command. It could not reconcile a human lock, canine bypass, and topology refusal.
 
-The System offered him a personal path around the conflict.
+A personal path opened around the conflict.
 
 > [GOOD DOG SYNERGY]
 >
@@ -6458,7 +6446,7 @@ Atlas looked toward Emil counting Borscht’s breaths.
 
 “It would work,” he said.
 
-Mriya smelled how much he wanted that to be enough.
+His desire for that to be enough filled the space between them.
 
 Atlas planted himself before the gate. “Command profile. Now.”
 
@@ -6554,9 +6542,7 @@ The Hearth had locked out its own inhabitants rather than tolerate an entrance i
 
 # Chapter Twenty-Four: A Door for Everyone
 
-The solution began with Borscht.
-
-It began after twenty-three minutes of survival without resolution.
+The solution began with Borscht after twenty-three minutes of survival without resolution.
 
 Atlas held the central weight. Tomas and Irena stopped the water loss. Pixel’s severed bypass prevented further contraction. Nika had medicine. Vale had food. Emil still could not touch Borscht.
 
@@ -6570,7 +6556,7 @@ Emil lay down opposite him.
 
 Neither asked to control the gate. They wanted one path between two specific bodies.
 
-The distinction changed what Mriya smelled. Primary profiles began with a category and forced bodies to fit it. Borscht and Emil began with two bodies and one agreed purpose.
+Borscht and Emil changed the pattern. Primary profiles began with a category and forced bodies to fit it; these two began with one agreed purpose.
 
 Mriya followed that scent.
 
@@ -6578,7 +6564,7 @@ She placed Borscht’s cloth rabbit at the boundary. Emil put his lavender handk
 
 A narrow opening warmed between them.
 
-It was not a door. It existed only along the line between the two markers and only while both inhabitants sought the same crossing. The command frame tried to classify it, failed, and released one claw grip rather than the whole tunnel.
+The opening existed only along the line between the two markers and only while both inhabitants sought the same crossing. The command frame tried to classify it, failed, and released one claw grip rather than the whole tunnel.
 
 Borscht walked through.
 
@@ -6724,9 +6710,7 @@ Mriya opened the cost before accepting.
 >
 > Single-control lockout exposure: 0
 
-The standing Supply remained seven. The loss would recur through the expanded room: nine percent less heat, recovery reach, water throughput, and converted value from work performed there. The standard profiles offered full service because each reused one path for every body.
-
-Four routes required four sets of hinges, warnings, releases, and empty space. Redundancy consumed capacity even when no one moved.
+The standing Supply remained seven. Four sets of hinges, warnings, releases, and empty space cost nine percent of heat, recovery reach, water throughput, and converted work even when no one moved.
 
 Mriya presented the terms separately. Nika read the numbers. Tomas checked whether 91% still kept the filter platform dry. Irena calculated that water recharge would lengthen from twelve pipe knocks to thirteen. Emil asked whether the far sleeping corner would remain warm enough for Borscht. Pixel asked whether zero lockout exposure included deliberate theft. It did not.
 
@@ -6748,7 +6732,7 @@ Warmth spread across the old room and into the new one. Boundaries softened. Emi
 
 Warmth reached the expansion floor but not its outer corners. The repair platform stayed dry. The far sleeping niche remained cool enough that Borscht rejected it and the market dog accepted it. Minor recovery operated along the ramp and central floor, not inside every route.
 
-The nine percent was not a symbolic moral fee. It shaped where they could sleep, how long water took, and how much future work the System would recognize.
+The nine percent shaped where they could sleep, how long water took, and how much future work the System would recognize.
 
 Nika opened the ramp and walked outside. She returned without looking at Mriya for permission.
 
@@ -6830,7 +6814,7 @@ Vale liked it immediately. “A common inventory. Finally, something uncomplicat
 
 Pixel sniffed the System mark. “All food.”
 
-Mriya smelled food with differences. She could not translate ingredient names through Bond zero.
+Under her nose, the food separated into incompatible kinds. She could not translate ingredient names through Bond zero.
 
 Eighteen portions could keep the humans working while Tomas finished the filter and Irena reopened the surface water point. Unified rationing offered another efficiency reward if all food entered one shared pool.
 
@@ -6962,7 +6946,7 @@ Four Supply would hold a member whose usefulness it classified as canine. Releas
 
 The current balance of eighteen contained the food that poisoned him. Spending four meant losing nearly a quarter of their counted survival to resist a danger the same count still called valuable.
 
-Mriya looked at the inhabitants who could not see the choice. Emil understood only that Borscht was failing. Nika saw Mriya’s stillness and recognized an interface decision. She placed four fingers against the floor, then pointed to Borscht.
+Around her, the inhabitants could not see the choice. Emil understood only that Borscht was failing. Nika saw Mriya’s stillness and recognized an interface decision. She placed four fingers against the floor, then pointed to Borscht.
 
 Mriya confirmed with one paw.
 
@@ -7056,13 +7040,13 @@ He did not ask Mriya because Bond zero prevented her from locating him once he l
 
 The choice belonged entirely to him.
 
-It was not entirely generous.
+Generosity explained only part of it.
 
 Vale had brought the food under an obligation he shaped to fit. He had watched Pixel accept blame and Emil refuse to convert Borscht into Trace. If the red case contained what the dog needed, Vale could repair the damage and prove his usefulness at once. He understood both motives and selected the version easier to carry.
 
 He returned through the ramp carrying a red metal case chained to one wrist. Smoke followed him. So did the hidden scent Mriya had first found beneath the municipal depot: intentional concealment, sharp and folded.
 
-Mriya smelled his route backward.
+His route unfolded backward through scent.
 
 He had crossed the tram shed while smoke from a failed generator filled its roof. The clerk who released the food crate had abandoned the office after the alarm began. Vale used the borrowed access card on the outer cage and Pixel’s wire on the mechanical cabinet.
 
@@ -7174,11 +7158,11 @@ The balance moved from fourteen to thirteen. Borscht remained on four portions o
 
 Borscht had cost four merely to remain in danger. Vale’s return earned Favor.
 
-The difference could not be explained by body size. Vale was larger. It could not be explained by medicine: the case supplied most of his recovery, while the Hearth spent four to hold Borscht against poison. The notice named the distinction directly—dependent human asset, canine member failure.
+The difference could not be explained by body size. Vale was larger. It could not be explained by medicine: the case supplied most of his recovery, while the Hearth spent four to hold Borscht against poison. The notice named the imbalance directly—dependent human asset, canine member failure.
 
 Membership had changed their rules. It had not changed the System’s valuation beneath them.
 
-Mriya smelled the comparison as clearly as blood.
+The comparison arrived as clearly as blood.
 
 Nika sat back against the wall. “He went for medicine.”
 
@@ -7222,7 +7206,7 @@ Vale looked toward Borscht. “Because I knew where the cabinet was.”
 
 It was the first answer he gave without turning motive into a relationship.
 
-It was not an acquittal.
+Nothing acquitted him.
 
 When Vale could sit, Nika placed the melted wire, stolen access card, and red case before him. She listed the rules he had broken: ask before taking, disclose obligations, allow refusal, do not create a hidden route that others must rescue.
 
@@ -7280,7 +7264,7 @@ Irena tried to acknowledge custody. The card rejected her department. She tried 
 
 “We cannot make it unseen,” she said.
 
-Mriya smelled the outgoing route. It followed the same municipal lines that carried clean water, warnings, and the Hearth’s first signal. Closing every connection might conceal the case and would also blind the settlement.
+The outgoing route sharpened beneath her nose. It followed the same municipal lines that carried clean water, warnings, and the Hearth’s first signal. Closing every connection might conceal the case and would also blind the settlement.
 
 They chose preparation over disappearance. Atlas inspected the four entrances. Tomas marked where the red chain could be displayed before anyone crossed the boundary. Nika placed the radio log beside it. Evidence would not stop force. It would prevent the Hearth from needing Vale’s version of events as its only defense.
 
@@ -7366,7 +7350,7 @@ Pixel asked who could open the dog bins.
 
 Pixel considered a rule that restricted quantity without making humans permanent food authorities. “Acceptable for a first draft.”
 
-Mriya presented the distinction to the Hearth.
+Mriya presented the separate uses to the Hearth.
 
 The interface read the separate piles and immediately tried to simplify them.
 
@@ -7376,7 +7360,7 @@ The interface read the separate piles and immediately tried to simplify them.
 >
 > Efficiency preserved. Current Supply: 13.
 
-The System offered to solve species risk through ownership by a careful human. Emil could control Borscht’s food. Nika could control Mriya’s. One responsible person could protect dogs who could not read labels while keeping all thirteen portions.
+Its proposed solution assigned species risk to a careful human owner. Emil could control Borscht’s food. Nika could control Mriya’s. One responsible person could protect dogs who could not read labels while keeping all thirteen portions.
 
 After the night they had survived, the offer was attractive.
 
@@ -7466,9 +7450,7 @@ Mriya confirmed.
 >
 > Available Supply: 11
 
-The thirteen portions became six human portions, four canine portions, and one shared medical reserve. Two portions disappeared into the cost of admitting reality.
-
-The System removed value before moving objects. No tin vanished. No packet grew lighter. Two portions ceased to be convertible because safe categories prevented the Hearth from treating every calorie, chemical, and medicine as interchangeable.
+The thirteen portions became six human portions, four canine portions, and one shared medical reserve. No tin vanished and no packet grew lighter; two portions ceased to be convertible because safe categories prevented the Hearth from treating every calorie, chemical, and medicine as interchangeable.
 
 The six human portions could no longer stabilize a dog by default. The four canine portions could not be spent to increase human work output. The shared medical reserve required a recorded purpose rather than a species label.
 
@@ -7536,7 +7518,7 @@ Bond zero left Mriya unable to answer with meaning. She placed four small bolts 
 
 Nika understood the refusal through evidence rather than intimacy.
 
-Mriya looked at Borscht.
+Her gaze settled on Borscht.
 
 “And you gave up whatever the machine wanted to give you for saving Vale.”
 
@@ -7560,19 +7542,7 @@ She did not touch Mriya.
 
 Mriya placed one paw beside it.
 
-Across the room, the new entrances opened and closed for different bodies under different rules. The settlement used more material, more time, and more food than the System preferred.
-
-The resource zones mirrored the doors. No single shelf served everyone. No single entrance served everyone. Every distinction required labels, maintenance, and people willing to explain it again.
-
-Acting as if differences did not exist had been simpler. The simplicity had nearly killed Borscht and had rewarded Vale’s survival as retained productivity.
-
-It also kept everyone alive.
-
-For the first time since the poisoning, the Hearth held eleven Supply whose permitted uses matched the bodies depending on it.
-
-The end of the crisis revealed what Act III had changed. Bond could save and imprison. One entrance could protect and exclude. One resource law could simplify and poison. Every efficient system had worked exactly as described while hiding who absorbed its errors.
-
-The Hearth now possessed slower routes, divided stores, recorded objections, eleven portions, and members harder to optimize without asking.
+Across the room, different bodies used different doors and shelves. Each required labels, maintenance, and someone willing to explain it again. The Hearth now held eleven Supply whose permitted uses matched those bodies: slower, divided, recorded, and harder to optimize without asking.
 
 It was weaker in every way Sable could count.
 
@@ -7590,7 +7560,7 @@ Rook brought Sable's tribute on the tenth day.
 
 The tribute ring smelled of every dog who had carried it.
 
-Mriya smelled it before she saw Rook: iron, old saliva, and the separate fears of dogs who had learned that surrender could be called protection if the stronger pack wrote the notice. The scent came through the east pipe while Tomas measured the morning water and Pixel fastened a padded handle to the flat valve bar she and Wrench had tested once during the expansion and once after.
+Rook arrived in scent before sight: iron, old saliva, and the separate fears of dogs who had learned that surrender could be called protection if the stronger pack wrote the notice. The scent came through the east pipe while Tomas measured the morning water and Pixel fastened a padded handle to the flat valve bar she and Wrench had tested once during the expansion and once after.
 
 The failed expansion test had left Wrench's blood in the first wire stop. For the second, Tomas rounded the edges and Nika sacrificed a strip from the orange bag's shoulder pad. Irena made them repeat the close-open-close sequence under load. A human could grip the long end. A dog could set teeth around the short padded end. Neither body borrowed the shape of the other.
 
@@ -7644,7 +7614,7 @@ Rook laid the tabs inside the tribute ring. The System recognized them as comple
 
 “Then they paid.”
 
-It was not a false story. Sable had protected them. The ring converted a rescue into an indefinite right to collect, just as Bond Treatment had converted care into retention. The System did not need to invent the first need. It only needed to make the answer permanent.
+Sable had protected them; the story was true. The ring converted a rescue into an indefinite right to collect, just as Bond Treatment had converted care into retention. The System did not need to invent the first need. It only needed to make the answer permanent.
 
 Nika could not hear Mriya's questions, but she watched the tabs change position. Mriya brought the blood-scented one to her. Nika did not touch it. She asked Irena to describe the names scratched into the metal. There were no names, only location codes and values.
 
@@ -7662,7 +7632,7 @@ Nika understood from his body. She took two of the membership tokens from the wa
 
 Rook watched the demonstration. His front paws stayed square, but the left one pressed harder. Mriya had seen him do that before every statement he wished were simpler.
 
-The System offered a resolution.
+A resolution appeared.
 
 > [CLAIMANT DISPUTE]
 >
@@ -8008,13 +7978,13 @@ Then he picked it up and placed it around the Bite Key.
 
 “Not deferred.”
 
-Rook's jaw tightened around the iron ring. Deferred tribute would become debt at the next cycle. Uncollected tribute would remain a failed demand. He understood the distinction and disliked giving Mriya a word Sable could later smell as weakness.
+Rook's jaw tightened around the iron ring. Deferred tribute would become debt at the next cycle. Uncollected tribute would remain a failed demand. He understood the category and disliked giving Mriya a word Sable could later smell as weakness.
 
 “Uncollected,” he said.
 
 The System erased the subordinate-territory benefit. It also removed east-route priority. What remained was reciprocal access tied to named work. Sable could challenge later, but she could not claim that the Hearth had accepted protection today.
 
-It was not friendship.
+Friendship had no part in it.
 
 It was more useful.
 
@@ -8062,7 +8032,7 @@ Rook had heard the boots through the east line before Vale heard them above. He 
 
 “They will recover every useful object they can classify,” he said. “I have not carried a tool home yet.”
 
-It was not loyalty. It was a reason he could take back to Sable.
+Loyalty had no part in it. He needed a reason to take back to Sable.
 
 Vale heard boots above the depot. Pixel felt them through the rail. Mriya smelled the clean coats of municipal officers and the bitter concealed trace of the man from the tunnel.
 
@@ -8132,11 +8102,11 @@ Pixel's warning came through the low tunnel: two officers were moving toward the
 
 The retrieval team had expected one hidden room. Four routes made their map wrong, but only if the Hearth continued sharing information faster than the officers could isolate it.
 
-Mriya smelled its function: it did not find objects. It found permissions, old claims, places where the System had been allowed to read.
+Its function revealed itself in scent: it did not find objects. It found permissions, old claims, places where the System had been allowed to read.
 
 The officers advanced.
 
-One crossed the visitor line. The System offered to reinterpret his municipal order as invited authority because the ramp stood open.
+One crossed the visitor line. The interface proposed treating his municipal order as invited authority because the ramp stood open.
 
 Mriya rejected it.
 
@@ -8338,7 +8308,7 @@ Bond 0 gave Mriya no direction.
 
 They searched until dark.
 
-Dark changed the false streets. Reflections in wet windows began showing the green awning from angles where it could not exist. Mriya twice saw Nika's orange bag at the end of a passage and twice smelled only Cache sweetness. The System offered a tracking correction.
+Dark changed the false streets. Reflections in wet windows began showing the green awning from angles where it could not exist. Mriya twice saw Nika's orange bag at the end of a passage and twice smelled only Cache sweetness. A tracking correction appeared.
 
 > [MISSING BONDED HUMAN]
 >
@@ -8454,7 +8424,7 @@ The right face looked hurt in exactly the way Nika would.
 
 Behind her, the Hearth opened the ramp.
 
-It opened for a visitor whose history was disputed, not for a bonded owner. Mriya repeated the distinction until the System displayed it.
+It opened for a visitor whose history was disputed, not for a bonded owner. Mriya repeated the limit until the System displayed it.
 
 > [PROVISIONAL RETURN]
 >
@@ -8556,8 +8526,6 @@ Atlas was harder. He asked Nika to order him away from the photograph. She refus
 
 That answer convinced him she understood the danger of command. It also placed him where the photograph could later be released by two witnesses.
 
-The copy did not manipulate them with lies. It gave each person the truest answer their recorded need predicted.
-
 The Hearth heard the current Bond 0 and the older permission at once. Doors began opening and closing. Private scent markers brightened around the iron circle.
 
 The impostor walked toward Nika’s photograph.
@@ -8652,8 +8620,6 @@ Then optimization continued.
 
 The low tunnel narrowed because Pixel's route duplicated the ramp. The service passage locked because the red case made it a theft vector. The east water door assigned priority to registered human custody. Human and canine inventory markers merged into one caloric total. Borscht's medical allocation became an inefficient historical exception.
 
-Each reversal cited a real problem. Each solution removed the body or dissent that made the problem complicated.
-
 Walls smoothed. Handwritten rules faded from the depot timetable. The three human seats sank toward bowls again. Every inefficient choice began correcting itself.
 
 Pixel attacked the photograph.
@@ -8674,9 +8640,7 @@ His body obeyed before his mind agreed. He staggered backward, furious at muscle
 
 Tomas tried to pull the manual east release. It had become decorative. Irena pressed both emergency tokens; the panel requested responsible-human confirmation. Emil carried Borscht toward the low tunnel and found it too narrow for his shoulders. Vale reached the red case alone, stopped, then broke the two-member line because the second member could no longer reach him.
 
-The corrections turned every earlier compromise into evidence that one administrator had always been necessary.
-
-The word had once belonged to Mriya.
+Every earlier compromise now counted as evidence that one administrator had always been necessary. The word had once belonged to Mriya.
 
 Nika’s copied hand reached for the private markers.
 
@@ -8686,7 +8650,7 @@ The risk was not symbolic. The route fold held Nika through copied permissions. 
 
 Destroying the photograph could defeat the copy by making the original homeless.
 
-The System offered certainty.
+Certainty arrived.
 
 > [IDENTITY CONFLICT]
 >
@@ -8908,7 +8872,7 @@ Nika watched them restore friction around her.
 
 The real orange bag was gone.
 
-So were the keys, pressure bottle, breakfast wrapper, and the private photograph the copy had carried. The photograph beside the housing remained, because it had been drawn out of Hearth memory rather than removed from the bag. Nika had lost objects and retained history. The distinction hurt more than Mriya expected.
+So were the keys, pressure bottle, breakfast wrapper, and the private photograph the copy had carried. The photograph beside the housing remained, because it had been drawn out of Hearth memory rather than removed from the bag. Nika had lost objects and retained history. The difference hurt more than Mriya expected.
 
 Nika looked at the gray remains of its copy. “I hated that bag.”
 
@@ -8932,7 +8896,7 @@ Mriya leaned into the hand.
 
 Bond remained zero.
 
-The System offered restoration anyway.
+Restoration appeared anyway.
 
 > [LIVING CLAIMANT VERIFIED]
 >
@@ -9175,7 +9139,7 @@ At cycle end the iron housing would release its stored heat, routes, and territo
 
 “You keep matter.”
 
-The distinction silenced them. A home was matter plus agreements other bodies had reason to respect. Without recognition, they could still defend those agreements physically. They would spend every morning proving them again to Sable, High Collars, Free Teeth, and the System.
+The answer silenced them. A home was matter plus agreements other bodies had reason to respect. Without recognition, they could still defend those agreements physically. They would spend every morning proving them again to Sable, High Collars, Free Teeth, and the System.
 
 Mriya could refuse the test and preserve moral cleanliness until someone stronger entered. Accepting meant letting the Custodian define evidence. The third choice was to enter and contest the definition while it watched.
 
@@ -9295,8 +9259,6 @@ The charter clock appeared above the iron housing.
 
 The cycle would end at the next pressure reset. Sable's dogs narrowed east flow in small increments without violating their warning agreement. High Collars brought two registered humans to read a custody offer at the ramp. Free Teeth tested the low tunnel grating with wire hooks.
 
-Each faction made a different charter strategy look safer. Sable offered protection. High Collars offered legal administration. Free Teeth offered proof that open exits invited attack.
-
 Rook brought Sable's terms through the east water door. Accept `SUBORDINATE NODE`, deliver the first Bite Key, and the warehouses would restore full water before the pressure reset. No immediate Supply tribute would be collected. The next cycle would reopen payment under Sable's protection rate.
 
 “She improved the offer,” Tomas said.
@@ -9361,7 +9323,7 @@ Then it discounted each because the person could leave.
 
 “Exit-capable reliance is unstable.”
 
-Mriya looked at the network from the other direction.
+She read the network from the other direction.
 
 The Hearth needed Tomas to maintain filters. It needed Irena to understand the city pipes. It needed Vale to find supplies, despite everyone’s preference that he find them more legally. It needed Emil to care for Borscht. It needed Nika to carry meanings between species now that Bond was zero.
 
@@ -9433,9 +9395,7 @@ Nika asked Mriya what warning meant if Mriya could ignore it.
 
 “That protects my conscience. What protects me?”
 
-The question opened the same gap as every System offer. A duty without enforcement could fail. Enforcement strong enough to guarantee it could become control.
-
-They added consequence without ownership. A member who ignored a declared boundary lost the related role until review. A failed duty triggered repair, disclosure, and redistribution, not expulsion by default. Repeated concealed failure reopened membership consent for those affected. No single dog or human decided alone.
+A duty without enforcement could fail; enforcement strong enough to guarantee it could become control. They settled on consequence without ownership. A member who ignored a declared boundary lost the related role until review. A failed duty triggered repair, disclosure, and redistribution. Repeated concealed failure reopened membership consent for those affected. No single dog or human decided alone.
 
 Custodian 0.03 recorded lower efficiency, higher dispute cost, and an unexpected reduction in catastrophic dependency risk.
 

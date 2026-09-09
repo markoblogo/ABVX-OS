@@ -30,6 +30,19 @@
     "continuity_pack": "../continuity/series-continuity-pack.json",
     "gate_result": "DEVELOPMENTAL_PASS_READY_FOR_LINE_EDIT"
   },
+  "final_line_edit": {
+    "manuscript_words": 81798,
+    "manuscript_sha256": "37dafc1ed1701cb7cf4ce80bab8ab986cd3b713aa37afa79a4a10b1c060b1d92",
+    "front_matter_words": 31,
+    "chapter_actuals_using_counting_rule": {"1":2155,"2":2136,"3":2309,"4":2175,"5":2156,"6":2104,"7":2273,"8":2192,"9":2439,"10":2199,"11":2142,"12":2219,"13":2171,"14":2166,"15":2332,"16":2063,"17":2223,"18":2704,"19":2082,"20":2110,"21":2334,"22":2024,"23":2269,"24":2480,"25":2213,"26":2278,"27":2110,"28":2208,"29":2286,"30":2497,"31":2252,"32":2320,"33":2458,"34":2164,"35":2459,"36":3096},
+    "chapter_actual_total": 81798,
+    "chapter_target_total": 84600,
+    "target_variance_percent": -3.3,
+    "repeated_frames_before": {"Mriya smelled":60,"Mriya looked":29,"the distinction":15,"it was not":15,"The System offered":14,"total":133},
+    "repeated_frames_after": {"Mriya smelled":16,"Mriya looked":5,"the distinction":4,"it was not":3,"The System offered":2,"total":30},
+    "thematic_restatement_chapters": [18,21,24,27,32,35],
+    "gate_result": "PASS_OWNER_REVIEW_REQUIRED"
+  },
   "expansion_policy": [
     "Add scenes, reversals, consequences, relationship movement and setting evidence; do not pad existing paragraphs.",
     "Preserve every chapter's current entry and exit turn unless the structural audit explicitly requires a causal bridge.",

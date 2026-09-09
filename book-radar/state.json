@@ -47640,7 +47640,7 @@
       "opportunities_scanned": 0,
       "deep_scanned": 0,
       "production_authorized": true,
-      "status": "DEVELOPMENTAL_GATE_PASS_READY_FOR_LINE_EDIT",
+      "status": "FINAL_MANUSCRIPT_GATE_PASS_OWNER_REVIEW_REQUIRED",
       "strategy": "candidate-generation-v5-commercial-first"
     }
   ],

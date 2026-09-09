@@ -1,4 +1,5 @@
 import json
+import re
 import unittest
 from datetime import date
 from pathlib import Path
@@ -124,7 +125,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["status"], "DEVELOPMENTAL_GATE_PASS_READY_FOR_LINE_EDIT")
+        self.assertEqual(progress["status"], "FINAL_MANUSCRIPT_GATE_PASS_OWNER_REVIEW_REQUIRED")
         self.assertEqual(progress["draft_words"], len(manuscript.split()))
         self.assertEqual(progress["expanded_chapters"], list(range(1, 37)))
         self.assertEqual(progress["chapters_drafted"], 36)
@@ -137,7 +138,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertIn("[DEPENDENCY REDEFINED: MEMBERSHIP]", manuscript)
         self.assertIn("Future contribution conversion: 88%", manuscript)
         self.assertIn("The System treated the reaching body as updated consent.", manuscript)
-        self.assertIn("The settlement had lost an efficient bridge because the bridge was also a person.", manuscript)
+        self.assertIn("The human bridge was truly gone.", manuscript)
         self.assertIn("The limit hurt and made the return credible.", manuscript)
         self.assertIn("Assembly speed +22%", manuscript)
         self.assertIn("Expansion service efficiency: 91%", manuscript)
@@ -194,13 +195,14 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md"
         import hashlib
         digest = hashlib.sha256(manuscript.read_bytes()).hexdigest()
-        self.assertEqual(revision["decision"], "DEVELOPMENTAL_GATE_PASS_READY_FOR_LINE_EDIT")
+        self.assertEqual(revision["decision"], "FINAL_MANUSCRIPT_GATE_PASS_OWNER_REVIEW_REQUIRED")
         self.assertTrue(revision["manuscript_edited"])
         self.assertEqual(len(revision["p0"]), 5)
         self.assertEqual(len(revision["p1"]), 6)
         self.assertEqual(len(revision["p2"]), 3)
-        self.assertEqual(digest, revision["post_p1_sha256"])
+        self.assertEqual(digest, revision["post_line_edit_sha256"])
         self.assertEqual(digest, progress["current_manuscript_sha256"])
+        self.assertNotEqual(digest, revision["post_p1_sha256"])
         self.assertNotEqual(digest, revision["post_p0_sha256"])
         self.assertNotEqual(digest, revision["audited_sha256"])
         self.assertEqual(revision["audited_sha256"], progress["audited_manuscript_sha256"])
@@ -226,6 +228,8 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         for retired in ("surface door", "east entrance", "east door", "low drain", "low-tunnel", "east-water", "surface route"):
             self.assertNotIn(retired, chapter_24_onward.lower())
         self.assertTrue((ROOT / "books/rn10-003/qa/second-developmental-gate.md").exists())
+        self.assertTrue((ROOT / "books/rn10-003/qa/final-manuscript-gate.md").exists())
+        self.assertTrue((ROOT / "books/rn10-003/review/Good-Dog-Bad-System-owner-review.docx").exists())
         self.assertEqual(revision["passed_ledgers"]["bond"], 0)
         self.assertEqual(revision["passed_ledgers"]["hearth_to_rook_defense_charge"], 1)
 
@@ -250,6 +254,26 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertEqual(gate["expanded_chapters"], list(range(1, 37)))
         self.assertEqual(gate["chapter_actual_total"], 81258)
         self.assertLessEqual(abs(gate["target_variance_percent"]), 4)
+        final = expansion["final_line_edit"]
+        self.assertEqual(final["manuscript_words"], 81798)
+        self.assertEqual(final["front_matter_words"], 31)
+        self.assertEqual(final["chapter_actual_total"], final["manuscript_words"])
+        self.assertEqual(sum(final["chapter_actuals_using_counting_rule"].values()), 81798)
+        self.assertEqual(final["chapter_actuals_using_counting_rule"]["1"], 2155)
+        self.assertEqual(final["gate_result"], "PASS_OWNER_REVIEW_REQUIRED")
+        self.assertEqual(final["repeated_frames_before"]["total"], 133)
+        self.assertEqual(final["repeated_frames_after"]["total"], 30)
+        manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
+        starts = list(re.finditer(r"(?m)^# Chapter [^\n]+$", manuscript))
+        actuals = {}
+        for index, start in enumerate(starts):
+            end = starts[index + 1].start() if index + 1 < len(starts) else len(manuscript)
+            actuals[str(index + 1)] = len(manuscript[start.start():end].split())
+        actuals["1"] += len(manuscript[:starts[0].start()].split())
+        self.assertEqual(actuals, final["chapter_actuals_using_counting_rule"])
+        for phrase, expected in final["repeated_frames_after"].items():
+            if phrase != "total":
+                self.assertEqual(manuscript.lower().count(phrase.lower()), expected)
 
 
 if __name__ == "__main__":
