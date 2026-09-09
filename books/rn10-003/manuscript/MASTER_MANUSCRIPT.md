@@ -3776,6 +3776,12 @@ Mriya followed the concealment to the east wall. The last locker had been bolted
 
 The marks smelled faintly of machine oil, burned wool, and the peppermint used to cover private grief. Newer repairs crossed the old diagram. Whoever had maintained the room after its official closure had known both systems and had wanted the next person to know where they met.
 
+Above the eastern locker, an emergency light had gone black years ago. Two moths still circled its dusty glass. Each impact loosened nothing Mriya could see, yet a dry black grain appeared in the seam below and vanished before it reached the floor. The room smelled briefly of work with no worker attached.
+
+Pixel waited for a third impact. “The dead light is collecting something.”
+
+No interface answered. Nika marked the light on her paper anyway.
+
 “Initials,” Nika said. “Or a valve designation.”
 
 Pixel tapped the pipe above `IV-3`. The eastern wall answered half a breath later, then the floor beneath the iron circle answered again.
@@ -4596,7 +4602,7 @@ The portion was enough for three mouths because the System had priced an outcome
 >
 > Opening balance: 8
 >
-> East-water exchange: -1
+> East water exchange: -1
 >
 > Available: 7
 
@@ -4848,7 +4854,7 @@ If she succeeded, the Hearth would keep its small settling tank and lose access 
 
 Her objective opposed their shelter and protected everyone outside it.
 
-The third person came through the surface door after knocking.
+The third person came through the west hidden door after knocking.
 
 This alone made him suspicious.
 
@@ -5076,6 +5082,8 @@ Before writing general rules, they used the problems already in the room.
 
 Tomas required access to tools and the right to refuse unsafe repairs.
 
+“Measure first. Promise after,” he said. The order mattered to him more than the words on the timetable; at the warehouse, a door certified as open had nearly left seven people inside smoke.
+
 He demonstrated unsafe by asking Atlas to hold the filter housing while he loosened a corroded band. The metal sprang outward hard enough to cut the air where a human wrist would have been. Under the offered allocation, Tomas could refuse only until his handler reviewed the task. Atlas understood danger, but not pipe pressure, steel fatigue, or the sound Tomas heard before the band broke.
 
 “The person doing skilled work decides whether it is safe,” Nika wrote.
@@ -5089,6 +5097,8 @@ Irena required a map of every pipe the Hearth altered and a municipal override i
 Pixel asked who owned municipal. Irena answered everyone, which caused Vale to laugh and Tomas to ask who had sealed the room off the maps.
 
 Irena revised her demand. She could close a connection when measurements showed immediate contamination outside the Hearth. Reopening it required two members, one from the Hearth and one responsible for the affected line. All changes stayed on a physical map visible to inhabitants and visitors using the system.
+
+“Recorded does not mean true,” she said, correcting her own line before anyone else could. “It means the next person can find where we were wrong.” Her hidden diagram had survived because the official one had erased the room. She would not let access depend on one clean version again.
 
 Mriya accepted closing danger. She refused an override that could silently remove their water while they slept.
 
@@ -5169,6 +5179,10 @@ Vale signed using that name and added no surname. He disclosed that the pastries
 Nika accepted while looking at Mriya. “No choices for another member because there isn’t time.”
 
 Mriya placed her paw beneath the line.
+
+Nika touched the destination list folded in her pocket. “Your sister's sofa?”
+
+Emil counted two slow beats against his medicine case before answering. “Across a closed bridge, in a building whose lift failed before the world did. A sofa solves where I lie down. It does not solve the signals under this city.” He looked at the valves he had labelled and at the exit rule Borscht had forced them to write. “Put her under message owed. When the river route opens, I send word. Until these warnings have another keeper, I choose this place. Then you ask me again.”
 
 Emil and Borscht marked the paper together. Pixel stamped it twice and was allowed one signature. Atlas withheld his.
 
@@ -5962,7 +5976,7 @@ Nika took another step. Then another. Each one increased distance without correc
 
 Nika climbed out of sight.
 
-The surface door opened. City air entered: smoke, river salt, frightened crowds, distant dogs, routes in every direction.
+The west hidden door opened. City air entered: smoke, river salt, frightened crowds, distant dogs, routes in every direction.
 
 The door closed.
 
@@ -6622,7 +6636,7 @@ No contribution worked on the first attempt.
 
 Tomas removed the lock and discovered the handle depended on its housing for support. The door sagged until Nika suggested turning the command brace sideways as a lintel. It held weight without recognizing authority.
 
-Irena connected all manual releases to one pipe, then cut the connection when Pixel pointed out that one broken main would disable every exit. She divided them between mechanical cable, pressure latch, and paired electrical contacts.
+Irena connected all manual releases to one pipe, then stared at her own clean diagram. Unit Four had vanished once because one official map was allowed to describe the whole network. “One line is a claim, not redundancy,” she said, and cut the connection before anyone tested it. She divided the releases between mechanical cable, pressure latch, and paired electrical contacts.
 
 Pixel’s first alarm wire opened the low route whenever anyone stepped on it. Borscht crossed successfully. So did the food crate when Vale dropped it. Pixel added a direction loop and a deliberate paw plate.
 
@@ -6648,7 +6662,7 @@ The widened tunnel admitted Mriya too, but not Atlas. They raised one section. A
 
 Pixel installed a bypass beside the latch, then declared it on the map. A hidden route had become a shared exception without ceasing to be clever.
 
-A guarded east door whose authority ended when the guard stepped away.
+A guarded east water door whose authority ended when the guard stepped away.
 
 This entrance faced Rook’s line and therefore needed refusal as much as access. They reused the command recognition plate without its permanent profile. Any member standing on the guard mark could hold the door, see an approaching threshold warning, and open or deny the latch. When the guard stepped away, authority ended and the door returned to the house rules.
 
@@ -6657,6 +6671,14 @@ Atlas tested it first. The gate responded to his posture and offered permanent r
 Wrench approached from the east. Atlas let Nika choose whether to open. Nika asked Irena about pressure, Mriya about scent, and Pixel about the low alarm. Only then did she release the door.
 
 Guarding became a task someone performed, not a species or identity.
+
+Wrench tested the new route with a problem from the warehouse side. The shutoff beyond it had a square socket too deep for teeth and too stiff for a paw. Tomas cut a flat bar from the discarded command brace. Pixel added a wire stop so a dog could bite the short end while a human held the long one.
+
+The first loaded turn failed. Pixel's stop slipped, the bar rolled inside Wrench's mouth, and the socket opened her lip. Tomas took the tool away before success could excuse it.
+
+“Measured failure,” he said. “It goes on the shelf until the mouth and hand can both release it.”
+
+The unfinished bar remained beside the east water door: useful shape, unsafe agreement.
 
 An emergency panel that required two different members to press its releases.
 
@@ -6674,7 +6696,7 @@ Tomas moved the filter housing down the ramp while Nika took medicine beside the
 
 Then Irena blocked each entrance in turn.
 
-With the ramp closed, humans used the emergency panel and dogs used the tunnel. With the tunnel closed, Pixel could use the ramp and complain about distances. With the east door locked, the western and emergency routes remained. When the emergency panel failed, no ordinary route changed.
+With the ramp closed, humans used the emergency panel and dogs used the tunnel. With the tunnel closed, Pixel could use the ramp and complain about distances. With the east water door locked, the ramp and service passage remained. When the emergency panel failed, no ordinary route changed.
 
 The network did not prevent exclusion. It prevented one exclusion from becoming universal.
 
@@ -6732,7 +6754,7 @@ Nika opened the ramp and walked outside. She returned without looking at Mriya f
 
 She carried her photograph inside her coat. The design use had not restored it as a Hearth marker. The ramp opened because membership and mechanics recognized her, not because Bond had returned.
 
-Atlas tested the east door. It obeyed while he stood guard and released when he left.
+Atlas tested the east water door. It obeyed while he stood guard and released when he left.
 
 He tested the delay by stepping away during opening. The door stopped without trapping the crossing body, then became available to the next member on the mark. He ran the test until the System stopped offering permanent authority.
 
@@ -6842,7 +6864,7 @@ The jar lost its paper label when condensation loosened the glue. Irena placed i
 
 Every person believed someone else had completed the classification.
 
-Mriya noticed the gap and went to the east door when Wrench sent a pressure change. She intended to return after one knock. The new network required attention at four entrances, and redundancy did not create four Mriyas.
+Mriya noticed the gap and went to the east water door when Wrench sent a pressure change. She intended to return after one knock. The new network required attention at four entrances, and redundancy did not create four Mriyas.
 
 During that single absence, the second count began.
 
@@ -6868,7 +6890,7 @@ The sweet spread vanished during the second count.
 
 No one noticed because the written total still matched eleven Supply.
 
-Mriya returned from the east door carrying Wrench’s safe-pressure signal. She smelled the missing jar before she saw the empty place. The common ledger remained complete, so the Hearth offered no warning and no location.
+Mriya returned from the east water door carrying Wrench’s safe-pressure signal. She smelled the missing jar before she saw the empty place. The common ledger remained complete, so the Hearth offered no warning and no location.
 
 She followed individual scent instead: Pixel’s paws along the shelf, Borscht waiting below, the sweetener smeared toward the lowest locker. Scent found what Supply accounting had declared unchanged.
 
@@ -7272,7 +7294,7 @@ Mriya closed every offer.
 
 She wanted no profit from the measurement.
 
-The Favor remained available. Refusal did not erase where it came from.
+The Favor remained available. Refusal did not erase where it came from. It was attached to the System's valuation of Vale's preserved usefulness, not to permission Vale had knowingly given. Until that contradiction changed, carrying it was safer than pretending the balance had become consent.
 
 # Chapter Twenty-Seven: Different Rules
 
@@ -7432,7 +7454,7 @@ Mriya confirmed.
 >
 > Opening Hearth balance: 8
 >
-> East-water exchange: -1
+> East water exchange: -1
 >
 > Human consumable Cache: +11
 >
@@ -7554,7 +7576,7 @@ The Hearth now possessed slower routes, divided stores, recorded objections, ele
 
 It was weaker in every way Sable could count.
 
-From the east door came three deliberate scratches.
+From the east water door came three deliberate scratches.
 
 Rook waited outside with a metal tribute ring between his teeth.
 
@@ -7568,9 +7590,9 @@ Rook brought Sable's tribute on the tenth day.
 
 The tribute ring smelled of every dog who had carried it.
 
-Mriya smelled it before she saw Rook: iron, old saliva, and the separate fears of dogs who had learned that surrender could be called protection if the stronger pack wrote the notice. The scent came through the east pipe while Tomas measured the morning water and Pixel fastened a padded handle to the flat valve bar she and Wrench had tested twice since the expansion.
+Mriya smelled it before she saw Rook: iron, old saliva, and the separate fears of dogs who had learned that surrender could be called protection if the stronger pack wrote the notice. The scent came through the east pipe while Tomas measured the morning water and Pixel fastened a padded handle to the flat valve bar she and Wrench had tested once during the expansion and once after.
 
-The first test had failed. Pixel's wire stop slipped, the bar rotated inside Wrench's mouth, and Wrench opened her lip on the socket. The second worked only after Tomas rounded the edges and Nika sacrificed a strip from the orange bag's shoulder pad. Irena made them repeat the close-open-close sequence under load. A human could grip the long end. A dog could set teeth around the short padded end. Neither body borrowed the shape of the other.
+The failed expansion test had left Wrench's blood in the first wire stop. For the second, Tomas rounded the edges and Nika sacrificed a strip from the orange bag's shoulder pad. Irena made them repeat the close-open-close sequence under load. A human could grip the long end. A dog could set teeth around the short padded end. Neither body borrowed the shape of the other.
 
 Wrench had carried the prototype east before dawn for a third test at the warehouse branch. She was supposed to return with pressure readings. Instead Rook returned it behind six disciplined dogs, and the iron ring came with them.
 
@@ -7578,13 +7600,13 @@ Nika noticed Mriya's attention and stopped sorting the human food shelf. Their n
 
 Atlas asked for emergency command. Mriya refused. Rook was a threat, but he was also a visitor who had announced himself. Giving one voice control before he crossed the line would turn caution into a permanent excuse.
 
-So they used ordinary rules. Tomas closed the medical panel. Irena took the incident ledger. Vale moved away from the east entrance because his procurement restriction still applied. Pixel left the valve bar where everyone could see it and sat on her paws with visible effort. Nika stood beside Mriya without being placed there by Bond.
+So they used ordinary rules. Tomas closed the medical panel. Irena took the incident ledger. Vale moved away from the east water door because his procurement restriction still applied. Pixel left the valve bar where everyone could see it and sat on her paws with visible effort. Nika stood beside Mriya without being placed there by Bond.
 
-Only then did they open the east route.
+Only then did they open the east water door.
 
 Fear lay deepest. Above it came obedience, pride, river mud, warehouse dust, and the clean bite marks of Rook himself. The iron circle was too large for a collar and too small for a gate. Its purpose was entirely social.
 
-Rook placed it outside the east entrance.
+Rook placed it outside the east water door.
 
 The six dogs behind him sat in two rows. Wrench occupied the front. The tear in the other dog’s lip had begun to heal. None looked thirsty now. The clean east line had done what Mriya promised.
 
@@ -7744,7 +7766,7 @@ Atlas asked again for command. Nika and Irena did not make the second declaratio
 
 Rook advanced one pace. Atlas yielded exactly half of one, enough to keep his body between the visitor and Borscht without converting the movement into a challenge. Behind Rook, the six dogs remained outside as ordered. Wrench's attention kept breaking toward the padded valve bar.
 
-The east entrance admitted him because petitioners could enter. His six dogs remained outside. Atlas moved between Rook and the inhabited lockers.
+The east water door admitted him because petitioners could enter. His six dogs remained outside. Atlas moved between Rook and the inhabited lockers.
 
 “Sable did not send me to return with a sentence,” Rook said.
 
@@ -7806,7 +7828,7 @@ Rook’s ears turned.
 
 Wrench stood outside so quickly that she broke formation.
 
-Dirty water spread beneath the east door.
+Dirty water spread beneath the east water door.
 
 # Chapter Twenty-Nine: A Tool Worth Biting
 
@@ -7820,7 +7842,7 @@ Atlas divided the work without claiming expertise. “People above water line. D
 
 The species-specific rule slowed them and prevented the exact failure it had been built for. Emil carried smooth-marked human meals. Pixel and Mriya dragged the knotted canine bin onto the raised ledge. Vale reached for the red medical case, stopped at its two-member boundary, and waited until Irena joined him. Borscht tried to stand. Nika told him his job was breathing.
 
-Rook remained inside the visitor line while water crossed it. The rule gave him permission to leave by the east door. His obligation told him to complete enforcement. His six dogs outside began to lose their formation as the runoff reached their paws.
+Rook remained inside the visitor line while water crossed it. The rule gave him permission to leave by the east water door. His obligation told him to complete enforcement. His six dogs outside began to lose their formation as the runoff reached their paws.
 
 Pressure from the east line drove rust-colored water across the expansion floor. Tomas held the housing closed with both hands. Irena fought the upstream control, but the wheel had been designed for a stronger human in a room that no longer existed.
 
@@ -7828,7 +7850,7 @@ Pressure from the east line drove rust-colored water across the expansion floor.
 
 Wrench barked from outside. Rook looked at the tribute ring, then at the rising water.
 
-Mriya opened the east entrance.
+Mriya opened the east water door.
 
 Wrench entered first.
 
@@ -8076,11 +8098,11 @@ Mriya wanted her deeper inside. Bond 0 gave no force to the wish. Nika saw her l
 
 The old anger remained. So did her position.
 
-The surface door opened.
+The ramp opened.
 
-The officers did not break it. Their authorization woke the abandoned municipal motor, which tried to retract every lock connected to the old depot registry. The ramp door opened. The east door shuddered. The service panel displayed an external override. Only the low tunnel, built from a drain and never entered in municipal records, remained unchanged.
+The officers did not break it. Their authorization woke the abandoned municipal motor, which tried to retract every lock connected to the old depot registry. The ramp door opened. The east water door shuddered. The service panel displayed an external override. Only the low tunnel, built from a drain and never entered in municipal records, remained unchanged.
 
-The four-route design prevented one credential from becoming universal access. Irena canceled the service-panel override with her token while Tomas pressed the second from inside. Wrench held the east door physically until Pixel pulled its local release wire free. The ramp stayed open because they chose to meet the claim there.
+The four-route design prevented one credential from becoming universal access. Irena canceled the service-panel override with her token while Tomas pressed the second from inside. Wrench held the east water door physically until Pixel pulled its local release wire free. The ramp stayed open because they chose to meet the claim there.
 
 The tunnel man entered with four officers and a scanner that clicked toward hidden System residue. He stopped at the ramp when he saw Rook and six warehouse dogs inside the visitor line.
 
@@ -8158,7 +8180,7 @@ Mriya intercepted him. She had no Favor left she was willing to spend. She did n
 
 Rook took the scanner between his teeth.
 
-He could have crushed it. Instead he carried it to the east door and dropped it into the dirty runoff.
+He could have crushed it. Instead he carried it to the east water door and dropped it into the dirty runoff.
 
 The device sparked.
 
@@ -8292,7 +8314,7 @@ Irena climbed down, followed pipe noise, and reached the low tunnel. She had spe
 
 Active, deliberate, and gone.
 
-Mriya found Nika’s trail on the stairs. Rain, antibiotics, orange canvas, the bread they had shared. It continued to the surface door and ended as cleanly as thread cut by a knife.
+Mriya found Nika’s trail on the stairs. Rain, antibiotics, orange canvas, the bread they had shared. It continued to the ramp and ended as cleanly as thread cut by a knife.
 
 Beyond it lay three false routes, each carrying part of her scent.
 
@@ -8620,15 +8642,15 @@ The copied finger had already pressed the light. The action came half a breath b
 
 The copy knew where acceptance would appear because the interface had built it.
 
-The east door opened to empty darkness. The low tunnel unlocked. The emergency panel depressed both releases without hands. Through the pipes came the mineral pulse that had begun beneath apartment 4B.
+The east water door opened to empty darkness. The low tunnel unlocked. The emergency panel depressed both releases without hands. Through the pipes came the mineral pulse that had begun beneath apartment 4B.
 
 The System entered the Hearth as permission rather than an enemy.
 
-It began with repairs everyone wanted. The east door aligned. The heater gained two degrees. Dirty water drained from the expansion seam. The System recovered the 9% access loss and displayed it as rescued capacity.
+It began with repairs everyone wanted. The east water door aligned. The heater gained two degrees. Dirty water drained from the expansion seam. The System recovered the 9% access loss and displayed it as rescued capacity.
 
 Then optimization continued.
 
-The low tunnel narrowed because Pixel's route duplicated the ramp. The service passage locked because the red case made it a theft vector. The east door assigned priority to registered human custody. Human and canine inventory markers merged into one caloric total. Borscht's medical allocation became an inefficient historical exception.
+The low tunnel narrowed because Pixel's route duplicated the ramp. The service passage locked because the red case made it a theft vector. The east water door assigned priority to registered human custody. Human and canine inventory markers merged into one caloric total. Borscht's medical allocation became an inefficient historical exception.
 
 Each reversal cited a real problem. Each solution removed the body or dissent that made the problem complicated.
 
@@ -8736,7 +8758,7 @@ The clean Nika moved first. She took the blanket from her own shoulders and offe
 
 Emil reached for the blanket, then stopped. Generosity proved nothing when the copy knew generosity was expected. Refusing it proved nothing when shock could change behavior. Every natural reaction became contaminated by its usefulness as evidence.
 
-Irena separated the candidates physically. Candidate A remained beside the photograph. Candidate B stayed at the broken panel. Atlas placed himself between both and the route controls. Tomas restored a manual block to the east door. Vale held the red case boundary alone until Irena could return, announcing the breach rather than hiding it.
+Irena separated the candidates physically. Candidate A remained beside the photograph. Candidate B stayed at the broken panel. Atlas placed himself between both and the route controls. Tomas restored a manual block to the east water door. Vale held the red case boundary alone until Irena could return, announcing the breach rather than hiding it.
 
 No one asked Mriya to choose yet.
 
@@ -8876,11 +8898,11 @@ Wrench wrapped it in the Bite Key's discarded padding before it could reach wate
 
 The System’s corrections stopped. The handwritten rules returned in Nika’s ink. Human seats rose from bowls. Four doors recovered four different shapes.
 
-Restoration was not complete. The low tunnel remained narrower by a hand's width. The east-door motor carried the municipal override address. Two canine food labels had lost their scent under the merged inventory. Atlas's muscles remembered obeying release. Vale had broken evidence custody for a reason and recorded it as a breach.
+Restoration was not complete. The low tunnel remained narrower by a hand's width. The east water door motor carried the municipal override address. Two canine food labels had lost their scent under the merged inventory. Atlas's muscles remembered obeying release. Vale had broken evidence custody for a reason and recorded it as a breach.
 
 They did not describe survival as proof that the rules were sufficient.
 
-Irena listed every damaged permission. Tomas disconnected the photograph from the route display without destroying it. Pixel rebuilt the low-tunnel release from ordinary wire. Emil returned Borscht to the warm partition and asked before moving the blanket. Atlas requested that no command rule use his body until they understood the forced release.
+Irena listed every damaged permission. Tomas disconnected the photograph from the route display without destroying it. Pixel rebuilt the low tunnel release from ordinary wire. Emil returned Borscht to the warm partition and asked before moving the blanket. Atlas requested that no command rule use his body until they understood the forced release.
 
 Nika watched them restore friction around her.
 
@@ -9201,7 +9223,7 @@ Tomas would belong to Atlas, Irena to Mriya, and Vale to Pixel. Pixel found the 
 
 The answers were immediate. The consequences were not. The floor cooled while the demonstration ran. The municipal strip blocked the next automatic water allotment. Outside, High Collar scratching became formal: one mark for registered authority, another for claim priority, a third promising orderly transfer.
 
-Tomas rubbed warmth into his fingers. “We should test the door option.”
+Tomas rubbed warmth into his fingers. “Measure first. Promise after. We should test the door option.”
 
 Nika turned on him.
 
@@ -9271,11 +9293,11 @@ Nika read the same sentence on a strip of paper emerging from the white desk.
 
 The charter clock appeared above the iron housing.
 
-The cycle would end at the next pressure reset. Sable's dogs narrowed east flow in small increments without violating their warning agreement. High Collars brought two registered humans to read a custody offer at the surface door. Free Teeth tested the low-tunnel grating with wire hooks.
+The cycle would end at the next pressure reset. Sable's dogs narrowed east flow in small increments without violating their warning agreement. High Collars brought two registered humans to read a custody offer at the ramp. Free Teeth tested the low tunnel grating with wire hooks.
 
 Each faction made a different charter strategy look safer. Sable offered protection. High Collars offered legal administration. Free Teeth offered proof that open exits invited attack.
 
-Rook brought Sable's terms through the east door. Accept `SUBORDINATE NODE`, deliver the first Bite Key, and the warehouses would restore full water before the pressure reset. No immediate Supply tribute would be collected. The next cycle would reopen payment under Sable's protection rate.
+Rook brought Sable's terms through the east water door. Accept `SUBORDINATE NODE`, deliver the first Bite Key, and the warehouses would restore full water before the pressure reset. No immediate Supply tribute would be collected. The next cycle would reopen payment under Sable's protection rate.
 
 “She improved the offer,” Tomas said.
 
@@ -9311,7 +9333,7 @@ The evaluation was not discovering a neutral answer. It was deciding which loop 
 >
 > Failure returns facility to unclaimed status.
 
-Through the pipes, Mriya felt other territories testing the Hearth boundary. A High Collar dog scratched a formal challenge at the surface door. Free Teeth scouts searched the drains. Sable had delayed her claim, not abandoned it.
+Through the pipes, Mriya felt other territories testing the Hearth boundary. A High Collar dog scratched a formal challenge at the ramp. Free Teeth scouts searched the drains. Sable had delayed her claim, not abandoned it.
 
 The easy proof was available.
 
@@ -9465,15 +9487,15 @@ The Custodian lowered the stamp by half the width of an insect.
 
 Mriya opened every entrance.
 
-Opening required work. The ramp motor still carried municipal override. Tomas disconnected it and raised the door by hand. Pixel restored the low tunnel to its earlier width, scraping both shoulders through the narrow section. Irena and Vale used their two tokens on the emergency panel. Wrench opened the east door from the warehouse side with the Bite Key.
+Opening required work. The ramp motor still carried municipal override. Tomas disconnected it and raised the door by hand. Pixel restored the low tunnel to its earlier width, scraping both shoulders through the narrow section. Irena and Vale used their two tokens on the emergency panel. Wrench opened the east water door from the warehouse side with the Bite Key.
 
 Four cold routes appeared. So did four dangers.
 
-High Collars waited at the ramp with blankets and a human registration form. Free Teeth waited beyond the low drain with meat outside Hearth scent. The service passage led toward the pharmacy fold. The east door led into Sable's territory, where protection could still be purchased.
+High Collars waited at the ramp with blankets and a human registration form. Free Teeth waited beyond the low tunnel with meat outside Hearth scent. The service passage led toward the pharmacy fold. The east water door led into Sable's territory, where protection could still be purchased.
 
 Exit was real because alternatives were real.
 
-Cold morning air crossed the ramp. The low tunnel showed a clear route to the drains. Atlas stepped away from the east guard position. Irena and Tomas released the emergency panel. Anyone could leave before the decision.
+Cold morning air crossed the ramp. The low tunnel showed a clear route to the drains. Atlas stepped away from the east water door guard mark. Irena and Tomas released the emergency panel. Anyone could leave before the decision.
 
 Custodian 0.03 started a retention counter.
 
@@ -9481,7 +9503,7 @@ Vale stepped onto the ramp first. High Collars offered to clear the municipal re
 
 He returned to disclose the offer before deciding. That act satisfied his duty. Nobody ordered the decision that followed.
 
-Vale looked at the surface route, reconsidered several relationships, and stayed.
+Vale looked at the ramp, reconsidered several relationships, and stayed.
 
 The counter rose. Mriya rejected it. Vale's stay was not evidence she possessed him.
 
@@ -9549,7 +9571,7 @@ Mriya set one paw beside it.
 
 The network closed without becoming a cage.
 
-Not every obligation succeeded. Heat remained low. The first Bite Key was unfinished. The municipal claim remained active. One Free Teeth scout occupied the visitor bench. Atlas had no membership duty and guarded the east door anyway. The model did not promise efficiency. It made failure visible without converting it into ownership.
+Not every obligation succeeded. Heat remained low. The first Bite Key was unfinished. The municipal claim remained active. One Free Teeth scout occupied the visitor bench. Atlas had no membership duty and guarded the east water door anyway. The model did not promise efficiency. It made failure visible without converting it into ownership.
 
 Every received service paired with a duty. Every duty pointed toward someone who retained the right to refuse it. The shape had no top.
 
@@ -9663,6 +9685,12 @@ Warmth returned through the floor.
 >
 > Hearth owes Rook one defense
 
+> [FAVOR CARRYOVER]
+>
+> Balance: 1 / Origin: Vale preservation valuation
+>
+> Charter effect: retained as disputed System credit; no member-consent authority attached
+
 The private markers around the iron housing dimmed. Nika’s photograph became only paper again. The shelter scent in Mriya’s collar belonged to memory, not administrative access.
 
 Outside, every challenge mark vanished from the four entrances. Sable’s claim paused. The High Collars lost their automatic seniority. Free Teeth scouts retreated far enough to become a future problem.
@@ -9715,7 +9743,7 @@ The Hearth accepted him as a member.
 >
 > Exit protected.
 
-Atlas chose the space beside the east entrance, near enough to guard and far enough that guarding remained an action rather than an identity.
+Atlas chose the space beside the east water door, near enough to guard and far enough that guarding remained an action rather than an identity.
 
 Rook declined membership before anyone offered. His place remained east, between Sable's hierarchy and the dogs who used its water. He collected the iron ring from the Bite Key station and found that the charter had erased every subordinate scent while preserving the tooth marks of witnesses.
 

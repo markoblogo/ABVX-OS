@@ -11,7 +11,7 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 81,770 words by `wc -w` against the 84,600-word architecture, within 3.3%.
+- Current manuscript count: 82,258 words by the repository counting rule against the 84,600-word architecture, within 2.8%.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
@@ -27,13 +27,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - All 36 chapters are expanded. Developmental editing and line editing remain required.
 - The source-preserving developmental audit baseline recorded `REVISION_REQUIRED` before manuscript edits.
 - Its revision map contains 5 P0, 6 P1 and 3 P2 items. Supply and alliance ledgers passed at the audit baseline.
-- Canonical series continuity pack is active. All five P0 revisions passed; six P1 developmental revisions remain.
+- Canonical series continuity pack v2 is active. All five P0 and all six P1 revisions passed; the second developmental gate found no new structural blocker.
+- Three P2 line-edit targets remain: repeated sentence frames, adjacent thematic restatement and per-chapter count metadata.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Apply the six P1 developmental revisions using the canonical continuity pack: normalize route names and geography, close Emil's sister decision, reconcile Favor 1, seed the Bite Key and Custodian earlier, and differentiate Tomas, Irena and Emil. Then run the second developmental gate before line editing.
+Run the controlled P2 line edit: vary repeated sentence frames without weakening Mriya's scent POV, compress thematic restatement in chapters 18, 21, 24, 27, 32 and 35, and rebuild exact per-chapter counts. Then repeat the manuscript gate before owner review.
 
 ## Continuity anchors
 

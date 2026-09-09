@@ -124,7 +124,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["status"], "P0_DEVELOPMENTAL_REVISION_GATE_PASS_P1_REQUIRED")
+        self.assertEqual(progress["status"], "DEVELOPMENTAL_GATE_PASS_READY_FOR_LINE_EDIT")
         self.assertEqual(progress["draft_words"], len(manuscript.split()))
         self.assertEqual(progress["expanded_chapters"], list(range(1, 37)))
         self.assertEqual(progress["chapters_drafted"], 36)
@@ -144,7 +144,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertIn("Single-control lockout exposure: 0", manuscript)
         self.assertIn("The network did not prevent exclusion. It prevented one exclusion from becoming universal.", manuscript)
         self.assertIn("Opening balance: 8", manuscript)
-        self.assertIn("East-water exchange: -1", manuscript)
+        self.assertIn("East water exchange: -1", manuscript)
         self.assertIn("Current Supply balance: 7", manuscript)
         self.assertIn("Inventory conversion: +11 Supply", manuscript)
         self.assertIn("Current balance: 18", manuscript)
@@ -187,20 +187,21 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         )
         self.assertEqual(production_run["status"], progress["status"])
 
-    def test_rn10_003_p0_revision_is_canonical_and_preserves_the_audit_baseline(self):
+    def test_rn10_003_developmental_gate_is_canonical_and_preserves_baselines(self):
         progress = json.loads((ROOT / "books/rn10-003/manuscript/progress.json").read_text())
         revision = json.loads((ROOT / "books/rn10-003/data/developmental-revision-map.json").read_text())
         continuity = json.loads((ROOT / "books/rn10-003/continuity/series-continuity-pack.json").read_text())
         manuscript = ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md"
         import hashlib
         digest = hashlib.sha256(manuscript.read_bytes()).hexdigest()
-        self.assertEqual(revision["decision"], "P0_COMPLETE_P1_REQUIRED")
+        self.assertEqual(revision["decision"], "DEVELOPMENTAL_GATE_PASS_READY_FOR_LINE_EDIT")
         self.assertTrue(revision["manuscript_edited"])
         self.assertEqual(len(revision["p0"]), 5)
         self.assertEqual(len(revision["p1"]), 6)
         self.assertEqual(len(revision["p2"]), 3)
-        self.assertEqual(digest, revision["post_p0_sha256"])
+        self.assertEqual(digest, revision["post_p1_sha256"])
         self.assertEqual(digest, progress["current_manuscript_sha256"])
+        self.assertNotEqual(digest, revision["post_p0_sha256"])
         self.assertNotEqual(digest, revision["audited_sha256"])
         self.assertEqual(revision["audited_sha256"], progress["audited_manuscript_sha256"])
         self.assertEqual(continuity["authority"], "CANONICAL_FOR_ALL_SERIES_VOLUMES")
@@ -209,10 +210,22 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         self.assertEqual(progression["resources"]["favor"], 1)
         self.assertEqual(progression["mriya"]["stats"]["bond"], 0)
         self.assertEqual(progression["alliance"]["hearth_owes_rook"], 1)
+        self.assertEqual(continuity["schema_version"], "good-dogs-series-continuity/v2")
+        routes = continuity["book_1"]["geography"]["route_lifecycle"]["chapter_24_onward"]
+        self.assertEqual(set(routes), {"ramp", "low_tunnel", "east_water_door", "service_passage"})
+        self.assertIn("message owed", continuity["book_1"]["characters"]["emil"]["book_1_choice"])
         text = manuscript.read_text()
         self.assertIn("[NONSTANDARD PERSISTENCE RECORDED]", text)
         self.assertIn("[STRAY STATUS — BOOK ONE CLOSE]", text)
         self.assertIn("Between breaths, Nika gave the route in fragments.", text)
+        self.assertIn("[FAVOR CARRYOVER]", text)
+        self.assertIn("The dead light is collecting something.", text)
+        self.assertIn("The unfinished bar remained beside the east water door", text)
+        self.assertEqual(text.count("Measure first. Promise after."), 1)
+        chapter_24_onward = text[text.index("# Chapter Twenty-Four:"):]
+        for retired in ("surface door", "east entrance", "east door", "low drain", "low-tunnel", "east-water", "surface route"):
+            self.assertNotIn(retired, chapter_24_onward.lower())
+        self.assertTrue((ROOT / "books/rn10-003/qa/second-developmental-gate.md").exists())
         self.assertEqual(revision["passed_ledgers"]["bond"], 0)
         self.assertEqual(revision["passed_ledgers"]["hearth_to_rook_defense_charge"], 1)
 

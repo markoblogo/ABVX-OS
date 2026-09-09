@@ -24,6 +24,12 @@
     "continuity_pack": "../continuity/series-continuity-pack.json",
     "gate_result": "PASS_P1_REQUIRED"
   },
+  "post_p1_developmental_revision": {
+    "manuscript_words": 82258,
+    "manuscript_sha256": "87a73962b268f4f338b56504d0120faf12b376a578f02ed031928fcbbe200700",
+    "continuity_pack": "../continuity/series-continuity-pack.json",
+    "gate_result": "DEVELOPMENTAL_PASS_READY_FOR_LINE_EDIT"
+  },
   "expansion_policy": [
     "Add scenes, reversals, consequences, relationship movement and setting evidence; do not pad existing paragraphs.",
     "Preserve every chapter's current entry and exit turn unless the structural audit explicitly requires a causal bridge.",
