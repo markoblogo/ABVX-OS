@@ -7526,6 +7526,20 @@ The east line had delivered clean water. The access network had announced indepe
 
 The tribute ring smelled of every dog who had carried it.
 
+Mriya smelled it before she saw Rook: iron, old saliva, and the separate fears of dogs who had learned that surrender could be called protection if the stronger pack wrote the notice. The scent came through the east pipe while Tomas measured the morning water and Pixel fastened a padded handle to the flat valve bar she and Wrench had tested twice since the expansion.
+
+The first test had failed. Pixel's wire stop slipped, the bar rotated inside Wrench's mouth, and Wrench opened her lip on the socket. The second worked only after Tomas rounded the edges and Nika sacrificed a strip from the orange bag's shoulder pad. Irena made them repeat the close-open-close sequence under load. A human could grip the long end. A dog could set teeth around the short padded end. Neither body borrowed the shape of the other.
+
+Wrench had carried the prototype east before dawn for a third test at the warehouse branch. She was supposed to return with pressure readings. Instead Rook returned it behind six disciplined dogs, and the iron ring came with them.
+
+Nika noticed Mriya's attention and stopped sorting the human food shelf. Their new labels hung from cords: smooth square for people, knotted rope for dogs, two beads for shared medicine. Borscht slept behind the low partition, breathing without assistance but with a pause at the end of every fourth breath. Eleven Supply remained available. For the first time, the number did not describe a single pile.
+
+Atlas asked for emergency command. Mriya refused. Rook was a threat, but he was also a visitor who had announced himself. Giving one voice control before he crossed the line would turn caution into a permanent excuse.
+
+So they used ordinary rules. Tomas closed the medical panel. Irena took the incident ledger. Vale moved away from the east entrance because his procurement restriction still applied. Pixel left the valve bar where everyone could see it and sat on her paws with visible effort. Nika stood beside Mriya without being placed there by Bond.
+
+Only then did they open the east route.
+
 Fear lay deepest. Above it came obedience, pride, river mud, warehouse dust, and the clean bite marks of Rook himself. The iron circle was too large for a collar and too small for a gate. Its purpose was entirely social.
 
 Rook placed it outside the east entrance.
@@ -7538,6 +7552,70 @@ Atlas stiffened. “Sable recognizes what she intends to own.”
 
 “Recognition has a price.”
 
+“What did yours cost?” Mriya asked.
+
+The warehouse dogs stopped breathing in the same instant.
+
+Rook looked at the ring. Under his own bite marks were older impressions, narrow and deep. “Enough that the river gates open when I arrive.”
+
+“That is a benefit.”
+
+His gaze shifted to Wrench's torn lip. “My price is collection.”
+
+Sable had not ordered him to win a fight. She had ordered him to return with payment, submission, or evidence that resistance had become a formal challenge. Respecting the Hearth did not release him from that structure. It made his task harder because he could no longer tell himself he was disciplining animals too foolish to organize.
+
+The proof hung from his collar: three narrow metal tabs, each carrying a territory scent. One smelled of ferry oil and an old Labrador whose hips no longer let him climb the river wall. One smelled of boiled cabbage, two courtyards, and the anxious hands of the human they sent whenever Sable called. The last smelled of blood beneath warehouse disinfectant.
+
+Rook laid the tabs inside the tribute ring. The System recognized them as completed collections.
+
+“Did they choose?” Mriya asked.
+
+“They chose protection.”
+
+“From whom?”
+
+“Free Teeth took food from the courtyards. High Collars took registered humans from the ferry kennels. We stopped both.”
+
+“And then?”
+
+“Then they paid.”
+
+It was not a false story. Sable had protected them. The ring converted a rescue into an indefinite right to collect, just as Bond Treatment had converted care into retention. The System did not need to invent the first need. It only needed to make the answer permanent.
+
+Nika could not hear Mriya's questions, but she watched the tabs change position. Mriya brought the blood-scented one to her. Nika did not touch it. She asked Irena to describe the names scratched into the metal. There were no names, only location codes and values.
+
+“Ask whether a territory can end protection,” Nika said.
+
+Mriya asked.
+
+Rook's silence answered before his words. “It can challenge senior claim.”
+
+“Can it leave?”
+
+“That is leaving.”
+
+Nika understood from his body. She took two of the membership tokens from the wall and placed them outside the Hearth line, then walked them back in one at a time. Their own rule made exit ordinary and return voluntary. Sable's made exit a fight whose cost proved the need for protection.
+
+Rook watched the demonstration. His front paws stayed square, but the left one pressed harder. Mriya had seen him do that before every statement he wished were simpler.
+
+The System offered a resolution.
+
+> [CLAIMANT DISPUTE]
+>
+> Settle by payment, submission, or dominance trial.
+>
+> Winner receives recognition confidence +18%.
+
+Atlas read the stance forming in Rook's shoulders. “A fight would solve your evidence problem.”
+
+“Yes.”
+
+“Would it solve ours?”
+
+Rook looked at Borscht's partition, the divided stores, and the humans who had not moved behind their dogs. “No.”
+
+He dismissed the dominance trial. The System kept the tribute demand open.
+
 The System translated the ring into terms.
 
 > [TERRITORY TRIBUTE]
@@ -7546,11 +7624,39 @@ The System translated the ring into terms.
 >
 > Benefit: protected subordinate territory.
 
+Three smaller clauses unfolded when Mriya held her attention on the notice. Protection meant Sable would answer challenges from packs she recognized as weaker. East-route priority meant her dogs could cross the Hearth's water corridor before members, even during shortage. Public recognition meant the Hearth's signal would display beneath Sable's mark to every dog interface within reach. Refusal after accepting protection would create debt. Failure to pay twice would convert recognition into a territory challenge.
+
+The cycle was not a day or a week. It ended whenever the east network accumulated enough flow, traffic, or System activity to declare one complete. A stronger claimant could accelerate the calendar by using the route it controlled.
+
+“How many cycles since the warehouses accepted?” Mriya asked.
+
+“Four,” Rook said.
+
+“How long?”
+
+“The first was six sleeps. The last was two.”
+
+The tribute was not merely expensive. It taught dependence to grow faster.
+
+Rook named the territories already inside the ring. A loading yard paid in stored meat. Two apartment courtyards paid scent access and one trained human apiece when Sable called. The ferry kennels paid passage along the river wall. Dogs who could not produce Supply carried the ring to the next claim and stood behind the next collector. Every payment made Sable's protection more credible and every protected territory made refusal more dangerous.
+
+Wrench looked at the floor while he spoke. The healing tear in her lip carried a trace of old ring iron.
+
 Mriya did not know how long a cycle was. Systems preferred precise prices and vague calendars.
 
 Three Supply could have stabilized most of Borscht. It could keep the humans fed. It could become medicine, heat, or another expansion the Hearth had not yet learned to regret.
 
 “No,” Mriya said.
+
+The word reached Rook directly. The reasons had to travel the slow way.
+
+Mriya touched the canine inventory marker, then Borscht's partition, then four claws against the floor. She moved to Vale, touched one claw down, and finally placed both front paws across the two separated food markers. Nika watched the sequence, asked twice, and reconstructed the ledger aloud. Irena corrected the opening balance. Pixel corrected the order. Tomas drew the arithmetic on the wall.
+
+Rook waited through all of it.
+
+Bond would have made the explanation instant. Command would have made the answer singular. Their chosen method took nine minutes and exposed disagreement: Emil wanted to offer one Supply to buy time; Tomas wanted to ask what protection had actually prevented; Vale wanted the trade route left open even if the title changed. Mriya listened, then repeated no.
+
+Rook's patience smelled more dangerous than anger. He was assessing whether delay meant weakness. By the end, he understood that every voice had remained and the answer had survived.
 
 Rook looked past her at the new access network. “You spend nine parts of every hundred on doors.”
 
@@ -7582,9 +7688,45 @@ Mriya repeated the answer.
 
 Rook stepped across the visitor line.
 
+The visitor marker brightened under his front paws.
+
+> [VISITOR PURPOSE DISPUTED]
+>
+> Petition has become enforcement.
+>
+> Consent to entry does not imply consent to claim.
+
+That last sentence existed because of the rules they had written after the four entrances. It did not push Rook out. It denied him the easy System argument that admission was surrender.
+
+Atlas asked again for command. Nika and Irena did not make the second declaration. Rook had lowered his head, but no bite had begun. The Hearth held itself at the uncomfortable boundary between preparation and preemption.
+
+Rook advanced one pace. Atlas yielded exactly half of one, enough to keep his body between the visitor and Borscht without converting the movement into a challenge. Behind Rook, the six dogs remained outside as ordered. Wrench's attention kept breaking toward the padded valve bar.
+
 The east entrance admitted him because petitioners could enter. His six dogs remained outside. Atlas moved between Rook and the inhabited lockers.
 
 “Sable did not send me to return with a sentence,” Rook said.
+
+“If I leave the ring, the refusal remains open. Sable can come herself.”
+
+“If you take Supply, Borscht's life becomes her title.”
+
+“Supply has no scent after it is spent.”
+
+“We do.”
+
+For the first time, Rook's obligation loosened. Not enough to retreat. Enough to look for a result he could carry.
+
+Wrench supplied it before he could ask. She brought the padded valve bar to the threshold and placed it beside the tribute ring. The prototype bore warehouse mud on one end and Hearth chalk on the other. It had already crossed the route Sable wanted to own without becoming either territory's property.
+
+Rook smelled the fresh tooth marks. “You tested this under pressure?”
+
+“Twice there. Once badly here,” Pixel said.
+
+Nika translated the answer by pointing east, then to the pressure marks, then to Wrench's uncut mouth. Rook understood enough to inspect the bar instead of Atlas's throat.
+
+The System still waited for payment or violence. A third possibility existed in front of it but had not yet been named: returning to Sable with something more valuable than the obedience she expected.
+
+Then the old valve made the choice urgent.
 
 “Then return with the ring.”
 
@@ -7602,6 +7744,22 @@ The Hearth boundary prepared to classify violence.
 
 From the expansion room came a metallic crack, followed by Tomas shouting and Pixel announcing that the water had become sideways.
 
+The sound arrived in three layers: the hard failure of old metal, the flat slap of water against the new partition, and the thin rapid alarm Pixel had tied to the east branch after her bypass caused the lockout. The alarm was not part of the System. Copper wire pulled a spoon against pipe. It could not decide what the noise meant, which made it trustworthy.
+
+Irena and Nika declared an infrastructure emergency together. Atlas received temporary command for the failing zone, not the whole Hearth.
+
+> [TEMPORARY COMMAND]
+>
+> Zone: East expansion.
+>
+> Purpose: stop uncontrolled water.
+>
+> Release condition: stable pressure confirmed by two members.
+
+“You make rules while drowning,” Rook said.
+
+“We made them before,” Atlas replied. “Now we find out whether they work.”
+
 Rook’s ears turned.
 
 Wrench stood outside so quickly that she broke formation.
@@ -7611,6 +7769,16 @@ Dirty water spread beneath the east door.
 # Chapter Twenty-Nine: A Tool Worth Biting
 
 The repaired filter had split at the old valve.
+
+It had not failed because the repair was careless. The new housing held. The old brass collar behind it had endured decades of low municipal pressure and then three days of water redirected toward two territories. When the east dogs opened their warehouse branch for the prototype test, the pressure difference pulled the collar sideways. One bolt tore free. The valve wheel slammed against the wall and trapped the only full human approach behind the spraying housing.
+
+Dirty water came from the dead section between filter and branch: rust, pipe scale, and the stagnant remains of whatever had nested there before the System woke the line. It was not poisonous in the dramatic way. It was worse for a settlement—enough contamination to spoil canine food, wet the written ledger, and make every dry sleeping place uncertain.
+
+Atlas divided the work without claiming expertise. “People above water line. Dogs below. Save marked food first. Do not move between inventories without calling the item.”
+
+The species-specific rule slowed them and prevented the exact failure it had been built for. Emil carried smooth-marked human meals. Pixel and Mriya dragged the knotted canine bin onto the raised ledge. Vale reached for the red medical case, stopped at its two-member boundary, and waited until Irena joined him. Borscht tried to stand. Nika told him his job was breathing.
+
+Rook remained inside the visitor line while water crossed it. The rule gave him permission to leave by the east door. His obligation told him to complete enforcement. His six dogs outside began to lose their formation as the runoff reached their paws.
 
 Pressure from the east line drove rust-colored water across the expansion floor. Tomas held the housing closed with both hands. Irena fought the upstream control, but the wheel had been designed for a stronger human in a room that no longer existed.
 
@@ -7622,6 +7790,16 @@ Mriya opened the east entrance.
 
 Wrench entered first.
 
+She did not wait for Rook's order. She followed the task she had already accepted before he arrived: return the tested bar and report whether a dog's bite could close the east branch under live pressure.
+
+The report was visible in the tool. The first padding strip had been removed. A second wrap bore paired tooth dents but no blood. Irena's pressure numbers were scratched into the metal beside three positions. Wrench had completed two closures at the warehouse junction. The third had produced the surge now flooding the Hearth.
+
+“Test succeeded,” Wrench said, panting. “Network failed.”
+
+Pixel stared at the water. “That is an extremely professional distinction.”
+
+“She is right,” Irena said. “And we can be right after the food is ruined.”
+
 She dropped the canvas loop from her chest. Inside were two pieces of pipe, a clamp, and a flat bar marked by repeated teeth. Tomas recognized them.
 
 “The key.”
@@ -7632,6 +7810,16 @@ Now the human wheel was unreachable behind the broken housing.
 
 The low socket was not.
 
+It sat beneath the broken collar, fifteen centimeters above the floor. A human could reach it only by putting shoulder and face into the spray. Pixel could reach it but lacked the mass to turn pressure. The bar connected a small body to a long lever. Its central grip let Tomas guide the angle without holding Wrench's jaw. The wire stop prevented the tool from rotating past the padded bite.
+
+Their first attempt failed because the socket teeth were loaded in the wrong direction. Wrench bit down and the bar kicked loose. Tomas caught it before it struck Pixel. Rook moved without permission, planting one paw against the housing so Wrench could reset.
+
+Atlas gave no praise and no Favor. “Quarter turn open first. Release the teeth. Then close.”
+
+Irena confirmed. Pixel moved the wire stop one notch. Tomas rotated the human grip. Wrench used the protected bite.
+
+Four bodies performed one action, and none could have completed it alone.
+
 Wrench locked her jaw around the padded bar and turned. The tool gave her leverage without cutting her mouth. Water slowed.
 
 Tomas shifted the clamp. “Again.”
@@ -7640,6 +7828,20 @@ Wrench released, reset her bite, and turned again.
 
 The valve closed.
 
+Irena watched the pressure needle fall, then asked Tomas to hold the temporary clamp for a count of twenty. She inspected the collar by touch. Nika checked the upstream sound through the wall. Only when both women said stable did Atlas release command.
+
+> [TEMPORARY COMMAND ENDED]
+>
+> Emergency purpose satisfied.
+>
+> No continuing authority retained.
+
+Rook lifted his paw from the housing. “Sable would have left command active until repair.”
+
+“Then every broken pipe would become a throne,” Mriya said.
+
+The floor was wet. One human meal carton had dissolved along its lower seam, but the internal pack remained sealed. The canine bin stayed dry. The red case had crossed the room under two-member custody and returned behind its boundary with the movement recorded. Their rules had cost time. They had also made the damage countable.
+
 Silence entered with the last stream of dirty water.
 
 Rook walked to the tool.
@@ -7647,6 +7849,14 @@ Rook walked to the tool.
 He inspected Tomas’s hand marks, Pixel’s wire stop, Irena’s stamped measurement, and the place Wrench’s teeth had compressed the padding. Human and dog work occupied the same object without one pretending to be the other.
 
 “Sable has lost two dogs at valves,” Wrench said. “Humans could not reach them in time.”
+
+One had drowned behind a flood gate built to be operated from a platform. The other survived the first pressure strike and died while a registered human handler waited for authorization to enter a canine-controlled zone. Sable answered by assigning more dogs to every valve. She had not changed the valve.
+
+The Bite Key changed it.
+
+Rook asked Wrench to perform the reset without Tomas touching the long grip. She did. Then he asked Tomas to turn it without teeth on the padded end. He did. Pixel demonstrated the wire stop and admitted which earlier version had cut Wrench. Irena showed the pressure marks and refused to call the tool safe above the third line.
+
+Rook tested competence the way other dogs tested submission: repeatedly, looking for the point where confidence became bluff. The Hearth gave him limits with the successes.
 
 Rook picked up the bar.
 
@@ -7666,6 +7876,58 @@ Rook set the tool down instead of taking it.
 
 “How many?”
 
+The first answer—one for each east junction—was a wish, not a contract. Irena knew of five reachable junctions and two submerged ones. Tomas could shape two bars from current scrap without spending Supply. Three more required steel from Sable's warehouses. Padding would need replacement after approximately thirty hard closures. Pixel's wire stops could be made from ordinary cable but only if someone returned the melted end Vale had damaged.
+
+They wrote terms on the dry wall.
+
+Two completed Bite Keys during the current cycle. Sable would provide straight steel for three more, dry grip material, and access to each valve for measurement. Wrench or another trained dog would test every tool under low pressure before live use. The Hearth would repair failed padding if the broken piece came back. No tool could close water against an inhabited territory without warning. Safe passage applied to named makers and testers, not every claimant wearing Sable's scent.
+
+Rook rejected the warning clause. Mriya rejected the trade.
+
+He offered one knock through the pipe before closure. Irena required three: intention, reason, expected duration. Rook called that human bureaucracy. Wrench pointed out that the dog who drowned had received zero.
+
+They settled on two signals and a return signal when flow resumed. It was imperfect, teachable, and better than silence.
+
+The quantities created another problem. A Bite Key was cheap only if the Hearth treated everyone else's material as free. Tomas needed dry steel of consistent thickness. Pixel needed cable that would bend without snapping. Nika's shoulder padding had survived three tests, but the wet edge already smelled of torn fibers. Irena needed time at each junction because the socket depths differed by enough to throw a dog's teeth toward the unprotected section.
+
+System production could standardize the tool for 2 Supply per unit. Five units would consume almost everything the Hearth had left. Rook considered that price reasonable because Sable measured cost against the tribute she expected to collect.
+
+Mriya refused the conversion.
+
+They built a non-System cost instead. Sable's warehouses would supply offcuts and grip material. The Hearth would contribute design, fitting, and one supervised test. The receiving valve crew would provide the dog's time and report wear after every ten uses. A damaged tool returned with its broken parts would be repaired before a new one was made. A missing tool would not become automatic debt; it would suspend replacement until the loss was explained.
+
+Pixel objected to the last condition because explanations could be faked. Vale suggested serial marks. Irena suggested measurements that matched each valve. Wrench suggested scent.
+
+They combined all three. Each bar received a scratched junction mark, a notch count for socket depth, and grip cloth stored one night with its assigned valve crew. A stolen Bite Key could still turn metal. It could not quietly become part of the exchange.
+
+Tomas shaped a temporary second grip from the split filter strap while they negotiated. He handed it to Rook. Rook tried the human end first and failed because his jaws slid on the narrow metal. He shifted to the padded end and turned a loose test socket. Pixel then held the same tool by the central loop while Tomas moved the dog grip away from her face.
+
+“It is not a dog tool,” Rook said.
+
+“It is not a human tool,” Nika replied after Mriya translated.
+
+“Then whose?”
+
+Wrench put one paw on the bar. Tomas left two fingers on the opposite end.
+
+“The valve's,” Pixel said.
+
+Nobody accepted that answer, which made it close enough to true.
+
+They ran one final dry test. Wrench called each step before she moved: set, bite, quarter-open, reset, close. Tomas repeated the words while using the other grip. Pixel tried to interrupt with an improvement and stopped when Irena pointed to the test rule. Rook watched a process survive enthusiasm, authority, and the desire to finish quickly.
+
+The System valued the completed prototype at less than one Supply. It valued the production pattern at nothing because no recognized class owned it. Sable's demanded tribute remained three.
+
+Rook looked from the numbers to the dogs who could now operate a valve without waiting for a registered human.
+
+“The System prices the bar,” Mriya said. “You came for what it prices.”
+
+She touched the shared hand and bite marks.
+
+“Sable needs what it missed.”
+
+That was the negotiable advantage. The Hearth could not outspend Sable and could not defeat her warehouse pack. It could solve a repeated problem her hierarchy had accepted as normal. One working pattern could become five tools, safer water, and living valve crews. Paying Supply would leave the relationship unchanged. Trading the pattern required both sides to keep participating.
+
 Tomas looked at Nika. Nika looked at Mriya. The chain of translation was slow without Bond, but it belonged to them.
 
 “One for each east junction,” Mriya said. “Parts and safe passage in exchange.”
@@ -7675,6 +7937,18 @@ Rook considered the tribute ring again.
 Then he picked it up and placed it around the Bite Key.
 
 “One cycle,” he said. “Sable receives tools instead of Supply. She recognizes no subordination. She delays challenge while the exchange works.”
+
+“And the three Supply?” Mriya asked.
+
+“Uncollected.”
+
+“Not deferred.”
+
+Rook's jaw tightened around the iron ring. Deferred tribute would become debt at the next cycle. Uncollected tribute would remain a failed demand. He understood the distinction and disliked giving Mriya a word Sable could later smell as weakness.
+
+“Uncollected,” he said.
+
+The System erased the subordinate-territory benefit. It also removed east-route priority. What remained was reciprocal access tied to named work. Sable could challenge later, but she could not claim that the Hearth had accepted protection today.
 
 It was not friendship.
 
@@ -7692,6 +7966,12 @@ The System tried to call it tribute. She rejected the label until the words chan
 
 Rook looked at the notice she alone could see.
 
+He could not read it, yet he studied Mriya's face until she repeated every term. Vale wrote the human version. Wrench pressed her paw beside the pressure limit. Rook marked the trade with one tooth impression on the iron ring, then made each warehouse dog smell the Bite Key without touching it.
+
+The ritual resembled obedience from a distance. Up close, it distributed memory. If Rook lied about the terms, seven dogs could contradict him. If Sable punished him for returning without Supply, seven dogs would know why.
+
+His conflict did not disappear. It acquired witnesses.
+
 “You make everything difficult.”
 
 Mriya smelled the repaired valve, the tool, and seven dogs who would return east alive.
@@ -7702,13 +7982,49 @@ Mriya smelled the repaired valve, the tool, and seven dogs who would return east
 
 The retrieval team arrived before the floor dried.
 
+The municipal signal announced them by changing the red case light from a slow pulse to three sharp flashes. Irena's card finally displayed a response to the report Vale had filed.
+
+> ASSET RECOVERY UNIT EN ROUTE
+>
+> Purpose: recover emergency medical property; identify unauthorized occupants; restore site access control.
+>
+> Cooperation preserves review eligibility.
+
+The wording offered procedure, not safety. Irena recognized the unit designation as a contractor that had once cleared condemned buildings. It could inventory equipment and remove trespassers. It could not decide who owned a System territory. The scanner carried by the approaching team might make that distinction irrelevant.
+
+Rook had heard the boots through the east line before Vale heard them above. He could have left with the Bite Key contract and allowed municipal authority to weaken a territory Sable still meant to challenge. Instead he sent two dogs to the ramp, two to the water branch, one to Wrench, and kept himself beside the visitor line.
+
+“Why?” Mriya asked.
+
+“They will recover every useful object they can classify,” he said. “I have not carried a tool home yet.”
+
+It was not loyalty. It was a reason he could take back to Sable.
+
 Vale heard boots above the depot. Pixel felt them through the rail. Mriya smelled the clean coats of municipal officers and the bitter concealed trace of the man from the tunnel.
 
-Rook’s warning had arrived with no time to spare, exactly as promised.
+A warehouse dog at the east hatch gave Rook's three-bark warning. It arrived with no time to spare, exactly as promised.
 
 Atlas took emergency command.
 
+Nika and Irena made the two declarations separately. Nika named danger to inhabitants. Irena named attempted control of the site. The notice limited Atlas to defense, evacuation, and access coordination. It did not grant custody of private objects or permission to spend Supply.
+
+They had less than four minutes. Atlas assigned each entrance according to the body it admitted.
+
+The ramp became the visible legal approach. Irena, Nika, and Rook would meet the unit there. The low tunnel became the messenger line; Pixel could carry changes between zones even if the main room was isolated. The east water door admitted Wrench's team and controlled pressure. The emergency panel opened the narrow service passage where Vale and Tomas could move the red case without presenting it at the ramp.
+
+Every route had a failure condition. If the ramp was blocked, Nika would withdraw through the service passage. If the low tunnel flooded, Pixel would strike the pipe alarm. If east pressure exceeded Irena's third mark, Wrench would use the Bite Key. If the panel lost power, two physical tokens could release it from inside.
+
+Atlas repeated the plan until each participant could state a task and a refusal boundary. Rook's dogs remained visitors. They could defend passage but could not enter private storage. Vale could move the red case only with Tomas and could not negotiate its surrender. Pixel could open routes but could not alter inventory. Nobody would bite unless a body faced immediate harm.
+
 The rule activated because Nika and Irena both declared the threat. The four entrances became four jobs. Tomas and Wrench secured the water line. Emil moved Borscht into the inner locker. Pixel carried messages through the low tunnel. Vale took the red medical case into the service passage, thereby removing the evidence and himself from immediate usefulness.
+
+Vale objected to the second half of that description.
+
+“Moving the thing they want is usefulness.”
+
+“You don't choose its destination,” Atlas said.
+
+Tomas took the other handle. They moved the case as evidence under joint custody, not loot hidden by the man who had stolen it. Vale recorded each threshold on Irena's paper: medical boundary, emergency panel, service passage. The rules that punished his earlier shortcut now gave him a legitimate path through the crisis.
 
 Nika stayed at the ramp.
 
@@ -7720,9 +8036,21 @@ The old anger remained. So did her position.
 
 The surface door opened.
 
+The officers did not break it. Their authorization woke the abandoned municipal motor, which tried to retract every lock connected to the old depot registry. The ramp door opened. The east door shuddered. The service panel displayed an external override. Only the low tunnel, built from a drain and never entered in municipal records, remained unchanged.
+
+The four-route design prevented one credential from becoming universal access. Irena canceled the service-panel override with her token while Tomas pressed the second from inside. Wrench held the east door physically until Pixel pulled its local release wire free. The ramp stayed open because they chose to meet the claim there.
+
 The tunnel man entered with four officers and a scanner that clicked toward hidden System residue. He stopped at the ramp when he saw Rook and six warehouse dogs inside the visitor line.
 
 “This site is under municipal control.”
+
+The lead officer displayed an order bearing the old transit seal and a current recovery number. It named the red case, the signal address, and “unregistered dependents.” It did not name the humans or dogs living below.
+
+Irena requested the condemned-site inventory that proved continuing municipal control. The officer did not have it. Nika requested a medical exception record for the use that had kept Borscht alive. The officer said animals did not create an emergency-use exemption. Rook heard that answer and looked toward Wrench's healed lip.
+
+The tunnel man carried no badge. He stood behind the scanner as technical liaison. His familiar bitter trace ran from the device to the same hidden System permissions Mriya had smelled in the first tunnel.
+
+He was not there only for the case.
 
 Irena stepped forward in her yellow raincoat. “This site was removed from the active registry fourteen years ago.”
 
@@ -7732,9 +8060,29 @@ Irena stepped forward in her yellow raincoat. “This site was removed from the 
 
 The scanner pointed toward the Hearth’s private markers.
 
+Its first pulse touched Nika's orange bag. Her private marker flashed through the cloth. A second pulse traced the route where Bond Treatment had once joined her to Mriya. The Bond was zero, but the old permission remained in the record like a door removed from a wall while its address stayed on a map.
+
+Mriya lunged at the beam. Light had no scent to block.
+
+Pixel's warning came through the low tunnel: two officers were moving toward the east exterior hatch. Atlas sent no universal order. He changed three jobs. Wrench and one warehouse dog took the Bite Key to the branch. Tomas left the service passage to reinforce the physical door. Vale remained with the case and gained no authority from being alone beside it.
+
+The retrieval team had expected one hidden room. Four routes made their map wrong, but only if the Hearth continued sharing information faster than the officers could isolate it.
+
 Mriya smelled its function: it did not find objects. It found permissions, old claims, places where the System had been allowed to read.
 
 The officers advanced.
+
+One crossed the visitor line. The System offered to reinterpret his municipal order as invited authority because the ramp stood open.
+
+Mriya rejected it.
+
+> [ACCESS IS NOT CONSENT]
+>
+> Visitor purpose: disputed.
+>
+> Administrative claim: unrecognized.
+
+The house rule held, but the officer's boot did not stop. Rules could deny legitimacy without providing force. That distinction mattered. It meant the next action belonged to the inhabitants rather than an automatic defense.
 
 Atlas barked one command.
 
@@ -7742,7 +8090,25 @@ Rook did not obey.
 
 He chose the same action.
 
-Warehouse dogs filled the ramp without crossing into attack. Tomas opened the east valve. Water hammered through the pipes and shook the scanner off its reading. Pixel pulled her alarm cable, releasing every access door at once. Humans and dogs moved through routes the retrieval team could not predict.
+Warehouse dogs filled the ramp without crossing into attack.
+
+At the low tunnel, Pixel ran the entire messenger circuit: ramp to inner room, inner room to east branch, east branch back to emergency panel. The route was too small for the officers and too irregular for their scanner. She reported positions, not guesses. When she found Borscht trying to follow, she blocked him with her own body and told him the canine-inventory rule had temporarily assigned him the last warm place.
+
+At the east branch, Wrench set the Bite Key below Irena's third pressure mark. She did not close the valve until Tomas struck two signals through the pipe: hostile entry, short disruption. Rook's dogs outside answered. The tool trade's first warning rule became part of the defense before any tool had reached Sable.
+
+At the emergency panel, the external override returned. Vale wanted to carry the case deeper alone. Instead he waited for Tomas, losing seconds and preserving the rule. They shifted it behind the inner turn, left the passage itself clear for Nika, and logged the location in charcoal where the recovery team could later verify it had not vanished.
+
+At the ramp, Irena kept reading the order aloud. Every missing authorization bought time. Nika stood inside the visitor boundary and refused to be converted into the site's responsible human. Rook occupied the narrowest dry section, forcing the officers to choose between stepping over him and admitting that the dogs were not loose property.
+
+Tomas opened the east valve. Water hammered through the pipes and shook the scanner off its reading.
+
+Wrench controlled the duration with the Bite Key. Open pressure for five counts, partial close before the third mark, full close after Pixel delivered the return signal. The surge was not an improvised flood. It was a bounded use of the repair network they had just negotiated.
+
+The scanner lost the private-marker route, found it again, and completed one partial upload before dirty water reached its lower casing. Irena saw the confirmation light. The unit now possessed Nika's measured outline, the old Bond address, and the scentless coordinates of her private Hearth marker. It did not possess the waiting ritual, the distance she chose when frightened, or the living sequence of smells that joined one moment to the next.
+
+Mriya did not know yet which absence would matter.
+
+Pixel pulled her alarm cable, releasing every access door at once. Humans and dogs moved through routes the retrieval team could not predict.
 
 The tunnel man reached for Nika.
 
@@ -7755,6 +8121,10 @@ He could have crushed it. Instead he carried it to the east door and dropped it 
 The device sparked.
 
 The officers retreated when water reached their boots and dogs occupied every dry path.
+
+They withdrew by procedure. The lead officer called the site unsafe, ordered recovery suspended, and attached a red strip to the ramp rail. The strip declared unresolved custody and prohibited municipal service to the address. Irena photographed the order number before runoff blurred it.
+
+Closing clean water would hurt both the Hearth and Sable's warehouses. Removing the medical case by force had failed. The next attempt would therefore target permissions, isolation, or someone who appeared authorized to invite the System inside.
 
 No one bit. That made the retreat harder to describe as victory over dangerous animals.
 
@@ -7776,6 +8146,14 @@ Mriya had not heard him offer it before.
 
 “Efficient.”
 
+“Dangerous,” Wrench said.
+
+Rook looked at her. Sable had sent him to establish seniority. He had returned no Supply, placed her ring around another pack's invention, and used six warehouse dogs to defend the refusing territory. Calling the decision efficient would not protect him if Sable considered it disobedience.
+
+“The recovery unit would have taken the tool,” he said. “Protecting negotiated value is enforcement.”
+
+It was the argument he would carry east. Everyone heard its limits. He had helped because the Hearth was useful, because the municipal order treated dogs as inventory, and because respect had finally outweighed the clean simplicity of hierarchy. None of those reasons promised he would choose them against Sable tomorrow.
+
 He described the city through pack scents. Sable held the river warehouses. A group called the High Collars occupied the courthouse and rewarded humans who registered under canine protection. Free Teeth controlled the market tunnels through theft and fear. Smaller Hearths had begun to appear, most under Good Dog or Bad Dog authority.
 
 “All of them will choose a side,” Rook said.
@@ -7786,13 +8164,33 @@ He described the city through pack scents. Sable held the river warehouses. A gr
 
 He offered one-defense alliance: either Hearth could call the other once. No permanent obedience. No shared territory. No guarantee after the debt was paid.
 
+The charges were separate. Rook owed the Hearth one defense if Mriya called. The Hearth owed Rook one defense if he called. Using one did not erase the other. Refusing a call because the threat was false, internal, or created to seize territory would preserve the charge; refusing a valid external defense would break the alliance and announce the breach to both packs.
+
+Atlas demanded a boundary on command. Rook could coordinate his own dogs during a call but could not command Hearth members. Mriya could not order warehouse dogs. Shared actions required a named objective and ended when that objective ended.
+
+Nika asked what counted as defense. Rook answered with bodies crossing a claimed boundary. Irena added forced lockout of water or access. Wrench added removal of a tool necessary to keep dogs alive. Vale proposed reputational attack and received six identical looks.
+
+They recorded three accepted triggers: violent entry, essential-route seizure, and removal of a member or survival-critical shared tool. Tribute collection did not qualify. A challenge openly accepted by both sides did not qualify. Sable herself was not automatically excluded as an attacker.
+
 Mriya accepted.
 
 > [CONDITIONAL ALLY: ROOK]
 >
-> Mutual defense charges: 1 each
+> Rook defense charge owed to Hearth: 1
+>
+> Hearth defense charge owed to Rook: 1
+>
+> Command rights shared: 0
 
 Rook left the tribute ring around the Bite Key.
+
+He took no finished tool. The prototype had to remain until Tomas replaced the wet padding and Irena verified that the pressure surge had not bent it. Wrench would carry it east after the test, along with the written limits and no Supply.
+
+The iron ring no longer certified subordination. It marked an object that Sable needed and could not obtain through strength alone.
+
+Outside, the municipal red strip moved in the wet wind. The scanner was ruined, but its partial upload had left before Rook bit it. The tunnel man's last sentence remained in Nika's silence.
+
+The Hearth had defended every entrance without giving any one defender the whole settlement. It had also shown an enemy exactly which old permission still pointed toward Nika.
 
 This time it smelled less like fear.
 
