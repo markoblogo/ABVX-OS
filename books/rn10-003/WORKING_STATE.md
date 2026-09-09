@@ -11,7 +11,7 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - BookSpec, source ledger, series bible, voice contract and 36-chapter outline exist.
 - Target: 84,600 words across four acts.
 - All 36 chapters exist in the compressed developmental draft.
-- Current manuscript count: 75,377 words by `wc -w` against the 84,600-word architecture.
+- Current manuscript count: 81,327 words by `wc -w` against the 84,600-word architecture, within 3.9%.
 - Full structural audit and exact 36-chapter expansion map are complete.
 - Act I, chapters 1–9, passed its expansion gate at 19,925 tracked words against a 20,500-word target, within 2.8%.
 - Chapters 10–12 passed the class-choice gate at 6,568 tracked words against a 6,700-word target, within 2.0%.
@@ -23,13 +23,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Chapters 25–27 passed the species-resource gate at 6,670 tracked words against a 7,000-word target, within 4.7%; Act III is complete.
 - Chapters 28–30 passed the tribute-tool-alliance gate at 6,984 tracked words against a 7,000-word target, within 0.2%.
 - Chapters 31–33 passed the identity gate at 7,005 tracked words against a 7,300-word target, within 4.0%.
-- Story architecture is complete; chapters 34–36 expansion, developmental editing and line editing remain required.
+- Chapters 34–36 passed the charter and Act IV gate at 7,630 tracked words against an 8,200-word target, within 7.0%.
+- All 36 chapters are expanded. Developmental editing and line editing remain required.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Expand chapters 34–36 toward 8,200 words total and complete Act IV. Give Custodian 0.03 a concrete insect-scale resource economy, make its stable-dependency charter genuinely attractive, then earn the Reciprocal Duty charter through observable mutual obligations, resolve the immediate territory claims and awaken canine interfaces across Vesper without erasing the costs carried into volume 2.
+Run a full developmental audit of the 81,327-word manuscript before revising prose. Check chronology, travel and facility geography, System-rule consistency, Supply and alliance ledgers, character arcs, repeated explanations, setup/payoff chains, Act IV resolution and volume-2 hooks. Produce a prioritized revision map without starting format production.
 
 ## Continuity anchors
 
