@@ -124,7 +124,7 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
         manuscript = (ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md").read_text()
         self.assertEqual(spec["title"], concept["listing_package"]["title"])
         self.assertEqual(spec["subtitle"], concept["listing_package"]["subtitle"])
-        self.assertEqual(progress["status"], "FULL_MANUSCRIPT_EXPANSION_GATE_PASS")
+        self.assertEqual(progress["status"], "DEVELOPMENTAL_AUDIT_COMPLETE_REVISION_REQUIRED")
         self.assertEqual(progress["draft_words"], len(manuscript.split()))
         self.assertEqual(progress["expanded_chapters"], list(range(1, 37)))
         self.assertEqual(progress["chapters_drafted"], 36)
@@ -186,6 +186,22 @@ class RN10CommercialDiscoveryTests(unittest.TestCase):
             run for run in radar_state["radar_runs"] if run["id"] == "RN10-003-PRODUCTION"
         )
         self.assertEqual(production_run["status"], progress["status"])
+
+    def test_rn10_003_developmental_audit_is_prioritized_and_source_preserving(self):
+        progress = json.loads((ROOT / "books/rn10-003/manuscript/progress.json").read_text())
+        revision = json.loads((ROOT / "books/rn10-003/data/developmental-revision-map.json").read_text())
+        manuscript = ROOT / "books/rn10-003/manuscript/MASTER_MANUSCRIPT.md"
+        import hashlib
+        digest = hashlib.sha256(manuscript.read_bytes()).hexdigest()
+        self.assertEqual(revision["decision"], "REVISION_REQUIRED")
+        self.assertFalse(revision["manuscript_edited"])
+        self.assertEqual(len(revision["p0"]), 5)
+        self.assertEqual(len(revision["p1"]), 6)
+        self.assertEqual(len(revision["p2"]), 3)
+        self.assertEqual(digest, revision["audited_sha256"])
+        self.assertEqual(digest, progress["audited_manuscript_sha256"])
+        self.assertEqual(revision["passed_ledgers"]["bond"], 0)
+        self.assertEqual(revision["passed_ledgers"]["hearth_to_rook_defense_charge"], 1)
 
     def test_rn10_003_expansion_map_closes_exact_target_gap(self):
         expansion = json.loads(

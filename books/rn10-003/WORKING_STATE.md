@@ -25,12 +25,14 @@ Complete and edit the English developmental manuscript of *Good Dog, Bad System*
 - Chapters 31–33 passed the identity gate at 7,005 tracked words against a 7,300-word target, within 4.0%.
 - Chapters 34–36 passed the charter and Act IV gate at 7,630 tracked words against an 8,200-word target, within 7.0%.
 - All 36 chapters are expanded. Developmental editing and line editing remain required.
+- Full developmental audit is complete without manuscript edits. Decision: REVISION REQUIRED.
+- Revision map contains 5 P0, 6 P1 and 3 P2 items. Supply and alliance ledgers pass; chronology, progression visibility, one POV breach, late faction setup and exception-rule setup require P0 work.
 - The psychologist-commentary pilot was tested after Act I and rejected because it repeated dramatized meaning and interrupted the chapter 9–10 cliffhanger. It is not part of the manuscript.
 - Format production and publication remain unauthorized.
 
 ## Next drafting unit
 
-Run a full developmental audit of the 81,327-word manuscript before revising prose. Check chronology, travel and facility geography, System-rule consistency, Supply and alliance ledgers, character arcs, repeated explanations, setup/payoff chains, Act IV resolution and volume-2 hooks. Produce a prioritized revision map without starting format production.
+Build the continuity pack required by DEV-P0-01, DEV-P0-03 and DEV-P1-01: a canonical day-by-day calendar, city/Hearth geography map, and System/progression ledger. Then apply the five P0 revisions as one controlled developmental pass before touching P1/P2 prose.
 
 ## Continuity anchors
 

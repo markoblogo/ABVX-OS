@@ -1,0 +1,35 @@
+{
+  "schema_version": "fiction-developmental-revision-map/v1",
+  "book_id": "rn10-003-good-dog-bad-system",
+  "audited_manuscript_words": 81327,
+  "audited_sha256": "bc14f8c4b20108430cdfcc5e840946df3bf7fef7d5a863aae2beb1368d271ccf",
+  "decision": "REVISION_REQUIRED",
+  "manuscript_edited": false,
+  "p0": [
+    {"id":"DEV-P0-01","chapters":"1-36","issue":"canonical_calendar","acceptance":"A day-by-day ledger supports every explicit time reference and recovery interval."},
+    {"id":"DEV-P0-02","chapters":"33","issue":"close_third_pov_breach","acceptance":"Nika's escape is delivered through speech, questions and evidence available to Mriya."},
+    {"id":"DEV-P0-03","chapters":"12-36","issue":"litrpg_progression_visibility","acceptance":"A canonical status ledger and 3-4 restrained progression beats make gains, costs and current capabilities legible."},
+    {"id":"DEV-P0-04","chapters":"13-36","issue":"late_external_factions_and_tunnel_man","acceptance":"High Collars, Free Teeth and the tunnel man's institutional aim are seeded before chapter 30; the human threat receives a volume-2 hook."},
+    {"id":"DEV-P0-05","chapters":"15,18,27,34-36","issue":"late_exception_rule","acceptance":"Earlier System records establish nonstandard persistence before Custodian grants the provisional exception."}
+  ],
+  "p1": [
+    {"id":"DEV-P1-01","chapters":"13-36","issue":"entrance_and_city_geography","acceptance":"One canonical map and vocabulary support every movement."},
+    {"id":"DEV-P1-02","chapters":"9-36","issue":"emil_sister_thread","acceptance":"Emil explicitly chooses the Hearth and closes or defers the sister route."},
+    {"id":"DEV-P1-03","chapters":"26-36","issue":"unspent_favor","acceptance":"Final Favor balance and charter effect are explicit."},
+    {"id":"DEV-P1-04","chapters":"23-29","issue":"late_bite_key_setup","acceptance":"A failed shared valve tool appears before Rook's demand."},
+    {"id":"DEV-P1-05","chapters":"13-34","issue":"late_custodian_insect_setup","acceptance":"Insect labor or Trace leakage is observable before Custodian appears."},
+    {"id":"DEV-P1-06","chapters":"17-36","issue":"secondary_character_differentiation","acceptance":"Tomas, Irena and Emil each affect a decision through a personal motive beyond function."}
+  ],
+  "p2": [
+    {"id":"DEV-P2-01","chapters":"all","issue":"repeated_sentence_frames","acceptance":"High-frequency frames are varied during line edit without reducing scent POV."},
+    {"id":"DEV-P2-02","chapters":"18,21,24,27,32,35","issue":"thematic_restatement","acceptance":"Concrete consequence remains; adjacent abstract paraphrase is compressed."},
+    {"id":"DEV-P2-03","chapters":"1,16","issue":"chapter_count_metadata","acceptance":"Stored chapter counts reconcile with the declared counting rule and full manuscript total."}
+  ],
+  "passed_ledgers": {
+    "supply": "8 - 1 + 11 - 4 - 1 - 2 = 11",
+    "rook_to_hearth_defense_charge": 0,
+    "hearth_to_rook_defense_charge": 1,
+    "bond": 0
+  },
+  "next_action": "BUILD_CONTINUITY_PACK_THEN_APPLY_P0_REVISIONS"
+}
