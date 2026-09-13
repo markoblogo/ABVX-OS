@@ -1,0 +1,23 @@
+<!-- AGENTSGEN:START section=llms -->
+Project: ABVX-OS
+Stack: python
+
+Agent context bundle (LLMO Pack):
+- Run guide: docs/ai/how-to-run.md
+- Test guide: docs/ai/how-to-test.md
+- Architecture: docs/ai/architecture.md
+- Data contracts: docs/ai/data-contracts.md
+- ID handoff: docs/ai/id-context.json
+- Security: SECURITY_AI.md
+- Contributing: CONTRIBUTING_AI.md
+
+Quick commands:
+- install: (not detected)
+- dev: (not detected)
+- test: PYTHONPATH=src python3 -m unittest discover -s tests -q
+- lint: ./bin/abvx validate
+- format: (not detected)
+
+Notes:
+- Keep these files concise and command-accurate. Avoid speculative guidance.
+<!-- AGENTSGEN:END section=llms -->
