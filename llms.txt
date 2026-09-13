@@ -12,7 +12,7 @@ Agent context bundle (LLMO Pack):
 - Contributing: CONTRIBUTING_AI.md
 
 Quick commands:
-- install: (not detected)
+- install: python3 -m pip install -r requirements-dev.txt
 - dev: (not detected)
 - test: PYTHONPATH=src python3 -m unittest discover -s tests -q
 - lint: ./bin/abvx validate

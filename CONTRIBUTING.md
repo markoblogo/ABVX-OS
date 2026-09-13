@@ -11,6 +11,7 @@ Before opening a pull request:
 5. Run:
 
 ```sh
+python3 -m pip install -r requirements-dev.txt
 PYTHONPATH=src python3 -m unittest discover -s tests -q
 ./bin/abvx validate
 agentsgen pack --autodetect --check --format=json

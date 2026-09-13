@@ -78,6 +78,7 @@ For a fresh agent session, follow the compact read order in [AGENTS.md](AGENTS.m
 ABVX-OS uses the Python standard library for its core CLI.
 
 ```sh
+python3 -m pip install -r requirements-dev.txt
 PYTHONPATH=src python3 -m unittest discover -s tests -q
 ./bin/abvx validate
 ```

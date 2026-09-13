@@ -11,6 +11,7 @@
 ```sh
 git clone https://github.com/markoblogo/ABVX-OS.git
 cd ABVX-OS
+python3 -m pip install -r requirements-dev.txt
 ./bin/abvx --version
 ./bin/abvx validate
 PYTHONPATH=src python3 -m unittest discover -s tests -q

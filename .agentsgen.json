@@ -19,6 +19,7 @@
     "files": []
   },
   "commands": {
+    "install": "python3 -m pip install -r requirements-dev.txt",
     "lint": "./bin/abvx validate",
     "test": "PYTHONPATH=src python3 -m unittest discover -s tests -q"
   },

@@ -10,6 +10,7 @@ All notable public changes to ABVX-OS are documented here.
 
 - Public quick start, architecture map, product boundary, and ecosystem guide.
 - CI across Python 3.11–3.13 plus repository-contract validation.
+- Explicit development dependency declaration for PDF fixture tests.
 - agentsgen 0.5.1 context-pack guard and review-first SET configuration.
 - Explicit code/content licensing, contribution guidance, and security policy.
 - CLI version command for release verification.

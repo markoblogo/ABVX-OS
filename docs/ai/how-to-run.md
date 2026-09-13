@@ -8,7 +8,7 @@
 - CI workflows: `.github/workflows/`
 
 ## Commands
-- Install: `(not detected)`
+- Install: `python3 -m pip install -r requirements-dev.txt`
 - Dev: `(not detected)`
 - Build: `(not detected)`
 
