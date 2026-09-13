@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "repo": "markoblogo/ABVX-OS",
+  "tools": {
+    "agentsgen": {
+      "init": false,
+      "pack": true,
+      "check": true
+    }
+  },
+  "presets": [
+    "repo-docs"
+  ]
+}

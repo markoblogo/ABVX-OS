@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "generated_by": "agentsgen",
+  "generated_at": "2026-09-13T22:47:39Z",
+  "repo": {
+    "path": ".",
+    "stack": "python",
+    "autodetect": true
+  },
+  "commands": [
+    {
+      "id": "install",
+      "title": "Install",
+      "command": "python3 -m pip install -r requirements-dev.txt",
+      "cwd": ".",
+      "source": {
+        "kind": "config",
+        "hint": ".agentsgen.json:commands.install"
+      },
+      "notes": ""
+    },
+    {
+      "id": "test",
+      "title": "Test",
+      "command": "PYTHONPATH=src python3 -m unittest discover -s tests -q",
+      "cwd": ".",
+      "source": {
+        "kind": "config",
+        "hint": ".agentsgen.json:commands.test"
+      },
+      "notes": ""
+    },
+    {
+      "id": "lint",
+      "title": "Lint",
+      "command": "./bin/abvx validate",
+      "cwd": ".",
+      "source": {
+        "kind": "config",
+        "hint": ".agentsgen.json:commands.lint"
+      },
+      "notes": ""
+    }
+  ]
+}

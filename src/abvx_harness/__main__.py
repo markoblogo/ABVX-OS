@@ -14,6 +14,7 @@ from .playbooks import load_playbook, replay_playbook
 from .portfolio import inspect_portfolio, render_portfolio
 from .roles import inspect_role, list_roles, route_role
 from .book_radar import add_records as add_book_radar_records, export_state as export_book_radar_state, import_bundle as import_book_radar_bundle, import_catalog as import_book_radar_catalog, render_report as render_book_radar_report, report as book_radar_report
+from . import __version__
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -73,6 +74,9 @@ def _print_content(value: object, as_json: bool) -> None:
 def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
     argv = argv if argv is not None else sys.argv[1:]
     try:
+        if argv in (["--version"], ["version"]):
+            print(f"abvx-os {__version__}")
+            return 0
         if argv in (["role", "list"], ["role", "list", "--json"]):
             roles = list_roles(root)
             if argv[-1] == "--json":
