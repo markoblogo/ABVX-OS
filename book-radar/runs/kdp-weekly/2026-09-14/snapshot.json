@@ -1,0 +1,84 @@
+{
+  "schema_version": "kdp-portfolio-audit/v1",
+  "observed_at": "2026-09-14T09:08:00+02:00",
+  "channel": "authenticated_kdp_safari_read_only",
+  "account_scope": {
+    "reported_titles": 30,
+    "bookshelf_pages": 3,
+    "portfolio_mutations": false
+  },
+  "periods": {
+    "current_equal_window": {
+      "start": "2026-09-01",
+      "end": "2026-09-14",
+      "processed_units": 3,
+      "ebook_units": 2,
+      "print_units": 1,
+      "kenp_pages": 99,
+      "estimated_royalties_eur": 13.77,
+      "royalty_source_mix": {
+        "ebook_percent": 52,
+        "paperback_percent": 45,
+        "kindle_unlimited_percent": 3
+      },
+      "marketplace_mix": {
+        "united_kingdom_percent": 72,
+        "united_states_percent": 28
+      },
+      "unit_titles": [
+        {"title": "A Christmas Carol — in Toki Pona", "ebook": 2, "print": 0},
+        {"title": "The Odyssey: Toki Pona Edition with Sitelen Pona", "ebook": 0, "print": 1}
+      ],
+      "kenp_titles": [
+        {"title": "Marcus Aurelius’ Guide to the Zombie Apocalypse", "pages": 45},
+        {"title": "Epictetus: The Enchiridion — in toki pona", "pages": 31},
+        {"title": "Seneca: On the Shortness of Life — in toki pona", "pages": 13},
+        {"title": "Project Management Certification in 2026", "pages": 10}
+      ]
+    },
+    "previous_equal_window": {
+      "start": "2026-08-01",
+      "end": "2026-08-14",
+      "processed_units": 16,
+      "ebook_units": 12,
+      "print_units": 4
+    },
+    "previous_weekly_snapshot": {
+      "start": "2026-09-01",
+      "end": "2026-09-08",
+      "processed_units": 0,
+      "kenp_pages": 92,
+      "estimated_royalties_eur": 0.38,
+      "source_ref": "book-radar/runs/rn8/portfolio-zero-sales-diagnostic.json"
+    }
+  },
+  "bookshelf_observations": [
+    {"title":"Solar Proposal Decoder","submitted_at":"2026-09-07","formats":[{"format":"paperback","status":"LIVE","price":"$15.99","asin":"B0HJ3VVDK8"},{"format":"ebook","status":"NOT_CREATED"}]},
+    {"title":"Французькі правила й дорожні знаки українською","submitted_at":"2026-09-07","formats":[{"format":"paperback","status":"LIVE","price":"€16.70","asin":"B0HJ3WMYKD"},{"format":"ebook","status":"UNSUPPORTED_LANGUAGE"}]},
+    {"title":"Ham Radio Technician Visual Cram Map 2026–2030","submitted_at":"2026-09-06","formats":[{"format":"ebook","status":"LIVE","price":"$6.99","asin":"B0HDJFP6BY"},{"format":"paperback","status":"LIVE","price":"$17.99","asin":"B0HHZRDSG4"}]},
+    {"title":"Project Management Certification in 2026","submitted_at":"2026-09-04","formats":[{"format":"ebook","status":"LIVE","price":"$4.99","asin":"B0HHTMHW3Z"},{"format":"paperback","status":"LIVE","price":"$9.99","asin":"B0HHTQMBVR"}]},
+    {"title":"The Odyssey: Toki Pona Edition with Sitelen Pona","submitted_at":"2026-09-04","formats":[{"format":"ebook","status":"LIVE","price":"$7.99","asin":"B0HHSK3Y45"},{"format":"paperback","status":"LIVE","price":"$29.99","asin":"B0HHSMS6KQ"}]},
+    {"title":"THE HUMAN BACKUP PLAN","submitted_at":"2026-08-19","formats":[{"format":"ebook","status":"LIVE","price":"$4.99","asin":"B0HFTTG5FH"},{"format":"paperback","status":"LIVE","price":"$15.99","asin":"B0HFTT2K3S"}]},
+    {"title":"Dao De Jing in toki pona","formats":[{"format":"ebook","status":"LIVE","price":"$9.00","asin":"B0G4XNRS4W"},{"format":"paperback","status":"LIVE","price":"$22.00","asin":"B0G5MCFN2T"},{"format":"hardcover","status":"DRAFT","price":"$45.00"}]}
+  ],
+  "diagnosis": {
+    "availability": "PASS_FOR_OBSERVED_PUBLISHED_FORMATS",
+    "discovery": "UNRESOLVED_NO_IMPRESSION_OR_DETAIL_PAGE_DATA",
+    "conversion": "UNRESOLVED_NO_TRAFFIC_DENOMINATOR",
+    "product_fit": "TOO_EARLY_FOR_SEPTEMBER_RELEASES",
+    "observation_time": "Newest books have 7-10 days of post-submission observation; insufficient for price or positioning intervention.",
+    "portfolio_change": "September 1-14 processed units are 81.25% below August 1-14, but the periods contain different release cohorts and no traffic denominator. Treat as a signal to observe, not proof of a portfolio problem."
+  },
+  "recommendations": [
+    "Hold current prices and descriptions for the newest September releases for another equal observation window.",
+    "Do not infer conversion failure from zero units while impressions and detail-page visits are unavailable.",
+    "At the next audit, compare each September release on the same 14-day post-submission window and separate paperback, eBook and KENP.",
+    "Treat PMP's 10 KENP pages as early engagement, not as validated product-market fit.",
+    "Review Solar's paperback-only architecture only if that absence was not intentional; no KDP change is authorized by this audit."
+  ],
+  "limitations": [
+    "KDP exposes processed orders but not impression or detail-page-view denominators in these reports.",
+    "The KENP equal-window August comparison failed to load and was not inferred.",
+    "Bookshelf status was sampled across the newest titles and the previously observed draft hardcover; no exhaustive metadata edit audit was performed."
+  ]
+}

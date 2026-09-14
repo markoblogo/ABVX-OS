@@ -23561,6 +23561,12 @@
       "observed_at": "2026-09-08",
       "source_ref": "book-radar/runs/rn9/deep-checks.json",
       "summary": "Five candidates were deep checked; only RV reached evidence-backed concept status and sewing remains watch-only."
+    },
+    {
+      "id": "evidence:kdp-weekly:2026-09-14",
+      "observed_at": "2026-09-14",
+      "source_ref": "book-radar/runs/kdp-weekly/2026-09-14/snapshot.json",
+      "summary": "Authenticated read-only KDP audit: September 1-14 recorded 3 processed units (2 eBook, 1 print), 99 KENP pages and \u20ac13.77 estimated royalties. August 1-14 recorded 16 units (12 eBook, 4 print). Observed published formats were Live; discovery and conversion remain unresolved without traffic denominators."
     }
   ],
   "launches": [
@@ -47634,11 +47640,11 @@
       "strategy": "candidate-generation-v5-commercial-first"
     },
     {
+      "deep_scanned": 0,
       "id": "RN10-003-PRODUCTION",
       "name": "Good Dog, Bad System volume 1",
       "observed_at": "2026-09-08",
       "opportunities_scanned": 0,
-      "deep_scanned": 0,
       "production_authorized": true,
       "status": "FINAL_MANUSCRIPT_GATE_PASS_OWNER_REVIEW_REQUIRED",
       "strategy": "candidate-generation-v5-commercial-first"

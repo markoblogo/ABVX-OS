@@ -1,0 +1,70 @@
+{
+  "schema_version": "abvx-book-publication/v1",
+  "id": "rn2-037",
+  "slug": "ham-radio-technician-visual-cram-map-2026-2030",
+  "title": "Ham Radio Technician Visual Cram Map 2026–2030",
+  "subtitle": "A Diagram-First Guide to FCC Element 2 Concepts, Rules, Calculations, and All 409 Official Question IDs",
+  "short_title": "Ham Radio Technician Visual Cram Map",
+  "author": "Northfield Signal Guides",
+  "language": "English",
+  "publication_status": "KDP_LIVE",
+  "site_status": "CONSUMER_BRANCH_PUSHED",
+  "site_visibility": "public",
+  "published_at": "2026-09-06",
+  "summary": "A diagram-first companion to the 2026–2030 Technician Class question pool, connecting electricity, components, antennas, signals, operating rules and safety to all 409 official question IDs.",
+  "group": "Business, AI & Marketing",
+  "tags": [
+    "ham radio",
+    "technician class",
+    "FCC Element 2",
+    "amateur radio",
+    "visual study guide"
+  ],
+  "formats": [
+    {
+      "type": "kindle",
+      "status": "LIVE",
+      "asin": "B0HDJFP6BY",
+      "price": "$6.99 USD",
+      "url": "https://www.amazon.com/dp/B0HDJFP6BY",
+      "observed_at": "2026-09-14"
+    },
+    {
+      "type": "paperback",
+      "status": "LIVE",
+      "asin": "B0HHZRDSG4",
+      "price": "$17.99 USD",
+      "url": "https://www.amazon.com/dp/B0HHZRDSG4",
+      "observed_at": "2026-09-14"
+    }
+  ],
+  "media": {
+    "status": "PROMO_PRIMARY",
+    "role": "mockup",
+    "source": "/Users/antonbiletskiy-volokh/Desktop/ham-print.png",
+    "source_sha256": "292f1ca26ddf6440ec5aa461f4bb20114c7223417f492d281337e0d1dc276286",
+    "width": 1536,
+    "height": 1024,
+    "derivatives": {
+      "png": "media/ham-radio-technician-visual-cram-map-promo.png",
+      "webp": "media/ham-radio-technician-visual-cram-map-promo.webp",
+      "avif": "media/ham-radio-technician-visual-cram-map-promo.avif"
+    }
+  },
+  "canonical_sources": {
+    "commercial_copy": "books/rn2-037/commercial/kdp-commercial-package.md",
+    "commercial_metadata": "books/rn2-037/commercial/kdp-commercial-package.json",
+    "kdp_observation": "book-radar/runs/kdp-weekly/2026-09-14/snapshot.json"
+  },
+  "consumer": {
+    "project": "abvxsite",
+    "content_target": "content/books/ham-radio-technician-visual-cram-map-2026-2030.md",
+    "media_target": "public/media/books/ham-radio-technician-visual-cram-map-2026-2030/",
+    "public_url": "https://abvx.xyz/books/ham-radio-technician-visual-cram-map-2026-2030"
+  },
+  "gate": {
+    "status": "CONSUMER_BRANCH_PUSHED",
+    "production_authorized": false,
+    "reason": "The card and media were validated and pushed to ABVXsite branch codex/ecosystem-registry-v1 at commit 97732fe; merge and public deployment remain separate evidence gates."
+  }
+}

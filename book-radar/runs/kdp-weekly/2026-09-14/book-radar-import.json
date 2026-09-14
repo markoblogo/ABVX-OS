@@ -1,0 +1,11 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:kdp-weekly:2026-09-14",
+      "observed_at": "2026-09-14",
+      "summary": "Authenticated read-only KDP audit: September 1-14 recorded 3 processed units (2 eBook, 1 print), 99 KENP pages and €13.77 estimated royalties. August 1-14 recorded 16 units (12 eBook, 4 print). Observed published formats were Live; discovery and conversion remain unresolved without traffic denominators.",
+      "source_ref": "book-radar/runs/kdp-weekly/2026-09-14/snapshot.json"
+    }
+  ]
+}
