@@ -88,3 +88,12 @@ Contributions should preserve project independence, schema compatibility, human 
 ## Licensing
 
 Source code and machine-readable schemas are available under the [MIT License](LICENSE). Books, manuscripts, generated publication files, personal operational records, and project evidence are excluded from that grant unless a file says otherwise; see [CONTENT-LICENSE.md](CONTENT-LICENSE.md).
+
+<!-- ABVX:ECOSYSTEM:BEGIN -->
+## ABVX ecosystem
+
+- [AGENTS.md_generator](https://agentsmd.abvx.xyz/) — Keeps repository guidance and machine-readable context current. Current release: `v0.5.1`.
+- [abvx-agent-skills](https://abvx.xyz/work/abvx-agent-skills) — Uses shared, reviewable agent capabilities during maintenance. Current release: `v0.15.0`.
+
+_This block is generated from the reviewed ABVX ecosystem registry._
+<!-- ABVX:ECOSYSTEM:END -->
