@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any, Protocol
 
 from .harness import ValidationError, load_json, now_iso, validate
+from .memory_decisions import apply_memory_decisions
 
 
 CORTEX_ABV_RUNTIME = Path("/Volumes/Work/Work/ABVXsite/cortex-abv/private-runtime")
@@ -91,7 +92,7 @@ def request_context(
 ) -> dict[str, Any]:
     output_root = output_root or root
     request = load_context_request(root, request_path)
-    pack = assemble_context_pack(root, request, providers=providers, generated_at=generated_at)
+    pack = assemble_context_pack(root, request, providers=providers, generated_at=generated_at, output_root=output_root)
     pack_path = output_root / "evidence" / "context-packs" / f"{pack['pack_id']}.json"
     pack_path.parent.mkdir(parents=True, exist_ok=True)
     pack_path.write_text(json.dumps(pack, indent=2, sort_keys=True) + "\n", encoding="utf-8")
@@ -115,6 +116,7 @@ def assemble_context_pack(
     *,
     providers: dict[str, ContextProvider] | None = None,
     generated_at: str | None = None,
+    output_root: Path | None = None,
 ) -> dict[str, Any]:
     generated_at = generated_at or now_iso()
     provider_map = providers or default_context_providers(root)
@@ -165,6 +167,11 @@ def assemble_context_pack(
         proof_assets.extend(result["proof_assets"])
         known_gaps.extend(result["known_gaps"])
 
+    knowledge_items, applicable_memory_decisions = apply_memory_decisions(
+        output_root or root, knowledge_items, privacy_domain=request["privacy_domain"]
+    )
+    if applicable_memory_decisions:
+        known_gaps.append("Some retrieved items were excluded by owner-governed local memory decisions; source stores were not changed.")
     max_items = int(request["max_items"])
     truncated = len(knowledge_items) > max_items
     available_more = truncated or any(item["available_more"] for item in provider_results)
@@ -179,7 +186,7 @@ def assemble_context_pack(
         "generated_at": generated_at,
         "operational_context": operational_context,
         "knowledge_items": knowledge_items,
-        "relevant_decisions": [],
+        "relevant_decisions": applicable_memory_decisions,
         "relevant_projects": relevant_projects,
         "proof_assets": _dedupe_dicts(proof_assets),
         "sources": _dedupe_dicts(sources),

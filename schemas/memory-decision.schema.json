@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/memory-decision/v1",
+  "title": "ABVX Owner-Governed Memory Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "decision_id", "action", "target_refs", "chosen_ref", "privacy_domain", "rationale", "provenance", "decided_at", "write_back"],
+  "properties": {
+    "schema_version": { "const": "v1" },
+    "decision_id": { "type": "string", "minLength": 1 },
+    "action": { "enum": ["INVALIDATE", "RESOLVE_CONFLICT"] },
+    "target_refs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/ref" } },
+    "chosen_ref": { "anyOf": [{ "$ref": "#/$defs/ref" }, { "type": "null" }] },
+    "privacy_domain": { "enum": ["PUBLIC", "PERSONAL_PRIVATE", "PROJECT_PRIVATE", "DOMAIN_PRIVATE", "EXTERNAL_UNTRUSTED"] },
+    "rationale": { "type": "string", "minLength": 1 },
+    "provenance": { "type": "object", "minProperties": 1 },
+    "decided_at": { "type": "string", "format": "date-time" },
+    "write_back": { "const": false }
+  },
+  "$defs": {
+    "ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "id"],
+      "properties": { "provider": { "type": "string", "minLength": 1 }, "id": { "type": "string", "minLength": 1 } }
+    }
+  }
+}

@@ -6,6 +6,7 @@ from pathlib import Path
 
 from .content_ops import approve_content_item, inspect_content_item, prepare_content_item, publish_content_item
 from .context import inspect_context_pack, request_context
+from .memory_decisions import record_memory_decision
 from .harness import ValidationError, load_json, run_bakeoff, validate_repository
 from .intake import add_intake_item, decide_intake_item, inspect_intake_item, link_intake_items, list_intake_items, promote_intake_item, review_intake_items, update_clarification
 from .intelligence import run_content_enrichment
@@ -266,6 +267,14 @@ def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
                 raise ValidationError("usage: ./bin/abvx context inspect <pack-id> [--json]")
             pack = inspect_context_pack(root, positional[0])
             print(json.dumps(pack, indent=2, sort_keys=True))
+            return 0
+        if len(argv) >= 4 and argv[:3] == ["memory", "decision", "record"]:
+            positional, options = _options(argv[3:])
+            input_file = options.get("file")
+            if positional or not isinstance(input_file, str):
+                raise ValidationError("usage: ./bin/abvx memory decision record --file <decision.json>")
+            result = record_memory_decision(root, **load_json((root / input_file).resolve()))
+            print(json.dumps({"decision_id": result["decision_id"], "path": f"evidence/memory-decisions/{result['decision_id']}.json", "write_back": False}, indent=2))
             return 0
         if len(argv) >= 3 and argv[:2] == ["local-model", "answer"]:
             positional, options = _options(argv[2:])
