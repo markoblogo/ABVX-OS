@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0019",
+  "sourceHash": "68fa72020d00e0d21e48463341f2ff011fb85d2720f8554261624f73889664e2",
+  "source": "I gave a view-halloa, took to my heels, collared my gentleman, and brought him back to where there was already quite a group about the screaming child. He was perfectly cool and made no resistance, but gave me one look, so ugly that it brought out the sweat on me like running.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b4da63787964c5e016ab425409ac087d2ab22af96bafdee0c",
+      "visibleOutput": "TRANSLATION: mi kalama wawa tan lukin e ona, li tawa mute, li kama jo wawa e jan ni, li pana e ona tawa ma ni: kulupu suli li lon poka pi jan lili pi kalama wawa. pilin ona li awen sama taso, li utala ala e mi. taso ona li lukin e mi lon tenpo wan. lukin ni li ike mute tawa mi la, telo sijelo li kama weka mute tan mi sama telo tawa.\nNOTES: “ike mute tawa mi” preserves the ugliness as the speaker’s perception.",
+      "translation": "mi kalama wawa tan lukin e ona, li tawa mute, li kama jo wawa e jan ni, li pana e ona tawa ma ni: kulupu suli li lon poka pi jan lili pi kalama wawa. pilin ona li awen sama taso, li utala ala e mi. taso ona li lukin e mi lon tenpo wan. lukin ni li ike mute tawa mi la, telo sijelo li kama weka mute tan mi sama telo tawa.",
+      "notes": "“ike mute tawa mi” preserves the ugliness as the speaker’s perception.",
+      "usage": {
+        "input_tokens": 2799,
+        "input_tokens_details": {
+          "cache_write_tokens": 2796,
+          "cached_tokens": 0
+        },
+        "output_tokens": 526,
+        "output_tokens_details": {
+          "reasoning_tokens": 390
+        },
+        "total_tokens": 3325
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b4da63787964c5e016ab425409ac087d2ab22af96bafdee0c",
+  "visibleOutput": "TRANSLATION: mi kalama wawa tan lukin e ona, li tawa mute, li kama jo wawa e jan ni, li pana e ona tawa ma ni: kulupu suli li lon poka pi jan lili pi kalama wawa. pilin ona li awen sama taso, li utala ala e mi. taso ona li lukin e mi lon tenpo wan. lukin ni li ike mute tawa mi la, telo sijelo li kama weka mute tan mi sama telo tawa.\nNOTES: “ike mute tawa mi” preserves the ugliness as the speaker’s perception.",
+  "translation": "mi kalama wawa tan lukin e ona, li tawa mute, li kama jo wawa e jan ni, li pana e ona tawa ma ni: kulupu suli li lon poka pi jan lili pi kalama wawa. pilin ona li awen sama taso, li utala ala e mi. taso ona li lukin e mi lon tenpo wan. lukin ni li ike mute tawa mi la, telo sijelo li kama weka mute tan mi sama telo tawa.",
+  "notes": "“ike mute tawa mi” preserves the ugliness as the speaker’s perception.",
+  "usage": {
+    "input_tokens": 2799,
+    "input_tokens_details": {
+      "cache_write_tokens": 2796,
+      "cached_tokens": 0
+    },
+    "output_tokens": 526,
+    "output_tokens_details": {
+      "reasoning_tokens": 390
+    },
+    "total_tokens": 3325
+  },
+  "success": true
+}

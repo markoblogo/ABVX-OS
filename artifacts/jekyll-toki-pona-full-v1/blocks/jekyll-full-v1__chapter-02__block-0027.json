@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0027",
+  "sourceHash": "f2a7fd92a7fa6b9399436ff16afdb1ea868848d7a1d2b0d7f1e540ec57a5068e",
+  "source": "He was small and very plainly dressed, and the look of him, even at that distance, went somehow strongly against the watcher’s inclination. But he made straight for the door, crossing the roadway to save time; and as he came, he drew a key from his pocket like one approaching home. Mr. Utterson stepped out and touched him on the shoulder as he passed. “Mr. Hyde, I think?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f4310734d05f468016ab427b5a0dc87d28601a65bb28ac502",
+      "visibleOutput": "TRANSLATION: sijelo ona li lili, li jo e len pi nasin pona taso. jan Utason li lukin e ona lon weka. kin la, tan nasin sona ala, lukin ona li pana e pilin ike suli tawa jan Utason. taso jan ni li tawa lon nasin sewi tawa lupa, li tawa poka ante pi nasin tan wile pi tenpo lili. ona li kama la, ona li jo e ilo open tan poki len ona, sama jan li kama tawa tomo ona. ona li tawa poka la, jan Utason li kama tan ma awen ona, li luka e poka sewi ona. ona li toki: “mi pilin e ni: sina jan Hata, anu seme?”\nNOTES: NONE",
+      "translation": "sijelo ona li lili, li jo e len pi nasin pona taso. jan Utason li lukin e ona lon weka. kin la, tan nasin sona ala, lukin ona li pana e pilin ike suli tawa jan Utason. taso jan ni li tawa lon nasin sewi tawa lupa, li tawa poka ante pi nasin tan wile pi tenpo lili. ona li kama la, ona li jo e ilo open tan poki len ona, sama jan li kama tawa tomo ona. ona li tawa poka la, jan Utason li kama tan ma awen ona, li luka e poka sewi ona. ona li toki: “mi pilin e ni: sina jan Hata, anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 690,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3523
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f4310734d05f468016ab427b5a0dc87d28601a65bb28ac502",
+  "visibleOutput": "TRANSLATION: sijelo ona li lili, li jo e len pi nasin pona taso. jan Utason li lukin e ona lon weka. kin la, tan nasin sona ala, lukin ona li pana e pilin ike suli tawa jan Utason. taso jan ni li tawa lon nasin sewi tawa lupa, li tawa poka ante pi nasin tan wile pi tenpo lili. ona li kama la, ona li jo e ilo open tan poki len ona, sama jan li kama tawa tomo ona. ona li tawa poka la, jan Utason li kama tan ma awen ona, li luka e poka sewi ona. ona li toki: “mi pilin e ni: sina jan Hata, anu seme?”\nNOTES: NONE",
+  "translation": "sijelo ona li lili, li jo e len pi nasin pona taso. jan Utason li lukin e ona lon weka. kin la, tan nasin sona ala, lukin ona li pana e pilin ike suli tawa jan Utason. taso jan ni li tawa lon nasin sewi tawa lupa, li tawa poka ante pi nasin tan wile pi tenpo lili. ona li kama la, ona li jo e ilo open tan poki len ona, sama jan li kama tawa tomo ona. ona li tawa poka la, jan Utason li kama tan ma awen ona, li luka e poka sewi ona. ona li toki: “mi pilin e ni: sina jan Hata, anu seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2833,
+    "input_tokens_details": {
+      "cache_write_tokens": 2830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 690,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3523
+  },
+  "success": true
+}

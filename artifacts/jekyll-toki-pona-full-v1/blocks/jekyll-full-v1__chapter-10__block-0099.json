@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0099",
+  "sourceHash": "eb192bab378b03dc7f64f8c487a8ea073daa3466d1adef9f67eb6a0651e916af",
+  "source": "Thenceforward, he sat all day over the fire in the private room, gnawing his nails; there he dined, sitting alone with his fears, the waiter visibly quailing before his eye; and thence, when the night was fully come, he set forth in the corner of a closed cab, and was driven to and fro about the streets of the city. He, I say—I cannot say, I.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

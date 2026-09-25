@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0024",
+  "sourceHash": "566e24e10ce10aa199140a76c1ec392ffa5a288651ae016e3898a6934ebd14ea",
+  "source": "The more I reflected the more convinced I grew that I was dealing with a case of cerebral disease: and though I dismissed my servants to bed, I loaded an old revolver, that I might be found in some posture of self-defence.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08642c3ffa464ad5016ab434b521b487d29934bca62e93fe9f",
+      "visibleOutput": "TRANSLATION: mi awen toki insa e ni la, pilin mi li kama wawa: mi pilin e ni: ike sijelo lon insa lawa li lon. taso mi toki e ni tawa jan pali mi: ona li o tawa lape. mi pana e sike utala lon insa pi ilo utala majuna, tan ni: jan li kama lukin e mi la, mi ken lon nasin pi awen e sijelo mi.\n\nNOTES: “cerebral disease” is retained as Lanyon’s growing conviction, not narrator fact.",
+      "translation": "mi awen toki insa e ni la, pilin mi li kama wawa: mi pilin e ni: ike sijelo lon insa lawa li lon. taso mi toki e ni tawa jan pali mi: ona li o tawa lape. mi pana e sike utala lon insa pi ilo utala majuna, tan ni: jan li kama lukin e mi la, mi ken lon nasin pi awen e sijelo mi.",
+      "notes": "“cerebral disease” is retained as Lanyon’s growing conviction, not narrator fact.",
+      "usage": {
+        "input_tokens": 2789,
+        "input_tokens_details": {
+          "cache_write_tokens": 2786,
+          "cached_tokens": 0
+        },
+        "output_tokens": 644,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3433
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08642c3ffa464ad5016ab434b521b487d29934bca62e93fe9f",
+  "visibleOutput": "TRANSLATION: mi awen toki insa e ni la, pilin mi li kama wawa: mi pilin e ni: ike sijelo lon insa lawa li lon. taso mi toki e ni tawa jan pali mi: ona li o tawa lape. mi pana e sike utala lon insa pi ilo utala majuna, tan ni: jan li kama lukin e mi la, mi ken lon nasin pi awen e sijelo mi.\n\nNOTES: “cerebral disease” is retained as Lanyon’s growing conviction, not narrator fact.",
+  "translation": "mi awen toki insa e ni la, pilin mi li kama wawa: mi pilin e ni: ike sijelo lon insa lawa li lon. taso mi toki e ni tawa jan pali mi: ona li o tawa lape. mi pana e sike utala lon insa pi ilo utala majuna, tan ni: jan li kama lukin e mi la, mi ken lon nasin pi awen e sijelo mi.",
+  "notes": "“cerebral disease” is retained as Lanyon’s growing conviction, not narrator fact.",
+  "usage": {
+    "input_tokens": 2789,
+    "input_tokens_details": {
+      "cache_write_tokens": 2786,
+      "cached_tokens": 0
+    },
+    "output_tokens": 644,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3433
+  },
+  "success": true
+}

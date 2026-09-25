@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0049",
+  "sourceHash": "b95129ba4afbacc887ef80f08c44dc542d6dcb84ddd4d95720ecd9a0af1e2fce",
+  "source": "His past was fairly blameless; few men could read the rolls of their life with less apprehension; yet he was humbled to the dust by the many ill things he had done, and raised up again into a sober and fearful gratitude by the many that he had come so near to doing, yet avoided. And then by a return on his former subject, he conceived a spark of hope.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ee25c67d6671474016ab428e4d7dc87d2a457f8bd0df18b8e",
+      "visibleOutput": "TRANSLATION: tenpo pini pi jan Utason li pona mute, li jo lili taso e pali ike. jan mute li ken ala lukin sin e pali pi tenpo ale ona, li pilin monsuta lili sama ona. taso pali ike mute ona li lili e pilin suli ona. kin la, ona li kama jo sin e pilin pona pi tenpo ni: ona li pilin pona lon nasin pi lawa pilin, li pilin monsuta kin, tan ni: tenpo mute la, ona li kama poka mute tawa pali ike, taso ona li pali ala e ona. tenpo ni la, ona li kama toki insa sin lon ijo pi toki ona lon tenpo pini. ni la, pilin lili pi ken pona li kama lon ona.\nNOTES: “rolls of their life” is rendered as looking back over one’s lifelong conduct; the final hope remains only Utterson’s thought.",
+      "translation": "tenpo pini pi jan Utason li pona mute, li jo lili taso e pali ike. jan mute li ken ala lukin sin e pali pi tenpo ale ona, li pilin monsuta lili sama ona. taso pali ike mute ona li lili e pilin suli ona. kin la, ona li kama jo sin e pilin pona pi tenpo ni: ona li pilin pona lon nasin pi lawa pilin, li pilin monsuta kin, tan ni: tenpo mute la, ona li kama poka mute tawa pali ike, taso ona li pali ala e ona. tenpo ni la, ona li kama toki insa sin lon ijo pi toki ona lon tenpo pini. ni la, pilin lili pi ken pona li kama lon ona.",
+      "notes": "“rolls of their life” is rendered as looking back over one’s lifelong conduct; the final hope remains only Utterson’s thought.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 71
+        },
+        "total_tokens": 3094
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ee25c67d6671474016ab428e4d7dc87d2a457f8bd0df18b8e",
+  "visibleOutput": "TRANSLATION: tenpo pini pi jan Utason li pona mute, li jo lili taso e pali ike. jan mute li ken ala lukin sin e pali pi tenpo ale ona, li pilin monsuta lili sama ona. taso pali ike mute ona li lili e pilin suli ona. kin la, ona li kama jo sin e pilin pona pi tenpo ni: ona li pilin pona lon nasin pi lawa pilin, li pilin monsuta kin, tan ni: tenpo mute la, ona li kama poka mute tawa pali ike, taso ona li pali ala e ona. tenpo ni la, ona li kama toki insa sin lon ijo pi toki ona lon tenpo pini. ni la, pilin lili pi ken pona li kama lon ona.\nNOTES: “rolls of their life” is rendered as looking back over one’s lifelong conduct; the final hope remains only Utterson’s thought.",
+  "translation": "tenpo pini pi jan Utason li pona mute, li jo lili taso e pali ike. jan mute li ken ala lukin sin e pali pi tenpo ale ona, li pilin monsuta lili sama ona. taso pali ike mute ona li lili e pilin suli ona. kin la, ona li kama jo sin e pilin pona pi tenpo ni: ona li pilin pona lon nasin pi lawa pilin, li pilin monsuta kin, tan ni: tenpo mute la, ona li kama poka mute tawa pali ike, taso ona li pali ala e ona. tenpo ni la, ona li kama toki insa sin lon ijo pi toki ona lon tenpo pini. ni la, pilin lili pi ken pona li kama lon ona.",
+  "notes": "“rolls of their life” is rendered as looking back over one’s lifelong conduct; the final hope remains only Utterson’s thought.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 277,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 3094
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0020",
+  "sourceHash": "e5c5a5c393dfc4f2bc791109f7bf80661ba7672f5dc1bc63c8a438a80a7d3a24",
+  "source": "These covered a period of many years, but I observed that the entries ceased nearly a year ago and quite abruptly.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_007472218fc3e6ce016ab43475833887d28f89e1a8fc50e632",
+      "visibleOutput": "TRANSLATION: sitelen ni li toki e ijo pi tenpo sike mute. taso mi lukin e ni: lon tenpo pini poka pi sike wan la, sitelen sin li pini a.\nNOTES: NONE",
+      "translation": "sitelen ni li toki e ijo pi tenpo sike mute. taso mi lukin e ni: lon tenpo pini poka pi sike wan la, sitelen sin li pini a.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2763,
+        "input_tokens_details": {
+          "cache_write_tokens": 2760,
+          "cached_tokens": 0
+        },
+        "output_tokens": 251,
+        "output_tokens_details": {
+          "reasoning_tokens": 196
+        },
+        "total_tokens": 3014
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_007472218fc3e6ce016ab43475833887d28f89e1a8fc50e632",
+  "visibleOutput": "TRANSLATION: sitelen ni li toki e ijo pi tenpo sike mute. taso mi lukin e ni: lon tenpo pini poka pi sike wan la, sitelen sin li pini a.\nNOTES: NONE",
+  "translation": "sitelen ni li toki e ijo pi tenpo sike mute. taso mi lukin e ni: lon tenpo pini poka pi sike wan la, sitelen sin li pini a.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2763,
+    "input_tokens_details": {
+      "cache_write_tokens": 2760,
+      "cached_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "reasoning_tokens": 196
+    },
+    "total_tokens": 3014
+  },
+  "success": true
+}

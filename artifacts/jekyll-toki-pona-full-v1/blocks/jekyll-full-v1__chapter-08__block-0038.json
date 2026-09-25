@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0038",
+  "sourceHash": "892d93c4ac9fe0bc0f38fa499514f69de77678e89635c70b1ffad35b64340231",
+  "source": "“And now comes the second question,” resumed Utterson: “Who is going to do it?” “Why, you and me,” was the undaunted reply. “That’s very well said,” returned the lawyer; “and whatever comes of it, I shall make it my business to see you are no loser.” “There is an axe in the theatre,” continued Poole; “and you might take the kitchen poker for yourself.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0516c456bad7312f016ab430fb651087d28ee0e6b37279b5d2",
+      "visibleOutput": "TRANSLATION: jan Utason li toki sin: “tenpo ni la, toki wile nanpa tu li kama: jan seme li pali e ni?” jan Pulu li pilin monsuta ala, li toki: “sina en mi.” jan pi sona lawa li toki: “toki sina li pona. ijo seme li kama tan pali ni la, mi pali e ni: sina kama jo ala e pakala.” jan Pulu li toki sin: “ilo kipisi suli li lon tomo pi pali sona sijelo. sina ken kama jo e palisa kiwen pi seli tan tomo moku.”\nNOTES: “do it” remains unspecified; “no loser” is rendered broadly as ensuring Poole suffers no harm or loss.",
+      "translation": "jan Utason li toki sin: “tenpo ni la, toki wile nanpa tu li kama: jan seme li pali e ni?” jan Pulu li pilin monsuta ala, li toki: “sina en mi.” jan pi sona lawa li toki: “toki sina li pona. ijo seme li kama tan pali ni la, mi pali e ni: sina kama jo ala e pakala.” jan Pulu li toki sin: “ilo kipisi suli li lon tomo pi pali sona sijelo. sina ken kama jo e palisa kiwen pi seli tan tomo moku.”",
+      "notes": "“do it” remains unspecified; “no loser” is rendered broadly as ensuring Poole suffers no harm or loss.",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cache_write_tokens": 2820,
+          "cached_tokens": 0
+        },
+        "output_tokens": 345,
+        "output_tokens_details": {
+          "reasoning_tokens": 183
+        },
+        "total_tokens": 3168
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0516c456bad7312f016ab430fb651087d28ee0e6b37279b5d2",
+  "visibleOutput": "TRANSLATION: jan Utason li toki sin: “tenpo ni la, toki wile nanpa tu li kama: jan seme li pali e ni?” jan Pulu li pilin monsuta ala, li toki: “sina en mi.” jan pi sona lawa li toki: “toki sina li pona. ijo seme li kama tan pali ni la, mi pali e ni: sina kama jo ala e pakala.” jan Pulu li toki sin: “ilo kipisi suli li lon tomo pi pali sona sijelo. sina ken kama jo e palisa kiwen pi seli tan tomo moku.”\nNOTES: “do it” remains unspecified; “no loser” is rendered broadly as ensuring Poole suffers no harm or loss.",
+  "translation": "jan Utason li toki sin: “tenpo ni la, toki wile nanpa tu li kama: jan seme li pali e ni?” jan Pulu li pilin monsuta ala, li toki: “sina en mi.” jan pi sona lawa li toki: “toki sina li pona. ijo seme li kama tan pali ni la, mi pali e ni: sina kama jo ala e pakala.” jan Pulu li toki sin: “ilo kipisi suli li lon tomo pi pali sona sijelo. sina ken kama jo e palisa kiwen pi seli tan tomo moku.”",
+  "notes": "“do it” remains unspecified; “no loser” is rendered broadly as ensuring Poole suffers no harm or loss.",
+  "usage": {
+    "input_tokens": 2823,
+    "input_tokens_details": {
+      "cache_write_tokens": 2820,
+      "cached_tokens": 0
+    },
+    "output_tokens": 345,
+    "output_tokens_details": {
+      "reasoning_tokens": 183
+    },
+    "total_tokens": 3168
+  },
+  "success": true
+}

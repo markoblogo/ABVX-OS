@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0001",
+  "sourceHash": "063a3fb4642ae7981cad82f094f19221e7287d9502c38f8ae78347be578865c5",
+  "source": "Mr. Utterson the lawyer was a man of a rugged countenance, that was never lighted by a smile; cold, scanty and embarrassed in discourse; backward in sentiment; lean, long, dusty, dreary, and yet somehow lovable.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08997076d8c3a3b4016ab4246d8f8487d28d70fb9d234be44a",
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li jo e sinpin kiwen. tenpo ala la, musi uta li pona e sinpin ona. toki ona li lete li lili; ona li pilin pakala lon toki. ona li pana ala e pilin ona. sijelo ona li lili li suli sewi li ko jaki li pana e pilin ike. taso, tan nasin sona ala la, jan li ken olin e ona.\nNOTES: “dusty” and “dreary” are rendered descriptively; “somehow” remains explicitly unexplained.",
+      "translation": "jan Utason pi sona lawa li jo e sinpin kiwen. tenpo ala la, musi uta li pona e sinpin ona. toki ona li lete li lili; ona li pilin pakala lon toki. ona li pana ala e pilin ona. sijelo ona li lili li suli sewi li ko jaki li pana e pilin ike. taso, tan nasin sona ala la, jan li ken olin e ona.",
+      "notes": "“dusty” and “dreary” are rendered descriptively; “somehow” remains explicitly unexplained.",
+      "usage": {
+        "input_tokens": 2788,
+        "input_tokens_details": {
+          "cache_write_tokens": 2785,
+          "cached_tokens": 0
+        },
+        "output_tokens": 217,
+        "output_tokens_details": {
+          "reasoning_tokens": 89
+        },
+        "total_tokens": 3005
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08997076d8c3a3b4016ab4246d8f8487d28d70fb9d234be44a",
+  "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li jo e sinpin kiwen. tenpo ala la, musi uta li pona e sinpin ona. toki ona li lete li lili; ona li pilin pakala lon toki. ona li pana ala e pilin ona. sijelo ona li lili li suli sewi li ko jaki li pana e pilin ike. taso, tan nasin sona ala la, jan li ken olin e ona.\nNOTES: “dusty” and “dreary” are rendered descriptively; “somehow” remains explicitly unexplained.",
+  "translation": "jan Utason pi sona lawa li jo e sinpin kiwen. tenpo ala la, musi uta li pona e sinpin ona. toki ona li lete li lili; ona li pilin pakala lon toki. ona li pana ala e pilin ona. sijelo ona li lili li suli sewi li ko jaki li pana e pilin ike. taso, tan nasin sona ala la, jan li ken olin e ona.",
+  "notes": "“dusty” and “dreary” are rendered descriptively; “somehow” remains explicitly unexplained.",
+  "usage": {
+    "input_tokens": 2788,
+    "input_tokens_details": {
+      "cache_write_tokens": 2785,
+      "cached_tokens": 0
+    },
+    "output_tokens": 217,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 3005
+  },
+  "success": true
+}

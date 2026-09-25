@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0053",
+  "sourceHash": "e8b27e3a677f27a177792e44af13b16a3de9affc0cba16438b036b891c9502e8",
+  "source": "“Weeping like a woman or a lost soul,” said the butler. “I came away with that upon my heart, that I could have wept too.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01bf680c8f62f9a1016ab431a8ec2487d291b9c770c29bec43",
+      "visibleOutput": "TRANSLATION: jan Pulu li toki e ni: “ona li pana e telo oko sama meli anu sama kon pi jan moli pi nasin weka. mi tawa weka. pilin ni li awen lon pilin mi: mi kin ken pana e telo oko.”\n\nNOTES: “lost soul” is rendered figuratively without asserting a supernatural fact.",
+      "translation": "jan Pulu li toki e ni: “ona li pana e telo oko sama meli anu sama kon pi jan moli pi nasin weka. mi tawa weka. pilin ni li awen lon pilin mi: mi kin ken pana e telo oko.”",
+      "notes": "“lost soul” is rendered figuratively without asserting a supernatural fact.",
+      "usage": {
+        "input_tokens": 2767,
+        "input_tokens_details": {
+          "cache_write_tokens": 2764,
+          "cached_tokens": 0
+        },
+        "output_tokens": 81,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2848
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01bf680c8f62f9a1016ab431a8ec2487d291b9c770c29bec43",
+  "visibleOutput": "TRANSLATION: jan Pulu li toki e ni: “ona li pana e telo oko sama meli anu sama kon pi jan moli pi nasin weka. mi tawa weka. pilin ni li awen lon pilin mi: mi kin ken pana e telo oko.”\n\nNOTES: “lost soul” is rendered figuratively without asserting a supernatural fact.",
+  "translation": "jan Pulu li toki e ni: “ona li pana e telo oko sama meli anu sama kon pi jan moli pi nasin weka. mi tawa weka. pilin ni li awen lon pilin mi: mi kin ken pana e telo oko.”",
+  "notes": "“lost soul” is rendered figuratively without asserting a supernatural fact.",
+  "usage": {
+    "input_tokens": 2767,
+    "input_tokens_details": {
+      "cache_write_tokens": 2764,
+      "cached_tokens": 0
+    },
+    "output_tokens": 81,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2848
+  },
+  "success": true
+}

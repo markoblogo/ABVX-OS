@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0095",
+  "sourceHash": "bbc0709c384c840005142b860c7d1e9ef3f07c5a4e4300cc43a20cde7a85034e",
+  "source": "At my appearance (which was indeed comical enough, however tragic a fate these garments covered) the driver could not conceal his mirth. I gnashed my teeth upon him with a gust of devilish fury; and the smile withered from his face—happily for him—yet more happily for myself, for in another instant I had certainly dragged him from his perch.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

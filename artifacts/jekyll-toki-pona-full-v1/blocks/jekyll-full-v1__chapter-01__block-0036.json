@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0036",
+  "sourceHash": "d2fd26493c758523d732a4b228f94d52b2ea0ffeb3fcbcc11d27d39e51d49998",
+  "source": "There are three windows looking on the court on the first floor; none below; the windows are always shut but they’re clean. And then there is a chimney which is generally smoking; so somebody must live there. And yet it’s not so sure; for the buildings are so packed together about that court, that it’s hard to say where one ends and another begins.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e636cb6e928cf94016ab4261a235087d2bc4e0e6fa6ba391d",
+      "visibleOutput": "TRANSLATION: Lon sewi nanpa wan la, lupa lukin tu wan li lukin tawa ma insa. Lon anpa la, lupa lukin ala li lon. Lupa lukin ni li pini lon tenpo ale, taso ona li jaki ala. Kin la, nasin pi kon seli li lon, li pana e kon pimeja lon tenpo mute. Tan ni la, jan li ken pilin wawa e ni: jan wan li awen lon tomo ni. Taso ni li sona kiwen ala. Tomo mute li poka mute lon ma insa ni. Ni la, sina ken ala sona pona e ni: tomo wan li pini lon seme, tomo ante li open lon seme.”\nNOTES: “First floor” is rendered as the first upper level; “must live” remains an inference, then is explicitly qualified.",
+      "translation": "Lon sewi nanpa wan la, lupa lukin tu wan li lukin tawa ma insa. Lon anpa la, lupa lukin ala li lon. Lupa lukin ni li pini lon tenpo ale, taso ona li jaki ala. Kin la, nasin pi kon seli li lon, li pana e kon pimeja lon tenpo mute. Tan ni la, jan li ken pilin wawa e ni: jan wan li awen lon tomo ni. Taso ni li sona kiwen ala. Tomo mute li poka mute lon ma insa ni. Ni la, sina ken ala sona pona e ni: tomo wan li pini lon seme, tomo ante li open lon seme.”",
+      "notes": "“First floor” is rendered as the first upper level; “must live” remains an inference, then is explicitly qualified.",
+      "usage": {
+        "input_tokens": 2811,
+        "input_tokens_details": {
+          "cache_write_tokens": 2808,
+          "cached_tokens": 0
+        },
+        "output_tokens": 561,
+        "output_tokens_details": {
+          "reasoning_tokens": 375
+        },
+        "total_tokens": 3372
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e636cb6e928cf94016ab4261a235087d2bc4e0e6fa6ba391d",
+  "visibleOutput": "TRANSLATION: Lon sewi nanpa wan la, lupa lukin tu wan li lukin tawa ma insa. Lon anpa la, lupa lukin ala li lon. Lupa lukin ni li pini lon tenpo ale, taso ona li jaki ala. Kin la, nasin pi kon seli li lon, li pana e kon pimeja lon tenpo mute. Tan ni la, jan li ken pilin wawa e ni: jan wan li awen lon tomo ni. Taso ni li sona kiwen ala. Tomo mute li poka mute lon ma insa ni. Ni la, sina ken ala sona pona e ni: tomo wan li pini lon seme, tomo ante li open lon seme.”\nNOTES: “First floor” is rendered as the first upper level; “must live” remains an inference, then is explicitly qualified.",
+  "translation": "Lon sewi nanpa wan la, lupa lukin tu wan li lukin tawa ma insa. Lon anpa la, lupa lukin ala li lon. Lupa lukin ni li pini lon tenpo ale, taso ona li jaki ala. Kin la, nasin pi kon seli li lon, li pana e kon pimeja lon tenpo mute. Tan ni la, jan li ken pilin wawa e ni: jan wan li awen lon tomo ni. Taso ni li sona kiwen ala. Tomo mute li poka mute lon ma insa ni. Ni la, sina ken ala sona pona e ni: tomo wan li pini lon seme, tomo ante li open lon seme.”",
+  "notes": "“First floor” is rendered as the first upper level; “must live” remains an inference, then is explicitly qualified.",
+  "usage": {
+    "input_tokens": 2811,
+    "input_tokens_details": {
+      "cache_write_tokens": 2808,
+      "cached_tokens": 0
+    },
+    "output_tokens": 561,
+    "output_tokens_details": {
+      "reasoning_tokens": 375
+    },
+    "total_tokens": 3372
+  },
+  "success": true
+}

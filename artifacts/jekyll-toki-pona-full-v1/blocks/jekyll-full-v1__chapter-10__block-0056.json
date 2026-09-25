@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0056",
+  "sourceHash": "93c2b4e0f63d274f03bc296f47cdfb70b9359d2a14fe5e1a163eaf2de91567b8",
+  "source": "It might indeed be possible to cover my face; but of what use was that, when I was unable to conceal the alteration in my stature? And then with an overpowering sweetness of relief, it came back upon my mind that the servants were already used to the coming and going of my second self.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0005",
+  "sourceHash": "85cf1a39087bf20d03e172190aea033b2933247d01024fc031c01f4ba8417ce3",
+  "source": "It offended him both as a lawyer and as a lover of the sane and customary sides of life, to whom the fanciful was the immodest. And hitherto it was his ignorance of Mr. Hyde that had swelled his indignation; now, by a sudden turn, it was his knowledge. It was already bad enough when the name was but a name of which he could learn no more.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02ba5576a8f91e07016ab426aa37a887d2be798a290ec7c938",
+      "visibleOutput": "TRANSLATION: Ijo ni li ike tawa ona tan ni tu: ona li jan pi sona lawa, li olin e nasin pi lawa sona e nasin pi tenpo ale lon. Tawa ona la, nasin pi toki insa taso li nasin pi pilin häpe ala. Tawa tenpo ni la, sona ala ona lon jan Hata li suli e pilin utala ona. Tasо lon tenpo ni, ante pi tenpo lili la, sona ona lon jan Hata li suli e pilin ni. Tenpo pini la, nimi Hata li nimi taso, li ike mute kin, tan ni: ona li ken ala kama sona e ijo ante lon jan ni.\nNOTES: “the fanciful was the immodest” is rendered as Utterson’s view that imagination-based conduct lacks shame; the judgment remains observer-bound.",
+      "translation": "Ijo ni li ike tawa ona tan ni tu: ona li jan pi sona lawa, li olin e nasin pi lawa sona e nasin pi tenpo ale lon. Tawa ona la, nasin pi toki insa taso li nasin pi pilin häpe ala. Tawa tenpo ni la, sona ala ona lon jan Hata li suli e pilin utala ona. Tasо lon tenpo ni, ante pi tenpo lili la, sona ona lon jan Hata li suli e pilin ni. Tenpo pini la, nimi Hata li nimi taso, li ike mute kin, tan ni: ona li ken ala kama sona e ijo ante lon jan ni.",
+      "notes": "“the fanciful was the immodest” is rendered as Utterson’s view that imagination-based conduct lacks shame; the judgment remains observer-bound.",
+      "usage": {
+        "input_tokens": 2831,
+        "input_tokens_details": {
+          "cache_write_tokens": 2828,
+          "cached_tokens": 0
+        },
+        "output_tokens": 258,
+        "output_tokens_details": {
+          "reasoning_tokens": 69
+        },
+        "total_tokens": 3089
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02ba5576a8f91e07016ab426aa37a887d2be798a290ec7c938",
+  "visibleOutput": "TRANSLATION: Ijo ni li ike tawa ona tan ni tu: ona li jan pi sona lawa, li olin e nasin pi lawa sona e nasin pi tenpo ale lon. Tawa ona la, nasin pi toki insa taso li nasin pi pilin häpe ala. Tawa tenpo ni la, sona ala ona lon jan Hata li suli e pilin utala ona. Tasо lon tenpo ni, ante pi tenpo lili la, sona ona lon jan Hata li suli e pilin ni. Tenpo pini la, nimi Hata li nimi taso, li ike mute kin, tan ni: ona li ken ala kama sona e ijo ante lon jan ni.\nNOTES: “the fanciful was the immodest” is rendered as Utterson’s view that imagination-based conduct lacks shame; the judgment remains observer-bound.",
+  "translation": "Ijo ni li ike tawa ona tan ni tu: ona li jan pi sona lawa, li olin e nasin pi lawa sona e nasin pi tenpo ale lon. Tawa ona la, nasin pi toki insa taso li nasin pi pilin häpe ala. Tawa tenpo ni la, sona ala ona lon jan Hata li suli e pilin utala ona. Tasо lon tenpo ni, ante pi tenpo lili la, sona ona lon jan Hata li suli e pilin ni. Tenpo pini la, nimi Hata li nimi taso, li ike mute kin, tan ni: ona li ken ala kama sona e ijo ante lon jan ni.",
+  "notes": "“the fanciful was the immodest” is rendered as Utterson’s view that imagination-based conduct lacks shame; the judgment remains observer-bound.",
+  "usage": {
+    "input_tokens": 2831,
+    "input_tokens_details": {
+      "cache_write_tokens": 2828,
+      "cached_tokens": 0
+    },
+    "output_tokens": 258,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 3089
+  },
+  "success": true
+}

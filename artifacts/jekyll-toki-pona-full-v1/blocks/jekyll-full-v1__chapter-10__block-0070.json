@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0070",
+  "sourceHash": "9b3ba818be76c5a3c06f6a5f1fd86b0e0922d69882ef519419b8e6b949985f13",
+  "source": "I do not suppose that, when a drunkard reasons with himself upon his vice, he is once out of five hundred times affected by the dangers that he runs through his brutish, physical insensibility; neither had I, long as I had considered my position, made enough allowance for the complete moral insensibility and insensate readiness to evil, which were the leading characters of Edward Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

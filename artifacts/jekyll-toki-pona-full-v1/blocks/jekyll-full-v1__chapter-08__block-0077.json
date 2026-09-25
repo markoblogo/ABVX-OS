@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0077",
+  "sourceHash": "cba498f56c38b8bc54cdeeb80f7fb7eb1c524450829591292041fe6029ae7c44",
+  "source": "Oh, we must be careful. I foresee that we may yet involve your master in some dire catastrophe.” “Why don’t you read it, sir?” asked Poole. “Because I fear,” replied the lawyer solemnly. “God grant I have no cause for it!” And with that he brought the paper to his eyes and read as follows:",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03c5b30244468d9a016ab432b51a8087d28b5588b8327b9207",
+      "visibleOutput": "TRANSLATION: “A! mi mute o pali kepeken sona. mi pilin sona e ni: ken la mi mute li pana e jan lawa sina lon pakala ike suli.” jan Pulu li toki: “tan seme la sina lukin ala e lipu ni, jan lawa o?” jan pi sona lawa li toki sin kepeken nasin suli: “tan ni: mi pilin monsuta. sewi o pali e ni: ijo tan pi pilin monsuta mi li lon ala!” ona li toki e ni, li pana e lipu tawa sinpin lukin ona, li lukin e toki ni:\nNOTES: NONE",
+      "translation": "“A! mi mute o pali kepeken sona. mi pilin sona e ni: ken la mi mute li pana e jan lawa sina lon pakala ike suli.” jan Pulu li toki: “tan seme la sina lukin ala e lipu ni, jan lawa o?” jan pi sona lawa li toki sin kepeken nasin suli: “tan ni: mi pilin monsuta. sewi o pali e ni: ijo tan pi pilin monsuta mi li lon ala!” ona li toki e ni, li pana e lipu tawa sinpin lukin ona, li lukin e toki ni:",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 659,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3464
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03c5b30244468d9a016ab432b51a8087d28b5588b8327b9207",
+  "visibleOutput": "TRANSLATION: “A! mi mute o pali kepeken sona. mi pilin sona e ni: ken la mi mute li pana e jan lawa sina lon pakala ike suli.” jan Pulu li toki: “tan seme la sina lukin ala e lipu ni, jan lawa o?” jan pi sona lawa li toki sin kepeken nasin suli: “tan ni: mi pilin monsuta. sewi o pali e ni: ijo tan pi pilin monsuta mi li lon ala!” ona li toki e ni, li pana e lipu tawa sinpin lukin ona, li lukin e toki ni:\nNOTES: NONE",
+  "translation": "“A! mi mute o pali kepeken sona. mi pilin sona e ni: ken la mi mute li pana e jan lawa sina lon pakala ike suli.” jan Pulu li toki: “tan seme la sina lukin ala e lipu ni, jan lawa o?” jan pi sona lawa li toki sin kepeken nasin suli: “tan ni: mi pilin monsuta. sewi o pali e ni: ijo tan pi pilin monsuta mi li lon ala!” ona li toki e ni, li pana e lipu tawa sinpin lukin ona, li lukin e toki ni:",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 659,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3464
+  },
+  "success": true
+}

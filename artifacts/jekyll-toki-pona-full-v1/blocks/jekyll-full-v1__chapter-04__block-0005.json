@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0005",
+  "sourceHash": "bf92a7ddf546fc73878ffabf09288afcb982f70fdcc78e6314b3ff61e5b73019",
+  "source": "It did not seem as if the subject of his address were of great importance; indeed, from his pointing, it sometimes appeared as if he were only inquiring his way; but the moon shone on his face as he spoke, and the girl was pleased to watch it, it seemed to breathe such an innocent and old-world kindness of disposition, yet with something high too, as of a well-founded self-content.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02a71f9832998195016ab42a21840487d29d9d9f7bee695557",
+      "visibleOutput": "TRANSLATION: lukin la, ijo pi toki ona li suli ala. tan pana luka ona la, tenpo ante la, ona li lukin sama ni: ona li wile sona taso e nasin. taso, ona li toki la, mun li suno lon sinpin ona. jan meli li pilin pona tan lukin e sinpin ni. pilin ona la, sinpin ni li pana e pilin pi pona nasa ala pi tenpo pini; kin la, ona li pana e pilin sewi pi jan li sona pona e pona ona.\nNOTES: nimi pi pilin sinpin li awen lon lukin en pilin pi jan meli; ona li lon ala sama sona pi toki nanpa wan.",
+      "translation": "lukin la, ijo pi toki ona li suli ala. tan pana luka ona la, tenpo ante la, ona li lukin sama ni: ona li wile sona taso e nasin. taso, ona li toki la, mun li suno lon sinpin ona. jan meli li pilin pona tan lukin e sinpin ni. pilin ona la, sinpin ni li pana e pilin pi pona nasa ala pi tenpo pini; kin la, ona li pana e pilin sewi pi jan li sona pona e pona ona.",
+      "notes": "nimi pi pilin sinpin li awen lon lukin en pilin pi jan meli; ona li lon ala sama sona pi toki nanpa wan.",
+      "usage": {
+        "input_tokens": 2822,
+        "input_tokens_details": {
+          "cache_write_tokens": 2819,
+          "cached_tokens": 0
+        },
+        "output_tokens": 366,
+        "output_tokens_details": {
+          "reasoning_tokens": 205
+        },
+        "total_tokens": 3188
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02a71f9832998195016ab42a21840487d29d9d9f7bee695557",
+  "visibleOutput": "TRANSLATION: lukin la, ijo pi toki ona li suli ala. tan pana luka ona la, tenpo ante la, ona li lukin sama ni: ona li wile sona taso e nasin. taso, ona li toki la, mun li suno lon sinpin ona. jan meli li pilin pona tan lukin e sinpin ni. pilin ona la, sinpin ni li pana e pilin pi pona nasa ala pi tenpo pini; kin la, ona li pana e pilin sewi pi jan li sona pona e pona ona.\nNOTES: nimi pi pilin sinpin li awen lon lukin en pilin pi jan meli; ona li lon ala sama sona pi toki nanpa wan.",
+  "translation": "lukin la, ijo pi toki ona li suli ala. tan pana luka ona la, tenpo ante la, ona li lukin sama ni: ona li wile sona taso e nasin. taso, ona li toki la, mun li suno lon sinpin ona. jan meli li pilin pona tan lukin e sinpin ni. pilin ona la, sinpin ni li pana e pilin pi pona nasa ala pi tenpo pini; kin la, ona li pana e pilin sewi pi jan li sona pona e pona ona.",
+  "notes": "nimi pi pilin sinpin li awen lon lukin en pilin pi jan meli; ona li lon ala sama sona pi toki nanpa wan.",
+  "usage": {
+    "input_tokens": 2822,
+    "input_tokens_details": {
+      "cache_write_tokens": 2819,
+      "cached_tokens": 0
+    },
+    "output_tokens": 366,
+    "output_tokens_details": {
+      "reasoning_tokens": 205
+    },
+    "total_tokens": 3188
+  },
+  "success": true
+}

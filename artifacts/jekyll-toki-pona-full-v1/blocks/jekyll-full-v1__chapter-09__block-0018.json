@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0018",
+  "sourceHash": "507868ca59bc67444e770ad5ce3470895e8289ad0cbaf5571469766c7c44d5fa",
+  "source": "The powders were neatly enough made up, but not with the nicety of the dispensing chemist; so that it was plain they were of Jekyll’s private manufacture; and when I opened one of the wrappers I found what seemed to me a simple crystalline salt of a white colour.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b26477f1f482f40016ab43450478087d2b757622a77445510",
+      "visibleOutput": "TRANSLATION: ko mute li lon lipu poki kepeken nasin pona. taso, nasin ni li pona lili ala sama nasin pi jan pali pi sona sijelo. tan ni la, mi sona pona la jan Jekil li pali e ona lon nasin pi ona taso. mi open e lipu poki wan la, mi lukin e ko kiwen walo. mi la, ko ni li lukin sama ko seli pi nasin pona taso.\nNOTES: “Jekyll’s private manufacture” is preserved as Lanyon’s inference; the substance is only described as seeming to him like a simple white crystalline salt.",
+      "translation": "ko mute li lon lipu poki kepeken nasin pona. taso, nasin ni li pona lili ala sama nasin pi jan pali pi sona sijelo. tan ni la, mi sona pona la jan Jekil li pali e ona lon nasin pi ona taso. mi open e lipu poki wan la, mi lukin e ko kiwen walo. mi la, ko ni li lukin sama ko seli pi nasin pona taso.",
+      "notes": "“Jekyll’s private manufacture” is preserved as Lanyon’s inference; the substance is only described as seeming to him like a simple white crystalline salt.",
+      "usage": {
+        "input_tokens": 2809,
+        "input_tokens_details": {
+          "cache_write_tokens": 2806,
+          "cached_tokens": 0
+        },
+        "output_tokens": 503,
+        "output_tokens_details": {
+          "reasoning_tokens": 358
+        },
+        "total_tokens": 3312
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b26477f1f482f40016ab43450478087d2b757622a77445510",
+  "visibleOutput": "TRANSLATION: ko mute li lon lipu poki kepeken nasin pona. taso, nasin ni li pona lili ala sama nasin pi jan pali pi sona sijelo. tan ni la, mi sona pona la jan Jekil li pali e ona lon nasin pi ona taso. mi open e lipu poki wan la, mi lukin e ko kiwen walo. mi la, ko ni li lukin sama ko seli pi nasin pona taso.\nNOTES: “Jekyll’s private manufacture” is preserved as Lanyon’s inference; the substance is only described as seeming to him like a simple white crystalline salt.",
+  "translation": "ko mute li lon lipu poki kepeken nasin pona. taso, nasin ni li pona lili ala sama nasin pi jan pali pi sona sijelo. tan ni la, mi sona pona la jan Jekil li pali e ona lon nasin pi ona taso. mi open e lipu poki wan la, mi lukin e ko kiwen walo. mi la, ko ni li lukin sama ko seli pi nasin pona taso.",
+  "notes": "“Jekyll’s private manufacture” is preserved as Lanyon’s inference; the substance is only described as seeming to him like a simple white crystalline salt.",
+  "usage": {
+    "input_tokens": 2809,
+    "input_tokens_details": {
+      "cache_write_tokens": 2806,
+      "cached_tokens": 0
+    },
+    "output_tokens": 503,
+    "output_tokens_details": {
+      "reasoning_tokens": 358
+    },
+    "total_tokens": 3312
+  },
+  "success": true
+}

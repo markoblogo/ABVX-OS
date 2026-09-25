@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0026",
+  "sourceHash": "948b6a61f06dfd3ae18b5b80307c64c1ae7df6316967ef28950de0a56efe9658",
+  "source": "Every time I brought the stuff back, there would be another paper telling me to return it, because it was not pure, and another order to a different firm. This drug is wanted bitter bad, sir, whatever for.” “Have you any of these papers?” asked Mr. Utterson. Poole felt in his pocket and handed out a crumpled note, which the lawyer, bending nearer to the candle, carefully examined.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cc3b0a36cdee45e016ab4304c6eb887d28407cec598952881",
+      "visibleOutput": "TRANSLATION: “tenpo ale la, mi pana e ijo ni lon ni. taso lipu ante li toki e ni: mi o pana sin e ona tawa esun, tan ni: ona li jo e jaki. lipu ante kin li toki e ni: esun ante o pana e ijo. wile pi kama jo e misikeke ni li wawa mute a, jan lawa o. taso mi sona ala e ni: ona li wile e misikeke tan seme.” jan Utason li toki e ni: “sina jo ala jo e lipu ni?” jan Pulu li luka alasa lon poki len ona, li pana e lipu pakala. jan Utason pi sona lawa li anpa poka tawa seli pi ilo suno, li lukin sona e lipu.\nNOTES: “pure” is rendered as absence of contamination (“jo e jaki”) without specifying a chemical.",
+      "translation": "“tenpo ale la, mi pana e ijo ni lon ni. taso lipu ante li toki e ni: mi o pana sin e ona tawa esun, tan ni: ona li jo e jaki. lipu ante kin li toki e ni: esun ante o pana e ijo. wile pi kama jo e misikeke ni li wawa mute a, jan lawa o. taso mi sona ala e ni: ona li wile e misikeke tan seme.” jan Utason li toki e ni: “sina jo ala jo e lipu ni?” jan Pulu li luka alasa lon poki len ona, li pana e lipu pakala. jan Utason pi sona lawa li anpa poka tawa seli pi ilo suno, li lukin sona e lipu.",
+      "notes": "“pure” is rendered as absence of contamination (“jo e jaki”) without specifying a chemical.",
+      "usage": {
+        "input_tokens": 2822,
+        "input_tokens_details": {
+          "cache_write_tokens": 2819,
+          "cached_tokens": 0
+        },
+        "output_tokens": 718,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3540
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cc3b0a36cdee45e016ab4304c6eb887d28407cec598952881",
+  "visibleOutput": "TRANSLATION: “tenpo ale la, mi pana e ijo ni lon ni. taso lipu ante li toki e ni: mi o pana sin e ona tawa esun, tan ni: ona li jo e jaki. lipu ante kin li toki e ni: esun ante o pana e ijo. wile pi kama jo e misikeke ni li wawa mute a, jan lawa o. taso mi sona ala e ni: ona li wile e misikeke tan seme.” jan Utason li toki e ni: “sina jo ala jo e lipu ni?” jan Pulu li luka alasa lon poki len ona, li pana e lipu pakala. jan Utason pi sona lawa li anpa poka tawa seli pi ilo suno, li lukin sona e lipu.\nNOTES: “pure” is rendered as absence of contamination (“jo e jaki”) without specifying a chemical.",
+  "translation": "“tenpo ale la, mi pana e ijo ni lon ni. taso lipu ante li toki e ni: mi o pana sin e ona tawa esun, tan ni: ona li jo e jaki. lipu ante kin li toki e ni: esun ante o pana e ijo. wile pi kama jo e misikeke ni li wawa mute a, jan lawa o. taso mi sona ala e ni: ona li wile e misikeke tan seme.” jan Utason li toki e ni: “sina jo ala jo e lipu ni?” jan Pulu li luka alasa lon poki len ona, li pana e lipu pakala. jan Utason pi sona lawa li anpa poka tawa seli pi ilo suno, li lukin sona e lipu.",
+  "notes": "“pure” is rendered as absence of contamination (“jo e jaki”) without specifying a chemical.",
+  "usage": {
+    "input_tokens": 2822,
+    "input_tokens_details": {
+      "cache_write_tokens": 2819,
+      "cached_tokens": 0
+    },
+    "output_tokens": 718,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3540
+  },
+  "success": true
+}

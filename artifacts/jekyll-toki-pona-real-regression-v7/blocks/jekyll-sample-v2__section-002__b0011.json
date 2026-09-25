@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0011",
+  "sourceText": "“I wish the friends were younger,” chuckled Dr. Lanyon. “But I suppose we are. And what of that? I see little of him now.”",
+  "sourceHash": "70a2f3c71d85dde83175353f3ffca3ada168e1a0dbbc595ac2bd072b75384c4d",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c521006a91a43ea016ab41d63b7e487d29c67599a55036530",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”\nNOTES: “younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+      "translation": "jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”",
+      "notes": "“younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+      "usage": {
+        "input_tokens": 2804,
+        "input_tokens_details": {
+          "cache_write_tokens": 2801,
+          "cached_tokens": 0
+        },
+        "output_tokens": 630,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3434
+      },
+      "elapsedMs": 20608
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c521006a91a43ea016ab41d63b7e487d29c67599a55036530",
+  "visibleOutput": "TRANSLATION: jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”\nNOTES: “younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+  "translation": "jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”",
+  "notes": "“younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+  "usage": {
+    "input_tokens": 2804,
+    "input_tokens_details": {
+      "cache_write_tokens": 2801,
+      "cached_tokens": 0
+    },
+    "output_tokens": 630,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3434
+  },
+  "success": true
+}

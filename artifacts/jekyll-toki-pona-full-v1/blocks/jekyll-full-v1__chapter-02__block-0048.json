@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0048",
+  "sourceHash": "30b07afcb1a19f9191737b668a1ee8d26ff683f7bafb5143a8fb2b773942776a",
+  "source": "Ay, it must be that; the ghost of some old sin, the cancer of some concealed disgrace: punishment coming, _pede claudo_, years after memory has forgotten and self-love condoned the fault.” And the lawyer, scared by the thought, brooded a while on his own past, groping in all the corners of memory, lest by chance some Jack-in-the-Box of an old iniquity should leap to light there.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0fc8bf4813e3b6e2016ab428dbe46c87d2a5bdd91b4351c759",
+      "visibleOutput": "TRANSLATION: “a, ni li ken ala ante: kon pi ike majuna, ike sijelo suli pi nimi ike awen insa. pana ike li kama kepeken noka pi tawa lili, lon tenpo mute pini la, sona tenpo li weka e ijo, li olin e ona la li weka e ike tan pali ona.” pilin ni li monsuta e jan Utason pi sona lawa. ona li awen toki insa lon tenpo lili lon pali ona pi tenpo pini. ona li alasa lon ma ale pi sona tenpo ona, tan ni: ken la, pali ike majuna li awen len lon insa, li kama lon lukin lon tenpo pi sona ala.\nNOTES: “pede claudo” and the Jack-in-the-Box image are rendered by meaning rather than retained literally; uncertainty remains marked with “ken la.”",
+      "translation": "“a, ni li ken ala ante: kon pi ike majuna, ike sijelo suli pi nimi ike awen insa. pana ike li kama kepeken noka pi tawa lili, lon tenpo mute pini la, sona tenpo li weka e ijo, li olin e ona la li weka e ike tan pali ona.” pilin ni li monsuta e jan Utason pi sona lawa. ona li awen toki insa lon tenpo lili lon pali ona pi tenpo pini. ona li alasa lon ma ale pi sona tenpo ona, tan ni: ken la, pali ike majuna li awen len lon insa, li kama lon lukin lon tenpo pi sona ala.",
+      "notes": "“pede claudo” and the Jack-in-the-Box image are rendered by meaning rather than retained literally; uncertainty remains marked with “ken la.”",
+      "usage": {
+        "input_tokens": 2829,
+        "input_tokens_details": {
+          "cache_write_tokens": 2826,
+          "cached_tokens": 0
+        },
+        "output_tokens": 261,
+        "output_tokens_details": {
+          "reasoning_tokens": 67
+        },
+        "total_tokens": 3090
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0fc8bf4813e3b6e2016ab428dbe46c87d2a5bdd91b4351c759",
+  "visibleOutput": "TRANSLATION: “a, ni li ken ala ante: kon pi ike majuna, ike sijelo suli pi nimi ike awen insa. pana ike li kama kepeken noka pi tawa lili, lon tenpo mute pini la, sona tenpo li weka e ijo, li olin e ona la li weka e ike tan pali ona.” pilin ni li monsuta e jan Utason pi sona lawa. ona li awen toki insa lon tenpo lili lon pali ona pi tenpo pini. ona li alasa lon ma ale pi sona tenpo ona, tan ni: ken la, pali ike majuna li awen len lon insa, li kama lon lukin lon tenpo pi sona ala.\nNOTES: “pede claudo” and the Jack-in-the-Box image are rendered by meaning rather than retained literally; uncertainty remains marked with “ken la.”",
+  "translation": "“a, ni li ken ala ante: kon pi ike majuna, ike sijelo suli pi nimi ike awen insa. pana ike li kama kepeken noka pi tawa lili, lon tenpo mute pini la, sona tenpo li weka e ijo, li olin e ona la li weka e ike tan pali ona.” pilin ni li monsuta e jan Utason pi sona lawa. ona li awen toki insa lon tenpo lili lon pali ona pi tenpo pini. ona li alasa lon ma ale pi sona tenpo ona, tan ni: ken la, pali ike majuna li awen len lon insa, li kama lon lukin lon tenpo pi sona ala.",
+  "notes": "“pede claudo” and the Jack-in-the-Box image are rendered by meaning rather than retained literally; uncertainty remains marked with “ken la.”",
+  "usage": {
+    "input_tokens": 2829,
+    "input_tokens_details": {
+      "cache_write_tokens": 2826,
+      "cached_tokens": 0
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 3090
+  },
+  "success": true
+}

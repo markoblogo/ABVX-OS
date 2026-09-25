@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0026",
+  "sourceText": "“No,” said the other. “I cannot say that I care what becomes of Hyde; I am quite done with him. I was thinking of my own character, which this hateful business has rather exposed.”",
+  "sourceHash": "814bfdf63ba45a313788830aeddedb89cfc05333ccad4d479bc23fcf677ee03a",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0680abd7b621bfc6016ab41e0feb6c87d2837a1e53fcbbe66e",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”\nNOTES: “character” rendered as public reputation.",
+      "translation": "“Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”",
+      "notes": "“character” rendered as public reputation.",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cache_write_tokens": 2820,
+          "cached_tokens": 0
+        },
+        "output_tokens": 258,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 3081
+      },
+      "elapsedMs": 7361
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0680abd7b621bfc6016ab41e0feb6c87d2837a1e53fcbbe66e",
+  "visibleOutput": "TRANSLATION: “Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”\nNOTES: “character” rendered as public reputation.",
+  "translation": "“Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”",
+  "notes": "“character” rendered as public reputation.",
+  "usage": {
+    "input_tokens": 2823,
+    "input_tokens_details": {
+      "cache_write_tokens": 2820,
+      "cached_tokens": 0
+    },
+    "output_tokens": 258,
+    "output_tokens_details": {
+      "reasoning_tokens": 174
+    },
+    "total_tokens": 3081
+  },
+  "success": true
+}

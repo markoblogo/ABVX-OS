@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0025",
+  "sourceHash": "48009bfb1f6fc37f803047f5480b69b60b2ce6f7656591046442334c0a4a7cae",
+  "source": "The night, however, was far gone into the morning—the morning, black as it was, was nearly ripe for the conception of the day—the inmates of my house were locked in the most rigorous hours of slumber; and I determined, flushed as I was with hope and triumph, to venture in my new shape as far as to my bedroom.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

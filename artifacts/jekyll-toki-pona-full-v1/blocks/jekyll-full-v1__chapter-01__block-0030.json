@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0030",
+  "sourceHash": "09b9365ca61f400d23f36d934a4a2ebba38eeb2b4f250e5df99b29be059ebc9e",
+  "source": "I gave in the check myself, and said I had every reason to believe it was a forgery. Not a bit of it. The cheque was genuine.” “Tut-tut,” said Mr. Utterson. “I see you feel as I do,” said Mr. Enfield. “Yes, it’s a bad story.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b7d79856169ed79016ab425ccfe4487d2a26b398fad7761d5",
+      "visibleOutput": "TRANSLATION: “mi pana e lipu mani lon tomo mani lon mi. mi toki e ni: mi jo e sona mute li pilin wawa e ni: lipu ni li lipu powe. taso ni li lon ala. lipu mani li lon.” jan Utason li toki: “ike a.” jan Enpil li toki: “mi lukin e ni: sina pilin sama mi.” “lon. toki ni li ike.”\nNOTES: “lipu mani” covers cheque; “li lon” preserves the claim that it was genuine.",
+      "translation": "“mi pana e lipu mani lon tomo mani lon mi. mi toki e ni: mi jo e sona mute li pilin wawa e ni: lipu ni li lipu powe. taso ni li lon ala. lipu mani li lon.” jan Utason li toki: “ike a.” jan Enpil li toki: “mi lukin e ni: sina pilin sama mi.” “lon. toki ni li ike.”",
+      "notes": "“lipu mani” covers cheque; “li lon” preserves the claim that it was genuine.",
+      "usage": {
+        "input_tokens": 2804,
+        "input_tokens_details": {
+          "cache_write_tokens": 2801,
+          "cached_tokens": 0
+        },
+        "output_tokens": 247,
+        "output_tokens_details": {
+          "reasoning_tokens": 124
+        },
+        "total_tokens": 3051
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b7d79856169ed79016ab425ccfe4487d2a26b398fad7761d5",
+  "visibleOutput": "TRANSLATION: “mi pana e lipu mani lon tomo mani lon mi. mi toki e ni: mi jo e sona mute li pilin wawa e ni: lipu ni li lipu powe. taso ni li lon ala. lipu mani li lon.” jan Utason li toki: “ike a.” jan Enpil li toki: “mi lukin e ni: sina pilin sama mi.” “lon. toki ni li ike.”\nNOTES: “lipu mani” covers cheque; “li lon” preserves the claim that it was genuine.",
+  "translation": "“mi pana e lipu mani lon tomo mani lon mi. mi toki e ni: mi jo e sona mute li pilin wawa e ni: lipu ni li lipu powe. taso ni li lon ala. lipu mani li lon.” jan Utason li toki: “ike a.” jan Enpil li toki: “mi lukin e ni: sina pilin sama mi.” “lon. toki ni li ike.”",
+  "notes": "“lipu mani” covers cheque; “li lon” preserves the claim that it was genuine.",
+  "usage": {
+    "input_tokens": 2804,
+    "input_tokens_details": {
+      "cache_write_tokens": 2801,
+      "cached_tokens": 0
+    },
+    "output_tokens": 247,
+    "output_tokens_details": {
+      "reasoning_tokens": 124
+    },
+    "total_tokens": 3051
+  },
+  "success": true
+}

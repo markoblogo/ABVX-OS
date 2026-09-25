@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0037",
+  "sourceText": "“Take a seat, and here is a glass of wine for you,” said the lawyer. “Now, take your time, and tell me plainly what you want.”",
+  "sourceHash": "0c72152817a6519b485cb9012092ddac535dbb0413442f848f15faddbdfc96a3",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_07a34dc6a22fff81016ab41e62709c87d289b4d7b7d78e72d1",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”\nNOTES: NONE",
+      "translation": "jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 161,
+        "output_tokens_details": {
+          "reasoning_tokens": 99
+        },
+        "total_tokens": 2966
+      },
+      "elapsedMs": 5072
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_07a34dc6a22fff81016ab41e62709c87d289b4d7b7d78e72d1",
+  "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”\nNOTES: NONE",
+  "translation": "jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 99
+    },
+    "total_tokens": 2966
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0045",
+  "sourceHash": "b68c47e2acf3330255076013407f1b267eaf180bace50fa3c0fff59b44f1a4b4",
+  "source": "Henry Jekyll stood at times aghast before the acts of Edward Hyde; but the situation was apart from ordinary laws, and insidiously relaxed the grasp of conscience. It was Hyde, after all, and Hyde alone, that was guilty. Jekyll was no worse; he woke again to his good qualities seemingly unimpaired; he would even make haste, where it was possible, to undo the evil done by Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

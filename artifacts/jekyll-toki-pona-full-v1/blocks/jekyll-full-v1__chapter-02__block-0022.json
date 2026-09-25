@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0022",
+  "sourceHash": "2d4a11faf4212e8f890a4f8c19617217f7c2d461e24eb6ccf60401404f9e5974",
+  "source": "From that time forward, Mr. Utterson began to haunt the door in the by-street of shops. In the morning before office hours, at noon when business was plenty, and time scarce, at night under the face of the fogged city moon, by all lights and at all hours of solitude or concourse, the lawyer was to be found on his chosen post.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0337351235313b11016ab4278807dc87d288713ca51c5ac26d",
+      "visibleOutput": "TRANSLATION: tan tenpo ni la, jan Utason li open awen lon poka pi lupa tomo lon nasin lili pi tomo esun, li lukin e ona. lon tenpo suno lili, lon tenpo open pi pali ona, ona li lon. lon tenpo suno insa la, pali li mute, taso tenpo ona li lili; ona li lon. lon tenpo pimeja la, mun li lon sewi pi ma tomo, taso kon walo li len e ona; jan Utason li lon. lon suno ale, lon tenpo ale pi jan ala anu pi jan mute, jan pi sona lawa ni li awen lon ma awen pi wile ona.\nNOTES: “Haunt” is rendered as repeated waiting and watching, not as supernatural activity.",
+      "translation": "tan tenpo ni la, jan Utason li open awen lon poka pi lupa tomo lon nasin lili pi tomo esun, li lukin e ona. lon tenpo suno lili, lon tenpo open pi pali ona, ona li lon. lon tenpo suno insa la, pali li mute, taso tenpo ona li lili; ona li lon. lon tenpo pimeja la, mun li lon sewi pi ma tomo, taso kon walo li len e ona; jan Utason li lon. lon suno ale, lon tenpo ale pi jan ala anu pi jan mute, jan pi sona lawa ni li awen lon ma awen pi wile ona.",
+      "notes": "“Haunt” is rendered as repeated waiting and watching, not as supernatural activity.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 297,
+        "output_tokens_details": {
+          "reasoning_tokens": 120
+        },
+        "total_tokens": 3111
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0337351235313b11016ab4278807dc87d288713ca51c5ac26d",
+  "visibleOutput": "TRANSLATION: tan tenpo ni la, jan Utason li open awen lon poka pi lupa tomo lon nasin lili pi tomo esun, li lukin e ona. lon tenpo suno lili, lon tenpo open pi pali ona, ona li lon. lon tenpo suno insa la, pali li mute, taso tenpo ona li lili; ona li lon. lon tenpo pimeja la, mun li lon sewi pi ma tomo, taso kon walo li len e ona; jan Utason li lon. lon suno ale, lon tenpo ale pi jan ala anu pi jan mute, jan pi sona lawa ni li awen lon ma awen pi wile ona.\nNOTES: “Haunt” is rendered as repeated waiting and watching, not as supernatural activity.",
+  "translation": "tan tenpo ni la, jan Utason li open awen lon poka pi lupa tomo lon nasin lili pi tomo esun, li lukin e ona. lon tenpo suno lili, lon tenpo open pi pali ona, ona li lon. lon tenpo suno insa la, pali li mute, taso tenpo ona li lili; ona li lon. lon tenpo pimeja la, mun li lon sewi pi ma tomo, taso kon walo li len e ona; jan Utason li lon. lon suno ale, lon tenpo ale pi jan ala anu pi jan mute, jan pi sona lawa ni li awen lon ma awen pi wile ona.",
+  "notes": "“Haunt” is rendered as repeated waiting and watching, not as supernatural activity.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 297,
+    "output_tokens_details": {
+      "reasoning_tokens": 120
+    },
+    "total_tokens": 3111
+  },
+  "success": true
+}

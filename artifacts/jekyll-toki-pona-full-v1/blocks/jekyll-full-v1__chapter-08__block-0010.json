@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0010",
+  "sourceHash": "3526b6f5cf334677ecb8355b301c0b0ed7e4ecbdb4c68f2fd3dc3d0cb4c1eebd",
+  "source": "But for all the hurry of his coming, these were not the dews of exertion that he wiped away, but the moisture of some strangling anguish; for his face was white and his voice, when he spoke, harsh and broken. “Well, sir,” he said, “here we are, and God grant there be nothing wrong.” “Amen, Poole,” said the lawyer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_07d807e4bac685fb016ab42f7db15087d283e1cfd8941e08d1",
+      "visibleOutput": "TRANSLATION: taso, ona li kama kepeken tenpo lili. kin la, telo ni li tan pali wawa ala. ona li weka e telo ni tan sinpin ona, taso telo li tan pilin ike suli pi sama pini kon. sinpin ona li walo, li toki la kalama toki ona li kiwen li pakala. ona li toki e ni: “pona, jan lawa o. mi mute li lon ni. sewi o pana e ni: ijo ike ala li lon.” jan pi sona lawa li toki e ni: “ni o lon, jan Pulu.”\nNOTES: NONE",
+      "translation": "taso, ona li kama kepeken tenpo lili. kin la, telo ni li tan pali wawa ala. ona li weka e telo ni tan sinpin ona, taso telo li tan pilin ike suli pi sama pini kon. sinpin ona li walo, li toki la kalama toki ona li kiwen li pakala. ona li toki e ni: “pona, jan lawa o. mi mute li lon ni. sewi o pana e ni: ijo ike ala li lon.” jan pi sona lawa li toki e ni: “ni o lon, jan Pulu.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 560,
+        "output_tokens_details": {
+          "reasoning_tokens": 422
+        },
+        "total_tokens": 3374
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_07d807e4bac685fb016ab42f7db15087d283e1cfd8941e08d1",
+  "visibleOutput": "TRANSLATION: taso, ona li kama kepeken tenpo lili. kin la, telo ni li tan pali wawa ala. ona li weka e telo ni tan sinpin ona, taso telo li tan pilin ike suli pi sama pini kon. sinpin ona li walo, li toki la kalama toki ona li kiwen li pakala. ona li toki e ni: “pona, jan lawa o. mi mute li lon ni. sewi o pana e ni: ijo ike ala li lon.” jan pi sona lawa li toki e ni: “ni o lon, jan Pulu.”\nNOTES: NONE",
+  "translation": "taso, ona li kama kepeken tenpo lili. kin la, telo ni li tan pali wawa ala. ona li weka e telo ni tan sinpin ona, taso telo li tan pilin ike suli pi sama pini kon. sinpin ona li walo, li toki la kalama toki ona li kiwen li pakala. ona li toki e ni: “pona, jan lawa o. mi mute li lon ni. sewi o pana e ni: ijo ike ala li lon.” jan pi sona lawa li toki e ni: “ni o lon, jan Pulu.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 560,
+    "output_tokens_details": {
+      "reasoning_tokens": 422
+    },
+    "total_tokens": 3374
+  },
+  "success": true
+}

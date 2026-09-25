@@ -1,0 +1,10 @@
+{
+  "realProviderOutput": "FAIL",
+  "alignment": "NOT_RUN",
+  "names": "NOT_RUN",
+  "knowledge": "NOT_RUN",
+  "spoilers": "NOT_RUN",
+  "reason": "PROVIDER_UNAVAILABLE: <urlopen error [Errno 1] Operation not permitted>",
+  "publicDeployment": "SEPARATE",
+  "fullBookTranslation": false
+}

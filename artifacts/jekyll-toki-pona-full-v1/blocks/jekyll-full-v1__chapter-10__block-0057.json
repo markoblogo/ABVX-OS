@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0057",
+  "sourceHash": "39443ee1fd3935bd48b68c2e8da1dfdb71816168c5b4744d800731b5da2c4d3d",
+  "source": "I had soon dressed, as well as I was able, in clothes of my own size: had soon passed through the house, where Bradshaw stared and drew back at seeing Mr. Hyde at such an hour and in such a strange array; and ten minutes later, Dr. Jekyll had returned to his own shape and was sitting down, with a darkened brow, to make a feint of breakfasting.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

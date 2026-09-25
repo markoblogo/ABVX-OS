@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0016",
+  "sourceHash": "d034711553aa241151f08268212d13f251f0ef1f0ee88f1d7469ca8d336980cd",
+  "source": "The door was very strong, the lock excellent; the carpenter avowed he would have great trouble and have to do much damage, if force were to be used; and the locksmith was near despair. But this last was a handy fellow, and after two hours’ work, the door stood open.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03acf9a09c1fbe1b016ab43441260487d29ed7812be7353738",
+      "visibleOutput": "TRANSLATION: lupa li wawa mute, li jo e ilo awen pona mute. jan pali pi ilo kasi li toki wawa e ni: ona li kepeken wawa la, pali li ike mute tawa ona, li pakala mute e lupa. jan pali pi ilo open li kama pilin ike mute. taso jan ni li pali pona kepeken luka. ona li pali lon tenpo ilo tu la, lupa li kama open.\nNOTES: NONE",
+      "translation": "lupa li wawa mute, li jo e ilo awen pona mute. jan pali pi ilo kasi li toki wawa e ni: ona li kepeken wawa la, pali li ike mute tawa ona, li pakala mute e lupa. jan pali pi ilo open li kama pilin ike mute. taso jan ni li pali pona kepeken luka. ona li pali lon tenpo ilo tu la, lupa li kama open.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2800,
+        "input_tokens_details": {
+          "cache_write_tokens": 2797,
+          "cached_tokens": 0
+        },
+        "output_tokens": 204,
+        "output_tokens_details": {
+          "reasoning_tokens": 100
+        },
+        "total_tokens": 3004
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03acf9a09c1fbe1b016ab43441260487d29ed7812be7353738",
+  "visibleOutput": "TRANSLATION: lupa li wawa mute, li jo e ilo awen pona mute. jan pali pi ilo kasi li toki wawa e ni: ona li kepeken wawa la, pali li ike mute tawa ona, li pakala mute e lupa. jan pali pi ilo open li kama pilin ike mute. taso jan ni li pali pona kepeken luka. ona li pali lon tenpo ilo tu la, lupa li kama open.\nNOTES: NONE",
+  "translation": "lupa li wawa mute, li jo e ilo awen pona mute. jan pali pi ilo kasi li toki wawa e ni: ona li kepeken wawa la, pali li ike mute tawa ona, li pakala mute e lupa. jan pali pi ilo open li kama pilin ike mute. taso jan ni li pali pona kepeken luka. ona li pali lon tenpo ilo tu la, lupa li kama open.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2800,
+    "input_tokens_details": {
+      "cache_write_tokens": 2797,
+      "cached_tokens": 0
+    },
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "reasoning_tokens": 100
+    },
+    "total_tokens": 3004
+  },
+  "success": true
+}

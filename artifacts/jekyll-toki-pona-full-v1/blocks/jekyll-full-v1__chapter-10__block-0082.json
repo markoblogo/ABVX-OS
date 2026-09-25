@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0082",
+  "sourceHash": "49394028fe074bbbc6009c3868c75756801ca84a7ee9cb9ff7a634afc29181ba",
+  "source": "I think I was glad to know it; I think I was glad to have my better impulses thus buttressed and guarded by the terrors of the scaffold. Jekyll was now my city of refuge; let but Hyde peep out an instant, and the hands of all men would be raised to take and slay him.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,5 +1,23 @@
 {
-  "actuals": [],
+  "actuals": [
+    {
+      "id": "actual:BRACKEN-FORD-DISCOVERY-001:D0:2026-09-23",
+      "experiment_id": "BRACKEN-FORD-DISCOVERY-001",
+      "product_id": "product:BRACKEN-FORD-NO-FURTHER-CLAIMS",
+      "observed_at": "2026-09-23T20:27:51Z",
+      "stage": "D0_PUBLICATION_AND_DISCOVERY_BASELINE",
+      "publication_status": {"kindle": "LIVE", "paperback": "LIVE"},
+      "processed_orders": {"ebook": 0, "print": 0, "total": 0, "period_end": "2026-09-23"},
+      "kenp_pages": null,
+      "royalties": null,
+      "detail_page_views": null,
+      "availability_note": "Amazon.com detail pages resolved; purchase/shipping blocked for the observed France delivery location.",
+      "discovery_note": "Nine non-title query snapshots saved; personalized Previously viewed placements excluded from organic discovery.",
+      "diagnosis": {"availability": "KDP_PASS_RETAIL_FRANCE_BLOCKED", "discovery": "D0_SHELF_SNAPSHOT_NOT_INDEXING_VERDICT", "conversion": "UNRESOLVED_NO_VIEW_DENOMINATOR", "product_fit": "UNKNOWN", "observation_time": "D0"},
+      "evidence_path": "book-radar/runs/bracken-ford-d0/2026-09-23/snapshot.json",
+      "score_changed": false
+    }
+  ],
   "calibrations": [],
   "decisions": [
     {
@@ -23605,6 +23623,25 @@
       "product_id": "product:RN3-091",
       "publication_status": "NOT_VERIFIED_LIVE",
       "submitted_at": "2026-09-07"
+    },
+    {
+      "id": "launch:BRACKEN-FORD-DISCOVERY-001:2026-09-23",
+      "product_id": "product:BRACKEN-FORD-NO-FURTHER-CLAIMS",
+      "experiment_id": "BRACKEN-FORD-DISCOVERY-001",
+      "submitted_at": "2026-09-23",
+      "live_at": "2026-09-23",
+      "publication_status": "BOTH_FORMATS_LIVE_ON_KDP_AND_RETAIL_PAGES",
+      "kindle_status": "LIVE",
+      "paperback_status": "LIVE",
+      "asins": {"kindle": "B0HKTBFFJM", "paperback": "B0HKTFR8ND"},
+      "isbn_13": "9798176597592",
+      "recorded_prices_usd": {"kindle": 2.99, "paperback": 9.99},
+      "price_evidence": "Authenticated KDP Bookshelf observed 2026-09-23",
+      "kdp_select": "ENROLLED",
+      "ads_used": false,
+      "d0_snapshot": "book-radar/runs/bracken-ford-d0/2026-09-23/snapshot.json",
+      "format_family_linkage": "PENDING_RECHECK",
+      "score_changed": false
     }
   ],
   "opportunities": [
@@ -47529,6 +47566,27 @@
       "status_note": "RN5-001 v1.1 rebuilt at selected 8 x 10 trim after a three-format same-content comparison; 57 PDF pages, 58 KDP pages, awaiting human cover and publishing gate.",
       "title": "Solar Proposal Decoder",
       "word_count": 8311
+    },
+    {
+      "author": "Calder Brackle",
+      "body_word_count": 20381,
+      "chapter_count": 13,
+      "experiment_id": "BRACKEN-FORD-DISCOVERY-001",
+      "formats": [
+        {"format": "KINDLE", "status": "LIVE", "asin": "B0HKTBFFJM", "price_usd": 2.99},
+        {"format": "PAPERBACK", "status": "LIVE", "asin": "B0HKTFR8ND", "isbn_13": "9798176597592", "pages": 62, "trim": "6x9", "price_usd": 9.99}
+      ],
+      "id": "product:BRACKEN-FORD-NO-FURTHER-CLAIMS",
+      "opportunity_id": null,
+      "paperback_interior": "BLACK_AND_WHITE_WHITE_PAPER",
+      "pictiq_comics": 4,
+      "publication_date": "2026-09-23",
+      "status": "PUBLISHED_D0_CAPTURED",
+      "status_note": "Both formats live on KDP; Amazon detail pages resolve. Retail purchase/delivery was location-blocked in the France session and format-family linkage awaits recheck. D0 report showed 0 processed units; title-specific KENP and royalties are unknown. No score or listing change.",
+      "title": "No Further Claims: A Bracken Ford Novel",
+      "transitions": [
+        {"at": "2026-09-23", "status": "PUBLISHED_D0_CAPTURED"}
+      ]
     }
   ],
   "radar_runs": [

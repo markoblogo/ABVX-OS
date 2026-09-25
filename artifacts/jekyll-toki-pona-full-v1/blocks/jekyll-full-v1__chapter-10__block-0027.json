@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0027",
+  "sourceHash": "1b0ba61b3b5b1682a4caaed2bac4697372a91fef5da7a9b22af6f0fc3eb59c9d",
+  "source": "I must here speak by theory alone, saying not that which I know, but that which I suppose to be most probable. The evil side of my nature, to which I had now transferred the stamping efficacy, was less robust and less developed than the good which I had just deposed.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

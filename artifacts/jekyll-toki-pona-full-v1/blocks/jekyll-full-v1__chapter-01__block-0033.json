@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0033",
+  "sourceHash": "e5cf9a74ee272ee823cc973704a2360413cc5f876f36a0d331810e9f7369264c",
+  "source": "“A likely place, isn’t it?” returned Mr. Enfield. “But I happen to have noticed his address; he lives in some square or other.” “And you never asked about the—place with the door?” said Mr. Utterson. “No, sir: I had a delicacy,” was the reply. “I feel very strongly about putting questions; it partakes too much of the style of the day of judgment.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c5c4947e0158d50016ab425ed8a7c87d2a7e2626b8502811c",
+      "visibleOutput": "TRANSLATION: jan Enpil li toki sin: “ken la, ona li lon tomo ni, anu seme? taso mi kama sona e ma tomo ona. ona li lon poka pi ma open wan, taso mi sona ala e ma open seme.” jan Utason li toki: “sina pana ala pana e seme lon tomo—lon ma pi lupa?” jan Enpil li toki: “ala, jan lawa. mi pilin e ni: toki ni li pona ala. mi pilin wawa lon pana pi toki wile sona. nasin ni li sama mute nasin pi tenpo pi lawa sewi.”\nNOTES: “Likely place” and “delicacy” are context-sensitive; rendered as a tentative residence inference and a concern that asking would be improper.",
+      "translation": "jan Enpil li toki sin: “ken la, ona li lon tomo ni, anu seme? taso mi kama sona e ma tomo ona. ona li lon poka pi ma open wan, taso mi sona ala e ma open seme.” jan Utason li toki: “sina pana ala pana e seme lon tomo—lon ma pi lupa?” jan Enpil li toki: “ala, jan lawa. mi pilin e ni: toki ni li pona ala. mi pilin wawa lon pana pi toki wile sona. nasin ni li sama mute nasin pi tenpo pi lawa sewi.”",
+      "notes": "“Likely place” and “delicacy” are context-sensitive; rendered as a tentative residence inference and a concern that asking would be improper.",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 598,
+        "output_tokens_details": {
+          "reasoning_tokens": 428
+        },
+        "total_tokens": 3424
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c5c4947e0158d50016ab425ed8a7c87d2a7e2626b8502811c",
+  "visibleOutput": "TRANSLATION: jan Enpil li toki sin: “ken la, ona li lon tomo ni, anu seme? taso mi kama sona e ma tomo ona. ona li lon poka pi ma open wan, taso mi sona ala e ma open seme.” jan Utason li toki: “sina pana ala pana e seme lon tomo—lon ma pi lupa?” jan Enpil li toki: “ala, jan lawa. mi pilin e ni: toki ni li pona ala. mi pilin wawa lon pana pi toki wile sona. nasin ni li sama mute nasin pi tenpo pi lawa sewi.”\nNOTES: “Likely place” and “delicacy” are context-sensitive; rendered as a tentative residence inference and a concern that asking would be improper.",
+  "translation": "jan Enpil li toki sin: “ken la, ona li lon tomo ni, anu seme? taso mi kama sona e ma tomo ona. ona li lon poka pi ma open wan, taso mi sona ala e ma open seme.” jan Utason li toki: “sina pana ala pana e seme lon tomo—lon ma pi lupa?” jan Enpil li toki: “ala, jan lawa. mi pilin e ni: toki ni li pona ala. mi pilin wawa lon pana pi toki wile sona. nasin ni li sama mute nasin pi tenpo pi lawa sewi.”",
+  "notes": "“Likely place” and “delicacy” are context-sensitive; rendered as a tentative residence inference and a concern that asking would be improper.",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 598,
+    "output_tokens_details": {
+      "reasoning_tokens": 428
+    },
+    "total_tokens": 3424
+  },
+  "success": true
+}

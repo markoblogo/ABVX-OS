@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0059",
+  "sourceHash": "a943f062d17ef93326ed1f3db8fc2a5d5d5e9f0860e03957420add526b3a7526",
+  "source": "That part of me which I had the power of projecting, had lately been much exercised and nourished; it had seemed to me of late as though the body of Edward Hyde had grown in stature, as though (when I wore that form) I were conscious of a more generous tide of blood; and I began to spy a danger that, if this were much prolonged, the balance of my nature might be permanently overthrown, the power of voluntary change be forfeited, and the character of Edward Hyde become irrevocably mine.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

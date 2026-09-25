@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0036",
+  "sourceHash": "278f349f4962ab060263a8051260c6f1dfda1fb7a743d229a1a3d28b6c7cd327",
+  "source": "“What you say is very well founded; and my impatience has shown its heels to my politeness. I come here at the instance of your colleague, Dr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a066a4e1b290902016ab43550a76c87d2bab7beae1da12e34",
+      "visibleOutput": "TRANSLATION: “toki sina li jo e nasin pona mute. taso, wile pi mi tawa pali kepeken tenpo lili li tawa sinpin pi pona mi. mi kama lon tan wile pi jan pali sama sina, jan pi sona sijelo...”\nNOTES: nimi pi jan pi sona sijelo li pini ala lon toki mama.",
+      "translation": "“toki sina li jo e nasin pona mute. taso, wile pi mi tawa pali kepeken tenpo lili li tawa sinpin pi pona mi. mi kama lon tan wile pi jan pali sama sina, jan pi sona sijelo...”",
+      "notes": "nimi pi jan pi sona sijelo li pini ala lon toki mama.",
+      "usage": {
+        "input_tokens": 2773,
+        "input_tokens_details": {
+          "cache_write_tokens": 2770,
+          "cached_tokens": 0
+        },
+        "output_tokens": 172,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "total_tokens": 2945
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a066a4e1b290902016ab43550a76c87d2bab7beae1da12e34",
+  "visibleOutput": "TRANSLATION: “toki sina li jo e nasin pona mute. taso, wile pi mi tawa pali kepeken tenpo lili li tawa sinpin pi pona mi. mi kama lon tan wile pi jan pali sama sina, jan pi sona sijelo...”\nNOTES: nimi pi jan pi sona sijelo li pini ala lon toki mama.",
+  "translation": "“toki sina li jo e nasin pona mute. taso, wile pi mi tawa pali kepeken tenpo lili li tawa sinpin pi pona mi. mi kama lon tan wile pi jan pali sama sina, jan pi sona sijelo...”",
+  "notes": "nimi pi jan pi sona sijelo li pini ala lon toki mama.",
+  "usage": {
+    "input_tokens": 2773,
+    "input_tokens_details": {
+      "cache_write_tokens": 2770,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 88
+    },
+    "total_tokens": 2945
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0003",
+  "sourceHash": "5a266c1e77fe12b6ffca950163733a412b9ba7e426c964ce7c972f044b1cbaac",
+  "source": "“Now, my good man,” said the lawyer, “be explicit. What are you afraid of?” “I’ve been afraid for about a week,” returned Poole, doggedly disregarding the question, “and I can bear it no more.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03cb6bebfd4544a4016ab42f14f7bc87d28675a2085dac2f00",
+      "visibleOutput": "TRANSLATION: “jan pona o,” jan pi sona lawa li toki, “o toki e ijo ale. sina pilin monsuta tan seme?” jan Pulu li pana ala e toki pi wile sona ni, li toki awen taso: “tenpo suno luka tu poka la, mi pilin monsuta. mi ken ala awen e ni.”\nNOTES: NONE",
+      "translation": "“jan pona o,” jan pi sona lawa li toki, “o toki e ijo ale. sina pilin monsuta tan seme?” jan Pulu li pana ala e toki pi wile sona ni, li toki awen taso: “tenpo suno luka tu poka la, mi pilin monsuta. mi ken ala awen e ni.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2786,
+        "input_tokens_details": {
+          "cache_write_tokens": 2783,
+          "cached_tokens": 0
+        },
+        "output_tokens": 475,
+        "output_tokens_details": {
+          "reasoning_tokens": 387
+        },
+        "total_tokens": 3261
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03cb6bebfd4544a4016ab42f14f7bc87d28675a2085dac2f00",
+  "visibleOutput": "TRANSLATION: “jan pona o,” jan pi sona lawa li toki, “o toki e ijo ale. sina pilin monsuta tan seme?” jan Pulu li pana ala e toki pi wile sona ni, li toki awen taso: “tenpo suno luka tu poka la, mi pilin monsuta. mi ken ala awen e ni.”\nNOTES: NONE",
+  "translation": "“jan pona o,” jan pi sona lawa li toki, “o toki e ijo ale. sina pilin monsuta tan seme?” jan Pulu li pana ala e toki pi wile sona ni, li toki awen taso: “tenpo suno luka tu poka la, mi pilin monsuta. mi ken ala awen e ni.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2786,
+    "input_tokens_details": {
+      "cache_write_tokens": 2783,
+      "cached_tokens": 0
+    },
+    "output_tokens": 475,
+    "output_tokens_details": {
+      "reasoning_tokens": 387
+    },
+    "total_tokens": 3261
+  },
+  "success": true
+}

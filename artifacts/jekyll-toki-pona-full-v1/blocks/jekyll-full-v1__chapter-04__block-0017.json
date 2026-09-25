@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0017",
+  "sourceHash": "c4277b2af1aa80587da7cea5e861fbc6db3b6d9650ff2b8193408f2943f16980",
+  "source": "A great chocolate-coloured pall lowered over heaven, but the wind was continually charging and routing these embattled vapours; so that as the cab crawled from street to street, Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f79312e5f6bfb52016ab42abf86b487d2b1e5d33bb5786402",
+      "visibleOutput": "TRANSLATION: selo suli pi kule ko suwi pimeja li anpa lon sewi. taso kon li tawa wawa lon tenpo ale, li utala e kon telo ni, li weka e ona. tenpo la, tomo tawa li tawa kepeken tenpo mute tan nasin wan tawa nasin ante, la jan...\nNOTES: Source block ends mid-sentence after “Mr.”; translation preserves the incomplete ending.",
+      "translation": "selo suli pi kule ko suwi pimeja li anpa lon sewi. taso kon li tawa wawa lon tenpo ale, li utala e kon telo ni, li weka e ona. tenpo la, tomo tawa li tawa kepeken tenpo mute tan nasin wan tawa nasin ante, la jan...",
+      "notes": "Source block ends mid-sentence after “Mr.”; translation preserves the incomplete ending.",
+      "usage": {
+        "input_tokens": 2777,
+        "input_tokens_details": {
+          "cache_write_tokens": 2774,
+          "cached_tokens": 0
+        },
+        "output_tokens": 423,
+        "output_tokens_details": {
+          "reasoning_tokens": 320
+        },
+        "total_tokens": 3200
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f79312e5f6bfb52016ab42abf86b487d2b1e5d33bb5786402",
+  "visibleOutput": "TRANSLATION: selo suli pi kule ko suwi pimeja li anpa lon sewi. taso kon li tawa wawa lon tenpo ale, li utala e kon telo ni, li weka e ona. tenpo la, tomo tawa li tawa kepeken tenpo mute tan nasin wan tawa nasin ante, la jan...\nNOTES: Source block ends mid-sentence after “Mr.”; translation preserves the incomplete ending.",
+  "translation": "selo suli pi kule ko suwi pimeja li anpa lon sewi. taso kon li tawa wawa lon tenpo ale, li utala e kon telo ni, li weka e ona. tenpo la, tomo tawa li tawa kepeken tenpo mute tan nasin wan tawa nasin ante, la jan...",
+  "notes": "Source block ends mid-sentence after “Mr.”; translation preserves the incomplete ending.",
+  "usage": {
+    "input_tokens": 2777,
+    "input_tokens_details": {
+      "cache_write_tokens": 2774,
+      "cached_tokens": 0
+    },
+    "output_tokens": 423,
+    "output_tokens_details": {
+      "reasoning_tokens": 320
+    },
+    "total_tokens": 3200
+  },
+  "success": true
+}

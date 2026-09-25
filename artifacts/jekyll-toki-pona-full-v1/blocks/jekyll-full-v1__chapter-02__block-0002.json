@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0002",
+  "sourceHash": "6d9e4533fd00caa276afbdac22eb45ca4adc3dfec4cfa2fe3e4e4803d56f6db0",
+  "source": "On this night, however, as soon as the cloth was taken away, he took up a candle and went into his business-room. There he opened his safe, took from the most private part of it a document endorsed on the envelope as Dr. Jekyll’s Will, and sat down with a clouded brow to study its contents. The will was holograph, for Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0718e562739fef16016ab4268ba80c87d2a2e3a8b566ae272d",
+      "visibleOutput": "TRANSLATION: taso lon pimeja ni, tenpo sama la jan li weka e len supa moku. jan Utason li kama jo e ilo suno, li tawa tomo pali ona. lon ni la ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona ala mute lon poki. lon selo lipu la nimi ni li lon: “lipu lawa pi jan Jekil.” ona li anpa lon supa, li lukin sona e toki insa pi lipu kepeken sinpin pi pilin ike. jan sama li sitelen e lipu lawa ni kepeken luka ona, tan ni: jan...\nNOTES: Source ends mid-sentence at “for Mr.”; the translation preserves the incomplete ending without supplying missing information.",
+      "translation": "taso lon pimeja ni, tenpo sama la jan li weka e len supa moku. jan Utason li kama jo e ilo suno, li tawa tomo pali ona. lon ni la ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona ala mute lon poki. lon selo lipu la nimi ni li lon: “lipu lawa pi jan Jekil.” ona li anpa lon supa, li lukin sona e toki insa pi lipu kepeken sinpin pi pilin ike. jan sama li sitelen e lipu lawa ni kepeken luka ona, tan ni: jan...",
+      "notes": "Source ends mid-sentence at “for Mr.”; the translation preserves the incomplete ending without supplying missing information.",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 416,
+        "output_tokens_details": {
+          "reasoning_tokens": 238
+        },
+        "total_tokens": 3240
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0718e562739fef16016ab4268ba80c87d2a2e3a8b566ae272d",
+  "visibleOutput": "TRANSLATION: taso lon pimeja ni, tenpo sama la jan li weka e len supa moku. jan Utason li kama jo e ilo suno, li tawa tomo pali ona. lon ni la ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona ala mute lon poki. lon selo lipu la nimi ni li lon: “lipu lawa pi jan Jekil.” ona li anpa lon supa, li lukin sona e toki insa pi lipu kepeken sinpin pi pilin ike. jan sama li sitelen e lipu lawa ni kepeken luka ona, tan ni: jan...\nNOTES: Source ends mid-sentence at “for Mr.”; the translation preserves the incomplete ending without supplying missing information.",
+  "translation": "taso lon pimeja ni, tenpo sama la jan li weka e len supa moku. jan Utason li kama jo e ilo suno, li tawa tomo pali ona. lon ni la ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona ala mute lon poki. lon selo lipu la nimi ni li lon: “lipu lawa pi jan Jekil.” ona li anpa lon supa, li lukin sona e toki insa pi lipu kepeken sinpin pi pilin ike. jan sama li sitelen e lipu lawa ni kepeken luka ona, tan ni: jan...",
+  "notes": "Source ends mid-sentence at “for Mr.”; the translation preserves the incomplete ending without supplying missing information.",
+  "usage": {
+    "input_tokens": 2824,
+    "input_tokens_details": {
+      "cache_write_tokens": 2821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 416,
+    "output_tokens_details": {
+      "reasoning_tokens": 238
+    },
+    "total_tokens": 3240
+  },
+  "success": true
+}

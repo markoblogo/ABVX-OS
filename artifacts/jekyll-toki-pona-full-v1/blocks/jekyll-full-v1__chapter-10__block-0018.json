@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0018",
+  "sourceHash": "36f70e09a322b09897f4c286cd00dc2e913c607387f7d3e3b766d78ad20ffba3",
+  "source": "I hesitated long before I put this theory to the test of practice. I knew well that I risked death; for any drug that so potently controlled and shook the very fortress of identity, might by the least scruple of an overdose or at the least inopportunity in the moment of exhibition, utterly blot out that immaterial tabernacle which I looked to it to change.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

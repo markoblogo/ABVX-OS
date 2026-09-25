@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0009",
+  "sourceHash": "9277893319adbe88c0516085aec40b44652c05a8560532dd2b449f9ee320f7cf",
+  "source": "With every day, and from both sides of my intelligence, the moral and the intellectual, I thus drew steadily nearer to that truth, by whose partial discovery I have been doomed to such a dreadful shipwreck: that man is not truly one, but truly two. I say two, because the state of my own knowledge does not pass beyond that point.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ac5ff79075f6288016ab436a6eb2087d293fe44e612a575f5",
+      "visibleOutput": "TRANSLATION: tenpo suno ale la, tan nasin tu pi sona mi—nasin pi pona en ike, en nasin pi sona lawa—mi tawa lili lili poka lon ni: tan kama sona e kipisi taso pi lon ni, mi kama pakala ike mute sama tomo tawa telo pi pakala. lon ni li ni: jan li wan ala lon; jan li tu lon. mi toki e tu tan ni: sona mi lon tenpo ni li pini lon ni taso.\nNOTES: Shipwreck metaphor rendered as a simile to avoid implying a literal shipwreck.",
+      "translation": "tenpo suno ale la, tan nasin tu pi sona mi—nasin pi pona en ike, en nasin pi sona lawa—mi tawa lili lili poka lon ni: tan kama sona e kipisi taso pi lon ni, mi kama pakala ike mute sama tomo tawa telo pi pakala. lon ni li ni: jan li wan ala lon; jan li tu lon. mi toki e tu tan ni: sona mi lon tenpo ni li pini lon ni taso.",
+      "notes": "Shipwreck metaphor rendered as a simile to avoid implying a literal shipwreck.",
+      "usage": {
+        "input_tokens": 2816,
+        "input_tokens_details": {
+          "cache_write_tokens": 2813,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1056,
+        "output_tokens_details": {
+          "reasoning_tokens": 924
+        },
+        "total_tokens": 3872
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ac5ff79075f6288016ab436a6eb2087d293fe44e612a575f5",
+  "visibleOutput": "TRANSLATION: tenpo suno ale la, tan nasin tu pi sona mi—nasin pi pona en ike, en nasin pi sona lawa—mi tawa lili lili poka lon ni: tan kama sona e kipisi taso pi lon ni, mi kama pakala ike mute sama tomo tawa telo pi pakala. lon ni li ni: jan li wan ala lon; jan li tu lon. mi toki e tu tan ni: sona mi lon tenpo ni li pini lon ni taso.\nNOTES: Shipwreck metaphor rendered as a simile to avoid implying a literal shipwreck.",
+  "translation": "tenpo suno ale la, tan nasin tu pi sona mi—nasin pi pona en ike, en nasin pi sona lawa—mi tawa lili lili poka lon ni: tan kama sona e kipisi taso pi lon ni, mi kama pakala ike mute sama tomo tawa telo pi pakala. lon ni li ni: jan li wan ala lon; jan li tu lon. mi toki e tu tan ni: sona mi lon tenpo ni li pini lon ni taso.",
+  "notes": "Shipwreck metaphor rendered as a simile to avoid implying a literal shipwreck.",
+  "usage": {
+    "input_tokens": 2816,
+    "input_tokens_details": {
+      "cache_write_tokens": 2813,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1056,
+    "output_tokens_details": {
+      "reasoning_tokens": 924
+    },
+    "total_tokens": 3872
+  },
+  "success": true
+}

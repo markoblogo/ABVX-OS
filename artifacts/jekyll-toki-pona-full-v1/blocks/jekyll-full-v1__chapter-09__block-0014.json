@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0014",
+  "sourceHash": "6606ea4af1a4d4c6e9da078fb6460ba342749b09e21262ea03d269f072c0d838",
+  "source": "The less I understood of this farrago, the less I was in a position to judge of its importance; and an appeal so worded could not be set aside without a grave responsibility. I rose accordingly from table, got into a hansom, and drove straight to Jekyll’s house.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d64280cc0ca482a016ab43421e58887d2a8dcf04a4fe7e5fb",
+      "visibleOutput": "TRANSLATION: sona mi lon kulupu ijo nasa ni li lili la, ken mi pi sona e suli ona li lili kin. nasin nimi pi toki wile ni la, mi ken ala weka e ona; mi weka e ona la, mi kama jo e pali suli ike. tan ni, mi weka tan supa moku, mi kama lon tomo tawa pi soweli, li tawa taso e tomo pi jan Jekil.\nNOTES: NONE",
+      "translation": "sona mi lon kulupu ijo nasa ni li lili la, ken mi pi sona e suli ona li lili kin. nasin nimi pi toki wile ni la, mi ken ala weka e ona; mi weka e ona la, mi kama jo e pali suli ike. tan ni, mi weka tan supa moku, mi kama lon tomo tawa pi soweli, li tawa taso e tomo pi jan Jekil.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 624,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3436
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d64280cc0ca482a016ab43421e58887d2a8dcf04a4fe7e5fb",
+  "visibleOutput": "TRANSLATION: sona mi lon kulupu ijo nasa ni li lili la, ken mi pi sona e suli ona li lili kin. nasin nimi pi toki wile ni la, mi ken ala weka e ona; mi weka e ona la, mi kama jo e pali suli ike. tan ni, mi weka tan supa moku, mi kama lon tomo tawa pi soweli, li tawa taso e tomo pi jan Jekil.\nNOTES: NONE",
+  "translation": "sona mi lon kulupu ijo nasa ni li lili la, ken mi pi sona e suli ona li lili kin. nasin nimi pi toki wile ni la, mi ken ala weka e ona; mi weka e ona la, mi kama jo e pali suli ike. tan ni, mi weka tan supa moku, mi kama lon tomo tawa pi soweli, li tawa taso e tomo pi jan Jekil.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 624,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3436
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0007",
+  "sourceHash": "cde30f6c45333d9c656d33e7b8d1c3ba9ce39d4286d239b54cb22bc5ec18c426",
+  "source": "Though so profound a double-dealer, I was in no sense a hypocrite; both sides of me were in dead earnest; I was no more myself when I laid aside restraint and plunged in shame, than when I laboured, in the eye of day, at the furtherance of knowledge or the relief of sorrow and suffering.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08f0fe09d27f82df016ab4368645a487d2886fa9609d0d3502",
+      "visibleOutput": "TRANSLATION: mi awen len e nasin tu pi pali mi lon insa mute. taso mi jan pi pona powe ala. nasin mi tu li lon pilin mi; nasin ala li musi anu powe. mi weka e lawa mi, li tawa wawa lon pali pi nimi ike la, mi jan sama mi. kin la, lon suno lon lukin pi jan mute, mi pali wawa tawa suli sona anu tawa lili pi pilin ike en pakala la, mi jan sama mi.\n\nNOTES: NONE",
+      "translation": "mi awen len e nasin tu pi pali mi lon insa mute. taso mi jan pi pona powe ala. nasin mi tu li lon pilin mi; nasin ala li musi anu powe. mi weka e lawa mi, li tawa wawa lon pali pi nimi ike la, mi jan sama mi. kin la, lon suno lon lukin pi jan mute, mi pali wawa tawa suli sona anu tawa lili pi pilin ike en pakala la, mi jan sama mi.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 639,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3451
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08f0fe09d27f82df016ab4368645a487d2886fa9609d0d3502",
+  "visibleOutput": "TRANSLATION: mi awen len e nasin tu pi pali mi lon insa mute. taso mi jan pi pona powe ala. nasin mi tu li lon pilin mi; nasin ala li musi anu powe. mi weka e lawa mi, li tawa wawa lon pali pi nimi ike la, mi jan sama mi. kin la, lon suno lon lukin pi jan mute, mi pali wawa tawa suli sona anu tawa lili pi pilin ike en pakala la, mi jan sama mi.\n\nNOTES: NONE",
+  "translation": "mi awen len e nasin tu pi pali mi lon insa mute. taso mi jan pi pona powe ala. nasin mi tu li lon pilin mi; nasin ala li musi anu powe. mi weka e lawa mi, li tawa wawa lon pali pi nimi ike la, mi jan sama mi. kin la, lon suno lon lukin pi jan mute, mi pali wawa tawa suli sona anu tawa lili pi pilin ike en pakala la, mi jan sama mi.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 639,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3451
+  },
+  "success": true
+}

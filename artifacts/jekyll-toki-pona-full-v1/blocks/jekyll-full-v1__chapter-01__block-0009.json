@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0009",
+  "sourceHash": "b4c3bc6fe7452f61638c7fd079d1703262236cd8a51fcc5419004e93ab47753c",
+  "source": "The street was small and what is called quiet, but it drove a thriving trade on the week-days. The inhabitants were all doing well, it seemed, and all emulously hoping to do better still, and laying out the surplus of their gains in coquetry; so that the shop fronts stood along that thoroughfare with an air of invitation, like rows of smiling saleswomen.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0df3e7982e06b790016ab424c5c62487d28817c6ed6b9f3201",
+      "visibleOutput": "TRANSLATION: nasin tomo ni li lili. jan li toki e ni: ona li nasin pi kalama ala. taso lon suno pali la, esun mute li lon ni li kama jo e mani mute. lukin la, jan ale pi ma ni li pona lon pali mani. jan ale li wile pona mute lon poka pi jan ante. ona li kepeken mani awen ona tawa pona lukin. tan ni la, sinpin tomo esun li lon linja lon nasin. ona li sama meli esun pi uta musi, li toki kepeken lukin ona e ni: “o kama.”\n\nNOTES: “coquetry” is rendered as attractive display; the smiling-saleswomen comparison remains figurative.",
+      "translation": "nasin tomo ni li lili. jan li toki e ni: ona li nasin pi kalama ala. taso lon suno pali la, esun mute li lon ni li kama jo e mani mute. lukin la, jan ale pi ma ni li pona lon pali mani. jan ale li wile pona mute lon poka pi jan ante. ona li kepeken mani awen ona tawa pona lukin. tan ni la, sinpin tomo esun li lon linja lon nasin. ona li sama meli esun pi uta musi, li toki kepeken lukin ona e ni: “o kama.”",
+      "notes": "“coquetry” is rendered as attractive display; the smiling-saleswomen comparison remains figurative.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 587,
+        "output_tokens_details": {
+          "reasoning_tokens": 424
+        },
+        "total_tokens": 3401
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0df3e7982e06b790016ab424c5c62487d28817c6ed6b9f3201",
+  "visibleOutput": "TRANSLATION: nasin tomo ni li lili. jan li toki e ni: ona li nasin pi kalama ala. taso lon suno pali la, esun mute li lon ni li kama jo e mani mute. lukin la, jan ale pi ma ni li pona lon pali mani. jan ale li wile pona mute lon poka pi jan ante. ona li kepeken mani awen ona tawa pona lukin. tan ni la, sinpin tomo esun li lon linja lon nasin. ona li sama meli esun pi uta musi, li toki kepeken lukin ona e ni: “o kama.”\n\nNOTES: “coquetry” is rendered as attractive display; the smiling-saleswomen comparison remains figurative.",
+  "translation": "nasin tomo ni li lili. jan li toki e ni: ona li nasin pi kalama ala. taso lon suno pali la, esun mute li lon ni li kama jo e mani mute. lukin la, jan ale pi ma ni li pona lon pali mani. jan ale li wile pona mute lon poka pi jan ante. ona li kepeken mani awen ona tawa pona lukin. tan ni la, sinpin tomo esun li lon linja lon nasin. ona li sama meli esun pi uta musi, li toki kepeken lukin ona e ni: “o kama.”",
+  "notes": "“coquetry” is rendered as attractive display; the smiling-saleswomen comparison remains figurative.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 587,
+    "output_tokens_details": {
+      "reasoning_tokens": 424
+    },
+    "total_tokens": 3401
+  },
+  "success": true
+}

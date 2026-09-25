@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0035",
+  "sourceHash": "95162210500af61ca8071d0b630dfcce961834209e8ca196dac1b37619b12d0f",
+  "source": "Hence, although I had now two characters as well as two appearances, one was wholly evil, and the other was still the old Henry Jekyll, that incongruous compound of whose reformation and improvement I had already learned to despair. The movement was thus wholly toward the worse. Even at that time, I had not yet conquered my aversion to the dryness of a life of study.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

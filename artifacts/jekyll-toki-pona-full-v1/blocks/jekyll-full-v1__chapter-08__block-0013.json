@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0013",
+  "sourceHash": "c8e1db2cdbfc5fa7e45530f13702fe844faac1383b52e2adf3cb86d9fde252cd",
+  "source": "“What, what? Are you all here?” said the lawyer peevishly. “Very irregular, very unseemly; your master would be far from pleased.” “They’re all afraid,” said Poole. Blank silence followed, no one protesting; only the maid lifted up her voice and now wept loudly.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00a48fa0e5ae25ed016ab42f9f155887d285f4f307dfe0ad9e",
+      "visibleOutput": "TRANSLATION: “seme? seme? sina ale li lon ni anu seme?” jan Utason pi sona lawa li toki pi pilin ike. “nasin ni li nasa mute, li pona ala mute. jan lawa sina li sona e ni la, ona li pilin pona ala mute.” jan Pulu li toki: “ona ale li pilin monsuta.” tenpo ni la, kalama ala li lon. jan ala li toki ante. taso jan meli pi pali tomo li kalama suli, li pana e telo oko mute lon tenpo ni.\n\nNOTES: NONE",
+      "translation": "“seme? seme? sina ale li lon ni anu seme?” jan Utason pi sona lawa li toki pi pilin ike. “nasin ni li nasa mute, li pona ala mute. jan lawa sina li sona e ni la, ona li pilin pona ala mute.” jan Pulu li toki: “ona ale li pilin monsuta.” tenpo ni la, kalama ala li lon. jan ala li toki ante. taso jan meli pi pali tomo li kalama suli, li pana e telo oko mute lon tenpo ni.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2799,
+        "input_tokens_details": {
+          "cache_write_tokens": 2796,
+          "cached_tokens": 0
+        },
+        "output_tokens": 467,
+        "output_tokens_details": {
+          "reasoning_tokens": 338
+        },
+        "total_tokens": 3266
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00a48fa0e5ae25ed016ab42f9f155887d285f4f307dfe0ad9e",
+  "visibleOutput": "TRANSLATION: “seme? seme? sina ale li lon ni anu seme?” jan Utason pi sona lawa li toki pi pilin ike. “nasin ni li nasa mute, li pona ala mute. jan lawa sina li sona e ni la, ona li pilin pona ala mute.” jan Pulu li toki: “ona ale li pilin monsuta.” tenpo ni la, kalama ala li lon. jan ala li toki ante. taso jan meli pi pali tomo li kalama suli, li pana e telo oko mute lon tenpo ni.\n\nNOTES: NONE",
+  "translation": "“seme? seme? sina ale li lon ni anu seme?” jan Utason pi sona lawa li toki pi pilin ike. “nasin ni li nasa mute, li pona ala mute. jan lawa sina li sona e ni la, ona li pilin pona ala mute.” jan Pulu li toki: “ona ale li pilin monsuta.” tenpo ni la, kalama ala li lon. jan ala li toki ante. taso jan meli pi pali tomo li kalama suli, li pana e telo oko mute lon tenpo ni.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2799,
+    "input_tokens_details": {
+      "cache_write_tokens": 2796,
+      "cached_tokens": 0
+    },
+    "output_tokens": 467,
+    "output_tokens_details": {
+      "reasoning_tokens": 338
+    },
+    "total_tokens": 3266
+  },
+  "success": true
+}

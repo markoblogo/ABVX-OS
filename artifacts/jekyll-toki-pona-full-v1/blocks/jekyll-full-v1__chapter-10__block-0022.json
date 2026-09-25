@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0022",
+  "sourceHash": "2b7916508f80c8c38397ad9b8dde364449820c990535f9d92ceb270c2ea3f2f7",
+  "source": "I felt younger, lighter, happier in body; within I was conscious of a heady recklessness, a current of disordered sensual images running like a mill-race in my fancy, a solution of the bonds of obligation, an unknown but not an innocent freedom of the soul.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

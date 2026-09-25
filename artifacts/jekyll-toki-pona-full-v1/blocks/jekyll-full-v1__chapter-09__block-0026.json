@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0026",
+  "sourceHash": "add51c3ea3ad784706ee19e23b8111987e4fbaa9fbb95a33f1b4ee16f674f186",
+  "source": "He told me “yes” by a constrained gesture; and when I had bidden him enter, he did not obey me without a searching backward glance into the darkness of the square. There was a policeman not far off, advancing with his bull’s eye open; and at the sight, I thought my visitor started and made greater haste.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_017bde653d99ca8e016ab434ce477087d2ab7ddf2365846979",
+      "visibleOutput": "TRANSLATION: Ona li toki e “lon” tawa mi kepeken tawa sijelo pi ken lili. Mi toki e ni: ona o kama insa. Taso, ona li kama insa lon poka ni: ona li lukin alasa sinpin monsi lon pimeja pi ma open. Jan lawa li lon poka, li kama poka kepeken ilo suno open. Ona li lukin e jan lawa la, mi pilin e ni: jan kama mi li pilin monsuta, li tawa wawa mute.\nNOTES: “mi pilin e ni” preserves Lanyon’s inference that the visitor started.",
+      "translation": "Ona li toki e “lon” tawa mi kepeken tawa sijelo pi ken lili. Mi toki e ni: ona o kama insa. Taso, ona li kama insa lon poka ni: ona li lukin alasa sinpin monsi lon pimeja pi ma open. Jan lawa li lon poka, li kama poka kepeken ilo suno open. Ona li lukin e jan lawa la, mi pilin e ni: jan kama mi li pilin monsuta, li tawa wawa mute.",
+      "notes": "“mi pilin e ni” preserves Lanyon’s inference that the visitor started.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 205,
+        "output_tokens_details": {
+          "reasoning_tokens": 64
+        },
+        "total_tokens": 3013
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_017bde653d99ca8e016ab434ce477087d2ab7ddf2365846979",
+  "visibleOutput": "TRANSLATION: Ona li toki e “lon” tawa mi kepeken tawa sijelo pi ken lili. Mi toki e ni: ona o kama insa. Taso, ona li kama insa lon poka ni: ona li lukin alasa sinpin monsi lon pimeja pi ma open. Jan lawa li lon poka, li kama poka kepeken ilo suno open. Ona li lukin e jan lawa la, mi pilin e ni: jan kama mi li pilin monsuta, li tawa wawa mute.\nNOTES: “mi pilin e ni” preserves Lanyon’s inference that the visitor started.",
+  "translation": "Ona li toki e “lon” tawa mi kepeken tawa sijelo pi ken lili. Mi toki e ni: ona o kama insa. Taso, ona li kama insa lon poka ni: ona li lukin alasa sinpin monsi lon pimeja pi ma open. Jan lawa li lon poka, li kama poka kepeken ilo suno open. Ona li lukin e jan lawa la, mi pilin e ni: jan kama mi li pilin monsuta, li tawa wawa mute.",
+  "notes": "“mi pilin e ni” preserves Lanyon’s inference that the visitor started.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 3013
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0072",
+  "sourceHash": "a5a9ed5cd776b78bce92ce997885edabe7adf2de813bb1dd056a152ea9e0f6b5",
+  "source": "It must have been this, I suppose, that stirred in my soul that tempest of impatience with which I listened to the civilities of my unhappy victim; I declare, at least, before God, no man morally sane could have been guilty of that crime upon so pitiful a provocation; and that I struck in no more reasonable spirit than that in which a sick child may break a plaything.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

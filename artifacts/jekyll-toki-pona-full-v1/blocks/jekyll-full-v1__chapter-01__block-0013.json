@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0013",
+  "sourceHash": "162ae7b77bf4112f571f87bc7f44da7f5c6ce0b559fa7777f85d74b8b91b8c3c",
+  "source": "Tramps slouched into the recess and struck matches on the panels; children kept shop upon the steps; the schoolboy had tried his knife on the mouldings; and for close on a generation, no one had appeared to drive away these random visitors or to repair their ravages.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09645f66194a1870016ab424f9d1b487d284ad7733c8117b3d",
+      "visibleOutput": "TRANSLATION: jan pi tomo ala li kama anpa lon lupa insa, li pana e seli lon palisa seli kepeken sinpin supa. jan lili li pali e esun lon supa noka. jan pi tomo sona li alasa e ilo kipisi ona lon linja kiwen pi sinpin tomo. lon tenpo suli pi kama suli jan wan poka, jan ala li kama tawa weka e jan kama ante ni, li pona sin e pakala tan ona.\nNOTES: “kept shop” may describe children playing at commerce; rendered simply as running a shop.",
+      "translation": "jan pi tomo ala li kama anpa lon lupa insa, li pana e seli lon palisa seli kepeken sinpin supa. jan lili li pali e esun lon supa noka. jan pi tomo sona li alasa e ilo kipisi ona lon linja kiwen pi sinpin tomo. lon tenpo suli pi kama suli jan wan poka, jan ala li kama tawa weka e jan kama ante ni, li pona sin e pakala tan ona.",
+      "notes": "“kept shop” may describe children playing at commerce; rendered simply as running a shop.",
+      "usage": {
+        "input_tokens": 2793,
+        "input_tokens_details": {
+          "cache_write_tokens": 2790,
+          "cached_tokens": 0
+        },
+        "output_tokens": 242,
+        "output_tokens_details": {
+          "reasoning_tokens": 109
+        },
+        "total_tokens": 3035
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09645f66194a1870016ab424f9d1b487d284ad7733c8117b3d",
+  "visibleOutput": "TRANSLATION: jan pi tomo ala li kama anpa lon lupa insa, li pana e seli lon palisa seli kepeken sinpin supa. jan lili li pali e esun lon supa noka. jan pi tomo sona li alasa e ilo kipisi ona lon linja kiwen pi sinpin tomo. lon tenpo suli pi kama suli jan wan poka, jan ala li kama tawa weka e jan kama ante ni, li pona sin e pakala tan ona.\nNOTES: “kept shop” may describe children playing at commerce; rendered simply as running a shop.",
+  "translation": "jan pi tomo ala li kama anpa lon lupa insa, li pana e seli lon palisa seli kepeken sinpin supa. jan lili li pali e esun lon supa noka. jan pi tomo sona li alasa e ilo kipisi ona lon linja kiwen pi sinpin tomo. lon tenpo suli pi kama suli jan wan poka, jan ala li kama tawa weka e jan kama ante ni, li pona sin e pakala tan ona.",
+  "notes": "“kept shop” may describe children playing at commerce; rendered simply as running a shop.",
+  "usage": {
+    "input_tokens": 2793,
+    "input_tokens_details": {
+      "cache_write_tokens": 2790,
+      "cached_tokens": 0
+    },
+    "output_tokens": 242,
+    "output_tokens_details": {
+      "reasoning_tokens": 109
+    },
+    "total_tokens": 3035
+  },
+  "success": true
+}

@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0003",
+  "sourceText": "## A. Utterson's will and Lanyon conversation",
+  "sourceHash": "7651559c8bb6cf032eabe80b0d0264b63e822b39bd3b7b14a1f2eae880892f08",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01c2f67a87e98cd2016ab41d125c7487d2a0fd0832e2e66c95",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: ## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon\nNOTES: NONE",
+      "translation": "## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2791,
+        "input_tokens_details": {
+          "cache_write_tokens": 2788,
+          "cached_tokens": 0
+        },
+        "output_tokens": 192,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 2983
+      },
+      "elapsedMs": 5376
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01c2f67a87e98cd2016ab41d125c7487d2a0fd0832e2e66c95",
+  "visibleOutput": "TRANSLATION: ## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon\nNOTES: NONE",
+  "translation": "## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2791,
+    "input_tokens_details": {
+      "cache_write_tokens": 2788,
+      "cached_tokens": 0
+    },
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "reasoning_tokens": 157
+    },
+    "total_tokens": 2983
+  },
+  "success": true
+}

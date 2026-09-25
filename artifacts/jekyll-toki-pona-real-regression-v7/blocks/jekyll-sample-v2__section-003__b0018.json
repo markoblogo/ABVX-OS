@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0018",
+  "sourceText": "At the further end, a flight of stairs mounted to a door covered with red baize; and through this, Mr. Utterson was at last received into the doctor’s cabinet. It was a large room, fitted round with glass presses, furnished, among other things, with a cheval-glass and a business table, and looking out upon the court by three dusty windows barred with iron. A fire burned in the grate; a lamp was set lighted on the chimney shelf, for even in the houses the fog began to lie thickly; and there, close up to the warmth, sat Dr. Jekyll, looking deadly sick. He did not rise to meet his visitor, but held out a cold hand and bade him welcome in a changed voice.",
+  "sourceHash": "54bde74d6e3ba2d36a956b13e20bdca1f77a34af57a6d54add8a8e5b95b4065a",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03612dd6f12e96bc016ab41dc2f59c87d282e42c3ef71d2886",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.\nNOTES: “red baize,” glass presses, and cheval-glass are rendered descriptively.",
+      "translation": "lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.",
+      "notes": "“red baize,” glass presses, and cheval-glass are rendered descriptively.",
+      "usage": {
+        "input_tokens": 2935,
+        "input_tokens_details": {
+          "cache_write_tokens": 2932,
+          "cached_tokens": 0
+        },
+        "output_tokens": 392,
+        "output_tokens_details": {
+          "reasoning_tokens": 122
+        },
+        "total_tokens": 3327
+      },
+      "elapsedMs": 10241
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03612dd6f12e96bc016ab41dc2f59c87d282e42c3ef71d2886",
+  "visibleOutput": "TRANSLATION: lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.\nNOTES: “red baize,” glass presses, and cheval-glass are rendered descriptively.",
+  "translation": "lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.",
+  "notes": "“red baize,” glass presses, and cheval-glass are rendered descriptively.",
+  "usage": {
+    "input_tokens": 2935,
+    "input_tokens_details": {
+      "cache_write_tokens": 2932,
+      "cached_tokens": 0
+    },
+    "output_tokens": 392,
+    "output_tokens_details": {
+      "reasoning_tokens": 122
+    },
+    "total_tokens": 3327
+  },
+  "success": true
+}

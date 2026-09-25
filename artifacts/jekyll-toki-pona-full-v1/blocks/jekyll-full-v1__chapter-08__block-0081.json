@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0081",
+  "sourceHash": "39783a8b04ba2a13716f5f092b63991775fe653266264e9e6e44670f11ad5e5d",
+  "source": "They went out, locking the door of the theatre behind them; and Utterson, once more leaving the servants gathered about the fire in the hall, trudged back to his office to read the two narratives in which this mystery was now to be explained.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00f2e7bd38f45945016ab432ef21fc87d2a71077e275aef0c0",
+      "visibleOutput": "TRANSLATION: ona tu li tawa weka, li pini e lupa pi tomo pali sona kepeken ilo open lon monsi ona. jan Utason li sin weka tan jan pali; jan pali li kulupu lon poka seli lon tomo open. ona li tawa noka kepeken wawa lili, li kama sin lon tomo pali ona, li lukin e toki lipu tu. toki tu ni li wile pana e sona lon tenpo ni lon ijo sona ala ni.\nNOTES: “li wile pana e sona” preserves that the two documents purport or are expected to explain the mystery, without making their claims narrator-verified fact.",
+      "translation": "ona tu li tawa weka, li pini e lupa pi tomo pali sona kepeken ilo open lon monsi ona. jan Utason li sin weka tan jan pali; jan pali li kulupu lon poka seli lon tomo open. ona li tawa noka kepeken wawa lili, li kama sin lon tomo pali ona, li lukin e toki lipu tu. toki tu ni li wile pana e sona lon tenpo ni lon ijo sona ala ni.",
+      "notes": "“li wile pana e sona” preserves that the two documents purport or are expected to explain the mystery, without making their claims narrator-verified fact.",
+      "usage": {
+        "input_tokens": 2786,
+        "input_tokens_details": {
+          "cache_write_tokens": 2783,
+          "cached_tokens": 0
+        },
+        "output_tokens": 559,
+        "output_tokens_details": {
+          "reasoning_tokens": 413
+        },
+        "total_tokens": 3345
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00f2e7bd38f45945016ab432ef21fc87d2a71077e275aef0c0",
+  "visibleOutput": "TRANSLATION: ona tu li tawa weka, li pini e lupa pi tomo pali sona kepeken ilo open lon monsi ona. jan Utason li sin weka tan jan pali; jan pali li kulupu lon poka seli lon tomo open. ona li tawa noka kepeken wawa lili, li kama sin lon tomo pali ona, li lukin e toki lipu tu. toki tu ni li wile pana e sona lon tenpo ni lon ijo sona ala ni.\nNOTES: “li wile pana e sona” preserves that the two documents purport or are expected to explain the mystery, without making their claims narrator-verified fact.",
+  "translation": "ona tu li tawa weka, li pini e lupa pi tomo pali sona kepeken ilo open lon monsi ona. jan Utason li sin weka tan jan pali; jan pali li kulupu lon poka seli lon tomo open. ona li tawa noka kepeken wawa lili, li kama sin lon tomo pali ona, li lukin e toki lipu tu. toki tu ni li wile pana e sona lon tenpo ni lon ijo sona ala ni.",
+  "notes": "“li wile pana e sona” preserves that the two documents purport or are expected to explain the mystery, without making their claims narrator-verified fact.",
+  "usage": {
+    "input_tokens": 2786,
+    "input_tokens_details": {
+      "cache_write_tokens": 2783,
+      "cached_tokens": 0
+    },
+    "output_tokens": 559,
+    "output_tokens_details": {
+      "reasoning_tokens": 413
+    },
+    "total_tokens": 3345
+  },
+  "success": true
+}

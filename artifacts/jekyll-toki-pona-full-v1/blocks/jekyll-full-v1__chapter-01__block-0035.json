@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0035",
+  "sourceHash": "17fac74137467af5a5c26af0b4897e9f09e9cf4852f8061bf8190c56d58bb8e6",
+  "source": "No, sir, I make it a rule of mine: the more it looks like Queer Street, the less I ask.” “A very good rule, too,” said the lawyer. “But I have studied the place for myself,” continued Mr. Enfield. “It seems scarcely a house. There is no other door, and nobody goes in or out of that one but, once in a great while, the gentleman of my adventure.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a876d9ace4e4522016ab4260ef55487d2b00678ec6f406a6b",
+      "visibleOutput": "TRANSLATION: “Ala, jan pona. mi lawa e mi kepeken nasin ni: ijo li lukin nasa mute la, mi wile sona lili.” jan pi sona lawa li toki e ni: “nasin ni li pona mute.” jan Enpil li toki sin: “taso, mi lukin mute e ma ni. ona li sama tomo ala. lupa ante li lon ala. jan li kama insa ala li tawa poka ala tan lupa ni. taso lon tenpo wan pi tenpo mute, jan pi toki mi li kepeken lupa ni.”\nNOTES: “Queer Street” is rendered as suspicious strangeness rather than as a literal place.",
+      "translation": "“Ala, jan pona. mi lawa e mi kepeken nasin ni: ijo li lukin nasa mute la, mi wile sona lili.” jan pi sona lawa li toki e ni: “nasin ni li pona mute.” jan Enpil li toki sin: “taso, mi lukin mute e ma ni. ona li sama tomo ala. lupa ante li lon ala. jan li kama insa ala li tawa poka ala tan lupa ni. taso lon tenpo wan pi tenpo mute, jan pi toki mi li kepeken lupa ni.”",
+      "notes": "“Queer Street” is rendered as suspicious strangeness rather than as a literal place.",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 358,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 3184
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a876d9ace4e4522016ab4260ef55487d2b00678ec6f406a6b",
+  "visibleOutput": "TRANSLATION: “Ala, jan pona. mi lawa e mi kepeken nasin ni: ijo li lukin nasa mute la, mi wile sona lili.” jan pi sona lawa li toki e ni: “nasin ni li pona mute.” jan Enpil li toki sin: “taso, mi lukin mute e ma ni. ona li sama tomo ala. lupa ante li lon ala. jan li kama insa ala li tawa poka ala tan lupa ni. taso lon tenpo wan pi tenpo mute, jan pi toki mi li kepeken lupa ni.”\nNOTES: “Queer Street” is rendered as suspicious strangeness rather than as a literal place.",
+  "translation": "“Ala, jan pona. mi lawa e mi kepeken nasin ni: ijo li lukin nasa mute la, mi wile sona lili.” jan pi sona lawa li toki e ni: “nasin ni li pona mute.” jan Enpil li toki sin: “taso, mi lukin mute e ma ni. ona li sama tomo ala. lupa ante li lon ala. jan li kama insa ala li tawa poka ala tan lupa ni. taso lon tenpo wan pi tenpo mute, jan pi toki mi li kepeken lupa ni.”",
+  "notes": "“Queer Street” is rendered as suspicious strangeness rather than as a literal place.",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 358,
+    "output_tokens_details": {
+      "reasoning_tokens": 207
+    },
+    "total_tokens": 3184
+  },
+  "success": true
+}

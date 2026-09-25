@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0008",
+  "sourceHash": "bf6575b8102c7a4c840dcd2436dad220827c7349f88569e218341ddca666c69e",
+  "source": "And it chanced that the direction of my scientific studies, which led wholly toward the mystic and the transcendental, re-acted and shed a strong light on this consciousness of the perennial war among my members.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0abba964be981b1e016ab436953b3487d2aa7169bea2d29116",
+      "visibleOutput": "TRANSLATION: kin la, ijo ni li kama lon pi wile ala mi: nasin pi pali sona mi li tawa ale lon sona nasa pi awen len, lon ijo sewi pi weka tan ma. nasin ni li pana e suno sona wawa tawa sona mi pi ni: nasin mute insa mi li utala awen.\nNOTES: nimi pi “mystic” en “transcendental” li ken jo e kon ante.",
+      "translation": "kin la, ijo ni li kama lon pi wile ala mi: nasin pi pali sona mi li tawa ale lon sona nasa pi awen len, lon ijo sewi pi weka tan ma. nasin ni li pana e suno sona wawa tawa sona mi pi ni: nasin mute insa mi li utala awen.",
+      "notes": "nimi pi “mystic” en “transcendental” li ken jo e kon ante.",
+      "usage": {
+        "input_tokens": 2788,
+        "input_tokens_details": {
+          "cache_write_tokens": 2785,
+          "cached_tokens": 0
+        },
+        "output_tokens": 482,
+        "output_tokens_details": {
+          "reasoning_tokens": 374
+        },
+        "total_tokens": 3270
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0abba964be981b1e016ab436953b3487d2aa7169bea2d29116",
+  "visibleOutput": "TRANSLATION: kin la, ijo ni li kama lon pi wile ala mi: nasin pi pali sona mi li tawa ale lon sona nasa pi awen len, lon ijo sewi pi weka tan ma. nasin ni li pana e suno sona wawa tawa sona mi pi ni: nasin mute insa mi li utala awen.\nNOTES: nimi pi “mystic” en “transcendental” li ken jo e kon ante.",
+  "translation": "kin la, ijo ni li kama lon pi wile ala mi: nasin pi pali sona mi li tawa ale lon sona nasa pi awen len, lon ijo sewi pi weka tan ma. nasin ni li pana e suno sona wawa tawa sona mi pi ni: nasin mute insa mi li utala awen.",
+  "notes": "nimi pi “mystic” en “transcendental” li ken jo e kon ante.",
+  "usage": {
+    "input_tokens": 2788,
+    "input_tokens_details": {
+      "cache_write_tokens": 2785,
+      "cached_tokens": 0
+    },
+    "output_tokens": 482,
+    "output_tokens_details": {
+      "reasoning_tokens": 374
+    },
+    "total_tokens": 3270
+  },
+  "success": true
+}

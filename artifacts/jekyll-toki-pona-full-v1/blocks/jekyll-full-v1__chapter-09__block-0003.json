@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0003",
+  "sourceHash": "7875c6aa5e6f1681bf534484702af429ad29e203d532e98c12d519c1059bdd7d",
+  "source": "“Dear Lanyon,—You are one of my oldest friends; and although we may have differed at times on scientific questions, I cannot remember, at least on my side, any break in our affection. There was never a day when, if you had said to me, ‘Jekyll, my life, my honour, my reason, depend upon you,’ I would not have sacrificed my left hand to help you.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0fff8a25f6315b90016ab4331ae54c87d285fb8fe089c76261",
+      "visibleOutput": "TRANSLATION: “jan Lanjon pona o,—sina jan pona mi tan tenpo pini suli. lon tenpo ante la, pilin mi en pilin sina li ante lon ijo pi pali sona. taso mi sona ala e tenpo wan ni: mi la, olin pona pi mi tu li pakala. sina toki e ni lon tenpo seme la: ‘jan Jekil o, lon mi en nimi pona mi en sona lawa mi li ken awen tan sina taso,’ la, mi wile weka e luka mi pi poka pilin, tawa pana e pona tawa sina. tenpo suno ala la mi wile ala pali e ni.”\nNOTES: “reason” is rendered as sona lawa; the hypothetical sacrifice and Lanyon’s one-sided memory qualification are preserved.",
+      "translation": "“jan Lanjon pona o,—sina jan pona mi tan tenpo pini suli. lon tenpo ante la, pilin mi en pilin sina li ante lon ijo pi pali sona. taso mi sona ala e tenpo wan ni: mi la, olin pona pi mi tu li pakala. sina toki e ni lon tenpo seme la: ‘jan Jekil o, lon mi en nimi pona mi en sona lawa mi li ken awen tan sina taso,’ la, mi wile weka e luka mi pi poka pilin, tawa pana e pona tawa sina. tenpo suno ala la mi wile ala pali e ni.”",
+      "notes": "“reason” is rendered as sona lawa; the hypothetical sacrifice and Lanyon’s one-sided memory qualification are preserved.",
+      "usage": {
+        "input_tokens": 2836,
+        "input_tokens_details": {
+          "cache_write_tokens": 2833,
+          "cached_tokens": 0
+        },
+        "output_tokens": 335,
+        "output_tokens_details": {
+          "reasoning_tokens": 161
+        },
+        "total_tokens": 3171
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0fff8a25f6315b90016ab4331ae54c87d285fb8fe089c76261",
+  "visibleOutput": "TRANSLATION: “jan Lanjon pona o,—sina jan pona mi tan tenpo pini suli. lon tenpo ante la, pilin mi en pilin sina li ante lon ijo pi pali sona. taso mi sona ala e tenpo wan ni: mi la, olin pona pi mi tu li pakala. sina toki e ni lon tenpo seme la: ‘jan Jekil o, lon mi en nimi pona mi en sona lawa mi li ken awen tan sina taso,’ la, mi wile weka e luka mi pi poka pilin, tawa pana e pona tawa sina. tenpo suno ala la mi wile ala pali e ni.”\nNOTES: “reason” is rendered as sona lawa; the hypothetical sacrifice and Lanyon’s one-sided memory qualification are preserved.",
+  "translation": "“jan Lanjon pona o,—sina jan pona mi tan tenpo pini suli. lon tenpo ante la, pilin mi en pilin sina li ante lon ijo pi pali sona. taso mi sona ala e tenpo wan ni: mi la, olin pona pi mi tu li pakala. sina toki e ni lon tenpo seme la: ‘jan Jekil o, lon mi en nimi pona mi en sona lawa mi li ken awen tan sina taso,’ la, mi wile weka e luka mi pi poka pilin, tawa pana e pona tawa sina. tenpo suno ala la mi wile ala pali e ni.”",
+  "notes": "“reason” is rendered as sona lawa; the hypothetical sacrifice and Lanyon’s one-sided memory qualification are preserved.",
+  "usage": {
+    "input_tokens": 2836,
+    "input_tokens_details": {
+      "cache_write_tokens": 2833,
+      "cached_tokens": 0
+    },
+    "output_tokens": 335,
+    "output_tokens_details": {
+      "reasoning_tokens": 161
+    },
+    "total_tokens": 3171
+  },
+  "success": true
+}

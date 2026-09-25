@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0015",
+  "sourceHash": "8ff8b0d3eb939823a14cebe2465fc010db0d9d2f8e6117e0f802b116caa268ad",
+  "source": "Mr. Utterson had already quailed at the name of Hyde; but when the stick was laid before him, he could doubt no longer; broken and battered as it was, he recognised it for one that he had himself presented many years before to Henry Jekyll. “Is this Mr. Hyde a person of small stature?” he inquired. “Particularly small and particularly wicked-looking, is what the maid calls him,” said the officer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_047390496d44a10d016ab42aa36c4487d2bd9dc85fef14a619",
+      "visibleOutput": "TRANSLATION: nimi pi jan Hata la, jan Utason li pilin monsuta lon tenpo pini. taso, jan lawa li pana lukin e palisa tawa ona la, ona li ken ala awen lon sona pi ken ante. palisa li pakala li jo e ma pakala mute. taso jan Utason li sona e ni: lon tenpo pi tenpo sike mute pini, ona sama li pana e palisa ni tawa jan Jekil. ona li wile sona e ni: “jan Hata li lili sijelo anu seme?” jan lawa li toki e ni: “jan meli pi pali tomo li toki e ni: ona li lili sijelo mute a. lukin la, ona li ike mute a.”\nNOTES: “ike mute” describes the maid’s reported impression only, not narrator fact.",
+      "translation": "nimi pi jan Hata la, jan Utason li pilin monsuta lon tenpo pini. taso, jan lawa li pana lukin e palisa tawa ona la, ona li ken ala awen lon sona pi ken ante. palisa li pakala li jo e ma pakala mute. taso jan Utason li sona e ni: lon tenpo pi tenpo sike mute pini, ona sama li pana e palisa ni tawa jan Jekil. ona li wile sona e ni: “jan Hata li lili sijelo anu seme?” jan lawa li toki e ni: “jan meli pi pali tomo li toki e ni: ona li lili sijelo mute a. lukin la, ona li ike mute a.”",
+      "notes": "“ike mute” describes the maid’s reported impression only, not narrator fact.",
+      "usage": {
+        "input_tokens": 2841,
+        "input_tokens_details": {
+          "cache_write_tokens": 2838,
+          "cached_tokens": 0
+        },
+        "output_tokens": 521,
+        "output_tokens_details": {
+          "reasoning_tokens": 335
+        },
+        "total_tokens": 3362
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_047390496d44a10d016ab42aa36c4487d2bd9dc85fef14a619",
+  "visibleOutput": "TRANSLATION: nimi pi jan Hata la, jan Utason li pilin monsuta lon tenpo pini. taso, jan lawa li pana lukin e palisa tawa ona la, ona li ken ala awen lon sona pi ken ante. palisa li pakala li jo e ma pakala mute. taso jan Utason li sona e ni: lon tenpo pi tenpo sike mute pini, ona sama li pana e palisa ni tawa jan Jekil. ona li wile sona e ni: “jan Hata li lili sijelo anu seme?” jan lawa li toki e ni: “jan meli pi pali tomo li toki e ni: ona li lili sijelo mute a. lukin la, ona li ike mute a.”\nNOTES: “ike mute” describes the maid’s reported impression only, not narrator fact.",
+  "translation": "nimi pi jan Hata la, jan Utason li pilin monsuta lon tenpo pini. taso, jan lawa li pana lukin e palisa tawa ona la, ona li ken ala awen lon sona pi ken ante. palisa li pakala li jo e ma pakala mute. taso jan Utason li sona e ni: lon tenpo pi tenpo sike mute pini, ona sama li pana e palisa ni tawa jan Jekil. ona li wile sona e ni: “jan Hata li lili sijelo anu seme?” jan lawa li toki e ni: “jan meli pi pali tomo li toki e ni: ona li lili sijelo mute a. lukin la, ona li ike mute a.”",
+  "notes": "“ike mute” describes the maid’s reported impression only, not narrator fact.",
+  "usage": {
+    "input_tokens": 2841,
+    "input_tokens_details": {
+      "cache_write_tokens": 2838,
+      "cached_tokens": 0
+    },
+    "output_tokens": 521,
+    "output_tokens_details": {
+      "reasoning_tokens": 335
+    },
+    "total_tokens": 3362
+  },
+  "success": true
+}

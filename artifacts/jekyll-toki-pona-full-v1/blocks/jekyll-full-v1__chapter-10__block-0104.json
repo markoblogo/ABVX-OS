@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0104",
+  "sourceHash": "3edcdb6d3eff2c02f43014166e1894e0cce8ed434e7d55a37e08ac790016bcf4",
+  "source": "I still hated and feared the thought of the brute that slept within me, and I had not of course forgotten the appalling dangers of the day before; but I was once more at home, in my own house and close to my drugs; and gratitude for my escape shone so strong in my soul that it almost rivalled the brightness of hope.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

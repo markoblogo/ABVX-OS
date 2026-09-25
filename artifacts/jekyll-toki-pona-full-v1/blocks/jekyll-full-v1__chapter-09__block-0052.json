@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0052",
+  "sourceHash": "b0f130d01d1c6f941d032220f006fad106e4ae85a4b6dcf4ab11e846602e77c0",
+  "source": "The creature who crept into my house that night was, on Jekyll’s own confession, known by the name of Hyde and hunted for in every corner of the land as the murderer of Carew. HASTIE LANYON",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0574318de891e0b7016ab43617554887d2bde7c2dc0588d238",
+      "visibleOutput": "TRANSLATION: lon pimeja ni, ijo li kama insa tomo mi kepeken nasin len. jan Jekil li pana e toki ona sama ni: nimi pi ijo ni li jan Hata; jan li alasa e ona lon ma ale tan toki ni: ona li moli e jan Kewi. —JAN LANJON\nNOTES: toki pi jan Jekil taso li pana e sona ni; ona li kama ala sona pi toki mama.",
+      "translation": "lon pimeja ni, ijo li kama insa tomo mi kepeken nasin len. jan Jekil li pana e toki ona sama ni: nimi pi ijo ni li jan Hata; jan li alasa e ona lon ma ale tan toki ni: ona li moli e jan Kewi. —JAN LANJON",
+      "notes": "toki pi jan Jekil taso li pana e sona ni; ona li kama ala sona pi toki mama.",
+      "usage": {
+        "input_tokens": 2799,
+        "input_tokens_details": {
+          "cache_write_tokens": 2796,
+          "cached_tokens": 0
+        },
+        "output_tokens": 466,
+        "output_tokens_details": {
+          "reasoning_tokens": 358
+        },
+        "total_tokens": 3265
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0574318de891e0b7016ab43617554887d2bde7c2dc0588d238",
+  "visibleOutput": "TRANSLATION: lon pimeja ni, ijo li kama insa tomo mi kepeken nasin len. jan Jekil li pana e toki ona sama ni: nimi pi ijo ni li jan Hata; jan li alasa e ona lon ma ale tan toki ni: ona li moli e jan Kewi. —JAN LANJON\nNOTES: toki pi jan Jekil taso li pana e sona ni; ona li kama ala sona pi toki mama.",
+  "translation": "lon pimeja ni, ijo li kama insa tomo mi kepeken nasin len. jan Jekil li pana e toki ona sama ni: nimi pi ijo ni li jan Hata; jan li alasa e ona lon ma ale tan toki ni: ona li moli e jan Kewi. —JAN LANJON",
+  "notes": "toki pi jan Jekil taso li pana e sona ni; ona li kama ala sona pi toki mama.",
+  "usage": {
+    "input_tokens": 2799,
+    "input_tokens_details": {
+      "cache_write_tokens": 2796,
+      "cached_tokens": 0
+    },
+    "output_tokens": 466,
+    "output_tokens_details": {
+      "reasoning_tokens": 358
+    },
+    "total_tokens": 3265
+  },
+  "success": true
+}

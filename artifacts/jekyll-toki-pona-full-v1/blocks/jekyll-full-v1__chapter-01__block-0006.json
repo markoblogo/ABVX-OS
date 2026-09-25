@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0006",
+  "sourceHash": "448d2d4fe71038f77a2b109263c283c26878efa8ed948755962c05a310083612",
+  "source": "His friends were those of his own blood or those whom he had known the longest; his affections, like ivy, were the growth of time, they implied no aptness in the object. Hence, no doubt, the bond that united him to Mr. Richard Enfield, his distant kinsman, the well-known man about town.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d13fafbe577b27a016ab424a93c7887d2b7cb49e1e64b979b",
+      "visibleOutput": "TRANSLATION: jan pona pi jan Utason li jan pi kulupu mama ona, anu jan pi sona ona lon tenpo mute. olin ona li kama suli lon tenpo, sama kasi lon sinpin; ona li olin ala e jan tan pona ante pi jan ni. ni la, ken suli la, ona en jan Enpil li kama jan pona. jan Enpil li jan pi kulupu mama ona taso li jan poka ala. jan mute lon ma tomo li sona e jan Enpil.\nNOTES: NONE",
+      "translation": "jan pona pi jan Utason li jan pi kulupu mama ona, anu jan pi sona ona lon tenpo mute. olin ona li kama suli lon tenpo, sama kasi lon sinpin; ona li olin ala e jan tan pona ante pi jan ni. ni la, ken suli la, ona en jan Enpil li kama jan pona. jan Enpil li jan pi kulupu mama ona taso li jan poka ala. jan mute lon ma tomo li sona e jan Enpil.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 207,
+        "output_tokens_details": {
+          "reasoning_tokens": 95
+        },
+        "total_tokens": 3012
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d13fafbe577b27a016ab424a93c7887d2b7cb49e1e64b979b",
+  "visibleOutput": "TRANSLATION: jan pona pi jan Utason li jan pi kulupu mama ona, anu jan pi sona ona lon tenpo mute. olin ona li kama suli lon tenpo, sama kasi lon sinpin; ona li olin ala e jan tan pona ante pi jan ni. ni la, ken suli la, ona en jan Enpil li kama jan pona. jan Enpil li jan pi kulupu mama ona taso li jan poka ala. jan mute lon ma tomo li sona e jan Enpil.\nNOTES: NONE",
+  "translation": "jan pona pi jan Utason li jan pi kulupu mama ona, anu jan pi sona ona lon tenpo mute. olin ona li kama suli lon tenpo, sama kasi lon sinpin; ona li olin ala e jan tan pona ante pi jan ni. ni la, ken suli la, ona en jan Enpil li kama jan pona. jan Enpil li jan pi kulupu mama ona taso li jan poka ala. jan mute lon ma tomo li sona e jan Enpil.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 207,
+    "output_tokens_details": {
+      "reasoning_tokens": 95
+    },
+    "total_tokens": 3012
+  },
+  "success": true
+}

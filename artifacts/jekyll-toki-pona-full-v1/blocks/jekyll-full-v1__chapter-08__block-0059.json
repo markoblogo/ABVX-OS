@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0059",
+  "sourceHash": "9f3926e19a916e0333aa503bf49727d8824228381e51a9ecb1efbb1df797587a",
+  "source": "There lay the cabinet before their eyes in the quiet lamplight, a good fire glowing and chattering on the hearth, the kettle singing its thin strain, a drawer or two open, papers neatly set forth on the business-table, and nearer the fire, the things laid out for tea: the quietest room, you would have said, and, but for the glazed presses full of chemicals, the most commonplace that night in London.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f917df32db74073016ab431e4720c87d2bdc35d8526ea397a",
+      "visibleOutput": "TRANSLATION: tomo insa pi jan Jekil li lon sinpin lukin ona, lon suno pi ilo suno pi kalama ala. seli pona li suno li kalama lon ma seli. poki telo li kalama lili sama kalama musi. poki lili wan anu tu li open. lipu li lon nasin pona lon supa pali. lon poka pi seli la, ilo pi telo kasi li lon. sina ken toki e ni: tomo ni li tomo pi kalama ala nanpa wan. poki suli pi sinpin jasima li lon ala, li jo ala e ijo mute pi pali sona la, lon pimeja ni lon ma Lantan, tomo ni li ante ala tan tomo ante ale.\nNOTES: “Most commonplace” is rendered as least different from all other rooms; the counterfactual exception for the glazed chemical cupboards is preserved.",
+      "translation": "tomo insa pi jan Jekil li lon sinpin lukin ona, lon suno pi ilo suno pi kalama ala. seli pona li suno li kalama lon ma seli. poki telo li kalama lili sama kalama musi. poki lili wan anu tu li open. lipu li lon nasin pona lon supa pali. lon poka pi seli la, ilo pi telo kasi li lon. sina ken toki e ni: tomo ni li tomo pi kalama ala nanpa wan. poki suli pi sinpin jasima li lon ala, li jo ala e ijo mute pi pali sona la, lon pimeja ni lon ma Lantan, tomo ni li ante ala tan tomo ante ale.",
+      "notes": "“Most commonplace” is rendered as least different from all other rooms; the counterfactual exception for the glazed chemical cupboards is preserved.",
+      "usage": {
+        "input_tokens": 2822,
+        "input_tokens_details": {
+          "cache_write_tokens": 2819,
+          "cached_tokens": 0
+        },
+        "output_tokens": 700,
+        "output_tokens_details": {
+          "reasoning_tokens": 507
+        },
+        "total_tokens": 3522
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f917df32db74073016ab431e4720c87d2bdc35d8526ea397a",
+  "visibleOutput": "TRANSLATION: tomo insa pi jan Jekil li lon sinpin lukin ona, lon suno pi ilo suno pi kalama ala. seli pona li suno li kalama lon ma seli. poki telo li kalama lili sama kalama musi. poki lili wan anu tu li open. lipu li lon nasin pona lon supa pali. lon poka pi seli la, ilo pi telo kasi li lon. sina ken toki e ni: tomo ni li tomo pi kalama ala nanpa wan. poki suli pi sinpin jasima li lon ala, li jo ala e ijo mute pi pali sona la, lon pimeja ni lon ma Lantan, tomo ni li ante ala tan tomo ante ale.\nNOTES: “Most commonplace” is rendered as least different from all other rooms; the counterfactual exception for the glazed chemical cupboards is preserved.",
+  "translation": "tomo insa pi jan Jekil li lon sinpin lukin ona, lon suno pi ilo suno pi kalama ala. seli pona li suno li kalama lon ma seli. poki telo li kalama lili sama kalama musi. poki lili wan anu tu li open. lipu li lon nasin pona lon supa pali. lon poka pi seli la, ilo pi telo kasi li lon. sina ken toki e ni: tomo ni li tomo pi kalama ala nanpa wan. poki suli pi sinpin jasima li lon ala, li jo ala e ijo mute pi pali sona la, lon pimeja ni lon ma Lantan, tomo ni li ante ala tan tomo ante ale.",
+  "notes": "“Most commonplace” is rendered as least different from all other rooms; the counterfactual exception for the glazed chemical cupboards is preserved.",
+  "usage": {
+    "input_tokens": 2822,
+    "input_tokens_details": {
+      "cache_write_tokens": 2819,
+      "cached_tokens": 0
+    },
+    "output_tokens": 700,
+    "output_tokens_details": {
+      "reasoning_tokens": 507
+    },
+    "total_tokens": 3522
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0007",
+  "sourceHash": "becbbc90e0f0b70316b4e05ae9dc3e625cb4f21e554dc22abb56139c339362cb",
+  "source": "“Utterson, I swear to God,” cried the doctor, “I swear to God I will never set eyes on him again. I bind my honour to you that I am done with him in this world. It is all at an end. And indeed he does not want my help; you do not know him as I do; he is safe, he is quite safe; mark my words, he will never more be heard of.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c1c1967597abd76016ab42bd1c77c87d28f6571b08f41cf56",
+      "visibleOutput": "TRANSLATION: “jan Utason o, mi toki lon sinpin sewi,” jan Jekil pi sona sijelo li kalama suli. “mi toki lon sinpin sewi e ni: mi lukin ala e ona lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, mi pini ale e kulupu mi en ona. ale li pini. kin la, ona li wile ala e pona tan mi. sina sona ala e ona sama mi. ona li awen pona. ona li awen pona mute. o sona pona e toki mi: tenpo kama la, jan ala li kute sin e ijo ona.”\nNOTES: “ona li awen pona” preserves Jekyll’s claim that Hyde is safe without making it narrator-confirmed fact.",
+      "translation": "“jan Utason o, mi toki lon sinpin sewi,” jan Jekil pi sona sijelo li kalama suli. “mi toki lon sinpin sewi e ni: mi lukin ala e ona lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, mi pini ale e kulupu mi en ona. ale li pini. kin la, ona li wile ala e pona tan mi. sina sona ala e ona sama mi. ona li awen pona. ona li awen pona mute. o sona pona e toki mi: tenpo kama la, jan ala li kute sin e ijo ona.”",
+      "notes": "“ona li awen pona” preserves Jekyll’s claim that Hyde is safe without making it narrator-confirmed fact.",
+      "usage": {
+        "input_tokens": 2836,
+        "input_tokens_details": {
+          "cache_write_tokens": 2833,
+          "cached_tokens": 0
+        },
+        "output_tokens": 315,
+        "output_tokens_details": {
+          "reasoning_tokens": 140
+        },
+        "total_tokens": 3151
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c1c1967597abd76016ab42bd1c77c87d28f6571b08f41cf56",
+  "visibleOutput": "TRANSLATION: “jan Utason o, mi toki lon sinpin sewi,” jan Jekil pi sona sijelo li kalama suli. “mi toki lon sinpin sewi e ni: mi lukin ala e ona lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, mi pini ale e kulupu mi en ona. ale li pini. kin la, ona li wile ala e pona tan mi. sina sona ala e ona sama mi. ona li awen pona. ona li awen pona mute. o sona pona e toki mi: tenpo kama la, jan ala li kute sin e ijo ona.”\nNOTES: “ona li awen pona” preserves Jekyll’s claim that Hyde is safe without making it narrator-confirmed fact.",
+  "translation": "“jan Utason o, mi toki lon sinpin sewi,” jan Jekil pi sona sijelo li kalama suli. “mi toki lon sinpin sewi e ni: mi lukin ala e ona lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, mi pini ale e kulupu mi en ona. ale li pini. kin la, ona li wile ala e pona tan mi. sina sona ala e ona sama mi. ona li awen pona. ona li awen pona mute. o sona pona e toki mi: tenpo kama la, jan ala li kute sin e ijo ona.”",
+  "notes": "“ona li awen pona” preserves Jekyll’s claim that Hyde is safe without making it narrator-confirmed fact.",
+  "usage": {
+    "input_tokens": 2836,
+    "input_tokens_details": {
+      "cache_write_tokens": 2833,
+      "cached_tokens": 0
+    },
+    "output_tokens": 315,
+    "output_tokens_details": {
+      "reasoning_tokens": 140
+    },
+    "total_tokens": 3151
+  },
+  "success": true
+}

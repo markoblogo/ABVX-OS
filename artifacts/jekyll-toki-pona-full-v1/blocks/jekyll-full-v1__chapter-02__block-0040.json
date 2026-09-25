@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0040",
+  "sourceHash": "0d865ae46722e1807464581b8eb497169725ee6f4ba76da4e64902ba928b8d40",
+  "source": "One house, however, second from the corner, was still occupied entire; and at the door of this, which wore a great air of wealth and comfort, though it was now plunged in darkness except for the fan-light, Mr. Utterson stopped and knocked. A well-dressed, elderly servant opened the door. “Is Dr. Jekyll at home, Poole?” asked the lawyer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03402c25e15b5a78016ab4287e15d487d2802cd48364187b5f",
+      "visibleOutput": "TRANSLATION: taso tomo wan, tomo nanpa tu tan pini nasin, la jan li awen kepeken tomo ale. lupa tomo li pana e lukin pi mani mute pi pilin pona. taso tenpo ni la tomo li pimeja ale; lupa lukin lili lon sewi pi lupa tomo taso li jo e suno. jan Utason li awen lon lupa, li pana e kalama tawa ona. jan pali majuna pi len pona li open e lupa. jan Utason pi sona lawa li toki e ni: “jan Jekil pi sona sijelo li lon tomo anu seme, jan Pulu?”\nNOTES: NONE",
+      "translation": "taso tomo wan, tomo nanpa tu tan pini nasin, la jan li awen kepeken tomo ale. lupa tomo li pana e lukin pi mani mute pi pilin pona. taso tenpo ni la tomo li pimeja ale; lupa lukin lili lon sewi pi lupa tomo taso li jo e suno. jan Utason li awen lon lupa, li pana e kalama tawa ona. jan pali majuna pi len pona li open e lupa. jan Utason pi sona lawa li toki e ni: “jan Jekil pi sona sijelo li lon tomo anu seme, jan Pulu?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 495,
+        "output_tokens_details": {
+          "reasoning_tokens": 348
+        },
+        "total_tokens": 3325
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03402c25e15b5a78016ab4287e15d487d2802cd48364187b5f",
+  "visibleOutput": "TRANSLATION: taso tomo wan, tomo nanpa tu tan pini nasin, la jan li awen kepeken tomo ale. lupa tomo li pana e lukin pi mani mute pi pilin pona. taso tenpo ni la tomo li pimeja ale; lupa lukin lili lon sewi pi lupa tomo taso li jo e suno. jan Utason li awen lon lupa, li pana e kalama tawa ona. jan pali majuna pi len pona li open e lupa. jan Utason pi sona lawa li toki e ni: “jan Jekil pi sona sijelo li lon tomo anu seme, jan Pulu?”\nNOTES: NONE",
+  "translation": "taso tomo wan, tomo nanpa tu tan pini nasin, la jan li awen kepeken tomo ale. lupa tomo li pana e lukin pi mani mute pi pilin pona. taso tenpo ni la tomo li pimeja ale; lupa lukin lili lon sewi pi lupa tomo taso li jo e suno. jan Utason li awen lon lupa, li pana e kalama tawa ona. jan pali majuna pi len pona li open e lupa. jan Utason pi sona lawa li toki e ni: “jan Jekil pi sona sijelo li lon tomo anu seme, jan Pulu?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 495,
+    "output_tokens_details": {
+      "reasoning_tokens": 348
+    },
+    "total_tokens": 3325
+  },
+  "success": true
+}

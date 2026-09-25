@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0026",
+  "sourceHash": "8040c85ecafafc786260af01d4c99f97194c45315a139fc1e9656f7282460abe",
+  "source": "No gentleman but wishes to avoid a scene,’ says he. ‘Name your figure.’ Well, we screwed him up to a hundred pounds for the child’s family; he would have clearly liked to stick out; but there was something about the lot of us that meant mischief, and at last he struck.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00e10d6d1e649bb9016ab425961e7087d2825c812aee212d7c",
+      "visibleOutput": "TRANSLATION: ‘jan pi nimi pona ale li wile ala e ni: utala li kama lon lukin pi jan mute,’ ona li toki. ‘o toki e mute mani.’ ni la mi mute li ken e ni: ona li pana e mani Paun ale tawa kulupu pi jan lili. lukin la ona li wile awen li wile ala pana; taso nasin pi mi mute li pana e pilin ni tawa ona: ike li kama ken. lon pini la ona li pali e wile mi mute.\n\nNOTES: nimi “struck” li toki e ni: ona li pini e utala li pali e wile kulupu; ona li utala sijelo ala.",
+      "translation": "‘jan pi nimi pona ale li wile ala e ni: utala li kama lon lukin pi jan mute,’ ona li toki. ‘o toki e mute mani.’ ni la mi mute li ken e ni: ona li pana e mani Paun ale tawa kulupu pi jan lili. lukin la ona li wile awen li wile ala pana; taso nasin pi mi mute li pana e pilin ni tawa ona: ike li kama ken. lon pini la ona li pali e wile mi mute.",
+      "notes": "nimi “struck” li toki e ni: ona li pini e utala li pali e wile kulupu; ona li utala sijelo ala.",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 489,
+        "output_tokens_details": {
+          "reasoning_tokens": 334
+        },
+        "total_tokens": 3287
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00e10d6d1e649bb9016ab425961e7087d2825c812aee212d7c",
+  "visibleOutput": "TRANSLATION: ‘jan pi nimi pona ale li wile ala e ni: utala li kama lon lukin pi jan mute,’ ona li toki. ‘o toki e mute mani.’ ni la mi mute li ken e ni: ona li pana e mani Paun ale tawa kulupu pi jan lili. lukin la ona li wile awen li wile ala pana; taso nasin pi mi mute li pana e pilin ni tawa ona: ike li kama ken. lon pini la ona li pali e wile mi mute.\n\nNOTES: nimi “struck” li toki e ni: ona li pini e utala li pali e wile kulupu; ona li utala sijelo ala.",
+  "translation": "‘jan pi nimi pona ale li wile ala e ni: utala li kama lon lukin pi jan mute,’ ona li toki. ‘o toki e mute mani.’ ni la mi mute li ken e ni: ona li pana e mani Paun ale tawa kulupu pi jan lili. lukin la ona li wile awen li wile ala pana; taso nasin pi mi mute li pana e pilin ni tawa ona: ike li kama ken. lon pini la ona li pali e wile mi mute.",
+  "notes": "nimi “struck” li toki e ni: ona li pini e utala li pali e wile kulupu; ona li utala sijelo ala.",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 489,
+    "output_tokens_details": {
+      "reasoning_tokens": 334
+    },
+    "total_tokens": 3287
+  },
+  "success": true
+}

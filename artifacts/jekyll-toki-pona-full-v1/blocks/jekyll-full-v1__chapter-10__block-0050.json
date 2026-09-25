@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0050",
+  "sourceHash": "ccec9e8afbee2ded3a1a2c19a73fd856f8e7064084d0d2eb73b4bfc4dab87429",
+  "source": "It was in vain I looked about me; in vain I saw the decent furniture and tall proportions of my room in the square; in vain that I recognised the pattern of the bed-curtains and the design of the mahogany frame; something still kept insisting that I was not where I was, that I had not wakened where I seemed to be, but in the little room in Soho where I was accustomed to sleep in the body of Edward Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

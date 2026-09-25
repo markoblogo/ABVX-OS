@@ -1,0 +1,44 @@
+{
+  "benchmark": "PICTIQ_NARRATIVE_BENCHMARK_V1",
+  "status": "briefs_only",
+  "rules": {
+    "no_generated_art": true,
+    "no_vocab_changes": true,
+    "no_manuscript_changes": true,
+    "overlay": "verified canonical SVG assets only"
+  },
+  "scenes": [
+    {
+      "book": "Jekyll & Hyde",
+      "scene_id": "J-2",
+      "placement_restriction": "POST-REVEAL ONLY",
+      "selected": true,
+      "relations": ["witness knowledge", "transformation", "identity continuity", "withheld testimony"],
+      "change_candidates": ["same entity across transformation", "witness knows but does not disclose"],
+      "panels": [
+        {"n": 1, "meaning": "Lanyon observes Jekyll", "pictiq": ["person_generic", "eye_look", "rel_here"], "density": "medium", "canonicality": "canonical plus contextual identity"},
+        {"n": 2, "meaning": "Jekyll initiates change", "pictiq": ["eye_look", "action_change", "person_generic", "time"], "density": "medium", "canonicality": "canonical"},
+        {"n": 3, "meaning": "matched body changes; witness recoils", "pictiq": ["action_change", "person_generic", "punct_question"], "density": "high", "canonicality": "identity continuity is compositional"},
+        {"n": 4, "meaning": "Hyde present; Lanyon cannot safely name it", "pictiq": ["eye_look", "person_generic", "punct_question"], "density": "low", "canonicality": "uncertainty approximate"},
+        {"n": 5, "meaning": "Lanyon writes and seals account", "pictiq": ["action_write", "media_text", "rel_here", "logic_no", "comm_speak"], "density": "medium", "canonicality": "document canonical; secrecy approximate"}
+      ],
+      "overlays": ["person_generic.svg", "eye_look.svg", "action_change.svg", "media_text.svg", "action_write.svg", "punct_question.svg", "logic_no.svg", "rel_here.svg", "time.svg"]
+    },
+    {
+      "book": "No Further Claims / Bracken Ford",
+      "scene_id": "B-1",
+      "selected": true,
+      "relations": ["observation", "inference", "rumor", "official record", "deliberate ambiguity"],
+      "change_candidates": ["evidential uncertainty", "rumor transmission", "official record/correction", "causality"],
+      "panels": [
+        {"n": 1, "meaning": "physical event at regulator", "pictiq": ["nature_animal", "place_gas", "person_generic", "eye_look"], "density": "medium", "canonicality": "canonical plus drawn species"},
+        {"n": 2, "meaning": "Mrs Bell sees a subset and infers danger", "pictiq": ["eye_look", "place_gas", "punct_question", "comm_speak"], "density": "medium", "canonicality": "inference approximate"},
+        {"n": 3, "meaning": "shop crowd turns facts into rumor", "pictiq": ["comm_speak", "nature_animal", "person_generic", "punct_question", "media_text"], "density": "high", "canonicality": "rumor approximate"},
+        {"n": 4, "meaning": "police and utility establish narrower account", "pictiq": ["safety_police", "place_gas", "media_text", "action_write", "punct_question"], "density": "medium", "canonicality": "authority drawn; objects canonical"},
+        {"n": 5, "meaning": "official record and public story coexist", "pictiq": ["media_text", "rel_here", "logic_no", "state_dead"], "density": "high", "canonicality": "correction and causality approximate"}
+      ],
+      "overlays": ["nature_animal.svg", "place_gas.svg", "person_generic.svg", "eye_look.svg", "punct_question.svg", "comm_speak.svg", "media_text.svg", "safety_police.svg", "action_write.svg", "state_dead.svg", "rel_here.svg", "time.svg"]
+    }
+  ],
+  "compositing": "Generate art without symbols; overlay canonical SVGs in a separate pass; evaluate blind before guide-informed questions."
+}

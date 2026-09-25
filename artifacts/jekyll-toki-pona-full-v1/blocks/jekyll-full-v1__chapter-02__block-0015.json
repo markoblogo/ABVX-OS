@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0015",
+  "sourceHash": "8701ccb5488dc9a33c2a0ecfa256e4d89f593046b95bea09882a4a51089099c3",
+  "source": "Six o’clock struck on the bells of the church that was so conveniently near to Mr. Utterson’s dwelling, and still he was digging at the problem. Hitherto it had touched him on the intellectual side alone; but now his imagination also was engaged, or rather enslaved; and as he lay and tossed in the gross darkness of the night and the curtained room, Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_001d3c219b6664d6016ab4272bb72887d29f5ba12b2c062213",
+      "visibleOutput": "TRANSLATION: ilo kalama pi tomo sewi poka li kalama luka wan. tomo sewi ni li lon poka pona pi tomo jan Utason. taso jan Utason li awen alasa sona e pakala ni. lon tenpo pini la, ona li kepeken taso sona pi lawa ona tawa ni. taso lon tenpo ni la, lukin insa ona kin li kama pali, anu pona la, ni li lawa wawa e ona. lon pimeja mute pi tenpo mun la, ona li supa lon tomo. len li pini e lupa lukin tomo. ona li ante e nasin sijelo ona lon tenpo mute. jan—\nNOTES: Source block ends mid-title (“Mr.”); translation preserves the abrupt cutoff without supplying a name.",
+      "translation": "ilo kalama pi tomo sewi poka li kalama luka wan. tomo sewi ni li lon poka pona pi tomo jan Utason. taso jan Utason li awen alasa sona e pakala ni. lon tenpo pini la, ona li kepeken taso sona pi lawa ona tawa ni. taso lon tenpo ni la, lukin insa ona kin li kama pali, anu pona la, ni li lawa wawa e ona. lon pimeja mute pi tenpo mun la, ona li supa lon tomo. len li pini e lupa lukin tomo. ona li ante e nasin sijelo ona lon tenpo mute. jan—",
+      "notes": "Source block ends mid-title (“Mr.”); translation preserves the abrupt cutoff without supplying a name.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 420,
+        "output_tokens_details": {
+          "reasoning_tokens": 250
+        },
+        "total_tokens": 3237
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_001d3c219b6664d6016ab4272bb72887d29f5ba12b2c062213",
+  "visibleOutput": "TRANSLATION: ilo kalama pi tomo sewi poka li kalama luka wan. tomo sewi ni li lon poka pona pi tomo jan Utason. taso jan Utason li awen alasa sona e pakala ni. lon tenpo pini la, ona li kepeken taso sona pi lawa ona tawa ni. taso lon tenpo ni la, lukin insa ona kin li kama pali, anu pona la, ni li lawa wawa e ona. lon pimeja mute pi tenpo mun la, ona li supa lon tomo. len li pini e lupa lukin tomo. ona li ante e nasin sijelo ona lon tenpo mute. jan—\nNOTES: Source block ends mid-title (“Mr.”); translation preserves the abrupt cutoff without supplying a name.",
+  "translation": "ilo kalama pi tomo sewi poka li kalama luka wan. tomo sewi ni li lon poka pona pi tomo jan Utason. taso jan Utason li awen alasa sona e pakala ni. lon tenpo pini la, ona li kepeken taso sona pi lawa ona tawa ni. taso lon tenpo ni la, lukin insa ona kin li kama pali, anu pona la, ni li lawa wawa e ona. lon pimeja mute pi tenpo mun la, ona li supa lon tomo. len li pini e lupa lukin tomo. ona li ante e nasin sijelo ona lon tenpo mute. jan—",
+  "notes": "Source block ends mid-title (“Mr.”); translation preserves the abrupt cutoff without supplying a name.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 420,
+    "output_tokens_details": {
+      "reasoning_tokens": 250
+    },
+    "total_tokens": 3237
+  },
+  "success": true
+}

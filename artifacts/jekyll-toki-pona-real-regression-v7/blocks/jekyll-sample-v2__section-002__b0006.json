@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0006",
+  "sourceText": "“I thought it was madness,” he said, as he replaced the obnoxious paper in the safe, “and now I begin to fear it is disgrace.”",
+  "sourceHash": "e02c12571025c2c916565ed794924c32f7621c3478ee05579b99e310eb4ced59",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06658b4dba7f42d0016ab41d33abb887d2b53985b83d927318",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”\nNOTES: NONE",
+      "translation": "“mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2802,
+        "input_tokens_details": {
+          "cache_write_tokens": 2799,
+          "cached_tokens": 0
+        },
+        "output_tokens": 396,
+        "output_tokens_details": {
+          "reasoning_tokens": 321
+        },
+        "total_tokens": 3198
+      },
+      "elapsedMs": 9297
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_06658b4dba7f42d0016ab41d33abb887d2b53985b83d927318",
+  "visibleOutput": "TRANSLATION: “mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”\nNOTES: NONE",
+  "translation": "“mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2802,
+    "input_tokens_details": {
+      "cache_write_tokens": 2799,
+      "cached_tokens": 0
+    },
+    "output_tokens": 396,
+    "output_tokens_details": {
+      "reasoning_tokens": 321
+    },
+    "total_tokens": 3198
+  },
+  "success": true
+}

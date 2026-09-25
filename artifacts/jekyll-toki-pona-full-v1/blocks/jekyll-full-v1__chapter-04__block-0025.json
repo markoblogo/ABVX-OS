@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0025",
+  "sourceHash": "d634c14a7152e65d8df030839cd1daf632a137357fe058f337935a699f0642be",
+  "source": "Mr. Utterson and the inspector exchanged glances. “He don’t seem a very popular character,” observed the latter. “And now, my good woman, just let me and this gentleman have a look about us.” In the whole extent of the house, which but for the old woman remained otherwise empty, Mr. Hyde had only used a couple of rooms; but these were furnished with luxury and good taste.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0315bbd999e637ff016ab42b2cf6f487d2a85469d350d12818",
+      "visibleOutput": "TRANSLATION: jan Utason en jan pi lawa alasa li lukin tawa sinpin pi ante. jan pi lawa alasa li toki e ni: “lukin la, jan ni li pona ala tawa jan mute.” ona li toki sin e ni: “jan meli pona o, o pana e ken tawa mi en jan ni. mi tu o lukin lon tomo ni.” lon tomo suli ale la, jan meli majuna taso li lon. jan ante ala li lon. jan Hata li kepeken taso e tomo tu. taso, ilo tomo pi mani mute li lon tomo tu ni, li pona lukin tan nasin pona.\nNOTES: “He don’t seem” remains an observer-bound impression, not a fact.",
+      "translation": "jan Utason en jan pi lawa alasa li lukin tawa sinpin pi ante. jan pi lawa alasa li toki e ni: “lukin la, jan ni li pona ala tawa jan mute.” ona li toki sin e ni: “jan meli pona o, o pana e ken tawa mi en jan ni. mi tu o lukin lon tomo ni.” lon tomo suli ale la, jan meli majuna taso li lon. jan ante ala li lon. jan Hata li kepeken taso e tomo tu. taso, ilo tomo pi mani mute li lon tomo tu ni, li pona lukin tan nasin pona.",
+      "notes": "“He don’t seem” remains an observer-bound impression, not a fact.",
+      "usage": {
+        "input_tokens": 2834,
+        "input_tokens_details": {
+          "cache_write_tokens": 2831,
+          "cached_tokens": 0
+        },
+        "output_tokens": 605,
+        "output_tokens_details": {
+          "reasoning_tokens": 440
+        },
+        "total_tokens": 3439
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0315bbd999e637ff016ab42b2cf6f487d2a85469d350d12818",
+  "visibleOutput": "TRANSLATION: jan Utason en jan pi lawa alasa li lukin tawa sinpin pi ante. jan pi lawa alasa li toki e ni: “lukin la, jan ni li pona ala tawa jan mute.” ona li toki sin e ni: “jan meli pona o, o pana e ken tawa mi en jan ni. mi tu o lukin lon tomo ni.” lon tomo suli ale la, jan meli majuna taso li lon. jan ante ala li lon. jan Hata li kepeken taso e tomo tu. taso, ilo tomo pi mani mute li lon tomo tu ni, li pona lukin tan nasin pona.\nNOTES: “He don’t seem” remains an observer-bound impression, not a fact.",
+  "translation": "jan Utason en jan pi lawa alasa li lukin tawa sinpin pi ante. jan pi lawa alasa li toki e ni: “lukin la, jan ni li pona ala tawa jan mute.” ona li toki sin e ni: “jan meli pona o, o pana e ken tawa mi en jan ni. mi tu o lukin lon tomo ni.” lon tomo suli ale la, jan meli majuna taso li lon. jan ante ala li lon. jan Hata li kepeken taso e tomo tu. taso, ilo tomo pi mani mute li lon tomo tu ni, li pona lukin tan nasin pona.",
+  "notes": "“He don’t seem” remains an observer-bound impression, not a fact.",
+  "usage": {
+    "input_tokens": 2834,
+    "input_tokens_details": {
+      "cache_write_tokens": 2831,
+      "cached_tokens": 0
+    },
+    "output_tokens": 605,
+    "output_tokens_details": {
+      "reasoning_tokens": 440
+    },
+    "total_tokens": 3439
+  },
+  "success": true
+}

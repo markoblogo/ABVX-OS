@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0010",
+  "sourceHash": "4033b33e734833dd5b9ace7ebf320a933e98000a6df00056c8efe375d28d0b7f",
+  "source": "“You fear, I suppose, that it might lead to his detection?” asked the lawyer. “No,” said the other. “I cannot say that I care what becomes of Hyde; I am quite done with him. I was thinking of my own character, which this hateful business has rather exposed.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_035ab0e06be59286016ab42bfbdbc487d2a082efd67caadc6f",
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “ken la sina monsuta e ni: tan ni la, jan li ken kama sona e ma jan Hata. anu seme?” jan ante li toki: “ala. mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. mi pini ale e pali mi lon ona. mi pilin e nimi pona mi taso. ijo ike ni li open e nimi pona mi tawa toki ike pi jan mute.”\nNOTES: “Detection” is rendered as others possibly learning Hyde’s whereabouts; the possibility and Jekyll’s concern about reputation remain non-factual.",
+      "translation": "jan pi sona lawa li toki e ni: “ken la sina monsuta e ni: tan ni la, jan li ken kama sona e ma jan Hata. anu seme?” jan ante li toki: “ala. mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. mi pini ale e pali mi lon ona. mi pilin e nimi pona mi taso. ijo ike ni li open e nimi pona mi tawa toki ike pi jan mute.”",
+      "notes": "“Detection” is rendered as others possibly learning Hyde’s whereabouts; the possibility and Jekyll’s concern about reputation remain non-factual.",
+      "usage": {
+        "input_tokens": 2806,
+        "input_tokens_details": {
+          "cache_write_tokens": 2803,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1114,
+        "output_tokens_details": {
+          "reasoning_tokens": 973
+        },
+        "total_tokens": 3920
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_035ab0e06be59286016ab42bfbdbc487d2a082efd67caadc6f",
+  "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “ken la sina monsuta e ni: tan ni la, jan li ken kama sona e ma jan Hata. anu seme?” jan ante li toki: “ala. mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. mi pini ale e pali mi lon ona. mi pilin e nimi pona mi taso. ijo ike ni li open e nimi pona mi tawa toki ike pi jan mute.”\nNOTES: “Detection” is rendered as others possibly learning Hyde’s whereabouts; the possibility and Jekyll’s concern about reputation remain non-factual.",
+  "translation": "jan pi sona lawa li toki e ni: “ken la sina monsuta e ni: tan ni la, jan li ken kama sona e ma jan Hata. anu seme?” jan ante li toki: “ala. mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. mi pini ale e pali mi lon ona. mi pilin e nimi pona mi taso. ijo ike ni li open e nimi pona mi tawa toki ike pi jan mute.”",
+  "notes": "“Detection” is rendered as others possibly learning Hyde’s whereabouts; the possibility and Jekyll’s concern about reputation remain non-factual.",
+  "usage": {
+    "input_tokens": 2806,
+    "input_tokens_details": {
+      "cache_write_tokens": 2803,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1114,
+    "output_tokens_details": {
+      "reasoning_tokens": 973
+    },
+    "total_tokens": 3920
+  },
+  "success": true
+}

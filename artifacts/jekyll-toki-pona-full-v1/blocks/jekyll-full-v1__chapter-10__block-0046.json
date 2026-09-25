@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0046",
+  "sourceHash": "c574c95485ef5bdfa2aec20edc08a57298425417974d10005368dbe468e8ae29",
+  "source": "And thus his conscience slumbered. Into the details of the infamy at which I thus connived (for even now I can scarce grant that I committed it) I have no design of entering; I mean but to point out the warnings and the successive steps with which my chastisement approached. I met with one accident which, as it brought on no consequence, I shall no more than mention.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0029",
+  "sourceHash": "0982a391ef06a98a7f71770c3ce950083fe73aec5224fac9d07db131ec56e27a",
+  "source": "But he was quite easy and sneering. ‘Set your mind at rest,’ says he, ‘I will stay with you till the banks open and cash the cheque myself.’ So we all set off, the doctor, and the child’s father, and our friend and myself, and passed the rest of the night in my chambers; and next day, when we had breakfasted, went in a body to the bank.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_008eb2644dc18084016ab425c3d64c87d2ace8deb3c290fe7c",
+      "visibleOutput": "TRANSLATION: taso ona li pilin pona li toki musi ike. ona li toki e ni: “o pilin pona. mi awen lon poka sina tawa tenpo ni: tomo mani li open. la mi kama jo e mani tan lipu mani ni kepeken mi taso.” ni la mi mute ale li tawa: jan pi sona sijelo en mama mije pi jan lili en jan pona ni pi mi mute en mi. lon tenpo pimeja ni awen la mi mute li awen lon tomo mi. lon suno kama la mi mute li moku. moku pini la mi mute ale li tawa poka tawa tomo mani.\nNOTES: nimi “jan pona ni pi mi mute” li awen e nasin toki pi “our friend”; ona li pana ala e sona sin pi jan ni.",
+      "translation": "taso ona li pilin pona li toki musi ike. ona li toki e ni: “o pilin pona. mi awen lon poka sina tawa tenpo ni: tomo mani li open. la mi kama jo e mani tan lipu mani ni kepeken mi taso.” ni la mi mute ale li tawa: jan pi sona sijelo en mama mije pi jan lili en jan pona ni pi mi mute en mi. lon tenpo pimeja ni awen la mi mute li awen lon tomo mi. lon suno kama la mi mute li moku. moku pini la mi mute ale li tawa poka tawa tomo mani.",
+      "notes": "nimi “jan pona ni pi mi mute” li awen e nasin toki pi “our friend”; ona li pana ala e sona sin pi jan ni.",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 434,
+        "output_tokens_details": {
+          "reasoning_tokens": 252
+        },
+        "total_tokens": 3264
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_008eb2644dc18084016ab425c3d64c87d2ace8deb3c290fe7c",
+  "visibleOutput": "TRANSLATION: taso ona li pilin pona li toki musi ike. ona li toki e ni: “o pilin pona. mi awen lon poka sina tawa tenpo ni: tomo mani li open. la mi kama jo e mani tan lipu mani ni kepeken mi taso.” ni la mi mute ale li tawa: jan pi sona sijelo en mama mije pi jan lili en jan pona ni pi mi mute en mi. lon tenpo pimeja ni awen la mi mute li awen lon tomo mi. lon suno kama la mi mute li moku. moku pini la mi mute ale li tawa poka tawa tomo mani.\nNOTES: nimi “jan pona ni pi mi mute” li awen e nasin toki pi “our friend”; ona li pana ala e sona sin pi jan ni.",
+  "translation": "taso ona li pilin pona li toki musi ike. ona li toki e ni: “o pilin pona. mi awen lon poka sina tawa tenpo ni: tomo mani li open. la mi kama jo e mani tan lipu mani ni kepeken mi taso.” ni la mi mute ale li tawa: jan pi sona sijelo en mama mije pi jan lili en jan pona ni pi mi mute en mi. lon tenpo pimeja ni awen la mi mute li awen lon tomo mi. lon suno kama la mi mute li moku. moku pini la mi mute ale li tawa poka tawa tomo mani.",
+  "notes": "nimi “jan pona ni pi mi mute” li awen e nasin toki pi “our friend”; ona li pana ala e sona sin pi jan ni.",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 434,
+    "output_tokens_details": {
+      "reasoning_tokens": 252
+    },
+    "total_tokens": 3264
+  },
+  "success": true
+}

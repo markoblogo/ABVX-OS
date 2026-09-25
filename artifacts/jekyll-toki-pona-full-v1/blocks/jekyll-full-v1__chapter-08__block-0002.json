@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0002",
+  "sourceHash": "6becefbf4d0a2b8cdbd617a65a29143e82a86c36b8a286b7b9914df2017e1a9a",
+  "source": "“Take a seat, and here is a glass of wine for you,” said the lawyer. “Now, take your time, and tell me plainly what you want.” “You know the doctor’s ways, sir,” replied Poole, “and how he shuts himself up. Well, he’s shut up again in the cabinet; and I don’t like it, sir—I wish I may die if I like it. Mr. Utterson, sir, I’m afraid.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0dd6b89725903cce016ab42f0d00e887d2ab6bc4090a497d2d",
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “o awen lon supa. telo nasa ni li tawa sina. o kepeken tenpo sina. o toki pona e wile sina tawa mi.” jan Pulu li toki e ni: “sina sona e nasin pi jan Jekil pi sona sijelo. sina sona e ni: ona li awen wan lon tomo, li pini e nasin tawa ona. tenpo ni la ona li awen sin lon tomo insa pi jan Jekil. mi pilin ike mute tan ni. mi toki lon: mi pilin pona ala tan ni. jan Utason o, mi pilin monsuta.”\nNOTES: “I wish I may die if I like it” is rendered as emphatic truthfulness, not a literal death wish.",
+      "translation": "jan pi sona lawa li toki e ni: “o awen lon supa. telo nasa ni li tawa sina. o kepeken tenpo sina. o toki pona e wile sina tawa mi.” jan Pulu li toki e ni: “sina sona e nasin pi jan Jekil pi sona sijelo. sina sona e ni: ona li awen wan lon tomo, li pini e nasin tawa ona. tenpo ni la ona li awen sin lon tomo insa pi jan Jekil. mi pilin ike mute tan ni. mi toki lon: mi pilin pona ala tan ni. jan Utason o, mi pilin monsuta.”",
+      "notes": "“I wish I may die if I like it” is rendered as emphatic truthfulness, not a literal death wish.",
+      "usage": {
+        "input_tokens": 2831,
+        "input_tokens_details": {
+          "cache_write_tokens": 2828,
+          "cached_tokens": 0
+        },
+        "output_tokens": 288,
+        "output_tokens_details": {
+          "reasoning_tokens": 109
+        },
+        "total_tokens": 3119
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0dd6b89725903cce016ab42f0d00e887d2ab6bc4090a497d2d",
+  "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “o awen lon supa. telo nasa ni li tawa sina. o kepeken tenpo sina. o toki pona e wile sina tawa mi.” jan Pulu li toki e ni: “sina sona e nasin pi jan Jekil pi sona sijelo. sina sona e ni: ona li awen wan lon tomo, li pini e nasin tawa ona. tenpo ni la ona li awen sin lon tomo insa pi jan Jekil. mi pilin ike mute tan ni. mi toki lon: mi pilin pona ala tan ni. jan Utason o, mi pilin monsuta.”\nNOTES: “I wish I may die if I like it” is rendered as emphatic truthfulness, not a literal death wish.",
+  "translation": "jan pi sona lawa li toki e ni: “o awen lon supa. telo nasa ni li tawa sina. o kepeken tenpo sina. o toki pona e wile sina tawa mi.” jan Pulu li toki e ni: “sina sona e nasin pi jan Jekil pi sona sijelo. sina sona e ni: ona li awen wan lon tomo, li pini e nasin tawa ona. tenpo ni la ona li awen sin lon tomo insa pi jan Jekil. mi pilin ike mute tan ni. mi toki lon: mi pilin pona ala tan ni. jan Utason o, mi pilin monsuta.”",
+  "notes": "“I wish I may die if I like it” is rendered as emphatic truthfulness, not a literal death wish.",
+  "usage": {
+    "input_tokens": 2831,
+    "input_tokens_details": {
+      "cache_write_tokens": 2828,
+      "cached_tokens": 0
+    },
+    "output_tokens": 288,
+    "output_tokens_details": {
+      "reasoning_tokens": 109
+    },
+    "total_tokens": 3119
+  },
+  "success": true
+}

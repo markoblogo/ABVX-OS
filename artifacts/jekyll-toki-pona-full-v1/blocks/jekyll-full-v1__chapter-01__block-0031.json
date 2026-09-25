@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0031",
+  "sourceHash": "94730ba250d5732885a45131229b553d8fad030ff7e4bcfed43bdf90295f718d",
+  "source": "For my man was a fellow that nobody could have to do with, a really damnable man; and the person that drew the cheque is the very pink of the proprieties, celebrated too, and (what makes it worse) one of your fellows who do what they call good. Black-mail, I suppose; an honest man paying through the nose for some of the capers of his youth.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0629fb7702d6fb72016ab425d60f6487d28ee960fcb292a027",
+      "visibleOutput": "TRANSLATION: tan ni: jan ni li jan pi wile ala pi jan ale. mi la, ona li jan ike mute a. taso jan ante li sitelen e lipu mani. jan ante ni li pona mute lon nasin pi jan lawa, li jo e nimi suli kin. ike li suli tan ni: ona li wan tan kulupu sina pi jan pali e ijo ni: jan li toki e ni kepeken nimi “pona.” mi pilin e ni: jan ni li pana mani tan ni: jan ike li ken toki lon ma ale e pali nasa ona lon tenpo ona pi jan lili. jan pi nasin pona li pana e mani mute tan pali nasa pi tenpo ona pini.\nNOTES: “Black-mail, I suppose” is retained as the speaker’s inference, not fact; idioms are rendered by meaning.",
+      "translation": "tan ni: jan ni li jan pi wile ala pi jan ale. mi la, ona li jan ike mute a. taso jan ante li sitelen e lipu mani. jan ante ni li pona mute lon nasin pi jan lawa, li jo e nimi suli kin. ike li suli tan ni: ona li wan tan kulupu sina pi jan pali e ijo ni: jan li toki e ni kepeken nimi “pona.” mi pilin e ni: jan ni li pana mani tan ni: jan ike li ken toki lon ma ale e pali nasa ona lon tenpo ona pi jan lili. jan pi nasin pona li pana e mani mute tan pali nasa pi tenpo ona pini.",
+      "notes": "“Black-mail, I suppose” is retained as the speaker’s inference, not fact; idioms are rendered by meaning.",
+      "usage": {
+        "input_tokens": 2816,
+        "input_tokens_details": {
+          "cache_write_tokens": 2813,
+          "cached_tokens": 0
+        },
+        "output_tokens": 267,
+        "output_tokens_details": {
+          "reasoning_tokens": 85
+        },
+        "total_tokens": 3083
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0629fb7702d6fb72016ab425d60f6487d28ee960fcb292a027",
+  "visibleOutput": "TRANSLATION: tan ni: jan ni li jan pi wile ala pi jan ale. mi la, ona li jan ike mute a. taso jan ante li sitelen e lipu mani. jan ante ni li pona mute lon nasin pi jan lawa, li jo e nimi suli kin. ike li suli tan ni: ona li wan tan kulupu sina pi jan pali e ijo ni: jan li toki e ni kepeken nimi “pona.” mi pilin e ni: jan ni li pana mani tan ni: jan ike li ken toki lon ma ale e pali nasa ona lon tenpo ona pi jan lili. jan pi nasin pona li pana e mani mute tan pali nasa pi tenpo ona pini.\nNOTES: “Black-mail, I suppose” is retained as the speaker’s inference, not fact; idioms are rendered by meaning.",
+  "translation": "tan ni: jan ni li jan pi wile ala pi jan ale. mi la, ona li jan ike mute a. taso jan ante li sitelen e lipu mani. jan ante ni li pona mute lon nasin pi jan lawa, li jo e nimi suli kin. ike li suli tan ni: ona li wan tan kulupu sina pi jan pali e ijo ni: jan li toki e ni kepeken nimi “pona.” mi pilin e ni: jan ni li pana mani tan ni: jan ike li ken toki lon ma ale e pali nasa ona lon tenpo ona pi jan lili. jan pi nasin pona li pana e mani mute tan pali nasa pi tenpo ona pini.",
+  "notes": "“Black-mail, I suppose” is retained as the speaker’s inference, not fact; idioms are rendered by meaning.",
+  "usage": {
+    "input_tokens": 2816,
+    "input_tokens_details": {
+      "cache_write_tokens": 2813,
+      "cached_tokens": 0
+    },
+    "output_tokens": 267,
+    "output_tokens_details": {
+      "reasoning_tokens": 85
+    },
+    "total_tokens": 3083
+  },
+  "success": true
+}

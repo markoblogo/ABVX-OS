@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0024",
+  "sourceHash": "87a39b506fe43098d3d90a8947cc5ee31d4c4d4b5ffe6aed8bd03b677ed1b9b8",
+  "source": "The clerk, besides, was a man of counsel; he would scarce read so strange a document without dropping a remark; and by that remark Mr. Utterson might shape his future course. “This is a sad business about Sir Danvers,” he said. “Yes, sir, indeed. It has elicited a great deal of public feeling,” returned Guest. “The man, of course, was mad.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_018ec3d6c6214e34016ab42cc3912c87d2be6d06b10e36b99b",
+      "visibleOutput": "TRANSLATION: kin la, jan pi pali lipu li jan pi sona nasin. ken lili la, ona li lukin e lipu nasa ni, li toki ala e pilin ona. tan toki ona la, jan Utason li ken ante e nasin pali ona pi tenpo kama. jan Utason li toki e ni: “ijo pi jan Kewi li ike pilin mute.” jan Kesu li toki sin e ni: “lon, jan lawa o. ni li pana e pilin wawa tawa jan mute. sona la, jan ni li nasa.”  \nNOTES: “jan ni li nasa” remains Guest’s judgment, not narrator fact.",
+      "translation": "kin la, jan pi pali lipu li jan pi sona nasin. ken lili la, ona li lukin e lipu nasa ni, li toki ala e pilin ona. tan toki ona la, jan Utason li ken ante e nasin pali ona pi tenpo kama. jan Utason li toki e ni: “ijo pi jan Kewi li ike pilin mute.” jan Kesu li toki sin e ni: “lon, jan lawa o. ni li pana e pilin wawa tawa jan mute. sona la, jan ni li nasa.”",
+      "notes": "“jan ni li nasa” remains Guest’s judgment, not narrator fact.",
+      "usage": {
+        "input_tokens": 2819,
+        "input_tokens_details": {
+          "cache_write_tokens": 2816,
+          "cached_tokens": 0
+        },
+        "output_tokens": 342,
+        "output_tokens_details": {
+          "reasoning_tokens": 196
+        },
+        "total_tokens": 3161
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_018ec3d6c6214e34016ab42cc3912c87d2be6d06b10e36b99b",
+  "visibleOutput": "TRANSLATION: kin la, jan pi pali lipu li jan pi sona nasin. ken lili la, ona li lukin e lipu nasa ni, li toki ala e pilin ona. tan toki ona la, jan Utason li ken ante e nasin pali ona pi tenpo kama. jan Utason li toki e ni: “ijo pi jan Kewi li ike pilin mute.” jan Kesu li toki sin e ni: “lon, jan lawa o. ni li pana e pilin wawa tawa jan mute. sona la, jan ni li nasa.”  \nNOTES: “jan ni li nasa” remains Guest’s judgment, not narrator fact.",
+  "translation": "kin la, jan pi pali lipu li jan pi sona nasin. ken lili la, ona li lukin e lipu nasa ni, li toki ala e pilin ona. tan toki ona la, jan Utason li ken ante e nasin pali ona pi tenpo kama. jan Utason li toki e ni: “ijo pi jan Kewi li ike pilin mute.” jan Kesu li toki sin e ni: “lon, jan lawa o. ni li pana e pilin wawa tawa jan mute. sona la, jan ni li nasa.”",
+  "notes": "“jan ni li nasa” remains Guest’s judgment, not narrator fact.",
+  "usage": {
+    "input_tokens": 2819,
+    "input_tokens_details": {
+      "cache_write_tokens": 2816,
+      "cached_tokens": 0
+    },
+    "output_tokens": 342,
+    "output_tokens_details": {
+      "reasoning_tokens": 196
+    },
+    "total_tokens": 3161
+  },
+  "success": true
+}

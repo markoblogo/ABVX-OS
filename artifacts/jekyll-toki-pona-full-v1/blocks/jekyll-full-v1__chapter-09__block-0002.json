@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0002",
+  "sourceHash": "c88fcd4319d4655b630b7a03b447169c900ee7167596662318cff9d97399c25c",
+  "source": "I was a good deal surprised by this; for we were by no means in the habit of correspondence; I had seen the man, dined with him, indeed, the night before; and I could imagine nothing in our intercourse that should justify formality of registration. The contents increased my wonder; for this is how the letter ran: “10th December, 18——",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0eebffcaefb8a218016ab4330fdd3487d2945fb361e5398e99",
+      "visibleOutput": "TRANSLATION: ni la mi kama nasa mute. mi tu li pana lipu tawa ante lon tenpo mute ala. lon pimeja pini taso la mi lukin e jan Jekil, li moku poka ona. lon toki en pali pi mi tu la mi sona ala e ijo ni: tan seme la ona li pana e lipu kepeken nasin lawa suli? toki insa pi lipu li suli e nasa mi. lipu li toki e ni: “tenpo suno nanpa 10 pi mun Desenpa, sike 18——\nNOTES: “registration” is rendered as formal/official mailing procedure without adding unsupported specifics.",
+      "translation": "ni la mi kama nasa mute. mi tu li pana lipu tawa ante lon tenpo mute ala. lon pimeja pini taso la mi lukin e jan Jekil, li moku poka ona. lon toki en pali pi mi tu la mi sona ala e ijo ni: tan seme la ona li pana e lipu kepeken nasin lawa suli? toki insa pi lipu li suli e nasa mi. lipu li toki e ni: “tenpo suno nanpa 10 pi mun Desenpa, sike 18——",
+      "notes": "“registration” is rendered as formal/official mailing procedure without adding unsupported specifics.",
+      "usage": {
+        "input_tokens": 2827,
+        "input_tokens_details": {
+          "cache_write_tokens": 2824,
+          "cached_tokens": 0
+        },
+        "output_tokens": 338,
+        "output_tokens_details": {
+          "reasoning_tokens": 190
+        },
+        "total_tokens": 3165
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0eebffcaefb8a218016ab4330fdd3487d2945fb361e5398e99",
+  "visibleOutput": "TRANSLATION: ni la mi kama nasa mute. mi tu li pana lipu tawa ante lon tenpo mute ala. lon pimeja pini taso la mi lukin e jan Jekil, li moku poka ona. lon toki en pali pi mi tu la mi sona ala e ijo ni: tan seme la ona li pana e lipu kepeken nasin lawa suli? toki insa pi lipu li suli e nasa mi. lipu li toki e ni: “tenpo suno nanpa 10 pi mun Desenpa, sike 18——\nNOTES: “registration” is rendered as formal/official mailing procedure without adding unsupported specifics.",
+  "translation": "ni la mi kama nasa mute. mi tu li pana lipu tawa ante lon tenpo mute ala. lon pimeja pini taso la mi lukin e jan Jekil, li moku poka ona. lon toki en pali pi mi tu la mi sona ala e ijo ni: tan seme la ona li pana e lipu kepeken nasin lawa suli? toki insa pi lipu li suli e nasa mi. lipu li toki e ni: “tenpo suno nanpa 10 pi mun Desenpa, sike 18——",
+  "notes": "“registration” is rendered as formal/official mailing procedure without adding unsupported specifics.",
+  "usage": {
+    "input_tokens": 2827,
+    "input_tokens_details": {
+      "cache_write_tokens": 2824,
+      "cached_tokens": 0
+    },
+    "output_tokens": 338,
+    "output_tokens_details": {
+      "reasoning_tokens": 190
+    },
+    "total_tokens": 3165
+  },
+  "success": true
+}

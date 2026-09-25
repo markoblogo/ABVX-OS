@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0007",
+  "sourceHash": "4e8b0294fafd5d8cfe23c0d43ce7b139c8aadbc41dd364942ebeb02c4ce0d780",
+  "source": "In my extreme distress of wind, I have a morbid fear of misdirecting you; but even if I am in error, you may know the right drawer by its contents: some powders, a phial and a paper book. This drawer I beg of you to carry back with you to Cavendish Square exactly as it stands. “That is the first part of the service: now for the second.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0019ab5241ca4505016ab43353cb0087d28a30edf2f6aaa3d9",
+      "visibleOutput": "TRANSLATION: pilin insa mi li ike mute. mi pilin monsuta mute tan ni: ken la mi pana e nasin ike tawa sina. taso, mi pakala kin la, ken la sina sona e poki insa pona tan ijo lon ona: ko, poki lili pi telo, en kulupu lipu. mi toki wile mute tawa sina: o jo e poki insa ni lon nasin sama taso, o pana e ona tawa ma Kawenti. “ni li kipisi nanpa wan pi pali pona ni. tenpo ni la, o pali e kipisi nanpa tu.”\nNOTES: “paper book” is rendered generically as a set of pages; the powders and phial remain chemically unspecified.",
+      "translation": "pilin insa mi li ike mute. mi pilin monsuta mute tan ni: ken la mi pana e nasin ike tawa sina. taso, mi pakala kin la, ken la sina sona e poki insa pona tan ijo lon ona: ko, poki lili pi telo, en kulupu lipu. mi toki wile mute tawa sina: o jo e poki insa ni lon nasin sama taso, o pana e ona tawa ma Kawenti. “ni li kipisi nanpa wan pi pali pona ni. tenpo ni la, o pali e kipisi nanpa tu.”",
+      "notes": "“paper book” is rendered generically as a set of pages; the powders and phial remain chemically unspecified.",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 563,
+        "output_tokens_details": {
+          "reasoning_tokens": 396
+        },
+        "total_tokens": 3387
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0019ab5241ca4505016ab43353cb0087d28a30edf2f6aaa3d9",
+  "visibleOutput": "TRANSLATION: pilin insa mi li ike mute. mi pilin monsuta mute tan ni: ken la mi pana e nasin ike tawa sina. taso, mi pakala kin la, ken la sina sona e poki insa pona tan ijo lon ona: ko, poki lili pi telo, en kulupu lipu. mi toki wile mute tawa sina: o jo e poki insa ni lon nasin sama taso, o pana e ona tawa ma Kawenti. “ni li kipisi nanpa wan pi pali pona ni. tenpo ni la, o pali e kipisi nanpa tu.”\nNOTES: “paper book” is rendered generically as a set of pages; the powders and phial remain chemically unspecified.",
+  "translation": "pilin insa mi li ike mute. mi pilin monsuta mute tan ni: ken la mi pana e nasin ike tawa sina. taso, mi pakala kin la, ken la sina sona e poki insa pona tan ijo lon ona: ko, poki lili pi telo, en kulupu lipu. mi toki wile mute tawa sina: o jo e poki insa ni lon nasin sama taso, o pana e ona tawa ma Kawenti. “ni li kipisi nanpa wan pi pali pona ni. tenpo ni la, o pali e kipisi nanpa tu.”",
+  "notes": "“paper book” is rendered generically as a set of pages; the powders and phial remain chemically unspecified.",
+  "usage": {
+    "input_tokens": 2824,
+    "input_tokens_details": {
+      "cache_write_tokens": 2821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 563,
+    "output_tokens_details": {
+      "reasoning_tokens": 396
+    },
+    "total_tokens": 3387
+  },
+  "success": true
+}

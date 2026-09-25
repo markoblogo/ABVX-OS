@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0034",
+  "sourceHash": "fd9c291cc46475ccae66a0228f731b485006a010f40fa7e519c36ada2472bd97",
+  "source": "You start a question, and it’s like starting a stone. You sit quietly on the top of a hill; and away the stone goes, starting others; and presently some bland old bird (the last you would have thought of) is knocked on the head in his own back-garden and the family have to change their name.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d29b5cd968a5eda016ab426037c7c87d28a281292f02e7c09",
+      "visibleOutput": "TRANSLATION: sina open e wile sona la, ni li sama open e tawa pi kiwen sike. sina awen taso lon sewi nena. taso kiwen li tawa anpa, li open e tawa pi kiwen ante. tenpo lili la, kiwen wan li pakala e lawa pi jan majuna pi ike ala lon ma kasi monsi pi tomo ona—sina pilin ala mute e ken ni. tan ni la, kulupu mama ona li ken ala awen kepeken nimi ona, li wile ante e ni.\n\nNOTES: “old bird” is rendered as a harmless old person; the rolling-stone metaphor and unexpected social consequence are preserved.",
+      "translation": "sina open e wile sona la, ni li sama open e tawa pi kiwen sike. sina awen taso lon sewi nena. taso kiwen li tawa anpa, li open e tawa pi kiwen ante. tenpo lili la, kiwen wan li pakala e lawa pi jan majuna pi ike ala lon ma kasi monsi pi tomo ona—sina pilin ala mute e ken ni. tan ni la, kulupu mama ona li ken ala awen kepeken nimi ona, li wile ante e ni.",
+      "notes": "“old bird” is rendered as a harmless old person; the rolling-stone metaphor and unexpected social consequence are preserved.",
+      "usage": {
+        "input_tokens": 2803,
+        "input_tokens_details": {
+          "cache_write_tokens": 2800,
+          "cached_tokens": 0
+        },
+        "output_tokens": 312,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 3115
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d29b5cd968a5eda016ab426037c7c87d28a281292f02e7c09",
+  "visibleOutput": "TRANSLATION: sina open e wile sona la, ni li sama open e tawa pi kiwen sike. sina awen taso lon sewi nena. taso kiwen li tawa anpa, li open e tawa pi kiwen ante. tenpo lili la, kiwen wan li pakala e lawa pi jan majuna pi ike ala lon ma kasi monsi pi tomo ona—sina pilin ala mute e ken ni. tan ni la, kulupu mama ona li ken ala awen kepeken nimi ona, li wile ante e ni.\n\nNOTES: “old bird” is rendered as a harmless old person; the rolling-stone metaphor and unexpected social consequence are preserved.",
+  "translation": "sina open e wile sona la, ni li sama open e tawa pi kiwen sike. sina awen taso lon sewi nena. taso kiwen li tawa anpa, li open e tawa pi kiwen ante. tenpo lili la, kiwen wan li pakala e lawa pi jan majuna pi ike ala lon ma kasi monsi pi tomo ona—sina pilin ala mute e ken ni. tan ni la, kulupu mama ona li ken ala awen kepeken nimi ona, li wile ante e ni.",
+  "notes": "“old bird” is rendered as a harmless old person; the rolling-stone metaphor and unexpected social consequence are preserved.",
+  "usage": {
+    "input_tokens": 2803,
+    "input_tokens_details": {
+      "cache_write_tokens": 2800,
+      "cached_tokens": 0
+    },
+    "output_tokens": 312,
+    "output_tokens_details": {
+      "reasoning_tokens": 157
+    },
+    "total_tokens": 3115
+  },
+  "success": true
+}

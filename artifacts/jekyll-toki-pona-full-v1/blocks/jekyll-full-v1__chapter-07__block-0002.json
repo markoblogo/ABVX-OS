@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0002",
+  "sourceHash": "7b3b514df6fe24d662955cef489d71464ae0b6efe55482141d4afad44225213e",
+  "source": "“I hope not,” said Utterson. “Did I ever tell you that I once saw him, and shared your feeling of repulsion?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_026a4b6f5019c2b7016ab42e9046b887d29b21bb2eb807c419",
+      "visibleOutput": "TRANSLATION: “mi wile e ni: ni li lon ala,” jan Utason li toki. “tenpo pini la, mi toki ala toki tawa sina e ni: tenpo wan la mi lukin e ona, li pilin ike sama sina?”\nNOTES: NONE",
+      "translation": "“mi wile e ni: ni li lon ala,” jan Utason li toki. “tenpo pini la, mi toki ala toki tawa sina e ni: tenpo wan la mi lukin e ona, li pilin ike sama sina?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2764,
+        "input_tokens_details": {
+          "cache_write_tokens": 2761,
+          "cached_tokens": 0
+        },
+        "output_tokens": 238,
+        "output_tokens_details": {
+          "reasoning_tokens": 173
+        },
+        "total_tokens": 3002
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_026a4b6f5019c2b7016ab42e9046b887d29b21bb2eb807c419",
+  "visibleOutput": "TRANSLATION: “mi wile e ni: ni li lon ala,” jan Utason li toki. “tenpo pini la, mi toki ala toki tawa sina e ni: tenpo wan la mi lukin e ona, li pilin ike sama sina?”\nNOTES: NONE",
+  "translation": "“mi wile e ni: ni li lon ala,” jan Utason li toki. “tenpo pini la, mi toki ala toki tawa sina e ni: tenpo wan la mi lukin e ona, li pilin ike sama sina?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2764,
+    "input_tokens_details": {
+      "cache_write_tokens": 2761,
+      "cached_tokens": 0
+    },
+    "output_tokens": 238,
+    "output_tokens_details": {
+      "reasoning_tokens": 173
+    },
+    "total_tokens": 3002
+  },
+  "success": true
+}

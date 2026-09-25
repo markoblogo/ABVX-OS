@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0019",
+  "sourceHash": "c63ae72bd8bc62df51aa46ca0ab7f17bda17267f793183f992446ca994f7f0e4",
+  "source": "And still the figure had no face by which he might know it; even in his dreams, it had no face, or one that baffled him and melted before his eyes; and thus it was that there sprang up and grew apace in the lawyer’s mind a singularly strong, almost an inordinate, curiosity to behold the features of the real Mr. Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bd6c8ed72b319f2016ab4275e4ce087d2bfc2eb9926d57bee",
+      "visibleOutput": "TRANSLATION: taso sijelo jan ni li awen jo ala e sinpin pi ken sona; lon sitelen lape ona kin la, sijelo ni li jo ala e sinpin, anu sinpin ona li nasa e sona ona li kama weka lon lukin ona. tan ni la, wile sona nasa li kama lon lawa pi jan Utason pi sona lawa, li kama wawa mute lon tenpo lili. ona li wile lukin e sinpin pi jan Hata lon, li wile ni pi wawa suli mute, pi poka ike.\nNOTES: “jan Hata lon” preserves the sense of the actual Mr. Hyde without implying any hidden identity relation.",
+      "translation": "taso sijelo jan ni li awen jo ala e sinpin pi ken sona; lon sitelen lape ona kin la, sijelo ni li jo ala e sinpin, anu sinpin ona li nasa e sona ona li kama weka lon lukin ona. tan ni la, wile sona nasa li kama lon lawa pi jan Utason pi sona lawa, li kama wawa mute lon tenpo lili. ona li wile lukin e sinpin pi jan Hata lon, li wile ni pi wawa suli mute, pi poka ike.",
+      "notes": "“jan Hata lon” preserves the sense of the actual Mr. Hyde without implying any hidden identity relation.",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cache_write_tokens": 2820,
+          "cached_tokens": 0
+        },
+        "output_tokens": 336,
+        "output_tokens_details": {
+          "reasoning_tokens": 186
+        },
+        "total_tokens": 3159
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0bd6c8ed72b319f2016ab4275e4ce087d2bfc2eb9926d57bee",
+  "visibleOutput": "TRANSLATION: taso sijelo jan ni li awen jo ala e sinpin pi ken sona; lon sitelen lape ona kin la, sijelo ni li jo ala e sinpin, anu sinpin ona li nasa e sona ona li kama weka lon lukin ona. tan ni la, wile sona nasa li kama lon lawa pi jan Utason pi sona lawa, li kama wawa mute lon tenpo lili. ona li wile lukin e sinpin pi jan Hata lon, li wile ni pi wawa suli mute, pi poka ike.\nNOTES: “jan Hata lon” preserves the sense of the actual Mr. Hyde without implying any hidden identity relation.",
+  "translation": "taso sijelo jan ni li awen jo ala e sinpin pi ken sona; lon sitelen lape ona kin la, sijelo ni li jo ala e sinpin, anu sinpin ona li nasa e sona ona li kama weka lon lukin ona. tan ni la, wile sona nasa li kama lon lawa pi jan Utason pi sona lawa, li kama wawa mute lon tenpo lili. ona li wile lukin e sinpin pi jan Hata lon, li wile ni pi wawa suli mute, pi poka ike.",
+  "notes": "“jan Hata lon” preserves the sense of the actual Mr. Hyde without implying any hidden identity relation.",
+  "usage": {
+    "input_tokens": 2823,
+    "input_tokens_details": {
+      "cache_write_tokens": 2820,
+      "cached_tokens": 0
+    },
+    "output_tokens": 336,
+    "output_tokens_details": {
+      "reasoning_tokens": 186
+    },
+    "total_tokens": 3159
+  },
+  "success": true
+}

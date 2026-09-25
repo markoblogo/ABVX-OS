@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0022",
+  "sourceText": "“Utterson, I swear to God,” cried the doctor, “I swear to God I will never set eyes on him again. I bind my honour to you that I am done with him in this world. It is all at an end. And indeed he does not want my help; you do not know him as I do; he is safe, he is quite safe; mark my words, he will never more be heard of.”",
+  "sourceHash": "becbbc90e0f0b70316b4e05ae9dc3e625cb4f21e554dc22abb56139c339362cb",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_077ae060e7be4e44016ab41de8605487d2b55490e678281e8e",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”\nNOTES: NONE",
+      "translation": "jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2872,
+        "input_tokens_details": {
+          "cache_write_tokens": 2869,
+          "cached_tokens": 0
+        },
+        "output_tokens": 252,
+        "output_tokens_details": {
+          "reasoning_tokens": 115
+        },
+        "total_tokens": 3124
+      },
+      "elapsedMs": 14077
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_077ae060e7be4e44016ab41de8605487d2b55490e678281e8e",
+  "visibleOutput": "TRANSLATION: jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”\nNOTES: NONE",
+  "translation": "jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2872,
+    "input_tokens_details": {
+      "cache_write_tokens": 2869,
+      "cached_tokens": 0
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+      "reasoning_tokens": 115
+    },
+    "total_tokens": 3124
+  },
+  "success": true
+}

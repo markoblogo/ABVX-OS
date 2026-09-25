@@ -69,6 +69,7 @@ ABVX-OS owns local contracts, policy, provenance, decisions, and evidence. Proje
 - [Product vision](docs/product-vision.md) — why this is a Personal Operator rather than a task manager
 - [Professional role routing](docs/professional-role-routing.md) — specialist selection without authority escalation
 - [Ecosystem](docs/ECOSYSTEM.md) — contracts with ID, agentsgen, SET, and ABVX Agent Skills
+- [Book systems learning](ABVX_BOOK_SYSTEMS_LEARNING_V1.md) — append-only learning across Radar, fiction, Toki Pona, and Pictiq experiments
 - [Roadmap](docs/roadmap.md) and [changelog](CHANGELOG.md)
 
 For a fresh agent session, follow the compact read order in [AGENTS.md](AGENTS.md) and load deeper documents only when the task requires them.

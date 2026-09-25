@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0012",
+  "sourceHash": "eed42523fcb6654051adb0ec0c93439215688ad91cd9cf79bbee813f2f233527",
+  "source": "“We had,” was the reply. “But it is more than ten years since Henry Jekyll became too fanciful for me. He began to go wrong, wrong in mind; and though of course I continue to take an interest in him for old sake’s sake, as they say, I see and I have seen devilish little of the man. Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00710d67b19cc6e8016ab426f73d0887d294f1c6208a8c029a",
+      "visibleOutput": "TRANSLATION: “lon, mi tu li jo,” jan Lanjon li toki. “taso, tenpo sike luka luka mute li pini tan ni: nasin pi jan Jekil li kama nasa mute tawa mi. sona insa ona li kama pakala, li kama ike—ni li pilin mi. mi awen pilin e ona tan pona pi tenpo pini, sama toki pi jan mute. taso mi lukin e jan ni lon tenpo lili mute ala; lon tenpo pini kin la mi lukin e ona lon tenpo lili mute ala.” jan pi sona sijelo li kama loje wawa lon tenpo lili, li toki sin: “toki nasa ni li kepeken ala nasin sona. toki ni li ken weka e jan Tamen tan jan Pitijas, anu la ona tu li jan pona suli kin.”\n\nNOTES: “wrong in mind” remains explicitly Lanyon’s judgment; the final estrangement remains hypothetical.",
+      "translation": "“lon, mi tu li jo,” jan Lanjon li toki. “taso, tenpo sike luka luka mute li pini tan ni: nasin pi jan Jekil li kama nasa mute tawa mi. sona insa ona li kama pakala, li kama ike—ni li pilin mi. mi awen pilin e ona tan pona pi tenpo pini, sama toki pi jan mute. taso mi lukin e jan ni lon tenpo lili mute ala; lon tenpo pini kin la mi lukin e ona lon tenpo lili mute ala.” jan pi sona sijelo li kama loje wawa lon tenpo lili, li toki sin: “toki nasa ni li kepeken ala nasin sona. toki ni li ken weka e jan Tamen tan jan Pitijas, anu la ona tu li jan pona suli kin.”",
+      "notes": "“wrong in mind” remains explicitly Lanyon’s judgment; the final estrangement remains hypothetical.",
+      "usage": {
+        "input_tokens": 2847,
+        "input_tokens_details": {
+          "cache_write_tokens": 2844,
+          "cached_tokens": 0
+        },
+        "output_tokens": 467,
+        "output_tokens_details": {
+          "reasoning_tokens": 256
+        },
+        "total_tokens": 3314
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00710d67b19cc6e8016ab426f73d0887d294f1c6208a8c029a",
+  "visibleOutput": "TRANSLATION: “lon, mi tu li jo,” jan Lanjon li toki. “taso, tenpo sike luka luka mute li pini tan ni: nasin pi jan Jekil li kama nasa mute tawa mi. sona insa ona li kama pakala, li kama ike—ni li pilin mi. mi awen pilin e ona tan pona pi tenpo pini, sama toki pi jan mute. taso mi lukin e jan ni lon tenpo lili mute ala; lon tenpo pini kin la mi lukin e ona lon tenpo lili mute ala.” jan pi sona sijelo li kama loje wawa lon tenpo lili, li toki sin: “toki nasa ni li kepeken ala nasin sona. toki ni li ken weka e jan Tamen tan jan Pitijas, anu la ona tu li jan pona suli kin.”\n\nNOTES: “wrong in mind” remains explicitly Lanyon’s judgment; the final estrangement remains hypothetical.",
+  "translation": "“lon, mi tu li jo,” jan Lanjon li toki. “taso, tenpo sike luka luka mute li pini tan ni: nasin pi jan Jekil li kama nasa mute tawa mi. sona insa ona li kama pakala, li kama ike—ni li pilin mi. mi awen pilin e ona tan pona pi tenpo pini, sama toki pi jan mute. taso mi lukin e jan ni lon tenpo lili mute ala; lon tenpo pini kin la mi lukin e ona lon tenpo lili mute ala.” jan pi sona sijelo li kama loje wawa lon tenpo lili, li toki sin: “toki nasa ni li kepeken ala nasin sona. toki ni li ken weka e jan Tamen tan jan Pitijas, anu la ona tu li jan pona suli kin.”",
+  "notes": "“wrong in mind” remains explicitly Lanyon’s judgment; the final estrangement remains hypothetical.",
+  "usage": {
+    "input_tokens": 2847,
+    "input_tokens_details": {
+      "cache_write_tokens": 2844,
+      "cached_tokens": 0
+    },
+    "output_tokens": 467,
+    "output_tokens_details": {
+      "reasoning_tokens": 256
+    },
+    "total_tokens": 3314
+  },
+  "success": true
+}

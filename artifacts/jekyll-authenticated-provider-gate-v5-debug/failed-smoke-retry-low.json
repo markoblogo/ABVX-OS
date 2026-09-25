@@ -1,0 +1,65 @@
+{
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "config": {
+    "reasoning_effort": "low",
+    "max_output_tokens": 3000,
+    "timeout_seconds": 120,
+    "retry_policy": "one bounded retry only",
+    "extraction": "output[].content[].text"
+  },
+  "blocks": [
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0005",
+      "category": "A will/conditionality",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09af1955d3337a00016ab41aebc0b487d2af9af694d6510bd5",
+      "model": "gpt-5.6-sol",
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "outputTextLength": 1379,
+      "visibleText": "TRANSLATION: lipu lawa pi jan Jekil li sitelen luka ona. jan Utason li awen e lipu ni lon tenpo lipu li pini, taso ona li pana ala e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo en sona lawa en sona ante li moli la, ijo ale ona li kama lon luka pi “jan pona ona, jan pi pana pona tawa ona, jan Hata.” taso lipu li toki kin e ni: jan Jekil li weka lon tenpo mute, li toki ala tan seme, li weka lon tenpo mun tu wan anu mute la, jan Hata li kama jo e lon en ijo ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona li pana e mani lili tawa jan mute pi tomo jan Jekil. tenpo mute la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li sona lawa, li olin e nasin pi lawa pona e nasin pi jan mute. tan ni, toki nasa pi lipu li ike suli tawa ona. lon tenpo pini, sona ala ona pi jan Hata li suli e pilin utala ona. taso tenpo ni la, sona ona li suli e pilin ni. tenpo pini la, nimi “jan Hata” li nimi taso, li ike lon lawa pi lipu; jan Utason li ken ala sona e ijo ante tan nimi ni. taso tenpo ni la, ona li kama sona e nasin ike mute pi jan Hata, li pilin ike mute. lon insa pi kon pimeja pi sona ala, ni li awen e lukin ona lon tenpo mute. taso lon tenpo wan la, sitelen sona pi jan monsuta li kama lon lawa ona, li kama ken lukin, li kama wawa.\nNOTES: “fiend” is kept as jan Utason’s mental image, not narrator fact.",
+      "usage": {
+        "input_tokens": 2962,
+        "input_tokens_details": {
+          "cache_write_tokens": 2959,
+          "cached_tokens": 0
+        },
+        "output_tokens": 549,
+        "output_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "total_tokens": 3511
+      }
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0028",
+      "category": "D letter/document claim",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06d558c8f7c2ea92016ab41afa509c87d2b5a81926122949f7",
+      "model": "gpt-5.6-sol",
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "outputTextLength": 702,
+      "visibleText": "TRANSLATION: sitelen luka lon lipu li nasa li tawa sewi, li jo e nimi “jan Hata.” toki lili pi lipu tan jan Hata li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e pona ala tawa ona lon tenpo mute. jan Jekil o monsuta ala lon awen pona pi jan sitelen, tan ni: jan sitelen li jo e nasin weka, li pilin wawa e ni: nasin ni li pali pona. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. tan lipu ni la, poka pi jan Jekil en jan Hata li lukin pona tawa ona, li pona mute lon pilin ona la ona li awen ala. ona li pakala e ona tan pilin ike pi tenpo pini.\nNOTES: nasin weka en awen pona li toki pi lipu taso; ni li lon ala lon sona pi toki pana.",
+      "usage": {
+        "input_tokens": 2766,
+        "input_tokens_details": {
+          "cache_write_tokens": 2763,
+          "cached_tokens": 0
+        },
+        "output_tokens": 647,
+        "output_tokens_details": {
+          "reasoning_tokens": 417
+        },
+        "total_tokens": 3413
+      }
+    }
+  ]
+}

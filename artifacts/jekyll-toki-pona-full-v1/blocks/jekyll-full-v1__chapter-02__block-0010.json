@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0010",
+  "sourceHash": "4dfe2c201eaa803b48859f1480a8d9b71339496edab959f982b661e62279ec4d",
+  "source": "After a little rambling talk, the lawyer led up to the subject which so disagreeably pre-occupied his mind. “I suppose, Lanyon,” said he “you and I must be the two oldest friends that Henry Jekyll has?” “I wish the friends were younger,” chuckled Dr. Lanyon. “But I suppose we are. And what of that? I see little of him now.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b2824eba4448a87016ab426ddea6087d2996a2b49f0ff81bb",
+      "visibleOutput": "TRANSLATION: toki pi ijo mute pi suli ala li pini la, jan Utason pi sona lawa li kama toki e ijo ni: ijo ni li awen lon lawa ona li ike e pilin ona. ona li toki e ni: “jan Lanjon o, mi pilin e ni: lon jan pona ale pi jan Jekil la, sina en mi li jan tu pi sike mute nanpa wan, anu seme?” jan Lanjon pi sona sijelo li musi lili li toki e ni: “mi wile e ni: jan pona tu ni li jo e sike lili. taso mi kin pilin e ni: sina en mi li jan tu ni. taso ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”\nNOTES: “oldest friends” is rendered as oldest in age to preserve Lanyon’s joke.",
+      "translation": "toki pi ijo mute pi suli ala li pini la, jan Utason pi sona lawa li kama toki e ijo ni: ijo ni li awen lon lawa ona li ike e pilin ona. ona li toki e ni: “jan Lanjon o, mi pilin e ni: lon jan pona ale pi jan Jekil la, sina en mi li jan tu pi sike mute nanpa wan, anu seme?” jan Lanjon pi sona sijelo li musi lili li toki e ni: “mi wile e ni: jan pona tu ni li jo e sike lili. taso mi kin pilin e ni: sina en mi li jan tu ni. taso ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”",
+      "notes": "“oldest friends” is rendered as oldest in age to preserve Lanyon’s joke.",
+      "usage": {
+        "input_tokens": 2832,
+        "input_tokens_details": {
+          "cache_write_tokens": 2829,
+          "cached_tokens": 0
+        },
+        "output_tokens": 585,
+        "output_tokens_details": {
+          "reasoning_tokens": 389
+        },
+        "total_tokens": 3417
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b2824eba4448a87016ab426ddea6087d2996a2b49f0ff81bb",
+  "visibleOutput": "TRANSLATION: toki pi ijo mute pi suli ala li pini la, jan Utason pi sona lawa li kama toki e ijo ni: ijo ni li awen lon lawa ona li ike e pilin ona. ona li toki e ni: “jan Lanjon o, mi pilin e ni: lon jan pona ale pi jan Jekil la, sina en mi li jan tu pi sike mute nanpa wan, anu seme?” jan Lanjon pi sona sijelo li musi lili li toki e ni: “mi wile e ni: jan pona tu ni li jo e sike lili. taso mi kin pilin e ni: sina en mi li jan tu ni. taso ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”\nNOTES: “oldest friends” is rendered as oldest in age to preserve Lanyon’s joke.",
+  "translation": "toki pi ijo mute pi suli ala li pini la, jan Utason pi sona lawa li kama toki e ijo ni: ijo ni li awen lon lawa ona li ike e pilin ona. ona li toki e ni: “jan Lanjon o, mi pilin e ni: lon jan pona ale pi jan Jekil la, sina en mi li jan tu pi sike mute nanpa wan, anu seme?” jan Lanjon pi sona sijelo li musi lili li toki e ni: “mi wile e ni: jan pona tu ni li jo e sike lili. taso mi kin pilin e ni: sina en mi li jan tu ni. taso ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”",
+  "notes": "“oldest friends” is rendered as oldest in age to preserve Lanyon’s joke.",
+  "usage": {
+    "input_tokens": 2832,
+    "input_tokens_details": {
+      "cache_write_tokens": 2829,
+      "cached_tokens": 0
+    },
+    "output_tokens": 585,
+    "output_tokens_details": {
+      "reasoning_tokens": 389
+    },
+    "total_tokens": 3417
+  },
+  "success": true
+}

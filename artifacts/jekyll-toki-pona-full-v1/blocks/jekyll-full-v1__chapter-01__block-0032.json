@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0032",
+  "sourceHash": "9bbe2277d4bd6f4cfb91b60641e4d95c4db58cf13ac339845b3e3bcacbabcffd",
+  "source": "Black-Mail House is what I call that place with the door, in consequence. Though even that, you know, is far from explaining all,” he added, and with the words fell into a vein of musing. From this he was recalled by Mr. Utterson asking rather suddenly: “And you don’t know if the drawer of the cheque lives there?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0176189b7deffa83016ab425de431c87d2b4b1009e22e26934",
+      "visibleOutput": "TRANSLATION: “tan ni, mi nimi e tomo ni pi lupa lon nimi ‘tomo pi kama jo mani kepeken monsuta.’ taso sina sona: nimi ni kin li pana ala e sona pi ijo ale,” ona li toki sin. ona li pini toki la, ona li kama pilin li toki ala. taso jan Utason li toki pi tenpo wan taso, li weka e ona tan pilin ni: “sina sona ala e ni anu seme: jan sitelen pi lipu mani li awen lon tomo ni?”\n\nNOTES: “Black-Mail House” is rendered descriptively as a house of obtaining money through threats; “cheque” is compressed to lipu mani.",
+      "translation": "“tan ni, mi nimi e tomo ni pi lupa lon nimi ‘tomo pi kama jo mani kepeken monsuta.’ taso sina sona: nimi ni kin li pana ala e sona pi ijo ale,” ona li toki sin. ona li pini toki la, ona li kama pilin li toki ala. taso jan Utason li toki pi tenpo wan taso, li weka e ona tan pilin ni: “sina sona ala e ni anu seme: jan sitelen pi lipu mani li awen lon tomo ni?”",
+      "notes": "“Black-Mail House” is rendered descriptively as a house of obtaining money through threats; “cheque” is compressed to lipu mani.",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 536,
+        "output_tokens_details": {
+          "reasoning_tokens": 381
+        },
+        "total_tokens": 3346
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0176189b7deffa83016ab425de431c87d2b4b1009e22e26934",
+  "visibleOutput": "TRANSLATION: “tan ni, mi nimi e tomo ni pi lupa lon nimi ‘tomo pi kama jo mani kepeken monsuta.’ taso sina sona: nimi ni kin li pana ala e sona pi ijo ale,” ona li toki sin. ona li pini toki la, ona li kama pilin li toki ala. taso jan Utason li toki pi tenpo wan taso, li weka e ona tan pilin ni: “sina sona ala e ni anu seme: jan sitelen pi lipu mani li awen lon tomo ni?”\n\nNOTES: “Black-Mail House” is rendered descriptively as a house of obtaining money through threats; “cheque” is compressed to lipu mani.",
+  "translation": "“tan ni, mi nimi e tomo ni pi lupa lon nimi ‘tomo pi kama jo mani kepeken monsuta.’ taso sina sona: nimi ni kin li pana ala e sona pi ijo ale,” ona li toki sin. ona li pini toki la, ona li kama pilin li toki ala. taso jan Utason li toki pi tenpo wan taso, li weka e ona tan pilin ni: “sina sona ala e ni anu seme: jan sitelen pi lipu mani li awen lon tomo ni?”",
+  "notes": "“Black-Mail House” is rendered descriptively as a house of obtaining money through threats; “cheque” is compressed to lipu mani.",
+  "usage": {
+    "input_tokens": 2810,
+    "input_tokens_details": {
+      "cache_write_tokens": 2807,
+      "cached_tokens": 0
+    },
+    "output_tokens": 536,
+    "output_tokens_details": {
+      "reasoning_tokens": 381
+    },
+    "total_tokens": 3346
+  },
+  "success": true
+}

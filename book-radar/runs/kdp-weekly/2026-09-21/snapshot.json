@@ -1,0 +1,80 @@
+{
+  "schema_version": "kdp-portfolio-audit/v1",
+  "observed_at": "2026-09-21T09:16:00+02:00",
+  "channel": "authenticated_kdp_safari_read_only",
+  "account_scope": {
+    "reported_titles": 30,
+    "bookshelf_pages": 3,
+    "portfolio_mutations": false
+  },
+  "periods": {
+    "month_to_date": {
+      "start": "2026-09-01",
+      "end": "2026-09-21",
+      "processed_units": 12,
+      "ebook_units": 8,
+      "print_units": 4,
+      "kenp_pages": 106,
+      "estimated_royalties_eur": 51.85,
+      "royalty_source_mix": {
+        "ebook_percent": 58,
+        "paperback_percent": 41,
+        "kindle_unlimited_percent": 1
+      },
+      "marketplace_mix": {
+        "united_states_percent": 75,
+        "united_kingdom_percent": 19,
+        "brazil_percent": 6
+      },
+      "unit_titles": [
+        {"title": "Seneca: On the Shortness of Life — in toki pona", "ebook": 2, "print": 1},
+        {"title": "A Christmas Carol — in Toki Pona", "ebook": 2, "print": 0},
+        {"title": "Epictetus: The Enchiridion — in toki pona", "ebook": 1, "print": 1},
+        {"title": "Dark Gestalt", "ebook": 1, "print": 0},
+        {"title": "Meditations of Marcus Aurelius — in Toki Pona", "ebook": 1, "print": 0},
+        {"title": "Cicero: On Duties (De Officiis) in toki pona", "ebook": 1, "print": 0},
+        {"title": "The Tiny Language Protocol", "ebook": 0, "print": 1},
+        {"title": "The Odyssey: Toki Pona Edition with Sitelen Pona", "ebook": 0, "print": 1}
+      ],
+      "kenp_titles": [
+        {"title": "Marcus Aurelius’ Guide to the Zombie Apocalypse", "pages": 45},
+        {"title": "Epictetus: The Enchiridion — in toki pona", "pages": 38},
+        {"title": "Seneca: On the Shortness of Life — in toki pona", "pages": 13},
+        {"title": "Project Management Certification in 2026", "pages": 10}
+      ]
+    },
+    "equal_launch_window_observations": [
+      {"title": "Solar Proposal Decoder", "submitted_at": "2026-09-07", "first_14_days_end": "2026-09-20", "processed_units": 0, "kenp_pages": "not_applicable_paperback_only"},
+      {"title": "Французькі правила й дорожні знаки українською", "submitted_at": "2026-09-07", "first_14_days_end": "2026-09-20", "processed_units": 0, "kenp_pages": "not_applicable_ebook_unsupported"},
+      {"title": "Ham Radio Technician Visual Cram Map 2026–2030", "submitted_at": "2026-09-06", "first_14_days_end": "2026-09-19", "processed_units": 0, "kenp_pages": 0},
+      {"title": "Project Management Certification in 2026", "submitted_at": "2026-09-04", "first_14_days_end": "2026-09-17", "processed_units": 0, "kenp_pages": 10},
+      {"title": "The Odyssey: Toki Pona Edition with Sitelen Pona", "submitted_at": "2026-09-04", "first_14_days_end": "2026-09-17", "processed_units": 1, "kenp_pages": 0}
+    ]
+  },
+  "bookshelf_observations": [
+    {"title":"Solar Proposal Decoder", "submitted_at":"2026-09-07", "formats":[{"format":"paperback","status":"LIVE","price":"$15.99","asin":"B0HJ3VVDK8"},{"format":"ebook","status":"NOT_CREATED"}]},
+    {"title":"Французькі правила й дорожні знаки українською", "submitted_at":"2026-09-07", "formats":[{"format":"paperback","status":"LIVE","price":"€16.70","asin":"B0HJ3WMYKD"},{"format":"ebook","status":"UNSUPPORTED_LANGUAGE"}]},
+    {"title":"Ham Radio Technician Visual Cram Map 2026–2030", "submitted_at":"2026-09-06", "formats":[{"format":"ebook","status":"LIVE","price":"$6.99","asin":"B0HDJFP6BY"},{"format":"paperback","status":"LIVE","price":"$17.99","asin":"B0HHZRDSG4"}]},
+    {"title":"Project Management Certification in 2026", "submitted_at":"2026-09-04", "formats":[{"format":"ebook","status":"LIVE","price":"$4.99","asin":"B0HHTMHW3Z"},{"format":"paperback","status":"LIVE","price":"$9.99","asin":"B0HHTQMBVR"}]},
+    {"title":"The Odyssey: Toki Pona Edition with Sitelen Pona", "submitted_at":"2026-09-04", "formats":[{"format":"ebook","status":"LIVE","price":"$7.99","asin":"B0HHSK3Y45"},{"format":"paperback","status":"LIVE","price":"$29.99","asin":"B0HHSMS6KQ"}]}
+  ],
+  "diagnosis": {
+    "availability": "PASS_FOR_OBSERVED_LIVE_FORMATS",
+    "discovery": "LOW_OR_UNRESOLVED: no KDP impression or detail-page-view denominator; five new September releases produced at most one processed unit in their first 14 days.",
+    "conversion": "UNRESOLVED_NO_TRAFFIC_DENOMINATOR",
+    "product_fit": "INSUFFICIENT_EVIDENCE: PMP has 10 KENP pages but no processed units; Odyssey has one print unit. Neither validates a product thesis.",
+    "observation_time": "The September 4-7 cohort now has completed 14-day launch windows. One window is still too small for price or metadata intervention.",
+    "portfolio_change": "September 1-21 has 12 processed units and €51.85 estimated royalties. The earlier September 1-14 snapshot had 3 units and €13.77; the later-period increase is portfolio-level, not evidence about the newly launched cohort."
+  },
+  "recommendations": [
+    "Do not change price or description for the September cohort yet; obtain a second equal 14-day observation window first.",
+    "Prioritize discovery diagnostics outside KDP reports (Amazon detail-page visibility/search-placement checks) before treating zero units as a conversion failure.",
+    "Keep Solar's paperback-only architecture under observation rather than adding a format purely in response to its first zero-unit window.",
+    "At the next audit, compare the same five titles at days 15-28 and retain the eBook/print/KENP split."
+  ],
+  "limitations": [
+    "KDP reports expose processed orders and KENP but no impressions, page views, clicks, or pre-purchase conversion denominator.",
+    "KENP totals are provisional until KDP finalizes the month.",
+    "The Bookshelf review sampled the current first page; it did not exhaustively inspect all 30 titles."
+  ]
+}

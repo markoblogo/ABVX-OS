@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0027",
+  "sourceText": "Utterson ruminated a while; he was surprised at his friend’s selfishness, and yet relieved by it. “Well,” said he, at last, “let me see the letter.”",
+  "sourceHash": "6b85987c0154fd6025d1696fe80d8897d9f5a1bb00f7e189bd3ae4ca76a12a18",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04976fa9a98a3ce4016ab41e174b1887d2851955818bc38117",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”\nNOTES: NONE",
+      "translation": "jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 210,
+        "output_tokens_details": {
+          "reasoning_tokens": 111
+        },
+        "total_tokens": 3031
+      },
+      "elapsedMs": 7189
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04976fa9a98a3ce4016ab41e174b1887d2851955818bc38117",
+  "visibleOutput": "TRANSLATION: jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”\nNOTES: NONE",
+  "translation": "jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 111
+    },
+    "total_tokens": 3031
+  },
+  "success": true
+}

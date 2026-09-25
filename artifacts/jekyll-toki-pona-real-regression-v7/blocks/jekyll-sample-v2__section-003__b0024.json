@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0024",
+  "sourceText": "“I am quite sure of him,” replied Jekyll; “I have grounds for certainty that I cannot share with any one. But there is one thing on which you may advise me. I have—I have received a letter; and I am at a loss whether I should show it to the police. I should like to leave it in your hands, Utterson; you would judge wisely, I am sure; I have so great a trust in you.”",
+  "sourceHash": "8784e8bad5e0c31f0faa255183f15129d1a229aed1f15ba3a32673c53559c748",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05b511642ca81beb016ab41dfddff487d294d393168e2eb39c",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”\nNOTES: “sure of him” remains deliberately vague; the letter’s source is not specified.",
+      "translation": "jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”",
+      "notes": "“sure of him” remains deliberately vague; the letter’s source is not specified.",
+      "usage": {
+        "input_tokens": 2875,
+        "input_tokens_details": {
+          "cache_write_tokens": 2872,
+          "cached_tokens": 0
+        },
+        "output_tokens": 334,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 3209
+      },
+      "elapsedMs": 13257
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05b511642ca81beb016ab41dfddff487d294d393168e2eb39c",
+  "visibleOutput": "TRANSLATION: jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”\nNOTES: “sure of him” remains deliberately vague; the letter’s source is not specified.",
+  "translation": "jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”",
+  "notes": "“sure of him” remains deliberately vague; the letter’s source is not specified.",
+  "usage": {
+    "input_tokens": 2875,
+    "input_tokens_details": {
+      "cache_write_tokens": 2872,
+      "cached_tokens": 0
+    },
+    "output_tokens": 334,
+    "output_tokens_details": {
+      "reasoning_tokens": 157
+    },
+    "total_tokens": 3209
+  },
+  "success": true
+}

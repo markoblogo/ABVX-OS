@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0026",
+  "sourceHash": "6798b2d8a2638cbf6f128c105a3b841b992cadcceaf09c24e630ae0a1d7cc0f3",
+  "source": "A closet was filled with wine; the plate was of silver, the napery elegant; a good picture hung upon the walls, a gift (as Utterson supposed) from Henry Jekyll, who was much of a connoisseur; and the carpets were of many plies and agreeable in colour.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0384ffce45798947016ab42b41a47487d2bafe3bd19fe64b0b",
+      "visibleOutput": "TRANSLATION: tomo poki lili li jo mute e telo nasa. ilo moku li tan kiwen mani walo. len supa li pona lukin. sitelen pona li lon sinpin. jan Utason li pilin e ni: sitelen ni li pana tan jan Jekil. jan Jekil li sona mute e ijo pona pi lukin. len anpa li jo e selo mute, li jo e kule pona.\nNOTES: “gift from Henry Jekyll” remains Utterson’s supposition.",
+      "translation": "tomo poki lili li jo mute e telo nasa. ilo moku li tan kiwen mani walo. len supa li pona lukin. sitelen pona li lon sinpin. jan Utason li pilin e ni: sitelen ni li pana tan jan Jekil. jan Jekil li sona mute e ijo pona pi lukin. len anpa li jo e selo mute, li jo e kule pona.",
+      "notes": "“gift from Henry Jekyll” remains Utterson’s supposition.",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 350,
+        "output_tokens_details": {
+          "reasoning_tokens": 232
+        },
+        "total_tokens": 3162
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0384ffce45798947016ab42b41a47487d2bafe3bd19fe64b0b",
+  "visibleOutput": "TRANSLATION: tomo poki lili li jo mute e telo nasa. ilo moku li tan kiwen mani walo. len supa li pona lukin. sitelen pona li lon sinpin. jan Utason li pilin e ni: sitelen ni li pana tan jan Jekil. jan Jekil li sona mute e ijo pona pi lukin. len anpa li jo e selo mute, li jo e kule pona.\nNOTES: “gift from Henry Jekyll” remains Utterson’s supposition.",
+  "translation": "tomo poki lili li jo mute e telo nasa. ilo moku li tan kiwen mani walo. len supa li pona lukin. sitelen pona li lon sinpin. jan Utason li pilin e ni: sitelen ni li pana tan jan Jekil. jan Jekil li sona mute e ijo pona pi lukin. len anpa li jo e selo mute, li jo e kule pona.",
+  "notes": "“gift from Henry Jekyll” remains Utterson’s supposition.",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 350,
+    "output_tokens_details": {
+      "reasoning_tokens": 232
+    },
+    "total_tokens": 3162
+  },
+  "success": true
+}

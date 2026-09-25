@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0002",
+  "sourceHash": "ec4be3af219aaf3335c6ccff3123fce8eab47f40c977196fda57d6cf31464149",
+  "source": "Hosts loved to detain the dry lawyer, when the light-hearted and the loose-tongued had already their foot on the threshold; they liked to sit a while in his unobtrusive company, practising for solitude, sobering their minds in the man’s rich silence after the expense and strain of gaiety. To this rule, Dr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0395d1c995bb9e22016ab42919fb0487d2b3b84ea298ba316d",
+      "visibleOutput": "TRANSLATION: jan pi pana tomo li olin awen e jan Utason pi sona lawa pi toki lili. jan musi en jan pi toki mute li kama jo jo e noka lon lupa tomo tawa la, ona li awen wile e ni. ona li wile awen poka ona lon tenpo lili. kepeken ni la, ona li kama sona e lon wan taso. musi mute li pini la, toki ala pona pi jan Utason li pana e awen tawa lawa ona. lon nasin ni la, jan pi sona sijelo...\nNOTES: toki open li pini lon nimi “Dr.”; mi awen e pini pakala ni, mi pana ala e nimi jan anu e toki kama.",
+      "translation": "jan pi pana tomo li olin awen e jan Utason pi sona lawa pi toki lili. jan musi en jan pi toki mute li kama jo jo e noka lon lupa tomo tawa la, ona li awen wile e ni. ona li wile awen poka ona lon tenpo lili. kepeken ni la, ona li kama sona e lon wan taso. musi mute li pini la, toki ala pona pi jan Utason li pana e awen tawa lawa ona. lon nasin ni la, jan pi sona sijelo...",
+      "notes": "toki open li pini lon nimi “Dr.”; mi awen e pini pakala ni, mi pana ala e nimi jan anu e toki kama.",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 307,
+        "output_tokens_details": {
+          "reasoning_tokens": 149
+        },
+        "total_tokens": 3119
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0395d1c995bb9e22016ab42919fb0487d2b3b84ea298ba316d",
+  "visibleOutput": "TRANSLATION: jan pi pana tomo li olin awen e jan Utason pi sona lawa pi toki lili. jan musi en jan pi toki mute li kama jo jo e noka lon lupa tomo tawa la, ona li awen wile e ni. ona li wile awen poka ona lon tenpo lili. kepeken ni la, ona li kama sona e lon wan taso. musi mute li pini la, toki ala pona pi jan Utason li pana e awen tawa lawa ona. lon nasin ni la, jan pi sona sijelo...\nNOTES: toki open li pini lon nimi “Dr.”; mi awen e pini pakala ni, mi pana ala e nimi jan anu e toki kama.",
+  "translation": "jan pi pana tomo li olin awen e jan Utason pi sona lawa pi toki lili. jan musi en jan pi toki mute li kama jo jo e noka lon lupa tomo tawa la, ona li awen wile e ni. ona li wile awen poka ona lon tenpo lili. kepeken ni la, ona li kama sona e lon wan taso. musi mute li pini la, toki ala pona pi jan Utason li pana e awen tawa lawa ona. lon nasin ni la, jan pi sona sijelo...",
+  "notes": "toki open li pini lon nimi “Dr.”; mi awen e pini pakala ni, mi pana ala e nimi jan anu e toki kama.",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 307,
+    "output_tokens_details": {
+      "reasoning_tokens": 149
+    },
+    "total_tokens": 3119
+  },
+  "success": true
+}

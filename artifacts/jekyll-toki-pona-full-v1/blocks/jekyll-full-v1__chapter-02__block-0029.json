@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0029",
+  "sourceHash": "6259bf3bb04d036b32267f824fc2d546e6c6fb696c796c3a1cbbbfe51b190bd8",
+  "source": "“I see you are going in,” returned the lawyer. “I am an old friend of Dr. Jekyll’s—Mr. Utterson of Gaunt Street—you must have heard my name; and meeting you so conveniently, I thought you might admit me.” “You will not find Dr. Jekyll; he is from home,” replied Mr. Hyde, blowing in the key. And then suddenly, but still without looking up, “How did you know me?” he asked.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_077f7ae58f52aae9016ab427d6e3e887d28cf0a1462d058472",
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li toki sin: “mi lukin e ni: sina kama lon insa. mi jan pona pi tenpo mute pi jan Jekil pi sona sijelo. mi jan Utason tan nasin Kante. sina kute ala kute e nimi mi? mi kama lukin e sina lon tenpo pona ni la, mi pilin e ni: ken la sina pana e ken tawa mi, la mi kama lon insa.” jan Hata li pana e kon uta tawa ilo open, li toki: “sina alasa la, sina kama lukin ala e jan Jekil pi sona sijelo. ona li lon tomo ala.” tenpo lili la, ona li lukin sewi ala kin, li toki pi wawa kama: “sina sona e mi kepeken nasin seme?”\nNOTES: “blowing in the key” is retained literally as blowing toward the key because the source action is unusual.",
+      "translation": "jan pi sona lawa li toki sin: “mi lukin e ni: sina kama lon insa. mi jan pona pi tenpo mute pi jan Jekil pi sona sijelo. mi jan Utason tan nasin Kante. sina kute ala kute e nimi mi? mi kama lukin e sina lon tenpo pona ni la, mi pilin e ni: ken la sina pana e ken tawa mi, la mi kama lon insa.” jan Hata li pana e kon uta tawa ilo open, li toki: “sina alasa la, sina kama lukin ala e jan Jekil pi sona sijelo. ona li lon tomo ala.” tenpo lili la, ona li lukin sewi ala kin, li toki pi wawa kama: “sina sona e mi kepeken nasin seme?”",
+      "notes": "“blowing in the key” is retained literally as blowing toward the key because the source action is unusual.",
+      "usage": {
+        "input_tokens": 2848,
+        "input_tokens_details": {
+          "cache_write_tokens": 2845,
+          "cached_tokens": 0
+        },
+        "output_tokens": 474,
+        "output_tokens_details": {
+          "reasoning_tokens": 265
+        },
+        "total_tokens": 3322
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_077f7ae58f52aae9016ab427d6e3e887d28cf0a1462d058472",
+  "visibleOutput": "TRANSLATION: jan pi sona lawa li toki sin: “mi lukin e ni: sina kama lon insa. mi jan pona pi tenpo mute pi jan Jekil pi sona sijelo. mi jan Utason tan nasin Kante. sina kute ala kute e nimi mi? mi kama lukin e sina lon tenpo pona ni la, mi pilin e ni: ken la sina pana e ken tawa mi, la mi kama lon insa.” jan Hata li pana e kon uta tawa ilo open, li toki: “sina alasa la, sina kama lukin ala e jan Jekil pi sona sijelo. ona li lon tomo ala.” tenpo lili la, ona li lukin sewi ala kin, li toki pi wawa kama: “sina sona e mi kepeken nasin seme?”\nNOTES: “blowing in the key” is retained literally as blowing toward the key because the source action is unusual.",
+  "translation": "jan pi sona lawa li toki sin: “mi lukin e ni: sina kama lon insa. mi jan pona pi tenpo mute pi jan Jekil pi sona sijelo. mi jan Utason tan nasin Kante. sina kute ala kute e nimi mi? mi kama lukin e sina lon tenpo pona ni la, mi pilin e ni: ken la sina pana e ken tawa mi, la mi kama lon insa.” jan Hata li pana e kon uta tawa ilo open, li toki: “sina alasa la, sina kama lukin ala e jan Jekil pi sona sijelo. ona li lon tomo ala.” tenpo lili la, ona li lukin sewi ala kin, li toki pi wawa kama: “sina sona e mi kepeken nasin seme?”",
+  "notes": "“blowing in the key” is retained literally as blowing toward the key because the source action is unusual.",
+  "usage": {
+    "input_tokens": 2848,
+    "input_tokens_details": {
+      "cache_write_tokens": 2845,
+      "cached_tokens": 0
+    },
+    "output_tokens": 474,
+    "output_tokens_details": {
+      "reasoning_tokens": 265
+    },
+    "total_tokens": 3322
+  },
+  "success": true
+}

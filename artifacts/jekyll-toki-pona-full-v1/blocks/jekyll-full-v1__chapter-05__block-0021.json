@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0021",
+  "sourceHash": "2cd6eedc0ad83a1817ce373a2fe03a28b708090b906ed3d12d81f622502cd62f",
+  "source": "In the bottle the acids were long ago resolved; the imperial dye had softened with time, As the colour grows richer in stained windows; and the glow of hot autumn afternoons on hillside vineyards was ready to be set free and to disperse the fogs of London. Insensibly the lawyer melted. There was no man from whom he kept fewer secrets than Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b1204af179addab016ab42ca21d5487d28ad5ff58563d4d7e",
+      "visibleOutput": "TRANSLATION: lon poki la, tenpo pini weka la, ijo pi pilin uta wawa li kama lili. kule pi lawa suli li kama suwi lon tenpo, sama kule pi lupa suno kule li kama suli. suno seli pi tenpo lete open lon tenpo suno anpa, lon ma kasi kili pi poka nena, li ken kama weka tan poki, li ken weka e kon pimeja pi ma Lantan. kepeken sona ala la, pilin pi jan Utason pi sona lawa li kama suwi. ona li awen insa e ijo lili nanpa wan tan jan…\nNOTES: Source ends mid-reference at “Mr.”; the translation preserves the incomplete identification.",
+      "translation": "lon poki la, tenpo pini weka la, ijo pi pilin uta wawa li kama lili. kule pi lawa suli li kama suwi lon tenpo, sama kule pi lupa suno kule li kama suli. suno seli pi tenpo lete open lon tenpo suno anpa, lon ma kasi kili pi poka nena, li ken kama weka tan poki, li ken weka e kon pimeja pi ma Lantan. kepeken sona ala la, pilin pi jan Utason pi sona lawa li kama suwi. ona li awen insa e ijo lili nanpa wan tan jan…",
+      "notes": "Source ends mid-reference at “Mr.”; the translation preserves the incomplete identification.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 591,
+        "output_tokens_details": {
+          "reasoning_tokens": 425
+        },
+        "total_tokens": 3399
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b1204af179addab016ab42ca21d5487d28ad5ff58563d4d7e",
+  "visibleOutput": "TRANSLATION: lon poki la, tenpo pini weka la, ijo pi pilin uta wawa li kama lili. kule pi lawa suli li kama suwi lon tenpo, sama kule pi lupa suno kule li kama suli. suno seli pi tenpo lete open lon tenpo suno anpa, lon ma kasi kili pi poka nena, li ken kama weka tan poki, li ken weka e kon pimeja pi ma Lantan. kepeken sona ala la, pilin pi jan Utason pi sona lawa li kama suwi. ona li awen insa e ijo lili nanpa wan tan jan…\nNOTES: Source ends mid-reference at “Mr.”; the translation preserves the incomplete identification.",
+  "translation": "lon poki la, tenpo pini weka la, ijo pi pilin uta wawa li kama lili. kule pi lawa suli li kama suwi lon tenpo, sama kule pi lupa suno kule li kama suli. suno seli pi tenpo lete open lon tenpo suno anpa, lon ma kasi kili pi poka nena, li ken kama weka tan poki, li ken weka e kon pimeja pi ma Lantan. kepeken sona ala la, pilin pi jan Utason pi sona lawa li kama suwi. ona li awen insa e ijo lili nanpa wan tan jan…",
+  "notes": "Source ends mid-reference at “Mr.”; the translation preserves the incomplete identification.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 591,
+    "output_tokens_details": {
+      "reasoning_tokens": 425
+    },
+    "total_tokens": 3399
+  },
+  "success": true
+}

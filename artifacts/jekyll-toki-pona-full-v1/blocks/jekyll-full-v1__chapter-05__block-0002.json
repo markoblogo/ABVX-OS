@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0002",
+  "sourceHash": "bba77213de7afe2f7cf99ae7e9e9c0ccb1a0311d312473c25531b77ddba178c3",
+  "source": "The doctor had bought the house from the heirs of a celebrated surgeon; and his own tastes being rather chemical than anatomical, had changed the destination of the block at the bottom of the garden.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_080219242613b65b016ab42b93defc87d299257eca090c916b",
+      "visibleOutput": "TRANSLATION: jan Jekil pi sona sijelo li esun e tomo ni tan jan kama jo pi jan sona suli pi pali sijelo. jan Jekil li wile pali kepeken ijo seli, li wile ala pali kepeken sijelo. tan ni, ona li ante e nasin kepeken pi tomo pali lon pini pi ma kasi.\nNOTES: “celebrated surgeon” en “chemical rather than anatomical” li kama toki kepeken nimi pi sona suli en nasin pali.",
+      "translation": "jan Jekil pi sona sijelo li esun e tomo ni tan jan kama jo pi jan sona suli pi pali sijelo. jan Jekil li wile pali kepeken ijo seli, li wile ala pali kepeken sijelo. tan ni, ona li ante e nasin kepeken pi tomo pali lon pini pi ma kasi.",
+      "notes": "“celebrated surgeon” en “chemical rather than anatomical” li kama toki kepeken nimi pi sona suli en nasin pali.",
+      "usage": {
+        "input_tokens": 2773,
+        "input_tokens_details": {
+          "cache_write_tokens": 2770,
+          "cached_tokens": 0
+        },
+        "output_tokens": 242,
+        "output_tokens_details": {
+          "reasoning_tokens": 126
+        },
+        "total_tokens": 3015
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_080219242613b65b016ab42b93defc87d299257eca090c916b",
+  "visibleOutput": "TRANSLATION: jan Jekil pi sona sijelo li esun e tomo ni tan jan kama jo pi jan sona suli pi pali sijelo. jan Jekil li wile pali kepeken ijo seli, li wile ala pali kepeken sijelo. tan ni, ona li ante e nasin kepeken pi tomo pali lon pini pi ma kasi.\nNOTES: “celebrated surgeon” en “chemical rather than anatomical” li kama toki kepeken nimi pi sona suli en nasin pali.",
+  "translation": "jan Jekil pi sona sijelo li esun e tomo ni tan jan kama jo pi jan sona suli pi pali sijelo. jan Jekil li wile pali kepeken ijo seli, li wile ala pali kepeken sijelo. tan ni, ona li ante e nasin kepeken pi tomo pali lon pini pi ma kasi.",
+  "notes": "“celebrated surgeon” en “chemical rather than anatomical” li kama toki kepeken nimi pi sona suli en nasin pali.",
+  "usage": {
+    "input_tokens": 2773,
+    "input_tokens_details": {
+      "cache_write_tokens": 2770,
+      "cached_tokens": 0
+    },
+    "output_tokens": 242,
+    "output_tokens_details": {
+      "reasoning_tokens": 126
+    },
+    "total_tokens": 3015
+  },
+  "success": true
+}

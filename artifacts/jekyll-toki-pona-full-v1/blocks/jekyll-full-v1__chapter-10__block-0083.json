@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0083",
+  "sourceHash": "f9f3da097e4009bde4dc8e21aef5a273787266dd040a0e09a86a408893a2ec36",
+  "source": "I resolved in my future conduct to redeem the past; and I can say with honesty that my resolve was fruitful of some good. You know yourself how earnestly in the last months of last year, I laboured to relieve suffering; you know that much was done for others, and that the days passed quietly, almost happily for myself.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

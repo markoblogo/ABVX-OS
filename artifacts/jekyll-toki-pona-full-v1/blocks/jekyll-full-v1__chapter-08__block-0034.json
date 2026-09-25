@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0034",
+  "sourceHash": "ff0cfde583435880fed393471c664cac56abc968fa2f68de179b9874a90555c0",
+  "source": "There is my explanation; it is sad enough, Poole, ay, and appalling to consider; but it is plain and natural, hangs well together, and delivers us from all exorbitant alarms.” “Sir,” said the butler, turning to a sort of mottled pallor, “that thing was not my master, and there’s the truth.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0148b559e1272710016ab430b5da3c87d2a563bd8406d762a0",
+      "visibleOutput": "TRANSLATION: “ni li nasin mi pi sona e ijo ni. jan Pulu o, ni li ike pilin mute. lon, pilin e ni la ni li monsuta. taso ni li pona tawa sona, li nasin pi ijo ale. ale pi nasin ni li sama tawa sama. ni li weka e monsuta suli pi wile ala tan mi mute.” “jan suli o,” jan Pulu li toki. sinpin ona li kama walo li jo e kule ante ante. “ijo ni li jan lawa mi ala. ni li lon.”\nNOTES: “that thing” remains the observer-bound “ijo ni”; Poole’s identification is preserved as his claim, not narrator fact.",
+      "translation": "“ni li nasin mi pi sona e ijo ni. jan Pulu o, ni li ike pilin mute. lon, pilin e ni la ni li monsuta. taso ni li pona tawa sona, li nasin pi ijo ale. ale pi nasin ni li sama tawa sama. ni li weka e monsuta suli pi wile ala tan mi mute.” “jan suli o,” jan Pulu li toki. sinpin ona li kama walo li jo e kule ante ante. “ijo ni li jan lawa mi ala. ni li lon.”",
+      "notes": "“that thing” remains the observer-bound “ijo ni”; Poole’s identification is preserved as his claim, not narrator fact.",
+      "usage": {
+        "input_tokens": 2807,
+        "input_tokens_details": {
+          "cache_write_tokens": 2804,
+          "cached_tokens": 0
+        },
+        "output_tokens": 674,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3481
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0148b559e1272710016ab430b5da3c87d2a563bd8406d762a0",
+  "visibleOutput": "TRANSLATION: “ni li nasin mi pi sona e ijo ni. jan Pulu o, ni li ike pilin mute. lon, pilin e ni la ni li monsuta. taso ni li pona tawa sona, li nasin pi ijo ale. ale pi nasin ni li sama tawa sama. ni li weka e monsuta suli pi wile ala tan mi mute.” “jan suli o,” jan Pulu li toki. sinpin ona li kama walo li jo e kule ante ante. “ijo ni li jan lawa mi ala. ni li lon.”\nNOTES: “that thing” remains the observer-bound “ijo ni”; Poole’s identification is preserved as his claim, not narrator fact.",
+  "translation": "“ni li nasin mi pi sona e ijo ni. jan Pulu o, ni li ike pilin mute. lon, pilin e ni la ni li monsuta. taso ni li pona tawa sona, li nasin pi ijo ale. ale pi nasin ni li sama tawa sama. ni li weka e monsuta suli pi wile ala tan mi mute.” “jan suli o,” jan Pulu li toki. sinpin ona li kama walo li jo e kule ante ante. “ijo ni li jan lawa mi ala. ni li lon.”",
+  "notes": "“that thing” remains the observer-bound “ijo ni”; Poole’s identification is preserved as his claim, not narrator fact.",
+  "usage": {
+    "input_tokens": 2807,
+    "input_tokens_details": {
+      "cache_write_tokens": 2804,
+      "cached_tokens": 0
+    },
+    "output_tokens": 674,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3481
+  },
+  "success": true
+}

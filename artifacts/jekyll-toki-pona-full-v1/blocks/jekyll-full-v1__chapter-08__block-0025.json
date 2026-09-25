@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0025",
+  "sourceHash": "d1aa61c63ad8f7e099d66f01efdefde3ee3a1455e496e7e84c9a9c369abbe0ea",
+  "source": "We’ve had nothing else this week back; nothing but papers, and a closed door, and the very meals left there to be smuggled in when nobody was looking. Well, sir, every day, ay, and twice and thrice in the same day, there have been orders and complaints, and I have been sent flying to all the wholesale chemists in town.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_063aaaac35c81f4e016ab43042331887d2842db0ebb8e61560",
+      "visibleOutput": "TRANSLATION: “lon esun ni la, mi kama jo ala e ijo ante tan ona. lipu taso li kama tan ona. lupa li awen pini. mi pana e moku lon poka lupa, la jan li ken pana len e ona tawa insa lon tenpo pi lukin ala. taso, jan lawa o, lon tenpo suno ale—lon tenpo suno sama la, lon tenpo tu anu lon tenpo tu wan—lipu pi wile esun en toki pi pilin ike li kama tan ona. ona li pana e mi tawa esun suli ale pi ijo seli lon ma tomo. mi o tawa wawa.” NOTES: “chemists” is rendered as sellers of chemical materials; the speaker’s report remains testimony, not narrator-confirmed fact.",
+      "translation": "“lon esun ni la, mi kama jo ala e ijo ante tan ona. lipu taso li kama tan ona. lupa li awen pini. mi pana e moku lon poka lupa, la jan li ken pana len e ona tawa insa lon tenpo pi lukin ala. taso, jan lawa o, lon tenpo suno ale—lon tenpo suno sama la, lon tenpo tu anu lon tenpo tu wan—lipu pi wile esun en toki pi pilin ike li kama tan ona. ona li pana e mi tawa esun suli ale pi ijo seli lon ma tomo. mi o tawa wawa.” NOTES: “chemists” is rendered as sellers of chemical materials; the speaker’s report remains testimony, not narrator-confirmed fact.",
+      "notes": "",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 312,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 3122
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_063aaaac35c81f4e016ab43042331887d2842db0ebb8e61560",
+  "visibleOutput": "TRANSLATION: “lon esun ni la, mi kama jo ala e ijo ante tan ona. lipu taso li kama tan ona. lupa li awen pini. mi pana e moku lon poka lupa, la jan li ken pana len e ona tawa insa lon tenpo pi lukin ala. taso, jan lawa o, lon tenpo suno ale—lon tenpo suno sama la, lon tenpo tu anu lon tenpo tu wan—lipu pi wile esun en toki pi pilin ike li kama tan ona. ona li pana e mi tawa esun suli ale pi ijo seli lon ma tomo. mi o tawa wawa.” NOTES: “chemists” is rendered as sellers of chemical materials; the speaker’s report remains testimony, not narrator-confirmed fact.",
+  "translation": "“lon esun ni la, mi kama jo ala e ijo ante tan ona. lipu taso li kama tan ona. lupa li awen pini. mi pana e moku lon poka lupa, la jan li ken pana len e ona tawa insa lon tenpo pi lukin ala. taso, jan lawa o, lon tenpo suno ale—lon tenpo suno sama la, lon tenpo tu anu lon tenpo tu wan—lipu pi wile esun en toki pi pilin ike li kama tan ona. ona li pana e mi tawa esun suli ale pi ijo seli lon ma tomo. mi o tawa wawa.” NOTES: “chemists” is rendered as sellers of chemical materials; the speaker’s report remains testimony, not narrator-confirmed fact.",
+  "notes": "",
+  "usage": {
+    "input_tokens": 2810,
+    "input_tokens_details": {
+      "cache_write_tokens": 2807,
+      "cached_tokens": 0
+    },
+    "output_tokens": 312,
+    "output_tokens_details": {
+      "reasoning_tokens": 135
+    },
+    "total_tokens": 3122
+  },
+  "success": true
+}

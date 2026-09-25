@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0015",
+  "sourceHash": "e22dac8c22ed401a3e6ba89b3f42fd95875287c28272d3764a152259e1d04a3a",
+  "source": "“I have had what is far more to the purpose,” returned the doctor solemnly: “I have had a lesson—O God, Utterson, what a lesson I have had!” And he covered his face for a moment with his hands.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0591df6de6c01616016ab42c58a1f487d29ee8309ef8aa8c02",
+      "visibleOutput": "TRANSLATION: “mi kama jo e ijo pi suli mute tawa ni,” jan Jekil pi sona sijelo li toki sin lon nasin pi musi ala. “mi kama sona e ijo suli—sewi o, jan Utason o, sona ni li suli mute a!” tenpo lili la, ona li len e sinpin ona kepeken luka ona.\nNOTES: “lesson” is rendered as acquired important knowledge, preserving Jekyll’s emotional emphasis.",
+      "translation": "“mi kama jo e ijo pi suli mute tawa ni,” jan Jekil pi sona sijelo li toki sin lon nasin pi musi ala. “mi kama sona e ijo suli—sewi o, jan Utason o, sona ni li suli mute a!” tenpo lili la, ona li len e sinpin ona kepeken luka ona.",
+      "notes": "“lesson” is rendered as acquired important knowledge, preserving Jekyll’s emotional emphasis.",
+      "usage": {
+        "input_tokens": 2785,
+        "input_tokens_details": {
+          "cache_write_tokens": 2782,
+          "cached_tokens": 0
+        },
+        "output_tokens": 259,
+        "output_tokens_details": {
+          "reasoning_tokens": 152
+        },
+        "total_tokens": 3044
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0591df6de6c01616016ab42c58a1f487d29ee8309ef8aa8c02",
+  "visibleOutput": "TRANSLATION: “mi kama jo e ijo pi suli mute tawa ni,” jan Jekil pi sona sijelo li toki sin lon nasin pi musi ala. “mi kama sona e ijo suli—sewi o, jan Utason o, sona ni li suli mute a!” tenpo lili la, ona li len e sinpin ona kepeken luka ona.\nNOTES: “lesson” is rendered as acquired important knowledge, preserving Jekyll’s emotional emphasis.",
+  "translation": "“mi kama jo e ijo pi suli mute tawa ni,” jan Jekil pi sona sijelo li toki sin lon nasin pi musi ala. “mi kama sona e ijo suli—sewi o, jan Utason o, sona ni li suli mute a!” tenpo lili la, ona li len e sinpin ona kepeken luka ona.",
+  "notes": "“lesson” is rendered as acquired important knowledge, preserving Jekyll’s emotional emphasis.",
+  "usage": {
+    "input_tokens": 2785,
+    "input_tokens_details": {
+      "cache_write_tokens": 2782,
+      "cached_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "reasoning_tokens": 152
+    },
+    "total_tokens": 3044
+  },
+  "success": true
+}

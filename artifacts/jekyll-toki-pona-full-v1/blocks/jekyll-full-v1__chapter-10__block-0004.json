@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0004",
+  "sourceHash": "00a26055ce0c6ccab8c73d1562dfdc61b976f59e81d657ef8cb7a620dd4d1064",
+  "source": "Many a man would have even blazoned such irregularities as I was guilty of; but from the high views that I had set before me, I regarded and hid them with an almost morbid sense of shame.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0719bfaee2cf24e7016ab43657718487d2b51cbda1278f348f",
+      "visibleOutput": "TRANSLATION: jan mute li ken toki suli kepeken pilin pona lon pali pi nasin ala sama pali mi. taso mi lawa e mi tawa nasin pona sewi. tan ni la, mi lukin e pali ni kepeken pilin ike suli tan pali mi; pilin ni li kama poka pi ike sijelo. mi len e pali ni tan jan ante.\nNOTES: “almost morbid shame” is rendered as intense shame approaching bodily illness, without asserting actual disease.",
+      "translation": "jan mute li ken toki suli kepeken pilin pona lon pali pi nasin ala sama pali mi. taso mi lawa e mi tawa nasin pona sewi. tan ni la, mi lukin e pali ni kepeken pilin ike suli tan pali mi; pilin ni li kama poka pi ike sijelo. mi len e pali ni tan jan ante.",
+      "notes": "“almost morbid shame” is rendered as intense shame approaching bodily illness, without asserting actual disease.",
+      "usage": {
+        "input_tokens": 2789,
+        "input_tokens_details": {
+          "cache_write_tokens": 2786,
+          "cached_tokens": 0
+        },
+        "output_tokens": 626,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3415
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0719bfaee2cf24e7016ab43657718487d2b51cbda1278f348f",
+  "visibleOutput": "TRANSLATION: jan mute li ken toki suli kepeken pilin pona lon pali pi nasin ala sama pali mi. taso mi lawa e mi tawa nasin pona sewi. tan ni la, mi lukin e pali ni kepeken pilin ike suli tan pali mi; pilin ni li kama poka pi ike sijelo. mi len e pali ni tan jan ante.\nNOTES: “almost morbid shame” is rendered as intense shame approaching bodily illness, without asserting actual disease.",
+  "translation": "jan mute li ken toki suli kepeken pilin pona lon pali pi nasin ala sama pali mi. taso mi lawa e mi tawa nasin pona sewi. tan ni la, mi lukin e pali ni kepeken pilin ike suli tan pali mi; pilin ni li kama poka pi ike sijelo. mi len e pali ni tan jan ante.",
+  "notes": "“almost morbid shame” is rendered as intense shame approaching bodily illness, without asserting actual disease.",
+  "usage": {
+    "input_tokens": 2789,
+    "input_tokens_details": {
+      "cache_write_tokens": 2786,
+      "cached_tokens": 0
+    },
+    "output_tokens": 626,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3415
+  },
+  "success": true
+}

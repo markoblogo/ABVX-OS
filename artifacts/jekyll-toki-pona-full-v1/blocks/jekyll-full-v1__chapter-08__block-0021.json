@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0021",
+  "sourceHash": "85a1da6b5560b4ac04e72f409ff82322887ba2c358965d1b95ef8beb8c14b0f1",
+  "source": "“It seems much changed,” replied the lawyer, very pale, but giving look for look.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a4bdba43c2ee70d016ab4300181b087d2ad99cf81ed69130c",
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li walo mute. taso ona li awen lukin e jan ante, li toki e ni: “ona li ante mute, tawa lukin.”\nNOTES: “ona” li ken toki e ijo anu jan lon toki pini; kulupu toki ni taso la nimi ona li sona ala.",
+      "translation": "jan pi sona lawa li walo mute. taso ona li awen lukin e jan ante, li toki e ni: “ona li ante mute, tawa lukin.”",
+      "notes": "“ona” li ken toki e ijo anu jan lon toki pini; kulupu toki ni taso la nimi ona li sona ala.",
+      "usage": {
+        "input_tokens": 2752,
+        "input_tokens_details": {
+          "cache_write_tokens": 2749,
+          "cached_tokens": 0
+        },
+        "output_tokens": 76,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2828
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a4bdba43c2ee70d016ab4300181b087d2ad99cf81ed69130c",
+  "visibleOutput": "TRANSLATION: jan pi sona lawa li walo mute. taso ona li awen lukin e jan ante, li toki e ni: “ona li ante mute, tawa lukin.”\nNOTES: “ona” li ken toki e ijo anu jan lon toki pini; kulupu toki ni taso la nimi ona li sona ala.",
+  "translation": "jan pi sona lawa li walo mute. taso ona li awen lukin e jan ante, li toki e ni: “ona li ante mute, tawa lukin.”",
+  "notes": "“ona” li ken toki e ijo anu jan lon toki pini; kulupu toki ni taso la nimi ona li sona ala.",
+  "usage": {
+    "input_tokens": 2752,
+    "input_tokens_details": {
+      "cache_write_tokens": 2749,
+      "cached_tokens": 0
+    },
+    "output_tokens": 76,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2828
+  },
+  "success": true
+}

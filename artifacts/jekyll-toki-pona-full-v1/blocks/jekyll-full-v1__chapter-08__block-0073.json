@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0073",
+  "sourceHash": "b79b347dfcf16232aca15b63aa43bf815005fa714939b6a80a0894cc7463612b",
+  "source": "On the desk among the neat array of papers, a large envelope was uppermost, and bore, in the doctor’s hand, the name of Mr. Utterson. The lawyer unsealed it, and several enclosures fell to the floor.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0709f052d8b84992016ab4327f9ef887d284f5992ce6abba24",
+      "visibleOutput": "TRANSLATION: Lon supa pali la, lipu mute li lon nasin pona. poki lipu suli li lon sewi ale. nimi jan Utason li lon poki ni kepeken sitelen luka pi jan Jekil pi sona sijelo. jan Utason pi sona lawa li weka e selo pi poki. lipu mute pi insa poki li kama anpa tawa anpa tomo.\nNOTES: NONE",
+      "translation": "Lon supa pali la, lipu mute li lon nasin pona. poki lipu suli li lon sewi ale. nimi jan Utason li lon poki ni kepeken sitelen luka pi jan Jekil pi sona sijelo. jan Utason pi sona lawa li weka e selo pi poki. lipu mute pi insa poki li kama anpa tawa anpa tomo.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2784,
+        "input_tokens_details": {
+          "cache_write_tokens": 2781,
+          "cached_tokens": 0
+        },
+        "output_tokens": 502,
+        "output_tokens_details": {
+          "reasoning_tokens": 404
+        },
+        "total_tokens": 3286
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0709f052d8b84992016ab4327f9ef887d284f5992ce6abba24",
+  "visibleOutput": "TRANSLATION: Lon supa pali la, lipu mute li lon nasin pona. poki lipu suli li lon sewi ale. nimi jan Utason li lon poki ni kepeken sitelen luka pi jan Jekil pi sona sijelo. jan Utason pi sona lawa li weka e selo pi poki. lipu mute pi insa poki li kama anpa tawa anpa tomo.\nNOTES: NONE",
+  "translation": "Lon supa pali la, lipu mute li lon nasin pona. poki lipu suli li lon sewi ale. nimi jan Utason li lon poki ni kepeken sitelen luka pi jan Jekil pi sona sijelo. jan Utason pi sona lawa li weka e selo pi poki. lipu mute pi insa poki li kama anpa tawa anpa tomo.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2784,
+    "input_tokens_details": {
+      "cache_write_tokens": 2781,
+      "cached_tokens": 0
+    },
+    "output_tokens": 502,
+    "output_tokens_details": {
+      "reasoning_tokens": 404
+    },
+    "total_tokens": 3286
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0066",
+  "sourceHash": "59375b42becf6efcf06ad233f6492f4edb7b23c4101777226139db5e31cd4c93",
+  "source": "Strange as my circumstances were, the terms of this debate are as old and commonplace as man; much the same inducements and alarms cast the die for any tempted and trembling sinner; and it fell out with me, as it falls with so vast a majority of my fellows, that I chose the better part and was found wanting in the strength to keep to it.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

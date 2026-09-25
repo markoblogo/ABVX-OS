@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0023",
+  "sourceHash": "72e981c250e8c828ff3b8ca58a37ebe7ea9823b908389830c4f2ec6e4b63b3d8",
+  "source": "“If he be Mr. Hyde,” he had thought, “I shall be Mr. Seek.” And at last his patience was rewarded. It was a fine dry night; frost in the air; the streets as clean as a ballroom floor; the lamps, unshaken, by any wind, drawing a regular pattern of light and shadow.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c3702d8ee8678a3016ab4278fa20c87d2bb164ff72674d133",
+      "visibleOutput": "TRANSLATION: jan Utason li pilin e ni: “ona li jan Hata la, mi jan Alasa.” lon pini la, awen ona li kama jo e pona. pimeja ni li pona li telo ala. kon li lete mute. nasin li jaki ala sama supa anpa pi tomo musi tawa. kon li tawa ala e ilo suno. ilo suno li pali e nasin sama pi suno en pimeja.\nNOTES: “jan Alasa” li awen e musi nimi pi “Hyde/Seek.”",
+      "translation": "jan Utason li pilin e ni: “ona li jan Hata la, mi jan Alasa.” lon pini la, awen ona li kama jo e pona. pimeja ni li pona li telo ala. kon li lete mute. nasin li jaki ala sama supa anpa pi tomo musi tawa. kon li tawa ala e ilo suno. ilo suno li pali e nasin sama pi suno en pimeja.",
+      "notes": "“jan Alasa” li awen e musi nimi pi “Hyde/Seek.”",
+      "usage": {
+        "input_tokens": 2816,
+        "input_tokens_details": {
+          "cache_write_tokens": 2813,
+          "cached_tokens": 0
+        },
+        "output_tokens": 230,
+        "output_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "total_tokens": 3046
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c3702d8ee8678a3016ab4278fa20c87d2bb164ff72674d133",
+  "visibleOutput": "TRANSLATION: jan Utason li pilin e ni: “ona li jan Hata la, mi jan Alasa.” lon pini la, awen ona li kama jo e pona. pimeja ni li pona li telo ala. kon li lete mute. nasin li jaki ala sama supa anpa pi tomo musi tawa. kon li tawa ala e ilo suno. ilo suno li pali e nasin sama pi suno en pimeja.\nNOTES: “jan Alasa” li awen e musi nimi pi “Hyde/Seek.”",
+  "translation": "jan Utason li pilin e ni: “ona li jan Hata la, mi jan Alasa.” lon pini la, awen ona li kama jo e pona. pimeja ni li pona li telo ala. kon li lete mute. nasin li jaki ala sama supa anpa pi tomo musi tawa. kon li tawa ala e ilo suno. ilo suno li pali e nasin sama pi suno en pimeja.",
+  "notes": "“jan Alasa” li awen e musi nimi pi “Hyde/Seek.”",
+  "usage": {
+    "input_tokens": 2816,
+    "input_tokens_details": {
+      "cache_write_tokens": 2813,
+      "cached_tokens": 0
+    },
+    "output_tokens": 230,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 3046
+  },
+  "success": true
+}

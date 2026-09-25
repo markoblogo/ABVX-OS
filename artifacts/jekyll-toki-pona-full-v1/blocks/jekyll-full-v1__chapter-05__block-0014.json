@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0014",
+  "sourceHash": "7b496f157166b4f5da515cada35bbd3ed86b848e5e8465dbf07cc590bfc6bdac",
+  "source": "“Well, I shall consider,” returned the lawyer. “And now one word more: it was Hyde who dictated the terms in your will about that disappearance?” The doctor seemed seized with a qualm of faintness: he shut his mouth tight and nodded. “I knew it,” said Utterson. “He meant to murder you. You have had a fine escape.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04864043d0a22656016ab42c4401fc87d2a548ddb91a896fe8",
+      "visibleOutput": "TRANSLATION: “pona. mi awen toki insa e ni,” jan pi sona lawa li toki. “tenpo ni la, mi wile toki e ijo wan sin: jan Hata li lawa ala lawa e toki lon lipu lawa sina, toki pi sina weka lon tenpo mute li toki ala tan seme?” lukin la, pilin ike pi wawa ala li kama lon jan Jekil pi sona sijelo. ona li pini wawa e uta ona, li tawa e lawa ona anpa. jan Utason li toki: “mi sona e ni. ona li wile moli e sina. pona suli la, sina awen lon.”  \nNOTES: “seemed” remains observer-bound; Hyde’s intent is only Utterson’s claim.",
+      "translation": "“pona. mi awen toki insa e ni,” jan pi sona lawa li toki. “tenpo ni la, mi wile toki e ijo wan sin: jan Hata li lawa ala lawa e toki lon lipu lawa sina, toki pi sina weka lon tenpo mute li toki ala tan seme?” lukin la, pilin ike pi wawa ala li kama lon jan Jekil pi sona sijelo. ona li pini wawa e uta ona, li tawa e lawa ona anpa. jan Utason li toki: “mi sona e ni. ona li wile moli e sina. pona suli la, sina awen lon.”",
+      "notes": "“seemed” remains observer-bound; Hyde’s intent is only Utterson’s claim.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 573,
+        "output_tokens_details": {
+          "reasoning_tokens": 403
+        },
+        "total_tokens": 3394
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04864043d0a22656016ab42c4401fc87d2a548ddb91a896fe8",
+  "visibleOutput": "TRANSLATION: “pona. mi awen toki insa e ni,” jan pi sona lawa li toki. “tenpo ni la, mi wile toki e ijo wan sin: jan Hata li lawa ala lawa e toki lon lipu lawa sina, toki pi sina weka lon tenpo mute li toki ala tan seme?” lukin la, pilin ike pi wawa ala li kama lon jan Jekil pi sona sijelo. ona li pini wawa e uta ona, li tawa e lawa ona anpa. jan Utason li toki: “mi sona e ni. ona li wile moli e sina. pona suli la, sina awen lon.”  \nNOTES: “seemed” remains observer-bound; Hyde’s intent is only Utterson’s claim.",
+  "translation": "“pona. mi awen toki insa e ni,” jan pi sona lawa li toki. “tenpo ni la, mi wile toki e ijo wan sin: jan Hata li lawa ala lawa e toki lon lipu lawa sina, toki pi sina weka lon tenpo mute li toki ala tan seme?” lukin la, pilin ike pi wawa ala li kama lon jan Jekil pi sona sijelo. ona li pini wawa e uta ona, li tawa e lawa ona anpa. jan Utason li toki: “mi sona e ni. ona li wile moli e sina. pona suli la, sina awen lon.”",
+  "notes": "“seemed” remains observer-bound; Hyde’s intent is only Utterson’s claim.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 573,
+    "output_tokens_details": {
+      "reasoning_tokens": 403
+    },
+    "total_tokens": 3394
+  },
+  "success": true
+}

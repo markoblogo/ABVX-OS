@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0013",
+  "sourceHash": "7ca92c31de62c8c2b935e1aa22e51be32786f2f765b9b84cecb90dac2a539a45",
+  "source": "It was the curse of mankind that these incongruous fagots were thus bound together that in the agonised womb of consciousness, these polar twins should be continuously struggling. How, then, were they dissociated? I was so far in my reflections when, as I have said, a side-light began to shine upon the subject from the laboratory table.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b4589f0f5a8032d016ab436f7204087d291337b5edc07c573",
+      "visibleOutput": "TRANSLATION: ike suli pi jan ale li ni: kulupu tu ni pi sama ala li awen wan. lon insa pi sona jan, ni li sama jan tu sama pi nasin ante mute; ona tu li utala awen lon pilin pakala. taso, nasin seme la ona tu ken weka tan ona? mi kama lon ni lon toki insa mi. tenpo ni la, sama mi toki pini, sona lili li open kama tan supa pali lon tomo pi pali sona, li pana e suno lili tawa ijo ni.\nNOTES: “agonised womb of consciousness” and “side-light” are preserved as compressed metaphors.",
+      "translation": "ike suli pi jan ale li ni: kulupu tu ni pi sama ala li awen wan. lon insa pi sona jan, ni li sama jan tu sama pi nasin ante mute; ona tu li utala awen lon pilin pakala. taso, nasin seme la ona tu ken weka tan ona? mi kama lon ni lon toki insa mi. tenpo ni la, sama mi toki pini, sona lili li open kama tan supa pali lon tomo pi pali sona, li pana e suno lili tawa ijo ni.",
+      "notes": "“agonised womb of consciousness” and “side-light” are preserved as compressed metaphors.",
+      "usage": {
+        "input_tokens": 2816,
+        "input_tokens_details": {
+          "cache_write_tokens": 2813,
+          "cached_tokens": 0
+        },
+        "output_tokens": 397,
+        "output_tokens_details": {
+          "reasoning_tokens": 248
+        },
+        "total_tokens": 3213
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b4589f0f5a8032d016ab436f7204087d291337b5edc07c573",
+  "visibleOutput": "TRANSLATION: ike suli pi jan ale li ni: kulupu tu ni pi sama ala li awen wan. lon insa pi sona jan, ni li sama jan tu sama pi nasin ante mute; ona tu li utala awen lon pilin pakala. taso, nasin seme la ona tu ken weka tan ona? mi kama lon ni lon toki insa mi. tenpo ni la, sama mi toki pini, sona lili li open kama tan supa pali lon tomo pi pali sona, li pana e suno lili tawa ijo ni.\nNOTES: “agonised womb of consciousness” and “side-light” are preserved as compressed metaphors.",
+  "translation": "ike suli pi jan ale li ni: kulupu tu ni pi sama ala li awen wan. lon insa pi sona jan, ni li sama jan tu sama pi nasin ante mute; ona tu li utala awen lon pilin pakala. taso, nasin seme la ona tu ken weka tan ona? mi kama lon ni lon toki insa mi. tenpo ni la, sama mi toki pini, sona lili li open kama tan supa pali lon tomo pi pali sona, li pana e suno lili tawa ijo ni.",
+  "notes": "“agonised womb of consciousness” and “side-light” are preserved as compressed metaphors.",
+  "usage": {
+    "input_tokens": 2816,
+    "input_tokens_details": {
+      "cache_write_tokens": 2813,
+      "cached_tokens": 0
+    },
+    "output_tokens": 397,
+    "output_tokens_details": {
+      "reasoning_tokens": 248
+    },
+    "total_tokens": 3213
+  },
+  "success": true
+}

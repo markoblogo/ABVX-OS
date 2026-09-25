@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0027",
+  "sourceHash": "b1efae11bf044dbc4c73aa00839b6e43c3c7e28a0d9fcc4cec6030485f0bf286",
+  "source": "At this moment, however, the rooms bore every mark of having been recently and hurriedly ransacked; clothes lay about the floor, with their pockets inside out; lock-fast drawers stood open; and on the hearth there lay a pile of grey ashes, as though many papers had been burned.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01d67ab7d4980468016ab42b4b82ec87d2a17735391685b6a9",
+      "visibleOutput": "TRANSLATION: taso lon tenpo ni la, tomo ni li jo e sitelen ale pi ni: lon tenpo poka la, jan li alasa e ijo lon ona kepeken tenpo lili, li pakala e nasin pi ijo ale. len li lon anpa, la insa pi poki len li lon selo. poki suli pi ilo open li open. lon ma seli la, kulupu ko pimeja walo li lon. ni li sama ni: lipu mute li kama seli li kama ko.\nNOTES: “as though” is preserved as appearance-based inference, not fact.",
+      "translation": "taso lon tenpo ni la, tomo ni li jo e sitelen ale pi ni: lon tenpo poka la, jan li alasa e ijo lon ona kepeken tenpo lili, li pakala e nasin pi ijo ale. len li lon anpa, la insa pi poki len li lon selo. poki suli pi ilo open li open. lon ma seli la, kulupu ko pimeja walo li lon. ni li sama ni: lipu mute li kama seli li kama ko.",
+      "notes": "“as though” is preserved as appearance-based inference, not fact.",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "reasoning_tokens": 184
+        },
+        "total_tokens": 3121
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01d67ab7d4980468016ab42b4b82ec87d2a17735391685b6a9",
+  "visibleOutput": "TRANSLATION: taso lon tenpo ni la, tomo ni li jo e sitelen ale pi ni: lon tenpo poka la, jan li alasa e ijo lon ona kepeken tenpo lili, li pakala e nasin pi ijo ale. len li lon anpa, la insa pi poki len li lon selo. poki suli pi ilo open li open. lon ma seli la, kulupu ko pimeja walo li lon. ni li sama ni: lipu mute li kama seli li kama ko.\nNOTES: “as though” is preserved as appearance-based inference, not fact.",
+  "translation": "taso lon tenpo ni la, tomo ni li jo e sitelen ale pi ni: lon tenpo poka la, jan li alasa e ijo lon ona kepeken tenpo lili, li pakala e nasin pi ijo ale. len li lon anpa, la insa pi poki len li lon selo. poki suli pi ilo open li open. lon ma seli la, kulupu ko pimeja walo li lon. ni li sama ni: lipu mute li kama seli li kama ko.",
+  "notes": "“as though” is preserved as appearance-based inference, not fact.",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 323,
+    "output_tokens_details": {
+      "reasoning_tokens": 184
+    },
+    "total_tokens": 3121
+  },
+  "success": true
+}

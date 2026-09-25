@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0004",
+  "sourceHash": "be0ed6dded99ce8f08f61279368e9b117dad37caea374597cb1293a2a2020a4a",
+  "source": "“I incline to Cain’s heresy,” he used to say quaintly: “I let my brother go to the devil in his own way.” In this character, it was frequently his fortune to be the last reputable acquaintance and the last good influence in the lives of down-going men. And to such as these, so long as they came about his chambers, he never marked a shade of change in his demeanour.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06c0d96e03ebb4e4016ab42489c55487d28e6cd9492e71c420",
+      "visibleOutput": "TRANSLATION: Ona li toki pi tenpo pini kepeken nasin nasa ni: “mi pilin pona lili tawa nasin pi jan Ken, nasin pi sona ante lon lawa sewi: mi tawa ala e jan sama mi. ona li ken tawa ike kepeken nasin ona.” Tan nasin ona ni, lon tenpo mute, lon ale pi jan pi kama ike, ona li jan sona pi nimi pona nanpa pini, li jan nanpa pini pi pana e nasin pona tawa ona. Tenpo la, jan ni li kama lon tomo pali ona la, ona li ante ala e nasin ona tawa jan ni, li ante ala lili kin.\n\nNOTES: “Cain’s heresy” and “go to the devil” are rendered by their contextual meanings while preserving Cain as a religious reference.",
+      "translation": "Ona li toki pi tenpo pini kepeken nasin nasa ni: “mi pilin pona lili tawa nasin pi jan Ken, nasin pi sona ante lon lawa sewi: mi tawa ala e jan sama mi. ona li ken tawa ike kepeken nasin ona.” Tan nasin ona ni, lon tenpo mute, lon ale pi jan pi kama ike, ona li jan sona pi nimi pona nanpa pini, li jan nanpa pini pi pana e nasin pona tawa ona. Tenpo la, jan ni li kama lon tomo pali ona la, ona li ante ala e nasin ona tawa jan ni, li ante ala lili kin.",
+      "notes": "“Cain’s heresy” and “go to the devil” are rendered by their contextual meanings while preserving Cain as a religious reference.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 481,
+        "output_tokens_details": {
+          "reasoning_tokens": 300
+        },
+        "total_tokens": 3301
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_06c0d96e03ebb4e4016ab42489c55487d28e6cd9492e71c420",
+  "visibleOutput": "TRANSLATION: Ona li toki pi tenpo pini kepeken nasin nasa ni: “mi pilin pona lili tawa nasin pi jan Ken, nasin pi sona ante lon lawa sewi: mi tawa ala e jan sama mi. ona li ken tawa ike kepeken nasin ona.” Tan nasin ona ni, lon tenpo mute, lon ale pi jan pi kama ike, ona li jan sona pi nimi pona nanpa pini, li jan nanpa pini pi pana e nasin pona tawa ona. Tenpo la, jan ni li kama lon tomo pali ona la, ona li ante ala e nasin ona tawa jan ni, li ante ala lili kin.\n\nNOTES: “Cain’s heresy” and “go to the devil” are rendered by their contextual meanings while preserving Cain as a religious reference.",
+  "translation": "Ona li toki pi tenpo pini kepeken nasin nasa ni: “mi pilin pona lili tawa nasin pi jan Ken, nasin pi sona ante lon lawa sewi: mi tawa ala e jan sama mi. ona li ken tawa ike kepeken nasin ona.” Tan nasin ona ni, lon tenpo mute, lon ale pi jan pi kama ike, ona li jan sona pi nimi pona nanpa pini, li jan nanpa pini pi pana e nasin pona tawa ona. Tenpo la, jan ni li kama lon tomo pali ona la, ona li ante ala e nasin ona tawa jan ni, li ante ala lili kin.",
+  "notes": "“Cain’s heresy” and “go to the devil” are rendered by their contextual meanings while preserving Cain as a religious reference.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 481,
+    "output_tokens_details": {
+      "reasoning_tokens": 300
+    },
+    "total_tokens": 3301
+  },
+  "success": true
+}

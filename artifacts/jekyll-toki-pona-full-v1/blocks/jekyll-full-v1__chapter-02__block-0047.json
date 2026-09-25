@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0047",
+  "sourceHash": "573cf7fa6d175143684d87c6cef39edd67de5c4470284cdd18df32c3579982d8",
+  "source": "He was wild when he was young; a long while ago to be sure; but in the law of God, there is no statute of limitations.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0146f2e41a8b06c8016ab428cbac9887d2a5f94c76f65dfb64",
+      "visibleOutput": "TRANSLATION: tenpo pi jan lili ona la, jan Jekil li pali nasa mute. ni li lon tenpo pini weka mute, lon. taso lon lawa pi jan sewi la, tenpo mute li ken ala weka e ike pi pali pini.\nNOTES: “wild” is rendered broadly to avoid specifying unmentioned misconduct.",
+      "translation": "tenpo pi jan lili ona la, jan Jekil li pali nasa mute. ni li lon tenpo pini weka mute, lon. taso lon lawa pi jan sewi la, tenpo mute li ken ala weka e ike pi pali pini.",
+      "notes": "“wild” is rendered broadly to avoid specifying unmentioned misconduct.",
+      "usage": {
+        "input_tokens": 2767,
+        "input_tokens_details": {
+          "cache_write_tokens": 2764,
+          "cached_tokens": 0
+        },
+        "output_tokens": 534,
+        "output_tokens_details": {
+          "reasoning_tokens": 454
+        },
+        "total_tokens": 3301
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0146f2e41a8b06c8016ab428cbac9887d2a5f94c76f65dfb64",
+  "visibleOutput": "TRANSLATION: tenpo pi jan lili ona la, jan Jekil li pali nasa mute. ni li lon tenpo pini weka mute, lon. taso lon lawa pi jan sewi la, tenpo mute li ken ala weka e ike pi pali pini.\nNOTES: “wild” is rendered broadly to avoid specifying unmentioned misconduct.",
+  "translation": "tenpo pi jan lili ona la, jan Jekil li pali nasa mute. ni li lon tenpo pini weka mute, lon. taso lon lawa pi jan sewi la, tenpo mute li ken ala weka e ike pi pali pini.",
+  "notes": "“wild” is rendered broadly to avoid specifying unmentioned misconduct.",
+  "usage": {
+    "input_tokens": 2767,
+    "input_tokens_details": {
+      "cache_write_tokens": 2764,
+      "cached_tokens": 0
+    },
+    "output_tokens": 534,
+    "output_tokens_details": {
+      "reasoning_tokens": 454
+    },
+    "total_tokens": 3301
+  },
+  "success": true
+}

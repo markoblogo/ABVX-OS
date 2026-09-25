@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0031",
+  "sourceHash": "70fdb9f9f21563e44162f63e38f5f7c3de5229f1b00737fce5a9aca323f08a8f",
+  "source": "Mr. Hyde appeared to hesitate, and then, as if upon some sudden reflection, fronted about with an air of defiance; and the pair stared at each other pretty fixedly for a few seconds. “Now I shall know you again,” said Mr. Utterson. “It may be useful.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0496ee9768595406016ab427f678ac87d2a6e59b4ff243d65f",
+      "visibleOutput": "TRANSLATION: jan Hata li lukin sama ni: ona li wile pali, taso ona li awen lili. ni la, sama la ijo sin li kama lon pilin ona pi tenpo wan. ona li sike, li kama sinpin e jan Utason. nasin lukin ona li pana e wile utala. lon tenpo lili la, ona tu li awen lukin e sinpin pi jan ante. jan Utason li toki e ni: “tenpo ni la, mi ken sona sin e sina lon tenpo kama. ni li ken pona.”\nNOTES: “Appeared” and “as if” remain observer-bound; usefulness remains possible, not certain.",
+      "translation": "jan Hata li lukin sama ni: ona li wile pali, taso ona li awen lili. ni la, sama la ijo sin li kama lon pilin ona pi tenpo wan. ona li sike, li kama sinpin e jan Utason. nasin lukin ona li pana e wile utala. lon tenpo lili la, ona tu li awen lukin e sinpin pi jan ante. jan Utason li toki e ni: “tenpo ni la, mi ken sona sin e sina lon tenpo kama. ni li ken pona.”",
+      "notes": "“Appeared” and “as if” remain observer-bound; usefulness remains possible, not certain.",
+      "usage": {
+        "input_tokens": 2811,
+        "input_tokens_details": {
+          "cache_write_tokens": 2808,
+          "cached_tokens": 0
+        },
+        "output_tokens": 450,
+        "output_tokens_details": {
+          "reasoning_tokens": 296
+        },
+        "total_tokens": 3261
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0496ee9768595406016ab427f678ac87d2a6e59b4ff243d65f",
+  "visibleOutput": "TRANSLATION: jan Hata li lukin sama ni: ona li wile pali, taso ona li awen lili. ni la, sama la ijo sin li kama lon pilin ona pi tenpo wan. ona li sike, li kama sinpin e jan Utason. nasin lukin ona li pana e wile utala. lon tenpo lili la, ona tu li awen lukin e sinpin pi jan ante. jan Utason li toki e ni: “tenpo ni la, mi ken sona sin e sina lon tenpo kama. ni li ken pona.”\nNOTES: “Appeared” and “as if” remain observer-bound; usefulness remains possible, not certain.",
+  "translation": "jan Hata li lukin sama ni: ona li wile pali, taso ona li awen lili. ni la, sama la ijo sin li kama lon pilin ona pi tenpo wan. ona li sike, li kama sinpin e jan Utason. nasin lukin ona li pana e wile utala. lon tenpo lili la, ona tu li awen lukin e sinpin pi jan ante. jan Utason li toki e ni: “tenpo ni la, mi ken sona sin e sina lon tenpo kama. ni li ken pona.”",
+  "notes": "“Appeared” and “as if” remain observer-bound; usefulness remains possible, not certain.",
+  "usage": {
+    "input_tokens": 2811,
+    "input_tokens_details": {
+      "cache_write_tokens": 2808,
+      "cached_tokens": 0
+    },
+    "output_tokens": 450,
+    "output_tokens_details": {
+      "reasoning_tokens": 296
+    },
+    "total_tokens": 3261
+  },
+  "success": true
+}

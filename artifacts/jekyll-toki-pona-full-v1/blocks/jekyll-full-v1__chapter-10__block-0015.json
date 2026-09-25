@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0015",
+  "sourceHash": "84c8bbb1e09cc5028a156fb48eef1e1c9d93ee19f1753d1c4ab81e2810c24506",
+  "source": "For two good reasons, I will not enter deeply into this scientific branch of my confession. First, because I have been made to learn that the doom and burthen of our life is bound for ever on man’s shoulders, and when the attempt is made to cast it off, it but returns upon us with more unfamiliar and more awful pressure.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

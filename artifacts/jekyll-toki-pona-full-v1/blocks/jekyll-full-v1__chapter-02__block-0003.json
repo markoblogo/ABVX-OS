@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0003",
+  "sourceHash": "a95426adaac220e796944377b6994ce69a1db73060b726f61746efc3a28c81f5",
+  "source": "Utterson, though he took charge of it now that it was made, had refused to lend the least assistance in the making of it; it provided not only that, in case of the decease of Henry Jekyll, M.D., D.C.L., L.L.D., F.R.S., etc., all his possessions were to pass into the hands of his “friend and benefactor Edward Hyde,” but that in case of Dr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04bdba70699f9985016ab42696d11487d2b6ae14e25227d546",
+      "visibleOutput": "TRANSLATION: jan Utason li awen e lipu lawa ni tan ni: lipu li pini kama. taso, tenpo lipu li kama lon la, ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li lawa e ni: jan Jekil pi sona sijelo, pi sona lawa, pi sona suli, en ante li moli la, ijo ale ona li tawa “jan pona ona, jan pana pona Hata.” taso lipu li lawa kin e ni: jan Jekil pi sona sijelo la—\nNOTES: SOURCE ENDS MID-SENTENCE; the final incomplete condition is preserved.",
+      "translation": "jan Utason li awen e lipu lawa ni tan ni: lipu li pini kama. taso, tenpo lipu li kama lon la, ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li lawa e ni: jan Jekil pi sona sijelo, pi sona lawa, pi sona suli, en ante li moli la, ijo ale ona li tawa “jan pona ona, jan pana pona Hata.” taso lipu li lawa kin e ni: jan Jekil pi sona sijelo la—",
+      "notes": "SOURCE ENDS MID-SENTENCE; the final incomplete condition is preserved.",
+      "usage": {
+        "input_tokens": 2838,
+        "input_tokens_details": {
+          "cache_write_tokens": 2835,
+          "cached_tokens": 0
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 115
+        },
+        "total_tokens": 3100
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04bdba70699f9985016ab42696d11487d2b6ae14e25227d546",
+  "visibleOutput": "TRANSLATION: jan Utason li awen e lipu lawa ni tan ni: lipu li pini kama. taso, tenpo lipu li kama lon la, ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li lawa e ni: jan Jekil pi sona sijelo, pi sona lawa, pi sona suli, en ante li moli la, ijo ale ona li tawa “jan pona ona, jan pana pona Hata.” taso lipu li lawa kin e ni: jan Jekil pi sona sijelo la—\nNOTES: SOURCE ENDS MID-SENTENCE; the final incomplete condition is preserved.",
+  "translation": "jan Utason li awen e lipu lawa ni tan ni: lipu li pini kama. taso, tenpo lipu li kama lon la, ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li lawa e ni: jan Jekil pi sona sijelo, pi sona lawa, pi sona suli, en ante li moli la, ijo ale ona li tawa “jan pona ona, jan pana pona Hata.” taso lipu li lawa kin e ni: jan Jekil pi sona sijelo la—",
+  "notes": "SOURCE ENDS MID-SENTENCE; the final incomplete condition is preserved.",
+  "usage": {
+    "input_tokens": 2838,
+    "input_tokens_details": {
+      "cache_write_tokens": 2835,
+      "cached_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 115
+    },
+    "total_tokens": 3100
+  },
+  "success": true
+}

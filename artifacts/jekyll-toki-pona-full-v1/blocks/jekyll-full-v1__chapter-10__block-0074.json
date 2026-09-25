@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0074",
+  "sourceHash": "61f4a789597b6028a70692a8cde813852a7b0e1ed8c6dbb1971216889c0c1804",
+  "source": "With a transport of glee, I mauled the unresisting body, tasting delight from every blow; and it was not till weariness had begun to succeed, that I was suddenly, in the top fit of my delirium, struck through the heart by a cold thrill of terror.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

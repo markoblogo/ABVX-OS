@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0015",
+  "sourceHash": "30043743bc7129e257960f95cbf34fd868202d73a6e131135f7c77e8426c1066",
+  "source": "As soon as he got home, Utterson sat down and wrote to Jekyll, complaining of his exclusion from the house, and asking the cause of this unhappy break with Lanyon; and the next day brought him a long answer, often very pathetically worded, and sometimes darkly mysterious in drift. The quarrel with Lanyon was incurable.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_090020382e915134016ab42dcdd16887d2a479403bbf004ea7",
+      "visibleOutput": "TRANSLATION: tenpo lili taso la jan Utason li kama lon tomo ona. ona li anpa, li sitelen tawa jan Jekil. ona li toki ike tan ni: jan Jekil li ken ala e kama ona lon tomo. ona li wile sona e tan pi pini pilin ike ni lon poka pi jan Lanjon. lon tenpo suno kama la, jan Utason li kama jo e lipu toki suli. nimi pi lipu ni li pana mute e pilin ike; tenpo ante la, kon pi toki ona li pimeja li sona ike. pakala poka pi jan Jekil en jan Lanjon li ken ala pona.\nNOTES: “darkly mysterious in drift” is rendered as the letter’s meaning being obscure and difficult to understand.",
+      "translation": "tenpo lili taso la jan Utason li kama lon tomo ona. ona li anpa, li sitelen tawa jan Jekil. ona li toki ike tan ni: jan Jekil li ken ala e kama ona lon tomo. ona li wile sona e tan pi pini pilin ike ni lon poka pi jan Lanjon. lon tenpo suno kama la, jan Utason li kama jo e lipu toki suli. nimi pi lipu ni li pana mute e pilin ike; tenpo ante la, kon pi toki ona li pimeja li sona ike. pakala poka pi jan Jekil en jan Lanjon li ken ala pona.",
+      "notes": "“darkly mysterious in drift” is rendered as the letter’s meaning being obscure and difficult to understand.",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 359,
+        "output_tokens_details": {
+          "reasoning_tokens": 187
+        },
+        "total_tokens": 3185
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_090020382e915134016ab42dcdd16887d2a479403bbf004ea7",
+  "visibleOutput": "TRANSLATION: tenpo lili taso la jan Utason li kama lon tomo ona. ona li anpa, li sitelen tawa jan Jekil. ona li toki ike tan ni: jan Jekil li ken ala e kama ona lon tomo. ona li wile sona e tan pi pini pilin ike ni lon poka pi jan Lanjon. lon tenpo suno kama la, jan Utason li kama jo e lipu toki suli. nimi pi lipu ni li pana mute e pilin ike; tenpo ante la, kon pi toki ona li pimeja li sona ike. pakala poka pi jan Jekil en jan Lanjon li ken ala pona.\nNOTES: “darkly mysterious in drift” is rendered as the letter’s meaning being obscure and difficult to understand.",
+  "translation": "tenpo lili taso la jan Utason li kama lon tomo ona. ona li anpa, li sitelen tawa jan Jekil. ona li toki ike tan ni: jan Jekil li ken ala e kama ona lon tomo. ona li wile sona e tan pi pini pilin ike ni lon poka pi jan Lanjon. lon tenpo suno kama la, jan Utason li kama jo e lipu toki suli. nimi pi lipu ni li pana mute e pilin ike; tenpo ante la, kon pi toki ona li pimeja li sona ike. pakala poka pi jan Jekil en jan Lanjon li ken ala pona.",
+  "notes": "“darkly mysterious in drift” is rendered as the letter’s meaning being obscure and difficult to understand.",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 187
+    },
+    "total_tokens": 3185
+  },
+  "success": true
+}

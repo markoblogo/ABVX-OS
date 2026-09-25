@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0043",
+  "sourceHash": "2323ec793840aa2f9950aeed1e202efef2cb3ea5f422734ca6e276d598c21166",
+  "source": "But to-night there was a shudder in his blood; the face of Hyde sat heavy on his memory; he felt (what was rare with him) a nausea and distaste of life; and in the gloom of his spirits, he seemed to read a menace in the flickering of the firelight on the polished cabinets and the uneasy starting of the shadow on the roof.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c424b802f82f4bb016ab428a2a3c487d2b6c627c7bd64d985",
+      "visibleOutput": "TRANSLATION: taso lon pimeja ni, sijelo insa ona li tawa lili tan pilin monsuta. sinpin pi jan Hata li awen suli lon sona ona. ona li pilin jaki, li wile ala e lon—pilin ni li kama lon ona lon tenpo lili taso. pilin ona li pimeja; tan ni, ona la, suno seli pi tawa lili lon poki kiwen pi sinpin pona en pimeja pi tawa nasa lon sewi tomo li pana lukin e pakala kama.\nNOTES: “menace” is preserved as Utterson’s subjective impression, not an established threat.",
+      "translation": "taso lon pimeja ni, sijelo insa ona li tawa lili tan pilin monsuta. sinpin pi jan Hata li awen suli lon sona ona. ona li pilin jaki, li wile ala e lon—pilin ni li kama lon ona lon tenpo lili taso. pilin ona li pimeja; tan ni, ona la, suno seli pi tawa lili lon poki kiwen pi sinpin pona en pimeja pi tawa nasa lon sewi tomo li pana lukin e pakala kama.",
+      "notes": "“menace” is preserved as Utterson’s subjective impression, not an established threat.",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 233,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 3057
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c424b802f82f4bb016ab428a2a3c487d2b6c627c7bd64d985",
+  "visibleOutput": "TRANSLATION: taso lon pimeja ni, sijelo insa ona li tawa lili tan pilin monsuta. sinpin pi jan Hata li awen suli lon sona ona. ona li pilin jaki, li wile ala e lon—pilin ni li kama lon ona lon tenpo lili taso. pilin ona li pimeja; tan ni, ona la, suno seli pi tawa lili lon poki kiwen pi sinpin pona en pimeja pi tawa nasa lon sewi tomo li pana lukin e pakala kama.\nNOTES: “menace” is preserved as Utterson’s subjective impression, not an established threat.",
+  "translation": "taso lon pimeja ni, sijelo insa ona li tawa lili tan pilin monsuta. sinpin pi jan Hata li awen suli lon sona ona. ona li pilin jaki, li wile ala e lon—pilin ni li kama lon ona lon tenpo lili taso. pilin ona li pimeja; tan ni, ona la, suno seli pi tawa lili lon poki kiwen pi sinpin pona en pimeja pi tawa nasa lon sewi tomo li pana lukin e pakala kama.",
+  "notes": "“menace” is preserved as Utterson’s subjective impression, not an established threat.",
+  "usage": {
+    "input_tokens": 2824,
+    "input_tokens_details": {
+      "cache_write_tokens": 2821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 233,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 3057
+  },
+  "success": true
+}

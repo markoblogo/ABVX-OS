@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0016",
+  "sourceHash": "5f9dc9e8a72294efae18dae1face84e434f08e3f5b6ef38bd48e7e7d21c11f0e",
+  "source": "Mr. Utterson reflected; and then, raising his head, “If you will come with me in my cab,” he said, “I think I can take you to his house.” It was by this time about nine in the morning, and the first fog of the season.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02242f2843866514016ab42ab08c0087d28b0546fd0b28a639",
+      "visibleOutput": "TRANSLATION: jan Utason li toki ala li pilin. ona li sewi e lawa ona, li toki e ni: “sina wile la, o kama lon poka mi lon tomo tawa mi. mi pilin e ni: mi ken tawa e sina lon tomo pi jan Hata.” tenpo ni la, tenpo suno li open, li poka tenpo ilo luka tu tu. kon walo nanpa wan pi tenpo pi nasin kon ni li lon.\nNOTES: “his house” is rendered as jan Hata’s house based on the established referent; Utterson’s claim remains explicitly an inference.",
+      "translation": "jan Utason li toki ala li pilin. ona li sewi e lawa ona, li toki e ni: “sina wile la, o kama lon poka mi lon tomo tawa mi. mi pilin e ni: mi ken tawa e sina lon tomo pi jan Hata.” tenpo ni la, tenpo suno li open, li poka tenpo ilo luka tu tu. kon walo nanpa wan pi tenpo pi nasin kon ni li lon.",
+      "notes": "“his house” is rendered as jan Hata’s house based on the established referent; Utterson’s claim remains explicitly an inference.",
+      "usage": {
+        "input_tokens": 2807,
+        "input_tokens_details": {
+          "cache_write_tokens": 2804,
+          "cached_tokens": 0
+        },
+        "output_tokens": 656,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3463
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02242f2843866514016ab42ab08c0087d28b0546fd0b28a639",
+  "visibleOutput": "TRANSLATION: jan Utason li toki ala li pilin. ona li sewi e lawa ona, li toki e ni: “sina wile la, o kama lon poka mi lon tomo tawa mi. mi pilin e ni: mi ken tawa e sina lon tomo pi jan Hata.” tenpo ni la, tenpo suno li open, li poka tenpo ilo luka tu tu. kon walo nanpa wan pi tenpo pi nasin kon ni li lon.\nNOTES: “his house” is rendered as jan Hata’s house based on the established referent; Utterson’s claim remains explicitly an inference.",
+  "translation": "jan Utason li toki ala li pilin. ona li sewi e lawa ona, li toki e ni: “sina wile la, o kama lon poka mi lon tomo tawa mi. mi pilin e ni: mi ken tawa e sina lon tomo pi jan Hata.” tenpo ni la, tenpo suno li open, li poka tenpo ilo luka tu tu. kon walo nanpa wan pi tenpo pi nasin kon ni li lon.",
+  "notes": "“his house” is rendered as jan Hata’s house based on the established referent; Utterson’s claim remains explicitly an inference.",
+  "usage": {
+    "input_tokens": 2807,
+    "input_tokens_details": {
+      "cache_write_tokens": 2804,
+      "cached_tokens": 0
+    },
+    "output_tokens": 656,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3463
+  },
+  "success": true
+}

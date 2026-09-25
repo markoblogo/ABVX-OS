@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0040",
+  "sourceText": "“I’ve been afraid for about a week,” returned Poole, doggedly disregarding the question, “and I can bear it no more.”",
+  "sourceHash": "d77bf9c65653edc677ce2a62a4bb888f743713593ca3e7d7cb9f07c7ba71697f",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04ed435740cdd429016ab41e7afa5c87d2ae5e820f519c1759",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”\nNOTES: NONE",
+      "translation": "“tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2799,
+        "input_tokens_details": {
+          "cache_write_tokens": 2796,
+          "cached_tokens": 0
+        },
+        "output_tokens": 338,
+        "output_tokens_details": {
+          "reasoning_tokens": 276
+        },
+        "total_tokens": 3137
+      },
+      "elapsedMs": 11331
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04ed435740cdd429016ab41e7afa5c87d2ae5e820f519c1759",
+  "visibleOutput": "TRANSLATION: “tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”\nNOTES: NONE",
+  "translation": "“tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2799,
+    "input_tokens_details": {
+      "cache_write_tokens": 2796,
+      "cached_tokens": 0
+    },
+    "output_tokens": 338,
+    "output_tokens_details": {
+      "reasoning_tokens": 276
+    },
+    "total_tokens": 3137
+  },
+  "success": true
+}

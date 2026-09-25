@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0019",
+  "sourceHash": "e6cdc422eba15f048281d1fd470a6332f232e318fc75f0aa6604a1b7b0f10811",
+  "source": "The dismal quarter of Soho seen under these changing glimpses, with its muddy ways, and slatternly passengers, and its lamps, which had never been extinguished or had been kindled afresh to combat this mournful re-invasion of darkness, seemed, in the lawyer’s eyes, like a district of some city in a nightmare.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_030a7a1169891681016ab42ad2ecd487d28c6b0ca0d869b1be",
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li lukin e ma pi pilin ike lon ma Soko lon lukin lili ante mute. nasin ona li jo e ma telo jaki. jan tawa li len jaki. suno ilo ona li awen seli tan tenpo pini, anu jan li seli sin e ona, tan ni: pimeja pi pilin ike li kama sin. lon lukin pi jan Utason, ma ni li sama ma wan pi ma tomo lon sitelen lape ike.\nNOTES: “seemed” is preserved as Utterson’s subjective perception.",
+      "translation": "jan Utason pi sona lawa li lukin e ma pi pilin ike lon ma Soko lon lukin lili ante mute. nasin ona li jo e ma telo jaki. jan tawa li len jaki. suno ilo ona li awen seli tan tenpo pini, anu jan li seli sin e ona, tan ni: pimeja pi pilin ike li kama sin. lon lukin pi jan Utason, ma ni li sama ma wan pi ma tomo lon sitelen lape ike.",
+      "notes": "“seemed” is preserved as Utterson’s subjective perception.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 506,
+        "output_tokens_details": {
+          "reasoning_tokens": 374
+        },
+        "total_tokens": 3314
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_030a7a1169891681016ab42ad2ecd487d28c6b0ca0d869b1be",
+  "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li lukin e ma pi pilin ike lon ma Soko lon lukin lili ante mute. nasin ona li jo e ma telo jaki. jan tawa li len jaki. suno ilo ona li awen seli tan tenpo pini, anu jan li seli sin e ona, tan ni: pimeja pi pilin ike li kama sin. lon lukin pi jan Utason, ma ni li sama ma wan pi ma tomo lon sitelen lape ike.\nNOTES: “seemed” is preserved as Utterson’s subjective perception.",
+  "translation": "jan Utason pi sona lawa li lukin e ma pi pilin ike lon ma Soko lon lukin lili ante mute. nasin ona li jo e ma telo jaki. jan tawa li len jaki. suno ilo ona li awen seli tan tenpo pini, anu jan li seli sin e ona, tan ni: pimeja pi pilin ike li kama sin. lon lukin pi jan Utason, ma ni li sama ma wan pi ma tomo lon sitelen lape ike.",
+  "notes": "“seemed” is preserved as Utterson’s subjective perception.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 506,
+    "output_tokens_details": {
+      "reasoning_tokens": 374
+    },
+    "total_tokens": 3314
+  },
+  "success": true
+}

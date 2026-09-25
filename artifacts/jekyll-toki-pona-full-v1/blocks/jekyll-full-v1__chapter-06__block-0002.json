@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0002",
+  "sourceHash": "37af589ac713b39c2b68bc9bf3ffb6de446a20693510bc8b4ee8258f50bb5824",
+  "source": "Much of his past was unearthed, indeed, and all disreputable: tales came out of the man’s cruelty, at once so callous and violent; of his vile life, of his strange associates, of the hatred that seemed to have surrounded his career; but of his present whereabouts, not a whisper.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0695a32396725ac3016ab42d29b31c87d28bfd7039c9960182",
+      "visibleOutput": "TRANSLATION: lon la, jan mute li kama sona e ijo mute pi tenpo pini pi jan Hata. ijo ale ni li ike tawa nimi ona. toki li kama lon: ona li pali ike tawa jan ante kepeken pilin ala kepeken wawa; ona li jo e nasin pi ike mute; ona li lon poka pi jan nasa; kin la, tenpo pi pali ona la, pilin ike pi jan mute li kama sike e ona. taso ma ona pi tenpo ni la, jan ala li toki lili e ona.\nNOTES: “seemed to have surrounded” is kept as an observer-bound impression, not a confirmed fact.",
+      "translation": "lon la, jan mute li kama sona e ijo mute pi tenpo pini pi jan Hata. ijo ale ni li ike tawa nimi ona. toki li kama lon: ona li pali ike tawa jan ante kepeken pilin ala kepeken wawa; ona li jo e nasin pi ike mute; ona li lon poka pi jan nasa; kin la, tenpo pi pali ona la, pilin ike pi jan mute li kama sike e ona. taso ma ona pi tenpo ni la, jan ala li toki lili e ona.",
+      "notes": "“seemed to have surrounded” is kept as an observer-bound impression, not a confirmed fact.",
+      "usage": {
+        "input_tokens": 2806,
+        "input_tokens_details": {
+          "cache_write_tokens": 2803,
+          "cached_tokens": 0
+        },
+        "output_tokens": 215,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 3021
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0695a32396725ac3016ab42d29b31c87d28bfd7039c9960182",
+  "visibleOutput": "TRANSLATION: lon la, jan mute li kama sona e ijo mute pi tenpo pini pi jan Hata. ijo ale ni li ike tawa nimi ona. toki li kama lon: ona li pali ike tawa jan ante kepeken pilin ala kepeken wawa; ona li jo e nasin pi ike mute; ona li lon poka pi jan nasa; kin la, tenpo pi pali ona la, pilin ike pi jan mute li kama sike e ona. taso ma ona pi tenpo ni la, jan ala li toki lili e ona.\nNOTES: “seemed to have surrounded” is kept as an observer-bound impression, not a confirmed fact.",
+  "translation": "lon la, jan mute li kama sona e ijo mute pi tenpo pini pi jan Hata. ijo ale ni li ike tawa nimi ona. toki li kama lon: ona li pali ike tawa jan ante kepeken pilin ala kepeken wawa; ona li jo e nasin pi ike mute; ona li lon poka pi jan nasa; kin la, tenpo pi pali ona la, pilin ike pi jan mute li kama sike e ona. taso ma ona pi tenpo ni la, jan ala li toki lili e ona.",
+  "notes": "“seemed to have surrounded” is kept as an observer-bound impression, not a confirmed fact.",
+  "usage": {
+    "input_tokens": 2806,
+    "input_tokens_details": {
+      "cache_write_tokens": 2803,
+      "cached_tokens": 0
+    },
+    "output_tokens": 215,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 3021
+  },
+  "success": true
+}

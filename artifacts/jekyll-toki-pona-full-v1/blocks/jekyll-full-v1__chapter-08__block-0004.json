@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0004",
+  "sourceHash": "158f990fa48cd367b4f377dafd91f04a8d0ef7db40036c954bf7a659edeca046",
+  "source": "The man’s appearance amply bore out his words; his manner was altered for the worse; and except for the moment when he had first announced his terror, he had not once looked the lawyer in the face. Even now, he sat with the glass of wine untasted on his knee, and his eyes directed to a corner of the floor. “I can bear it no more,” he repeated.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d1a5dc9f552e2f5016ab42f23f62c87d288e2a3362680318d",
+      "visibleOutput": "TRANSLATION: sijelo pi jan Pulu li sama toki ona, li pana e sona mute pi pilin ike ona. nasin ona li ante, li ike mute. lon tenpo lili pi toki ona nanpa wan e monsuta ona taso la, ona li lukin e sinpin pi jan Utason pi sona lawa. lon tenpo ante ale la, ona li lukin ala e sinpin ona. lon tenpo ni kin, ona li awen lon supa. ilo telo pi telo nasa kili li lon sewi noka ona, taso ona li moku ala e telo. ona li lukin taso e poka pi anpa tomo. ona li toki sin e ni: “mi ken ala awen lon ni.”\n\nNOTES: “bore out his words” is rendered as visible support for his distress, not proof of the feared event.",
+      "translation": "sijelo pi jan Pulu li sama toki ona, li pana e sona mute pi pilin ike ona. nasin ona li ante, li ike mute. lon tenpo lili pi toki ona nanpa wan e monsuta ona taso la, ona li lukin e sinpin pi jan Utason pi sona lawa. lon tenpo ante ale la, ona li lukin ala e sinpin ona. lon tenpo ni kin, ona li awen lon supa. ilo telo pi telo nasa kili li lon sewi noka ona, taso ona li moku ala e telo. ona li lukin taso e poka pi anpa tomo. ona li toki sin e ni: “mi ken ala awen lon ni.”",
+      "notes": "“bore out his words” is rendered as visible support for his distress, not proof of the feared event.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 703,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3518
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d1a5dc9f552e2f5016ab42f23f62c87d288e2a3362680318d",
+  "visibleOutput": "TRANSLATION: sijelo pi jan Pulu li sama toki ona, li pana e sona mute pi pilin ike ona. nasin ona li ante, li ike mute. lon tenpo lili pi toki ona nanpa wan e monsuta ona taso la, ona li lukin e sinpin pi jan Utason pi sona lawa. lon tenpo ante ale la, ona li lukin ala e sinpin ona. lon tenpo ni kin, ona li awen lon supa. ilo telo pi telo nasa kili li lon sewi noka ona, taso ona li moku ala e telo. ona li lukin taso e poka pi anpa tomo. ona li toki sin e ni: “mi ken ala awen lon ni.”\n\nNOTES: “bore out his words” is rendered as visible support for his distress, not proof of the feared event.",
+  "translation": "sijelo pi jan Pulu li sama toki ona, li pana e sona mute pi pilin ike ona. nasin ona li ante, li ike mute. lon tenpo lili pi toki ona nanpa wan e monsuta ona taso la, ona li lukin e sinpin pi jan Utason pi sona lawa. lon tenpo ante ale la, ona li lukin ala e sinpin ona. lon tenpo ni kin, ona li awen lon supa. ilo telo pi telo nasa kili li lon sewi noka ona, taso ona li moku ala e telo. ona li lukin taso e poka pi anpa tomo. ona li toki sin e ni: “mi ken ala awen lon ni.”",
+  "notes": "“bore out his words” is rendered as visible support for his distress, not proof of the feared event.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 703,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3518
+  },
+  "success": true
+}

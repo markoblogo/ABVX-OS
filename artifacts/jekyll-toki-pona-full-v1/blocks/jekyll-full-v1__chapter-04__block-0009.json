@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0009",
+  "sourceHash": "0c4d0127902daac2fb3a3fdbde0bf4f43ebe532ae371cf3547476ef5e4a87398",
+  "source": "The murderer was gone long ago; but there lay his victim in the middle of the lane, incredibly mangled.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00bd73e51e351ad9016ab42a51ff1c87d2b156047b40dd1820",
+      "visibleOutput": "TRANSLATION: jan pi pana moli li weka lon tenpo pini mute. taso jan pi kama moli tan ona li awen anpa lon insa nasin. sijelo ona li pakala ike mute a; jan li ken ala pilin e ni lon.\nNOTES: NONE",
+      "translation": "jan pi pana moli li weka lon tenpo pini mute. taso jan pi kama moli tan ona li awen anpa lon insa nasin. sijelo ona li pakala ike mute a; jan li ken ala pilin e ni lon.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2761,
+        "input_tokens_details": {
+          "cache_write_tokens": 2758,
+          "cached_tokens": 0
+        },
+        "output_tokens": 414,
+        "output_tokens_details": {
+          "reasoning_tokens": 346
+        },
+        "total_tokens": 3175
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00bd73e51e351ad9016ab42a51ff1c87d2b156047b40dd1820",
+  "visibleOutput": "TRANSLATION: jan pi pana moli li weka lon tenpo pini mute. taso jan pi kama moli tan ona li awen anpa lon insa nasin. sijelo ona li pakala ike mute a; jan li ken ala pilin e ni lon.\nNOTES: NONE",
+  "translation": "jan pi pana moli li weka lon tenpo pini mute. taso jan pi kama moli tan ona li awen anpa lon insa nasin. sijelo ona li pakala ike mute a; jan li ken ala pilin e ni lon.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2761,
+    "input_tokens_details": {
+      "cache_write_tokens": 2758,
+      "cached_tokens": 0
+    },
+    "output_tokens": 414,
+    "output_tokens_details": {
+      "reasoning_tokens": 346
+    },
+    "total_tokens": 3175
+  },
+  "success": true
+}

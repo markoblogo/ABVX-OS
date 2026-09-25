@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0049",
+  "sourceHash": "c5163566883f3252ed1317809adc567439b20cacda2ea5accbfe98be43910f05",
+  "source": "I saw what I saw, I heard what I heard, and my soul sickened at it; and yet now when that sight has faded from my eyes, I ask myself if I believe it, and I cannot answer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f00ee2b2df3b9a9016ab435f808d087d2a33447d5d18bc2d9",
+      "visibleOutput": "TRANSLATION: mi lukin e ni mi lukin e ona. mi kute e ni mi kute e ona. tan ni la, pilin insa mi li kama ike mute. taso tenpo ni la, lukin ni li weka tan lukin mi. mi toki insa e ni: “mi pilin ala pilin e ni: ona li lon?” mi ken ala pana e toki sona.\nNOTES: NONE",
+      "translation": "mi lukin e ni mi lukin e ona. mi kute e ni mi kute e ona. tan ni la, pilin insa mi li kama ike mute. taso tenpo ni la, lukin ni li weka tan lukin mi. mi toki insa e ni: “mi pilin ala pilin e ni: ona li lon?” mi ken ala pana e toki sona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2785,
+        "input_tokens_details": {
+          "cache_write_tokens": 2782,
+          "cached_tokens": 0
+        },
+        "output_tokens": 146,
+        "output_tokens_details": {
+          "reasoning_tokens": 49
+        },
+        "total_tokens": 2931
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f00ee2b2df3b9a9016ab435f808d087d2a33447d5d18bc2d9",
+  "visibleOutput": "TRANSLATION: mi lukin e ni mi lukin e ona. mi kute e ni mi kute e ona. tan ni la, pilin insa mi li kama ike mute. taso tenpo ni la, lukin ni li weka tan lukin mi. mi toki insa e ni: “mi pilin ala pilin e ni: ona li lon?” mi ken ala pana e toki sona.\nNOTES: NONE",
+  "translation": "mi lukin e ni mi lukin e ona. mi kute e ni mi kute e ona. tan ni la, pilin insa mi li kama ike mute. taso tenpo ni la, lukin ni li weka tan lukin mi. mi toki insa e ni: “mi pilin ala pilin e ni: ona li lon?” mi ken ala pana e toki sona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2785,
+    "input_tokens_details": {
+      "cache_write_tokens": 2782,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 2931
+  },
+  "success": true
+}

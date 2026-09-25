@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0016",
+  "sourceHash": "7ae88d25796bf989ef95b446805ff8a7e2afa0e03e314f18e21b419b114bf39a",
+  "source": "Enfield’s tale went by before his mind in a scroll of lighted pictures. He would be aware of the great field of lamps of a nocturnal city; then of the figure of a man walking swiftly; then of a child running from the doctor’s; and then these met, and that human Juggernaut trod the child down and passed on regardless of her screams.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00a291c119275aa9016ab42736f8dc87d28b1f0eaa10ac04ee",
+      "visibleOutput": "TRANSLATION: Toki pi jan Enpil li tawa lon insa lawa pi jan Utason sama kulupu sitelen suno. open la, ona li lukin insa e ma tomo pi tenpo pimeja, e mute pi ilo suno. ni la, ona li lukin e jan mije li tawa wawa. ni la, ona li lukin e jan lili li tawa weka tan tomo pi jan sona sijelo. ni la, tu ni li kama wan. jan mije ni, sama ilo suli pi pini ala, li anpa e jan lili kepeken noka, li tawa lon, li kute ala e kalama wawa ona.\nNOTES: “human Juggernaut” is retained as Utterson’s image-bound comparison, not narrator fact.",
+      "translation": "Toki pi jan Enpil li tawa lon insa lawa pi jan Utason sama kulupu sitelen suno. open la, ona li lukin insa e ma tomo pi tenpo pimeja, e mute pi ilo suno. ni la, ona li lukin e jan mije li tawa wawa. ni la, ona li lukin e jan lili li tawa weka tan tomo pi jan sona sijelo. ni la, tu ni li kama wan. jan mije ni, sama ilo suli pi pini ala, li anpa e jan lili kepeken noka, li tawa lon, li kute ala e kalama wawa ona.",
+      "notes": "“human Juggernaut” is retained as Utterson’s image-bound comparison, not narrator fact.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 417,
+        "output_tokens_details": {
+          "reasoning_tokens": 240
+        },
+        "total_tokens": 3232
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00a291c119275aa9016ab42736f8dc87d28b1f0eaa10ac04ee",
+  "visibleOutput": "TRANSLATION: Toki pi jan Enpil li tawa lon insa lawa pi jan Utason sama kulupu sitelen suno. open la, ona li lukin insa e ma tomo pi tenpo pimeja, e mute pi ilo suno. ni la, ona li lukin e jan mije li tawa wawa. ni la, ona li lukin e jan lili li tawa weka tan tomo pi jan sona sijelo. ni la, tu ni li kama wan. jan mije ni, sama ilo suli pi pini ala, li anpa e jan lili kepeken noka, li tawa lon, li kute ala e kalama wawa ona.\nNOTES: “human Juggernaut” is retained as Utterson’s image-bound comparison, not narrator fact.",
+  "translation": "Toki pi jan Enpil li tawa lon insa lawa pi jan Utason sama kulupu sitelen suno. open la, ona li lukin insa e ma tomo pi tenpo pimeja, e mute pi ilo suno. ni la, ona li lukin e jan mije li tawa wawa. ni la, ona li lukin e jan lili li tawa weka tan tomo pi jan sona sijelo. ni la, tu ni li kama wan. jan mije ni, sama ilo suli pi pini ala, li anpa e jan lili kepeken noka, li tawa lon, li kute ala e kalama wawa ona.",
+  "notes": "“human Juggernaut” is retained as Utterson’s image-bound comparison, not narrator fact.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 417,
+    "output_tokens_details": {
+      "reasoning_tokens": 240
+    },
+    "total_tokens": 3232
+  },
+  "success": true
+}

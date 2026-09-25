@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0077",
+  "sourceHash": "4c7be941c1c8d3fd3bac2bcf862efc53f8fe7082126a883d3d85d8b2a566282a",
+  "source": "Hyde had a song upon his lips as he compounded the draught, and as he drank it, pledged the dead man. The pangs of transformation had not done tearing him, before Henry Jekyll, with streaming tears of gratitude and remorse, had fallen upon his knees and lifted his clasped hands to God.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

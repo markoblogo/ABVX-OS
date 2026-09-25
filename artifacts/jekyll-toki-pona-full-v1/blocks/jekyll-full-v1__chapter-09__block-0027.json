@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0027",
+  "sourceHash": "9e4a14449ea63454275c8050d99729220ce5819d2980680f3974819add702509",
+  "source": "These particulars struck me, I confess, disagreeably; and as I followed him into the bright light of the consulting-room, I kept my hand ready on my weapon. Here, at last, I had a chance of clearly seeing him. I had never set eyes on him before, so much was certain.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0987f6d3c597d5e1016ab434d56aec87d2b08a979ca6c2a036",
+      "visibleOutput": "TRANSLATION: mi toki lon: ijo ni ale li pana e pilin ike tawa mi. mi kama lon tomo pi toki sijelo lon monsi ona. tomo ni li jo e suno wawa. lon tenpo ni la, mi awen e luka mi lon poka pi ilo utala mi, li ken kepeken ona. lon ni la, pini la, mi ken lukin pona e ona. mi sona pona e ni: tenpo pini la mi lukin ala e ona.\nNOTES: NONE",
+      "translation": "mi toki lon: ijo ni ale li pana e pilin ike tawa mi. mi kama lon tomo pi toki sijelo lon monsi ona. tomo ni li jo e suno wawa. lon tenpo ni la, mi awen e luka mi lon poka pi ilo utala mi, li ken kepeken ona. lon ni la, pini la, mi ken lukin pona e ona. mi sona pona e ni: tenpo pini la mi lukin ala e ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2802,
+        "input_tokens_details": {
+          "cache_write_tokens": 2799,
+          "cached_tokens": 0
+        },
+        "output_tokens": 539,
+        "output_tokens_details": {
+          "reasoning_tokens": 425
+        },
+        "total_tokens": 3341
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0987f6d3c597d5e1016ab434d56aec87d2b08a979ca6c2a036",
+  "visibleOutput": "TRANSLATION: mi toki lon: ijo ni ale li pana e pilin ike tawa mi. mi kama lon tomo pi toki sijelo lon monsi ona. tomo ni li jo e suno wawa. lon tenpo ni la, mi awen e luka mi lon poka pi ilo utala mi, li ken kepeken ona. lon ni la, pini la, mi ken lukin pona e ona. mi sona pona e ni: tenpo pini la mi lukin ala e ona.\nNOTES: NONE",
+  "translation": "mi toki lon: ijo ni ale li pana e pilin ike tawa mi. mi kama lon tomo pi toki sijelo lon monsi ona. tomo ni li jo e suno wawa. lon tenpo ni la, mi awen e luka mi lon poka pi ilo utala mi, li ken kepeken ona. lon ni la, pini la, mi ken lukin pona e ona. mi sona pona e ni: tenpo pini la mi lukin ala e ona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2802,
+    "input_tokens_details": {
+      "cache_write_tokens": 2799,
+      "cached_tokens": 0
+    },
+    "output_tokens": 539,
+    "output_tokens_details": {
+      "reasoning_tokens": 425
+    },
+    "total_tokens": 3341
+  },
+  "success": true
+}

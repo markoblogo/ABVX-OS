@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0118",
+  "sourceHash": "2e965a498ac8cb9c6cc4f1d4699b22c80649e125586448b0c032cfd857f72e6c",
+  "source": "It is useless, and the time awfully fails me, to prolong this description; no one has ever suffered such torments, let that suffice; and yet even to these, habit brought—no, not alleviation—but a certain callousness of soul, a certain acquiescence of despair; and my punishment might have gone on for years, but for the last calamity which has now fallen, and which has finally severed me from my own face and nature.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

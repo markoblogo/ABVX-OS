@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0042",
+  "sourceHash": "343a9280b5609e5358376bfcc45ddce9b27d39b837fce5e5589557690d73308e",
+  "source": "Utterson, if ever you met this Mr. Hyde?” “Yes,” said the lawyer, “I once spoke with him.” “Then you must know as well as the rest of us that there was something queer about that gentleman—something that gave a man a turn—I don’t know rightly how to say it, sir, beyond this: that you felt it in your marrow kind of cold and thin.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cddf73ff575e829016ab431256ebc87d281a7514f7c52c069",
+      "visibleOutput": "TRANSLATION: “jan Utason o, sina kama lon poka pi jan Hata ni lon tenpo pini anu seme?” “lon,” jan pi sona lawa li toki. “tenpo wan la, mi toki tawa ona.” “ni la, sina sona sama mi mute e ni: ijo nasa li lon jan ni. ijo ni li pana e pilin monsuta tawa jan. mi sona ala e nasin toki pona pi ni, jan lawa o. taso sina pilin e ni: insa pi palisa sijelo sina li kama lete li kama lili.”\nNOTES: “cold and thin in your marrow” is retained as a bodily metaphor; “queer” remains an observer’s impression, not a fact.",
+      "translation": "“jan Utason o, sina kama lon poka pi jan Hata ni lon tenpo pini anu seme?” “lon,” jan pi sona lawa li toki. “tenpo wan la, mi toki tawa ona.” “ni la, sina sona sama mi mute e ni: ijo nasa li lon jan ni. ijo ni li pana e pilin monsuta tawa jan. mi sona ala e nasin toki pona pi ni, jan lawa o. taso sina pilin e ni: insa pi palisa sijelo sina li kama lete li kama lili.”",
+      "notes": "“cold and thin in your marrow” is retained as a bodily metaphor; “queer” remains an observer’s impression, not a fact.",
+      "usage": {
+        "input_tokens": 2828,
+        "input_tokens_details": {
+          "cache_write_tokens": 2825,
+          "cached_tokens": 0
+        },
+        "output_tokens": 433,
+        "output_tokens_details": {
+          "reasoning_tokens": 272
+        },
+        "total_tokens": 3261
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cddf73ff575e829016ab431256ebc87d281a7514f7c52c069",
+  "visibleOutput": "TRANSLATION: “jan Utason o, sina kama lon poka pi jan Hata ni lon tenpo pini anu seme?” “lon,” jan pi sona lawa li toki. “tenpo wan la, mi toki tawa ona.” “ni la, sina sona sama mi mute e ni: ijo nasa li lon jan ni. ijo ni li pana e pilin monsuta tawa jan. mi sona ala e nasin toki pona pi ni, jan lawa o. taso sina pilin e ni: insa pi palisa sijelo sina li kama lete li kama lili.”\nNOTES: “cold and thin in your marrow” is retained as a bodily metaphor; “queer” remains an observer’s impression, not a fact.",
+  "translation": "“jan Utason o, sina kama lon poka pi jan Hata ni lon tenpo pini anu seme?” “lon,” jan pi sona lawa li toki. “tenpo wan la, mi toki tawa ona.” “ni la, sina sona sama mi mute e ni: ijo nasa li lon jan ni. ijo ni li pana e pilin monsuta tawa jan. mi sona ala e nasin toki pona pi ni, jan lawa o. taso sina pilin e ni: insa pi palisa sijelo sina li kama lete li kama lili.”",
+  "notes": "“cold and thin in your marrow” is retained as a bodily metaphor; “queer” remains an observer’s impression, not a fact.",
+  "usage": {
+    "input_tokens": 2828,
+    "input_tokens_details": {
+      "cache_write_tokens": 2825,
+      "cached_tokens": 0
+    },
+    "output_tokens": 433,
+    "output_tokens_details": {
+      "reasoning_tokens": 272
+    },
+    "total_tokens": 3261
+  },
+  "success": true
+}

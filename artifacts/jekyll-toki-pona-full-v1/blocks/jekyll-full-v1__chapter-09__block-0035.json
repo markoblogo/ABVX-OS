@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0035",
+  "sourceHash": "f32297941e70541a9363c0696b06fb1abeaf1e692ce44cca2afe20b1bc5d24ad",
+  "source": "Be seated, if you please.” And I showed him an example, and sat down myself in my customary seat and with as fair an imitation of my ordinary manner to a patient, as the lateness of the hour, the nature of my pre-occupations, and the horror I had of my visitor, would suffer me to muster. “I beg your pardon, Dr. Lanyon,” he replied civilly enough.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_07061c7d1683ff60016ab4353ffb8087d29f35bd9ceef44c59",
+      "visibleOutput": "TRANSLATION: “sina wile la, o anpa lon supa.” mi pana e nasin pali ni tawa ona, li anpa lon supa mi pi tenpo ale. mi alasa toki tawa ona sama ni: mi toki kepeken nasin mi pi tenpo mute tawa jan pi ike sijelo. taso tenpo pimeja li pini poka, pilin mi li lon ijo ante, la mi ken ala pona mute. kin la, jan kama ni li pana e monsuta suli tawa mi. ona toki kepeken nasin pona pi kulupu, li toki e ni: “o weka e pakala mi, jan Lanjon pi sona sijelo.”\nNOTES: “showed him an example” is rendered as demonstrating the requested action; Lanyon’s horror remains explicitly his own feeling.",
+      "translation": "“sina wile la, o anpa lon supa.” mi pana e nasin pali ni tawa ona, li anpa lon supa mi pi tenpo ale. mi alasa toki tawa ona sama ni: mi toki kepeken nasin mi pi tenpo mute tawa jan pi ike sijelo. taso tenpo pimeja li pini poka, pilin mi li lon ijo ante, la mi ken ala pona mute. kin la, jan kama ni li pana e monsuta suli tawa mi. ona toki kepeken nasin pona pi kulupu, li toki e ni: “o weka e pakala mi, jan Lanjon pi sona sijelo.”",
+      "notes": "“showed him an example” is rendered as demonstrating the requested action; Lanyon’s horror remains explicitly his own feeling.",
+      "usage": {
+        "input_tokens": 2825,
+        "input_tokens_details": {
+          "cache_write_tokens": 2822,
+          "cached_tokens": 0
+        },
+        "output_tokens": 418,
+        "output_tokens_details": {
+          "reasoning_tokens": 236
+        },
+        "total_tokens": 3243
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_07061c7d1683ff60016ab4353ffb8087d29f35bd9ceef44c59",
+  "visibleOutput": "TRANSLATION: “sina wile la, o anpa lon supa.” mi pana e nasin pali ni tawa ona, li anpa lon supa mi pi tenpo ale. mi alasa toki tawa ona sama ni: mi toki kepeken nasin mi pi tenpo mute tawa jan pi ike sijelo. taso tenpo pimeja li pini poka, pilin mi li lon ijo ante, la mi ken ala pona mute. kin la, jan kama ni li pana e monsuta suli tawa mi. ona toki kepeken nasin pona pi kulupu, li toki e ni: “o weka e pakala mi, jan Lanjon pi sona sijelo.”\nNOTES: “showed him an example” is rendered as demonstrating the requested action; Lanyon’s horror remains explicitly his own feeling.",
+  "translation": "“sina wile la, o anpa lon supa.” mi pana e nasin pali ni tawa ona, li anpa lon supa mi pi tenpo ale. mi alasa toki tawa ona sama ni: mi toki kepeken nasin mi pi tenpo mute tawa jan pi ike sijelo. taso tenpo pimeja li pini poka, pilin mi li lon ijo ante, la mi ken ala pona mute. kin la, jan kama ni li pana e monsuta suli tawa mi. ona toki kepeken nasin pona pi kulupu, li toki e ni: “o weka e pakala mi, jan Lanjon pi sona sijelo.”",
+  "notes": "“showed him an example” is rendered as demonstrating the requested action; Lanyon’s horror remains explicitly his own feeling.",
+  "usage": {
+    "input_tokens": 2825,
+    "input_tokens_details": {
+      "cache_write_tokens": 2822,
+      "cached_tokens": 0
+    },
+    "output_tokens": 418,
+    "output_tokens_details": {
+      "reasoning_tokens": 236
+    },
+    "total_tokens": 3243
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0027",
+  "sourceHash": "1852524a04330400ada30eeb36c7899a128bd4cac828e7807f99e468673f15ad",
+  "source": "The doctor, it appeared, now more than ever confined himself to the cabinet over the laboratory, where he would sometimes even sleep; he was out of spirits, he had grown very silent, he did not read; it seemed as if he had something on his mind. Utterson became so used to the unvarying character of these reports, that he fell off little by little in the frequency of his visits.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02af3efa7704ec4b016ab42e73716887d28d4315721862fc4f",
+      "visibleOutput": "TRANSLATION: sona kama li pana e lukin ni: tenpo ni la jan Jekil pi sona sijelo li awen lon tomo insa pi jan Jekil lon sewi pi tomo pi pali sona, lon tenpo mute nanpa wan. tenpo lili la ona li lape kin lon ni. pilin ona li pona ala; ona li kama toki ala mute; ona li lukin ala e lipu. lukin la, ijo wan li awen lon lawa ona li ike e pilin ona. toki kama ni ale li ante ala. jan Utason li kama sona mute e nasin toki ni. tan ni la, tenpo li tawa la ona li tawa lukin e jan Jekil lon tenpo lili taso.\nNOTES: “It appeared” and “it seemed” remain observer/report-bound; the narration does not assert Jekyll’s inner state as certain.",
+      "translation": "sona kama li pana e lukin ni: tenpo ni la jan Jekil pi sona sijelo li awen lon tomo insa pi jan Jekil lon sewi pi tomo pi pali sona, lon tenpo mute nanpa wan. tenpo lili la ona li lape kin lon ni. pilin ona li pona ala; ona li kama toki ala mute; ona li lukin ala e lipu. lukin la, ijo wan li awen lon lawa ona li ike e pilin ona. toki kama ni ale li ante ala. jan Utason li kama sona mute e nasin toki ni. tan ni la, tenpo li tawa la ona li tawa lukin e jan Jekil lon tenpo lili taso.",
+      "notes": "“It appeared” and “it seemed” remain observer/report-bound; the narration does not assert Jekyll’s inner state as certain.",
+      "usage": {
+        "input_tokens": 2825,
+        "input_tokens_details": {
+          "cache_write_tokens": 2822,
+          "cached_tokens": 0
+        },
+        "output_tokens": 713,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3538
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02af3efa7704ec4b016ab42e73716887d28d4315721862fc4f",
+  "visibleOutput": "TRANSLATION: sona kama li pana e lukin ni: tenpo ni la jan Jekil pi sona sijelo li awen lon tomo insa pi jan Jekil lon sewi pi tomo pi pali sona, lon tenpo mute nanpa wan. tenpo lili la ona li lape kin lon ni. pilin ona li pona ala; ona li kama toki ala mute; ona li lukin ala e lipu. lukin la, ijo wan li awen lon lawa ona li ike e pilin ona. toki kama ni ale li ante ala. jan Utason li kama sona mute e nasin toki ni. tan ni la, tenpo li tawa la ona li tawa lukin e jan Jekil lon tenpo lili taso.\nNOTES: “It appeared” and “it seemed” remain observer/report-bound; the narration does not assert Jekyll’s inner state as certain.",
+  "translation": "sona kama li pana e lukin ni: tenpo ni la jan Jekil pi sona sijelo li awen lon tomo insa pi jan Jekil lon sewi pi tomo pi pali sona, lon tenpo mute nanpa wan. tenpo lili la ona li lape kin lon ni. pilin ona li pona ala; ona li kama toki ala mute; ona li lukin ala e lipu. lukin la, ijo wan li awen lon lawa ona li ike e pilin ona. toki kama ni ale li ante ala. jan Utason li kama sona mute e nasin toki ni. tan ni la, tenpo li tawa la ona li tawa lukin e jan Jekil lon tenpo lili taso.",
+  "notes": "“It appeared” and “it seemed” remain observer/report-bound; the narration does not assert Jekyll’s inner state as certain.",
+  "usage": {
+    "input_tokens": 2825,
+    "input_tokens_details": {
+      "cache_write_tokens": 2822,
+      "cached_tokens": 0
+    },
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3538
+  },
+  "success": true
+}

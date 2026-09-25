@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0040",
+  "sourceHash": "8dde190e9f283f9fe92db8805db0cb2c63a0367a11e39848095418deb4646159",
+  "source": "“It is well, then, that we should be frank,” said the other. “We both think more than we have said; let us make a clean breast. This masked figure that you saw, did you recognise it?” “Well, sir, it went so quick, and the creature was so doubled up, that I could hardly swear to that,” was the answer. “But if you mean, was it Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_026c8fbf5ce6d7ac016ab4310da44087d2b865f26b061b64eb",
+      "visibleOutput": "TRANSLATION: “ni la, mi tu o toki e ale lon,” jan ante li toki. “mi tu li pilin e ijo mute. taso mi tu li toki ala e ona. o awen ala e ijo lon insa. sina lukin e jan ni pi sinpin len. sina sona ala sona e ona?” “jan lawa o, ona li tawa kepeken tenpo lili mute. kin la, sijelo ona li anpa li pakala lukin. ni la, mi ken ala toki wawa e ni,” ona li toki. “taso sina wile sona e ni anu seme: ona li jan...?”\nNOTES: nimi “Mr.” lon pini li pini ala; ante toki li awen e toki pi pini ala.",
+      "translation": "“ni la, mi tu o toki e ale lon,” jan ante li toki. “mi tu li pilin e ijo mute. taso mi tu li toki ala e ona. o awen ala e ijo lon insa. sina lukin e jan ni pi sinpin len. sina sona ala sona e ona?” “jan lawa o, ona li tawa kepeken tenpo lili mute. kin la, sijelo ona li anpa li pakala lukin. ni la, mi ken ala toki wawa e ni,” ona li toki. “taso sina wile sona e ni anu seme: ona li jan...?”",
+      "notes": "nimi “Mr.” lon pini li pini ala; ante toki li awen e toki pi pini ala.",
+      "usage": {
+        "input_tokens": 2819,
+        "input_tokens_details": {
+          "cache_write_tokens": 2816,
+          "cached_tokens": 0
+        },
+        "output_tokens": 250,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 3069
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_026c8fbf5ce6d7ac016ab4310da44087d2b865f26b061b64eb",
+  "visibleOutput": "TRANSLATION: “ni la, mi tu o toki e ale lon,” jan ante li toki. “mi tu li pilin e ijo mute. taso mi tu li toki ala e ona. o awen ala e ijo lon insa. sina lukin e jan ni pi sinpin len. sina sona ala sona e ona?” “jan lawa o, ona li tawa kepeken tenpo lili mute. kin la, sijelo ona li anpa li pakala lukin. ni la, mi ken ala toki wawa e ni,” ona li toki. “taso sina wile sona e ni anu seme: ona li jan...?”\nNOTES: nimi “Mr.” lon pini li pini ala; ante toki li awen e toki pi pini ala.",
+  "translation": "“ni la, mi tu o toki e ale lon,” jan ante li toki. “mi tu li pilin e ijo mute. taso mi tu li toki ala e ona. o awen ala e ijo lon insa. sina lukin e jan ni pi sinpin len. sina sona ala sona e ona?” “jan lawa o, ona li tawa kepeken tenpo lili mute. kin la, sijelo ona li anpa li pakala lukin. ni la, mi ken ala toki wawa e ni,” ona li toki. “taso sina wile sona e ni anu seme: ona li jan...?”",
+  "notes": "nimi “Mr.” lon pini li pini ala; ante toki li awen e toki pi pini ala.",
+  "usage": {
+    "input_tokens": 2819,
+    "input_tokens_details": {
+      "cache_write_tokens": 2816,
+      "cached_tokens": 0
+    },
+    "output_tokens": 250,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 3069
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0050",
+  "sourceHash": "3dbba4323872e2752922ab71ee33ed3d38577b252720fcca5c29d4c2103cf5d5",
+  "source": "“This Master Hyde, if he were studied,” thought he, “must have secrets of his own; black secrets, by the look of him; secrets compared to which poor Jekyll’s worst would be like sunshine. Things cannot continue as they are. It turns me cold to think of this creature stealing like a thief to Harry’s bedside; poor Harry, what a wakening!",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b09c419c19cf2c3016ab428f0b59487d2aa7c02d4fed875b8",
+      "visibleOutput": "TRANSLATION: Ona li pilin e ni: “Mi alasa sona pona e jan Hata la, ona li ken jo e sona len ona. Lukin ona la, sona len ni li pimeja li ike mute. Ike suli pi sona len ni la, sona len ike nanpa wan pi jan Jekil o sama suno taso. Ijo li ken ala awen sama ni. Mi pilin e ni: jan ike ni li kama lon poka supa lape pi jan Jekil sama jan lanpan. Taso pilin ni li lete e mi. A jan Jekil o! Ona li pini lape la, ni li kama ike mute!”\nNOTES: “Black secrets” and “sunshine” remain figurative; Hyde’s secrets are Utterson’s conditional inference from appearance, not fact.",
+      "translation": "Ona li pilin e ni: “Mi alasa sona pona e jan Hata la, ona li ken jo e sona len ona. Lukin ona la, sona len ni li pimeja li ike mute. Ike suli pi sona len ni la, sona len ike nanpa wan pi jan Jekil o sama suno taso. Ijo li ken ala awen sama ni. Mi pilin e ni: jan ike ni li kama lon poka supa lape pi jan Jekil sama jan lanpan. Taso pilin ni li lete e mi. A jan Jekil o! Ona li pini lape la, ni li kama ike mute!”",
+      "notes": "“Black secrets” and “sunshine” remain figurative; Hyde’s secrets are Utterson’s conditional inference from appearance, not fact.",
+      "usage": {
+        "input_tokens": 2825,
+        "input_tokens_details": {
+          "cache_write_tokens": 2822,
+          "cached_tokens": 0
+        },
+        "output_tokens": 298,
+        "output_tokens_details": {
+          "reasoning_tokens": 118
+        },
+        "total_tokens": 3123
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b09c419c19cf2c3016ab428f0b59487d2aa7c02d4fed875b8",
+  "visibleOutput": "TRANSLATION: Ona li pilin e ni: “Mi alasa sona pona e jan Hata la, ona li ken jo e sona len ona. Lukin ona la, sona len ni li pimeja li ike mute. Ike suli pi sona len ni la, sona len ike nanpa wan pi jan Jekil o sama suno taso. Ijo li ken ala awen sama ni. Mi pilin e ni: jan ike ni li kama lon poka supa lape pi jan Jekil sama jan lanpan. Taso pilin ni li lete e mi. A jan Jekil o! Ona li pini lape la, ni li kama ike mute!”\nNOTES: “Black secrets” and “sunshine” remain figurative; Hyde’s secrets are Utterson’s conditional inference from appearance, not fact.",
+  "translation": "Ona li pilin e ni: “Mi alasa sona pona e jan Hata la, ona li ken jo e sona len ona. Lukin ona la, sona len ni li pimeja li ike mute. Ike suli pi sona len ni la, sona len ike nanpa wan pi jan Jekil o sama suno taso. Ijo li ken ala awen sama ni. Mi pilin e ni: jan ike ni li kama lon poka supa lape pi jan Jekil sama jan lanpan. Taso pilin ni li lete e mi. A jan Jekil o! Ona li pini lape la, ni li kama ike mute!”",
+  "notes": "“Black secrets” and “sunshine” remain figurative; Hyde’s secrets are Utterson’s conditional inference from appearance, not fact.",
+  "usage": {
+    "input_tokens": 2825,
+    "input_tokens_details": {
+      "cache_write_tokens": 2822,
+      "cached_tokens": 0
+    },
+    "output_tokens": 298,
+    "output_tokens_details": {
+      "reasoning_tokens": 118
+    },
+    "total_tokens": 3123
+  },
+  "success": true
+}

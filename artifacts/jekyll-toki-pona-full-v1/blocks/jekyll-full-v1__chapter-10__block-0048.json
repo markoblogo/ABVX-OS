@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0048",
+  "sourceHash": "27931b3dd10b459caea5fd01d8ba4af1d10d6a237b60967fb42c899c4b4da0ba",
+  "source": "But this danger was easily eliminated from the future, by opening an account at another bank in the name of Edward Hyde himself; and when, by sloping my own hand backward, I had supplied my double with a signature, I thought I sat beyond the reach of fate.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

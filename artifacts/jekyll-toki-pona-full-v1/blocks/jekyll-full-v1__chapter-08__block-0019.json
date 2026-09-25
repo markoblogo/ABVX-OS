@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0019",
+  "sourceHash": "82784d8d88772c6ee8f89cfb0a404f9781364a8e787507d97c5315cd4f45a8a0",
+  "source": "“Mr. Utterson, sir, asking to see you,” he called; and even as he did so, once more violently signed to the lawyer to give ear. A voice answered from within: “Tell him I cannot see any one,” it said complainingly.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0410a5586d3f96ee016ab42feb1ed487d29e417d97e9359f20",
+      "visibleOutput": "TRANSLATION: ona li kalama e ni: “jan Utason li wile lukin e sina, jan lawa o.” lon tenpo sama, ona li sin toki wawa kepeken luka tawa jan Utason pi sona lawa, li wile e ni: ona o kute. kalama jan tan tomo insa li toki e ni kepeken kalama pi pilin ike: “o toki e ni tawa ona: mi ken ala lukin e jan ante.”\nNOTES: “Sir” is rendered as respectful “jan lawa o”; the voice remains unidentified.",
+      "translation": "ona li kalama e ni: “jan Utason li wile lukin e sina, jan lawa o.” lon tenpo sama, ona li sin toki wawa kepeken luka tawa jan Utason pi sona lawa, li wile e ni: ona o kute. kalama jan tan tomo insa li toki e ni kepeken kalama pi pilin ike: “o toki e ni tawa ona: mi ken ala lukin e jan ante.”",
+      "notes": "“Sir” is rendered as respectful “jan lawa o”; the voice remains unidentified.",
+      "usage": {
+        "input_tokens": 2789,
+        "input_tokens_details": {
+          "cache_write_tokens": 2786,
+          "cached_tokens": 0
+        },
+        "output_tokens": 359,
+        "output_tokens_details": {
+          "reasoning_tokens": 232
+        },
+        "total_tokens": 3148
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0410a5586d3f96ee016ab42feb1ed487d29e417d97e9359f20",
+  "visibleOutput": "TRANSLATION: ona li kalama e ni: “jan Utason li wile lukin e sina, jan lawa o.” lon tenpo sama, ona li sin toki wawa kepeken luka tawa jan Utason pi sona lawa, li wile e ni: ona o kute. kalama jan tan tomo insa li toki e ni kepeken kalama pi pilin ike: “o toki e ni tawa ona: mi ken ala lukin e jan ante.”\nNOTES: “Sir” is rendered as respectful “jan lawa o”; the voice remains unidentified.",
+  "translation": "ona li kalama e ni: “jan Utason li wile lukin e sina, jan lawa o.” lon tenpo sama, ona li sin toki wawa kepeken luka tawa jan Utason pi sona lawa, li wile e ni: ona o kute. kalama jan tan tomo insa li toki e ni kepeken kalama pi pilin ike: “o toki e ni tawa ona: mi ken ala lukin e jan ante.”",
+  "notes": "“Sir” is rendered as respectful “jan lawa o”; the voice remains unidentified.",
+  "usage": {
+    "input_tokens": 2789,
+    "input_tokens_details": {
+      "cache_write_tokens": 2786,
+      "cached_tokens": 0
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 232
+    },
+    "total_tokens": 3148
+  },
+  "success": true
+}

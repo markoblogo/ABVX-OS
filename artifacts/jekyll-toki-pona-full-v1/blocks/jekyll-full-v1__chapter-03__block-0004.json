@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0004",
+  "sourceHash": "9d6d7681858a392b0fafc3c79fd38c54abcd8e520ebb5075c558ff80e8dfd150",
+  "source": "A close observer might have gathered that the topic was distasteful; but the doctor carried it off gaily. “My poor Utterson,” said he, “you are unfortunate in such a client. I never saw a man so distressed as you were by my will; unless it were that hide-bound pedant, Lanyon, at what he called my scientific heresies.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0059280e26dc7359016ab4297a001087d298cf0db1af48e39e",
+      "visibleOutput": "TRANSLATION: jan pi lukin sona li ken kama sona e ni: toki ni li pona ala tawa jan Jekil. taso jan pi sona sijelo li awen toki kepeken pilin musi. ona li toki e ni: “jan Utason mi o, sina jo e jan pi pana mani sama mi la, ike li kama tawa sina. lipu lawa mi li pana e pilin ike mute tawa sina. mi lukin ala e jan ante pi pilin ike sama sina. taso jan Lanjon ni pi sona lipu pi nasin awen li ken sama. ona li pilin ike tan sona mi pi pali sona. taso ona li nimi e sona ni ‘sona pakala.’”\nNOTES: “might have gathered” remains a possible observer inference; the dislike is not stated as narrator fact, and “scientific heresies” remains Lanyon’s label.",
+      "translation": "jan pi lukin sona li ken kama sona e ni: toki ni li pona ala tawa jan Jekil. taso jan pi sona sijelo li awen toki kepeken pilin musi. ona li toki e ni: “jan Utason mi o, sina jo e jan pi pana mani sama mi la, ike li kama tawa sina. lipu lawa mi li pana e pilin ike mute tawa sina. mi lukin ala e jan ante pi pilin ike sama sina. taso jan Lanjon ni pi sona lipu pi nasin awen li ken sama. ona li pilin ike tan sona mi pi pali sona. taso ona li nimi e sona ni ‘sona pakala.’”",
+      "notes": "“might have gathered” remains a possible observer inference; the dislike is not stated as narrator fact, and “scientific heresies” remains Lanyon’s label.",
+      "usage": {
+        "input_tokens": 2832,
+        "input_tokens_details": {
+          "cache_write_tokens": 2829,
+          "cached_tokens": 0
+        },
+        "output_tokens": 602,
+        "output_tokens_details": {
+          "reasoning_tokens": 408
+        },
+        "total_tokens": 3434
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0059280e26dc7359016ab4297a001087d298cf0db1af48e39e",
+  "visibleOutput": "TRANSLATION: jan pi lukin sona li ken kama sona e ni: toki ni li pona ala tawa jan Jekil. taso jan pi sona sijelo li awen toki kepeken pilin musi. ona li toki e ni: “jan Utason mi o, sina jo e jan pi pana mani sama mi la, ike li kama tawa sina. lipu lawa mi li pana e pilin ike mute tawa sina. mi lukin ala e jan ante pi pilin ike sama sina. taso jan Lanjon ni pi sona lipu pi nasin awen li ken sama. ona li pilin ike tan sona mi pi pali sona. taso ona li nimi e sona ni ‘sona pakala.’”\nNOTES: “might have gathered” remains a possible observer inference; the dislike is not stated as narrator fact, and “scientific heresies” remains Lanyon’s label.",
+  "translation": "jan pi lukin sona li ken kama sona e ni: toki ni li pona ala tawa jan Jekil. taso jan pi sona sijelo li awen toki kepeken pilin musi. ona li toki e ni: “jan Utason mi o, sina jo e jan pi pana mani sama mi la, ike li kama tawa sina. lipu lawa mi li pana e pilin ike mute tawa sina. mi lukin ala e jan ante pi pilin ike sama sina. taso jan Lanjon ni pi sona lipu pi nasin awen li ken sama. ona li pilin ike tan sona mi pi pali sona. taso ona li nimi e sona ni ‘sona pakala.’”",
+  "notes": "“might have gathered” remains a possible observer inference; the dislike is not stated as narrator fact, and “scientific heresies” remains Lanyon’s label.",
+  "usage": {
+    "input_tokens": 2832,
+    "input_tokens_details": {
+      "cache_write_tokens": 2829,
+      "cached_tokens": 0
+    },
+    "output_tokens": 602,
+    "output_tokens_details": {
+      "reasoning_tokens": 408
+    },
+    "total_tokens": 3434
+  },
+  "success": true
+}

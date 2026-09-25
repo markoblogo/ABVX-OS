@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0026",
+  "sourceHash": "6118a05ec7dd2282e4540062d2d9e30007b5fc9abea7ea8c1c4c9e7b0eeddb10",
+  "source": "Guest’s eyes brightened, and he sat down at once and studied it with passion. “No, sir,” he said: “not mad; but it is an odd hand.” “And by all accounts a very odd writer,” added the lawyer. Just then the servant entered with a note. “Is that from Dr. Jekyll, sir?” inquired the clerk. “I thought I knew the writing. Anything private, Mr. Utterson?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01b0a3f00c7ed638016ab42cdb278c87d28644ad6f5e6bfdc5",
+      "visibleOutput": "TRANSLATION: oko pi jan Kesu li suno, li kama anpa lon tenpo sama, li lukin sona e lipu kepeken pilin wawa. ona li toki e ni: “ala, jan lawa o. jan sitelen li nasa ala; taso nasin pi sitelen luka ona li nasa.” jan Utason pi sona lawa li toki sin e ni: “toki ale mi kute la, jan sitelen kin li nasa mute.” lon tenpo ni la, jan pali li kama insa li jo e lipu lili. jan Kesu li wile sona e ni: “jan lawa o, lipu ni li tan jan Jekil pi sona sijelo anu seme? mi pilin e ni: mi sona e nasin sitelen ni. jan Utason o, lipu ni li jo ala jo e toki pi mi o sona ala?”\nNOTES: “mad” and “odd hand” retain the clerk’s judgment about the writer and handwriting, not narrator fact.",
+      "translation": "oko pi jan Kesu li suno, li kama anpa lon tenpo sama, li lukin sona e lipu kepeken pilin wawa. ona li toki e ni: “ala, jan lawa o. jan sitelen li nasa ala; taso nasin pi sitelen luka ona li nasa.” jan Utason pi sona lawa li toki sin e ni: “toki ale mi kute la, jan sitelen kin li nasa mute.” lon tenpo ni la, jan pali li kama insa li jo e lipu lili. jan Kesu li wile sona e ni: “jan lawa o, lipu ni li tan jan Jekil pi sona sijelo anu seme? mi pilin e ni: mi sona e nasin sitelen ni. jan Utason o, lipu ni li jo ala jo e toki pi mi o sona ala?”",
+      "notes": "“mad” and “odd hand” retain the clerk’s judgment about the writer and handwriting, not narrator fact.",
+      "usage": {
+        "input_tokens": 2840,
+        "input_tokens_details": {
+          "cache_write_tokens": 2837,
+          "cached_tokens": 0
+        },
+        "output_tokens": 601,
+        "output_tokens_details": {
+          "reasoning_tokens": 384
+        },
+        "total_tokens": 3441
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01b0a3f00c7ed638016ab42cdb278c87d28644ad6f5e6bfdc5",
+  "visibleOutput": "TRANSLATION: oko pi jan Kesu li suno, li kama anpa lon tenpo sama, li lukin sona e lipu kepeken pilin wawa. ona li toki e ni: “ala, jan lawa o. jan sitelen li nasa ala; taso nasin pi sitelen luka ona li nasa.” jan Utason pi sona lawa li toki sin e ni: “toki ale mi kute la, jan sitelen kin li nasa mute.” lon tenpo ni la, jan pali li kama insa li jo e lipu lili. jan Kesu li wile sona e ni: “jan lawa o, lipu ni li tan jan Jekil pi sona sijelo anu seme? mi pilin e ni: mi sona e nasin sitelen ni. jan Utason o, lipu ni li jo ala jo e toki pi mi o sona ala?”\nNOTES: “mad” and “odd hand” retain the clerk’s judgment about the writer and handwriting, not narrator fact.",
+  "translation": "oko pi jan Kesu li suno, li kama anpa lon tenpo sama, li lukin sona e lipu kepeken pilin wawa. ona li toki e ni: “ala, jan lawa o. jan sitelen li nasa ala; taso nasin pi sitelen luka ona li nasa.” jan Utason pi sona lawa li toki sin e ni: “toki ale mi kute la, jan sitelen kin li nasa mute.” lon tenpo ni la, jan pali li kama insa li jo e lipu lili. jan Kesu li wile sona e ni: “jan lawa o, lipu ni li tan jan Jekil pi sona sijelo anu seme? mi pilin e ni: mi sona e nasin sitelen ni. jan Utason o, lipu ni li jo ala jo e toki pi mi o sona ala?”",
+  "notes": "“mad” and “odd hand” retain the clerk’s judgment about the writer and handwriting, not narrator fact.",
+  "usage": {
+    "input_tokens": 2840,
+    "input_tokens_details": {
+      "cache_write_tokens": 2837,
+      "cached_tokens": 0
+    },
+    "output_tokens": 601,
+    "output_tokens_details": {
+      "reasoning_tokens": 384
+    },
+    "total_tokens": 3441
+  },
+  "success": true
+}

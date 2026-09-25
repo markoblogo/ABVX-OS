@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0010",
+  "sourceHash": "1bf99107e2d47b90151a73924e4dc6b6c91a857f33624bab232f194e74bf4329",
+  "source": "In silence, too, they traversed the by-street; and it was not until they had come into a neighbouring thoroughfare, where even upon a Sunday there were still some stirrings of life, that Mr. Utterson at last turned and looked at his companion. They were both pale; and there was an answering horror in their eyes. “God forgive us, God forgive us,” said Mr. Utterson.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_008beea1b317f753016ab42ef0cf8487d2918b11373abb9726",
+      "visibleOutput": "TRANSLATION: lon tenpo pi toki ala kin la, ona tu li tawa lon nasin lili poka. ona tu li kama lon nasin suli poka. lon nasin ni la, lon tenpo suno sewi kin, jan lili li awen tawa. tenpo ni taso la, jan Utason li kama lukin e jan poka ona. sinpin ona tu li walo, li pana e pilin monsuta sama tan lukin ona tu. jan Utason li toki e ni: “sewi o weka e ike mi tu. sewi o weka e ike mi tu.”\n\nNOTES: “forgive us” is rendered as “remove our wrongdoing,” preserving the plea without specifying its cause.",
+      "translation": "lon tenpo pi toki ala kin la, ona tu li tawa lon nasin lili poka. ona tu li kama lon nasin suli poka. lon nasin ni la, lon tenpo suno sewi kin, jan lili li awen tawa. tenpo ni taso la, jan Utason li kama lukin e jan poka ona. sinpin ona tu li walo, li pana e pilin monsuta sama tan lukin ona tu. jan Utason li toki e ni: “sewi o weka e ike mi tu. sewi o weka e ike mi tu.”",
+      "notes": "“forgive us” is rendered as “remove our wrongdoing,” preserving the plea without specifying its cause.",
+      "usage": {
+        "input_tokens": 2822,
+        "input_tokens_details": {
+          "cache_write_tokens": 2819,
+          "cached_tokens": 0
+        },
+        "output_tokens": 562,
+        "output_tokens_details": {
+          "reasoning_tokens": 403
+        },
+        "total_tokens": 3384
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_008beea1b317f753016ab42ef0cf8487d2918b11373abb9726",
+  "visibleOutput": "TRANSLATION: lon tenpo pi toki ala kin la, ona tu li tawa lon nasin lili poka. ona tu li kama lon nasin suli poka. lon nasin ni la, lon tenpo suno sewi kin, jan lili li awen tawa. tenpo ni taso la, jan Utason li kama lukin e jan poka ona. sinpin ona tu li walo, li pana e pilin monsuta sama tan lukin ona tu. jan Utason li toki e ni: “sewi o weka e ike mi tu. sewi o weka e ike mi tu.”\n\nNOTES: “forgive us” is rendered as “remove our wrongdoing,” preserving the plea without specifying its cause.",
+  "translation": "lon tenpo pi toki ala kin la, ona tu li tawa lon nasin lili poka. ona tu li kama lon nasin suli poka. lon nasin ni la, lon tenpo suno sewi kin, jan lili li awen tawa. tenpo ni taso la, jan Utason li kama lukin e jan poka ona. sinpin ona tu li walo, li pana e pilin monsuta sama tan lukin ona tu. jan Utason li toki e ni: “sewi o weka e ike mi tu. sewi o weka e ike mi tu.”",
+  "notes": "“forgive us” is rendered as “remove our wrongdoing,” preserving the plea without specifying its cause.",
+  "usage": {
+    "input_tokens": 2822,
+    "input_tokens_details": {
+      "cache_write_tokens": 2819,
+      "cached_tokens": 0
+    },
+    "output_tokens": 562,
+    "output_tokens_details": {
+      "reasoning_tokens": 403
+    },
+    "total_tokens": 3384
+  },
+  "success": true
+}

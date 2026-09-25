@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0006",
+  "sourceHash": "34038cded6c4ddf485543992d9144432b07efc5423998ddc13eea1a884e82dd6",
+  "source": "“I am very low, Utterson,” replied the doctor, drearily, “very low. It will not last long, thank God.” “You stay too much indoors,” said the lawyer. “You should be out, whipping up the circulation like Mr. Enfield and me. (This is my cousin—Mr. Enfield—Dr. Jekyll.) Come, now; get your hat and take a quick turn with us.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_042c8d26bc7952f5016ab42eb8329c87d2be978ba5e41a456c",
+      "visibleOutput": "TRANSLATION: “jan Utason o, pilin mi li ike mute,” jan Jekil pi sona sijelo li toki sin kepeken pilin ike. “pilin mi li ike mute. ni li awen ala lon tenpo mute. mi toki pona tawa sewi tan ni.” jan Utason pi sona lawa li toki: “sina awen lon insa pi tomo sina lon tenpo mute ike. o tawa lon ma, o pana e wawa tawa sijelo sina sama mi sama jan Enpil. (jan ni li jan sama mi pi kulupu mama—jan Enpil o, ona li jan Jekil pi sona sijelo.) o kama! o kama jo e len lawa sina, o tawa kepeken tenpo lili lon poka mi tu.”\nNOTES: “ni” preserves the ambiguity of what “will not last long” refers to.",
+      "translation": "“jan Utason o, pilin mi li ike mute,” jan Jekil pi sona sijelo li toki sin kepeken pilin ike. “pilin mi li ike mute. ni li awen ala lon tenpo mute. mi toki pona tawa sewi tan ni.” jan Utason pi sona lawa li toki: “sina awen lon insa pi tomo sina lon tenpo mute ike. o tawa lon ma, o pana e wawa tawa sijelo sina sama mi sama jan Enpil. (jan ni li jan sama mi pi kulupu mama—jan Enpil o, ona li jan Jekil pi sona sijelo.) o kama! o kama jo e len lawa sina, o tawa kepeken tenpo lili lon poka mi tu.”",
+      "notes": "“ni” preserves the ambiguity of what “will not last long” refers to.",
+      "usage": {
+        "input_tokens": 2836,
+        "input_tokens_details": {
+          "cache_write_tokens": 2833,
+          "cached_tokens": 0
+        },
+        "output_tokens": 547,
+        "output_tokens_details": {
+          "reasoning_tokens": 355
+        },
+        "total_tokens": 3383
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_042c8d26bc7952f5016ab42eb8329c87d2be978ba5e41a456c",
+  "visibleOutput": "TRANSLATION: “jan Utason o, pilin mi li ike mute,” jan Jekil pi sona sijelo li toki sin kepeken pilin ike. “pilin mi li ike mute. ni li awen ala lon tenpo mute. mi toki pona tawa sewi tan ni.” jan Utason pi sona lawa li toki: “sina awen lon insa pi tomo sina lon tenpo mute ike. o tawa lon ma, o pana e wawa tawa sijelo sina sama mi sama jan Enpil. (jan ni li jan sama mi pi kulupu mama—jan Enpil o, ona li jan Jekil pi sona sijelo.) o kama! o kama jo e len lawa sina, o tawa kepeken tenpo lili lon poka mi tu.”\nNOTES: “ni” preserves the ambiguity of what “will not last long” refers to.",
+  "translation": "“jan Utason o, pilin mi li ike mute,” jan Jekil pi sona sijelo li toki sin kepeken pilin ike. “pilin mi li ike mute. ni li awen ala lon tenpo mute. mi toki pona tawa sewi tan ni.” jan Utason pi sona lawa li toki: “sina awen lon insa pi tomo sina lon tenpo mute ike. o tawa lon ma, o pana e wawa tawa sijelo sina sama mi sama jan Enpil. (jan ni li jan sama mi pi kulupu mama—jan Enpil o, ona li jan Jekil pi sona sijelo.) o kama! o kama jo e len lawa sina, o tawa kepeken tenpo lili lon poka mi tu.”",
+  "notes": "“ni” preserves the ambiguity of what “will not last long” refers to.",
+  "usage": {
+    "input_tokens": 2836,
+    "input_tokens_details": {
+      "cache_write_tokens": 2833,
+      "cached_tokens": 0
+    },
+    "output_tokens": 547,
+    "output_tokens_details": {
+      "reasoning_tokens": 355
+    },
+    "total_tokens": 3383
+  },
+  "success": true
+}

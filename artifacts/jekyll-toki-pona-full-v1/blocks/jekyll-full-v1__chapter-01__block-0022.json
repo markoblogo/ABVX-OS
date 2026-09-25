@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0022",
+  "sourceHash": "02b6ca62569b81e5f14763836161682dc70f08a40e45342f3a68c91a812bfc22",
+  "source": "Well, sir, he was like the rest of us; every time he looked at my prisoner, I saw that Sawbones turn sick and white with the desire to kill him. I knew what was in his mind, just as he knew what was in mine; and killing being out of the question, we did the next best.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a49110fb8536893016ab4256e76a487d286680bc032dbae84",
+      "visibleOutput": "TRANSLATION: a, jan o, ona li sama mi mute ale. tenpo ale la, ona li lukin e jan ni, mi awen e ona. mi lukin e ni: jan pi sona sijelo ni li kama pilin ike li kama walo tan wile moli e ona. mi sona e ijo lon lawa ona; sama la, ona li sona e ijo lon lawa mi. taso moli e ona li nasin ala. ni la, mi pali e nasin pona ante.\nNOTES: “my prisoner” is rendered descriptively to avoid implying a formal legal status.",
+      "translation": "a, jan o, ona li sama mi mute ale. tenpo ale la, ona li lukin e jan ni, mi awen e ona. mi lukin e ni: jan pi sona sijelo ni li kama pilin ike li kama walo tan wile moli e ona. mi sona e ijo lon lawa ona; sama la, ona li sona e ijo lon lawa mi. taso moli e ona li nasin ala. ni la, mi pali e nasin pona ante.",
+      "notes": "“my prisoner” is rendered descriptively to avoid implying a formal legal status.",
+      "usage": {
+        "input_tokens": 2803,
+        "input_tokens_details": {
+          "cache_write_tokens": 2800,
+          "cached_tokens": 0
+        },
+        "output_tokens": 578,
+        "output_tokens_details": {
+          "reasoning_tokens": 445
+        },
+        "total_tokens": 3381
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a49110fb8536893016ab4256e76a487d286680bc032dbae84",
+  "visibleOutput": "TRANSLATION: a, jan o, ona li sama mi mute ale. tenpo ale la, ona li lukin e jan ni, mi awen e ona. mi lukin e ni: jan pi sona sijelo ni li kama pilin ike li kama walo tan wile moli e ona. mi sona e ijo lon lawa ona; sama la, ona li sona e ijo lon lawa mi. taso moli e ona li nasin ala. ni la, mi pali e nasin pona ante.\nNOTES: “my prisoner” is rendered descriptively to avoid implying a formal legal status.",
+  "translation": "a, jan o, ona li sama mi mute ale. tenpo ale la, ona li lukin e jan ni, mi awen e ona. mi lukin e ni: jan pi sona sijelo ni li kama pilin ike li kama walo tan wile moli e ona. mi sona e ijo lon lawa ona; sama la, ona li sona e ijo lon lawa mi. taso moli e ona li nasin ala. ni la, mi pali e nasin pona ante.",
+  "notes": "“my prisoner” is rendered descriptively to avoid implying a formal legal status.",
+  "usage": {
+    "input_tokens": 2803,
+    "input_tokens_details": {
+      "cache_write_tokens": 2800,
+      "cached_tokens": 0
+    },
+    "output_tokens": 578,
+    "output_tokens_details": {
+      "reasoning_tokens": 445
+    },
+    "total_tokens": 3381
+  },
+  "success": true
+}

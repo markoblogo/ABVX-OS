@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0078",
+  "sourceHash": "84932dc59fd68a6288fe92164a4e3113cbf447caff9a8025d28f1d65ef0acfc5",
+  "source": "“My dear Utterson,—When this shall fall into your hands, I shall have disappeared, under what circumstances I have not the penetration to foresee, but my instinct and all the circumstances of my nameless situation tell me that the end is sure and must be early. Go then, and first read the narrative which Lanyon warned me he was to place in your hands; and if you care to hear more, turn to the confession of",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0027faa25109e502016ab432c5d12487d2a379de87448adcf2",
+      "visibleOutput": "TRANSLATION: jan Utason pona o—tenpo ni la lipu ni li kama lon luka sina. tenpo ni la mi weka jo. mi ken ala sona e nasin pi weka mi. taso pilin insa mi en ijo ale lon nasin mi ni—nasin pi nimi ala—li toki tawa mi e ni: pini li kama lon, li kama lon tenpo poka. tan ni, o lukin nanpa wan e lipu toki pi jan Lanjon. ona li toki tawa mi e ni: ona li pana e lipu ni tawa sina. sina wile sona e ijo ante la, o lukin e lipu pi toki lon tan—\nNOTES: Source ends mid-phrase after “confession of”; translation preserves the unfinished continuation without supplying the missing identity.",
+      "translation": "jan Utason pona o—tenpo ni la lipu ni li kama lon luka sina. tenpo ni la mi weka jo. mi ken ala sona e nasin pi weka mi. taso pilin insa mi en ijo ale lon nasin mi ni—nasin pi nimi ala—li toki tawa mi e ni: pini li kama lon, li kama lon tenpo poka. tan ni, o lukin nanpa wan e lipu toki pi jan Lanjon. ona li toki tawa mi e ni: ona li pana e lipu ni tawa sina. sina wile sona e ijo ante la, o lukin e lipu pi toki lon tan—",
+      "notes": "Source ends mid-phrase after “confession of”; translation preserves the unfinished continuation without supplying the missing identity.",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 576,
+        "output_tokens_details": {
+          "reasoning_tokens": 399
+        },
+        "total_tokens": 3409
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0027faa25109e502016ab432c5d12487d2a379de87448adcf2",
+  "visibleOutput": "TRANSLATION: jan Utason pona o—tenpo ni la lipu ni li kama lon luka sina. tenpo ni la mi weka jo. mi ken ala sona e nasin pi weka mi. taso pilin insa mi en ijo ale lon nasin mi ni—nasin pi nimi ala—li toki tawa mi e ni: pini li kama lon, li kama lon tenpo poka. tan ni, o lukin nanpa wan e lipu toki pi jan Lanjon. ona li toki tawa mi e ni: ona li pana e lipu ni tawa sina. sina wile sona e ijo ante la, o lukin e lipu pi toki lon tan—\nNOTES: Source ends mid-phrase after “confession of”; translation preserves the unfinished continuation without supplying the missing identity.",
+  "translation": "jan Utason pona o—tenpo ni la lipu ni li kama lon luka sina. tenpo ni la mi weka jo. mi ken ala sona e nasin pi weka mi. taso pilin insa mi en ijo ale lon nasin mi ni—nasin pi nimi ala—li toki tawa mi e ni: pini li kama lon, li kama lon tenpo poka. tan ni, o lukin nanpa wan e lipu toki pi jan Lanjon. ona li toki tawa mi e ni: ona li pana e lipu ni tawa sina. sina wile sona e ijo ante la, o lukin e lipu pi toki lon tan—",
+  "notes": "Source ends mid-phrase after “confession of”; translation preserves the unfinished continuation without supplying the missing identity.",
+  "usage": {
+    "input_tokens": 2833,
+    "input_tokens_details": {
+      "cache_write_tokens": 2830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 576,
+    "output_tokens_details": {
+      "reasoning_tokens": 399
+    },
+    "total_tokens": 3409
+  },
+  "success": true
+}

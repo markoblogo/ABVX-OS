@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0102",
+  "sourceHash": "91e43b1bb05973d03435e6a7dc36de7af5b228af2d187eed79f3865cea0ade5f",
+  "source": "When I came to myself at Lanyon’s, the horror of my old friend perhaps affected me somewhat: I do not know; it was at least but a drop in the sea to the abhorrence with which I looked back upon these hours. A change had come over me. It was no longer the fear of the gallows, it was the horror of being Hyde that racked me.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

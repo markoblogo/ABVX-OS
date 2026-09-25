@@ -1,0 +1,2238 @@
+{
+  "sourceCount": 40,
+  "completed": [
+    {
+      "blockId": "jekyll-sample-v2:section-001:b0001",
+      "sourceText": "# Representative source sample — Project Gutenberg #42",
+      "sourceHash": "730e2b28f21abc6a14bd051b22a9115610e9f63d08d920856210398b7f1ca6b8",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_06e44995e3755b0b016ab41d0550c087d28ffdda0169ea61d9",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: # kipisi lipu pi pana lukin — pali Kutenpe nanpa 42\nNOTES: NONE",
+          "translation": "# kipisi lipu pi pana lukin — pali Kutenpe nanpa 42",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2778,
+            "input_tokens_details": {
+              "cache_write_tokens": 2775,
+              "cached_tokens": 0
+            },
+            "output_tokens": 66,
+            "output_tokens_details": {
+              "reasoning_tokens": 33
+            },
+            "total_tokens": 2844
+          },
+          "elapsedMs": 3170
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06e44995e3755b0b016ab41d0550c087d28ffdda0169ea61d9",
+      "visibleOutput": "TRANSLATION: # kipisi lipu pi pana lukin — pali Kutenpe nanpa 42\nNOTES: NONE",
+      "translation": "# kipisi lipu pi pana lukin — pali Kutenpe nanpa 42",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2778,
+        "input_tokens_details": {
+          "cache_write_tokens": 2775,
+          "cached_tokens": 0
+        },
+        "output_tokens": 66,
+        "output_tokens_details": {
+          "reasoning_tokens": 33
+        },
+        "total_tokens": 2844
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-001:b0002",
+      "sourceText": "**Source file:** `gutenberg-42-2026-09-21.txt`  \n**Selection:** Chapter II, *Search for Mr. Hyde*; Chapter VI, *Incident of the Letter*; Chapter VIII, *The Last Night*.  \n**Purpose:** tests a will, social/legal status, dialogue, uncertain inference, a letter, a laboratory/cabinet, and a fearful witness without using the final revelation.",
+      "sourceHash": "2c1e5205eac7233a8871e760c445fd12aa596382d566301b8ec3b3513db09cac",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_02ebd91786ecbe6d016ab41d0889c887d2b5454268b63b6ce9",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: **lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.\nNOTES: NONE",
+          "translation": "**lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2866,
+            "input_tokens_details": {
+              "cache_write_tokens": 2863,
+              "cached_tokens": 0
+            },
+            "output_tokens": 445,
+            "output_tokens_details": {
+              "reasoning_tokens": 276
+            },
+            "total_tokens": 3311
+          },
+          "elapsedMs": 9817
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02ebd91786ecbe6d016ab41d0889c887d2b5454268b63b6ce9",
+      "visibleOutput": "TRANSLATION: **lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.\nNOTES: NONE",
+      "translation": "**lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2866,
+        "input_tokens_details": {
+          "cache_write_tokens": 2863,
+          "cached_tokens": 0
+        },
+        "output_tokens": 445,
+        "output_tokens_details": {
+          "reasoning_tokens": 276
+        },
+        "total_tokens": 3311
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0003",
+      "sourceText": "## A. Utterson's will and Lanyon conversation",
+      "sourceHash": "7651559c8bb6cf032eabe80b0d0264b63e822b39bd3b7b14a1f2eae880892f08",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_01c2f67a87e98cd2016ab41d125c7487d2a0fd0832e2e66c95",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: ## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon\nNOTES: NONE",
+          "translation": "## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2791,
+            "input_tokens_details": {
+              "cache_write_tokens": 2788,
+              "cached_tokens": 0
+            },
+            "output_tokens": 192,
+            "output_tokens_details": {
+              "reasoning_tokens": 157
+            },
+            "total_tokens": 2983
+          },
+          "elapsedMs": 5376
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01c2f67a87e98cd2016ab41d125c7487d2a0fd0832e2e66c95",
+      "visibleOutput": "TRANSLATION: ## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon\nNOTES: NONE",
+      "translation": "## A. lipu lawa pi jan Utason en toki pi jan Utason en jan Lanjon",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2791,
+        "input_tokens_details": {
+          "cache_write_tokens": 2788,
+          "cached_tokens": 0
+        },
+        "output_tokens": 192,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 2983
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0004",
+      "sourceText": "That evening Mr. Utterson came home to his bachelor house in sombre spirits and sat down to dinner without relish. It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading-desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed. On this night, however, as soon as the cloth was taken away, he took up a candle and went into his business-room. There he opened his safe, took from the most private part of it a document endorsed on the envelope as Dr. Jekyll’s Will, and sat down with a clouded brow to study its contents.",
+      "sourceHash": "06e1e3f3fd02c1a10a0e65a7effb2bc606769eabae5e02ad663194cfbb5b4f2a",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_05b13eb0b129e972016ab41d17bfb487d2a740e25a0c5f4f54",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.\nNOTES: NONE",
+          "translation": "lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2931,
+            "input_tokens_details": {
+              "cache_write_tokens": 2928,
+              "cached_tokens": 0
+            },
+            "output_tokens": 446,
+            "output_tokens_details": {
+              "reasoning_tokens": 178
+            },
+            "total_tokens": 3377
+          },
+          "elapsedMs": 10979
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05b13eb0b129e972016ab41d17bfb487d2a740e25a0c5f4f54",
+      "visibleOutput": "TRANSLATION: lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.\nNOTES: NONE",
+      "translation": "lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2931,
+        "input_tokens_details": {
+          "cache_write_tokens": 2928,
+          "cached_tokens": 0
+        },
+        "output_tokens": 446,
+        "output_tokens_details": {
+          "reasoning_tokens": 178
+        },
+        "total_tokens": 3377
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0005",
+      "sourceText": "The will was holograph, for Mr. Utterson, though he took charge of it now that it was made, had refused to lend the least assistance in the making of it; it provided not only that, in case of the decease of Henry Jekyll, M.D., D.C.L., L.L.D., F.R.S., etc., all his possessions were to pass into the hands of his “friend and benefactor Edward Hyde,” but that in case of Dr. Jekyll’s “disappearance or unexplained absence for any period exceeding three calendar months,” the said Edward Hyde should step into the said Henry Jekyll’s shoes without further delay and free from any burthen or obligation, beyond the payment of a few small sums to the members of the doctor’s household. This document had long been the lawyer’s eyesore. It offended him both as a lawyer and as a lover of the sane and customary sides of life, to whom the fanciful was the immodest. And hitherto it was his ignorance of Mr. Hyde that had swelled his indignation; now, by a sudden turn, it was his knowledge. It was already bad enough when the name was but a name of which he could learn no more. It was worse when it began to be clothed upon with detestable attributes; and out of the shifting, insubstantial mists that had so long baffled his eye, there leaped up the sudden, definite presentment of a fiend.",
+      "sourceHash": "3da0092793c073c84d45f6ac66a0e49b5740a91f53a79c01ab1e374c9dd31ad0",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_011ea7ef37c9bc5b016ab41d22e06c87d2aaa8dd3e07c4a1b0",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.\nNOTES: “jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+          "translation": "jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.",
+          "notes": "“jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+          "usage": {
+            "input_tokens": 3087,
+            "input_tokens_details": {
+              "cache_write_tokens": 3084,
+              "cached_tokens": 0
+            },
+            "output_tokens": 575,
+            "output_tokens_details": {
+              "reasoning_tokens": 74
+            },
+            "total_tokens": 3662
+          },
+          "elapsedMs": 16419
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_011ea7ef37c9bc5b016ab41d22e06c87d2aaa8dd3e07c4a1b0",
+      "visibleOutput": "TRANSLATION: jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.\nNOTES: “jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+      "translation": "jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.",
+      "notes": "“jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+      "usage": {
+        "input_tokens": 3087,
+        "input_tokens_details": {
+          "cache_write_tokens": 3084,
+          "cached_tokens": 0
+        },
+        "output_tokens": 575,
+        "output_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "total_tokens": 3662
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0006",
+      "sourceText": "“I thought it was madness,” he said, as he replaced the obnoxious paper in the safe, “and now I begin to fear it is disgrace.”",
+      "sourceHash": "e02c12571025c2c916565ed794924c32f7621c3478ee05579b99e310eb4ced59",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_06658b4dba7f42d0016ab41d33abb887d2b53985b83d927318",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”\nNOTES: NONE",
+          "translation": "“mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2802,
+            "input_tokens_details": {
+              "cache_write_tokens": 2799,
+              "cached_tokens": 0
+            },
+            "output_tokens": 396,
+            "output_tokens_details": {
+              "reasoning_tokens": 321
+            },
+            "total_tokens": 3198
+          },
+          "elapsedMs": 9297
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06658b4dba7f42d0016ab41d33abb887d2b53985b83d927318",
+      "visibleOutput": "TRANSLATION: “mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”\nNOTES: NONE",
+      "translation": "“mi pilin e ni: ni li nasa,” ona li toki. ona li pana sin e lipu ike ni lon poki awen, li toki e ni: “taso tenpo ni la mi open monsuta tan pilin ni: ken la ni li weka e nimi pona.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2802,
+        "input_tokens_details": {
+          "cache_write_tokens": 2799,
+          "cached_tokens": 0
+        },
+        "output_tokens": 396,
+        "output_tokens_details": {
+          "reasoning_tokens": 321
+        },
+        "total_tokens": 3198
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0007",
+      "sourceText": "With that he blew out his candle, put on a great-coat, and set forth in the direction of Cavendish Square, that citadel of medicine, where his friend, the great Dr. Lanyon, had his house and received his crowding patients. “If any one knows, it will be Lanyon,” he had thought.",
+      "sourceHash": "37757e4edcf912dc2bb1ec60536d8a5f2d83adaf7a98fe437c939a911538d25b",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0e017cd812fa69b5016ab41d3d2b7c87d28f44120ca732dc20",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”\nNOTES: NONE",
+          "translation": "ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2850,
+            "input_tokens_details": {
+              "cache_write_tokens": 2847,
+              "cached_tokens": 0
+            },
+            "output_tokens": 511,
+            "output_tokens_details": {
+              "reasoning_tokens": 397
+            },
+            "total_tokens": 3361
+          },
+          "elapsedMs": 11907
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e017cd812fa69b5016ab41d3d2b7c87d28f44120ca732dc20",
+      "visibleOutput": "TRANSLATION: ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”\nNOTES: NONE",
+      "translation": "ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2850,
+        "input_tokens_details": {
+          "cache_write_tokens": 2847,
+          "cached_tokens": 0
+        },
+        "output_tokens": 511,
+        "output_tokens_details": {
+          "reasoning_tokens": 397
+        },
+        "total_tokens": 3361
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0008",
+      "sourceText": "The solemn butler knew and welcomed him; he was subjected to no stage of delay, but ushered direct from the door to the dining-room where Dr. Lanyon sat alone over his wine. This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner. At sight of Mr. Utterson, he sprang up from his chair and welcomed him with both hands. The geniality, as was the way of the man, was somewhat theatrical to the eye; but it reposed on genuine feeling. For these two were old friends, old mates both at school and college, both thorough respecters of themselves and of each other, and, what does not always follow, men who thoroughly enjoyed each other’s company.",
+      "sourceHash": "3c5e2c0659a781f3714e09d7b72ea869412cbe3d8666997458444cbbb8d18e9c",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0ba0dcd53d6e0b2b016ab41d495bdc87d28146ac91afc8c2ae",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan pi tomo ni li pilin suli, li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin: jan ni li tawa e ona tan lupa lon poka pi tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li moku e telo nasa ona, li lon wan. jan Lanjon li jan pi pilin wawa, li sijelo pona, li len pona, li sinpin loje. linja lawa ona li walo lon tenpo pi walo ala. nasin ona li kalama wawa, li pana e pilin ona kepeken wawa. jan Lanjon li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu. nasin pona ni li sama musi pi lukin e jan; ni li nasin pi jan Lanjon. taso pilin ona li lon. ni li tan ni: ona tu li jan pona pi tenpo pini mute. lon tomo sona pi jan lili en tomo sona suli la, ona tu li kama poka. ona tu li pilin pona suli tawa ona sama, li pilin pona suli tawa ante. kin la—ni li kama ala lon tenpo ale—ona tu li pilin pona mute lon poka pi ante.\nNOTES: “theatrical” rendered as outwardly play-like while preserving genuine feeling.",
+          "translation": "jan pi tomo ni li pilin suli, li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin: jan ni li tawa e ona tan lupa lon poka pi tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li moku e telo nasa ona, li lon wan. jan Lanjon li jan pi pilin wawa, li sijelo pona, li len pona, li sinpin loje. linja lawa ona li walo lon tenpo pi walo ala. nasin ona li kalama wawa, li pana e pilin ona kepeken wawa. jan Lanjon li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu. nasin pona ni li sama musi pi lukin e jan; ni li nasin pi jan Lanjon. taso pilin ona li lon. ni li tan ni: ona tu li jan pona pi tenpo pini mute. lon tomo sona pi jan lili en tomo sona suli la, ona tu li kama poka. ona tu li pilin pona suli tawa ona sama, li pilin pona suli tawa ante. kin la—ni li kama ala lon tenpo ale—ona tu li pilin pona mute lon poka pi ante.",
+          "notes": "“theatrical” rendered as outwardly play-like while preserving genuine feeling.",
+          "usage": {
+            "input_tokens": 2932,
+            "input_tokens_details": {
+              "cache_write_tokens": 2929,
+              "cached_tokens": 0
+            },
+            "output_tokens": 403,
+            "output_tokens_details": {
+              "reasoning_tokens": 93
+            },
+            "total_tokens": 3335
+          },
+          "elapsedMs": 13082
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ba0dcd53d6e0b2b016ab41d495bdc87d28146ac91afc8c2ae",
+      "visibleOutput": "TRANSLATION: jan pi tomo ni li pilin suli, li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin: jan ni li tawa e ona tan lupa lon poka pi tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li moku e telo nasa ona, li lon wan. jan Lanjon li jan pi pilin wawa, li sijelo pona, li len pona, li sinpin loje. linja lawa ona li walo lon tenpo pi walo ala. nasin ona li kalama wawa, li pana e pilin ona kepeken wawa. jan Lanjon li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu. nasin pona ni li sama musi pi lukin e jan; ni li nasin pi jan Lanjon. taso pilin ona li lon. ni li tan ni: ona tu li jan pona pi tenpo pini mute. lon tomo sona pi jan lili en tomo sona suli la, ona tu li kama poka. ona tu li pilin pona suli tawa ona sama, li pilin pona suli tawa ante. kin la—ni li kama ala lon tenpo ale—ona tu li pilin pona mute lon poka pi ante.\nNOTES: “theatrical” rendered as outwardly play-like while preserving genuine feeling.",
+      "translation": "jan pi tomo ni li pilin suli, li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin: jan ni li tawa e ona tan lupa lon poka pi tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li moku e telo nasa ona, li lon wan. jan Lanjon li jan pi pilin wawa, li sijelo pona, li len pona, li sinpin loje. linja lawa ona li walo lon tenpo pi walo ala. nasin ona li kalama wawa, li pana e pilin ona kepeken wawa. jan Lanjon li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu. nasin pona ni li sama musi pi lukin e jan; ni li nasin pi jan Lanjon. taso pilin ona li lon. ni li tan ni: ona tu li jan pona pi tenpo pini mute. lon tomo sona pi jan lili en tomo sona suli la, ona tu li kama poka. ona tu li pilin pona suli tawa ona sama, li pilin pona suli tawa ante. kin la—ni li kama ala lon tenpo ale—ona tu li pilin pona mute lon poka pi ante.",
+      "notes": "“theatrical” rendered as outwardly play-like while preserving genuine feeling.",
+      "usage": {
+        "input_tokens": 2932,
+        "input_tokens_details": {
+          "cache_write_tokens": 2929,
+          "cached_tokens": 0
+        },
+        "output_tokens": 403,
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "total_tokens": 3335
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0009",
+      "sourceText": "After a little rambling talk, the lawyer led up to the subject which so disagreeably pre-occupied his mind.",
+      "sourceHash": "a3f2f5455d64f5e1f9aceab08e52525406eea63790c48ef7243939e42a29cb72",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0f70fe6bdd741e47016ab41d5795a887d286f1d1c8900a51e1",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.\nNOTES: NONE",
+          "translation": "tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2793,
+            "input_tokens_details": {
+              "cache_write_tokens": 2790,
+              "cached_tokens": 0
+            },
+            "output_tokens": 54,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2847
+          },
+          "elapsedMs": 4382
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f70fe6bdd741e47016ab41d5795a887d286f1d1c8900a51e1",
+      "visibleOutput": "TRANSLATION: tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.\nNOTES: NONE",
+      "translation": "tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2793,
+        "input_tokens_details": {
+          "cache_write_tokens": 2790,
+          "cached_tokens": 0
+        },
+        "output_tokens": 54,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2847
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0010",
+      "sourceText": "“I suppose, Lanyon,” said he “you and I must be the two oldest friends that Henry Jekyll has?”",
+      "sourceHash": "c002cd9797549bec80b6472e83d8cca86b063092b53ea5c566a427732f79e250",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0289d83c0eebfd4c016ab41d5b252887d2a306a80fd2697955",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: ona li toki e ni: “jan Lanjon o, mi pilin e ni: jan Jekil la, sina en mi tu li jan poka ona pi tenpo mute nanpa wan, anu seme?”\nNOTES: NONE",
+          "translation": "ona li toki e ni: “jan Lanjon o, mi pilin e ni: jan Jekil la, sina en mi tu li jan poka ona pi tenpo mute nanpa wan, anu seme?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2807,
+            "input_tokens_details": {
+              "cache_write_tokens": 2804,
+              "cached_tokens": 0
+            },
+            "output_tokens": 243,
+            "output_tokens_details": {
+              "reasoning_tokens": 185
+            },
+            "total_tokens": 3050
+          },
+          "elapsedMs": 8514
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0289d83c0eebfd4c016ab41d5b252887d2a306a80fd2697955",
+      "visibleOutput": "TRANSLATION: ona li toki e ni: “jan Lanjon o, mi pilin e ni: jan Jekil la, sina en mi tu li jan poka ona pi tenpo mute nanpa wan, anu seme?”\nNOTES: NONE",
+      "translation": "ona li toki e ni: “jan Lanjon o, mi pilin e ni: jan Jekil la, sina en mi tu li jan poka ona pi tenpo mute nanpa wan, anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2807,
+        "input_tokens_details": {
+          "cache_write_tokens": 2804,
+          "cached_tokens": 0
+        },
+        "output_tokens": 243,
+        "output_tokens_details": {
+          "reasoning_tokens": 185
+        },
+        "total_tokens": 3050
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0011",
+      "sourceText": "“I wish the friends were younger,” chuckled Dr. Lanyon. “But I suppose we are. And what of that? I see little of him now.”",
+      "sourceHash": "70a2f3c71d85dde83175353f3ffca3ada168e1a0dbbc595ac2bd072b75384c4d",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0c521006a91a43ea016ab41d63b7e487d29c67599a55036530",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”\nNOTES: “younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+          "translation": "jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”",
+          "notes": "“younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+          "usage": {
+            "input_tokens": 2804,
+            "input_tokens_details": {
+              "cache_write_tokens": 2801,
+              "cached_tokens": 0
+            },
+            "output_tokens": 630,
+            "output_tokens_details": {
+              "reasoning_tokens": 516
+            },
+            "total_tokens": 3434
+          },
+          "elapsedMs": 20608
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c521006a91a43ea016ab41d63b7e487d29c67599a55036530",
+      "visibleOutput": "TRANSLATION: jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”\nNOTES: “younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+      "translation": "jan Lanjon pi sona sijelo li toki kepeken kalama musi lili: “mi wile e ni: mi tu jan pona li lili lon tenpo. taso, mi pilin la, mi tu li jan pona ona pi tenpo suli nanpa wan. ni la seme? tenpo ni la mi lukin e ona lon tenpo lili taso.”",
+      "notes": "“younger” is rendered as “lili lon tenpo”; “I suppose” remains uncertain.",
+      "usage": {
+        "input_tokens": 2804,
+        "input_tokens_details": {
+          "cache_write_tokens": 2801,
+          "cached_tokens": 0
+        },
+        "output_tokens": 630,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3434
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0012",
+      "sourceText": "“Indeed?” said Utterson. “I thought you had a bond of common interest.”",
+      "sourceHash": "45a3bcfa87457232b8853cc8bb45cf77d9af16131790251c9193246d208ade1f",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0ad11a8442e43594016ab41d7853b487d2b304e467ccd8cec4",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”\nNOTES: NONE",
+          "translation": "“lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2790,
+            "input_tokens_details": {
+              "cache_write_tokens": 2787,
+              "cached_tokens": 0
+            },
+            "output_tokens": 142,
+            "output_tokens_details": {
+              "reasoning_tokens": 100
+            },
+            "total_tokens": 2932
+          },
+          "elapsedMs": 4710
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ad11a8442e43594016ab41d7853b487d2b304e467ccd8cec4",
+      "visibleOutput": "TRANSLATION: “lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”\nNOTES: NONE",
+      "translation": "“lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2790,
+        "input_tokens_details": {
+          "cache_write_tokens": 2787,
+          "cached_tokens": 0
+        },
+        "output_tokens": 142,
+        "output_tokens_details": {
+          "reasoning_tokens": 100
+        },
+        "total_tokens": 2932
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0013",
+      "sourceText": "“We had,” was the reply. “But it is more than ten years since Henry Jekyll became too fanciful for me. He began to go wrong, wrong in mind; and though of course I continue to take an interest in him for old sake’s sake, as they say, I see and I have seen devilish little of the man. Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”",
+      "sourceHash": "eed42523fcb6654051adb0ec0c93439215688ad91cd9cf79bbee813f2f233527",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0c69d7d00c4ac65e016ab41d7d118087d29da5e289b8e73d80",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+          "translation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+          "notes": "nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+          "usage": {
+            "input_tokens": 2879,
+            "input_tokens_details": {
+              "cache_write_tokens": 2876,
+              "cached_tokens": 0
+            },
+            "output_tokens": 359,
+            "output_tokens_details": {
+              "reasoning_tokens": 162
+            },
+            "total_tokens": 3238
+          },
+          "elapsedMs": 13375
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c69d7d00c4ac65e016ab41d7d118087d29da5e289b8e73d80",
+      "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+      "translation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+      "notes": "nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+      "usage": {
+        "input_tokens": 2879,
+        "input_tokens_details": {
+          "cache_write_tokens": 2876,
+          "cached_tokens": 0
+        },
+        "output_tokens": 359,
+        "output_tokens_details": {
+          "reasoning_tokens": 162
+        },
+        "total_tokens": 3238
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0014",
+      "sourceText": "This little spirit of temper was somewhat of a relief to Mr. Utterson. “They have only differed on some point of science,” he thought; and being a man of no scientific passions (except in the matter of conveyancing), he even added: “It is nothing worse than that!” He gave his friend a few seconds to recover his composure, and then approached the question he had come to put. “Did you ever come across a protege of his—one Hyde?” he asked.",
+      "sourceHash": "a109fec5eb909a6edeb2a47db2643ffb9846c7b12157c5e56e3496bde82862c7",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0204c24e013e5985016ab41d8a98e887d2be794569faa14944",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+          "translation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+          "notes": "musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+          "usage": {
+            "input_tokens": 2883,
+            "input_tokens_details": {
+              "cache_write_tokens": 2880,
+              "cached_tokens": 0
+            },
+            "output_tokens": 491,
+            "output_tokens_details": {
+              "reasoning_tokens": 290
+            },
+            "total_tokens": 3374
+          },
+          "elapsedMs": 15776
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0204c24e013e5985016ab41d8a98e887d2be794569faa14944",
+      "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+      "translation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+      "notes": "musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+      "usage": {
+        "input_tokens": 2883,
+        "input_tokens_details": {
+          "cache_write_tokens": 2880,
+          "cached_tokens": 0
+        },
+        "output_tokens": 491,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "total_tokens": 3374
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0015",
+      "sourceText": "“Hyde?” repeated Lanyon. “No. Never heard of him. Since my time.”",
+      "sourceHash": "dfb137013f33c8bdfc4a4f81ea7a6645c159aa85026420770a218e6a798f7dd3",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0ebe00e8b441a18c016ab41d9aa92487d28c4460fabacfe452",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e toki pi ona. lon tenpo mi.”\nNOTES: NONE",
+          "translation": "“jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e toki pi ona. lon tenpo mi.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2800,
+            "input_tokens_details": {
+              "cache_write_tokens": 2797,
+              "cached_tokens": 0
+            },
+            "output_tokens": 369,
+            "output_tokens_details": {
+              "reasoning_tokens": 326
+            },
+            "total_tokens": 3169
+          },
+          "elapsedMs": 9364
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ebe00e8b441a18c016ab41d9aa92487d28c4460fabacfe452",
+      "visibleOutput": "TRANSLATION: “jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e toki pi ona. lon tenpo mi.”\nNOTES: NONE",
+      "translation": "“jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e toki pi ona. lon tenpo mi.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2800,
+        "input_tokens_details": {
+          "cache_write_tokens": 2797,
+          "cached_tokens": 0
+        },
+        "output_tokens": 369,
+        "output_tokens_details": {
+          "reasoning_tokens": 326
+        },
+        "total_tokens": 3169
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0016",
+      "sourceText": "## B. Jekyll's letter and the missing messenger",
+      "sourceHash": "ed28c2a1457b2374118662be7265b8fe9d71859da73c7bdb75682db5bfca413c",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_02076d34851e6a5e016ab41da425a487d294c9f915889a5301",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: ## B. lipu pi jan Jekil en jan pana lipu pi ma sona ala\nNOTES: NONE",
+          "translation": "## B. lipu pi jan Jekil en jan pana lipu pi ma sona ala",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2791,
+            "input_tokens_details": {
+              "cache_write_tokens": 2788,
+              "cached_tokens": 0
+            },
+            "output_tokens": 174,
+            "output_tokens_details": {
+              "reasoning_tokens": 140
+            },
+            "total_tokens": 2965
+          },
+          "elapsedMs": 5973
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02076d34851e6a5e016ab41da425a487d294c9f915889a5301",
+      "visibleOutput": "TRANSLATION: ## B. lipu pi jan Jekil en jan pana lipu pi ma sona ala\nNOTES: NONE",
+      "translation": "## B. lipu pi jan Jekil en jan pana lipu pi ma sona ala",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2791,
+        "input_tokens_details": {
+          "cache_write_tokens": 2788,
+          "cached_tokens": 0
+        },
+        "output_tokens": 174,
+        "output_tokens_details": {
+          "reasoning_tokens": 140
+        },
+        "total_tokens": 2965
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0017",
+      "sourceText": "It was late in the afternoon, when Mr. Utterson found his way to Dr. Jekyll’s door, where he was at once admitted by Poole, and carried down by the kitchen offices and across a yard which had once been a garden, to the building which was indifferently known as the laboratory or the dissecting-rooms. The doctor had bought the house from the heirs of a celebrated surgeon; and his own tastes being rather chemical than anatomical, had changed the destination of the block at the bottom of the garden. It was the first time that the lawyer had been received in that part of his friend’s quarters; and he eyed the dingy, windowless structure with curiosity, and gazed round with a distasteful sense of strangeness as he crossed the theatre, once crowded with eager students and now lying gaunt and silent, the tables laden with chemical apparatus, the floor strewn with crates and littered with packing straw, and the light falling dimly through the foggy cupola.",
+      "sourceHash": "072da0e1e43e88d68ab1145659f79a81f9ddaaccac5ac40accfb607538f0b3bf",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0c90735c6df0fd0b016ab41daa2ac887d29f0c968fead2ff7f",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.\nNOTES: NONE",
+          "translation": "tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2989,
+            "input_tokens_details": {
+              "cache_write_tokens": 2986,
+              "cached_tokens": 0
+            },
+            "output_tokens": 710,
+            "output_tokens_details": {
+              "reasoning_tokens": 350
+            },
+            "total_tokens": 3699
+          },
+          "elapsedMs": 24382
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c90735c6df0fd0b016ab41daa2ac887d29f0c968fead2ff7f",
+      "visibleOutput": "TRANSLATION: tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.\nNOTES: NONE",
+      "translation": "tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2989,
+        "input_tokens_details": {
+          "cache_write_tokens": 2986,
+          "cached_tokens": 0
+        },
+        "output_tokens": 710,
+        "output_tokens_details": {
+          "reasoning_tokens": 350
+        },
+        "total_tokens": 3699
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0018",
+      "sourceText": "At the further end, a flight of stairs mounted to a door covered with red baize; and through this, Mr. Utterson was at last received into the doctor’s cabinet. It was a large room, fitted round with glass presses, furnished, among other things, with a cheval-glass and a business table, and looking out upon the court by three dusty windows barred with iron. A fire burned in the grate; a lamp was set lighted on the chimney shelf, for even in the houses the fog began to lie thickly; and there, close up to the warmth, sat Dr. Jekyll, looking deadly sick. He did not rise to meet his visitor, but held out a cold hand and bade him welcome in a changed voice.",
+      "sourceHash": "54bde74d6e3ba2d36a956b13e20bdca1f77a34af57a6d54add8a8e5b95b4065a",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_03612dd6f12e96bc016ab41dc2f59c87d282e42c3ef71d2886",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.\nNOTES: “red baize,” glass presses, and cheval-glass are rendered descriptively.",
+          "translation": "lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.",
+          "notes": "“red baize,” glass presses, and cheval-glass are rendered descriptively.",
+          "usage": {
+            "input_tokens": 2935,
+            "input_tokens_details": {
+              "cache_write_tokens": 2932,
+              "cached_tokens": 0
+            },
+            "output_tokens": 392,
+            "output_tokens_details": {
+              "reasoning_tokens": 122
+            },
+            "total_tokens": 3327
+          },
+          "elapsedMs": 10241
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03612dd6f12e96bc016ab41dc2f59c87d282e42c3ef71d2886",
+      "visibleOutput": "TRANSLATION: lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.\nNOTES: “red baize,” glass presses, and cheval-glass are rendered descriptively.",
+      "translation": "lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan Utason li kama lon lupa ni, li kama lon tomo insa pi jan Jekil pi sona sijelo. tomo ni li suli. poki tomo pi sinpin lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon insa. lupa lukin tu wan pi ko ma mute li lukin tawa ma insa. palisa kiwen li awen e lupa lukin ni. seli li lon poki seli. ilo suno li suno lon supa pi nasin kon seli, tan ni: kon pimeja walo li kama suli lon insa tomo kin. jan Jekil pi sona sijelo li awen lon poka seli. lukin la, sijelo ona li ike mute sama ni: ona li ken moli. ona li kama ala sewi tan supa tawa jan kama. taso ona li pana e luka ona pi lete sijelo, li toki kepeken kalama ante e ni: jan Utason o kama pona.",
+      "notes": "“red baize,” glass presses, and cheval-glass are rendered descriptively.",
+      "usage": {
+        "input_tokens": 2935,
+        "input_tokens_details": {
+          "cache_write_tokens": 2932,
+          "cached_tokens": 0
+        },
+        "output_tokens": 392,
+        "output_tokens_details": {
+          "reasoning_tokens": 122
+        },
+        "total_tokens": 3327
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0019",
+      "sourceText": "“And now,” said Mr. Utterson, as soon as Poole had left them, “you have heard the news?”",
+      "sourceHash": "e8c32c60b7a0228aad5f8048141f51d128afafb98c401b27222c3e0dd0ebc3dd",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0acb685253bce088016ab41dcd45c087d2a067595950ba1744",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”\nNOTES: NONE",
+          "translation": "“tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2797,
+            "input_tokens_details": {
+              "cache_write_tokens": 2794,
+              "cached_tokens": 0
+            },
+            "output_tokens": 46,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2843
+          },
+          "elapsedMs": 3167
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0acb685253bce088016ab41dcd45c087d2a067595950ba1744",
+      "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”\nNOTES: NONE",
+      "translation": "“tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2797,
+        "input_tokens_details": {
+          "cache_write_tokens": 2794,
+          "cached_tokens": 0
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2843
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0020",
+      "sourceText": "The doctor shuddered. “They were crying it in the square,” he said. “I heard them in my dining-room.”",
+      "sourceHash": "cba9f6a2528b6eb69e0b17f0199ca8e6d7c96e5ecdf7122d0607da6cac7597ae",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_053af317c424b1ef016ab41dd0957c87d28392cb94345441be",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”\nNOTES: NONE",
+          "translation": "jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2798,
+            "input_tokens_details": {
+              "cache_write_tokens": 2795,
+              "cached_tokens": 0
+            },
+            "output_tokens": 175,
+            "output_tokens_details": {
+              "reasoning_tokens": 115
+            },
+            "total_tokens": 2973
+          },
+          "elapsedMs": 5566
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_053af317c424b1ef016ab41dd0957c87d28392cb94345441be",
+      "visibleOutput": "TRANSLATION: jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”\nNOTES: NONE",
+      "translation": "jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 175,
+        "output_tokens_details": {
+          "reasoning_tokens": 115
+        },
+        "total_tokens": 2973
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0021",
+      "sourceText": "“One word,” said the lawyer. “Carew was my client, but so are you, and I want to know what I am doing. You have not been mad enough to hide this fellow?”",
+      "sourceHash": "3104cfa904a75ecbfbc66eacaae91df312ae6130b332797cdccd0f89bc02762e",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0124eb5357040303016ab41dd618b087d2a67afc1239dd4c45",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”\nNOTES: NONE",
+          "translation": "“toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2811,
+            "input_tokens_details": {
+              "cache_write_tokens": 2808,
+              "cached_tokens": 0
+            },
+            "output_tokens": 592,
+            "output_tokens_details": {
+              "reasoning_tokens": 516
+            },
+            "total_tokens": 3403
+          },
+          "elapsedMs": 18228
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0124eb5357040303016ab41dd618b087d2a67afc1239dd4c45",
+      "visibleOutput": "TRANSLATION: “toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”\nNOTES: NONE",
+      "translation": "“toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2811,
+        "input_tokens_details": {
+          "cache_write_tokens": 2808,
+          "cached_tokens": 0
+        },
+        "output_tokens": 592,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3403
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0022",
+      "sourceText": "“Utterson, I swear to God,” cried the doctor, “I swear to God I will never set eyes on him again. I bind my honour to you that I am done with him in this world. It is all at an end. And indeed he does not want my help; you do not know him as I do; he is safe, he is quite safe; mark my words, he will never more be heard of.”",
+      "sourceHash": "becbbc90e0f0b70316b4e05ae9dc3e625cb4f21e554dc22abb56139c339362cb",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_077ae060e7be4e44016ab41de8605487d2b55490e678281e8e",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”\nNOTES: NONE",
+          "translation": "jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2872,
+            "input_tokens_details": {
+              "cache_write_tokens": 2869,
+              "cached_tokens": 0
+            },
+            "output_tokens": 252,
+            "output_tokens_details": {
+              "reasoning_tokens": 115
+            },
+            "total_tokens": 3124
+          },
+          "elapsedMs": 14077
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_077ae060e7be4e44016ab41de8605487d2b55490e678281e8e",
+      "visibleOutput": "TRANSLATION: jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”\nNOTES: NONE",
+      "translation": "jan pi sona sijelo li kalama suli: “jan Utason o, mi toki lon sewi: mi lukin ala e jan Hata lon tenpo kama. mi pana e nimi pona mi tawa sina lon toki ni: lon ma ni, kulupu mi en ona li pini. ale li pini. kin la, ona li wile ala e pana pona mi. sina sona ala e ona sama mi. ona li awen pona; ona li awen pona mute. o awen sona e toki mi: tenpo kama la, jan ala li kute sin e ijo tan ona.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2872,
+        "input_tokens_details": {
+          "cache_write_tokens": 2869,
+          "cached_tokens": 0
+        },
+        "output_tokens": 252,
+        "output_tokens_details": {
+          "reasoning_tokens": 115
+        },
+        "total_tokens": 3124
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0023",
+      "sourceText": "The lawyer listened gloomily; he did not like his friend’s feverish manner. “You seem pretty sure of him,” said he; “and for your sake, I hope you may be right. If it came to a trial, your name might appear.”",
+      "sourceHash": "21295fa558d4f0b5f1fb27313715d4bf24e0d23837945332776fd3940608c640",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_02c8e32673c45258016ab41df690c087d28f60a701cd91fddc",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”\nNOTES: NONE",
+          "translation": "jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2824,
+            "input_tokens_details": {
+              "cache_write_tokens": 2821,
+              "cached_tokens": 0
+            },
+            "output_tokens": 355,
+            "output_tokens_details": {
+              "reasoning_tokens": 247
+            },
+            "total_tokens": 3179
+          },
+          "elapsedMs": 7348
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02c8e32673c45258016ab41df690c087d28f60a701cd91fddc",
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”\nNOTES: NONE",
+      "translation": "jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 355,
+        "output_tokens_details": {
+          "reasoning_tokens": 247
+        },
+        "total_tokens": 3179
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0024",
+      "sourceText": "“I am quite sure of him,” replied Jekyll; “I have grounds for certainty that I cannot share with any one. But there is one thing on which you may advise me. I have—I have received a letter; and I am at a loss whether I should show it to the police. I should like to leave it in your hands, Utterson; you would judge wisely, I am sure; I have so great a trust in you.”",
+      "sourceHash": "8784e8bad5e0c31f0faa255183f15129d1a229aed1f15ba3a32673c53559c748",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_05b511642ca81beb016ab41dfddff487d294d393168e2eb39c",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”\nNOTES: “sure of him” remains deliberately vague; the letter’s source is not specified.",
+          "translation": "jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”",
+          "notes": "“sure of him” remains deliberately vague; the letter’s source is not specified.",
+          "usage": {
+            "input_tokens": 2875,
+            "input_tokens_details": {
+              "cache_write_tokens": 2872,
+              "cached_tokens": 0
+            },
+            "output_tokens": 334,
+            "output_tokens_details": {
+              "reasoning_tokens": 157
+            },
+            "total_tokens": 3209
+          },
+          "elapsedMs": 13257
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05b511642ca81beb016ab41dfddff487d294d393168e2eb39c",
+      "visibleOutput": "TRANSLATION: jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”\nNOTES: “sure of him” remains deliberately vague; the letter’s source is not specified.",
+      "translation": "jan Jekil li toki e ni: “mi sona pona e ona, li wawa lon sona ni. mi jo e nasin pi sona wawa ni, taso mi ken ala pana e nasin ni tawa jan ante. taso sina ken pana e sona pona tawa mi lon ijo wan. mi—mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa anu seme? jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona e ni: sina ken ante e ni kepeken sona pona. mi pilin wawa e ni: sina ken pona.”",
+      "notes": "“sure of him” remains deliberately vague; the letter’s source is not specified.",
+      "usage": {
+        "input_tokens": 2875,
+        "input_tokens_details": {
+          "cache_write_tokens": 2872,
+          "cached_tokens": 0
+        },
+        "output_tokens": 334,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 3209
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0025",
+      "sourceText": "“You fear, I suppose, that it might lead to his detection?” asked the lawyer.",
+      "sourceHash": "2e592664b7ace3450ebab55ec8643fe31b2932dd60ac5c65a2f0fa38310a3774",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0bc2f57f8a38ab23016ab41e0b3c0c87d286ec84759014f1f0",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”\nNOTES: NONE",
+          "translation": "jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2789,
+            "input_tokens_details": {
+              "cache_write_tokens": 2786,
+              "cached_tokens": 0
+            },
+            "output_tokens": 54,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2843
+          },
+          "elapsedMs": 4585
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bc2f57f8a38ab23016ab41e0b3c0c87d286ec84759014f1f0",
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”\nNOTES: NONE",
+      "translation": "jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2789,
+        "input_tokens_details": {
+          "cache_write_tokens": 2786,
+          "cached_tokens": 0
+        },
+        "output_tokens": 54,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2843
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0026",
+      "sourceText": "“No,” said the other. “I cannot say that I care what becomes of Hyde; I am quite done with him. I was thinking of my own character, which this hateful business has rather exposed.”",
+      "sourceHash": "814bfdf63ba45a313788830aeddedb89cfc05333ccad4d479bc23fcf677ee03a",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0680abd7b621bfc6016ab41e0feb6c87d2837a1e53fcbbe66e",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”\nNOTES: “character” rendered as public reputation.",
+          "translation": "“Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”",
+          "notes": "“character” rendered as public reputation.",
+          "usage": {
+            "input_tokens": 2823,
+            "input_tokens_details": {
+              "cache_write_tokens": 2820,
+              "cached_tokens": 0
+            },
+            "output_tokens": 258,
+            "output_tokens_details": {
+              "reasoning_tokens": 174
+            },
+            "total_tokens": 3081
+          },
+          "elapsedMs": 7361
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0680abd7b621bfc6016ab41e0feb6c87d2837a1e53fcbbe66e",
+      "visibleOutput": "TRANSLATION: “Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”\nNOTES: “character” rendered as public reputation.",
+      "translation": "“Ala,” jan ante li toki. “Mi ken ala toki e ni: kama pi jan Hata li suli tawa mi. Mi pini ale e kulupu mi en ona. Mi toki insa e nimi pona mi. Pali ike ni li pana e ona tawa lukin pi jan mute.”",
+      "notes": "“character” rendered as public reputation.",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cache_write_tokens": 2820,
+          "cached_tokens": 0
+        },
+        "output_tokens": 258,
+        "output_tokens_details": {
+          "reasoning_tokens": 174
+        },
+        "total_tokens": 3081
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0027",
+      "sourceText": "Utterson ruminated a while; he was surprised at his friend’s selfishness, and yet relieved by it. “Well,” said he, at last, “let me see the letter.”",
+      "sourceHash": "6b85987c0154fd6025d1696fe80d8897d9f5a1bb00f7e189bd3ae4ca76a12a18",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_04976fa9a98a3ce4016ab41e174b1887d2851955818bc38117",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”\nNOTES: NONE",
+          "translation": "jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2821,
+            "input_tokens_details": {
+              "cache_write_tokens": 2818,
+              "cached_tokens": 0
+            },
+            "output_tokens": 210,
+            "output_tokens_details": {
+              "reasoning_tokens": 111
+            },
+            "total_tokens": 3031
+          },
+          "elapsedMs": 7189
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04976fa9a98a3ce4016ab41e174b1887d2851955818bc38117",
+      "visibleOutput": "TRANSLATION: jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”\nNOTES: NONE",
+      "translation": "jan Utason li toki insa lon tenpo lili. ona li kama sona e ni la, ona li pilin nasa: jan pona ona li lukin taso e ona sama. taso ni li weka e pilin ike tan jan Utason. tenpo pini la, ona li toki e ni: “pona. o pana e lipu tawa mi. mi wile lukin e ona.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 210,
+        "output_tokens_details": {
+          "reasoning_tokens": 111
+        },
+        "total_tokens": 3031
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0028",
+      "sourceText": "The letter was written in an odd, upright hand and signed “Edward Hyde”: and it signified, briefly enough, that the writer’s benefactor, Dr. Jekyll, whom he had long so unworthily repaid for a thousand generosities, need labour under no alarm for his safety, as he had means of escape on which he placed a sure dependence. The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions.",
+      "sourceHash": "57daaa930f1bd7b548bc56330291fb330306bde28df1922505c3266478f48275",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_062b1186f3010d83016ab41e1e7e5887d2bfe52756e922e5c0",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: “Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+          "translation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+          "notes": "“Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+          "usage": {
+            "input_tokens": 2889,
+            "input_tokens_details": {
+              "cache_write_tokens": 2886,
+              "cached_tokens": 0
+            },
+            "output_tokens": 749,
+            "output_tokens_details": {
+              "reasoning_tokens": 516
+            },
+            "total_tokens": 3638
+          },
+          "elapsedMs": 23464
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_062b1186f3010d83016ab41e1e7e5887d2bfe52756e922e5c0",
+      "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: “Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+      "translation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+      "notes": "“Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+      "usage": {
+        "input_tokens": 2889,
+        "input_tokens_details": {
+          "cache_write_tokens": 2886,
+          "cached_tokens": 0
+        },
+        "output_tokens": 749,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3638
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0029",
+      "sourceText": "“Have you the envelope?” he asked.",
+      "sourceHash": "dc112373f53ac396e016ab5265e6dba58b2fe35592453d4a07ff95784ddd046c",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_07442033161ea8b6016ab41e38b8f087d29f508742df9d6e51",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: ona li wile sona e ni: “sina jo ala jo e poki lipu?”\nNOTES: NONE",
+          "translation": "ona li wile sona e ni: “sina jo ala jo e poki lipu?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2780,
+            "input_tokens_details": {
+              "cache_write_tokens": 2777,
+              "cached_tokens": 0
+            },
+            "output_tokens": 32,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2812
+          },
+          "elapsedMs": 2559
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_07442033161ea8b6016ab41e38b8f087d29f508742df9d6e51",
+      "visibleOutput": "TRANSLATION: ona li wile sona e ni: “sina jo ala jo e poki lipu?”\nNOTES: NONE",
+      "translation": "ona li wile sona e ni: “sina jo ala jo e poki lipu?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2780,
+        "input_tokens_details": {
+          "cache_write_tokens": 2777,
+          "cached_tokens": 0
+        },
+        "output_tokens": 32,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2812
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0030",
+      "sourceText": "“I burned it,” replied Jekyll, “before I thought what I was about. But it bore no postmark. The note was handed in.”",
+      "sourceHash": "df1f87ba9d15ab2c65540015fdd67bb5b3930ab32cb45bdac09d47cc020673cf",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_070bbd6f513eb20f016ab41e3b655487d285af88fbed9a8303",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”\nNOTES: NONE",
+          "translation": "jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2813,
+            "input_tokens_details": {
+              "cache_write_tokens": 2810,
+              "cached_tokens": 0
+            },
+            "output_tokens": 469,
+            "output_tokens_details": {
+              "reasoning_tokens": 396
+            },
+            "total_tokens": 3282
+          },
+          "elapsedMs": 13117
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_070bbd6f513eb20f016ab41e3b655487d285af88fbed9a8303",
+      "visibleOutput": "TRANSLATION: jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”\nNOTES: NONE",
+      "translation": "jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 2810,
+          "cached_tokens": 0
+        },
+        "output_tokens": 469,
+        "output_tokens_details": {
+          "reasoning_tokens": 396
+        },
+        "total_tokens": 3282
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0031",
+      "sourceText": "“Shall I keep this and sleep upon it?” asked Utterson.",
+      "sourceHash": "a9fea0aa266fc4864f0384a673e581bf956dc45411d954164a2b3bf409d3c236",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_057612c6b4aa380d016ab41e48a94887d28d4d6aa2e929fa35",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”\nNOTES: NONE",
+          "translation": "jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2787,
+            "input_tokens_details": {
+              "cache_write_tokens": 2784,
+              "cached_tokens": 0
+            },
+            "output_tokens": 49,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2836
+          },
+          "elapsedMs": 3331
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_057612c6b4aa380d016ab41e48a94887d28d4d6aa2e929fa35",
+      "visibleOutput": "TRANSLATION: jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”\nNOTES: NONE",
+      "translation": "jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2787,
+        "input_tokens_details": {
+          "cache_write_tokens": 2784,
+          "cached_tokens": 0
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2836
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0032",
+      "sourceText": "“I wish you to judge for me entirely,” was the reply. “I have lost confidence in myself.”",
+      "sourceHash": "1ba606ba76e3920f51a907017734091eadde335d998b694fe94c1fc4d223b7a3",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0bae7957cdfc992e016ab41e4c0b2087d292720e726eab34b6",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”\nNOTES: NONE",
+          "translation": "“mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2792,
+            "input_tokens_details": {
+              "cache_write_tokens": 2789,
+              "cached_tokens": 0
+            },
+            "output_tokens": 169,
+            "output_tokens_details": {
+              "reasoning_tokens": 109
+            },
+            "total_tokens": 2961
+          },
+          "elapsedMs": 6611
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bae7957cdfc992e016ab41e4c0b2087d292720e726eab34b6",
+      "visibleOutput": "TRANSLATION: “mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”\nNOTES: NONE",
+      "translation": "“mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2792,
+        "input_tokens_details": {
+          "cache_write_tokens": 2789,
+          "cached_tokens": 0
+        },
+        "output_tokens": 169,
+        "output_tokens_details": {
+          "reasoning_tokens": 109
+        },
+        "total_tokens": 2961
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0033",
+      "sourceText": "## C. Poole asks for help",
+      "sourceHash": "0e92a9e3fd24e98dbd8ff78f1d09fd9429589182e362c021836841d4713bdcc4",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0793676a6a9ded05016ab41e52a36487d292a6548e08732224",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: ## C. jan Pulu li wile e pona tan jan ante\nNOTES: NONE",
+          "translation": "## C. jan Pulu li wile e pona tan jan ante",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2776,
+            "input_tokens_details": {
+              "cache_write_tokens": 2773,
+              "cached_tokens": 0
+            },
+            "output_tokens": 27,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2803
+          },
+          "elapsedMs": 2794
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0793676a6a9ded05016ab41e52a36487d292a6548e08732224",
+      "visibleOutput": "TRANSLATION: ## C. jan Pulu li wile e pona tan jan ante\nNOTES: NONE",
+      "translation": "## C. jan Pulu li wile e pona tan jan ante",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2776,
+        "input_tokens_details": {
+          "cache_write_tokens": 2773,
+          "cached_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2803
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0034",
+      "sourceText": "Mr. Utterson was sitting by his fireside one evening after dinner, when he was surprised to receive a visit from Poole.",
+      "sourceHash": "211ee9d2e4b715a67ed0dbfd42bb8dacbdcb8f2b033369ee0fcce1106cd6e78e",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0f79dc0ea765bd14016ab41e55a34887d2a4bd03639ab766e6",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.\nNOTES: NONE",
+          "translation": "lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2797,
+            "input_tokens_details": {
+              "cache_write_tokens": 2794,
+              "cached_tokens": 0
+            },
+            "output_tokens": 162,
+            "output_tokens_details": {
+              "reasoning_tokens": 103
+            },
+            "total_tokens": 2959
+          },
+          "elapsedMs": 4362
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f79dc0ea765bd14016ab41e55a34887d2a4bd03639ab766e6",
+      "visibleOutput": "TRANSLATION: lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.\nNOTES: NONE",
+      "translation": "lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2797,
+        "input_tokens_details": {
+          "cache_write_tokens": 2794,
+          "cached_tokens": 0
+        },
+        "output_tokens": 162,
+        "output_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "total_tokens": 2959
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0035",
+      "sourceText": "“Bless me, Poole, what brings you here?” he cried; and then taking a second look at him, “What ails you?” he added; “is the doctor ill?”",
+      "sourceHash": "54cabdce79c63885ece7b4f28dd54fa2e9f3f3dab2ec4ec58f6141a58f91aabf",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_09902adbaa3f5b9c016ab41e5a025c87d28f307eaabd44ef37",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”\nNOTES: NONE",
+          "translation": "“a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2810,
+            "input_tokens_details": {
+              "cache_write_tokens": 2807,
+              "cached_tokens": 0
+            },
+            "output_tokens": 185,
+            "output_tokens_details": {
+              "reasoning_tokens": 108
+            },
+            "total_tokens": 2995
+          },
+          "elapsedMs": 6292
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09902adbaa3f5b9c016ab41e5a025c87d28f307eaabd44ef37",
+      "visibleOutput": "TRANSLATION: “a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”\nNOTES: NONE",
+      "translation": "“a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 185,
+        "output_tokens_details": {
+          "reasoning_tokens": 108
+        },
+        "total_tokens": 2995
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0036",
+      "sourceText": "“Mr. Utterson,” said the man, “there is something wrong.”",
+      "sourceHash": "fa41f952a6690b4fdcf8c2584dcec4e0cc13f5bc153d8c835122635daa16f33e",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0a6fa9d168cfe7ff016ab41e605b2487d2a68ef054766f4d2d",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan ni li toki e ni: “jan Utason o, ijo li pona ala.”\nNOTES: NONE",
+          "translation": "jan ni li toki e ni: “jan Utason o, ijo li pona ala.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2788,
+            "input_tokens_details": {
+              "cache_write_tokens": 2785,
+              "cached_tokens": 0
+            },
+            "output_tokens": 31,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2819
+          },
+          "elapsedMs": 2038
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a6fa9d168cfe7ff016ab41e605b2487d2a68ef054766f4d2d",
+      "visibleOutput": "TRANSLATION: jan ni li toki e ni: “jan Utason o, ijo li pona ala.”\nNOTES: NONE",
+      "translation": "jan ni li toki e ni: “jan Utason o, ijo li pona ala.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2788,
+        "input_tokens_details": {
+          "cache_write_tokens": 2785,
+          "cached_tokens": 0
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2819
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0037",
+      "sourceText": "“Take a seat, and here is a glass of wine for you,” said the lawyer. “Now, take your time, and tell me plainly what you want.”",
+      "sourceHash": "0c72152817a6519b485cb9012092ddac535dbb0413442f848f15faddbdfc96a3",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_07a34dc6a22fff81016ab41e62709c87d289b4d7b7d78e72d1",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”\nNOTES: NONE",
+          "translation": "jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2805,
+            "input_tokens_details": {
+              "cache_write_tokens": 2802,
+              "cached_tokens": 0
+            },
+            "output_tokens": 161,
+            "output_tokens_details": {
+              "reasoning_tokens": 99
+            },
+            "total_tokens": 2966
+          },
+          "elapsedMs": 5072
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_07a34dc6a22fff81016ab41e62709c87d289b4d7b7d78e72d1",
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”\nNOTES: NONE",
+      "translation": "jan pi sona lawa li toki e ni: “o awen lon supa monsi. poki pi telo nasa ni li tawa sina. tenpo li lon; o toki pona e ni: sina wile e seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 161,
+        "output_tokens_details": {
+          "reasoning_tokens": 99
+        },
+        "total_tokens": 2966
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0038",
+      "sourceText": "“You know the doctor’s ways, sir,” replied Poole, “and how he shuts himself up. Well, he’s shut up again in the cabinet; and I don’t like it, sir—I wish I may die if I like it. Mr. Utterson, sir, I’m afraid.”",
+      "sourceHash": "fc20005a352efaf9ae741997cf78e8f21c739ec3384f0da06120d1d034b6d919",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0741cb098b394baf016ab41e67cbcc87d2a928b36f43830f10",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—mi pilin pona ala a. jan Utason o, mi pilin monsuta,” jan Pulu li toki.\nNOTES: NONE",
+          "translation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—mi pilin pona ala a. jan Utason o, mi pilin monsuta,” jan Pulu li toki.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2833,
+            "input_tokens_details": {
+              "cache_write_tokens": 2830,
+              "cached_tokens": 0
+            },
+            "output_tokens": 554,
+            "output_tokens_details": {
+              "reasoning_tokens": 448
+            },
+            "total_tokens": 3387
+          },
+          "elapsedMs": 16348
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0741cb098b394baf016ab41e67cbcc87d2a928b36f43830f10",
+      "visibleOutput": "TRANSLATION: “jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—mi pilin pona ala a. jan Utason o, mi pilin monsuta,” jan Pulu li toki.\nNOTES: NONE",
+      "translation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—mi pilin pona ala a. jan Utason o, mi pilin monsuta,” jan Pulu li toki.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 554,
+        "output_tokens_details": {
+          "reasoning_tokens": 448
+        },
+        "total_tokens": 3387
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0039",
+      "sourceText": "“Now, my good man,” said the lawyer, “be explicit. What are you afraid of?”",
+      "sourceHash": "59ad3b8c3c3d3b4e836269aadb1518cad079b563bee77e9dad9f1daf08a871cc",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_022610ea49fcf6c2016ab41e783ae887d29197943e232abbe9",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”\nNOTES: NONE",
+          "translation": "jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2792,
+            "input_tokens_details": {
+              "cache_write_tokens": 2789,
+              "cached_tokens": 0
+            },
+            "output_tokens": 41,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 2833
+          },
+          "elapsedMs": 2779
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_022610ea49fcf6c2016ab41e783ae887d29197943e232abbe9",
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”\nNOTES: NONE",
+      "translation": "jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2792,
+        "input_tokens_details": {
+          "cache_write_tokens": 2789,
+          "cached_tokens": 0
+        },
+        "output_tokens": 41,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2833
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0040",
+      "sourceText": "“I’ve been afraid for about a week,” returned Poole, doggedly disregarding the question, “and I can bear it no more.”",
+      "sourceHash": "d77bf9c65653edc677ce2a62a4bb888f743713593ca3e7d7cb9f07c7ba71697f",
+      "provider": "OpenAI Responses API",
+      "model": "gpt-5.6-sol",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_04ed435740cdd429016ab41e7afa5c87d2ae5e820f519c1759",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”\nNOTES: NONE",
+          "translation": "“tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2799,
+            "input_tokens_details": {
+              "cache_write_tokens": 2796,
+              "cached_tokens": 0
+            },
+            "output_tokens": 338,
+            "output_tokens_details": {
+              "reasoning_tokens": 276
+            },
+            "total_tokens": 3137
+          },
+          "elapsedMs": 11331
+        }
+      ],
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04ed435740cdd429016ab41e7afa5c87d2ae5e820f519c1759",
+      "visibleOutput": "TRANSLATION: “tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”\nNOTES: NONE",
+      "translation": "“tenpo poka pi suno luka tu la, mi pilin monsuta,” jan Pulu li toki sin. ona li awen pana ala e toki tawa wile sona ni. “mi ken ala awen e ni.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2799,
+        "input_tokens_details": {
+          "cache_write_tokens": 2796,
+          "cached_tokens": 0
+        },
+        "output_tokens": 338,
+        "output_tokens_details": {
+          "reasoning_tokens": 276
+        },
+        "total_tokens": 3137
+      },
+      "success": true
+    }
+  ],
+  "failures": []
+}

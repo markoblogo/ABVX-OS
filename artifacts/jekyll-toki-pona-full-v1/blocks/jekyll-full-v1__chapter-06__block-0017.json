@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0017",
+  "sourceHash": "b04877fa55eace118fd94b8a8775908f359b0892e45c546506c494a5acc44ecd",
+  "source": "I have brought on myself a punishment and a danger that I cannot name. If I am the chief of sinners, I am the chief of sufferers also.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08460a4a3fa042a5016ab42de7456087d29edb22903e902d75",
+      "visibleOutput": "TRANSLATION: mi pana tawa mi e ike tan pali mi, e ken pi kama ike. mi ken ala nimi e ona. mi jan pali ike nanpa wan la, mi jan pi pilin ike nanpa wan kin.\n\nNOTES: NONE",
+      "translation": "mi pana tawa mi e ike tan pali mi, e ken pi kama ike. mi ken ala nimi e ona. mi jan pali ike nanpa wan la, mi jan pi pilin ike nanpa wan kin.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2772,
+        "input_tokens_details": {
+          "cache_write_tokens": 2769,
+          "cached_tokens": 0
+        },
+        "output_tokens": 211,
+        "output_tokens_details": {
+          "reasoning_tokens": 153
+        },
+        "total_tokens": 2983
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08460a4a3fa042a5016ab42de7456087d29edb22903e902d75",
+  "visibleOutput": "TRANSLATION: mi pana tawa mi e ike tan pali mi, e ken pi kama ike. mi ken ala nimi e ona. mi jan pali ike nanpa wan la, mi jan pi pilin ike nanpa wan kin.\n\nNOTES: NONE",
+  "translation": "mi pana tawa mi e ike tan pali mi, e ken pi kama ike. mi ken ala nimi e ona. mi jan pali ike nanpa wan la, mi jan pi pilin ike nanpa wan kin.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2772,
+    "input_tokens_details": {
+      "cache_write_tokens": 2769,
+      "cached_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "reasoning_tokens": 153
+    },
+    "total_tokens": 2983
+  },
+  "success": true
+}

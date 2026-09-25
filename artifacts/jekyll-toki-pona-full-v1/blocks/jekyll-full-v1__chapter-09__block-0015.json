@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0015",
+  "sourceHash": "8eb04dce00f51835b15e072cedcd7da0950df7397b32737c9d93f9a76763542e",
+  "source": "The butler was awaiting my arrival; he had received by the same post as mine a registered letter of instruction, and had sent at once for a locksmith and a carpenter. The tradesmen came while we were yet speaking; and we moved in a body to old Dr. Denman’s surgical theatre, from which (as you are doubtless aware) Jekyll’s private cabinet is most conveniently entered.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08cb0ee7f90ce613016ab43437a65887d29bd122a1ce18f816",
+      "visibleOutput": "TRANSLATION: jan Pulu li awen tawa kama mi. ona li kama jo, kepeken nasin pana lipu sama pi lipu mi, e lipu lawa pi pali; jan pana lipu li pana pona e ona. ona li toki tawa jan pali pi ilo open en jan pali pi tomo lon tenpo ala. mi mute li awen toki la, jan pali tu li kama. taso mi mute li tawa kulupu wan lon tomo pi pali sijelo pi jan Tenman pi sona sijelo pi tenpo pini. sina sona pona ala sona e ni: nasin pona nanpa wan pi kama lon tomo insa pi jan Jekil li tan tomo ni.\nNOTES: “Registered letter” is compressed to a letter reliably delivered by the postal carrier; the parenthetical remains Lanyon’s claim about the addressee’s knowledge.",
+      "translation": "jan Pulu li awen tawa kama mi. ona li kama jo, kepeken nasin pana lipu sama pi lipu mi, e lipu lawa pi pali; jan pana lipu li pana pona e ona. ona li toki tawa jan pali pi ilo open en jan pali pi tomo lon tenpo ala. mi mute li awen toki la, jan pali tu li kama. taso mi mute li tawa kulupu wan lon tomo pi pali sijelo pi jan Tenman pi sona sijelo pi tenpo pini. sina sona pona ala sona e ni: nasin pona nanpa wan pi kama lon tomo insa pi jan Jekil li tan tomo ni.",
+      "notes": "“Registered letter” is compressed to a letter reliably delivered by the postal carrier; the parenthetical remains Lanyon’s claim about the addressee’s knowledge.",
+      "usage": {
+        "input_tokens": 2831,
+        "input_tokens_details": {
+          "cache_write_tokens": 2828,
+          "cached_tokens": 0
+        },
+        "output_tokens": 261,
+        "output_tokens_details": {
+          "reasoning_tokens": 76
+        },
+        "total_tokens": 3092
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08cb0ee7f90ce613016ab43437a65887d29bd122a1ce18f816",
+  "visibleOutput": "TRANSLATION: jan Pulu li awen tawa kama mi. ona li kama jo, kepeken nasin pana lipu sama pi lipu mi, e lipu lawa pi pali; jan pana lipu li pana pona e ona. ona li toki tawa jan pali pi ilo open en jan pali pi tomo lon tenpo ala. mi mute li awen toki la, jan pali tu li kama. taso mi mute li tawa kulupu wan lon tomo pi pali sijelo pi jan Tenman pi sona sijelo pi tenpo pini. sina sona pona ala sona e ni: nasin pona nanpa wan pi kama lon tomo insa pi jan Jekil li tan tomo ni.\nNOTES: “Registered letter” is compressed to a letter reliably delivered by the postal carrier; the parenthetical remains Lanyon’s claim about the addressee’s knowledge.",
+  "translation": "jan Pulu li awen tawa kama mi. ona li kama jo, kepeken nasin pana lipu sama pi lipu mi, e lipu lawa pi pali; jan pana lipu li pana pona e ona. ona li toki tawa jan pali pi ilo open en jan pali pi tomo lon tenpo ala. mi mute li awen toki la, jan pali tu li kama. taso mi mute li tawa kulupu wan lon tomo pi pali sijelo pi jan Tenman pi sona sijelo pi tenpo pini. sina sona pona ala sona e ni: nasin pona nanpa wan pi kama lon tomo insa pi jan Jekil li tan tomo ni.",
+  "notes": "“Registered letter” is compressed to a letter reliably delivered by the postal carrier; the parenthetical remains Lanyon’s claim about the addressee’s knowledge.",
+  "usage": {
+    "input_tokens": 2831,
+    "input_tokens_details": {
+      "cache_write_tokens": 2828,
+      "cached_tokens": 0
+    },
+    "output_tokens": 261,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 3092
+  },
+  "success": true
+}

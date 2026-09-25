@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0030",
+  "sourceHash": "809b26bd9a448be88e0af8141b5e80e722dabbd47689012975ff43103bea8e5f",
+  "source": "And yet when I looked upon that ugly idol in the glass, I was conscious of no repugnance, rather of a leap of welcome. This, too, was myself. It seemed natural and human. In my eyes it bore a livelier image of the spirit, it seemed more express and single, than the imperfect and divided countenance I had been hitherto accustomed to call mine.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

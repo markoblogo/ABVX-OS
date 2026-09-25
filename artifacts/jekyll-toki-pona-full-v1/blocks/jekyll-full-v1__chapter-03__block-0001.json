@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0001",
+  "sourceHash": "8c0862fc41accdb0b1940edb7bd6b64bc4df66e8a045dabfecc6a06f0197ddbe",
+  "source": "A fortnight later, by excellent good fortune, the doctor gave one of his pleasant dinners to some five or six old cronies, all intelligent, reputable men and all judges of good wine; and Mr. Utterson so contrived that he remained behind after the others had departed. This was no new arrangement, but a thing that had befallen many scores of times. Where Utterson was liked, he was liked well.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00e9289ea6a65213016ab42909b26487d2938f8e8e3fff7975",
+      "visibleOutput": "TRANSLATION: tenpo suno luka luka tu tu li pini la, tan kama pona suli a, jan Jekil pi sona sijelo li pana e moku pona pi tenpo pimeja tawa jan pona ona pi tenpo pini luka anu luka wan. ona ale li sona mute, li jo e nimi pona lon jan mute, li sona pona e telo nasa pona. jan Utason li pali e nasin ni: jan ante ale li weka la, ona li awen. nasin ni li sin ala; ni li kama lon tenpo mute mute. jan li olin pona e jan Utason la, jan ni li olin mute e ona.\nNOTES: NONE",
+      "translation": "tenpo suno luka luka tu tu li pini la, tan kama pona suli a, jan Jekil pi sona sijelo li pana e moku pona pi tenpo pimeja tawa jan pona ona pi tenpo pini luka anu luka wan. ona ale li sona mute, li jo e nimi pona lon jan mute, li sona pona e telo nasa pona. jan Utason li pali e nasin ni: jan ante ale li weka la, ona li awen. nasin ni li sin ala; ni li kama lon tenpo mute mute. jan li olin pona e jan Utason la, jan ni li olin mute e ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 474,
+        "output_tokens_details": {
+          "reasoning_tokens": 328
+        },
+        "total_tokens": 3304
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00e9289ea6a65213016ab42909b26487d2938f8e8e3fff7975",
+  "visibleOutput": "TRANSLATION: tenpo suno luka luka tu tu li pini la, tan kama pona suli a, jan Jekil pi sona sijelo li pana e moku pona pi tenpo pimeja tawa jan pona ona pi tenpo pini luka anu luka wan. ona ale li sona mute, li jo e nimi pona lon jan mute, li sona pona e telo nasa pona. jan Utason li pali e nasin ni: jan ante ale li weka la, ona li awen. nasin ni li sin ala; ni li kama lon tenpo mute mute. jan li olin pona e jan Utason la, jan ni li olin mute e ona.\nNOTES: NONE",
+  "translation": "tenpo suno luka luka tu tu li pini la, tan kama pona suli a, jan Jekil pi sona sijelo li pana e moku pona pi tenpo pimeja tawa jan pona ona pi tenpo pini luka anu luka wan. ona ale li sona mute, li jo e nimi pona lon jan mute, li sona pona e telo nasa pona. jan Utason li pali e nasin ni: jan ante ale li weka la, ona li awen. nasin ni li sin ala; ni li kama lon tenpo mute mute. jan li olin pona e jan Utason la, jan ni li olin mute e ona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 474,
+    "output_tokens_details": {
+      "reasoning_tokens": 328
+    },
+    "total_tokens": 3304
+  },
+  "success": true
+}

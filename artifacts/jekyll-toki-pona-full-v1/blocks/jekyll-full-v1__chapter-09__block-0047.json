@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0047",
+  "sourceHash": "41267717c6403b421f57736339ab64445d2472142381e3a5c19db493b8102754",
+  "source": "A cry followed; he reeled, staggered, clutched at the table and held on, staring with injected eyes, gasping with open mouth; and as I looked there came, I thought, a change—he seemed to swell— his face became suddenly black and the features seemed to melt and alter—and the next moment, I had sprung to my feet and leaped back against the wall, my arm raised to shield me from that prodigy, my mind submerged in terror.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00e28d1356351fd6016ab435e2e8c087d2bdb2a7db526b49b1",
+      "visibleOutput": "TRANSLATION: kalama uta suli li kama. ona li tawa pakala, li kama anpa. ona li luka e supa, li awen kepeken ona. oko ona li loje, li lukin suli. uta ona li open, la ona li alasa pi kon insa. tenpo mi lukin la, mi pilin e ni: ante li kama. lukin la, sijelo ona li kama suli. sinpin ona li kama pimeja lon tenpo lili. ijo pi sinpin ona li sama telo, li ante. lon tenpo kama lili la, mi kama sewi lon noka, li tawa monsi wawa tawa sinpin tomo. mi sewi e luka mi, li alasa awen e mi tan ijo nasa suli ni. pilin monsuta li pini e sona mi.\nNOTES: “mi pilin e ni” preserves Lanyon’s uncertainty about the change; “lukin la” preserves the apparent swelling and alteration.",
+      "translation": "kalama uta suli li kama. ona li tawa pakala, li kama anpa. ona li luka e supa, li awen kepeken ona. oko ona li loje, li lukin suli. uta ona li open, la ona li alasa pi kon insa. tenpo mi lukin la, mi pilin e ni: ante li kama. lukin la, sijelo ona li kama suli. sinpin ona li kama pimeja lon tenpo lili. ijo pi sinpin ona li sama telo, li ante. lon tenpo kama lili la, mi kama sewi lon noka, li tawa monsi wawa tawa sinpin tomo. mi sewi e luka mi, li alasa awen e mi tan ijo nasa suli ni. pilin monsuta li pini e sona mi.",
+      "notes": "“mi pilin e ni” preserves Lanyon’s uncertainty about the change; “lukin la” preserves the apparent swelling and alteration.",
+      "usage": {
+        "input_tokens": 2839,
+        "input_tokens_details": {
+          "cache_write_tokens": 2836,
+          "cached_tokens": 0
+        },
+        "output_tokens": 461,
+        "output_tokens_details": {
+          "reasoning_tokens": 245
+        },
+        "total_tokens": 3300
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00e28d1356351fd6016ab435e2e8c087d2bdb2a7db526b49b1",
+  "visibleOutput": "TRANSLATION: kalama uta suli li kama. ona li tawa pakala, li kama anpa. ona li luka e supa, li awen kepeken ona. oko ona li loje, li lukin suli. uta ona li open, la ona li alasa pi kon insa. tenpo mi lukin la, mi pilin e ni: ante li kama. lukin la, sijelo ona li kama suli. sinpin ona li kama pimeja lon tenpo lili. ijo pi sinpin ona li sama telo, li ante. lon tenpo kama lili la, mi kama sewi lon noka, li tawa monsi wawa tawa sinpin tomo. mi sewi e luka mi, li alasa awen e mi tan ijo nasa suli ni. pilin monsuta li pini e sona mi.\nNOTES: “mi pilin e ni” preserves Lanyon’s uncertainty about the change; “lukin la” preserves the apparent swelling and alteration.",
+  "translation": "kalama uta suli li kama. ona li tawa pakala, li kama anpa. ona li luka e supa, li awen kepeken ona. oko ona li loje, li lukin suli. uta ona li open, la ona li alasa pi kon insa. tenpo mi lukin la, mi pilin e ni: ante li kama. lukin la, sijelo ona li kama suli. sinpin ona li kama pimeja lon tenpo lili. ijo pi sinpin ona li sama telo, li ante. lon tenpo kama lili la, mi kama sewi lon noka, li tawa monsi wawa tawa sinpin tomo. mi sewi e luka mi, li alasa awen e mi tan ijo nasa suli ni. pilin monsuta li pini e sona mi.",
+  "notes": "“mi pilin e ni” preserves Lanyon’s uncertainty about the change; “lukin la” preserves the apparent swelling and alteration.",
+  "usage": {
+    "input_tokens": 2839,
+    "input_tokens_details": {
+      "cache_write_tokens": 2836,
+      "cached_tokens": 0
+    },
+    "output_tokens": 461,
+    "output_tokens_details": {
+      "reasoning_tokens": 245
+    },
+    "total_tokens": 3300
+  },
+  "success": true
+}

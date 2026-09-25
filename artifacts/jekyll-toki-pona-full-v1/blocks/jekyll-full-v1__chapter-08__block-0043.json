@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0043",
+  "sourceHash": "6c541f8a0c5881ae9a4b7361436f61728a3373d495a5cf4207890491cbf46776",
+  "source": "“I own I felt something of what you describe,” said Mr. Utterson.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0af0c13acfb90626016ab431302a0087d2ba833420b0c7bbd1",
+      "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “mi pana e sona ni: mi kin li pilin lili e ijo sama ni pi toki sina.”\nNOTES: NONE",
+      "translation": "jan Utason li toki e ni: “mi pana e sona ni: mi kin li pilin lili e ijo sama ni pi toki sina.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2751,
+        "input_tokens_details": {
+          "cache_write_tokens": 2748,
+          "cached_tokens": 0
+        },
+        "output_tokens": 43,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2794
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0af0c13acfb90626016ab431302a0087d2ba833420b0c7bbd1",
+  "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “mi pana e sona ni: mi kin li pilin lili e ijo sama ni pi toki sina.”\nNOTES: NONE",
+  "translation": "jan Utason li toki e ni: “mi pana e sona ni: mi kin li pilin lili e ijo sama ni pi toki sina.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2751,
+    "input_tokens_details": {
+      "cache_write_tokens": 2748,
+      "cached_tokens": 0
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2794
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0032",
+  "sourceHash": "469377b6c219a3af19681a47e8831a5621c4b71c3a14e815fa0d0f8fc1f4ba3e",
+  "source": "“Yes,” returned Mr. Hyde, “it is as well we have, met; and _à propos_, you should have my address.” And he gave a number of a street in Soho. “Good God!” thought Mr. Utterson, “can he, too, have been thinking of the will?” But he kept his feelings to himself and only grunted in acknowledgment of the address. “And now,” said the other, “how did you know me?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09d81fec0108d9a6016ab42804e28c87d296808fa89af7c438",
+      "visibleOutput": "TRANSLATION: “lon,” jan Hata li toki, “pona kin la mi tu li kama lukin. kin la sina o sona e ma tomo mi.” ona li toki e nanpa tomo lon nasin pi ma Soko. jan Utason li toki insa: “sewi pona a! jan ni kin li ken pilin e lipu lawa pi jan Jekil anu seme?” taso ona li toki ala e pilin ona. ona li kalama lili taso tan pana sona pi ma tomo. jan ante li toki: “tenpo ni la, sina sona e mi tan seme?”\nNOTES: NONE",
+      "translation": "“lon,” jan Hata li toki, “pona kin la mi tu li kama lukin. kin la sina o sona e ma tomo mi.” ona li toki e nanpa tomo lon nasin pi ma Soko. jan Utason li toki insa: “sewi pona a! jan ni kin li ken pilin e lipu lawa pi jan Jekil anu seme?” taso ona li toki ala e pilin ona. ona li kalama lili taso tan pana sona pi ma tomo. jan ante li toki: “tenpo ni la, sina sona e mi tan seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2843,
+        "input_tokens_details": {
+          "cache_write_tokens": 2840,
+          "cached_tokens": 0
+        },
+        "output_tokens": 513,
+        "output_tokens_details": {
+          "reasoning_tokens": 375
+        },
+        "total_tokens": 3356
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09d81fec0108d9a6016ab42804e28c87d296808fa89af7c438",
+  "visibleOutput": "TRANSLATION: “lon,” jan Hata li toki, “pona kin la mi tu li kama lukin. kin la sina o sona e ma tomo mi.” ona li toki e nanpa tomo lon nasin pi ma Soko. jan Utason li toki insa: “sewi pona a! jan ni kin li ken pilin e lipu lawa pi jan Jekil anu seme?” taso ona li toki ala e pilin ona. ona li kalama lili taso tan pana sona pi ma tomo. jan ante li toki: “tenpo ni la, sina sona e mi tan seme?”\nNOTES: NONE",
+  "translation": "“lon,” jan Hata li toki, “pona kin la mi tu li kama lukin. kin la sina o sona e ma tomo mi.” ona li toki e nanpa tomo lon nasin pi ma Soko. jan Utason li toki insa: “sewi pona a! jan ni kin li ken pilin e lipu lawa pi jan Jekil anu seme?” taso ona li toki ala e pilin ona. ona li kalama lili taso tan pana sona pi ma tomo. jan ante li toki: “tenpo ni la, sina sona e mi tan seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2843,
+    "input_tokens_details": {
+      "cache_write_tokens": 2840,
+      "cached_tokens": 0
+    },
+    "output_tokens": 513,
+    "output_tokens_details": {
+      "reasoning_tokens": 375
+    },
+    "total_tokens": 3356
+  },
+  "success": true
+}

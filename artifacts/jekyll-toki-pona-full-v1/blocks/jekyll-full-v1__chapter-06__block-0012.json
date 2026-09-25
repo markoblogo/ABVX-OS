@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0012",
+  "sourceHash": "76f0003481c8d11283f0e7622908357dc4b3e98f2309db6de52d9e6a93cbc65f",
+  "source": "But Lanyon’s face changed, and he held up a trembling hand. “I wish to see or hear no more of Dr. Jekyll,” he said in a loud, unsteady voice. “I am quite done with that person; and I beg that you will spare me any allusion to one whom I regard as dead.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09f9b156fb88cb18016ab42dae943087d2a77243cdf3ba4a9d",
+      "visibleOutput": "TRANSLATION: taso sinpin pi jan Lanjon li ante, li sewi e luka pi tawa lili. ona li toki kepeken kalama suli pi awen ala: “mi wile ala lukin e jan Jekil pi sona sijelo. mi wile ala kute e toki ona. mi pini ale e kulupu mi lon jan ni. mi anpa la mi wile e ni: sina toki ala tawa mi e jan ni. lon pilin mi la, ona li moli.”\nNOTES: “ona li moli” is explicitly framed as Lanyon’s view, not narrator fact.",
+      "translation": "taso sinpin pi jan Lanjon li ante, li sewi e luka pi tawa lili. ona li toki kepeken kalama suli pi awen ala: “mi wile ala lukin e jan Jekil pi sona sijelo. mi wile ala kute e toki ona. mi pini ale e kulupu mi lon jan ni. mi anpa la mi wile e ni: sina toki ala tawa mi e jan ni. lon pilin mi la, ona li moli.”",
+      "notes": "“ona li moli” is explicitly framed as Lanyon’s view, not narrator fact.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 447,
+        "output_tokens_details": {
+          "reasoning_tokens": 310
+        },
+        "total_tokens": 3268
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09f9b156fb88cb18016ab42dae943087d2a77243cdf3ba4a9d",
+  "visibleOutput": "TRANSLATION: taso sinpin pi jan Lanjon li ante, li sewi e luka pi tawa lili. ona li toki kepeken kalama suli pi awen ala: “mi wile ala lukin e jan Jekil pi sona sijelo. mi wile ala kute e toki ona. mi pini ale e kulupu mi lon jan ni. mi anpa la mi wile e ni: sina toki ala tawa mi e jan ni. lon pilin mi la, ona li moli.”\nNOTES: “ona li moli” is explicitly framed as Lanyon’s view, not narrator fact.",
+  "translation": "taso sinpin pi jan Lanjon li ante, li sewi e luka pi tawa lili. ona li toki kepeken kalama suli pi awen ala: “mi wile ala lukin e jan Jekil pi sona sijelo. mi wile ala kute e toki ona. mi pini ale e kulupu mi lon jan ni. mi anpa la mi wile e ni: sina toki ala tawa mi e jan ni. lon pilin mi la, ona li moli.”",
+  "notes": "“ona li moli” is explicitly framed as Lanyon’s view, not narrator fact.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 447,
+    "output_tokens_details": {
+      "reasoning_tokens": 310
+    },
+    "total_tokens": 3268
+  },
+  "success": true
+}

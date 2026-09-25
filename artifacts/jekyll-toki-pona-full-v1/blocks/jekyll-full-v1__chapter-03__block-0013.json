@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0013",
+  "sourceHash": "2b251b010df8a439fd43d704704e6dfb64dd7ebc683bb07d19da3281081de208",
+  "source": "But, I do sincerely take a great, a very great interest in that young man; and if I am taken away, Utterson, I wish you to promise me that you will bear with him and get his rights for him. I think you would, if you knew all; and it would be a weight off my mind if you would promise.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03bf4be733714c95016ab429d5efd487d28d887fad59f83cc4",
+      "visibleOutput": "TRANSLATION: “taso, mi toki lon: mi pilin mute, mute a, tawa jan lili ni. jan Utason o, jan li weka e mi la, mi wile e ni: sina toki pona tawa mi e ni: sina awen pona tawa ona, li pana e ijo pi ona tawa ona kepeken nasin lawa. mi pilin e ni: sina sona e ijo ale la, sina pali sama ni. sina toki pona e ni tawa mi la, pilin suli li weka tan lawa mi.”\n\nNOTES: “jan li weka e mi” li awen e kon pi “I am taken away” kepeken nasin pi sona ala.",
+      "translation": "“taso, mi toki lon: mi pilin mute, mute a, tawa jan lili ni. jan Utason o, jan li weka e mi la, mi wile e ni: sina toki pona tawa mi e ni: sina awen pona tawa ona, li pana e ijo pi ona tawa ona kepeken nasin lawa. mi pilin e ni: sina sona e ijo ale la, sina pali sama ni. sina toki pona e ni tawa mi la, pilin suli li weka tan lawa mi.”",
+      "notes": "“jan li weka e mi” li awen e kon pi “I am taken away” kepeken nasin pi sona ala.",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 232,
+        "output_tokens_details": {
+          "reasoning_tokens": 75
+        },
+        "total_tokens": 3058
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03bf4be733714c95016ab429d5efd487d28d887fad59f83cc4",
+  "visibleOutput": "TRANSLATION: “taso, mi toki lon: mi pilin mute, mute a, tawa jan lili ni. jan Utason o, jan li weka e mi la, mi wile e ni: sina toki pona tawa mi e ni: sina awen pona tawa ona, li pana e ijo pi ona tawa ona kepeken nasin lawa. mi pilin e ni: sina sona e ijo ale la, sina pali sama ni. sina toki pona e ni tawa mi la, pilin suli li weka tan lawa mi.”\n\nNOTES: “jan li weka e mi” li awen e kon pi “I am taken away” kepeken nasin pi sona ala.",
+  "translation": "“taso, mi toki lon: mi pilin mute, mute a, tawa jan lili ni. jan Utason o, jan li weka e mi la, mi wile e ni: sina toki pona tawa mi e ni: sina awen pona tawa ona, li pana e ijo pi ona tawa ona kepeken nasin lawa. mi pilin e ni: sina sona e ijo ale la, sina pali sama ni. sina toki pona e ni tawa mi la, pilin suli li weka tan lawa mi.”",
+  "notes": "“jan li weka e mi” li awen e kon pi “I am taken away” kepeken nasin pi sona ala.",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 232,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 3058
+  },
+  "success": true
+}

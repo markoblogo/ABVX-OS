@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0014",
+  "sourceHash": "3a85b4eb32f5ab0c612e603eb4e1aa137863c5b4568486ca2e1fe7c47fa22379",
+  "source": "“Good God, sir,” exclaimed the officer, “is it possible?” And the next moment his eye lighted up with professional ambition. “This will make a deal of noise,” he said. “And perhaps you can help us to the man.” And he briefly narrated what the maid had seen, and showed the broken stick.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_048463bb896355aa016ab42a93c00887d2bfb255064bf4a394",
+      "visibleOutput": "TRANSLATION: “sewi pona o, jan suli o,” jan pi pali lawa li kalama suli, “ni li ken lon anu seme?” tenpo lili kama la, wile ona pi kama suli lon pali li suno lon oko ona. ona li toki e ni: “ni li kama e toki suli pi jan mute. ken la, sina ken pona e alasa mi mute pi jan ni.” ona li toki lili e ijo ni: meli pali li lukin e seme. ona li pana lukin e palisa pakala.\nNOTES: NONE",
+      "translation": "“sewi pona o, jan suli o,” jan pi pali lawa li kalama suli, “ni li ken lon anu seme?” tenpo lili kama la, wile ona pi kama suli lon pali li suno lon oko ona. ona li toki e ni: “ni li kama e toki suli pi jan mute. ken la, sina ken pona e alasa mi mute pi jan ni.” ona li toki lili e ijo ni: meli pali li lukin e seme. ona li pana lukin e palisa pakala.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2816,
+        "input_tokens_details": {
+          "cache_write_tokens": 2813,
+          "cached_tokens": 0
+        },
+        "output_tokens": 643,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3459
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_048463bb896355aa016ab42a93c00887d2bfb255064bf4a394",
+  "visibleOutput": "TRANSLATION: “sewi pona o, jan suli o,” jan pi pali lawa li kalama suli, “ni li ken lon anu seme?” tenpo lili kama la, wile ona pi kama suli lon pali li suno lon oko ona. ona li toki e ni: “ni li kama e toki suli pi jan mute. ken la, sina ken pona e alasa mi mute pi jan ni.” ona li toki lili e ijo ni: meli pali li lukin e seme. ona li pana lukin e palisa pakala.\nNOTES: NONE",
+  "translation": "“sewi pona o, jan suli o,” jan pi pali lawa li kalama suli, “ni li ken lon anu seme?” tenpo lili kama la, wile ona pi kama suli lon pali li suno lon oko ona. ona li toki e ni: “ni li kama e toki suli pi jan mute. ken la, sina ken pona e alasa mi mute pi jan ni.” ona li toki lili e ijo ni: meli pali li lukin e seme. ona li pana lukin e palisa pakala.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2816,
+    "input_tokens_details": {
+      "cache_write_tokens": 2813,
+      "cached_tokens": 0
+    },
+    "output_tokens": 643,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3459
+  },
+  "success": true
+}

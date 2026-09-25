@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0018",
+  "sourceHash": "7de54b8f6728cb712435345304885cf1988cf034ecf11b17d0cbd79f2d347dd6",
+  "source": "Here Poole motioned him to stand on one side and listen; while he himself, setting down the candle and making a great and obvious call on his resolution, mounted the steps and knocked with a somewhat uncertain hand on the red baize of the cabinet door.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_012a4c504671fa40016ab42fdc6ac887d2896223bf2c06774b",
+      "visibleOutput": "TRANSLATION: lon ni la, jan Pulu li pana e sitelen luka tawa jan Utason: ona o awen lon poka wan, o kute. tenpo sama la, jan Pulu li pana anpa e ilo suno. ona li alasa suli e ni: pilin ona o wawa; alasa ni li lon lukin. ona li tawa sewi lon nasin supa, li pana kalama kepeken luka pi pilin awen ala lili lon lupa pi tomo insa pi jan Jekil. len loje li lon lupa ni.\nNOTES: “resolution” and the uncertain motion of his hand are necessarily compressed.",
+      "translation": "lon ni la, jan Pulu li pana e sitelen luka tawa jan Utason: ona o awen lon poka wan, o kute. tenpo sama la, jan Pulu li pana anpa e ilo suno. ona li alasa suli e ni: pilin ona o wawa; alasa ni li lon lukin. ona li tawa sewi lon nasin supa, li pana kalama kepeken luka pi pilin awen ala lili lon lupa pi tomo insa pi jan Jekil. len loje li lon lupa ni.",
+      "notes": "“resolution” and the uncertain motion of his hand are necessarily compressed.",
+      "usage": {
+        "input_tokens": 2787,
+        "input_tokens_details": {
+          "cache_write_tokens": 2784,
+          "cached_tokens": 0
+        },
+        "output_tokens": 593,
+        "output_tokens_details": {
+          "reasoning_tokens": 447
+        },
+        "total_tokens": 3380
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_012a4c504671fa40016ab42fdc6ac887d2896223bf2c06774b",
+  "visibleOutput": "TRANSLATION: lon ni la, jan Pulu li pana e sitelen luka tawa jan Utason: ona o awen lon poka wan, o kute. tenpo sama la, jan Pulu li pana anpa e ilo suno. ona li alasa suli e ni: pilin ona o wawa; alasa ni li lon lukin. ona li tawa sewi lon nasin supa, li pana kalama kepeken luka pi pilin awen ala lili lon lupa pi tomo insa pi jan Jekil. len loje li lon lupa ni.\nNOTES: “resolution” and the uncertain motion of his hand are necessarily compressed.",
+  "translation": "lon ni la, jan Pulu li pana e sitelen luka tawa jan Utason: ona o awen lon poka wan, o kute. tenpo sama la, jan Pulu li pana anpa e ilo suno. ona li alasa suli e ni: pilin ona o wawa; alasa ni li lon lukin. ona li tawa sewi lon nasin supa, li pana kalama kepeken luka pi pilin awen ala lili lon lupa pi tomo insa pi jan Jekil. len loje li lon lupa ni.",
+  "notes": "“resolution” and the uncertain motion of his hand are necessarily compressed.",
+  "usage": {
+    "input_tokens": 2787,
+    "input_tokens_details": {
+      "cache_write_tokens": 2784,
+      "cached_tokens": 0
+    },
+    "output_tokens": 593,
+    "output_tokens_details": {
+      "reasoning_tokens": 447
+    },
+    "total_tokens": 3380
+  },
+  "success": true
+}

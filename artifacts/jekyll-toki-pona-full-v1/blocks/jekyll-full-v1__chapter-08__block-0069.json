@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0069",
+  "sourceHash": "6b6ea2feddddf1f73854f72f632e57efd0a9927b54264cc972b4599f6a0df363",
+  "source": "“That is the same drug that I was always bringing him,” said Poole; and even as he spoke, the kettle with a startling noise boiled over.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0288afe426b958c3016ab43259205c87d29d52ad0e9689be03",
+      "visibleOutput": "TRANSLATION: “ni li misikeke sama. tenpo ale la mi pana e ona tawa ona,” jan Pulu li toki. lon tenpo sama pi toki ona la, telo lon poki seli li kama seli mute, li tawa weka tan poki kepeken kalama wawa pi pana monsuta.\nNOTES: NONE",
+      "translation": "“ni li misikeke sama. tenpo ale la mi pana e ona tawa ona,” jan Pulu li toki. lon tenpo sama pi toki ona la, telo lon poki seli li kama seli mute, li tawa weka tan poki kepeken kalama wawa pi pana monsuta.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2765,
+        "input_tokens_details": {
+          "cache_write_tokens": 2762,
+          "cached_tokens": 0
+        },
+        "output_tokens": 238,
+        "output_tokens_details": {
+          "reasoning_tokens": 157
+        },
+        "total_tokens": 3003
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0288afe426b958c3016ab43259205c87d29d52ad0e9689be03",
+  "visibleOutput": "TRANSLATION: “ni li misikeke sama. tenpo ale la mi pana e ona tawa ona,” jan Pulu li toki. lon tenpo sama pi toki ona la, telo lon poki seli li kama seli mute, li tawa weka tan poki kepeken kalama wawa pi pana monsuta.\nNOTES: NONE",
+  "translation": "“ni li misikeke sama. tenpo ale la mi pana e ona tawa ona,” jan Pulu li toki. lon tenpo sama pi toki ona la, telo lon poki seli li kama seli mute, li tawa weka tan poki kepeken kalama wawa pi pana monsuta.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2765,
+    "input_tokens_details": {
+      "cache_write_tokens": 2762,
+      "cached_tokens": 0
+    },
+    "output_tokens": 238,
+    "output_tokens_details": {
+      "reasoning_tokens": 157
+    },
+    "total_tokens": 3003
+  },
+  "success": true
+}

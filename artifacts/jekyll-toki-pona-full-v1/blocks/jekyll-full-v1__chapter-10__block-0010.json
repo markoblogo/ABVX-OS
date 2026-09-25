@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0010",
+  "sourceHash": "053f19a29ab3f4a487cfc07080e236611a83b2a583fe9c7d84d1561551e1d629",
+  "source": "Others will follow, others will outstrip me on the same lines; and I hazard the guess that man will be ultimately known for a mere polity of multifarious, incongruous, and independent denizens. I, for my part, from the nature of my life, advanced infallibly in one direction and in one direction only.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ae511f18893db68016ab436c373e487d2b0e2d516e5b0f09e",
+      "visibleOutput": "TRANSLATION: jan ante li kama tawa lon nasin sama; jan ante li kama tawa sinpin mi. mi sona ala, taso mi toki e pilin ni: lon pini la, jan li ken kama sona e ni: jan wan li kulupu lawa taso pi jan insa mute. jan insa ni li jo e nasin mute ante, li sama ala, li lawa e ona sama. mi la, tan nasin pi lon mi, mi tawa lon nasin wan taso; ni li ken ala ante.\n\nNOTES: nimi “kulupu lawa pi jan insa mute” li awen e toki sama pi polity/denizens; toki ni li pilin pi jan Jekil, li sona pana ala.",
+      "translation": "jan ante li kama tawa lon nasin sama; jan ante li kama tawa sinpin mi. mi sona ala, taso mi toki e pilin ni: lon pini la, jan li ken kama sona e ni: jan wan li kulupu lawa taso pi jan insa mute. jan insa ni li jo e nasin mute ante, li sama ala, li lawa e ona sama. mi la, tan nasin pi lon mi, mi tawa lon nasin wan taso; ni li ken ala ante.",
+      "notes": "nimi “kulupu lawa pi jan insa mute” li awen e toki sama pi polity/denizens; toki ni li pilin pi jan Jekil, li sona pana ala.",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cache_write_tokens": 2820,
+          "cached_tokens": 0
+        },
+        "output_tokens": 504,
+        "output_tokens_details": {
+          "reasoning_tokens": 344
+        },
+        "total_tokens": 3327
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ae511f18893db68016ab436c373e487d2b0e2d516e5b0f09e",
+  "visibleOutput": "TRANSLATION: jan ante li kama tawa lon nasin sama; jan ante li kama tawa sinpin mi. mi sona ala, taso mi toki e pilin ni: lon pini la, jan li ken kama sona e ni: jan wan li kulupu lawa taso pi jan insa mute. jan insa ni li jo e nasin mute ante, li sama ala, li lawa e ona sama. mi la, tan nasin pi lon mi, mi tawa lon nasin wan taso; ni li ken ala ante.\n\nNOTES: nimi “kulupu lawa pi jan insa mute” li awen e toki sama pi polity/denizens; toki ni li pilin pi jan Jekil, li sona pana ala.",
+  "translation": "jan ante li kama tawa lon nasin sama; jan ante li kama tawa sinpin mi. mi sona ala, taso mi toki e pilin ni: lon pini la, jan li ken kama sona e ni: jan wan li kulupu lawa taso pi jan insa mute. jan insa ni li jo e nasin mute ante, li sama ala, li lawa e ona sama. mi la, tan nasin pi lon mi, mi tawa lon nasin wan taso; ni li ken ala ante.",
+  "notes": "nimi “kulupu lawa pi jan insa mute” li awen e toki sama pi polity/denizens; toki ni li pilin pi jan Jekil, li sona pana ala.",
+  "usage": {
+    "input_tokens": 2823,
+    "input_tokens_details": {
+      "cache_write_tokens": 2820,
+      "cached_tokens": 0
+    },
+    "output_tokens": 504,
+    "output_tokens_details": {
+      "reasoning_tokens": 344
+    },
+    "total_tokens": 3327
+  },
+  "success": true
+}

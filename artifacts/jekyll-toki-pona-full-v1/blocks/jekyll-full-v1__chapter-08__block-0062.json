@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0062",
+  "sourceHash": "4d29616e6bf665c03cf33afcb937813eec0b0f071c40ac2265816e4a588cb531",
+  "source": "“We have come too late,” he said sternly, “whether to save or punish. Hyde is gone to his account; and it only remains for us to find the body of your master.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ab7826b2e654665016ab43212b92487d283ca8e3f9382998b",
+      "visibleOutput": "TRANSLATION: “mi tu li kama lon tenpo pini,” ona li toki wawa. “mi tu li ken ala awen e ona, li ken ala pana e ike tawa ona. jan Hata li moli, li tawa ma pi kama sona e pali ona. tenpo ni la, mi tu li wile alasa taso e sijelo moli pi jan lawa sina.”\nNOTES: “gone to his account” is retained as the speaker’s euphemistic claim of death and judgment, not narrator fact.",
+      "translation": "“mi tu li kama lon tenpo pini,” ona li toki wawa. “mi tu li ken ala awen e ona, li ken ala pana e ike tawa ona. jan Hata li moli, li tawa ma pi kama sona e pali ona. tenpo ni la, mi tu li wile alasa taso e sijelo moli pi jan lawa sina.”",
+      "notes": "“gone to his account” is retained as the speaker’s euphemistic claim of death and judgment, not narrator fact.",
+      "usage": {
+        "input_tokens": 2784,
+        "input_tokens_details": {
+          "cache_write_tokens": 2781,
+          "cached_tokens": 0
+        },
+        "output_tokens": 193,
+        "output_tokens_details": {
+          "reasoning_tokens": 76
+        },
+        "total_tokens": 2977
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ab7826b2e654665016ab43212b92487d283ca8e3f9382998b",
+  "visibleOutput": "TRANSLATION: “mi tu li kama lon tenpo pini,” ona li toki wawa. “mi tu li ken ala awen e ona, li ken ala pana e ike tawa ona. jan Hata li moli, li tawa ma pi kama sona e pali ona. tenpo ni la, mi tu li wile alasa taso e sijelo moli pi jan lawa sina.”\nNOTES: “gone to his account” is retained as the speaker’s euphemistic claim of death and judgment, not narrator fact.",
+  "translation": "“mi tu li kama lon tenpo pini,” ona li toki wawa. “mi tu li ken ala awen e ona, li ken ala pana e ike tawa ona. jan Hata li moli, li tawa ma pi kama sona e pali ona. tenpo ni la, mi tu li wile alasa taso e sijelo moli pi jan lawa sina.”",
+  "notes": "“gone to his account” is retained as the speaker’s euphemistic claim of death and judgment, not narrator fact.",
+  "usage": {
+    "input_tokens": 2784,
+    "input_tokens_details": {
+      "cache_write_tokens": 2781,
+      "cached_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 2977
+  },
+  "success": true
+}

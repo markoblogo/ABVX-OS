@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0007",
+  "sourceHash": "5fec5c32fe56fa00e5e0adcbf55e70dbcaed2c23c4935d9c9ad82516ab32d448",
+  "source": "“The doctor was confined to the house,” Poole said, “and saw no one.” On the 15th, he tried again, and was again refused; and having now been used for the last two months to see his friend almost daily, he found this return of solitude to weigh upon his spirits. The fifth night he had in Guest to dine with him; and the sixth he betook himself to Dr. Lanyon’s.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c95fa0d92a6c676016ab42d5dc85487d2ad1b273578390d6d",
+      "visibleOutput": "TRANSLATION: jan Pulu li toki e ni: “jan Jekil pi sona sijelo li awen taso lon tomo, li lukin ala e jan.” lon tenpo suno nanpa luka luka luka la, jan Utason li alasa sin e ni: ona li wile lukin e jan Jekil. taso, ona li kama jo ala sin e ken ni. lon tenpo mun tu pini la, ona li lukin e jan pona ona lon mute pi tenpo suno. ni la, kama pi tenpo taso ni li pana e pilin ike tawa ona. lon pimeja nanpa luka la, ona li kama e jan Kesu tawa tomo ona, li moku poka ona. lon pimeja nanpa luka wan la, ona li tawa tomo pi jan Lanjon pi sona sijelo.\n\nNOTES: nimi “Guest” li kama “jan Kesu”; nimi ni li lon ala lipu pi nimi jan.",
+      "translation": "jan Pulu li toki e ni: “jan Jekil pi sona sijelo li awen taso lon tomo, li lukin ala e jan.” lon tenpo suno nanpa luka luka luka la, jan Utason li alasa sin e ni: ona li wile lukin e jan Jekil. taso, ona li kama jo ala sin e ken ni. lon tenpo mun tu pini la, ona li lukin e jan pona ona lon mute pi tenpo suno. ni la, kama pi tenpo taso ni li pana e pilin ike tawa ona. lon pimeja nanpa luka la, ona li kama e jan Kesu tawa tomo ona, li moku poka ona. lon pimeja nanpa luka wan la, ona li tawa tomo pi jan Lanjon pi sona sijelo.",
+      "notes": "nimi “Guest” li kama “jan Kesu”; nimi ni li lon ala lipu pi nimi jan.",
+      "usage": {
+        "input_tokens": 2829,
+        "input_tokens_details": {
+          "cache_write_tokens": 2826,
+          "cached_tokens": 0
+        },
+        "output_tokens": 675,
+        "output_tokens_details": {
+          "reasoning_tokens": 466
+        },
+        "total_tokens": 3504
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c95fa0d92a6c676016ab42d5dc85487d2ad1b273578390d6d",
+  "visibleOutput": "TRANSLATION: jan Pulu li toki e ni: “jan Jekil pi sona sijelo li awen taso lon tomo, li lukin ala e jan.” lon tenpo suno nanpa luka luka luka la, jan Utason li alasa sin e ni: ona li wile lukin e jan Jekil. taso, ona li kama jo ala sin e ken ni. lon tenpo mun tu pini la, ona li lukin e jan pona ona lon mute pi tenpo suno. ni la, kama pi tenpo taso ni li pana e pilin ike tawa ona. lon pimeja nanpa luka la, ona li kama e jan Kesu tawa tomo ona, li moku poka ona. lon pimeja nanpa luka wan la, ona li tawa tomo pi jan Lanjon pi sona sijelo.\n\nNOTES: nimi “Guest” li kama “jan Kesu”; nimi ni li lon ala lipu pi nimi jan.",
+  "translation": "jan Pulu li toki e ni: “jan Jekil pi sona sijelo li awen taso lon tomo, li lukin ala e jan.” lon tenpo suno nanpa luka luka luka la, jan Utason li alasa sin e ni: ona li wile lukin e jan Jekil. taso, ona li kama jo ala sin e ken ni. lon tenpo mun tu pini la, ona li lukin e jan pona ona lon mute pi tenpo suno. ni la, kama pi tenpo taso ni li pana e pilin ike tawa ona. lon pimeja nanpa luka la, ona li kama e jan Kesu tawa tomo ona, li moku poka ona. lon pimeja nanpa luka wan la, ona li tawa tomo pi jan Lanjon pi sona sijelo.",
+  "notes": "nimi “Guest” li kama “jan Kesu”; nimi ni li lon ala lipu pi nimi jan.",
+  "usage": {
+    "input_tokens": 2829,
+    "input_tokens_details": {
+      "cache_write_tokens": 2826,
+      "cached_tokens": 0
+    },
+    "output_tokens": 675,
+    "output_tokens_details": {
+      "reasoning_tokens": 466
+    },
+    "total_tokens": 3504
+  },
+  "success": true
+}

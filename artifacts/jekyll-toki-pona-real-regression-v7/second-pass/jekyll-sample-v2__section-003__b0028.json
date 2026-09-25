@@ -1,0 +1,62 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0028",
+  "sourceHash": "57daaa930f1bd7b548bc56330291fb330306bde28df1922505c3266478f48275",
+  "source": "The letter was written in an odd, upright hand and signed “Edward Hyde”: and it signified, briefly enough, that the writer’s benefactor, Dr. Jekyll, whom he had long so unworthily repaid for a thousand generosities, need labour under no alarm for his safety, as he had means of escape on which he placed a sure dependence. The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions.",
+  "originalTranslation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+  "originalTranslationHash": "a8aea29fa2ba80feddf7d82ab7ac6f6877e92c32d875b431b3e65d4e267f454e",
+  "qaDefect": "Letter claim is highly compressed.",
+  "defectHash": "d479a846cb1decdcc20b3deb9eb3c13f36563ebbb118fee29dedffa2c4067a7a",
+  "requiredPreservation": "Keep signature, author, benefactor, safety/escape claim, and document-bound reaction.",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0fe615957950f7ec016ab421901d8c87d2b163ad64887095ce",
+      "model": "gpt-5.6-sol",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: NONE",
+      "revisedTranslation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 3087,
+        "input_tokens_details": {
+          "cache_write_tokens": 3084,
+          "cached_tokens": 0
+        },
+        "output_tokens": 678,
+        "output_tokens_details": {
+          "reasoning_tokens": 434
+        },
+        "total_tokens": 3765
+      },
+      "elapsedMs": 14169
+    }
+  ],
+  "model": "gpt-5.6-sol",
+  "provider": "OpenAI Responses API",
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0fe615957950f7ec016ab421901d8c87d2b163ad64887095ce",
+  "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: NONE",
+  "revisedTranslation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 3087,
+    "input_tokens_details": {
+      "cache_write_tokens": 3084,
+      "cached_tokens": 0
+    },
+    "output_tokens": 678,
+    "output_tokens_details": {
+      "reasoning_tokens": 434
+    },
+    "total_tokens": 3765
+  },
+  "success": true
+}

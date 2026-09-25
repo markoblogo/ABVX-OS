@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0023",
+  "sourceHash": "51aae08ad3c1c13af7b454b41bb3b50a50b9d55a77385a155438c6efffa1dde1",
+  "source": "I knew myself, at the first breath of this new life, to be more wicked, tenfold more wicked, sold a slave to my original evil; and the thought, in that moment, braced and delighted me like wine. I stretched out my hands, exulting in the freshness of these sensations; and in the act, I was suddenly aware that I had lost in stature.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

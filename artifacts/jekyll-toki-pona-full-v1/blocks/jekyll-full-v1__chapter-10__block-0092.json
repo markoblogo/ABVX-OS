@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0092",
+  "sourceHash": "ac4352d8b9b34e7695984b5b1762eed986e7950aec4630d413381ee3d312767d",
+  "source": "That was the problem that (crushing my temples in my hands) I set myself to solve. The laboratory door I had closed. If I sought to enter by the house, my own servants would consign me to the gallows. I saw I must employ another hand, and thought of Lanyon. How was he to be reached? how persuaded?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

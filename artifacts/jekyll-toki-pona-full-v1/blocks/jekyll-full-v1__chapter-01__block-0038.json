@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0038",
+  "sourceHash": "a0375c8b0d26fd1582edf5e6137f6d68d0cda9e8b89d5223c869f8850c55ce0f",
+  "source": "“Well,” said Mr. Enfield, “I can’t see what harm it would do. It was a man of the name of Hyde.” “H’m,” said Mr. Utterson. “What sort of a man is he to see?” “He is not easy to describe. There is something wrong with his appearance; something displeasing, something downright detestable. I never saw a man I so disliked, and yet I scarce know why.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cd7217f1923cda7016ab42631c5f087d29528d82ee27cac60",
+      "visibleOutput": "TRANSLATION: jan Enpil li toki e ni: “pona. mi sona ala e ike pi toki ni. nimi jan ona li Hata.” jan Utason li toki e kalama “n.” li toki e ni: “ona li jan seme tawa lukin?” jan Enpil li toki e ni: “mi ken ala toki pona e lukin ona. ijo lon lukin ona li pakala; li pona ala; li ike mute tawa mi. tenpo ala la mi lukin e jan ante li pilin ike sama ni tawa ona. taso mi sona lili e tan.”\nNOTES: “something wrong” and “detestable” remain Enfield’s subjective visual reaction, not narrator fact.",
+      "translation": "jan Enpil li toki e ni: “pona. mi sona ala e ike pi toki ni. nimi jan ona li Hata.” jan Utason li toki e kalama “n.” li toki e ni: “ona li jan seme tawa lukin?” jan Enpil li toki e ni: “mi ken ala toki pona e lukin ona. ijo lon lukin ona li pakala; li pona ala; li ike mute tawa mi. tenpo ala la mi lukin e jan ante li pilin ike sama ni tawa ona. taso mi sona lili e tan.”",
+      "notes": "“something wrong” and “detestable” remain Enfield’s subjective visual reaction, not narrator fact.",
+      "usage": {
+        "input_tokens": 2839,
+        "input_tokens_details": {
+          "cache_write_tokens": 2836,
+          "cached_tokens": 0
+        },
+        "output_tokens": 155,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2994
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cd7217f1923cda7016ab42631c5f087d29528d82ee27cac60",
+  "visibleOutput": "TRANSLATION: jan Enpil li toki e ni: “pona. mi sona ala e ike pi toki ni. nimi jan ona li Hata.” jan Utason li toki e kalama “n.” li toki e ni: “ona li jan seme tawa lukin?” jan Enpil li toki e ni: “mi ken ala toki pona e lukin ona. ijo lon lukin ona li pakala; li pona ala; li ike mute tawa mi. tenpo ala la mi lukin e jan ante li pilin ike sama ni tawa ona. taso mi sona lili e tan.”\nNOTES: “something wrong” and “detestable” remain Enfield’s subjective visual reaction, not narrator fact.",
+  "translation": "jan Enpil li toki e ni: “pona. mi sona ala e ike pi toki ni. nimi jan ona li Hata.” jan Utason li toki e kalama “n.” li toki e ni: “ona li jan seme tawa lukin?” jan Enpil li toki e ni: “mi ken ala toki pona e lukin ona. ijo lon lukin ona li pakala; li pona ala; li ike mute tawa mi. tenpo ala la mi lukin e jan ante li pilin ike sama ni tawa ona. taso mi sona lili e tan.”",
+  "notes": "“something wrong” and “detestable” remain Enfield’s subjective visual reaction, not narrator fact.",
+  "usage": {
+    "input_tokens": 2839,
+    "input_tokens_details": {
+      "cache_write_tokens": 2836,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2994
+  },
+  "success": true
+}

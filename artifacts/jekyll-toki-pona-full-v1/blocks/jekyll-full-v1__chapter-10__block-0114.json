@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0114",
+  "sourceHash": "a6baa329f148d64bd35e9326f2fba812572c8ce198f7fd50c346628b046aa594",
+  "source": "And this again, that that insurgent horror was knit to him closer than a wife, closer than an eye; lay caged in his flesh, where he heard it mutter and felt it struggle to be born; and at every hour of weakness, and in the confidence of slumber, prevailed against him and deposed him out of life. The hatred of Hyde for Jekyll, was of a different order.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

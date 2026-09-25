@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0110",
+  "sourceHash": "812c59cd3ecefb63321a4fcae0b2b992b04e55853cdb62e82c74b033af6c18d6",
+  "source": "But when I slept, or when the virtue of the medicine wore off, I would leap almost without transition (for the pangs of transformation grew daily less marked) into the possession of a fancy brimming with images of terror, a soul boiling with causeless hatreds, and a body that seemed not strong enough to contain the raging energies of life.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

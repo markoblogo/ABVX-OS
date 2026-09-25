@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0028",
+  "sourceHash": "8be19bb95533f308bb048e6e1b323e54d6ac879f35bfc496ad97d92513cbc73d",
+  "source": "Mr. Hyde shrank back with a hissing intake of the breath. But his fear was only momentary; and though he did not look the lawyer in the face, he answered coolly enough: “That is my name. What do you want?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_009409cdd2e14f04016ab427cd9a8487d28a7f4bc4746d02f7",
+      "visibleOutput": "TRANSLATION: jan Hata li tawa monsi lili, li kon insa kepeken kalama ssss. taso pilin monsuta ona li awen lon tenpo lili taso. ona li lukin ala e sinpin pi jan Utason pi sona lawa, taso ona li toki kepeken pilin awen: “ni li nimi mi. sina wile e seme?”\n\nNOTES: “kalama ssss” renders the hissing breath descriptively.",
+      "translation": "jan Hata li tawa monsi lili, li kon insa kepeken kalama ssss. taso pilin monsuta ona li awen lon tenpo lili taso. ona li lukin ala e sinpin pi jan Utason pi sona lawa, taso ona li toki kepeken pilin awen: “ni li nimi mi. sina wile e seme?”",
+      "notes": "“kalama ssss” renders the hissing breath descriptively.",
+      "usage": {
+        "input_tokens": 2800,
+        "input_tokens_details": {
+          "cache_write_tokens": 2797,
+          "cached_tokens": 0
+        },
+        "output_tokens": 189,
+        "output_tokens_details": {
+          "reasoning_tokens": 79
+        },
+        "total_tokens": 2989
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_009409cdd2e14f04016ab427cd9a8487d28a7f4bc4746d02f7",
+  "visibleOutput": "TRANSLATION: jan Hata li tawa monsi lili, li kon insa kepeken kalama ssss. taso pilin monsuta ona li awen lon tenpo lili taso. ona li lukin ala e sinpin pi jan Utason pi sona lawa, taso ona li toki kepeken pilin awen: “ni li nimi mi. sina wile e seme?”\n\nNOTES: “kalama ssss” renders the hissing breath descriptively.",
+  "translation": "jan Hata li tawa monsi lili, li kon insa kepeken kalama ssss. taso pilin monsuta ona li awen lon tenpo lili taso. ona li lukin ala e sinpin pi jan Utason pi sona lawa, taso ona li toki kepeken pilin awen: “ni li nimi mi. sina wile e seme?”",
+  "notes": "“kalama ssss” renders the hissing breath descriptively.",
+  "usage": {
+    "input_tokens": 2800,
+    "input_tokens_details": {
+      "cache_write_tokens": 2797,
+      "cached_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 2989
+  },
+  "success": true
+}

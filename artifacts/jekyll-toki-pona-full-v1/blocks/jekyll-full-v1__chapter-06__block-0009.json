@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0009",
+  "sourceHash": "4c4f5cb3634203d82f7234eae6f3ebbd305b89c23b81da191a439bf82d5f7d60",
+  "source": "The rosy man had grown pale; his flesh had fallen away; he was visibly balder and older; and yet it was not so much, these tokens of a swift physical decay that arrested the lawyer’s notice, as a look in the eye and quality of manner that seemed to testify to some deep-seated terror of the mind.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0fa25ccb8089c3a4016ab42d7b1ed887d2953e8b380c579412",
+      "visibleOutput": "TRANSLATION: jan ni la selo sinpin ona li loje lon tenpo pini, taso ona li kama walo. sijelo ona li kama lili. linja lawa ona li kama lili mute, ona li lukin majuna mute. jan li ken lukin e ante ike ni pi sijelo, li ken sona e ni: ante ni li kama lon tenpo lili. taso ijo ni li kama ala suli tawa lukin pi jan Utason pi sona lawa. ona li lukin suli e oko ona e nasin ona. tu ni li lukin sama ni: pilin monsuta suli li awen lon insa pi lawa ona.\nNOTES: “seemed to testify” remains an appearance-based inference, not a confirmed fact.",
+      "translation": "jan ni la selo sinpin ona li loje lon tenpo pini, taso ona li kama walo. sijelo ona li kama lili. linja lawa ona li kama lili mute, ona li lukin majuna mute. jan li ken lukin e ante ike ni pi sijelo, li ken sona e ni: ante ni li kama lon tenpo lili. taso ijo ni li kama ala suli tawa lukin pi jan Utason pi sona lawa. ona li lukin suli e oko ona e nasin ona. tu ni li lukin sama ni: pilin monsuta suli li awen lon insa pi lawa ona.",
+      "notes": "“seemed to testify” remains an appearance-based inference, not a confirmed fact.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 953,
+        "output_tokens_details": {
+          "reasoning_tokens": 788
+        },
+        "total_tokens": 3761
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0fa25ccb8089c3a4016ab42d7b1ed887d2953e8b380c579412",
+  "visibleOutput": "TRANSLATION: jan ni la selo sinpin ona li loje lon tenpo pini, taso ona li kama walo. sijelo ona li kama lili. linja lawa ona li kama lili mute, ona li lukin majuna mute. jan li ken lukin e ante ike ni pi sijelo, li ken sona e ni: ante ni li kama lon tenpo lili. taso ijo ni li kama ala suli tawa lukin pi jan Utason pi sona lawa. ona li lukin suli e oko ona e nasin ona. tu ni li lukin sama ni: pilin monsuta suli li awen lon insa pi lawa ona.\nNOTES: “seemed to testify” remains an appearance-based inference, not a confirmed fact.",
+  "translation": "jan ni la selo sinpin ona li loje lon tenpo pini, taso ona li kama walo. sijelo ona li kama lili. linja lawa ona li kama lili mute, ona li lukin majuna mute. jan li ken lukin e ante ike ni pi sijelo, li ken sona e ni: ante ni li kama lon tenpo lili. taso ijo ni li kama ala suli tawa lukin pi jan Utason pi sona lawa. ona li lukin suli e oko ona e nasin ona. tu ni li lukin sama ni: pilin monsuta suli li awen lon insa pi lawa ona.",
+  "notes": "“seemed to testify” remains an appearance-based inference, not a confirmed fact.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 953,
+    "output_tokens_details": {
+      "reasoning_tokens": 788
+    },
+    "total_tokens": 3761
+  },
+  "success": true
+}

@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0014",
+  "sourceText": "This little spirit of temper was somewhat of a relief to Mr. Utterson. “They have only differed on some point of science,” he thought; and being a man of no scientific passions (except in the matter of conveyancing), he even added: “It is nothing worse than that!” He gave his friend a few seconds to recover his composure, and then approached the question he had come to put. “Did you ever come across a protege of his—one Hyde?” he asked.",
+  "sourceHash": "a109fec5eb909a6edeb2a47db2643ffb9846c7b12157c5e56e3496bde82862c7",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0204c24e013e5985016ab41d8a98e887d2be794569faa14944",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+      "translation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+      "notes": "musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+      "usage": {
+        "input_tokens": 2883,
+        "input_tokens_details": {
+          "cache_write_tokens": 2880,
+          "cached_tokens": 0
+        },
+        "output_tokens": 491,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "total_tokens": 3374
+      },
+      "elapsedMs": 15776
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0204c24e013e5985016ab41d8a98e887d2be794569faa14944",
+  "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+  "translation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+  "notes": "musi nimi pi “science” en pali lawa li ken kama lili lon ante toki.",
+  "usage": {
+    "input_tokens": 2883,
+    "input_tokens_details": {
+      "cache_write_tokens": 2880,
+      "cached_tokens": 0
+    },
+    "output_tokens": 491,
+    "output_tokens_details": {
+      "reasoning_tokens": 290
+    },
+    "total_tokens": 3374
+  },
+  "success": true
+}

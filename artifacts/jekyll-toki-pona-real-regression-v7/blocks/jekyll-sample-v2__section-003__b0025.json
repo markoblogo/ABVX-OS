@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0025",
+  "sourceText": "“You fear, I suppose, that it might lead to his detection?” asked the lawyer.",
+  "sourceHash": "2e592664b7ace3450ebab55ec8643fe31b2932dd60ac5c65a2f0fa38310a3774",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bc2f57f8a38ab23016ab41e0b3c0c87d286ec84759014f1f0",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”\nNOTES: NONE",
+      "translation": "jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2789,
+        "input_tokens_details": {
+          "cache_write_tokens": 2786,
+          "cached_tokens": 0
+        },
+        "output_tokens": 54,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2843
+      },
+      "elapsedMs": 4585
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0bc2f57f8a38ab23016ab41e0b3c0c87d286ec84759014f1f0",
+  "visibleOutput": "TRANSLATION: jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”\nNOTES: NONE",
+  "translation": "jan pi sona lawa li wile sona e ni: “mi la sina pilin monsuta tan ni anu seme: ken la, ni li ken pana e sona tawa jan ante lon jan ni?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2789,
+    "input_tokens_details": {
+      "cache_write_tokens": 2786,
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2843
+  },
+  "success": true
+}

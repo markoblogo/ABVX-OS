@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0031",
+  "sourceHash": "dd00d5f5c512095c61bbc0a49d0e0a57270274512bff4895ac50bf079aa75c34",
+  "source": "And in so far I was doubtless right. I have observed that when I wore the semblance of Edward Hyde, none could come near to me at first without a visible misgiving of the flesh. This, as I take it, was because all human beings, as we meet them, are commingled out of good and evil: and Edward Hyde, alone in the ranks of mankind, was pure evil.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

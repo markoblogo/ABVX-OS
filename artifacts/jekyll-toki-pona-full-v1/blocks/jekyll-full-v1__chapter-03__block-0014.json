@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0014",
+  "sourceHash": "39c993b493c2b08a023acbdd4f3cca1bc6cfbe966862529d12227a8214545cc7",
+  "source": "“I can’t pretend that I shall ever like him,” said the lawyer. “I don’t ask that,” pleaded Jekyll, laying his hand upon the other’s arm; “I only ask for justice; I only ask you to help him for my sake, when I am no longer here.” Utterson heaved an irrepressible sigh. “Well,” said he, “I promise.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b25e533c9ec7b1a016ab429dc725887d2add5b67f99d1b96d",
+      "visibleOutput": "TRANSLATION: “mi ken ala toki powe e ni: tenpo kama la mi pilin pona tawa ona,” jan pi sona lawa li toki. jan Jekil li pana e luka ona lon luka pi jan ante, li toki anpa wile e ni: “mi wile ala e ni. mi wile taso e nasin pona tawa ona. mi wile taso e ni: tenpo la mi lon ala ni, sina pona e ona tan mi.” kon suli li kama tan jan Utason; ona ken ala awen e ni. ona li toki e ni: “pona. mi pana e toki awen.”\nNOTES: “mi lon ala ni” preserves the ambiguity of Jekyll’s future absence without specifying death or disappearance.",
+      "translation": "“mi ken ala toki powe e ni: tenpo kama la mi pilin pona tawa ona,” jan pi sona lawa li toki. jan Jekil li pana e luka ona lon luka pi jan ante, li toki anpa wile e ni: “mi wile ala e ni. mi wile taso e nasin pona tawa ona. mi wile taso e ni: tenpo la mi lon ala ni, sina pona e ona tan mi.” kon suli li kama tan jan Utason; ona ken ala awen e ni. ona li toki e ni: “pona. mi pana e toki awen.”",
+      "notes": "“mi lon ala ni” preserves the ambiguity of Jekyll’s future absence without specifying death or disappearance.",
+      "usage": {
+        "input_tokens": 2836,
+        "input_tokens_details": {
+          "cache_write_tokens": 2833,
+          "cached_tokens": 0
+        },
+        "output_tokens": 370,
+        "output_tokens_details": {
+          "reasoning_tokens": 205
+        },
+        "total_tokens": 3206
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b25e533c9ec7b1a016ab429dc725887d2add5b67f99d1b96d",
+  "visibleOutput": "TRANSLATION: “mi ken ala toki powe e ni: tenpo kama la mi pilin pona tawa ona,” jan pi sona lawa li toki. jan Jekil li pana e luka ona lon luka pi jan ante, li toki anpa wile e ni: “mi wile ala e ni. mi wile taso e nasin pona tawa ona. mi wile taso e ni: tenpo la mi lon ala ni, sina pona e ona tan mi.” kon suli li kama tan jan Utason; ona ken ala awen e ni. ona li toki e ni: “pona. mi pana e toki awen.”\nNOTES: “mi lon ala ni” preserves the ambiguity of Jekyll’s future absence without specifying death or disappearance.",
+  "translation": "“mi ken ala toki powe e ni: tenpo kama la mi pilin pona tawa ona,” jan pi sona lawa li toki. jan Jekil li pana e luka ona lon luka pi jan ante, li toki anpa wile e ni: “mi wile ala e ni. mi wile taso e nasin pona tawa ona. mi wile taso e ni: tenpo la mi lon ala ni, sina pona e ona tan mi.” kon suli li kama tan jan Utason; ona ken ala awen e ni. ona li toki e ni: “pona. mi pana e toki awen.”",
+  "notes": "“mi lon ala ni” preserves the ambiguity of Jekyll’s future absence without specifying death or disappearance.",
+  "usage": {
+    "input_tokens": 2836,
+    "input_tokens_details": {
+      "cache_write_tokens": 2833,
+      "cached_tokens": 0
+    },
+    "output_tokens": 370,
+    "output_tokens_details": {
+      "reasoning_tokens": 205
+    },
+    "total_tokens": 3206
+  },
+  "success": true
+}

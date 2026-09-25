@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0044",
+  "sourceHash": "9845110869386ab750ed74567c794ad45cd44f089792d8f518a6f1d98ea7a369",
+  "source": "This familiar that I called out of my own soul, and sent forth alone to do his good pleasure, was a being inherently malign and villainous; his every act and thought centred on self; drinking pleasure with bestial avidity from any degree of torture to another; relentless like a man of stone.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

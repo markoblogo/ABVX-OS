@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0011",
+  "sourceHash": "713025b64d17d86f7ee540085c7cb92cfc14ce9378e82ca476c4f75221989bd3",
+  "source": "Two doors from one corner, on the left hand going east, the line was broken by the entry of a court; and just at that point, a certain sinister block of building thrust forward its gable on the street.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cab9fe1aae56a8e016ab424eb769c87d2ba24558085147793",
+      "visibleOutput": "TRANSLATION: tan poka pi nasin ante la, lupa tomo tu li lon. lon poka soto pi jan tawa pi kama suno la, lupa tawa pi ma insa li pakala e linja tomo. lon ma ni taso la, tomo suli wan pi lukin ike li pana e sinpin sewi ona tawa nasin.\nNOTES: “sinister” is rendered as appearance (“pi lukin ike”), not as an established fact.",
+      "translation": "tan poka pi nasin ante la, lupa tomo tu li lon. lon poka soto pi jan tawa pi kama suno la, lupa tawa pi ma insa li pakala e linja tomo. lon ma ni taso la, tomo suli wan pi lukin ike li pana e sinpin sewi ona tawa nasin.",
+      "notes": "“sinister” is rendered as appearance (“pi lukin ike”), not as an established fact.",
+      "usage": {
+        "input_tokens": 2781,
+        "input_tokens_details": {
+          "cache_write_tokens": 2778,
+          "cached_tokens": 0
+        },
+        "output_tokens": 185,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 2966
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cab9fe1aae56a8e016ab424eb769c87d2ba24558085147793",
+  "visibleOutput": "TRANSLATION: tan poka pi nasin ante la, lupa tomo tu li lon. lon poka soto pi jan tawa pi kama suno la, lupa tawa pi ma insa li pakala e linja tomo. lon ma ni taso la, tomo suli wan pi lukin ike li pana e sinpin sewi ona tawa nasin.\nNOTES: “sinister” is rendered as appearance (“pi lukin ike”), not as an established fact.",
+  "translation": "tan poka pi nasin ante la, lupa tomo tu li lon. lon poka soto pi jan tawa pi kama suno la, lupa tawa pi ma insa li pakala e linja tomo. lon ma ni taso la, tomo suli wan pi lukin ike li pana e sinpin sewi ona tawa nasin.",
+  "notes": "“sinister” is rendered as appearance (“pi lukin ike”), not as an established fact.",
+  "usage": {
+    "input_tokens": 2781,
+    "input_tokens_details": {
+      "cache_write_tokens": 2778,
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 2966
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0060",
+  "sourceHash": "4c3c9cd8f56b6757a963e115a8dc4f3ea0485c83c174f1c61ad71ac1a638a436",
+  "source": "The power of the drug had not been always equally displayed. Once, very early in my career, it had totally failed me; since then I had been obliged on more than one occasion to double, and once, with infinite risk of death, to treble the amount; and these rare uncertainties had cast hitherto the sole shadow on my contentment.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

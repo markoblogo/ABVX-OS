@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0012",
+  "sourceHash": "8998ec6f864ba25aee47e8a67b5ca5dccee3b395014b4c4c9f0f995d13943705",
+  "source": "The hall, when they entered it, was brightly lighted up; the fire was built high; and about the hearth the whole of the servants, men and women, stood huddled together like a flock of sheep. At the sight of Mr. Utterson, the housemaid broke into hysterical whimpering; and the cook, crying out, “Bless God! it’s Mr. Utterson,” ran forward as if to take him in her arms.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_054c74731b778eab016ab42f97151887d281141c2a22bdaae8",
+      "visibleOutput": "TRANSLATION: ona tu li kama lon tomo open la, tomo li kama suno mute. seli li suli lon tomo seli. jan pali ale, mije en meli, li kulupu poka lon seli sama kulupu soweli. meli pi pali tomo li lukin e jan Utason la, ona li open kalama lili tan pilin nasa pi monsuta. meli pi pali moku li toki wawa e ni: “pona tawa sewi! jan Utason li lon!” Ona li tawa wawa sinpin, sama ni: ona li wile jo luka e jan Utason lon luka ona.\nNOTES: “Bless God” is rendered as an exclamation of thanks toward the divine; the intended embrace remains comparative rather than certain.",
+      "translation": "ona tu li kama lon tomo open la, tomo li kama suno mute. seli li suli lon tomo seli. jan pali ale, mije en meli, li kulupu poka lon seli sama kulupu soweli. meli pi pali tomo li lukin e jan Utason la, ona li open kalama lili tan pilin nasa pi monsuta. meli pi pali moku li toki wawa e ni: “pona tawa sewi! jan Utason li lon!” Ona li tawa wawa sinpin, sama ni: ona li wile jo luka e jan Utason lon luka ona.",
+      "notes": "“Bless God” is rendered as an exclamation of thanks toward the divine; the intended embrace remains comparative rather than certain.",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 225,
+        "output_tokens_details": {
+          "reasoning_tokens": 58
+        },
+        "total_tokens": 3055
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_054c74731b778eab016ab42f97151887d281141c2a22bdaae8",
+  "visibleOutput": "TRANSLATION: ona tu li kama lon tomo open la, tomo li kama suno mute. seli li suli lon tomo seli. jan pali ale, mije en meli, li kulupu poka lon seli sama kulupu soweli. meli pi pali tomo li lukin e jan Utason la, ona li open kalama lili tan pilin nasa pi monsuta. meli pi pali moku li toki wawa e ni: “pona tawa sewi! jan Utason li lon!” Ona li tawa wawa sinpin, sama ni: ona li wile jo luka e jan Utason lon luka ona.\nNOTES: “Bless God” is rendered as an exclamation of thanks toward the divine; the intended embrace remains comparative rather than certain.",
+  "translation": "ona tu li kama lon tomo open la, tomo li kama suno mute. seli li suli lon tomo seli. jan pali ale, mije en meli, li kulupu poka lon seli sama kulupu soweli. meli pi pali tomo li lukin e jan Utason la, ona li open kalama lili tan pilin nasa pi monsuta. meli pi pali moku li toki wawa e ni: “pona tawa sewi! jan Utason li lon!” Ona li tawa wawa sinpin, sama ni: ona li wile jo luka e jan Utason lon luka ona.",
+  "notes": "“Bless God” is rendered as an exclamation of thanks toward the divine; the intended embrace remains comparative rather than certain.",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 225,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 3055
+  },
+  "success": true
+}

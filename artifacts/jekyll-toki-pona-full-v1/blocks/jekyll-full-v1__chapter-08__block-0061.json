@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0061",
+  "sourceHash": "b783423659747bef6eab094b96e7fe82c18df1edfd45bdfc608b2f8ca237f986",
+  "source": "He was dressed in clothes far too large for him, clothes of the doctor’s bigness; the cords of his face still moved with a semblance of life, but life was quite gone; and by the crushed phial in the hand and the strong smell of kernels that hung upon the air, Utterson knew that he was looking on the body of a self-destroyer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f79cdab5117e044016ab4320a349887d2871e9f4ad054d152",
+      "visibleOutput": "TRANSLATION: ona li jo e len suli mute. len ni li suli sama len pi jan pi sona sijelo. selo linja lon sinpin ona li awen tawa lili sama ni: ona li lon. taso lon li weka ale tan ona. poki lili pakala li lon luka ona, li pana e kon wawa sama kasi sike. tan ni, jan Utason li sona e ni: ona li lukin e sijelo pi jan pi moli e ona sama.\n\nNOTES: “sona” li sona pi jan Utason tan ijo lukin en kon; ona li toki ala e sona pi toki mama.",
+      "translation": "ona li jo e len suli mute. len ni li suli sama len pi jan pi sona sijelo. selo linja lon sinpin ona li awen tawa lili sama ni: ona li lon. taso lon li weka ale tan ona. poki lili pakala li lon luka ona, li pana e kon wawa sama kasi sike. tan ni, jan Utason li sona e ni: ona li lukin e sijelo pi jan pi moli e ona sama.",
+      "notes": "“sona” li sona pi jan Utason tan ijo lukin en kon; ona li toki ala e sona pi toki mama.",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 2810,
+          "cached_tokens": 0
+        },
+        "output_tokens": 282,
+        "output_tokens_details": {
+          "reasoning_tokens": 141
+        },
+        "total_tokens": 3095
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f79cdab5117e044016ab4320a349887d2871e9f4ad054d152",
+  "visibleOutput": "TRANSLATION: ona li jo e len suli mute. len ni li suli sama len pi jan pi sona sijelo. selo linja lon sinpin ona li awen tawa lili sama ni: ona li lon. taso lon li weka ale tan ona. poki lili pakala li lon luka ona, li pana e kon wawa sama kasi sike. tan ni, jan Utason li sona e ni: ona li lukin e sijelo pi jan pi moli e ona sama.\n\nNOTES: “sona” li sona pi jan Utason tan ijo lukin en kon; ona li toki ala e sona pi toki mama.",
+  "translation": "ona li jo e len suli mute. len ni li suli sama len pi jan pi sona sijelo. selo linja lon sinpin ona li awen tawa lili sama ni: ona li lon. taso lon li weka ale tan ona. poki lili pakala li lon luka ona, li pana e kon wawa sama kasi sike. tan ni, jan Utason li sona e ni: ona li lukin e sijelo pi jan pi moli e ona sama.",
+  "notes": "“sona” li sona pi jan Utason tan ijo lukin en kon; ona li toki ala e sona pi toki mama.",
+  "usage": {
+    "input_tokens": 2813,
+    "input_tokens_details": {
+      "cache_write_tokens": 2810,
+      "cached_tokens": 0
+    },
+    "output_tokens": 282,
+    "output_tokens_details": {
+      "reasoning_tokens": 141
+    },
+    "total_tokens": 3095
+  },
+  "success": true
+}

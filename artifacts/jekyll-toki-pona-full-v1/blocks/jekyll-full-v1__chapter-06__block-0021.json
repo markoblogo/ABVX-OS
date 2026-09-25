@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0021",
+  "sourceHash": "e055fbae056ff12bd47cc17662f8a0536fe771a5aa81a4448660f2f64fa678bc",
+  "source": "Utterson ALONE and in case of his predecease _to be destroyed unread_,” so it was emphatically superscribed; and the lawyer dreaded to behold the contents. “I have buried one friend to-day,” he thought: “what if this should cost me another?” And then he condemned the fear as a disloyalty, and broke the seal.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01c1f1047f488d66016ab42e18ebd887d28a2272bb032d64a5",
+      "visibleOutput": "TRANSLATION: “jan Utason taso o lukin e ni. jan Utason li moli lon tenpo open la, o pakala e lipu ni, o lukin ala e ona.” Nimi ni li lon selo lipu kepeken nasin wawa. jan Utason pi sona lawa li monsuta tan ni: ona o lukin e insa lipu. Ona li toki insa e ni: “tenpo suno ni la mi pana e sijelo pi jan pona wan lon anpa ma. lipu ni li weka e jan pona ante tan mi la seme?” taso ona li toki insa e ni: pilin monsuta ni li ike tawa jan pona ona. ni la ona li pakala e selo awen pi lipu.\nNOTES: NONE",
+      "translation": "“jan Utason taso o lukin e ni. jan Utason li moli lon tenpo open la, o pakala e lipu ni, o lukin ala e ona.” Nimi ni li lon selo lipu kepeken nasin wawa. jan Utason pi sona lawa li monsuta tan ni: ona o lukin e insa lipu. Ona li toki insa e ni: “tenpo suno ni la mi pana e sijelo pi jan pona wan lon anpa ma. lipu ni li weka e jan pona ante tan mi la seme?” taso ona li toki insa e ni: pilin monsuta ni li ike tawa jan pona ona. ni la ona li pakala e selo awen pi lipu.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 671,
+        "output_tokens_details": {
+          "reasoning_tokens": 498
+        },
+        "total_tokens": 3489
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01c1f1047f488d66016ab42e18ebd887d28a2272bb032d64a5",
+  "visibleOutput": "TRANSLATION: “jan Utason taso o lukin e ni. jan Utason li moli lon tenpo open la, o pakala e lipu ni, o lukin ala e ona.” Nimi ni li lon selo lipu kepeken nasin wawa. jan Utason pi sona lawa li monsuta tan ni: ona o lukin e insa lipu. Ona li toki insa e ni: “tenpo suno ni la mi pana e sijelo pi jan pona wan lon anpa ma. lipu ni li weka e jan pona ante tan mi la seme?” taso ona li toki insa e ni: pilin monsuta ni li ike tawa jan pona ona. ni la ona li pakala e selo awen pi lipu.\nNOTES: NONE",
+  "translation": "“jan Utason taso o lukin e ni. jan Utason li moli lon tenpo open la, o pakala e lipu ni, o lukin ala e ona.” Nimi ni li lon selo lipu kepeken nasin wawa. jan Utason pi sona lawa li monsuta tan ni: ona o lukin e insa lipu. Ona li toki insa e ni: “tenpo suno ni la mi pana e sijelo pi jan pona wan lon anpa ma. lipu ni li weka e jan pona ante tan mi la seme?” taso ona li toki insa e ni: pilin monsuta ni li ike tawa jan pona ona. ni la ona li pakala e selo awen pi lipu.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 671,
+    "output_tokens_details": {
+      "reasoning_tokens": 498
+    },
+    "total_tokens": 3489
+  },
+  "success": true
+}

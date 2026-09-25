@@ -1,0 +1,10 @@
+{
+  "apiCalls": 40,
+  "primaryAttempts": 40,
+  "retries": 0,
+  "inputTokens": 113379,
+  "cachedInputTokens": 0,
+  "outputTokens": 11841,
+  "reasoningTokens": 7210,
+  "visibleTranslationCharacters": 12003
+}

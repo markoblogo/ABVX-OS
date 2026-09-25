@@ -1,0 +1,18 @@
+{
+  "schema_version": "d14-discovery-snapshot-v1",
+  "book_id": "RN5-001",
+  "observed_at": "2026-09-21",
+  "marketplace": "amazon.com",
+  "listing": {"title":"Solar Proposal Decoder: A Homeowner's System for Comparing Quotes, Financing, Production Claims, Scope, and Warranties Before Signing","asin":"B0HJ3VVDK8","formats":["paperback"],"price_observed":{"paperback":"$15.99"},"publication_date":"2026-09-07","direct_listing":"indexed, in stock and shippable in sampled shopper context"},
+  "queries":[
+    {"query":"solar proposal comparison workbook","type":"DIRECT_PRODUCT","origin":"original product thesis / observed","result":"NOT_FOUND","depth":"only one irrelevant book result plus one out-of-print result","sponsored":"not meaningful for query"},
+    {"query":"compare solar quotes","type":"PROBLEM","origin":"buyer job","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"solar financing comparison","type":"PROBLEM","origin":"buyer job","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"home solar proposal questions","type":"PROBLEM","origin":"buyer job","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"solar buyer guide","type":"CATEGORY","origin":"category language","result":"UNKNOWN","depth":"not sampled"}
+  ],
+  "market":"likely primarily non-book/problem search. Direct product query produced no homeowner comparison shelf; broad direct-page/recommendation shelf skews off-grid DIY.",
+  "tile":{"title":"STRONG","cover":"ADEQUATE","value":"STRONG on product page but untested in a relevant result tile","price":"ADEQUATE below observed $19–30 DIY books","format":"ADEQUATE","differentiation":"STRONG but not attached to a demonstrated Amazon book query"},
+  "indexing":{"exact_title":"OBSERVED","major_query":"NOT_FOUND","category":"solar engineering","recommendations":"observed sponsored/related books were off-grid DIY; no buyer-proposal peer set surfaced"},
+  "limitations":["personalized authenticated amazon.com session","absence in one low-volume query cannot prove non-indexing","no impression/click data"]
+}

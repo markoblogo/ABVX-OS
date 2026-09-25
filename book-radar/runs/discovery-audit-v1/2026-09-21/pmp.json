@@ -1,0 +1,18 @@
+{
+  "schema_version": "d14-discovery-snapshot-v1",
+  "book_id": "PMP-2026-IN-A-NUTSHELL",
+  "observed_at": "2026-09-21",
+  "marketplace": "amazon.com",
+  "listing": {"title":"PMP 2026 in a Nutshell: A Plain-English Guide to the New PMP Exam, Project Management Fundamentals, and Whether PMP Is Right for You","asins":{"ebook":"B0HHTMHW3Z","paperback":"B0HHTQMBVR"},"formats":["Kindle","paperback"],"price_observed":{"Kindle":"$4.99","paperback":"$9.99"},"publication_date":"2026-09-04","direct_listing":"indexed; unavailable in this shopper/delivery context"},
+  "queries":[
+    {"query":"pmp 2026 guide","type":"DIRECT_PRODUCT","origin":"original radar query / observed","result":"NOT_FOUND","depth":"first 16 of 362","sponsored":"high"},
+    {"query":"pmp certification 2026","type":"CATEGORY","origin":"buyer language","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"should i get pmp certification","type":"PROBLEM","origin":"buyer job","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"pmp exam changes july 2026","type":"SOURCE_OR_TOPIC","origin":"product thesis","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"pmp for beginners","type":"AUDIENCE","origin":"buyer language","result":"UNKNOWN","depth":"not sampled"}
+  ],
+  "market":"saturated exam-prep shelf; sampled results promise practice questions, full exams and pass plans, not orientation",
+  "tile":{"title":"ADEQUATE","cover":"UNKNOWN","value":"WEAK in sampled search context because the non-prep distinction is not apparent alongside pass-prep promises","price":"STRONG low-end","format":"ADEQUATE","differentiation":"WEAK"},
+  "indexing":{"exact_title":"OBSERVED","major_query":"NOT_FOUND first 16","category":"PMP / project-management listings observed from direct page","recommendations":"no relevant organic surface observed; sponsored PMP density high"},
+  "limitations":["personalized authenticated amazon.com session","one sampled query does not establish all-query rank","retail availability is delivery-context dependent"]
+}

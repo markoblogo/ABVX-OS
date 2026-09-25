@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0025",
+  "sourceHash": "a0faa3e33eff182dc442ee82a83de3e265be4b43c702746ff6d4a7a515cdda89",
+  "source": "Twelve o’clock had scarce rung out over London, ere the knocker sounded very gently on the door. I went myself at the summons, and found a small man crouching against the pillars of the portico. “Are you come from Dr. Jekyll?” I asked.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bf9f8ae4f69c195016ab434c8091887d282b5979292848df7",
+      "visibleOutput": "TRANSLATION: tenpo pimeja la, ilo kalama li pini e kalama luka luka tu lon ma tomo Lantan. tenpo lili taso li tawa la, ilo kalama pi lupa tomo li kalama lili mute. mi sama li tawa lupa tan kalama ni. mi lukin e jan lili. ona li anpa lon poka pi palisa suli lon sinpin tomo. mi toki e ni: “sina kama tan jan Jekil pi sona sijelo anu seme?”\n\nNOTES: NONE",
+      "translation": "tenpo pimeja la, ilo kalama li pini e kalama luka luka tu lon ma tomo Lantan. tenpo lili taso li tawa la, ilo kalama pi lupa tomo li kalama lili mute. mi sama li tawa lupa tan kalama ni. mi lukin e jan lili. ona li anpa lon poka pi palisa suli lon sinpin tomo. mi toki e ni: “sina kama tan jan Jekil pi sona sijelo anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2809,
+        "input_tokens_details": {
+          "cache_write_tokens": 2806,
+          "cached_tokens": 0
+        },
+        "output_tokens": 116,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2925
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0bf9f8ae4f69c195016ab434c8091887d282b5979292848df7",
+  "visibleOutput": "TRANSLATION: tenpo pimeja la, ilo kalama li pini e kalama luka luka tu lon ma tomo Lantan. tenpo lili taso li tawa la, ilo kalama pi lupa tomo li kalama lili mute. mi sama li tawa lupa tan kalama ni. mi lukin e jan lili. ona li anpa lon poka pi palisa suli lon sinpin tomo. mi toki e ni: “sina kama tan jan Jekil pi sona sijelo anu seme?”\n\nNOTES: NONE",
+  "translation": "tenpo pimeja la, ilo kalama li pini e kalama luka luka tu lon ma tomo Lantan. tenpo lili taso li tawa la, ilo kalama pi lupa tomo li kalama lili mute. mi sama li tawa lupa tan kalama ni. mi lukin e jan lili. ona li anpa lon poka pi palisa suli lon sinpin tomo. mi toki e ni: “sina kama tan jan Jekil pi sona sijelo anu seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2809,
+    "input_tokens_details": {
+      "cache_write_tokens": 2806,
+      "cached_tokens": 0
+    },
+    "output_tokens": 116,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2925
+  },
+  "success": true
+}

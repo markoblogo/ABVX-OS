@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0063",
+  "sourceHash": "03d32d3d5bf34fb4a8be3c686f1ae71382cd9302a55a61d524b9448f895c5c84",
+  "source": "Jekyll (who was composite) now with the most sensitive apprehensions, now with a greedy gusto, projected and shared in the pleasures and adventures of Hyde; but Hyde was indifferent to Jekyll, or but remembered him as the mountain bandit remembers the cavern in which he conceals himself from pursuit. Jekyll had more than a father’s interest; Hyde had more than a son’s indifference.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0005",
+  "sourceHash": "a50f8420057dd858339d7af7867fb129ad8d10bd11ea788dbff33019caf5aa08",
+  "source": "A fire burned in the grate; a lamp was set lighted on the chimney shelf, for even in the houses the fog began to lie thickly; and there, close up to the warmth, sat Dr. Jekyll, looking deadly sick. He did not rise to meet his visitor, but held out a cold hand and bade him welcome in a changed voice.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00a4a9851c1e4571016ab42bba421087d2a7f0f38ae4bd3bf9",
+      "visibleOutput": "TRANSLATION: seli li lon insa pi poki seli. ilo suno li lon supa sewi pi nasin kon seli, li suno, tan ni: kon pimeja li open awen suli lon insa tomo kin. jan Jekil pi sona sijelo li awen monsi lon poka seli. lukin la, ike sijelo ona li suli mute, sama ni: ona li ken moli. ona li kama ala sewi tawa kama pi jan Utason. taso ona li pana e luka lete tawa ona, li toki kepeken kalama ante e ni: ona li kama pona.\nNOTES: “looking deadly sick” is preserved as observer-bound appearance, not confirmed mortal illness.",
+      "translation": "seli li lon insa pi poki seli. ilo suno li lon supa sewi pi nasin kon seli, li suno, tan ni: kon pimeja li open awen suli lon insa tomo kin. jan Jekil pi sona sijelo li awen monsi lon poka seli. lukin la, ike sijelo ona li suli mute, sama ni: ona li ken moli. ona li kama ala sewi tawa kama pi jan Utason. taso ona li pana e luka lete tawa ona, li toki kepeken kalama ante e ni: ona li kama pona.",
+      "notes": "“looking deadly sick” is preserved as observer-bound appearance, not confirmed mortal illness.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 160,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2981
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00a4a9851c1e4571016ab42bba421087d2a7f0f38ae4bd3bf9",
+  "visibleOutput": "TRANSLATION: seli li lon insa pi poki seli. ilo suno li lon supa sewi pi nasin kon seli, li suno, tan ni: kon pimeja li open awen suli lon insa tomo kin. jan Jekil pi sona sijelo li awen monsi lon poka seli. lukin la, ike sijelo ona li suli mute, sama ni: ona li ken moli. ona li kama ala sewi tawa kama pi jan Utason. taso ona li pana e luka lete tawa ona, li toki kepeken kalama ante e ni: ona li kama pona.\nNOTES: “looking deadly sick” is preserved as observer-bound appearance, not confirmed mortal illness.",
+  "translation": "seli li lon insa pi poki seli. ilo suno li lon supa sewi pi nasin kon seli, li suno, tan ni: kon pimeja li open awen suli lon insa tomo kin. jan Jekil pi sona sijelo li awen monsi lon poka seli. lukin la, ike sijelo ona li suli mute, sama ni: ona li ken moli. ona li kama ala sewi tawa kama pi jan Utason. taso ona li pana e luka lete tawa ona, li toki kepeken kalama ante e ni: ona li kama pona.",
+  "notes": "“looking deadly sick” is preserved as observer-bound appearance, not confirmed mortal illness.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2981
+  },
+  "success": true
+}

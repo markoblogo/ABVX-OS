@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0001",
+  "sourceHash": "80ae59e3333034f14a617de281a5a45b9f0649a1409631f352d002a55507a0a7",
+  "source": "Time ran on; thousands of pounds were offered in reward, for the death of Sir Danvers was resented as a public injury; but Mr. Hyde had disappeared out of the ken of the police as though he had never existed.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05b7f3a5a934169c016ab42d15b53487d2a012904c310d9858",
+      "visibleOutput": "TRANSLATION: tenpo li tawa. jan li toki e pana pi mani mute a lon alasa pi jan Hata, tan ni: moli pi jan Kewi li ike tawa jan mute sama pakala tawa kulupu ale. taso jan Hata li weka tan sona pi jan lawa, sama ni: ona li lon ala lon tenpo pini.\nNOTES: “Thousands of pounds” is compressed to “mani mute a”; the final clause remains a comparison, not a claim that Hyde never existed.",
+      "translation": "tenpo li tawa. jan li toki e pana pi mani mute a lon alasa pi jan Hata, tan ni: moli pi jan Kewi li ike tawa jan mute sama pakala tawa kulupu ale. taso jan Hata li weka tan sona pi jan lawa, sama ni: ona li lon ala lon tenpo pini.",
+      "notes": "“Thousands of pounds” is compressed to “mani mute a”; the final clause remains a comparison, not a claim that Hyde never existed.",
+      "usage": {
+        "input_tokens": 2799,
+        "input_tokens_details": {
+          "cache_write_tokens": 2796,
+          "cached_tokens": 0
+        },
+        "output_tokens": 631,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3430
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05b7f3a5a934169c016ab42d15b53487d2a012904c310d9858",
+  "visibleOutput": "TRANSLATION: tenpo li tawa. jan li toki e pana pi mani mute a lon alasa pi jan Hata, tan ni: moli pi jan Kewi li ike tawa jan mute sama pakala tawa kulupu ale. taso jan Hata li weka tan sona pi jan lawa, sama ni: ona li lon ala lon tenpo pini.\nNOTES: “Thousands of pounds” is compressed to “mani mute a”; the final clause remains a comparison, not a claim that Hyde never existed.",
+  "translation": "tenpo li tawa. jan li toki e pana pi mani mute a lon alasa pi jan Hata, tan ni: moli pi jan Kewi li ike tawa jan mute sama pakala tawa kulupu ale. taso jan Hata li weka tan sona pi jan lawa, sama ni: ona li lon ala lon tenpo pini.",
+  "notes": "“Thousands of pounds” is compressed to “mani mute a”; the final clause remains a comparison, not a claim that Hyde never existed.",
+  "usage": {
+    "input_tokens": 2799,
+    "input_tokens_details": {
+      "cache_write_tokens": 2796,
+      "cached_tokens": 0
+    },
+    "output_tokens": 631,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3430
+  },
+  "success": true
+}

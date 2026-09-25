@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0119",
+  "sourceHash": "84d7995219dc1c0144f6b90dc4cffb55cb54886382ae7a8e0a378cc7732369dc",
+  "source": "My provision of the salt, which had never been renewed since the date of the first experiment, began to run low. I sent out for a fresh supply, and mixed the draught; the ebullition followed, and the first change of colour, not the second; I drank it and it was without efficiency.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

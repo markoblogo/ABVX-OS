@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0061",
+  "sourceHash": "dce5f60f9c39d17a1f19ddd59511de1353a4ecd78a876bd248ca61c23d61f801",
+  "source": "Now, however, and in the light of that morning’s accident, I was led to remark that whereas, in the beginning, the difficulty had been to throw off the body of Jekyll, it had of late gradually but decidedly transferred itself to the other side.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

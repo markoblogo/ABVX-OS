@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0018",
+  "sourceHash": "709db9dee32e7e553949049a865cb6e2c032a279b8f152e19e057814eb0a5eff",
+  "source": "Well, sir, the two ran into one another naturally enough at the corner; and then came the horrible part of the thing; for the man trampled calmly over the child’s body and left her screaming on the ground. It sounds nothing to hear, but it was hellish to see. It wasn’t like a man; it was like some damned Juggernaut.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00b4aad71f84085b016ab42531622c87d296ff53e3b01c9e38",
+      "visibleOutput": "TRANSLATION: a, jan o, ona tu li kama wan lon nasin poka, kepeken nasin pi nasa ala. taso ijo monsuta li kama: jan ni li tawa anpa lon sijelo pi jan lili kepeken pilin ala, li weka tan ona. jan lili li awen lon ma, li kalama wawa. sina kute taso e toki ni la, ona li ken lukin lili. taso lukin e ni la, ona li ike monsuta mute. jan ni li sama jan ala; ona li sama ijo suli ike pi tawa awen, li pakala e ale lon nasin ona.\nNOTES: “Juggernaut” is rendered descriptively as an unstoppable, destructive thing; the comparison remains the speaker’s perception.",
+      "translation": "a, jan o, ona tu li kama wan lon nasin poka, kepeken nasin pi nasa ala. taso ijo monsuta li kama: jan ni li tawa anpa lon sijelo pi jan lili kepeken pilin ala, li weka tan ona. jan lili li awen lon ma, li kalama wawa. sina kute taso e toki ni la, ona li ken lukin lili. taso lukin e ni la, ona li ike monsuta mute. jan ni li sama jan ala; ona li sama ijo suli ike pi tawa awen, li pakala e ale lon nasin ona.",
+      "notes": "“Juggernaut” is rendered descriptively as an unstoppable, destructive thing; the comparison remains the speaker’s perception.",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 431,
+        "output_tokens_details": {
+          "reasoning_tokens": 255
+        },
+        "total_tokens": 3243
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00b4aad71f84085b016ab42531622c87d296ff53e3b01c9e38",
+  "visibleOutput": "TRANSLATION: a, jan o, ona tu li kama wan lon nasin poka, kepeken nasin pi nasa ala. taso ijo monsuta li kama: jan ni li tawa anpa lon sijelo pi jan lili kepeken pilin ala, li weka tan ona. jan lili li awen lon ma, li kalama wawa. sina kute taso e toki ni la, ona li ken lukin lili. taso lukin e ni la, ona li ike monsuta mute. jan ni li sama jan ala; ona li sama ijo suli ike pi tawa awen, li pakala e ale lon nasin ona.\nNOTES: “Juggernaut” is rendered descriptively as an unstoppable, destructive thing; the comparison remains the speaker’s perception.",
+  "translation": "a, jan o, ona tu li kama wan lon nasin poka, kepeken nasin pi nasa ala. taso ijo monsuta li kama: jan ni li tawa anpa lon sijelo pi jan lili kepeken pilin ala, li weka tan ona. jan lili li awen lon ma, li kalama wawa. sina kute taso e toki ni la, ona li ken lukin lili. taso lukin e ni la, ona li ike monsuta mute. jan ni li sama jan ala; ona li sama ijo suli ike pi tawa awen, li pakala e ale lon nasin ona.",
+  "notes": "“Juggernaut” is rendered descriptively as an unstoppable, destructive thing; the comparison remains the speaker’s perception.",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 431,
+    "output_tokens_details": {
+      "reasoning_tokens": 255
+    },
+    "total_tokens": 3243
+  },
+  "success": true
+}

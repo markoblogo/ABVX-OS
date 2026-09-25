@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0097",
+  "sourceHash": "cb5aef785f92da9572eb6071822638dd253f1c32cd7bb4509290e6ee2ce7db44",
+  "source": "Hyde in danger of his life was a creature new to me; shaken with inordinate anger, strung to the pitch of murder, lusting to inflict pain.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

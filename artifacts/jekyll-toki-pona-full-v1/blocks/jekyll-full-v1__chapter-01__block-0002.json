@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0002",
+  "sourceHash": "6ff849f1323af0bd31732fc4bbbb7125e8027a2c99272b5805f2b84feec09173",
+  "source": "At friendly meetings, and when the wine was to his taste, something eminently human beaconed from his eye; something indeed which never found its way into his talk, but which spoke not only in these silent symbols of the after-dinner face, but more often and loudly in the acts of his life.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e2d8435d1de09c1016ab42475e6e487d2bfec54cf1abf772b",
+      "visibleOutput": "TRANSLATION: lon kulupu pi jan pona, lon tenpo la telo nasa li pona tawa ona, pilin jan pi wawa suli li suno tan oko ona. pilin ni li kama ala lon toki ona. taso, ona li pana e pilin ni kepeken sitelen pi toki ala lon sinpin ona, lon tenpo moku pini. kin la, pali pi lon ona li pana e pilin ni lon tenpo mute, li pana e ona kepeken wawa suli.\nNOTES: “something eminently human” is rendered as a powerful human feeling without specifying its exact nature.",
+      "translation": "lon kulupu pi jan pona, lon tenpo la telo nasa li pona tawa ona, pilin jan pi wawa suli li suno tan oko ona. pilin ni li kama ala lon toki ona. taso, ona li pana e pilin ni kepeken sitelen pi toki ala lon sinpin ona, lon tenpo moku pini. kin la, pali pi lon ona li pana e pilin ni lon tenpo mute, li pana e ona kepeken wawa suli.",
+      "notes": "“something eminently human” is rendered as a powerful human feeling without specifying its exact nature.",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 206,
+        "output_tokens_details": {
+          "reasoning_tokens": 72
+        },
+        "total_tokens": 3004
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e2d8435d1de09c1016ab42475e6e487d2bfec54cf1abf772b",
+  "visibleOutput": "TRANSLATION: lon kulupu pi jan pona, lon tenpo la telo nasa li pona tawa ona, pilin jan pi wawa suli li suno tan oko ona. pilin ni li kama ala lon toki ona. taso, ona li pana e pilin ni kepeken sitelen pi toki ala lon sinpin ona, lon tenpo moku pini. kin la, pali pi lon ona li pana e pilin ni lon tenpo mute, li pana e ona kepeken wawa suli.\nNOTES: “something eminently human” is rendered as a powerful human feeling without specifying its exact nature.",
+  "translation": "lon kulupu pi jan pona, lon tenpo la telo nasa li pona tawa ona, pilin jan pi wawa suli li suno tan oko ona. pilin ni li kama ala lon toki ona. taso, ona li pana e pilin ni kepeken sitelen pi toki ala lon sinpin ona, lon tenpo moku pini. kin la, pali pi lon ona li pana e pilin ni lon tenpo mute, li pana e ona kepeken wawa suli.",
+  "notes": "“something eminently human” is rendered as a powerful human feeling without specifying its exact nature.",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 3004
+  },
+  "success": true
+}

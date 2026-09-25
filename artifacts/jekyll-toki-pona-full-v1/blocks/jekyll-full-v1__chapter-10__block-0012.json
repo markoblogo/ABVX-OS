@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0012",
+  "sourceHash": "339117ef306a538edf7c961101ed83fe8e62409fc96814bcdc0dee77deed170f",
+  "source": "If each, I told myself, could but be housed in separate identities, life would be relieved of all that was unbearable; the unjust might go his way, delivered from the aspirations and remorse of his more upright twin; and the just could walk steadfastly and securely on his upward path, doing the good things in which he found his pleasure, and no longer exposed to disgrace and penitence by the hands of this extraneous evil.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0561f74090244eda016ab436ebbc0c87d2b2e58f5a89d6d93d",
+      "visibleOutput": "TRANSLATION: mi toki insa e ni: nasin tu ni wan wan li ken lon jan ante la, lon mi li weka tan ijo ike ale pi mi ken ala awen lon ona. jan pi nasin ike li ken tawa lon nasin ona. wile pi kama pona en pilin ike tan pali ona, pi jan sama ona pi nasin pona, li ken ala pake e ona. jan pi nasin pona li ken tawa awen li ken tawa pona lon nasin ona pi kama sewi. ona li pali e ijo pona ni: pali pona li pana e pilin pona tawa ona. ike ante ni li ken ala pana sin e nimi ike e pilin ike pi wile pona tawa ona.\nNOTES: “separate identities” is rendered as each of the two ways existing in a different person; the whole passage remains Jekyll’s conditional inward thought.",
+      "translation": "mi toki insa e ni: nasin tu ni wan wan li ken lon jan ante la, lon mi li weka tan ijo ike ale pi mi ken ala awen lon ona. jan pi nasin ike li ken tawa lon nasin ona. wile pi kama pona en pilin ike tan pali ona, pi jan sama ona pi nasin pona, li ken ala pake e ona. jan pi nasin pona li ken tawa awen li ken tawa pona lon nasin ona pi kama sewi. ona li pali e ijo pona ni: pali pona li pana e pilin pona tawa ona. ike ante ni li ken ala pana sin e nimi ike e pilin ike pi wile pona tawa ona.",
+      "notes": "“separate identities” is rendered as each of the two ways existing in a different person; the whole passage remains Jekyll’s conditional inward thought.",
+      "usage": {
+        "input_tokens": 2832,
+        "input_tokens_details": {
+          "cache_write_tokens": 2829,
+          "cached_tokens": 0
+        },
+        "output_tokens": 711,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3543
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0561f74090244eda016ab436ebbc0c87d2b2e58f5a89d6d93d",
+  "visibleOutput": "TRANSLATION: mi toki insa e ni: nasin tu ni wan wan li ken lon jan ante la, lon mi li weka tan ijo ike ale pi mi ken ala awen lon ona. jan pi nasin ike li ken tawa lon nasin ona. wile pi kama pona en pilin ike tan pali ona, pi jan sama ona pi nasin pona, li ken ala pake e ona. jan pi nasin pona li ken tawa awen li ken tawa pona lon nasin ona pi kama sewi. ona li pali e ijo pona ni: pali pona li pana e pilin pona tawa ona. ike ante ni li ken ala pana sin e nimi ike e pilin ike pi wile pona tawa ona.\nNOTES: “separate identities” is rendered as each of the two ways existing in a different person; the whole passage remains Jekyll’s conditional inward thought.",
+  "translation": "mi toki insa e ni: nasin tu ni wan wan li ken lon jan ante la, lon mi li weka tan ijo ike ale pi mi ken ala awen lon ona. jan pi nasin ike li ken tawa lon nasin ona. wile pi kama pona en pilin ike tan pali ona, pi jan sama ona pi nasin pona, li ken ala pake e ona. jan pi nasin pona li ken tawa awen li ken tawa pona lon nasin ona pi kama sewi. ona li pali e ijo pona ni: pali pona li pana e pilin pona tawa ona. ike ante ni li ken ala pana sin e nimi ike e pilin ike pi wile pona tawa ona.",
+  "notes": "“separate identities” is rendered as each of the two ways existing in a different person; the whole passage remains Jekyll’s conditional inward thought.",
+  "usage": {
+    "input_tokens": 2832,
+    "input_tokens_details": {
+      "cache_write_tokens": 2829,
+      "cached_tokens": 0
+    },
+    "output_tokens": 711,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3543
+  },
+  "success": true
+}

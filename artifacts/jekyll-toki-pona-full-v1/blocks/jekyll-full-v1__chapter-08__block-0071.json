@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0071",
+  "sourceHash": "984e61b8f55373c19b93d24846ce106aac920248625136557e6a837ed00f5517",
+  "source": "Next, in the course of their review of the chamber, the searchers came to the cheval glass, into whose depths they looked with an involuntary horror. But it was so turned as to show them nothing but the rosy glow playing on the roof, the fire sparkling in a hundred repetitions along the glazed front of the presses, and their own pale and fearful countenances stooping to look in.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_052f919cf43da628016ab43269ba8887d2955231ef3b2575af",
+      "visibleOutput": "TRANSLATION: tenpo kama la, jan alasa li awen lukin e tomo insa. ona li kama lon ilo lukin suli, li lukin insa ona. pilin monsuta li kama lon ona, taso ona li wile ala e pilin ni. ilo lukin li lon nasin ni: ona li pana lukin taso e suno loje pona lon sewi tomo, e suno seli lili mute mute lon sinpin kiwen lukin pi poki suli, e sinpin walo pi ona sama. sinpin ona li jo e pilin monsuta, li anpa tawa lukin insa ilo.\nNOTES: “Cheval glass” is rendered descriptively as a large mirror; “presses” as large storage cabinets.",
+      "translation": "tenpo kama la, jan alasa li awen lukin e tomo insa. ona li kama lon ilo lukin suli, li lukin insa ona. pilin monsuta li kama lon ona, taso ona li wile ala e pilin ni. ilo lukin li lon nasin ni: ona li pana lukin taso e suno loje pona lon sewi tomo, e suno seli lili mute mute lon sinpin kiwen lukin pi poki suli, e sinpin walo pi ona sama. sinpin ona li jo e pilin monsuta, li anpa tawa lukin insa ilo.",
+      "notes": "“Cheval glass” is rendered descriptively as a large mirror; “presses” as large storage cabinets.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 460,
+        "output_tokens_details": {
+          "reasoning_tokens": 290
+        },
+        "total_tokens": 3275
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_052f919cf43da628016ab43269ba8887d2955231ef3b2575af",
+  "visibleOutput": "TRANSLATION: tenpo kama la, jan alasa li awen lukin e tomo insa. ona li kama lon ilo lukin suli, li lukin insa ona. pilin monsuta li kama lon ona, taso ona li wile ala e pilin ni. ilo lukin li lon nasin ni: ona li pana lukin taso e suno loje pona lon sewi tomo, e suno seli lili mute mute lon sinpin kiwen lukin pi poki suli, e sinpin walo pi ona sama. sinpin ona li jo e pilin monsuta, li anpa tawa lukin insa ilo.\nNOTES: “Cheval glass” is rendered descriptively as a large mirror; “presses” as large storage cabinets.",
+  "translation": "tenpo kama la, jan alasa li awen lukin e tomo insa. ona li kama lon ilo lukin suli, li lukin insa ona. pilin monsuta li kama lon ona, taso ona li wile ala e pilin ni. ilo lukin li lon nasin ni: ona li pana lukin taso e suno loje pona lon sewi tomo, e suno seli lili mute mute lon sinpin kiwen lukin pi poki suli, e sinpin walo pi ona sama. sinpin ona li jo e pilin monsuta, li anpa tawa lukin insa ilo.",
+  "notes": "“Cheval glass” is rendered descriptively as a large mirror; “presses” as large storage cabinets.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 460,
+    "output_tokens_details": {
+      "reasoning_tokens": 290
+    },
+    "total_tokens": 3275
+  },
+  "success": true
+}

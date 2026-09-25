@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0004",
+  "sourceHash": "d9f97b402c375cdc664955f8ef88fd541a6982fd6dca5e0f807b74b742cdfaa8",
+  "source": "Jekyll’s “disappearance or unexplained absence for any period exceeding three calendar months,” the said Edward Hyde should step into the said Henry Jekyll’s shoes without further delay and free from any burthen or obligation, beyond the payment of a few small sums to the members of the doctor’s household. This document had long been the lawyer’s eyesore.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_077c54c07a8bb16c016ab426a169d487d2aa1398ebc8fce793",
+      "visibleOutput": "TRANSLATION: jan Jekil li weka anu li lon ala, li toki ala tan seme, lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ale pi jan Jekil lon tenpo kama lili. pali ante pi ken jo ni li lon ala. taso ona o pana e mani lili mute ala tawa jan pi tomo pi jan Jekil. tenpo suli la, lipu lawa ni li ike tawa lukin pi jan Utason pi sona lawa.\nNOTES: “step into Jekyll’s shoes” is rendered as inheriting all that belongs to Jekyll, without implying identity.",
+      "translation": "jan Jekil li weka anu li lon ala, li toki ala tan seme, lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ale pi jan Jekil lon tenpo kama lili. pali ante pi ken jo ni li lon ala. taso ona o pana e mani lili mute ala tawa jan pi tomo pi jan Jekil. tenpo suli la, lipu lawa ni li ike tawa lukin pi jan Utason pi sona lawa.",
+      "notes": "“step into Jekyll’s shoes” is rendered as inheriting all that belongs to Jekyll, without implying identity.",
+      "usage": {
+        "input_tokens": 2822,
+        "input_tokens_details": {
+          "cache_write_tokens": 2819,
+          "cached_tokens": 0
+        },
+        "output_tokens": 236,
+        "output_tokens_details": {
+          "reasoning_tokens": 90
+        },
+        "total_tokens": 3058
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_077c54c07a8bb16c016ab426a169d487d2aa1398ebc8fce793",
+  "visibleOutput": "TRANSLATION: jan Jekil li weka anu li lon ala, li toki ala tan seme, lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ale pi jan Jekil lon tenpo kama lili. pali ante pi ken jo ni li lon ala. taso ona o pana e mani lili mute ala tawa jan pi tomo pi jan Jekil. tenpo suli la, lipu lawa ni li ike tawa lukin pi jan Utason pi sona lawa.\nNOTES: “step into Jekyll’s shoes” is rendered as inheriting all that belongs to Jekyll, without implying identity.",
+  "translation": "jan Jekil li weka anu li lon ala, li toki ala tan seme, lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ale pi jan Jekil lon tenpo kama lili. pali ante pi ken jo ni li lon ala. taso ona o pana e mani lili mute ala tawa jan pi tomo pi jan Jekil. tenpo suli la, lipu lawa ni li ike tawa lukin pi jan Utason pi sona lawa.",
+  "notes": "“step into Jekyll’s shoes” is rendered as inheriting all that belongs to Jekyll, without implying identity.",
+  "usage": {
+    "input_tokens": 2822,
+    "input_tokens_details": {
+      "cache_write_tokens": 2819,
+      "cached_tokens": 0
+    },
+    "output_tokens": 236,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 3058
+  },
+  "success": true
+}

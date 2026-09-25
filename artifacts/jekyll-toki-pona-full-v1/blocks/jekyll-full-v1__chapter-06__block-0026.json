@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0026",
+  "sourceHash": "aaad47ee5f40225d58a2ba06c440012160acba32a39731b87189fc1b0abc67a4",
+  "source": "He went to call indeed; but he was perhaps relieved to be denied admittance; perhaps, in his heart, he preferred to speak with Poole upon the doorstep and surrounded by the air and sounds of the open city, rather than to be admitted into that house of voluntary bondage, and to sit and speak with its inscrutable recluse. Poole had, indeed, no very pleasant news to communicate.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0635f038ce6b1eea016ab42e6aea4487d2ac4e48e69eaa8c88",
+      "visibleOutput": "TRANSLATION: jan Utason li tawa tomo ona lon nasin ni. taso ken la, ona li pilin pona lili tan ni: jan li pana ala e nasin tawa insa. ken la, lon pilin ona, ona li wile toki tawa jan Pulu lon sinpin lupa tomo, lon kon en kalama pi ma tomo open. ona li wile ala tawa insa pi tomo ni, tan ni: jan pi tomo li awen insa kepeken wile ona sama jan pini, li awen wan taso, la jan ante li ken ala sona e pilin ona. jan Pulu li jo ala e toki pona mute.\nNOTES: “voluntary bondage” and “inscrutable recluse” are rendered as narrator comparisons/descriptions without adding factual explanation.",
+      "translation": "jan Utason li tawa tomo ona lon nasin ni. taso ken la, ona li pilin pona lili tan ni: jan li pana ala e nasin tawa insa. ken la, lon pilin ona, ona li wile toki tawa jan Pulu lon sinpin lupa tomo, lon kon en kalama pi ma tomo open. ona li wile ala tawa insa pi tomo ni, tan ni: jan pi tomo li awen insa kepeken wile ona sama jan pini, li awen wan taso, la jan ante li ken ala sona e pilin ona. jan Pulu li jo ala e toki pona mute.",
+      "notes": "“voluntary bondage” and “inscrutable recluse” are rendered as narrator comparisons/descriptions without adding factual explanation.",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cache_write_tokens": 2820,
+          "cached_tokens": 0
+        },
+        "output_tokens": 221,
+        "output_tokens_details": {
+          "reasoning_tokens": 45
+        },
+        "total_tokens": 3044
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0635f038ce6b1eea016ab42e6aea4487d2ac4e48e69eaa8c88",
+  "visibleOutput": "TRANSLATION: jan Utason li tawa tomo ona lon nasin ni. taso ken la, ona li pilin pona lili tan ni: jan li pana ala e nasin tawa insa. ken la, lon pilin ona, ona li wile toki tawa jan Pulu lon sinpin lupa tomo, lon kon en kalama pi ma tomo open. ona li wile ala tawa insa pi tomo ni, tan ni: jan pi tomo li awen insa kepeken wile ona sama jan pini, li awen wan taso, la jan ante li ken ala sona e pilin ona. jan Pulu li jo ala e toki pona mute.\nNOTES: “voluntary bondage” and “inscrutable recluse” are rendered as narrator comparisons/descriptions without adding factual explanation.",
+  "translation": "jan Utason li tawa tomo ona lon nasin ni. taso ken la, ona li pilin pona lili tan ni: jan li pana ala e nasin tawa insa. ken la, lon pilin ona, ona li wile toki tawa jan Pulu lon sinpin lupa tomo, lon kon en kalama pi ma tomo open. ona li wile ala tawa insa pi tomo ni, tan ni: jan pi tomo li awen insa kepeken wile ona sama jan pini, li awen wan taso, la jan ante li ken ala sona e pilin ona. jan Pulu li jo ala e toki pona mute.",
+  "notes": "“voluntary bondage” and “inscrutable recluse” are rendered as narrator comparisons/descriptions without adding factual explanation.",
+  "usage": {
+    "input_tokens": 2823,
+    "input_tokens_details": {
+      "cache_write_tokens": 2820,
+      "cached_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 3044
+  },
+  "success": true
+}

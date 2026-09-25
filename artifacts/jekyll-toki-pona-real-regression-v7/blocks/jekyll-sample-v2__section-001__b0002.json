@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-001:b0002",
+  "sourceText": "**Source file:** `gutenberg-42-2026-09-21.txt`  \n**Selection:** Chapter II, *Search for Mr. Hyde*; Chapter VI, *Incident of the Letter*; Chapter VIII, *The Last Night*.  \n**Purpose:** tests a will, social/legal status, dialogue, uncertain inference, a letter, a laboratory/cabinet, and a fearful witness without using the final revelation.",
+  "sourceHash": "2c1e5205eac7233a8871e760c445fd12aa596382d566301b8ec3b3513db09cac",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02ebd91786ecbe6d016ab41d0889c887d2b5454268b63b6ce9",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: **lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.\nNOTES: NONE",
+      "translation": "**lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2866,
+        "input_tokens_details": {
+          "cache_write_tokens": 2863,
+          "cached_tokens": 0
+        },
+        "output_tokens": 445,
+        "output_tokens_details": {
+          "reasoning_tokens": 276
+        },
+        "total_tokens": 3311
+      },
+      "elapsedMs": 9817
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02ebd91786ecbe6d016ab41d0889c887d2b5454268b63b6ce9",
+  "visibleOutput": "TRANSLATION: **lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.\nNOTES: NONE",
+  "translation": "**lipu mama:** `gutenberg-42-2026-09-21.txt` **kipisi:** kipisi nanpa tu, *alasa pi jan Hata*; kipisi nanpa luka wan, *ijo pi lipu toki*; kipisi nanpa luka tu wan, *tenpo pimeja pini*. **pali wile:** ni li alasa pona e nasin ante toki pi lipu lawa, pi lon kulupu en lon lawa, pi toki jan, pi sona alasa pi ken taso, pi lipu toki, pi tomo pi pali sona en tomo insa pi jan Jekil, pi jan lukin li pilin monsuta. taso ni li kepeken ala sona sin pi pini.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2866,
+    "input_tokens_details": {
+      "cache_write_tokens": 2863,
+      "cached_tokens": 0
+    },
+    "output_tokens": 445,
+    "output_tokens_details": {
+      "reasoning_tokens": 276
+    },
+    "total_tokens": 3311
+  },
+  "success": true
+}

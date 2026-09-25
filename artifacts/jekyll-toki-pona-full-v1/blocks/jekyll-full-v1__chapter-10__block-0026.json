@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0026",
+  "sourceHash": "59abf7e2fed1b94231a2c8e9874a4c9bfcae8d5fa534eda22ef49407d671713f",
+  "source": "I crossed the yard, wherein the constellations looked down upon me, I could have thought, with wonder, the first creature of that sort that their unsleeping vigilance had yet disclosed to them; I stole through the corridors, a stranger in my own house; and coming to my room, I saw for the first time the appearance of Edward Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

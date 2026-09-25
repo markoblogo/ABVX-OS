@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0030",
+  "sourceHash": "72c9c9a438c126ae511a8ff29b8e828e573a150cda66f7cba35026c30c8f2b19",
+  "source": "This last, however, was not so easy of accomplishment; for Mr. Hyde had numbered few familiars—even the master of the servant-maid had only seen him twice; his family could nowhere be traced; he had never been photographed; and the few who could describe him differed widely, as common observers will. Only on one point, were they agreed; and that was the haunting sense of unexpressed deformity with which the fugitive impressed his beholders.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_050af561b8bdc79c016ab42b7f5df887d296e8c24560a5d024",
+      "visibleOutput": "TRANSLATION: taso pali ni li pona ala. jan Hata la, jan pi sona poka ona li lili. jan lawa pi meli pali li lukin e ona lon tenpo tu taso. jan li alasa sona e kulupu mama ona, taso li ken ala kama sona e ona lon ma ale. jan li pana ala e sitelen sama ona kepeken ilo sitelen. jan lili li ken toki e lukin ona, taso toki ona li ante mute sama toki pi jan lukin ante. taso ona ale li pilin sama lon ijo wan: jan weka ni li pana tawa jan lukin e pilin monsuta pi ante ike lon sijelo ona, taso jan li ken ala toki pona e ante ni.\nNOTES: “Deformity” is retained as an ineffable, observer-bound impression rather than an objective fact.",
+      "translation": "taso pali ni li pona ala. jan Hata la, jan pi sona poka ona li lili. jan lawa pi meli pali li lukin e ona lon tenpo tu taso. jan li alasa sona e kulupu mama ona, taso li ken ala kama sona e ona lon ma ale. jan li pana ala e sitelen sama ona kepeken ilo sitelen. jan lili li ken toki e lukin ona, taso toki ona li ante mute sama toki pi jan lukin ante. taso ona ale li pilin sama lon ijo wan: jan weka ni li pana tawa jan lukin e pilin monsuta pi ante ike lon sijelo ona, taso jan li ken ala toki pona e ante ni.",
+      "notes": "“Deformity” is retained as an ineffable, observer-bound impression rather than an objective fact.",
+      "usage": {
+        "input_tokens": 2841,
+        "input_tokens_details": {
+          "cache_write_tokens": 2838,
+          "cached_tokens": 0
+        },
+        "output_tokens": 370,
+        "output_tokens_details": {
+          "reasoning_tokens": 181
+        },
+        "total_tokens": 3211
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_050af561b8bdc79c016ab42b7f5df887d296e8c24560a5d024",
+  "visibleOutput": "TRANSLATION: taso pali ni li pona ala. jan Hata la, jan pi sona poka ona li lili. jan lawa pi meli pali li lukin e ona lon tenpo tu taso. jan li alasa sona e kulupu mama ona, taso li ken ala kama sona e ona lon ma ale. jan li pana ala e sitelen sama ona kepeken ilo sitelen. jan lili li ken toki e lukin ona, taso toki ona li ante mute sama toki pi jan lukin ante. taso ona ale li pilin sama lon ijo wan: jan weka ni li pana tawa jan lukin e pilin monsuta pi ante ike lon sijelo ona, taso jan li ken ala toki pona e ante ni.\nNOTES: “Deformity” is retained as an ineffable, observer-bound impression rather than an objective fact.",
+  "translation": "taso pali ni li pona ala. jan Hata la, jan pi sona poka ona li lili. jan lawa pi meli pali li lukin e ona lon tenpo tu taso. jan li alasa sona e kulupu mama ona, taso li ken ala kama sona e ona lon ma ale. jan li pana ala e sitelen sama ona kepeken ilo sitelen. jan lili li ken toki e lukin ona, taso toki ona li ante mute sama toki pi jan lukin ante. taso ona ale li pilin sama lon ijo wan: jan weka ni li pana tawa jan lukin e pilin monsuta pi ante ike lon sijelo ona, taso jan li ken ala toki pona e ante ni.",
+  "notes": "“Deformity” is retained as an ineffable, observer-bound impression rather than an objective fact.",
+  "usage": {
+    "input_tokens": 2841,
+    "input_tokens_details": {
+      "cache_write_tokens": 2838,
+      "cached_tokens": 0
+    },
+    "output_tokens": 370,
+    "output_tokens_details": {
+      "reasoning_tokens": 181
+    },
+    "total_tokens": 3211
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0071",
+  "sourceHash": "e91bcf312f6c8779895f5929299edb6278528b5a4c1b5bc2b181a480fe2ebe38",
+  "source": "Yet it was by these that I was punished. My devil had been long caged, he came out roaring. I was conscious, even when I took the draught, of a more unbridled, a more furious propensity to ill.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

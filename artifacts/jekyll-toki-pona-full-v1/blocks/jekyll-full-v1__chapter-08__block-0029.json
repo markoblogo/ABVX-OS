@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0029",
+  "sourceHash": "fa8c98fee8960fec47ffac4bb3b44a3bd35426123ea1baeb8d5b3be73145f29a",
+  "source": "“The man at Maw’s was main angry, sir, and he threw it back to me like so much dirt,” returned Poole. “This is unquestionably the doctor’s hand, do you know?” resumed the lawyer. “I thought it looked like it,” said the servant rather sulkily; and then, with another voice, “But what matters hand-of-write?” he said. “I’ve seen him!” “Seen him?” repeated Mr. Utterson. “Well?” “That’s it!” said Poole.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f9ac85cf265fd51016ab4308a2a8087d2967d059153d75653",
+      "visibleOutput": "TRANSLATION: jan Pulu li toki sin: “jan lon tomo pi jan Mo li pilin utala mute, jan lawa. ona li weka pana e ona tawa mi sama jaki.” jan Utason pi sona lawa li toki sin: “sina sona ala sona? nasin sitelen ni li nasin sitelen pi jan Jekil lon nasin pi ken ala ante.” jan pi tomo li toki kepeken pilin ike lili: “mi pilin e ni: ona li lukin sama nasin sitelen ona.” taso kalama toki ona li ante, li toki: “taso nasin sitelen li suli tan seme?” ona li toki: “mi lukin e ona!” jan Utason li toki sin: “sina lukin e ona?” ona li toki: “seme li kama?” jan Pulu li toki: “ni a!”\nNOTES: “ona” in “mi lukin e ona” remains deliberately unidentified, matching the source’s knowledge boundary.",
+      "translation": "jan Pulu li toki sin: “jan lon tomo pi jan Mo li pilin utala mute, jan lawa. ona li weka pana e ona tawa mi sama jaki.” jan Utason pi sona lawa li toki sin: “sina sona ala sona? nasin sitelen ni li nasin sitelen pi jan Jekil lon nasin pi ken ala ante.” jan pi tomo li toki kepeken pilin ike lili: “mi pilin e ni: ona li lukin sama nasin sitelen ona.” taso kalama toki ona li ante, li toki: “taso nasin sitelen li suli tan seme?” ona li toki: “mi lukin e ona!” jan Utason li toki sin: “sina lukin e ona?” ona li toki: “seme li kama?” jan Pulu li toki: “ni a!”",
+      "notes": "“ona” in “mi lukin e ona” remains deliberately unidentified, matching the source’s knowledge boundary.",
+      "usage": {
+        "input_tokens": 2841,
+        "input_tokens_details": {
+          "cache_write_tokens": 2838,
+          "cached_tokens": 0
+        },
+        "output_tokens": 322,
+        "output_tokens_details": {
+          "reasoning_tokens": 107
+        },
+        "total_tokens": 3163
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f9ac85cf265fd51016ab4308a2a8087d2967d059153d75653",
+  "visibleOutput": "TRANSLATION: jan Pulu li toki sin: “jan lon tomo pi jan Mo li pilin utala mute, jan lawa. ona li weka pana e ona tawa mi sama jaki.” jan Utason pi sona lawa li toki sin: “sina sona ala sona? nasin sitelen ni li nasin sitelen pi jan Jekil lon nasin pi ken ala ante.” jan pi tomo li toki kepeken pilin ike lili: “mi pilin e ni: ona li lukin sama nasin sitelen ona.” taso kalama toki ona li ante, li toki: “taso nasin sitelen li suli tan seme?” ona li toki: “mi lukin e ona!” jan Utason li toki sin: “sina lukin e ona?” ona li toki: “seme li kama?” jan Pulu li toki: “ni a!”\nNOTES: “ona” in “mi lukin e ona” remains deliberately unidentified, matching the source’s knowledge boundary.",
+  "translation": "jan Pulu li toki sin: “jan lon tomo pi jan Mo li pilin utala mute, jan lawa. ona li weka pana e ona tawa mi sama jaki.” jan Utason pi sona lawa li toki sin: “sina sona ala sona? nasin sitelen ni li nasin sitelen pi jan Jekil lon nasin pi ken ala ante.” jan pi tomo li toki kepeken pilin ike lili: “mi pilin e ni: ona li lukin sama nasin sitelen ona.” taso kalama toki ona li ante, li toki: “taso nasin sitelen li suli tan seme?” ona li toki: “mi lukin e ona!” jan Utason li toki sin: “sina lukin e ona?” ona li toki: “seme li kama?” jan Pulu li toki: “ni a!”",
+  "notes": "“ona” in “mi lukin e ona” remains deliberately unidentified, matching the source’s knowledge boundary.",
+  "usage": {
+    "input_tokens": 2841,
+    "input_tokens_details": {
+      "cache_write_tokens": 2838,
+      "cached_tokens": 0
+    },
+    "output_tokens": 322,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 3163
+  },
+  "success": true
+}

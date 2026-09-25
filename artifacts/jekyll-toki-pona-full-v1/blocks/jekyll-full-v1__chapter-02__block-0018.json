@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0018",
+  "sourceHash": "06472ecc240c0fe00cbc63910b92c7ddb76ed37b9aed14d55a5c229ec1205081",
+  "source": "The figure in these two phases haunted the lawyer all night; and if at any time he dozed over, it was but to see it glide more stealthily through sleeping houses, or move the more swiftly and still the more swiftly, even to dizziness, through wider labyrinths of lamplighted city, and at every street-corner crush a child and leave her screaming.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_085b4ae666e665ba016ab42749627887d2b146502fb206703a",
+      "visibleOutput": "TRANSLATION: sitelen pi jan ni lon nasin tu ni li awen lon lawa pi jan Utason lon tenpo pimeja ale. ona li lape lili la, lon lape ona taso, ona li lukin e ni: jan ni li tawa pi kalama ala lon tomo pi jan lape, anu la ona li tawa wawa, li tawa wawa mute a, lon nasin mute suli pi ma tomo pi suno ilo, li nasa e lawa. lon poka nasin ale la, jan ni li anpa pakala e jan lili kepeken noka, li weka tan ona; jan lili li awen kalama wawa.\nNOTES: “haunted” is rendered as persistent mental imagery; the trampling remains explicitly within Utterson’s dream.",
+      "translation": "sitelen pi jan ni lon nasin tu ni li awen lon lawa pi jan Utason lon tenpo pimeja ale. ona li lape lili la, lon lape ona taso, ona li lukin e ni: jan ni li tawa pi kalama ala lon tomo pi jan lape, anu la ona li tawa wawa, li tawa wawa mute a, lon nasin mute suli pi ma tomo pi suno ilo, li nasa e lawa. lon poka nasin ale la, jan ni li anpa pakala e jan lili kepeken noka, li weka tan ona; jan lili li awen kalama wawa.",
+      "notes": "“haunted” is rendered as persistent mental imagery; the trampling remains explicitly within Utterson’s dream.",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 693,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3505
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_085b4ae666e665ba016ab42749627887d2b146502fb206703a",
+  "visibleOutput": "TRANSLATION: sitelen pi jan ni lon nasin tu ni li awen lon lawa pi jan Utason lon tenpo pimeja ale. ona li lape lili la, lon lape ona taso, ona li lukin e ni: jan ni li tawa pi kalama ala lon tomo pi jan lape, anu la ona li tawa wawa, li tawa wawa mute a, lon nasin mute suli pi ma tomo pi suno ilo, li nasa e lawa. lon poka nasin ale la, jan ni li anpa pakala e jan lili kepeken noka, li weka tan ona; jan lili li awen kalama wawa.\nNOTES: “haunted” is rendered as persistent mental imagery; the trampling remains explicitly within Utterson’s dream.",
+  "translation": "sitelen pi jan ni lon nasin tu ni li awen lon lawa pi jan Utason lon tenpo pimeja ale. ona li lape lili la, lon lape ona taso, ona li lukin e ni: jan ni li tawa pi kalama ala lon tomo pi jan lape, anu la ona li tawa wawa, li tawa wawa mute a, lon nasin mute suli pi ma tomo pi suno ilo, li nasa e lawa. lon poka nasin ale la, jan ni li anpa pakala e jan lili kepeken noka, li weka tan ona; jan lili li awen kalama wawa.",
+  "notes": "“haunted” is rendered as persistent mental imagery; the trampling remains explicitly within Utterson’s dream.",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 693,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3505
+  },
+  "success": true
+}

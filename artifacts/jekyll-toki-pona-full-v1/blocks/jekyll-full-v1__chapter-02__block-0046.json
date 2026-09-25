@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0046",
+  "sourceHash": "327bc003f44f867674a6425d85ca78eca95491da9722b60d90d454fcfb136d0a",
+  "source": "“O, dear no, sir. He never _dines_ here,” replied the butler. “Indeed we see very little of him on this side of the house; he mostly comes and goes by the laboratory.” “Well, good-night, Poole.” “Good-night, Mr. Utterson.” And the lawyer set out homeward with a very heavy heart. “Poor Harry Jekyll,” he thought, “my mind misgives me he is in deep waters!",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c0553469949e2bb016ab428c27fac87d2a9ef44bbe34d603c",
+      "visibleOutput": "TRANSLATION: “a, ala, jan Utason o. ona li moku ala lon tomo ni,” jan Pulu li toki. “lon la, mi mute li lukin lili taso e ona lon poka ni pi tomo. tenpo mute la, ona li kama li tawa kepeken tomo pi pali sona.” “pona. tenpo pimeja pona, jan Pulu o.” “tenpo pimeja pona, jan Utason o.” jan Utason pi sona lawa li tawa tomo ona. pilin ona li ike mute. ona li toki insa e ni: “jan Jekil pakala a! pilin mi la, ona li lon ike suli!”\n\nNOTES: “Deep waters” is rendered as Utterson’s worried inference, not as narrator fact.",
+      "translation": "“a, ala, jan Utason o. ona li moku ala lon tomo ni,” jan Pulu li toki. “lon la, mi mute li lukin lili taso e ona lon poka ni pi tomo. tenpo mute la, ona li kama li tawa kepeken tomo pi pali sona.” “pona. tenpo pimeja pona, jan Pulu o.” “tenpo pimeja pona, jan Utason o.” jan Utason pi sona lawa li tawa tomo ona. pilin ona li ike mute. ona li toki insa e ni: “jan Jekil pakala a! pilin mi la, ona li lon ike suli!”",
+      "notes": "“Deep waters” is rendered as Utterson’s worried inference, not as narrator fact.",
+      "usage": {
+        "input_tokens": 2847,
+        "input_tokens_details": {
+          "cache_write_tokens": 2844,
+          "cached_tokens": 0
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "total_tokens": 3124
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c0553469949e2bb016ab428c27fac87d2a9ef44bbe34d603c",
+  "visibleOutput": "TRANSLATION: “a, ala, jan Utason o. ona li moku ala lon tomo ni,” jan Pulu li toki. “lon la, mi mute li lukin lili taso e ona lon poka ni pi tomo. tenpo mute la, ona li kama li tawa kepeken tomo pi pali sona.” “pona. tenpo pimeja pona, jan Pulu o.” “tenpo pimeja pona, jan Utason o.” jan Utason pi sona lawa li tawa tomo ona. pilin ona li ike mute. ona li toki insa e ni: “jan Jekil pakala a! pilin mi la, ona li lon ike suli!”\n\nNOTES: “Deep waters” is rendered as Utterson’s worried inference, not as narrator fact.",
+  "translation": "“a, ala, jan Utason o. ona li moku ala lon tomo ni,” jan Pulu li toki. “lon la, mi mute li lukin lili taso e ona lon poka ni pi tomo. tenpo mute la, ona li kama li tawa kepeken tomo pi pali sona.” “pona. tenpo pimeja pona, jan Pulu o.” “tenpo pimeja pona, jan Utason o.” jan Utason pi sona lawa li tawa tomo ona. pilin ona li ike mute. ona li toki insa e ni: “jan Jekil pakala a! pilin mi la, ona li lon ike suli!”",
+  "notes": "“Deep waters” is rendered as Utterson’s worried inference, not as narrator fact.",
+  "usage": {
+    "input_tokens": 2847,
+    "input_tokens_details": {
+      "cache_write_tokens": 2844,
+      "cached_tokens": 0
+    },
+    "output_tokens": 277,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 3124
+  },
+  "success": true
+}

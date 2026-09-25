@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0001",
+  "sourceHash": "a2523c88a81dc65e325025171f0157831610826ecb723d755ad4cb16b67064f1",
+  "source": "On the ninth of January, now four days ago, I received by the evening delivery a registered envelope, addressed in the hand of my colleague and old school-companion, Henry Jekyll.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_065869993d3f8e84016ab432fc54d887d2964891ee9f3b6e0a",
+      "visibleOutput": "TRANSLATION: tenpo suno tu tu pini, lon tenpo suno nanpa luka tu tu pi mun nanpa wan la, mi kama jo lon pana lipu pi tenpo pimeja e poki lipu pi nasin pana lawa. sitelen lon poki li toki e tomo mi, li sitelen luka pi jan Jekil. ona li jan pali poka mi, li jan kama sona poka mi lon tenpo pi kama sona pini.\nNOTES: “registered envelope” is compressed as an envelope sent by an official recorded method.",
+      "translation": "tenpo suno tu tu pini, lon tenpo suno nanpa luka tu tu pi mun nanpa wan la, mi kama jo lon pana lipu pi tenpo pimeja e poki lipu pi nasin pana lawa. sitelen lon poki li toki e tomo mi, li sitelen luka pi jan Jekil. ona li jan pali poka mi, li jan kama sona poka mi lon tenpo pi kama sona pini.",
+      "notes": "“registered envelope” is compressed as an envelope sent by an official recorded method.",
+      "usage": {
+        "input_tokens": 2790,
+        "input_tokens_details": {
+          "cache_write_tokens": 2787,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1015,
+        "output_tokens_details": {
+          "reasoning_tokens": 895
+        },
+        "total_tokens": 3805
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_065869993d3f8e84016ab432fc54d887d2964891ee9f3b6e0a",
+  "visibleOutput": "TRANSLATION: tenpo suno tu tu pini, lon tenpo suno nanpa luka tu tu pi mun nanpa wan la, mi kama jo lon pana lipu pi tenpo pimeja e poki lipu pi nasin pana lawa. sitelen lon poki li toki e tomo mi, li sitelen luka pi jan Jekil. ona li jan pali poka mi, li jan kama sona poka mi lon tenpo pi kama sona pini.\nNOTES: “registered envelope” is compressed as an envelope sent by an official recorded method.",
+  "translation": "tenpo suno tu tu pini, lon tenpo suno nanpa luka tu tu pi mun nanpa wan la, mi kama jo lon pana lipu pi tenpo pimeja e poki lipu pi nasin pana lawa. sitelen lon poki li toki e tomo mi, li sitelen luka pi jan Jekil. ona li jan pali poka mi, li jan kama sona poka mi lon tenpo pi kama sona pini.",
+  "notes": "“registered envelope” is compressed as an envelope sent by an official recorded method.",
+  "usage": {
+    "input_tokens": 2790,
+    "input_tokens_details": {
+      "cache_write_tokens": 2787,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1015,
+    "output_tokens_details": {
+      "reasoning_tokens": 895
+    },
+    "total_tokens": 3805
+  },
+  "success": true
+}

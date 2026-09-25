@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0021",
+  "sourceText": "“One word,” said the lawyer. “Carew was my client, but so are you, and I want to know what I am doing. You have not been mad enough to hide this fellow?”",
+  "sourceHash": "3104cfa904a75ecbfbc66eacaae91df312ae6130b332797cdccd0f89bc02762e",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0124eb5357040303016ab41dd618b087d2a67afc1239dd4c45",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”\nNOTES: NONE",
+      "translation": "“toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2811,
+        "input_tokens_details": {
+          "cache_write_tokens": 2808,
+          "cached_tokens": 0
+        },
+        "output_tokens": 592,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3403
+      },
+      "elapsedMs": 18228
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0124eb5357040303016ab41dd618b087d2a67afc1239dd4c45",
+  "visibleOutput": "TRANSLATION: “toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”\nNOTES: NONE",
+  "translation": "“toki wan taso,” jan pi sona lawa li toki. “tenpo pini la jan Kewi li jan pi pana mani tawa mi. sina kin li sama. mi wile sona e pali mi. sina nasa mute ala la, sina len ala e jan ni, anu seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2811,
+    "input_tokens_details": {
+      "cache_write_tokens": 2808,
+      "cached_tokens": 0
+    },
+    "output_tokens": 592,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3403
+  },
+  "success": true
+}

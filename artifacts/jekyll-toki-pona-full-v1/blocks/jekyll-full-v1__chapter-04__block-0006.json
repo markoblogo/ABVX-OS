@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0006",
+  "sourceHash": "3d86eead8ddf309cf763318c12cabf2c1bdb57c47c39f3ec60e69ffa5eae57a8",
+  "source": "Presently her eye wandered to the other, and she was surprised to recognise in him a certain Mr. Hyde, who had once visited her master and for whom she had conceived a dislike. He had in his hand a heavy cane, with which he was trifling; but he answered never a word, and seemed to listen with an ill-contained impatience.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_071d5ed3460b708d016ab42a2c0f2487d2b54a4eb603ac473a",
+      "visibleOutput": "TRANSLATION: tenpo lili la, ona li lukin e jan ante. ona li sona sin e jan ni la, ona li kama pilin nasa: jan ni li jan Hata. tenpo pini la, jan Hata li kama lukin e jan lawa ona lon tenpo wan, li kama ike tawa ona. palisa tawa suli li lon luka pi jan Hata, li musi lili kepeken palisa ni. taso jan Hata li toki ala. lukin la, ona li kute, taso ona li ken ala len pona e pilin pi wile ala awen.\nNOTES: “seemed” is preserved with “lukin la”; the woman’s dislike remains her own feeling.",
+      "translation": "tenpo lili la, ona li lukin e jan ante. ona li sona sin e jan ni la, ona li kama pilin nasa: jan ni li jan Hata. tenpo pini la, jan Hata li kama lukin e jan lawa ona lon tenpo wan, li kama ike tawa ona. palisa tawa suli li lon luka pi jan Hata, li musi lili kepeken palisa ni. taso jan Hata li toki ala. lukin la, ona li kute, taso ona li ken ala len pona e pilin pi wile ala awen.",
+      "notes": "“seemed” is preserved with “lukin la”; the woman’s dislike remains her own feeling.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 574,
+        "output_tokens_details": {
+          "reasoning_tokens": 415
+        },
+        "total_tokens": 3395
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_071d5ed3460b708d016ab42a2c0f2487d2b54a4eb603ac473a",
+  "visibleOutput": "TRANSLATION: tenpo lili la, ona li lukin e jan ante. ona li sona sin e jan ni la, ona li kama pilin nasa: jan ni li jan Hata. tenpo pini la, jan Hata li kama lukin e jan lawa ona lon tenpo wan, li kama ike tawa ona. palisa tawa suli li lon luka pi jan Hata, li musi lili kepeken palisa ni. taso jan Hata li toki ala. lukin la, ona li kute, taso ona li ken ala len pona e pilin pi wile ala awen.\nNOTES: “seemed” is preserved with “lukin la”; the woman’s dislike remains her own feeling.",
+  "translation": "tenpo lili la, ona li lukin e jan ante. ona li sona sin e jan ni la, ona li kama pilin nasa: jan ni li jan Hata. tenpo pini la, jan Hata li kama lukin e jan lawa ona lon tenpo wan, li kama ike tawa ona. palisa tawa suli li lon luka pi jan Hata, li musi lili kepeken palisa ni. taso jan Hata li toki ala. lukin la, ona li kute, taso ona li ken ala len pona e pilin pi wile ala awen.",
+  "notes": "“seemed” is preserved with “lukin la”; the woman’s dislike remains her own feeling.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 574,
+    "output_tokens_details": {
+      "reasoning_tokens": 415
+    },
+    "total_tokens": 3395
+  },
+  "success": true
+}

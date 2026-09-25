@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0080",
+  "sourceHash": "1dc330c0712b923ad882078bb956155a99c328d1f1928ee6ad10c886d720eaf4",
+  "source": "Hyde was thenceforth impossible; whether I would or not, I was now confined to the better part of my existence; and oh, how I rejoiced to think it! with what willing humility, I embraced anew the restrictions of natural life! with what sincere renunciation, I locked the door by which I had so often gone and come, and ground the key under my heel!",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

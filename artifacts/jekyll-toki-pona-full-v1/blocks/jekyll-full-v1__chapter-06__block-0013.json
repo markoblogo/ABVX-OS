@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0013",
+  "sourceHash": "283191f1259b0b9eea1895ae15411cf3230a79d22fd566c2beeee62175459e46",
+  "source": "“Tut-tut,” said Mr. Utterson; and then after a considerable pause, “Can’t I do anything?” he inquired. “We are three very old friends, Lanyon; we shall not live to make others.” “Nothing can be done,” returned Lanyon; “ask himself.” “He will not see me,” said the lawyer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03ba8add9f0531fe016ab42dbb359887d2a52041ad218144af",
+      "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “a, a.” tenpo suli lili li pini la, ona li wile sona e ni: “mi ken ala pali e ijo anu seme? jan Lanjon o, mi mute tu wan li jan pona tan tenpo pini mute. mi mute li ken ala awen lon tenpo pi kama jo e jan pona ante.” jan Lanjon li toki e ni: “jan li ken pali e ala. o wile sona tan jan Jekil.” jan Utason pi sona lawa li toki e ni: “jan Jekil li wile ala lukin e mi.”\nNOTES: NONE",
+      "translation": "jan Utason li toki e ni: “a, a.” tenpo suli lili li pini la, ona li wile sona e ni: “mi ken ala pali e ijo anu seme? jan Lanjon o, mi mute tu wan li jan pona tan tenpo pini mute. mi mute li ken ala awen lon tenpo pi kama jo e jan pona ante.” jan Lanjon li toki e ni: “jan li ken pali e ala. o wile sona tan jan Jekil.” jan Utason pi sona lawa li toki e ni: “jan Jekil li wile ala lukin e mi.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 238,
+        "output_tokens_details": {
+          "reasoning_tokens": 95
+        },
+        "total_tokens": 3064
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03ba8add9f0531fe016ab42dbb359887d2a52041ad218144af",
+  "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “a, a.” tenpo suli lili li pini la, ona li wile sona e ni: “mi ken ala pali e ijo anu seme? jan Lanjon o, mi mute tu wan li jan pona tan tenpo pini mute. mi mute li ken ala awen lon tenpo pi kama jo e jan pona ante.” jan Lanjon li toki e ni: “jan li ken pali e ala. o wile sona tan jan Jekil.” jan Utason pi sona lawa li toki e ni: “jan Jekil li wile ala lukin e mi.”\nNOTES: NONE",
+  "translation": "jan Utason li toki e ni: “a, a.” tenpo suli lili li pini la, ona li wile sona e ni: “mi ken ala pali e ijo anu seme? jan Lanjon o, mi mute tu wan li jan pona tan tenpo pini mute. mi mute li ken ala awen lon tenpo pi kama jo e jan pona ante.” jan Lanjon li toki e ni: “jan li ken pali e ala. o wile sona tan jan Jekil.” jan Utason pi sona lawa li toki e ni: “jan Jekil li wile ala lukin e mi.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 238,
+    "output_tokens_details": {
+      "reasoning_tokens": 95
+    },
+    "total_tokens": 3064
+  },
+  "success": true
+}

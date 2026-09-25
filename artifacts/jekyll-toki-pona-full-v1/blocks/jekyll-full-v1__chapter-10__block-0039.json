@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0039",
+  "sourceHash": "af92df04a35c6bc40a22809d966cb3da48372e4153ba127e52338dadae2368e0",
+  "source": "Hyde (whom I described) was to have full liberty and power about my house in the square; and to parry mishaps, I even called and made myself a familiar object, in my second character. I next drew up that will to which you so much objected; so that if anything befell me in the person of Dr. Jekyll, I could enter on that of Edward Hyde without pecuniary loss.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

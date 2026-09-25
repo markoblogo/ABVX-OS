@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0066",
+  "sourceHash": "8693a8f080f8b90c017317e2211346c91644afdf28cfeb670c1b5cd38405df5f",
+  "source": "Poole stamped on the flags of the corridor. “He must be buried here,” he said, hearkening to the sound. “Or he may have fled,” said Utterson, and he turned to examine the door in the by-street. It was locked; and lying near by on the flags, they found the key, already stained with rust. “This does not look like use,” observed the lawyer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_078f0e34d3fd5191016ab432319af487d29851f1cb8ac13083",
+      "visibleOutput": "TRANSLATION: jan Pulu li pana wawa e noka ona lon supa kiwen pi nasin insa. ona li kute e kalama, li toki e ni: “sona mi la, ona li lon anpa ma lon ni.” jan Utason li toki e ni: “anu la, ona li ken weka tan ni.” ona li kama lukin sona e lupa lon poka tomo, lon nasin lili. lupa li pini kepeken ilo open. poka lili la, lon supa kiwen, ona mute li kama lukin e ilo open. jaki loje pi tenpo mute li lon ona. jan pi sona lawa li toki e ni: “lukin la, jan li kepeken ala e ilo ni.”\nNOTES: “Must be buried” remains Poole’s inference from the sound; “may have fled” remains Utterson’s possibility.",
+      "translation": "jan Pulu li pana wawa e noka ona lon supa kiwen pi nasin insa. ona li kute e kalama, li toki e ni: “sona mi la, ona li lon anpa ma lon ni.” jan Utason li toki e ni: “anu la, ona li ken weka tan ni.” ona li kama lukin sona e lupa lon poka tomo, lon nasin lili. lupa li pini kepeken ilo open. poka lili la, lon supa kiwen, ona mute li kama lukin e ilo open. jaki loje pi tenpo mute li lon ona. jan pi sona lawa li toki e ni: “lukin la, jan li kepeken ala e ilo ni.”",
+      "notes": "“Must be buried” remains Poole’s inference from the sound; “may have fled” remains Utterson’s possibility.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 409,
+        "output_tokens_details": {
+          "reasoning_tokens": 218
+        },
+        "total_tokens": 3229
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_078f0e34d3fd5191016ab432319af487d29851f1cb8ac13083",
+  "visibleOutput": "TRANSLATION: jan Pulu li pana wawa e noka ona lon supa kiwen pi nasin insa. ona li kute e kalama, li toki e ni: “sona mi la, ona li lon anpa ma lon ni.” jan Utason li toki e ni: “anu la, ona li ken weka tan ni.” ona li kama lukin sona e lupa lon poka tomo, lon nasin lili. lupa li pini kepeken ilo open. poka lili la, lon supa kiwen, ona mute li kama lukin e ilo open. jaki loje pi tenpo mute li lon ona. jan pi sona lawa li toki e ni: “lukin la, jan li kepeken ala e ilo ni.”\nNOTES: “Must be buried” remains Poole’s inference from the sound; “may have fled” remains Utterson’s possibility.",
+  "translation": "jan Pulu li pana wawa e noka ona lon supa kiwen pi nasin insa. ona li kute e kalama, li toki e ni: “sona mi la, ona li lon anpa ma lon ni.” jan Utason li toki e ni: “anu la, ona li ken weka tan ni.” ona li kama lukin sona e lupa lon poka tomo, lon nasin lili. lupa li pini kepeken ilo open. poka lili la, lon supa kiwen, ona mute li kama lukin e ilo open. jaki loje pi tenpo mute li lon ona. jan pi sona lawa li toki e ni: “lukin la, jan li kepeken ala e ilo ni.”",
+  "notes": "“Must be buried” remains Poole’s inference from the sound; “may have fled” remains Utterson’s possibility.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 409,
+    "output_tokens_details": {
+      "reasoning_tokens": 218
+    },
+    "total_tokens": 3229
+  },
+  "success": true
+}

@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0064",
+  "sourceHash": "7ec37e6f982db8cfa9a10aa88a6a3baf3e631f23035816c66353142c15efec43",
+  "source": "There were besides a few dark closets and a spacious cellar. All these they now thoroughly examined. Each closet needed but a glance, for all were empty, and all, by the dust that fell from their doors, had stood long unopened.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0215bb1235a9be68016ab43220a48487d2b5b289142e1b8f8f",
+      "visibleOutput": "TRANSLATION: kin la, tomo poki pimeja lili wan mute ala en tomo anpa suli li lon. tenpo ni la, ona tu li alasa sona pona e tomo ale ni. ona li lukin lili taso e tomo poki wan wan, tan ni: ijo ala li lon ale, li open ala lon tenpo mute. ko pi jaki tenpo li kama anpa tan lupa ona, li pana e sona ni.\n\nNOTES: NONE",
+      "translation": "kin la, tomo poki pimeja lili wan mute ala en tomo anpa suli li lon. tenpo ni la, ona tu li alasa sona pona e tomo ale ni. ona li lukin lili taso e tomo poki wan wan, tan ni: ijo ala li lon ale, li open ala lon tenpo mute. ko pi jaki tenpo li kama anpa tan lupa ona, li pana e sona ni.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2782,
+        "input_tokens_details": {
+          "cache_write_tokens": 2779,
+          "cached_tokens": 0
+        },
+        "output_tokens": 103,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2885
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0215bb1235a9be68016ab43220a48487d2b5b289142e1b8f8f",
+  "visibleOutput": "TRANSLATION: kin la, tomo poki pimeja lili wan mute ala en tomo anpa suli li lon. tenpo ni la, ona tu li alasa sona pona e tomo ale ni. ona li lukin lili taso e tomo poki wan wan, tan ni: ijo ala li lon ale, li open ala lon tenpo mute. ko pi jaki tenpo li kama anpa tan lupa ona, li pana e sona ni.\n\nNOTES: NONE",
+  "translation": "kin la, tomo poki pimeja lili wan mute ala en tomo anpa suli li lon. tenpo ni la, ona tu li alasa sona pona e tomo ale ni. ona li lukin lili taso e tomo poki wan wan, tan ni: ijo ala li lon ale, li open ala lon tenpo mute. ko pi jaki tenpo li kama anpa tan lupa ona, li pana e sona ni.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2782,
+    "input_tokens_details": {
+      "cache_write_tokens": 2779,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2885
+  },
+  "success": true
+}

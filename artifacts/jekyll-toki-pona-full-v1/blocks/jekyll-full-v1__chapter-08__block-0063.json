@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0063",
+  "sourceHash": "49477c73e769bae1857f8ffc7daaede7f9f3203344212a23acd59d11c962a14c",
+  "source": "The far greater proportion of the building was occupied by the theatre, which filled almost the whole ground story and was lighted from above, and by the cabinet, which formed an upper story at one end and looked upon the court. A corridor joined the theatre to the door on the by-street; and with this the cabinet communicated separately by a second flight of stairs.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09119634cde3d82f016ab432191d2887d2bd009fcc1ca21221",
+      "visibleOutput": "TRANSLATION: tomo suli pi pali sona li jo e ma suli mute pi tomo ni. ona li kama poka ale pi supa anpa, li kama suno tan sewi. tomo insa pi jan Jekil li lon supa sewi lon poka wan pi tomo suli, li lukin tawa ma open insa. nasin insa li wan e tomo suli pi pali sona e lupa lon nasin lili poka. nasin ante pi anpa-sewi li wan e lupa ni e tomo insa pi jan Jekil.\nNOTES: “theatre” is rendered as a large room for scientific work, distinct from the inner cabinet.",
+      "translation": "tomo suli pi pali sona li jo e ma suli mute pi tomo ni. ona li kama poka ale pi supa anpa, li kama suno tan sewi. tomo insa pi jan Jekil li lon supa sewi lon poka wan pi tomo suli, li lukin tawa ma open insa. nasin insa li wan e tomo suli pi pali sona e lupa lon nasin lili poka. nasin ante pi anpa-sewi li wan e lupa ni e tomo insa pi jan Jekil.",
+      "notes": "“theatre” is rendered as a large room for scientific work, distinct from the inner cabinet.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 217,
+        "output_tokens_details": {
+          "reasoning_tokens": 75
+        },
+        "total_tokens": 3025
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09119634cde3d82f016ab432191d2887d2bd009fcc1ca21221",
+  "visibleOutput": "TRANSLATION: tomo suli pi pali sona li jo e ma suli mute pi tomo ni. ona li kama poka ale pi supa anpa, li kama suno tan sewi. tomo insa pi jan Jekil li lon supa sewi lon poka wan pi tomo suli, li lukin tawa ma open insa. nasin insa li wan e tomo suli pi pali sona e lupa lon nasin lili poka. nasin ante pi anpa-sewi li wan e lupa ni e tomo insa pi jan Jekil.\nNOTES: “theatre” is rendered as a large room for scientific work, distinct from the inner cabinet.",
+  "translation": "tomo suli pi pali sona li jo e ma suli mute pi tomo ni. ona li kama poka ale pi supa anpa, li kama suno tan sewi. tomo insa pi jan Jekil li lon supa sewi lon poka wan pi tomo suli, li lukin tawa ma open insa. nasin insa li wan e tomo suli pi pali sona e lupa lon nasin lili poka. nasin ante pi anpa-sewi li wan e lupa ni e tomo insa pi jan Jekil.",
+  "notes": "“theatre” is rendered as a large room for scientific work, distinct from the inner cabinet.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 217,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 3025
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0029",
+  "sourceHash": "31a17048436b6da98412303c4aa39d4b8b1987e182c99d947f82e5c80daabacc",
+  "source": "“You may depend upon it, sir,” he told Mr. Utterson: “I have him in my hand. He must have lost his head, or he never would have left the stick or, above all, burned the cheque-book. Why, money’s life to the man. We have nothing to do but wait for him at the bank, and get out the handbills.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0929fa0f7f64d49e016ab42b7046b487d29d41c1b85d2a2636",
+      "visibleOutput": "TRANSLATION: “sina ken awen sona e ni, jan suli o,” ona li toki tawa jan Utason. “mi kama jo e jan ni. ken ala ante la, lawa ona li nasa lon tenpo ni. ni ala la, ona li weka ala e palisa, li seli ala e lipu mute pi pana mani. seli ni li nasa mute a. mani li ale tawa jan ni. mi mute o awen taso lon tomo mani tawa kama ona, o pana e lipu pi alasa ona tawa jan mute.”\nNOTES: Idioms are rendered by sense; “must have lost his head” remains the speaker’s inference.",
+      "translation": "“sina ken awen sona e ni, jan suli o,” ona li toki tawa jan Utason. “mi kama jo e jan ni. ken ala ante la, lawa ona li nasa lon tenpo ni. ni ala la, ona li weka ala e palisa, li seli ala e lipu mute pi pana mani. seli ni li nasa mute a. mani li ale tawa jan ni. mi mute o awen taso lon tomo mani tawa kama ona, o pana e lipu pi alasa ona tawa jan mute.”",
+      "notes": "Idioms are rendered by sense; “must have lost his head” remains the speaker’s inference.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 613,
+        "output_tokens_details": {
+          "reasoning_tokens": 465
+        },
+        "total_tokens": 3430
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0929fa0f7f64d49e016ab42b7046b487d29d41c1b85d2a2636",
+  "visibleOutput": "TRANSLATION: “sina ken awen sona e ni, jan suli o,” ona li toki tawa jan Utason. “mi kama jo e jan ni. ken ala ante la, lawa ona li nasa lon tenpo ni. ni ala la, ona li weka ala e palisa, li seli ala e lipu mute pi pana mani. seli ni li nasa mute a. mani li ale tawa jan ni. mi mute o awen taso lon tomo mani tawa kama ona, o pana e lipu pi alasa ona tawa jan mute.”\nNOTES: Idioms are rendered by sense; “must have lost his head” remains the speaker’s inference.",
+  "translation": "“sina ken awen sona e ni, jan suli o,” ona li toki tawa jan Utason. “mi kama jo e jan ni. ken ala ante la, lawa ona li nasa lon tenpo ni. ni ala la, ona li weka ala e palisa, li seli ala e lipu mute pi pana mani. seli ni li nasa mute a. mani li ale tawa jan ni. mi mute o awen taso lon tomo mani tawa kama ona, o pana e lipu pi alasa ona tawa jan mute.”",
+  "notes": "Idioms are rendered by sense; “must have lost his head” remains the speaker’s inference.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 613,
+    "output_tokens_details": {
+      "reasoning_tokens": 465
+    },
+    "total_tokens": 3430
+  },
+  "success": true
+}

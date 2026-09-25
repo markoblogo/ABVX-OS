@@ -1,0 +1,189 @@
+{
+  "pipelineVersion": "narrative-toki-pona-pipeline-v1",
+  "sourceBlockCount": 40,
+  "translationBlockCount": 40,
+  "alignment": {
+    "status": "PASS",
+    "missing": [],
+    "duplicate": [],
+    "unknown": [],
+    "emptyTranslation": [],
+    "orderMismatch": false,
+    "sourceCount": 40,
+    "outputCount": 40
+  },
+  "names": {
+    "status": "PASS",
+    "unknownSourceNameCandidates": [],
+    "invalidTokiNames": [],
+    "collisions": [],
+    "allowedNames": [
+      "jan Enpil",
+      "jan Hata",
+      "jan Jekil",
+      "jan Kewi",
+      "jan Lanjon",
+      "jan Pulu",
+      "jan Utason"
+    ]
+  },
+  "knowledgeSpoiler": {
+    "status": "REVIEW",
+    "reviews": [
+      {
+        "blockId": "jekyll-sample-v2:section-001:b0002",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0003",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0004",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0005",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0006",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0007",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0010",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0011",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0012",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-002:b0014",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0016",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0019",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0020",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0021",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0022",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0023",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0024",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0025",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0026",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0027",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0028",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0029",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0030",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0031",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-003:b0032",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-004:b0035",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-004:b0036",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-004:b0037",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-004:b0038",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      },
+      {
+        "blockId": "jekyll-sample-v2:section-004:b0039",
+        "status": "REVIEW",
+        "reason": "claim/inference/document boundary requires editorial review"
+      }
+    ]
+  },
+  "mechanicalStatus": "PASS",
+  "editorialStatus": "REVIEW",
+  "providerAdapter": "fixture-backed-local-regression",
+  "fullBookTranslation": false
+}

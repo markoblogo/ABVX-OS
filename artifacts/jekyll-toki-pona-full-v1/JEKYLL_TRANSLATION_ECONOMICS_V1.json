@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.0.0",
+  "auditId": "JEKYLL-FULL-RUN-ECONOMICS-2026-09-23",
+  "auditDate": "2026-09-23",
+  "providerCallsMadeDuringAudit": 0,
+  "productionResumed": false,
+  "decision": {
+    "pipelineEconomics": "UNACCEPTABLE",
+    "qualification": "Operationally unacceptable as an ungated run; current token-priced primary translation is about $10.66 per 25,622 words, but exceeded reported available balance and had no spend stop.",
+    "cheapestCurrentlySupportedSafeCompletion": "Unchanged gpt-5.6-sol prompt/configuration on the remaining 111 blocks after explicit budget authorization, about $2.54 primary; requires call and token caps.",
+    "nextAction": "Do not resume, top up, translate, batch, change model, or resegment until a cost preflight and explicit owner authorization."
+  },
+  "run": {
+    "runId": "jekyll-full-v1",
+    "sourceWords": 25622,
+    "selectedBlocks": 462,
+    "successfulBlocks": 351,
+    "failedBlocks": 111,
+    "expectedRemainingBlocks": 111,
+    "successfulCheckpointsResumeCompatible": 351,
+    "successfulSourceWords": 19306,
+    "remainingSourceWords": 6228,
+    "averageSuccessfulBlockWords": 55.00285,
+    "firstFailureBlock": "jekyll-full-v1:chapter-10:block-0014",
+    "model": "gpt-5.6-sol",
+    "reasoningEffort": "low",
+    "primaryMaxOutputTokens": 3000,
+    "retryMaxOutputTokens": 5000,
+    "store": false,
+    "apiCalls": 462,
+    "retries": 0
+  },
+  "failure": {
+    "recordedHttpStatus": 429,
+    "recordedSafeMessage": "HTTP Error 429: Too Many Requests",
+    "providerErrorCodeRetained": false,
+    "ownerReportedStartingBalance": "greater than USD 7; exact amount not retained",
+    "ownerReportedEndingBalance": -0.29,
+    "mostLikelyOperationalCause": "API credit/quota exhaustion, supported by owner-reported negative ending balance",
+    "exactProviderErrorSubtypeConfirmed": false,
+    "oldRunnerBehavior": "Caught an exception within a block and continued the outer block loop, creating 110 additional failed calls."
+  },
+  "usage": {
+    "successfulResponseCount": 351,
+    "inputTokens": 986926,
+    "cachedInputTokens": 0,
+    "cacheWriteInputTokens": 985873,
+    "ordinaryUncachedNonWriteInputTokens": 1053,
+    "outputTokens": 154949,
+    "reasoningTokensIncludedInOutput": 102724,
+    "totalInputPlusOutputTokens": 1141875,
+    "visibleTranslationCharacters": 126579,
+    "usageSummaryTokenCountersWereZero": true,
+    "usageSource": "Per-block successful Responses usage objects"
+  },
+  "pricing": {
+    "checkedDate": "2026-09-23",
+    "sourceUrls": [
+      "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "https://developers.openai.com/api/docs/pricing",
+      "https://developers.openai.com/api/docs/guides/reasoning"
+    ],
+    "currency": "USD",
+    "unit": "per 1,000,000 tokens",
+    "gpt56SolShortContext": {
+      "input": 4.0,
+      "cachedInput": 0.4,
+      "cacheWrite": 5.0,
+      "output": 20.0
+    },
+    "cacheWriteMultiplier": 1.25,
+    "reasoningTokensBilledAs": "output"
+  },
+  "measuredUsageCostEstimate": {
+    "ordinaryInputUsd": 0.004212,
+    "cachedInputUsd": 0.0,
+    "cacheWriteUsd": 4.929365,
+    "outputUsd": 3.09898,
+    "totalUsd": 8.032557,
+    "usdPerSuccessfulBlock": 0.02288478,
+    "usdPer1000SuccessfulSourceWords": 0.416065,
+    "usdPer10000SuccessfulSourceWords": 4.160653,
+    "ownerBalanceEvidence": "Ending balance implies spend greater than USD 7.29, but exact reconciliation is impossible without the exact starting balance or invoice."
+  },
+  "projections": {
+    "linearByObservedSuccessfulSourceWords": {
+      "wholeSourceWords": 25622,
+      "wholeSourceGpt56SolPrimaryUsd": 10.6604,
+      "futureBookWords": 25000,
+      "futureBookGpt56SolPrimaryUsd": 10.4016
+    },
+    "remaining111PrimaryUsd": {
+      "gpt-5.6-sol-unchanged": 2.5402,
+      "gpt-5.6-sol-entity-subset-estimate": 1.76,
+      "gpt-5.6-sol-batch-5-estimate": 1.34,
+      "gpt-5.6-sol-batch-10-estimate": 1.21,
+      "gpt-5.6-terra-untested": 1.3681,
+      "gpt-5.6-luna-untested": 0.1368,
+      "gpt-6-luna-untested": 0.0635
+    },
+    "remaining111AdditionalSolQaProxyUsd": {
+      "all111": 2.5402,
+      "56GenericSpoilerFlagged": 1.2815,
+      "note": "Primary-call cost proxy only; actual QA prompts/outputs may differ."
+    },
+    "remaining111PrimaryPlusQaProxyUsd": {
+      "currentSolPrimaryPlusQaAll111": 5.0804,
+      "gpt6LunaPrimaryPlusSolQaAll111": 2.6037,
+      "gpt56LunaPrimaryPlusSolQaAll111": 2.6770,
+      "note": "Lower-bound planning comparisons only; model quality is untested."
+    }
+  },
+  "promptOverhead": {
+    "averageInputTokensPerSuccessfulBlock": 2811.755,
+    "averageSourceWordsPerBlock": 55.003,
+    "averageSourceCharactersPerBlock": 297.7,
+    "estimatedSourceOnlyTokensCharacterProportional": 78,
+    "sourceOnlyTokenEstimateIsExact": false,
+    "exactTokenizerReason": "No per-component tokenizer counts were retained; no local GPT tokenizer was available. API usage reports whole-request input only.",
+    "actualPromptLedgerFile": "artifacts/jekyll-toki-pona-regression-v2/entity-name-registry.json",
+    "ledgerEntries": 24,
+    "ledgerCharactersCompactJson": 9582,
+    "ledgerWhitespaceDelimitedWords": 1011,
+    "ledgerShareOfAveragePromptCharactersPct": 89.8,
+    "staticInstructionCharacters": 626,
+    "variableChapterBlockMetadataAverageCharacters": 164,
+    "targetTextShareOfAveragePromptCharactersPct": 2.8,
+    "inputTokensPerSourceWordObserved": 51.12
+  },
+  "entitySubsetSimulation": {
+    "method": [
+      "Exact ledger aliases found in target block",
+      "Aliases found in immediately adjacent blocks within same chapter",
+      "All complete entries whose spoilerSensitivity is critical"
+    ],
+    "blocksSimulated": 462,
+    "averageDirectTargetEntities": 0.781,
+    "averageSelectedEntities": 10.29,
+    "averageSelectedLedgerCharacters": 4254,
+    "ledgerTextReductionPct": 55.6,
+    "wholePromptCharacterReductionPct": 49.9,
+    "estimatedInputTokenSavingsPerCall": 1404,
+    "estimatedInputTokenSavingsAcross351Calls": 492769,
+    "estimatedSavingsOn351CallsAtObservedCacheWriteRateUsd": 2.46,
+    "estimatedFullBookSizedSavingsUsd": 3.27,
+    "qualityChangeRun": false,
+    "nameConsistencyGate": "Retain canonical ID/source-form matching and all global spoiler-critical entries; regression required before use."
+  },
+  "blockSizing": {
+    "currentBlocks": 462,
+    "targetWordsPerBlock": {
+      "100": {"fullSourceApproxCalls": 257, "remainingApproxCalls": 63, "reductionFromCurrentRemainingPct": 43.2},
+      "150": {"fullSourceApproxCalls": 171, "remainingApproxCalls": 42, "reductionFromCurrentRemainingPct": 62.2},
+      "200": {"fullSourceApproxCalls": 129, "remainingApproxCalls": 32, "reductionFromCurrentRemainingPct": 71.2}
+    },
+    "method": "ceil(sourceWords / targetWords); semantic boundaries may increase counts",
+    "existing351Resegmented": false
+  },
+  "batching": {
+    "5BlocksPerRequest": {"remainingApproxCalls": 23, "estimatedSolPrimaryUsd": 1.34, "estimatedInputFractionOfCurrent": 0.235},
+    "10BlocksPerRequest": {"remainingApproxCalls": 12, "estimatedSolPrimaryUsd": 1.21, "estimatedInputFractionOfCurrent": 0.139},
+    "risks": ["Block alignment errors", "Cross-block or spoiler leakage", "One failed request affects multiple blocks", "New resume/checkpoint mapping required", "10-block mean output exceeds current 3,000-token cap"],
+    "run": false
+  },
+  "cacheEffectiveness": {
+    "fullRunCachedTokens": 0,
+    "fullRunCacheWriteTokens": 985873,
+    "retainedV7FortyBlockCachedTokens": 0,
+    "attachedClaimOfPriorV7CacheHitsReproduced": false,
+    "likelyStructuralCause": "Only 626 static instruction characters precede variable block fields; the 9,582-character common ledger comes after those fields. GPT-5.6+ requires a matching reusable prefix of at least 1,024 visible tokens.",
+    "proposedPrefixOrder": ["Static contract", "Global profile/entity policy", "Stable ledger content", "Variable chapter/block metadata", "Target source"],
+    "actualCacheBenefitAssumedInEstimates": false,
+    "sourceUrl": "https://developers.openai.com/api/docs/guides/prompt-caching"
+  },
+  "sourceFunctionMetadata": {
+    "remainingChapter": 10,
+    "chapterTitle": "HENRY JEKYLL’S FULL STATEMENT OF THE CASE",
+    "blockTypes": {"NARRATION": 104, "DOCUMENT": 7, "DIALOGUE": 0},
+    "genericSpoilerConstrained": 56,
+    "knowledgeTypes": {"UNKNOWN_AMBIGUOUS": 111},
+    "reliablyLowRiskBlocksQualifiedForAutomaticModelRouting": 0,
+    "reason": "Chapter-level first-person statement context and unknown knowledge-state metadata prevent a reliable narrator-fact classification."
+  },
+  "runnerSafety": {
+    "persistentQuotaAuthAccountModelOther4xx": "Immediate hard stop",
+    "explicitTransientRateLimitNetworkServer": "At most 3 attempts, then pause",
+    "unknown429": "Fail-closed hard stop",
+    "retainedProviderErrorFields": ["HTTP status", "normalized error type", "normalized error code", "classification", "attempt number"],
+    "rawProviderErrorBodyRetained": false,
+    "requiresMaxCallsForLiveRun": true,
+    "requiresAtLeastOneCumulativeUsageBudget": true,
+    "usageBudgets": ["--max-input-tokens", "--max-output-tokens-total"],
+    "usageCapOvershootBound": "At most one in-flight API response, because usage is known after the call. Max calls is an exact request ceiling.",
+    "newCheckpointProvenance": ["provider", "model", "promptVersion", "promptHash", "reasoning effort", "per-attempt output cap", "run configuration"]
+  },
+  "costPreflight": {
+    "requiredBeforeLargeJobs": true,
+    "requiredFields": ["source words and block count", "estimated calls and retries", "estimated input/output tokens", "current official model/cache rates", "primary cost", "QA/second-pass cost", "available balance if verified", "owner-approved ceiling", "runner call/token caps"],
+    "reportedCurrentBalanceUsd": -0.29,
+    "liveBalanceQueried": false,
+    "autoTopUp": false
+  },
+  "regressionsOrProductionStarted": false
+}

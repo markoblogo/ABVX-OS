@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0042",
+  "sourceHash": "3c80489dc18a20b437bee84b81e4e656db1bb9a9e4d7aee25787b696b8e5b5d7",
+  "source": "“Here, thank you,” said the lawyer, and he drew near and leaned on the tall fender. This hall, in which he was now left alone, was a pet fancy of his friend the doctor’s; and Utterson himself was wont to speak of it as the pleasantest room in London.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_007bdaa869ef45e7016ab4289a3cc887d2943540d5093b92a5",
+      "visibleOutput": "TRANSLATION: “mi awen lon ni. pona tawa sina,” jan pi sona lawa li toki. ona li kama poka, li lawa e sijelo ona lon ilo awen suli pi poka seli. tenpo ni la, ona taso li lon tomo ni. tomo ni li pona mute tawa jan pona ona, jan Jekil pi sona sijelo. jan Utason kin li toki lon tenpo mute e ni: tomo ni li tomo pona nanpa wan lon ma tomo Lantan.\nNOTES: NONE",
+      "translation": "“mi awen lon ni. pona tawa sina,” jan pi sona lawa li toki. ona li kama poka, li lawa e sijelo ona lon ilo awen suli pi poka seli. tenpo ni la, ona taso li lon tomo ni. tomo ni li pona mute tawa jan pona ona, jan Jekil pi sona sijelo. jan Utason kin li toki lon tenpo mute e ni: tomo ni li tomo pona nanpa wan lon ma tomo Lantan.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2800,
+        "input_tokens_details": {
+          "cache_write_tokens": 2797,
+          "cached_tokens": 0
+        },
+        "output_tokens": 214,
+        "output_tokens_details": {
+          "reasoning_tokens": 100
+        },
+        "total_tokens": 3014
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_007bdaa869ef45e7016ab4289a3cc887d2943540d5093b92a5",
+  "visibleOutput": "TRANSLATION: “mi awen lon ni. pona tawa sina,” jan pi sona lawa li toki. ona li kama poka, li lawa e sijelo ona lon ilo awen suli pi poka seli. tenpo ni la, ona taso li lon tomo ni. tomo ni li pona mute tawa jan pona ona, jan Jekil pi sona sijelo. jan Utason kin li toki lon tenpo mute e ni: tomo ni li tomo pona nanpa wan lon ma tomo Lantan.\nNOTES: NONE",
+  "translation": "“mi awen lon ni. pona tawa sina,” jan pi sona lawa li toki. ona li kama poka, li lawa e sijelo ona lon ilo awen suli pi poka seli. tenpo ni la, ona taso li lon tomo ni. tomo ni li pona mute tawa jan pona ona, jan Jekil pi sona sijelo. jan Utason kin li toki lon tenpo mute e ni: tomo ni li tomo pona nanpa wan lon ma tomo Lantan.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2800,
+    "input_tokens_details": {
+      "cache_write_tokens": 2797,
+      "cached_tokens": 0
+    },
+    "output_tokens": 214,
+    "output_tokens_details": {
+      "reasoning_tokens": 100
+    },
+    "total_tokens": 3014
+  },
+  "success": true
+}

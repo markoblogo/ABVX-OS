@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0034",
+  "sourceHash": "0a996d12e605b6b5362be5ea44f9c2892034938f9c11ff6de6a367cbf0f0d1f2",
+  "source": "The drug had no discriminating action; it was neither diabolical nor divine; it but shook the doors of the prison-house of my disposition; and like the captives of Philippi, that which stood within ran forth. At that time my virtue slumbered; my evil, kept awake by ambition, was alert and swift to seize the occasion; and the thing that was projected was Edward Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0013",
+  "sourceHash": "594eaaabf7f89fcdfd0573f66b9c4eaed292378b84be2d67caae352cfb9ba439",
+  "source": "“I burned it,” replied Jekyll, “before I thought what I was about. But it bore no postmark. The note was handed in.” “Shall I keep this and sleep upon it?” asked Utterson. “I wish you to judge for me entirely,” was the reply. “I have lost confidence in myself.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_012828020374b177016ab42c3ad87887d2b8d0d3b9697a2828",
+      "visibleOutput": "TRANSLATION: “mi seli e ona,” jan Jekil li toki. “mi pali e ni lon tenpo open. tenpo ni la mi sona ala e kon pi pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li pana e lipu lili ni kepeken luka.” jan Utason li wile sona: “mi o awen jo e lipu ni, o lape la mi kama sona e nasin pona anu seme?” jan Jekil li toki: “mi wile e ni: sina taso o lawa e ni tawa mi. mi ken ala pilin pona lon sona mi.”  \nNOTES: “sleep upon it” is rendered as keeping the letter and deciding after sleep; the hand delivery remains an unstated person’s action.",
+      "translation": "“mi seli e ona,” jan Jekil li toki. “mi pali e ni lon tenpo open. tenpo ni la mi sona ala e kon pi pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li pana e lipu lili ni kepeken luka.” jan Utason li wile sona: “mi o awen jo e lipu ni, o lape la mi kama sona e nasin pona anu seme?” jan Jekil li toki: “mi wile e ni: sina taso o lawa e ni tawa mi. mi ken ala pilin pona lon sona mi.”",
+      "notes": "“sleep upon it” is rendered as keeping the letter and deciding after sleep; the hand delivery remains an unstated person’s action.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 356,
+        "output_tokens_details": {
+          "reasoning_tokens": 180
+        },
+        "total_tokens": 3171
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_012828020374b177016ab42c3ad87887d2b8d0d3b9697a2828",
+  "visibleOutput": "TRANSLATION: “mi seli e ona,” jan Jekil li toki. “mi pali e ni lon tenpo open. tenpo ni la mi sona ala e kon pi pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li pana e lipu lili ni kepeken luka.” jan Utason li wile sona: “mi o awen jo e lipu ni, o lape la mi kama sona e nasin pona anu seme?” jan Jekil li toki: “mi wile e ni: sina taso o lawa e ni tawa mi. mi ken ala pilin pona lon sona mi.”  \nNOTES: “sleep upon it” is rendered as keeping the letter and deciding after sleep; the hand delivery remains an unstated person’s action.",
+  "translation": "“mi seli e ona,” jan Jekil li toki. “mi pali e ni lon tenpo open. tenpo ni la mi sona ala e kon pi pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li pana e lipu lili ni kepeken luka.” jan Utason li wile sona: “mi o awen jo e lipu ni, o lape la mi kama sona e nasin pona anu seme?” jan Jekil li toki: “mi wile e ni: sina taso o lawa e ni tawa mi. mi ken ala pilin pona lon sona mi.”",
+  "notes": "“sleep upon it” is rendered as keeping the letter and deciding after sleep; the hand delivery remains an unstated person’s action.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 356,
+    "output_tokens_details": {
+      "reasoning_tokens": 180
+    },
+    "total_tokens": 3171
+  },
+  "success": true
+}

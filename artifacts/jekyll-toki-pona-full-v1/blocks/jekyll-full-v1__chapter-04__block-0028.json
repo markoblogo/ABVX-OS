@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0028",
+  "sourceHash": "8af64b2a124b952b38820aaf7569fe1f3ccd6b569a3b3e97c6a4429d709456fb",
+  "source": "From these embers the inspector disinterred the butt-end of a green cheque-book, which had resisted the action of the fire; the other half of the stick was found behind the door; and as this clinched his suspicions, the officer declared himself delighted. A visit to the bank, where several thousand pounds were found to be lying to the murderer’s credit, completed his gratification.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0650480485063da3016ab42b56517087d28efe08f848342ee2",
+      "visibleOutput": "TRANSLATION: Tan ko seli ni, jan lawa pi alasa sona li kama jo e pini pi kulupu lipu mani laso. Seli li ken ala pakala e pini ni. Jan li kama lukin e kipisi ante pi palisa lon monsi pi lupa. Ni li wawa e pilin ona pi alasa sona. Tan ni, jan lawa li toki e ni: ona li pilin pona mute. Ona li tawa tomo mani. Lon ni, ona li kama sona e ni: tomo mani li awen e mani mute a pi ma Inli tawa jan pi pali moli. Sona ni li pini pona e pilin pona ona.\nNOTES: “Several thousand pounds” is compressed to “a very large amount of English money” because canonical Toki Pona lacks a natural exact expression for that range.",
+      "translation": "Tan ko seli ni, jan lawa pi alasa sona li kama jo e pini pi kulupu lipu mani laso. Seli li ken ala pakala e pini ni. Jan li kama lukin e kipisi ante pi palisa lon monsi pi lupa. Ni li wawa e pilin ona pi alasa sona. Tan ni, jan lawa li toki e ni: ona li pilin pona mute. Ona li tawa tomo mani. Lon ni, ona li kama sona e ni: tomo mani li awen e mani mute a pi ma Inli tawa jan pi pali moli. Sona ni li pini pona e pilin pona ona.",
+      "notes": "“Several thousand pounds” is compressed to “a very large amount of English money” because canonical Toki Pona lacks a natural exact expression for that range.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1034,
+        "output_tokens_details": {
+          "reasoning_tokens": 854
+        },
+        "total_tokens": 3851
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0650480485063da3016ab42b56517087d28efe08f848342ee2",
+  "visibleOutput": "TRANSLATION: Tan ko seli ni, jan lawa pi alasa sona li kama jo e pini pi kulupu lipu mani laso. Seli li ken ala pakala e pini ni. Jan li kama lukin e kipisi ante pi palisa lon monsi pi lupa. Ni li wawa e pilin ona pi alasa sona. Tan ni, jan lawa li toki e ni: ona li pilin pona mute. Ona li tawa tomo mani. Lon ni, ona li kama sona e ni: tomo mani li awen e mani mute a pi ma Inli tawa jan pi pali moli. Sona ni li pini pona e pilin pona ona.\nNOTES: “Several thousand pounds” is compressed to “a very large amount of English money” because canonical Toki Pona lacks a natural exact expression for that range.",
+  "translation": "Tan ko seli ni, jan lawa pi alasa sona li kama jo e pini pi kulupu lipu mani laso. Seli li ken ala pakala e pini ni. Jan li kama lukin e kipisi ante pi palisa lon monsi pi lupa. Ni li wawa e pilin ona pi alasa sona. Tan ni, jan lawa li toki e ni: ona li pilin pona mute. Ona li tawa tomo mani. Lon ni, ona li kama sona e ni: tomo mani li awen e mani mute a pi ma Inli tawa jan pi pali moli. Sona ni li pini pona e pilin pona ona.",
+  "notes": "“Several thousand pounds” is compressed to “a very large amount of English money” because canonical Toki Pona lacks a natural exact expression for that range.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1034,
+    "output_tokens_details": {
+      "reasoning_tokens": 854
+    },
+    "total_tokens": 3851
+  },
+  "success": true
+}

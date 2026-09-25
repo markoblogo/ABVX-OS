@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0001",
+  "sourceHash": "81c2c79cc29e5b9eebcf91b9b00cfd6b4364ec0b7864a2ba683e6e20d0561f55",
+  "source": "I was born in the year 18—— to a large fortune, endowed besides with excellent parts, inclined by nature to industry, fond of the respect of the wise and good among my fellow-men, and thus, as might have been supposed, with every guarantee of an honourable and distinguished future.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05616f3146eb1f66016ab4362527b887d2baffdc3de1ff84a8",
+      "visibleOutput": "TRANSLATION: sike nanpa 18—— la, mi kama lon. lon kama mi la, mi jo e mani mute a, li jo kin e ken pona mute. tan nasin mi la, mi wile pali wawa. mi olin e ni: jan sona en jan pona lon kulupu mi li pilin suli e mi. tan ale ni la, jan li ken pilin wawa e ni: lon tenpo kama la, mi kama jo e nimi pona, li kama suli lon lukin pi jan ante.\nNOTES: NONE",
+      "translation": "sike nanpa 18—— la, mi kama lon. lon kama mi la, mi jo e mani mute a, li jo kin e ken pona mute. tan nasin mi la, mi wile pali wawa. mi olin e ni: jan sona en jan pona lon kulupu mi li pilin suli e mi. tan ale ni la, jan li ken pilin wawa e ni: lon tenpo kama la, mi kama jo e nimi pona, li kama suli lon lukin pi jan ante.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 837,
+        "output_tokens_details": {
+          "reasoning_tokens": 718
+        },
+        "total_tokens": 3642
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05616f3146eb1f66016ab4362527b887d2baffdc3de1ff84a8",
+  "visibleOutput": "TRANSLATION: sike nanpa 18—— la, mi kama lon. lon kama mi la, mi jo e mani mute a, li jo kin e ken pona mute. tan nasin mi la, mi wile pali wawa. mi olin e ni: jan sona en jan pona lon kulupu mi li pilin suli e mi. tan ale ni la, jan li ken pilin wawa e ni: lon tenpo kama la, mi kama jo e nimi pona, li kama suli lon lukin pi jan ante.\nNOTES: NONE",
+  "translation": "sike nanpa 18—— la, mi kama lon. lon kama mi la, mi jo e mani mute a, li jo kin e ken pona mute. tan nasin mi la, mi wile pali wawa. mi olin e ni: jan sona en jan pona lon kulupu mi li pilin suli e mi. tan ale ni la, jan li ken pilin wawa e ni: lon tenpo kama la, mi kama jo e nimi pona, li kama suli lon lukin pi jan ante.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 837,
+    "output_tokens_details": {
+      "reasoning_tokens": 718
+    },
+    "total_tokens": 3642
+  },
+  "success": true
+}

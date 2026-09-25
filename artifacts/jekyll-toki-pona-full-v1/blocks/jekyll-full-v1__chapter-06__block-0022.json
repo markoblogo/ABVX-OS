@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0022",
+  "sourceHash": "cdcb8d9cde4c08bdf339139c31e8623c4da8bbe88b075331bb6e61c0dec2d1ed",
+  "source": "Within there was another enclosure, likewise sealed, and marked upon the cover as “not to be opened till the death or disappearance of Dr. Henry Jekyll.” Utterson could not trust his eyes. Yes, it was disappearance; here again, as in the mad will which he had long ago restored to its author, here again were the idea of a disappearance and the name of Henry Jekyll bracketed.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0be3c9fd2faa74e7016ab42e2e046887d2baa6a55ca178ff43",
+      "visibleOutput": "TRANSLATION: Lon insa la, poki lipu ante li lon. ona kin li pini kepeken selo, li jo e toki ni lon selo ona: “o open ala e ni tawa tenpo ni: jan Jekil pi sona sijelo li moli anu li weka.” jan Utason li ken ala pilin e ni: lukin ona li lon. taso ni li lon: toki li toki e weka. tenpo pini mute la, ona li pana sin e lipu lawa nasa—nasa lon pilin ona—tawa jan sitelen ona. lon lipu ni kin la, toki pi weka jan en nimi pi jan Jekil li lon poka, li kama kulupu wan.\nNOTES: “Disappearance” remains unexplained; the will’s “madness” is explicitly limited to Utterson’s view.",
+      "translation": "Lon insa la, poki lipu ante li lon. ona kin li pini kepeken selo, li jo e toki ni lon selo ona: “o open ala e ni tawa tenpo ni: jan Jekil pi sona sijelo li moli anu li weka.” jan Utason li ken ala pilin e ni: lukin ona li lon. taso ni li lon: toki li toki e weka. tenpo pini mute la, ona li pana sin e lipu lawa nasa—nasa lon pilin ona—tawa jan sitelen ona. lon lipu ni kin la, toki pi weka jan en nimi pi jan Jekil li lon poka, li kama kulupu wan.",
+      "notes": "“Disappearance” remains unexplained; the will’s “madness” is explicitly limited to Utterson’s view.",
+      "usage": {
+        "input_tokens": 2837,
+        "input_tokens_details": {
+          "cache_write_tokens": 2834,
+          "cached_tokens": 0
+        },
+        "output_tokens": 667,
+        "output_tokens_details": {
+          "reasoning_tokens": 481
+        },
+        "total_tokens": 3504
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0be3c9fd2faa74e7016ab42e2e046887d2baa6a55ca178ff43",
+  "visibleOutput": "TRANSLATION: Lon insa la, poki lipu ante li lon. ona kin li pini kepeken selo, li jo e toki ni lon selo ona: “o open ala e ni tawa tenpo ni: jan Jekil pi sona sijelo li moli anu li weka.” jan Utason li ken ala pilin e ni: lukin ona li lon. taso ni li lon: toki li toki e weka. tenpo pini mute la, ona li pana sin e lipu lawa nasa—nasa lon pilin ona—tawa jan sitelen ona. lon lipu ni kin la, toki pi weka jan en nimi pi jan Jekil li lon poka, li kama kulupu wan.\nNOTES: “Disappearance” remains unexplained; the will’s “madness” is explicitly limited to Utterson’s view.",
+  "translation": "Lon insa la, poki lipu ante li lon. ona kin li pini kepeken selo, li jo e toki ni lon selo ona: “o open ala e ni tawa tenpo ni: jan Jekil pi sona sijelo li moli anu li weka.” jan Utason li ken ala pilin e ni: lukin ona li lon. taso ni li lon: toki li toki e weka. tenpo pini mute la, ona li pana sin e lipu lawa nasa—nasa lon pilin ona—tawa jan sitelen ona. lon lipu ni kin la, toki pi weka jan en nimi pi jan Jekil li lon poka, li kama kulupu wan.",
+  "notes": "“Disappearance” remains unexplained; the will’s “madness” is explicitly limited to Utterson’s view.",
+  "usage": {
+    "input_tokens": 2837,
+    "input_tokens_details": {
+      "cache_write_tokens": 2834,
+      "cached_tokens": 0
+    },
+    "output_tokens": 667,
+    "output_tokens_details": {
+      "reasoning_tokens": 481
+    },
+    "total_tokens": 3504
+  },
+  "success": true
+}

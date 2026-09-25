@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0021",
+  "sourceHash": "c2a94bab0f562d3e1294f16a7f661342eb3bba62887d696c1507d6415671787c",
+  "source": "At least it would be a face worth seeing: the face of a man who was without bowels of mercy: a face which had but to show itself to raise up, in the mind of the unimpressionable Enfield, a spirit of enduring hatred.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0802ade25146888e016ab42777912087d2bbaf8b56a464d033",
+      "visibleOutput": "TRANSLATION: ijo ante li lon ala la, lukin e sinpin ni li ken suli: ni li sinpin pi jan li jo ala e pilin pona tawa jan ante. jan Enpil li jan pi pilin ante ala; taso sinpin ni li kama lon lukin ona la, ni taso li pana lon insa ona e pilin ike wawa tawa jan ni, li awen e pilin ni lon tenpo mute.\nNOTES: “worth seeing” and “unimpressionable” require descriptive compression in Toki Pona.",
+      "translation": "ijo ante li lon ala la, lukin e sinpin ni li ken suli: ni li sinpin pi jan li jo ala e pilin pona tawa jan ante. jan Enpil li jan pi pilin ante ala; taso sinpin ni li kama lon lukin ona la, ni taso li pana lon insa ona e pilin ike wawa tawa jan ni, li awen e pilin ni lon tenpo mute.",
+      "notes": "“worth seeing” and “unimpressionable” require descriptive compression in Toki Pona.",
+      "usage": {
+        "input_tokens": 2789,
+        "input_tokens_details": {
+          "cache_write_tokens": 2786,
+          "cached_tokens": 0
+        },
+        "output_tokens": 641,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3430
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0802ade25146888e016ab42777912087d2bbaf8b56a464d033",
+  "visibleOutput": "TRANSLATION: ijo ante li lon ala la, lukin e sinpin ni li ken suli: ni li sinpin pi jan li jo ala e pilin pona tawa jan ante. jan Enpil li jan pi pilin ante ala; taso sinpin ni li kama lon lukin ona la, ni taso li pana lon insa ona e pilin ike wawa tawa jan ni, li awen e pilin ni lon tenpo mute.\nNOTES: “worth seeing” and “unimpressionable” require descriptive compression in Toki Pona.",
+  "translation": "ijo ante li lon ala la, lukin e sinpin ni li ken suli: ni li sinpin pi jan li jo ala e pilin pona tawa jan ante. jan Enpil li jan pi pilin ante ala; taso sinpin ni li kama lon lukin ona la, ni taso li pana lon insa ona e pilin ike wawa tawa jan ni, li awen e pilin ni lon tenpo mute.",
+  "notes": "“worth seeing” and “unimpressionable” require descriptive compression in Toki Pona.",
+  "usage": {
+    "input_tokens": 2789,
+    "input_tokens_details": {
+      "cache_write_tokens": 2786,
+      "cached_tokens": 0
+    },
+    "output_tokens": 641,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3430
+  },
+  "success": true
+}

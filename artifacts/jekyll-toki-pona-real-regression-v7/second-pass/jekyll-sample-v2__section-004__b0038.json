@@ -1,0 +1,61 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0038",
+  "sourceHash": "fc20005a352efaf9ae741997cf78e8f21c739ec3384f0da06120d1d034b6d919",
+  "source": "“You know the doctor’s ways, sir,” replied Poole, “and how he shuts himself up. Well, he’s shut up again in the cabinet; and I don’t like it, sir—I wish I may die if I like it. Mr. Utterson, sir, I’m afraid.”",
+  "originalTranslation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—mi pilin pona ala a. jan Utason o, mi pilin monsuta,” jan Pulu li toki.",
+  "originalTranslationHash": "2125c4136370ec958f14b30cdf5ad8fff6551c929afa048736fbdbbad5562043",
+  "qaDefect": "Poole fear rhythm is awkward.",
+  "defectHash": "64efdf58879ec4631f9673abf95cfc462399926ace7efc7b4a95cd6823662d65",
+  "requiredPreservation": "Preserve fear, cabinet confinement, and speech rhythm.",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0089bb3bd0e8ef40016ab4219e473087d28cf4d935433d6f53",
+      "model": "gpt-5.6-sol",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.\nNOTES: NONE",
+      "revisedTranslation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2912,
+        "input_tokens_details": {
+          "cache_write_tokens": 2909,
+          "cached_tokens": 0
+        },
+        "output_tokens": 104,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3016
+      },
+      "elapsedMs": 3189
+    }
+  ],
+  "model": "gpt-5.6-sol",
+  "provider": "OpenAI Responses API",
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0089bb3bd0e8ef40016ab4219e473087d28cf4d935433d6f53",
+  "visibleOutput": "TRANSLATION: “jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.\nNOTES: NONE",
+  "revisedTranslation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2912,
+    "input_tokens_details": {
+      "cache_write_tokens": 2909,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3016
+  },
+  "success": true
+}

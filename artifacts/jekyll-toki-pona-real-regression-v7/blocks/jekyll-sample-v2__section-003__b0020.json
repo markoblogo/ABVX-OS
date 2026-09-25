@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0020",
+  "sourceText": "The doctor shuddered. “They were crying it in the square,” he said. “I heard them in my dining-room.”",
+  "sourceHash": "cba9f6a2528b6eb69e0b17f0199ca8e6d7c96e5ecdf7122d0607da6cac7597ae",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_053af317c424b1ef016ab41dd0957c87d28392cb94345441be",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”\nNOTES: NONE",
+      "translation": "jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 175,
+        "output_tokens_details": {
+          "reasoning_tokens": 115
+        },
+        "total_tokens": 2973
+      },
+      "elapsedMs": 5566
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_053af317c424b1ef016ab41dd0957c87d28392cb94345441be",
+  "visibleOutput": "TRANSLATION: jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”\nNOTES: NONE",
+  "translation": "jan pi sona sijelo li tawa lili tan pilin monsuta. ona li toki e ni: “jan mute li kalama suli e ni lon ma open. mi kute e ona lon tomo moku mi.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 115
+    },
+    "total_tokens": 2973
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0054",
+  "sourceHash": "fb88390c507553fb203a888329d590b25eca309313aa7be1fedf4527bb22bb8a",
+  "source": "At the sight that met my eyes, my blood was changed into something exquisitely thin and icy. Yes, I had gone to bed Henry Jekyll, I had awakened Edward Hyde. How was this to be explained? I asked myself, and then, with another bound of terror—how was it to be remedied?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

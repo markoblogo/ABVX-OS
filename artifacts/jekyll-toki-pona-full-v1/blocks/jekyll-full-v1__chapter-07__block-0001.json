@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0001",
+  "sourceHash": "48a9aca71ffbd42a02b64b7e5b347e64448c61cb584e774330876822fd8e0aa2",
+  "source": "It chanced on Sunday, when Mr. Utterson was on his usual walk with Mr. Enfield, that their way lay once again through the by-street; and that when they came in front of the door, both stopped to gaze on it. “Well,” said Enfield, “that story’s at an end at least. We shall never see more of Mr. Hyde.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0339781bd7acb3e3016ab42e82788087d2b6f004e85733ec2d",
+      "visibleOutput": "TRANSLATION: lon tenpo suno sewi, jan Utason li tawa noka kepeken nasin ona pi tenpo ale, lon poka pi jan Enpil. nasin ona tu li tawa sin lon nasin lili poka. ona tu li kama lon sinpin pi lupa tomo la, ona tu li awen li lukin e lupa. jan Enpil li toki: “pona. ijo wan li lon: toki ni li pini. tenpo kama ale la, mi tu li lukin ala sin e jan Hata.”\nNOTES: NONE",
+      "translation": "lon tenpo suno sewi, jan Utason li tawa noka kepeken nasin ona pi tenpo ale, lon poka pi jan Enpil. nasin ona tu li tawa sin lon nasin lili poka. ona tu li kama lon sinpin pi lupa tomo la, ona tu li awen li lukin e lupa. jan Enpil li toki: “pona. ijo wan li lon: toki ni li pini. tenpo kama ale la, mi tu li lukin ala sin e jan Hata.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 640,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3466
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0339781bd7acb3e3016ab42e82788087d2b6f004e85733ec2d",
+  "visibleOutput": "TRANSLATION: lon tenpo suno sewi, jan Utason li tawa noka kepeken nasin ona pi tenpo ale, lon poka pi jan Enpil. nasin ona tu li tawa sin lon nasin lili poka. ona tu li kama lon sinpin pi lupa tomo la, ona tu li awen li lukin e lupa. jan Enpil li toki: “pona. ijo wan li lon: toki ni li pini. tenpo kama ale la, mi tu li lukin ala sin e jan Hata.”\nNOTES: NONE",
+  "translation": "lon tenpo suno sewi, jan Utason li tawa noka kepeken nasin ona pi tenpo ale, lon poka pi jan Enpil. nasin ona tu li tawa sin lon nasin lili poka. ona tu li kama lon sinpin pi lupa tomo la, ona tu li awen li lukin e lupa. jan Enpil li toki: “pona. ijo wan li lon: toki ni li pini. tenpo kama ale la, mi tu li lukin ala sin e jan Hata.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 640,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3466
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0042",
+  "sourceHash": "45ae00e12da8947b3611f51ae2695564fbcbb92bc5268d115c459964bcf79c9c",
+  "source": "Will you be wise? will you be guided? will you suffer me to take this glass in my hand and to go forth from your house without further parley? or has the greed of curiosity too much command of you? Think before you answer, for it shall be done as you decide.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_082128d9455d10d2016ab435a9924887d29907aace563e6a62",
+      "visibleOutput": "TRANSLATION: sina wile pali kepeken sona pona anu seme? sina wile kute e nasin mi anu seme? sina wile ken e ni anu seme: mi kama jo e poki ni lon luka mi, li tawa tan tomo sina, li toki sin ala? anu, wile sona sina li lawa wawa mute e sina? o pilin pona lon tenpo open pi toki sina, tan ni: mi pali sama ni taso: sina toki e wile seme.\n\nNOTES: “poki ni” preserves the unspecified glass; all alternatives remain questions, and the outcome remains dependent on the listener’s decision.",
+      "translation": "sina wile pali kepeken sona pona anu seme? sina wile kute e nasin mi anu seme? sina wile ken e ni anu seme: mi kama jo e poki ni lon luka mi, li tawa tan tomo sina, li toki sin ala? anu, wile sona sina li lawa wawa mute e sina? o pilin pona lon tenpo open pi toki sina, tan ni: mi pali sama ni taso: sina toki e wile seme.",
+      "notes": "“poki ni” preserves the unspecified glass; all alternatives remain questions, and the outcome remains dependent on the listener’s decision.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 279,
+        "output_tokens_details": {
+          "reasoning_tokens": 137
+        },
+        "total_tokens": 3087
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_082128d9455d10d2016ab435a9924887d29907aace563e6a62",
+  "visibleOutput": "TRANSLATION: sina wile pali kepeken sona pona anu seme? sina wile kute e nasin mi anu seme? sina wile ken e ni anu seme: mi kama jo e poki ni lon luka mi, li tawa tan tomo sina, li toki sin ala? anu, wile sona sina li lawa wawa mute e sina? o pilin pona lon tenpo open pi toki sina, tan ni: mi pali sama ni taso: sina toki e wile seme.\n\nNOTES: “poki ni” preserves the unspecified glass; all alternatives remain questions, and the outcome remains dependent on the listener’s decision.",
+  "translation": "sina wile pali kepeken sona pona anu seme? sina wile kute e nasin mi anu seme? sina wile ken e ni anu seme: mi kama jo e poki ni lon luka mi, li tawa tan tomo sina, li toki sin ala? anu, wile sona sina li lawa wawa mute e sina? o pilin pona lon tenpo open pi toki sina, tan ni: mi pali sama ni taso: sina toki e wile seme.",
+  "notes": "“poki ni” preserves the unspecified glass; all alternatives remain questions, and the outcome remains dependent on the listener’s decision.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 279,
+    "output_tokens_details": {
+      "reasoning_tokens": 137
+    },
+    "total_tokens": 3087
+  },
+  "success": true
+}

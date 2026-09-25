@@ -1,0 +1,319 @@
+{
+  "queue": 5,
+  "completed": 5,
+  "failed": 0,
+  "retried": 0,
+  "artifactPath": "/Volumes/Work/Work/ABVX-OS/artifacts/jekyll-toki-pona-real-regression-v7/second-pass",
+  "blocks": [
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0005",
+      "sourceHash": "3da0092793c073c84d45f6ac66a0e49b5740a91f53a79c01ab1e374c9dd31ad0",
+      "source": "The will was holograph, for Mr. Utterson, though he took charge of it now that it was made, had refused to lend the least assistance in the making of it; it provided not only that, in case of the decease of Henry Jekyll, M.D., D.C.L., L.L.D., F.R.S., etc., all his possessions were to pass into the hands of his “friend and benefactor Edward Hyde,” but that in case of Dr. Jekyll’s “disappearance or unexplained absence for any period exceeding three calendar months,” the said Edward Hyde should step into the said Henry Jekyll’s shoes without further delay and free from any burthen or obligation, beyond the payment of a few small sums to the members of the doctor’s household. This document had long been the lawyer’s eyesore. It offended him both as a lawyer and as a lover of the sane and customary sides of life, to whom the fanciful was the immodest. And hitherto it was his ignorance of Mr. Hyde that had swelled his indignation; now, by a sudden turn, it was his knowledge. It was already bad enough when the name was but a name of which he could learn no more. It was worse when it began to be clothed upon with detestable attributes; and out of the shifting, insubstantial mists that had so long baffled his eye, there leaped up the sudden, definite presentment of a fiend.",
+      "originalTranslation": "jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.",
+      "originalTranslationHash": "a35f97a4dda508a76c3c4533923bee1b0a1f739f117124a46e300db7d08a7fa3",
+      "qaDefect": "Three-month absence and conditional succession are ambiguous.",
+      "defectHash": "10a5a80aff53d4346f888218525340ee67e951659a9742020738864dc30aa1df",
+      "requiredPreservation": "Restore exactly three calendar months and conditional transfer.",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_00b2fc8565be95cf016ab42170845887d2a5db2fb311cb1724",
+          "model": "gpt-5.6-sol",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka, li toki ala tan seme, la, tenpo weka ona li suli tawa tenpo mun tu wan pi lipu tenpo la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.\nNOTES: NONE",
+          "revisedTranslation": "jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka, li toki ala tan seme, la, tenpo weka ona li suli tawa tenpo mun tu wan pi lipu tenpo la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 3530,
+            "input_tokens_details": {
+              "cache_write_tokens": 3527,
+              "cached_tokens": 0
+            },
+            "output_tokens": 770,
+            "output_tokens_details": {
+              "reasoning_tokens": 302
+            },
+            "total_tokens": 4300
+          },
+          "elapsedMs": 16646
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "provider": "OpenAI Responses API",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00b2fc8565be95cf016ab42170845887d2a5db2fb311cb1724",
+      "visibleOutput": "TRANSLATION: jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka, li toki ala tan seme, la, tenpo weka ona li suli tawa tenpo mun tu wan pi lipu tenpo la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.\nNOTES: NONE",
+      "revisedTranslation": "jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka, li toki ala tan seme, la, tenpo weka ona li suli tawa tenpo mun tu wan pi lipu tenpo la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 3530,
+        "input_tokens_details": {
+          "cache_write_tokens": 3527,
+          "cached_tokens": 0
+        },
+        "output_tokens": 770,
+        "output_tokens_details": {
+          "reasoning_tokens": 302
+        },
+        "total_tokens": 4300
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0013",
+      "sourceHash": "eed42523fcb6654051adb0ec0c93439215688ad91cd9cf79bbee813f2f233527",
+      "source": "“We had,” was the reply. “But it is more than ten years since Henry Jekyll became too fanciful for me. He began to go wrong, wrong in mind; and though of course I continue to take an interest in him for old sake’s sake, as they say, I see and I have seen devilish little of the man. Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”",
+      "originalTranslation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+      "originalTranslationHash": "5a8a455eacb87df2d296e7c30ed77bd19082e9f08f02096d7d6ac06775d09106",
+      "qaDefect": "More-than-ten-years and opinion cadence are awkward.",
+      "defectHash": "d5cd7ddaeac08781dc98c7745361fb3b8adc3f42b05568edb4bb53101e1ad648",
+      "requiredPreservation": "Preserve time, speaker, and opinion status.",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0385172e2fbbe369016ab42181270c87d2b74b77c793eea95d",
+          "model": "gpt-5.6-sol",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: NONE",
+          "revisedTranslation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 3024,
+            "input_tokens_details": {
+              "cache_write_tokens": 3021,
+              "cached_tokens": 0
+            },
+            "output_tokens": 415,
+            "output_tokens_details": {
+              "reasoning_tokens": 246
+            },
+            "total_tokens": 3439
+          },
+          "elapsedMs": 9169
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "provider": "OpenAI Responses API",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0385172e2fbbe369016ab42181270c87d2b74b77c793eea95d",
+      "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: NONE",
+      "revisedTranslation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 3024,
+        "input_tokens_details": {
+          "cache_write_tokens": 3021,
+          "cached_tokens": 0
+        },
+        "output_tokens": 415,
+        "output_tokens_details": {
+          "reasoning_tokens": 246
+        },
+        "total_tokens": 3439
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0014",
+      "sourceHash": "a109fec5eb909a6edeb2a47db2643ffb9846c7b12157c5e56e3496bde82862c7",
+      "source": "This little spirit of temper was somewhat of a relief to Mr. Utterson. “They have only differed on some point of science,” he thought; and being a man of no scientific passions (except in the matter of conveyancing), he even added: “It is nothing worse than that!” He gave his friend a few seconds to recover his composure, and then approached the question he had come to put. “Did you ever come across a protege of his—one Hyde?” he asked.",
+      "originalTranslation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+      "originalTranslationHash": "7cb9e54ef4e8b673ea07b9d091954a08729c550695c12512b80cc59869633e89",
+      "qaDefect": "Utterson inference is compressed.",
+      "defectHash": "a33071f1d6765544e185082eaba0628d02645617921f941f793a5d0629d56386",
+      "requiredPreservation": "Keep thought and uncertainty as focal character inference.",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0b29139bea40f872016ab4218a5db087d2a4d371c3042053f0",
+          "model": "gpt-5.6-sol",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: NONE",
+          "revisedTranslation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 3039,
+            "input_tokens_details": {
+              "cache_write_tokens": 3036,
+              "cached_tokens": 0
+            },
+            "output_tokens": 323,
+            "output_tokens_details": {
+              "reasoning_tokens": 136
+            },
+            "total_tokens": 3362
+          },
+          "elapsedMs": 5617
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "provider": "OpenAI Responses API",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b29139bea40f872016ab4218a5db087d2a4d371c3042053f0",
+      "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: NONE",
+      "revisedTranslation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 3039,
+        "input_tokens_details": {
+          "cache_write_tokens": 3036,
+          "cached_tokens": 0
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "reasoning_tokens": 136
+        },
+        "total_tokens": 3362
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0028",
+      "sourceHash": "57daaa930f1bd7b548bc56330291fb330306bde28df1922505c3266478f48275",
+      "source": "The letter was written in an odd, upright hand and signed “Edward Hyde”: and it signified, briefly enough, that the writer’s benefactor, Dr. Jekyll, whom he had long so unworthily repaid for a thousand generosities, need labour under no alarm for his safety, as he had means of escape on which he placed a sure dependence. The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions.",
+      "originalTranslation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+      "originalTranslationHash": "a8aea29fa2ba80feddf7d82ab7ac6f6877e92c32d875b431b3e65d4e267f454e",
+      "qaDefect": "Letter claim is highly compressed.",
+      "defectHash": "d479a846cb1decdcc20b3deb9eb3c13f36563ebbb118fee29dedffa2c4067a7a",
+      "requiredPreservation": "Keep signature, author, benefactor, safety/escape claim, and document-bound reaction.",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0fe615957950f7ec016ab421901d8c87d2b163ad64887095ce",
+          "model": "gpt-5.6-sol",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "reasoning",
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: NONE",
+          "revisedTranslation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 3087,
+            "input_tokens_details": {
+              "cache_write_tokens": 3084,
+              "cached_tokens": 0
+            },
+            "output_tokens": 678,
+            "output_tokens_details": {
+              "reasoning_tokens": 434
+            },
+            "total_tokens": 3765
+          },
+          "elapsedMs": 14169
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "provider": "OpenAI Responses API",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0fe615957950f7ec016ab421901d8c87d2b163ad64887095ce",
+      "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: NONE",
+      "revisedTranslation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. lipu ni la, jan Hata li toki lili e ni: jan Jekil pi sona sijelo li jan pana pona ona, li pana e pona mute mute tawa ona. taso lon tenpo mute la, jan Hata li pana e ike taso tawa jan Jekil, li kama jo pona ala e pona ni. jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li sona wawa e ni: ona li ken weka kepeken nasin ni. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 3087,
+        "input_tokens_details": {
+          "cache_write_tokens": 3084,
+          "cached_tokens": 0
+        },
+        "output_tokens": 678,
+        "output_tokens_details": {
+          "reasoning_tokens": 434
+        },
+        "total_tokens": 3765
+      },
+      "success": true
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0038",
+      "sourceHash": "fc20005a352efaf9ae741997cf78e8f21c739ec3384f0da06120d1d034b6d919",
+      "source": "“You know the doctor’s ways, sir,” replied Poole, “and how he shuts himself up. Well, he’s shut up again in the cabinet; and I don’t like it, sir—I wish I may die if I like it. Mr. Utterson, sir, I’m afraid.”",
+      "originalTranslation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—mi pilin pona ala a. jan Utason o, mi pilin monsuta,” jan Pulu li toki.",
+      "originalTranslationHash": "2125c4136370ec958f14b30cdf5ad8fff6551c929afa048736fbdbbad5562043",
+      "qaDefect": "Poole fear rhythm is awkward.",
+      "defectHash": "64efdf58879ec4631f9673abf95cfc462399926ace7efc7b4a95cd6823662d65",
+      "requiredPreservation": "Preserve fear, cabinet confinement, and speech rhythm.",
+      "attempts": [
+        {
+          "label": "primary",
+          "status": "completed",
+          "incompleteDetails": null,
+          "responseId": "resp_0089bb3bd0e8ef40016ab4219e473087d28cf4d935433d6f53",
+          "model": "gpt-5.6-sol",
+          "reasoning": "low",
+          "maxOutputTokens": 3000,
+          "outputItemTypes": [
+            "message"
+          ],
+          "visibleOutput": "TRANSLATION: “jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.\nNOTES: NONE",
+          "revisedTranslation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.",
+          "notes": "NONE",
+          "usage": {
+            "input_tokens": 2912,
+            "input_tokens_details": {
+              "cache_write_tokens": 2909,
+              "cached_tokens": 0
+            },
+            "output_tokens": 104,
+            "output_tokens_details": {
+              "reasoning_tokens": 0
+            },
+            "total_tokens": 3016
+          },
+          "elapsedMs": 3189
+        }
+      ],
+      "model": "gpt-5.6-sol",
+      "provider": "OpenAI Responses API",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0089bb3bd0e8ef40016ab4219e473087d28cf4d935433d6f53",
+      "visibleOutput": "TRANSLATION: “jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.\nNOTES: NONE",
+      "revisedTranslation": "“jan Utason o, sina sona e nasin pi jan Jekil pi sona sijelo, e ni: ona li awen taso lon tomo insa. tenpo ni la, ona li awen sin lon tomo insa pi jan Jekil. mi pilin pona tan ni la, mi o moli—taso mi pilin pona ala a. jan Utason o... mi monsuta,” jan Pulu li toki.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2912,
+        "input_tokens_details": {
+          "cache_write_tokens": 2909,
+          "cached_tokens": 0
+        },
+        "output_tokens": 104,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 3016
+      },
+      "success": true
+    }
+  ],
+  "failures": []
+}

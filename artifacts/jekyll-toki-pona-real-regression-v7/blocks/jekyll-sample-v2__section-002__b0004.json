@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0004",
+  "sourceText": "That evening Mr. Utterson came home to his bachelor house in sombre spirits and sat down to dinner without relish. It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading-desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed. On this night, however, as soon as the cloth was taken away, he took up a candle and went into his business-room. There he opened his safe, took from the most private part of it a document endorsed on the envelope as Dr. Jekyll’s Will, and sat down with a clouded brow to study its contents.",
+  "sourceHash": "06e1e3f3fd02c1a10a0e65a7effb2bc606769eabae5e02ad663194cfbb5b4f2a",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05b13eb0b129e972016ab41d17bfb487d2a740e25a0c5f4f54",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.\nNOTES: NONE",
+      "translation": "lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2931,
+        "input_tokens_details": {
+          "cache_write_tokens": 2928,
+          "cached_tokens": 0
+        },
+        "output_tokens": 446,
+        "output_tokens_details": {
+          "reasoning_tokens": 178
+        },
+        "total_tokens": 3377
+      },
+      "elapsedMs": 10979
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05b13eb0b129e972016ab41d17bfb487d2a740e25a0c5f4f54",
+  "visibleOutput": "TRANSLATION: lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.\nNOTES: NONE",
+  "translation": "lon pimeja ni, jan Utason li kama tawa tomo ona pi jan wan. pilin ona li pimeja, la ona li moku e moku pimeja kepeken pilin pona ala. lon suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu pi nasin sewi pi pilin ala lon supa lipu ona. ilo tenpo lon tomo sewi poka li kalama e tenpo nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi lawa pona en pilin pi pana pona. taso lon pimeja ni, jan li weka e len supa moku la, ona li kama jo e ilo suno, li tawa tomo pali ona. lon ni, ona li open e poki awen ona. ona li kama jo e lipu tan ma insa pi sona len mute. lon len lipu, nimi ni li lon: “lipu lawa pi jan Jekil pi sona sijelo.” ona li anpa lon supa, li lukin sona e toki insa pi lipu ni, li pana e sinpin pi pilin ike.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2931,
+    "input_tokens_details": {
+      "cache_write_tokens": 2928,
+      "cached_tokens": 0
+    },
+    "output_tokens": 446,
+    "output_tokens_details": {
+      "reasoning_tokens": 178
+    },
+    "total_tokens": 3377
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0121",
+  "sourceHash": "4a1d2866d17ced1f891b04e76843fdcb3a35f8220f1a0b49d579e924bb17fbde",
+  "source": "This, then, is the last time, short of a miracle, that Henry Jekyll can think his own thoughts or see his own face (now how sadly altered!) in the glass. Nor must I delay too long to bring my writing to an end; for if my narrative has hitherto escaped destruction, it has been by a combination of great prudence and great good luck.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

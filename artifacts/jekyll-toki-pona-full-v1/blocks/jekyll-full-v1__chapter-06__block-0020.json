@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0020",
+  "sourceHash": "8fc515da913c468bfe2d7cdc9e4e0cf590f35af611f117c7ed5ce89146b6848f",
+  "source": "The night after the funeral, at which he had been sadly affected, Utterson locked the door of his business room, and sitting there by the light of a melancholy candle, drew out and set before him an envelope addressed by the hand and sealed with the seal of his dead friend. “PRIVATE: for the hands of G. J.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f258a39676750be016ab42e0d7d6c87d2be4e9a8d9b9cfdd9",
+      "visibleOutput": "TRANSLATION: lon pimeja kama, lon tenpo suno wan tan pana pi sijelo moli lon ma, pilin ike li kama wawa tawa jan Utason. ona li pini e lupa pi tomo pali ona. ona li awen lon tomo, li lon poka pi suno lili pi pilin ike. ona li kama jo e lipu poki. jan pona ona pi moli li sitelen e nimi lon lipu poki ni kepeken luka ona, li pini e ona kepeken sitelen pini ona. jan Utason li pana e lipu poki ni lon sinpin ona. sitelen li toki: “TASO TAWA JAN: tawa luka pi G. J.\nNOTES: nimi pini lon toki mama li pini ala; toki ante li awen pini ala sama ni.",
+      "translation": "lon pimeja kama, lon tenpo suno wan tan pana pi sijelo moli lon ma, pilin ike li kama wawa tawa jan Utason. ona li pini e lupa pi tomo pali ona. ona li awen lon tomo, li lon poka pi suno lili pi pilin ike. ona li kama jo e lipu poki. jan pona ona pi moli li sitelen e nimi lon lipu poki ni kepeken luka ona, li pini e ona kepeken sitelen pini ona. jan Utason li pana e lipu poki ni lon sinpin ona. sitelen li toki: “TASO TAWA JAN: tawa luka pi G. J.",
+      "notes": "nimi pini lon toki mama li pini ala; toki ante li awen pini ala sama ni.",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 383,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 3193
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f258a39676750be016ab42e0d7d6c87d2be4e9a8d9b9cfdd9",
+  "visibleOutput": "TRANSLATION: lon pimeja kama, lon tenpo suno wan tan pana pi sijelo moli lon ma, pilin ike li kama wawa tawa jan Utason. ona li pini e lupa pi tomo pali ona. ona li awen lon tomo, li lon poka pi suno lili pi pilin ike. ona li kama jo e lipu poki. jan pona ona pi moli li sitelen e nimi lon lipu poki ni kepeken luka ona, li pini e ona kepeken sitelen pini ona. jan Utason li pana e lipu poki ni lon sinpin ona. sitelen li toki: “TASO TAWA JAN: tawa luka pi G. J.\nNOTES: nimi pini lon toki mama li pini ala; toki ante li awen pini ala sama ni.",
+  "translation": "lon pimeja kama, lon tenpo suno wan tan pana pi sijelo moli lon ma, pilin ike li kama wawa tawa jan Utason. ona li pini e lupa pi tomo pali ona. ona li awen lon tomo, li lon poka pi suno lili pi pilin ike. ona li kama jo e lipu poki. jan pona ona pi moli li sitelen e nimi lon lipu poki ni kepeken luka ona, li pini e ona kepeken sitelen pini ona. jan Utason li pana e lipu poki ni lon sinpin ona. sitelen li toki: “TASO TAWA JAN: tawa luka pi G. J.",
+  "notes": "nimi pini lon toki mama li pini ala; toki ante li awen pini ala sama ni.",
+  "usage": {
+    "input_tokens": 2810,
+    "input_tokens_details": {
+      "cache_write_tokens": 2807,
+      "cached_tokens": 0
+    },
+    "output_tokens": 383,
+    "output_tokens_details": {
+      "reasoning_tokens": 204
+    },
+    "total_tokens": 3193
+  },
+  "success": true
+}

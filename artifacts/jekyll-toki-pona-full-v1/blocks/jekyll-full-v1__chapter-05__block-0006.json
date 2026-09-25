@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0006",
+  "sourceHash": "832839b4dbd3449939ce2f05cbccd90941554eb6face684bdbbba2f6c6a51e2f",
+  "source": "“And now,” said Mr. Utterson, as soon as Poole had left them, “you have heard the news?” The doctor shuddered. “They were crying it in the square,” he said. “I heard them in my dining-room.” “One word,” said the lawyer. “Carew was my client, but so are you, and I want to know what I am doing. You have not been mad enough to hide this fellow?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04cf4b2e9b39f262016ab42bc0b17087d2823d73a7690f1a3b",
+      "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Utason li toki, lon tenpo sama pi weka jan Pulu, “sina kute ala kute e toki sin?” sijelo pi jan Jekil pi sona sijelo li tawa lili tan pilin ike. ona li toki e ni: “lon ma open la, jan li toki wawa e ona. mi lon tomo moku mi la, mi kute e toki.” jan Utason pi sona lawa li toki e ni: “mi wile toki e ijo wan. mi pali lawa tawa jan Kewi. taso mi pali lawa tawa sina kin, li wile sona pona e pali mi. sina nasa suli ala suli? sina awen ala awen e jan ni lon ma pi sona ala?”\nNOTES: NONE",
+      "translation": "“tenpo ni la,” jan Utason li toki, lon tenpo sama pi weka jan Pulu, “sina kute ala kute e toki sin?” sijelo pi jan Jekil pi sona sijelo li tawa lili tan pilin ike. ona li toki e ni: “lon ma open la, jan li toki wawa e ona. mi lon tomo moku mi la, mi kute e toki.” jan Utason pi sona lawa li toki e ni: “mi wile toki e ijo wan. mi pali lawa tawa jan Kewi. taso mi pali lawa tawa sina kin, li wile sona pona e pali mi. sina nasa suli ala suli? sina awen ala awen e jan ni lon ma pi sona ala?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2829,
+        "input_tokens_details": {
+          "cache_write_tokens": 2826,
+          "cached_tokens": 0
+        },
+        "output_tokens": 653,
+        "output_tokens_details": {
+          "reasoning_tokens": 478
+        },
+        "total_tokens": 3482
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04cf4b2e9b39f262016ab42bc0b17087d2823d73a7690f1a3b",
+  "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Utason li toki, lon tenpo sama pi weka jan Pulu, “sina kute ala kute e toki sin?” sijelo pi jan Jekil pi sona sijelo li tawa lili tan pilin ike. ona li toki e ni: “lon ma open la, jan li toki wawa e ona. mi lon tomo moku mi la, mi kute e toki.” jan Utason pi sona lawa li toki e ni: “mi wile toki e ijo wan. mi pali lawa tawa jan Kewi. taso mi pali lawa tawa sina kin, li wile sona pona e pali mi. sina nasa suli ala suli? sina awen ala awen e jan ni lon ma pi sona ala?”\nNOTES: NONE",
+  "translation": "“tenpo ni la,” jan Utason li toki, lon tenpo sama pi weka jan Pulu, “sina kute ala kute e toki sin?” sijelo pi jan Jekil pi sona sijelo li tawa lili tan pilin ike. ona li toki e ni: “lon ma open la, jan li toki wawa e ona. mi lon tomo moku mi la, mi kute e toki.” jan Utason pi sona lawa li toki e ni: “mi wile toki e ijo wan. mi pali lawa tawa jan Kewi. taso mi pali lawa tawa sina kin, li wile sona pona e pali mi. sina nasa suli ala suli? sina awen ala awen e jan ni lon ma pi sona ala?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2829,
+    "input_tokens_details": {
+      "cache_write_tokens": 2826,
+      "cached_tokens": 0
+    },
+    "output_tokens": 653,
+    "output_tokens_details": {
+      "reasoning_tokens": 478
+    },
+    "total_tokens": 3482
+  },
+  "success": true
+}

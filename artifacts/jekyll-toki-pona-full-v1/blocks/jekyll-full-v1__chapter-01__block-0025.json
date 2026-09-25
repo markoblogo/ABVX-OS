@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0025",
+  "sourceHash": "dba8dea9f40162c167ad0195ac49faf1884d134ad1bc3ab5db1e7cd47e6286e6",
+  "source": "I never saw a circle of such hateful faces; and there was the man in the middle, with a kind of black, sneering coolness—frightened too, I could see that—but carrying it off, sir, really like Satan. ‘If you choose to make capital out of this accident,’ said he, ‘I am naturally helpless.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05aed5750a8db88f016ab4258e778c87d28b091714f8d859ef",
+      "visibleOutput": "TRANSLATION: tenpo pini la mi lukin ala e kulupu sinpin pi ike suli sama ni. jan ni li lon insa kulupu. ona li pilin monsuta kin—mi ken lukin e ni—taso ona li awen lete li mu ike pi pilin ala. jan lawa o, ona li pali sama jan Satana lon lukin mi. ona li toki e ni: “sina wile kama jo e mani tan pakala ni la, mi ken ala pini e ni.”\nNOTES: “make capital” is rendered as seeking money from the incident; “like Satan” remains the speaker’s comparison.",
+      "translation": "tenpo pini la mi lukin ala e kulupu sinpin pi ike suli sama ni. jan ni li lon insa kulupu. ona li pilin monsuta kin—mi ken lukin e ni—taso ona li awen lete li mu ike pi pilin ala. jan lawa o, ona li pali sama jan Satana lon lukin mi. ona li toki e ni: “sina wile kama jo e mani tan pakala ni la, mi ken ala pini e ni.”",
+      "notes": "“make capital” is rendered as seeking money from the incident; “like Satan” remains the speaker’s comparison.",
+      "usage": {
+        "input_tokens": 2807,
+        "input_tokens_details": {
+          "cache_write_tokens": 2804,
+          "cached_tokens": 0
+        },
+        "output_tokens": 229,
+        "output_tokens_details": {
+          "reasoning_tokens": 90
+        },
+        "total_tokens": 3036
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05aed5750a8db88f016ab4258e778c87d28b091714f8d859ef",
+  "visibleOutput": "TRANSLATION: tenpo pini la mi lukin ala e kulupu sinpin pi ike suli sama ni. jan ni li lon insa kulupu. ona li pilin monsuta kin—mi ken lukin e ni—taso ona li awen lete li mu ike pi pilin ala. jan lawa o, ona li pali sama jan Satana lon lukin mi. ona li toki e ni: “sina wile kama jo e mani tan pakala ni la, mi ken ala pini e ni.”\nNOTES: “make capital” is rendered as seeking money from the incident; “like Satan” remains the speaker’s comparison.",
+  "translation": "tenpo pini la mi lukin ala e kulupu sinpin pi ike suli sama ni. jan ni li lon insa kulupu. ona li pilin monsuta kin—mi ken lukin e ni—taso ona li awen lete li mu ike pi pilin ala. jan lawa o, ona li pali sama jan Satana lon lukin mi. ona li toki e ni: “sina wile kama jo e mani tan pakala ni la, mi ken ala pini e ni.”",
+  "notes": "“make capital” is rendered as seeking money from the incident; “like Satan” remains the speaker’s comparison.",
+  "usage": {
+    "input_tokens": 2807,
+    "input_tokens_details": {
+      "cache_write_tokens": 2804,
+      "cached_tokens": 0
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 3036
+  },
+  "success": true
+}

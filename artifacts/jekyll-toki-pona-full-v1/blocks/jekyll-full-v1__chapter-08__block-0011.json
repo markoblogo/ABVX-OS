@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0011",
+  "sourceHash": "59dabfb951db92080f1fc52963167db2d6714c5c4ddc17df7448dae463c9dee1",
+  "source": "Thereupon the servant knocked in a very guarded manner; the door was opened on the chain; and a voice asked from within, “Is that you, Poole?” “It’s all right,” said Poole. “Open the door.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_059d9c704bf3faeb016ab42f8e64e487d28a5f60eeee98439d",
+      "visibleOutput": "TRANSLATION: ni la jan pali li pakala lili e lupa kepeken nasin pi awen pona. jan insa li open lili e lupa, taso linja awen li pini e ona. kalama toki tan insa li toki e ni: “sina jan Pulu anu seme?” jan Pulu li toki: “ale li pona. o open e lupa.”\nNOTES: “opened on the chain” is rendered as a slight opening still held shut by a chain.",
+      "translation": "ni la jan pali li pakala lili e lupa kepeken nasin pi awen pona. jan insa li open lili e lupa, taso linja awen li pini e ona. kalama toki tan insa li toki e ni: “sina jan Pulu anu seme?” jan Pulu li toki: “ale li pona. o open e lupa.”",
+      "notes": "“opened on the chain” is rendered as a slight opening still held shut by a chain.",
+      "usage": {
+        "input_tokens": 2783,
+        "input_tokens_details": {
+          "cache_write_tokens": 2780,
+          "cached_tokens": 0
+        },
+        "output_tokens": 248,
+        "output_tokens_details": {
+          "reasoning_tokens": 137
+        },
+        "total_tokens": 3031
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_059d9c704bf3faeb016ab42f8e64e487d28a5f60eeee98439d",
+  "visibleOutput": "TRANSLATION: ni la jan pali li pakala lili e lupa kepeken nasin pi awen pona. jan insa li open lili e lupa, taso linja awen li pini e ona. kalama toki tan insa li toki e ni: “sina jan Pulu anu seme?” jan Pulu li toki: “ale li pona. o open e lupa.”\nNOTES: “opened on the chain” is rendered as a slight opening still held shut by a chain.",
+  "translation": "ni la jan pali li pakala lili e lupa kepeken nasin pi awen pona. jan insa li open lili e lupa, taso linja awen li pini e ona. kalama toki tan insa li toki e ni: “sina jan Pulu anu seme?” jan Pulu li toki: “ale li pona. o open e lupa.”",
+  "notes": "“opened on the chain” is rendered as a slight opening still held shut by a chain.",
+  "usage": {
+    "input_tokens": 2783,
+    "input_tokens_details": {
+      "cache_write_tokens": 2780,
+      "cached_tokens": 0
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+      "reasoning_tokens": 137
+    },
+    "total_tokens": 3031
+  },
+  "success": true
+}

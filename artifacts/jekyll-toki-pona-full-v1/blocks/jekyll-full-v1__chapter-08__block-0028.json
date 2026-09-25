@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0028",
+  "sourceHash": "7ae63220c530de509973f547c452323aad9c4b955701d8e9c684d8547050087b",
+  "source": "Expense is no consideration. The importance of this to Dr. J. can hardly be exaggerated.” So far the letter had run composedly enough, but here with a sudden splutter of the pen, the writer’s emotion had broken loose. “For God’s sake,” he had added, “find me some of the old.” “This is a strange note,” said Mr. Utterson; and then sharply, “How do you come to have it open?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01cb6d80c1c451c0016ab4307a2e8c87d289fdb23128b0b6a8",
+      "visibleOutput": "TRANSLATION: “mani pi pali ni li suli ala. suli pi ijo ni tawa jan Jekil li suli mute a; jan li ken ala toki suli mute ike e ona.” Tawa ni la, toki pi lipu li awen pona li awen lawa. taso lon ni la, ilo sitelen li pana pakala lon tenpo lili, la pilin wawa pi jan sitelen li kama lon poka. ona li sitelen sin e ni: “tan sewi la, o alasa e ijo ni pi tenpo pini tawa mi.” jan Utason li toki e ni: “lipu ni li nasa.” taso ona li toki wawa lon tenpo sama e ni: “tan seme la lipu ni li open lon sina?”\nNOTES: “some of the old” remains deliberately nonspecific to preserve the source knowledge boundary.",
+      "translation": "“mani pi pali ni li suli ala. suli pi ijo ni tawa jan Jekil li suli mute a; jan li ken ala toki suli mute ike e ona.” Tawa ni la, toki pi lipu li awen pona li awen lawa. taso lon ni la, ilo sitelen li pana pakala lon tenpo lili, la pilin wawa pi jan sitelen li kama lon poka. ona li sitelen sin e ni: “tan sewi la, o alasa e ijo ni pi tenpo pini tawa mi.” jan Utason li toki e ni: “lipu ni li nasa.” taso ona li toki wawa lon tenpo sama e ni: “tan seme la lipu ni li open lon sina?”",
+      "notes": "“some of the old” remains deliberately nonspecific to preserve the source knowledge boundary.",
+      "usage": {
+        "input_tokens": 2839,
+        "input_tokens_details": {
+          "cache_write_tokens": 2836,
+          "cached_tokens": 0
+        },
+        "output_tokens": 351,
+        "output_tokens_details": {
+          "reasoning_tokens": 163
+        },
+        "total_tokens": 3190
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01cb6d80c1c451c0016ab4307a2e8c87d289fdb23128b0b6a8",
+  "visibleOutput": "TRANSLATION: “mani pi pali ni li suli ala. suli pi ijo ni tawa jan Jekil li suli mute a; jan li ken ala toki suli mute ike e ona.” Tawa ni la, toki pi lipu li awen pona li awen lawa. taso lon ni la, ilo sitelen li pana pakala lon tenpo lili, la pilin wawa pi jan sitelen li kama lon poka. ona li sitelen sin e ni: “tan sewi la, o alasa e ijo ni pi tenpo pini tawa mi.” jan Utason li toki e ni: “lipu ni li nasa.” taso ona li toki wawa lon tenpo sama e ni: “tan seme la lipu ni li open lon sina?”\nNOTES: “some of the old” remains deliberately nonspecific to preserve the source knowledge boundary.",
+  "translation": "“mani pi pali ni li suli ala. suli pi ijo ni tawa jan Jekil li suli mute a; jan li ken ala toki suli mute ike e ona.” Tawa ni la, toki pi lipu li awen pona li awen lawa. taso lon ni la, ilo sitelen li pana pakala lon tenpo lili, la pilin wawa pi jan sitelen li kama lon poka. ona li sitelen sin e ni: “tan sewi la, o alasa e ijo ni pi tenpo pini tawa mi.” jan Utason li toki e ni: “lipu ni li nasa.” taso ona li toki wawa lon tenpo sama e ni: “tan seme la lipu ni li open lon sina?”",
+  "notes": "“some of the old” remains deliberately nonspecific to preserve the source knowledge boundary.",
+  "usage": {
+    "input_tokens": 2839,
+    "input_tokens_details": {
+      "cache_write_tokens": 2836,
+      "cached_tokens": 0
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+      "reasoning_tokens": 163
+    },
+    "total_tokens": 3190
+  },
+  "success": true
+}

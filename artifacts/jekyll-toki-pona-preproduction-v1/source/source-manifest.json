@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0",
+  "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+  "author": "Robert Louis Stevenson",
+  "gutenbergId": 42,
+  "recordUrl": "https://www.gutenberg.org/ebooks/42",
+  "selectedFormat": "plain text UTF-8",
+  "selectedSourceUrl": "https://www.gutenberg.org/files/42/42-0.txt",
+  "retrievedAt": "2026-09-21",
+  "projectGutenbergRecord": {
+    "releaseDate": "1992-10-01",
+    "lastUpdated": "2023-05-22",
+    "licenseStatement": "Project Gutenberg states the eBook is free to use in the United States and most other parts of the world, subject to its license; users outside the United States must check local law."
+  },
+  "rawFile": "gutenberg-42-2026-09-21.txt",
+  "rawSha256": "c77c386664a308ff0e0a7ce33714da0856facd6e183b7bc6ae82c1cbb137120b",
+  "normalizedFile": "jekyll-hyde-gutenberg-42-normalized.txt",
+  "normalizedSha256": "dd95f97826b4688f1e5c66534bc69523c24dc651605945533add1bab17a73984",
+  "normalization": {
+    "included": "First canonical section heading through the end marker",
+    "excluded": ["Project Gutenberg boilerplate", "title-page duplicate", "contents duplicate", "distribution license text"],
+    "notIncluded": ["modern introductions", "modern notes", "modern illustrations", "modern covers"]
+  },
+  "rightsStatus": "CONDITIONAL",
+  "rightsConditions": [
+    "Use the named Project Gutenberg English text only, not a later annotated/illustrated/translated edition.",
+    "Use only original cover/structural art and separately documented licensed fonts.",
+    "Check each intended KDP distribution territory at publication time.",
+    "Meet KDP public-domain differentiation, contributor-credit, and translation-content requirements before release."
+  ]
+}

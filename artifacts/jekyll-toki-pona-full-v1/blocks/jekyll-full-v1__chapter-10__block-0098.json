@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0098",
+  "sourceHash": "e0d4895bef08af45c90dc55bc5a047d7163f382c9fe5d7a0422db93ae0b49c19",
+  "source": "Yet the creature was astute; mastered his fury with a great effort of the will; composed his two important letters, one to Lanyon and one to Poole; and that he might receive actual evidence of their being posted, sent them out with directions that they should be registered.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

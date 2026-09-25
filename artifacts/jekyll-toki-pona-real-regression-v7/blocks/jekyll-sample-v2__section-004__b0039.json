@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0039",
+  "sourceText": "“Now, my good man,” said the lawyer, “be explicit. What are you afraid of?”",
+  "sourceHash": "59ad3b8c3c3d3b4e836269aadb1518cad079b563bee77e9dad9f1daf08a871cc",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_022610ea49fcf6c2016ab41e783ae887d29197943e232abbe9",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”\nNOTES: NONE",
+      "translation": "jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2792,
+        "input_tokens_details": {
+          "cache_write_tokens": 2789,
+          "cached_tokens": 0
+        },
+        "output_tokens": 41,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2833
+      },
+      "elapsedMs": 2779
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_022610ea49fcf6c2016ab41e783ae887d29197943e232abbe9",
+  "visibleOutput": "TRANSLATION: jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”\nNOTES: NONE",
+  "translation": "jan pi sona lawa li toki e ni: “jan pona o, o toki pona e ale. sina pilin monsuta tan seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2792,
+    "input_tokens_details": {
+      "cache_write_tokens": 2789,
+      "cached_tokens": 0
+    },
+    "output_tokens": 41,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2833
+  },
+  "success": true
+}

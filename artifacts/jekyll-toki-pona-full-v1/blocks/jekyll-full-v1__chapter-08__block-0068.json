@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0068",
+  "sourceHash": "d49ed374882971f48807fd2fd15c9d22c0705a381dd5eb790c231934b4ceda87",
+  "source": "They mounted the stair in silence, and still with an occasional awe-struck glance at the dead body, proceeded more thoroughly to examine the contents of the cabinet. At one table, there were traces of chemical work, various measured heaps of some white salt being laid on glass saucers, as though for an experiment in which the unhappy man had been prevented.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02e2eca9c0bdf5ff016ab43243ad3487d2b01bb1b7c1576497",
+      "visibleOutput": "TRANSLATION: ona li tawa sewi kepeken nasin supa lon toki ala. tenpo lili la, ona li lukin sin e sijelo moli kepeken pilin monsuta suli. ona li tawa lon tomo insa pi jan Jekil, li alasa sona pona e ijo ale lon tomo. lon supa wan la, awen pi pali sona kepeken ijo seli li lon. kulupu lili mute pi ko walo pi nasin seme li lon poki supa lili pi kiwen lukin. mute pi kulupu ni li ante li kipisi pona. ni li lukin sama ni: jan ni pi kama ike li wile kepeken ko lon pali alasa, taso ijo li pini wawa e pali ona.\nNOTES: “as though” is preserved as appearance/inference, not narrator fact.",
+      "translation": "ona li tawa sewi kepeken nasin supa lon toki ala. tenpo lili la, ona li lukin sin e sijelo moli kepeken pilin monsuta suli. ona li tawa lon tomo insa pi jan Jekil, li alasa sona pona e ijo ale lon tomo. lon supa wan la, awen pi pali sona kepeken ijo seli li lon. kulupu lili mute pi ko walo pi nasin seme li lon poki supa lili pi kiwen lukin. mute pi kulupu ni li ante li kipisi pona. ni li lukin sama ni: jan ni pi kama ike li wile kepeken ko lon pali alasa, taso ijo li pini wawa e pali ona.",
+      "notes": "“as though” is preserved as appearance/inference, not narrator fact.",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 709,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3514
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02e2eca9c0bdf5ff016ab43243ad3487d2b01bb1b7c1576497",
+  "visibleOutput": "TRANSLATION: ona li tawa sewi kepeken nasin supa lon toki ala. tenpo lili la, ona li lukin sin e sijelo moli kepeken pilin monsuta suli. ona li tawa lon tomo insa pi jan Jekil, li alasa sona pona e ijo ale lon tomo. lon supa wan la, awen pi pali sona kepeken ijo seli li lon. kulupu lili mute pi ko walo pi nasin seme li lon poki supa lili pi kiwen lukin. mute pi kulupu ni li ante li kipisi pona. ni li lukin sama ni: jan ni pi kama ike li wile kepeken ko lon pali alasa, taso ijo li pini wawa e pali ona.\nNOTES: “as though” is preserved as appearance/inference, not narrator fact.",
+  "translation": "ona li tawa sewi kepeken nasin supa lon toki ala. tenpo lili la, ona li lukin sin e sijelo moli kepeken pilin monsuta suli. ona li tawa lon tomo insa pi jan Jekil, li alasa sona pona e ijo ale lon tomo. lon supa wan la, awen pi pali sona kepeken ijo seli li lon. kulupu lili mute pi ko walo pi nasin seme li lon poki supa lili pi kiwen lukin. mute pi kulupu ni li ante li kipisi pona. ni li lukin sama ni: jan ni pi kama ike li wile kepeken ko lon pali alasa, taso ijo li pini wawa e pali ona.",
+  "notes": "“as though” is preserved as appearance/inference, not narrator fact.",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 709,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3514
+  },
+  "success": true
+}

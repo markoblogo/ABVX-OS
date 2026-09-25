@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0006",
+  "sourceHash": "bd9fba78ed93b21b1f041d94104c6b33c9dbe6fc50ad9f8e6a7f4fde88a80e2c",
+  "source": "“My will? Yes, certainly, I know that,” said the doctor, a trifle sharply. “You have told me so.” “Well, I tell you so again,” continued the lawyer. “I have been learning something of young Hyde.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cb799ef977affd7016ab42995b29087d29b50f3baf57b33a4",
+      "visibleOutput": "TRANSLATION: “lipu lawa mi anu seme? lon, mi sona pona e ni,” jan Jekil pi sona sijelo li toki, kepeken kalama pi wawa lili. “sina toki pini e ni tawa mi.” jan Utason pi sona lawa li toki sin e ni: “pona la, mi toki sin e ni tawa sina. mi kama sona e ijo lili lon jan Hata pi tenpo lili.”\nNOTES: “young Hyde” is rendered as “jan Hata pi tenpo lili”; “learning something” remains partial knowledge.",
+      "translation": "“lipu lawa mi anu seme? lon, mi sona pona e ni,” jan Jekil pi sona sijelo li toki, kepeken kalama pi wawa lili. “sina toki pini e ni tawa mi.” jan Utason pi sona lawa li toki sin e ni: “pona la, mi toki sin e ni tawa sina. mi kama sona e ijo lili lon jan Hata pi tenpo lili.”",
+      "notes": "“young Hyde” is rendered as “jan Hata pi tenpo lili”; “learning something” remains partial knowledge.",
+      "usage": {
+        "input_tokens": 2804,
+        "input_tokens_details": {
+          "cache_write_tokens": 2801,
+          "cached_tokens": 0
+        },
+        "output_tokens": 175,
+        "output_tokens_details": {
+          "reasoning_tokens": 44
+        },
+        "total_tokens": 2979
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cb799ef977affd7016ab42995b29087d29b50f3baf57b33a4",
+  "visibleOutput": "TRANSLATION: “lipu lawa mi anu seme? lon, mi sona pona e ni,” jan Jekil pi sona sijelo li toki, kepeken kalama pi wawa lili. “sina toki pini e ni tawa mi.” jan Utason pi sona lawa li toki sin e ni: “pona la, mi toki sin e ni tawa sina. mi kama sona e ijo lili lon jan Hata pi tenpo lili.”\nNOTES: “young Hyde” is rendered as “jan Hata pi tenpo lili”; “learning something” remains partial knowledge.",
+  "translation": "“lipu lawa mi anu seme? lon, mi sona pona e ni,” jan Jekil pi sona sijelo li toki, kepeken kalama pi wawa lili. “sina toki pini e ni tawa mi.” jan Utason pi sona lawa li toki sin e ni: “pona la, mi toki sin e ni tawa sina. mi kama sona e ijo lili lon jan Hata pi tenpo lili.”",
+  "notes": "“young Hyde” is rendered as “jan Hata pi tenpo lili”; “learning something” remains partial knowledge.",
+  "usage": {
+    "input_tokens": 2804,
+    "input_tokens_details": {
+      "cache_write_tokens": 2801,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 2979
+  },
+  "success": true
+}

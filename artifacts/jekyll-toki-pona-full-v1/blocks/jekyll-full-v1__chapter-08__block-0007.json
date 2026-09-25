@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0007",
+  "sourceHash": "bec17cb7664de7c8dc6c1b617a34f8727f60cfc59dc96bb366e1ba78aec35f9d",
+  "source": "It was a wild, cold, seasonable night of March, with a pale moon, lying on her back as though the wind had tilted her, and a flying wrack of the most diaphanous and lawny texture. The wind made talking difficult, and flecked the blood into the face. It seemed to have swept the streets unusually bare of passengers, besides; for Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a7f21dcb1fbdd31016ab42f5b267887d28d19e2edfab78fb0",
+      "visibleOutput": "TRANSLATION: ni li pimeja nasa pi tenpo mun Masi. lete ona li sama nasin tenpo ni. mun li walo lili, li supa monsi lon sewi, sama ni: kon li anpa e poka ona. kulupu kon sewi li tawa wawa. ona li len sama, li lukin sama len pi lili mute. tan kon la, toki li wile e wawa mute. kon li pana e loje lili lon sinpin. kin la, nasin li lukin sama ni: kon li weka e jan tawa ale tan nasin. ni li nasa, tan ni: jan lawa...\nNOTES: Source ends mid-sentence at “Mr.”; translation preserves the incomplete reference without guessing the person.",
+      "translation": "ni li pimeja nasa pi tenpo mun Masi. lete ona li sama nasin tenpo ni. mun li walo lili, li supa monsi lon sewi, sama ni: kon li anpa e poka ona. kulupu kon sewi li tawa wawa. ona li len sama, li lukin sama len pi lili mute. tan kon la, toki li wile e wawa mute. kon li pana e loje lili lon sinpin. kin la, nasin li lukin sama ni: kon li weka e jan tawa ale tan nasin. ni li nasa, tan ni: jan lawa...",
+      "notes": "Source ends mid-sentence at “Mr.”; translation preserves the incomplete reference without guessing the person.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 251,
+        "output_tokens_details": {
+          "reasoning_tokens": 82
+        },
+        "total_tokens": 3065
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a7f21dcb1fbdd31016ab42f5b267887d28d19e2edfab78fb0",
+  "visibleOutput": "TRANSLATION: ni li pimeja nasa pi tenpo mun Masi. lete ona li sama nasin tenpo ni. mun li walo lili, li supa monsi lon sewi, sama ni: kon li anpa e poka ona. kulupu kon sewi li tawa wawa. ona li len sama, li lukin sama len pi lili mute. tan kon la, toki li wile e wawa mute. kon li pana e loje lili lon sinpin. kin la, nasin li lukin sama ni: kon li weka e jan tawa ale tan nasin. ni li nasa, tan ni: jan lawa...\nNOTES: Source ends mid-sentence at “Mr.”; translation preserves the incomplete reference without guessing the person.",
+  "translation": "ni li pimeja nasa pi tenpo mun Masi. lete ona li sama nasin tenpo ni. mun li walo lili, li supa monsi lon sewi, sama ni: kon li anpa e poka ona. kulupu kon sewi li tawa wawa. ona li len sama, li lukin sama len pi lili mute. tan kon la, toki li wile e wawa mute. kon li pana e loje lili lon sinpin. kin la, nasin li lukin sama ni: kon li weka e jan tawa ale tan nasin. ni li nasa, tan ni: jan lawa...",
+  "notes": "Source ends mid-sentence at “Mr.”; translation preserves the incomplete reference without guessing the person.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 3065
+  },
+  "success": true
+}

@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0030",
+  "sourceText": "“I burned it,” replied Jekyll, “before I thought what I was about. But it bore no postmark. The note was handed in.”",
+  "sourceHash": "df1f87ba9d15ab2c65540015fdd67bb5b3930ab32cb45bdac09d47cc020673cf",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_070bbd6f513eb20f016ab41e3b655487d285af88fbed9a8303",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”\nNOTES: NONE",
+      "translation": "jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 2810,
+          "cached_tokens": 0
+        },
+        "output_tokens": 469,
+        "output_tokens_details": {
+          "reasoning_tokens": 396
+        },
+        "total_tokens": 3282
+      },
+      "elapsedMs": 13117
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_070bbd6f513eb20f016ab41e3b655487d285af88fbed9a8303",
+  "visibleOutput": "TRANSLATION: jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”\nNOTES: NONE",
+  "translation": "jan Jekil li toki sin e ni: “mi pana e ona tawa seli, lon tenpo pini pi mi sona pona ala e pali mi. taso, sitelen pi tomo pana lipu li lon ala ona. jan li kama pana e lipu ni lon tomo.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2813,
+    "input_tokens_details": {
+      "cache_write_tokens": 2810,
+      "cached_tokens": 0
+    },
+    "output_tokens": 469,
+    "output_tokens_details": {
+      "reasoning_tokens": 396
+    },
+    "total_tokens": 3282
+  },
+  "success": true
+}

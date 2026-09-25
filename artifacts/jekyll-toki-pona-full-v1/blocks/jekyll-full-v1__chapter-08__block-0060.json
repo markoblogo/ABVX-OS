@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0060",
+  "sourceHash": "0a3a29b291d96531be8adfbe7da9b66b68fd3db130c1f918ce09b1dfc1c9938f",
+  "source": "Right in the midst there lay the body of a man sorely contorted and still twitching. They drew near on tiptoe, turned it on its back and beheld the face of Edward Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b9898768b0c14df016ab431fa811c87d281056cd0b8614c3b",
+      "visibleOutput": "TRANSLATION: Lon ma insa pi tomo, sijelo pi jan wan li lon anpa. sijelo ona li sike nasa mute, li tawa lili awen. ona mute li kama poka kepeken noka pi kalama ala. ona mute li ante e sijelo ni la, monsi ona li lon anpa. ona mute li lukin e sinpin pi jan Hata.\n\nNOTES: NONE",
+      "translation": "Lon ma insa pi tomo, sijelo pi jan wan li lon anpa. sijelo ona li sike nasa mute, li tawa lili awen. ona mute li kama poka kepeken noka pi kalama ala. ona mute li ante e sijelo ni la, monsi ona li lon anpa. ona mute li lukin e sinpin pi jan Hata.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2786,
+        "input_tokens_details": {
+          "cache_write_tokens": 2783,
+          "cached_tokens": 0
+        },
+        "output_tokens": 582,
+        "output_tokens_details": {
+          "reasoning_tokens": 488
+        },
+        "total_tokens": 3368
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b9898768b0c14df016ab431fa811c87d281056cd0b8614c3b",
+  "visibleOutput": "TRANSLATION: Lon ma insa pi tomo, sijelo pi jan wan li lon anpa. sijelo ona li sike nasa mute, li tawa lili awen. ona mute li kama poka kepeken noka pi kalama ala. ona mute li ante e sijelo ni la, monsi ona li lon anpa. ona mute li lukin e sinpin pi jan Hata.\n\nNOTES: NONE",
+  "translation": "Lon ma insa pi tomo, sijelo pi jan wan li lon anpa. sijelo ona li sike nasa mute, li tawa lili awen. ona mute li kama poka kepeken noka pi kalama ala. ona mute li ante e sijelo ni la, monsi ona li lon anpa. ona mute li lukin e sinpin pi jan Hata.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2786,
+    "input_tokens_details": {
+      "cache_write_tokens": 2783,
+      "cached_tokens": 0
+    },
+    "output_tokens": 582,
+    "output_tokens_details": {
+      "reasoning_tokens": 488
+    },
+    "total_tokens": 3368
+  },
+  "success": true
+}

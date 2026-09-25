@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0042",
+  "sourceHash": "0a62a50403f22a1154804e96bb8635d8b9b534a02db5c1e08ff69d7902f67ff0",
+  "source": "“I think you might have warned me,” returned the other, with a touch of sullenness. “But I have been pedantically exact, as you call it. The fellow had a key; and what’s more, he has it still. I saw him use it, not a week ago.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c9269d9cdb8889c016ab42667927c87d2a8207d79bdfaf9f8",
+      "visibleOutput": "TRANSLATION: “mi pilin e ni: sina ken toki e ike ni tawa mi lon tenpo pini,” jan ante li toki sin kepeken pilin ike lili. “taso sama toki sina la, mi toki e ijo ale kepeken nasin pi sona lili mute. jan ni li jo e ilo open; kin la, ona li jo awen e ona. mi lukin e ni: ona li kepeken ilo open. tan tenpo ni la, tenpo suno luka tu li pini ala.”\nNOTES: NONE",
+      "translation": "“mi pilin e ni: sina ken toki e ike ni tawa mi lon tenpo pini,” jan ante li toki sin kepeken pilin ike lili. “taso sama toki sina la, mi toki e ijo ale kepeken nasin pi sona lili mute. jan ni li jo e ilo open; kin la, ona li jo awen e ona. mi lukin e ni: ona li kepeken ilo open. tan tenpo ni la, tenpo suno luka tu li pini ala.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2796,
+        "input_tokens_details": {
+          "cache_write_tokens": 2793,
+          "cached_tokens": 0
+        },
+        "output_tokens": 639,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3435
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c9269d9cdb8889c016ab42667927c87d2a8207d79bdfaf9f8",
+  "visibleOutput": "TRANSLATION: “mi pilin e ni: sina ken toki e ike ni tawa mi lon tenpo pini,” jan ante li toki sin kepeken pilin ike lili. “taso sama toki sina la, mi toki e ijo ale kepeken nasin pi sona lili mute. jan ni li jo e ilo open; kin la, ona li jo awen e ona. mi lukin e ni: ona li kepeken ilo open. tan tenpo ni la, tenpo suno luka tu li pini ala.”\nNOTES: NONE",
+  "translation": "“mi pilin e ni: sina ken toki e ike ni tawa mi lon tenpo pini,” jan ante li toki sin kepeken pilin ike lili. “taso sama toki sina la, mi toki e ijo ale kepeken nasin pi sona lili mute. jan ni li jo e ilo open; kin la, ona li jo awen e ona. mi lukin e ni: ona li kepeken ilo open. tan tenpo ni la, tenpo suno luka tu li pini ala.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2796,
+    "input_tokens_details": {
+      "cache_write_tokens": 2793,
+      "cached_tokens": 0
+    },
+    "output_tokens": 639,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3435
+  },
+  "success": true
+}

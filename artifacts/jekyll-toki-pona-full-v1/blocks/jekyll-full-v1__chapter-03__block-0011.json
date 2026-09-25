@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0011",
+  "sourceHash": "ea855f4a4e6ace7d435e88d6bdf1a1f0176015afb4a71a627b21ecb1c95d1779",
+  "source": "I give you my hand upon that; and I thank you again and again; and I will just add one little word, Utterson, that I’m sure you’ll take in good part: this is a private matter, and I beg of you to let it sleep.” Utterson reflected a little, looking in the fire. “I have no doubt you are perfectly right,” he said at last, getting to his feet.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09b2d610834875de016ab429bfdd9487d2822ae8f694a79bc9",
+      "visibleOutput": "TRANSLATION: “Mi pana e luka mi tawa sina lon ni. tenpo mute la mi toki pona tawa sina tan pali sina. jan Utason o, mi wile pana kin e toki lili wan. mi sona pona e ni: sina kute pona e ona. ni li ijo pi mi taso. mi anpa tawa sina: o toki ala e ona, o pali ala lon ona.” jan Utason li lukin e seli, li pilin lon tenpo lili. “mi pilin e ni: toki sina li lon ale,” ona li toki lon pini, li kama sewi.\nNOTES: “let it sleep” is rendered as a request not to discuss or act on the matter; Utterson’s agreement remains his stated belief.",
+      "translation": "“Mi pana e luka mi tawa sina lon ni. tenpo mute la mi toki pona tawa sina tan pali sina. jan Utason o, mi wile pana kin e toki lili wan. mi sona pona e ni: sina kute pona e ona. ni li ijo pi mi taso. mi anpa tawa sina: o toki ala e ona, o pali ala lon ona.” jan Utason li lukin e seli, li pilin lon tenpo lili. “mi pilin e ni: toki sina li lon ale,” ona li toki lon pini, li kama sewi.",
+      "notes": "“let it sleep” is rendered as a request not to discuss or act on the matter; Utterson’s agreement remains his stated belief.",
+      "usage": {
+        "input_tokens": 2842,
+        "input_tokens_details": {
+          "cache_write_tokens": 2839,
+          "cached_tokens": 0
+        },
+        "output_tokens": 240,
+        "output_tokens_details": {
+          "reasoning_tokens": 72
+        },
+        "total_tokens": 3082
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09b2d610834875de016ab429bfdd9487d2822ae8f694a79bc9",
+  "visibleOutput": "TRANSLATION: “Mi pana e luka mi tawa sina lon ni. tenpo mute la mi toki pona tawa sina tan pali sina. jan Utason o, mi wile pana kin e toki lili wan. mi sona pona e ni: sina kute pona e ona. ni li ijo pi mi taso. mi anpa tawa sina: o toki ala e ona, o pali ala lon ona.” jan Utason li lukin e seli, li pilin lon tenpo lili. “mi pilin e ni: toki sina li lon ale,” ona li toki lon pini, li kama sewi.\nNOTES: “let it sleep” is rendered as a request not to discuss or act on the matter; Utterson’s agreement remains his stated belief.",
+  "translation": "“Mi pana e luka mi tawa sina lon ni. tenpo mute la mi toki pona tawa sina tan pali sina. jan Utason o, mi wile pana kin e toki lili wan. mi sona pona e ni: sina kute pona e ona. ni li ijo pi mi taso. mi anpa tawa sina: o toki ala e ona, o pali ala lon ona.” jan Utason li lukin e seli, li pilin lon tenpo lili. “mi pilin e ni: toki sina li lon ale,” ona li toki lon pini, li kama sewi.",
+  "notes": "“let it sleep” is rendered as a request not to discuss or act on the matter; Utterson’s agreement remains his stated belief.",
+  "usage": {
+    "input_tokens": 2842,
+    "input_tokens_details": {
+      "cache_write_tokens": 2839,
+      "cached_tokens": 0
+    },
+    "output_tokens": 240,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 3082
+  },
+  "success": true
+}

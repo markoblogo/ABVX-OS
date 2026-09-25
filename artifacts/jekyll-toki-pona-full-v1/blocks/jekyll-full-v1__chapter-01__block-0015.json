@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0015",
+  "sourceHash": "4d1673af4888eecd3c29e275e6ffbb25204911a0840e1ac405ca7e8e6c9edda4",
+  "source": "“Indeed?” said Mr. Utterson, with a slight change of voice, “and what was that?” “Well, it was this way,” returned Mr. Enfield: “I was coming home from some place at the end of the world, about three o’clock of a black winter morning, and my way lay through a part of town where there was literally nothing to be seen but lamps.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04497c68608ce711016ab4250c0a4887d2a889182b47043420",
+      "visibleOutput": "TRANSLATION: “lon a?” jan Utason li toki. kalama toki ona li ante lili. “ijo ni li seme?” jan Enpil li toki sin: “nasin ona li ni. mi kama tawa tomo tan ma weka mute a. lon tenpo pimeja pi open suno pi tenpo lete la, ilo tenpo li pana e tenpo poka pi nanpa tu wan. nasin mi li tawa lon kipisi ma tomo. lon ma ni la, mi ken lukin e ilo suno taso; mi ken ala lukin e ijo ante.”\nNOTES: “About three o’clock” is expressed approximately through clock time.",
+      "translation": "“lon a?” jan Utason li toki. kalama toki ona li ante lili. “ijo ni li seme?” jan Enpil li toki sin: “nasin ona li ni. mi kama tawa tomo tan ma weka mute a. lon tenpo pimeja pi open suno pi tenpo lete la, ilo tenpo li pana e tenpo poka pi nanpa tu wan. nasin mi li tawa lon kipisi ma tomo. lon ma ni la, mi ken lukin e ilo suno taso; mi ken ala lukin e ijo ante.”",
+      "notes": "“About three o’clock” is expressed approximately through clock time.",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 664,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3482
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04497c68608ce711016ab4250c0a4887d2a889182b47043420",
+  "visibleOutput": "TRANSLATION: “lon a?” jan Utason li toki. kalama toki ona li ante lili. “ijo ni li seme?” jan Enpil li toki sin: “nasin ona li ni. mi kama tawa tomo tan ma weka mute a. lon tenpo pimeja pi open suno pi tenpo lete la, ilo tenpo li pana e tenpo poka pi nanpa tu wan. nasin mi li tawa lon kipisi ma tomo. lon ma ni la, mi ken lukin e ilo suno taso; mi ken ala lukin e ijo ante.”\nNOTES: “About three o’clock” is expressed approximately through clock time.",
+  "translation": "“lon a?” jan Utason li toki. kalama toki ona li ante lili. “ijo ni li seme?” jan Enpil li toki sin: “nasin ona li ni. mi kama tawa tomo tan ma weka mute a. lon tenpo pimeja pi open suno pi tenpo lete la, ilo tenpo li pana e tenpo poka pi nanpa tu wan. nasin mi li tawa lon kipisi ma tomo. lon ma ni la, mi ken lukin e ilo suno taso; mi ken ala lukin e ijo ante.”",
+  "notes": "“About three o’clock” is expressed approximately through clock time.",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 664,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3482
+  },
+  "success": true
+}

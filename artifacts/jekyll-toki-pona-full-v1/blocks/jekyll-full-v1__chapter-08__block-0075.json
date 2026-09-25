@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0075",
+  "sourceHash": "90437fae7cae8687e20b6fe402ef3822824d94121dd823960a1aecc179e9e954",
+  "source": "He looked at Poole, and then back at the paper, and last of all at the dead malefactor stretched upon the carpet. “My head goes round,” he said. “He has been all these days in possession; he had no cause to like me; he must have raged to see himself displaced; and he has not destroyed this document.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05740e1f0708e38e016ab432990e4087d2b2d64aefc9a7d28f",
+      "visibleOutput": "TRANSLATION: ona li lukin e jan Pulu, li lukin sin e lipu, li lukin pini e jan ike moli ni: ona li supa lon len supa. ona li toki e ni: “lawa mi li sike. lon tenpo mute ni ale la, ona li lawa e tomo ni. ona li jo ala e tan pi pilin pona tawa mi. sona mi la, ona li kama pilin utala mute tan ni: nimi ona li weka tan lipu. taso ona li pakala ala e lipu ni.”\nNOTES: “sona mi la” preserves Utterson’s inference about the dead man’s rage.",
+      "translation": "ona li lukin e jan Pulu, li lukin sin e lipu, li lukin pini e jan ike moli ni: ona li supa lon len supa. ona li toki e ni: “lawa mi li sike. lon tenpo mute ni ale la, ona li lawa e tomo ni. ona li jo ala e tan pi pilin pona tawa mi. sona mi la, ona li kama pilin utala mute tan ni: nimi ona li weka tan lipu. taso ona li pakala ala e lipu ni.”",
+      "notes": "“sona mi la” preserves Utterson’s inference about the dead man’s rage.",
+      "usage": {
+        "input_tokens": 2807,
+        "input_tokens_details": {
+          "cache_write_tokens": 2804,
+          "cached_tokens": 0
+        },
+        "output_tokens": 482,
+        "output_tokens_details": {
+          "reasoning_tokens": 335
+        },
+        "total_tokens": 3289
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05740e1f0708e38e016ab432990e4087d2b2d64aefc9a7d28f",
+  "visibleOutput": "TRANSLATION: ona li lukin e jan Pulu, li lukin sin e lipu, li lukin pini e jan ike moli ni: ona li supa lon len supa. ona li toki e ni: “lawa mi li sike. lon tenpo mute ni ale la, ona li lawa e tomo ni. ona li jo ala e tan pi pilin pona tawa mi. sona mi la, ona li kama pilin utala mute tan ni: nimi ona li weka tan lipu. taso ona li pakala ala e lipu ni.”\nNOTES: “sona mi la” preserves Utterson’s inference about the dead man’s rage.",
+  "translation": "ona li lukin e jan Pulu, li lukin sin e lipu, li lukin pini e jan ike moli ni: ona li supa lon len supa. ona li toki e ni: “lawa mi li sike. lon tenpo mute ni ale la, ona li lawa e tomo ni. ona li jo ala e tan pi pilin pona tawa mi. sona mi la, ona li kama pilin utala mute tan ni: nimi ona li weka tan lipu. taso ona li pakala ala e lipu ni.”",
+  "notes": "“sona mi la” preserves Utterson’s inference about the dead man’s rage.",
+  "usage": {
+    "input_tokens": 2807,
+    "input_tokens_details": {
+      "cache_write_tokens": 2804,
+      "cached_tokens": 0
+    },
+    "output_tokens": 482,
+    "output_tokens_details": {
+      "reasoning_tokens": 335
+    },
+    "total_tokens": 3289
+  },
+  "success": true
+}

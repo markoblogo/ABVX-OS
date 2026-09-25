@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0001",
+  "sourceHash": "c16624c22e0a574a5e20b7d3b7d21f2d397fd4d4a075292e34512877f257f1fc",
+  "source": "Mr. Utterson was sitting by his fireside one evening after dinner, when he was surprised to receive a visit from Poole. “Bless me, Poole, what brings you here?” he cried; and then taking a second look at him, “What ails you?” he added; “is the doctor ill?” “Mr. Utterson,” said the man, “there is something wrong.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_023a1ba434929078016ab42f05683487d2b227ddf03fea2f08",
+      "visibleOutput": "TRANSLATION: lon pimeja wan, jan Utason li moku pini, li awen poka seli. jan Pulu li kama lukin e ona. kama ni li nasa e jan Utason. ona li toki suli e ni: “a, jan Pulu o! seme li pana e sina tawa ni?” ona li lukin sin e jan Pulu, li toki e ni: “seme li ike e sina? jan Jekil pi sona sijelo li jo ala jo e ike sijelo?” jan Pulu li toki e ni: “jan Utason o, ijo li pona ala.”\nNOTES: NONE",
+      "translation": "lon pimeja wan, jan Utason li moku pini, li awen poka seli. jan Pulu li kama lukin e ona. kama ni li nasa e jan Utason. ona li toki suli e ni: “a, jan Pulu o! seme li pana e sina tawa ni?” ona li lukin sin e jan Pulu, li toki e ni: “seme li ike e sina? jan Jekil pi sona sijelo li jo ala jo e ike sijelo?” jan Pulu li toki e ni: “jan Utason o, ijo li pona ala.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 306,
+        "output_tokens_details": {
+          "reasoning_tokens": 167
+        },
+        "total_tokens": 3124
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_023a1ba434929078016ab42f05683487d2b227ddf03fea2f08",
+  "visibleOutput": "TRANSLATION: lon pimeja wan, jan Utason li moku pini, li awen poka seli. jan Pulu li kama lukin e ona. kama ni li nasa e jan Utason. ona li toki suli e ni: “a, jan Pulu o! seme li pana e sina tawa ni?” ona li lukin sin e jan Pulu, li toki e ni: “seme li ike e sina? jan Jekil pi sona sijelo li jo ala jo e ike sijelo?” jan Pulu li toki e ni: “jan Utason o, ijo li pona ala.”\nNOTES: NONE",
+  "translation": "lon pimeja wan, jan Utason li moku pini, li awen poka seli. jan Pulu li kama lukin e ona. kama ni li nasa e jan Utason. ona li toki suli e ni: “a, jan Pulu o! seme li pana e sina tawa ni?” ona li lukin sin e jan Pulu, li toki e ni: “seme li ike e sina? jan Jekil pi sona sijelo li jo ala jo e ike sijelo?” jan Pulu li toki e ni: “jan Utason o, ijo li pona ala.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 306,
+    "output_tokens_details": {
+      "reasoning_tokens": 167
+    },
+    "total_tokens": 3124
+  },
+  "success": true
+}

@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0031",
+  "sourceText": "“Shall I keep this and sleep upon it?” asked Utterson.",
+  "sourceHash": "a9fea0aa266fc4864f0384a673e581bf956dc45411d954164a2b3bf409d3c236",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_057612c6b4aa380d016ab41e48a94887d28d4d6aa2e929fa35",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”\nNOTES: NONE",
+      "translation": "jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2787,
+        "input_tokens_details": {
+          "cache_write_tokens": 2784,
+          "cached_tokens": 0
+        },
+        "output_tokens": 49,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2836
+      },
+      "elapsedMs": 3331
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_057612c6b4aa380d016ab41e48a94887d28d4d6aa2e929fa35",
+  "visibleOutput": "TRANSLATION: jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”\nNOTES: NONE",
+  "translation": "jan Utason li wile sona e ni: “mi awen jo e ni, li lape la, mi o toki e sona mi lon tenpo kama anu seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2787,
+    "input_tokens_details": {
+      "cache_write_tokens": 2784,
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2836
+  },
+  "success": true
+}

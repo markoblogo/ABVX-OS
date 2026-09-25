@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0055",
+  "sourceHash": "6ba46f8863bb56a685984f2e4b621ec86e868bb53de4ed0e26d7b2f3fe94ca9b",
+  "source": "It was well on in the morning; the servants were up; all my drugs were in the cabinet—a long journey down two pairs of stairs, through the back passage, across the open court and through the anatomical theatre, from where I was then standing horror-struck.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

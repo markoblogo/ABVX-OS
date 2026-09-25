@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0079",
+  "sourceHash": "7cc03bda1c1430d08ae23d951e1c9f7133b426ee43beda7225074650ddb7be3b",
+  "source": "I could have screamed aloud; I sought with tears and prayers to smother down the crowd of hideous images and sounds with which my memory swarmed against me; and still, between the petitions, the ugly face of my iniquity stared into my soul. As the acuteness of this remorse began to die away, it was succeeded by a sense of joy. The problem of my conduct was solved.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

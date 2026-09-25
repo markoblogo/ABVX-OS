@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0033",
+  "sourceText": "## C. Poole asks for help",
+  "sourceHash": "0e92a9e3fd24e98dbd8ff78f1d09fd9429589182e362c021836841d4713bdcc4",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0793676a6a9ded05016ab41e52a36487d292a6548e08732224",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: ## C. jan Pulu li wile e pona tan jan ante\nNOTES: NONE",
+      "translation": "## C. jan Pulu li wile e pona tan jan ante",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2776,
+        "input_tokens_details": {
+          "cache_write_tokens": 2773,
+          "cached_tokens": 0
+        },
+        "output_tokens": 27,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2803
+      },
+      "elapsedMs": 2794
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0793676a6a9ded05016ab41e52a36487d292a6548e08732224",
+  "visibleOutput": "TRANSLATION: ## C. jan Pulu li wile e pona tan jan ante\nNOTES: NONE",
+  "translation": "## C. jan Pulu li wile e pona tan jan ante",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2776,
+    "input_tokens_details": {
+      "cache_write_tokens": 2773,
+      "cached_tokens": 0
+    },
+    "output_tokens": 27,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2803
+  },
+  "success": true
+}

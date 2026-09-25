@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0008",
+  "sourceHash": "9c33f90f9ee30719404c7cb6b335744627206c9af3ce2024fdf898cef62b5c85",
+  "source": "“Why then,” said the lawyer, good-naturedly, “the best thing we can do is to stay down here and speak with you from where we are.” “That is just what I was about to venture to propose,” returned the doctor with a smile.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_085fa61ffc96eac4016ab42ed3ea5887d2b2d85bbff6edfac2",
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li toki kepeken pilin pona e ni: “pona la, pali pona nanpa wan tawa mi mute li ni: mi mute li awen lon anpa ni, li toki tawa sina tan ma ni.” jan Jekil pi sona sijelo li toki sin lon poka pi uta musi: “mi kin li wile open toki e wile ni taso, taso mi toki e ni kepeken pilin pi ken lili.”\nNOTES: “venture to propose” is rendered as a hesitant, uncertain proposal rather than fear.",
+      "translation": "jan Utason pi sona lawa li toki kepeken pilin pona e ni: “pona la, pali pona nanpa wan tawa mi mute li ni: mi mute li awen lon anpa ni, li toki tawa sina tan ma ni.” jan Jekil pi sona sijelo li toki sin lon poka pi uta musi: “mi kin li wile open toki e wile ni taso, taso mi toki e ni kepeken pilin pi ken lili.”",
+      "notes": "“venture to propose” is rendered as a hesitant, uncertain proposal rather than fear.",
+      "usage": {
+        "input_tokens": 2790,
+        "input_tokens_details": {
+          "cache_write_tokens": 2787,
+          "cached_tokens": 0
+        },
+        "output_tokens": 646,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3436
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_085fa61ffc96eac4016ab42ed3ea5887d2b2d85bbff6edfac2",
+  "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li toki kepeken pilin pona e ni: “pona la, pali pona nanpa wan tawa mi mute li ni: mi mute li awen lon anpa ni, li toki tawa sina tan ma ni.” jan Jekil pi sona sijelo li toki sin lon poka pi uta musi: “mi kin li wile open toki e wile ni taso, taso mi toki e ni kepeken pilin pi ken lili.”\nNOTES: “venture to propose” is rendered as a hesitant, uncertain proposal rather than fear.",
+  "translation": "jan Utason pi sona lawa li toki kepeken pilin pona e ni: “pona la, pali pona nanpa wan tawa mi mute li ni: mi mute li awen lon anpa ni, li toki tawa sina tan ma ni.” jan Jekil pi sona sijelo li toki sin lon poka pi uta musi: “mi kin li wile open toki e wile ni taso, taso mi toki e ni kepeken pilin pi ken lili.”",
+  "notes": "“venture to propose” is rendered as a hesitant, uncertain proposal rather than fear.",
+  "usage": {
+    "input_tokens": 2790,
+    "input_tokens_details": {
+      "cache_write_tokens": 2787,
+      "cached_tokens": 0
+    },
+    "output_tokens": 646,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3436
+  },
+  "success": true
+}

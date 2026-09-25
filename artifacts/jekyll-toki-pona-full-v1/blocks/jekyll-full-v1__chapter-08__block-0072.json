@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0072",
+  "sourceHash": "617a81bcca28c158c3deb3d67c4b0b4d6ab1bda0ab8da83b6216f69fcbd08ad6",
+  "source": "“This glass have seen some strange things, sir,” whispered Poole. “And surely none stranger than itself,” echoed the lawyer in the same tones. “For what did Jekyll”—he caught himself up at the word with a start, and then conquering the weakness—“what could Jekyll want with it?” he said. “You may say that!” said Poole. Next they turned to the business-table.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c965012c346e135016ab43274d71087d28a33bdc6607fd01c",
+      "visibleOutput": "TRANSLATION: jan Pulu li toki lili e ni: “jan lawa o, ilo lukin ni li lukin e ijo nasa mute.” jan Utason pi sona lawa li toki lili sama e ni: “kin la, ona li lukin e ijo nasa ala pi nasa suli lon ona sama.” ona li toki e ni: “tan seme la jan Jekil—” lon nimi ni la, pilin monsuta li kama, li pini e toki ona. taso ona li anpa e pilin ike ni, li toki sin e ni: “jan Jekil li ken wile e ilo ni tawa seme?” jan Pulu li toki e ni: “ni li nasa mute kin!” ni li pini la, ona tu li tawa supa pali.\nNOTES: “glass” is rendered as ilo lukin (mirror); Poole’s agreement remains emphatic without adding factual certainty.",
+      "translation": "jan Pulu li toki lili e ni: “jan lawa o, ilo lukin ni li lukin e ijo nasa mute.” jan Utason pi sona lawa li toki lili sama e ni: “kin la, ona li lukin e ijo nasa ala pi nasa suli lon ona sama.” ona li toki e ni: “tan seme la jan Jekil—” lon nimi ni la, pilin monsuta li kama, li pini e toki ona. taso ona li anpa e pilin ike ni, li toki sin e ni: “jan Jekil li ken wile e ilo ni tawa seme?” jan Pulu li toki e ni: “ni li nasa mute kin!” ni li pini la, ona tu li tawa supa pali.",
+      "notes": "“glass” is rendered as ilo lukin (mirror); Poole’s agreement remains emphatic without adding factual certainty.",
+      "usage": {
+        "input_tokens": 2832,
+        "input_tokens_details": {
+          "cache_write_tokens": 2829,
+          "cached_tokens": 0
+        },
+        "output_tokens": 304,
+        "output_tokens_details": {
+          "reasoning_tokens": 106
+        },
+        "total_tokens": 3136
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c965012c346e135016ab43274d71087d28a33bdc6607fd01c",
+  "visibleOutput": "TRANSLATION: jan Pulu li toki lili e ni: “jan lawa o, ilo lukin ni li lukin e ijo nasa mute.” jan Utason pi sona lawa li toki lili sama e ni: “kin la, ona li lukin e ijo nasa ala pi nasa suli lon ona sama.” ona li toki e ni: “tan seme la jan Jekil—” lon nimi ni la, pilin monsuta li kama, li pini e toki ona. taso ona li anpa e pilin ike ni, li toki sin e ni: “jan Jekil li ken wile e ilo ni tawa seme?” jan Pulu li toki e ni: “ni li nasa mute kin!” ni li pini la, ona tu li tawa supa pali.\nNOTES: “glass” is rendered as ilo lukin (mirror); Poole’s agreement remains emphatic without adding factual certainty.",
+  "translation": "jan Pulu li toki lili e ni: “jan lawa o, ilo lukin ni li lukin e ijo nasa mute.” jan Utason pi sona lawa li toki lili sama e ni: “kin la, ona li lukin e ijo nasa ala pi nasa suli lon ona sama.” ona li toki e ni: “tan seme la jan Jekil—” lon nimi ni la, pilin monsuta li kama, li pini e toki ona. taso ona li anpa e pilin ike ni, li toki sin e ni: “jan Jekil li ken wile e ilo ni tawa seme?” jan Pulu li toki e ni: “ni li nasa mute kin!” ni li pini la, ona tu li tawa supa pali.",
+  "notes": "“glass” is rendered as ilo lukin (mirror); Poole’s agreement remains emphatic without adding factual certainty.",
+  "usage": {
+    "input_tokens": 2832,
+    "input_tokens_details": {
+      "cache_write_tokens": 2829,
+      "cached_tokens": 0
+    },
+    "output_tokens": 304,
+    "output_tokens_details": {
+      "reasoning_tokens": 106
+    },
+    "total_tokens": 3136
+  },
+  "success": true
+}

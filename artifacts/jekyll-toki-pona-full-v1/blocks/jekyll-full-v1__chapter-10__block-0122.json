@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0122",
+  "sourceHash": "ee55d437228f45b5ce4ddb05093475db5c3f27e801c769de33b0e2abf28251b2",
+  "source": "Should the throes of change take me in the act of writing it, Hyde will tear it in pieces; but if some time shall have elapsed after I have laid it by, his wonderful selfishness and Circumscription to the moment will probably save it once again from the action of his ape-like spite. And indeed the doom that is closing on us both, has already changed and crushed him.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

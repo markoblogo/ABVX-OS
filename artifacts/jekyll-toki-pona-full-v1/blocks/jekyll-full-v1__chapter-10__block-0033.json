@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0033",
+  "sourceHash": "3e1f85cb7844b58e112d98cc6759e3b4de975226ec2f9982dee54cb5f45b4cf2",
+  "source": "That night I had come to the fatal cross-roads. Had I approached my discovery in a more noble spirit, had I risked the experiment while under the empire of generous or pious aspirations, all must have been otherwise, and from these agonies of death and birth, I had come forth an angel instead of a fiend.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0023",
+  "sourceText": "The lawyer listened gloomily; he did not like his friend’s feverish manner. “You seem pretty sure of him,” said he; “and for your sake, I hope you may be right. If it came to a trial, your name might appear.”",
+  "sourceHash": "21295fa558d4f0b5f1fb27313715d4bf24e0d23837945332776fd3940608c640",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02c8e32673c45258016ab41df690c087d28f60a701cd91fddc",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”\nNOTES: NONE",
+      "translation": "jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 355,
+        "output_tokens_details": {
+          "reasoning_tokens": 247
+        },
+        "total_tokens": 3179
+      },
+      "elapsedMs": 7348
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02c8e32673c45258016ab41df690c087d28f60a701cd91fddc",
+  "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”\nNOTES: NONE",
+  "translation": "jan Utason pi sona lawa li kute lon pilin ike. ona li pilin pona ala tan ni: jan pona ona li toki kepeken nasin pi pilin wawa ike. ona li toki e ni: “mi la, sina pilin sona mute e jan ni. tan pona sina la, mi wile e ni: sona sina li ken lon. ijo ni li tawa tomo lawa la, nimi sina li ken kama lon toki.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2824,
+    "input_tokens_details": {
+      "cache_write_tokens": 2821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 355,
+    "output_tokens_details": {
+      "reasoning_tokens": 247
+    },
+    "total_tokens": 3179
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0016",
+  "sourceHash": "918e60228988756db263ede4d0c29e6113b905d6484e969d069cd4608b058312",
+  "source": "“Now, sir,” said he, “you come as gently as you can. I want you to hear, and I don’t want you to be heard. And see here, sir, if by any chance he was to ask you in, don’t go.” Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0fa118c67e25ff72016ab42fc31efc87d2b2273d4368d3f903",
+      "visibleOutput": "TRANSLATION: “tenpo ni la, jan lawa o,” ona li toki, “o kama kepeken kalama lili pi ken sina. mi wile e ni: sina kute; taso jan ante li kute ala e sina. kin la, jan lawa o, ona li toki tawa sina e ni: ‘o kama insa,’ la, o kama ala.” jan…\nNOTES: nimi “Mr.” lon pini li pini ala lon toki Inli; tan ni la mi awen e ona sama “jan…”.",
+      "translation": "“tenpo ni la, jan lawa o,” ona li toki, “o kama kepeken kalama lili pi ken sina. mi wile e ni: sina kute; taso jan ante li kute ala e sina. kin la, jan lawa o, ona li toki tawa sina e ni: ‘o kama insa,’ la, o kama ala.” jan…",
+      "notes": "nimi “Mr.” lon pini li pini ala lon toki Inli; tan ni la mi awen e ona sama “jan…”.",
+      "usage": {
+        "input_tokens": 2790,
+        "input_tokens_details": {
+          "cache_write_tokens": 2787,
+          "cached_tokens": 0
+        },
+        "output_tokens": 268,
+        "output_tokens_details": {
+          "reasoning_tokens": 149
+        },
+        "total_tokens": 3058
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0fa118c67e25ff72016ab42fc31efc87d2b2273d4368d3f903",
+  "visibleOutput": "TRANSLATION: “tenpo ni la, jan lawa o,” ona li toki, “o kama kepeken kalama lili pi ken sina. mi wile e ni: sina kute; taso jan ante li kute ala e sina. kin la, jan lawa o, ona li toki tawa sina e ni: ‘o kama insa,’ la, o kama ala.” jan…\nNOTES: nimi “Mr.” lon pini li pini ala lon toki Inli; tan ni la mi awen e ona sama “jan…”.",
+  "translation": "“tenpo ni la, jan lawa o,” ona li toki, “o kama kepeken kalama lili pi ken sina. mi wile e ni: sina kute; taso jan ante li kute ala e sina. kin la, jan lawa o, ona li toki tawa sina e ni: ‘o kama insa,’ la, o kama ala.” jan…",
+  "notes": "nimi “Mr.” lon pini li pini ala lon toki Inli; tan ni la mi awen e ona sama “jan…”.",
+  "usage": {
+    "input_tokens": 2790,
+    "input_tokens_details": {
+      "cache_write_tokens": 2787,
+      "cached_tokens": 0
+    },
+    "output_tokens": 268,
+    "output_tokens_details": {
+      "reasoning_tokens": 149
+    },
+    "total_tokens": 3058
+  },
+  "success": true
+}

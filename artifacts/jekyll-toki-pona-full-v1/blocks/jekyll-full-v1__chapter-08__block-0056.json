@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0056",
+  "sourceHash": "35cccb641d0671556ab28d3a8195c3de74bb67f555fd8981bb220ef8071e13ab",
+  "source": "“Ah, that’s not Jekyll’s voice—it’s Hyde’s!” cried Utterson. “Down with the door, Poole!” Poole swung the axe over his shoulder; the blow shook the building, and the red baize door leaped against the lock and hinges. A dismal screech, as of mere animal terror, rang from the cabinet.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_007f26315ec77f5e016ab431c3cf9887d28db0f71abd10b2a6",
+      "visibleOutput": "TRANSLATION: “a! kalama toki ni li pi jan Jekil ala—li pi jan Hata!” jan Utason li kalama. “jan Pulu o pakala e lupa!” jan Pulu li tawa sike e ilo kipisi suli sewi pi palisa luka ona, li utala e lupa. utala ni li tawa wawa e tomo. lupa pi len loje li tawa wawa lon ilo awen ona lon ilo tawa ona. kalama mu ike a li kama tan tomo insa pi jan Jekil. kalama ni li sama kalama pi soweli lon monsuta suli.\nNOTES: The animal-terror description remains an auditory comparison, not an observed fact.",
+      "translation": "“a! kalama toki ni li pi jan Jekil ala—li pi jan Hata!” jan Utason li kalama. “jan Pulu o pakala e lupa!” jan Pulu li tawa sike e ilo kipisi suli sewi pi palisa luka ona, li utala e lupa. utala ni li tawa wawa e tomo. lupa pi len loje li tawa wawa lon ilo awen ona lon ilo tawa ona. kalama mu ike a li kama tan tomo insa pi jan Jekil. kalama ni li sama kalama pi soweli lon monsuta suli.",
+      "notes": "The animal-terror description remains an auditory comparison, not an observed fact.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 523,
+        "output_tokens_details": {
+          "reasoning_tokens": 366
+        },
+        "total_tokens": 3344
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_007f26315ec77f5e016ab431c3cf9887d28db0f71abd10b2a6",
+  "visibleOutput": "TRANSLATION: “a! kalama toki ni li pi jan Jekil ala—li pi jan Hata!” jan Utason li kalama. “jan Pulu o pakala e lupa!” jan Pulu li tawa sike e ilo kipisi suli sewi pi palisa luka ona, li utala e lupa. utala ni li tawa wawa e tomo. lupa pi len loje li tawa wawa lon ilo awen ona lon ilo tawa ona. kalama mu ike a li kama tan tomo insa pi jan Jekil. kalama ni li sama kalama pi soweli lon monsuta suli.\nNOTES: The animal-terror description remains an auditory comparison, not an observed fact.",
+  "translation": "“a! kalama toki ni li pi jan Jekil ala—li pi jan Hata!” jan Utason li kalama. “jan Pulu o pakala e lupa!” jan Pulu li tawa sike e ilo kipisi suli sewi pi palisa luka ona, li utala e lupa. utala ni li tawa wawa e tomo. lupa pi len loje li tawa wawa lon ilo awen ona lon ilo tawa ona. kalama mu ike a li kama tan tomo insa pi jan Jekil. kalama ni li sama kalama pi soweli lon monsuta suli.",
+  "notes": "The animal-terror description remains an auditory comparison, not an observed fact.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 523,
+    "output_tokens_details": {
+      "reasoning_tokens": 366
+    },
+    "total_tokens": 3344
+  },
+  "success": true
+}

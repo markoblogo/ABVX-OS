@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0014",
+  "sourceHash": "3a1de4f824c2071467e8141f40403a45af4c18afa46e8d02a481718234d26923",
+  "source": "“Hold your tongue!” Poole said to her, with a ferocity of accent that testified to his own jangled nerves; and indeed, when the girl had so suddenly raised the note of her lamentation, they had all started and turned toward the inner door with faces of dreadful expectation.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01d6a2f6266ae477016ab42fac9bf087d29c5ac705545ed905",
+      "visibleOutput": "TRANSLATION: “o toki ala!” jan Pulu li toki tawa ona. kalama toki ona li wawa li utala, li pana sona e ni: pilin ona li pakala li awen ala. lon la, jan meli li kama pana e kalama pi pilin ike ona lon wawa suli. ni la, jan ale li kama pilin monsuta, li kama lukin tawa lupa pi tomo insa. sinpin ona li pana e pilin monsuta tan ijo kama.\nNOTES: NONE",
+      "translation": "“o toki ala!” jan Pulu li toki tawa ona. kalama toki ona li wawa li utala, li pana sona e ni: pilin ona li pakala li awen ala. lon la, jan meli li kama pana e kalama pi pilin ike ona lon wawa suli. ni la, jan ale li kama pilin monsuta, li kama lukin tawa lupa pi tomo insa. sinpin ona li pana e pilin monsuta tan ijo kama.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2793,
+        "input_tokens_details": {
+          "cache_write_tokens": 2790,
+          "cached_tokens": 0
+        },
+        "output_tokens": 303,
+        "output_tokens_details": {
+          "reasoning_tokens": 186
+        },
+        "total_tokens": 3096
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01d6a2f6266ae477016ab42fac9bf087d29c5ac705545ed905",
+  "visibleOutput": "TRANSLATION: “o toki ala!” jan Pulu li toki tawa ona. kalama toki ona li wawa li utala, li pana sona e ni: pilin ona li pakala li awen ala. lon la, jan meli li kama pana e kalama pi pilin ike ona lon wawa suli. ni la, jan ale li kama pilin monsuta, li kama lukin tawa lupa pi tomo insa. sinpin ona li pana e pilin monsuta tan ijo kama.\nNOTES: NONE",
+  "translation": "“o toki ala!” jan Pulu li toki tawa ona. kalama toki ona li wawa li utala, li pana sona e ni: pilin ona li pakala li awen ala. lon la, jan meli li kama pana e kalama pi pilin ike ona lon wawa suli. ni la, jan ale li kama pilin monsuta, li kama lukin tawa lupa pi tomo insa. sinpin ona li pana e pilin monsuta tan ijo kama.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2793,
+    "input_tokens_details": {
+      "cache_write_tokens": 2790,
+      "cached_tokens": 0
+    },
+    "output_tokens": 303,
+    "output_tokens_details": {
+      "reasoning_tokens": 186
+    },
+    "total_tokens": 3096
+  },
+  "success": true
+}

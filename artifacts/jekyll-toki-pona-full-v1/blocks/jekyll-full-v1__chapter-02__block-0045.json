@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0045",
+  "sourceHash": "7a45d8236e6287638137e9f79ab5e786485e07032932971f81bc2ebaaa410280",
+  "source": "“Your master seems to repose a great deal of trust in that young man, Poole,” resumed the other musingly. “Yes, sir, he do indeed,” said Poole. “We have all orders to obey him.” “I do not think I ever met Mr. Hyde?” asked Utterson.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06f963b6b196e011016ab428bbdbc887d2924288b39810329b",
+      "visibleOutput": "TRANSLATION: jan ante li toki sin, li pilin mute lon insa: “jan lawa sina li pana e pilin pi ken sona mute tawa jan lili ni, jan Pulu.” jan Pulu li toki: “lon, jan lawa. ona li pana e pilin ni mute. mi mute li jo e toki lawa ni: mi mute o kute e jan ni.” jan Utason li wile sona: “mi pilin e ni: tenpo ala la mi kama sona e jan Hata, anu seme?”\nNOTES: “met” is rendered as kama sona rather than direct visual witnessing.",
+      "translation": "jan ante li toki sin, li pilin mute lon insa: “jan lawa sina li pana e pilin pi ken sona mute tawa jan lili ni, jan Pulu.” jan Pulu li toki: “lon, jan lawa. ona li pana e pilin ni mute. mi mute li jo e toki lawa ni: mi mute o kute e jan ni.” jan Utason li wile sona: “mi pilin e ni: tenpo ala la mi kama sona e jan Hata, anu seme?”",
+      "notes": "“met” is rendered as kama sona rather than direct visual witnessing.",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 2810,
+          "cached_tokens": 0
+        },
+        "output_tokens": 133,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2946
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_06f963b6b196e011016ab428bbdbc887d2924288b39810329b",
+  "visibleOutput": "TRANSLATION: jan ante li toki sin, li pilin mute lon insa: “jan lawa sina li pana e pilin pi ken sona mute tawa jan lili ni, jan Pulu.” jan Pulu li toki: “lon, jan lawa. ona li pana e pilin ni mute. mi mute li jo e toki lawa ni: mi mute o kute e jan ni.” jan Utason li wile sona: “mi pilin e ni: tenpo ala la mi kama sona e jan Hata, anu seme?”\nNOTES: “met” is rendered as kama sona rather than direct visual witnessing.",
+  "translation": "jan ante li toki sin, li pilin mute lon insa: “jan lawa sina li pana e pilin pi ken sona mute tawa jan lili ni, jan Pulu.” jan Pulu li toki: “lon, jan lawa. ona li pana e pilin ni mute. mi mute li jo e toki lawa ni: mi mute o kute e jan ni.” jan Utason li wile sona: “mi pilin e ni: tenpo ala la mi kama sona e jan Hata, anu seme?”",
+  "notes": "“met” is rendered as kama sona rather than direct visual witnessing.",
+  "usage": {
+    "input_tokens": 2813,
+    "input_tokens_details": {
+      "cache_write_tokens": 2810,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2946
+  },
+  "success": true
+}

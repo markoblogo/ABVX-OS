@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0094",
+  "sourceHash": "b64319fe85dc38d6d3dded6db5448e96b9b72216f2bbba907b6a9cf8c5ea93d9",
+  "source": "Then I remembered that of my original character, one part remained to me: I could write my own hand; and once I had conceived that kindling spark, the way that I must follow became lighted up from end to end. Thereupon, I arranged my clothes as best I could, and summoning a passing hansom, drove to an hotel in Portland Street, the name of which I chanced to remember.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

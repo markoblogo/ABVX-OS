@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0004",
+  "sourceHash": "ee3070fe9c2e0e578348ae4da048b436983a7f50fdbb80e5f4a031bb82ae7808",
+  "source": "At the further end, a flight of stairs mounted to a door covered with red baize; and through this, Mr. Utterson was at last received into the doctor’s cabinet. It was a large room, fitted round with glass presses, furnished, among other things, with a cheval-glass and a business table, and looking out upon the court by three dusty windows barred with iron.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ea197c75be8ed96016ab42bb30a4087d29b2dad8c648c6748",
+      "visibleOutput": "TRANSLATION: lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan li open e lupa, li pana e nasin tawa jan Utason. ni la, lon pini la, ona li kama lon tomo insa pi jan Jekil. tomo ni li suli. poki suli pi sinpin kiwen lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon tomo. lupa lukin tu wan pi ko jaki li lon sinpin tomo, li jo e palisa kiwen. tan lupa ni la, jan li ken lukin e ma insa pi tomo suli.\nNOTES: “red baize” is compressed to “len loje”; “glass presses” is rendered as large cabinets with glass fronts.",
+      "translation": "lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan li open e lupa, li pana e nasin tawa jan Utason. ni la, lon pini la, ona li kama lon tomo insa pi jan Jekil. tomo ni li suli. poki suli pi sinpin kiwen lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon tomo. lupa lukin tu wan pi ko jaki li lon sinpin tomo, li jo e palisa kiwen. tan lupa ni la, jan li ken lukin e ma insa pi tomo suli.",
+      "notes": "“red baize” is compressed to “len loje”; “glass presses” is rendered as large cabinets with glass fronts.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 273,
+        "output_tokens_details": {
+          "reasoning_tokens": 96
+        },
+        "total_tokens": 3088
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ea197c75be8ed96016ab42bb30a4087d29b2dad8c648c6748",
+  "visibleOutput": "TRANSLATION: lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan li open e lupa, li pana e nasin tawa jan Utason. ni la, lon pini la, ona li kama lon tomo insa pi jan Jekil. tomo ni li suli. poki suli pi sinpin kiwen lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon tomo. lupa lukin tu wan pi ko jaki li lon sinpin tomo, li jo e palisa kiwen. tan lupa ni la, jan li ken lukin e ma insa pi tomo suli.\nNOTES: “red baize” is compressed to “len loje”; “glass presses” is rendered as large cabinets with glass fronts.",
+  "translation": "lon pini ante pi tomo ni la, nasin sewi li tawa lupa. len loje li lon lupa ni. jan li open e lupa, li pana e nasin tawa jan Utason. ni la, lon pini la, ona li kama lon tomo insa pi jan Jekil. tomo ni li suli. poki suli pi sinpin kiwen lukin li lon poka ale. ilo lukin suli en supa pali en ijo ante li lon tomo. lupa lukin tu wan pi ko jaki li lon sinpin tomo, li jo e palisa kiwen. tan lupa ni la, jan li ken lukin e ma insa pi tomo suli.",
+  "notes": "“red baize” is compressed to “len loje”; “glass presses” is rendered as large cabinets with glass fronts.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 273,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 3088
+  },
+  "success": true
+}

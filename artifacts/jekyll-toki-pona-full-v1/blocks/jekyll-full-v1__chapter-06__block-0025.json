@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0025",
+  "sourceHash": "b8757bc6d7c4c2f324a5623935b3760af3301e59ee1415408f22c3a8f60e106b",
+  "source": "It is one thing to mortify curiosity, another to conquer it; and it may be doubted if, from that day forth, Utterson desired the society of his surviving friend with the same eagerness. He thought of him kindly; but his thoughts were disquieted and fearful.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ea8df010e45b8be016ab42e5d557c87d2b86f7405fffd1d11",
+      "visibleOutput": "TRANSLATION: ni tu li ante: jan li ken ala e wile sona ona; jan li ken weka ale e wile sona ona. ken la, tan tenpo suno ni, jan Utason li wile ala lon poka pi jan pona ona ni pi awen lon kepeken wile suli sama pi tenpo pini. ona li isipin pona e jan ni. taso isipin ona li pana e pilin pi pona ala e pilin monsuta.\nNOTES: “may be doubted” is preserved as uncertainty with “ken la”; “surviving friend” is left relational and does not reveal identity.",
+      "translation": "ni tu li ante: jan li ken ala e wile sona ona; jan li ken weka ale e wile sona ona. ken la, tan tenpo suno ni, jan Utason li wile ala lon poka pi jan pona ona ni pi awen lon kepeken wile suli sama pi tenpo pini. ona li isipin pona e jan ni. taso isipin ona li pana e pilin pi pona ala e pilin monsuta.",
+      "notes": "“may be doubted” is preserved as uncertainty with “ken la”; “surviving friend” is left relational and does not reveal identity.",
+      "usage": {
+        "input_tokens": 2801,
+        "input_tokens_details": {
+          "cache_write_tokens": 2798,
+          "cached_tokens": 0
+        },
+        "output_tokens": 377,
+        "output_tokens_details": {
+          "reasoning_tokens": 239
+        },
+        "total_tokens": 3178
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ea8df010e45b8be016ab42e5d557c87d2b86f7405fffd1d11",
+  "visibleOutput": "TRANSLATION: ni tu li ante: jan li ken ala e wile sona ona; jan li ken weka ale e wile sona ona. ken la, tan tenpo suno ni, jan Utason li wile ala lon poka pi jan pona ona ni pi awen lon kepeken wile suli sama pi tenpo pini. ona li isipin pona e jan ni. taso isipin ona li pana e pilin pi pona ala e pilin monsuta.\nNOTES: “may be doubted” is preserved as uncertainty with “ken la”; “surviving friend” is left relational and does not reveal identity.",
+  "translation": "ni tu li ante: jan li ken ala e wile sona ona; jan li ken weka ale e wile sona ona. ken la, tan tenpo suno ni, jan Utason li wile ala lon poka pi jan pona ona ni pi awen lon kepeken wile suli sama pi tenpo pini. ona li isipin pona e jan ni. taso isipin ona li pana e pilin pi pona ala e pilin monsuta.",
+  "notes": "“may be doubted” is preserved as uncertainty with “ken la”; “surviving friend” is left relational and does not reveal identity.",
+  "usage": {
+    "input_tokens": 2801,
+    "input_tokens_details": {
+      "cache_write_tokens": 2798,
+      "cached_tokens": 0
+    },
+    "output_tokens": 377,
+    "output_tokens_details": {
+      "reasoning_tokens": 239
+    },
+    "total_tokens": 3178
+  },
+  "success": true
+}

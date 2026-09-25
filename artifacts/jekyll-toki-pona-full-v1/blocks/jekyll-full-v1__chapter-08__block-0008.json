@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0008",
+  "sourceHash": "78e324e4c43935dbbe172730ada1ab8eb63bab0673be76972106b88d15f791bf",
+  "source": "Utterson thought he had never seen that part of London so deserted. He could have wished it otherwise; never in his life had he been conscious of so sharp a wish to see and touch his fellow-creatures; for struggle as he might, there was borne in upon his mind a crushing anticipation of calamity.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0613a8e9a317ebe2016ab42f63ab6487d28389c31a0c9fcc56",
+      "visibleOutput": "TRANSLATION: jan Utason li pilin e ni: lon tenpo pini, ona li lukin ala e ma ni pi ma tomo Lantan lon ni: jan li weka sama ni. ona li wile mute e ni: ma ni o ante. lon ale ona, ona li pilin ala e wile wawa sama ni: ona o lukin o pilin luka e jan ante. ona li alasa weka e pilin ni; taso pilin monsuta tan ni: ken la ike suli li kama, li kama lon lawa ona li anpa e ona.\nNOTES: NONE",
+      "translation": "jan Utason li pilin e ni: lon tenpo pini, ona li lukin ala e ma ni pi ma tomo Lantan lon ni: jan li weka sama ni. ona li wile mute e ni: ma ni o ante. lon ale ona, ona li pilin ala e wile wawa sama ni: ona o lukin o pilin luka e jan ante. ona li alasa weka e pilin ni; taso pilin monsuta tan ni: ken la ike suli li kama, li kama lon lawa ona li anpa e ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 466,
+        "output_tokens_details": {
+          "reasoning_tokens": 335
+        },
+        "total_tokens": 3264
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0613a8e9a317ebe2016ab42f63ab6487d28389c31a0c9fcc56",
+  "visibleOutput": "TRANSLATION: jan Utason li pilin e ni: lon tenpo pini, ona li lukin ala e ma ni pi ma tomo Lantan lon ni: jan li weka sama ni. ona li wile mute e ni: ma ni o ante. lon ale ona, ona li pilin ala e wile wawa sama ni: ona o lukin o pilin luka e jan ante. ona li alasa weka e pilin ni; taso pilin monsuta tan ni: ken la ike suli li kama, li kama lon lawa ona li anpa e ona.\nNOTES: NONE",
+  "translation": "jan Utason li pilin e ni: lon tenpo pini, ona li lukin ala e ma ni pi ma tomo Lantan lon ni: jan li weka sama ni. ona li wile mute e ni: ma ni o ante. lon ale ona, ona li pilin ala e wile wawa sama ni: ona o lukin o pilin luka e jan ante. ona li alasa weka e pilin ni; taso pilin monsuta tan ni: ken la ike suli li kama, li kama lon lawa ona li anpa e ona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 466,
+    "output_tokens_details": {
+      "reasoning_tokens": 335
+    },
+    "total_tokens": 3264
+  },
+  "success": true
+}

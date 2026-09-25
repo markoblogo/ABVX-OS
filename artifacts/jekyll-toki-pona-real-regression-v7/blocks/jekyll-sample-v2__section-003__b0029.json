@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0029",
+  "sourceText": "“Have you the envelope?” he asked.",
+  "sourceHash": "dc112373f53ac396e016ab5265e6dba58b2fe35592453d4a07ff95784ddd046c",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_07442033161ea8b6016ab41e38b8f087d29f508742df9d6e51",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: ona li wile sona e ni: “sina jo ala jo e poki lipu?”\nNOTES: NONE",
+      "translation": "ona li wile sona e ni: “sina jo ala jo e poki lipu?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2780,
+        "input_tokens_details": {
+          "cache_write_tokens": 2777,
+          "cached_tokens": 0
+        },
+        "output_tokens": 32,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2812
+      },
+      "elapsedMs": 2559
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_07442033161ea8b6016ab41e38b8f087d29f508742df9d6e51",
+  "visibleOutput": "TRANSLATION: ona li wile sona e ni: “sina jo ala jo e poki lipu?”\nNOTES: NONE",
+  "translation": "ona li wile sona e ni: “sina jo ala jo e poki lipu?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2780,
+    "input_tokens_details": {
+      "cache_write_tokens": 2777,
+      "cached_tokens": 0
+    },
+    "output_tokens": 32,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2812
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0120",
+  "sourceHash": "b4663e66749fe35be5b9c93b5770e95f087faeaf4562c9c87019163606e5dcfc",
+  "source": "You will learn from Poole how I have had London ransacked; it was in vain; and I am now persuaded that my first supply was impure, and that it was that unknown impurity which lent efficacy to the draught. About a week has passed, and I am now finishing this statement under the influence of the last of the old powders.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

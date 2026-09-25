@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0016",
+  "sourceHash": "6bc26a81ba9d380a1ca9c284e4b70960716fd11aa462697e0548d41934cf3eb9",
+  "source": "“I do not blame our old friend,” Jekyll wrote, “but I share his view that we must never meet. I mean from henceforth to lead a life of extreme seclusion; you must not be surprised, nor must you doubt my friendship, if my door is often shut even to you. You must suffer me to go my own dark way.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02260cc45a1f232c016ab42dd877e887d2b621abd7c9092b02",
+      "visibleOutput": "TRANSLATION: jan Jekil li sitelen e ni: “mi toki ala e ni: jan pona pi tenpo pini li ike. taso mi pilin sama ona: mi tu o kama ala lon poka pi ante lon tenpo ale. tan tenpo ni la, mi wile awen weka tan jan ale. lupa pi tomo mi li pini tawa sina kin lon tenpo mute la, sina o nasa ala, o pilin ala e ni: mi en sina li jan pona ala. o pana e ken ni tawa mi: mi tawa lon nasin pimeja mi.”\nNOTES: “mi tu” refers to Jekyll and the old friend; “nasin pimeja” preserves the metaphor without explaining it.",
+      "translation": "jan Jekil li sitelen e ni: “mi toki ala e ni: jan pona pi tenpo pini li ike. taso mi pilin sama ona: mi tu o kama ala lon poka pi ante lon tenpo ale. tan tenpo ni la, mi wile awen weka tan jan ale. lupa pi tomo mi li pini tawa sina kin lon tenpo mute la, sina o nasa ala, o pilin ala e ni: mi en sina li jan pona ala. o pana e ken ni tawa mi: mi tawa lon nasin pimeja mi.”",
+      "notes": "“mi tu” refers to Jekyll and the old friend; “nasin pimeja” preserves the metaphor without explaining it.",
+      "usage": {
+        "input_tokens": 2825,
+        "input_tokens_details": {
+          "cache_write_tokens": 2822,
+          "cached_tokens": 0
+        },
+        "output_tokens": 372,
+        "output_tokens_details": {
+          "reasoning_tokens": 210
+        },
+        "total_tokens": 3197
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02260cc45a1f232c016ab42dd877e887d2b621abd7c9092b02",
+  "visibleOutput": "TRANSLATION: jan Jekil li sitelen e ni: “mi toki ala e ni: jan pona pi tenpo pini li ike. taso mi pilin sama ona: mi tu o kama ala lon poka pi ante lon tenpo ale. tan tenpo ni la, mi wile awen weka tan jan ale. lupa pi tomo mi li pini tawa sina kin lon tenpo mute la, sina o nasa ala, o pilin ala e ni: mi en sina li jan pona ala. o pana e ken ni tawa mi: mi tawa lon nasin pimeja mi.”\nNOTES: “mi tu” refers to Jekyll and the old friend; “nasin pimeja” preserves the metaphor without explaining it.",
+  "translation": "jan Jekil li sitelen e ni: “mi toki ala e ni: jan pona pi tenpo pini li ike. taso mi pilin sama ona: mi tu o kama ala lon poka pi ante lon tenpo ale. tan tenpo ni la, mi wile awen weka tan jan ale. lupa pi tomo mi li pini tawa sina kin lon tenpo mute la, sina o nasa ala, o pilin ala e ni: mi en sina li jan pona ala. o pana e ken ni tawa mi: mi tawa lon nasin pimeja mi.”",
+  "notes": "“mi tu” refers to Jekyll and the old friend; “nasin pimeja” preserves the metaphor without explaining it.",
+  "usage": {
+    "input_tokens": 2825,
+    "input_tokens_details": {
+      "cache_write_tokens": 2822,
+      "cached_tokens": 0
+    },
+    "output_tokens": 372,
+    "output_tokens_details": {
+      "reasoning_tokens": 210
+    },
+    "total_tokens": 3197
+  },
+  "success": true
+}

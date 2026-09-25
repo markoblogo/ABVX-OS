@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0025",
+  "sourceHash": "e4b78bff18eb0d40e3a079c43386b73bc0dfdc58251708531d65b97fc79d34f6",
+  "source": "“I should like to hear your views on that,” replied Utterson. “I have a document here in his handwriting; it is between ourselves, for I scarce know what to do about it; it is an ugly business at the best. But there it is; quite in your way a murderer’s autograph.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0959a973c871d1a2016ab42cce079c87d2b9ff1a0b92dd8063",
+      "visibleOutput": "TRANSLATION: “mi wile kute e pilin sina lon ni,” jan Utason li toki. “lipu li lon poka mi. jan ni li sitelen e ona kepeken luka ona. toki ni li o awen lon insa pi mi tu taso, tan ni: mi sona lili taso e ni la mi o pali seme e lipu ni. lon nasin pona kin la ijo ni li ike. taso lipu li ni. ona li lon nasin sona sina: sitelen luka pi jan pi moli jan.”\nNOTES: “jan ni” preserves the context-dependent referent of “his”; confidentiality and Utterson’s uncertainty are retained.",
+      "translation": "“mi wile kute e pilin sina lon ni,” jan Utason li toki. “lipu li lon poka mi. jan ni li sitelen e ona kepeken luka ona. toki ni li o awen lon insa pi mi tu taso, tan ni: mi sona lili taso e ni la mi o pali seme e lipu ni. lon nasin pona kin la ijo ni li ike. taso lipu li ni. ona li lon nasin sona sina: sitelen luka pi jan pi moli jan.”",
+      "notes": "“jan ni” preserves the context-dependent referent of “his”; confidentiality and Utterson’s uncertainty are retained.",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 389,
+        "output_tokens_details": {
+          "reasoning_tokens": 238
+        },
+        "total_tokens": 3187
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0959a973c871d1a2016ab42cce079c87d2b9ff1a0b92dd8063",
+  "visibleOutput": "TRANSLATION: “mi wile kute e pilin sina lon ni,” jan Utason li toki. “lipu li lon poka mi. jan ni li sitelen e ona kepeken luka ona. toki ni li o awen lon insa pi mi tu taso, tan ni: mi sona lili taso e ni la mi o pali seme e lipu ni. lon nasin pona kin la ijo ni li ike. taso lipu li ni. ona li lon nasin sona sina: sitelen luka pi jan pi moli jan.”\nNOTES: “jan ni” preserves the context-dependent referent of “his”; confidentiality and Utterson’s uncertainty are retained.",
+  "translation": "“mi wile kute e pilin sina lon ni,” jan Utason li toki. “lipu li lon poka mi. jan ni li sitelen e ona kepeken luka ona. toki ni li o awen lon insa pi mi tu taso, tan ni: mi sona lili taso e ni la mi o pali seme e lipu ni. lon nasin pona kin la ijo ni li ike. taso lipu li ni. ona li lon nasin sona sina: sitelen luka pi jan pi moli jan.”",
+  "notes": "“jan ni” preserves the context-dependent referent of “his”; confidentiality and Utterson’s uncertainty are retained.",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 389,
+    "output_tokens_details": {
+      "reasoning_tokens": 238
+    },
+    "total_tokens": 3187
+  },
+  "success": true
+}

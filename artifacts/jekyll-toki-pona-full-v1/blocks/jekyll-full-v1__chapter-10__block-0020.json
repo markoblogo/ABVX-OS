@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0020",
+  "sourceHash": "a07820b1afd6771043aac201c62cb42c2e9d5baab438aa3c4f03461f1c575fab",
+  "source": "I had long since prepared my tincture; I purchased at once, from a firm of wholesale chemists, a large quantity of a particular salt which I knew, from my experiments, to be the last ingredient required; and late one accursed night, I compounded the elements, watched them boil and smoke together in the glass, and when the ebullition had subsided, with a strong glow of courage, drank off the potion.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

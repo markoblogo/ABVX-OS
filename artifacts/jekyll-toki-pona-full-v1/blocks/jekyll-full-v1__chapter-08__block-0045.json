@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0045",
+  "sourceHash": "ae2833ab35a8b2e18135b5175cf35c843c8000697c456ba7dafa9cefa05c40e3",
+  "source": "“Ay, ay,” said the lawyer. “My fears incline to the same point. Evil, I fear, founded—evil was sure to come—of that connection. Ay, truly, I believe you; I believe poor Harry is killed; and I believe his murderer (for what purpose, God alone can tell) is still lurking in his victim’s room. Well, let our name be vengeance. Call Bradshaw.” The footman came at the summons, very white and nervous.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e565ec31f2b3ae8016ab431422f1087d2a25f4789a94944ed",
+      "visibleOutput": "TRANSLATION: “lon, lon,” jan Utason pi sona lawa li toki. “pilin monsuta mi li pana e mi tawa sona sama. mi pilin e ni: ike li open lon kulupu ni, li ken ala weka. ike li kama tan ona. lon, mi pilin e ni: toki sina li lon. mi pilin e ni: jan Jekil pi pakala li moli tan luka pi jan ante. jan ni li moli e ona tan seme? sewi taso li ken sona. taso mi pilin e ni: jan moli ni li awen len lon tomo pi jan Jekil. pona. nimi pi pali mi o ni: mi pana e ike tawa jan ike. o toki e jan Palaso.” jan pali li kama tan toki ni. sinpin ona li walo mute, li pilin monsuta mute.\n\nNOTES: “Harry” is rendered as the ledger-fixed jan Jekil; Bradshaw is rendered as jan Palaso.",
+      "translation": "“lon, lon,” jan Utason pi sona lawa li toki. “pilin monsuta mi li pana e mi tawa sona sama. mi pilin e ni: ike li open lon kulupu ni, li ken ala weka. ike li kama tan ona. lon, mi pilin e ni: toki sina li lon. mi pilin e ni: jan Jekil pi pakala li moli tan luka pi jan ante. jan ni li moli e ona tan seme? sewi taso li ken sona. taso mi pilin e ni: jan moli ni li awen len lon tomo pi jan Jekil. pona. nimi pi pali mi o ni: mi pana e ike tawa jan ike. o toki e jan Palaso.” jan pali li kama tan toki ni. sinpin ona li walo mute, li pilin monsuta mute.",
+      "notes": "“Harry” is rendered as the ledger-fixed jan Jekil; Bradshaw is rendered as jan Palaso.",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 657,
+        "output_tokens_details": {
+          "reasoning_tokens": 440
+        },
+        "total_tokens": 3490
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e565ec31f2b3ae8016ab431422f1087d2a25f4789a94944ed",
+  "visibleOutput": "TRANSLATION: “lon, lon,” jan Utason pi sona lawa li toki. “pilin monsuta mi li pana e mi tawa sona sama. mi pilin e ni: ike li open lon kulupu ni, li ken ala weka. ike li kama tan ona. lon, mi pilin e ni: toki sina li lon. mi pilin e ni: jan Jekil pi pakala li moli tan luka pi jan ante. jan ni li moli e ona tan seme? sewi taso li ken sona. taso mi pilin e ni: jan moli ni li awen len lon tomo pi jan Jekil. pona. nimi pi pali mi o ni: mi pana e ike tawa jan ike. o toki e jan Palaso.” jan pali li kama tan toki ni. sinpin ona li walo mute, li pilin monsuta mute.\n\nNOTES: “Harry” is rendered as the ledger-fixed jan Jekil; Bradshaw is rendered as jan Palaso.",
+  "translation": "“lon, lon,” jan Utason pi sona lawa li toki. “pilin monsuta mi li pana e mi tawa sona sama. mi pilin e ni: ike li open lon kulupu ni, li ken ala weka. ike li kama tan ona. lon, mi pilin e ni: toki sina li lon. mi pilin e ni: jan Jekil pi pakala li moli tan luka pi jan ante. jan ni li moli e ona tan seme? sewi taso li ken sona. taso mi pilin e ni: jan moli ni li awen len lon tomo pi jan Jekil. pona. nimi pi pali mi o ni: mi pana e ike tawa jan ike. o toki e jan Palaso.” jan pali li kama tan toki ni. sinpin ona li walo mute, li pilin monsuta mute.",
+  "notes": "“Harry” is rendered as the ledger-fixed jan Jekil; Bradshaw is rendered as jan Palaso.",
+  "usage": {
+    "input_tokens": 2833,
+    "input_tokens_details": {
+      "cache_write_tokens": 2830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 657,
+    "output_tokens_details": {
+      "reasoning_tokens": 440
+    },
+    "total_tokens": 3490
+  },
+  "success": true
+}

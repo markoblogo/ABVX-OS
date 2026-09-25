@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0012",
+  "sourceText": "“Indeed?” said Utterson. “I thought you had a bond of common interest.”",
+  "sourceHash": "45a3bcfa87457232b8853cc8bb45cf77d9af16131790251c9193246d208ade1f",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ad11a8442e43594016ab41d7853b487d2b304e467ccd8cec4",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”\nNOTES: NONE",
+      "translation": "“lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2790,
+        "input_tokens_details": {
+          "cache_write_tokens": 2787,
+          "cached_tokens": 0
+        },
+        "output_tokens": 142,
+        "output_tokens_details": {
+          "reasoning_tokens": 100
+        },
+        "total_tokens": 2932
+      },
+      "elapsedMs": 4710
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ad11a8442e43594016ab41d7853b487d2b304e467ccd8cec4",
+  "visibleOutput": "TRANSLATION: “lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”\nNOTES: NONE",
+  "translation": "“lon?” jan Utason li toki. “mi pilin e ni: ijo pi wile sama li wan e sina tu.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2790,
+    "input_tokens_details": {
+      "cache_write_tokens": 2787,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 100
+    },
+    "total_tokens": 2932
+  },
+  "success": true
+}

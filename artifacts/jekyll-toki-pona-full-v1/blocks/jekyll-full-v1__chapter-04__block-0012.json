@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0012",
+  "sourceHash": "f8f832c96ec75982fad874d7da0ce176fdb9bc3748a6104fd0c831f2758e4b17",
+  "source": "This was brought to the lawyer the next morning, before he was out of bed; and he had no sooner seen it, and been told the circumstances, than he shot out a solemn lip. “I shall say nothing till I have seen the body,” said he; “this may be very serious.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0541d2f4c4d23032016ab42a72f46c87d2a9f9cfd1029667a0",
+      "visibleOutput": "TRANSLATION: tenpo suno kama la, jan li pana e ijo ni tawa jan Utason pi sona lawa, lon tenpo ona li awen lon supa lape. ona li lukin e ni li kute e nasin pi ijo ni la, sinpin ona li kama musi ala lon tenpo lili. ona li toki e ni: “mi lukin ala e sijelo moli la, mi toki ala. ni li ken ike suli mute.”\nNOTES: “sijelo moli” preserves the reference to the victim’s body without adding further facts.",
+      "translation": "tenpo suno kama la, jan li pana e ijo ni tawa jan Utason pi sona lawa, lon tenpo ona li awen lon supa lape. ona li lukin e ni li kute e nasin pi ijo ni la, sinpin ona li kama musi ala lon tenpo lili. ona li toki e ni: “mi lukin ala e sijelo moli la, mi toki ala. ni li ken ike suli mute.”",
+      "notes": "“sijelo moli” preserves the reference to the victim’s body without adding further facts.",
+      "usage": {
+        "input_tokens": 2799,
+        "input_tokens_details": {
+          "cache_write_tokens": 2796,
+          "cached_tokens": 0
+        },
+        "output_tokens": 645,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3444
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0541d2f4c4d23032016ab42a72f46c87d2a9f9cfd1029667a0",
+  "visibleOutput": "TRANSLATION: tenpo suno kama la, jan li pana e ijo ni tawa jan Utason pi sona lawa, lon tenpo ona li awen lon supa lape. ona li lukin e ni li kute e nasin pi ijo ni la, sinpin ona li kama musi ala lon tenpo lili. ona li toki e ni: “mi lukin ala e sijelo moli la, mi toki ala. ni li ken ike suli mute.”\nNOTES: “sijelo moli” preserves the reference to the victim’s body without adding further facts.",
+  "translation": "tenpo suno kama la, jan li pana e ijo ni tawa jan Utason pi sona lawa, lon tenpo ona li awen lon supa lape. ona li lukin e ni li kute e nasin pi ijo ni la, sinpin ona li kama musi ala lon tenpo lili. ona li toki e ni: “mi lukin ala e sijelo moli la, mi toki ala. ni li ken ike suli mute.”",
+  "notes": "“sijelo moli” preserves the reference to the victim’s body without adding further facts.",
+  "usage": {
+    "input_tokens": 2799,
+    "input_tokens_details": {
+      "cache_write_tokens": 2796,
+      "cached_tokens": 0
+    },
+    "output_tokens": 645,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3444
+  },
+  "success": true
+}

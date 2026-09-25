@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0030",
+  "sourceHash": "01882b7a64a184b7a15559fa9312c13d16d6fc1dae278e1e20a4b33e5bab5e5f",
+  "source": "“On your side,” said Mr. Utterson, “will you do me a favour?” “With pleasure,” replied the other. “What shall it be?” “Will you let me see your face?” asked the lawyer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d2717b43b7a6e69016ab427e5f1bc87d2b78d119475aacad0",
+      "visibleOutput": "TRANSLATION: jan Utason li toki: “sina kin la, sina ken ala ken pali e pona wan tawa mi?” jan ante li toki: “mi pali e ni kepeken pilin pona. ona li seme?” jan Utason pi sona lawa li wile sona: “sina ken ala ken pana e ken ni tawa mi: mi lukin e sinpin sina?”\nNOTES: “On your side” is rendered as reciprocal “sina kin la”; the favor remains a request, not an assumption.",
+      "translation": "jan Utason li toki: “sina kin la, sina ken ala ken pali e pona wan tawa mi?” jan ante li toki: “mi pali e ni kepeken pilin pona. ona li seme?” jan Utason pi sona lawa li wile sona: “sina ken ala ken pana e ken ni tawa mi: mi lukin e sinpin sina?”",
+      "notes": "“On your side” is rendered as reciprocal “sina kin la”; the favor remains a request, not an assumption.",
+      "usage": {
+        "input_tokens": 2795,
+        "input_tokens_details": {
+          "cache_write_tokens": 2792,
+          "cached_tokens": 0
+        },
+        "output_tokens": 588,
+        "output_tokens_details": {
+          "reasoning_tokens": 471
+        },
+        "total_tokens": 3383
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d2717b43b7a6e69016ab427e5f1bc87d2b78d119475aacad0",
+  "visibleOutput": "TRANSLATION: jan Utason li toki: “sina kin la, sina ken ala ken pali e pona wan tawa mi?” jan ante li toki: “mi pali e ni kepeken pilin pona. ona li seme?” jan Utason pi sona lawa li wile sona: “sina ken ala ken pana e ken ni tawa mi: mi lukin e sinpin sina?”\nNOTES: “On your side” is rendered as reciprocal “sina kin la”; the favor remains a request, not an assumption.",
+  "translation": "jan Utason li toki: “sina kin la, sina ken ala ken pali e pona wan tawa mi?” jan ante li toki: “mi pali e ni kepeken pilin pona. ona li seme?” jan Utason pi sona lawa li wile sona: “sina ken ala ken pana e ken ni tawa mi: mi lukin e sinpin sina?”",
+  "notes": "“On your side” is rendered as reciprocal “sina kin la”; the favor remains a request, not an assumption.",
+  "usage": {
+    "input_tokens": 2795,
+    "input_tokens_details": {
+      "cache_write_tokens": 2792,
+      "cached_tokens": 0
+    },
+    "output_tokens": 588,
+    "output_tokens_details": {
+      "reasoning_tokens": 471
+    },
+    "total_tokens": 3383
+  },
+  "success": true
+}

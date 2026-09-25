@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0079",
+  "sourceHash": "ae361d937b7d89b5f4e27542c4266a0e1d4c73cc1e456789cee11253f409e995",
+  "source": "“Your unworthy and unhappy friend, “HENRY JEKYLL.” “There was a third enclosure?” asked Utterson. “Here, sir,” said Poole, and gave into his hands a considerable packet sealed in several places.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0eb615f1dbcbfe5e016ab432d1501087d2b20054e904e5b7ee",
+      "visibleOutput": "TRANSLATION: “jan pona sina pi pona ala pi pilin ike, jan Jekil.” “lipu insa nanpa tu wan li lon ala lon?” jan Utason li wile sona. jan Pulu li toki e ni: “jan lawa o, ni li lon,” li pana tawa luka ona e kulupu lipu suli pi pini awen lon ma mute.\nNOTES: NONE",
+      "translation": "“jan pona sina pi pona ala pi pilin ike, jan Jekil.” “lipu insa nanpa tu wan li lon ala lon?” jan Utason li wile sona. jan Pulu li toki e ni: “jan lawa o, ni li lon,” li pana tawa luka ona e kulupu lipu suli pi pini awen lon ma mute.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2796,
+        "input_tokens_details": {
+          "cache_write_tokens": 2793,
+          "cached_tokens": 0
+        },
+        "output_tokens": 313,
+        "output_tokens_details": {
+          "reasoning_tokens": 223
+        },
+        "total_tokens": 3109
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0eb615f1dbcbfe5e016ab432d1501087d2b20054e904e5b7ee",
+  "visibleOutput": "TRANSLATION: “jan pona sina pi pona ala pi pilin ike, jan Jekil.” “lipu insa nanpa tu wan li lon ala lon?” jan Utason li wile sona. jan Pulu li toki e ni: “jan lawa o, ni li lon,” li pana tawa luka ona e kulupu lipu suli pi pini awen lon ma mute.\nNOTES: NONE",
+  "translation": "“jan pona sina pi pona ala pi pilin ike, jan Jekil.” “lipu insa nanpa tu wan li lon ala lon?” jan Utason li wile sona. jan Pulu li toki e ni: “jan lawa o, ni li lon,” li pana tawa luka ona e kulupu lipu suli pi pini awen lon ma mute.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2796,
+    "input_tokens_details": {
+      "cache_write_tokens": 2793,
+      "cached_tokens": 0
+    },
+    "output_tokens": 313,
+    "output_tokens_details": {
+      "reasoning_tokens": 223
+    },
+    "total_tokens": 3109
+  },
+  "success": true
+}

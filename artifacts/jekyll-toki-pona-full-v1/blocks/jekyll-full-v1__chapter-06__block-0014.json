@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0014",
+  "sourceHash": "b18092937c60f83eebd81f388eb9f944d509ffdf0d447bd2ba00b9b8f944733c",
+  "source": "“I am not surprised at that,” was the reply. “Some day, Utterson, after I am dead, you may perhaps come to learn the right and wrong of this. I cannot tell you. And in the meantime, if you can sit and talk with me of other things, for God’s sake, stay and do so; but if you cannot keep clear of this accursed topic, then, in God’s name, go, for I cannot bear it.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02c94de7a28b5cd0016ab42dc1f78087d2ae1e25201167b3b8",
+      "visibleOutput": "TRANSLATION: “ni li nasa ala tawa mi,” ona li toki. “jan Utason o, tenpo kama la, mi moli lon tenpo pini la, ken la sina kama sona e pona en ike pi ijo ni. mi ken ala toki e ni tawa sina. taso lon tenpo ni, sina ken awen poka mi li toki lon ijo ante la, tan sewi a, o awen li toki. taso sina ken ala weka tan toki ike suli ni la, tan nimi sewi o tawa. mi ken ala awen lon pilin ni.”\n\nNOTES: “the right and wrong of this” is rendered as “pona en ike pi ijo ni,” preserving its ambiguity.",
+      "translation": "“ni li nasa ala tawa mi,” ona li toki. “jan Utason o, tenpo kama la, mi moli lon tenpo pini la, ken la sina kama sona e pona en ike pi ijo ni. mi ken ala toki e ni tawa sina. taso lon tenpo ni, sina ken awen poka mi li toki lon ijo ante la, tan sewi a, o awen li toki. taso sina ken ala weka tan toki ike suli ni la, tan nimi sewi o tawa. mi ken ala awen lon pilin ni.”",
+      "notes": "“the right and wrong of this” is rendered as “pona en ike pi ijo ni,” preserving its ambiguity.",
+      "usage": {
+        "input_tokens": 2837,
+        "input_tokens_details": {
+          "cache_write_tokens": 2834,
+          "cached_tokens": 0
+        },
+        "output_tokens": 476,
+        "output_tokens_details": {
+          "reasoning_tokens": 318
+        },
+        "total_tokens": 3313
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02c94de7a28b5cd0016ab42dc1f78087d2ae1e25201167b3b8",
+  "visibleOutput": "TRANSLATION: “ni li nasa ala tawa mi,” ona li toki. “jan Utason o, tenpo kama la, mi moli lon tenpo pini la, ken la sina kama sona e pona en ike pi ijo ni. mi ken ala toki e ni tawa sina. taso lon tenpo ni, sina ken awen poka mi li toki lon ijo ante la, tan sewi a, o awen li toki. taso sina ken ala weka tan toki ike suli ni la, tan nimi sewi o tawa. mi ken ala awen lon pilin ni.”\n\nNOTES: “the right and wrong of this” is rendered as “pona en ike pi ijo ni,” preserving its ambiguity.",
+  "translation": "“ni li nasa ala tawa mi,” ona li toki. “jan Utason o, tenpo kama la, mi moli lon tenpo pini la, ken la sina kama sona e pona en ike pi ijo ni. mi ken ala toki e ni tawa sina. taso lon tenpo ni, sina ken awen poka mi li toki lon ijo ante la, tan sewi a, o awen li toki. taso sina ken ala weka tan toki ike suli ni la, tan nimi sewi o tawa. mi ken ala awen lon pilin ni.”",
+  "notes": "“the right and wrong of this” is rendered as “pona en ike pi ijo ni,” preserving its ambiguity.",
+  "usage": {
+    "input_tokens": 2837,
+    "input_tokens_details": {
+      "cache_write_tokens": 2834,
+      "cached_tokens": 0
+    },
+    "output_tokens": 476,
+    "output_tokens_details": {
+      "reasoning_tokens": 318
+    },
+    "total_tokens": 3313
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0008",
+  "sourceHash": "daebec8568599839661d2fb79e32118d099fbceee6aa64644b0db6aed604d577",
+  "source": "For all that, the two men put the greatest store by these excursions, counted them the chief jewel of each week, and not only set aside occasions of pleasure, but even resisted the calls of business, that they might enjoy them uninterrupted. It chanced on one of these rambles that their way led them down a by-street in a busy quarter of London.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06692b0b4e093857016ab424b71e5087d2bd16f0a691fc3a36",
+      "visibleOutput": "TRANSLATION: taso tawa noka ni li suli mute tawa jan tu. ona li pilin e ni: lon tenpo suno luka tu ale, tawa ni li ijo pona nanpa wan. tan ni la, ona li weka e tenpo musi ante. pali li wile e ona la, ona li tawa ala pali, tan ni: ona li wile kama jo e musi ni kepeken pini ala. lon wan pi tawa noka ni la, nasin ona li kama tawa nasin lili poka lon ma tomo Lantan, lon ma pi jan mute pi pali mute.\nNOTES: NONE",
+      "translation": "taso tawa noka ni li suli mute tawa jan tu. ona li pilin e ni: lon tenpo suno luka tu ale, tawa ni li ijo pona nanpa wan. tan ni la, ona li weka e tenpo musi ante. pali li wile e ona la, ona li tawa ala pali, tan ni: ona li wile kama jo e musi ni kepeken pini ala. lon wan pi tawa noka ni la, nasin ona li kama tawa nasin lili poka lon ma tomo Lantan, lon ma pi jan mute pi pali mute.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 496,
+        "output_tokens_details": {
+          "reasoning_tokens": 356
+        },
+        "total_tokens": 3306
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_06692b0b4e093857016ab424b71e5087d2bd16f0a691fc3a36",
+  "visibleOutput": "TRANSLATION: taso tawa noka ni li suli mute tawa jan tu. ona li pilin e ni: lon tenpo suno luka tu ale, tawa ni li ijo pona nanpa wan. tan ni la, ona li weka e tenpo musi ante. pali li wile e ona la, ona li tawa ala pali, tan ni: ona li wile kama jo e musi ni kepeken pini ala. lon wan pi tawa noka ni la, nasin ona li kama tawa nasin lili poka lon ma tomo Lantan, lon ma pi jan mute pi pali mute.\nNOTES: NONE",
+  "translation": "taso tawa noka ni li suli mute tawa jan tu. ona li pilin e ni: lon tenpo suno luka tu ale, tawa ni li ijo pona nanpa wan. tan ni la, ona li weka e tenpo musi ante. pali li wile e ona la, ona li tawa ala pali, tan ni: ona li wile kama jo e musi ni kepeken pini ala. lon wan pi tawa noka ni la, nasin ona li kama tawa nasin lili poka lon ma tomo Lantan, lon ma pi jan mute pi pali mute.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2810,
+    "input_tokens_details": {
+      "cache_write_tokens": 2807,
+      "cached_tokens": 0
+    },
+    "output_tokens": 496,
+    "output_tokens_details": {
+      "reasoning_tokens": 356
+    },
+    "total_tokens": 3306
+  },
+  "success": true
+}

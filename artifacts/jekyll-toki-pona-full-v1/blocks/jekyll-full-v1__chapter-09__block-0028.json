@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0028",
+  "sourceHash": "d51e0126b4725aeb22cf3c825002e228e182b799a51e2027f133e0b68038554e",
+  "source": "He was small, as I have said; I was struck besides with the shocking expression of his face, with his remarkable combination of great muscular activity and great apparent debility of constitution, and—last but not least— with the odd, subjective disturbance caused by his neighbourhood. This bore some resemblance to incipient rigour, and was accompanied by a marked sinking of the pulse.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cb0e0917ea89fd4016ab434e29cb087d2a8a1bdaf31441045",
+      "visibleOutput": "TRANSLATION: ona li lili, sama toki mi lon tenpo pini. sin la, lukin pi sinpin ona li nasa ike e mi. sijelo ona li tawa wawa mute, taso sijelo sama li lukin wawa ala mute. ni li nasa suli. kin la, ona li lon poka mi la, mi pilin nasa ike. pilin ni li sama ni: sijelo li open kama kiwen tan lete. lon tenpo sama la, tawa pi telo loje lon luka ona li kama wawa ala mute.\nNOTES: “apparent debility” remains observer-bound; the final bodily signs are rendered as Lanyon’s observations.",
+      "translation": "ona li lili, sama toki mi lon tenpo pini. sin la, lukin pi sinpin ona li nasa ike e mi. sijelo ona li tawa wawa mute, taso sijelo sama li lukin wawa ala mute. ni li nasa suli. kin la, ona li lon poka mi la, mi pilin nasa ike. pilin ni li sama ni: sijelo li open kama kiwen tan lete. lon tenpo sama la, tawa pi telo loje lon luka ona li kama wawa ala mute.",
+      "notes": "“apparent debility” remains observer-bound; the final bodily signs are rendered as Lanyon’s observations.",
+      "usage": {
+        "input_tokens": 2816,
+        "input_tokens_details": {
+          "cache_write_tokens": 2813,
+          "cached_tokens": 0
+        },
+        "output_tokens": 505,
+        "output_tokens_details": {
+          "reasoning_tokens": 358
+        },
+        "total_tokens": 3321
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cb0e0917ea89fd4016ab434e29cb087d2a8a1bdaf31441045",
+  "visibleOutput": "TRANSLATION: ona li lili, sama toki mi lon tenpo pini. sin la, lukin pi sinpin ona li nasa ike e mi. sijelo ona li tawa wawa mute, taso sijelo sama li lukin wawa ala mute. ni li nasa suli. kin la, ona li lon poka mi la, mi pilin nasa ike. pilin ni li sama ni: sijelo li open kama kiwen tan lete. lon tenpo sama la, tawa pi telo loje lon luka ona li kama wawa ala mute.\nNOTES: “apparent debility” remains observer-bound; the final bodily signs are rendered as Lanyon’s observations.",
+  "translation": "ona li lili, sama toki mi lon tenpo pini. sin la, lukin pi sinpin ona li nasa ike e mi. sijelo ona li tawa wawa mute, taso sijelo sama li lukin wawa ala mute. ni li nasa suli. kin la, ona li lon poka mi la, mi pilin nasa ike. pilin ni li sama ni: sijelo li open kama kiwen tan lete. lon tenpo sama la, tawa pi telo loje lon luka ona li kama wawa ala mute.",
+  "notes": "“apparent debility” remains observer-bound; the final bodily signs are rendered as Lanyon’s observations.",
+  "usage": {
+    "input_tokens": 2816,
+    "input_tokens_details": {
+      "cache_write_tokens": 2813,
+      "cached_tokens": 0
+    },
+    "output_tokens": 505,
+    "output_tokens_details": {
+      "reasoning_tokens": 358
+    },
+    "total_tokens": 3321
+  },
+  "success": true
+}

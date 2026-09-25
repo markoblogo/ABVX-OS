@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0093",
+  "sourceHash": "303784c3357d1b7ca5191d73502561a12fa059667d8eab91ae411fd90ee9c10e",
+  "source": "Supposing that I escaped capture in the streets, how was I to make my way into his presence? and how should I, an unknown and displeasing visitor, prevail on the famous physician to rifle the study of his colleague, Dr. Jekyll?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

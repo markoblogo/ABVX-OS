@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0054",
+  "sourceHash": "6c3980028c5e6730e8fd9e19e5d338228e8c068df69814af4d312adcbbce1fe9",
+  "source": "But now the ten minutes drew to an end. Poole disinterred the axe from under a stack of packing straw; the candle was set upon the nearest table to light them to the attack; and they drew near with bated breath to where that patient foot was still going up and down, up and down, in the quiet of the night.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f8145cb95cf4a39016ab431ac83cc87d29e0d228ffd1670f4",
+      "visibleOutput": "TRANSLATION: taso tenpo lili luka luka ni li kama pini. jan Pulu li kama jo e ilo kipisi suli tan anpa pi kulupu kasi moli pi poki. ona li pana e ilo suno lon supa poka, tawa pana e suno lon utala kama. ona tu li awen e kon, li kama poka e ma ni: lon ma ni, kalama noka pi tawa awen li tawa sinpin li tawa monsi, li tawa sinpin li tawa monsi, lon lape kalama ala pi tenpo pimeja.\nNOTES: “minutes” and “packing straw” are rendered descriptively.",
+      "translation": "taso tenpo lili luka luka ni li kama pini. jan Pulu li kama jo e ilo kipisi suli tan anpa pi kulupu kasi moli pi poki. ona li pana e ilo suno lon supa poka, tawa pana e suno lon utala kama. ona tu li awen e kon, li kama poka e ma ni: lon ma ni, kalama noka pi tawa awen li tawa sinpin li tawa monsi, li tawa sinpin li tawa monsi, lon lape kalama ala pi tenpo pimeja.",
+      "notes": "“minutes” and “packing straw” are rendered descriptively.",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 603,
+        "output_tokens_details": {
+          "reasoning_tokens": 454
+        },
+        "total_tokens": 3408
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f8145cb95cf4a39016ab431ac83cc87d29e0d228ffd1670f4",
+  "visibleOutput": "TRANSLATION: taso tenpo lili luka luka ni li kama pini. jan Pulu li kama jo e ilo kipisi suli tan anpa pi kulupu kasi moli pi poki. ona li pana e ilo suno lon supa poka, tawa pana e suno lon utala kama. ona tu li awen e kon, li kama poka e ma ni: lon ma ni, kalama noka pi tawa awen li tawa sinpin li tawa monsi, li tawa sinpin li tawa monsi, lon lape kalama ala pi tenpo pimeja.\nNOTES: “minutes” and “packing straw” are rendered descriptively.",
+  "translation": "taso tenpo lili luka luka ni li kama pini. jan Pulu li kama jo e ilo kipisi suli tan anpa pi kulupu kasi moli pi poki. ona li pana e ilo suno lon supa poka, tawa pana e suno lon utala kama. ona tu li awen e kon, li kama poka e ma ni: lon ma ni, kalama noka pi tawa awen li tawa sinpin li tawa monsi, li tawa sinpin li tawa monsi, lon lape kalama ala pi tenpo pimeja.",
+  "notes": "“minutes” and “packing straw” are rendered descriptively.",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 603,
+    "output_tokens_details": {
+      "reasoning_tokens": 454
+    },
+    "total_tokens": 3408
+  },
+  "success": true
+}

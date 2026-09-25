@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0011",
+  "sourceHash": "ee7239e85d1b6cd3f9a4e270b2bb0b31ce70324f200796b21367a32d623b2465",
+  "source": "“Confident as I am that you will not trifle with this appeal, my heart sinks and my hand trembles at the bare thought of such a possibility. Think of me at this hour, in a strange place, labouring under a blackness of distress that no fancy can exaggerate, and yet well aware that, if you will but punctually serve me, my troubles will roll away like a story that is told. Serve me, my dear Lanyon, and save",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b22eb70dd027fd0016ab433cdb84087d28f2d687e4506c19d",
+      "visibleOutput": "TRANSLATION: “mi sona wawa e ni: sina musi ala kepeken toki wile ni. taso mi pilin taso e ken ni la, pilin mi li anpa, en luka mi li tawa lili tan pilin monsuta. lon tenpo ni, o pilin e mi: mi lon ma pi sona ala mi, li kama wawa pali lon pilin ike pimeja. sona insa li ken ala suli mute e ike ni. taso mi sona pona e ni: sina pali pona tawa mi lon tenpo wile la, ike mi li weka sama toki musi pini. jan Lanjon olin o, o pali tawa mi, o awen pona e—”\nNOTES: toki mama li pini lon insa pi toki “save”; ante toki li awen e pini pakala ni.",
+      "translation": "“mi sona wawa e ni: sina musi ala kepeken toki wile ni. taso mi pilin taso e ken ni la, pilin mi li anpa, en luka mi li tawa lili tan pilin monsuta. lon tenpo ni, o pilin e mi: mi lon ma pi sona ala mi, li kama wawa pali lon pilin ike pimeja. sona insa li ken ala suli mute e ike ni. taso mi sona pona e ni: sina pali pona tawa mi lon tenpo wile la, ike mi li weka sama toki musi pini. jan Lanjon olin o, o pali tawa mi, o awen pona e—”",
+      "notes": "toki mama li pini lon insa pi toki “save”; ante toki li awen e pini pakala ni.",
+      "usage": {
+        "input_tokens": 2848,
+        "input_tokens_details": {
+          "cache_write_tokens": 2845,
+          "cached_tokens": 0
+        },
+        "output_tokens": 542,
+        "output_tokens_details": {
+          "reasoning_tokens": 360
+        },
+        "total_tokens": 3390
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b22eb70dd027fd0016ab433cdb84087d28f2d687e4506c19d",
+  "visibleOutput": "TRANSLATION: “mi sona wawa e ni: sina musi ala kepeken toki wile ni. taso mi pilin taso e ken ni la, pilin mi li anpa, en luka mi li tawa lili tan pilin monsuta. lon tenpo ni, o pilin e mi: mi lon ma pi sona ala mi, li kama wawa pali lon pilin ike pimeja. sona insa li ken ala suli mute e ike ni. taso mi sona pona e ni: sina pali pona tawa mi lon tenpo wile la, ike mi li weka sama toki musi pini. jan Lanjon olin o, o pali tawa mi, o awen pona e—”\nNOTES: toki mama li pini lon insa pi toki “save”; ante toki li awen e pini pakala ni.",
+  "translation": "“mi sona wawa e ni: sina musi ala kepeken toki wile ni. taso mi pilin taso e ken ni la, pilin mi li anpa, en luka mi li tawa lili tan pilin monsuta. lon tenpo ni, o pilin e mi: mi lon ma pi sona ala mi, li kama wawa pali lon pilin ike pimeja. sona insa li ken ala suli mute e ike ni. taso mi sona pona e ni: sina pali pona tawa mi lon tenpo wile la, ike mi li weka sama toki musi pini. jan Lanjon olin o, o pali tawa mi, o awen pona e—”",
+  "notes": "toki mama li pini lon insa pi toki “save”; ante toki li awen e pini pakala ni.",
+  "usage": {
+    "input_tokens": 2848,
+    "input_tokens_details": {
+      "cache_write_tokens": 2845,
+      "cached_tokens": 0
+    },
+    "output_tokens": 542,
+    "output_tokens_details": {
+      "reasoning_tokens": 360
+    },
+    "total_tokens": 3390
+  },
+  "success": true
+}

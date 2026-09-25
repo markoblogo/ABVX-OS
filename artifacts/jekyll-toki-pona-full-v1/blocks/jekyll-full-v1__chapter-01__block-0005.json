@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0005",
+  "sourceHash": "34c332cc967301aaea6c9abce07d94338f9bb5bad6acf4c0905d94b3e184bad2",
+  "source": "No doubt the feat was easy to Mr. Utterson; for he was undemonstrative at the best, and even his friendship seemed to be founded in a similar catholicity of good-nature. It is the mark of a modest man to accept his friendly circle ready-made from the hands of opportunity; and that was the lawyer’s way.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0adcd8837302888e016ab424985dec87d2b9625132ea5ac872",
+      "visibleOutput": "TRANSLATION: lon la, pali ni li pona tawa jan Utason, li wile e wawa lili taso. tenpo ale la, ona li pana lukin ala e pilin ona. kin la, lukin la, nasin jan pona ona li kama tan ni: ona li pona tawa jan ale. jan pi pilin suli ala lon ona li jo e jan pona tan nasin pi tenpo kama, li alasa ala e kulupu ante. jan Utason pi sona lawa li jo e nasin ni.\n\nNOTES: nimi “catholicity” li kama “pona tawa jan ale.”",
+      "translation": "lon la, pali ni li pona tawa jan Utason, li wile e wawa lili taso. tenpo ale la, ona li pana lukin ala e pilin ona. kin la, lukin la, nasin jan pona ona li kama tan ni: ona li pona tawa jan ale. jan pi pilin suli ala lon ona li jo e jan pona tan nasin pi tenpo kama, li alasa ala e kulupu ante. jan Utason pi sona lawa li jo e nasin ni.",
+      "notes": "nimi “catholicity” li kama “pona tawa jan ale.”",
+      "usage": {
+        "input_tokens": 2807,
+        "input_tokens_details": {
+          "cache_write_tokens": 2804,
+          "cached_tokens": 0
+        },
+        "output_tokens": 510,
+        "output_tokens_details": {
+          "reasoning_tokens": 373
+        },
+        "total_tokens": 3317
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0adcd8837302888e016ab424985dec87d2b9625132ea5ac872",
+  "visibleOutput": "TRANSLATION: lon la, pali ni li pona tawa jan Utason, li wile e wawa lili taso. tenpo ale la, ona li pana lukin ala e pilin ona. kin la, lukin la, nasin jan pona ona li kama tan ni: ona li pona tawa jan ale. jan pi pilin suli ala lon ona li jo e jan pona tan nasin pi tenpo kama, li alasa ala e kulupu ante. jan Utason pi sona lawa li jo e nasin ni.\n\nNOTES: nimi “catholicity” li kama “pona tawa jan ale.”",
+  "translation": "lon la, pali ni li pona tawa jan Utason, li wile e wawa lili taso. tenpo ale la, ona li pana lukin ala e pilin ona. kin la, lukin la, nasin jan pona ona li kama tan ni: ona li pona tawa jan ale. jan pi pilin suli ala lon ona li jo e jan pona tan nasin pi tenpo kama, li alasa ala e kulupu ante. jan Utason pi sona lawa li jo e nasin ni.",
+  "notes": "nimi “catholicity” li kama “pona tawa jan ale.”",
+  "usage": {
+    "input_tokens": 2807,
+    "input_tokens_details": {
+      "cache_write_tokens": 2804,
+      "cached_tokens": 0
+    },
+    "output_tokens": 510,
+    "output_tokens_details": {
+      "reasoning_tokens": 373
+    },
+    "total_tokens": 3317
+  },
+  "success": true
+}

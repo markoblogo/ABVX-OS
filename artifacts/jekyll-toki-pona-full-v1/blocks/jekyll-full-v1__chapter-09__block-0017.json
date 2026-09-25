@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0017",
+  "sourceHash": "3a8ffd06ee7d32601ca4c0c957d64366e7e6bcaf0c524a7d82988eb9b6ec0baf",
+  "source": "The press marked E was unlocked; and I took out the drawer, had it filled up with straw and tied in a sheet, and returned with it to Cavendish Square. Here I proceeded to examine its contents.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03084aa1b377794e016ab4344a08c887d281258818e76d5a0b",
+      "visibleOutput": "TRANSLATION: poki suli pi sitelen E li pini ala kepeken ilo open. mi weka e poki anpa tan ona. mi pana e poki anpa ni tawa jan ante, la ona li pana e kasi leko insa ona, li len e ona kepeken len suli, li sitelen e len. mi kama sin tawa ma Kawenti kepeken ona. lon ni, mi open lukin sona e ijo insa ona.\nNOTES: “press” and “drawer” are rendered distinctly as a large cabinet and its lower container; the unnamed helpers remain unspecified.",
+      "translation": "poki suli pi sitelen E li pini ala kepeken ilo open. mi weka e poki anpa tan ona. mi pana e poki anpa ni tawa jan ante, la ona li pana e kasi leko insa ona, li len e ona kepeken len suli, li sitelen e len. mi kama sin tawa ma Kawenti kepeken ona. lon ni, mi open lukin sona e ijo insa ona.",
+      "notes": "“press” and “drawer” are rendered distinctly as a large cabinet and its lower container; the unnamed helpers remain unspecified.",
+      "usage": {
+        "input_tokens": 2784,
+        "input_tokens_details": {
+          "cache_write_tokens": 2781,
+          "cached_tokens": 0
+        },
+        "output_tokens": 202,
+        "output_tokens_details": {
+          "reasoning_tokens": 68
+        },
+        "total_tokens": 2986
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03084aa1b377794e016ab4344a08c887d281258818e76d5a0b",
+  "visibleOutput": "TRANSLATION: poki suli pi sitelen E li pini ala kepeken ilo open. mi weka e poki anpa tan ona. mi pana e poki anpa ni tawa jan ante, la ona li pana e kasi leko insa ona, li len e ona kepeken len suli, li sitelen e len. mi kama sin tawa ma Kawenti kepeken ona. lon ni, mi open lukin sona e ijo insa ona.\nNOTES: “press” and “drawer” are rendered distinctly as a large cabinet and its lower container; the unnamed helpers remain unspecified.",
+  "translation": "poki suli pi sitelen E li pini ala kepeken ilo open. mi weka e poki anpa tan ona. mi pana e poki anpa ni tawa jan ante, la ona li pana e kasi leko insa ona, li len e ona kepeken len suli, li sitelen e len. mi kama sin tawa ma Kawenti kepeken ona. lon ni, mi open lukin sona e ijo insa ona.",
+  "notes": "“press” and “drawer” are rendered distinctly as a large cabinet and its lower container; the unnamed helpers remain unspecified.",
+  "usage": {
+    "input_tokens": 2784,
+    "input_tokens_details": {
+      "cache_write_tokens": 2781,
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 2986
+  },
+  "success": true
+}

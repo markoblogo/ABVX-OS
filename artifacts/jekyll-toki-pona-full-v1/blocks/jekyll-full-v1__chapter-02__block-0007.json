@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0007",
+  "sourceHash": "37757e4edcf912dc2bb1ec60536d8a5f2d83adaf7a98fe437c939a911538d25b",
+  "source": "With that he blew out his candle, put on a great-coat, and set forth in the direction of Cavendish Square, that citadel of medicine, where his friend, the great Dr. Lanyon, had his house and received his crowding patients. “If any one knows, it will be Lanyon,” he had thought.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0961b7e057007399016ab426bbc96c87d2b3ed858ef82f160e",
+      "visibleOutput": "TRANSLATION: tenpo ni la, jan Utason li pini e seli pi ilo suno ona, li len e len suli pi selo, li tawa ma Kawenti. ma ni li ma suli pi jan pi sona sijelo. lon ni la, tomo pi jan pona ona, jan Lanjon pi sona sijelo suli, li lon. jan ike sijelo mute li kama kulupu lon tomo ona. jan Utason li toki insa lon tenpo pini e ni: “jan wan li sona la, jan Lanjon li sona.”\nNOTES: NONE",
+      "translation": "tenpo ni la, jan Utason li pini e seli pi ilo suno ona, li len e len suli pi selo, li tawa ma Kawenti. ma ni li ma suli pi jan pi sona sijelo. lon ni la, tomo pi jan pona ona, jan Lanjon pi sona sijelo suli, li lon. jan ike sijelo mute li kama kulupu lon tomo ona. jan Utason li toki insa lon tenpo pini e ni: “jan wan li sona la, jan Lanjon li sona.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 224,
+        "output_tokens_details": {
+          "reasoning_tokens": 102
+        },
+        "total_tokens": 3042
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0961b7e057007399016ab426bbc96c87d2b3ed858ef82f160e",
+  "visibleOutput": "TRANSLATION: tenpo ni la, jan Utason li pini e seli pi ilo suno ona, li len e len suli pi selo, li tawa ma Kawenti. ma ni li ma suli pi jan pi sona sijelo. lon ni la, tomo pi jan pona ona, jan Lanjon pi sona sijelo suli, li lon. jan ike sijelo mute li kama kulupu lon tomo ona. jan Utason li toki insa lon tenpo pini e ni: “jan wan li sona la, jan Lanjon li sona.”\nNOTES: NONE",
+  "translation": "tenpo ni la, jan Utason li pini e seli pi ilo suno ona, li len e len suli pi selo, li tawa ma Kawenti. ma ni li ma suli pi jan pi sona sijelo. lon ni la, tomo pi jan pona ona, jan Lanjon pi sona sijelo suli, li lon. jan ike sijelo mute li kama kulupu lon tomo ona. jan Utason li toki insa lon tenpo pini e ni: “jan wan li sona la, jan Lanjon li sona.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "reasoning_tokens": 102
+    },
+    "total_tokens": 3042
+  },
+  "success": true
+}

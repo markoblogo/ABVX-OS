@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0008",
+  "sourceHash": "21295fa558d4f0b5f1fb27313715d4bf24e0d23837945332776fd3940608c640",
+  "source": "The lawyer listened gloomily; he did not like his friend’s feverish manner. “You seem pretty sure of him,” said he; “and for your sake, I hope you may be right. If it came to a trial, your name might appear.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0814c2c629973101016ab42bdbe81087d2a870f69ad80f5563",
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li kute lon pilin ike. nasin wawa nasa pi jan pona ona li pona ala tawa ona. ona li toki e ni: “sina pilin wawa mute lon jan ni. tan pona sina la, mi wile e ni: pilin sina li lon. ijo ni li kama lon tomo lawa la, jan li ken toki e nimi sina.”\n\nNOTES: “feverish manner” is rendered as agitated behavior, not as confirmed illness; the trial and mention of Jekyll’s name remain conditional.",
+      "translation": "jan Utason pi sona lawa li kute lon pilin ike. nasin wawa nasa pi jan pona ona li pona ala tawa ona. ona li toki e ni: “sina pilin wawa mute lon jan ni. tan pona sina la, mi wile e ni: pilin sina li lon. ijo ni li kama lon tomo lawa la, jan li ken toki e nimi sina.”",
+      "notes": "“feverish manner” is rendered as agitated behavior, not as confirmed illness; the trial and mention of Jekyll’s name remain conditional.",
+      "usage": {
+        "input_tokens": 2788,
+        "input_tokens_details": {
+          "cache_write_tokens": 2785,
+          "cached_tokens": 0
+        },
+        "output_tokens": 643,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3431
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0814c2c629973101016ab42bdbe81087d2a870f69ad80f5563",
+  "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li kute lon pilin ike. nasin wawa nasa pi jan pona ona li pona ala tawa ona. ona li toki e ni: “sina pilin wawa mute lon jan ni. tan pona sina la, mi wile e ni: pilin sina li lon. ijo ni li kama lon tomo lawa la, jan li ken toki e nimi sina.”\n\nNOTES: “feverish manner” is rendered as agitated behavior, not as confirmed illness; the trial and mention of Jekyll’s name remain conditional.",
+  "translation": "jan Utason pi sona lawa li kute lon pilin ike. nasin wawa nasa pi jan pona ona li pona ala tawa ona. ona li toki e ni: “sina pilin wawa mute lon jan ni. tan pona sina la, mi wile e ni: pilin sina li lon. ijo ni li kama lon tomo lawa la, jan li ken toki e nimi sina.”",
+  "notes": "“feverish manner” is rendered as agitated behavior, not as confirmed illness; the trial and mention of Jekyll’s name remain conditional.",
+  "usage": {
+    "input_tokens": 2788,
+    "input_tokens_details": {
+      "cache_write_tokens": 2785,
+      "cached_tokens": 0
+    },
+    "output_tokens": 643,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3431
+  },
+  "success": true
+}

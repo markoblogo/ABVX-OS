@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0020",
+  "sourceHash": "57e4ab7d1a067c8caf1c333ec04299b4b309ca60853035beee5214423f331ce5",
+  "source": "The people who had turned out were the girl’s own family; and pretty soon, the doctor, for whom she had been sent, put in his appearance. Well, the child was not much the worse, more frightened, according to the Sawbones; and there you might have supposed would be an end to it. But there was one curious circumstance. I had taken a loathing to my gentleman at first sight.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09b13eb44f62e62b016ab4254fee7887d299e7867f83829bb8",
+      "visibleOutput": "TRANSLATION: jan ale pi kama lon ni li kulupu mama pi jan lili meli. tenpo lili la, jan pi sona sijelo li kama, tan ni: jan li kama e ona. jan pi sona sijelo la, ike sijelo pi jan lili li suli ala; pilin monsuta ona li suli. ni la, sina ken pilin e ni: ijo ni li pini. taso ijo wan nasa li lon. lon lukin mi nanpa wan la, mi pilin ike mute tawa jan ni.\n\nNOTES: NONE",
+      "translation": "jan ale pi kama lon ni li kulupu mama pi jan lili meli. tenpo lili la, jan pi sona sijelo li kama, tan ni: jan li kama e ona. jan pi sona sijelo la, ike sijelo pi jan lili li suli ala; pilin monsuta ona li suli. ni la, sina ken pilin e ni: ijo ni li pini. taso ijo wan nasa li lon. lon lukin mi nanpa wan la, mi pilin ike mute tawa jan ni.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 621,
+        "output_tokens_details": {
+          "reasoning_tokens": 497
+        },
+        "total_tokens": 3441
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09b13eb44f62e62b016ab4254fee7887d299e7867f83829bb8",
+  "visibleOutput": "TRANSLATION: jan ale pi kama lon ni li kulupu mama pi jan lili meli. tenpo lili la, jan pi sona sijelo li kama, tan ni: jan li kama e ona. jan pi sona sijelo la, ike sijelo pi jan lili li suli ala; pilin monsuta ona li suli. ni la, sina ken pilin e ni: ijo ni li pini. taso ijo wan nasa li lon. lon lukin mi nanpa wan la, mi pilin ike mute tawa jan ni.\n\nNOTES: NONE",
+  "translation": "jan ale pi kama lon ni li kulupu mama pi jan lili meli. tenpo lili la, jan pi sona sijelo li kama, tan ni: jan li kama e ona. jan pi sona sijelo la, ike sijelo pi jan lili li suli ala; pilin monsuta ona li suli. ni la, sina ken pilin e ni: ijo ni li pini. taso ijo wan nasa li lon. lon lukin mi nanpa wan la, mi pilin ike mute tawa jan ni.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 621,
+    "output_tokens_details": {
+      "reasoning_tokens": 497
+    },
+    "total_tokens": 3441
+  },
+  "success": true
+}

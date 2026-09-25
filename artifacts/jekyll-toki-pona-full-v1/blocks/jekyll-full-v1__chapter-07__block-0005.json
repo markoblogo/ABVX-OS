@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0005",
+  "sourceHash": "df097e5021f5f36c0dfd329f21e1030167535111dc88d953563d5793379579c1",
+  "source": "The court was very cool and a little damp, and full of premature twilight, although the sky, high up overhead, was still bright with sunset. The middle one of the three windows was half-way open; and sitting close beside it, taking the air with an infinite sadness of mien, like some disconsolate prisoner, Utterson saw Dr. Jekyll. “What! Jekyll!” he cried. “I trust you are better.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b7db85e1b9242b9016ab42eace66887d2b8f53a0de8233b9b",
+      "visibleOutput": "TRANSLATION: ma insa pi tomo li lete mute li telo lili. pimeja pi tenpo suno pini li kama lon ma ni lon tenpo kama ala, taso sewi suli li awen suno tan suno pi tawa anpa. lupa lukin wan pi insa lupa lukin tu wan li open insa. jan Utason li lukin e jan Jekil pi sona sijelo. jan Jekil li lon poka pi lupa lukin ni, li pilin e kon. sinpin ona li pana e pilin ike suli pi pini ala; ona li sama jan awen lon tomo awen pi pilin pona ala. jan Utason li toki wawa e ni: “seme! jan Jekil o! mi wile pilin e ni: sijelo sina li pona mute lon tenpo ni.”\nNOTES: “infinite sadness” is rendered figuratively as unending great sorrow; no identity inference is added.",
+      "translation": "ma insa pi tomo li lete mute li telo lili. pimeja pi tenpo suno pini li kama lon ma ni lon tenpo kama ala, taso sewi suli li awen suno tan suno pi tawa anpa. lupa lukin wan pi insa lupa lukin tu wan li open insa. jan Utason li lukin e jan Jekil pi sona sijelo. jan Jekil li lon poka pi lupa lukin ni, li pilin e kon. sinpin ona li pana e pilin ike suli pi pini ala; ona li sama jan awen lon tomo awen pi pilin pona ala. jan Utason li toki wawa e ni: “seme! jan Jekil o! mi wile pilin e ni: sijelo sina li pona mute lon tenpo ni.”",
+      "notes": "“infinite sadness” is rendered figuratively as unending great sorrow; no identity inference is added.",
+      "usage": {
+        "input_tokens": 2839,
+        "input_tokens_details": {
+          "cache_write_tokens": 2836,
+          "cached_tokens": 0
+        },
+        "output_tokens": 273,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 3112
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b7db85e1b9242b9016ab42eace66887d2b8f53a0de8233b9b",
+  "visibleOutput": "TRANSLATION: ma insa pi tomo li lete mute li telo lili. pimeja pi tenpo suno pini li kama lon ma ni lon tenpo kama ala, taso sewi suli li awen suno tan suno pi tawa anpa. lupa lukin wan pi insa lupa lukin tu wan li open insa. jan Utason li lukin e jan Jekil pi sona sijelo. jan Jekil li lon poka pi lupa lukin ni, li pilin e kon. sinpin ona li pana e pilin ike suli pi pini ala; ona li sama jan awen lon tomo awen pi pilin pona ala. jan Utason li toki wawa e ni: “seme! jan Jekil o! mi wile pilin e ni: sijelo sina li pona mute lon tenpo ni.”\nNOTES: “infinite sadness” is rendered figuratively as unending great sorrow; no identity inference is added.",
+  "translation": "ma insa pi tomo li lete mute li telo lili. pimeja pi tenpo suno pini li kama lon ma ni lon tenpo kama ala, taso sewi suli li awen suno tan suno pi tawa anpa. lupa lukin wan pi insa lupa lukin tu wan li open insa. jan Utason li lukin e jan Jekil pi sona sijelo. jan Jekil li lon poka pi lupa lukin ni, li pilin e kon. sinpin ona li pana e pilin ike suli pi pini ala; ona li sama jan awen lon tomo awen pi pilin pona ala. jan Utason li toki wawa e ni: “seme! jan Jekil o! mi wile pilin e ni: sijelo sina li pona mute lon tenpo ni.”",
+  "notes": "“infinite sadness” is rendered figuratively as unending great sorrow; no identity inference is added.",
+  "usage": {
+    "input_tokens": 2839,
+    "input_tokens_details": {
+      "cache_write_tokens": 2836,
+      "cached_tokens": 0
+    },
+    "output_tokens": 273,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 3112
+  },
+  "success": true
+}

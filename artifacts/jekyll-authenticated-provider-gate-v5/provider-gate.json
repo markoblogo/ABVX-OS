@@ -1,0 +1,114 @@
+{
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "snapshot": "gpt-5.6-sol",
+  "startedAt": "2026-09-21T20:54:34Z",
+  "blocks": [
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0005",
+      "category": "A will/conditionality",
+      "sourceText": "The will was holograph, for Mr. Utterson, though he took charge of it now that it was made, had refused to lend the least assistance in the making of it; it provided not only that, in case of the decease of Henry Jekyll, M.D., D.C.L., L.L.D., F.R.S., etc., all his possessions were to pass into the hands of his “friend and benefactor Edward Hyde,” but that in case of Dr. Jekyll’s “disappearance or unexplained absence for any period exceeding three calendar months,” the said Edward Hyde should step into the said Henry Jekyll’s shoes without further delay and free from any burthen or obligation, beyond the payment of a few small sums to the members of the doctor’s household. This document had long been the lawyer’s eyesore. It offended him both as a lawyer and as a lover of the sane and customary sides of life, to whom the fanciful was the immodest. And hitherto it was his ignorance of Mr. Hyde that had swelled his indignation; now, by a sudden turn, it was his knowledge. It was already bad enough when the name was but a name of which he could learn no more. It was worse when it began to be clothed upon with detestable attributes; and out of the shifting, insubstantial mists that had so long baffled his eye, there leaped up the sudden, definite presentment of a fiend.",
+      "status": "RECEIVED",
+      "output": "",
+      "responseId": "resp_02e1eb72a932da09016ab1998c4cd887d2b27c8ae00f6d8ffb",
+      "usage": {
+        "input_tokens": 3027,
+        "input_tokens_details": {
+          "cache_write_tokens": 3024,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1200,
+        "output_tokens_details": {
+          "reasoning_tokens": 1200
+        },
+        "total_tokens": 4227
+      },
+      "model": "gpt-5.6-sol"
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0007",
+      "category": "B Utterson inference",
+      "sourceText": "With that he blew out his candle, put on a great-coat, and set forth in the direction of Cavendish Square, that citadel of medicine, where his friend, the great Dr. Lanyon, had his house and received his crowding patients. “If any one knows, it will be Lanyon,” he had thought.",
+      "status": "RECEIVED",
+      "output": "",
+      "responseId": "resp_0d4549591173aa93016ab199ab809887d2bea6eb610ed3fce3",
+      "usage": {
+        "input_tokens": 2790,
+        "input_tokens_details": {
+          "cache_write_tokens": 2787,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1155,
+        "output_tokens_details": {
+          "reasoning_tokens": 1021
+        },
+        "total_tokens": 3945
+      },
+      "model": "gpt-5.6-sol"
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0013",
+      "category": "C Lanyon opinion",
+      "sourceText": "“We had,” was the reply. “But it is more than ten years since Henry Jekyll became too fanciful for me. He began to go wrong, wrong in mind; and though of course I continue to take an interest in him for old sake’s sake, as they say, I see and I have seen devilish little of the man. Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”",
+      "status": "RECEIVED",
+      "output": "",
+      "responseId": "resp_0dbd47e0a69d868e016ab199c424cc87d28f1854fcfbfe1a8a",
+      "usage": {
+        "input_tokens": 2819,
+        "input_tokens_details": {
+          "cache_write_tokens": 2816,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1200,
+        "output_tokens_details": {
+          "reasoning_tokens": 1200
+        },
+        "total_tokens": 4019
+      },
+      "model": "gpt-5.6-sol"
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0024",
+      "category": "E identity/spoiler boundary",
+      "sourceText": "“I am quite sure of him,” replied Jekyll; “I have grounds for certainty that I cannot share with any one. But there is one thing on which you may advise me. I have—I have received a letter; and I am at a loss whether I should show it to the police. I should like to leave it in your hands, Utterson; you would judge wisely, I am sure; I have so great a trust in you.”",
+      "status": "RECEIVED",
+      "output": "",
+      "responseId": "resp_0733217557637840016ab199dfef8087d2be74013b01c549cf",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 2810,
+          "cached_tokens": 0
+        },
+        "output_tokens": 671,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3484
+      },
+      "model": "gpt-5.6-sol"
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0028",
+      "category": "D letter/document claim",
+      "sourceText": "The letter was written in an odd, upright hand and signed “Edward Hyde”: and it signified, briefly enough, that the writer’s benefactor, Dr. Jekyll, whom he had long so unworthily repaid for a thousand generosities, need labour under no alarm for his safety, as he had means of escape on which he placed a sure dependence. The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions.",
+      "status": "RECEIVED",
+      "output": "",
+      "responseId": "resp_0fb3a3750c2d8a49016ab199f4259487d2a755b810cdc12244",
+      "usage": {
+        "input_tokens": 2831,
+        "input_tokens_details": {
+          "cache_write_tokens": 2828,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1200,
+        "output_tokens_details": {
+          "reasoning_tokens": 1200
+        },
+        "total_tokens": 4031
+      },
+      "model": "gpt-5.6-sol"
+    }
+  ],
+  "fallbacks": []
+}

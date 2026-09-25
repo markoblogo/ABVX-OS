@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0026",
+  "sourceHash": "3f9ab00886dd314908874a2624a8e46183b8e3c41e89e16a6dcdf86744840ba7",
+  "source": "Yet his attention had never before been so sharply and decisively arrested; and it was with a strong, superstitious prevision of success that he withdrew into the entry of the court. The steps drew swiftly nearer, and swelled out suddenly louder as they turned the end of the street. The lawyer, looking forth from the entry, could soon see what manner of man he had to deal with.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00af9f3f4c7672e7016ab427af086487d2b0455d668824706d",
+      "visibleOutput": "TRANSLATION: taso tenpo pini la, ijo ala li kama jo wawa sama ni e lukin sona ona. ona li pilin wawa kepeken nasin pi sona ala e ni: pali ona li kama pona. tan ni la, ona li tawa insa pi lupa lon ma tomo. kalama noka li kama poka kepeken tenpo lili. kalama li kama wawa mute lon tenpo wan, tan ni: jan li kama tan poka ante pi nasin. jan Utason pi sona lawa li lukin tan lupa. tenpo lili la, ona li ken lukin e nasin pi jan ni, jan pi kama toki ona.\nNOTES: “Superstitious prevision of success” is retained as Utterson’s strong, non-evidential feeling, not as fact.",
+      "translation": "taso tenpo pini la, ijo ala li kama jo wawa sama ni e lukin sona ona. ona li pilin wawa kepeken nasin pi sona ala e ni: pali ona li kama pona. tan ni la, ona li tawa insa pi lupa lon ma tomo. kalama noka li kama poka kepeken tenpo lili. kalama li kama wawa mute lon tenpo wan, tan ni: jan li kama tan poka ante pi nasin. jan Utason pi sona lawa li lukin tan lupa. tenpo lili la, ona li ken lukin e nasin pi jan ni, jan pi kama toki ona.",
+      "notes": "“Superstitious prevision of success” is retained as Utterson’s strong, non-evidential feeling, not as fact.",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 236,
+        "output_tokens_details": {
+          "reasoning_tokens": 57
+        },
+        "total_tokens": 3054
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00af9f3f4c7672e7016ab427af086487d2b0455d668824706d",
+  "visibleOutput": "TRANSLATION: taso tenpo pini la, ijo ala li kama jo wawa sama ni e lukin sona ona. ona li pilin wawa kepeken nasin pi sona ala e ni: pali ona li kama pona. tan ni la, ona li tawa insa pi lupa lon ma tomo. kalama noka li kama poka kepeken tenpo lili. kalama li kama wawa mute lon tenpo wan, tan ni: jan li kama tan poka ante pi nasin. jan Utason pi sona lawa li lukin tan lupa. tenpo lili la, ona li ken lukin e nasin pi jan ni, jan pi kama toki ona.\nNOTES: “Superstitious prevision of success” is retained as Utterson’s strong, non-evidential feeling, not as fact.",
+  "translation": "taso tenpo pini la, ijo ala li kama jo wawa sama ni e lukin sona ona. ona li pilin wawa kepeken nasin pi sona ala e ni: pali ona li kama pona. tan ni la, ona li tawa insa pi lupa lon ma tomo. kalama noka li kama poka kepeken tenpo lili. kalama li kama wawa mute lon tenpo wan, tan ni: jan li kama tan poka ante pi nasin. jan Utason pi sona lawa li lukin tan lupa. tenpo lili la, ona li ken lukin e nasin pi jan ni, jan pi kama toki ona.",
+  "notes": "“Superstitious prevision of success” is retained as Utterson’s strong, non-evidential feeling, not as fact.",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 236,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 3054
+  },
+  "success": true
+}

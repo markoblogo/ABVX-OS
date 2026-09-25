@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0048",
+  "sourceHash": "5bc6cb4d8a7de12d43eeb08e66d9df0f6e1b66436f4cdd49171d282c4845bed9",
+  "source": "“O God!” I screamed, and “O God!” again and again; for there before my eyes—pale and shaken, and half-fainting, and groping before him with his hands, like a man restored from death— there stood Henry Jekyll! What he told me in the next hour, I cannot bring my mind to set on paper.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03ecc3e9e11bb986016ab435f08d0c87d280d882bfe7d7773a",
+      "visibleOutput": "TRANSLATION: “sewi o!” mi kalama wawa. mi kalama e ni sin lon tenpo mute: “sewi o!” tan ni: lon sinpin oko mi, jan li walo, li tawa pakala tan pilin wawa, li kama lape weka lili. ona li luka alasa e nasin lon sinpin ona, sama jan moli li kama lon sin. jan ni li jan Jekil! lon tenpo suli wan kama, ona li toki e ijo tawa mi. taso mi ken ala pana e toki ona lon lipu.\nNOTES: toki “sama” li awen e ni: kama lon sin tan moli li nasin pi lukin taso, li ijo lon ala.",
+      "translation": "“sewi o!” mi kalama wawa. mi kalama e ni sin lon tenpo mute: “sewi o!” tan ni: lon sinpin oko mi, jan li walo, li tawa pakala tan pilin wawa, li kama lape weka lili. ona li luka alasa e nasin lon sinpin ona, sama jan moli li kama lon sin. jan ni li jan Jekil! lon tenpo suli wan kama, ona li toki e ijo tawa mi. taso mi ken ala pana e toki ona lon lipu.",
+      "notes": "toki “sama” li awen e ni: kama lon sin tan moli li nasin pi lukin taso, li ijo lon ala.",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 346,
+        "output_tokens_details": {
+          "reasoning_tokens": 180
+        },
+        "total_tokens": 3172
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03ecc3e9e11bb986016ab435f08d0c87d280d882bfe7d7773a",
+  "visibleOutput": "TRANSLATION: “sewi o!” mi kalama wawa. mi kalama e ni sin lon tenpo mute: “sewi o!” tan ni: lon sinpin oko mi, jan li walo, li tawa pakala tan pilin wawa, li kama lape weka lili. ona li luka alasa e nasin lon sinpin ona, sama jan moli li kama lon sin. jan ni li jan Jekil! lon tenpo suli wan kama, ona li toki e ijo tawa mi. taso mi ken ala pana e toki ona lon lipu.\nNOTES: toki “sama” li awen e ni: kama lon sin tan moli li nasin pi lukin taso, li ijo lon ala.",
+  "translation": "“sewi o!” mi kalama wawa. mi kalama e ni sin lon tenpo mute: “sewi o!” tan ni: lon sinpin oko mi, jan li walo, li tawa pakala tan pilin wawa, li kama lape weka lili. ona li luka alasa e nasin lon sinpin ona, sama jan moli li kama lon sin. jan ni li jan Jekil! lon tenpo suli wan kama, ona li toki e ijo tawa mi. taso mi ken ala pana e toki ona lon lipu.",
+  "notes": "toki “sama” li awen e ni: kama lon sin tan moli li nasin pi lukin taso, li ijo lon ala.",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 346,
+    "output_tokens_details": {
+      "reasoning_tokens": 180
+    },
+    "total_tokens": 3172
+  },
+  "success": true
+}

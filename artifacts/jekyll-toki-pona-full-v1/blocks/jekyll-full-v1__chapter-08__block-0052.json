@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0052",
+  "sourceHash": "2ff1d6664436689ff968025f136c7272a24f30c3093cc508fb84ca716e669f74",
+  "source": "The steps fell lightly and oddly, with a certain swing, for all they went so slowly; it was different indeed from the heavy creaking tread of Henry Jekyll. Utterson sighed. “Is there never anything else?” he asked. Poole nodded. “Once,” he said. “Once I heard it weeping!” “Weeping? how that?” said the lawyer, conscious of a sudden chill of horror.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a3475faa483546c016ab4319b9ff087d2927a790f8efa5f14",
+      "visibleOutput": "TRANSLATION: kalama noka li lili li nasa. ona li tawa kepeken nasin pi tawa poka, taso ona li tawa kepeken tenpo suli. ni li ante mute tan kalama noka pi jan Jekil: noka ona li wawa li pana e kalama ike. jan Utason li pana e kon suli. ona li toki: “ijo ante li lon ala lon tenpo ale?” jan Pulu li tawa e lawa ona. ona li toki: “tenpo wan la, ijo ante li lon. tenpo wan la, mi kute e ona li pana e kalama pi telo oko!” jan pi sona lawa li toki: “kalama pi telo oko? ni li seme?” pilin monsuta li kama lon tenpo lili, li lete e sijelo ona.\nNOTES: “ona” preserves the unseen figure’s identity boundary.",
+      "translation": "kalama noka li lili li nasa. ona li tawa kepeken nasin pi tawa poka, taso ona li tawa kepeken tenpo suli. ni li ante mute tan kalama noka pi jan Jekil: noka ona li wawa li pana e kalama ike. jan Utason li pana e kon suli. ona li toki: “ijo ante li lon ala lon tenpo ale?” jan Pulu li tawa e lawa ona. ona li toki: “tenpo wan la, ijo ante li lon. tenpo wan la, mi kute e ona li pana e kalama pi telo oko!” jan pi sona lawa li toki: “kalama pi telo oko? ni li seme?” pilin monsuta li kama lon tenpo lili, li lete e sijelo ona.",
+      "notes": "“ona” preserves the unseen figure’s identity boundary.",
+      "usage": {
+        "input_tokens": 2832,
+        "input_tokens_details": {
+          "cache_write_tokens": 2829,
+          "cached_tokens": 0
+        },
+        "output_tokens": 527,
+        "output_tokens_details": {
+          "reasoning_tokens": 330
+        },
+        "total_tokens": 3359
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a3475faa483546c016ab4319b9ff087d2927a790f8efa5f14",
+  "visibleOutput": "TRANSLATION: kalama noka li lili li nasa. ona li tawa kepeken nasin pi tawa poka, taso ona li tawa kepeken tenpo suli. ni li ante mute tan kalama noka pi jan Jekil: noka ona li wawa li pana e kalama ike. jan Utason li pana e kon suli. ona li toki: “ijo ante li lon ala lon tenpo ale?” jan Pulu li tawa e lawa ona. ona li toki: “tenpo wan la, ijo ante li lon. tenpo wan la, mi kute e ona li pana e kalama pi telo oko!” jan pi sona lawa li toki: “kalama pi telo oko? ni li seme?” pilin monsuta li kama lon tenpo lili, li lete e sijelo ona.\nNOTES: “ona” preserves the unseen figure’s identity boundary.",
+  "translation": "kalama noka li lili li nasa. ona li tawa kepeken nasin pi tawa poka, taso ona li tawa kepeken tenpo suli. ni li ante mute tan kalama noka pi jan Jekil: noka ona li wawa li pana e kalama ike. jan Utason li pana e kon suli. ona li toki: “ijo ante li lon ala lon tenpo ale?” jan Pulu li tawa e lawa ona. ona li toki: “tenpo wan la, ijo ante li lon. tenpo wan la, mi kute e ona li pana e kalama pi telo oko!” jan pi sona lawa li toki: “kalama pi telo oko? ni li seme?” pilin monsuta li kama lon tenpo lili, li lete e sijelo ona.",
+  "notes": "“ona” preserves the unseen figure’s identity boundary.",
+  "usage": {
+    "input_tokens": 2832,
+    "input_tokens_details": {
+      "cache_write_tokens": 2829,
+      "cached_tokens": 0
+    },
+    "output_tokens": 527,
+    "output_tokens_details": {
+      "reasoning_tokens": 330
+    },
+    "total_tokens": 3359
+  },
+  "success": true
+}

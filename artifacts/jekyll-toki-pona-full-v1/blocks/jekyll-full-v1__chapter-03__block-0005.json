@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0005",
+  "sourceHash": "b85729a8742aa4ee6ee2be0590a19b6cbc3d899181f72a58e50257b65f25ac39",
+  "source": "Oh, I know he’s a good fellow—you needn’t frown—an excellent fellow, and I always mean to see more of him; but a hide-bound pedant for all that; an ignorant, blatant pedant. I was never more disappointed in any man than Lanyon.” “You know I never approved of it,” pursued Utterson, ruthlessly disregarding the fresh topic.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_032056601606a2b2016ab4298e4b7c87d28643453b88356c65",
+      "visibleOutput": "TRANSLATION: “A! mi sona e ni: ona li jan pona. sina o pilin ike ala. ona li jan pona mute. mi wile lukin e ona lon tenpo mute. taso ona li jan pi nasin sona kiwen. ona li sona ala, li toki suli taso lon nasin sona ona. jan Lanjon li pana e pilin ike suli tawa mi. jan ante li pana ala e pilin ike suli sama ni.” jan Utason li awen toki. ona li kute ala e toki sin la ona li toki e ni: “sina sona e ni: tenpo ale la mi pilin pona ala tawa ni.”\nNOTES: “hide-bound/ignorant, blatant pedant” is compressed as rigid, uninformed, loudly self-assured scholarship.",
+      "translation": "“A! mi sona e ni: ona li jan pona. sina o pilin ike ala. ona li jan pona mute. mi wile lukin e ona lon tenpo mute. taso ona li jan pi nasin sona kiwen. ona li sona ala, li toki suli taso lon nasin sona ona. jan Lanjon li pana e pilin ike suli tawa mi. jan ante li pana ala e pilin ike suli sama ni.” jan Utason li awen toki. ona li kute ala e toki sin la ona li toki e ni: “sina sona e ni: tenpo ale la mi pilin pona ala tawa ni.”",
+      "notes": "“hide-bound/ignorant, blatant pedant” is compressed as rigid, uninformed, loudly self-assured scholarship.",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 242,
+        "output_tokens_details": {
+          "reasoning_tokens": 68
+        },
+        "total_tokens": 3066
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_032056601606a2b2016ab4298e4b7c87d28643453b88356c65",
+  "visibleOutput": "TRANSLATION: “A! mi sona e ni: ona li jan pona. sina o pilin ike ala. ona li jan pona mute. mi wile lukin e ona lon tenpo mute. taso ona li jan pi nasin sona kiwen. ona li sona ala, li toki suli taso lon nasin sona ona. jan Lanjon li pana e pilin ike suli tawa mi. jan ante li pana ala e pilin ike suli sama ni.” jan Utason li awen toki. ona li kute ala e toki sin la ona li toki e ni: “sina sona e ni: tenpo ale la mi pilin pona ala tawa ni.”\nNOTES: “hide-bound/ignorant, blatant pedant” is compressed as rigid, uninformed, loudly self-assured scholarship.",
+  "translation": "“A! mi sona e ni: ona li jan pona. sina o pilin ike ala. ona li jan pona mute. mi wile lukin e ona lon tenpo mute. taso ona li jan pi nasin sona kiwen. ona li sona ala, li toki suli taso lon nasin sona ona. jan Lanjon li pana e pilin ike suli tawa mi. jan ante li pana ala e pilin ike suli sama ni.” jan Utason li awen toki. ona li kute ala e toki sin la ona li toki e ni: “sina sona e ni: tenpo ale la mi pilin pona ala tawa ni.”",
+  "notes": "“hide-bound/ignorant, blatant pedant” is compressed as rigid, uninformed, loudly self-assured scholarship.",
+  "usage": {
+    "input_tokens": 2824,
+    "input_tokens_details": {
+      "cache_write_tokens": 2821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 242,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 3066
+  },
+  "success": true
+}

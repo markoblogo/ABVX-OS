@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0047",
+  "sourceHash": "083a40c22defa2a7f1c85b6088d18763b1ca6a6b188c2bef3617e5e7010066c3",
+  "source": "Meanwhile, lest anything should really be amiss, or any malefactor seek to escape by the back, you and the boy must go round the corner with a pair of good sticks and take your post at the laboratory door. We give you ten minutes to get to your stations.” As Bradshaw left, the lawyer looked at his watch.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ed4289f4812723a016ab4315885dc87d281904fb258a327d3",
+      "visibleOutput": "TRANSLATION: “tenpo sama la, tan ni: ken la ijo ike li lon, anu jan pali ike li alasa weka tan monsi. sina en jan lili o tawa poka ante pi nasin, o jo e palisa utala pona tu, o awen lon lupa pi tomo pi pali sona. mi pana e tenpo lili luka luka tawa ni: sina kama lon ma awen sina.” jan Palaso li weka la, jan pi sona lawa li lukin e ilo tenpo ona.\nNOTES: nimi “Bradshaw” li kama “jan Palaso”; ken pi ijo ike en alasa weka li awen lon nasin pi sona ala.",
+      "translation": "“tenpo sama la, tan ni: ken la ijo ike li lon, anu jan pali ike li alasa weka tan monsi. sina en jan lili o tawa poka ante pi nasin, o jo e palisa utala pona tu, o awen lon lupa pi tomo pi pali sona. mi pana e tenpo lili luka luka tawa ni: sina kama lon ma awen sina.” jan Palaso li weka la, jan pi sona lawa li lukin e ilo tenpo ona.",
+      "notes": "nimi “Bradshaw” li kama “jan Palaso”; ken pi ijo ike en alasa weka li awen lon nasin pi sona ala.",
+      "usage": {
+        "input_tokens": 2803,
+        "input_tokens_details": {
+          "cache_write_tokens": 2800,
+          "cached_tokens": 0
+        },
+        "output_tokens": 535,
+        "output_tokens_details": {
+          "reasoning_tokens": 383
+        },
+        "total_tokens": 3338
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ed4289f4812723a016ab4315885dc87d281904fb258a327d3",
+  "visibleOutput": "TRANSLATION: “tenpo sama la, tan ni: ken la ijo ike li lon, anu jan pali ike li alasa weka tan monsi. sina en jan lili o tawa poka ante pi nasin, o jo e palisa utala pona tu, o awen lon lupa pi tomo pi pali sona. mi pana e tenpo lili luka luka tawa ni: sina kama lon ma awen sina.” jan Palaso li weka la, jan pi sona lawa li lukin e ilo tenpo ona.\nNOTES: nimi “Bradshaw” li kama “jan Palaso”; ken pi ijo ike en alasa weka li awen lon nasin pi sona ala.",
+  "translation": "“tenpo sama la, tan ni: ken la ijo ike li lon, anu jan pali ike li alasa weka tan monsi. sina en jan lili o tawa poka ante pi nasin, o jo e palisa utala pona tu, o awen lon lupa pi tomo pi pali sona. mi pana e tenpo lili luka luka tawa ni: sina kama lon ma awen sina.” jan Palaso li weka la, jan pi sona lawa li lukin e ilo tenpo ona.",
+  "notes": "nimi “Bradshaw” li kama “jan Palaso”; ken pi ijo ike en alasa weka li awen lon nasin pi sona ala.",
+  "usage": {
+    "input_tokens": 2803,
+    "input_tokens_details": {
+      "cache_write_tokens": 2800,
+      "cached_tokens": 0
+    },
+    "output_tokens": 535,
+    "output_tokens_details": {
+      "reasoning_tokens": 383
+    },
+    "total_tokens": 3338
+  },
+  "success": true
+}

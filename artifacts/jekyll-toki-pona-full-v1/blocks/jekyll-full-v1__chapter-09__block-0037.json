@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0037",
+  "sourceHash": "71a6d0871bb2344071824c942727b7d257dcf91b6dd97c50ae1b909ea3d5492d",
+  "source": "Henry Jekyll, on a piece of business of some moment; and I understood…” He paused and put his hand to his throat, and I could see, in spite of his collected manner, that he was wrestling against the approaches of the hysteria—“I understood, a drawer…” But here I took pity on my visitor’s suspense, and some perhaps on my own growing curiosity.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f764e2056614933016ab4355fa6fc87d2979958c6565c83a2",
+      "visibleOutput": "TRANSLATION: “jan Jekil, tan pali suli ona; mi sona e ni…” Ona li pini lili e toki, li pana e luka ona tawa uta anpa. nasin ona li awen pona lukin, taso mi ken lukin e ni: pilin nasa wawa li kama, la ona li wawa e ona tan pilin ni.—“mi sona e ni: poki…” Taso lon ni, mi pilin ike tan awen pi jan kama ni. kin la, wile sona mi li kama suli. tan ni, mi pini e awen ona.\n\nNOTES: “hysteria” is rendered as an approaching overwhelming disturbance of feeling, without imposing a modern diagnosis.",
+      "translation": "“jan Jekil, tan pali suli ona; mi sona e ni…” Ona li pini lili e toki, li pana e luka ona tawa uta anpa. nasin ona li awen pona lukin, taso mi ken lukin e ni: pilin nasa wawa li kama, la ona li wawa e ona tan pilin ni.—“mi sona e ni: poki…” Taso lon ni, mi pilin ike tan awen pi jan kama ni. kin la, wile sona mi li kama suli. tan ni, mi pini e awen ona.",
+      "notes": "“hysteria” is rendered as an approaching overwhelming disturbance of feeling, without imposing a modern diagnosis.",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 249,
+        "output_tokens_details": {
+          "reasoning_tokens": 94
+        },
+        "total_tokens": 3079
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f764e2056614933016ab4355fa6fc87d2979958c6565c83a2",
+  "visibleOutput": "TRANSLATION: “jan Jekil, tan pali suli ona; mi sona e ni…” Ona li pini lili e toki, li pana e luka ona tawa uta anpa. nasin ona li awen pona lukin, taso mi ken lukin e ni: pilin nasa wawa li kama, la ona li wawa e ona tan pilin ni.—“mi sona e ni: poki…” Taso lon ni, mi pilin ike tan awen pi jan kama ni. kin la, wile sona mi li kama suli. tan ni, mi pini e awen ona.\n\nNOTES: “hysteria” is rendered as an approaching overwhelming disturbance of feeling, without imposing a modern diagnosis.",
+  "translation": "“jan Jekil, tan pali suli ona; mi sona e ni…” Ona li pini lili e toki, li pana e luka ona tawa uta anpa. nasin ona li awen pona lukin, taso mi ken lukin e ni: pilin nasa wawa li kama, la ona li wawa e ona tan pilin ni.—“mi sona e ni: poki…” Taso lon ni, mi pilin ike tan awen pi jan kama ni. kin la, wile sona mi li kama suli. tan ni, mi pini e awen ona.",
+  "notes": "“hysteria” is rendered as an approaching overwhelming disturbance of feeling, without imposing a modern diagnosis.",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 249,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 3079
+  },
+  "success": true
+}

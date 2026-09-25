@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0010",
+  "sourceHash": "49715c72e71cd3e6ab723d10d64d455fc278d5544eaaa7ae985f77aba175d2a6",
+  "source": "The stick with which the deed had been done, although it was of some rare and very tough and heavy wood, had broken in the middle under the stress of this insensate cruelty; and one splintered half had rolled in the neighbouring gutter—the other, without doubt, had been carried away by the murderer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ff304ea26111fe0016ab42a5b4f8087d2bc97723056c97bd2",
+      "visibleOutput": "TRANSLATION: palisa pi pali ike ni li tan kasi wan pi lon lili. kasi ni li kiwen mute li wawa mute li suli pilin. taso tan wawa pi pali ike ni pi pilin ala, palisa li pakala lon insa. kipisi wan pi poka pakala li sike tawa nasin telo lon poka. sona la, jan pi pali moli li jo e kipisi ante li weka e ona.\n\nNOTES: NONE",
+      "translation": "palisa pi pali ike ni li tan kasi wan pi lon lili. kasi ni li kiwen mute li wawa mute li suli pilin. taso tan wawa pi pali ike ni pi pilin ala, palisa li pakala lon insa. kipisi wan pi poka pakala li sike tawa nasin telo lon poka. sona la, jan pi pali moli li jo e kipisi ante li weka e ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2802,
+        "input_tokens_details": {
+          "cache_write_tokens": 2799,
+          "cached_tokens": 0
+        },
+        "output_tokens": 621,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3423
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ff304ea26111fe0016ab42a5b4f8087d2bc97723056c97bd2",
+  "visibleOutput": "TRANSLATION: palisa pi pali ike ni li tan kasi wan pi lon lili. kasi ni li kiwen mute li wawa mute li suli pilin. taso tan wawa pi pali ike ni pi pilin ala, palisa li pakala lon insa. kipisi wan pi poka pakala li sike tawa nasin telo lon poka. sona la, jan pi pali moli li jo e kipisi ante li weka e ona.\n\nNOTES: NONE",
+  "translation": "palisa pi pali ike ni li tan kasi wan pi lon lili. kasi ni li kiwen mute li wawa mute li suli pilin. taso tan wawa pi pali ike ni pi pilin ala, palisa li pakala lon insa. kipisi wan pi poka pakala li sike tawa nasin telo lon poka. sona la, jan pi pali moli li jo e kipisi ante li weka e ona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2802,
+    "input_tokens_details": {
+      "cache_write_tokens": 2799,
+      "cached_tokens": 0
+    },
+    "output_tokens": 621,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3423
+  },
+  "success": true
+}

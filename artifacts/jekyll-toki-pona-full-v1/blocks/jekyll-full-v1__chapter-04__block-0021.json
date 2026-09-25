@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0021",
+  "sourceHash": "403b8b86dbf90e092c00587937d06503a48c1d1f7975cd8c4be8f20eeb76bb04",
+  "source": "As the cab drew up before the address indicated, the fog lifted a little and showed him a dingy street, a gin palace, a low French eating-house, a shop for the retail of penny numbers and twopenny salads, many ragged children huddled in the doorways, and many women of different nationalities passing out, key in hand, to have a morning glass; and the next moment the fog settled down again upon that part, as brown as umber, and cut him off from his blackguardly surroundings.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05063cbb50a28d93016ab42ae8312487d2a03737c64179792a",
+      "visibleOutput": "TRANSLATION: tomo tawa soweli li kama awen lon sinpin pi tomo lon ma toki. ni la, kon telo li sewi lili, li pana e lukin ni tawa jan Utason: nasin li jaki; tomo suli pi telo nasa li lon; tomo moku anpa pi ma Kanse li lon; esun li pana kepeken mani lili e lipu nanpa e moku kasi; jan lili mute pi len pakala li kulupu lon lupa tomo; meli mute tan ma ante mute li tawa selo. ona li jo e ilo open lon luka, li tawa moku e telo nasa lon open pi tenpo suno. taso lon tenpo lili kama la, kon telo li anpa sin lon ma ni. ona li pimeja loje sama ma pimeja, li weka e lukin pi jan Utason tan ma jaki pi jan ike lon poka ona.\nNOTES: “penny numbers” and “twopenny salads” are compressed as cheap serial papers and cheap vegetable food because Toki Pona lacks exact period currency denominations.",
+      "translation": "tomo tawa soweli li kama awen lon sinpin pi tomo lon ma toki. ni la, kon telo li sewi lili, li pana e lukin ni tawa jan Utason: nasin li jaki; tomo suli pi telo nasa li lon; tomo moku anpa pi ma Kanse li lon; esun li pana kepeken mani lili e lipu nanpa e moku kasi; jan lili mute pi len pakala li kulupu lon lupa tomo; meli mute tan ma ante mute li tawa selo. ona li jo e ilo open lon luka, li tawa moku e telo nasa lon open pi tenpo suno. taso lon tenpo lili kama la, kon telo li anpa sin lon ma ni. ona li pimeja loje sama ma pimeja, li weka e lukin pi jan Utason tan ma jaki pi jan ike lon poka ona.",
+      "notes": "“penny numbers” and “twopenny salads” are compressed as cheap serial papers and cheap vegetable food because Toki Pona lacks exact period currency denominations.",
+      "usage": {
+        "input_tokens": 2847,
+        "input_tokens_details": {
+          "cache_write_tokens": 2844,
+          "cached_tokens": 0
+        },
+        "output_tokens": 753,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3600
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05063cbb50a28d93016ab42ae8312487d2a03737c64179792a",
+  "visibleOutput": "TRANSLATION: tomo tawa soweli li kama awen lon sinpin pi tomo lon ma toki. ni la, kon telo li sewi lili, li pana e lukin ni tawa jan Utason: nasin li jaki; tomo suli pi telo nasa li lon; tomo moku anpa pi ma Kanse li lon; esun li pana kepeken mani lili e lipu nanpa e moku kasi; jan lili mute pi len pakala li kulupu lon lupa tomo; meli mute tan ma ante mute li tawa selo. ona li jo e ilo open lon luka, li tawa moku e telo nasa lon open pi tenpo suno. taso lon tenpo lili kama la, kon telo li anpa sin lon ma ni. ona li pimeja loje sama ma pimeja, li weka e lukin pi jan Utason tan ma jaki pi jan ike lon poka ona.\nNOTES: “penny numbers” and “twopenny salads” are compressed as cheap serial papers and cheap vegetable food because Toki Pona lacks exact period currency denominations.",
+  "translation": "tomo tawa soweli li kama awen lon sinpin pi tomo lon ma toki. ni la, kon telo li sewi lili, li pana e lukin ni tawa jan Utason: nasin li jaki; tomo suli pi telo nasa li lon; tomo moku anpa pi ma Kanse li lon; esun li pana kepeken mani lili e lipu nanpa e moku kasi; jan lili mute pi len pakala li kulupu lon lupa tomo; meli mute tan ma ante mute li tawa selo. ona li jo e ilo open lon luka, li tawa moku e telo nasa lon open pi tenpo suno. taso lon tenpo lili kama la, kon telo li anpa sin lon ma ni. ona li pimeja loje sama ma pimeja, li weka e lukin pi jan Utason tan ma jaki pi jan ike lon poka ona.",
+  "notes": "“penny numbers” and “twopenny salads” are compressed as cheap serial papers and cheap vegetable food because Toki Pona lacks exact period currency denominations.",
+  "usage": {
+    "input_tokens": 2847,
+    "input_tokens_details": {
+      "cache_write_tokens": 2844,
+      "cached_tokens": 0
+    },
+    "output_tokens": 753,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3600
+  },
+  "success": true
+}

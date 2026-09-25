@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0013",
+  "sourceText": "“We had,” was the reply. “But it is more than ten years since Henry Jekyll became too fanciful for me. He began to go wrong, wrong in mind; and though of course I continue to take an interest in him for old sake’s sake, as they say, I see and I have seen devilish little of the man. Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”",
+  "sourceHash": "eed42523fcb6654051adb0ec0c93439215688ad91cd9cf79bbee813f2f233527",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c69d7d00c4ac65e016ab41d7d118087d29da5e289b8e73d80",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+      "translation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+      "notes": "nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+      "usage": {
+        "input_tokens": 2879,
+        "input_tokens_details": {
+          "cache_write_tokens": 2876,
+          "cached_tokens": 0
+        },
+        "output_tokens": 359,
+        "output_tokens_details": {
+          "reasoning_tokens": 162
+        },
+        "total_tokens": 3238
+      },
+      "elapsedMs": 13375
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c69d7d00c4ac65e016ab41d7d118087d29da5e289b8e73d80",
+  "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+  "translation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+  "notes": "nimi “loje laso” li toki e kule purple; nimi Temon en Pitijas li nimi pi jan pi toki majuna.",
+  "usage": {
+    "input_tokens": 2879,
+    "input_tokens_details": {
+      "cache_write_tokens": 2876,
+      "cached_tokens": 0
+    },
+    "output_tokens": 359,
+    "output_tokens_details": {
+      "reasoning_tokens": 162
+    },
+    "total_tokens": 3238
+  },
+  "success": true
+}

@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0041",
+  "sourceHash": "5e2aea4bf669500376a03932ec9d96487cb634cae8ba137d7c9ba7381fba1d52",
+  "source": "“Yes, I know,” said Utterson; “I know it must seem strange. The fact is, if I do not ask you the name of the other party, it is because I know it already. You see, Richard, your tale has gone home. If you have been inexact in any point, you had better correct it.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09fe4e47ed0f647f016ab42647ca9887d2ac08e44e8c20343d",
+      "visibleOutput": "TRANSLATION: “lon, mi sona,” jan Utason li toki. “mi sona e ni: ni li lukin nasa tawa sina. mi toki ala e nimi pi jan ante lon pali ni tan ni taso: mi sona pini e nimi ona. jan Enpil o, toki sina li kama suli tawa mi. toki sina li sama ala ijo lon lon nasin wan la, sina o pona e toki ni.”\nNOTES: “has gone home” is rendered as personally significant to Utterson, without specifying why.",
+      "translation": "“lon, mi sona,” jan Utason li toki. “mi sona e ni: ni li lukin nasa tawa sina. mi toki ala e nimi pi jan ante lon pali ni tan ni taso: mi sona pini e nimi ona. jan Enpil o, toki sina li kama suli tawa mi. toki sina li sama ala ijo lon lon nasin wan la, sina o pona e toki ni.”",
+      "notes": "“has gone home” is rendered as personally significant to Utterson, without specifying why.",
+      "usage": {
+        "input_tokens": 2806,
+        "input_tokens_details": {
+          "cache_write_tokens": 2803,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1151,
+        "output_tokens_details": {
+          "reasoning_tokens": 1034
+        },
+        "total_tokens": 3957
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09fe4e47ed0f647f016ab42647ca9887d2ac08e44e8c20343d",
+  "visibleOutput": "TRANSLATION: “lon, mi sona,” jan Utason li toki. “mi sona e ni: ni li lukin nasa tawa sina. mi toki ala e nimi pi jan ante lon pali ni tan ni taso: mi sona pini e nimi ona. jan Enpil o, toki sina li kama suli tawa mi. toki sina li sama ala ijo lon lon nasin wan la, sina o pona e toki ni.”\nNOTES: “has gone home” is rendered as personally significant to Utterson, without specifying why.",
+  "translation": "“lon, mi sona,” jan Utason li toki. “mi sona e ni: ni li lukin nasa tawa sina. mi toki ala e nimi pi jan ante lon pali ni tan ni taso: mi sona pini e nimi ona. jan Enpil o, toki sina li kama suli tawa mi. toki sina li sama ala ijo lon lon nasin wan la, sina o pona e toki ni.”",
+  "notes": "“has gone home” is rendered as personally significant to Utterson, without specifying why.",
+  "usage": {
+    "input_tokens": 2806,
+    "input_tokens_details": {
+      "cache_write_tokens": 2803,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1151,
+    "output_tokens_details": {
+      "reasoning_tokens": 1034
+    },
+    "total_tokens": 3957
+  },
+  "success": true
+}

@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0032",
+  "sourceText": "“I wish you to judge for me entirely,” was the reply. “I have lost confidence in myself.”",
+  "sourceHash": "1ba606ba76e3920f51a907017734091eadde335d998b694fe94c1fc4d223b7a3",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bae7957cdfc992e016ab41e4c0b2087d292720e726eab34b6",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”\nNOTES: NONE",
+      "translation": "“mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2792,
+        "input_tokens_details": {
+          "cache_write_tokens": 2789,
+          "cached_tokens": 0
+        },
+        "output_tokens": 169,
+        "output_tokens_details": {
+          "reasoning_tokens": 109
+        },
+        "total_tokens": 2961
+      },
+      "elapsedMs": 6611
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0bae7957cdfc992e016ab41e4c0b2087d292720e726eab34b6",
+  "visibleOutput": "TRANSLATION: “mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”\nNOTES: NONE",
+  "translation": "“mi wile e ni: sina o toki taso e pona anu ike pi ijo ni tawa mi,” toki ante li ni. “mi pilin ala e ni: mi ken sona pona e nasin mi.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2792,
+    "input_tokens_details": {
+      "cache_write_tokens": 2789,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 109
+    },
+    "total_tokens": 2961
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0023",
+  "sourceHash": "c684199765adcecc3a73fc71c079e6a28df960fe8cb7dc62a6de32b488e96063",
+  "source": "Hyde’s, but he was not at home; he had been in that night very late, but had gone away again in less than an hour; there was nothing strange in that; his habits were very irregular, and he was often absent; for instance, it was nearly two months since she had seen him till yesterday.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0732b3a4a9828ad3016ab42b19b97087d2a51fe3ca0062c9a1",
+      "visibleOutput": "TRANSLATION: Lon tomo pi jan Hata, jan Hata li lon ala. Ona li kama lon pimeja ni lon tenpo mute pini, taso tenpo lili li pini ala la ona li weka sin. Ni li nasa ala, tan ni: nasin tenpo ona li ante mute, li weka lon tenpo mute. Sama la, tenpo suno pini la jan meli li lukin e ona, taso lon tenpo mun tu poka pi tenpo ni la jan meli li lukin ala e ona.\nNOTES: “nearly two months” is rendered approximately as “close to two months”; the statements remain bounded by the woman’s sight where specified.",
+      "translation": "Lon tomo pi jan Hata, jan Hata li lon ala. Ona li kama lon pimeja ni lon tenpo mute pini, taso tenpo lili li pini ala la ona li weka sin. Ni li nasa ala, tan ni: nasin tenpo ona li ante mute, li weka lon tenpo mute. Sama la, tenpo suno pini la jan meli li lukin e ona, taso lon tenpo mun tu poka pi tenpo ni la jan meli li lukin ala e ona.",
+      "notes": "“nearly two months” is rendered approximately as “close to two months”; the statements remain bounded by the woman’s sight where specified.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 455,
+        "output_tokens_details": {
+          "reasoning_tokens": 304
+        },
+        "total_tokens": 3270
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0732b3a4a9828ad3016ab42b19b97087d2a51fe3ca0062c9a1",
+  "visibleOutput": "TRANSLATION: Lon tomo pi jan Hata, jan Hata li lon ala. Ona li kama lon pimeja ni lon tenpo mute pini, taso tenpo lili li pini ala la ona li weka sin. Ni li nasa ala, tan ni: nasin tenpo ona li ante mute, li weka lon tenpo mute. Sama la, tenpo suno pini la jan meli li lukin e ona, taso lon tenpo mun tu poka pi tenpo ni la jan meli li lukin ala e ona.\nNOTES: “nearly two months” is rendered approximately as “close to two months”; the statements remain bounded by the woman’s sight where specified.",
+  "translation": "Lon tomo pi jan Hata, jan Hata li lon ala. Ona li kama lon pimeja ni lon tenpo mute pini, taso tenpo lili li pini ala la ona li weka sin. Ni li nasa ala, tan ni: nasin tenpo ona li ante mute, li weka lon tenpo mute. Sama la, tenpo suno pini la jan meli li lukin e ona, taso lon tenpo mun tu poka pi tenpo ni la jan meli li lukin ala e ona.",
+  "notes": "“nearly two months” is rendered approximately as “close to two months”; the statements remain bounded by the woman’s sight where specified.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 455,
+    "output_tokens_details": {
+      "reasoning_tokens": 304
+    },
+    "total_tokens": 3270
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0017",
+  "sourceHash": "4fa021abfba6316c4e9b6c5ad6390ccf2d5c86882d9c9eb13cbd8107c2798bd3",
+  "source": "Utterson’s nerves, at this unlooked-for termination, gave a jerk that nearly threw him from his balance; but he re-collected his courage and followed the butler into the laboratory building and through the surgical theatre, with its lumber of crates and bottles, to the foot of the stair.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c11344c163dd23e016ab42fcb35ac87d2a7fa5f3960ff38a6",
+      "visibleOutput": "TRANSLATION: tan pini ni pi kama ala lon isipin la, sijelo pi jan Utason li tawa wawa; ona li awen lon noka kepeken wawa lili taso. taso ona li kama jo sin e pilin wawa, li tawa monsi jan Pulu lon tomo pi pali sona. ona li tawa lon tomo pi pali sijelo, lon poka poki suli mute en poki telo mute, li kama lon anpa pi nasin sewi.\nNOTES: NONE",
+      "translation": "tan pini ni pi kama ala lon isipin la, sijelo pi jan Utason li tawa wawa; ona li awen lon noka kepeken wawa lili taso. taso ona li kama jo sin e pilin wawa, li tawa monsi jan Pulu lon tomo pi pali sona. ona li tawa lon tomo pi pali sijelo, lon poka poki suli mute en poki telo mute, li kama lon anpa pi nasin sewi.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2796,
+        "input_tokens_details": {
+          "cache_write_tokens": 2793,
+          "cached_tokens": 0
+        },
+        "output_tokens": 631,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3427
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c11344c163dd23e016ab42fcb35ac87d2a7fa5f3960ff38a6",
+  "visibleOutput": "TRANSLATION: tan pini ni pi kama ala lon isipin la, sijelo pi jan Utason li tawa wawa; ona li awen lon noka kepeken wawa lili taso. taso ona li kama jo sin e pilin wawa, li tawa monsi jan Pulu lon tomo pi pali sona. ona li tawa lon tomo pi pali sijelo, lon poka poki suli mute en poki telo mute, li kama lon anpa pi nasin sewi.\nNOTES: NONE",
+  "translation": "tan pini ni pi kama ala lon isipin la, sijelo pi jan Utason li tawa wawa; ona li awen lon noka kepeken wawa lili taso. taso ona li kama jo sin e pilin wawa, li tawa monsi jan Pulu lon tomo pi pali sona. ona li tawa lon tomo pi pali sijelo, lon poka poki suli mute en poki telo mute, li kama lon anpa pi nasin sewi.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2796,
+    "input_tokens_details": {
+      "cache_write_tokens": 2793,
+      "cached_tokens": 0
+    },
+    "output_tokens": 631,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3427
+  },
+  "success": true
+}

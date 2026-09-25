@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0003",
+  "sourceHash": "05bfce08b5cc1daa8abfa2d2721733d2b46560e9a7034bceb109853c4ea35f15",
+  "source": "“It was impossible to do the one without the other,” returned Enfield. “And by the way, what an ass you must have thought me, not to know that this was a back way to Dr. Jekyll’s! It was partly your own fault that I found it out, even when I did.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05327680fd1ff9b0016ab42e965e3887d2aa3facb5cd712e7e",
+      "visibleOutput": "TRANSLATION: “pali e wan taso li ken ala; pali wan la pali ante li lon kin,” jan Enpil li toki. “kin la, sina pilin e ni: mi nasa mute a! mi sona ala e ni: ni li nasin monsi tawa tomo pi jan Jekil. mi kama sona e ni lon tenpo ni la, kama sona ni li tan pakala sina kin lon poka ante.”\n\nNOTES: NONE",
+      "translation": "“pali e wan taso li ken ala; pali wan la pali ante li lon kin,” jan Enpil li toki. “kin la, sina pilin e ni: mi nasa mute a! mi sona ala e ni: ni li nasin monsi tawa tomo pi jan Jekil. mi kama sona e ni lon tenpo ni la, kama sona ni li tan pakala sina kin lon poka ante.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 616,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3426
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05327680fd1ff9b0016ab42e965e3887d2aa3facb5cd712e7e",
+  "visibleOutput": "TRANSLATION: “pali e wan taso li ken ala; pali wan la pali ante li lon kin,” jan Enpil li toki. “kin la, sina pilin e ni: mi nasa mute a! mi sona ala e ni: ni li nasin monsi tawa tomo pi jan Jekil. mi kama sona e ni lon tenpo ni la, kama sona ni li tan pakala sina kin lon poka ante.”\n\nNOTES: NONE",
+  "translation": "“pali e wan taso li ken ala; pali wan la pali ante li lon kin,” jan Enpil li toki. “kin la, sina pilin e ni: mi nasa mute a! mi sona ala e ni: ni li nasin monsi tawa tomo pi jan Jekil. mi kama sona e ni lon tenpo ni la, kama sona ni li tan pakala sina kin lon poka ante.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2810,
+    "input_tokens_details": {
+      "cache_write_tokens": 2807,
+      "cached_tokens": 0
+    },
+    "output_tokens": 616,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3426
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0033",
+  "sourceHash": "385ac84b3db9db5d0e779655c1fbf82c342430e764bbd47558a555fe275b01f8",
+  "source": "“By description,” was the reply. “Whose description?” “We have common friends,” said Mr. Utterson. “Common friends?” echoed Mr. Hyde, a little hoarsely. “Who are they?” “Jekyll, for instance,” said the lawyer. “He never told you,” cried Mr. Hyde, with a flush of anger. “I did not think you would have lied.” “Come,” said Mr. Utterson, “that is not fitting language.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e8926b61a7c59c8016ab428131e8c87d2ba14acd2940aebab",
+      "visibleOutput": "TRANSLATION: “mi sona e sina tan toki pi nasin lukin sina,” ona li toki. “toki ni li tan seme?” jan Utason li toki: “jan pona pi mi tu li lon.” jan Hata li toki sin e nimi ni kepeken kalama nasa lili: “jan pona pi mi tu? ona li seme?” jan pi sona lawa li toki: “jan Jekil li wan.” jan Hata li toki wawa, li loje tan pilin utala: “jan Jekil li toki ala e ni tawa sina! mi pilin ala e ni: sina ken toki powe.” jan Utason li toki: “o toki ala sama ni. toki ni li pona ala.”\nNOTES: NONE",
+      "translation": "“mi sona e sina tan toki pi nasin lukin sina,” ona li toki. “toki ni li tan seme?” jan Utason li toki: “jan pona pi mi tu li lon.” jan Hata li toki sin e nimi ni kepeken kalama nasa lili: “jan pona pi mi tu? ona li seme?” jan pi sona lawa li toki: “jan Jekil li wan.” jan Hata li toki wawa, li loje tan pilin utala: “jan Jekil li toki ala e ni tawa sina! mi pilin ala e ni: sina ken toki powe.” jan Utason li toki: “o toki ala sama ni. toki ni li pona ala.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2850,
+        "input_tokens_details": {
+          "cache_write_tokens": 2847,
+          "cached_tokens": 0
+        },
+        "output_tokens": 418,
+        "output_tokens_details": {
+          "reasoning_tokens": 254
+        },
+        "total_tokens": 3268
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e8926b61a7c59c8016ab428131e8c87d2ba14acd2940aebab",
+  "visibleOutput": "TRANSLATION: “mi sona e sina tan toki pi nasin lukin sina,” ona li toki. “toki ni li tan seme?” jan Utason li toki: “jan pona pi mi tu li lon.” jan Hata li toki sin e nimi ni kepeken kalama nasa lili: “jan pona pi mi tu? ona li seme?” jan pi sona lawa li toki: “jan Jekil li wan.” jan Hata li toki wawa, li loje tan pilin utala: “jan Jekil li toki ala e ni tawa sina! mi pilin ala e ni: sina ken toki powe.” jan Utason li toki: “o toki ala sama ni. toki ni li pona ala.”\nNOTES: NONE",
+  "translation": "“mi sona e sina tan toki pi nasin lukin sina,” ona li toki. “toki ni li tan seme?” jan Utason li toki: “jan pona pi mi tu li lon.” jan Hata li toki sin e nimi ni kepeken kalama nasa lili: “jan pona pi mi tu? ona li seme?” jan pi sona lawa li toki: “jan Jekil li wan.” jan Hata li toki wawa, li loje tan pilin utala: “jan Jekil li toki ala e ni tawa sina! mi pilin ala e ni: sina ken toki powe.” jan Utason li toki: “o toki ala sama ni. toki ni li pona ala.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2850,
+    "input_tokens_details": {
+      "cache_write_tokens": 2847,
+      "cached_tokens": 0
+    },
+    "output_tokens": 418,
+    "output_tokens_details": {
+      "reasoning_tokens": 254
+    },
+    "total_tokens": 3268
+  },
+  "success": true
+}

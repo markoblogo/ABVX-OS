@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1",
+  "run": "jekyll-toki-pona-real-regression-v7",
+  "source": "/Volumes/Work/Work/ABVX-OS/artifacts/jekyll-toki-pona-regression-v2/source-blocks.json",
+  "sourceCount": 40,
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "defaultConfig": {
+    "reasoning": "low",
+    "maxOutputTokens": 3000,
+    "timeoutSeconds": 180,
+    "store": false
+  },
+  "updatedAt": 1790188805.021324
+}

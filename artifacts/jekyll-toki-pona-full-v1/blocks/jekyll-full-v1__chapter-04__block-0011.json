@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0011",
+  "sourceHash": "47ccb2d58c98821e914f359b7928443a135f8545225bd28eb86337b3f7648fdd",
+  "source": "A purse and a gold watch were found upon the victim: but no cards or papers, except a sealed and stamped envelope, which he had been probably carrying to the post, and which bore the name and address of Mr. Utterson.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00d15096bebbcc15016ab42a68d23487d2a7e749896e9e9893",
+      "visibleOutput": "TRANSLATION: ona li kama lukin e poki mani e ilo tenpo pi kiwen jelo lon sijelo pi jan moli. taso, lipu nimi anu lipu ante li lon ala. poki lipu wan taso li lon. poki ni li pini, li jo e sitelen pi pana lipu. ken la, jan moli li kama jo e ona tawa tomo pi pana lipu. nimi jan Utason en sona pi ma tomo ona li lon poki lipu ni.\nNOTES: “probably” is preserved with “ken la”; the envelope’s postal stamp is rendered descriptively.",
+      "translation": "ona li kama lukin e poki mani e ilo tenpo pi kiwen jelo lon sijelo pi jan moli. taso, lipu nimi anu lipu ante li lon ala. poki lipu wan taso li lon. poki ni li pini, li jo e sitelen pi pana lipu. ken la, jan moli li kama jo e ona tawa tomo pi pana lipu. nimi jan Utason en sona pi ma tomo ona li lon poki lipu ni.",
+      "notes": "“probably” is preserved with “ken la”; the envelope’s postal stamp is rendered descriptively.",
+      "usage": {
+        "input_tokens": 2787,
+        "input_tokens_details": {
+          "cache_write_tokens": 2784,
+          "cached_tokens": 0
+        },
+        "output_tokens": 242,
+        "output_tokens_details": {
+          "reasoning_tokens": 106
+        },
+        "total_tokens": 3029
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00d15096bebbcc15016ab42a68d23487d2a7e749896e9e9893",
+  "visibleOutput": "TRANSLATION: ona li kama lukin e poki mani e ilo tenpo pi kiwen jelo lon sijelo pi jan moli. taso, lipu nimi anu lipu ante li lon ala. poki lipu wan taso li lon. poki ni li pini, li jo e sitelen pi pana lipu. ken la, jan moli li kama jo e ona tawa tomo pi pana lipu. nimi jan Utason en sona pi ma tomo ona li lon poki lipu ni.\nNOTES: “probably” is preserved with “ken la”; the envelope’s postal stamp is rendered descriptively.",
+  "translation": "ona li kama lukin e poki mani e ilo tenpo pi kiwen jelo lon sijelo pi jan moli. taso, lipu nimi anu lipu ante li lon ala. poki lipu wan taso li lon. poki ni li pini, li jo e sitelen pi pana lipu. ken la, jan moli li kama jo e ona tawa tomo pi pana lipu. nimi jan Utason en sona pi ma tomo ona li lon poki lipu ni.",
+  "notes": "“probably” is preserved with “ken la”; the envelope’s postal stamp is rendered descriptively.",
+  "usage": {
+    "input_tokens": 2787,
+    "input_tokens_details": {
+      "cache_write_tokens": 2784,
+      "cached_tokens": 0
+    },
+    "output_tokens": 242,
+    "output_tokens_details": {
+      "reasoning_tokens": 106
+    },
+    "total_tokens": 3029
+  },
+  "success": true
+}

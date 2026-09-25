@@ -19,6 +19,16 @@ Prevent Codex from improvising a commercial book design or treating a technicall
 
 When an interior or promotional visual is justified, load [Publishing Visual Explainer](../publishing-visual-explainer/SKILL.md) and approve one representative visual before producing a set.
 
+## Fiction and publication gates
+
+- Keep `STRUCTURE_COMPLETE` separate from `PRODUCT_COMPLETE`; a coherent short structural draft is not automatically a commercially complete manuscript. Scan for development labels, placeholders, duplicate alternate scenes, and test scaffolding before editorial acceptance.
+- Keep one machine-readable manifest for manuscript, world bible, continuity, illustration placement, and production artifacts. Mark older working files `SUPERSEDED` or `PROTOTYPE`; retain history. A locked manuscript is `TEXT_LOCK` and the sole prose source for production.
+- Illustration assets may be explored before text lock; finalize placement only after structural/editorial lock. Preserve a Pictiq source→English Composer input→Composer output→final composite chain, with versions and hashes.
+- Before Amazon packaging, record provenance per visual asset using `books/factory/contracts/asset-provenance-v1.schema.json`. Unknown origin is `UNRESOLVED`, never inferred.
+- Print preflight must inspect footer/attribution against the live-area boundary. Keep barcode zones background-only unless using a real publisher barcode. Build wraps from the actual KDP template after trim, paper, ink, and final page count are fixed; check spine constraints.
+- Treat effective resolution below 300 DPI as a human visual/print-risk review, not automatic rejection or upscaling. `EPUB_VALID` does not imply `KINDLE_RENDER_VERIFIED`; complete target Kindle/KDP preview before release.
+- After `TEXT_LOCKED`, prose edits are limited to a typo, demonstrated factual error, or production-formatting defect; record the reason and rerun affected checks. Freeze launch metadata after product/text lock and capture D0, D7, D14, and D30 observations.
+
 ## Admitted-profile fast path
 
 For a compatible book using an admitted profile, start from the existing profile, contracts and toolchain. Do not repeat donor audits, renderer research, typography/front-matter/TOC exploration or manual page patching. The bounded route is: approved BookSpec and manuscript -> admitted profile -> source/notes normalization -> approved cover direction -> representative proof only if needed -> human visual gate -> full build and automatic preflight -> full contact sheet -> human final gate -> publication artifacts.

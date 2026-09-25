@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0049",
+  "sourceHash": "3f25a59816d3469f9e7784ac51244e52bb1bc643e14d040f5cc9022a827e7ca9",
+  "source": "The wind, which only broke in puffs and draughts into that deep well of building, tossed the light of the candle to and fro about their steps, until they came into the shelter of the theatre, where they sat down silently to wait.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cbb86c5f0717bc1016ab431727b3887d2ba9d00396af047c3",
+      "visibleOutput": "TRANSLATION: kon li kama lon tenpo lili taso kepeken wawa lili lon insa anpa pi tomo sewi mute ni. kon li tawa e suno seli lili lon poka ale pi noka ona mute. ni li awen tawa tenpo pi kama ona mute lon tomo suli pi pali sijelo, pi kon ala. lon ni, ona mute li anpa e sijelo, li toki ala, li awen.\nNOTES: NONE",
+      "translation": "kon li kama lon tenpo lili taso kepeken wawa lili lon insa anpa pi tomo sewi mute ni. kon li tawa e suno seli lili lon poka ale pi noka ona mute. ni li awen tawa tenpo pi kama ona mute lon tomo suli pi pali sijelo, pi kon ala. lon ni, ona mute li anpa e sijelo, li toki ala, li awen.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2785,
+        "input_tokens_details": {
+          "cache_write_tokens": 2782,
+          "cached_tokens": 0
+        },
+        "output_tokens": 623,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3408
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cbb86c5f0717bc1016ab431727b3887d2ba9d00396af047c3",
+  "visibleOutput": "TRANSLATION: kon li kama lon tenpo lili taso kepeken wawa lili lon insa anpa pi tomo sewi mute ni. kon li tawa e suno seli lili lon poka ale pi noka ona mute. ni li awen tawa tenpo pi kama ona mute lon tomo suli pi pali sijelo, pi kon ala. lon ni, ona mute li anpa e sijelo, li toki ala, li awen.\nNOTES: NONE",
+  "translation": "kon li kama lon tenpo lili taso kepeken wawa lili lon insa anpa pi tomo sewi mute ni. kon li tawa e suno seli lili lon poka ale pi noka ona mute. ni li awen tawa tenpo pi kama ona mute lon tomo suli pi pali sijelo, pi kon ala. lon ni, ona mute li anpa e sijelo, li toki ala, li awen.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2785,
+    "input_tokens_details": {
+      "cache_write_tokens": 2782,
+      "cached_tokens": 0
+    },
+    "output_tokens": 623,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3408
+  },
+  "success": true
+}

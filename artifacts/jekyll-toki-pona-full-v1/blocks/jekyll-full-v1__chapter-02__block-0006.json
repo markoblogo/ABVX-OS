@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0006",
+  "sourceHash": "091eb1a3bf73856f529977b8f76205cb601f0317a04856b8bada1fa54bd1e08f",
+  "source": "It was worse when it began to be clothed upon with detestable attributes; and out of the shifting, insubstantial mists that had so long baffled his eye, there leaped up the sudden, definite presentment of a fiend. “I thought it was madness,” he said, as he replaced the obnoxious paper in the safe, “and now I begin to fear it is disgrace.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_07bea28b60104128016ab426b2e8fc87d296bd4e8dc65257bb",
+      "visibleOutput": "TRANSLATION: Ijo ni li ike mute tan ni: ona li kama jo e nasin jaki pi pilin ona. tenpo mute la, ona li alasa lukin e ijo ni lon kon pimeja ni: kon li tawa li ken ala awen, li len e lukin ona. taso lon tenpo wan la, sitelen pi jan monsuta li kama lon lukin ona. jan Utason li pana sin e lipu ike ni tawa poki awen, li toki e ni: “mi pilin e ni: ni li nasa pi lawa taso. taso tenpo ni la, mi open monsuta e ni: ken la, ni li toki ike pi jan mute.”\n\nNOTES: “fiend” is rendered as an observer-bound image of a frightening being; “disgrace” remains Utterson’s feared possibility, not a fact.",
+      "translation": "Ijo ni li ike mute tan ni: ona li kama jo e nasin jaki pi pilin ona. tenpo mute la, ona li alasa lukin e ijo ni lon kon pimeja ni: kon li tawa li ken ala awen, li len e lukin ona. taso lon tenpo wan la, sitelen pi jan monsuta li kama lon lukin ona. jan Utason li pana sin e lipu ike ni tawa poki awen, li toki e ni: “mi pilin e ni: ni li nasa pi lawa taso. taso tenpo ni la, mi open monsuta e ni: ken la, ni li toki ike pi jan mute.”",
+      "notes": "“fiend” is rendered as an observer-bound image of a frightening being; “disgrace” remains Utterson’s feared possibility, not a fact.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 290,
+        "output_tokens_details": {
+          "reasoning_tokens": 99
+        },
+        "total_tokens": 3110
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_07bea28b60104128016ab426b2e8fc87d296bd4e8dc65257bb",
+  "visibleOutput": "TRANSLATION: Ijo ni li ike mute tan ni: ona li kama jo e nasin jaki pi pilin ona. tenpo mute la, ona li alasa lukin e ijo ni lon kon pimeja ni: kon li tawa li ken ala awen, li len e lukin ona. taso lon tenpo wan la, sitelen pi jan monsuta li kama lon lukin ona. jan Utason li pana sin e lipu ike ni tawa poki awen, li toki e ni: “mi pilin e ni: ni li nasa pi lawa taso. taso tenpo ni la, mi open monsuta e ni: ken la, ni li toki ike pi jan mute.”\n\nNOTES: “fiend” is rendered as an observer-bound image of a frightening being; “disgrace” remains Utterson’s feared possibility, not a fact.",
+  "translation": "Ijo ni li ike mute tan ni: ona li kama jo e nasin jaki pi pilin ona. tenpo mute la, ona li alasa lukin e ijo ni lon kon pimeja ni: kon li tawa li ken ala awen, li len e lukin ona. taso lon tenpo wan la, sitelen pi jan monsuta li kama lon lukin ona. jan Utason li pana sin e lipu ike ni tawa poki awen, li toki e ni: “mi pilin e ni: ni li nasa pi lawa taso. taso tenpo ni la, mi open monsuta e ni: ken la, ni li toki ike pi jan mute.”",
+  "notes": "“fiend” is rendered as an observer-bound image of a frightening being; “disgrace” remains Utterson’s feared possibility, not a fact.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 290,
+    "output_tokens_details": {
+      "reasoning_tokens": 99
+    },
+    "total_tokens": 3110
+  },
+  "success": true
+}

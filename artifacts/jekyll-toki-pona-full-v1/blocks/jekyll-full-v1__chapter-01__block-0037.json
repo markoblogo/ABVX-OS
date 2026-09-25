@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0037",
+  "sourceHash": "a3949c9062fc8f7b3b5dd0c82d640b811c911da3e2d2eee9e8a88ca237719cb6",
+  "source": "The pair walked on again for a while in silence; and then, “Enfield,” said Mr. Utterson, “that’s a good rule of yours.” “Yes, I think it is,” returned Enfield. “But for all that,” continued the lawyer, “there’s one point I want to ask: I want to ask the name of that man who walked over the child.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04185d561dc99c2b016ab4262a919887d294dda533002e6df7",
+      "visibleOutput": "TRANSLATION: jan tu li open sin e tawa. ona li tawa lon tenpo lili li toki ala. jan Utason li toki e ni: “jan Enpil o, nasin sina ni li pona.” jan Enpil li toki: “lon. mi la, ona li pona.” taso jan pi sona lawa li toki sin e ni: “mi wile sona e ijo wan: nimi pi jan ni li seme? jan ni li tawa lon sijelo pi jan lili.”\nNOTES: NONE",
+      "translation": "jan tu li open sin e tawa. ona li tawa lon tenpo lili li toki ala. jan Utason li toki e ni: “jan Enpil o, nasin sina ni li pona.” jan Enpil li toki: “lon. mi la, ona li pona.” taso jan pi sona lawa li toki sin e ni: “mi wile sona e ijo wan: nimi pi jan ni li seme? jan ni li tawa lon sijelo pi jan lili.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 197,
+        "output_tokens_details": {
+          "reasoning_tokens": 81
+        },
+        "total_tokens": 3014
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04185d561dc99c2b016ab4262a919887d294dda533002e6df7",
+  "visibleOutput": "TRANSLATION: jan tu li open sin e tawa. ona li tawa lon tenpo lili li toki ala. jan Utason li toki e ni: “jan Enpil o, nasin sina ni li pona.” jan Enpil li toki: “lon. mi la, ona li pona.” taso jan pi sona lawa li toki sin e ni: “mi wile sona e ijo wan: nimi pi jan ni li seme? jan ni li tawa lon sijelo pi jan lili.”\nNOTES: NONE",
+  "translation": "jan tu li open sin e tawa. ona li tawa lon tenpo lili li toki ala. jan Utason li toki e ni: “jan Enpil o, nasin sina ni li pona.” jan Enpil li toki: “lon. mi la, ona li pona.” taso jan pi sona lawa li toki sin e ni: “mi wile sona e ijo wan: nimi pi jan ni li seme? jan ni li tawa lon sijelo pi jan lili.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "reasoning_tokens": 81
+    },
+    "total_tokens": 3014
+  },
+  "success": true
+}

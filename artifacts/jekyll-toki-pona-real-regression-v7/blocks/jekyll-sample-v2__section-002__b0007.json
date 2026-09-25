@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0007",
+  "sourceText": "With that he blew out his candle, put on a great-coat, and set forth in the direction of Cavendish Square, that citadel of medicine, where his friend, the great Dr. Lanyon, had his house and received his crowding patients. “If any one knows, it will be Lanyon,” he had thought.",
+  "sourceHash": "37757e4edcf912dc2bb1ec60536d8a5f2d83adaf7a98fe437c939a911538d25b",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e017cd812fa69b5016ab41d3d2b7c87d28f44120ca732dc20",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”\nNOTES: NONE",
+      "translation": "ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2850,
+        "input_tokens_details": {
+          "cache_write_tokens": 2847,
+          "cached_tokens": 0
+        },
+        "output_tokens": 511,
+        "output_tokens_details": {
+          "reasoning_tokens": 397
+        },
+        "total_tokens": 3361
+      },
+      "elapsedMs": 11907
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e017cd812fa69b5016ab41d3d2b7c87d28f44120ca732dc20",
+  "visibleOutput": "TRANSLATION: ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”\nNOTES: NONE",
+  "translation": "ona li pini e seli pi ilo suno ona, li pana e len suli seli lon sijelo, li open tawa ma Kawenti. ma ni li sama tomo awen suli pi sona sijelo. lon ni la, jan pona ona, jan Lanjon pi sona sijelo suli, li jo e tomo, li kama lukin e jan mute pi ike sijelo. ona li toki insa: “jan li sona e ni la, jan Lanjon li sona e ni.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2850,
+    "input_tokens_details": {
+      "cache_write_tokens": 2847,
+      "cached_tokens": 0
+    },
+    "output_tokens": 511,
+    "output_tokens_details": {
+      "reasoning_tokens": 397
+    },
+    "total_tokens": 3361
+  },
+  "success": true
+}

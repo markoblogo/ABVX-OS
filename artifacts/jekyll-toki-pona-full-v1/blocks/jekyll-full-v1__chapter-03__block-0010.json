@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0010",
+  "sourceHash": "a78de9ef7034ab03191c7db2aa46e64c79f65c2af628403e650505a95a1ab571",
+  "source": "I believe you fully; I would trust you before any man alive, ay, before myself, if I could make the choice; but indeed it isn’t what you fancy; it is not so bad as that; and just to put your good heart at rest, I will tell you one thing: the moment I choose, I can be rid of Mr. Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a02b54f396e78b6016ab429b1440087d286fff636068b5f89",
+      "visibleOutput": "TRANSLATION: mi pilin lon e toki sina ale. mi ken anu la, mi pilin e ni: sina li awen pona e mi lon sewi pi jan ale lon—lon sewi pi mi kin. taso ijo ni li sama ala toki pi pilin sina. ona li ike mute sama ni ala. mi wile pana e pona tawa pilin sina la, mi toki e ijo wan: lon tenpo sama pi wile mi la, mi ken weka e jan Hata tan lon mi.\nNOTES: “weka e jan Hata tan lon mi” preserves the uncertain sense of “be rid of” without specifying how.",
+      "translation": "mi pilin lon e toki sina ale. mi ken anu la, mi pilin e ni: sina li awen pona e mi lon sewi pi jan ale lon—lon sewi pi mi kin. taso ijo ni li sama ala toki pi pilin sina. ona li ike mute sama ni ala. mi wile pana e pona tawa pilin sina la, mi toki e ijo wan: lon tenpo sama pi wile mi la, mi ken weka e jan Hata tan lon mi.",
+      "notes": "“weka e jan Hata tan lon mi” preserves the uncertain sense of “be rid of” without specifying how.",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 587,
+        "output_tokens_details": {
+          "reasoning_tokens": 444
+        },
+        "total_tokens": 3413
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a02b54f396e78b6016ab429b1440087d286fff636068b5f89",
+  "visibleOutput": "TRANSLATION: mi pilin lon e toki sina ale. mi ken anu la, mi pilin e ni: sina li awen pona e mi lon sewi pi jan ale lon—lon sewi pi mi kin. taso ijo ni li sama ala toki pi pilin sina. ona li ike mute sama ni ala. mi wile pana e pona tawa pilin sina la, mi toki e ijo wan: lon tenpo sama pi wile mi la, mi ken weka e jan Hata tan lon mi.\nNOTES: “weka e jan Hata tan lon mi” preserves the uncertain sense of “be rid of” without specifying how.",
+  "translation": "mi pilin lon e toki sina ale. mi ken anu la, mi pilin e ni: sina li awen pona e mi lon sewi pi jan ale lon—lon sewi pi mi kin. taso ijo ni li sama ala toki pi pilin sina. ona li ike mute sama ni ala. mi wile pana e pona tawa pilin sina la, mi toki e ijo wan: lon tenpo sama pi wile mi la, mi ken weka e jan Hata tan lon mi.",
+  "notes": "“weka e jan Hata tan lon mi” preserves the uncertain sense of “be rid of” without specifying how.",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 587,
+    "output_tokens_details": {
+      "reasoning_tokens": 444
+    },
+    "total_tokens": 3413
+  },
+  "success": true
+}

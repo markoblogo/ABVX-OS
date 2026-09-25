@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.xyz/schemas/book-factory/asset-provenance-v1.schema.json",
+  "title": "Book Factory Asset Provenance Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["asset_id", "origin", "tool_provider", "created_at", "source", "sha256", "modification_history"],
+  "properties": {
+    "asset_id": {"type": "string", "minLength": 1},
+    "origin": {"enum": ["GENERATED", "HUMAN", "AI_ASSISTED", "UNRESOLVED"]},
+    "tool_provider": {"type": ["string", "null"]},
+    "created_at": {"type": ["string", "null"], "format": "date"},
+    "source": {"type": ["string", "null"]},
+    "sha256": {"type": ["string", "null"], "pattern": "^[a-fA-F0-9]{64}$"},
+    "modification_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["date", "description"],
+        "properties": {
+          "date": {"type": ["string", "null"], "format": "date"},
+          "description": {"type": "string", "minLength": 1},
+          "tool_provider": {"type": ["string", "null"]}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"origin": {"enum": ["GENERATED", "AI_ASSISTED"]}}},
+      "then": {"properties": {"tool_provider": {"type": "string", "minLength": 1}, "created_at": {"type": "string", "format": "date"}, "source": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}}}
+    },
+    {
+      "if": {"properties": {"origin": {"const": "HUMAN"}}},
+      "then": {"properties": {"created_at": {"type": "string", "format": "date"}, "source": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"}}}
+    }
+  ]
+}

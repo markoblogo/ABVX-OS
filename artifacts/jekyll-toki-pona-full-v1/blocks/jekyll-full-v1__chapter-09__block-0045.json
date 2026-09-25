@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0045",
+  "sourceHash": "af1df31b7549a2a941de559ed1b76f3914cf3fc570661f9a7815f90eff08401c",
+  "source": "“Sir,” said I, affecting a coolness that I was far from truly possessing, “you speak enigmas, and you will perhaps not wonder that I hear you with no very strong impression of belief. But I have gone too far in the way of inexplicable services to pause before I see the end.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09563d759aefee93016ab435c95e7887d28df9a4f959e8f57c",
+      "visibleOutput": "TRANSLATION: “jan o,” mi toki, li lukin sama ni: pilin mi li lete. taso lon la, pilin mi li lete ala. “toki sina li toki len. ken la, sina pilin nasa ala tan ni: mi kute e toki sina, taso mi pilin wawa ala e ni: ona li lon. taso mi pali mute tan wile sina, li sona ala e tan pi pali ni. mi tawa weka mute lon nasin ni. tan ni, mi lukin ala e pini la, mi ken ala pini lon tenpo ni.”\nNOTES: NONE",
+      "translation": "“jan o,” mi toki, li lukin sama ni: pilin mi li lete. taso lon la, pilin mi li lete ala. “toki sina li toki len. ken la, sina pilin nasa ala tan ni: mi kute e toki sina, taso mi pilin wawa ala e ni: ona li lon. taso mi pali mute tan wile sina, li sona ala e tan pi pali ni. mi tawa weka mute lon nasin ni. tan ni, mi lukin ala e pini la, mi ken ala pini lon tenpo ni.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 528,
+        "output_tokens_details": {
+          "reasoning_tokens": 390
+        },
+        "total_tokens": 3342
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09563d759aefee93016ab435c95e7887d28df9a4f959e8f57c",
+  "visibleOutput": "TRANSLATION: “jan o,” mi toki, li lukin sama ni: pilin mi li lete. taso lon la, pilin mi li lete ala. “toki sina li toki len. ken la, sina pilin nasa ala tan ni: mi kute e toki sina, taso mi pilin wawa ala e ni: ona li lon. taso mi pali mute tan wile sina, li sona ala e tan pi pali ni. mi tawa weka mute lon nasin ni. tan ni, mi lukin ala e pini la, mi ken ala pini lon tenpo ni.”\nNOTES: NONE",
+  "translation": "“jan o,” mi toki, li lukin sama ni: pilin mi li lete. taso lon la, pilin mi li lete ala. “toki sina li toki len. ken la, sina pilin nasa ala tan ni: mi kute e toki sina, taso mi pilin wawa ala e ni: ona li lon. taso mi pali mute tan wile sina, li sona ala e tan pi pali ni. mi tawa weka mute lon nasin ni. tan ni, mi lukin ala e pini la, mi ken ala pini lon tenpo ni.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 528,
+    "output_tokens_details": {
+      "reasoning_tokens": 390
+    },
+    "total_tokens": 3342
+  },
+  "success": true
+}

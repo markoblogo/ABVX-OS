@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0007",
+  "sourceHash": "b926cf7c8d7c55316cec4b8fe49643c187a9c028909ad02a7007186dda3ba5ad",
+  "source": "And then all of a sudden he broke out in a great flame of anger, stamping with his foot, brandishing the cane, and carrying on (as the maid described it) like a madman. The old gentleman took a step back, with the air of one very much surprised and a trifle hurt; and at that Mr. Hyde broke out of all bounds and clubbed him to the earth.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04a8b49477aa7f89016ab42a3ac99887d2b31d15079a14d724",
+      "visibleOutput": "TRANSLATION: taso lon tenpo wan taso, jan Hata li kama jo e pilin ike suli. ona li anpa wawa e noka ona, li tawa wawa e palisa lon luka ona, li pali sama jan pi lawa nasa—jan pali meli pi tomo li toki e ni. jan suli pi tenpo mute li tawa sinpin ala kepeken noka wan. ona li lukin kama sona ala mute, li pilin ike lili. tan ni, jan Hata li ken ala awen e ona, li pakala e jan ni kepeken palisa, li pana e ona tawa ma.\nNOTES: “Madman” is retained as the maid’s comparison, not narrator fact; the final blow does not yet assert death.",
+      "translation": "taso lon tenpo wan taso, jan Hata li kama jo e pilin ike suli. ona li anpa wawa e noka ona, li tawa wawa e palisa lon luka ona, li pali sama jan pi lawa nasa—jan pali meli pi tomo li toki e ni. jan suli pi tenpo mute li tawa sinpin ala kepeken noka wan. ona li lukin kama sona ala mute, li pilin ike lili. tan ni, jan Hata li ken ala awen e ona, li pakala e jan ni kepeken palisa, li pana e ona tawa ma.",
+      "notes": "“Madman” is retained as the maid’s comparison, not narrator fact; the final blow does not yet assert death.",
+      "usage": {
+        "input_tokens": 2831,
+        "input_tokens_details": {
+          "cache_write_tokens": 2828,
+          "cached_tokens": 0
+        },
+        "output_tokens": 273,
+        "output_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "total_tokens": 3104
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04a8b49477aa7f89016ab42a3ac99887d2b31d15079a14d724",
+  "visibleOutput": "TRANSLATION: taso lon tenpo wan taso, jan Hata li kama jo e pilin ike suli. ona li anpa wawa e noka ona, li tawa wawa e palisa lon luka ona, li pali sama jan pi lawa nasa—jan pali meli pi tomo li toki e ni. jan suli pi tenpo mute li tawa sinpin ala kepeken noka wan. ona li lukin kama sona ala mute, li pilin ike lili. tan ni, jan Hata li ken ala awen e ona, li pakala e jan ni kepeken palisa, li pana e ona tawa ma.\nNOTES: “Madman” is retained as the maid’s comparison, not narrator fact; the final blow does not yet assert death.",
+  "translation": "taso lon tenpo wan taso, jan Hata li kama jo e pilin ike suli. ona li anpa wawa e noka ona, li tawa wawa e palisa lon luka ona, li pali sama jan pi lawa nasa—jan pali meli pi tomo li toki e ni. jan suli pi tenpo mute li tawa sinpin ala kepeken noka wan. ona li lukin kama sona ala mute, li pilin ike lili. tan ni, jan Hata li ken ala awen e ona, li pakala e jan ni kepeken palisa, li pana e ona tawa ma.",
+  "notes": "“Madman” is retained as the maid’s comparison, not narrator fact; the final blow does not yet assert death.",
+  "usage": {
+    "input_tokens": 2831,
+    "input_tokens_details": {
+      "cache_write_tokens": 2828,
+      "cached_tokens": 0
+    },
+    "output_tokens": 273,
+    "output_tokens_details": {
+      "reasoning_tokens": 103
+    },
+    "total_tokens": 3104
+  },
+  "success": true
+}

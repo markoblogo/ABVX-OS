@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0023",
+  "sourceHash": "212b122350a47755d7d8d843c85ba4bbc925666fd85182e9393aa532fc0f92ee",
+  "source": "But in the will, that idea had sprung from the sinister suggestion of the man Hyde; it was set there with a purpose all too plain and horrible. Written by the hand of Lanyon, what should it mean?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c37bc5c0c996e98016ab42e430cf487d2a096d9356039a157",
+      "visibleOutput": "TRANSLATION: taso lon lipu lawa pi jan Jekil la, sona ni li kama tan toki pi jan Hata pi nasin ike monsuta. jan li pana e ona lon lipu tan wile ni: wile li lukin seli, li monsuta. taso sitelen ni li tan luka pi jan Lanjon. ni li ken toki e seme?\n\nNOTES: “ken” preserves uncertainty in the final question; no identity relation is implied.",
+      "translation": "taso lon lipu lawa pi jan Jekil la, sona ni li kama tan toki pi jan Hata pi nasin ike monsuta. jan li pana e ona lon lipu tan wile ni: wile li lukin seli, li monsuta. taso sitelen ni li tan luka pi jan Lanjon. ni li ken toki e seme?",
+      "notes": "“ken” preserves uncertainty in the final question; no identity relation is implied.",
+      "usage": {
+        "input_tokens": 2794,
+        "input_tokens_details": {
+          "cache_write_tokens": 2791,
+          "cached_tokens": 0
+        },
+        "output_tokens": 456,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 3250
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c37bc5c0c996e98016ab42e430cf487d2a096d9356039a157",
+  "visibleOutput": "TRANSLATION: taso lon lipu lawa pi jan Jekil la, sona ni li kama tan toki pi jan Hata pi nasin ike monsuta. jan li pana e ona lon lipu tan wile ni: wile li lukin seli, li monsuta. taso sitelen ni li tan luka pi jan Lanjon. ni li ken toki e seme?\n\nNOTES: “ken” preserves uncertainty in the final question; no identity relation is implied.",
+  "translation": "taso lon lipu lawa pi jan Jekil la, sona ni li kama tan toki pi jan Hata pi nasin ike monsuta. jan li pana e ona lon lipu tan wile ni: wile li lukin seli, li monsuta. taso sitelen ni li tan luka pi jan Lanjon. ni li ken toki e seme?",
+  "notes": "“ken” preserves uncertainty in the final question; no identity relation is implied.",
+  "usage": {
+    "input_tokens": 2794,
+    "input_tokens_details": {
+      "cache_write_tokens": 2791,
+      "cached_tokens": 0
+    },
+    "output_tokens": 456,
+    "output_tokens_details": {
+      "reasoning_tokens": 351
+    },
+    "total_tokens": 3250
+  },
+  "success": true
+}

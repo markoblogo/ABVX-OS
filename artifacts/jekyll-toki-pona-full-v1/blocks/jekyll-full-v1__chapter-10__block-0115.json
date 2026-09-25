@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0115",
+  "sourceHash": "2a1b204b09b51ff3ce5a96ffa08d04c9d3cd07afdc0a68262ff060dd94682b46",
+  "source": "His terror of the gallows drove him continually to commit temporary suicide, and return to his subordinate station of a part instead of a person; but he loathed the necessity, he loathed the despondency into which Jekyll was now fallen, and he resented the dislike with which he was himself regarded.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

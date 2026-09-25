@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0005",
+  "sourceHash": "87ef032a0dc8b35ba5c149cd5329890f8cfca5ddaee6bac3643cd31b55b50abc",
+  "source": "He was busy, he was much in the open air, he did good; his face seemed to open and brighten, as if with an inward consciousness of service; and for more than two months, the doctor was at peace.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0365f66a9f486da0016ab42d41fd4c87d2b0606e489f730bef",
+      "visibleOutput": "TRANSLATION: ona li pali mute. ona li awen mute lon ma open. ona li pali pona tawa jan ante. sinpin ona li lukin open li kama suno, sama ni: sona insa pi pali pona ona li suno e ona. lon tenpo suli tawa tenpo mun tu, jan Jekil pi sona sijelo li awen lon pona.\nNOTES: NONE",
+      "translation": "ona li pali mute. ona li awen mute lon ma open. ona li pali pona tawa jan ante. sinpin ona li lukin open li kama suno, sama ni: sona insa pi pali pona ona li suno e ona. lon tenpo suli tawa tenpo mun tu, jan Jekil pi sona sijelo li awen lon pona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2787,
+        "input_tokens_details": {
+          "cache_write_tokens": 2784,
+          "cached_tokens": 0
+        },
+        "output_tokens": 555,
+        "output_tokens_details": {
+          "reasoning_tokens": 465
+        },
+        "total_tokens": 3342
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0365f66a9f486da0016ab42d41fd4c87d2b0606e489f730bef",
+  "visibleOutput": "TRANSLATION: ona li pali mute. ona li awen mute lon ma open. ona li pali pona tawa jan ante. sinpin ona li lukin open li kama suno, sama ni: sona insa pi pali pona ona li suno e ona. lon tenpo suli tawa tenpo mun tu, jan Jekil pi sona sijelo li awen lon pona.\nNOTES: NONE",
+  "translation": "ona li pali mute. ona li awen mute lon ma open. ona li pali pona tawa jan ante. sinpin ona li lukin open li kama suno, sama ni: sona insa pi pali pona ona li suno e ona. lon tenpo suli tawa tenpo mun tu, jan Jekil pi sona sijelo li awen lon pona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2787,
+    "input_tokens_details": {
+      "cache_write_tokens": 2784,
+      "cached_tokens": 0
+    },
+    "output_tokens": 555,
+    "output_tokens_details": {
+      "reasoning_tokens": 465
+    },
+    "total_tokens": 3342
+  },
+  "success": true
+}

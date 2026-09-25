@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0004",
+  "sourceHash": "0fbd0b7f89d5dc27e62abcb2116e83634e95cacb215769d4e58c415525155df8",
+  "source": "Lanyon, my life, my honour my reason, are all at your mercy; if you fail me to-night I am lost. You might suppose, after this preface, that I am going to ask you for something dishonourable to grant. Judge for yourself.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b7f23d13e0dc213016ab433274ff087d2a696609618ac5969",
+      "visibleOutput": "TRANSLATION: jan Lanjon o, lon mi en nimi pona mi en sona mi li lon luka sina. tenpo pimeja ni la, sina pona ala e mi la, mi pakala ale. tan toki open ni la, ken la sina pilin e ni: mi kama wile e ijo tan sina, taso pana sina e ona li ike e nimi pona sina. o lawa e ni kepeken sona sina.\nNOTES: “honour” en “reason” li kama “nimi pona” en “sona”; nimi “at your mercy” li kama “lon luka sina.”",
+      "translation": "jan Lanjon o, lon mi en nimi pona mi en sona mi li lon luka sina. tenpo pimeja ni la, sina pona ala e mi la, mi pakala ale. tan toki open ni la, ken la sina pilin e ni: mi kama wile e ijo tan sina, taso pana sina e ona li ike e nimi pona sina. o lawa e ni kepeken sona sina.",
+      "notes": "“honour” en “reason” li kama “nimi pona” en “sona”; nimi “at your mercy” li kama “lon luka sina.”",
+      "usage": {
+        "input_tokens": 2795,
+        "input_tokens_details": {
+          "cache_write_tokens": 2792,
+          "cached_tokens": 0
+        },
+        "output_tokens": 613,
+        "output_tokens_details": {
+          "reasoning_tokens": 483
+        },
+        "total_tokens": 3408
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b7f23d13e0dc213016ab433274ff087d2a696609618ac5969",
+  "visibleOutput": "TRANSLATION: jan Lanjon o, lon mi en nimi pona mi en sona mi li lon luka sina. tenpo pimeja ni la, sina pona ala e mi la, mi pakala ale. tan toki open ni la, ken la sina pilin e ni: mi kama wile e ijo tan sina, taso pana sina e ona li ike e nimi pona sina. o lawa e ni kepeken sona sina.\nNOTES: “honour” en “reason” li kama “nimi pona” en “sona”; nimi “at your mercy” li kama “lon luka sina.”",
+  "translation": "jan Lanjon o, lon mi en nimi pona mi en sona mi li lon luka sina. tenpo pimeja ni la, sina pona ala e mi la, mi pakala ale. tan toki open ni la, ken la sina pilin e ni: mi kama wile e ijo tan sina, taso pana sina e ona li ike e nimi pona sina. o lawa e ni kepeken sona sina.",
+  "notes": "“honour” en “reason” li kama “nimi pona” en “sona”; nimi “at your mercy” li kama “lon luka sina.”",
+  "usage": {
+    "input_tokens": 2795,
+    "input_tokens_details": {
+      "cache_write_tokens": 2792,
+      "cached_tokens": 0
+    },
+    "output_tokens": 613,
+    "output_tokens_details": {
+      "reasoning_tokens": 483
+    },
+    "total_tokens": 3408
+  },
+  "success": true
+}

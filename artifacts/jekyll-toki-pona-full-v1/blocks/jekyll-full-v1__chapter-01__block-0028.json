@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0028",
+  "sourceHash": "f258c292ed34db66bdc68ca724446d256422ee4d36f23877137d8c3ecfce8b46",
+  "source": "The figure was stiff; but the signature was good for more than that, if it was only genuine. I took the liberty of pointing out to my gentleman that the whole business looked apocryphal, and that a man does not, in real life, walk into a cellar door at four in the morning and come out of it with another man’s cheque for close upon a hundred pounds.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0edc03947de28911016ab425b6177487d28e18e7c1a42446d4",
+      "visibleOutput": "TRANSLATION: mute mani li suli mute. taso sitelen nimi li ken pana e mani suli mute lon poka, ona li sitelen lon taso la. mi toki e ni tawa jan ni: lon lukin mi la, pali ale ni li sama toki lon ala. lon ale lon la, jan li kama ala tawa lupa pi tomo anpa lon tenpo pimeja pini pi nanpa tu tu, li kama tan ona kepeken lipu mani pi jan ante pi mute mani lili anpa ale.\nNOTES: “close upon a hundred pounds” is compressed as slightly under one hundred units of money; the currency name is omitted.",
+      "translation": "mute mani li suli mute. taso sitelen nimi li ken pana e mani suli mute lon poka, ona li sitelen lon taso la. mi toki e ni tawa jan ni: lon lukin mi la, pali ale ni li sama toki lon ala. lon ale lon la, jan li kama ala tawa lupa pi tomo anpa lon tenpo pimeja pini pi nanpa tu tu, li kama tan ona kepeken lipu mani pi jan ante pi mute mani lili anpa ale.",
+      "notes": "“close upon a hundred pounds” is compressed as slightly under one hundred units of money; the currency name is omitted.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 444,
+        "output_tokens_details": {
+          "reasoning_tokens": 302
+        },
+        "total_tokens": 3259
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0edc03947de28911016ab425b6177487d28e18e7c1a42446d4",
+  "visibleOutput": "TRANSLATION: mute mani li suli mute. taso sitelen nimi li ken pana e mani suli mute lon poka, ona li sitelen lon taso la. mi toki e ni tawa jan ni: lon lukin mi la, pali ale ni li sama toki lon ala. lon ale lon la, jan li kama ala tawa lupa pi tomo anpa lon tenpo pimeja pini pi nanpa tu tu, li kama tan ona kepeken lipu mani pi jan ante pi mute mani lili anpa ale.\nNOTES: “close upon a hundred pounds” is compressed as slightly under one hundred units of money; the currency name is omitted.",
+  "translation": "mute mani li suli mute. taso sitelen nimi li ken pana e mani suli mute lon poka, ona li sitelen lon taso la. mi toki e ni tawa jan ni: lon lukin mi la, pali ale ni li sama toki lon ala. lon ale lon la, jan li kama ala tawa lupa pi tomo anpa lon tenpo pimeja pini pi nanpa tu tu, li kama tan ona kepeken lipu mani pi jan ante pi mute mani lili anpa ale.",
+  "notes": "“close upon a hundred pounds” is compressed as slightly under one hundred units of money; the currency name is omitted.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 444,
+    "output_tokens_details": {
+      "reasoning_tokens": 302
+    },
+    "total_tokens": 3259
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0014",
+  "sourceHash": "889cd069beb4841cddc98436c5c8f1e9d8f193318eeb9de4d00c9ca6dbdcc86b",
+  "source": "I began to perceive more deeply than it has ever yet been stated, the trembling immateriality, the mist-like transience of this seemingly so solid body in which we walk attired. Certain agents I found to have the power to shake and to pluck back that fleshly vestment, even as a wind might toss the curtains of a pavilion.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

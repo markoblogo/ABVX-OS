@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0010",
+  "sourceHash": "9e45873f3f5e8fe6e520e9712820f108ff68a17f4649becbfefb185a50daab92",
+  "source": "Five minutes afterwards, if you insist upon an explanation, you will have understood that these arrangements are of capital importance; and that by the neglect of one of them, fantastic as they must appear, you might have charged your conscience with my death or the shipwreck of my reason.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0874f2fcbe6873d4016ab43373a9a887d2ac2b757718b30f3f",
+      "visibleOutput": "TRANSLATION: tenpo lili luka li pini la, sina wile wawa e toki sona la, sina sona e ni: nasin pali ni li suli mute. nasin ni li ken lukin nasa mute tawa sina. taso sina pali ala e wan ona la, sina ken pilin e ni: pali ala sina li pana e moli tawa mi, anu li pakala e sona lawa mi.\n\nNOTES: “might have charged your conscience” is rendered as possible personal guilt, not certain causation.",
+      "translation": "tenpo lili luka li pini la, sina wile wawa e toki sona la, sina sona e ni: nasin pali ni li suli mute. nasin ni li ken lukin nasa mute tawa sina. taso sina pali ala e wan ona la, sina ken pilin e ni: pali ala sina li pana e moli tawa mi, anu li pakala e sona lawa mi.",
+      "notes": "“might have charged your conscience” is rendered as possible personal guilt, not certain causation.",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 339,
+        "output_tokens_details": {
+          "reasoning_tokens": 224
+        },
+        "total_tokens": 3144
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0874f2fcbe6873d4016ab43373a9a887d2ac2b757718b30f3f",
+  "visibleOutput": "TRANSLATION: tenpo lili luka li pini la, sina wile wawa e toki sona la, sina sona e ni: nasin pali ni li suli mute. nasin ni li ken lukin nasa mute tawa sina. taso sina pali ala e wan ona la, sina ken pilin e ni: pali ala sina li pana e moli tawa mi, anu li pakala e sona lawa mi.\n\nNOTES: “might have charged your conscience” is rendered as possible personal guilt, not certain causation.",
+  "translation": "tenpo lili luka li pini la, sina wile wawa e toki sona la, sina sona e ni: nasin pali ni li suli mute. nasin ni li ken lukin nasa mute tawa sina. taso sina pali ala e wan ona la, sina ken pilin e ni: pali ala sina li pana e moli tawa mi, anu li pakala e sona lawa mi.",
+  "notes": "“might have charged your conscience” is rendered as possible personal guilt, not certain causation.",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 339,
+    "output_tokens_details": {
+      "reasoning_tokens": 224
+    },
+    "total_tokens": 3144
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0037",
+  "sourceHash": "6406fde295a99dae483090cddd67ee70164e8a8d2392cd3036c5b212f8062f0f",
+  "source": "Utterson regarded him. “There must be something else,” said the perplexed gentleman. “There is something more, if I could find a name for it. God bless me, the man seems hardly human! Something troglodytic, shall we say? or can it be the old story of Dr. Fell? or is it the mere radiance of a foul soul that thus transpires through, and transfigures, its clay continent?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_065e3884bd3226d7016ab4283bee9087d2aebc7e2d30cb4126",
+      "visibleOutput": "TRANSLATION: jan Utason li lukin e ona. jan ni pi sona nasa li toki: “ijo ante li lon. mi pilin e ni: ijo ante mute li lon, taso mi ken ala pana e nimi tawa ona. sewi o pona e mi! jan ni li lukin sama jan ala! ken la ona li sama jan pi tomo kiwen, anu seme? anu ni li toki majuna pi jan Pel pi sona sijelo? anu kon ike ona taso li suno tan insa, li kama lukin lon sijelo ona tan ma, li ante e sijelo ni?”\nNOTES: “troglodytic” is rendered descriptively as cave-dwelling; the Dr. Fell allusion remains named and uncertain.",
+      "translation": "jan Utason li lukin e ona. jan ni pi sona nasa li toki: “ijo ante li lon. mi pilin e ni: ijo ante mute li lon, taso mi ken ala pana e nimi tawa ona. sewi o pona e mi! jan ni li lukin sama jan ala! ken la ona li sama jan pi tomo kiwen, anu seme? anu ni li toki majuna pi jan Pel pi sona sijelo? anu kon ike ona taso li suno tan insa, li kama lukin lon sijelo ona tan ma, li ante e sijelo ni?”",
+      "notes": "“troglodytic” is rendered descriptively as cave-dwelling; the Dr. Fell allusion remains named and uncertain.",
+      "usage": {
+        "input_tokens": 2829,
+        "input_tokens_details": {
+          "cache_write_tokens": 2826,
+          "cached_tokens": 0
+        },
+        "output_tokens": 618,
+        "output_tokens_details": {
+          "reasoning_tokens": 454
+        },
+        "total_tokens": 3447
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_065e3884bd3226d7016ab4283bee9087d2aebc7e2d30cb4126",
+  "visibleOutput": "TRANSLATION: jan Utason li lukin e ona. jan ni pi sona nasa li toki: “ijo ante li lon. mi pilin e ni: ijo ante mute li lon, taso mi ken ala pana e nimi tawa ona. sewi o pona e mi! jan ni li lukin sama jan ala! ken la ona li sama jan pi tomo kiwen, anu seme? anu ni li toki majuna pi jan Pel pi sona sijelo? anu kon ike ona taso li suno tan insa, li kama lukin lon sijelo ona tan ma, li ante e sijelo ni?”\nNOTES: “troglodytic” is rendered descriptively as cave-dwelling; the Dr. Fell allusion remains named and uncertain.",
+  "translation": "jan Utason li lukin e ona. jan ni pi sona nasa li toki: “ijo ante li lon. mi pilin e ni: ijo ante mute li lon, taso mi ken ala pana e nimi tawa ona. sewi o pona e mi! jan ni li lukin sama jan ala! ken la ona li sama jan pi tomo kiwen, anu seme? anu ni li toki majuna pi jan Pel pi sona sijelo? anu kon ike ona taso li suno tan insa, li kama lukin lon sijelo ona tan ma, li ante e sijelo ni?”",
+  "notes": "“troglodytic” is rendered descriptively as cave-dwelling; the Dr. Fell allusion remains named and uncertain.",
+  "usage": {
+    "input_tokens": 2829,
+    "input_tokens_details": {
+      "cache_write_tokens": 2826,
+      "cached_tokens": 0
+    },
+    "output_tokens": 618,
+    "output_tokens_details": {
+      "reasoning_tokens": 454
+    },
+    "total_tokens": 3447
+  },
+  "success": true
+}

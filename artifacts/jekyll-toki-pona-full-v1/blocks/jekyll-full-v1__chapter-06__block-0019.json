@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0019",
+  "sourceHash": "1c5ea5299aac9ef17aa6fe65d2579663950402326774b1c135b19fb30fb03513",
+  "source": "So great and unprepared a change pointed to madness; but in view of Lanyon’s manner and words, there must lie for it some deeper ground. A week afterwards Dr. Lanyon took to his bed, and in something less than a fortnight he was dead.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04488aab65fd2768016ab42df84e3c87d2b26d1af3775f003a",
+      "visibleOutput": "TRANSLATION: Ante ni li suli mute, li kama lon tenpo pi jan ala li sona open e kama ona. Ni li pana e pilin ni: lawa ona li kama nasa. Taso, nasin pi jan Lanjon en toki ona la, tan ante ni li ken ala lili; tan suli pi sona ala li lon insa. Tenpo suno luka tu li pini la, jan Lanjon pi sona sijelo li kama awen lon supa lape tan ike sijelo. Tan tenpo ni la, tenpo suno luka luka tu tu li pini ala la, ona li moli.\n\nNOTES: nasa lawa en tan suli li pilin tan lukin taso; ona li toki ala e ni sama sona lon.",
+      "translation": "Ante ni li suli mute, li kama lon tenpo pi jan ala li sona open e kama ona. Ni li pana e pilin ni: lawa ona li kama nasa. Taso, nasin pi jan Lanjon en toki ona la, tan ante ni li ken ala lili; tan suli pi sona ala li lon insa. Tenpo suno luka tu li pini la, jan Lanjon pi sona sijelo li kama awen lon supa lape tan ike sijelo. Tan tenpo ni la, tenpo suno luka luka tu tu li pini ala la, ona li moli.",
+      "notes": "nasa lawa en tan suli li pilin tan lukin taso; ona li toki ala e ni sama sona lon.",
+      "usage": {
+        "input_tokens": 2795,
+        "input_tokens_details": {
+          "cache_write_tokens": 2792,
+          "cached_tokens": 0
+        },
+        "output_tokens": 857,
+        "output_tokens_details": {
+          "reasoning_tokens": 697
+        },
+        "total_tokens": 3652
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04488aab65fd2768016ab42df84e3c87d2b26d1af3775f003a",
+  "visibleOutput": "TRANSLATION: Ante ni li suli mute, li kama lon tenpo pi jan ala li sona open e kama ona. Ni li pana e pilin ni: lawa ona li kama nasa. Taso, nasin pi jan Lanjon en toki ona la, tan ante ni li ken ala lili; tan suli pi sona ala li lon insa. Tenpo suno luka tu li pini la, jan Lanjon pi sona sijelo li kama awen lon supa lape tan ike sijelo. Tan tenpo ni la, tenpo suno luka luka tu tu li pini ala la, ona li moli.\n\nNOTES: nasa lawa en tan suli li pilin tan lukin taso; ona li toki ala e ni sama sona lon.",
+  "translation": "Ante ni li suli mute, li kama lon tenpo pi jan ala li sona open e kama ona. Ni li pana e pilin ni: lawa ona li kama nasa. Taso, nasin pi jan Lanjon en toki ona la, tan ante ni li ken ala lili; tan suli pi sona ala li lon insa. Tenpo suno luka tu li pini la, jan Lanjon pi sona sijelo li kama awen lon supa lape tan ike sijelo. Tan tenpo ni la, tenpo suno luka luka tu tu li pini ala la, ona li moli.",
+  "notes": "nasa lawa en tan suli li pilin tan lukin taso; ona li toki ala e ni sama sona lon.",
+  "usage": {
+    "input_tokens": 2795,
+    "input_tokens_details": {
+      "cache_write_tokens": 2792,
+      "cached_tokens": 0
+    },
+    "output_tokens": 857,
+    "output_tokens_details": {
+      "reasoning_tokens": 697
+    },
+    "total_tokens": 3652
+  },
+  "success": true
+}

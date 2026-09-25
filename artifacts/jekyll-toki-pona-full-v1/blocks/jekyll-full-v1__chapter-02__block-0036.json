@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0036",
+  "sourceHash": "a26f93ad8dd96dbdd04ad647734d1bd61d095a9fd85d80e0fe1256b74905f568",
+  "source": "Hyde was pale and dwarfish, he gave an impression of deformity without any nameable malformation, he had a displeasing smile, he had borne himself to the lawyer with a sort of murderous mixture of timidity and boldness, and he spoke with a husky, whispering and somewhat broken voice; all these were points against him, but not all of these together could explain the hitherto unknown disgust, loathing, and fear with which Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_093bf17beae6d446016ab4282c903087d2b143033d4aa5118f",
+      "visibleOutput": "TRANSLATION: selo sinpin pi jan Hata li walo, li lili. lukin ona li pana e pilin ni: sijelo ona li nasa. taso, jan li ken ala nimi e nasa sijelo wan. ona li musi uta kepeken nasin pi pilin ike. lon poka pi jan Utason pi sona lawa la, nasin ona li sama kulupu nasa pi pilin monsuta en wawa pi jan ken moli. kalama toki ona li kiwen, li lili sama toki pi kalama ala, li pakala lili. ijo ni ale li pana e pilin ike tawa ona. taso, ijo ni ale lon kulupu li ken ala toki e tan pi pilin ike sin ni: jan li pilin jaki, li wile ala e ona, li monsuta e ona. mije—  \nNOTES: SOURCE ENDS MID-SENTENCE AFTER “Mr.”; translation preserves the interruption without inferring the missing name or action.",
+      "translation": "selo sinpin pi jan Hata li walo, li lili. lukin ona li pana e pilin ni: sijelo ona li nasa. taso, jan li ken ala nimi e nasa sijelo wan. ona li musi uta kepeken nasin pi pilin ike. lon poka pi jan Utason pi sona lawa la, nasin ona li sama kulupu nasa pi pilin monsuta en wawa pi jan ken moli. kalama toki ona li kiwen, li lili sama toki pi kalama ala, li pakala lili. ijo ni ale li pana e pilin ike tawa ona. taso, ijo ni ale lon kulupu li ken ala toki e tan pi pilin ike sin ni: jan li pilin jaki, li wile ala e ona, li monsuta e ona. mije—",
+      "notes": "SOURCE ENDS MID-SENTENCE AFTER “Mr.”; translation preserves the interruption without inferring the missing name or action.",
+      "usage": {
+        "input_tokens": 2843,
+        "input_tokens_details": {
+          "cache_write_tokens": 2840,
+          "cached_tokens": 0
+        },
+        "output_tokens": 626,
+        "output_tokens_details": {
+          "reasoning_tokens": 412
+        },
+        "total_tokens": 3469
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_093bf17beae6d446016ab4282c903087d2b143033d4aa5118f",
+  "visibleOutput": "TRANSLATION: selo sinpin pi jan Hata li walo, li lili. lukin ona li pana e pilin ni: sijelo ona li nasa. taso, jan li ken ala nimi e nasa sijelo wan. ona li musi uta kepeken nasin pi pilin ike. lon poka pi jan Utason pi sona lawa la, nasin ona li sama kulupu nasa pi pilin monsuta en wawa pi jan ken moli. kalama toki ona li kiwen, li lili sama toki pi kalama ala, li pakala lili. ijo ni ale li pana e pilin ike tawa ona. taso, ijo ni ale lon kulupu li ken ala toki e tan pi pilin ike sin ni: jan li pilin jaki, li wile ala e ona, li monsuta e ona. mije—  \nNOTES: SOURCE ENDS MID-SENTENCE AFTER “Mr.”; translation preserves the interruption without inferring the missing name or action.",
+  "translation": "selo sinpin pi jan Hata li walo, li lili. lukin ona li pana e pilin ni: sijelo ona li nasa. taso, jan li ken ala nimi e nasa sijelo wan. ona li musi uta kepeken nasin pi pilin ike. lon poka pi jan Utason pi sona lawa la, nasin ona li sama kulupu nasa pi pilin monsuta en wawa pi jan ken moli. kalama toki ona li kiwen, li lili sama toki pi kalama ala, li pakala lili. ijo ni ale li pana e pilin ike tawa ona. taso, ijo ni ale lon kulupu li ken ala toki e tan pi pilin ike sin ni: jan li pilin jaki, li wile ala e ona, li monsuta e ona. mije—",
+  "notes": "SOURCE ENDS MID-SENTENCE AFTER “Mr.”; translation preserves the interruption without inferring the missing name or action.",
+  "usage": {
+    "input_tokens": 2843,
+    "input_tokens_details": {
+      "cache_write_tokens": 2840,
+      "cached_tokens": 0
+    },
+    "output_tokens": 626,
+    "output_tokens_details": {
+      "reasoning_tokens": 412
+    },
+    "total_tokens": 3469
+  },
+  "success": true
+}

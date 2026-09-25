@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0031",
+  "sourceHash": "0e67130d6e6e6e11565f52cdd62b598297789269fd5767d82d0ce84c31280ca2",
+  "source": "It was but for one minute that I saw him, but the hair stood upon my head like quills. Sir, if that was my master, why had he a mask upon his face? If it was my master, why did he cry out like a rat, and run from me? I have served him long enough. And then…” The man paused and passed his hand over his face.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c8f04bf6bb67e03016ab4309e911087d28261d1f04c0b6f3d",
+      "visibleOutput": "TRANSLATION: “mi lukin e ona lon tenpo lili taso. taso, linja lon lawa mi li kama sewi sama palisa. jan lawa o, ona li jan lawa mi la, tan seme la len li lon sinpin ona? ona li jan lawa mi la, tan seme la ona li kalama wawa sama soweli lili, li tawa weka tan mi? mi pali lon poka ona lon tenpo mute. kin la…” jan ni li pini lili e toki, li tawa e luka ona lon sinpin ona.\nNOTES: “like quills” is rendered as hair rising “sama palisa”; the repeated identity condition remains uncertain.",
+      "translation": "“mi lukin e ona lon tenpo lili taso. taso, linja lon lawa mi li kama sewi sama palisa. jan lawa o, ona li jan lawa mi la, tan seme la len li lon sinpin ona? ona li jan lawa mi la, tan seme la ona li kalama wawa sama soweli lili, li tawa weka tan mi? mi pali lon poka ona lon tenpo mute. kin la…” jan ni li pini lili e toki, li tawa e luka ona lon sinpin ona.",
+      "notes": "“like quills” is rendered as hair rising “sama palisa”; the repeated identity condition remains uncertain.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 248,
+        "output_tokens_details": {
+          "reasoning_tokens": 96
+        },
+        "total_tokens": 3062
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c8f04bf6bb67e03016ab4309e911087d28261d1f04c0b6f3d",
+  "visibleOutput": "TRANSLATION: “mi lukin e ona lon tenpo lili taso. taso, linja lon lawa mi li kama sewi sama palisa. jan lawa o, ona li jan lawa mi la, tan seme la len li lon sinpin ona? ona li jan lawa mi la, tan seme la ona li kalama wawa sama soweli lili, li tawa weka tan mi? mi pali lon poka ona lon tenpo mute. kin la…” jan ni li pini lili e toki, li tawa e luka ona lon sinpin ona.\nNOTES: “like quills” is rendered as hair rising “sama palisa”; the repeated identity condition remains uncertain.",
+  "translation": "“mi lukin e ona lon tenpo lili taso. taso, linja lon lawa mi li kama sewi sama palisa. jan lawa o, ona li jan lawa mi la, tan seme la len li lon sinpin ona? ona li jan lawa mi la, tan seme la ona li kalama wawa sama soweli lili, li tawa weka tan mi? mi pali lon poka ona lon tenpo mute. kin la…” jan ni li pini lili e toki, li tawa e luka ona lon sinpin ona.",
+  "notes": "“like quills” is rendered as hair rising “sama palisa”; the repeated identity condition remains uncertain.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 3062
+  },
+  "success": true
+}

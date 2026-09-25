@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "pipelineVersion": "narrative-toki-pona-pipeline-v1",
+  "mode": "INTERNAL_BOOK_PIPELINE",
+  "provider": "abvx-local-model-worker",
+  "model": "occ-ai/OCC-RAG-0.6B",
+  "sourceBlockCount": 40,
+  "completedBlockCount": 0,
+  "failedBlockCount": 1,
+  "resumeSafe": true,
+  "fullBookTranslation": false
+}

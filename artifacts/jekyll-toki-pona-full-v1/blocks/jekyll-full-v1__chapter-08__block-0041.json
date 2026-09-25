@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0041",
+  "sourceHash": "851d2364e62b7f23ae5691122e944e30b867cdd8d5efb7cbc16071c4adab2b8c",
+  "source": "Hyde?—why, yes, I think it was! You see, it was much of the same bigness; and it had the same quick, light way with it; and then who else could have got in by the laboratory door? You have not forgot, sir that at the time of the murder he had still the key with him? But that’s not all. I don’t know, Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e4b176eef68a258016ab43116e6c087d2b9f54c79b061750a",
+      "visibleOutput": "TRANSLATION: “jan Hata anu seme?—a, lon, mi pilin e ni: ona li jan Hata! o lukin: suli sijelo ona li sama mute; ona li tawa kepeken tenpo lili li kepeken noka pi kalama lili sama jan Hata. kin la, jan ante seme li ken kama insa kepeken lupa pi tomo pi pali sona? jan lawa o, sina ken ala weka sona e ni: lon tenpo pi moli ike la, ilo open li awen lon ona. taso ni li ale ala. mi sona ala, jan—”\nNOTES: The final form of address remains intentionally incomplete.",
+      "translation": "“jan Hata anu seme?—a, lon, mi pilin e ni: ona li jan Hata! o lukin: suli sijelo ona li sama mute; ona li tawa kepeken tenpo lili li kepeken noka pi kalama lili sama jan Hata. kin la, jan ante seme li ken kama insa kepeken lupa pi tomo pi pali sona? jan lawa o, sina ken ala weka sona e ni: lon tenpo pi moli ike la, ilo open li awen lon ona. taso ni li ale ala. mi sona ala, jan—”",
+      "notes": "The final form of address remains intentionally incomplete.",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 547,
+        "output_tokens_details": {
+          "reasoning_tokens": 395
+        },
+        "total_tokens": 3377
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e4b176eef68a258016ab43116e6c087d2b9f54c79b061750a",
+  "visibleOutput": "TRANSLATION: “jan Hata anu seme?—a, lon, mi pilin e ni: ona li jan Hata! o lukin: suli sijelo ona li sama mute; ona li tawa kepeken tenpo lili li kepeken noka pi kalama lili sama jan Hata. kin la, jan ante seme li ken kama insa kepeken lupa pi tomo pi pali sona? jan lawa o, sina ken ala weka sona e ni: lon tenpo pi moli ike la, ilo open li awen lon ona. taso ni li ale ala. mi sona ala, jan—”\nNOTES: The final form of address remains intentionally incomplete.",
+  "translation": "“jan Hata anu seme?—a, lon, mi pilin e ni: ona li jan Hata! o lukin: suli sijelo ona li sama mute; ona li tawa kepeken tenpo lili li kepeken noka pi kalama lili sama jan Hata. kin la, jan ante seme li ken kama insa kepeken lupa pi tomo pi pali sona? jan lawa o, sina ken ala weka sona e ni: lon tenpo pi moli ike la, ilo open li awen lon ona. taso ni li ale ala. mi sona ala, jan—”",
+  "notes": "The final form of address remains intentionally incomplete.",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 547,
+    "output_tokens_details": {
+      "reasoning_tokens": 395
+    },
+    "total_tokens": 3377
+  },
+  "success": true
+}

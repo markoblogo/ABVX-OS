@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0070",
+  "sourceHash": "2203f8500d68e8c041ee658f67aca28619b814e3c4b073486004d2f10c2caa90",
+  "source": "This brought them to the fireside, where the easy-chair was drawn cosily up, and the tea-things stood ready to the sitter’s elbow, the very sugar in the cup. There were several books on a shelf; one lay beside the tea-things open, and Utterson was amazed to find it a copy of a pious work, for which Jekyll had several times expressed a great esteem, annotated, in his own hand, with startling blasphemies.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01922133226fa665016ab43260ad4087d2b3077d721c1a59b1",
+      "visibleOutput": "TRANSLATION: ni li pana e ona tu tawa poka pi seli. supa monsi pona li lon poka seli lon nasin pona. ilo pi telo seli li lon poka luka pi jan awen. ko suwi li lon poki telo kin. lipu mute li lon supa lipu. lipu wan li open lon poka pi ilo telo. jan Utason li sona e ni la, ona li kama pilin nasa mute: lipu ni li lipu pi nasin sewi. tenpo mute la, jan Jekil li toki e pona suli pi lipu ni. taso jan Jekil li sitelen kepeken luka ona lon lipu ni e toki ike nasa pi nasin sewi. toki ni li pana e pilin monsuta.\nNOTES: “Blasphemies” is rendered as shocking, irreverent statements about the sacred without adding doctrinal detail.",
+      "translation": "ni li pana e ona tu tawa poka pi seli. supa monsi pona li lon poka seli lon nasin pona. ilo pi telo seli li lon poka luka pi jan awen. ko suwi li lon poki telo kin. lipu mute li lon supa lipu. lipu wan li open lon poka pi ilo telo. jan Utason li sona e ni la, ona li kama pilin nasa mute: lipu ni li lipu pi nasin sewi. tenpo mute la, jan Jekil li toki e pona suli pi lipu ni. taso jan Jekil li sitelen kepeken luka ona lon lipu ni e toki ike nasa pi nasin sewi. toki ni li pana e pilin monsuta.",
+      "notes": "“Blasphemies” is rendered as shocking, irreverent statements about the sacred without adding doctrinal detail.",
+      "usage": {
+        "input_tokens": 2844,
+        "input_tokens_details": {
+          "cache_write_tokens": 2841,
+          "cached_tokens": 0
+        },
+        "output_tokens": 401,
+        "output_tokens_details": {
+          "reasoning_tokens": 205
+        },
+        "total_tokens": 3245
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01922133226fa665016ab43260ad4087d2b3077d721c1a59b1",
+  "visibleOutput": "TRANSLATION: ni li pana e ona tu tawa poka pi seli. supa monsi pona li lon poka seli lon nasin pona. ilo pi telo seli li lon poka luka pi jan awen. ko suwi li lon poki telo kin. lipu mute li lon supa lipu. lipu wan li open lon poka pi ilo telo. jan Utason li sona e ni la, ona li kama pilin nasa mute: lipu ni li lipu pi nasin sewi. tenpo mute la, jan Jekil li toki e pona suli pi lipu ni. taso jan Jekil li sitelen kepeken luka ona lon lipu ni e toki ike nasa pi nasin sewi. toki ni li pana e pilin monsuta.\nNOTES: “Blasphemies” is rendered as shocking, irreverent statements about the sacred without adding doctrinal detail.",
+  "translation": "ni li pana e ona tu tawa poka pi seli. supa monsi pona li lon poka seli lon nasin pona. ilo pi telo seli li lon poka luka pi jan awen. ko suwi li lon poki telo kin. lipu mute li lon supa lipu. lipu wan li open lon poka pi ilo telo. jan Utason li sona e ni la, ona li kama pilin nasa mute: lipu ni li lipu pi nasin sewi. tenpo mute la, jan Jekil li toki e pona suli pi lipu ni. taso jan Jekil li sitelen kepeken luka ona lon lipu ni e toki ike nasa pi nasin sewi. toki ni li pana e pilin monsuta.",
+  "notes": "“Blasphemies” is rendered as shocking, irreverent statements about the sacred without adding doctrinal detail.",
+  "usage": {
+    "input_tokens": 2844,
+    "input_tokens_details": {
+      "cache_write_tokens": 2841,
+      "cached_tokens": 0
+    },
+    "output_tokens": 401,
+    "output_tokens_details": {
+      "reasoning_tokens": 205
+    },
+    "total_tokens": 3245
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0091",
+  "sourceHash": "505088477122f5d65860a20724b101a48fc03989c9803ca9718b905c02e0c090",
+  "source": "I have more than once observed that, in my second character, my faculties seemed sharpened to a point and my spirits more tensely elastic; thus it came about that, where Jekyll perhaps might have succumbed, Hyde rose to the importance of the moment. My drugs were in one of the presses of my cabinet; how was I to reach them?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

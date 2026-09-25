@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0036",
+  "sourceHash": "ba059471c70d1a8e70c9984767ba997600b0466c2e2afcd5f97725a2b6331f5b",
+  "source": "I would still be merrily disposed at times; and as my pleasures were (to say the least) undignified, and I was not only well known and highly considered, but growing toward the elderly man, this incoherency of my life was daily growing more unwelcome. It was on this side that my new power tempted me until I fell in slavery.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

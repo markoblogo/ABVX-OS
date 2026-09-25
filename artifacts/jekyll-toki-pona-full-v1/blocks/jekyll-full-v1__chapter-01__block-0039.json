@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0039",
+  "sourceHash": "b49c902aa18fb326e325807ff7b9ab3811286fa0a5b98845cab3d343c0f86ece",
+  "source": "He must be deformed somewhere; he gives a strong feeling of deformity, although I couldn’t specify the point. He’s an extraordinary-looking man, and yet I really can name nothing out of the way. No, sir; I can make no hand of it; I can’t describe him. And it’s not want of memory; for I declare I can see him this moment.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ca747cc26ec63e8016ab42638c17887d2b2982d169490713c",
+      "visibleOutput": "TRANSLATION: “lon ma wan la, sijelo ona li ken ante ike. mi pilin wawa e ante ike ni, taso mi ken ala toki e ma ona. lukin ona li ante mute; taso lon la, mi ken ala nimi e ijo wan pi nasin ala. ala, jan lawa o; mi sona ala e nasin pi toki ni. mi ken ala toki pona e lukin ona. ni li tan weka sona ala; mi toki lon e ni: lon tenpo ni kin la, mi ken lukin insa e ona.”\nNOTES: “deformity” is kept as the speaker’s strong impression, not an established bodily fact.",
+      "translation": "“lon ma wan la, sijelo ona li ken ante ike. mi pilin wawa e ante ike ni, taso mi ken ala toki e ma ona. lukin ona li ante mute; taso lon la, mi ken ala nimi e ijo wan pi nasin ala. ala, jan lawa o; mi sona ala e nasin pi toki ni. mi ken ala toki pona e lukin ona. ni li tan weka sona ala; mi toki lon e ni: lon tenpo ni kin la, mi ken lukin insa e ona.”",
+      "notes": "“deformity” is kept as the speaker’s strong impression, not an established bodily fact.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 259,
+        "output_tokens_details": {
+          "reasoning_tokens": 111
+        },
+        "total_tokens": 3074
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ca747cc26ec63e8016ab42638c17887d2b2982d169490713c",
+  "visibleOutput": "TRANSLATION: “lon ma wan la, sijelo ona li ken ante ike. mi pilin wawa e ante ike ni, taso mi ken ala toki e ma ona. lukin ona li ante mute; taso lon la, mi ken ala nimi e ijo wan pi nasin ala. ala, jan lawa o; mi sona ala e nasin pi toki ni. mi ken ala toki pona e lukin ona. ni li tan weka sona ala; mi toki lon e ni: lon tenpo ni kin la, mi ken lukin insa e ona.”\nNOTES: “deformity” is kept as the speaker’s strong impression, not an established bodily fact.",
+  "translation": "“lon ma wan la, sijelo ona li ken ante ike. mi pilin wawa e ante ike ni, taso mi ken ala toki e ma ona. lukin ona li ante mute; taso lon la, mi ken ala nimi e ijo wan pi nasin ala. ala, jan lawa o; mi sona ala e nasin pi toki ni. mi ken ala toki pona e lukin ona. ni li tan weka sona ala; mi toki lon e ni: lon tenpo ni kin la, mi ken lukin insa e ona.”",
+  "notes": "“deformity” is kept as the speaker’s strong impression, not an established bodily fact.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "reasoning_tokens": 111
+    },
+    "total_tokens": 3074
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0064",
+  "sourceHash": "5f0315597001374a2c2224316793d7af48f6b507c19f32c413b39674722464d0",
+  "source": "To cast in my lot with Jekyll, was to die to those appetites which I had long secretly indulged and had of late begun to pamper. To cast it in with Hyde, was to die to a thousand interests and aspirations, and to become, at a blow and for ever, despised and friendless.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

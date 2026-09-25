@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0018",
+  "sourceHash": "d40b9b423dbdef85f2752c5c8644da0d0b1620bc4dd4f2c676c8e619afb34681",
+  "source": "I could not think that this earth contained a place for sufferings and terrors so unmanning; and you can do but one thing, Utterson, to lighten this destiny, and that is to respect my silence.” Utterson was amazed; the dark influence of Hyde had been withdrawn, the doctor had returned to his old tasks and amities; a week ago, the prospect had smiled with every promise of a cheerful and an honoured age; and now in a moment, friendship, and peace of mind, and the whole tenor of his life were wrecked.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01881ae8d5d33054016ab42dee676087d2a0d8c1117719a131",
+      "visibleOutput": "TRANSLATION: “mi ken ala pilin e ni: ma ni li jo e lon pi pilin ike suli en monsuta suli, ni li weka e wawa jan. jan Utason o, sina ken pali e ijo wan taso, li ken lili e ike pi nasin lon mi: sina o awen pona e toki ala mi.” ni li pana e pilin nasa suli tawa jan Utason. wawa pimeja pi jan Hata li weka tan jan pi sona sijelo; jan pi sona sijelo li kama sin tawa pali ona pi tenpo pini, tawa jan pona ona kin. lon tenpo suno luka tu pini, tenpo kama li lukin pona, li pana e wile mute pi tenpo suli pona pi nimi pona. taso lon tenpo lili ni, jan pona ona en pona pi pilin lawa ona en nasin ale pi lon ona li pakala.\nNOTES: “wawa pimeja pi jan Hata” preserves the source narrator’s description of Hyde’s influence without explaining any hidden identity relation.",
+      "translation": "“mi ken ala pilin e ni: ma ni li jo e lon pi pilin ike suli en monsuta suli, ni li weka e wawa jan. jan Utason o, sina ken pali e ijo wan taso, li ken lili e ike pi nasin lon mi: sina o awen pona e toki ala mi.” ni li pana e pilin nasa suli tawa jan Utason. wawa pimeja pi jan Hata li weka tan jan pi sona sijelo; jan pi sona sijelo li kama sin tawa pali ona pi tenpo pini, tawa jan pona ona kin. lon tenpo suno luka tu pini, tenpo kama li lukin pona, li pana e wile mute pi tenpo suli pona pi nimi pona. taso lon tenpo lili ni, jan pona ona en pona pi pilin lawa ona en nasin ale pi lon ona li pakala.",
+      "notes": "“wawa pimeja pi jan Hata” preserves the source narrator’s description of Hyde’s influence without explaining any hidden identity relation.",
+      "usage": {
+        "input_tokens": 2867,
+        "input_tokens_details": {
+          "cache_write_tokens": 2864,
+          "cached_tokens": 0
+        },
+        "output_tokens": 308,
+        "output_tokens_details": {
+          "reasoning_tokens": 77
+        },
+        "total_tokens": 3175
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01881ae8d5d33054016ab42dee676087d2a0d8c1117719a131",
+  "visibleOutput": "TRANSLATION: “mi ken ala pilin e ni: ma ni li jo e lon pi pilin ike suli en monsuta suli, ni li weka e wawa jan. jan Utason o, sina ken pali e ijo wan taso, li ken lili e ike pi nasin lon mi: sina o awen pona e toki ala mi.” ni li pana e pilin nasa suli tawa jan Utason. wawa pimeja pi jan Hata li weka tan jan pi sona sijelo; jan pi sona sijelo li kama sin tawa pali ona pi tenpo pini, tawa jan pona ona kin. lon tenpo suno luka tu pini, tenpo kama li lukin pona, li pana e wile mute pi tenpo suli pona pi nimi pona. taso lon tenpo lili ni, jan pona ona en pona pi pilin lawa ona en nasin ale pi lon ona li pakala.\nNOTES: “wawa pimeja pi jan Hata” preserves the source narrator’s description of Hyde’s influence without explaining any hidden identity relation.",
+  "translation": "“mi ken ala pilin e ni: ma ni li jo e lon pi pilin ike suli en monsuta suli, ni li weka e wawa jan. jan Utason o, sina ken pali e ijo wan taso, li ken lili e ike pi nasin lon mi: sina o awen pona e toki ala mi.” ni li pana e pilin nasa suli tawa jan Utason. wawa pimeja pi jan Hata li weka tan jan pi sona sijelo; jan pi sona sijelo li kama sin tawa pali ona pi tenpo pini, tawa jan pona ona kin. lon tenpo suno luka tu pini, tenpo kama li lukin pona, li pana e wile mute pi tenpo suli pona pi nimi pona. taso lon tenpo lili ni, jan pona ona en pona pi pilin lawa ona en nasin ale pi lon ona li pakala.",
+  "notes": "“wawa pimeja pi jan Hata” preserves the source narrator’s description of Hyde’s influence without explaining any hidden identity relation.",
+  "usage": {
+    "input_tokens": 2867,
+    "input_tokens_details": {
+      "cache_write_tokens": 2864,
+      "cached_tokens": 0
+    },
+    "output_tokens": 308,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 3175
+  },
+  "success": true
+}

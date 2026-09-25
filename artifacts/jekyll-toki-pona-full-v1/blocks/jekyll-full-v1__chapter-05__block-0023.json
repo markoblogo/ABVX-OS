@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0023",
+  "sourceHash": "a815a6f99cf2758d8678e4a2245b2c2e8c34a936bd5d99c24252642c4c0bc7d8",
+  "source": "Hyde’s familiarity about the house; he might draw conclusions: was it not as well, then, that he should see a letter which put that mystery to rights? and above all since Guest, being a great student and critic of handwriting, would consider the step natural and obliging?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0777af68d9eb6d92016ab42cb9c80887d28088036ab61c03ad",
+      "visibleOutput": "TRANSLATION: jan Hata li sona pona e tomo ni. jan Kesu li ken pali e pilin sona tan ni. ni la, pona ala pona la, jan Kesu o lukin e lipu ni? lipu li ken pana e sona pona lon ijo sona ala ni. kin la, jan Kesu li sona mute e nasin sitelen luka, li lukin sona e ona. tan ni, ona li ken pilin e ni: pana lipu ni li nasin nasa ala, li pona tawa ona.\nNOTES: “would consider” and the proposed resolution of the mystery remain possibilities, not facts.",
+      "translation": "jan Hata li sona pona e tomo ni. jan Kesu li ken pali e pilin sona tan ni. ni la, pona ala pona la, jan Kesu o lukin e lipu ni? lipu li ken pana e sona pona lon ijo sona ala ni. kin la, jan Kesu li sona mute e nasin sitelen luka, li lukin sona e ona. tan ni, ona li ken pilin e ni: pana lipu ni li nasin nasa ala, li pona tawa ona.",
+      "notes": "“would consider” and the proposed resolution of the mystery remain possibilities, not facts.",
+      "usage": {
+        "input_tokens": 2802,
+        "input_tokens_details": {
+          "cache_write_tokens": 2799,
+          "cached_tokens": 0
+        },
+        "output_tokens": 466,
+        "output_tokens_details": {
+          "reasoning_tokens": 329
+        },
+        "total_tokens": 3268
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0777af68d9eb6d92016ab42cb9c80887d28088036ab61c03ad",
+  "visibleOutput": "TRANSLATION: jan Hata li sona pona e tomo ni. jan Kesu li ken pali e pilin sona tan ni. ni la, pona ala pona la, jan Kesu o lukin e lipu ni? lipu li ken pana e sona pona lon ijo sona ala ni. kin la, jan Kesu li sona mute e nasin sitelen luka, li lukin sona e ona. tan ni, ona li ken pilin e ni: pana lipu ni li nasin nasa ala, li pona tawa ona.\nNOTES: “would consider” and the proposed resolution of the mystery remain possibilities, not facts.",
+  "translation": "jan Hata li sona pona e tomo ni. jan Kesu li ken pali e pilin sona tan ni. ni la, pona ala pona la, jan Kesu o lukin e lipu ni? lipu li ken pana e sona pona lon ijo sona ala ni. kin la, jan Kesu li sona mute e nasin sitelen luka, li lukin sona e ona. tan ni, ona li ken pilin e ni: pana lipu ni li nasin nasa ala, li pona tawa ona.",
+  "notes": "“would consider” and the proposed resolution of the mystery remain possibilities, not facts.",
+  "usage": {
+    "input_tokens": 2802,
+    "input_tokens_details": {
+      "cache_write_tokens": 2799,
+      "cached_tokens": 0
+    },
+    "output_tokens": 466,
+    "output_tokens_details": {
+      "reasoning_tokens": 329
+    },
+    "total_tokens": 3268
+  },
+  "success": true
+}

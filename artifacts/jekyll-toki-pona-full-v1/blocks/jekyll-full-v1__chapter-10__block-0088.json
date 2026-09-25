@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0088",
+  "sourceHash": "7fecc2ddf57337884b3c5873a1543909ba3d148f27e5acc671860e6ff4da08c0",
+  "source": "After all, I reflected, I was like my neighbours; and then I smiled, comparing myself with other men, comparing my active goodwill with the lazy cruelty of their neglect. And at the very moment of that vain-glorious thought, a qualm came over me, a horrid nausea and the most deadly shuddering.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

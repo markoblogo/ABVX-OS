@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0034",
+  "sourceText": "Mr. Utterson was sitting by his fireside one evening after dinner, when he was surprised to receive a visit from Poole.",
+  "sourceHash": "211ee9d2e4b715a67ed0dbfd42bb8dacbdcb8f2b033369ee0fcce1106cd6e78e",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f79dc0ea765bd14016ab41e55a34887d2a4bd03639ab766e6",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.\nNOTES: NONE",
+      "translation": "lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2797,
+        "input_tokens_details": {
+          "cache_write_tokens": 2794,
+          "cached_tokens": 0
+        },
+        "output_tokens": 162,
+        "output_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "total_tokens": 2959
+      },
+      "elapsedMs": 4362
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f79dc0ea765bd14016ab41e55a34887d2a4bd03639ab766e6",
+  "visibleOutput": "TRANSLATION: lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.\nNOTES: NONE",
+  "translation": "lon tenpo pimeja wan, moku li pini la, jan Utason li awen lon poka seli. jan Pulu li kama lukin e ona la, ni li nasa tawa jan Utason.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2797,
+    "input_tokens_details": {
+      "cache_write_tokens": 2794,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 103
+    },
+    "total_tokens": 2959
+  },
+  "success": true
+}

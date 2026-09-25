@@ -1,0 +1,18 @@
+{
+  "schema_version": "d14-discovery-snapshot-v1",
+  "book_id": "RN3-091",
+  "observed_at": "2026-09-21",
+  "marketplace": "amazon.fr",
+  "listing": {"title":"Французькі правила й дорожні знаки українською: Практичний довідник для першого знайомства і перенесення водійського досвіду до Франції","asin":"B0HJ3WMYKD","formats":["paperback"],"price_observed":{"paperback":"€17.62"},"publication_date":"2026-09-07","direct_listing":"indexed and in stock in sampled French storefront"},
+  "queries":[
+    {"query":"code de la route francais ukrainien","type":"DIRECT_PRODUCT","origin":"buyer-language translation / observed","result":"OBSERVED","position":"organic 1 of 1","sponsored":"high after the single organic result"},
+    {"query":"panneaux routiers france ukrainien","type":"CATEGORY","origin":"buyer job","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"permis france ukrainien","type":"AUDIENCE","origin":"buyer language","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"conduire en france ukrainien","type":"PROBLEM","origin":"buyer job","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"code de la route 2026","type":"COMPETITOR_ADJACENT","origin":"observed ads","result":"UNKNOWN","depth":"not sampled"}
+  ],
+  "market":"narrow but book-native bilingual/transitional query; adjacent French exam-prep shelf is established and ad-heavy",
+  "tile":{"title":"STRONG","cover":"ADEQUATE","value":"STRONG on exact query","price":"ADEQUATE vs €9.97–€19.97 observed sponsored French guides","format":"ADEQUATE for atlas/reference","differentiation":"STRONG"},
+  "indexing":{"exact_title":"OBSERVED","major_query":"OBSERVED organic 1 of 1","category":"direct page breadcrumb was linguistics rather than driving; possible indexing anomaly","recommendations":"related products were language-learning / sponsored and not reliable evidence"},
+  "limitations":["amazon.fr signed-out session with cookie banner; no consent action taken","one narrow exact-intent query is not total demand"]
+}

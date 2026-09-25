@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0076",
+  "sourceHash": "5b0198b3d505c2dc02d7e4fba760c12b0e1db75804e1f90f0c4ee9a34e553636",
+  "source": "He caught up the next paper; it was a brief note in the doctor’s hand and dated at the top. “O Poole!” the lawyer cried, “he was alive and here this day. He cannot have been disposed of in so short a space, he must be still alive, he must have fled! And then, why fled? and how? and in that case, can we venture to declare this suicide?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02a19967cd501026016ab432a3d56087d2b19a0dd2c40e2389",
+      "visibleOutput": "TRANSLATION: ona li kama jo e lipu ante. lipu ni li toki lili taso, li lon sitelen luka pi jan Jekil pi sona sijelo. lon sewi lipu la nimi tenpo li lon. jan Utason pi sona lawa li kalama wawa e ni: “jan Pulu o! lon tenpo suno ni lon tenpo pini la, ona li awen lon, li lon ni. jan ante li ken ala moli e ona lon tenpo lili ni. ni la, ona li awen lon anu seme? ona li weka tan ni anu seme? taso, seme la ona li weka? ona li weka kepeken nasin seme? ni li lon la, mi mute li ken ala ken toki wawa e ni: ona li moli e ona sama?”\nNOTES: “must” is preserved as Utterson’s inference through questions rather than narrator fact.",
+      "translation": "ona li kama jo e lipu ante. lipu ni li toki lili taso, li lon sitelen luka pi jan Jekil pi sona sijelo. lon sewi lipu la nimi tenpo li lon. jan Utason pi sona lawa li kalama wawa e ni: “jan Pulu o! lon tenpo suno ni lon tenpo pini la, ona li awen lon, li lon ni. jan ante li ken ala moli e ona lon tenpo lili ni. ni la, ona li awen lon anu seme? ona li weka tan ni anu seme? taso, seme la ona li weka? ona li weka kepeken nasin seme? ni li lon la, mi mute li ken ala ken toki wawa e ni: ona li moli e ona sama?”",
+      "notes": "“must” is preserved as Utterson’s inference through questions rather than narrator fact.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 619,
+        "output_tokens_details": {
+          "reasoning_tokens": 414
+        },
+        "total_tokens": 3439
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02a19967cd501026016ab432a3d56087d2b19a0dd2c40e2389",
+  "visibleOutput": "TRANSLATION: ona li kama jo e lipu ante. lipu ni li toki lili taso, li lon sitelen luka pi jan Jekil pi sona sijelo. lon sewi lipu la nimi tenpo li lon. jan Utason pi sona lawa li kalama wawa e ni: “jan Pulu o! lon tenpo suno ni lon tenpo pini la, ona li awen lon, li lon ni. jan ante li ken ala moli e ona lon tenpo lili ni. ni la, ona li awen lon anu seme? ona li weka tan ni anu seme? taso, seme la ona li weka? ona li weka kepeken nasin seme? ni li lon la, mi mute li ken ala ken toki wawa e ni: ona li moli e ona sama?”\nNOTES: “must” is preserved as Utterson’s inference through questions rather than narrator fact.",
+  "translation": "ona li kama jo e lipu ante. lipu ni li toki lili taso, li lon sitelen luka pi jan Jekil pi sona sijelo. lon sewi lipu la nimi tenpo li lon. jan Utason pi sona lawa li kalama wawa e ni: “jan Pulu o! lon tenpo suno ni lon tenpo pini la, ona li awen lon, li lon ni. jan ante li ken ala moli e ona lon tenpo lili ni. ni la, ona li awen lon anu seme? ona li weka tan ni anu seme? taso, seme la ona li weka? ona li weka kepeken nasin seme? ni li lon la, mi mute li ken ala ken toki wawa e ni: ona li moli e ona sama?”",
+  "notes": "“must” is preserved as Utterson’s inference through questions rather than narrator fact.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 619,
+    "output_tokens_details": {
+      "reasoning_tokens": 414
+    },
+    "total_tokens": 3439
+  },
+  "success": true
+}

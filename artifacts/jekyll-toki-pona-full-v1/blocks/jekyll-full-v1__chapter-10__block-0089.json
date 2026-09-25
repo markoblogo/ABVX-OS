@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0089",
+  "sourceHash": "ba8cf49d99466f91f3ecf9b8672ad5d0cf74b0332e360ac1080c3106ff064f0e",
+  "source": "These passed away, and left me faint; and then as in its turn the faintness subsided, I began to be aware of a change in the temper of my thoughts, a greater boldness, a contempt of danger, a solution of the bonds of obligation. I looked down; my clothes hung formlessly on my shrunken limbs; the hand that lay on my knee was corded and hairy.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0012",
+  "sourceHash": "e2627d3a9793260361d068400f1cf6fbea03604d65462edbeca9c9442f72dc6b",
+  "source": "“Well, but since we have touched upon this business, and for the last time I hope,” continued the doctor, “there is one point I should like you to understand. I have really a very great interest in poor Hyde. I know you have seen him; he told me so; and I fear he was rude.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08f2fd520fe0397f016ab429c9221887d2867ff7bb016ba7dd",
+      "visibleOutput": "TRANSLATION: “pona. taso, mi tu li toki lon ijo ni la, mi wile e ni: ni li tenpo pini pi toki ni,” jan Jekil pi sona sijelo li awen toki. “mi wile e ni: sina sona pona e ijo wan. jan Hata li suli mute tawa mi, li pana e pilin ike tawa mi. mi sona e ni: sina lukin e ona. ona li toki e ni tawa mi. mi pilin monsuta e ni: ken la ona li toki ike tawa sina.”\nNOTES: “poor Hyde” is rendered as Jekyll’s pity; Hyde’s possible rudeness remains a fear, not a fact.",
+      "translation": "“pona. taso, mi tu li toki lon ijo ni la, mi wile e ni: ni li tenpo pini pi toki ni,” jan Jekil pi sona sijelo li awen toki. “mi wile e ni: sina sona pona e ijo wan. jan Hata li suli mute tawa mi, li pana e pilin ike tawa mi. mi sona e ni: sina lukin e ona. ona li toki e ni tawa mi. mi pilin monsuta e ni: ken la ona li toki ike tawa sina.”",
+      "notes": "“poor Hyde” is rendered as Jekyll’s pity; Hyde’s possible rudeness remains a fear, not a fact.",
+      "usage": {
+        "input_tokens": 2819,
+        "input_tokens_details": {
+          "cache_write_tokens": 2816,
+          "cached_tokens": 0
+        },
+        "output_tokens": 555,
+        "output_tokens_details": {
+          "reasoning_tokens": 398
+        },
+        "total_tokens": 3374
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08f2fd520fe0397f016ab429c9221887d2867ff7bb016ba7dd",
+  "visibleOutput": "TRANSLATION: “pona. taso, mi tu li toki lon ijo ni la, mi wile e ni: ni li tenpo pini pi toki ni,” jan Jekil pi sona sijelo li awen toki. “mi wile e ni: sina sona pona e ijo wan. jan Hata li suli mute tawa mi, li pana e pilin ike tawa mi. mi sona e ni: sina lukin e ona. ona li toki e ni tawa mi. mi pilin monsuta e ni: ken la ona li toki ike tawa sina.”\nNOTES: “poor Hyde” is rendered as Jekyll’s pity; Hyde’s possible rudeness remains a fear, not a fact.",
+  "translation": "“pona. taso, mi tu li toki lon ijo ni la, mi wile e ni: ni li tenpo pini pi toki ni,” jan Jekil pi sona sijelo li awen toki. “mi wile e ni: sina sona pona e ijo wan. jan Hata li suli mute tawa mi, li pana e pilin ike tawa mi. mi sona e ni: sina lukin e ona. ona li toki e ni tawa mi. mi pilin monsuta e ni: ken la ona li toki ike tawa sina.”",
+  "notes": "“poor Hyde” is rendered as Jekyll’s pity; Hyde’s possible rudeness remains a fear, not a fact.",
+  "usage": {
+    "input_tokens": 2819,
+    "input_tokens_details": {
+      "cache_write_tokens": 2816,
+      "cached_tokens": 0
+    },
+    "output_tokens": 555,
+    "output_tokens_details": {
+      "reasoning_tokens": 398
+    },
+    "total_tokens": 3374
+  },
+  "success": true
+}

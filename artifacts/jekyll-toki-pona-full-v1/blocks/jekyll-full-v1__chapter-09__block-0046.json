@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0046",
+  "sourceHash": "c1a46229f32e91c99d6cdc0bcf04814cc782b778e5a465f7256543cf000aae75",
+  "source": "“It is well,” replied my visitor. “Lanyon, you remember your vows: what follows is under the seal of our profession. And now, you who have so long been bound to the most narrow and material views, you who have denied the virtue of transcendental medicine, you who have derided your superiors— behold!” He put the glass to his lips and drank at one gulp.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0372c3ac38266c2d016ab435d93c0887d2a71460d73204bc20",
+      "visibleOutput": "TRANSLATION: “ni li pona,” jan kama mi li toki. “jan Lanjon o, sina sona awen e toki wawa sina: nasin pi jan sona sijelo la, sina o toki ala tawa jan ante e ni kama. tenpo mute la, sina awen lon nasin sona lili pi ijo lukin taso. sina toki e ni: sona sijelo pi ijo sewi li ken ala pona. sina musi ike lon jan pi sona suli tawa sina. taso o lukin!” ona li pana e poki telo tawa uta ona, li jo e telo ale kepeken jo wan.\nNOTES: “transcendental medicine” is rendered cautiously as “sona sijelo pi ijo sewi”; the speaker’s evaluative claims remain within dialogue.",
+      "translation": "“ni li pona,” jan kama mi li toki. “jan Lanjon o, sina sona awen e toki wawa sina: nasin pi jan sona sijelo la, sina o toki ala tawa jan ante e ni kama. tenpo mute la, sina awen lon nasin sona lili pi ijo lukin taso. sina toki e ni: sona sijelo pi ijo sewi li ken ala pona. sina musi ike lon jan pi sona suli tawa sina. taso o lukin!” ona li pana e poki telo tawa uta ona, li jo e telo ale kepeken jo wan.",
+      "notes": "“transcendental medicine” is rendered cautiously as “sona sijelo pi ijo sewi”; the speaker’s evaluative claims remain within dialogue.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 266,
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "total_tokens": 3086
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0372c3ac38266c2d016ab435d93c0887d2a71460d73204bc20",
+  "visibleOutput": "TRANSLATION: “ni li pona,” jan kama mi li toki. “jan Lanjon o, sina sona awen e toki wawa sina: nasin pi jan sona sijelo la, sina o toki ala tawa jan ante e ni kama. tenpo mute la, sina awen lon nasin sona lili pi ijo lukin taso. sina toki e ni: sona sijelo pi ijo sewi li ken ala pona. sina musi ike lon jan pi sona suli tawa sina. taso o lukin!” ona li pana e poki telo tawa uta ona, li jo e telo ale kepeken jo wan.\nNOTES: “transcendental medicine” is rendered cautiously as “sona sijelo pi ijo sewi”; the speaker’s evaluative claims remain within dialogue.",
+  "translation": "“ni li pona,” jan kama mi li toki. “jan Lanjon o, sina sona awen e toki wawa sina: nasin pi jan sona sijelo la, sina o toki ala tawa jan ante e ni kama. tenpo mute la, sina awen lon nasin sona lili pi ijo lukin taso. sina toki e ni: sona sijelo pi ijo sewi li ken ala pona. sina musi ike lon jan pi sona suli tawa sina. taso o lukin!” ona li pana e poki telo tawa uta ona, li jo e telo ale kepeken jo wan.",
+  "notes": "“transcendental medicine” is rendered cautiously as “sona sijelo pi ijo sewi”; the speaker’s evaluative claims remain within dialogue.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 266,
+    "output_tokens_details": {
+      "reasoning_tokens": 93
+    },
+    "total_tokens": 3086
+  },
+  "success": true
+}

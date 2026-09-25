@@ -1,0 +1,18 @@
+{
+  "schema_version": "d14-discovery-snapshot-v1",
+  "book_id": "ODYSSEY-TOKI-PONA-2026",
+  "observed_at": "2026-09-21",
+  "marketplace": "amazon.com",
+  "listing": {"title":"The Odyssey: Toki Pona Edition with Sitelen Pona (Stoic Wisdom in Toki Pona)","asins":{"ebook":"B0HHSK3Y45","paperback":"B0HHSMS6KQ"},"formats":["fixed-layout Kindle","paperback"],"price_observed":{"Kindle":"$7.99","paperback":"$29.99"},"publication_date":"2026-09-04","direct_listing":"indexed; Kindle unavailable in sampled shopper/delivery context"},
+  "queries":[
+    {"query":"the odyssey toki pona","type":"DIRECT_PRODUCT","origin":"title and product system / observed","result":"OBSERVED","position":"organic 2 of 3 overall; first non-sponsored result","sponsored":"one leading and two later Odyssey ads"},
+    {"query":"toki pona books","type":"CATEGORY","origin":"portfolio language","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"sitelen pona book","type":"CATEGORY","origin":"format/value language","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"toki pona translation classics","type":"COMPETITOR_ADJACENT","origin":"catalog thesis","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"homer toki pona","type":"SOURCE_OR_TOPIC","origin":"source author","result":"UNKNOWN","depth":"not sampled"}
+  ],
+  "market":"small but Amazon-native niche query: source + language identifies the object and produces a short, relevant set",
+  "tile":{"title":"STRONG","cover":"ADEQUATE","value":"STRONG — source, language and script are visible","price":"ADEQUATE premium object versus normal Odyssey editions","format":"ADEQUATE; fixed-layout device limitation reduces Kindle reach","differentiation":"STRONG"},
+  "indexing":{"exact_title":"OBSERVED","major_query":"OBSERVED first non-sponsored result","category":"classics / anthologies-and-collections","recommendations":"series link visibly displayed; generic/personalized related products are not evidence of organic recommendation"},
+  "limitations":["one processed print order is not causal evidence","personalized authenticated amazon.com session","searched query includes exact differentiator"]
+}

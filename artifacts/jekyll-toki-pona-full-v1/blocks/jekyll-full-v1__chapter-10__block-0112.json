@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0112",
+  "sourceHash": "b03180950c8e74f213ddb2dcaced590da9bf17e3569297b6e5f42b24e5bf2b55",
+  "source": "He had now seen the full deformity of that creature that shared with him some of the phenomena of consciousness, and was co-heir with him to death: and beyond these links of community, which in themselves made the most poignant part of his distress, he thought of Hyde, for all his energy of life, as of something not only hellish but inorganic.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

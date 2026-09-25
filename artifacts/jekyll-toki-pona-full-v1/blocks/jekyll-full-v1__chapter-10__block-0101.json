@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0101",
+  "sourceHash": "9516e0de798b6b7cadc79b31d1607f8b88f093c2bc2a88bfc7ad04d7bd844fe8",
+  "source": "He walked fast, hunted by his fears, chattering to himself, skulking through the less-frequented thoroughfares, counting the minutes that still divided him from midnight. Once a woman spoke to him, offering, I think, a box of lights. He smote her in the face, and she fled.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

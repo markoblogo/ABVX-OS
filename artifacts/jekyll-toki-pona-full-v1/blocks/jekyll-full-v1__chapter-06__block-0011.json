@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0011",
+  "sourceHash": "7846383149fa6992c4c38fa6768b31a30f2306b38101313e305ff418b7fa2050",
+  "source": "“I have had a shock,” he said, “and I shall never recover. It is a question of weeks. Well, life has been pleasant; I liked it; yes, sir, I used to like it. I sometimes think if we knew all, we should be more glad to get away.” “Jekyll is ill, too,” observed Utterson. “Have you seen him?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c0d403b522a993d016ab42da4e87487d28898ab0f4e960e7d",
+      "visibleOutput": "TRANSLATION: “ijo monsuta suli li kama tawa mi,” jan Lanjon li toki. “mi kama pona ala lon tenpo ale. ken la tenpo mi li awen lon kulupu tenpo suno mute ala taso. taso, lon mi li pona. mi olin e ona. lon, mi olin e ona lon tenpo pini. tenpo la mi pilin e ni: sona pi ale li lon mi la, mi ken pilin pona mute tan weka.” jan Utason li toki e ni: “jan Jekil kin li jo e ike sijelo. sina lukin ala lukin e ona?”\nNOTES: “weka” preserves the source’s euphemistic and uncertain reference to death.",
+      "translation": "“ijo monsuta suli li kama tawa mi,” jan Lanjon li toki. “mi kama pona ala lon tenpo ale. ken la tenpo mi li awen lon kulupu tenpo suno mute ala taso. taso, lon mi li pona. mi olin e ona. lon, mi olin e ona lon tenpo pini. tenpo la mi pilin e ni: sona pi ale li lon mi la, mi ken pilin pona mute tan weka.” jan Utason li toki e ni: “jan Jekil kin li jo e ike sijelo. sina lukin ala lukin e ona?”",
+      "notes": "“weka” preserves the source’s euphemistic and uncertain reference to death.",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 415,
+        "output_tokens_details": {
+          "reasoning_tokens": 258
+        },
+        "total_tokens": 3248
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c0d403b522a993d016ab42da4e87487d28898ab0f4e960e7d",
+  "visibleOutput": "TRANSLATION: “ijo monsuta suli li kama tawa mi,” jan Lanjon li toki. “mi kama pona ala lon tenpo ale. ken la tenpo mi li awen lon kulupu tenpo suno mute ala taso. taso, lon mi li pona. mi olin e ona. lon, mi olin e ona lon tenpo pini. tenpo la mi pilin e ni: sona pi ale li lon mi la, mi ken pilin pona mute tan weka.” jan Utason li toki e ni: “jan Jekil kin li jo e ike sijelo. sina lukin ala lukin e ona?”\nNOTES: “weka” preserves the source’s euphemistic and uncertain reference to death.",
+  "translation": "“ijo monsuta suli li kama tawa mi,” jan Lanjon li toki. “mi kama pona ala lon tenpo ale. ken la tenpo mi li awen lon kulupu tenpo suno mute ala taso. taso, lon mi li pona. mi olin e ona. lon, mi olin e ona lon tenpo pini. tenpo la mi pilin e ni: sona pi ale li lon mi la, mi ken pilin pona mute tan weka.” jan Utason li toki e ni: “jan Jekil kin li jo e ike sijelo. sina lukin ala lukin e ona?”",
+  "notes": "“weka” preserves the source’s euphemistic and uncertain reference to death.",
+  "usage": {
+    "input_tokens": 2833,
+    "input_tokens_details": {
+      "cache_write_tokens": 2830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 415,
+    "output_tokens_details": {
+      "reasoning_tokens": 258
+    },
+    "total_tokens": 3248
+  },
+  "success": true
+}

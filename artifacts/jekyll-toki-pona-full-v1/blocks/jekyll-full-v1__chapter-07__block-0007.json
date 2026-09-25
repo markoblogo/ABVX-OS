@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0007",
+  "sourceHash": "16f72a72db4a90a8d0d24556b250ecedaf53098e53e7b1593fbd73e7256477f9",
+  "source": "“You are very good,” sighed the other. “I should like to very much; but no, no, no, it is quite impossible; I dare not. But indeed, Utterson, I am very glad to see you; this is really a great pleasure; I would ask you and Mr. Enfield up, but the place is really not fit.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01f593beb180620d016ab42ec649c887d2b91db6597c2b8ee4",
+      "visibleOutput": "TRANSLATION: “sina pona mute,” jan ante li pana e kon suli, li toki. “mi wile mute pali e ni; taso ala, ala, ala. ni li ken ala kabisa. mi wawa ala pali e ni. taso jan Utason o, mi lukin e sina la mi pilin pona mute. ni li pona suli lon mi. mi wile e ni: sina en jan Enpil o kama sewi. taso tomo ni li pona ala tawa ni.”\nNOTES: “it” remains context-dependent; “dare not” is retained without specifying a cause.",
+      "translation": "“sina pona mute,” jan ante li pana e kon suli, li toki. “mi wile mute pali e ni; taso ala, ala, ala. ni li ken ala kabisa. mi wawa ala pali e ni. taso jan Utason o, mi lukin e sina la mi pilin pona mute. ni li pona suli lon mi. mi wile e ni: sina en jan Enpil o kama sewi. taso tomo ni li pona ala tawa ni.”",
+      "notes": "“it” remains context-dependent; “dare not” is retained without specifying a cause.",
+      "usage": {
+        "input_tokens": 2809,
+        "input_tokens_details": {
+          "cache_write_tokens": 2806,
+          "cached_tokens": 0
+        },
+        "output_tokens": 523,
+        "output_tokens_details": {
+          "reasoning_tokens": 390
+        },
+        "total_tokens": 3332
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01f593beb180620d016ab42ec649c887d2b91db6597c2b8ee4",
+  "visibleOutput": "TRANSLATION: “sina pona mute,” jan ante li pana e kon suli, li toki. “mi wile mute pali e ni; taso ala, ala, ala. ni li ken ala kabisa. mi wawa ala pali e ni. taso jan Utason o, mi lukin e sina la mi pilin pona mute. ni li pona suli lon mi. mi wile e ni: sina en jan Enpil o kama sewi. taso tomo ni li pona ala tawa ni.”\nNOTES: “it” remains context-dependent; “dare not” is retained without specifying a cause.",
+  "translation": "“sina pona mute,” jan ante li pana e kon suli, li toki. “mi wile mute pali e ni; taso ala, ala, ala. ni li ken ala kabisa. mi wawa ala pali e ni. taso jan Utason o, mi lukin e sina la mi pilin pona mute. ni li pona suli lon mi. mi wile e ni: sina en jan Enpil o kama sewi. taso tomo ni li pona ala tawa ni.”",
+  "notes": "“it” remains context-dependent; “dare not” is retained without specifying a cause.",
+  "usage": {
+    "input_tokens": 2809,
+    "input_tokens_details": {
+      "cache_write_tokens": 2806,
+      "cached_tokens": 0
+    },
+    "output_tokens": 523,
+    "output_tokens_details": {
+      "reasoning_tokens": 390
+    },
+    "total_tokens": 3332
+  },
+  "success": true
+}

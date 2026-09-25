@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0003",
+  "sourceHash": "b6beb99fa32e3e1a518516994767aa74399a6a69fdba27098855bd3008fb8995",
+  "source": "It was the first time that the lawyer had been received in that part of his friend’s quarters; and he eyed the dingy, windowless structure with curiosity, and gazed round with a distasteful sense of strangeness as he crossed the theatre, once crowded with eager students and now lying gaunt and silent, the tables laden with chemical apparatus, the floor strewn with crates and littered with packing straw, and the light falling dimly through the foggy cupola.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d44a54848938394016ab42b9b71c887d289ef06320ab437a9",
+      "visibleOutput": "TRANSLATION: tenpo ni la, jan Utason pi sona lawa li kama lon ma ni insa tomo pi jan pona ona. tenpo pini la, jan pona ona li kama jo ala e ona lon ma ni. ona li lukin wile sona e tomo pimeja jaki ni pi lupa lukin ala. ona li tawa lon tomo pi pana sona la, ona li lukin e ale kepeken pilin ike tan nasa ona. tenpo pini la, jan kama sona mute pi wile sona li suli e tomo ni. taso tenpo ni la, tomo li jo ala e ijo pona, li awen lon toki ala. ilo mute pi pali sona li lon supa. poki suli en kasi jelo pi awen ijo li lon ma anpa. suno lili taso li kama insa tan sewi sike pi tomo lon kon pimeja.\nNOTES: “Theatre” is rendered as tomo pi pana sona to preserve it as a teaching/demonstration room distinct from the laboratory.",
+      "translation": "tenpo ni la, jan Utason pi sona lawa li kama lon ma ni insa tomo pi jan pona ona. tenpo pini la, jan pona ona li kama jo ala e ona lon ma ni. ona li lukin wile sona e tomo pimeja jaki ni pi lupa lukin ala. ona li tawa lon tomo pi pana sona la, ona li lukin e ale kepeken pilin ike tan nasa ona. tenpo pini la, jan kama sona mute pi wile sona li suli e tomo ni. taso tenpo ni la, tomo li jo ala e ijo pona, li awen lon toki ala. ilo mute pi pali sona li lon supa. poki suli en kasi jelo pi awen ijo li lon ma anpa. suno lili taso li kama insa tan sewi sike pi tomo lon kon pimeja.",
+      "notes": "“Theatre” is rendered as tomo pi pana sona to preserve it as a teaching/demonstration room distinct from the laboratory.",
+      "usage": {
+        "input_tokens": 2834,
+        "input_tokens_details": {
+          "cache_write_tokens": 2831,
+          "cached_tokens": 0
+        },
+        "output_tokens": 738,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3572
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d44a54848938394016ab42b9b71c887d289ef06320ab437a9",
+  "visibleOutput": "TRANSLATION: tenpo ni la, jan Utason pi sona lawa li kama lon ma ni insa tomo pi jan pona ona. tenpo pini la, jan pona ona li kama jo ala e ona lon ma ni. ona li lukin wile sona e tomo pimeja jaki ni pi lupa lukin ala. ona li tawa lon tomo pi pana sona la, ona li lukin e ale kepeken pilin ike tan nasa ona. tenpo pini la, jan kama sona mute pi wile sona li suli e tomo ni. taso tenpo ni la, tomo li jo ala e ijo pona, li awen lon toki ala. ilo mute pi pali sona li lon supa. poki suli en kasi jelo pi awen ijo li lon ma anpa. suno lili taso li kama insa tan sewi sike pi tomo lon kon pimeja.\nNOTES: “Theatre” is rendered as tomo pi pana sona to preserve it as a teaching/demonstration room distinct from the laboratory.",
+  "translation": "tenpo ni la, jan Utason pi sona lawa li kama lon ma ni insa tomo pi jan pona ona. tenpo pini la, jan pona ona li kama jo ala e ona lon ma ni. ona li lukin wile sona e tomo pimeja jaki ni pi lupa lukin ala. ona li tawa lon tomo pi pana sona la, ona li lukin e ale kepeken pilin ike tan nasa ona. tenpo pini la, jan kama sona mute pi wile sona li suli e tomo ni. taso tenpo ni la, tomo li jo ala e ijo pona, li awen lon toki ala. ilo mute pi pali sona li lon supa. poki suli en kasi jelo pi awen ijo li lon ma anpa. suno lili taso li kama insa tan sewi sike pi tomo lon kon pimeja.",
+  "notes": "“Theatre” is rendered as tomo pi pana sona to preserve it as a teaching/demonstration room distinct from the laboratory.",
+  "usage": {
+    "input_tokens": 2834,
+    "input_tokens_details": {
+      "cache_write_tokens": 2831,
+      "cached_tokens": 0
+    },
+    "output_tokens": 738,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3572
+  },
+  "success": true
+}

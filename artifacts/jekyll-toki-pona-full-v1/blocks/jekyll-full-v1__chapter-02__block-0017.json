@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0017",
+  "sourceHash": "b78b180e22932b8460c2dcf2d037dab55c3fac3bb22a32b5d268626dd56bcd9e",
+  "source": "Or else he would see a room in a rich house, where his friend lay asleep, dreaming and smiling at his dreams; and then the door of that room would be opened, the curtains of the bed plucked apart, the sleeper recalled, and lo! there would stand by his side a figure to whom power was given, and even at that dead hour, he must rise and do its bidding.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0081d80e792aa4de016ab427411e2887d290336c4fa5b8285f",
+      "visibleOutput": "TRANSLATION: anu la, jan Utason li lukin insa sona e tomo lape lon tomo mani. lon ni la, jan pona ona li lape, li unpa? no. li lukin e sitelen lape, li pilin pona tan ona. taso lupa pi tomo ni li open. len pi supa lape li kama weka. jan lape li kama lon tan lape. a! jan ante li lon poka ona. jan ante ni li jo e wawa lawa lon ona. lon tenpo pimeja lon ni kin la, jan pona ona li wile ala wile: ona li ken ala awen lape; ona li wile kama sewi li pali e wile pi jan ante.\nNOTES: “would see” is rendered as an imagined vision; the figure and its authority remain unspecified.",
+      "translation": "anu la, jan Utason li lukin insa sona e tomo lape lon tomo mani. lon ni la, jan pona ona li lape, li unpa? no. li lukin e sitelen lape, li pilin pona tan ona. taso lupa pi tomo ni li open. len pi supa lape li kama weka. jan lape li kama lon tan lape. a! jan ante li lon poka ona. jan ante ni li jo e wawa lawa lon ona. lon tenpo pimeja lon ni kin la, jan pona ona li wile ala wile: ona li ken ala awen lape; ona li wile kama sewi li pali e wile pi jan ante.",
+      "notes": "“would see” is rendered as an imagined vision; the figure and its authority remain unspecified.",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 284,
+        "output_tokens_details": {
+          "reasoning_tokens": 102
+        },
+        "total_tokens": 3102
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0081d80e792aa4de016ab427411e2887d290336c4fa5b8285f",
+  "visibleOutput": "TRANSLATION: anu la, jan Utason li lukin insa sona e tomo lape lon tomo mani. lon ni la, jan pona ona li lape, li unpa? no. li lukin e sitelen lape, li pilin pona tan ona. taso lupa pi tomo ni li open. len pi supa lape li kama weka. jan lape li kama lon tan lape. a! jan ante li lon poka ona. jan ante ni li jo e wawa lawa lon ona. lon tenpo pimeja lon ni kin la, jan pona ona li wile ala wile: ona li ken ala awen lape; ona li wile kama sewi li pali e wile pi jan ante.\nNOTES: “would see” is rendered as an imagined vision; the figure and its authority remain unspecified.",
+  "translation": "anu la, jan Utason li lukin insa sona e tomo lape lon tomo mani. lon ni la, jan pona ona li lape, li unpa? no. li lukin e sitelen lape, li pilin pona tan ona. taso lupa pi tomo ni li open. len pi supa lape li kama weka. jan lape li kama lon tan lape. a! jan ante li lon poka ona. jan ante ni li jo e wawa lawa lon ona. lon tenpo pimeja lon ni kin la, jan pona ona li wile ala wile: ona li ken ala awen lape; ona li wile kama sewi li pali e wile pi jan ante.",
+  "notes": "“would see” is rendered as an imagined vision; the figure and its authority remain unspecified.",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 284,
+    "output_tokens_details": {
+      "reasoning_tokens": 102
+    },
+    "total_tokens": 3102
+  },
+  "success": true
+}

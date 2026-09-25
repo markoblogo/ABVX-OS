@@ -1,0 +1,54 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0022",
+  "sourceHash": "2290d05f47a67a630da4fc913b21dc9104ed157dddbb4e9025d94ed391e30418",
+  "source": "“Changed? Well, yes, I think so,” said the butler. “Have I been twenty years in this man’s house, to be deceived about his voice? No, sir; master’s made away with; he was made, away with eight days ago, when we heard him cry out upon the name of God; and _who’s_ in there instead of him, and _why_ it stays there, is a thing that cries to Heaven, Mr. Utterson!”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_083e9326efcfa95b016ab430065d7087d2a96534bcc1ec2167",
+      "visibleOutput": "TRANSLATION: “Kalama toki ona li ante? Lon, mi pilin e ni,” jan Pulu pi pali tomo li toki. “Mi pali lon tomo pi jan ni lon tenpo sike mute. taso mi ken ala sona pona e kalama toki ona anu seme? Ala, jan Utason o! Jan ante li moli e jan lawa mi. Tenpo suno luka tu wan pini la ni li kama, lon tenpo ni: mi mute li kute e ona li kalama wawa e nimi pi jan sewi. taso jan seme li lon insa lon ma ona? tan seme la jan ni li awen lon ni? Ijo ni li pana e kalama tawa sewi, jan Utason o!”\nNOTES: “Made away with” is retained as Poole’s direct accusation, not narrator-confirmed fact.",
+      "translation": "“Kalama toki ona li ante? Lon, mi pilin e ni,” jan Pulu pi pali tomo li toki. “Mi pali lon tomo pi jan ni lon tenpo sike mute. taso mi ken ala sona pona e kalama toki ona anu seme? Ala, jan Utason o! Jan ante li moli e jan lawa mi. Tenpo suno luka tu wan pini la ni li kama, lon tenpo ni: mi mute li kute e ona li kalama wawa e nimi pi jan sewi. taso jan seme li lon insa lon ma ona? tan seme la jan ni li awen lon ni? Ijo ni li pana e kalama tawa sewi, jan Utason o!”",
+      "notes": "“Made away with” is retained as Poole’s direct accusation, not narrator-confirmed fact.",
+      "usage": {
+        "input_tokens": 2835,
+        "input_tokens_details": {
+          "cache_write_tokens": 2832,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1172,
+        "output_tokens_details": {
+          "reasoning_tokens": 986
+        },
+        "total_tokens": 4007
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_083e9326efcfa95b016ab430065d7087d2a96534bcc1ec2167",
+  "visibleOutput": "TRANSLATION: “Kalama toki ona li ante? Lon, mi pilin e ni,” jan Pulu pi pali tomo li toki. “Mi pali lon tomo pi jan ni lon tenpo sike mute. taso mi ken ala sona pona e kalama toki ona anu seme? Ala, jan Utason o! Jan ante li moli e jan lawa mi. Tenpo suno luka tu wan pini la ni li kama, lon tenpo ni: mi mute li kute e ona li kalama wawa e nimi pi jan sewi. taso jan seme li lon insa lon ma ona? tan seme la jan ni li awen lon ni? Ijo ni li pana e kalama tawa sewi, jan Utason o!”\nNOTES: “Made away with” is retained as Poole’s direct accusation, not narrator-confirmed fact.",
+  "translation": "“Kalama toki ona li ante? Lon, mi pilin e ni,” jan Pulu pi pali tomo li toki. “Mi pali lon tomo pi jan ni lon tenpo sike mute. taso mi ken ala sona pona e kalama toki ona anu seme? Ala, jan Utason o! Jan ante li moli e jan lawa mi. Tenpo suno luka tu wan pini la ni li kama, lon tenpo ni: mi mute li kute e ona li kalama wawa e nimi pi jan sewi. taso jan seme li lon insa lon ma ona? tan seme la jan ni li awen lon ni? Ijo ni li pana e kalama tawa sewi, jan Utason o!”",
+  "notes": "“Made away with” is retained as Poole’s direct accusation, not narrator-confirmed fact.",
+  "usage": {
+    "input_tokens": 2835,
+    "input_tokens_details": {
+      "cache_write_tokens": 2832,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1172,
+    "output_tokens_details": {
+      "reasoning_tokens": 986
+    },
+    "total_tokens": 4007
+  },
+  "success": true
+}

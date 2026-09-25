@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0109",
+  "sourceHash": "7e9140b8b0a5a0196fa7d5ea1ee22818e548c8b6963b1306ccbc41e1ccdb4745",
+  "source": "Under the strain of this continually-impending doom and by the sleeplessness to which I now condemned myself, ay, even beyond what I had thought possible to man, I became, in my own person, a creature eaten up and emptied by fever, languidly weak both in body and mind, and solely occupied by one thought: the horror of my other self.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

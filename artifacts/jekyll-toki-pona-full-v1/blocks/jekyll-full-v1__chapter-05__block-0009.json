@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0009",
+  "sourceHash": "8784e8bad5e0c31f0faa255183f15129d1a229aed1f15ba3a32673c53559c748",
+  "source": "“I am quite sure of him,” replied Jekyll; “I have grounds for certainty that I cannot share with any one. But there is one thing on which you may advise me. I have—I have received a letter; and I am at a loss whether I should show it to the police. I should like to leave it in your hands, Utterson; you would judge wisely, I am sure; I have so great a trust in you.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02d6bda407960dcf016ab42bea873c87d29b27505725c0e43e",
+      "visibleOutput": "TRANSLATION: “lon ona la, mi sona wawa,” jan Jekil li toki. “mi jo e sona li ken sona wawa tan ona, taso mi ken ala pana e sona ni tawa jan ante. taso lon ijo wan la, sina ken pana e sona pona tawa mi. mi—mi kama jo e lipu; taso mi sona ala e ni: mi o pana ala pana e ona tawa jan lawa? jan Utason o, mi wile pana e lipu ni tawa sina, li awen e ona lon luka sina. mi sona wawa e ni: sina kama lawa e ijo ni kepeken nasin pona. mi pilin wawa e ni: mi ken pana e sona mi tawa sina.”\nNOTES: “ona” remains referentially ambiguous as in the source; the letter’s contents and origin remain unstated.",
+      "translation": "“lon ona la, mi sona wawa,” jan Jekil li toki. “mi jo e sona li ken sona wawa tan ona, taso mi ken ala pana e sona ni tawa jan ante. taso lon ijo wan la, sina ken pana e sona pona tawa mi. mi—mi kama jo e lipu; taso mi sona ala e ni: mi o pana ala pana e ona tawa jan lawa? jan Utason o, mi wile pana e lipu ni tawa sina, li awen e ona lon luka sina. mi sona wawa e ni: sina kama lawa e ijo ni kepeken nasin pona. mi pilin wawa e ni: mi ken pana e sona mi tawa sina.”",
+      "notes": "“ona” remains referentially ambiguous as in the source; the letter’s contents and origin remain unstated.",
+      "usage": {
+        "input_tokens": 2839,
+        "input_tokens_details": {
+          "cache_write_tokens": 2836,
+          "cached_tokens": 0
+        },
+        "output_tokens": 630,
+        "output_tokens_details": {
+          "reasoning_tokens": 438
+        },
+        "total_tokens": 3469
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02d6bda407960dcf016ab42bea873c87d29b27505725c0e43e",
+  "visibleOutput": "TRANSLATION: “lon ona la, mi sona wawa,” jan Jekil li toki. “mi jo e sona li ken sona wawa tan ona, taso mi ken ala pana e sona ni tawa jan ante. taso lon ijo wan la, sina ken pana e sona pona tawa mi. mi—mi kama jo e lipu; taso mi sona ala e ni: mi o pana ala pana e ona tawa jan lawa? jan Utason o, mi wile pana e lipu ni tawa sina, li awen e ona lon luka sina. mi sona wawa e ni: sina kama lawa e ijo ni kepeken nasin pona. mi pilin wawa e ni: mi ken pana e sona mi tawa sina.”\nNOTES: “ona” remains referentially ambiguous as in the source; the letter’s contents and origin remain unstated.",
+  "translation": "“lon ona la, mi sona wawa,” jan Jekil li toki. “mi jo e sona li ken sona wawa tan ona, taso mi ken ala pana e sona ni tawa jan ante. taso lon ijo wan la, sina ken pana e sona pona tawa mi. mi—mi kama jo e lipu; taso mi sona ala e ni: mi o pana ala pana e ona tawa jan lawa? jan Utason o, mi wile pana e lipu ni tawa sina, li awen e ona lon luka sina. mi sona wawa e ni: sina kama lawa e ijo ni kepeken nasin pona. mi pilin wawa e ni: mi ken pana e sona mi tawa sina.”",
+  "notes": "“ona” remains referentially ambiguous as in the source; the letter’s contents and origin remain unstated.",
+  "usage": {
+    "input_tokens": 2839,
+    "input_tokens_details": {
+      "cache_write_tokens": 2836,
+      "cached_tokens": 0
+    },
+    "output_tokens": 630,
+    "output_tokens_details": {
+      "reasoning_tokens": 438
+    },
+    "total_tokens": 3469
+  },
+  "success": true
+}

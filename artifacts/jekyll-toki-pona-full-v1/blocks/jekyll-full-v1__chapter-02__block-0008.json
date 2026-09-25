@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0008",
+  "sourceHash": "fbc823a60e41b98c5545b9de2c03a75a2f947e60fd35655c86ed7ca225216240",
+  "source": "The solemn butler knew and welcomed him; he was subjected to no stage of delay, but ushered direct from the door to the dining-room where Dr. Lanyon sat alone over his wine. This was a hearty, healthy, dapper, red-faced gentleman, with a shock of hair prematurely white, and a boisterous and decided manner. At sight of Mr. Utterson, he sprang up from his chair and welcomed him with both hands.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a4ad44de13faf8d016ab426c3992087d2adef27dbc8b99e68",
+      "visibleOutput": "TRANSLATION: jan pali tomo pi sinpin musi ala li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin. jan pali li tawa e ona tan lupa tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li awen taso, li moku e telo nasa. jan Lanjon li jan mije pi sijelo pona pi wawa suli. ona li pona lukin, li jo e sinpin loje. linja lawa ona li mute li walo lon tenpo pi kama walo ala. ona li toki li pali kepeken wawa suli, li awen lon wile ona. ona li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu.\nNOTES: “prematurely white” is compressed as hair being white before its expected time.",
+      "translation": "jan pali tomo pi sinpin musi ala li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin. jan pali li tawa e ona tan lupa tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li awen taso, li moku e telo nasa. jan Lanjon li jan mije pi sijelo pona pi wawa suli. ona li pona lukin, li jo e sinpin loje. linja lawa ona li mute li walo lon tenpo pi kama walo ala. ona li toki li pali kepeken wawa suli, li awen lon wile ona. ona li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu.",
+      "notes": "“prematurely white” is compressed as hair being white before its expected time.",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 665,
+        "output_tokens_details": {
+          "reasoning_tokens": 463
+        },
+        "total_tokens": 3495
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a4ad44de13faf8d016ab426c3992087d2adef27dbc8b99e68",
+  "visibleOutput": "TRANSLATION: jan pali tomo pi sinpin musi ala li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin. jan pali li tawa e ona tan lupa tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li awen taso, li moku e telo nasa. jan Lanjon li jan mije pi sijelo pona pi wawa suli. ona li pona lukin, li jo e sinpin loje. linja lawa ona li mute li walo lon tenpo pi kama walo ala. ona li toki li pali kepeken wawa suli, li awen lon wile ona. ona li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu.\nNOTES: “prematurely white” is compressed as hair being white before its expected time.",
+  "translation": "jan pali tomo pi sinpin musi ala li sona e jan Utason, li kama pona e ona. jan Utason li awen ala lon nasin. jan pali li tawa e ona tan lupa tomo tawa tomo moku. lon ni la, jan Lanjon pi sona sijelo li awen taso, li moku e telo nasa. jan Lanjon li jan mije pi sijelo pona pi wawa suli. ona li pona lukin, li jo e sinpin loje. linja lawa ona li mute li walo lon tenpo pi kama walo ala. ona li toki li pali kepeken wawa suli, li awen lon wile ona. ona li lukin e jan Utason la, ona li kama sewi tan supa monsi, li kama pona e ona kepeken luka tu.",
+  "notes": "“prematurely white” is compressed as hair being white before its expected time.",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 665,
+    "output_tokens_details": {
+      "reasoning_tokens": 463
+    },
+    "total_tokens": 3495
+  },
+  "success": true
+}

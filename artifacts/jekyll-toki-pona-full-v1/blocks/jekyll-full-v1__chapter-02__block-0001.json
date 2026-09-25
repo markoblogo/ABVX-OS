@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0001",
+  "sourceHash": "4eb14fd819e860ee11f262d0823784dc2de673389ba57ddb22966f15d9b9e45a",
+  "source": "That evening Mr. Utterson came home to his bachelor house in sombre spirits and sat down to dinner without relish. It was his custom of a Sunday, when this meal was over, to sit close by the fire, a volume of some dry divinity on his reading-desk, until the clock of the neighbouring church rang out the hour of twelve, when he would go soberly and gratefully to bed.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04b2832f7175459e016ab42684747c87d29f9224bd18ed184f",
+      "visibleOutput": "TRANSLATION: lon pimeja ni, jan Utason li kama sin lon tomo ona pi jan wan. pilin ona li pimeja. ona li moku e moku pimeja, taso moku li pana ala e pona tawa ona. lon tenpo suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu sewi pi musi ala lon supa lukin ona. ilo tenpo pi tomo sewi poka li kalama e nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi pilin suli li pilin pona tan ijo pona ona.\n\nNOTES: “bachelor house” is rendered as living alone; “dry divinity” as an unentertaining religious book; “soberly” as solemn conduct, not an alcohol claim.",
+      "translation": "lon pimeja ni, jan Utason li kama sin lon tomo ona pi jan wan. pilin ona li pimeja. ona li moku e moku pimeja, taso moku li pana ala e pona tawa ona. lon tenpo suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu sewi pi musi ala lon supa lukin ona. ilo tenpo pi tomo sewi poka li kalama e nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi pilin suli li pilin pona tan ijo pona ona.",
+      "notes": "“bachelor house” is rendered as living alone; “dry divinity” as an unentertaining religious book; “soberly” as solemn conduct, not an alcohol claim.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 276,
+        "output_tokens_details": {
+          "reasoning_tokens": 85
+        },
+        "total_tokens": 3097
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04b2832f7175459e016ab42684747c87d29f9224bd18ed184f",
+  "visibleOutput": "TRANSLATION: lon pimeja ni, jan Utason li kama sin lon tomo ona pi jan wan. pilin ona li pimeja. ona li moku e moku pimeja, taso moku li pana ala e pona tawa ona. lon tenpo suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu sewi pi musi ala lon supa lukin ona. ilo tenpo pi tomo sewi poka li kalama e nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi pilin suli li pilin pona tan ijo pona ona.\n\nNOTES: “bachelor house” is rendered as living alone; “dry divinity” as an unentertaining religious book; “soberly” as solemn conduct, not an alcohol claim.",
+  "translation": "lon pimeja ni, jan Utason li kama sin lon tomo ona pi jan wan. pilin ona li pimeja. ona li moku e moku pimeja, taso moku li pana ala e pona tawa ona. lon tenpo suno sewi ale, moku ni li pini la, ona li awen poka seli, li lukin e lipu sewi pi musi ala lon supa lukin ona. ilo tenpo pi tomo sewi poka li kalama e nanpa luka luka tu la, ona li tawa supa lape kepeken nasin pi pilin suli li pilin pona tan ijo pona ona.",
+  "notes": "“bachelor house” is rendered as living alone; “dry divinity” as an unentertaining religious book; “soberly” as solemn conduct, not an alcohol claim.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 276,
+    "output_tokens_details": {
+      "reasoning_tokens": 85
+    },
+    "total_tokens": 3097
+  },
+  "success": true
+}

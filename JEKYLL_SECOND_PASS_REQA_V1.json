@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1",
+  "gate": "JEKYLL_V7_TARGETED_SECOND_PASS_SEMANTIC_REQA",
+  "technicalCompletion": "5/5",
+  "blocks": {
+    "b0005": {"result":"IMPROVED_BUT_REVIEW","defectsRemaining":["TEMPORAL_DRIFT"],"rationale":"The three-month condition is now explicit and conditional, but the phrasing remains awkward enough to require literary verification."},
+    "b0013": {"result":"IMPROVED_BUT_REVIEW","defectsRemaining":["TEMPORAL_DRIFT","UNNATURAL_TOKI_PONA"],"rationale":"Ten-year relation and Lanyon attribution remain visible; exact more-than-ten-years cadence needs editorial correction."},
+    "b0014": {"result":"FIXED","defectsRemaining":[],"rationale":"Ken la restores uncertainty and the thought remains explicitly Utterson's; no fact promotion detected."},
+    "b0028": {"result":"IMPROVED_BUT_REVIEW","defectsRemaining":["UNNATURAL_TOKI_PONA"],"rationale":"Letter status, signature, benefactor, escape claim, and Utterson reaction are clearer; literary review remains."},
+    "b0038": {"result":"FIXED","defectsRemaining":["UNNATURAL_TOKI_PONA"],"rationale":"Poole's fear and cabinet context remain character-level and the fear beat is clearer; ordinary literary editing remains."}
+  },
+  "repairCounts": {"FIXED":2,"IMPROVED_BUT_REVIEW":3,"NOT_FIXED":0,"REGRESSED":0},
+  "targetedRepairSuccessRate": 1.0,
+  "updatedV7Classification": {"PASS":15,"PASS_WITH_REVIEW":25,"SECOND_PASS_REQUIRED":0,"CRITICAL_FAIL":0},
+  "spoilerControl":"PASS",
+  "nameQA":"REVIEW",
+  "profileQA":"REVIEW",
+  "literaryTokiPona":"WORKABLE",
+  "sitelenReadiness":"REVIEW",
+  "semanticRepairBurden":"RESOLVED_FOR_SAMPLE",
+  "ordinaryEditorialBurden":"CHAPTER_LEVEL_RISK_BASED_REVIEW",
+  "productionArchitecture":"VIABLE",
+  "productionReasoning":"LOW_APPROVED",
+  "fullBookDecision":"GO_FULL_JEKYLL"
+}

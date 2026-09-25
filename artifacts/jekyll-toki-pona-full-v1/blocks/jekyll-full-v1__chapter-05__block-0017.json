@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0017",
+  "sourceHash": "e8f381689c8c55caad9413fbfe0d49e5eb899b51ad4bbd4a449e90863fb4d56b",
+  "source": "Plainly the letter had come by the laboratory door; possibly, indeed, it had been written in the cabinet; and if that were so, it must be differently judged, and handled with the more caution. The newsboys, as he went, were crying themselves hoarse along the footways: “Special edition. Shocking murder of an M.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0262bc840e522005016ab42c6c207c87d2a9dde8204a7509bb",
+      "visibleOutput": "TRANSLATION: tawa jan Utason la, ni li lon lukin: lipu li kama kepeken lupa pi tomo pi pali sona. ken la, jan li sitelen e ona lon tomo insa pi jan Jekil. ni li lon la, ona o ante e nasin pi lukin sona ona lon lipu, o pali kepeken ona lon nasin pi awen suli. jan Utason li tawa la, lon nasin noka la jan lili pi lipu sin li toki wawa mute, li pakala e kalama toki ona: “lipu sin ante! jan li moli ike e jan M.! ni li monsuta!”\nNOTES: “M.” is preserved as an incomplete source reference; the cabinet-writing claim remains possible and conditional.",
+      "translation": "tawa jan Utason la, ni li lon lukin: lipu li kama kepeken lupa pi tomo pi pali sona. ken la, jan li sitelen e ona lon tomo insa pi jan Jekil. ni li lon la, ona o ante e nasin pi lukin sona ona lon lipu, o pali kepeken ona lon nasin pi awen suli. jan Utason li tawa la, lon nasin noka la jan lili pi lipu sin li toki wawa mute, li pakala e kalama toki ona: “lipu sin ante! jan li moli ike e jan M.! ni li monsuta!”",
+      "notes": "“M.” is preserved as an incomplete source reference; the cabinet-writing claim remains possible and conditional.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 685,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3502
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0262bc840e522005016ab42c6c207c87d2a9dde8204a7509bb",
+  "visibleOutput": "TRANSLATION: tawa jan Utason la, ni li lon lukin: lipu li kama kepeken lupa pi tomo pi pali sona. ken la, jan li sitelen e ona lon tomo insa pi jan Jekil. ni li lon la, ona o ante e nasin pi lukin sona ona lon lipu, o pali kepeken ona lon nasin pi awen suli. jan Utason li tawa la, lon nasin noka la jan lili pi lipu sin li toki wawa mute, li pakala e kalama toki ona: “lipu sin ante! jan li moli ike e jan M.! ni li monsuta!”\nNOTES: “M.” is preserved as an incomplete source reference; the cabinet-writing claim remains possible and conditional.",
+  "translation": "tawa jan Utason la, ni li lon lukin: lipu li kama kepeken lupa pi tomo pi pali sona. ken la, jan li sitelen e ona lon tomo insa pi jan Jekil. ni li lon la, ona o ante e nasin pi lukin sona ona lon lipu, o pali kepeken ona lon nasin pi awen suli. jan Utason li tawa la, lon nasin noka la jan lili pi lipu sin li toki wawa mute, li pakala e kalama toki ona: “lipu sin ante! jan li moli ike e jan M.! ni li monsuta!”",
+  "notes": "“M.” is preserved as an incomplete source reference; the cabinet-writing claim remains possible and conditional.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 685,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3502
+  },
+  "success": true
+}

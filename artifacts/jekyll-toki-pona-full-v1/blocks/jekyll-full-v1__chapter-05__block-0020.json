@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0020",
+  "sourceHash": "d277d5c535854431c8ee49be3ae3b7aa854fdee651b7cb87ba9ff2face846658",
+  "source": "The fog still slept on the wing above the drowned city, where the lamps glimmered like carbuncles; and through the muffle and smother of these fallen clouds, the procession of the town’s life was still rolling in through the great arteries with a sound as of a mighty wind. But the room was gay with firelight.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01974cf90a314859016ab42c944f7487d2b2d96900fc8b0604",
+      "visibleOutput": "TRANSLATION: kon pimeja awen li lape lon sewi ma tomo ni. ona li len e ma tomo sama ni: ma tomo li anpa telo. suno ilo li suno lili sama kiwen loje. lon insa pi kon sewi anpa ni, kon li awen ala, kalama li kama lili. taso, jan en pali en tawa pi ma tomo li awen tawa lon nasin suli sama telo lon nasin sijelo. kalama ona li sama kalama pi kon wawa suli. taso tomo insa li pona pilin tan suno seli.\nNOTES: Some dense urban and bodily imagery is compressed.",
+      "translation": "kon pimeja awen li lape lon sewi ma tomo ni. ona li len e ma tomo sama ni: ma tomo li anpa telo. suno ilo li suno lili sama kiwen loje. lon insa pi kon sewi anpa ni, kon li awen ala, kalama li kama lili. taso, jan en pali en tawa pi ma tomo li awen tawa lon nasin suli sama telo lon nasin sijelo. kalama ona li sama kalama pi kon wawa suli. taso tomo insa li pona pilin tan suno seli.",
+      "notes": "Some dense urban and bodily imagery is compressed.",
+      "usage": {
+        "input_tokens": 2804,
+        "input_tokens_details": {
+          "cache_write_tokens": 2801,
+          "cached_tokens": 0
+        },
+        "output_tokens": 540,
+        "output_tokens_details": {
+          "reasoning_tokens": 391
+        },
+        "total_tokens": 3344
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01974cf90a314859016ab42c944f7487d2b2d96900fc8b0604",
+  "visibleOutput": "TRANSLATION: kon pimeja awen li lape lon sewi ma tomo ni. ona li len e ma tomo sama ni: ma tomo li anpa telo. suno ilo li suno lili sama kiwen loje. lon insa pi kon sewi anpa ni, kon li awen ala, kalama li kama lili. taso, jan en pali en tawa pi ma tomo li awen tawa lon nasin suli sama telo lon nasin sijelo. kalama ona li sama kalama pi kon wawa suli. taso tomo insa li pona pilin tan suno seli.\nNOTES: Some dense urban and bodily imagery is compressed.",
+  "translation": "kon pimeja awen li lape lon sewi ma tomo ni. ona li len e ma tomo sama ni: ma tomo li anpa telo. suno ilo li suno lili sama kiwen loje. lon insa pi kon sewi anpa ni, kon li awen ala, kalama li kama lili. taso, jan en pali en tawa pi ma tomo li awen tawa lon nasin suli sama telo lon nasin sijelo. kalama ona li sama kalama pi kon wawa suli. taso tomo insa li pona pilin tan suno seli.",
+  "notes": "Some dense urban and bodily imagery is compressed.",
+  "usage": {
+    "input_tokens": 2804,
+    "input_tokens_details": {
+      "cache_write_tokens": 2801,
+      "cached_tokens": 0
+    },
+    "output_tokens": 540,
+    "output_tokens_details": {
+      "reasoning_tokens": 391
+    },
+    "total_tokens": 3344
+  },
+  "success": true
+}

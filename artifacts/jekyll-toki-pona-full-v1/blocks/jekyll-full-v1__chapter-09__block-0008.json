@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0008",
+  "sourceHash": "e03696029786fd158762ec3454f8afbb6507cda94cef15acd3961e595ae6ee42",
+  "source": "You should be back, if you set out at once on the receipt of this, long before midnight; but I will leave you that amount of margin, not only in the fear of one of those obstacles that can neither be prevented nor foreseen, but because an hour when your servants are in bed is to be preferred for what will then remain to do.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c8ffbd206d27462016ab43364813487d2a7d0dd47479afe24",
+      "visibleOutput": "TRANSLATION: sina lukin e lipu ni la, sina weka lon tenpo sama la, ken la sina kama sin lon tenpo suli open la, tenpo pimeja insa la lon tenpo ala. taso mi pana e tenpo suli ni tawa sina. tan wan la, mi pilin monsuta e ijo ike kama. jan li ken ala pini e ona lon tenpo open, li ken ala sona e ona lon tenpo kama. tan ante la, pali awen o lon tenpo ni: jan pali sina ale li lape.\nNOTES: “should be back” is preserved as expectation (“ken la”), not certainty; obstacles remain feared possibilities.",
+      "translation": "sina lukin e lipu ni la, sina weka lon tenpo sama la, ken la sina kama sin lon tenpo suli open la, tenpo pimeja insa la lon tenpo ala. taso mi pana e tenpo suli ni tawa sina. tan wan la, mi pilin monsuta e ijo ike kama. jan li ken ala pini e ona lon tenpo open, li ken ala sona e ona lon tenpo kama. tan ante la, pali awen o lon tenpo ni: jan pali sina ale li lape.",
+      "notes": "“should be back” is preserved as expectation (“ken la”), not certainty; obstacles remain feared possibilities.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 302,
+        "output_tokens_details": {
+          "reasoning_tokens": 153
+        },
+        "total_tokens": 3123
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c8ffbd206d27462016ab43364813487d2a7d0dd47479afe24",
+  "visibleOutput": "TRANSLATION: sina lukin e lipu ni la, sina weka lon tenpo sama la, ken la sina kama sin lon tenpo suli open la, tenpo pimeja insa la lon tenpo ala. taso mi pana e tenpo suli ni tawa sina. tan wan la, mi pilin monsuta e ijo ike kama. jan li ken ala pini e ona lon tenpo open, li ken ala sona e ona lon tenpo kama. tan ante la, pali awen o lon tenpo ni: jan pali sina ale li lape.\nNOTES: “should be back” is preserved as expectation (“ken la”), not certainty; obstacles remain feared possibilities.",
+  "translation": "sina lukin e lipu ni la, sina weka lon tenpo sama la, ken la sina kama sin lon tenpo suli open la, tenpo pimeja insa la lon tenpo ala. taso mi pana e tenpo suli ni tawa sina. tan wan la, mi pilin monsuta e ijo ike kama. jan li ken ala pini e ona lon tenpo open, li ken ala sona e ona lon tenpo kama. tan ante la, pali awen o lon tenpo ni: jan pali sina ale li lape.",
+  "notes": "“should be back” is preserved as expectation (“ken la”), not certainty; obstacles remain feared possibilities.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 302,
+    "output_tokens_details": {
+      "reasoning_tokens": 153
+    },
+    "total_tokens": 3123
+  },
+  "success": true
+}

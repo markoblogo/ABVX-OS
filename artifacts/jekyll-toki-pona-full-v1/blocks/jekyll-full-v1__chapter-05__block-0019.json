@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0019",
+  "sourceHash": "ba85b063049370c98c3ecb1d09cc0753d4b5909e9a0f82eaa2771daf7486f1a3",
+  "source": "It was not to be had directly; but perhaps, he thought, it might be fished for. Presently after, he sat on one side of his own hearth, with Mr. Guest, his head clerk, upon the other, and midway between, at a nicely calculated distance from the fire, a bottle of a particular old wine that had long dwelt unsunned in the foundations of his house.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a95411bd53a56e1016ab42c89e0bc87d2b14163fe8d4d1eed",
+      "visibleOutput": "TRANSLATION: jan Utason li ken ala kama sona e ni kepeken nasin pi toki wawa. taso ona li pilin e ni: ken la, ona li ken alasa sona e ni kepeken nasin ante. tenpo lili kama la, ona li lon poka wan pi seli lon tomo ona. jan Kesu, jan lawa pi pali lipu ona, li lon poka ante. lon insa pi ona tu la, poki pi telo nasa wan pi tenpo pini mute li lon. poki ni li lon weka pona tan seli, sama ona li pali e weka ni kepeken sona. telo nasa ni li pona li sin ala. tenpo mute la, ona li awen lon anpa pi tomo ona, lon ma pimeja pi suno ala.\nNOTES: “Fished for” is rendered as indirectly seeking knowledge; “Mr. Guest” is transliterated as jan Kesu because no fixed ledger form is supplied.",
+      "translation": "jan Utason li ken ala kama sona e ni kepeken nasin pi toki wawa. taso ona li pilin e ni: ken la, ona li ken alasa sona e ni kepeken nasin ante. tenpo lili kama la, ona li lon poka wan pi seli lon tomo ona. jan Kesu, jan lawa pi pali lipu ona, li lon poka ante. lon insa pi ona tu la, poki pi telo nasa wan pi tenpo pini mute li lon. poki ni li lon weka pona tan seli, sama ona li pali e weka ni kepeken sona. telo nasa ni li pona li sin ala. tenpo mute la, ona li awen lon anpa pi tomo ona, lon ma pimeja pi suno ala.",
+      "notes": "“Fished for” is rendered as indirectly seeking knowledge; “Mr. Guest” is transliterated as jan Kesu because no fixed ledger form is supplied.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 324,
+        "output_tokens_details": {
+          "reasoning_tokens": 113
+        },
+        "total_tokens": 3141
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a95411bd53a56e1016ab42c89e0bc87d2b14163fe8d4d1eed",
+  "visibleOutput": "TRANSLATION: jan Utason li ken ala kama sona e ni kepeken nasin pi toki wawa. taso ona li pilin e ni: ken la, ona li ken alasa sona e ni kepeken nasin ante. tenpo lili kama la, ona li lon poka wan pi seli lon tomo ona. jan Kesu, jan lawa pi pali lipu ona, li lon poka ante. lon insa pi ona tu la, poki pi telo nasa wan pi tenpo pini mute li lon. poki ni li lon weka pona tan seli, sama ona li pali e weka ni kepeken sona. telo nasa ni li pona li sin ala. tenpo mute la, ona li awen lon anpa pi tomo ona, lon ma pimeja pi suno ala.\nNOTES: “Fished for” is rendered as indirectly seeking knowledge; “Mr. Guest” is transliterated as jan Kesu because no fixed ledger form is supplied.",
+  "translation": "jan Utason li ken ala kama sona e ni kepeken nasin pi toki wawa. taso ona li pilin e ni: ken la, ona li ken alasa sona e ni kepeken nasin ante. tenpo lili kama la, ona li lon poka wan pi seli lon tomo ona. jan Kesu, jan lawa pi pali lipu ona, li lon poka ante. lon insa pi ona tu la, poki pi telo nasa wan pi tenpo pini mute li lon. poki ni li lon weka pona tan seli, sama ona li pali e weka ni kepeken sona. telo nasa ni li pona li sin ala. tenpo mute la, ona li awen lon anpa pi tomo ona, lon ma pimeja pi suno ala.",
+  "notes": "“Fished for” is rendered as indirectly seeking knowledge; “Mr. Guest” is transliterated as jan Kesu because no fixed ledger form is supplied.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 324,
+    "output_tokens_details": {
+      "reasoning_tokens": 113
+    },
+    "total_tokens": 3141
+  },
+  "success": true
+}

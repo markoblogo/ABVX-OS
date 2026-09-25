@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0081",
+  "sourceHash": "43f8056ae4641cc35267fae6305fb771e7a9ab3a69e9710d3daa461655fdcea6",
+  "source": "The next day, came the news that the murder not had been overlooked, that the guilt of Hyde was patent to the world, and that the victim was a man high in public estimation. It was not only a crime, it had been a tragic folly.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

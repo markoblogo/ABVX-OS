@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0001",
+  "sourceHash": "a5bc8abd6c081a62f3c98f8acc98ec7b78a2ae43bf5e05c7f8e641701c5b344e",
+  "source": "It was late in the afternoon, when Mr. Utterson found his way to Dr. Jekyll’s door, where he was at once admitted by Poole, and carried down by the kitchen offices and across a yard which had once been a garden, to the building which was indifferently known as the laboratory or the dissecting-rooms.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03548296dc799e76016ab42b88973487d296105f7f8ab89f1e",
+      "visibleOutput": "TRANSLATION: tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil pi sona sijelo. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason lon tomo pali pi moku, li tawa lon ma insa. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ni: jan li ken nimi e ona kepeken nimi “tomo pi pali sona” anu nimi “tomo pi pali sona sijelo.”\nNOTES: nimi tu pi tomo li awen sama nasin nimi pi toki open; tomo ni li tomo sama taso.",
+      "translation": "tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil pi sona sijelo. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason lon tomo pali pi moku, li tawa lon ma insa. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ni: jan li ken nimi e ona kepeken nimi “tomo pi pali sona” anu nimi “tomo pi pali sona sijelo.”",
+      "notes": "nimi tu pi tomo li awen sama nasin nimi pi toki open; tomo ni li tomo sama taso.",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 293,
+        "output_tokens_details": {
+          "reasoning_tokens": 145
+        },
+        "total_tokens": 3111
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03548296dc799e76016ab42b88973487d296105f7f8ab89f1e",
+  "visibleOutput": "TRANSLATION: tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil pi sona sijelo. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason lon tomo pali pi moku, li tawa lon ma insa. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ni: jan li ken nimi e ona kepeken nimi “tomo pi pali sona” anu nimi “tomo pi pali sona sijelo.”\nNOTES: nimi tu pi tomo li awen sama nasin nimi pi toki open; tomo ni li tomo sama taso.",
+  "translation": "tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil pi sona sijelo. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason lon tomo pali pi moku, li tawa lon ma insa. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ni: jan li ken nimi e ona kepeken nimi “tomo pi pali sona” anu nimi “tomo pi pali sona sijelo.”",
+  "notes": "nimi tu pi tomo li awen sama nasin nimi pi toki open; tomo ni li tomo sama taso.",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 293,
+    "output_tokens_details": {
+      "reasoning_tokens": 145
+    },
+    "total_tokens": 3111
+  },
+  "success": true
+}

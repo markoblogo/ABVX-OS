@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0006",
+  "sourceHash": "7654a49e4fafe567cf088194d31564036d0971f8a1e7e1b0d030ff3fcd690b81",
+  "source": "In this case, I was driven to reflect deeply and inveterately on that hard law of life, which lies at the root of religion and is one of the most plentiful springs of distress.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f64bd7887afd946016ab4367c37f487d290299def26faeeba",
+      "visibleOutput": "TRANSLATION: lon ni la, mi wile ala wile, mi toki insa mute lon tenpo suli e lawa wawa pi lon jan. lawa ni li mama pi nasin sewi, li mama suli pi pilin ike mute.\nNOTES: NONE",
+      "translation": "lon ni la, mi wile ala wile, mi toki insa mute lon tenpo suli e lawa wawa pi lon jan. lawa ni li mama pi nasin sewi, li mama suli pi pilin ike mute.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2784,
+        "input_tokens_details": {
+          "cache_write_tokens": 2781,
+          "cached_tokens": 0
+        },
+        "output_tokens": 214,
+        "output_tokens_details": {
+          "reasoning_tokens": 153
+        },
+        "total_tokens": 2998
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f64bd7887afd946016ab4367c37f487d290299def26faeeba",
+  "visibleOutput": "TRANSLATION: lon ni la, mi wile ala wile, mi toki insa mute lon tenpo suli e lawa wawa pi lon jan. lawa ni li mama pi nasin sewi, li mama suli pi pilin ike mute.\nNOTES: NONE",
+  "translation": "lon ni la, mi wile ala wile, mi toki insa mute lon tenpo suli e lawa wawa pi lon jan. lawa ni li mama pi nasin sewi, li mama suli pi pilin ike mute.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2784,
+    "input_tokens_details": {
+      "cache_write_tokens": 2781,
+      "cached_tokens": 0
+    },
+    "output_tokens": 214,
+    "output_tokens_details": {
+      "reasoning_tokens": 153
+    },
+    "total_tokens": 2998
+  },
+  "success": true
+}

@@ -1,0 +1,552 @@
+{
+  "schemaVersion": "1",
+  "gate": "JEKYLL_REAL_40_BLOCK_SEMANTIC_QA_V7",
+  "mechanicalAlignment": "PASS",
+  "counts": {
+    "PASS": 13,
+    "PASS_WITH_REVIEW": 22,
+    "SECOND_PASS_REQUIRED": 5,
+    "CRITICAL_FAIL": 0
+  },
+  "spoilerControl": "PASS",
+  "nameQA": "REVIEW",
+  "profileQA": "REVIEW",
+  "literaryTokiPona": "WORKABLE",
+  "records": [
+    {
+      "blockId": "jekyll-sample-v2:section-001:b0001",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 51
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-001:b0002",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "DOCUMENT_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 449
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0003",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "DOCUMENT_CLAIM",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 65
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0004",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "DOCUMENT_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 752
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0005",
+      "classification": "SECOND_PASS_REQUIRED",
+      "issueTypes": [
+        "TEMPORAL_DRIFT",
+        "LOST_CONDITIONALITY"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Three-month absence and conditional succession are ambiguous.",
+      "requiredPreservation": "Restore exactly three calendar months and conditional transfer.",
+      "translationChars": 1418
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0006",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "FOCAL_CHARACTER_INFERENCE",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 180
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0007",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "FOCAL_CHARACTER_INFERENCE",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 318
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0008",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 898
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0009",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 133
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0010",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 127
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0011",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 235
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0012",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "FOCAL_CHARACTER_INFERENCE",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 78
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0013",
+      "classification": "SECOND_PASS_REQUIRED",
+      "issueTypes": [
+        "TEMPORAL_DRIFT",
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "More-than-ten-years and opinion cadence are awkward.",
+      "requiredPreservation": "Preserve time, speaker, and opinion status.",
+      "translationChars": 482
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0014",
+      "classification": "SECOND_PASS_REQUIRED",
+      "issueTypes": [
+        "OVER_COMPRESSION",
+        "INFERENCE_TO_FACT"
+      ],
+      "sourceFunction": "FOCAL_CHARACTER_INFERENCE",
+      "defect": "Utterson inference is compressed.",
+      "requiredPreservation": "Keep thought and uncertainty as focal character inference.",
+      "translationChars": 527
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0015",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 83
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0016",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DOCUMENT_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 55
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0017",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 1129
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0018",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 745
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0019",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 98
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0020",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 144
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0021",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 194
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0022",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 387
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0023",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 303
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0024",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 434
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0025",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 135
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0026",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 193
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0027",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 252
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0028",
+      "classification": "SECOND_PASS_REQUIRED",
+      "issueTypes": [
+        "DOCUMENT_STATUS_DRIFT",
+        "UNNATURAL_TOKI_PONA"
+      ],
+      "sourceFunction": "DOCUMENT_CLAIM",
+      "defect": "Letter claim is highly compressed.",
+      "requiredPreservation": "Keep signature, author, benefactor, safety/escape claim, and document-bound reaction.",
+      "translationChars": 619
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0029",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 52
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0030",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "FOCAL_CHARACTER_INFERENCE",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 185
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0031",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 105
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0032",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 133
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0033",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 42
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0034",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 133
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0035",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 178
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0036",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 53
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0037",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 140
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0038",
+      "classification": "SECOND_PASS_REQUIRED",
+      "issueTypes": [
+        "UNNATURAL_TOKI_PONA",
+        "RELATIONSHIP_DRIFT"
+      ],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "Poole fear rhythm is awkward.",
+      "requiredPreservation": "Preserve fear, cabinet confinement, and speech rhythm.",
+      "translationChars": 263
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0039",
+      "classification": "PASS",
+      "issueTypes": [],
+      "sourceFunction": "DIALOGUE_CLAIM",
+      "defect": "",
+      "requiredPreservation": "",
+      "translationChars": 92
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-004:b0040",
+      "classification": "PASS_WITH_REVIEW",
+      "issueTypes": [
+        "LEXICAL_PROBLEM"
+      ],
+      "sourceFunction": "NARRATOR_FACT",
+      "defect": "Ordinary editorial review for compression, rhythm, or lexical naturalness.",
+      "requiredPreservation": "Verify proposition, speaker, knowledge, and temporal relations.",
+      "translationChars": 143
+    }
+  ],
+  "matrix": [
+    {
+      "area": "unexplained three-month absence",
+      "status": "REGRESSED",
+      "blocks": [
+        "b0005"
+      ]
+    },
+    {
+      "area": "conditional succession",
+      "status": "REGRESSED",
+      "blocks": [
+        "b0005"
+      ]
+    },
+    {
+      "area": "Utterson judgement vs narrator fact",
+      "status": "IMPROVED",
+      "blocks": [
+        "b0007",
+        "b0014"
+      ]
+    },
+    {
+      "area": "Lanyon opinion",
+      "status": "IMPROVED",
+      "blocks": [
+        "b0013"
+      ]
+    },
+    {
+      "area": "safe / escape meaning",
+      "status": "IMPROVED",
+      "blocks": [
+        "b0022",
+        "b0028"
+      ]
+    },
+    {
+      "area": "Jekyll grounds for certainty",
+      "status": "FIXED",
+      "blocks": [
+        "b0024"
+      ]
+    },
+    {
+      "area": "trust / confidence",
+      "status": "PASS",
+      "blocks": [
+        "b0024",
+        "b0032"
+      ]
+    },
+    {
+      "area": "lead vs move",
+      "status": "HUMAN_JUDGMENT_REQUIRED",
+      "blocks": [
+        "b0025"
+      ]
+    },
+    {
+      "area": "laboratory / dissecting rooms / cabinet",
+      "status": "IMPROVED",
+      "blocks": [
+        "b0017",
+        "b0018",
+        "b0038"
+      ]
+    },
+    {
+      "area": "proper names",
+      "status": "REVIEW",
+      "blocks": [
+        "b0013",
+        "b0028"
+      ]
+    },
+    {
+      "area": "Poole fear / character rhythm",
+      "status": "REGRESSED",
+      "blocks": [
+        "b0038",
+        "b0040"
+      ]
+    },
+    {
+      "area": "Jekyll / Hyde identity-spoiler boundary",
+      "status": "PASS",
+      "blocks": [
+        "b0005",
+        "b0024",
+        "b0028"
+      ]
+    }
+  ],
+  "reviewBurden": {
+    "automaticAcceptablePercent": 32.5,
+    "editorialReviewPercent": 67.5,
+    "secondPassPercent": 12.5
+  },
+  "projection": {
+    "sourceWords": 25622,
+    "measuredSampleWords": 1826,
+    "measuredAverageWordsPerBlock": 45.65,
+    "estimatedFullBookBlocks": 561,
+    "primaryCalls": 561,
+    "expectedSecondPassCalls": 70,
+    "ordinaryEditorialReviewBlocks": 379,
+    "criticalRiskBlocks": 0,
+    "inputTokens": 1590140,
+    "outputTokens": 166070,
+    "reasoningTokens": 101120
+  },
+  "productionReasoning": "LOW_WITH_SECOND_PASS",
+  "fullBookDecision": "TUNE_AND_RERUN",
+  "sitelenReadiness": "REVIEW"
+}

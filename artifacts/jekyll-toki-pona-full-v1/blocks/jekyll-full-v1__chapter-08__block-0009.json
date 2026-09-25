@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0009",
+  "sourceHash": "21fda1ee2cda50d56c84cbfb653a947c5b9df02d587111d68226c0487541d31a",
+  "source": "The square, when they got there, was all full of wind and dust, and the thin trees in the garden were lashing themselves along the railing. Poole, who had kept all the way a pace or two ahead, now pulled up in the middle of the pavement, and in spite of the biting weather, took off his hat and mopped his brow with a red pocket-handkerchief.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_063be0834090e6f3016ab42f74a5f887d2b7ac30066a5608be",
+      "visibleOutput": "TRANSLATION: ona tu li kama lon ma open la, kon wawa en ko ma li lon ma ale. kasi suli lili lon ma kasi li tawa wawa, li pakala e ona lon palisa pi poka ma. lon nasin ale la, jan Pulu li tawa lon sinpin ona tu, lon weka lili. taso tenpo ni la, ona li awen lon insa nasin. lete li utala e ona. taso ona li weka e len lawa ona, li kepeken len luka loje tawa weka e telo tan sinpin lawa ona.\nNOTES: “Square,” railing, and pocket-handkerchief are rendered descriptively.",
+      "translation": "ona tu li kama lon ma open la, kon wawa en ko ma li lon ma ale. kasi suli lili lon ma kasi li tawa wawa, li pakala e ona lon palisa pi poka ma. lon nasin ale la, jan Pulu li tawa lon sinpin ona tu, lon weka lili. taso tenpo ni la, ona li awen lon insa nasin. lete li utala e ona. taso ona li weka e len lawa ona, li kepeken len luka loje tawa weka e telo tan sinpin lawa ona.",
+      "notes": "“Square,” railing, and pocket-handkerchief are rendered descriptively.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 225,
+        "output_tokens_details": {
+          "reasoning_tokens": 72
+        },
+        "total_tokens": 3040
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_063be0834090e6f3016ab42f74a5f887d2b7ac30066a5608be",
+  "visibleOutput": "TRANSLATION: ona tu li kama lon ma open la, kon wawa en ko ma li lon ma ale. kasi suli lili lon ma kasi li tawa wawa, li pakala e ona lon palisa pi poka ma. lon nasin ale la, jan Pulu li tawa lon sinpin ona tu, lon weka lili. taso tenpo ni la, ona li awen lon insa nasin. lete li utala e ona. taso ona li weka e len lawa ona, li kepeken len luka loje tawa weka e telo tan sinpin lawa ona.\nNOTES: “Square,” railing, and pocket-handkerchief are rendered descriptively.",
+  "translation": "ona tu li kama lon ma open la, kon wawa en ko ma li lon ma ale. kasi suli lili lon ma kasi li tawa wawa, li pakala e ona lon palisa pi poka ma. lon nasin ale la, jan Pulu li tawa lon sinpin ona tu, lon weka lili. taso tenpo ni la, ona li awen lon insa nasin. lete li utala e ona. taso ona li weka e len lawa ona, li kepeken len luka loje tawa weka e telo tan sinpin lawa ona.",
+  "notes": "“Square,” railing, and pocket-handkerchief are rendered descriptively.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 225,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 3040
+  },
+  "success": true
+}

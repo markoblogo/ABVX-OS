@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-001:b0001",
+  "sourceText": "# Representative source sample — Project Gutenberg #42",
+  "sourceHash": "730e2b28f21abc6a14bd051b22a9115610e9f63d08d920856210398b7f1ca6b8",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06e44995e3755b0b016ab41d0550c087d28ffdda0169ea61d9",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: # kipisi lipu pi pana lukin — pali Kutenpe nanpa 42\nNOTES: NONE",
+      "translation": "# kipisi lipu pi pana lukin — pali Kutenpe nanpa 42",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2778,
+        "input_tokens_details": {
+          "cache_write_tokens": 2775,
+          "cached_tokens": 0
+        },
+        "output_tokens": 66,
+        "output_tokens_details": {
+          "reasoning_tokens": 33
+        },
+        "total_tokens": 2844
+      },
+      "elapsedMs": 3170
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_06e44995e3755b0b016ab41d0550c087d28ffdda0169ea61d9",
+  "visibleOutput": "TRANSLATION: # kipisi lipu pi pana lukin — pali Kutenpe nanpa 42\nNOTES: NONE",
+  "translation": "# kipisi lipu pi pana lukin — pali Kutenpe nanpa 42",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2778,
+    "input_tokens_details": {
+      "cache_write_tokens": 2775,
+      "cached_tokens": 0
+    },
+    "output_tokens": 66,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 2844
+  },
+  "success": true
+}

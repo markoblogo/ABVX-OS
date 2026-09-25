@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0013",
+  "sourceHash": "a109fec5eb909a6edeb2a47db2643ffb9846c7b12157c5e56e3496bde82862c7",
+  "source": "This little spirit of temper was somewhat of a relief to Mr. Utterson. “They have only differed on some point of science,” he thought; and being a man of no scientific passions (except in the matter of conveyancing), he even added: “It is nothing worse than that!” He gave his friend a few seconds to recover his composure, and then approached the question he had come to put. “Did you ever come across a protege of his—one Hyde?” he asked.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0deb82cc6243737b016ab42706efb487d2993ee34d15cad20c",
+      "visibleOutput": "TRANSLATION: pilin utala lili ni li weka lili e pilin ike tan jan Utason. ona li toki insa: “ona tu li pilin ante taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon sona—taso pali lawa pi pana ma tan jan wan tawa jan ante li ante—la ona li toki insa kin: “ijo ike ante li lon ala!” ona li awen e tenpo lili, tawa ni: jan pona ona li ken kama pilin pona sin. ni la, ona li toki e wile sona pi kama ona. ona li wile sona e ni: “lon tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Hata, jan pi kama jo e pona tan jan Jekil?”\nNOTES: “protege” is rendered as a person receiving support from Jekyll, without implying any hidden identity relation.",
+      "translation": "pilin utala lili ni li weka lili e pilin ike tan jan Utason. ona li toki insa: “ona tu li pilin ante taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon sona—taso pali lawa pi pana ma tan jan wan tawa jan ante li ante—la ona li toki insa kin: “ijo ike ante li lon ala!” ona li awen e tenpo lili, tawa ni: jan pona ona li ken kama pilin pona sin. ni la, ona li toki e wile sona pi kama ona. ona li wile sona e ni: “lon tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Hata, jan pi kama jo e pona tan jan Jekil?”",
+      "notes": "“protege” is rendered as a person receiving support from Jekyll, without implying any hidden identity relation.",
+      "usage": {
+        "input_tokens": 2849,
+        "input_tokens_details": {
+          "cache_write_tokens": 2846,
+          "cached_tokens": 0
+        },
+        "output_tokens": 722,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3571
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0deb82cc6243737b016ab42706efb487d2993ee34d15cad20c",
+  "visibleOutput": "TRANSLATION: pilin utala lili ni li weka lili e pilin ike tan jan Utason. ona li toki insa: “ona tu li pilin ante taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon sona—taso pali lawa pi pana ma tan jan wan tawa jan ante li ante—la ona li toki insa kin: “ijo ike ante li lon ala!” ona li awen e tenpo lili, tawa ni: jan pona ona li ken kama pilin pona sin. ni la, ona li toki e wile sona pi kama ona. ona li wile sona e ni: “lon tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Hata, jan pi kama jo e pona tan jan Jekil?”\nNOTES: “protege” is rendered as a person receiving support from Jekyll, without implying any hidden identity relation.",
+  "translation": "pilin utala lili ni li weka lili e pilin ike tan jan Utason. ona li toki insa: “ona tu li pilin ante taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon sona—taso pali lawa pi pana ma tan jan wan tawa jan ante li ante—la ona li toki insa kin: “ijo ike ante li lon ala!” ona li awen e tenpo lili, tawa ni: jan pona ona li ken kama pilin pona sin. ni la, ona li toki e wile sona pi kama ona. ona li wile sona e ni: “lon tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Hata, jan pi kama jo e pona tan jan Jekil?”",
+  "notes": "“protege” is rendered as a person receiving support from Jekyll, without implying any hidden identity relation.",
+  "usage": {
+    "input_tokens": 2849,
+    "input_tokens_details": {
+      "cache_write_tokens": 2846,
+      "cached_tokens": 0
+    },
+    "output_tokens": 722,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3571
+  },
+  "success": true
+}

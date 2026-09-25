@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0024",
+  "sourceHash": "891963b78af1472f6779ac3d9f6871eb303aabb52c2460a35564e9cbfdd8e550",
+  "source": "And all the time, as we were pitching it in red hot, we were keeping the women off him as best we could, for they were as wild as harpies.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08c8592fff777a0f016ab425854fb087d2a52cb7bf31cee7d4",
+      "visibleOutput": "TRANSLATION: tenpo ale ni la, mi mute li toki utala wawa mute tawa ona. kin la, mi mute li alasa kepeken wawa ale e ni: meli li kama ala poka ona, tan ni: meli li utala nasa sama waso monsuta pi toki majuna.\nNOTES: nimi “harpies” li kama “waso monsuta pi toki majuna” tan ni: toki pona la nimi sama ona li lon ala.",
+      "translation": "tenpo ale ni la, mi mute li toki utala wawa mute tawa ona. kin la, mi mute li alasa kepeken wawa ale e ni: meli li kama ala poka ona, tan ni: meli li utala nasa sama waso monsuta pi toki majuna.",
+      "notes": "nimi “harpies” li kama “waso monsuta pi toki majuna” tan ni: toki pona la nimi sama ona li lon ala.",
+      "usage": {
+        "input_tokens": 2771,
+        "input_tokens_details": {
+          "cache_write_tokens": 2768,
+          "cached_tokens": 0
+        },
+        "output_tokens": 337,
+        "output_tokens_details": {
+          "reasoning_tokens": 231
+        },
+        "total_tokens": 3108
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08c8592fff777a0f016ab425854fb087d2a52cb7bf31cee7d4",
+  "visibleOutput": "TRANSLATION: tenpo ale ni la, mi mute li toki utala wawa mute tawa ona. kin la, mi mute li alasa kepeken wawa ale e ni: meli li kama ala poka ona, tan ni: meli li utala nasa sama waso monsuta pi toki majuna.\nNOTES: nimi “harpies” li kama “waso monsuta pi toki majuna” tan ni: toki pona la nimi sama ona li lon ala.",
+  "translation": "tenpo ale ni la, mi mute li toki utala wawa mute tawa ona. kin la, mi mute li alasa kepeken wawa ale e ni: meli li kama ala poka ona, tan ni: meli li utala nasa sama waso monsuta pi toki majuna.",
+  "notes": "nimi “harpies” li kama “waso monsuta pi toki majuna” tan ni: toki pona la nimi sama ona li lon ala.",
+  "usage": {
+    "input_tokens": 2771,
+    "input_tokens_details": {
+      "cache_write_tokens": 2768,
+      "cached_tokens": 0
+    },
+    "output_tokens": 337,
+    "output_tokens_details": {
+      "reasoning_tokens": 231
+    },
+    "total_tokens": 3108
+  },
+  "success": true
+}

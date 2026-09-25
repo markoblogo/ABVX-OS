@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0016",
+  "sourceHash": "75aa71926c55ec602c9a47cef353a01fa007ad3ef5178df9b7099622681d2a03",
+  "source": "Street after street, and all the folks asleep—street after street, all lighted up as if for a procession and all as empty as a church—till at last I got into that state of mind when a man listens and listens and begins to long for the sight of a policeman.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b15ddaba778567a016ab4251c8a5887d284589b3082fdb515",
+      "visibleOutput": "TRANSLATION: nasin tomo li pini, nasin tomo ante li kama; jan ale li lape. nasin tomo li pini, nasin tomo ante li kama; suno li lon ale sama ni: kulupu suli li kama tawa. taso nasin ale li jo ala e jan, sama tomo sewi. lon pini la mi kama pilin ni: jan li kute li kute, li open wile mute lukin e jan awen pi lawa.\nNOTES: NONE",
+      "translation": "nasin tomo li pini, nasin tomo ante li kama; jan ale li lape. nasin tomo li pini, nasin tomo ante li kama; suno li lon ale sama ni: kulupu suli li kama tawa. taso nasin ale li jo ala e jan, sama tomo sewi. lon pini la mi kama pilin ni: jan li kute li kute, li open wile mute lukin e jan awen pi lawa.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2795,
+        "input_tokens_details": {
+          "cache_write_tokens": 2792,
+          "cached_tokens": 0
+        },
+        "output_tokens": 225,
+        "output_tokens_details": {
+          "reasoning_tokens": 116
+        },
+        "total_tokens": 3020
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b15ddaba778567a016ab4251c8a5887d284589b3082fdb515",
+  "visibleOutput": "TRANSLATION: nasin tomo li pini, nasin tomo ante li kama; jan ale li lape. nasin tomo li pini, nasin tomo ante li kama; suno li lon ale sama ni: kulupu suli li kama tawa. taso nasin ale li jo ala e jan, sama tomo sewi. lon pini la mi kama pilin ni: jan li kute li kute, li open wile mute lukin e jan awen pi lawa.\nNOTES: NONE",
+  "translation": "nasin tomo li pini, nasin tomo ante li kama; jan ale li lape. nasin tomo li pini, nasin tomo ante li kama; suno li lon ale sama ni: kulupu suli li kama tawa. taso nasin ale li jo ala e jan, sama tomo sewi. lon pini la mi kama pilin ni: jan li kute li kute, li open wile mute lukin e jan awen pi lawa.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2795,
+    "input_tokens_details": {
+      "cache_write_tokens": 2792,
+      "cached_tokens": 0
+    },
+    "output_tokens": 225,
+    "output_tokens_details": {
+      "reasoning_tokens": 116
+    },
+    "total_tokens": 3020
+  },
+  "success": true
+}

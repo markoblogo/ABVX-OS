@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-07:block-0004",
+  "sourceHash": "7470de8ca7dd296dc45d6f4230719fa6ee01338a5a9027578c1ae549552118b9",
+  "source": "“So you found it out, did you?” said Utterson. “But if that be so, we may step into the court and take a look at the windows. To tell you the truth, I am uneasy about poor Jekyll; and even outside, I feel as if the presence of a friend might do him good.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0981362d097a82fc016ab42ea57bac87d2b25189bd398f9527",
+      "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “sina kama sona e ni, anu seme? taso ni li lon la, mi tu li ken tawa ma insa pi tomo, li lukin e lupa lukin. mi toki pona e lon: mi pilin ike tan jan Jekil pi kama ike. mi awen lon poka tomo taso la, mi pilin e ni: poka pi jan pona li ken pona e ona.”\nNOTES: “might do him good” li awen ken taso; ni li lon ala lon sona.",
+      "translation": "jan Utason li toki e ni: “sina kama sona e ni, anu seme? taso ni li lon la, mi tu li ken tawa ma insa pi tomo, li lukin e lupa lukin. mi toki pona e lon: mi pilin ike tan jan Jekil pi kama ike. mi awen lon poka tomo taso la, mi pilin e ni: poka pi jan pona li ken pona e ona.”",
+      "notes": "“might do him good” li awen ken taso; ni li lon ala lon sona.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 198,
+        "output_tokens_details": {
+          "reasoning_tokens": 73
+        },
+        "total_tokens": 3012
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0981362d097a82fc016ab42ea57bac87d2b25189bd398f9527",
+  "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “sina kama sona e ni, anu seme? taso ni li lon la, mi tu li ken tawa ma insa pi tomo, li lukin e lupa lukin. mi toki pona e lon: mi pilin ike tan jan Jekil pi kama ike. mi awen lon poka tomo taso la, mi pilin e ni: poka pi jan pona li ken pona e ona.”\nNOTES: “might do him good” li awen ken taso; ni li lon ala lon sona.",
+  "translation": "jan Utason li toki e ni: “sina kama sona e ni, anu seme? taso ni li lon la, mi tu li ken tawa ma insa pi tomo, li lukin e lupa lukin. mi toki pona e lon: mi pilin ike tan jan Jekil pi kama ike. mi awen lon poka tomo taso la, mi pilin e ni: poka pi jan pona li ken pona e ona.”",
+  "notes": "“might do him good” li awen ken taso; ni li lon ala lon sona.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "reasoning_tokens": 73
+    },
+    "total_tokens": 3012
+  },
+  "success": true
+}

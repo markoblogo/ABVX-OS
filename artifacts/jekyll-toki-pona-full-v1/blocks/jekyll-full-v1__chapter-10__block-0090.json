@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0090",
+  "sourceHash": "4f056ba3da1990c03eefd5cfccc41f4764c006f8937f6bd33d974bfacd7fa7ba",
+  "source": "I was once more Edward Hyde. A moment before I had been safe of all men’s respect, wealthy, beloved—the cloth laying for me in the dining-room at home; and now I was the common quarry of mankind, hunted, houseless, a known murderer, thrall to the gallows. My reason wavered, but it did not fail me utterly.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

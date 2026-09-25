@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0033",
+  "sourceHash": "9ffbcf0653bceefcd118ceb947df7a753c5c010d345fd549c2c555da5cd55eae",
+  "source": "Your master, Poole, is plainly seized with one of those maladies that both torture and deform the sufferer; hence, for aught I know, the alteration of his voice; hence the mask and the avoidance of his friends; hence his eagerness to find this drug, by means of which the poor soul retains some hope of ultimate recovery—God grant that he be not deceived!",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_057117370f94f165016ab430a9b59887d2837f46684a74bfee",
+      "visibleOutput": "TRANSLATION: jan lawa sina, jan Pulu, li kama jo lon nasin lukin la e wan pi ike sijelo ni: ike ni li pana e pilin ike mute tawa jan, li ante ike e sijelo ona. tan ni la, ken la kalama toki ona li ante. tan ni la ona li len e sinpin ona, li weka tan jan pona ona. tan ni la ona li wile mute alasa e misikeke ni. kepeken ona la, jan pi pilin ike ni li awen jo e lili pi wile pona: lon tenpo kama pini la, ona li ken kama pona. sewi o pana ala e ni: wile pona ona li wile pi lon ala!\nNOTES: “ken la” preserves the speaker’s uncertainty about the inferred causes; recovery remains only a hope.",
+      "translation": "jan lawa sina, jan Pulu, li kama jo lon nasin lukin la e wan pi ike sijelo ni: ike ni li pana e pilin ike mute tawa jan, li ante ike e sijelo ona. tan ni la, ken la kalama toki ona li ante. tan ni la ona li len e sinpin ona, li weka tan jan pona ona. tan ni la ona li wile mute alasa e misikeke ni. kepeken ona la, jan pi pilin ike ni li awen jo e lili pi wile pona: lon tenpo kama pini la, ona li ken kama pona. sewi o pana ala e ni: wile pona ona li wile pi lon ala!",
+      "notes": "“ken la” preserves the speaker’s uncertainty about the inferred causes; recovery remains only a hope.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 399,
+        "output_tokens_details": {
+          "reasoning_tokens": 216
+        },
+        "total_tokens": 3213
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_057117370f94f165016ab430a9b59887d2837f46684a74bfee",
+  "visibleOutput": "TRANSLATION: jan lawa sina, jan Pulu, li kama jo lon nasin lukin la e wan pi ike sijelo ni: ike ni li pana e pilin ike mute tawa jan, li ante ike e sijelo ona. tan ni la, ken la kalama toki ona li ante. tan ni la ona li len e sinpin ona, li weka tan jan pona ona. tan ni la ona li wile mute alasa e misikeke ni. kepeken ona la, jan pi pilin ike ni li awen jo e lili pi wile pona: lon tenpo kama pini la, ona li ken kama pona. sewi o pana ala e ni: wile pona ona li wile pi lon ala!\nNOTES: “ken la” preserves the speaker’s uncertainty about the inferred causes; recovery remains only a hope.",
+  "translation": "jan lawa sina, jan Pulu, li kama jo lon nasin lukin la e wan pi ike sijelo ni: ike ni li pana e pilin ike mute tawa jan, li ante ike e sijelo ona. tan ni la, ken la kalama toki ona li ante. tan ni la ona li len e sinpin ona, li weka tan jan pona ona. tan ni la ona li wile mute alasa e misikeke ni. kepeken ona la, jan pi pilin ike ni li awen jo e lili pi wile pona: lon tenpo kama pini la, ona li ken kama pona. sewi o pana ala e ni: wile pona ona li wile pi lon ala!",
+  "notes": "“ken la” preserves the speaker’s uncertainty about the inferred causes; recovery remains only a hope.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 399,
+    "output_tokens_details": {
+      "reasoning_tokens": 216
+    },
+    "total_tokens": 3213
+  },
+  "success": true
+}

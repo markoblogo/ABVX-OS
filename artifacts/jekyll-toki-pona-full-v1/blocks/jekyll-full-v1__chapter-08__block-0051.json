@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0051",
+  "sourceHash": "138bdb1cc58d7a2b09227132606660b761997386fc7286109ca6aa09804aa0cc",
+  "source": "“So it will walk all day, sir,” whispered Poole; “ay, and the better part of the night. Only when a new sample comes from the chemist, there’s a bit of a break. Ah, it’s an ill conscience that’s such an enemy to rest! Ah, sir, there’s blood foully shed in every step of it! But hark again, a little closer—put your heart in your ears, Mr. Utterson, and tell me, is that the doctor’s foot?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04d54cf33c8ef9a5016ab43188d73487d2bfbf3f99d4e897c5",
+      "visibleOutput": "TRANSLATION: “ni la, ona li tawa noka lon tenpo suno ale, jan lawa,” jan Pulu li toki lili; “lon. ona li tawa kin lon tenpo pimeja suli. taso ijo sin pi pali sona li kama tan jan pi pali ijo seli la, ona li awen lili. a! pilin ike tan pali ike li utala suli e lape! a, jan lawa! lon tawa noka ona ale la, mi pilin e ni: telo loje li kama weka ike! taso o kute sin. o kama poka lili. jan Utason o, o kute kepeken pilin ale sina, o toki e ni tawa mi: kalama noka ni li kalama noka pi jan Jekil pi sona sijelo anu seme?”\nNOTES: “blood foully shed” remains Poole’s emotionally framed inference, not narrator-confirmed fact.",
+      "translation": "“ni la, ona li tawa noka lon tenpo suno ale, jan lawa,” jan Pulu li toki lili; “lon. ona li tawa kin lon tenpo pimeja suli. taso ijo sin pi pali sona li kama tan jan pi pali ijo seli la, ona li awen lili. a! pilin ike tan pali ike li utala suli e lape! a, jan lawa! lon tawa noka ona ale la, mi pilin e ni: telo loje li kama weka ike! taso o kute sin. o kama poka lili. jan Utason o, o kute kepeken pilin ale sina, o toki e ni tawa mi: kalama noka ni li kalama noka pi jan Jekil pi sona sijelo anu seme?”",
+      "notes": "“blood foully shed” remains Poole’s emotionally framed inference, not narrator-confirmed fact.",
+      "usage": {
+        "input_tokens": 2851,
+        "input_tokens_details": {
+          "cache_write_tokens": 2848,
+          "cached_tokens": 0
+        },
+        "output_tokens": 725,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3576
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04d54cf33c8ef9a5016ab43188d73487d2bfbf3f99d4e897c5",
+  "visibleOutput": "TRANSLATION: “ni la, ona li tawa noka lon tenpo suno ale, jan lawa,” jan Pulu li toki lili; “lon. ona li tawa kin lon tenpo pimeja suli. taso ijo sin pi pali sona li kama tan jan pi pali ijo seli la, ona li awen lili. a! pilin ike tan pali ike li utala suli e lape! a, jan lawa! lon tawa noka ona ale la, mi pilin e ni: telo loje li kama weka ike! taso o kute sin. o kama poka lili. jan Utason o, o kute kepeken pilin ale sina, o toki e ni tawa mi: kalama noka ni li kalama noka pi jan Jekil pi sona sijelo anu seme?”\nNOTES: “blood foully shed” remains Poole’s emotionally framed inference, not narrator-confirmed fact.",
+  "translation": "“ni la, ona li tawa noka lon tenpo suno ale, jan lawa,” jan Pulu li toki lili; “lon. ona li tawa kin lon tenpo pimeja suli. taso ijo sin pi pali sona li kama tan jan pi pali ijo seli la, ona li awen lili. a! pilin ike tan pali ike li utala suli e lape! a, jan lawa! lon tawa noka ona ale la, mi pilin e ni: telo loje li kama weka ike! taso o kute sin. o kama poka lili. jan Utason o, o kute kepeken pilin ale sina, o toki e ni tawa mi: kalama noka ni li kalama noka pi jan Jekil pi sona sijelo anu seme?”",
+  "notes": "“blood foully shed” remains Poole’s emotionally framed inference, not narrator-confirmed fact.",
+  "usage": {
+    "input_tokens": 2851,
+    "input_tokens_details": {
+      "cache_write_tokens": 2848,
+      "cached_tokens": 0
+    },
+    "output_tokens": 725,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3576
+  },
+  "success": true
+}

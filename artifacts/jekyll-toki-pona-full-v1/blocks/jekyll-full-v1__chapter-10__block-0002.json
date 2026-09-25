@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0002",
+  "sourceHash": "4c5c3d9076cd06d6559f2382e98373a03ff9725c2fa9902268e45c6ae8e7a18e",
+  "source": "And indeed the worst of my faults was a certain impatient gaiety of disposition, such as has made the happiness of many, but such as I found it hard to reconcile with my imperious desire to carry my head high, and wear a more than commonly grave countenance before the public.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0298cd8de86b2651016ab4363ea59087d2930b3ba360ddb735",
+      "visibleOutput": "TRANSLATION: kin la, ike mi suli nanpa wan li nasin ni: mi musi wawa, mi ken ala awen. nasin ni li pana e pilin pona tawa jan mute. taso mi la, ona li ken ala pona lon poka pi wile mi suli: mi wile sewi e lawa mi, li wile lukin suli li musi ala lon sinpin pi jan mute. mi pilin e ni: nasin tu ni li ken ala lon poka sama.\nNOTES: nimi “sewi e lawa mi” li awen e nasin toki sama pi toki open.",
+      "translation": "kin la, ike mi suli nanpa wan li nasin ni: mi musi wawa, mi ken ala awen. nasin ni li pana e pilin pona tawa jan mute. taso mi la, ona li ken ala pona lon poka pi wile mi suli: mi wile sewi e lawa mi, li wile lukin suli li musi ala lon sinpin pi jan mute. mi pilin e ni: nasin tu ni li ken ala lon poka sama.",
+      "notes": "nimi “sewi e lawa mi” li awen e nasin toki sama pi toki open.",
+      "usage": {
+        "input_tokens": 2803,
+        "input_tokens_details": {
+          "cache_write_tokens": 2800,
+          "cached_tokens": 0
+        },
+        "output_tokens": 400,
+        "output_tokens_details": {
+          "reasoning_tokens": 268
+        },
+        "total_tokens": 3203
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0298cd8de86b2651016ab4363ea59087d2930b3ba360ddb735",
+  "visibleOutput": "TRANSLATION: kin la, ike mi suli nanpa wan li nasin ni: mi musi wawa, mi ken ala awen. nasin ni li pana e pilin pona tawa jan mute. taso mi la, ona li ken ala pona lon poka pi wile mi suli: mi wile sewi e lawa mi, li wile lukin suli li musi ala lon sinpin pi jan mute. mi pilin e ni: nasin tu ni li ken ala lon poka sama.\nNOTES: nimi “sewi e lawa mi” li awen e nasin toki sama pi toki open.",
+  "translation": "kin la, ike mi suli nanpa wan li nasin ni: mi musi wawa, mi ken ala awen. nasin ni li pana e pilin pona tawa jan mute. taso mi la, ona li ken ala pona lon poka pi wile mi suli: mi wile sewi e lawa mi, li wile lukin suli li musi ala lon sinpin pi jan mute. mi pilin e ni: nasin tu ni li ken ala lon poka sama.",
+  "notes": "nimi “sewi e lawa mi” li awen e nasin toki sama pi toki open.",
+  "usage": {
+    "input_tokens": 2803,
+    "input_tokens_details": {
+      "cache_write_tokens": 2800,
+      "cached_tokens": 0
+    },
+    "output_tokens": 400,
+    "output_tokens_details": {
+      "reasoning_tokens": 268
+    },
+    "total_tokens": 3203
+  },
+  "success": true
+}

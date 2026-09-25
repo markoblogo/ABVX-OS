@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0035",
+  "sourceText": "“Bless me, Poole, what brings you here?” he cried; and then taking a second look at him, “What ails you?” he added; “is the doctor ill?”",
+  "sourceHash": "54cabdce79c63885ece7b4f28dd54fa2e9f3f3dab2ec4ec58f6141a58f91aabf",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09902adbaa3f5b9c016ab41e5a025c87d28f307eaabd44ef37",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”\nNOTES: NONE",
+      "translation": "“a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 185,
+        "output_tokens_details": {
+          "reasoning_tokens": 108
+        },
+        "total_tokens": 2995
+      },
+      "elapsedMs": 6292
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09902adbaa3f5b9c016ab41e5a025c87d28f307eaabd44ef37",
+  "visibleOutput": "TRANSLATION: “a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”\nNOTES: NONE",
+  "translation": "“a, jan Pulu o! seme li kama e sina tawa ni?” ona li toki wawa. ona li lukin sin e jan Pulu, li toki e ni: “ike seme li lon sina? jan Jekil pi sona sijelo li pilin ike anu seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2810,
+    "input_tokens_details": {
+      "cache_write_tokens": 2807,
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 108
+    },
+    "total_tokens": 2995
+  },
+  "success": true
+}

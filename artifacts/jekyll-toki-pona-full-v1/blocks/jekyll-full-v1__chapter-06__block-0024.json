@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0024",
+  "sourceHash": "579a8c0a8e24c2557c3aee6fa025f233d7f79980f902b6cea82e966b2e1f5c19",
+  "source": "A great curiosity came on the trustee, to disregard the prohibition and dive at once to the bottom of these mysteries; but professional honour and faith to his dead friend were stringent obligations; and the packet slept in the inmost corner of his private safe.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0faf339bf7064415016ab42e51485087d29c38db00f5d7c293",
+      "visibleOutput": "TRANSLATION: wile sona suli li kama lon jan Utason, jan awen pi lipu ni. ona li wile kute ala e toki pi open ala, li wile sona lon tenpo sama e ale pi ijo sona ala ni. taso nasin pona pi pali lawa ona en awen ona lon jan pona ona pi moli li lawa wawa e ona. ni la, kulupu lipu li awen lon ma insa mute pi poki awen pi ona taso.\n\nNOTES: NONE",
+      "translation": "wile sona suli li kama lon jan Utason, jan awen pi lipu ni. ona li wile kute ala e toki pi open ala, li wile sona lon tenpo sama e ale pi ijo sona ala ni. taso nasin pona pi pali lawa ona en awen ona lon jan pona ona pi moli li lawa wawa e ona. ni la, kulupu lipu li awen lon ma insa mute pi poki awen pi ona taso.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2791,
+        "input_tokens_details": {
+          "cache_write_tokens": 2788,
+          "cached_tokens": 0
+        },
+        "output_tokens": 542,
+        "output_tokens_details": {
+          "reasoning_tokens": 427
+        },
+        "total_tokens": 3333
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0faf339bf7064415016ab42e51485087d29c38db00f5d7c293",
+  "visibleOutput": "TRANSLATION: wile sona suli li kama lon jan Utason, jan awen pi lipu ni. ona li wile kute ala e toki pi open ala, li wile sona lon tenpo sama e ale pi ijo sona ala ni. taso nasin pona pi pali lawa ona en awen ona lon jan pona ona pi moli li lawa wawa e ona. ni la, kulupu lipu li awen lon ma insa mute pi poki awen pi ona taso.\n\nNOTES: NONE",
+  "translation": "wile sona suli li kama lon jan Utason, jan awen pi lipu ni. ona li wile kute ala e toki pi open ala, li wile sona lon tenpo sama e ale pi ijo sona ala ni. taso nasin pona pi pali lawa ona en awen ona lon jan pona ona pi moli li lawa wawa e ona. ni la, kulupu lipu li awen lon ma insa mute pi poki awen pi ona taso.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2791,
+    "input_tokens_details": {
+      "cache_write_tokens": 2788,
+      "cached_tokens": 0
+    },
+    "output_tokens": 542,
+    "output_tokens_details": {
+      "reasoning_tokens": 427
+    },
+    "total_tokens": 3333
+  },
+  "success": true
+}

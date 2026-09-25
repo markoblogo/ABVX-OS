@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1",
+  "gate": "JEKYLL_5_BLOCK_REAL_SMOKE_V1",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "realProvider": true,
+  "configurations": {
+    "originalSuccessful": "medium/2400",
+    "retryFailed": "low/3000"
+  },
+  "blocks": [
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0005",
+      "category": "A will/conditionality",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09af1955d3337a00016ab41aebc0b487d2af9af694d6510bd5",
+      "model": "gpt-5.6-sol",
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "outputTextLength": 1379,
+      "visibleText": "TRANSLATION: lipu lawa pi jan Jekil li sitelen luka ona. jan Utason li awen e lipu ni lon tenpo lipu li pini, taso ona li pana ala e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo en sona lawa en sona ante li moli la, ijo ale ona li kama lon luka pi “jan pona ona, jan pi pana pona tawa ona, jan Hata.” taso lipu li toki kin e ni: jan Jekil li weka lon tenpo mute, li toki ala tan seme, li weka lon tenpo mun tu wan anu mute la, jan Hata li kama jo e lon en ijo ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona li pana e mani lili tawa jan mute pi tomo jan Jekil. tenpo mute la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li sona lawa, li olin e nasin pi lawa pona e nasin pi jan mute. tan ni, toki nasa pi lipu li ike suli tawa ona. lon tenpo pini, sona ala ona pi jan Hata li suli e pilin utala ona. taso tenpo ni la, sona ona li suli e pilin ni. tenpo pini la, nimi “jan Hata” li nimi taso, li ike lon lawa pi lipu; jan Utason li ken ala sona e ijo ante tan nimi ni. taso tenpo ni la, ona li kama sona e nasin ike mute pi jan Hata, li pilin ike mute. lon insa pi kon pimeja pi sona ala, ni li awen e lukin ona lon tenpo mute. taso lon tenpo wan la, sitelen sona pi jan monsuta li kama lon lawa ona, li kama ken lukin, li kama wawa.\nNOTES: “fiend” is kept as jan Utason’s mental image, not narrator fact.",
+      "usage": {
+        "input_tokens": 2962,
+        "input_tokens_details": {
+          "cache_write_tokens": 2959,
+          "cached_tokens": 0
+        },
+        "output_tokens": 549,
+        "output_tokens_details": {
+          "reasoning_tokens": 103
+        },
+        "total_tokens": 3511
+      },
+      "qa": {
+        "result": "PASS_WITH_REVIEW",
+        "issues": [
+          "exact three-month condition needs editorial correction; output is complete but current phrasing is ambiguous"
+        ]
+      }
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0007",
+      "category": "B Utterson inference",
+      "status": "completed",
+      "responseId": "resp_0a65223f873f9273016ab41998be3487d2b12b20e8e91cb936",
+      "incompleteDetails": null,
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ],
+      "outputTextLength": 373,
+      "visibleText": "TRANSLATION: tan ni la, ona li pini e seli pi palisa suno, li len e sijelo ona kepeken len suli, li open tawa ma Kawenti. ma ni li ma tomo wawa pi sona sijelo. lon ni la, jan pona ona, jan Lanjon, li jan suli pi sona sijelo. tomo ona li lon ni, li kama jo e jan mute pi ike sijelo. tenpo pini la ona li toki insa e ni: “jan li sona e ni la, jan Lanjon li sona.”\nNOTES: NONE",
+      "usage": {
+        "input_tokens": 2725,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 2722
+        },
+        "output_tokens": 1091,
+        "output_tokens_details": {
+          "reasoning_tokens": 966
+        },
+        "total_tokens": 3816
+      },
+      "model": "gpt-5.6-sol",
+      "qa": {
+        "result": "PASS_WITH_REVIEW",
+        "issues": [
+          "inference remains a thought; translation is compressed and needs literary review"
+        ]
+      }
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-002:b0013",
+      "category": "C Lanyon opinion",
+      "status": "completed",
+      "responseId": "resp_0f51301cd065475e016ab419b2fe1487d2b935092e36baf6d0",
+      "incompleteDetails": null,
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "reasoning",
+        "message"
+      ],
+      "outputTextLength": 610,
+      "visibleText": "TRANSLATION: “tenpo pini la, mi tu li jo e ni,” ona li toki. “taso, tenpo sike luka luka en tenpo ante li pini tan kama ni: nasin pi jan Jekil li kama nasa mute tawa mi. ona li open tawa ike; lawa ona li kama ike. lon la, tan pona pi poka pi tenpo pini, mi awen pilin suli e ona, sama toki pi jan mute. taso, tenpo ni en tenpo pini la, mi lukin e jan ni lon tenpo pi mute lili a. toki nasa pi nasin sona ala sama ni,” jan pi sona sijelo li toki sin; sinpin ona li kama loje laso lon tenpo lili, “li ken weka e jan Tamen tan jan Pitijas kin.”\nNOTES: nimi Tamen en Pitijas li nimi ante tan nimi Damon en Pythias.",
+      "usage": {
+        "input_tokens": 2754,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 2751
+        },
+        "output_tokens": 1750,
+        "output_tokens_details": {
+          "reasoning_tokens": 1552
+        },
+        "total_tokens": 4504
+      },
+      "model": "gpt-5.6-sol",
+      "qa": {
+        "result": "PASS_WITH_REVIEW",
+        "issues": [
+          "Lanyon opinion and speech act preserved; name note requires independent name-policy review; time phrasing is awkward"
+        ]
+      }
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0024",
+      "category": "E identity/spoiler boundary",
+      "status": "completed",
+      "responseId": "resp_0d7cd0edc289b20f016ab419d5802c87d28a6cc018e44f81f7",
+      "incompleteDetails": null,
+      "outputItemTypes": [
+        "reasoning",
+        "reasoning",
+        "message"
+      ],
+      "outputTextLength": 443,
+      "visibleText": "TRANSLATION: “mi sona wawa e jan ni,” jan Jekil li toki sin. “mi jo e tan pi sona wawa ni, taso mi ken ala toki e tan ni tawa jan ante. taso ijo wan la sina ken pana e sona pona tawa mi. mi… mi kama jo e lipu. mi sona ala e ni: mi o pana e lipu ni tawa jan lawa, anu mi o pana ala. jan Utason o, mi wile pana e lipu ni tawa sina, sina o awen e ona. mi sona wawa e ni: sina kama sona pona e nasin pali. mi pilin pona mute lon sina.”\nNOTES: NONE",
+      "usage": {
+        "input_tokens": 2748,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cached_tokens": 2745
+        },
+        "output_tokens": 1187,
+        "output_tokens_details": {
+          "reasoning_tokens": 1034
+        },
+        "total_tokens": 3935
+      },
+      "model": "gpt-5.6-sol",
+      "qa": {
+        "result": "PASS",
+        "issues": [
+          "bounded certainty and withheld grounds preserved; no identity reveal"
+        ]
+      }
+    },
+    {
+      "blockId": "jekyll-sample-v2:section-003:b0028",
+      "category": "D letter/document claim",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06d558c8f7c2ea92016ab41afa509c87d2b5a81926122949f7",
+      "model": "gpt-5.6-sol",
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "outputTextLength": 702,
+      "visibleText": "TRANSLATION: sitelen luka lon lipu li nasa li tawa sewi, li jo e nimi “jan Hata.” toki lili pi lipu tan jan Hata li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e pona ala tawa ona lon tenpo mute. jan Jekil o monsuta ala lon awen pona pi jan sitelen, tan ni: jan sitelen li jo e nasin weka, li pilin wawa e ni: nasin ni li pali pona. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. tan lipu ni la, poka pi jan Jekil en jan Hata li lukin pona tawa ona, li pona mute lon pilin ona la ona li awen ala. ona li pakala e ona tan pilin ike pi tenpo pini.\nNOTES: nasin weka en awen pona li toki pi lipu taso; ni li lon ala lon sona pi toki pana.",
+      "usage": {
+        "input_tokens": 2766,
+        "input_tokens_details": {
+          "cache_write_tokens": 2763,
+          "cached_tokens": 0
+        },
+        "output_tokens": 647,
+        "output_tokens_details": {
+          "reasoning_tokens": 417
+        },
+        "total_tokens": 3413
+      },
+      "qa": {
+        "result": "PASS_WITH_REVIEW",
+        "issues": [
+          "document status preserved; claim wording and literary compression require editorial review"
+        ]
+      }
+    }
+  ],
+  "providerSmoke": "PASS_WITH_REVIEW",
+  "productionReasoning": "LOW_CANDIDATE_UNRESOLVED"
+}

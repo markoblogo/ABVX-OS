@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0012",
+  "sourceHash": "eb3bec5b13ae037de144885bf77f8edfa4e01ed10a900faff1dd9c0357a3d5f7",
+  "source": "Jekyll, whom he had long so unworthily repaid for a thousand generosities, need labour under no alarm for his safety, as he had means of escape on which he placed a sure dependence. The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions. “Have you the envelope?” he asked.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ab68381a5851c32016ab42c28663887d28c88deea31a59b56",
+      "visibleOutput": "TRANSLATION: lipu tan jan Hata li toki e ni: tenpo mute la jan Jekil li pana e pona mute mute tawa jan Hata. taso jan Hata li pana ala e pona sama tawa ona; ni li pona ala mute. jan Jekil o monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin kin e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona tawa ona la, li ike ala sama pilin ona pi tenpo pini. ona li pilin e ni: pilin ike ona pi tenpo pini li pakala. ona li toki e ni: “sina jo ala jo e poki lipu?”\nNOTES: lipu ni taso li toki e ken weka pi jan Hata; ni li lon pi sona ala.",
+      "translation": "lipu tan jan Hata li toki e ni: tenpo mute la jan Jekil li pana e pona mute mute tawa jan Hata. taso jan Hata li pana ala e pona sama tawa ona; ni li pona ala mute. jan Jekil o monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin kin e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona tawa ona la, li ike ala sama pilin ona pi tenpo pini. ona li pilin e ni: pilin ike ona pi tenpo pini li pakala. ona li toki e ni: “sina jo ala jo e poki lipu?”",
+      "notes": "lipu ni taso li toki e ken weka pi jan Hata; ni li lon pi sona ala.",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 739,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3572
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ab68381a5851c32016ab42c28663887d28c88deea31a59b56",
+  "visibleOutput": "TRANSLATION: lipu tan jan Hata li toki e ni: tenpo mute la jan Jekil li pana e pona mute mute tawa jan Hata. taso jan Hata li pana ala e pona sama tawa ona; ni li pona ala mute. jan Jekil o monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin kin e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona tawa ona la, li ike ala sama pilin ona pi tenpo pini. ona li pilin e ni: pilin ike ona pi tenpo pini li pakala. ona li toki e ni: “sina jo ala jo e poki lipu?”\nNOTES: lipu ni taso li toki e ken weka pi jan Hata; ni li lon pi sona ala.",
+  "translation": "lipu tan jan Hata li toki e ni: tenpo mute la jan Jekil li pana e pona mute mute tawa jan Hata. taso jan Hata li pana ala e pona sama tawa ona; ni li pona ala mute. jan Jekil o monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin kin e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona tawa ona la, li ike ala sama pilin ona pi tenpo pini. ona li pilin e ni: pilin ike ona pi tenpo pini li pakala. ona li toki e ni: “sina jo ala jo e poki lipu?”",
+  "notes": "lipu ni taso li toki e ken weka pi jan Hata; ni li lon pi sona ala.",
+  "usage": {
+    "input_tokens": 2833,
+    "input_tokens_details": {
+      "cache_write_tokens": 2830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 739,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3572
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0017",
+  "sourceHash": "3c9323c0475905c4137f5263e7295a964725627766bf461203dd7aca5f8e075b",
+  "source": "Enough, then, that I not only recognised my natural body for the mere aura and effulgence of certain of the powers that made up my spirit, but managed to compound a drug by which these powers should be dethroned from their supremacy, and a second form and countenance substituted, none the less natural to me because they were the expression, and bore the stamp, of lower elements in my soul.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

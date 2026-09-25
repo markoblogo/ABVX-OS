@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0014",
+  "sourceHash": "c3ab3f1a97371fd069d7b6119e86a3c32b30b11931db47587ee515fb93506193",
+  "source": "“Hyde?” repeated Lanyon. “No. Never heard of him. Since my time.” That was the amount of information that the lawyer carried back with him to the great, dark bed on which he tossed to and fro, until the small hours of the morning began to grow large. It was a night of little ease to his toiling mind, toiling in mere darkness and besieged by questions.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c4d122d89a18507016ab427221bac87d2b5885905e8c86395",
+      "visibleOutput": "TRANSLATION: “jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e nimi ona. lon tenpo mi la, ala.” sona ni taso li lon jan Utason pi sona lawa, la ona li kama sin tawa supa lape suli pimeja. ona li tawa e sijelo ona tawa poka ni tawa poka ante, tawa tenpo ni: tenpo lili pi open suno li kama suli. lon pimeja ni la, pilin ona li ken lape lili taso. lawa ona li pali wawa lon pimeja taso, li kama jo e wile sona mute tan poka ale.\nNOTES: “Since my time” is fragmentary and ambiguous in the source; rendered without further explanation.",
+      "translation": "“jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e nimi ona. lon tenpo mi la, ala.” sona ni taso li lon jan Utason pi sona lawa, la ona li kama sin tawa supa lape suli pimeja. ona li tawa e sijelo ona tawa poka ni tawa poka ante, tawa tenpo ni: tenpo lili pi open suno li kama suli. lon pimeja ni la, pilin ona li ken lape lili taso. lawa ona li pali wawa lon pimeja taso, li kama jo e wile sona mute tan poka ale.",
+      "notes": "“Since my time” is fragmentary and ambiguous in the source; rendered without further explanation.",
+      "usage": {
+        "input_tokens": 2832,
+        "input_tokens_details": {
+          "cache_write_tokens": 2829,
+          "cached_tokens": 0
+        },
+        "output_tokens": 315,
+        "output_tokens_details": {
+          "reasoning_tokens": 144
+        },
+        "total_tokens": 3147
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c4d122d89a18507016ab427221bac87d2b5885905e8c86395",
+  "visibleOutput": "TRANSLATION: “jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e nimi ona. lon tenpo mi la, ala.” sona ni taso li lon jan Utason pi sona lawa, la ona li kama sin tawa supa lape suli pimeja. ona li tawa e sijelo ona tawa poka ni tawa poka ante, tawa tenpo ni: tenpo lili pi open suno li kama suli. lon pimeja ni la, pilin ona li ken lape lili taso. lawa ona li pali wawa lon pimeja taso, li kama jo e wile sona mute tan poka ale.\nNOTES: “Since my time” is fragmentary and ambiguous in the source; rendered without further explanation.",
+  "translation": "“jan Hata?” jan Lanjon li toki sin. “ala. mi kute ala e nimi ona. lon tenpo mi la, ala.” sona ni taso li lon jan Utason pi sona lawa, la ona li kama sin tawa supa lape suli pimeja. ona li tawa e sijelo ona tawa poka ni tawa poka ante, tawa tenpo ni: tenpo lili pi open suno li kama suli. lon pimeja ni la, pilin ona li ken lape lili taso. lawa ona li pali wawa lon pimeja taso, li kama jo e wile sona mute tan poka ale.",
+  "notes": "“Since my time” is fragmentary and ambiguous in the source; rendered without further explanation.",
+  "usage": {
+    "input_tokens": 2832,
+    "input_tokens_details": {
+      "cache_write_tokens": 2829,
+      "cached_tokens": 0
+    },
+    "output_tokens": 315,
+    "output_tokens_details": {
+      "reasoning_tokens": 144
+    },
+    "total_tokens": 3147
+  },
+  "success": true
+}

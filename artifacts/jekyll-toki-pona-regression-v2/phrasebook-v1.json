@@ -1,0 +1,14 @@
+{
+  "version": "jekyll-phrasebook-v1",
+  "terms": {
+    "will": "lipu lawa",
+    "unexplained absence": "weka lon tenpo mute li toki ala tan seme",
+    "laboratory": "tomo pi pali sona",
+    "cabinet": "tomo insa",
+    "claim": "toki pi jan",
+    "witness": "jan lukin",
+    "confidence": "sona wawa",
+    "escape": "weka"
+  },
+  "note": "Small project phrasebook; literary choices remain review-gated."
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0023",
+  "sourceHash": "4ed7f3e66ca567bd1ac361a1ea4bd1ed2f01f8cdad29df32f1827cfdbbcf3444",
+  "source": "If his messenger could go to one place, why could he not go to another? And even granting some impediment, why was this gentleman to be received by me in secret?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ade3bc78739b734016ab434aa7e8087d2a061b95f2411ed48",
+      "visibleOutput": "TRANSLATION: jan pi pana toki ona li ken tawa ma wan la, tan seme la ona li ken ala tawa ma ante? ken la, ijo li pake e ona. taso tan seme la mi o kama lukin e jan ni lon nasin ni: jan ante li sona ala?\n\nNOTES: NONE",
+      "translation": "jan pi pana toki ona li ken tawa ma wan la, tan seme la ona li ken ala tawa ma ante? ken la, ijo li pake e ona. taso tan seme la mi o kama lukin e jan ni lon nasin ni: jan ante li sona ala?",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2776,
+        "input_tokens_details": {
+          "cache_write_tokens": 2773,
+          "cached_tokens": 0
+        },
+        "output_tokens": 279,
+        "output_tokens_details": {
+          "reasoning_tokens": 204
+        },
+        "total_tokens": 3055
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ade3bc78739b734016ab434aa7e8087d2a061b95f2411ed48",
+  "visibleOutput": "TRANSLATION: jan pi pana toki ona li ken tawa ma wan la, tan seme la ona li ken ala tawa ma ante? ken la, ijo li pake e ona. taso tan seme la mi o kama lukin e jan ni lon nasin ni: jan ante li sona ala?\n\nNOTES: NONE",
+  "translation": "jan pi pana toki ona li ken tawa ma wan la, tan seme la ona li ken ala tawa ma ante? ken la, ijo li pake e ona. taso tan seme la mi o kama lukin e jan ni lon nasin ni: jan ante li sona ala?",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2776,
+    "input_tokens_details": {
+      "cache_write_tokens": 2773,
+      "cached_tokens": 0
+    },
+    "output_tokens": 279,
+    "output_tokens_details": {
+      "reasoning_tokens": 204
+    },
+    "total_tokens": 3055
+  },
+  "success": true
+}

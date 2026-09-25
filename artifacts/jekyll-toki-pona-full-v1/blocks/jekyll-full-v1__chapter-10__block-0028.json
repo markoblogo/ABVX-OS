@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0028",
+  "sourceHash": "53ddcc4fe3e550ba20e4db0ec383c76d204d92d165de97a82f526ead02d19335",
+  "source": "Again, in the course of my life, which had been, after all, nine-tenths a life of effort, virtue, and control, it had been much less exercised and much less exhausted. And hence, as I think, it came about that Edward Hyde was so much smaller, slighter, and younger than Henry Jekyll.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

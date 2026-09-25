@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0005",
+  "sourceText": "The will was holograph, for Mr. Utterson, though he took charge of it now that it was made, had refused to lend the least assistance in the making of it; it provided not only that, in case of the decease of Henry Jekyll, M.D., D.C.L., L.L.D., F.R.S., etc., all his possessions were to pass into the hands of his “friend and benefactor Edward Hyde,” but that in case of Dr. Jekyll’s “disappearance or unexplained absence for any period exceeding three calendar months,” the said Edward Hyde should step into the said Henry Jekyll’s shoes without further delay and free from any burthen or obligation, beyond the payment of a few small sums to the members of the doctor’s household. This document had long been the lawyer’s eyesore. It offended him both as a lawyer and as a lover of the sane and customary sides of life, to whom the fanciful was the immodest. And hitherto it was his ignorance of Mr. Hyde that had swelled his indignation; now, by a sudden turn, it was his knowledge. It was already bad enough when the name was but a name of which he could learn no more. It was worse when it began to be clothed upon with detestable attributes; and out of the shifting, insubstantial mists that had so long baffled his eye, there leaped up the sudden, definite presentment of a fiend.",
+  "sourceHash": "3da0092793c073c84d45f6ac66a0e49b5740a91f53a79c01ab1e374c9dd31ad0",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_011ea7ef37c9bc5b016ab41d22e06c87d2aaa8dd3e07c4a1b0",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.\nNOTES: “jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+      "translation": "jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.",
+      "notes": "“jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+      "usage": {
+        "input_tokens": 3087,
+        "input_tokens_details": {
+          "cache_write_tokens": 3084,
+          "cached_tokens": 0
+        },
+        "output_tokens": 575,
+        "output_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "total_tokens": 3662
+      },
+      "elapsedMs": 16419
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_011ea7ef37c9bc5b016ab41d22e06c87d2aaa8dd3e07c4a1b0",
+  "visibleOutput": "TRANSLATION: jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.\nNOTES: “jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+  "translation": "jan Jekil li sitelen e lipu lawa ni kepeken luka ona. jan Utason li awen e lipu ni tan tenpo pini pi pali ona, taso ona li wile ala pana e pona lili tawa pali pi lipu ni. lipu li toki e ni: jan Jekil pi sona sijelo li moli la, ijo ale ona li kama lon luka pi “jan pona en jan pana pona ona, jan Hata.” kin la, jan Jekil li weka lon tenpo mute, li toki ala tan seme, li awen weka lon tenpo mun tu wan anu lon tenpo suli la, jan Hata li kama jo e ma en ijo en pali ale pi jan Jekil lon tenpo lili ala. ona li jo ala e pali wile ante; taso ona o pana e mani lili mute tawa jan pali pi tomo jan Jekil. tenpo suli la, lipu ni li ike tawa lukin pi jan Utason pi sona lawa. ona li pilin ike tan lipu ni lon nasin tu: ona li jan pi sona lawa, li olin e nasin pi sona pona e nasin pi jan mute; tawa ona la, toki nasa pi pilin taso li toki pi pona ala. lon tenpo pini la, ona li sona ala e jan Hata; sona ala ni li suli e pilin utala ona. taso lon tenpo ni, ante pi tenpo lili la, sona ona li suli e pilin ni. tenpo pini la, nimi Hata li nimi taso, li ike mute a, tan ni: jan Utason li ken ala kama sona e ijo ante. taso nimi ni li kama jo e nasin ike pi ken ala olin la, ike li suli. tenpo suli la, sona pi jan Utason li lon sama kon pimeja pi ante mute; kon ni li ken ala jo, li pini e lukin ona. taso lon tenpo lili ni, sitelen pi jan monsuta li kama lon sona ona: sitelen ni li wawa, li pona lukin kepeken nasin pi sona ona.",
+  "notes": "“jan monsuta” en nasin ike li sitelen e pilin en sona pi jan Utason taso; ona li toki ala e lon pi jan Hata.",
+  "usage": {
+    "input_tokens": 3087,
+    "input_tokens_details": {
+      "cache_write_tokens": 3084,
+      "cached_tokens": 0
+    },
+    "output_tokens": 575,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 3662
+  },
+  "success": true
+}

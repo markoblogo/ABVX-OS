@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0010",
+  "sourceHash": "007be173d0d0bd7f9370e1ebc09f9e91c1380dec42758125a9836be9e5bef7a8",
+  "source": "Even on Sunday, when it veiled its more florid charms and lay comparatively empty of passage, the street shone out in contrast to its dingy neighbourhood, like a fire in a forest; and with its freshly painted shutters, well-polished brasses, and general cleanliness and gaiety of note, instantly caught and pleased the eye of the passenger.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_088f91910a4ee6df016ab424db688087d2b8aa9ffb5c418195",
+      "visibleOutput": "TRANSLATION: lon suno Sante kin, nasin ni li pana ala e pona lukin ona pi kule mute, li jo e jan tawa lili taso. taso ona li suno lon poka pi ma tomo jaki pimeja, sama seli lon ma kasi. sinpin awen pi lupa ona li jo e kule sin; ijo kiwen jelo ona li suno pona; ale ona li jaki ala li musi lukin. tan ni la, jan tawa li lukin e nasin ni lon tenpo lili taso, li pilin pona tan ona.\nNOTES: nimi “suno Sante” li nimi pi suno Sunday.",
+      "translation": "lon suno Sante kin, nasin ni li pana ala e pona lukin ona pi kule mute, li jo e jan tawa lili taso. taso ona li suno lon poka pi ma tomo jaki pimeja, sama seli lon ma kasi. sinpin awen pi lupa ona li jo e kule sin; ijo kiwen jelo ona li suno pona; ale ona li jaki ala li musi lukin. tan ni la, jan tawa li lukin e nasin ni lon tenpo lili taso, li pilin pona tan ona.",
+      "notes": "nimi “suno Sante” li nimi pi suno Sunday.",
+      "usage": {
+        "input_tokens": 2806,
+        "input_tokens_details": {
+          "cache_write_tokens": 2803,
+          "cached_tokens": 0
+        },
+        "output_tokens": 561,
+        "output_tokens_details": {
+          "reasoning_tokens": 414
+        },
+        "total_tokens": 3367
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_088f91910a4ee6df016ab424db688087d2b8aa9ffb5c418195",
+  "visibleOutput": "TRANSLATION: lon suno Sante kin, nasin ni li pana ala e pona lukin ona pi kule mute, li jo e jan tawa lili taso. taso ona li suno lon poka pi ma tomo jaki pimeja, sama seli lon ma kasi. sinpin awen pi lupa ona li jo e kule sin; ijo kiwen jelo ona li suno pona; ale ona li jaki ala li musi lukin. tan ni la, jan tawa li lukin e nasin ni lon tenpo lili taso, li pilin pona tan ona.\nNOTES: nimi “suno Sante” li nimi pi suno Sunday.",
+  "translation": "lon suno Sante kin, nasin ni li pana ala e pona lukin ona pi kule mute, li jo e jan tawa lili taso. taso ona li suno lon poka pi ma tomo jaki pimeja, sama seli lon ma kasi. sinpin awen pi lupa ona li jo e kule sin; ijo kiwen jelo ona li suno pona; ale ona li jaki ala li musi lukin. tan ni la, jan tawa li lukin e nasin ni lon tenpo lili taso, li pilin pona tan ona.",
+  "notes": "nimi “suno Sante” li nimi pi suno Sunday.",
+  "usage": {
+    "input_tokens": 2806,
+    "input_tokens_details": {
+      "cache_write_tokens": 2803,
+      "cached_tokens": 0
+    },
+    "output_tokens": 561,
+    "output_tokens_details": {
+      "reasoning_tokens": 414
+    },
+    "total_tokens": 3367
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0005",
+  "sourceHash": "72460835bc12cbd92a7d44613789b3f24e480006850706b4b257764c40d9f1aa",
+  "source": "“Come,” said the lawyer, “I see you have some good reason, Poole; I see there is something seriously amiss. Try to tell me what it is.” “I think there’s been foul play,” said Poole, hoarsely. “Foul play!” cried the lawyer, a good deal frightened and rather inclined to be irritated in consequence. “What foul play? What does the man mean?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a08145115a64214016ab42f37e93087d28b80b0ef3270f28f",
+      "visibleOutput": "TRANSLATION: “o toki,” jan Utason pi sona lawa li toki. “jan Pulu o, mi lukin la, sina jo e tan pona. mi lukin e ni: ijo ike suli li lon. o alasa toki e ijo ni tawa mi.” jan Pulu li toki kepeken kalama pakala: “mi pilin e ni: jan li pali e ijo ike pi lawa ala.” jan Utason pi sona lawa li kalama suli: “pali ike pi lawa ala!” ona li pilin monsuta mute, li kama pilin utala lili tan ni. “pali ike seme? jan ni li toki e seme?”\nNOTES: “foul play” is kept as Poole’s suspicion of unlawful wrongdoing, without specifying an unverified crime.",
+      "translation": "“o toki,” jan Utason pi sona lawa li toki. “jan Pulu o, mi lukin la, sina jo e tan pona. mi lukin e ni: ijo ike suli li lon. o alasa toki e ijo ni tawa mi.” jan Pulu li toki kepeken kalama pakala: “mi pilin e ni: jan li pali e ijo ike pi lawa ala.” jan Utason pi sona lawa li kalama suli: “pali ike pi lawa ala!” ona li pilin monsuta mute, li kama pilin utala lili tan ni. “pali ike seme? jan ni li toki e seme?”",
+      "notes": "“foul play” is kept as Poole’s suspicion of unlawful wrongdoing, without specifying an unverified crime.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 436,
+        "output_tokens_details": {
+          "reasoning_tokens": 261
+        },
+        "total_tokens": 3256
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a08145115a64214016ab42f37e93087d28b80b0ef3270f28f",
+  "visibleOutput": "TRANSLATION: “o toki,” jan Utason pi sona lawa li toki. “jan Pulu o, mi lukin la, sina jo e tan pona. mi lukin e ni: ijo ike suli li lon. o alasa toki e ijo ni tawa mi.” jan Pulu li toki kepeken kalama pakala: “mi pilin e ni: jan li pali e ijo ike pi lawa ala.” jan Utason pi sona lawa li kalama suli: “pali ike pi lawa ala!” ona li pilin monsuta mute, li kama pilin utala lili tan ni. “pali ike seme? jan ni li toki e seme?”\nNOTES: “foul play” is kept as Poole’s suspicion of unlawful wrongdoing, without specifying an unverified crime.",
+  "translation": "“o toki,” jan Utason pi sona lawa li toki. “jan Pulu o, mi lukin la, sina jo e tan pona. mi lukin e ni: ijo ike suli li lon. o alasa toki e ijo ni tawa mi.” jan Pulu li toki kepeken kalama pakala: “mi pilin e ni: jan li pali e ijo ike pi lawa ala.” jan Utason pi sona lawa li kalama suli: “pali ike pi lawa ala!” ona li pilin monsuta mute, li kama pilin utala lili tan ni. “pali ike seme? jan ni li toki e seme?”",
+  "notes": "“foul play” is kept as Poole’s suspicion of unlawful wrongdoing, without specifying an unverified crime.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 436,
+    "output_tokens_details": {
+      "reasoning_tokens": 261
+    },
+    "total_tokens": 3256
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0040",
+  "sourceHash": "707599fb1184e5059326f27b5abec151f012c348b28b62b2a70ec02f0c1a4e67",
+  "source": "I rose from my place with something of an effort and gave him what he asked. He thanked me with a smiling nod, measured out a few minims of the red tincture and added one of the powders. The mixture, which was at first of a reddish hue, began, in proportion as the crystals melted, to brighten in colour, to effervesce audibly, and to throw off small fumes of vapour.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e67624550cdfe67016ab4358d37c487d287d3052f061bed7e",
+      "visibleOutput": "TRANSLATION: mi wile wawa lili la, mi kama sewi tan ma mi, li pana tawa ona e ijo ni: ona li wile e ona. ona li toki pona tawa mi, li musi, li anpa e lawa. ona li kipisi e mute lili pi telo loje, li pana sin e ko wan. open la, kule pi telo wan ni li loje lili. taso ko kiwen li kama telo la, kule ona li kama suno mute, li pali e sike kon kalama, li pana e kon telo lili.\nNOTES: NONE",
+      "translation": "mi wile wawa lili la, mi kama sewi tan ma mi, li pana tawa ona e ijo ni: ona li wile e ona. ona li toki pona tawa mi, li musi, li anpa e lawa. ona li kipisi e mute lili pi telo loje, li pana sin e ko wan. open la, kule pi telo wan ni li loje lili. taso ko kiwen li kama telo la, kule ona li kama suno mute, li pali e sike kon kalama, li pana e kon telo lili.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 527,
+        "output_tokens_details": {
+          "reasoning_tokens": 393
+        },
+        "total_tokens": 3353
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e67624550cdfe67016ab4358d37c487d287d3052f061bed7e",
+  "visibleOutput": "TRANSLATION: mi wile wawa lili la, mi kama sewi tan ma mi, li pana tawa ona e ijo ni: ona li wile e ona. ona li toki pona tawa mi, li musi, li anpa e lawa. ona li kipisi e mute lili pi telo loje, li pana sin e ko wan. open la, kule pi telo wan ni li loje lili. taso ko kiwen li kama telo la, kule ona li kama suno mute, li pali e sike kon kalama, li pana e kon telo lili.\nNOTES: NONE",
+  "translation": "mi wile wawa lili la, mi kama sewi tan ma mi, li pana tawa ona e ijo ni: ona li wile e ona. ona li toki pona tawa mi, li musi, li anpa e lawa. ona li kipisi e mute lili pi telo loje, li pana sin e ko wan. open la, kule pi telo wan ni li loje lili. taso ko kiwen li kama telo la, kule ona li kama suno mute, li pali e sike kon kalama, li pana e kon telo lili.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 527,
+    "output_tokens_details": {
+      "reasoning_tokens": 393
+    },
+    "total_tokens": 3353
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0085",
+  "sourceHash": "17a1fd3caa15925cdd4ab8591e513d679ec3da25fad1db3085a39511231772c6",
+  "source": "Not that I dreamed of resuscitating Hyde; the bare idea of that would startle me to frenzy: no, it was in my own person, that I was once more tempted to trifle with my conscience; and it was as an ordinary secret sinner, that I at last fell before the assaults of temptation.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

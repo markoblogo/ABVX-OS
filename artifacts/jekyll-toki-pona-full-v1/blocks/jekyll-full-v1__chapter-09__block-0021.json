@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0021",
+  "sourceHash": "50d2041c19c2f2c79e15e7d566002ee0b6f0d5f2b75aae09956570480c328b90",
+  "source": "Here and there a brief remark was appended to a date, usually no more than a single word: “double” occurring perhaps six times in a total of several hundred entries; and once very early in the list and followed by several marks of exclamation, “total failure!!!” All this, though it whetted my curiosity, told me little that was definite.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08ee328026ef2019016ab4347cf4dc87d2aa948eb4ab556829",
+      "visibleOutput": "TRANSLATION: Lon ma wan wan pi lipu ni, toki lili li kama lon poka pi nimi tenpo. tenpo mute la, ona li nimi wan taso. nimi “tu” li lon kulupu mute pi sitelen ale ni ken lon tenpo luka wan. kin la, lon open a pi lipu nimi, toki “pali li pakala ale!!!” li lon, li jo e sitelen kalama mute. ni ale li suli e wile sona mi, taso tan ni mi sona pona e ijo lili taso.\nNOTES: “double” is rendered as the document’s ambiguous single word “tu”; uncertainty about its frequency is preserved.",
+      "translation": "Lon ma wan wan pi lipu ni, toki lili li kama lon poka pi nimi tenpo. tenpo mute la, ona li nimi wan taso. nimi “tu” li lon kulupu mute pi sitelen ale ni ken lon tenpo luka wan. kin la, lon open a pi lipu nimi, toki “pali li pakala ale!!!” li lon, li jo e sitelen kalama mute. ni ale li suli e wile sona mi, taso tan ni mi sona pona e ijo lili taso.",
+      "notes": "“double” is rendered as the document’s ambiguous single word “tu”; uncertainty about its frequency is preserved.",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 2810,
+          "cached_tokens": 0
+        },
+        "output_tokens": 663,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3476
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08ee328026ef2019016ab4347cf4dc87d2aa948eb4ab556829",
+  "visibleOutput": "TRANSLATION: Lon ma wan wan pi lipu ni, toki lili li kama lon poka pi nimi tenpo. tenpo mute la, ona li nimi wan taso. nimi “tu” li lon kulupu mute pi sitelen ale ni ken lon tenpo luka wan. kin la, lon open a pi lipu nimi, toki “pali li pakala ale!!!” li lon, li jo e sitelen kalama mute. ni ale li suli e wile sona mi, taso tan ni mi sona pona e ijo lili taso.\nNOTES: “double” is rendered as the document’s ambiguous single word “tu”; uncertainty about its frequency is preserved.",
+  "translation": "Lon ma wan wan pi lipu ni, toki lili li kama lon poka pi nimi tenpo. tenpo mute la, ona li nimi wan taso. nimi “tu” li lon kulupu mute pi sitelen ale ni ken lon tenpo luka wan. kin la, lon open a pi lipu nimi, toki “pali li pakala ale!!!” li lon, li jo e sitelen kalama mute. ni ale li suli e wile sona mi, taso tan ni mi sona pona e ijo lili taso.",
+  "notes": "“double” is rendered as the document’s ambiguous single word “tu”; uncertainty about its frequency is preserved.",
+  "usage": {
+    "input_tokens": 2813,
+    "input_tokens_details": {
+      "cache_write_tokens": 2810,
+      "cached_tokens": 0
+    },
+    "output_tokens": 663,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3476
+  },
+  "success": true
+}

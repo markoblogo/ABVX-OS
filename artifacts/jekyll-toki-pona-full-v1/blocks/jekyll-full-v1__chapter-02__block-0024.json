@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0024",
+  "sourceHash": "433cce290695db49ff923aa86cb6e3ec496829e1132ba293f262f3559ff8885b",
+  "source": "By ten o’clock, when the shops were closed, the by-street was very solitary and, in spite of the low growl of London from all round, very silent. Small sounds carried far; domestic sounds out of the houses were clearly audible on either side of the roadway; and the rumour of the approach of any passenger preceded him by a long time. Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c5f036bc00388e6016ab427966b8887d2992db028bdd32254",
+      "visibleOutput": "TRANSLATION: tenpo pi ilo tenpo nanpa luka luka la, tomo esun li pini. nasin lili li jo ala e jan. kalama anpa pi ma tomo Lantan li kama tan poka ale; taso nasin li kalama ala mute. kalama lili li tawa weka. kalama pi tomo jan li kama tan tomo lon poka tu pi nasin, li ken kute pona. jan li kama la, kalama ona li kama lon tenpo suli lon sinpin ona. jan...\nNOTES: nimi “Mr.” lon pini li pini ala; tan ni la nimi “jan...” li awen e pini ni.",
+      "translation": "tenpo pi ilo tenpo nanpa luka luka la, tomo esun li pini. nasin lili li jo ala e jan. kalama anpa pi ma tomo Lantan li kama tan poka ale; taso nasin li kalama ala mute. kalama lili li tawa weka. kalama pi tomo jan li kama tan tomo lon poka tu pi nasin, li ken kute pona. jan li kama la, kalama ona li kama lon tenpo suli lon sinpin ona. jan...",
+      "notes": "nimi “Mr.” lon pini li pini ala; tan ni la nimi “jan...” li awen e pini ni.",
+      "usage": {
+        "input_tokens": 2813,
+        "input_tokens_details": {
+          "cache_write_tokens": 2810,
+          "cached_tokens": 0
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 119
+        },
+        "total_tokens": 3075
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c5f036bc00388e6016ab427966b8887d2992db028bdd32254",
+  "visibleOutput": "TRANSLATION: tenpo pi ilo tenpo nanpa luka luka la, tomo esun li pini. nasin lili li jo ala e jan. kalama anpa pi ma tomo Lantan li kama tan poka ale; taso nasin li kalama ala mute. kalama lili li tawa weka. kalama pi tomo jan li kama tan tomo lon poka tu pi nasin, li ken kute pona. jan li kama la, kalama ona li kama lon tenpo suli lon sinpin ona. jan...\nNOTES: nimi “Mr.” lon pini li pini ala; tan ni la nimi “jan...” li awen e pini ni.",
+  "translation": "tenpo pi ilo tenpo nanpa luka luka la, tomo esun li pini. nasin lili li jo ala e jan. kalama anpa pi ma tomo Lantan li kama tan poka ale; taso nasin li kalama ala mute. kalama lili li tawa weka. kalama pi tomo jan li kama tan tomo lon poka tu pi nasin, li ken kute pona. jan li kama la, kalama ona li kama lon tenpo suli lon sinpin ona. jan...",
+  "notes": "nimi “Mr.” lon pini li pini ala; tan ni la nimi “jan...” li awen e pini ni.",
+  "usage": {
+    "input_tokens": 2813,
+    "input_tokens_details": {
+      "cache_write_tokens": 2810,
+      "cached_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 119
+    },
+    "total_tokens": 3075
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0067",
+  "sourceHash": "b23bb051cffc1d502f83cb9df49f5d2a259e4a73c983351b0402fb8ae160008b",
+  "source": "“Use!” echoed Poole. “Do you not see, sir, it is broken? much as if a man had stamped on it.” “Ay,” continued Utterson, “and the fractures, too, are rusty.” The two men looked at each other with a scare. “This is beyond me, Poole,” said the lawyer. “Let us go back to the cabinet.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0233f26160fcca97016ab4323b4da487d29fb439d8915a1487",
+      "visibleOutput": "TRANSLATION: “Kepeken!” jan Pulu li toki sin. “jan lawa o, sina lukin ala lukin e ni? ilo ni li pakala. ona li sama ilo pi jan li anpa wawa e ona kepeken noka.” jan Utason li toki sin: “lon. ma pakala ona kin li loje jaki tan tenpo.” jan tu li lukin e jan ante kepeken pilin monsuta. jan pi sona lawa li toki: “jan Pulu o, mi ken ala sona e ni. mi tu o tawa sin lon tomo insa pi jan Jekil.”\nNOTES: “Rusty” is rendered descriptively as old, dirty redness to avoid specifying a modern material process.",
+      "translation": "“Kepeken!” jan Pulu li toki sin. “jan lawa o, sina lukin ala lukin e ni? ilo ni li pakala. ona li sama ilo pi jan li anpa wawa e ona kepeken noka.” jan Utason li toki sin: “lon. ma pakala ona kin li loje jaki tan tenpo.” jan tu li lukin e jan ante kepeken pilin monsuta. jan pi sona lawa li toki: “jan Pulu o, mi ken ala sona e ni. mi tu o tawa sin lon tomo insa pi jan Jekil.”",
+      "notes": "“Rusty” is rendered descriptively as old, dirty redness to avoid specifying a modern material process.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 240,
+        "output_tokens_details": {
+          "reasoning_tokens": 80
+        },
+        "total_tokens": 3054
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0233f26160fcca97016ab4323b4da487d29fb439d8915a1487",
+  "visibleOutput": "TRANSLATION: “Kepeken!” jan Pulu li toki sin. “jan lawa o, sina lukin ala lukin e ni? ilo ni li pakala. ona li sama ilo pi jan li anpa wawa e ona kepeken noka.” jan Utason li toki sin: “lon. ma pakala ona kin li loje jaki tan tenpo.” jan tu li lukin e jan ante kepeken pilin monsuta. jan pi sona lawa li toki: “jan Pulu o, mi ken ala sona e ni. mi tu o tawa sin lon tomo insa pi jan Jekil.”\nNOTES: “Rusty” is rendered descriptively as old, dirty redness to avoid specifying a modern material process.",
+  "translation": "“Kepeken!” jan Pulu li toki sin. “jan lawa o, sina lukin ala lukin e ni? ilo ni li pakala. ona li sama ilo pi jan li anpa wawa e ona kepeken noka.” jan Utason li toki sin: “lon. ma pakala ona kin li loje jaki tan tenpo.” jan tu li lukin e jan ante kepeken pilin monsuta. jan pi sona lawa li toki: “jan Pulu o, mi ken ala sona e ni. mi tu o tawa sin lon tomo insa pi jan Jekil.”",
+  "notes": "“Rusty” is rendered descriptively as old, dirty redness to avoid specifying a modern material process.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 240,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 3054
+  },
+  "success": true
+}

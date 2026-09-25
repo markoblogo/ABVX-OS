@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0043",
+  "sourceHash": "7fb3526fb6d2670eed0eeee9d8905f3b03fa1d58899135829a1f47f6884cb873",
+  "source": "The pleasures which I made haste to seek in my disguise were, as I have said, undignified; I would scarce use a harder term. But in the hands of Edward Hyde, they soon began to turn toward the monstrous. When I would come back from these excursions, I was often plunged into a kind of wonder at my vicarious depravity.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0003",
+  "sourceHash": "e82deae47dd5404fc0a548a9cdb2b426e79f339b331ecb8cbe3ebe9c94350b68",
+  "source": "From the time he had left the house in Soho on the morning of the murder, he was simply blotted out; and gradually, as time drew on, Mr. Utterson began to recover from the hotness of his alarm, and to grow more at quiet with himself. The death of Sir Danvers was, to his way of thinking, more than paid for by the disappearance of Mr. Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_047c17f01a02754d016ab42d3188f887d28825a4df80b5b86a",
+      "visibleOutput": "TRANSLATION: tan tenpo ni: lon tenpo suno pi moli jan Kewi, jan Hata li tawa weka tan tomo lon ma Soko. tenpo ni la, sona ale pi lon ona li weka. tenpo li tawa la, pilin monsuta wawa pi jan Utason li kama lili, li kama pona lon insa ona. lon nasin pi pilin jan Utason la, weka pi jan Hata li pona suli; pona ni li suli mute tawa ike pi moli jan Kewi.\nNOTES: “pona suli” preserves Utterson’s personal judgment that Hyde’s disappearance more than compensated for Carew’s death; it is not narrator fact.",
+      "translation": "tan tenpo ni: lon tenpo suno pi moli jan Kewi, jan Hata li tawa weka tan tomo lon ma Soko. tenpo ni la, sona ale pi lon ona li weka. tenpo li tawa la, pilin monsuta wawa pi jan Utason li kama lili, li kama pona lon insa ona. lon nasin pi pilin jan Utason la, weka pi jan Hata li pona suli; pona ni li suli mute tawa ike pi moli jan Kewi.",
+      "notes": "“pona suli” preserves Utterson’s personal judgment that Hyde’s disappearance more than compensated for Carew’s death; it is not narrator fact.",
+      "usage": {
+        "input_tokens": 2835,
+        "input_tokens_details": {
+          "cache_write_tokens": 2832,
+          "cached_tokens": 0
+        },
+        "output_tokens": 408,
+        "output_tokens_details": {
+          "reasoning_tokens": 251
+        },
+        "total_tokens": 3243
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_047c17f01a02754d016ab42d3188f887d28825a4df80b5b86a",
+  "visibleOutput": "TRANSLATION: tan tenpo ni: lon tenpo suno pi moli jan Kewi, jan Hata li tawa weka tan tomo lon ma Soko. tenpo ni la, sona ale pi lon ona li weka. tenpo li tawa la, pilin monsuta wawa pi jan Utason li kama lili, li kama pona lon insa ona. lon nasin pi pilin jan Utason la, weka pi jan Hata li pona suli; pona ni li suli mute tawa ike pi moli jan Kewi.\nNOTES: “pona suli” preserves Utterson’s personal judgment that Hyde’s disappearance more than compensated for Carew’s death; it is not narrator fact.",
+  "translation": "tan tenpo ni: lon tenpo suno pi moli jan Kewi, jan Hata li tawa weka tan tomo lon ma Soko. tenpo ni la, sona ale pi lon ona li weka. tenpo li tawa la, pilin monsuta wawa pi jan Utason li kama lili, li kama pona lon insa ona. lon nasin pi pilin jan Utason la, weka pi jan Hata li pona suli; pona ni li suli mute tawa ike pi moli jan Kewi.",
+  "notes": "“pona suli” preserves Utterson’s personal judgment that Hyde’s disappearance more than compensated for Carew’s death; it is not narrator fact.",
+  "usage": {
+    "input_tokens": 2835,
+    "input_tokens_details": {
+      "cache_write_tokens": 2832,
+      "cached_tokens": 0
+    },
+    "output_tokens": 408,
+    "output_tokens_details": {
+      "reasoning_tokens": 251
+    },
+    "total_tokens": 3243
+  },
+  "success": true
+}

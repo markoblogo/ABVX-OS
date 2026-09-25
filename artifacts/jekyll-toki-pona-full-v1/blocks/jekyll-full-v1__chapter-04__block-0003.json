@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0003",
+  "sourceHash": "515f156f1d906b91bdc185a383eec47a38da4c2a0efb5518f41623620905875d",
+  "source": "Never (she used to say, with streaming tears, when she narrated that experience), never had she felt more at peace with all men or thought more kindly of the world. And as she so sat she became aware of an aged and beautiful gentleman with white hair, drawing near along the lane; and advancing to meet him, another and very small gentleman, to whom at first she paid less attention.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_027044a6623d2786016ab42a0dd06487d2ab333ed0a2bc0e6e",
+      "visibleOutput": "TRANSLATION: tenpo ale la, ona li toki sin e ijo ni kepeken telo oko mute: tenpo ante ala la ona li pilin utala ala sama ni tawa jan ale, li pilin pona sama ni tawa ma ale. ona li awen lon ni la, ona li kama lukin e jan mije pona pi tenpo mute. linja lawa ona li walo, en ona li kama lon nasin lili. jan mije ante pi lili mute li tawa kama jan ni. taso lon open la, meli li lukin lili taso e jan mije ante.\n\nNOTES: “gentleman” and comparative emotional states are compressed; the account remains attributed to the woman.",
+      "translation": "tenpo ale la, ona li toki sin e ijo ni kepeken telo oko mute: tenpo ante ala la ona li pilin utala ala sama ni tawa jan ale, li pilin pona sama ni tawa ma ale. ona li awen lon ni la, ona li kama lukin e jan mije pona pi tenpo mute. linja lawa ona li walo, en ona li kama lon nasin lili. jan mije ante pi lili mute li tawa kama jan ni. taso lon open la, meli li lukin lili taso e jan mije ante.",
+      "notes": "“gentleman” and comparative emotional states are compressed; the account remains attributed to the woman.",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 676,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3494
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_027044a6623d2786016ab42a0dd06487d2ab333ed0a2bc0e6e",
+  "visibleOutput": "TRANSLATION: tenpo ale la, ona li toki sin e ijo ni kepeken telo oko mute: tenpo ante ala la ona li pilin utala ala sama ni tawa jan ale, li pilin pona sama ni tawa ma ale. ona li awen lon ni la, ona li kama lukin e jan mije pona pi tenpo mute. linja lawa ona li walo, en ona li kama lon nasin lili. jan mije ante pi lili mute li tawa kama jan ni. taso lon open la, meli li lukin lili taso e jan mije ante.\n\nNOTES: “gentleman” and comparative emotional states are compressed; the account remains attributed to the woman.",
+  "translation": "tenpo ale la, ona li toki sin e ijo ni kepeken telo oko mute: tenpo ante ala la ona li pilin utala ala sama ni tawa jan ale, li pilin pona sama ni tawa ma ale. ona li awen lon ni la, ona li kama lukin e jan mije pona pi tenpo mute. linja lawa ona li walo, en ona li kama lon nasin lili. jan mije ante pi lili mute li tawa kama jan ni. taso lon open la, meli li lukin lili taso e jan mije ante.",
+  "notes": "“gentleman” and comparative emotional states are compressed; the account remains attributed to the woman.",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 676,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3494
+  },
+  "success": true
+}

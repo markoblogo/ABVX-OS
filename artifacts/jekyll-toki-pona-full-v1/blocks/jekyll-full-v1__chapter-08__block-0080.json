@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0080",
+  "sourceHash": "5124d07e91bc1f0c736840d99e432bd62d2789fda2b502bdcef8a109ba46dac7",
+  "source": "The lawyer put it in his pocket. “I would say nothing of this paper. If your master has fled or is dead, we may at least save his credit. It is now ten; I must go home and read these documents in quiet; but I shall be back before midnight, when we shall send for the police.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0597f9de0e02096e016ab432d9c11487d297ba83e400ba7d21",
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li pana e lipu ni tawa poki pi len ona. ona li toki e ni: “mi la, o toki ala lon lipu ni. jan lawa sina li weka tawa ma ante anu li moli la, mi tu li ken awen e nimi pona ona lon jan mute. tenpo ni li tenpo nanpa luka luka. mi o tawa tomo mi, o lukin e lipu ni lon nasin pi kalama ala. taso tenpo pimeja insa li kama ala la, mi kama sin. tenpo ni la, mi tu li pana e toki tawa jan lawa pi awen pona.”\n\nNOTES: “credit” is rendered as public good name/reputation; flight and death remain conditional.",
+      "translation": "jan Utason pi sona lawa li pana e lipu ni tawa poki pi len ona. ona li toki e ni: “mi la, o toki ala lon lipu ni. jan lawa sina li weka tawa ma ante anu li moli la, mi tu li ken awen e nimi pona ona lon jan mute. tenpo ni li tenpo nanpa luka luka. mi o tawa tomo mi, o lukin e lipu ni lon nasin pi kalama ala. taso tenpo pimeja insa li kama ala la, mi kama sin. tenpo ni la, mi tu li pana e toki tawa jan lawa pi awen pona.”",
+      "notes": "“credit” is rendered as public good name/reputation; flight and death remain conditional.",
+      "usage": {
+        "input_tokens": 2800,
+        "input_tokens_details": {
+          "cache_write_tokens": 2797,
+          "cached_tokens": 0
+        },
+        "output_tokens": 686,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3486
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0597f9de0e02096e016ab432d9c11487d297ba83e400ba7d21",
+  "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li pana e lipu ni tawa poki pi len ona. ona li toki e ni: “mi la, o toki ala lon lipu ni. jan lawa sina li weka tawa ma ante anu li moli la, mi tu li ken awen e nimi pona ona lon jan mute. tenpo ni li tenpo nanpa luka luka. mi o tawa tomo mi, o lukin e lipu ni lon nasin pi kalama ala. taso tenpo pimeja insa li kama ala la, mi kama sin. tenpo ni la, mi tu li pana e toki tawa jan lawa pi awen pona.”\n\nNOTES: “credit” is rendered as public good name/reputation; flight and death remain conditional.",
+  "translation": "jan Utason pi sona lawa li pana e lipu ni tawa poki pi len ona. ona li toki e ni: “mi la, o toki ala lon lipu ni. jan lawa sina li weka tawa ma ante anu li moli la, mi tu li ken awen e nimi pona ona lon jan mute. tenpo ni li tenpo nanpa luka luka. mi o tawa tomo mi, o lukin e lipu ni lon nasin pi kalama ala. taso tenpo pimeja insa li kama ala la, mi kama sin. tenpo ni la, mi tu li pana e toki tawa jan lawa pi awen pona.”",
+  "notes": "“credit” is rendered as public good name/reputation; flight and death remain conditional.",
+  "usage": {
+    "input_tokens": 2800,
+    "input_tokens_details": {
+      "cache_write_tokens": 2797,
+      "cached_tokens": 0
+    },
+    "output_tokens": 686,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3486
+  },
+  "success": true
+}

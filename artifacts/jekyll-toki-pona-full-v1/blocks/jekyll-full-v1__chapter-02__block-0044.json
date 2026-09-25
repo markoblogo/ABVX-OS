@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0044",
+  "sourceHash": "3853949ed43923300c508cf8303e24e4259b742a95d3d5a21370133901fc60d6",
+  "source": "He was ashamed of his relief, when Poole presently returned to announce that Dr. Jekyll was gone out. “I saw Mr. Hyde go in by the old dissecting-room door, Poole,” he said. “Is that right, when Dr. Jekyll is from home?” “Quite right, Mr. Utterson, sir,” replied the servant. “Mr. Hyde has a key.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0675246e6a4e6663016ab428ab84f487d2b148ffdfa7f3ec38",
+      "visibleOutput": "TRANSLATION: Tenpo lili la, jan Pulu li kama sin, li toki e ni: jan Jekil li weka tan tomo. Pilin pona li kama tawa jan Utason, taso ona li pilin ike tan pilin pona ni. Ona li toki: “jan Pulu o, mi lukin e ni: jan Hata li tawa insa kepeken lupa pi tomo majuna pi pali sona lon sijelo. jan Jekil li lon tomo ala la, ni li pona anu seme?” Jan pali li toki: “jan Utason o, ni li pona a. jan Hata li jo e ilo open.”\nNOTES: NONE",
+      "translation": "Tenpo lili la, jan Pulu li kama sin, li toki e ni: jan Jekil li weka tan tomo. Pilin pona li kama tawa jan Utason, taso ona li pilin ike tan pilin pona ni. Ona li toki: “jan Pulu o, mi lukin e ni: jan Hata li tawa insa kepeken lupa pi tomo majuna pi pali sona lon sijelo. jan Jekil li lon tomo ala la, ni li pona anu seme?” Jan pali li toki: “jan Utason o, ni li pona a. jan Hata li jo e ilo open.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 549,
+        "output_tokens_details": {
+          "reasoning_tokens": 402
+        },
+        "total_tokens": 3382
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0675246e6a4e6663016ab428ab84f487d2b148ffdfa7f3ec38",
+  "visibleOutput": "TRANSLATION: Tenpo lili la, jan Pulu li kama sin, li toki e ni: jan Jekil li weka tan tomo. Pilin pona li kama tawa jan Utason, taso ona li pilin ike tan pilin pona ni. Ona li toki: “jan Pulu o, mi lukin e ni: jan Hata li tawa insa kepeken lupa pi tomo majuna pi pali sona lon sijelo. jan Jekil li lon tomo ala la, ni li pona anu seme?” Jan pali li toki: “jan Utason o, ni li pona a. jan Hata li jo e ilo open.”\nNOTES: NONE",
+  "translation": "Tenpo lili la, jan Pulu li kama sin, li toki e ni: jan Jekil li weka tan tomo. Pilin pona li kama tawa jan Utason, taso ona li pilin ike tan pilin pona ni. Ona li toki: “jan Pulu o, mi lukin e ni: jan Hata li tawa insa kepeken lupa pi tomo majuna pi pali sona lon sijelo. jan Jekil li lon tomo ala la, ni li pona anu seme?” Jan pali li toki: “jan Utason o, ni li pona a. jan Hata li jo e ilo open.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2833,
+    "input_tokens_details": {
+      "cache_write_tokens": 2830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 549,
+    "output_tokens_details": {
+      "reasoning_tokens": 402
+    },
+    "total_tokens": 3382
+  },
+  "success": true
+}

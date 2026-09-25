@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0074",
+  "sourceHash": "bb381089bfd907ff9bac262bb93f8d9cd839cc83dde66f5f202df3874fd520c3",
+  "source": "The first was a will, drawn in the same eccentric terms as the one which he had returned six months before, to serve as a testament in case of death and as a deed of gift in case of disappearance; but, in place of the name of Edward Hyde, the lawyer, with indescribable amazement, read the name of Gabriel John Utterson.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00dbcb1ec066440f016ab4328d00dc87d2ac2bd326a46ed2f2",
+      "visibleOutput": "TRANSLATION: Lipu nanpa wan li lipu lawa. Nimi nasa lon lipu ni li sama nimi lon lipu ante, ni la jan Utason li pana sin e lipu ante tawa jan Jekil lon tenpo mun luka wan pini. Lipu ni li lipu pi wile ona lon ken ni: jan Jekil li moli. Kin la, ona li lipu pi pana ijo lon ken ni: jan Jekil li weka lon tenpo mute, li toki ala tan seme. Taso nimi jan Etewa Hata li lon ala. Lon ma nimi ni la, jan Utason pi sona lawa li lukin e nimi Kapijel San Utason. Ni li nasa mute tawa ona, li nasa pi toki ala.\nNOTES: “Disappearance” remains conditional and unexplained; the document’s terms are reported without confirming any event.",
+      "translation": "Lipu nanpa wan li lipu lawa. Nimi nasa lon lipu ni li sama nimi lon lipu ante, ni la jan Utason li pana sin e lipu ante tawa jan Jekil lon tenpo mun luka wan pini. Lipu ni li lipu pi wile ona lon ken ni: jan Jekil li moli. Kin la, ona li lipu pi pana ijo lon ken ni: jan Jekil li weka lon tenpo mute, li toki ala tan seme. Taso nimi jan Etewa Hata li lon ala. Lon ma nimi ni la, jan Utason pi sona lawa li lukin e nimi Kapijel San Utason. Ni li nasa mute tawa ona, li nasa pi toki ala.",
+      "notes": "“Disappearance” remains conditional and unexplained; the document’s terms are reported without confirming any event.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 552,
+        "output_tokens_details": {
+          "reasoning_tokens": 360
+        },
+        "total_tokens": 3369
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00dbcb1ec066440f016ab4328d00dc87d2ac2bd326a46ed2f2",
+  "visibleOutput": "TRANSLATION: Lipu nanpa wan li lipu lawa. Nimi nasa lon lipu ni li sama nimi lon lipu ante, ni la jan Utason li pana sin e lipu ante tawa jan Jekil lon tenpo mun luka wan pini. Lipu ni li lipu pi wile ona lon ken ni: jan Jekil li moli. Kin la, ona li lipu pi pana ijo lon ken ni: jan Jekil li weka lon tenpo mute, li toki ala tan seme. Taso nimi jan Etewa Hata li lon ala. Lon ma nimi ni la, jan Utason pi sona lawa li lukin e nimi Kapijel San Utason. Ni li nasa mute tawa ona, li nasa pi toki ala.\nNOTES: “Disappearance” remains conditional and unexplained; the document’s terms are reported without confirming any event.",
+  "translation": "Lipu nanpa wan li lipu lawa. Nimi nasa lon lipu ni li sama nimi lon lipu ante, ni la jan Utason li pana sin e lipu ante tawa jan Jekil lon tenpo mun luka wan pini. Lipu ni li lipu pi wile ona lon ken ni: jan Jekil li moli. Kin la, ona li lipu pi pana ijo lon ken ni: jan Jekil li weka lon tenpo mute, li toki ala tan seme. Taso nimi jan Etewa Hata li lon ala. Lon ma nimi ni la, jan Utason pi sona lawa li lukin e nimi Kapijel San Utason. Ni li nasa mute tawa ona, li nasa pi toki ala.",
+  "notes": "“Disappearance” remains conditional and unexplained; the document’s terms are reported without confirming any event.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 552,
+    "output_tokens_details": {
+      "reasoning_tokens": 360
+    },
+    "total_tokens": 3369
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0005",
+  "sourceHash": "9b45df6259a916e1bbdfd4e262d86101a3a3899297c494d803d1842448098532",
+  "source": "“I want you to postpone all other engagements for to-night—ay, even if you were summoned to the bedside of an emperor; to take a cab, unless your carriage should be actually at the door; and with this letter in your hand for consultation, to drive straight to my house. Poole, my butler, has his orders; you will find, him waiting your arrival with a locksmith.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_056f57e9057f7b7d016ab43337ee6487d28e8ff8132d6873c4",
+      "visibleOutput": "TRANSLATION: “mi wile e ni: o weka e pali ale ante pi tenpo pimeja ni tawa tenpo kama. jan li wile wawa e kama sina tawa poka supa lape pi jan lawa suli la, o weka e pali ni kin. tomo tawa sina li lon lupa tomo lon tenpo ni la, o kepeken ona; ante la, o kepeken tomo tawa pi esun. o jo e lipu ni lon luka, o lukin e ona tan wile sona, o tawa tomo mi kepeken nasin poka ala. mi pana e toki pali tawa jan Pulu, jan pi tomo mi. sina kama la, sina lukin e ona: ona li awen e kama sina lon poka jan pali pi ilo open.”\nNOTES: NONE",
+      "translation": "“mi wile e ni: o weka e pali ale ante pi tenpo pimeja ni tawa tenpo kama. jan li wile wawa e kama sina tawa poka supa lape pi jan lawa suli la, o weka e pali ni kin. tomo tawa sina li lon lupa tomo lon tenpo ni la, o kepeken ona; ante la, o kepeken tomo tawa pi esun. o jo e lipu ni lon luka, o lukin e ona tan wile sona, o tawa tomo mi kepeken nasin poka ala. mi pana e toki pali tawa jan Pulu, jan pi tomo mi. sina kama la, sina lukin e ona: ona li awen e kama sina lon poka jan pali pi ilo open.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2832,
+        "input_tokens_details": {
+          "cache_write_tokens": 2829,
+          "cached_tokens": 0
+        },
+        "output_tokens": 694,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3526
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_056f57e9057f7b7d016ab43337ee6487d28e8ff8132d6873c4",
+  "visibleOutput": "TRANSLATION: “mi wile e ni: o weka e pali ale ante pi tenpo pimeja ni tawa tenpo kama. jan li wile wawa e kama sina tawa poka supa lape pi jan lawa suli la, o weka e pali ni kin. tomo tawa sina li lon lupa tomo lon tenpo ni la, o kepeken ona; ante la, o kepeken tomo tawa pi esun. o jo e lipu ni lon luka, o lukin e ona tan wile sona, o tawa tomo mi kepeken nasin poka ala. mi pana e toki pali tawa jan Pulu, jan pi tomo mi. sina kama la, sina lukin e ona: ona li awen e kama sina lon poka jan pali pi ilo open.”\nNOTES: NONE",
+  "translation": "“mi wile e ni: o weka e pali ale ante pi tenpo pimeja ni tawa tenpo kama. jan li wile wawa e kama sina tawa poka supa lape pi jan lawa suli la, o weka e pali ni kin. tomo tawa sina li lon lupa tomo lon tenpo ni la, o kepeken ona; ante la, o kepeken tomo tawa pi esun. o jo e lipu ni lon luka, o lukin e ona tan wile sona, o tawa tomo mi kepeken nasin poka ala. mi pana e toki pali tawa jan Pulu, jan pi tomo mi. sina kama la, sina lukin e ona: ona li awen e kama sina lon poka jan pali pi ilo open.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2832,
+    "input_tokens_details": {
+      "cache_write_tokens": 2829,
+      "cached_tokens": 0
+    },
+    "output_tokens": 694,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3526
+  },
+  "success": true
+}

@@ -1,0 +1,62 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0014",
+  "sourceHash": "a109fec5eb909a6edeb2a47db2643ffb9846c7b12157c5e56e3496bde82862c7",
+  "source": "This little spirit of temper was somewhat of a relief to Mr. Utterson. “They have only differed on some point of science,” he thought; and being a man of no scientific passions (except in the matter of conveyancing), he even added: “It is nothing worse than that!” He gave his friend a few seconds to recover his composure, and then approached the question he had come to put. “Did you ever come across a protege of his—one Hyde?” he asked.",
+  "originalTranslation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+  "originalTranslationHash": "7cb9e54ef4e8b673ea07b9d091954a08729c550695c12512b80cc59869633e89",
+  "qaDefect": "Utterson inference is compressed.",
+  "defectHash": "a33071f1d6765544e185082eaba0628d02645617921f941f793a5d0629d56386",
+  "requiredPreservation": "Keep thought and uncertainty as focal character inference.",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b29139bea40f872016ab4218a5db087d2a4d371c3042053f0",
+      "model": "gpt-5.6-sol",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: NONE",
+      "revisedTranslation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 3039,
+        "input_tokens_details": {
+          "cache_write_tokens": 3036,
+          "cached_tokens": 0
+        },
+        "output_tokens": 323,
+        "output_tokens_details": {
+          "reasoning_tokens": 136
+        },
+        "total_tokens": 3362
+      },
+      "elapsedMs": 5617
+    }
+  ],
+  "model": "gpt-5.6-sol",
+  "provider": "OpenAI Responses API",
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b29139bea40f872016ab4218a5db087d2a4d371c3042053f0",
+  "visibleOutput": "TRANSLATION: pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”\nNOTES: NONE",
+  "revisedTranslation": "pilin utala lili ni li pona lili e pilin pi jan Utason. ona li toki insa e ni: “ken la, ona tu li ante toki taso lon ijo pi sona.” jan Utason li jo ala e pilin wawa lon ijo pi sona—taso lon pali lawa pi pana tomo anu ma—la ona li toki insa kin e ni: “ike ante li lon ala!” ona li pana e tenpo lili tawa jan pona ona, tawa ni: pilin ona li ken kama awen. taso, ona li kama toki e wile sona pi kama ona. ona li toki e ni: “tenpo pini la, sina kama ala kama lon poka pi jan wan ni: jan Jekil li pana e sona e pona tawa ona, li nimi Hata?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 3039,
+    "input_tokens_details": {
+      "cache_write_tokens": 3036,
+      "cached_tokens": 0
+    },
+    "output_tokens": 323,
+    "output_tokens_details": {
+      "reasoning_tokens": 136
+    },
+    "total_tokens": 3362
+  },
+  "success": true
+}

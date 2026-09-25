@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0022",
+  "sourceHash": "59bf44972f451716031d8262c0541b4490485e0957d36528effdff5da9ba531d",
+  "source": "This was the home of Henry Jekyll’s favourite; of a man who was heir to a quarter of a million sterling. An ivory-faced and silvery-haired old woman opened the door. She had an evil face, smoothed by hypocrisy; but her manners were excellent. Yes, she said, this was Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_049102927f1948ef016ab42b02eed087d2b88f3607bb3bdc69",
+      "visibleOutput": "TRANSLATION: ni li tomo pi jan pi olin nanpa wan pi jan Jekil. jan ni li kama jo e mani Pa 250,000. meli majuna pi sinpin sama kiwen walo pi uta soweli, pi linja lawa walo sama kiwen mani, li open e lupa. sinpin ona li ike, taso ona li pali sama jan pona la sinpin li lukin pona. nasin ona tawa jan ante li pona mute. ona li toki e ni: “lon. tomo ni li tomo pi jan...”\nNOTES: toki pali li pini lon nimi “Mr.” la, ante toki li awen pini ala.",
+      "translation": "ni li tomo pi jan pi olin nanpa wan pi jan Jekil. jan ni li kama jo e mani Pa 250,000. meli majuna pi sinpin sama kiwen walo pi uta soweli, pi linja lawa walo sama kiwen mani, li open e lupa. sinpin ona li ike, taso ona li pali sama jan pona la sinpin li lukin pona. nasin ona tawa jan ante li pona mute. ona li toki e ni: “lon. tomo ni li tomo pi jan...”",
+      "notes": "toki pali li pini lon nimi “Mr.” la, ante toki li awen pini ala.",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 570,
+        "output_tokens_details": {
+          "reasoning_tokens": 426
+        },
+        "total_tokens": 3384
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_049102927f1948ef016ab42b02eed087d2b88f3607bb3bdc69",
+  "visibleOutput": "TRANSLATION: ni li tomo pi jan pi olin nanpa wan pi jan Jekil. jan ni li kama jo e mani Pa 250,000. meli majuna pi sinpin sama kiwen walo pi uta soweli, pi linja lawa walo sama kiwen mani, li open e lupa. sinpin ona li ike, taso ona li pali sama jan pona la sinpin li lukin pona. nasin ona tawa jan ante li pona mute. ona li toki e ni: “lon. tomo ni li tomo pi jan...”\nNOTES: toki pali li pini lon nimi “Mr.” la, ante toki li awen pini ala.",
+  "translation": "ni li tomo pi jan pi olin nanpa wan pi jan Jekil. jan ni li kama jo e mani Pa 250,000. meli majuna pi sinpin sama kiwen walo pi uta soweli, pi linja lawa walo sama kiwen mani, li open e lupa. sinpin ona li ike, taso ona li pali sama jan pona la sinpin li lukin pona. nasin ona tawa jan ante li pona mute. ona li toki e ni: “lon. tomo ni li tomo pi jan...”",
+  "notes": "toki pali li pini lon nimi “Mr.” la, ante toki li awen pini ala.",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 570,
+    "output_tokens_details": {
+      "reasoning_tokens": 426
+    },
+    "total_tokens": 3384
+  },
+  "success": true
+}

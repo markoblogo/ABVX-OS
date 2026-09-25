@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0084",
+  "sourceHash": "38646467485c3562327ec8d22361b9d358ae5ed20e5851f026834296830d4451",
+  "source": "Nor can I truly say that I wearied of this beneficent and innocent life; I think instead that I daily enjoyed it more completely; but I was still cursed with my duality of purpose; and as the first edge of my penitence wore off, the lower side of me, so long indulged, so recently chained down, began to growl for licence.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

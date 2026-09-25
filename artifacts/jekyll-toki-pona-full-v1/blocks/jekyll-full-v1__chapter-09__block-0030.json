@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0030",
+  "sourceHash": "889a215137ddea5871404f28a44a867323c02fa2b59d1dc938079cc1a3a6d520",
+  "source": "This person (who had thus, from the first moment of his entrance, struck in me what I can only describe as a disgustful curiosity) was dressed in a fashion that would have made an ordinary person laughable; his clothes, that is to say, although they were of rich and sober fabric, were enormously too large for him in every measurement—the trousers hanging on his legs and rolled up to keep them from the ground, the waist of the coat below his haunches, and the collar sprawling wide upon his shoulders.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b8b13ce49ec7224016ab435011b0487d2a49ec1bb3c235661",
+      "visibleOutput": "TRANSLATION: jan ni li kama insa la, lon tenpo open ona, ona li pana lon mi e pilin ni: mi wile sona e ona, taso ona li jaki tawa pilin mi. mi ken toki e pilin ni kepeken nasin ante ala. ona li jo e len pi nasin nasa. jan ante pi nasin ale la, len ni li ken pali e ni: jan li musi tan lukin ona. len ona li tan len mani pi kule pimeja, li pona lukin; taso lon nasin ale, ona li suli mute ike tawa sijelo ona. len noka li anpa lon noka ona, li pakala poka lon sewi tan ni: ona li kama ala ma. anpa pi len sewi li anpa tawa monsi ona. poka open pi len sewi li suli mute lon sewi pi poka sijelo ona.\nNOTES: “Sober fabric” is rendered as costly, dark, restrained-looking cloth; the source’s conditional laughability is preserved with “ken.”",
+      "translation": "jan ni li kama insa la, lon tenpo open ona, ona li pana lon mi e pilin ni: mi wile sona e ona, taso ona li jaki tawa pilin mi. mi ken toki e pilin ni kepeken nasin ante ala. ona li jo e len pi nasin nasa. jan ante pi nasin ale la, len ni li ken pali e ni: jan li musi tan lukin ona. len ona li tan len mani pi kule pimeja, li pona lukin; taso lon nasin ale, ona li suli mute ike tawa sijelo ona. len noka li anpa lon noka ona, li pakala poka lon sewi tan ni: ona li kama ala ma. anpa pi len sewi li anpa tawa monsi ona. poka open pi len sewi li suli mute lon sewi pi poka sijelo ona.",
+      "notes": "“Sober fabric” is rendered as costly, dark, restrained-looking cloth; the source’s conditional laughability is preserved with “ken.”",
+      "usage": {
+        "input_tokens": 2846,
+        "input_tokens_details": {
+          "cache_write_tokens": 2843,
+          "cached_tokens": 0
+        },
+        "output_tokens": 319,
+        "output_tokens_details": {
+          "reasoning_tokens": 92
+        },
+        "total_tokens": 3165
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b8b13ce49ec7224016ab435011b0487d2a49ec1bb3c235661",
+  "visibleOutput": "TRANSLATION: jan ni li kama insa la, lon tenpo open ona, ona li pana lon mi e pilin ni: mi wile sona e ona, taso ona li jaki tawa pilin mi. mi ken toki e pilin ni kepeken nasin ante ala. ona li jo e len pi nasin nasa. jan ante pi nasin ale la, len ni li ken pali e ni: jan li musi tan lukin ona. len ona li tan len mani pi kule pimeja, li pona lukin; taso lon nasin ale, ona li suli mute ike tawa sijelo ona. len noka li anpa lon noka ona, li pakala poka lon sewi tan ni: ona li kama ala ma. anpa pi len sewi li anpa tawa monsi ona. poka open pi len sewi li suli mute lon sewi pi poka sijelo ona.\nNOTES: “Sober fabric” is rendered as costly, dark, restrained-looking cloth; the source’s conditional laughability is preserved with “ken.”",
+  "translation": "jan ni li kama insa la, lon tenpo open ona, ona li pana lon mi e pilin ni: mi wile sona e ona, taso ona li jaki tawa pilin mi. mi ken toki e pilin ni kepeken nasin ante ala. ona li jo e len pi nasin nasa. jan ante pi nasin ale la, len ni li ken pali e ni: jan li musi tan lukin ona. len ona li tan len mani pi kule pimeja, li pona lukin; taso lon nasin ale, ona li suli mute ike tawa sijelo ona. len noka li anpa lon noka ona, li pakala poka lon sewi tan ni: ona li kama ala ma. anpa pi len sewi li anpa tawa monsi ona. poka open pi len sewi li suli mute lon sewi pi poka sijelo ona.",
+  "notes": "“Sober fabric” is rendered as costly, dark, restrained-looking cloth; the source’s conditional laughability is preserved with “ken.”",
+  "usage": {
+    "input_tokens": 2846,
+    "input_tokens_details": {
+      "cache_write_tokens": 2843,
+      "cached_tokens": 0
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+      "reasoning_tokens": 92
+    },
+    "total_tokens": 3165
+  },
+  "success": true
+}

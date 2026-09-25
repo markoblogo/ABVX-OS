@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0016",
+  "sourceHash": "55f17499cfe79844f81227668982d82f94e4080706392f374587c33831682364",
+  "source": "On his way out, the lawyer stopped and had a word or two with Poole. “By the by,” said he, “there was a letter handed in to-day: what was the messenger like?” But Poole was positive nothing had come except by post; “and only circulars by that,” he added. This news sent off the visitor with his fears renewed.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d32e37365b9ede7016ab42c62b90087d297fb6f5b094ff356",
+      "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li tawa weka la, ona li pini tawa, li toki lili tawa jan Pulu. ona li toki e ni: “kin la, lon tenpo suno ni, jan li pana e lipu lon ni. jan pana lipu li seme?” taso jan Pulu li toki wawa e ni: lipu ala li kama kepeken jan; lipu li kama taso kepeken nasin pi pana lipu. ona li toki sin e ni: “nasin ni kin li pana taso e lipu sama tawa jan mute.” jan Utason li kute e ni, li tawa weka. taso pilin monsuta ona li kama sin.\n\nNOTES: “circulars” is rendered descriptively as mass-distributed similar papers; Poole’s statement remains his claim, and Utterson’s fear is preserved as a feeling.",
+      "translation": "jan Utason pi sona lawa li tawa weka la, ona li pini tawa, li toki lili tawa jan Pulu. ona li toki e ni: “kin la, lon tenpo suno ni, jan li pana e lipu lon ni. jan pana lipu li seme?” taso jan Pulu li toki wawa e ni: lipu ala li kama kepeken jan; lipu li kama taso kepeken nasin pi pana lipu. ona li toki sin e ni: “nasin ni kin li pana taso e lipu sama tawa jan mute.” jan Utason li kute e ni, li tawa weka. taso pilin monsuta ona li kama sin.",
+      "notes": "“circulars” is rendered descriptively as mass-distributed similar papers; Poole’s statement remains his claim, and Utterson’s fear is preserved as a feeling.",
+      "usage": {
+        "input_tokens": 2822,
+        "input_tokens_details": {
+          "cache_write_tokens": 2819,
+          "cached_tokens": 0
+        },
+        "output_tokens": 311,
+        "output_tokens_details": {
+          "reasoning_tokens": 110
+        },
+        "total_tokens": 3133
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d32e37365b9ede7016ab42c62b90087d297fb6f5b094ff356",
+  "visibleOutput": "TRANSLATION: jan Utason pi sona lawa li tawa weka la, ona li pini tawa, li toki lili tawa jan Pulu. ona li toki e ni: “kin la, lon tenpo suno ni, jan li pana e lipu lon ni. jan pana lipu li seme?” taso jan Pulu li toki wawa e ni: lipu ala li kama kepeken jan; lipu li kama taso kepeken nasin pi pana lipu. ona li toki sin e ni: “nasin ni kin li pana taso e lipu sama tawa jan mute.” jan Utason li kute e ni, li tawa weka. taso pilin monsuta ona li kama sin.\n\nNOTES: “circulars” is rendered descriptively as mass-distributed similar papers; Poole’s statement remains his claim, and Utterson’s fear is preserved as a feeling.",
+  "translation": "jan Utason pi sona lawa li tawa weka la, ona li pini tawa, li toki lili tawa jan Pulu. ona li toki e ni: “kin la, lon tenpo suno ni, jan li pana e lipu lon ni. jan pana lipu li seme?” taso jan Pulu li toki wawa e ni: lipu ala li kama kepeken jan; lipu li kama taso kepeken nasin pi pana lipu. ona li toki sin e ni: “nasin ni kin li pana taso e lipu sama tawa jan mute.” jan Utason li kute e ni, li tawa weka. taso pilin monsuta ona li kama sin.",
+  "notes": "“circulars” is rendered descriptively as mass-distributed similar papers; Poole’s statement remains his claim, and Utterson’s fear is preserved as a feeling.",
+  "usage": {
+    "input_tokens": 2822,
+    "input_tokens_details": {
+      "cache_write_tokens": 2819,
+      "cached_tokens": 0
+    },
+    "output_tokens": 311,
+    "output_tokens_details": {
+      "reasoning_tokens": 110
+    },
+    "total_tokens": 3133
+  },
+  "success": true
+}

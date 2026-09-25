@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0019",
+  "sourceHash": "c6aeeb9051ede7bacd61d2ffe156c82eaaf74637561eced2a591062211fd94f8",
+  "source": "The phial, to which I next turned my attention, might have been about half-full of a blood-red liquor, which was highly pungent to the sense of smell and seemed to me to contain phosphorus and some volatile ether. At the other ingredients I could make no guess. The book was an ordinary version-book and contained little but a series of dates.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b0b28ea9074ad5b016ab434623f1087d2a03932e01d91b774",
+      "visibleOutput": "TRANSLATION: mi kama lukin sona e poki telo lili. telo loje sama telo sijelo li lon insa ona, li suli pi kipisi wan tan kipisi tu. kon ona li wawa mute tawa nena mi. mi pilin la, ken la telo ni li jo e ijo seli Pospo e telo Eta pi kama kon. taso mi ken ala sona e ijo ante lon ona. lipu ante toki li lipu ante toki pi nasin ale. ijo ante li lon ona lili; nanpa tenpo mute taso li lon ona.\nNOTES: “phosphorus” en “ether” li nimi kemika tan toki open; nimi Pospo en Eta li awen e sona ni, taso pilin pi jan Lanjon li awen lon “mi pilin la, ken la.”",
+      "translation": "mi kama lukin sona e poki telo lili. telo loje sama telo sijelo li lon insa ona, li suli pi kipisi wan tan kipisi tu. kon ona li wawa mute tawa nena mi. mi pilin la, ken la telo ni li jo e ijo seli Pospo e telo Eta pi kama kon. taso mi ken ala sona e ijo ante lon ona. lipu ante toki li lipu ante toki pi nasin ale. ijo ante li lon ona lili; nanpa tenpo mute taso li lon ona.",
+      "notes": "“phosphorus” en “ether” li nimi kemika tan toki open; nimi Pospo en Eta li awen e sona ni, taso pilin pi jan Lanjon li awen lon “mi pilin la, ken la.”",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 699,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3511
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b0b28ea9074ad5b016ab434623f1087d2a03932e01d91b774",
+  "visibleOutput": "TRANSLATION: mi kama lukin sona e poki telo lili. telo loje sama telo sijelo li lon insa ona, li suli pi kipisi wan tan kipisi tu. kon ona li wawa mute tawa nena mi. mi pilin la, ken la telo ni li jo e ijo seli Pospo e telo Eta pi kama kon. taso mi ken ala sona e ijo ante lon ona. lipu ante toki li lipu ante toki pi nasin ale. ijo ante li lon ona lili; nanpa tenpo mute taso li lon ona.\nNOTES: “phosphorus” en “ether” li nimi kemika tan toki open; nimi Pospo en Eta li awen e sona ni, taso pilin pi jan Lanjon li awen lon “mi pilin la, ken la.”",
+  "translation": "mi kama lukin sona e poki telo lili. telo loje sama telo sijelo li lon insa ona, li suli pi kipisi wan tan kipisi tu. kon ona li wawa mute tawa nena mi. mi pilin la, ken la telo ni li jo e ijo seli Pospo e telo Eta pi kama kon. taso mi ken ala sona e ijo ante lon ona. lipu ante toki li lipu ante toki pi nasin ale. ijo ante li lon ona lili; nanpa tenpo mute taso li lon ona.",
+  "notes": "“phosphorus” en “ether” li nimi kemika tan toki open; nimi Pospo en Eta li awen e sona ni, taso pilin pi jan Lanjon li awen lon “mi pilin la, ken la.”",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 699,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3511
+  },
+  "success": true
+}

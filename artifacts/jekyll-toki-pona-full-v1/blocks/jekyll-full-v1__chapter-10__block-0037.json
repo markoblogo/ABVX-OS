@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0037",
+  "sourceHash": "cf59d3f3e342ade7abada212587c62eb2624ccfbc44b8cb62e7ac9d32309c79c",
+  "source": "I had but to drink the cup, to doff at once the body of the noted professor, and to assume, like a thick cloak, that of Edward Hyde. I smiled at the notion; it seemed to me at the time to be humorous; and I made my preparations with the most studious care.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

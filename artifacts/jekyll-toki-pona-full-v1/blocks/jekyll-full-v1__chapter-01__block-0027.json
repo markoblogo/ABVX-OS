@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0027",
+  "sourceHash": "166a034b8e65e292241433324e92587b4176b2fd14c64c20f9ef6329acc25ad2",
+  "source": "The next thing was to get the money; and where do you think he carried us but to that place with the door?— whipped out a key, went in, and presently came back with the matter of ten pounds in gold and a cheque for the balance on Coutts’s, drawn payable to bearer and signed with a name that I can’t mention, though it’s one of the points of my story, but it was a name at least very well known and often printed.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f05870e953df55d016ab425a7cfbc87d2940c20c6a2f6ecb7",
+      "visibleOutput": "TRANSLATION: Ijo kama li ni: ona o kama jo e mani. sina pilin e ni: ona li lawa e mi mute tawa seme? tawa ma sama lon lupa ni! ona li weka wawa e ilo open tan poki ona, li tawa insa. tenpo lili la ona li kama sin. ona li jo e mani kiwen jelo pi Paun luka luka, e lipu mani tan tomo mani Katsu pi mani ante. lipu ni la jan jo lipu li ken kama jo e mani. nimi jan li lon lipu ni. mi ken ala toki e nimi ni. nimi ni li ijo suli wan lon toki mi. taso jan mute li sona pona e nimi ni, li sitelen e ona lon lipu lon tenpo mute.\nNOTES: “Coutts’s” and the currency unit “pounds” are transliterated as Katsu and Paun.",
+      "translation": "Ijo kama li ni: ona o kama jo e mani. sina pilin e ni: ona li lawa e mi mute tawa seme? tawa ma sama lon lupa ni! ona li weka wawa e ilo open tan poki ona, li tawa insa. tenpo lili la ona li kama sin. ona li jo e mani kiwen jelo pi Paun luka luka, e lipu mani tan tomo mani Katsu pi mani ante. lipu ni la jan jo lipu li ken kama jo e mani. nimi jan li lon lipu ni. mi ken ala toki e nimi ni. nimi ni li ijo suli wan lon toki mi. taso jan mute li sona pona e nimi ni, li sitelen e ona lon lipu lon tenpo mute.",
+      "notes": "“Coutts’s” and the currency unit “pounds” are transliterated as Katsu and Paun.",
+      "usage": {
+        "input_tokens": 2833,
+        "input_tokens_details": {
+          "cache_write_tokens": 2830,
+          "cached_tokens": 0
+        },
+        "output_tokens": 513,
+        "output_tokens_details": {
+          "reasoning_tokens": 313
+        },
+        "total_tokens": 3346
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f05870e953df55d016ab425a7cfbc87d2940c20c6a2f6ecb7",
+  "visibleOutput": "TRANSLATION: Ijo kama li ni: ona o kama jo e mani. sina pilin e ni: ona li lawa e mi mute tawa seme? tawa ma sama lon lupa ni! ona li weka wawa e ilo open tan poki ona, li tawa insa. tenpo lili la ona li kama sin. ona li jo e mani kiwen jelo pi Paun luka luka, e lipu mani tan tomo mani Katsu pi mani ante. lipu ni la jan jo lipu li ken kama jo e mani. nimi jan li lon lipu ni. mi ken ala toki e nimi ni. nimi ni li ijo suli wan lon toki mi. taso jan mute li sona pona e nimi ni, li sitelen e ona lon lipu lon tenpo mute.\nNOTES: “Coutts’s” and the currency unit “pounds” are transliterated as Katsu and Paun.",
+  "translation": "Ijo kama li ni: ona o kama jo e mani. sina pilin e ni: ona li lawa e mi mute tawa seme? tawa ma sama lon lupa ni! ona li weka wawa e ilo open tan poki ona, li tawa insa. tenpo lili la ona li kama sin. ona li jo e mani kiwen jelo pi Paun luka luka, e lipu mani tan tomo mani Katsu pi mani ante. lipu ni la jan jo lipu li ken kama jo e mani. nimi jan li lon lipu ni. mi ken ala toki e nimi ni. nimi ni li ijo suli wan lon toki mi. taso jan mute li sona pona e nimi ni, li sitelen e ona lon lipu lon tenpo mute.",
+  "notes": "“Coutts’s” and the currency unit “pounds” are transliterated as Katsu and Paun.",
+  "usage": {
+    "input_tokens": 2833,
+    "input_tokens_details": {
+      "cache_write_tokens": 2830,
+      "cached_tokens": 0
+    },
+    "output_tokens": 513,
+    "output_tokens_details": {
+      "reasoning_tokens": 313
+    },
+    "total_tokens": 3346
+  },
+  "success": true
+}

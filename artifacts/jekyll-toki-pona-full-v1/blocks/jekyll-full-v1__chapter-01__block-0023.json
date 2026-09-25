@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0023",
+  "sourceHash": "046435e9cefd74930897c2b4aa52f3d45ec8c78b956cbece0b71f7e147464891",
+  "source": "We told the man we could and would make such a scandal out of this, as should make his name stink from one end of London to the other. If he had any friends or any credit, we undertook that he should lose them.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_098a6022dc30e214016ab4257f496c87d2b6bc311a6c745370",
+      "visibleOutput": "TRANSLATION: mi mute li toki e ni tawa jan ni: mi mute li ken li wile pana e toki ike ni tawa jan mute. tan ni la, nimi ona li kama ike lon ma Lantan ale. jan pona anu nimi pona li lon ona la, mi mute li toki wawa e ni: ona li kama jo ala e ona.\n\nNOTES: “credit” is rendered as social good standing (nimi pona), not financial credit.",
+      "translation": "mi mute li toki e ni tawa jan ni: mi mute li ken li wile pana e toki ike ni tawa jan mute. tan ni la, nimi ona li kama ike lon ma Lantan ale. jan pona anu nimi pona li lon ona la, mi mute li toki wawa e ni: ona li kama jo ala e ona.",
+      "notes": "“credit” is rendered as social good standing (nimi pona), not financial credit.",
+      "usage": {
+        "input_tokens": 2785,
+        "input_tokens_details": {
+          "cache_write_tokens": 2782,
+          "cached_tokens": 0
+        },
+        "output_tokens": 180,
+        "output_tokens_details": {
+          "reasoning_tokens": 80
+        },
+        "total_tokens": 2965
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_098a6022dc30e214016ab4257f496c87d2b6bc311a6c745370",
+  "visibleOutput": "TRANSLATION: mi mute li toki e ni tawa jan ni: mi mute li ken li wile pana e toki ike ni tawa jan mute. tan ni la, nimi ona li kama ike lon ma Lantan ale. jan pona anu nimi pona li lon ona la, mi mute li toki wawa e ni: ona li kama jo ala e ona.\n\nNOTES: “credit” is rendered as social good standing (nimi pona), not financial credit.",
+  "translation": "mi mute li toki e ni tawa jan ni: mi mute li ken li wile pana e toki ike ni tawa jan mute. tan ni la, nimi ona li kama ike lon ma Lantan ale. jan pona anu nimi pona li lon ona la, mi mute li toki wawa e ni: ona li kama jo ala e ona.",
+  "notes": "“credit” is rendered as social good standing (nimi pona), not financial credit.",
+  "usage": {
+    "input_tokens": 2785,
+    "input_tokens_details": {
+      "cache_write_tokens": 2782,
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 2965
+  },
+  "success": true
+}

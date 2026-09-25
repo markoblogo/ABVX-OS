@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0100",
+  "sourceHash": "5625068e869c4261fd080ad066db5c04caa6f0d510225577e2d50680cb3a679f",
+  "source": "That child of Hell had nothing human; nothing lived in him but fear and hatred. And when at last, thinking the driver had begun to grow suspicious, he discharged the cab and ventured on foot, attired in his misfitting clothes, an object marked out for observation, into the midst of the nocturnal passengers, these two base passions raged within him like a tempest.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

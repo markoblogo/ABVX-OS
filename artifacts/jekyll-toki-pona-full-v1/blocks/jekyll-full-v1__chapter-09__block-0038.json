@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0038",
+  "sourceHash": "65db607ec4abf0d290fa9a3bebef35f8534f9f8654e30356e0d20c3fd63fde40",
+  "source": "“There it is, sir,” said I, pointing to the drawer, where it lay on the floor behind a table and still covered with the sheet. He sprang to it, and then paused, and laid his hand upon his heart: I could hear his teeth grate with the convulsive action of his jaws; and his face was so ghastly to see that I grew alarmed both for his life and reason.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03b7eaf896d5b0b4016ab4356cf96487d2850599a3f7ee7f7b",
+      "visibleOutput": "TRANSLATION: “jan suli o, ona li lon ni,” mi toki, li pana e luka tawa poki. poki li awen lon supa anpa lon monsi pi supa pali, li awen anpa len. ona li tawa wawa tawa poki, taso ona li pini tawa, li pana e luka ona lon pilin ona. mi ken kute e kalama pi kiwen uta ona, tan ni: uta anpa ona li tawa wawa pi lawa ala. lukin pi sinpin ona li ike monsuta mute. ni la mi kama pilin monsuta: ken la ona li moli, anu lawa ona li pakala.\nNOTES: “sir” is rendered respectfully as “jan suli o”; danger to life and reason remains Lanyon’s fear and possibility, not observed fact.",
+      "translation": "“jan suli o, ona li lon ni,” mi toki, li pana e luka tawa poki. poki li awen lon supa anpa lon monsi pi supa pali, li awen anpa len. ona li tawa wawa tawa poki, taso ona li pini tawa, li pana e luka ona lon pilin ona. mi ken kute e kalama pi kiwen uta ona, tan ni: uta anpa ona li tawa wawa pi lawa ala. lukin pi sinpin ona li ike monsuta mute. ni la mi kama pilin monsuta: ken la ona li moli, anu lawa ona li pakala.",
+      "notes": "“sir” is rendered respectfully as “jan suli o”; danger to life and reason remains Lanyon’s fear and possibility, not observed fact.",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 684,
+        "output_tokens_details": {
+          "reasoning_tokens": 502
+        },
+        "total_tokens": 3508
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03b7eaf896d5b0b4016ab4356cf96487d2850599a3f7ee7f7b",
+  "visibleOutput": "TRANSLATION: “jan suli o, ona li lon ni,” mi toki, li pana e luka tawa poki. poki li awen lon supa anpa lon monsi pi supa pali, li awen anpa len. ona li tawa wawa tawa poki, taso ona li pini tawa, li pana e luka ona lon pilin ona. mi ken kute e kalama pi kiwen uta ona, tan ni: uta anpa ona li tawa wawa pi lawa ala. lukin pi sinpin ona li ike monsuta mute. ni la mi kama pilin monsuta: ken la ona li moli, anu lawa ona li pakala.\nNOTES: “sir” is rendered respectfully as “jan suli o”; danger to life and reason remains Lanyon’s fear and possibility, not observed fact.",
+  "translation": "“jan suli o, ona li lon ni,” mi toki, li pana e luka tawa poki. poki li awen lon supa anpa lon monsi pi supa pali, li awen anpa len. ona li tawa wawa tawa poki, taso ona li pini tawa, li pana e luka ona lon pilin ona. mi ken kute e kalama pi kiwen uta ona, tan ni: uta anpa ona li tawa wawa pi lawa ala. lukin pi sinpin ona li ike monsuta mute. ni la mi kama pilin monsuta: ken la ona li moli, anu lawa ona li pakala.",
+  "notes": "“sir” is rendered respectfully as “jan suli o”; danger to life and reason remains Lanyon’s fear and possibility, not observed fact.",
+  "usage": {
+    "input_tokens": 2824,
+    "input_tokens_details": {
+      "cache_write_tokens": 2821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 684,
+    "output_tokens_details": {
+      "reasoning_tokens": 502
+    },
+    "total_tokens": 3508
+  },
+  "success": true
+}

@@ -1,0 +1,238 @@
+[
+  {
+    "blockId": "jekyll-sample-v2:section-001:b0001",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-001:b0002",
+    "knowledgeType": "DOCUMENT_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0003",
+    "knowledgeType": "DOCUMENT_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0004",
+    "knowledgeType": "DOCUMENT_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0005",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0006",
+    "knowledgeType": "FOCAL_CHARACTER_INFERENCE",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0007",
+    "knowledgeType": "FOCAL_CHARACTER_INFERENCE",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0008",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0009",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0010",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0011",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0012",
+    "knowledgeType": "FOCAL_CHARACTER_INFERENCE",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0013",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0014",
+    "knowledgeType": "FOCAL_CHARACTER_INFERENCE",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-002:b0015",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0016",
+    "knowledgeType": "DOCUMENT_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0017",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0018",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0019",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0020",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0021",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0022",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0023",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0024",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0025",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0026",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0027",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0028",
+    "knowledgeType": "DOCUMENT_CLAIM",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0029",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0030",
+    "knowledgeType": "FOCAL_CHARACTER_INFERENCE",
+    "spoilerConstraints": [
+      "PRESERVE_SOURCE_KNOWLEDGE_BOUNDARY"
+    ]
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0031",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-003:b0032",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0033",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0034",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0035",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0036",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0037",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0038",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0039",
+    "knowledgeType": "DIALOGUE_CLAIM",
+    "spoilerConstraints": []
+  },
+  {
+    "blockId": "jekyll-sample-v2:section-004:b0040",
+    "knowledgeType": "NARRATOR_FACT",
+    "spoilerConstraints": []
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0015",
+  "sourceHash": "df5427289fe9b03302e84408678d0aa4e1a83f77ecb32e85c284875ab6da6db7",
+  "source": "“And now,” continued the butler, addressing the knife-boy, “reach me a candle, and we’ll get this through hands at once.” And then he begged Mr. Utterson to follow him, and led the way to the back-garden.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_080aa2316f134c0a016ab42fb8354487d2adddc8b7ef1275c8",
+      "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Pulu li toki sin tawa jan lili pi ilo kipisi, “o pana e ilo suno tawa mi. mi mute o pini e pali ni lon tenpo ni.” ni la, ona li wile mute e ni: jan Utason o kama monsi ona. ona li tawa nanpa wan tawa ma kasi monsi.\nNOTES: “knife-boy” rendered descriptively as jan lili pi ilo kipisi; “get this through hands” compressed as finishing the task at once.",
+      "translation": "“tenpo ni la,” jan Pulu li toki sin tawa jan lili pi ilo kipisi, “o pana e ilo suno tawa mi. mi mute o pini e pali ni lon tenpo ni.” ni la, ona li wile mute e ni: jan Utason o kama monsi ona. ona li tawa nanpa wan tawa ma kasi monsi.",
+      "notes": "“knife-boy” rendered descriptively as jan lili pi ilo kipisi; “get this through hands” compressed as finishing the task at once.",
+      "usage": {
+        "input_tokens": 2786,
+        "input_tokens_details": {
+          "cache_write_tokens": 2783,
+          "cached_tokens": 0
+        },
+        "output_tokens": 329,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 3115
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_080aa2316f134c0a016ab42fb8354487d2adddc8b7ef1275c8",
+  "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Pulu li toki sin tawa jan lili pi ilo kipisi, “o pana e ilo suno tawa mi. mi mute o pini e pali ni lon tenpo ni.” ni la, ona li wile mute e ni: jan Utason o kama monsi ona. ona li tawa nanpa wan tawa ma kasi monsi.\nNOTES: “knife-boy” rendered descriptively as jan lili pi ilo kipisi; “get this through hands” compressed as finishing the task at once.",
+  "translation": "“tenpo ni la,” jan Pulu li toki sin tawa jan lili pi ilo kipisi, “o pana e ilo suno tawa mi. mi mute o pini e pali ni lon tenpo ni.” ni la, ona li wile mute e ni: jan Utason o kama monsi ona. ona li tawa nanpa wan tawa ma kasi monsi.",
+  "notes": "“knife-boy” rendered descriptively as jan lili pi ilo kipisi; “get this through hands” compressed as finishing the task at once.",
+  "usage": {
+    "input_tokens": 2786,
+    "input_tokens_details": {
+      "cache_write_tokens": 2783,
+      "cached_tokens": 0
+    },
+    "output_tokens": 329,
+    "output_tokens_details": {
+      "reasoning_tokens": 207
+    },
+    "total_tokens": 3115
+  },
+  "success": true
+}

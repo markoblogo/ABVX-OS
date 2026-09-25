@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0034",
+  "sourceHash": "9f5c7401d032228506ed7faab9dc3b1c97c6ddef95ab4e1c86005f5f5d48a288",
+  "source": "The other snarled aloud into a savage laugh; and the next moment, with extraordinary quickness, he had unlocked the door and disappeared into the house. The lawyer stood awhile when Mr. Hyde had left him, the picture of disquietude. Then he began slowly to mount the street, pausing every step or two and putting his hand to his brow like a man in mental perplexity.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_068c3181d18af48f016ab4281c6cd087d284153179d6390eea",
+      "visibleOutput": "TRANSLATION: jan ante li kalama utala, li musi kalama kepeken nasin soweli. tenpo lili kama la, ona li tawa kepeken wawa nasa, li open e lupa, li weka lon insa tomo. jan Hata li weka tan jan Utason la, jan Utason pi sona lawa li awen lon ma lon tenpo lili. pilin jaki insa ona li kama lukin lon sijelo ona. ni kama la, ona li open tawa sewi pi nasin tomo kepeken tenpo suli. lon tawa ale wan anu tawa ale tu la, ona li pini tawa, li pana e luka ona lon sinpin sewi ona, sama jan pi sona nasa insa.\n\nNOTES: “Savage” is rendered as animal-like manner, not as a factual claim that jan Hata is evil.",
+      "translation": "jan ante li kalama utala, li musi kalama kepeken nasin soweli. tenpo lili kama la, ona li tawa kepeken wawa nasa, li open e lupa, li weka lon insa tomo. jan Hata li weka tan jan Utason la, jan Utason pi sona lawa li awen lon ma lon tenpo lili. pilin jaki insa ona li kama lukin lon sijelo ona. ni kama la, ona li open tawa sewi pi nasin tomo kepeken tenpo suli. lon tawa ale wan anu tawa ale tu la, ona li pini tawa, li pana e luka ona lon sinpin sewi ona, sama jan pi sona nasa insa.",
+      "notes": "“Savage” is rendered as animal-like manner, not as a factual claim that jan Hata is evil.",
+      "usage": {
+        "input_tokens": 2828,
+        "input_tokens_details": {
+          "cache_write_tokens": 2825,
+          "cached_tokens": 0
+        },
+        "output_tokens": 345,
+        "output_tokens_details": {
+          "reasoning_tokens": 154
+        },
+        "total_tokens": 3173
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_068c3181d18af48f016ab4281c6cd087d284153179d6390eea",
+  "visibleOutput": "TRANSLATION: jan ante li kalama utala, li musi kalama kepeken nasin soweli. tenpo lili kama la, ona li tawa kepeken wawa nasa, li open e lupa, li weka lon insa tomo. jan Hata li weka tan jan Utason la, jan Utason pi sona lawa li awen lon ma lon tenpo lili. pilin jaki insa ona li kama lukin lon sijelo ona. ni kama la, ona li open tawa sewi pi nasin tomo kepeken tenpo suli. lon tawa ale wan anu tawa ale tu la, ona li pini tawa, li pana e luka ona lon sinpin sewi ona, sama jan pi sona nasa insa.\n\nNOTES: “Savage” is rendered as animal-like manner, not as a factual claim that jan Hata is evil.",
+  "translation": "jan ante li kalama utala, li musi kalama kepeken nasin soweli. tenpo lili kama la, ona li tawa kepeken wawa nasa, li open e lupa, li weka lon insa tomo. jan Hata li weka tan jan Utason la, jan Utason pi sona lawa li awen lon ma lon tenpo lili. pilin jaki insa ona li kama lukin lon sijelo ona. ni kama la, ona li open tawa sewi pi nasin tomo kepeken tenpo suli. lon tawa ale wan anu tawa ale tu la, ona li pini tawa, li pana e luka ona lon sinpin sewi ona, sama jan pi sona nasa insa.",
+  "notes": "“Savage” is rendered as animal-like manner, not as a factual claim that jan Hata is evil.",
+  "usage": {
+    "input_tokens": 2828,
+    "input_tokens_details": {
+      "cache_write_tokens": 2825,
+      "cached_tokens": 0
+    },
+    "output_tokens": 345,
+    "output_tokens_details": {
+      "reasoning_tokens": 154
+    },
+    "total_tokens": 3173
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0040",
+  "sourceHash": "b1a5690b1d4897246d57b94abd32d7b920d0be624103c5eba73dce56afaa2e61",
+  "source": "Mr. Utterson again walked some way in silence and obviously under a weight of consideration. “You are sure he used a key?” he inquired at last. “My dear sir…” began Enfield, surprised out of himself.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04482e274c0ed25b016ab4263f21e487d2b1d74f8eab70dcc2",
+      "visibleOutput": "TRANSLATION: jan Utason li tawa sin lon ma lili. ona li toki ala, li lukin sama ni: toki insa suli li lon lawa ona. tenpo pini la ona li wile sona: “sina sona kin anu seme: ona li kepeken ilo open?” jan Enpil li kama pilin nasa mute, li open e toki ni: “jan pona mi o…”\n\nNOTES: “surprised out of himself” is rendered as unusually strong surprise, without adding fear or factual inference.",
+      "translation": "jan Utason li tawa sin lon ma lili. ona li toki ala, li lukin sama ni: toki insa suli li lon lawa ona. tenpo pini la ona li wile sona: “sina sona kin anu seme: ona li kepeken ilo open?” jan Enpil li kama pilin nasa mute, li open e toki ni: “jan pona mi o…”",
+      "notes": "“surprised out of himself” is rendered as unusually strong surprise, without adding fear or factual inference.",
+      "usage": {
+        "input_tokens": 2784,
+        "input_tokens_details": {
+          "cache_write_tokens": 2781,
+          "cached_tokens": 0
+        },
+        "output_tokens": 297,
+        "output_tokens_details": {
+          "reasoning_tokens": 181
+        },
+        "total_tokens": 3081
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04482e274c0ed25b016ab4263f21e487d2b1d74f8eab70dcc2",
+  "visibleOutput": "TRANSLATION: jan Utason li tawa sin lon ma lili. ona li toki ala, li lukin sama ni: toki insa suli li lon lawa ona. tenpo pini la ona li wile sona: “sina sona kin anu seme: ona li kepeken ilo open?” jan Enpil li kama pilin nasa mute, li open e toki ni: “jan pona mi o…”\n\nNOTES: “surprised out of himself” is rendered as unusually strong surprise, without adding fear or factual inference.",
+  "translation": "jan Utason li tawa sin lon ma lili. ona li toki ala, li lukin sama ni: toki insa suli li lon lawa ona. tenpo pini la ona li wile sona: “sina sona kin anu seme: ona li kepeken ilo open?” jan Enpil li kama pilin nasa mute, li open e toki ni: “jan pona mi o…”",
+  "notes": "“surprised out of himself” is rendered as unusually strong surprise, without adding fear or factual inference.",
+  "usage": {
+    "input_tokens": 2784,
+    "input_tokens_details": {
+      "cache_write_tokens": 2781,
+      "cached_tokens": 0
+    },
+    "output_tokens": 297,
+    "output_tokens_details": {
+      "reasoning_tokens": 181
+    },
+    "total_tokens": 3081
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0035",
+  "sourceHash": "fe7bba9373ef30f879ee5cec8b0f6e2ccf79bf73b2d4e3f44b7b98cdc77e2a35",
+  "source": "The problem he was thus debating as he walked, was one of a class that is rarely solved. Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01604636d2dbf4f7016ab4282691e487d298ccf285574173a0",
+      "visibleOutput": "TRANSLATION: ona li tawa noka la, ona li awen toki insa lon ijo ni. ijo ni li sama ijo pi wile sona ante: jan li kama sona e nasin pona ona lon tenpo lili taso. jan\nNOTES: nimi “jan” lon pini li awen e toki pi pini ala tan nimi “Mr.” lon toki mama.",
+      "translation": "ona li tawa noka la, ona li awen toki insa lon ijo ni. ijo ni li sama ijo pi wile sona ante: jan li kama sona e nasin pona ona lon tenpo lili taso. jan",
+      "notes": "nimi “jan” lon pini li awen e toki pi pini ala tan nimi “Mr.” lon toki mama.",
+      "usage": {
+        "input_tokens": 2759,
+        "input_tokens_details": {
+          "cache_write_tokens": 2756,
+          "cached_tokens": 0
+        },
+        "output_tokens": 211,
+        "output_tokens_details": {
+          "reasoning_tokens": 123
+        },
+        "total_tokens": 2970
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01604636d2dbf4f7016ab4282691e487d298ccf285574173a0",
+  "visibleOutput": "TRANSLATION: ona li tawa noka la, ona li awen toki insa lon ijo ni. ijo ni li sama ijo pi wile sona ante: jan li kama sona e nasin pona ona lon tenpo lili taso. jan\nNOTES: nimi “jan” lon pini li awen e toki pi pini ala tan nimi “Mr.” lon toki mama.",
+  "translation": "ona li tawa noka la, ona li awen toki insa lon ijo ni. ijo ni li sama ijo pi wile sona ante: jan li kama sona e nasin pona ona lon tenpo lili taso. jan",
+  "notes": "nimi “jan” lon pini li awen e toki pi pini ala tan nimi “Mr.” lon toki mama.",
+  "usage": {
+    "input_tokens": 2759,
+    "input_tokens_details": {
+      "cache_write_tokens": 2756,
+      "cached_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "reasoning_tokens": 123
+    },
+    "total_tokens": 2970
+  },
+  "success": true
+}

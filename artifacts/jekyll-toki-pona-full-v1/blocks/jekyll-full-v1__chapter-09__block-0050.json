@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0050",
+  "sourceHash": "87bf3db4b2078019b5de91f9e945e936d17afc85073f5c5b123d5f6d8157e7af",
+  "source": "My life is shaken to its roots; sleep has left me; the deadliest terror sits by me at all hours of the day and night; I feel that my days are numbered, and that I must die; and yet I shall die incredulous.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0930552b42bf9ed9016ab435fd020887d2b01b6b5b7a004ee0",
+      "visibleOutput": "TRANSLATION: lon mi li tawa pakala tan open ona. mi ken ala lape. monsuta pi ken moli li awen poka mi lon tenpo ale pi suno en pimeja. mi pilin e ni: tenpo suno mi li awen lili taso, li kama moli. taso mi moli la, mi awen pilin e ni: ni li ken ala lon.\nNOTES: “Shaken to its roots” is rendered as life becoming unstable from its foundation; all claims remain the narrator’s feelings.",
+      "translation": "lon mi li tawa pakala tan open ona. mi ken ala lape. monsuta pi ken moli li awen poka mi lon tenpo ale pi suno en pimeja. mi pilin e ni: tenpo suno mi li awen lili taso, li kama moli. taso mi moli la, mi awen pilin e ni: ni li ken ala lon.",
+      "notes": "“Shaken to its roots” is rendered as life becoming unstable from its foundation; all claims remain the narrator’s feelings.",
+      "usage": {
+        "input_tokens": 2791,
+        "input_tokens_details": {
+          "cache_write_tokens": 2788,
+          "cached_tokens": 0
+        },
+        "output_tokens": 311,
+        "output_tokens_details": {
+          "reasoning_tokens": 188
+        },
+        "total_tokens": 3102
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0930552b42bf9ed9016ab435fd020887d2b01b6b5b7a004ee0",
+  "visibleOutput": "TRANSLATION: lon mi li tawa pakala tan open ona. mi ken ala lape. monsuta pi ken moli li awen poka mi lon tenpo ale pi suno en pimeja. mi pilin e ni: tenpo suno mi li awen lili taso, li kama moli. taso mi moli la, mi awen pilin e ni: ni li ken ala lon.\nNOTES: “Shaken to its roots” is rendered as life becoming unstable from its foundation; all claims remain the narrator’s feelings.",
+  "translation": "lon mi li tawa pakala tan open ona. mi ken ala lape. monsuta pi ken moli li awen poka mi lon tenpo ale pi suno en pimeja. mi pilin e ni: tenpo suno mi li awen lili taso, li kama moli. taso mi moli la, mi awen pilin e ni: ni li ken ala lon.",
+  "notes": "“Shaken to its roots” is rendered as life becoming unstable from its foundation; all claims remain the narrator’s feelings.",
+  "usage": {
+    "input_tokens": 2791,
+    "input_tokens_details": {
+      "cache_write_tokens": 2788,
+      "cached_tokens": 0
+    },
+    "output_tokens": 311,
+    "output_tokens_details": {
+      "reasoning_tokens": 188
+    },
+    "total_tokens": 3102
+  },
+  "success": true
+}

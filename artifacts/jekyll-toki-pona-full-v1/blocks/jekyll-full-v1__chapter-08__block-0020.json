@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0020",
+  "sourceHash": "66179b2e5042928c6eb3ae23fe168209c80193599b60dd7065ed10c25eaeb007",
+  "source": "“Thank you, sir,” said Poole, with a note of something like triumph in his voice; and taking up his candle, he led Mr. Utterson back across the yard and into the great kitchen, where the fire was out and the beetles were leaping on the floor. “Sir,” he said, looking Mr. Utterson in the eyes, “was that my master’s voice?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c8ac50fa321f7c8016ab42ff4eac487d28c6700c4f59fb5e6",
+      "visibleOutput": "TRANSLATION: “pona tawa sina, jan lawa,” jan Pulu li toki. lon kalama toki ona la, ijo li sama pilin pona pi kama anpa e jan ante. ona li jo e ilo suno ona, li lawa e jan Utason lon ma insa, li tawa tomo suli pi pali moku. lon tomo ni la, seli li lon ala, li pipi pimeja li tawa sewi lon supa anpa. jan Pulu li lukin tawa oko pi jan Utason, li toki e ni: “jan lawa o, kalama toki ni li kalama toki pi jan lawa mi anu seme?”\nNOTES: “Something like triumph” is retained as an uncertain comparison.",
+      "translation": "“pona tawa sina, jan lawa,” jan Pulu li toki. lon kalama toki ona la, ijo li sama pilin pona pi kama anpa e jan ante. ona li jo e ilo suno ona, li lawa e jan Utason lon ma insa, li tawa tomo suli pi pali moku. lon tomo ni la, seli li lon ala, li pipi pimeja li tawa sewi lon supa anpa. jan Pulu li lukin tawa oko pi jan Utason, li toki e ni: “jan lawa o, kalama toki ni li kalama toki pi jan lawa mi anu seme?”",
+      "notes": "“Something like triumph” is retained as an uncertain comparison.",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 447,
+        "output_tokens_details": {
+          "reasoning_tokens": 287
+        },
+        "total_tokens": 3265
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c8ac50fa321f7c8016ab42ff4eac487d28c6700c4f59fb5e6",
+  "visibleOutput": "TRANSLATION: “pona tawa sina, jan lawa,” jan Pulu li toki. lon kalama toki ona la, ijo li sama pilin pona pi kama anpa e jan ante. ona li jo e ilo suno ona, li lawa e jan Utason lon ma insa, li tawa tomo suli pi pali moku. lon tomo ni la, seli li lon ala, li pipi pimeja li tawa sewi lon supa anpa. jan Pulu li lukin tawa oko pi jan Utason, li toki e ni: “jan lawa o, kalama toki ni li kalama toki pi jan lawa mi anu seme?”\nNOTES: “Something like triumph” is retained as an uncertain comparison.",
+  "translation": "“pona tawa sina, jan lawa,” jan Pulu li toki. lon kalama toki ona la, ijo li sama pilin pona pi kama anpa e jan ante. ona li jo e ilo suno ona, li lawa e jan Utason lon ma insa, li tawa tomo suli pi pali moku. lon tomo ni la, seli li lon ala, li pipi pimeja li tawa sewi lon supa anpa. jan Pulu li lukin tawa oko pi jan Utason, li toki e ni: “jan lawa o, kalama toki ni li kalama toki pi jan lawa mi anu seme?”",
+  "notes": "“Something like triumph” is retained as an uncertain comparison.",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 447,
+    "output_tokens_details": {
+      "reasoning_tokens": 287
+    },
+    "total_tokens": 3265
+  },
+  "success": true
+}

@@ -1,0 +1,62 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0013",
+  "sourceHash": "eed42523fcb6654051adb0ec0c93439215688ad91cd9cf79bbee813f2f233527",
+  "source": "“We had,” was the reply. “But it is more than ten years since Henry Jekyll became too fanciful for me. He began to go wrong, wrong in mind; and though of course I continue to take an interest in him for old sake’s sake, as they say, I see and I have seen devilish little of the man. Such unscientific balderdash,” added the doctor, flushing suddenly purple, “would have estranged Damon and Pythias.”",
+  "originalTranslation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike mute luka luka li pini tan ni: jan Jekil li kama jo e pilin nasa mute. ni li ike tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+  "originalTranslationHash": "5a8a455eacb87df2d296e7c30ed77bd19082e9f08f02096d7d6ac06775d09106",
+  "qaDefect": "More-than-ten-years and opinion cadence are awkward.",
+  "defectHash": "d5cd7ddaeac08781dc98c7745361fb3b8adc3f42b05568edb4bb53101e1ad648",
+  "requiredPreservation": "Preserve time, speaker, and opinion status.",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0385172e2fbbe369016ab42181270c87d2b74b77c793eea95d",
+      "model": "gpt-5.6-sol",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: NONE",
+      "revisedTranslation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 3024,
+        "input_tokens_details": {
+          "cache_write_tokens": 3021,
+          "cached_tokens": 0
+        },
+        "output_tokens": 415,
+        "output_tokens_details": {
+          "reasoning_tokens": 246
+        },
+        "total_tokens": 3439
+      },
+      "elapsedMs": 9169
+    }
+  ],
+  "model": "gpt-5.6-sol",
+  "provider": "OpenAI Responses API",
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0385172e2fbbe369016ab42181270c87d2b74b77c793eea95d",
+  "visibleOutput": "TRANSLATION: “tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”\nNOTES: NONE",
+  "revisedTranslation": "“tenpo pini la mi tu li jo e ni,” jan Lanjon li toki. “taso, tenpo sike luka luka li pini tan ni, li pini kin lon tenpo ante: jan Jekil li kama nasa mute tawa mi. nasin pi lawa ona li open kama ike. jan li toki e ni: mi awen wile sona e ona tan pona pi tenpo pini. taso, mi lukin e jan ni lon tenpo lili mute ala. toki nasa ona li kepeken ala nasin sona,” jan pi sona sijelo li toki sin. tenpo lili la, sinpin ona li kama loje laso. “toki ni li ken weka e jan Temon tan jan Pitijas.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 3024,
+    "input_tokens_details": {
+      "cache_write_tokens": 3021,
+      "cached_tokens": 0
+    },
+    "output_tokens": 415,
+    "output_tokens_details": {
+      "reasoning_tokens": 246
+    },
+    "total_tokens": 3439
+  },
+  "success": true
+}

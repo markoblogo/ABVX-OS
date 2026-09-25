@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0008",
+  "sourceHash": "ad6ee958a1c0f2f59aaf42b0ad4358ecdf27454bb7247c95fd9f52d60f33edb4",
+  "source": "There at least he was not denied admittance; but when he came in, he was shocked at the change which had taken place in the doctor’s appearance. He had his death-warrant written legibly upon his face.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_091e64c275ebe10a016ab42d74815c87d2a1300f4acd0cb07d",
+      "visibleOutput": "TRANSLATION: lon ni la, jan li kepeken ala nasin pi pana ala e ken tawa insa; taso ona li kama insa la, ante suli lon lukin pi jan Lanjon pi sona sijelo li monsuta e ona. sinpin ona li pana e sona pi ken moli ona, sama sitelen pona lukin.\nNOTES: “death-warrant” is rendered as a visible sign of likely death, preserving the metaphor without making a literal legal claim.",
+      "translation": "lon ni la, jan li kepeken ala nasin pi pana ala e ken tawa insa; taso ona li kama insa la, ante suli lon lukin pi jan Lanjon pi sona sijelo li monsuta e ona. sinpin ona li pana e sona pi ken moli ona, sama sitelen pona lukin.",
+      "notes": "“death-warrant” is rendered as a visible sign of likely death, preserving the metaphor without making a literal legal claim.",
+      "usage": {
+        "input_tokens": 2786,
+        "input_tokens_details": {
+          "cache_write_tokens": 2783,
+          "cached_tokens": 0
+        },
+        "output_tokens": 204,
+        "output_tokens_details": {
+          "reasoning_tokens": 96
+        },
+        "total_tokens": 2990
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_091e64c275ebe10a016ab42d74815c87d2a1300f4acd0cb07d",
+  "visibleOutput": "TRANSLATION: lon ni la, jan li kepeken ala nasin pi pana ala e ken tawa insa; taso ona li kama insa la, ante suli lon lukin pi jan Lanjon pi sona sijelo li monsuta e ona. sinpin ona li pana e sona pi ken moli ona, sama sitelen pona lukin.\nNOTES: “death-warrant” is rendered as a visible sign of likely death, preserving the metaphor without making a literal legal claim.",
+  "translation": "lon ni la, jan li kepeken ala nasin pi pana ala e ken tawa insa; taso ona li kama insa la, ante suli lon lukin pi jan Lanjon pi sona sijelo li monsuta e ona. sinpin ona li pana e sona pi ken moli ona, sama sitelen pona lukin.",
+  "notes": "“death-warrant” is rendered as a visible sign of likely death, preserving the metaphor without making a literal legal claim.",
+  "usage": {
+    "input_tokens": 2786,
+    "input_tokens_details": {
+      "cache_write_tokens": 2783,
+      "cached_tokens": 0
+    },
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 2990
+  },
+  "success": true
+}

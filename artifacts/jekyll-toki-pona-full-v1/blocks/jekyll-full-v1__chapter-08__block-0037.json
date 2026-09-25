@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0037",
+  "sourceHash": "a60ab4ffb839df9052489a112af66e7ce97ed56990dce879644ee78928791837",
+  "source": "“Poole,” replied the lawyer, “if you say that, it will become my duty to make certain. Much as I desire to spare your master’s feelings, much as I am puzzled by this note which seems to prove him to be still alive, I shall consider it my duty to break in that door.” “Ah Mr. Utterson, that’s talking!” cried the butler.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_02cec750eaec9600016ab430ec247087d2be9fbba46f17c618",
+      "visibleOutput": "TRANSLATION: “jan Pulu o,” jan Utason pi sona lawa li toki sin, “sina toki e ni la, mi o alasa sona e lon. mi wile mute e ni: mi pakala ala e pilin pi jan lawa sina. kin la, lipu lili ni li nasa e mi, tan ni: lukin la, ona li pana e sona ni: jan Jekil li awen lon. taso mi pilin e ni: mi o pakala e lupa ni, mi o tawa insa.” jan Pulu li kalama suli e ni: “a, jan Utason o! toki sina li pona a!”\nNOTES: “lukin la” preserves that the note only seems to prove Jekyll is alive.",
+      "translation": "“jan Pulu o,” jan Utason pi sona lawa li toki sin, “sina toki e ni la, mi o alasa sona e lon. mi wile mute e ni: mi pakala ala e pilin pi jan lawa sina. kin la, lipu lili ni li nasa e mi, tan ni: lukin la, ona li pana e sona ni: jan Jekil li awen lon. taso mi pilin e ni: mi o pakala e lupa ni, mi o tawa insa.” jan Pulu li kalama suli e ni: “a, jan Utason o! toki sina li pona a!”",
+      "notes": "“lukin la” preserves that the note only seems to prove Jekyll is alive.",
+      "usage": {
+        "input_tokens": 2826,
+        "input_tokens_details": {
+          "cache_write_tokens": 2823,
+          "cached_tokens": 0
+        },
+        "output_tokens": 572,
+        "output_tokens_details": {
+          "reasoning_tokens": 406
+        },
+        "total_tokens": 3398
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_02cec750eaec9600016ab430ec247087d2be9fbba46f17c618",
+  "visibleOutput": "TRANSLATION: “jan Pulu o,” jan Utason pi sona lawa li toki sin, “sina toki e ni la, mi o alasa sona e lon. mi wile mute e ni: mi pakala ala e pilin pi jan lawa sina. kin la, lipu lili ni li nasa e mi, tan ni: lukin la, ona li pana e sona ni: jan Jekil li awen lon. taso mi pilin e ni: mi o pakala e lupa ni, mi o tawa insa.” jan Pulu li kalama suli e ni: “a, jan Utason o! toki sina li pona a!”\nNOTES: “lukin la” preserves that the note only seems to prove Jekyll is alive.",
+  "translation": "“jan Pulu o,” jan Utason pi sona lawa li toki sin, “sina toki e ni la, mi o alasa sona e lon. mi wile mute e ni: mi pakala ala e pilin pi jan lawa sina. kin la, lipu lili ni li nasa e mi, tan ni: lukin la, ona li pana e sona ni: jan Jekil li awen lon. taso mi pilin e ni: mi o pakala e lupa ni, mi o tawa insa.” jan Pulu li kalama suli e ni: “a, jan Utason o! toki sina li pona a!”",
+  "notes": "“lukin la” preserves that the note only seems to prove Jekyll is alive.",
+  "usage": {
+    "input_tokens": 2826,
+    "input_tokens_details": {
+      "cache_write_tokens": 2823,
+      "cached_tokens": 0
+    },
+    "output_tokens": 572,
+    "output_tokens_details": {
+      "reasoning_tokens": 406
+    },
+    "total_tokens": 3398
+  },
+  "success": true
+}

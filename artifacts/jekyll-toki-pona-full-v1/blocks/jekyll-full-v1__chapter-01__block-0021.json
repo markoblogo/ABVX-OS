@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0021",
+  "sourceHash": "d4a69df8c6b7d78510c439d269901b6617a4b68dd6f4853006de73631cdae408",
+  "source": "So had the child’s family, which was only natural. But the doctor’s case was what struck me. He was the usual cut-and-dry apothecary, of no particular age and colour, with a strong Edinburgh accent, and about as emotional as a bagpipe.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_00c0ffdd0cb0c7bb016ab4255de51487d28fb75ce6b4829fa1",
+      "visibleOutput": "TRANSLATION: sama la, kulupu mama pi jan lili li pilin ike tawa ona. ni li nasa ala. taso, pilin pi jan pi pali misikeke li kama suli tawa mi. ona li jan pi pali misikeke pi nasin kiwen pi tenpo ale. tenpo sike ona en kule sijelo ona li nasa ala li suli ala. nasin toki ona pi ma Etinpa li wawa. ona li pana e pilin sama ilo musi pi poki kon taso.\n\nNOTES: “So had” refers to the family sharing the previously stated dislike; the comparison to a bagpipe retains the narrator’s dry characterization.",
+      "translation": "sama la, kulupu mama pi jan lili li pilin ike tawa ona. ni li nasa ala. taso, pilin pi jan pi pali misikeke li kama suli tawa mi. ona li jan pi pali misikeke pi nasin kiwen pi tenpo ale. tenpo sike ona en kule sijelo ona li nasa ala li suli ala. nasin toki ona pi ma Etinpa li wawa. ona li pana e pilin sama ilo musi pi poki kon taso.",
+      "notes": "“So had” refers to the family sharing the previously stated dislike; the comparison to a bagpipe retains the narrator’s dry characterization.",
+      "usage": {
+        "input_tokens": 2793,
+        "input_tokens_details": {
+          "cache_write_tokens": 2790,
+          "cached_tokens": 0
+        },
+        "output_tokens": 490,
+        "output_tokens_details": {
+          "reasoning_tokens": 344
+        },
+        "total_tokens": 3283
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_00c0ffdd0cb0c7bb016ab4255de51487d28fb75ce6b4829fa1",
+  "visibleOutput": "TRANSLATION: sama la, kulupu mama pi jan lili li pilin ike tawa ona. ni li nasa ala. taso, pilin pi jan pi pali misikeke li kama suli tawa mi. ona li jan pi pali misikeke pi nasin kiwen pi tenpo ale. tenpo sike ona en kule sijelo ona li nasa ala li suli ala. nasin toki ona pi ma Etinpa li wawa. ona li pana e pilin sama ilo musi pi poki kon taso.\n\nNOTES: “So had” refers to the family sharing the previously stated dislike; the comparison to a bagpipe retains the narrator’s dry characterization.",
+  "translation": "sama la, kulupu mama pi jan lili li pilin ike tawa ona. ni li nasa ala. taso, pilin pi jan pi pali misikeke li kama suli tawa mi. ona li jan pi pali misikeke pi nasin kiwen pi tenpo ale. tenpo sike ona en kule sijelo ona li nasa ala li suli ala. nasin toki ona pi ma Etinpa li wawa. ona li pana e pilin sama ilo musi pi poki kon taso.",
+  "notes": "“So had” refers to the family sharing the previously stated dislike; the comparison to a bagpipe retains the narrator’s dry characterization.",
+  "usage": {
+    "input_tokens": 2793,
+    "input_tokens_details": {
+      "cache_write_tokens": 2790,
+      "cached_tokens": 0
+    },
+    "output_tokens": 490,
+    "output_tokens_details": {
+      "reasoning_tokens": 344
+    },
+    "total_tokens": 3283
+  },
+  "success": true
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "product": "NO FURTHER CLAIMS: A BRACKEN FORD NOVEL",
+  "updated_on": "2026-09-23",
+  "publication_status": {
+    "kindle": "PUBLISHED_LIVE_ON_KDP_AND_AMAZON_DETAIL_PAGE",
+    "paperback": "PUBLISHED_LIVE_ON_KDP_AND_AMAZON_DETAIL_PAGE",
+    "status_source": "authenticated_kdp_bookshelf_and_amazon_retail_pages_observed_2026-09-23",
+    "independently_verified": true,
+    "kindle_asin": "B0HKTBFFJM",
+    "kindle_url": "https://www.amazon.com/dp/B0HKTBFFJM",
+    "paperback_asin": "B0HKTFR8ND",
+    "isbn": "9798176597592",
+    "paperback_url": "https://www.amazon.com/dp/B0HKTFR8ND",
+    "publication_dates": {"kindle": "2026-09-23", "paperback": "2026-09-23"},
+    "retail_availability_observation": "Amazon.com detail pages resolve, but both Kindle purchase and paperback delivery were unavailable for the signed-in France delivery location at observation time; do not generalize this to other territories.",
+    "format_family_linkage": "PENDING_RECHECK: KDP Bookshelf groups both live formats under one title, but each observed detail page exposed only its own format."
+  },
+  "canonical_sources": {
+    "manuscript": {"path": "BRACKEN_FORD_TEXT_LOCK_V1.md", "status": "TEXT_LOCK", "sha256": "0c5c757590b539e35c67b982f3f7ed117076e4f10b8b7d3f4ee8cf83336b7797"},
+    "world_bible": {"path": "BRACKEN_FORD_WORLD_BIBLE_V5.md", "status": "CANONICAL_SOURCE"},
+    "continuity_audit": {"path": "BRACKEN_FORD_CONTINUITY_AUDIT_V3.md", "status": "CANONICAL_SOURCE"},
+    "illustration_manifest": {"path": "BRACKEN_FORD_ILLUSTRATION_PLACEMENT_V4.md", "status": "CANONICAL_SOURCE", "asset_inventory": "BRACKEN_FORD_ILLUSTRATION_MANIFEST_V1.md"},
+    "print": {"path": "output/pdf/NO_FURTHER_CLAIMS_PRINT_FINAL_CANDIDATE.pdf", "status": "PUBLISHED_ARTIFACT_POINTER_UNCHANGED"},
+    "epub": {"path": "output/epub_final_candidate/NO_FURTHER_CLAIMS_EPUB_FINAL_CANDIDATE.epub", "status": "PUBLISHED_ARTIFACT_POINTER_UNCHANGED"}
+  },
+  "historical_status_rules": {
+    "older_versions": "SUPERSEDED",
+    "review_builds": "PROTOTYPE",
+    "locked_prose": "TEXT_LOCK",
+    "do_not_delete_history": true
+  },
+  "historical_sources": [
+    {"path": "BRACKEN_FORD_DEVELOPMENT_DRAFT_V1.md", "status": "SUPERSEDED"},
+    {"path": "BRACKEN_FORD_STRUCTURAL_DRAFT_V2.md", "status": "SUPERSEDED"},
+    {"path": "BRACKEN_FORD_EDITORIAL_DRAFT_V3.md", "status": "SUPERSEDED"},
+    {"path": "No-Further-Claims-review-manuscript.md", "status": "PROTOTYPE"},
+    {"path": "No-Further-Claims-illustrated-review.pdf", "status": "PROTOTYPE"},
+    {"path": "No-Further-Claims-illustrated-review.epub", "status": "PROTOTYPE"}
+  ],
+  "asset_provenance": {
+    "status": "UNRESOLVED_IN_LOCAL_RECORDS",
+    "complete_before_next_amazon_packaging": true,
+    "assets": [
+      {"id": "BF0", "path": "assets/illustrations/BF0.png", "sha256": "84126800f2b69cafc276d350438fea78f3b5b60585cef58a7f82597a07ffef5b", "origin": "UNRESOLVED"},
+      {"id": "BF1", "path": "assets/illustrations/BF1.png", "sha256": "56dc2b7ff2ae65182617c37091297b6926d06c109a5eba942c922d7577bd0336", "origin": "UNRESOLVED"},
+      {"id": "BF2", "path": "assets/illustrations/BF2.png", "sha256": "228910167973f383e564b4700d34d5df779ac61ef4ccb4a9d1201462bfa5f5b0", "origin": "UNRESOLVED"},
+      {"id": "BF3", "path": "assets/illustrations/BF3.png", "sha256": "aac8dac378931de6bfad489d26c62162b0056547313222daee568002ffcd6da2", "origin": "UNRESOLVED"},
+      {"id": "BF4", "path": "assets/illustrations/BF4.png", "sha256": "5eafc68086e49755752865eb4ee7d3a67fbe954ee1ef85cf08d41a91de6cdefd", "origin": "UNRESOLVED"},
+      {"id": "BF5", "path": "assets/illustrations/BF5.png", "sha256": "eb53092e519b879b8a473668cadc5c08ed243be4569a4fad1179751ca0c5a2a5", "origin": "UNRESOLVED"},
+      {"id": "KDP_COVER_ART", "path": null, "sha256": null, "origin": "UNRESOLVED", "note": "Cover artifact/provenance is not present in this local project record."}
+    ]
+  },
+  "pictiq_chain": {"required_for_future_cases": ["NOVEL_SCENE", "ENGLISH_COMPOSER_INPUT", "COMPOSER_OUTPUT", "FINAL_COMPOSITE"], "version_hash_metadata_required": true, "vocabulary_changes_authorized": false}
+}

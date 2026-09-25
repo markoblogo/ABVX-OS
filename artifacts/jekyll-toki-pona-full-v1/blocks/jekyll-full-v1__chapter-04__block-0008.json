@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0008",
+  "sourceHash": "bf7c827f55b5eb7b2a0dde0faa6e98025af6cd3b4abd36922ff29a718776d06f",
+  "source": "And next moment, with ape-like fury, he was trampling his victim under foot and hailing down a storm of blows, under which the bones were audibly shattered and the body jumped upon the roadway. At the horror of these sights and sounds, the maid fainted. It was two o’clock when she came to herself and called for the police.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a1bd72aa18c2ea8016ab42a42fc0487d2a106ddbd3eb1d235",
+      "visibleOutput": "TRANSLATION: lon tenpo lili kama la, ona li kama wawa ike sama soweli pi sama jan. ona li anpa e jan pakala kepeken noka, li pana e utala mute sama telo sewi wawa. tan utala ni la, kalama pakala pi palisa sijelo li ken kute, li pana e sijelo tawa sewi lon nasin. jan pali meli li lukin e ni, li kute e ni, li monsuta mute, li kama sona ala. tenpo ilo li nanpa tu la, ona li kama sona sin, li toki tawa jan awen pi lawa, li wile e kama ona.\nNOTES: “ape-like” is rendered descriptively as “like a human-like animal”; police as law-keeping people.",
+      "translation": "lon tenpo lili kama la, ona li kama wawa ike sama soweli pi sama jan. ona li anpa e jan pakala kepeken noka, li pana e utala mute sama telo sewi wawa. tan utala ni la, kalama pakala pi palisa sijelo li ken kute, li pana e sijelo tawa sewi lon nasin. jan pali meli li lukin e ni, li kute e ni, li monsuta mute, li kama sona ala. tenpo ilo li nanpa tu la, ona li kama sona sin, li toki tawa jan awen pi lawa, li wile e kama ona.",
+      "notes": "“ape-like” is rendered descriptively as “like a human-like animal”; police as law-keeping people.",
+      "usage": {
+        "input_tokens": 2810,
+        "input_tokens_details": {
+          "cache_write_tokens": 2807,
+          "cached_tokens": 0
+        },
+        "output_tokens": 691,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3501
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a1bd72aa18c2ea8016ab42a42fc0487d2a106ddbd3eb1d235",
+  "visibleOutput": "TRANSLATION: lon tenpo lili kama la, ona li kama wawa ike sama soweli pi sama jan. ona li anpa e jan pakala kepeken noka, li pana e utala mute sama telo sewi wawa. tan utala ni la, kalama pakala pi palisa sijelo li ken kute, li pana e sijelo tawa sewi lon nasin. jan pali meli li lukin e ni, li kute e ni, li monsuta mute, li kama sona ala. tenpo ilo li nanpa tu la, ona li kama sona sin, li toki tawa jan awen pi lawa, li wile e kama ona.\nNOTES: “ape-like” is rendered descriptively as “like a human-like animal”; police as law-keeping people.",
+  "translation": "lon tenpo lili kama la, ona li kama wawa ike sama soweli pi sama jan. ona li anpa e jan pakala kepeken noka, li pana e utala mute sama telo sewi wawa. tan utala ni la, kalama pakala pi palisa sijelo li ken kute, li pana e sijelo tawa sewi lon nasin. jan pali meli li lukin e ni, li kute e ni, li monsuta mute, li kama sona ala. tenpo ilo li nanpa tu la, ona li kama sona sin, li toki tawa jan awen pi lawa, li wile e kama ona.",
+  "notes": "“ape-like” is rendered descriptively as “like a human-like animal”; police as law-keeping people.",
+  "usage": {
+    "input_tokens": 2810,
+    "input_tokens_details": {
+      "cache_write_tokens": 2807,
+      "cached_tokens": 0
+    },
+    "output_tokens": 691,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3501
+  },
+  "success": true
+}

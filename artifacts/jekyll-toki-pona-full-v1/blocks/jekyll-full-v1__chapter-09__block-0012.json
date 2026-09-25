@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0012",
+  "sourceHash": "0d400bdb8196697fad4fe2f9208fa630472696ead9f36df1a558e275bb66421e",
+  "source": "“Your friend, “H. J. “P. S. I had already sealed this up when a fresh terror struck upon my soul. It is possible that the postoffice may fail me, and this letter not come into your hands until to-morrow morning. In that case, dear Lanyon, do my errand when it shall be most convenient for you in the course of the day; and once more expect my messenger at midnight.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0edaba9d19d9150c016ab433dc0d5087d2a86caf525d7a6b12",
+      "visibleOutput": "TRANSLATION: “jan pona sina, H. J. P. S. mi pini e poki pi lipu ni. tenpo pini lili la, pilin monsuta sin li kama wawa lon insa mi. ken la, nasin pi pana lipu li pakala tawa mi, li pana ala e lipu ni tawa sina lon tenpo poka. ken la, sina kama jo e ona lon tenpo suno kama taso. ni li lon la, jan Lanjon o pali e pali ni tan mi lon tenpo suno kama, lon tenpo pona tawa sina. kin la, o awen sin e jan pi pana toki mi lon insa pi tenpo pimeja.”\nNOTES: nimi sitelen “H. J.” en “P. S.” li awen sama lipu mama.",
+      "translation": "“jan pona sina, H. J. P. S. mi pini e poki pi lipu ni. tenpo pini lili la, pilin monsuta sin li kama wawa lon insa mi. ken la, nasin pi pana lipu li pakala tawa mi, li pana ala e lipu ni tawa sina lon tenpo poka. ken la, sina kama jo e ona lon tenpo suno kama taso. ni li lon la, jan Lanjon o pali e pali ni tan mi lon tenpo suno kama, lon tenpo pona tawa sina. kin la, o awen sin e jan pi pana toki mi lon insa pi tenpo pimeja.”",
+      "notes": "nimi sitelen “H. J.” en “P. S.” li awen sama lipu mama.",
+      "usage": {
+        "input_tokens": 2841,
+        "input_tokens_details": {
+          "cache_write_tokens": 2838,
+          "cached_tokens": 0
+        },
+        "output_tokens": 675,
+        "output_tokens_details": {
+          "reasoning_tokens": 495
+        },
+        "total_tokens": 3516
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0edaba9d19d9150c016ab433dc0d5087d2a86caf525d7a6b12",
+  "visibleOutput": "TRANSLATION: “jan pona sina, H. J. P. S. mi pini e poki pi lipu ni. tenpo pini lili la, pilin monsuta sin li kama wawa lon insa mi. ken la, nasin pi pana lipu li pakala tawa mi, li pana ala e lipu ni tawa sina lon tenpo poka. ken la, sina kama jo e ona lon tenpo suno kama taso. ni li lon la, jan Lanjon o pali e pali ni tan mi lon tenpo suno kama, lon tenpo pona tawa sina. kin la, o awen sin e jan pi pana toki mi lon insa pi tenpo pimeja.”\nNOTES: nimi sitelen “H. J.” en “P. S.” li awen sama lipu mama.",
+  "translation": "“jan pona sina, H. J. P. S. mi pini e poki pi lipu ni. tenpo pini lili la, pilin monsuta sin li kama wawa lon insa mi. ken la, nasin pi pana lipu li pakala tawa mi, li pana ala e lipu ni tawa sina lon tenpo poka. ken la, sina kama jo e ona lon tenpo suno kama taso. ni li lon la, jan Lanjon o pali e pali ni tan mi lon tenpo suno kama, lon tenpo pona tawa sina. kin la, o awen sin e jan pi pana toki mi lon insa pi tenpo pimeja.”",
+  "notes": "nimi sitelen “H. J.” en “P. S.” li awen sama lipu mama.",
+  "usage": {
+    "input_tokens": 2841,
+    "input_tokens_details": {
+      "cache_write_tokens": 2838,
+      "cached_tokens": 0
+    },
+    "output_tokens": 675,
+    "output_tokens_details": {
+      "reasoning_tokens": 495
+    },
+    "total_tokens": 3516
+  },
+  "success": true
+}

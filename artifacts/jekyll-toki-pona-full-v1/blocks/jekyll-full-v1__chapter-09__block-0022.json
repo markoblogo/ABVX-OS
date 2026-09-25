@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0022",
+  "sourceHash": "613fc873b63ab1eb779e21db5430c0944f29207c353dda4d28a28e1489225210",
+  "source": "Here were a phial of some tincture, a paper of some salt, and the record of a series of experiments that had led (like too many of Jekyll’s investigations) to no end of practical usefulness. How could the presence of these articles in my house affect either the honour, the sanity, or the life of my flighty colleague?",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bd4e0aa44ba7e83016ab4348d3bb087d2b9d8d6f892f14f17",
+      "visibleOutput": "TRANSLATION: lon ni la, poki lili li jo e telo kule, lipu li jo e ko, lipu ante li toki e pali alasa mute. sama pali alasa mute ike pi jan Jekil la, pali alasa ni li kama ala e ijo pona kepeken. taso, ijo ni li lon tomo mi la, ona li ken ante e nimi pona anu pona pi lawa anu lon pi jan Jekil, jan pali poka mi pi nasin awen ala, kepeken nasin seme?\nNOTES: “salt” remains nonspecific as ko; the final question preserves Lanyon’s uncertainty.",
+      "translation": "lon ni la, poki lili li jo e telo kule, lipu li jo e ko, lipu ante li toki e pali alasa mute. sama pali alasa mute ike pi jan Jekil la, pali alasa ni li kama ala e ijo pona kepeken. taso, ijo ni li lon tomo mi la, ona li ken ante e nimi pona anu pona pi lawa anu lon pi jan Jekil, jan pali poka mi pi nasin awen ala, kepeken nasin seme?",
+      "notes": "“salt” remains nonspecific as ko; the final question preserves Lanyon’s uncertainty.",
+      "usage": {
+        "input_tokens": 2823,
+        "input_tokens_details": {
+          "cache_write_tokens": 2820,
+          "cached_tokens": 0
+        },
+        "output_tokens": 657,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3480
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0bd4e0aa44ba7e83016ab4348d3bb087d2b9d8d6f892f14f17",
+  "visibleOutput": "TRANSLATION: lon ni la, poki lili li jo e telo kule, lipu li jo e ko, lipu ante li toki e pali alasa mute. sama pali alasa mute ike pi jan Jekil la, pali alasa ni li kama ala e ijo pona kepeken. taso, ijo ni li lon tomo mi la, ona li ken ante e nimi pona anu pona pi lawa anu lon pi jan Jekil, jan pali poka mi pi nasin awen ala, kepeken nasin seme?\nNOTES: “salt” remains nonspecific as ko; the final question preserves Lanyon’s uncertainty.",
+  "translation": "lon ni la, poki lili li jo e telo kule, lipu li jo e ko, lipu ante li toki e pali alasa mute. sama pali alasa mute ike pi jan Jekil la, pali alasa ni li kama ala e ijo pona kepeken. taso, ijo ni li lon tomo mi la, ona li ken ante e nimi pona anu pona pi lawa anu lon pi jan Jekil, jan pali poka mi pi nasin awen ala, kepeken nasin seme?",
+  "notes": "“salt” remains nonspecific as ko; the final question preserves Lanyon’s uncertainty.",
+  "usage": {
+    "input_tokens": 2823,
+    "input_tokens_details": {
+      "cache_write_tokens": 2820,
+      "cached_tokens": 0
+    },
+    "output_tokens": 657,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3480
+  },
+  "success": true
+}

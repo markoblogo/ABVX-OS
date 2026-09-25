@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0055",
+  "sourceHash": "01ffdd24692e0d366ce0f6dbaed6b6d0c1c3951c576b664a3c4c1004b0f859bb",
+  "source": "“Jekyll,” cried Utterson, with a loud voice, “I demand to see you.” He paused a moment, but there came no reply. “I give you fair warning, our suspicions are aroused, and I must and shall see you,” he resumed; “if not by fair means, then by foul! if not of your consent, then by brute force!” “Utterson,” said the voice, “for God’s sake, have mercy!”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08f15f23d1b40fa0016ab431bb5e8c87d2af1bd7ee8e5125e1",
+      "visibleOutput": "TRANSLATION: “jan Jekil o!” jan Utason li kalama suli. “mi wile wawa lukin e sina.” ona li awen lili, taso toki ala li kama. ona li toki sin: “mi pana e toki sona ni tawa sina: mi mute li open pilin e ni: ijo ike li lon. mi o lukin e sina, li lukin e sina kin. sina la, mi kepeken nasin pona. sina ala la, mi kepeken nasin ike! sina wile e ni la, pona. sina wile ala la, mi kepeken wawa sijelo!” kalama toki li toki: “jan Utason o, tan sewi la, o pana e pona tawa mi!”\nNOTES: “kalama toki” preserves that the speaker is not yet identified.",
+      "translation": "“jan Jekil o!” jan Utason li kalama suli. “mi wile wawa lukin e sina.” ona li awen lili, taso toki ala li kama. ona li toki sin: “mi pana e toki sona ni tawa sina: mi mute li open pilin e ni: ijo ike li lon. mi o lukin e sina, li lukin e sina kin. sina la, mi kepeken nasin pona. sina ala la, mi kepeken nasin ike! sina wile e ni la, pona. sina wile ala la, mi kepeken wawa sijelo!” kalama toki li toki: “jan Utason o, tan sewi la, o pana e pona tawa mi!”",
+      "notes": "“kalama toki” preserves that the speaker is not yet identified.",
+      "usage": {
+        "input_tokens": 2843,
+        "input_tokens_details": {
+          "cache_write_tokens": 2840,
+          "cached_tokens": 0
+        },
+        "output_tokens": 319,
+        "output_tokens_details": {
+          "reasoning_tokens": 135
+        },
+        "total_tokens": 3162
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08f15f23d1b40fa0016ab431bb5e8c87d2af1bd7ee8e5125e1",
+  "visibleOutput": "TRANSLATION: “jan Jekil o!” jan Utason li kalama suli. “mi wile wawa lukin e sina.” ona li awen lili, taso toki ala li kama. ona li toki sin: “mi pana e toki sona ni tawa sina: mi mute li open pilin e ni: ijo ike li lon. mi o lukin e sina, li lukin e sina kin. sina la, mi kepeken nasin pona. sina ala la, mi kepeken nasin ike! sina wile e ni la, pona. sina wile ala la, mi kepeken wawa sijelo!” kalama toki li toki: “jan Utason o, tan sewi la, o pana e pona tawa mi!”\nNOTES: “kalama toki” preserves that the speaker is not yet identified.",
+  "translation": "“jan Jekil o!” jan Utason li kalama suli. “mi wile wawa lukin e sina.” ona li awen lili, taso toki ala li kama. ona li toki sin: “mi pana e toki sona ni tawa sina: mi mute li open pilin e ni: ijo ike li lon. mi o lukin e sina, li lukin e sina kin. sina la, mi kepeken nasin pona. sina ala la, mi kepeken nasin ike! sina wile e ni la, pona. sina wile ala la, mi kepeken wawa sijelo!” kalama toki li toki: “jan Utason o, tan sewi la, o pana e pona tawa mi!”",
+  "notes": "“kalama toki” preserves that the speaker is not yet identified.",
+  "usage": {
+    "input_tokens": 2843,
+    "input_tokens_details": {
+      "cache_write_tokens": 2840,
+      "cached_tokens": 0
+    },
+    "output_tokens": 319,
+    "output_tokens_details": {
+      "reasoning_tokens": 135
+    },
+    "total_tokens": 3162
+  },
+  "success": true
+}

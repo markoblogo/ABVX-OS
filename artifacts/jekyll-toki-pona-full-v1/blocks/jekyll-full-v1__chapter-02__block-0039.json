@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0039",
+  "sourceHash": "ffe94cb92f6cf8c12b8ba4689519ee86995b3eebdd46654158b8361ef3c38aba",
+  "source": "Round the corner from the by-street, there was a square of ancient, handsome houses, now for the most part decayed from their high estate and let in flats and chambers to all sorts and conditions of men: map-engravers, architects, shady lawyers, and the agents of obscure enterprises.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bbb9f0184123400016ab4286cc88887d2978d05650ef55a61",
+      "visibleOutput": "TRANSLATION: lon poka ante pi pini nasin lili la, ma open li lon. tomo suli pi tenpo pini li sike e ma ni, li pona lukin. taso tenpo ni la, mute tomo li pakala li jo ala e suli pi tenpo pini. jan li esun e tomo insa e tomo lili lon tomo ni tawa jan pi nasin ale: jan pi sitelen ma, jan pi pali tomo, jan pi sona lawa pi pona ala, en jan pali pi pali sona ala.\nNOTES: “shady” and “obscure” are compressed as doubtful reputation and little-known work.",
+      "translation": "lon poka ante pi pini nasin lili la, ma open li lon. tomo suli pi tenpo pini li sike e ma ni, li pona lukin. taso tenpo ni la, mute tomo li pakala li jo ala e suli pi tenpo pini. jan li esun e tomo insa e tomo lili lon tomo ni tawa jan pi nasin ale: jan pi sitelen ma, jan pi pali tomo, jan pi sona lawa pi pona ala, en jan pali pi pali sona ala.",
+      "notes": "“shady” and “obscure” are compressed as doubtful reputation and little-known work.",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 563,
+        "output_tokens_details": {
+          "reasoning_tokens": 424
+        },
+        "total_tokens": 3361
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0bbb9f0184123400016ab4286cc88887d2978d05650ef55a61",
+  "visibleOutput": "TRANSLATION: lon poka ante pi pini nasin lili la, ma open li lon. tomo suli pi tenpo pini li sike e ma ni, li pona lukin. taso tenpo ni la, mute tomo li pakala li jo ala e suli pi tenpo pini. jan li esun e tomo insa e tomo lili lon tomo ni tawa jan pi nasin ale: jan pi sitelen ma, jan pi pali tomo, jan pi sona lawa pi pona ala, en jan pali pi pali sona ala.\nNOTES: “shady” and “obscure” are compressed as doubtful reputation and little-known work.",
+  "translation": "lon poka ante pi pini nasin lili la, ma open li lon. tomo suli pi tenpo pini li sike e ma ni, li pona lukin. taso tenpo ni la, mute tomo li pakala li jo ala e suli pi tenpo pini. jan li esun e tomo insa e tomo lili lon tomo ni tawa jan pi nasin ale: jan pi sitelen ma, jan pi pali tomo, jan pi sona lawa pi pona ala, en jan pali pi pali sona ala.",
+  "notes": "“shady” and “obscure” are compressed as doubtful reputation and little-known work.",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 563,
+    "output_tokens_details": {
+      "reasoning_tokens": 424
+    },
+    "total_tokens": 3361
+  },
+  "success": true
+}

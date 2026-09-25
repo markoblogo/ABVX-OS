@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "run": "jekyll-toki-pona-preproduction-v1",
+  "runDate": "2026-09-21",
+  "scope": "representative pre-production sample only; no full-book translation",
+  "source": {
+    "rawWords": 28738,
+    "normalizedWords": 25622,
+    "rawSha256": "c77c386664a308ff0e0a7ce33714da0856facd6e183b7bc6ae82c1cbb137120b",
+    "normalizedSha256": "dd95f97826b4688f1e5c66534bc69523c24dc651605945533add1bab17a73984",
+    "sourceCompleteness": "PASS",
+    "boilerplateRemoval": "PASS",
+    "sectionSegmentation": "PASS_WITH_LIMITATION",
+    "sectionSegmentationNote": "Ten canonical section headings are detectable; title/contents duplicates must be excluded before production."
+  },
+  "sample": {
+    "sourceWords": 1785,
+    "tokiPonaDraftWords": 1624,
+    "wordCountScope": "Markdown artifact totals, including headings and translator notes.",
+    "selectedCoverage": ["narration", "dialogue", "will", "letter", "laboratory/cabinet", "uncertain inference", "fearful witness", "Jekyll", "Hyde", "Utterson", "Lanyon", "Poole"],
+    "finalRevelationExcluded": true
+  },
+  "automation": {
+    "sourceFetch": "AUTOMATED_SUCCESS",
+    "boilerplateRemoval": "AUTOMATED_SUCCESS",
+    "sectionSegmentation": "AUTOMATED_WITH_MANUAL_REVIEW",
+    "entityLedger": "MANUAL_BECAUSE_PIPELINE_IS_MISSING",
+    "translation": "FAILED",
+    "translationNote": "Existing deployed endpoint returned NOT_FOUND; local contract limits input to 500 characters and permits only canonical profile words, which cannot represent proper names.",
+    "nameConsistency": "MANUAL_BECAUSE_PIPELINE_IS_MISSING",
+    "sitelenRendering": "AUTOMATED_WITH_MANUAL_REVIEW",
+    "layout": "AUTOMATED_WITH_MANUAL_REVIEW",
+    "pdfPreflight": "PASS_WITH_LIMITATION",
+    "epub": "NOT_RUN_NOT_JUSTIFIED"
+  },
+  "checks": [
+    {"name":"source-output completeness","status":"PARTIAL","evidence":"Full source normalized; no full output is in scope."},
+    {"name":"sample source completeness","status":"PASS","evidence":"Three documented excerpts present in source sample."},
+    {"name":"segment alignment","status":"PARTIAL","evidence":"Layered alignment is paragraph-level prose, not machine-verifiable sentence alignment."},
+    {"name":"entity consistency","status":"PARTIAL","evidence":"Ledger defines 24 entities/terms, including nine critical spoiler-sensitive records; no automated enforcement exists."},
+    {"name":"name consistency","status":"FAIL","evidence":"Translator contract accepts only canonical lowercase lexical items and has no proper-name lane."},
+    {"name":"missing or duplicated text","status":"PASS_FOR_LAYOUT_EXCERPT","evidence":"PDF text extraction contains each of the three abbreviated layout blocks once."},
+    {"name":"Toki Pona linguistic quality","status":"HUMAN_QA_REQUIRED","evidence":"Model draft only; no qualified human Toki Pona literary reviewer assessed it."},
+    {"name":"semantic drift","status":"HUMAN_QA_REQUIRED","evidence":"Compression deliberately changes sentence structure; automated equivalence is unavailable."},
+    {"name":"spoiler/revelation preservation","status":"PARTIAL","evidence":"Selection avoids final statement; ledger identifies Jekyll/Hyde relation, will, and documents as critical."},
+    {"name":"sitelen glyph/font","status":"PASS_WITH_LIMITATION","evidence":"OFL font rendered core vocabulary visibly in XeLaTeX; proper names required Latin fallback and font text extraction is not semantically readable."},
+    {"name":"layout overflow","status":"PASS_FOR_REVISED_TEST","evidence":"First layout had six over/underfull warnings; ragged-right sitelen treatment removed warnings in rerun."},
+    {"name":"PDF preflight","status":"PASS_WITH_LIMITATION","evidence":"Three-page 6x9 PDF rendered and was visually inspected; it is untagged and only a test artifact."},
+    {"name":"EPUB validation","status":"NOT_RUN","evidence":"No EPUB is technically justified before a name-safe, accessible reflowable architecture exists."}
+  ],
+  "humanQaRequired": [
+    "authorial Toki Pona translation rather than post-hoc model review",
+    "literary voice and Victorian register",
+    "character and narrator knowledge boundaries",
+    "revelation timing and guide spoiler audit",
+    "proper-name transliteration and sitelen name form",
+    "rights territory and final KDP policy check",
+    "final KDP Previewer and accessibility review"
+  ],
+  "blockingFindings": [
+    "KDP public-domain differentiation, contributor-credit, AI disclosure, and translation-content requirements must be rechecked manually at the release gate; the existing live catalogue is evidence of prior account acceptance, not a substitute for that refresh.",
+    "The existing translation contract has a 500-character request limit and only accepts canonical lexical profile words; it has no proper-name/token policy.",
+    "The deployed translation endpoint returned NOT_FOUND during the run.",
+    "No human literary/linguistic review has occurred."
+  ]
+}

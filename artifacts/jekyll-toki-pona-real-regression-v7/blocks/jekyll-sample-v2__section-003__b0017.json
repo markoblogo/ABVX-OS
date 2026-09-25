@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0017",
+  "sourceText": "It was late in the afternoon, when Mr. Utterson found his way to Dr. Jekyll’s door, where he was at once admitted by Poole, and carried down by the kitchen offices and across a yard which had once been a garden, to the building which was indifferently known as the laboratory or the dissecting-rooms. The doctor had bought the house from the heirs of a celebrated surgeon; and his own tastes being rather chemical than anatomical, had changed the destination of the block at the bottom of the garden. It was the first time that the lawyer had been received in that part of his friend’s quarters; and he eyed the dingy, windowless structure with curiosity, and gazed round with a distasteful sense of strangeness as he crossed the theatre, once crowded with eager students and now lying gaunt and silent, the tables laden with chemical apparatus, the floor strewn with crates and littered with packing straw, and the light falling dimly through the foggy cupola.",
+  "sourceHash": "072da0e1e43e88d68ab1145659f79a81f9ddaaccac5ac40accfb607538f0b3bf",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c90735c6df0fd0b016ab41daa2ac887d29f0c968fead2ff7f",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.\nNOTES: NONE",
+      "translation": "tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2989,
+        "input_tokens_details": {
+          "cache_write_tokens": 2986,
+          "cached_tokens": 0
+        },
+        "output_tokens": 710,
+        "output_tokens_details": {
+          "reasoning_tokens": 350
+        },
+        "total_tokens": 3699
+      },
+      "elapsedMs": 24382
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c90735c6df0fd0b016ab41daa2ac887d29f0c968fead2ff7f",
+  "visibleOutput": "TRANSLATION: tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.\nNOTES: NONE",
+  "translation": "tenpo suno li kama pini la, jan Utason li kama lon lupa pi tomo jan Jekil. jan Pulu li pana e nasin insa tawa ona lon tenpo sama. ona li lawa e jan Utason tawa anpa, li tawa poka pi tomo pali moku, li tawa lon ma open. ma ni li ma kasi lon tenpo pini. ona li kama lon tomo ante. jan li nimi e tomo ni sama la, ona li tomo pi pali sona anu tomo pi kipisi sijelo. jan Jekil pi sona sijelo li esun e tomo suli tan jan kama jo pi jan pi pali sijelo pi nimi suli. ona li olin mute e pali kepeken ijo seli, li olin lili e sona pi insa sijelo. tan ni la, ona li ante e pali pi tomo lon pini pi ma kasi. ni li tenpo nanpa wan la, jan Utason pi sona lawa li kama insa lon tomo ni pi jan pona ona. ona li lukin sona e tomo pimeja ni. lupa lukin ala li lon tomo. jan Utason li tawa lon tomo suli pi pali sona sijelo la, ona li lukin e ale lon pilin nasa ike. lon tenpo pini la, jan kama sona mute pi wile sona li lon tomo ni. taso lon tenpo ni la, tomo li lon ala li kalama ala. ilo mute pi pali sona li lon supa. poki suli li lon ma anpa, li lon poka pi kasi pakala pi awen ijo. suno lili li kama insa kepeken tomo sewi sike pi kon pimeja.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2989,
+    "input_tokens_details": {
+      "cache_write_tokens": 2986,
+      "cached_tokens": 0
+    },
+    "output_tokens": 710,
+    "output_tokens_details": {
+      "reasoning_tokens": 350
+    },
+    "total_tokens": 3699
+  },
+  "success": true
+}

@@ -1,0 +1,9 @@
+{
+  "focusedTests": "PASS",
+  "fullRepositoryTests": "PASS",
+  "fullRepositoryTestCount": 192,
+  "publicRegression": "UNKNOWN",
+  "internalSmoke": "PASS",
+  "interruptionResume": "PASS",
+  "notes": ["Public deployment was not modified by this ABVX-OS change.", "No full Jekyll translation was run."]
+}

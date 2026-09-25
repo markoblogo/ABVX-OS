@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0009",
+  "sourceHash": "9a2902a896d658ad62bbfa5051540a79842c5173bb760e34e4239854d63a027c",
+  "source": "The geniality, as was the way of the man, was somewhat theatrical to the eye; but it reposed on genuine feeling. For these two were old friends, old mates both at school and college, both thorough respecters of themselves and of each other, and, what does not always follow, men who thoroughly enjoyed each other’s company.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0e4d83b09993c2bb016ab426d6191887d29199d60cf47632f9",
+      "visibleOutput": "TRANSLATION: Nasim pona ona—ni li nasin pi jan ni—li lukin sama musi pi tomo musi lili; taso pilin ona li lon li pona. jan tu ni li jan pona tan tenpo pini mute. tenpo la, ona tu li kama sona lon tomo sona lili, li kama sona lon tomo sona suli. ona tu li suli e ona sama, li suli e ante. kin la—taso ni li kama ala lon tenpo ale—ona tu li pilin pona mute tan awen poka pi ante.\nNOTES: “Theatrical” is rendered as visibly like staged performance, without implying insincerity.",
+      "translation": "Nasim pona ona—ni li nasin pi jan ni—li lukin sama musi pi tomo musi lili; taso pilin ona li lon li pona. jan tu ni li jan pona tan tenpo pini mute. tenpo la, ona tu li kama sona lon tomo sona lili, li kama sona lon tomo sona suli. ona tu li suli e ona sama, li suli e ante. kin la—taso ni li kama ala lon tenpo ale—ona tu li pilin pona mute tan awen poka pi ante.",
+      "notes": "“Theatrical” is rendered as visibly like staged performance, without implying insincerity.",
+      "usage": {
+        "input_tokens": 2807,
+        "input_tokens_details": {
+          "cache_write_tokens": 2804,
+          "cached_tokens": 0
+        },
+        "output_tokens": 216,
+        "output_tokens_details": {
+          "reasoning_tokens": 74
+        },
+        "total_tokens": 3023
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0e4d83b09993c2bb016ab426d6191887d29199d60cf47632f9",
+  "visibleOutput": "TRANSLATION: Nasim pona ona—ni li nasin pi jan ni—li lukin sama musi pi tomo musi lili; taso pilin ona li lon li pona. jan tu ni li jan pona tan tenpo pini mute. tenpo la, ona tu li kama sona lon tomo sona lili, li kama sona lon tomo sona suli. ona tu li suli e ona sama, li suli e ante. kin la—taso ni li kama ala lon tenpo ale—ona tu li pilin pona mute tan awen poka pi ante.\nNOTES: “Theatrical” is rendered as visibly like staged performance, without implying insincerity.",
+  "translation": "Nasim pona ona—ni li nasin pi jan ni—li lukin sama musi pi tomo musi lili; taso pilin ona li lon li pona. jan tu ni li jan pona tan tenpo pini mute. tenpo la, ona tu li kama sona lon tomo sona lili, li kama sona lon tomo sona suli. ona tu li suli e ona sama, li suli e ante. kin la—taso ni li kama ala lon tenpo ale—ona tu li pilin pona mute tan awen poka pi ante.",
+  "notes": "“Theatrical” is rendered as visibly like staged performance, without implying insincerity.",
+  "usage": {
+    "input_tokens": 2807,
+    "input_tokens_details": {
+      "cache_write_tokens": 2804,
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 3023
+  },
+  "success": true
+}

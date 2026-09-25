@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0067",
+  "sourceHash": "f78bcb223a39544ad304340a5e4d9533179b18d5c15020c6e6c4c19101114a22",
+  "source": "Yes, I preferred the elderly and discontented doctor, surrounded by friends and cherishing honest hopes; and bade a resolute farewell to the liberty, the comparative youth, the light step, leaping impulses and secret pleasures, that I had enjoyed in the disguise of Hyde.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

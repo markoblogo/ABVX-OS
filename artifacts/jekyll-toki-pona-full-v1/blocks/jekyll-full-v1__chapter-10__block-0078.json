@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0078",
+  "sourceHash": "452af6106ef0549366d4f53a4fa13c3e84fd4175eaf7262c1b4583e23377852a",
+  "source": "The veil of self-indulgence was rent from head to foot, I saw my life as a whole: I followed it up from the days of childhood, when I had walked with my father’s hand, and through the self-denying toils of my professional life, to arrive again and again, with the same sense of unreality, at the damned horrors of the evening.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

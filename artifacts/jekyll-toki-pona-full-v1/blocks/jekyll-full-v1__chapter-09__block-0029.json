@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0029",
+  "sourceHash": "4f93d1e2047a3b4e4172b08a1bb32f05374ffcba82b1607393e479f5f191d4fc",
+  "source": "At the time, I set it down to some idiosyncratic, personal distaste, and merely wondered at the acuteness of the symptoms; but I have since had reason to believe the cause to lie much deeper in the nature of man, and to turn on some nobler hinge than the principle of hatred.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0b117bc2047cb4eb016ab434ef4ed087d28c35feedf621c822",
+      "visibleOutput": "TRANSLATION: tenpo ni la, mi pilin e ni taso: tan ona li pilin ike ante pi jan wan. mi sona ala taso e ni: seme la, ona li pana e sitelen wawa mute pi pilin ike ni? taso tenpo kama la, ijo li pana e tan tawa pilin ante mi. mi kama pilin e ni: ken la, tan ona li lon insa anpa mute pi nasin jan, li kama tan nasin pona suli ante, tan pilin ike taso ala.\nNOTES: “nobler hinge” is rendered figuratively as a greater, better principle; the later conclusion remains a belief, not fact.",
+      "translation": "tenpo ni la, mi pilin e ni taso: tan ona li pilin ike ante pi jan wan. mi sona ala taso e ni: seme la, ona li pana e sitelen wawa mute pi pilin ike ni? taso tenpo kama la, ijo li pana e tan tawa pilin ante mi. mi kama pilin e ni: ken la, tan ona li lon insa anpa mute pi nasin jan, li kama tan nasin pona suli ante, tan pilin ike taso ala.",
+      "notes": "“nobler hinge” is rendered figuratively as a greater, better principle; the later conclusion remains a belief, not fact.",
+      "usage": {
+        "input_tokens": 2806,
+        "input_tokens_details": {
+          "cache_write_tokens": 2803,
+          "cached_tokens": 0
+        },
+        "output_tokens": 605,
+        "output_tokens_details": {
+          "reasoning_tokens": 453
+        },
+        "total_tokens": 3411
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0b117bc2047cb4eb016ab434ef4ed087d28c35feedf621c822",
+  "visibleOutput": "TRANSLATION: tenpo ni la, mi pilin e ni taso: tan ona li pilin ike ante pi jan wan. mi sona ala taso e ni: seme la, ona li pana e sitelen wawa mute pi pilin ike ni? taso tenpo kama la, ijo li pana e tan tawa pilin ante mi. mi kama pilin e ni: ken la, tan ona li lon insa anpa mute pi nasin jan, li kama tan nasin pona suli ante, tan pilin ike taso ala.\nNOTES: “nobler hinge” is rendered figuratively as a greater, better principle; the later conclusion remains a belief, not fact.",
+  "translation": "tenpo ni la, mi pilin e ni taso: tan ona li pilin ike ante pi jan wan. mi sona ala taso e ni: seme la, ona li pana e sitelen wawa mute pi pilin ike ni? taso tenpo kama la, ijo li pana e tan tawa pilin ante mi. mi kama pilin e ni: ken la, tan ona li lon insa anpa mute pi nasin jan, li kama tan nasin pona suli ante, tan pilin ike taso ala.",
+  "notes": "“nobler hinge” is rendered figuratively as a greater, better principle; the later conclusion remains a belief, not fact.",
+  "usage": {
+    "input_tokens": 2806,
+    "input_tokens_details": {
+      "cache_write_tokens": 2803,
+      "cached_tokens": 0
+    },
+    "output_tokens": 605,
+    "output_tokens_details": {
+      "reasoning_tokens": 453
+    },
+    "total_tokens": 3411
+  },
+  "success": true
+}

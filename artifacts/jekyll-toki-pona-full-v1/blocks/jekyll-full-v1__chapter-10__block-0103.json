@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0103",
+  "sourceHash": "f9ba21d8e04d16b7b8b81ce46d3efd4d0a12999f79298be91d065884197fc228",
+  "source": "I received Lanyon’s condemnation partly in a dream; it was partly in a dream that I came home to my own house and got into bed. I slept after the prostration of the day, with a stringent and profound slumber which not even the nightmares that wrung me could avail to break. I awoke in the morning shaken, weakened, but refreshed.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

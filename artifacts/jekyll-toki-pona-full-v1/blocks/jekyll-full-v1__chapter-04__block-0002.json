@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0002",
+  "sourceHash": "295e1bebda128652331287c957c448f9cbcbdfc1c8fa44e58ff1e27a0bdc78e1",
+  "source": "Although a fog rolled over the city in the small hours, the early part of the night was cloudless, and the lane, which the maid’s window overlooked, was brilliantly lit by the full moon. It seems she was romantically given, for she sat down upon her box, which stood immediately under the window, and fell into a dream of musing.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03eed1950d7dba24016ab42a00048c87d29236895acb6c74d1",
+      "visibleOutput": "TRANSLATION: lon tenpo pimeja pini la, kon walo li tawa lon ma tomo. taso lon open pi tenpo pimeja la, kon sewi li jo ala e ijo pimeja. jan pali meli li ken lukin e nasin lili tan lupa lukin ona, li mun sike li pana e suno walo mute tawa nasin ni. ken la, jan pali meli ni li jan pi pilin suwi mute. ona li monsi lon poki lon anpa poka pi lupa lukin, li awen toki insa lon lawa ona sama ni: ona li lon sitelen lape.\nNOTES: “It seems” remains uncertain with “ken la”; the final phrase describes a waking reverie, not an observed sleep.",
+      "translation": "lon tenpo pimeja pini la, kon walo li tawa lon ma tomo. taso lon open pi tenpo pimeja la, kon sewi li jo ala e ijo pimeja. jan pali meli li ken lukin e nasin lili tan lupa lukin ona, li mun sike li pana e suno walo mute tawa nasin ni. ken la, jan pali meli ni li jan pi pilin suwi mute. ona li monsi lon poki lon anpa poka pi lupa lukin, li awen toki insa lon lawa ona sama ni: ona li lon sitelen lape.",
+      "notes": "“It seems” remains uncertain with “ken la”; the final phrase describes a waking reverie, not an observed sleep.",
+      "usage": {
+        "input_tokens": 2811,
+        "input_tokens_details": {
+          "cache_write_tokens": 2808,
+          "cached_tokens": 0
+        },
+        "output_tokens": 569,
+        "output_tokens_details": {
+          "reasoning_tokens": 397
+        },
+        "total_tokens": 3380
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03eed1950d7dba24016ab42a00048c87d29236895acb6c74d1",
+  "visibleOutput": "TRANSLATION: lon tenpo pimeja pini la, kon walo li tawa lon ma tomo. taso lon open pi tenpo pimeja la, kon sewi li jo ala e ijo pimeja. jan pali meli li ken lukin e nasin lili tan lupa lukin ona, li mun sike li pana e suno walo mute tawa nasin ni. ken la, jan pali meli ni li jan pi pilin suwi mute. ona li monsi lon poki lon anpa poka pi lupa lukin, li awen toki insa lon lawa ona sama ni: ona li lon sitelen lape.\nNOTES: “It seems” remains uncertain with “ken la”; the final phrase describes a waking reverie, not an observed sleep.",
+  "translation": "lon tenpo pimeja pini la, kon walo li tawa lon ma tomo. taso lon open pi tenpo pimeja la, kon sewi li jo ala e ijo pimeja. jan pali meli li ken lukin e nasin lili tan lupa lukin ona, li mun sike li pana e suno walo mute tawa nasin ni. ken la, jan pali meli ni li jan pi pilin suwi mute. ona li monsi lon poki lon anpa poka pi lupa lukin, li awen toki insa lon lawa ona sama ni: ona li lon sitelen lape.",
+  "notes": "“It seems” remains uncertain with “ken la”; the final phrase describes a waking reverie, not an observed sleep.",
+  "usage": {
+    "input_tokens": 2811,
+    "input_tokens_details": {
+      "cache_write_tokens": 2808,
+      "cached_tokens": 0
+    },
+    "output_tokens": 569,
+    "output_tokens_details": {
+      "reasoning_tokens": 397
+    },
+    "total_tokens": 3380
+  },
+  "success": true
+}

@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0042",
+  "sourceHash": "ac3bb67898e9804bf1794c205d5d86ff7384310d1696a88a6c224d1c813dccbf",
+  "source": "Let me but escape into my laboratory door, give me but a second or two to mix and swallow the draught that I had always standing ready; and whatever he had done, Edward Hyde would pass away like the stain of breath upon a mirror; and there in his stead, quietly at home, trimming the midnight lamp in his study, a man who could afford to laugh at suspicion, would be Henry Jekyll.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

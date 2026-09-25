@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0027",
+  "sourceHash": "6e819879f8f851bd490aad3c8329352be2d97e25f4e9078c841e5824b2c8fffb",
+  "source": "Its contents ran thus: “Dr. Jekyll presents his compliments to Messrs. Maw. He assures them that their last sample is impure and quite useless for his present purpose. In the year 18——, Dr. J. purchased a somewhat large quantity from Messrs. M. He now begs them to search with the most sedulous care, and should any of the same quality be left, to forward it to him at once.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_018f79ead93b6e47016ab43062cee887d2947b5c8707c37518",
+      "visibleOutput": "TRANSLATION: insa pi lipu li toki e ni: “jan Jekil pi sona sijelo li pana e toki pona tawa kulupu esun Mo. ona li toki wawa e ni: ijo lili pi pana pini tan kulupu ni li pona ala, li ken ala pali lon pali ona pi tenpo ni. lon sike 18—— la, jan Jekil li esun e mute suli pi ijo ni tan kulupu esun Mo. tenpo ni la, ona li wile mute e ni: kulupu ni o alasa kepeken pilin suli. ijo tan esun pini li awen, li pona sama la, kulupu ni o pana e ona tawa jan Jekil lon tenpo lili.”\nNOTES: nimi “Maw” li kama “Mo”; toki ale li awen toki pi lipu, li kama ala sona pi toki pana.",
+      "translation": "insa pi lipu li toki e ni: “jan Jekil pi sona sijelo li pana e toki pona tawa kulupu esun Mo. ona li toki wawa e ni: ijo lili pi pana pini tan kulupu ni li pona ala, li ken ala pali lon pali ona pi tenpo ni. lon sike 18—— la, jan Jekil li esun e mute suli pi ijo ni tan kulupu esun Mo. tenpo ni la, ona li wile mute e ni: kulupu ni o alasa kepeken pilin suli. ijo tan esun pini li awen, li pona sama la, kulupu ni o pana e ona tawa jan Jekil lon tenpo lili.”",
+      "notes": "nimi “Maw” li kama “Mo”; toki ale li awen toki pi lipu, li kama ala sona pi toki pana.",
+      "usage": {
+        "input_tokens": 2836,
+        "input_tokens_details": {
+          "cache_write_tokens": 2833,
+          "cached_tokens": 0
+        },
+        "output_tokens": 713,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3549
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_018f79ead93b6e47016ab43062cee887d2947b5c8707c37518",
+  "visibleOutput": "TRANSLATION: insa pi lipu li toki e ni: “jan Jekil pi sona sijelo li pana e toki pona tawa kulupu esun Mo. ona li toki wawa e ni: ijo lili pi pana pini tan kulupu ni li pona ala, li ken ala pali lon pali ona pi tenpo ni. lon sike 18—— la, jan Jekil li esun e mute suli pi ijo ni tan kulupu esun Mo. tenpo ni la, ona li wile mute e ni: kulupu ni o alasa kepeken pilin suli. ijo tan esun pini li awen, li pona sama la, kulupu ni o pana e ona tawa jan Jekil lon tenpo lili.”\nNOTES: nimi “Maw” li kama “Mo”; toki ale li awen toki pi lipu, li kama ala sona pi toki pana.",
+  "translation": "insa pi lipu li toki e ni: “jan Jekil pi sona sijelo li pana e toki pona tawa kulupu esun Mo. ona li toki wawa e ni: ijo lili pi pana pini tan kulupu ni li pona ala, li ken ala pali lon pali ona pi tenpo ni. lon sike 18—— la, jan Jekil li esun e mute suli pi ijo ni tan kulupu esun Mo. tenpo ni la, ona li wile mute e ni: kulupu ni o alasa kepeken pilin suli. ijo tan esun pini li awen, li pona sama la, kulupu ni o pana e ona tawa jan Jekil lon tenpo lili.”",
+  "notes": "nimi “Maw” li kama “Mo”; toki ale li awen toki pi lipu, li kama ala sona pi toki pana.",
+  "usage": {
+    "input_tokens": 2836,
+    "input_tokens_details": {
+      "cache_write_tokens": 2833,
+      "cached_tokens": 0
+    },
+    "output_tokens": 713,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3549
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0043",
+  "sourceHash": "f667fd9c8463cdc8316cc93ec92a3b918bffef34b8fc48143f67f2c16a0371f4",
+  "source": "Mr. Utterson sighed deeply but said never a word; and the young man presently resumed. “Here is another lesson to say nothing,” said he. “I am ashamed of my long tongue. Let us make a bargain never to refer to this again.” “With all my heart,” said the lawyer. “I shake hands on that, Richard.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_04887c15e687f5fa016ab4267cec9487d2bf71ce5d05be3ad4",
+      "visibleOutput": "TRANSLATION: jan Utason li kon weka suli, taso ona li toki ala. tenpo lili la, jan Enpil li toki sin: “ni li pana e sona ante: mi o toki ala. mi pilin jaki tan ni: mi toki mute ike. mi tu o pali e wile sama ni: tenpo kama la, mi tu li toki ala sin e ijo ni.” jan pi sona lawa li toki: “mi wile sama e ni lon pilin mi ale. jan Enpil o, mi luka e luka sina tan ni.”\nNOTES: “long tongue” is rendered by meaning as excessive speech; handshaking is retained as an agreement gesture.",
+      "translation": "jan Utason li kon weka suli, taso ona li toki ala. tenpo lili la, jan Enpil li toki sin: “ni li pana e sona ante: mi o toki ala. mi pilin jaki tan ni: mi toki mute ike. mi tu o pali e wile sama ni: tenpo kama la, mi tu li toki ala sin e ijo ni.” jan pi sona lawa li toki: “mi wile sama e ni lon pilin mi ale. jan Enpil o, mi luka e luka sina tan ni.”",
+      "notes": "“long tongue” is rendered by meaning as excessive speech; handshaking is retained as an agreement gesture.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 220,
+        "output_tokens_details": {
+          "reasoning_tokens": 72
+        },
+        "total_tokens": 3028
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_04887c15e687f5fa016ab4267cec9487d2bf71ce5d05be3ad4",
+  "visibleOutput": "TRANSLATION: jan Utason li kon weka suli, taso ona li toki ala. tenpo lili la, jan Enpil li toki sin: “ni li pana e sona ante: mi o toki ala. mi pilin jaki tan ni: mi toki mute ike. mi tu o pali e wile sama ni: tenpo kama la, mi tu li toki ala sin e ijo ni.” jan pi sona lawa li toki: “mi wile sama e ni lon pilin mi ale. jan Enpil o, mi luka e luka sina tan ni.”\nNOTES: “long tongue” is rendered by meaning as excessive speech; handshaking is retained as an agreement gesture.",
+  "translation": "jan Utason li kon weka suli, taso ona li toki ala. tenpo lili la, jan Enpil li toki sin: “ni li pana e sona ante: mi o toki ala. mi pilin jaki tan ni: mi toki mute ike. mi tu o pali e wile sama ni: tenpo kama la, mi tu li toki ala sin e ijo ni.” jan pi sona lawa li toki: “mi wile sama e ni lon pilin mi ale. jan Enpil o, mi luka e luka sina tan ni.”",
+  "notes": "“long tongue” is rendered by meaning as excessive speech; handshaking is retained as an agreement gesture.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 220,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 3028
+  },
+  "success": true
+}

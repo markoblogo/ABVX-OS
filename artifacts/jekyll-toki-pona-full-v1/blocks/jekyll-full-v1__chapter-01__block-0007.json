@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0007",
+  "sourceHash": "88cb62eb846da82da14a80ccf98393017953fe25ca37d82515c8686b4c265411",
+  "source": "It was a nut to crack for many, what these two could see in each other, or what subject they could find in common. It was reported by those who encountered them in their Sunday walks, that they said nothing, looked singularly dull, and would hail with obvious relief the appearance of a friend.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_084d0f2143ed3afa016ab424afe3bc87d2b3f939513cb48e1e",
+      "visibleOutput": "TRANSLATION: jan mute la, ni li ijo pi sona wawa: jan tu ni li lukin e pona seme lon ante? ona tu li ken toki sama lon ijo seme? jan li kama lukin e ona tu lon tawa noka pi tenpo suno sewi la, jan ni li toki e ni: ona tu li toki ala, li lukin musi ala mute. taso jan pona li kama lukin la, ona tu li lukin e jan ni li toki tawa ona kepeken pilin pona pi weka ike.\nNOTES: “Sunday” is rendered as tenpo suno sewi; the walkers’ behavior remains attributed to witnesses’ report.",
+      "translation": "jan mute la, ni li ijo pi sona wawa: jan tu ni li lukin e pona seme lon ante? ona tu li ken toki sama lon ijo seme? jan li kama lukin e ona tu lon tawa noka pi tenpo suno sewi la, jan ni li toki e ni: ona tu li toki ala, li lukin musi ala mute. taso jan pona li kama lukin la, ona tu li lukin e jan ni li toki tawa ona kepeken pilin pona pi weka ike.",
+      "notes": "“Sunday” is rendered as tenpo suno sewi; the walkers’ behavior remains attributed to witnesses’ report.",
+      "usage": {
+        "input_tokens": 2798,
+        "input_tokens_details": {
+          "cache_write_tokens": 2795,
+          "cached_tokens": 0
+        },
+        "output_tokens": 248,
+        "output_tokens_details": {
+          "reasoning_tokens": 97
+        },
+        "total_tokens": 3046
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_084d0f2143ed3afa016ab424afe3bc87d2b3f939513cb48e1e",
+  "visibleOutput": "TRANSLATION: jan mute la, ni li ijo pi sona wawa: jan tu ni li lukin e pona seme lon ante? ona tu li ken toki sama lon ijo seme? jan li kama lukin e ona tu lon tawa noka pi tenpo suno sewi la, jan ni li toki e ni: ona tu li toki ala, li lukin musi ala mute. taso jan pona li kama lukin la, ona tu li lukin e jan ni li toki tawa ona kepeken pilin pona pi weka ike.\nNOTES: “Sunday” is rendered as tenpo suno sewi; the walkers’ behavior remains attributed to witnesses’ report.",
+  "translation": "jan mute la, ni li ijo pi sona wawa: jan tu ni li lukin e pona seme lon ante? ona tu li ken toki sama lon ijo seme? jan li kama lukin e ona tu lon tawa noka pi tenpo suno sewi la, jan ni li toki e ni: ona tu li toki ala, li lukin musi ala mute. taso jan pona li kama lukin la, ona tu li lukin e jan ni li toki tawa ona kepeken pilin pona pi weka ike.",
+  "notes": "“Sunday” is rendered as tenpo suno sewi; the walkers’ behavior remains attributed to witnesses’ report.",
+  "usage": {
+    "input_tokens": 2798,
+    "input_tokens_details": {
+      "cache_write_tokens": 2795,
+      "cached_tokens": 0
+    },
+    "output_tokens": 248,
+    "output_tokens_details": {
+      "reasoning_tokens": 97
+    },
+    "total_tokens": 3046
+  },
+  "success": true
+}

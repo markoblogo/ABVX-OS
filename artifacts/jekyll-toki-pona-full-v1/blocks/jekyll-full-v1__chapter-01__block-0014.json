@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0014",
+  "sourceHash": "9b827ea5335a3b3e208a81e8255b5820718aecc926a05a062b07602cd8b2b898",
+  "source": "Mr. Enfield and the lawyer were on the other side of the by-street; but when they came abreast of the entry, the former lifted up his cane and pointed. “Did you ever remark that door?” he asked; and when his companion had replied in the affirmative, “It is connected in my mind,” added he, “with a very odd story.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0158be7112a67d2c016ab425021bb887d28b9d8235ecbd316f",
+      "visibleOutput": "TRANSLATION: jan Enpil en jan Utason pi sona lawa li lon poka ante pi nasin lili. taso ona li kama lon poka pi lupa open la, jan Enpil li sewi e palisa luka ona li pana e ona tawa lupa. ona li toki e ni: “tenpo pini la sina lukin sona ala lukin sona e lupa ni?” jan Utason li toki e ni: ona li lukin sona e lupa. jan Enpil li toki sin e ni: “lon lawa mi la, lupa ni li jo e nasin tawa toki nasa mute.”  \nNOTES: “connected in my mind” is kept as Enfield’s personal association, not an objective fact.",
+      "translation": "jan Enpil en jan Utason pi sona lawa li lon poka ante pi nasin lili. taso ona li kama lon poka pi lupa open la, jan Enpil li sewi e palisa luka ona li pana e ona tawa lupa. ona li toki e ni: “tenpo pini la sina lukin sona ala lukin sona e lupa ni?” jan Utason li toki e ni: ona li lukin sona e lupa. jan Enpil li toki sin e ni: “lon lawa mi la, lupa ni li jo e nasin tawa toki nasa mute.”",
+      "notes": "“connected in my mind” is kept as Enfield’s personal association, not an objective fact.",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 580,
+        "output_tokens_details": {
+          "reasoning_tokens": 428
+        },
+        "total_tokens": 3392
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0158be7112a67d2c016ab425021bb887d28b9d8235ecbd316f",
+  "visibleOutput": "TRANSLATION: jan Enpil en jan Utason pi sona lawa li lon poka ante pi nasin lili. taso ona li kama lon poka pi lupa open la, jan Enpil li sewi e palisa luka ona li pana e ona tawa lupa. ona li toki e ni: “tenpo pini la sina lukin sona ala lukin sona e lupa ni?” jan Utason li toki e ni: ona li lukin sona e lupa. jan Enpil li toki sin e ni: “lon lawa mi la, lupa ni li jo e nasin tawa toki nasa mute.”  \nNOTES: “connected in my mind” is kept as Enfield’s personal association, not an objective fact.",
+  "translation": "jan Enpil en jan Utason pi sona lawa li lon poka ante pi nasin lili. taso ona li kama lon poka pi lupa open la, jan Enpil li sewi e palisa luka ona li pana e ona tawa lupa. ona li toki e ni: “tenpo pini la sina lukin sona ala lukin sona e lupa ni?” jan Utason li toki e ni: ona li lukin sona e lupa. jan Enpil li toki sin e ni: “lon lawa mi la, lupa ni li jo e nasin tawa toki nasa mute.”",
+  "notes": "“connected in my mind” is kept as Enfield’s personal association, not an objective fact.",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 580,
+    "output_tokens_details": {
+      "reasoning_tokens": 428
+    },
+    "total_tokens": 3392
+  },
+  "success": true
+}

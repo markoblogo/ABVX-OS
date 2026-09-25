@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0003",
+  "sourceHash": "af8d897e9228f9034899ab65a309961b23d941ff4cc1f54bc8d3a43f3dc429aa",
+  "source": "He was austere with himself; drank gin when he was alone, to mortify a taste for vintages; and though he enjoyed the theatre, had not crossed the doors of one for twenty years. But he had an approved tolerance for others; sometimes wondering, almost with envy, at the high pressure of spirits involved in their misdeeds; and in any extremity inclined to help rather than to reprove.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0c1c8788650cbbf3016ab4247d698887d2b89bfe0350815115",
+      "visibleOutput": "TRANSLATION: jan Utason li lawa wawa e ona sama. ona li lon taso la, ona li moku e telo nasa pi wawa suli, tan ni: ona li wile weka e wile ona pi telo nasa pona pi tenpo suli. musi pi tomo musi li pona tawa ona. taso, lon tenpo sike mute tu, ona li kama ala insa tomo musi. ona li ken pona e nasin pi jan ante. tenpo la, ona li pilin nasa tan wawa pilin suli li pana e jan ante tawa pali ike; pilin ona li kama poka lili pi wile jo e wawa ni. jan li kama lon ike suli la, ona li wile pana e pona, li wile ala toki utala tawa jan.\n\nNOTES: “high pressure of spirits” is rendered as intense emotion/drive, not alcohol; “vintages” and “twenty years” are compressed within canonical vocabulary.",
+      "translation": "jan Utason li lawa wawa e ona sama. ona li lon taso la, ona li moku e telo nasa pi wawa suli, tan ni: ona li wile weka e wile ona pi telo nasa pona pi tenpo suli. musi pi tomo musi li pona tawa ona. taso, lon tenpo sike mute tu, ona li kama ala insa tomo musi. ona li ken pona e nasin pi jan ante. tenpo la, ona li pilin nasa tan wawa pilin suli li pana e jan ante tawa pali ike; pilin ona li kama poka lili pi wile jo e wawa ni. jan li kama lon ike suli la, ona li wile pana e pona, li wile ala toki utala tawa jan.",
+      "notes": "“high pressure of spirits” is rendered as intense emotion/drive, not alcohol; “vintages” and “twenty years” are compressed within canonical vocabulary.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 351,
+        "output_tokens_details": {
+          "reasoning_tokens": 142
+        },
+        "total_tokens": 3171
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0c1c8788650cbbf3016ab4247d698887d2b89bfe0350815115",
+  "visibleOutput": "TRANSLATION: jan Utason li lawa wawa e ona sama. ona li lon taso la, ona li moku e telo nasa pi wawa suli, tan ni: ona li wile weka e wile ona pi telo nasa pona pi tenpo suli. musi pi tomo musi li pona tawa ona. taso, lon tenpo sike mute tu, ona li kama ala insa tomo musi. ona li ken pona e nasin pi jan ante. tenpo la, ona li pilin nasa tan wawa pilin suli li pana e jan ante tawa pali ike; pilin ona li kama poka lili pi wile jo e wawa ni. jan li kama lon ike suli la, ona li wile pana e pona, li wile ala toki utala tawa jan.\n\nNOTES: “high pressure of spirits” is rendered as intense emotion/drive, not alcohol; “vintages” and “twenty years” are compressed within canonical vocabulary.",
+  "translation": "jan Utason li lawa wawa e ona sama. ona li lon taso la, ona li moku e telo nasa pi wawa suli, tan ni: ona li wile weka e wile ona pi telo nasa pona pi tenpo suli. musi pi tomo musi li pona tawa ona. taso, lon tenpo sike mute tu, ona li kama ala insa tomo musi. ona li ken pona e nasin pi jan ante. tenpo la, ona li pilin nasa tan wawa pilin suli li pana e jan ante tawa pali ike; pilin ona li kama poka lili pi wile jo e wawa ni. jan li kama lon ike suli la, ona li wile pana e pona, li wile ala toki utala tawa jan.",
+  "notes": "“high pressure of spirits” is rendered as intense emotion/drive, not alcohol; “vintages” and “twenty years” are compressed within canonical vocabulary.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 351,
+    "output_tokens_details": {
+      "reasoning_tokens": 142
+    },
+    "total_tokens": 3171
+  },
+  "success": true
+}

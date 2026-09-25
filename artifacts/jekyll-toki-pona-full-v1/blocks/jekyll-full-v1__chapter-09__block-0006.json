@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0006",
+  "sourceHash": "bae522f720647d4030e6e0375645a7b07f014ca970d92eb74cfcad91b0c86865",
+  "source": "The door of my cabinet is then to be forced: and you are to go in alone; to open the glazed press (letter E) on the left hand, breaking the lock if it be shut; and to draw out, _with all its contents as they stand_, the fourth drawer from the top or (which is the same thing) the third from the bottom.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_041ec710565aad70016ab43342437c87d2be465b62e5628a85",
+      "visibleOutput": "TRANSLATION: tenpo ni la, o pakala open e lupa pi tomo insa mi. sina taso o tawa insa. lon poka soto la, o open e poki suli pi sinpin lukin, lon sitelen E. ona li awen pini kepeken ilo awen la, o pakala e ilo awen. o weka e poki tawa nanpa tu tu tan sewi, anu poki tawa nanpa tu wan tan anpa—ni li poki sama. o weka e ona kepeken ijo ale lon insa ona; ijo ale o awen sama nasin lon ona.\nNOTES: “poka soto” renders “left”; spatial terminology may vary among Toki Pona speakers.",
+      "translation": "tenpo ni la, o pakala open e lupa pi tomo insa mi. sina taso o tawa insa. lon poka soto la, o open e poki suli pi sinpin lukin, lon sitelen E. ona li awen pini kepeken ilo awen la, o pakala e ilo awen. o weka e poki tawa nanpa tu tu tan sewi, anu poki tawa nanpa tu wan tan anpa—ni li poki sama. o weka e ona kepeken ijo ale lon insa ona; ijo ale o awen sama nasin lon ona.",
+      "notes": "“poka soto” renders “left”; spatial terminology may vary among Toki Pona speakers.",
+      "usage": {
+        "input_tokens": 2824,
+        "input_tokens_details": {
+          "cache_write_tokens": 2821,
+          "cached_tokens": 0
+        },
+        "output_tokens": 590,
+        "output_tokens_details": {
+          "reasoning_tokens": 423
+        },
+        "total_tokens": 3414
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_041ec710565aad70016ab43342437c87d2be465b62e5628a85",
+  "visibleOutput": "TRANSLATION: tenpo ni la, o pakala open e lupa pi tomo insa mi. sina taso o tawa insa. lon poka soto la, o open e poki suli pi sinpin lukin, lon sitelen E. ona li awen pini kepeken ilo awen la, o pakala e ilo awen. o weka e poki tawa nanpa tu tu tan sewi, anu poki tawa nanpa tu wan tan anpa—ni li poki sama. o weka e ona kepeken ijo ale lon insa ona; ijo ale o awen sama nasin lon ona.\nNOTES: “poka soto” renders “left”; spatial terminology may vary among Toki Pona speakers.",
+  "translation": "tenpo ni la, o pakala open e lupa pi tomo insa mi. sina taso o tawa insa. lon poka soto la, o open e poki suli pi sinpin lukin, lon sitelen E. ona li awen pini kepeken ilo awen la, o pakala e ilo awen. o weka e poki tawa nanpa tu tu tan sewi, anu poki tawa nanpa tu wan tan anpa—ni li poki sama. o weka e ona kepeken ijo ale lon insa ona; ijo ale o awen sama nasin lon ona.",
+  "notes": "“poka soto” renders “left”; spatial terminology may vary among Toki Pona speakers.",
+  "usage": {
+    "input_tokens": 2824,
+    "input_tokens_details": {
+      "cache_write_tokens": 2821,
+      "cached_tokens": 0
+    },
+    "output_tokens": 590,
+    "output_tokens_details": {
+      "reasoning_tokens": 423
+    },
+    "total_tokens": 3414
+  },
+  "success": true
+}

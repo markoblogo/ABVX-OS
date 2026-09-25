@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0006",
+  "sourceHash": "7db41daee5984d30ebbf618e6d9738ecd00a3186f72f5aff7ee77ce1ab3e927a",
+  "source": "On the 8th of January Utterson had dined at the doctor’s with a small party; Lanyon had been there; and the face of the host had looked from one to the other as in the old days when the trio were inseparable friends. On the 12th, and again on the 14th, the door was shut against the lawyer.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09f2f171a18100d9016ab42d505a7087d2890703177df95e97",
+      "visibleOutput": "TRANSLATION: lon tenpo suno nanpa luka tu wan pi tenpo mun nanpa wan la, jan Utason li moku lon tomo pi jan Jekil pi sona sijelo lon poka pi kulupu lili. jan Lanjon li lon kin. jan Jekil li lukin e jan wan, li lukin e jan ante, sama tenpo pini la jan tu wan ni li jan pona pi weka ala. taso lon tenpo suno nanpa luka luka tu, en lon tenpo suno nanpa luka luka tu tu, lupa li awen pini tawa jan Utason pi sona lawa.\n\nNOTES: NONE",
+      "translation": "lon tenpo suno nanpa luka tu wan pi tenpo mun nanpa wan la, jan Utason li moku lon tomo pi jan Jekil pi sona sijelo lon poka pi kulupu lili. jan Lanjon li lon kin. jan Jekil li lukin e jan wan, li lukin e jan ante, sama tenpo pini la jan tu wan ni li jan pona pi weka ala. taso lon tenpo suno nanpa luka luka tu, en lon tenpo suno nanpa luka luka tu tu, lupa li awen pini tawa jan Utason pi sona lawa.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 473,
+        "output_tokens_details": {
+          "reasoning_tokens": 333
+        },
+        "total_tokens": 3290
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09f2f171a18100d9016ab42d505a7087d2890703177df95e97",
+  "visibleOutput": "TRANSLATION: lon tenpo suno nanpa luka tu wan pi tenpo mun nanpa wan la, jan Utason li moku lon tomo pi jan Jekil pi sona sijelo lon poka pi kulupu lili. jan Lanjon li lon kin. jan Jekil li lukin e jan wan, li lukin e jan ante, sama tenpo pini la jan tu wan ni li jan pona pi weka ala. taso lon tenpo suno nanpa luka luka tu, en lon tenpo suno nanpa luka luka tu tu, lupa li awen pini tawa jan Utason pi sona lawa.\n\nNOTES: NONE",
+  "translation": "lon tenpo suno nanpa luka tu wan pi tenpo mun nanpa wan la, jan Utason li moku lon tomo pi jan Jekil pi sona sijelo lon poka pi kulupu lili. jan Lanjon li lon kin. jan Jekil li lukin e jan wan, li lukin e jan ante, sama tenpo pini la jan tu wan ni li jan pona pi weka ala. taso lon tenpo suno nanpa luka luka tu, en lon tenpo suno nanpa luka luka tu tu, lupa li awen pini tawa jan Utason pi sona lawa.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 473,
+    "output_tokens_details": {
+      "reasoning_tokens": 333
+    },
+    "total_tokens": 3290
+  },
+  "success": true
+}

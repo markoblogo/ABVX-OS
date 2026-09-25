@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0069",
+  "sourceHash": "9851897a8ffde98ff6f3f7aab77a91740b4c6ac6c8031ada0934435c0c5ff9f7",
+  "source": "But time began at last to obliterate the freshness of my alarm; the praises of conscience began to grow into a thing of course; I began to be tortured with throes and longings, as of Hyde struggling after freedom; and at last, in an hour of moral weakness, I once again compounded and swallowed the transforming draught.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

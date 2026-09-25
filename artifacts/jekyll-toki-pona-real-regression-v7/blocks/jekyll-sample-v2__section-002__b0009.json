@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-002:b0009",
+  "sourceText": "After a little rambling talk, the lawyer led up to the subject which so disagreeably pre-occupied his mind.",
+  "sourceHash": "a3f2f5455d64f5e1f9aceab08e52525406eea63790c48ef7243939e42a29cb72",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f70fe6bdd741e47016ab41d5795a887d286f1d1c8900a51e1",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.\nNOTES: NONE",
+      "translation": "tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2793,
+        "input_tokens_details": {
+          "cache_write_tokens": 2790,
+          "cached_tokens": 0
+        },
+        "output_tokens": 54,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2847
+      },
+      "elapsedMs": 4382
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f70fe6bdd741e47016ab41d5795a887d286f1d1c8900a51e1",
+  "visibleOutput": "TRANSLATION: tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.\nNOTES: NONE",
+  "translation": "tenpo lili la, ona mute li toki nasa lili. kama la, jan Utason pi sona lawa li open toki e ijo pi pilin ike, ni li awen lon lawa ona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2793,
+    "input_tokens_details": {
+      "cache_write_tokens": 2790,
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2847
+  },
+  "success": true
+}

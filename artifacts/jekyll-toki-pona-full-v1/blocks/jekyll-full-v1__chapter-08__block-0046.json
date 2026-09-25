@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0046",
+  "sourceHash": "b6872e1d868e359a5055e0b88fe07a8fef2f59756d1f8a29a7feb7627b5e5155",
+  "source": "“Pull yourself together, Bradshaw,” said the lawyer. “This suspense, I know, is telling upon all of you; but it is now our intention to make an end of it. Poole, here, and I are going to force our way into the cabinet. If all is well, my shoulders are broad enough to bear the blame.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09f6e9a25a11063e016ab43151f32887d2844f375c55c0f65a",
+      "visibleOutput": "TRANSLATION: “jan Pataso o awen wawa, o lawa e pilin sina,” jan Utason pi sona lawa li toki. “mi sona e ni: awen pi sona ala ni li ike tawa sina ale. taso lon tenpo ni, mi mute li wile pini e ni. jan Pulu en mi li kama open wawa e nasin tawa tomo insa pi jan Jekil. ijo ale li pona la, mi ken jo e pakala nimi tan pali ni.”  \nNOTES: “pakala nimi” preserves prospective blame without implying wrongdoing as fact.",
+      "translation": "“jan Pataso o awen wawa, o lawa e pilin sina,” jan Utason pi sona lawa li toki. “mi sona e ni: awen pi sona ala ni li ike tawa sina ale. taso lon tenpo ni, mi mute li wile pini e ni. jan Pulu en mi li kama open wawa e nasin tawa tomo insa pi jan Jekil. ijo ale li pona la, mi ken jo e pakala nimi tan pali ni.”",
+      "notes": "“pakala nimi” preserves prospective blame without implying wrongdoing as fact.",
+      "usage": {
+        "input_tokens": 2805,
+        "input_tokens_details": {
+          "cache_write_tokens": 2802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 190,
+        "output_tokens_details": {
+          "reasoning_tokens": 59
+        },
+        "total_tokens": 2995
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09f6e9a25a11063e016ab43151f32887d2844f375c55c0f65a",
+  "visibleOutput": "TRANSLATION: “jan Pataso o awen wawa, o lawa e pilin sina,” jan Utason pi sona lawa li toki. “mi sona e ni: awen pi sona ala ni li ike tawa sina ale. taso lon tenpo ni, mi mute li wile pini e ni. jan Pulu en mi li kama open wawa e nasin tawa tomo insa pi jan Jekil. ijo ale li pona la, mi ken jo e pakala nimi tan pali ni.”  \nNOTES: “pakala nimi” preserves prospective blame without implying wrongdoing as fact.",
+  "translation": "“jan Pataso o awen wawa, o lawa e pilin sina,” jan Utason pi sona lawa li toki. “mi sona e ni: awen pi sona ala ni li ike tawa sina ale. taso lon tenpo ni, mi mute li wile pini e ni. jan Pulu en mi li kama open wawa e nasin tawa tomo insa pi jan Jekil. ijo ale li pona la, mi ken jo e pakala nimi tan pali ni.”",
+  "notes": "“pakala nimi” preserves prospective blame without implying wrongdoing as fact.",
+  "usage": {
+    "input_tokens": 2805,
+    "input_tokens_details": {
+      "cache_write_tokens": 2802,
+      "cached_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 2995
+  },
+  "success": true
+}

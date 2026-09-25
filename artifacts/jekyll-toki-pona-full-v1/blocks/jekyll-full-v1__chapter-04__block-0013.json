@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0013",
+  "sourceHash": "f32eaee6b317e5106ec628842cc254e57cc88e49c46efbfe545cc1a74239c577",
+  "source": "Have the kindness to wait while I dress.” And with the same grave countenance he hurried through his breakfast and drove to the police station, whither the body had been carried. As soon as he came into the cell, he nodded. “Yes,” said he, “I recognise him. I am sorry to say that this is Sir Danvers Carew.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0039bd182330ca37016ab42a8764a087d2909eecb7e4dc4b89",
+      "visibleOutput": "TRANSLATION: “o pona tawa mi: o awen lon ni, mi pana e len tawa sijelo mi.” sinpin ona li awen sama, li suli li musi ala. ona li moku kepeken tenpo lili, li tawa kepeken tomo tawa lon tomo pi jan lawa. sijelo moli li kama lon tomo ni lon tenpo pini. jan Utason li kama lon tomo lili la, ona li tawa e lawa ona anpa. ona li toki e ni: “lon. mi sona e jan ni tan lukin. mi pilin ike tan toki ni: jan ni li jan Kewi.”\nNOTES: NONE",
+      "translation": "“o pona tawa mi: o awen lon ni, mi pana e len tawa sijelo mi.” sinpin ona li awen sama, li suli li musi ala. ona li moku kepeken tenpo lili, li tawa kepeken tomo tawa lon tomo pi jan lawa. sijelo moli li kama lon tomo ni lon tenpo pini. jan Utason li kama lon tomo lili la, ona li tawa e lawa ona anpa. ona li toki e ni: “lon. mi sona e jan ni tan lukin. mi pilin ike tan toki ni: jan ni li jan Kewi.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2811,
+        "input_tokens_details": {
+          "cache_write_tokens": 2808,
+          "cached_tokens": 0
+        },
+        "output_tokens": 481,
+        "output_tokens_details": {
+          "reasoning_tokens": 334
+        },
+        "total_tokens": 3292
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0039bd182330ca37016ab42a8764a087d2909eecb7e4dc4b89",
+  "visibleOutput": "TRANSLATION: “o pona tawa mi: o awen lon ni, mi pana e len tawa sijelo mi.” sinpin ona li awen sama, li suli li musi ala. ona li moku kepeken tenpo lili, li tawa kepeken tomo tawa lon tomo pi jan lawa. sijelo moli li kama lon tomo ni lon tenpo pini. jan Utason li kama lon tomo lili la, ona li tawa e lawa ona anpa. ona li toki e ni: “lon. mi sona e jan ni tan lukin. mi pilin ike tan toki ni: jan ni li jan Kewi.”\nNOTES: NONE",
+  "translation": "“o pona tawa mi: o awen lon ni, mi pana e len tawa sijelo mi.” sinpin ona li awen sama, li suli li musi ala. ona li moku kepeken tenpo lili, li tawa kepeken tomo tawa lon tomo pi jan lawa. sijelo moli li kama lon tomo ni lon tenpo pini. jan Utason li kama lon tomo lili la, ona li tawa e lawa ona anpa. ona li toki e ni: “lon. mi sona e jan ni tan lukin. mi pilin ike tan toki ni: jan ni li jan Kewi.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2811,
+    "input_tokens_details": {
+      "cache_write_tokens": 2808,
+      "cached_tokens": 0
+    },
+    "output_tokens": 481,
+    "output_tokens_details": {
+      "reasoning_tokens": 334
+    },
+    "total_tokens": 3292
+  },
+  "success": true
+}

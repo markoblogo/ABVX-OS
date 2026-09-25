@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0062",
+  "sourceHash": "b1f6297cbe36902dab4a263be36b142dce6e3d51591af542c7b2a25c54a7e29d",
+  "source": "All things therefore seemed to point to this: that I was slowly losing hold of my original and better self, and becoming slowly incorporated with my second and worse. Between these two, I now felt I had to choose. My two natures had memory in common, but all other faculties were most unequally shared between them.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

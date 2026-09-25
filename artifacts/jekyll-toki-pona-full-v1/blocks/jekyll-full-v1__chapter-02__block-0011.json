@@ -1,0 +1,52 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0011",
+  "sourceHash": "45a3bcfa87457232b8853cc8bb45cf77d9af16131790251c9193246d208ade1f",
+  "source": "“Indeed?” said Utterson. “I thought you had a bond of common interest.”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01ce7d5cf7a7a56a016ab426f329bc87d2b60e735a6ef4275f",
+      "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “lon ala lon? mi pilin e ni: sina tu li wile sama tan ijo wan.”\nNOTES: “bond of common interest” la, toki ante li pana e kon pi wile sama; ona li ken jo e kon ante.",
+      "translation": "jan Utason li toki e ni: “lon ala lon? mi pilin e ni: sina tu li wile sama tan ijo wan.”",
+      "notes": "“bond of common interest” la, toki ante li pana e kon pi wile sama; ona li ken jo e kon ante.",
+      "usage": {
+        "input_tokens": 2756,
+        "input_tokens_details": {
+          "cache_write_tokens": 2753,
+          "cached_tokens": 0
+        },
+        "output_tokens": 68,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2824
+      },
+      "outputItemTypes": [
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01ce7d5cf7a7a56a016ab426f329bc87d2b60e735a6ef4275f",
+  "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “lon ala lon? mi pilin e ni: sina tu li wile sama tan ijo wan.”\nNOTES: “bond of common interest” la, toki ante li pana e kon pi wile sama; ona li ken jo e kon ante.",
+  "translation": "jan Utason li toki e ni: “lon ala lon? mi pilin e ni: sina tu li wile sama tan ijo wan.”",
+  "notes": "“bond of common interest” la, toki ante li pana e kon pi wile sama; ona li ken jo e kon ante.",
+  "usage": {
+    "input_tokens": 2756,
+    "input_tokens_details": {
+      "cache_write_tokens": 2753,
+      "cached_tokens": 0
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2824
+  },
+  "success": true
+}

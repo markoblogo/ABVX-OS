@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0019",
+  "sourceText": "“And now,” said Mr. Utterson, as soon as Poole had left them, “you have heard the news?”",
+  "sourceHash": "e8c32c60b7a0228aad5f8048141f51d128afafb98c401b27222c3e0dd0ebc3dd",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0acb685253bce088016ab41dcd45c087d2a067595950ba1744",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”\nNOTES: NONE",
+      "translation": "“tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2797,
+        "input_tokens_details": {
+          "cache_write_tokens": 2794,
+          "cached_tokens": 0
+        },
+        "output_tokens": 46,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2843
+      },
+      "elapsedMs": 3167
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0acb685253bce088016ab41dcd45c087d2a067595950ba1744",
+  "visibleOutput": "TRANSLATION: “tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”\nNOTES: NONE",
+  "translation": "“tenpo ni la,” jan Utason li toki, “jan Pulu li weka tan mi tu la, sina kute e toki sin anu seme?”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2797,
+    "input_tokens_details": {
+      "cache_write_tokens": 2794,
+      "cached_tokens": 0
+    },
+    "output_tokens": 46,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2843
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0020",
+  "sourceHash": "39aaa9e5e8c169c0716f31181f148135b970f66bf3b40ccc05e2e929899a6a18",
+  "source": "The thoughts of his mind, besides, were of the gloomiest dye; and when he glanced at the companion of his drive, he was conscious of some touch of that terror of the law and the law’s officers, which may at times assail the most honest.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05b5d849a1b089f4016ab42ae0b81087d2b3ae6e64ca0b059d",
+      "visibleOutput": "TRANSLATION: kin la, toki insa ona li pimeja mute. ona li lukin lili e jan poka ona lon tomo tawa la, ona li pilin e monsuta lili tan lawa en tan jan pali pi lawa. lon tenpo ante la, monsuta ni li ken kama tawa jan pi nasin pona mute kin.\nNOTES: nimi “ona” li awen sama nimi pi jan lon toki mama.",
+      "translation": "kin la, toki insa ona li pimeja mute. ona li lukin lili e jan poka ona lon tomo tawa la, ona li pilin e monsuta lili tan lawa en tan jan pali pi lawa. lon tenpo ante la, monsuta ni li ken kama tawa jan pi nasin pona mute kin.",
+      "notes": "nimi “ona” li awen sama nimi pi jan lon toki mama.",
+      "usage": {
+        "input_tokens": 2793,
+        "input_tokens_details": {
+          "cache_write_tokens": 2790,
+          "cached_tokens": 0
+        },
+        "output_tokens": 240,
+        "output_tokens_details": {
+          "reasoning_tokens": 143
+        },
+        "total_tokens": 3033
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05b5d849a1b089f4016ab42ae0b81087d2b3ae6e64ca0b059d",
+  "visibleOutput": "TRANSLATION: kin la, toki insa ona li pimeja mute. ona li lukin lili e jan poka ona lon tomo tawa la, ona li pilin e monsuta lili tan lawa en tan jan pali pi lawa. lon tenpo ante la, monsuta ni li ken kama tawa jan pi nasin pona mute kin.\nNOTES: nimi “ona” li awen sama nimi pi jan lon toki mama.",
+  "translation": "kin la, toki insa ona li pimeja mute. ona li lukin lili e jan poka ona lon tomo tawa la, ona li pilin e monsuta lili tan lawa en tan jan pali pi lawa. lon tenpo ante la, monsuta ni li ken kama tawa jan pi nasin pona mute kin.",
+  "notes": "nimi “ona” li awen sama nimi pi jan lon toki mama.",
+  "usage": {
+    "input_tokens": 2793,
+    "input_tokens_details": {
+      "cache_write_tokens": 2790,
+      "cached_tokens": 0
+    },
+    "output_tokens": 240,
+    "output_tokens_details": {
+      "reasoning_tokens": 143
+    },
+    "total_tokens": 3033
+  },
+  "success": true
+}

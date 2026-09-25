@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0018",
+  "sourceHash": "512ab2c310969c3a016c3f58ec6fa2fb31e9d5c56d864533ccbd4ca629d59c9c",
+  "source": "P.” That was the funeral oration of one friend and client; and he could not help a certain apprehension lest the good name of another should be sucked down in the eddy of the scandal. It was, at least, a ticklish decision that he had to make; and self-reliant as he was by habit, he began to cherish a longing for advice.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0d9c355df0ee8328016ab42c80672887d29d7400bc2340a0e8",
+      "visibleOutput": "TRANSLATION: P.” ni li sama toki moli tan jan pona wan, tan jan wan pi pana mani tawa ona. taso ona li ken ala weka e pilin monsuta ni: toki ike pi jan mute li ken anpa e nimi pona pi jan pona ante. ona li wile pali e anu seme? ni li ijo suli pi pali kepeken pilin suli. ona li jo e nasin pi pilin wawa lon ona sama tenpo ale. taso ona li open wile mute e toki nasin tan jan ante.\nNOTES: “funeral oration” and “eddy of scandal” are rendered as simile and possibility; the feared damage to reputation is not stated as fact.",
+      "translation": "P.” ni li sama toki moli tan jan pona wan, tan jan wan pi pana mani tawa ona. taso ona li ken ala weka e pilin monsuta ni: toki ike pi jan mute li ken anpa e nimi pona pi jan pona ante. ona li wile pali e anu seme? ni li ijo suli pi pali kepeken pilin suli. ona li jo e nasin pi pilin wawa lon ona sama tenpo ale. taso ona li open wile mute e toki nasin tan jan ante.",
+      "notes": "“funeral oration” and “eddy of scandal” are rendered as simile and possibility; the feared damage to reputation is not stated as fact.",
+      "usage": {
+        "input_tokens": 2812,
+        "input_tokens_details": {
+          "cache_write_tokens": 2809,
+          "cached_tokens": 0
+        },
+        "output_tokens": 282,
+        "output_tokens_details": {
+          "reasoning_tokens": 125
+        },
+        "total_tokens": 3094
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0d9c355df0ee8328016ab42c80672887d29d7400bc2340a0e8",
+  "visibleOutput": "TRANSLATION: P.” ni li sama toki moli tan jan pona wan, tan jan wan pi pana mani tawa ona. taso ona li ken ala weka e pilin monsuta ni: toki ike pi jan mute li ken anpa e nimi pona pi jan pona ante. ona li wile pali e anu seme? ni li ijo suli pi pali kepeken pilin suli. ona li jo e nasin pi pilin wawa lon ona sama tenpo ale. taso ona li open wile mute e toki nasin tan jan ante.\nNOTES: “funeral oration” and “eddy of scandal” are rendered as simile and possibility; the feared damage to reputation is not stated as fact.",
+  "translation": "P.” ni li sama toki moli tan jan pona wan, tan jan wan pi pana mani tawa ona. taso ona li ken ala weka e pilin monsuta ni: toki ike pi jan mute li ken anpa e nimi pona pi jan pona ante. ona li wile pali e anu seme? ni li ijo suli pi pali kepeken pilin suli. ona li jo e nasin pi pilin wawa lon ona sama tenpo ale. taso ona li open wile mute e toki nasin tan jan ante.",
+  "notes": "“funeral oration” and “eddy of scandal” are rendered as simile and possibility; the feared damage to reputation is not stated as fact.",
+  "usage": {
+    "input_tokens": 2812,
+    "input_tokens_details": {
+      "cache_write_tokens": 2809,
+      "cached_tokens": 0
+    },
+    "output_tokens": 282,
+    "output_tokens_details": {
+      "reasoning_tokens": 125
+    },
+    "total_tokens": 3094
+  },
+  "success": true
+}

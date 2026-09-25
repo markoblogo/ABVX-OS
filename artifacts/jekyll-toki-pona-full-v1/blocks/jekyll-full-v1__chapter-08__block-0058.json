@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0058",
+  "sourceHash": "db41756868a662a36cb839265be6cc287ec6f1b68b9447f699a40f621beffa2a",
+  "source": "The besiegers, appalled by their own riot and the stillness that had succeeded, stood back a little and peered in.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_051c73692da431bd016ab431ddb02887d2acad4bd46140f477",
+      "visibleOutput": "TRANSLATION: jan utala ni li pilin monsuta tan kalama suli pi pali nasa ona, tan kalama ala kin pi tenpo kama. ona li tawa monsi lili, li lukin insa.\nNOTES: NONE",
+      "translation": "jan utala ni li pilin monsuta tan kalama suli pi pali nasa ona, tan kalama ala kin pi tenpo kama. ona li tawa monsi lili, li lukin insa.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2762,
+        "input_tokens_details": {
+          "cache_write_tokens": 2759,
+          "cached_tokens": 0
+        },
+        "output_tokens": 277,
+        "output_tokens_details": {
+          "reasoning_tokens": 220
+        },
+        "total_tokens": 3039
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_051c73692da431bd016ab431ddb02887d2acad4bd46140f477",
+  "visibleOutput": "TRANSLATION: jan utala ni li pilin monsuta tan kalama suli pi pali nasa ona, tan kalama ala kin pi tenpo kama. ona li tawa monsi lili, li lukin insa.\nNOTES: NONE",
+  "translation": "jan utala ni li pilin monsuta tan kalama suli pi pali nasa ona, tan kalama ala kin pi tenpo kama. ona li tawa monsi lili, li lukin insa.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2762,
+    "input_tokens_details": {
+      "cache_write_tokens": 2759,
+      "cached_tokens": 0
+    },
+    "output_tokens": 277,
+    "output_tokens_details": {
+      "reasoning_tokens": 220
+    },
+    "total_tokens": 3039
+  },
+  "success": true
+}

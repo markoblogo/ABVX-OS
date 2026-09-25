@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0022",
+  "sourceHash": "6b4c29d65b2fed7e006ab764e5a0047a19a46701c8a11afa94826f2dd7fbb690",
+  "source": "Guest; and he was not always sure that he kept as many as he meant. Guest had often been on business to the doctor’s; he knew Poole; he could scarce have failed to hear of Mr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0512427542d15938016ab42cb1bf5487d296c3cebb7cd53080",
+      "visibleOutput": "TRANSLATION: jan Kesu; taso jan Utason li sona pona ala e ni: jan Kesu li awen e ijo pi toki ala mute sama wile ona, anu seme. jan Kesu li tawa tomo pi jan Jekil pi sona sijelo lon pali mute. ona li sona e jan Pulu. ken lili la, ona li kute ala e toki pi jan—\nNOTES: Nimi “Mr.” lon pini li pakala tan pini pi kipisi mama; mi awen e toki pini pi pini ala.",
+      "translation": "jan Kesu; taso jan Utason li sona pona ala e ni: jan Kesu li awen e ijo pi toki ala mute sama wile ona, anu seme. jan Kesu li tawa tomo pi jan Jekil pi sona sijelo lon pali mute. ona li sona e jan Pulu. ken lili la, ona li kute ala e toki pi jan—",
+      "notes": "Nimi “Mr.” lon pini li pakala tan pini pi kipisi mama; mi awen e toki pini pi pini ala.",
+      "usage": {
+        "input_tokens": 2778,
+        "input_tokens_details": {
+          "cache_write_tokens": 2775,
+          "cached_tokens": 0
+        },
+        "output_tokens": 210,
+        "output_tokens_details": {
+          "reasoning_tokens": 89
+        },
+        "total_tokens": 2988
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0512427542d15938016ab42cb1bf5487d296c3cebb7cd53080",
+  "visibleOutput": "TRANSLATION: jan Kesu; taso jan Utason li sona pona ala e ni: jan Kesu li awen e ijo pi toki ala mute sama wile ona, anu seme. jan Kesu li tawa tomo pi jan Jekil pi sona sijelo lon pali mute. ona li sona e jan Pulu. ken lili la, ona li kute ala e toki pi jan—\nNOTES: Nimi “Mr.” lon pini li pakala tan pini pi kipisi mama; mi awen e toki pini pi pini ala.",
+  "translation": "jan Kesu; taso jan Utason li sona pona ala e ni: jan Kesu li awen e ijo pi toki ala mute sama wile ona, anu seme. jan Kesu li tawa tomo pi jan Jekil pi sona sijelo lon pali mute. ona li sona e jan Pulu. ken lili la, ona li kute ala e toki pi jan—",
+  "notes": "Nimi “Mr.” lon pini li pakala tan pini pi kipisi mama; mi awen e toki pini pi pini ala.",
+  "usage": {
+    "input_tokens": 2778,
+    "input_tokens_details": {
+      "cache_write_tokens": 2775,
+      "cached_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 2988
+  },
+  "success": true
+}

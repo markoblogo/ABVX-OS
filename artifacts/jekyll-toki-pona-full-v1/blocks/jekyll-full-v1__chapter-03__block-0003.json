@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0003",
+  "sourceHash": "57856b578287c69e9b7cbcceb21b25f06dd7e406c8b612ec761751475b931173",
+  "source": "Jekyll was no exception; and as he now sat on the opposite side of the fire—a large, well-made, smooth-faced man of fifty, with something of a slyish cast perhaps, but every mark of capacity and kindness—you could see by his looks that he cherished for Mr. Utterson a sincere and warm affection. “I have been wanting to speak to you, Jekyll,” began the latter. “You know that will of yours?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0afeee0ddea805c3016ab429248ea087d28f40b8533936ecce",
+      "visibleOutput": "TRANSLATION: jan Jekil kin li ante ala. lon tenpo ni, ona li lon poka ante pi seli. ona li jan suli pi sijelo pona. sinpin ona li jo ala e linja. ona li jo e sike suno mute mute luka luka. ken la, lukin ona li pana e pilin pi sona len. taso, ale lon lukin ona li toki e ni: ona li ken pali pona, li pona tawa jan. jan li ken sona tan lukin ona e ni: ona li jo e pilin pona lon e pilin pona seli tawa jan Utason. jan Utason li open toki: “jan Jekil o, tenpo mute la mi wile toki tawa sina. sina sona e lipu lawa sina, anu seme?”\nNOTES: “slyish” is retained as an uncertain impression, not a fact.",
+      "translation": "jan Jekil kin li ante ala. lon tenpo ni, ona li lon poka ante pi seli. ona li jan suli pi sijelo pona. sinpin ona li jo ala e linja. ona li jo e sike suno mute mute luka luka. ken la, lukin ona li pana e pilin pi sona len. taso, ale lon lukin ona li toki e ni: ona li ken pali pona, li pona tawa jan. jan li ken sona tan lukin ona e ni: ona li jo e pilin pona lon e pilin pona seli tawa jan Utason. jan Utason li open toki: “jan Jekil o, tenpo mute la mi wile toki tawa sina. sina sona e lipu lawa sina, anu seme?”",
+      "notes": "“slyish” is retained as an uncertain impression, not a fact.",
+      "usage": {
+        "input_tokens": 2848,
+        "input_tokens_details": {
+          "cache_write_tokens": 2845,
+          "cached_tokens": 0
+        },
+        "output_tokens": 654,
+        "output_tokens_details": {
+          "reasoning_tokens": 461
+        },
+        "total_tokens": 3502
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0afeee0ddea805c3016ab429248ea087d28f40b8533936ecce",
+  "visibleOutput": "TRANSLATION: jan Jekil kin li ante ala. lon tenpo ni, ona li lon poka ante pi seli. ona li jan suli pi sijelo pona. sinpin ona li jo ala e linja. ona li jo e sike suno mute mute luka luka. ken la, lukin ona li pana e pilin pi sona len. taso, ale lon lukin ona li toki e ni: ona li ken pali pona, li pona tawa jan. jan li ken sona tan lukin ona e ni: ona li jo e pilin pona lon e pilin pona seli tawa jan Utason. jan Utason li open toki: “jan Jekil o, tenpo mute la mi wile toki tawa sina. sina sona e lipu lawa sina, anu seme?”\nNOTES: “slyish” is retained as an uncertain impression, not a fact.",
+  "translation": "jan Jekil kin li ante ala. lon tenpo ni, ona li lon poka ante pi seli. ona li jan suli pi sijelo pona. sinpin ona li jo ala e linja. ona li jo e sike suno mute mute luka luka. ken la, lukin ona li pana e pilin pi sona len. taso, ale lon lukin ona li toki e ni: ona li ken pali pona, li pona tawa jan. jan li ken sona tan lukin ona e ni: ona li jo e pilin pona lon e pilin pona seli tawa jan Utason. jan Utason li open toki: “jan Jekil o, tenpo mute la mi wile toki tawa sina. sina sona e lipu lawa sina, anu seme?”",
+  "notes": "“slyish” is retained as an uncertain impression, not a fact.",
+  "usage": {
+    "input_tokens": 2848,
+    "input_tokens_details": {
+      "cache_write_tokens": 2845,
+      "cached_tokens": 0
+    },
+    "output_tokens": 654,
+    "output_tokens_details": {
+      "reasoning_tokens": 461
+    },
+    "total_tokens": 3502
+  },
+  "success": true
+}

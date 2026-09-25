@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-06:block-0010",
+  "sourceHash": "f3c554808a2f8759ca817289ef2ced745d0b93063d5d98eddf0c7c38bcc6ce03",
+  "source": "It was unlikely that the doctor should fear death; and yet that was what Utterson was tempted to suspect. “Yes,” he thought; “he is a doctor, he must know his own state and that his days are counted; and the knowledge is more than he can bear.” And yet when Utterson remarked on his ill-looks, it was with an air of greatness that Lanyon declared himself a doomed man.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_093ffa40da3c44b6016ab42d93178487d2a04463bf0ea61664",
+      "visibleOutput": "TRANSLATION: ken lili la, jan pi sona sijelo li pilin monsuta tan moli. taso jan Utason li kama pilin e ni. ona li toki lon insa ona: “lon. ona li jan pi sona sijelo. ni la, ona li sona e nasin sijelo ona, e ni: tenpo lon ona li kama lili. taso ona li ken ala awen pona lon sona ni.” taso jan Utason li toki e lukin ike sijelo pi jan Lanjon la, jan Lanjon li toki kepeken nasin suli e ni: moli ona li kama, li ken ala weka tan ni.\nNOTES: “Doomed” is retained as Lanyon’s own declaration, not narrator fact.",
+      "translation": "ken lili la, jan pi sona sijelo li pilin monsuta tan moli. taso jan Utason li kama pilin e ni. ona li toki lon insa ona: “lon. ona li jan pi sona sijelo. ni la, ona li sona e nasin sijelo ona, e ni: tenpo lon ona li kama lili. taso ona li ken ala awen pona lon sona ni.” taso jan Utason li toki e lukin ike sijelo pi jan Lanjon la, jan Lanjon li toki kepeken nasin suli e ni: moli ona li kama, li ken ala weka tan ni.",
+      "notes": "“Doomed” is retained as Lanyon’s own declaration, not narrator fact.",
+      "usage": {
+        "input_tokens": 2828,
+        "input_tokens_details": {
+          "cache_write_tokens": 2825,
+          "cached_tokens": 0
+        },
+        "output_tokens": 631,
+        "output_tokens_details": {
+          "reasoning_tokens": 465
+        },
+        "total_tokens": 3459
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_093ffa40da3c44b6016ab42d93178487d2a04463bf0ea61664",
+  "visibleOutput": "TRANSLATION: ken lili la, jan pi sona sijelo li pilin monsuta tan moli. taso jan Utason li kama pilin e ni. ona li toki lon insa ona: “lon. ona li jan pi sona sijelo. ni la, ona li sona e nasin sijelo ona, e ni: tenpo lon ona li kama lili. taso ona li ken ala awen pona lon sona ni.” taso jan Utason li toki e lukin ike sijelo pi jan Lanjon la, jan Lanjon li toki kepeken nasin suli e ni: moli ona li kama, li ken ala weka tan ni.\nNOTES: “Doomed” is retained as Lanyon’s own declaration, not narrator fact.",
+  "translation": "ken lili la, jan pi sona sijelo li pilin monsuta tan moli. taso jan Utason li kama pilin e ni. ona li toki lon insa ona: “lon. ona li jan pi sona sijelo. ni la, ona li sona e nasin sijelo ona, e ni: tenpo lon ona li kama lili. taso ona li ken ala awen pona lon sona ni.” taso jan Utason li toki e lukin ike sijelo pi jan Lanjon la, jan Lanjon li toki kepeken nasin suli e ni: moli ona li kama, li ken ala weka tan ni.",
+  "notes": "“Doomed” is retained as Lanyon’s own declaration, not narrator fact.",
+  "usage": {
+    "input_tokens": 2828,
+    "input_tokens_details": {
+      "cache_write_tokens": 2825,
+      "cached_tokens": 0
+    },
+    "output_tokens": 631,
+    "output_tokens_details": {
+      "reasoning_tokens": 465
+    },
+    "total_tokens": 3459
+  },
+  "success": true
+}

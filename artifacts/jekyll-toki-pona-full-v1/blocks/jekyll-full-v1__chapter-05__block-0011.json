@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0011",
+  "sourceHash": "7d50c96152111443ca8eaca50049e522a060a0e8b992bb560a2addccb054effb",
+  "source": "Utterson ruminated a while; he was surprised at his friend’s selfishness, and yet relieved by it. “Well,” said he, at last, “let me see the letter.” The letter was written in an odd, upright hand and signed “Edward Hyde”: and it signified, briefly enough, that the writer’s benefactor, Dr.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0539aba00d4eee73016ab42c13c26c87d2b6199f890cca9b0a",
+      "visibleOutput": "TRANSLATION: jan Utason li awen pilin lon tenpo lili. nasin pi jan pona ona li lukin taso e pona ona li nasa tawa jan Utason; taso nasin ni li pona e pilin ona. lon pini la ona li toki e ni: “pona. o pana e lipu tawa lukin mi.” sitelen luka pi lipu ni li nasa, li anpa ala tawa poka. nimi “jan Hata” li lon pini ona. toki lipu li lili: jan pi pana pona tawa jan sitelen, jan pi sona sijelo...\nNOTES: Pini pi toki lipu li pakala sama toki Inli; lipu taso li pana e toki ni, ni li sona pi toki ma ala.",
+      "translation": "jan Utason li awen pilin lon tenpo lili. nasin pi jan pona ona li lukin taso e pona ona li nasa tawa jan Utason; taso nasin ni li pona e pilin ona. lon pini la ona li toki e ni: “pona. o pana e lipu tawa lukin mi.” sitelen luka pi lipu ni li nasa, li anpa ala tawa poka. nimi “jan Hata” li lon pini ona. toki lipu li lili: jan pi pana pona tawa jan sitelen, jan pi sona sijelo...",
+      "notes": "Pini pi toki lipu li pakala sama toki Inli; lipu taso li pana e toki ni, ni li sona pi toki ma ala.",
+      "usage": {
+        "input_tokens": 2820,
+        "input_tokens_details": {
+          "cache_write_tokens": 2817,
+          "cached_tokens": 0
+        },
+        "output_tokens": 510,
+        "output_tokens_details": {
+          "reasoning_tokens": 342
+        },
+        "total_tokens": 3330
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0539aba00d4eee73016ab42c13c26c87d2b6199f890cca9b0a",
+  "visibleOutput": "TRANSLATION: jan Utason li awen pilin lon tenpo lili. nasin pi jan pona ona li lukin taso e pona ona li nasa tawa jan Utason; taso nasin ni li pona e pilin ona. lon pini la ona li toki e ni: “pona. o pana e lipu tawa lukin mi.” sitelen luka pi lipu ni li nasa, li anpa ala tawa poka. nimi “jan Hata” li lon pini ona. toki lipu li lili: jan pi pana pona tawa jan sitelen, jan pi sona sijelo...\nNOTES: Pini pi toki lipu li pakala sama toki Inli; lipu taso li pana e toki ni, ni li sona pi toki ma ala.",
+  "translation": "jan Utason li awen pilin lon tenpo lili. nasin pi jan pona ona li lukin taso e pona ona li nasa tawa jan Utason; taso nasin ni li pona e pilin ona. lon pini la ona li toki e ni: “pona. o pana e lipu tawa lukin mi.” sitelen luka pi lipu ni li nasa, li anpa ala tawa poka. nimi “jan Hata” li lon pini ona. toki lipu li lili: jan pi pana pona tawa jan sitelen, jan pi sona sijelo...",
+  "notes": "Pini pi toki lipu li pakala sama toki Inli; lipu taso li pana e toki ni, ni li sona pi toki ma ala.",
+  "usage": {
+    "input_tokens": 2820,
+    "input_tokens_details": {
+      "cache_write_tokens": 2817,
+      "cached_tokens": 0
+    },
+    "output_tokens": 510,
+    "output_tokens_details": {
+      "reasoning_tokens": 342
+    },
+    "total_tokens": 3330
+  },
+  "success": true
+}

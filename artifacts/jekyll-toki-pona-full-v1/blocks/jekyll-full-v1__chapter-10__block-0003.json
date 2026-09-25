@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0003",
+  "sourceHash": "63a208ca3f8cf4a653acf3a245beefebc32127fbee71aca7cf079f9c4a915177",
+  "source": "Hence it came about that I concealed my pleasures; and that when I reached years of reflection, and began to look round me and take stock of my progress and position in the world, I stood already committed to a profound duplicity of life.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f326b0d4ca34f63016ab4364a304c87d2945e6788c2935473",
+      "visibleOutput": "TRANSLATION: Tan ni la, mi awen len e musi mi. tenpo la, mi kama suli, mi kama sona mute, li open lukin e nasin mi e lon mi lon ma. taso lon tenpo ni la, mi pini kama awen lon nasin tu pi lon mi, li ken ala weka tan ona.\nNOTES: “duplicity of life” is rendered as “nasin tu pi lon mi” without adding an identity claim.",
+      "translation": "Tan ni la, mi awen len e musi mi. tenpo la, mi kama suli, mi kama sona mute, li open lukin e nasin mi e lon mi lon ma. taso lon tenpo ni la, mi pini kama awen lon nasin tu pi lon mi, li ken ala weka tan ona.",
+      "notes": "“duplicity of life” is rendered as “nasin tu pi lon mi” without adding an identity claim.",
+      "usage": {
+        "input_tokens": 2794,
+        "input_tokens_details": {
+          "cache_write_tokens": 2791,
+          "cached_tokens": 0
+        },
+        "output_tokens": 262,
+        "output_tokens_details": {
+          "reasoning_tokens": 158
+        },
+        "total_tokens": 3056
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f326b0d4ca34f63016ab4364a304c87d2945e6788c2935473",
+  "visibleOutput": "TRANSLATION: Tan ni la, mi awen len e musi mi. tenpo la, mi kama suli, mi kama sona mute, li open lukin e nasin mi e lon mi lon ma. taso lon tenpo ni la, mi pini kama awen lon nasin tu pi lon mi, li ken ala weka tan ona.\nNOTES: “duplicity of life” is rendered as “nasin tu pi lon mi” without adding an identity claim.",
+  "translation": "Tan ni la, mi awen len e musi mi. tenpo la, mi kama suli, mi kama sona mute, li open lukin e nasin mi e lon mi lon ma. taso lon tenpo ni la, mi pini kama awen lon nasin tu pi lon mi, li ken ala weka tan ona.",
+  "notes": "“duplicity of life” is rendered as “nasin tu pi lon mi” without adding an identity claim.",
+  "usage": {
+    "input_tokens": 2794,
+    "input_tokens_details": {
+      "cache_write_tokens": 2791,
+      "cached_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 158
+    },
+    "total_tokens": 3056
+  },
+  "success": true
+}

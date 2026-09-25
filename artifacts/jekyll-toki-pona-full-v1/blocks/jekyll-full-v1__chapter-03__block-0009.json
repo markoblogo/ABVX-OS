@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-03:block-0009",
+  "sourceHash": "69320231848e8ea4c58bb167d1b834334cce1575b9d5f95755d5facb8e628394",
+  "source": "“Jekyll,” said Utterson, “you know me: I am a man to be trusted. Make a clean breast of this in confidence; and I make no doubt I can get you out of it.” “My good Utterson,” said the doctor, “this is very good of you, this is downright good of you, and I cannot find words to thank you in.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08d93cc64b42b640016ab429a6506887d2b4a94b548743aae4",
+      "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “jan Jekil o, sina sona e mi. sina ken pana e sona sina tawa mi, li ken awen e ona lon insa mi. o toki e ale pi ijo ni tawa mi. mi sona pona e ni: mi ken weka e sina tan ike ni.” jan Jekil pi sona sijelo li toki e ni: “jan Utason pona mi o, ni li pona mute tan sina. ni li pona suli lon. mi sona ala e nimi pi toki pona tawa sina tan pona ni.”\nNOTES: NONE",
+      "translation": "jan Utason li toki e ni: “jan Jekil o, sina sona e mi. sina ken pana e sona sina tawa mi, li ken awen e ona lon insa mi. o toki e ale pi ijo ni tawa mi. mi sona pona e ni: mi ken weka e sina tan ike ni.” jan Jekil pi sona sijelo li toki e ni: “jan Utason pona mi o, ni li pona mute tan sina. ni li pona suli lon. mi sona ala e nimi pi toki pona tawa sina tan pona ni.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2835,
+        "input_tokens_details": {
+          "cache_write_tokens": 2832,
+          "cached_tokens": 0
+        },
+        "output_tokens": 465,
+        "output_tokens_details": {
+          "reasoning_tokens": 333
+        },
+        "total_tokens": 3300
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08d93cc64b42b640016ab429a6506887d2b4a94b548743aae4",
+  "visibleOutput": "TRANSLATION: jan Utason li toki e ni: “jan Jekil o, sina sona e mi. sina ken pana e sona sina tawa mi, li ken awen e ona lon insa mi. o toki e ale pi ijo ni tawa mi. mi sona pona e ni: mi ken weka e sina tan ike ni.” jan Jekil pi sona sijelo li toki e ni: “jan Utason pona mi o, ni li pona mute tan sina. ni li pona suli lon. mi sona ala e nimi pi toki pona tawa sina tan pona ni.”\nNOTES: NONE",
+  "translation": "jan Utason li toki e ni: “jan Jekil o, sina sona e mi. sina ken pana e sona sina tawa mi, li ken awen e ona lon insa mi. o toki e ale pi ijo ni tawa mi. mi sona pona e ni: mi ken weka e sina tan ike ni.” jan Jekil pi sona sijelo li toki e ni: “jan Utason pona mi o, ni li pona mute tan sina. ni li pona suli lon. mi sona ala e nimi pi toki pona tawa sina tan pona ni.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2835,
+    "input_tokens_details": {
+      "cache_write_tokens": 2832,
+      "cached_tokens": 0
+    },
+    "output_tokens": 465,
+    "output_tokens_details": {
+      "reasoning_tokens": 333
+    },
+    "total_tokens": 3300
+  },
+  "success": true
+}

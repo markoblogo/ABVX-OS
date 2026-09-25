@@ -1,0 +1,7 @@
+{
+  "schemaVersion": "1.0",
+  "status": "OPEN_FOR_EDITORIAL_REVIEW",
+  "priorityRules": ["critical entity", "document", "legal condition", "knowledge boundary", "spoiler", "low confidence"],
+  "items": [],
+  "note": "The machine report lists review flags by block; this queue is intentionally not a human approval record."
+}

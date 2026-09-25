@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0009",
+  "sourceHash": "7eb5c2ade34ab7b6a87e007c2fdd4253967e68045f14a89a961286c9bb82a252",
+  "source": "At midnight, then, I have to ask you to be alone in your consulting-room, to admit with your own hand into the house a man who will present himself in my name, and to place in his hands the drawer that you will have brought with you from my cabinet. Then you will have played your part and earned my gratitude completely.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_01bca6700c2c32b0016ab4336ccddc87d2bfc54b1695f0d3f6",
+      "visibleOutput": "TRANSLATION: lon tenpo pimeja insa, mi wile toki e ni tawa sina: o awen wan lon tomo sina pi pana sona sijelo. jan wan li kama lon nimi mi la, sina taso o open e tomo tawa ona. o pana lon luka ona e poki ni: sina kama jo e ona tan tomo insa pi jan Jekil. sina pali e ni ale la, sina pini pona e pali sina, li kama jo ale e pona mi tawa sina.\nNOTES: “poki” renders the cabinet drawer without adding unsupported detail.",
+      "translation": "lon tenpo pimeja insa, mi wile toki e ni tawa sina: o awen wan lon tomo sina pi pana sona sijelo. jan wan li kama lon nimi mi la, sina taso o open e tomo tawa ona. o pana lon luka ona e poki ni: sina kama jo e ona tan tomo insa pi jan Jekil. sina pali e ni ale la, sina pini pona e pali sina, li kama jo ale e pona mi tawa sina.",
+      "notes": "“poki” renders the cabinet drawer without adding unsupported detail.",
+      "usage": {
+        "input_tokens": 2818,
+        "input_tokens_details": {
+          "cache_write_tokens": 2815,
+          "cached_tokens": 0
+        },
+        "output_tokens": 219,
+        "output_tokens_details": {
+          "reasoning_tokens": 91
+        },
+        "total_tokens": 3037
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_01bca6700c2c32b0016ab4336ccddc87d2bfc54b1695f0d3f6",
+  "visibleOutput": "TRANSLATION: lon tenpo pimeja insa, mi wile toki e ni tawa sina: o awen wan lon tomo sina pi pana sona sijelo. jan wan li kama lon nimi mi la, sina taso o open e tomo tawa ona. o pana lon luka ona e poki ni: sina kama jo e ona tan tomo insa pi jan Jekil. sina pali e ni ale la, sina pini pona e pali sina, li kama jo ale e pona mi tawa sina.\nNOTES: “poki” renders the cabinet drawer without adding unsupported detail.",
+  "translation": "lon tenpo pimeja insa, mi wile toki e ni tawa sina: o awen wan lon tomo sina pi pana sona sijelo. jan wan li kama lon nimi mi la, sina taso o open e tomo tawa ona. o pana lon luka ona e poki ni: sina kama jo e ona tan tomo insa pi jan Jekil. sina pali e ni ale la, sina pini pona e pali sina, li kama jo ale e pona mi tawa sina.",
+  "notes": "“poki” renders the cabinet drawer without adding unsupported detail.",
+  "usage": {
+    "input_tokens": 2818,
+    "input_tokens_details": {
+      "cache_write_tokens": 2815,
+      "cached_tokens": 0
+    },
+    "output_tokens": 219,
+    "output_tokens_details": {
+      "reasoning_tokens": 91
+    },
+    "total_tokens": 3037
+  },
+  "success": true
+}

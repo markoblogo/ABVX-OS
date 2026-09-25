@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-05:block-0027",
+  "sourceHash": "8d26cf733e0203e8596974c5b24cb4b5c50bff871ce4dc04eeb92c843da07a7c",
+  "source": "“Only an invitation to dinner. Why? Do you want to see it?” “One moment. I thank you, sir”; and the clerk laid the two sheets of paper alongside and sedulously compared their contents. “Thank you, sir,” he said at last, returning both; “it’s a very interesting autograph.” There was a pause, during which Mr. Utterson struggled with himself. “Why did you compare them, Guest?” he inquired suddenly.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_083185f8e24a4a95016ab42cf0e5d887d2927293aa3243fbfa",
+      "visibleOutput": "TRANSLATION: “ni li toki kutsu taso tawa moku pi tenpo pimeja. tan seme? sina wile lukin e ona anu seme?” “o awen lili. mi pana e pona tawa sina, jan lawa.” jan Kesu li pana e lipu tu lon poka, li lukin wawa e sitelen ona tu sama. “pona tawa sina, jan lawa,” ona li toki lon pini, li pana sin e lipu tu. “sitelen luka ni li nasa pona mute.” toki ala li lon. lon tenpo ni, jan Utason li utala e pilin ona. ona li toki pi tenpo lili ala e ni: “jan Kesu o, sina lukin e lipu tu sama tan seme?”\nNOTES: “Autograph” is rendered as “sitelen luka” (handwriting), preserving the clerk’s observation without implying verified authorship.",
+      "translation": "“ni li toki kutsu taso tawa moku pi tenpo pimeja. tan seme? sina wile lukin e ona anu seme?” “o awen lili. mi pana e pona tawa sina, jan lawa.” jan Kesu li pana e lipu tu lon poka, li lukin wawa e sitelen ona tu sama. “pona tawa sina, jan lawa,” ona li toki lon pini, li pana sin e lipu tu. “sitelen luka ni li nasa pona mute.” toki ala li lon. lon tenpo ni, jan Utason li utala e pilin ona. ona li toki pi tenpo lili ala e ni: “jan Kesu o, sina lukin e lipu tu sama tan seme?”",
+      "notes": "“Autograph” is rendered as “sitelen luka” (handwriting), preserving the clerk’s observation without implying verified authorship.",
+      "usage": {
+        "input_tokens": 2831,
+        "input_tokens_details": {
+          "cache_write_tokens": 2828,
+          "cached_tokens": 0
+        },
+        "output_tokens": 288,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "total_tokens": 3119
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_083185f8e24a4a95016ab42cf0e5d887d2927293aa3243fbfa",
+  "visibleOutput": "TRANSLATION: “ni li toki kutsu taso tawa moku pi tenpo pimeja. tan seme? sina wile lukin e ona anu seme?” “o awen lili. mi pana e pona tawa sina, jan lawa.” jan Kesu li pana e lipu tu lon poka, li lukin wawa e sitelen ona tu sama. “pona tawa sina, jan lawa,” ona li toki lon pini, li pana sin e lipu tu. “sitelen luka ni li nasa pona mute.” toki ala li lon. lon tenpo ni, jan Utason li utala e pilin ona. ona li toki pi tenpo lili ala e ni: “jan Kesu o, sina lukin e lipu tu sama tan seme?”\nNOTES: “Autograph” is rendered as “sitelen luka” (handwriting), preserving the clerk’s observation without implying verified authorship.",
+  "translation": "“ni li toki kutsu taso tawa moku pi tenpo pimeja. tan seme? sina wile lukin e ona anu seme?” “o awen lili. mi pana e pona tawa sina, jan lawa.” jan Kesu li pana e lipu tu lon poka, li lukin wawa e sitelen ona tu sama. “pona tawa sina, jan lawa,” ona li toki lon pini, li pana sin e lipu tu. “sitelen luka ni li nasa pona mute.” toki ala li lon. lon tenpo ni, jan Utason li utala e pilin ona. ona li toki pi tenpo lili ala e ni: “jan Kesu o, sina lukin e lipu tu sama tan seme?”",
+  "notes": "“Autograph” is rendered as “sitelen luka” (handwriting), preserving the clerk’s observation without implying verified authorship.",
+  "usage": {
+    "input_tokens": 2831,
+    "input_tokens_details": {
+      "cache_write_tokens": 2828,
+      "cached_tokens": 0
+    },
+    "output_tokens": 288,
+    "output_tokens_details": {
+      "reasoning_tokens": 88
+    },
+    "total_tokens": 3119
+  },
+  "success": true
+}

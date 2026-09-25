@@ -1,0 +1,119 @@
+{
+  "schema_version": "bracken-ford-publication-d0/v1",
+  "experiment_id": "BRACKEN-FORD-DISCOVERY-001",
+  "product_id": "product:BRACKEN-FORD-NO-FURTHER-CLAIMS",
+  "package_id": "BF-KDP-LAUNCH-V1",
+  "observed_at": "2026-09-23T20:27:51Z",
+  "observed_at_local": "2026-09-23T22:27:51+02:00",
+  "channel": "authenticated_safari_kdp_and_amazon_read_only",
+  "search_conditions": {
+    "marketplace": "Amazon.com Books",
+    "delivery_location": "Thouare-sur-Loire, France 44470",
+    "session": "signed_in_personalized",
+    "clean_session": false,
+    "discovery_queries_are_non_title": true
+  },
+  "cohort": [
+    "FICTION",
+    "NEW_PEN_NAME",
+    "NEW_IP",
+    "ADJACENT_DISCOVERY",
+    "ILLUSTRATED_DIFFERENTIATION",
+    "PICTIQ_INSERTS"
+  ],
+  "product": {
+    "title": "No Further Claims",
+    "subtitle": "A Bracken Ford Novel",
+    "author": "Calder Brackle",
+    "kindle": {
+      "status": "LIVE",
+      "asin": "B0HKTBFFJM",
+      "url": "https://www.amazon.com/dp/B0HKTBFFJM",
+      "list_price": {"amount": 2.99, "currency": "USD"},
+      "publication_date": "2026-09-23",
+      "displayed_length": "87 Kindle pages",
+      "retail_purchase_available_for_observed_france_location": false
+    },
+    "paperback": {
+      "status": "LIVE",
+      "asin": "B0HKTFR8ND",
+      "isbn_13": "9798176597592",
+      "url": "https://www.amazon.com/dp/B0HKTFR8ND",
+      "list_price": {"amount": 9.99, "currency": "USD"},
+      "publication_date": "2026-09-23",
+      "page_count": 62,
+      "trim_inches": "6 x 9",
+      "retail_delivery_available_for_observed_france_location": false
+    },
+    "kdp_select": {"status": "ENROLLED", "renewal_setting": "UNKNOWN"},
+    "drm": "UNKNOWN_ACTUAL_SETTING",
+    "keywords": {"actual_values": null, "status": "NOT_VERIFIED"},
+    "categories": {"actual_values": null, "status": "NOT_VERIFIED"},
+    "description": {"status": "MATCHES_FROZEN_PACKAGE_TEXT", "package_id": "BF-KDP-LAUNCH-V1"},
+    "cover": {"planned_source": "BFcover1.png", "uploaded_asset_identity_hash": "NOT_VERIFIED"},
+    "format_family_linkage": {
+      "status": "PENDING_RECHECK",
+      "evidence": "Bookshelf groups both live formats under one title; each France-session detail page exposed only its own format."
+    }
+  },
+  "reports": {
+    "orders_processed": {
+      "period": {"start": "2026-09-01", "end": "2026-09-23"},
+      "title_filter": "No Further Claims: A Bracken Ford Novel",
+      "ebook_units": 0,
+      "print_units": 0,
+      "total_units": 0,
+      "source": "KDP Orders report",
+      "caveat": "Processed orders may lag; this does not prove zero orders placed."
+    },
+    "orders_placed": "UNKNOWN_NOT_RETRIEVED",
+    "kenp_pages": "UNKNOWN_TITLE_FILTER_NOT_VERIFIED",
+    "royalties": "UNKNOWN_TITLE_LEVEL_NOT_VERIFIED",
+    "reviews": "UNKNOWN_NOT_CAPTURED",
+    "detail_page_views": "NOT_EXPOSED_OR_NOT_CAPTURED"
+  },
+  "discovery": [
+    {"query":"small town satire","visible_result_count":"over 5000","first_depth":"ABSENT_THROUGH_32","personalized_session":true,"sponsored_content_visible":true},
+    {"query":"small town literary fiction","visible_result_count":"over 50000","first_depth":"ABSENT_THROUGH_32","personalized_session":true,"sponsored_content_visible":true},
+    {"query":"bureaucratic satire novel","visible_result_count":"73","first_depth":"PERSONALIZED_PREVIOUSLY_VIEWED_ONLY_AFTER_ORGANIC_PAGE_1","organic_absent_through":16,"page_2_checked":false},
+    {"query":"civic satire fiction","visible_result_count":"85","first_depth":"PERSONALIZED_PREVIOUSLY_VIEWED_ONLY_AFTER_ORGANIC_PAGE_1","organic_absent_through":16,"page_2_checked":false},
+    {"query":"deadpan comic fiction","visible_result_count":"47","first_depth":"PERSONALIZED_PREVIOUSLY_VIEWED_ONLY_AFTER_ORGANIC_PAGE_1","organic_absent_through":16,"page_2_checked":false},
+    {"query":"darkly comic novel","visible_result_count":"350","first_depth":"ABSENT_THROUGH_32","personalized_session":true,"sponsored_content_visible":true},
+    {"query":"absurdist American fiction","visible_result_count":"over 1000","first_depth":"ABSENT_THROUGH_32","personalized_session":true,"sponsored_content_visible":true},
+    {"query":"community politics satire","visible_result_count":"31","first_depth":"ABSENT_THROUGH_31","personalized_session":true,"sponsored_content_visible":true},
+    {"query":"illustrated adult fiction","visible_result_count":"over 60000","first_depth":"ABSENT_THROUGH_32","personalized_session":true,"sponsored_content_visible":true}
+  ],
+  "diagnosis": {
+    "availability": "KDP_BOOKSHELF_PASS_BOTH_FORMATS; FRANCE_SESSION_RETAIL_ACCESS_BLOCKED_LOCATION_SPECIFIC",
+    "discovery": "NO_ORGANIC_PLACEMENT_THROUGH_32_FOR_SIX_WIDER_QUERIES; THREE_NARROW_QUERY_PAGES_SHOWED_ONLY_PERSONALIZED_MODULES; NOT_A_STABLE_INDEXING_VERDICT",
+    "conversion": "UNRESOLVED_NO_DETAIL_PAGE_VIEW_DENOMINATOR; ZERO_PROCESSED_UNITS_AT_D0",
+    "product_fit": "UNKNOWN_AT_D0_NO_READER_FEEDBACK_OR_TITLE_SPECIFIC_KENP",
+    "observation_time": "D0_PUBLICATION_DATE; NO_POST_LAUNCH_OBSERVATION_WINDOW_ELAPSED"
+  },
+  "schedule": {"D7":"2026-09-30","D14":"2026-10-07","D30":"2026-10-23"},
+  "no_ads": true,
+  "no_listing_changes": true,
+  "promo_asset_reference": {
+    "path": "/Users/antonbiletskiy-volokh/Desktop/bfpromo.png",
+    "present_at_observation": false,
+    "copied_or_modified": false
+  },
+  "production_facts": {
+    "body_words": 20381,
+    "chapters": 13,
+    "paperback_pages": 62,
+    "trim": "6x9",
+    "interior": "black-and-white on white paper",
+    "full_page_assets": 6,
+    "pictiq_comics": 4,
+    "formats": ["Kindle", "paperback"],
+    "historical_model_costs": "NOT_RECONSTRUCTED"
+  },
+  "provenance": {
+    "manifest_successor": "BRACKEN_FORD_CANONICAL_MANIFEST_V2.json",
+    "text_lock_hash_preserved": "0c5c757590b539e35c67b982f3f7ed117076e4f10b8b7d3f4ee8cf83336b7797",
+    "illustration_hashes_preserved": true,
+    "unresolved_asset_provenance_preserved": true
+  },
+  "scoring_model_changed": false
+}

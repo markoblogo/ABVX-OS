@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0044",
+  "sourceHash": "abe4cbf4a076f7aa27fc7a4c3d688b70a0ce20ddbcdcd918fa4b4dabba08c990",
+  "source": "“Quite so, sir,” returned Poole. “Well, when that masked thing like a monkey jumped from among the chemicals and whipped into the cabinet, it went down my spine like ice. Oh, I know it’s not evidence, Mr. Utterson. I’m book-learned enough for that; but a man has his feelings, and I give you my bible-word it was Mr. Hyde!”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_08332fd0d880ccc2016ab43133e2c087d2bff5863e22d39cd4",
+      "visibleOutput": "TRANSLATION: “lon a, jan lawa,” jan Pulu li toki sin. “tenpo la, ijo pi sinpin len, li sama soweli, li tawa sewi tan insa pi ijo pi pali sona, li tawa wawa lon tomo insa pi jan Jekil. pilin lete li tawa anpa lon monsi mi. a, jan Utason, mi sona e ni: ni li pana ala e sona lon. mi kama sona mute tan lipu la mi sona e ni. taso jan li jo e pilin ona. mi toki lon kepeken lipu sewi mi: ijo ni li jan Hata!”  \nNOTES: “sama soweli” broadly renders the observer’s monkey comparison; Hyde’s identity remains Poole’s sworn claim, not narrator fact.",
+      "translation": "“lon a, jan lawa,” jan Pulu li toki sin. “tenpo la, ijo pi sinpin len, li sama soweli, li tawa sewi tan insa pi ijo pi pali sona, li tawa wawa lon tomo insa pi jan Jekil. pilin lete li tawa anpa lon monsi mi. a, jan Utason, mi sona e ni: ni li pana ala e sona lon. mi kama sona mute tan lipu la mi sona e ni. taso jan li jo e pilin ona. mi toki lon kepeken lipu sewi mi: ijo ni li jan Hata!”",
+      "notes": "“sama soweli” broadly renders the observer’s monkey comparison; Hyde’s identity remains Poole’s sworn claim, not narrator fact.",
+      "usage": {
+        "input_tokens": 2829,
+        "input_tokens_details": {
+          "cache_write_tokens": 2826,
+          "cached_tokens": 0
+        },
+        "output_tokens": 695,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3524
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_08332fd0d880ccc2016ab43133e2c087d2bff5863e22d39cd4",
+  "visibleOutput": "TRANSLATION: “lon a, jan lawa,” jan Pulu li toki sin. “tenpo la, ijo pi sinpin len, li sama soweli, li tawa sewi tan insa pi ijo pi pali sona, li tawa wawa lon tomo insa pi jan Jekil. pilin lete li tawa anpa lon monsi mi. a, jan Utason, mi sona e ni: ni li pana ala e sona lon. mi kama sona mute tan lipu la mi sona e ni. taso jan li jo e pilin ona. mi toki lon kepeken lipu sewi mi: ijo ni li jan Hata!”  \nNOTES: “sama soweli” broadly renders the observer’s monkey comparison; Hyde’s identity remains Poole’s sworn claim, not narrator fact.",
+  "translation": "“lon a, jan lawa,” jan Pulu li toki sin. “tenpo la, ijo pi sinpin len, li sama soweli, li tawa sewi tan insa pi ijo pi pali sona, li tawa wawa lon tomo insa pi jan Jekil. pilin lete li tawa anpa lon monsi mi. a, jan Utason, mi sona e ni: ni li pana ala e sona lon. mi kama sona mute tan lipu la mi sona e ni. taso jan li jo e pilin ona. mi toki lon kepeken lipu sewi mi: ijo ni li jan Hata!”",
+  "notes": "“sama soweli” broadly renders the observer’s monkey comparison; Hyde’s identity remains Poole’s sworn claim, not narrator fact.",
+  "usage": {
+    "input_tokens": 2829,
+    "input_tokens_details": {
+      "cache_write_tokens": 2826,
+      "cached_tokens": 0
+    },
+    "output_tokens": 695,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3524
+  },
+  "success": true
+}

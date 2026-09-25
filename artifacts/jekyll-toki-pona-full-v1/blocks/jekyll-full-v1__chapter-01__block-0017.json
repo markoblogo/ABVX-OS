@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-01:block-0017",
+  "sourceHash": "105392c4c6032b189d087641ebd1d2956f77c34c6b7589e94d98c77797824c51",
+  "source": "All at once, I saw two figures: one a little man who was stumping along eastward at a good walk, and the other a girl of maybe eight or ten who was running as hard as she was able down a cross street.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0f0dcb608c66e8ad016ab4252241ec87d2819558907144ad4c",
+      "visibleOutput": "TRANSLATION: tenpo lili la, mi lukin e jan tu. jan wan li mije lili. ona li tawa wawa lon nasin pi kama suno, li kalama mute kepeken noka. jan ante li meli lili pi sike suno luka tu wan anu luka luka. ona li tawa kepeken noka lon nasin ante, lon wawa ale ona.\nNOTES: NONE",
+      "translation": "tenpo lili la, mi lukin e jan tu. jan wan li mije lili. ona li tawa wawa lon nasin pi kama suno, li kalama mute kepeken noka. jan ante li meli lili pi sike suno luka tu wan anu luka luka. ona li tawa kepeken noka lon nasin ante, lon wawa ale ona.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2785,
+        "input_tokens_details": {
+          "cache_write_tokens": 2782,
+          "cached_tokens": 0
+        },
+        "output_tokens": 196,
+        "output_tokens_details": {
+          "reasoning_tokens": 98
+        },
+        "total_tokens": 2981
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0f0dcb608c66e8ad016ab4252241ec87d2819558907144ad4c",
+  "visibleOutput": "TRANSLATION: tenpo lili la, mi lukin e jan tu. jan wan li mije lili. ona li tawa wawa lon nasin pi kama suno, li kalama mute kepeken noka. jan ante li meli lili pi sike suno luka tu wan anu luka luka. ona li tawa kepeken noka lon nasin ante, lon wawa ale ona.\nNOTES: NONE",
+  "translation": "tenpo lili la, mi lukin e jan tu. jan wan li mije lili. ona li tawa wawa lon nasin pi kama suno, li kalama mute kepeken noka. jan ante li meli lili pi sike suno luka tu wan anu luka luka. ona li tawa kepeken noka lon nasin ante, lon wawa ale ona.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2785,
+    "input_tokens_details": {
+      "cache_write_tokens": 2782,
+      "cached_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 2981
+  },
+  "success": true
+}

@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0051",
+  "sourceHash": "bbbbac09962f05e9e2ec1f2323914696bc09282239b6656d359a16a6dfa0c498",
+  "source": "As for the moral turpitude that man unveiled to me, even with tears of penitence, I cannot, even in memory, dwell on it without a start of horror. I will say but one thing, Utterson, and that (if you can bring your mind to credit it) will be more than enough.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0824f5ec85c6c91a016ab4360738b887d2b85324c7afe8e220",
+      "visibleOutput": "TRANSLATION: jan ni li pana sona tawa mi e ike suli pi nasin pona ona. ona li pana sona e ni lon poka pi telo oko tan pilin ike lon pali ona. taso, mi sona sin e ni lon lawa mi la, pilin monsuta li kama wawa lon mi. mi ken ala awen lon sona ni. jan Utason o, mi toki e ijo wan taso. sina ken tawa e lawa sina tawa nasin ni: sina pilin e ni: toki mi li lon. ni la, ijo wan ni li mute tan wile.\nNOTES: “moral turpitude” is rendered broadly as grave wrongdoing against good conduct; the addressed claim remains something Utterson may or may not believe.",
+      "translation": "jan ni li pana sona tawa mi e ike suli pi nasin pona ona. ona li pana sona e ni lon poka pi telo oko tan pilin ike lon pali ona. taso, mi sona sin e ni lon lawa mi la, pilin monsuta li kama wawa lon mi. mi ken ala awen lon sona ni. jan Utason o, mi toki e ijo wan taso. sina ken tawa e lawa sina tawa nasin ni: sina pilin e ni: toki mi li lon. ni la, ijo wan ni li mute tan wile.",
+      "notes": "“moral turpitude” is rendered broadly as grave wrongdoing against good conduct; the addressed claim remains something Utterson may or may not believe.",
+      "usage": {
+        "input_tokens": 2815,
+        "input_tokens_details": {
+          "cache_write_tokens": 2812,
+          "cached_tokens": 0
+        },
+        "output_tokens": 438,
+        "output_tokens_details": {
+          "reasoning_tokens": 274
+        },
+        "total_tokens": 3253
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0824f5ec85c6c91a016ab4360738b887d2b85324c7afe8e220",
+  "visibleOutput": "TRANSLATION: jan ni li pana sona tawa mi e ike suli pi nasin pona ona. ona li pana sona e ni lon poka pi telo oko tan pilin ike lon pali ona. taso, mi sona sin e ni lon lawa mi la, pilin monsuta li kama wawa lon mi. mi ken ala awen lon sona ni. jan Utason o, mi toki e ijo wan taso. sina ken tawa e lawa sina tawa nasin ni: sina pilin e ni: toki mi li lon. ni la, ijo wan ni li mute tan wile.\nNOTES: “moral turpitude” is rendered broadly as grave wrongdoing against good conduct; the addressed claim remains something Utterson may or may not believe.",
+  "translation": "jan ni li pana sona tawa mi e ike suli pi nasin pona ona. ona li pana sona e ni lon poka pi telo oko tan pilin ike lon pali ona. taso, mi sona sin e ni lon lawa mi la, pilin monsuta li kama wawa lon mi. mi ken ala awen lon sona ni. jan Utason o, mi toki e ijo wan taso. sina ken tawa e lawa sina tawa nasin ni: sina pilin e ni: toki mi li lon. ni la, ijo wan ni li mute tan wile.",
+  "notes": "“moral turpitude” is rendered broadly as grave wrongdoing against good conduct; the addressed claim remains something Utterson may or may not believe.",
+  "usage": {
+    "input_tokens": 2815,
+    "input_tokens_details": {
+      "cache_write_tokens": 2812,
+      "cached_tokens": 0
+    },
+    "output_tokens": 438,
+    "output_tokens_details": {
+      "reasoning_tokens": 274
+    },
+    "total_tokens": 3253
+  },
+  "success": true
+}

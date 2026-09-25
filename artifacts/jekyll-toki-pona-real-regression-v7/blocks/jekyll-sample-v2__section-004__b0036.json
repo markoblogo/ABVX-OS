@@ -1,0 +1,55 @@
+{
+  "blockId": "jekyll-sample-v2:section-004:b0036",
+  "sourceText": "“Mr. Utterson,” said the man, “there is something wrong.”",
+  "sourceHash": "fa41f952a6690b4fdcf8c2584dcec4e0cc13f5bc153d8c835122635daa16f33e",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0a6fa9d168cfe7ff016ab41e605b2487d2a68ef054766f4d2d",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: jan ni li toki e ni: “jan Utason o, ijo li pona ala.”\nNOTES: NONE",
+      "translation": "jan ni li toki e ni: “jan Utason o, ijo li pona ala.”",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2788,
+        "input_tokens_details": {
+          "cache_write_tokens": 2785,
+          "cached_tokens": 0
+        },
+        "output_tokens": 31,
+        "output_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "total_tokens": 2819
+      },
+      "elapsedMs": 2038
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0a6fa9d168cfe7ff016ab41e605b2487d2a68ef054766f4d2d",
+  "visibleOutput": "TRANSLATION: jan ni li toki e ni: “jan Utason o, ijo li pona ala.”\nNOTES: NONE",
+  "translation": "jan ni li toki e ni: “jan Utason o, ijo li pona ala.”",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2788,
+    "input_tokens_details": {
+      "cache_write_tokens": 2785,
+      "cached_tokens": 0
+    },
+    "output_tokens": 31,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2819
+  },
+  "success": true
+}

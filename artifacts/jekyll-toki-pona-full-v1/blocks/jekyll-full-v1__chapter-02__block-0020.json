@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0020",
+  "sourceHash": "edb78cc2ee80dc1c0274aad2ec7016c962a4dba35322d0c0f2b392754b933c35",
+  "source": "If he could but once set eyes on him, he thought the mystery would lighten and perhaps roll altogether away, as was the habit of mysterious things when well examined. He might see a reason for his friend’s strange preference or bondage (call it which you please) and even for the startling clause of the will.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_06cbf3cba56c0c9e016ab4276b35a487d288ca518fa8484369",
+      "visibleOutput": "TRANSLATION: jan Utason li toki insa e ni: ona li ken lukin e jan Hata lon tenpo wan taso la, sona ala ni li ken lili, li ken weka ale. ijo pi sona ala li kama sama ni, tenpo la jan li lukin pona e ona. ona li ken kama sona e tan pi wile nasa pi jan pona ona, anu tan pi jan pona ona li lon anpa pi lawa ante—sina ken kepeken nimi seme ni. kin la, ona li ken kama sona e tan pi toki nasa monsuta lon lipu lawa pi jan Jekil.\nNOTES: “preference or bondage” is preserved as Utterson’s uncertain alternative; all conclusions remain conditional possibilities.",
+      "translation": "jan Utason li toki insa e ni: ona li ken lukin e jan Hata lon tenpo wan taso la, sona ala ni li ken lili, li ken weka ale. ijo pi sona ala li kama sama ni, tenpo la jan li lukin pona e ona. ona li ken kama sona e tan pi wile nasa pi jan pona ona, anu tan pi jan pona ona li lon anpa pi lawa ante—sina ken kepeken nimi seme ni. kin la, ona li ken kama sona e tan pi toki nasa monsuta lon lipu lawa pi jan Jekil.",
+      "notes": "“preference or bondage” is preserved as Utterson’s uncertain alternative; all conclusions remain conditional possibilities.",
+      "usage": {
+        "input_tokens": 2809,
+        "input_tokens_details": {
+          "cache_write_tokens": 2806,
+          "cached_tokens": 0
+        },
+        "output_tokens": 370,
+        "output_tokens_details": {
+          "reasoning_tokens": 207
+        },
+        "total_tokens": 3179
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_06cbf3cba56c0c9e016ab4276b35a487d288ca518fa8484369",
+  "visibleOutput": "TRANSLATION: jan Utason li toki insa e ni: ona li ken lukin e jan Hata lon tenpo wan taso la, sona ala ni li ken lili, li ken weka ale. ijo pi sona ala li kama sama ni, tenpo la jan li lukin pona e ona. ona li ken kama sona e tan pi wile nasa pi jan pona ona, anu tan pi jan pona ona li lon anpa pi lawa ante—sina ken kepeken nimi seme ni. kin la, ona li ken kama sona e tan pi toki nasa monsuta lon lipu lawa pi jan Jekil.\nNOTES: “preference or bondage” is preserved as Utterson’s uncertain alternative; all conclusions remain conditional possibilities.",
+  "translation": "jan Utason li toki insa e ni: ona li ken lukin e jan Hata lon tenpo wan taso la, sona ala ni li ken lili, li ken weka ale. ijo pi sona ala li kama sama ni, tenpo la jan li lukin pona e ona. ona li ken kama sona e tan pi wile nasa pi jan pona ona, anu tan pi jan pona ona li lon anpa pi lawa ante—sina ken kepeken nimi seme ni. kin la, ona li ken kama sona e tan pi toki nasa monsuta lon lipu lawa pi jan Jekil.",
+  "notes": "“preference or bondage” is preserved as Utterson’s uncertain alternative; all conclusions remain conditional possibilities.",
+  "usage": {
+    "input_tokens": 2809,
+    "input_tokens_details": {
+      "cache_write_tokens": 2806,
+      "cached_tokens": 0
+    },
+    "output_tokens": 370,
+    "output_tokens_details": {
+      "reasoning_tokens": 207
+    },
+    "total_tokens": 3179
+  },
+  "success": true
+}

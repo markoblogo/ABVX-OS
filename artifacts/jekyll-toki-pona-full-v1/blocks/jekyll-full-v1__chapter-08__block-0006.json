@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0006",
+  "sourceHash": "2e4b48a45d0f46357a1b4e617d9ea81535262295c0c135a32218291335088483",
+  "source": "“I daren’t say, sir,” was the answer; “but will you come along with me and see for yourself?” Mr. Utterson’s only answer was to rise and get his hat and great-coat; but he observed with wonder the greatness of the relief that appeared upon the butler’s face, and perhaps with no less, that the wine was still untasted when he set it down to follow.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0873a19b1e611512016ab42f48613087d2a6c153812f9f9734",
+      "visibleOutput": "TRANSLATION: “jan lawa o, mi pilin monsuta la mi ken ala toki,” jan Pulu li toki. “taso sina kama poka mi la sina ken lukin e ni kepeken lukin sina.” jan Utason li toki ala. ona li kama sewi, li kama jo e len lawa e len suli ona. taso ona li lukin e ni kepeken pilin nasa: pilin pona suli li kama lukin lon sinpin pi jan Pulu. ken la, ona li pilin nasa sama tan ni: jan Pulu li pana e telo nasa lon supa, li kama poka ona, taso li awen moku ala e telo ni.\nNOTES: “Relief” is rendered only as an appearance on Poole’s face; “perhaps” remains attached to Utterson’s second reaction.",
+      "translation": "“jan lawa o, mi pilin monsuta la mi ken ala toki,” jan Pulu li toki. “taso sina kama poka mi la sina ken lukin e ni kepeken lukin sina.” jan Utason li toki ala. ona li kama sewi, li kama jo e len lawa e len suli ona. taso ona li lukin e ni kepeken pilin nasa: pilin pona suli li kama lukin lon sinpin pi jan Pulu. ken la, ona li pilin nasa sama tan ni: jan Pulu li pana e telo nasa lon supa, li kama poka ona, taso li awen moku ala e telo ni.",
+      "notes": "“Relief” is rendered only as an appearance on Poole’s face; “perhaps” remains attached to Utterson’s second reaction.",
+      "usage": {
+        "input_tokens": 2830,
+        "input_tokens_details": {
+          "cache_write_tokens": 2827,
+          "cached_tokens": 0
+        },
+        "output_tokens": 678,
+        "output_tokens_details": {
+          "reasoning_tokens": 497
+        },
+        "total_tokens": 3508
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0873a19b1e611512016ab42f48613087d2a6c153812f9f9734",
+  "visibleOutput": "TRANSLATION: “jan lawa o, mi pilin monsuta la mi ken ala toki,” jan Pulu li toki. “taso sina kama poka mi la sina ken lukin e ni kepeken lukin sina.” jan Utason li toki ala. ona li kama sewi, li kama jo e len lawa e len suli ona. taso ona li lukin e ni kepeken pilin nasa: pilin pona suli li kama lukin lon sinpin pi jan Pulu. ken la, ona li pilin nasa sama tan ni: jan Pulu li pana e telo nasa lon supa, li kama poka ona, taso li awen moku ala e telo ni.\nNOTES: “Relief” is rendered only as an appearance on Poole’s face; “perhaps” remains attached to Utterson’s second reaction.",
+  "translation": "“jan lawa o, mi pilin monsuta la mi ken ala toki,” jan Pulu li toki. “taso sina kama poka mi la sina ken lukin e ni kepeken lukin sina.” jan Utason li toki ala. ona li kama sewi, li kama jo e len lawa e len suli ona. taso ona li lukin e ni kepeken pilin nasa: pilin pona suli li kama lukin lon sinpin pi jan Pulu. ken la, ona li pilin nasa sama tan ni: jan Pulu li pana e telo nasa lon supa, li kama poka ona, taso li awen moku ala e telo ni.",
+  "notes": "“Relief” is rendered only as an appearance on Poole’s face; “perhaps” remains attached to Utterson’s second reaction.",
+  "usage": {
+    "input_tokens": 2830,
+    "input_tokens_details": {
+      "cache_write_tokens": 2827,
+      "cached_tokens": 0
+    },
+    "output_tokens": 678,
+    "output_tokens_details": {
+      "reasoning_tokens": 497
+    },
+    "total_tokens": 3508
+  },
+  "success": true
+}

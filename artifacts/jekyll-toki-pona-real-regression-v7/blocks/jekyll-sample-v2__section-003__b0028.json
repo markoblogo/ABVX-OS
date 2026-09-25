@@ -1,0 +1,56 @@
+{
+  "blockId": "jekyll-sample-v2:section-003:b0028",
+  "sourceText": "The letter was written in an odd, upright hand and signed “Edward Hyde”: and it signified, briefly enough, that the writer’s benefactor, Dr. Jekyll, whom he had long so unworthily repaid for a thousand generosities, need labour under no alarm for his safety, as he had means of escape on which he placed a sure dependence. The lawyer liked this letter well enough; it put a better colour on the intimacy than he had looked for; and he blamed himself for some of his past suspicions.",
+  "sourceHash": "57daaa930f1bd7b548bc56330291fb330306bde28df1922505c3266478f48275",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_062b1186f3010d83016ab41e1e7e5887d2bfe52756e922e5c0",
+      "reasoning": "low",
+      "maxOutputTokens": 3000,
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ],
+      "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: “Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+      "translation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+      "notes": "“Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+      "usage": {
+        "input_tokens": 2889,
+        "input_tokens_details": {
+          "cache_write_tokens": 2886,
+          "cached_tokens": 0
+        },
+        "output_tokens": 749,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3638
+      },
+      "elapsedMs": 23464
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_062b1186f3010d83016ab41e1e7e5887d2bfe52756e922e5c0",
+  "visibleOutput": "TRANSLATION: nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.\nNOTES: “Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+  "translation": "nasin pi sitelen luka lon lipu li nasa li sewi. nimi “jan Eta Hata” li lon anpa ona. toki lili pi lipu li ni: jan Jekil pi sona sijelo li pana e pona mute mute tawa jan sitelen, taso jan sitelen li pana e ike tawa ona lon tenpo mute. taso jan Jekil o pilin monsuta ala tan awen pona pi jan Hata, tan ni: jan Hata li jo e nasin weka, li pilin wawa e ni: nasin ni li ken pali. jan Utason pi sona lawa li pilin pona mute lili tan lipu ni. lipu ni la, nasin poka pi jan Jekil en jan Hata li lukin pona mute tawa ona, li pona lon ni: ona li awen lukin e ike mute. tan ni, ona li pakala e ona tan pilin ike ona pi tenpo pini.",
+  "notes": "“Eta” preserves Edward within the signed name while retaining ledger form “jan Hata.”",
+  "usage": {
+    "input_tokens": 2889,
+    "input_tokens_details": {
+      "cache_write_tokens": 2886,
+      "cached_tokens": 0
+    },
+    "output_tokens": 749,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3638
+  },
+  "success": true
+}

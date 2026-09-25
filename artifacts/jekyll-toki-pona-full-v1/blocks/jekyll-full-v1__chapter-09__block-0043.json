@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0043",
+  "sourceHash": "e37d41bf0b15f039a8c9b399156f60d242fe7087dade2fe14eb94eaaee1b8e0e",
+  "source": "As you decide, you shall be left as you were before, and neither richer nor wiser, unless the sense of service rendered to a man in mortal distress may be counted as a kind of riches of the soul.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0ec2c67a5224c0e3016ab435b3fbfc87d2af9524eec3a1f3f8",
+      "visibleOutput": "TRANSLATION: sina anu e ni la, sina awen sama sina lon tenpo pini: mani sina li kama mute ala, sona sina li kama mute ala. taso ken la, sina pilin e ni: sina pana e pona tawa jan pi pilin ike suli lon poka pi moli. pilin ni li ken sama mani pona pi kon sina.\nNOTES: “mani pona pi kon” preserves the metaphor of spiritual riches without making it literal wealth.",
+      "translation": "sina anu e ni la, sina awen sama sina lon tenpo pini: mani sina li kama mute ala, sona sina li kama mute ala. taso ken la, sina pilin e ni: sina pana e pona tawa jan pi pilin ike suli lon poka pi moli. pilin ni li ken sama mani pona pi kon sina.",
+      "notes": "“mani pona pi kon” preserves the metaphor of spiritual riches without making it literal wealth.",
+      "usage": {
+        "input_tokens": 2783,
+        "input_tokens_details": {
+          "cache_write_tokens": 2780,
+          "cached_tokens": 0
+        },
+        "output_tokens": 618,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3401
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0ec2c67a5224c0e3016ab435b3fbfc87d2af9524eec3a1f3f8",
+  "visibleOutput": "TRANSLATION: sina anu e ni la, sina awen sama sina lon tenpo pini: mani sina li kama mute ala, sona sina li kama mute ala. taso ken la, sina pilin e ni: sina pana e pona tawa jan pi pilin ike suli lon poka pi moli. pilin ni li ken sama mani pona pi kon sina.\nNOTES: “mani pona pi kon” preserves the metaphor of spiritual riches without making it literal wealth.",
+  "translation": "sina anu e ni la, sina awen sama sina lon tenpo pini: mani sina li kama mute ala, sona sina li kama mute ala. taso ken la, sina pilin e ni: sina pana e pona tawa jan pi pilin ike suli lon poka pi moli. pilin ni li ken sama mani pona pi kon sina.",
+  "notes": "“mani pona pi kon” preserves the metaphor of spiritual riches without making it literal wealth.",
+  "usage": {
+    "input_tokens": 2783,
+    "input_tokens_details": {
+      "cache_write_tokens": 2780,
+      "cached_tokens": 0
+    },
+    "output_tokens": 618,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3401
+  },
+  "success": true
+}

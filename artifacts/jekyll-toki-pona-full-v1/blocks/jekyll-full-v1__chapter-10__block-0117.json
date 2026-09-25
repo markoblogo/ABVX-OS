@@ -1,0 +1,23 @@
+{
+  "blockId": "jekyll-full-v1:chapter-10:block-0117",
+  "sourceHash": "089af60a6722d72d5dfea87da08af4e7aa2b1d7e3638074f0b2dedec79ef2f80",
+  "source": "But his love of life is wonderful; I go further: I, who sicken and freeze at the mere thought of him, when I recall the abjection and passion of this attachment, and when I know how he fears my power to cut him off by suicide, I find it in my heart to pity him.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "ERROR",
+      "errorType": "HTTPError",
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "status": "ERROR",
+  "incompleteDetails": null,
+  "responseId": null,
+  "visibleOutput": "",
+  "translation": "",
+  "notes": "",
+  "usage": null,
+  "success": false
+}

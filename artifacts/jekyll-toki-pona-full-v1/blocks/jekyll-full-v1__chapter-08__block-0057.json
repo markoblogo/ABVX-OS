@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-08:block-0057",
+  "sourceHash": "a3c5597faeaf75bcc1a9a0c408fbde0e68776c735a35d43c87c8e05abd35b3ad",
+  "source": "Up went the axe again, and again the panels crashed and the frame bounded; four times the blow fell; but the wood was tough and the fittings were of excellent workmanship; and it was not until the fifth, that the lock burst in sunder and the wreck of the door fell inwards on the carpet.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0cd8f1b8fcfeeaf6016ab431d0e8b087d29abb3d022fb24932",
+      "visibleOutput": "TRANSLATION: ilo kipisi li tawa sewi sin. ona li anpa sin lon sinpin lupa. kalama pakala li kama tan palisa la, selo pi sinpin lupa li tawa wawa. utala ni li kama lon tenpo tu tu. taso, kiwen kasi li wawa, li pakala ala. kin la, kulupu ilo pi sinpin lupa li pali pona mute. lon utala nanpa luka taso la, ilo open li pakala tu. sinpin lupa pakala li anpa tawa insa, li kama lon len supa.\n\nNOTES: “Panels,” “frame,” and “fittings” are compressed into general door parts because Toki Pona lacks exact architectural terms.",
+      "translation": "ilo kipisi li tawa sewi sin. ona li anpa sin lon sinpin lupa. kalama pakala li kama tan palisa la, selo pi sinpin lupa li tawa wawa. utala ni li kama lon tenpo tu tu. taso, kiwen kasi li wawa, li pakala ala. kin la, kulupu ilo pi sinpin lupa li pali pona mute. lon utala nanpa luka taso la, ilo open li pakala tu. sinpin lupa pakala li anpa tawa insa, li kama lon len supa.",
+      "notes": "“Panels,” “frame,” and “fittings” are compressed into general door parts because Toki Pona lacks exact architectural terms.",
+      "usage": {
+        "input_tokens": 2797,
+        "input_tokens_details": {
+          "cache_write_tokens": 2794,
+          "cached_tokens": 0
+        },
+        "output_tokens": 340,
+        "output_tokens_details": {
+          "reasoning_tokens": 180
+        },
+        "total_tokens": 3137
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0cd8f1b8fcfeeaf6016ab431d0e8b087d29abb3d022fb24932",
+  "visibleOutput": "TRANSLATION: ilo kipisi li tawa sewi sin. ona li anpa sin lon sinpin lupa. kalama pakala li kama tan palisa la, selo pi sinpin lupa li tawa wawa. utala ni li kama lon tenpo tu tu. taso, kiwen kasi li wawa, li pakala ala. kin la, kulupu ilo pi sinpin lupa li pali pona mute. lon utala nanpa luka taso la, ilo open li pakala tu. sinpin lupa pakala li anpa tawa insa, li kama lon len supa.\n\nNOTES: “Panels,” “frame,” and “fittings” are compressed into general door parts because Toki Pona lacks exact architectural terms.",
+  "translation": "ilo kipisi li tawa sewi sin. ona li anpa sin lon sinpin lupa. kalama pakala li kama tan palisa la, selo pi sinpin lupa li tawa wawa. utala ni li kama lon tenpo tu tu. taso, kiwen kasi li wawa, li pakala ala. kin la, kulupu ilo pi sinpin lupa li pali pona mute. lon utala nanpa luka taso la, ilo open li pakala tu. sinpin lupa pakala li anpa tawa insa, li kama lon len supa.",
+  "notes": "“Panels,” “frame,” and “fittings” are compressed into general door parts because Toki Pona lacks exact architectural terms.",
+  "usage": {
+    "input_tokens": 2797,
+    "input_tokens_details": {
+      "cache_write_tokens": 2794,
+      "cached_tokens": 0
+    },
+    "output_tokens": 340,
+    "output_tokens_details": {
+      "reasoning_tokens": 180
+    },
+    "total_tokens": 3137
+  },
+  "success": true
+}

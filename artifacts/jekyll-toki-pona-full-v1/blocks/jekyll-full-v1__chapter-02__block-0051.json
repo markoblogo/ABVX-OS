@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0051",
+  "sourceHash": "1c87db689357b288d8af15e347abf44ce8c61dc0f645dafa7f4e94e724d1b967",
+  "source": "And the danger of it; for if this Hyde suspects the existence of the will, he may grow impatient to inherit. Ay, I must put my shoulder to the wheel if Jekyll will but let me,” he added, “if Jekyll will only let me.” For once more he saw before his mind’s eye, as clear as a transparency, the strange clauses of the will.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_03a819fbf8c192fc016ab428fadd7c87d2b32356d98461476c",
+      "visibleOutput": "TRANSLATION: “ni li jo e ken ike kin. jan Hata ni li kama pilin e ken ni: lipu lawa pi jan Jekil li lon la, ona li ken wile ala awen, li wile kama jo e ijo pi lipu ni lon tenpo poka. a, mi o pali wawa—taso jan Jekil li ken ala ken e pali mi?” jan Utason li toki sin. “jan Jekil li o ken taso e pali mi.” tenpo sin la, ona li lukin lon lawa ona e toki lawa nasa pi lipu lawa. toki ni li kama lukin pona mute lon lawa ona.\n\nNOTES: “suspects” remains uncertain; inheritance danger remains conditional; the final seeing is explicitly mental.",
+      "translation": "“ni li jo e ken ike kin. jan Hata ni li kama pilin e ken ni: lipu lawa pi jan Jekil li lon la, ona li ken wile ala awen, li wile kama jo e ijo pi lipu ni lon tenpo poka. a, mi o pali wawa—taso jan Jekil li ken ala ken e pali mi?” jan Utason li toki sin. “jan Jekil li o ken taso e pali mi.” tenpo sin la, ona li lukin lon lawa ona e toki lawa nasa pi lipu lawa. toki ni li kama lukin pona mute lon lawa ona.",
+      "notes": "“suspects” remains uncertain; inheritance danger remains conditional; the final seeing is explicitly mental.",
+      "usage": {
+        "input_tokens": 2828,
+        "input_tokens_details": {
+          "cache_write_tokens": 2825,
+          "cached_tokens": 0
+        },
+        "output_tokens": 599,
+        "output_tokens_details": {
+          "reasoning_tokens": 432
+        },
+        "total_tokens": 3427
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_03a819fbf8c192fc016ab428fadd7c87d2b32356d98461476c",
+  "visibleOutput": "TRANSLATION: “ni li jo e ken ike kin. jan Hata ni li kama pilin e ken ni: lipu lawa pi jan Jekil li lon la, ona li ken wile ala awen, li wile kama jo e ijo pi lipu ni lon tenpo poka. a, mi o pali wawa—taso jan Jekil li ken ala ken e pali mi?” jan Utason li toki sin. “jan Jekil li o ken taso e pali mi.” tenpo sin la, ona li lukin lon lawa ona e toki lawa nasa pi lipu lawa. toki ni li kama lukin pona mute lon lawa ona.\n\nNOTES: “suspects” remains uncertain; inheritance danger remains conditional; the final seeing is explicitly mental.",
+  "translation": "“ni li jo e ken ike kin. jan Hata ni li kama pilin e ken ni: lipu lawa pi jan Jekil li lon la, ona li ken wile ala awen, li wile kama jo e ijo pi lipu ni lon tenpo poka. a, mi o pali wawa—taso jan Jekil li ken ala ken e pali mi?” jan Utason li toki sin. “jan Jekil li o ken taso e pali mi.” tenpo sin la, ona li lukin lon lawa ona e toki lawa nasa pi lipu lawa. toki ni li kama lukin pona mute lon lawa ona.",
+  "notes": "“suspects” remains uncertain; inheritance danger remains conditional; the final seeing is explicitly mental.",
+  "usage": {
+    "input_tokens": 2828,
+    "input_tokens_details": {
+      "cache_write_tokens": 2825,
+      "cached_tokens": 0
+    },
+    "output_tokens": 599,
+    "output_tokens_details": {
+      "reasoning_tokens": 432
+    },
+    "total_tokens": 3427
+  },
+  "success": true
+}

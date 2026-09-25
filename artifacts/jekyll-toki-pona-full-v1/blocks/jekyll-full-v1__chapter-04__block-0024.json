@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0024",
+  "sourceHash": "1a957fcf32b04835c6c9b43e8e1185b17af382eeb927a62e85b49a8e96d6835f",
+  "source": "“Very well, then, we wish to see his rooms,” said the lawyer; and when the woman began to declare it was impossible, “I had better tell you who this person is,” he added. “This is Inspector Newcomen of Scotland Yard.” A flash of odious joy appeared upon the woman’s face. “Ah!” said she, “he is in trouble! What has he done?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0988e33749179f0a016ab42b24687887d2add44ef43cfc5c59",
+      "visibleOutput": "TRANSLATION: “pona. ni la mi wile lukin e tomo ona,” jan pi sona lawa li toki. meli li open toki e ni: ni li ken ala. taso jan pi sona lawa li toki sin: “mi o toki e ni tawa sina: jan ni li seme. ona li jan Njukomen pi alasa lawa tan tomo lawa Sikoten Jatu.” pilin pona ike li kama lon sinpin meli. meli li toki: “a! ona li kama jo e pakala lawa! ona li pali e seme?”\n\nNOTES: nimi “pilin pona ike” li awen e nasin lukin pi toki mama; pakala ona li awen lon nasin pi lawa anu ike, li sona ala.",
+      "translation": "“pona. ni la mi wile lukin e tomo ona,” jan pi sona lawa li toki. meli li open toki e ni: ni li ken ala. taso jan pi sona lawa li toki sin: “mi o toki e ni tawa sina: jan ni li seme. ona li jan Njukomen pi alasa lawa tan tomo lawa Sikoten Jatu.” pilin pona ike li kama lon sinpin meli. meli li toki: “a! ona li kama jo e pakala lawa! ona li pali e seme?”",
+      "notes": "nimi “pilin pona ike” li awen e nasin lukin pi toki mama; pakala ona li awen lon nasin pi lawa anu ike, li sona ala.",
+      "usage": {
+        "input_tokens": 2821,
+        "input_tokens_details": {
+          "cache_write_tokens": 2818,
+          "cached_tokens": 0
+        },
+        "output_tokens": 257,
+        "output_tokens_details": {
+          "reasoning_tokens": 93
+        },
+        "total_tokens": 3078
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0988e33749179f0a016ab42b24687887d2add44ef43cfc5c59",
+  "visibleOutput": "TRANSLATION: “pona. ni la mi wile lukin e tomo ona,” jan pi sona lawa li toki. meli li open toki e ni: ni li ken ala. taso jan pi sona lawa li toki sin: “mi o toki e ni tawa sina: jan ni li seme. ona li jan Njukomen pi alasa lawa tan tomo lawa Sikoten Jatu.” pilin pona ike li kama lon sinpin meli. meli li toki: “a! ona li kama jo e pakala lawa! ona li pali e seme?”\n\nNOTES: nimi “pilin pona ike” li awen e nasin lukin pi toki mama; pakala ona li awen lon nasin pi lawa anu ike, li sona ala.",
+  "translation": "“pona. ni la mi wile lukin e tomo ona,” jan pi sona lawa li toki. meli li open toki e ni: ni li ken ala. taso jan pi sona lawa li toki sin: “mi o toki e ni tawa sina: jan ni li seme. ona li jan Njukomen pi alasa lawa tan tomo lawa Sikoten Jatu.” pilin pona ike li kama lon sinpin meli. meli li toki: “a! ona li kama jo e pakala lawa! ona li pali e seme?”",
+  "notes": "nimi “pilin pona ike” li awen e nasin lukin pi toki mama; pakala ona li awen lon nasin pi lawa anu ike, li sona ala.",
+  "usage": {
+    "input_tokens": 2821,
+    "input_tokens_details": {
+      "cache_write_tokens": 2818,
+      "cached_tokens": 0
+    },
+    "output_tokens": 257,
+    "output_tokens_details": {
+      "reasoning_tokens": 93
+    },
+    "total_tokens": 3078
+  },
+  "success": true
+}

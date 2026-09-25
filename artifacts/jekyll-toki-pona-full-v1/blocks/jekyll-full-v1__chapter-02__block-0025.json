@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0025",
+  "sourceHash": "8307c66ba73f913105169101eecf6e90c8a4ea47fa449a8d5c9e86d85a906c52",
+  "source": "Utterson had been some minutes at his post, when he was aware of an odd, light footstep drawing near. In the course of his nightly patrols, he had long grown accustomed to the quaint effect with which the footfalls of a single person, while he is still a great way off, suddenly spring out distinct from the vast hum and clatter of the city.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_018d2eb72232a0fb016ab4279fbe3887d29463f8cc8d888744",
+      "visibleOutput": "TRANSLATION: jan Utason li awen lon ma ona lon tenpo lili. ni la, ona li kute e kalama noka nasa pi wawa lili. kalama ni li kama poka. lon tenpo mute, lon tawa lukin ona pi tenpo pimeja ale la, ona li kama sona pona e nasin nasa ni: jan wan li awen lon weka suli la, kalama noka ona li kama kute pona lon tenpo wan, li ante tan kalama suli mute pi ma tomo.\nNOTES: NONE",
+      "translation": "jan Utason li awen lon ma ona lon tenpo lili. ni la, ona li kute e kalama noka nasa pi wawa lili. kalama ni li kama poka. lon tenpo mute, lon tawa lukin ona pi tenpo pimeja ale la, ona li kama sona pona e nasin nasa ni: jan wan li awen lon weka suli la, kalama noka ona li kama kute pona lon tenpo wan, li ante tan kalama suli mute pi ma tomo.",
+      "notes": "NONE",
+      "usage": {
+        "input_tokens": 2814,
+        "input_tokens_details": {
+          "cache_write_tokens": 2811,
+          "cached_tokens": 0
+        },
+        "output_tokens": 542,
+        "output_tokens_details": {
+          "reasoning_tokens": 419
+        },
+        "total_tokens": 3356
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_018d2eb72232a0fb016ab4279fbe3887d29463f8cc8d888744",
+  "visibleOutput": "TRANSLATION: jan Utason li awen lon ma ona lon tenpo lili. ni la, ona li kute e kalama noka nasa pi wawa lili. kalama ni li kama poka. lon tenpo mute, lon tawa lukin ona pi tenpo pimeja ale la, ona li kama sona pona e nasin nasa ni: jan wan li awen lon weka suli la, kalama noka ona li kama kute pona lon tenpo wan, li ante tan kalama suli mute pi ma tomo.\nNOTES: NONE",
+  "translation": "jan Utason li awen lon ma ona lon tenpo lili. ni la, ona li kute e kalama noka nasa pi wawa lili. kalama ni li kama poka. lon tenpo mute, lon tawa lukin ona pi tenpo pimeja ale la, ona li kama sona pona e nasin nasa ni: jan wan li awen lon weka suli la, kalama noka ona li kama kute pona lon tenpo wan, li ante tan kalama suli mute pi ma tomo.",
+  "notes": "NONE",
+  "usage": {
+    "input_tokens": 2814,
+    "input_tokens_details": {
+      "cache_write_tokens": 2811,
+      "cached_tokens": 0
+    },
+    "output_tokens": 542,
+    "output_tokens_details": {
+      "reasoning_tokens": 419
+    },
+    "total_tokens": 3356
+  },
+  "success": true
+}

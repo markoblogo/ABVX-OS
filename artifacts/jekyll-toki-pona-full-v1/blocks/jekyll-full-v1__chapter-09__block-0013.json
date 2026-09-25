@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-09:block-0013",
+  "sourceHash": "bb7bbd0675ae1eeb4f37823b9b563ebf908888de97b79d562d75b2544311b82f",
+  "source": "It may then already be too late; and if that night passes without event, you will know that you have seen the last of Henry Jekyll.” Upon the reading of this letter, I made sure my colleague was insane; but till that was proved beyond the possibility of doubt, I felt bound to do as he requested.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_0bc82c55896f3a79016ab433ec68d087d29e17ef0770474914",
+      "visibleOutput": "TRANSLATION: “ken la, tenpo ni la, tenpo pona pi pali ni li pini lon tenpo pini. taso tenpo pimeja ni li pini la, ijo ala li kama la, sina sona e ni: sina lukin ala sin e jan Jekil lon tenpo kama.” mi lukin e lipu ni la, mi pilin sona wawa e ni: jan ni pi pali sama mi li nasa. taso ken lili li awen e ni: pilin mi li ken pakala. tan ni, mi pilin e ni: mi o pali sama wile ona, tawa tenpo pi sona lon pi ken ala ante.\nNOTES: “insane” is rendered as Lanyon’s strongly held judgment, not narrator fact.",
+      "translation": "“ken la, tenpo ni la, tenpo pona pi pali ni li pini lon tenpo pini. taso tenpo pimeja ni li pini la, ijo ala li kama la, sina sona e ni: sina lukin ala sin e jan Jekil lon tenpo kama.” mi lukin e lipu ni la, mi pilin sona wawa e ni: jan ni pi pali sama mi li nasa. taso ken lili li awen e ni: pilin mi li ken pakala. tan ni, mi pilin e ni: mi o pali sama wile ona, tawa tenpo pi sona lon pi ken ala ante.",
+      "notes": "“insane” is rendered as Lanyon’s strongly held judgment, not narrator fact.",
+      "usage": {
+        "input_tokens": 2817,
+        "input_tokens_details": {
+          "cache_write_tokens": 2814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 683,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 3500
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_0bc82c55896f3a79016ab433ec68d087d29e17ef0770474914",
+  "visibleOutput": "TRANSLATION: “ken la, tenpo ni la, tenpo pona pi pali ni li pini lon tenpo pini. taso tenpo pimeja ni li pini la, ijo ala li kama la, sina sona e ni: sina lukin ala sin e jan Jekil lon tenpo kama.” mi lukin e lipu ni la, mi pilin sona wawa e ni: jan ni pi pali sama mi li nasa. taso ken lili li awen e ni: pilin mi li ken pakala. tan ni, mi pilin e ni: mi o pali sama wile ona, tawa tenpo pi sona lon pi ken ala ante.\nNOTES: “insane” is rendered as Lanyon’s strongly held judgment, not narrator fact.",
+  "translation": "“ken la, tenpo ni la, tenpo pona pi pali ni li pini lon tenpo pini. taso tenpo pimeja ni li pini la, ijo ala li kama la, sina sona e ni: sina lukin ala sin e jan Jekil lon tenpo kama.” mi lukin e lipu ni la, mi pilin sona wawa e ni: jan ni pi pali sama mi li nasa. taso ken lili li awen e ni: pilin mi li ken pakala. tan ni, mi pilin e ni: mi o pali sama wile ona, tawa tenpo pi sona lon pi ken ala ante.",
+  "notes": "“insane” is rendered as Lanyon’s strongly held judgment, not narrator fact.",
+  "usage": {
+    "input_tokens": 2817,
+    "input_tokens_details": {
+      "cache_write_tokens": 2814,
+      "cached_tokens": 0
+    },
+    "output_tokens": 683,
+    "output_tokens_details": {
+      "reasoning_tokens": 516
+    },
+    "total_tokens": 3500
+  },
+  "success": true
+}

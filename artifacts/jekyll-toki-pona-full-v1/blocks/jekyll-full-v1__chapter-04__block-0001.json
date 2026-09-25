@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-04:block-0001",
+  "sourceHash": "839b637f8a29a9a45c0794cb597ed3ef6dfa16f55c5162f96a2264e24de57d48",
+  "source": "Nearly a year later, in the month of October, 18——, London was startled by a crime of singular ferocity and rendered all the more notable by the high position of the victim. The details were few and startling. A maid servant living alone in a house not far from the river, had gone up-stairs to bed about eleven.",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_09d472b02b91457d016ab429e9052c87d2a3d78daaa652b9cb",
+      "visibleOutput": "TRANSLATION: tenpo sike poka wan li pini la, lon mun Okatopa pi tenpo sike 18——, pali ike wan pi wawa ike ante li monsuta e ma Lantan. pali ni li suli tawa jan mute tan ni: jan pakala li jan pi nimi suli. sona pi pali ni li lili, li monsuta. meli pali tomo wan li lon tomo poka telo suli; jan ante ala li lon poka ona. lon tenpo pimeja poka nanpa luka luka wan la, ona li tawa sewi tomo, li kama lape.\n\nNOTES: “High position” is rendered as high social standing; the exact year remains redacted.",
+      "translation": "tenpo sike poka wan li pini la, lon mun Okatopa pi tenpo sike 18——, pali ike wan pi wawa ike ante li monsuta e ma Lantan. pali ni li suli tawa jan mute tan ni: jan pakala li jan pi nimi suli. sona pi pali ni li lili, li monsuta. meli pali tomo wan li lon tomo poka telo suli; jan ante ala li lon poka ona. lon tenpo pimeja poka nanpa luka luka wan la, ona li tawa sewi tomo, li kama lape.",
+      "notes": "“High position” is rendered as high social standing; the exact year remains redacted.",
+      "usage": {
+        "input_tokens": 2808,
+        "input_tokens_details": {
+          "cache_write_tokens": 2805,
+          "cached_tokens": 0
+        },
+        "output_tokens": 579,
+        "output_tokens_details": {
+          "reasoning_tokens": 429
+        },
+        "total_tokens": 3387
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_09d472b02b91457d016ab429e9052c87d2a3d78daaa652b9cb",
+  "visibleOutput": "TRANSLATION: tenpo sike poka wan li pini la, lon mun Okatopa pi tenpo sike 18——, pali ike wan pi wawa ike ante li monsuta e ma Lantan. pali ni li suli tawa jan mute tan ni: jan pakala li jan pi nimi suli. sona pi pali ni li lili, li monsuta. meli pali tomo wan li lon tomo poka telo suli; jan ante ala li lon poka ona. lon tenpo pimeja poka nanpa luka luka wan la, ona li tawa sewi tomo, li kama lape.\n\nNOTES: “High position” is rendered as high social standing; the exact year remains redacted.",
+  "translation": "tenpo sike poka wan li pini la, lon mun Okatopa pi tenpo sike 18——, pali ike wan pi wawa ike ante li monsuta e ma Lantan. pali ni li suli tawa jan mute tan ni: jan pakala li jan pi nimi suli. sona pi pali ni li lili, li monsuta. meli pali tomo wan li lon tomo poka telo suli; jan ante ala li lon poka ona. lon tenpo pimeja poka nanpa luka luka wan la, ona li tawa sewi tomo, li kama lape.",
+  "notes": "“High position” is rendered as high social standing; the exact year remains redacted.",
+  "usage": {
+    "input_tokens": 2808,
+    "input_tokens_details": {
+      "cache_write_tokens": 2805,
+      "cached_tokens": 0
+    },
+    "output_tokens": 579,
+    "output_tokens_details": {
+      "reasoning_tokens": 429
+    },
+    "total_tokens": 3387
+  },
+  "success": true
+}

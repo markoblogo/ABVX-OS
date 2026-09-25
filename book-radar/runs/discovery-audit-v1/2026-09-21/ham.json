@@ -1,0 +1,18 @@
+{
+  "schema_version": "d14-discovery-snapshot-v1",
+  "book_id": "RN2-037",
+  "observed_at": "2026-09-21",
+  "marketplace": "amazon.com",
+  "listing": {"title":"Ham Radio Technician Visual Cram Map 2026–2030: A Diagram-First Guide to FCC Element 2 Concepts, Rules and Question-Pool Connections","asins":{"ebook":"B0HDJFP6BY","paperback":"B0HHZRDSG4"},"formats":["Kindle","paperback"],"price_observed":{"Kindle":"$6.99","paperback":"$17.99"},"publication_date":"2026-09-06","direct_listing":"indexed; unavailable in this shopper/delivery context"},
+  "queries":[
+    {"query":"ham radio technician 2026 study guide","type":"DIRECT_PRODUCT","origin":"original radar query / observed","result":"NOT_FOUND","depth":"first 16 of 146","sponsored":"high"},
+    {"query":"fcc element 2 2026 2030","type":"SOURCE_OR_TOPIC","origin":"official-pool terminology","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"technician class license manual 2026","type":"COMPETITOR_ADJACENT","origin":"observed competitor","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"learn ham radio for beginners","type":"AUDIENCE","origin":"buyer language","result":"UNKNOWN","depth":"not sampled"},
+    {"query":"ham radio exam concepts visual","type":"PROBLEM","origin":"product differentiation","result":"UNKNOWN","depth":"not sampled"}
+  ],
+  "market":"established, crowded exam-prep shelf; sampled titles strongly emphasize all 409 questions, full tests, and passing",
+  "tile":{"title":"ADEQUATE","cover":"ADEQUATE","value":"ADEQUATE but cram-map concept competes against explicit exam-completeness promises","price":"ADEQUATE","format":"ADEQUATE","differentiation":"ADEQUATE"},
+  "indexing":{"exact_title":"OBSERVED","major_query":"NOT_FOUND first 16","category":"electronics / antennas-and-radar from direct page","recommendations":"no relevant organic recommendation surface observed; sponsored density high"},
+  "limitations":["personalized authenticated amazon.com session","one sampled query does not establish all-query rank"]
+}

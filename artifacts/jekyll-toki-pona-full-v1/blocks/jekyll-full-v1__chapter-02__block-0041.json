@@ -1,0 +1,53 @@
+{
+  "blockId": "jekyll-full-v1:chapter-02:block-0041",
+  "sourceHash": "d555219d72b10431ce9b4fab6018a76a615ef83d07c74f6111612b0d14cd61fd",
+  "source": "“I will see, Mr. Utterson,” said Poole, admitting the visitor, as he spoke, into a large, low-roofed, comfortable hall, paved with flags, warmed (after the fashion of a country house) by a bright, open fire, and furnished with costly cabinets of oak. “Will you wait here by the fire, sir? or shall I give you a light in the dining room?”",
+  "provider": "OpenAI Responses API",
+  "model": "gpt-5.6-sol",
+  "attempts": [
+    {
+      "label": "primary",
+      "status": "completed",
+      "incompleteDetails": null,
+      "responseId": "resp_05312cce94cf4c40016ab4288b7f0c87d2b630c7b6b196eccd",
+      "visibleOutput": "TRANSLATION: “mi tawa alasa sona, jan Utason,” jan Pulu li toki. lon tenpo toki ni, ona li lawa e jan kama tawa tomo suli pona. sewi tomo li anpa. supa li tan kiwen suli. seli open li suno li seli e tomo sama tomo lon ma. poki suli pi kasi kiwen pi mani mute li lon tomo. “sina wile awen lon ni poka seli, anu seme? anu mi pana e ilo suno tawa sina lon tomo moku?”\nNOTES: “I will see” li toki pi alasa sona; ona li toki ala e ni: jan Pulu li lukin e jan Jekil.",
+      "translation": "“mi tawa alasa sona, jan Utason,” jan Pulu li toki. lon tenpo toki ni, ona li lawa e jan kama tawa tomo suli pona. sewi tomo li anpa. supa li tan kiwen suli. seli open li suno li seli e tomo sama tomo lon ma. poki suli pi kasi kiwen pi mani mute li lon tomo. “sina wile awen lon ni poka seli, anu seme? anu mi pana e ilo suno tawa sina lon tomo moku?”",
+      "notes": "“I will see” li toki pi alasa sona; ona li toki ala e ni: jan Pulu li lukin e jan Jekil.",
+      "usage": {
+        "input_tokens": 2834,
+        "input_tokens_details": {
+          "cache_write_tokens": 2831,
+          "cached_tokens": 0
+        },
+        "output_tokens": 567,
+        "output_tokens_details": {
+          "reasoning_tokens": 410
+        },
+        "total_tokens": 3401
+      },
+      "outputItemTypes": [
+        "reasoning",
+        "message"
+      ]
+    }
+  ],
+  "status": "completed",
+  "incompleteDetails": null,
+  "responseId": "resp_05312cce94cf4c40016ab4288b7f0c87d2b630c7b6b196eccd",
+  "visibleOutput": "TRANSLATION: “mi tawa alasa sona, jan Utason,” jan Pulu li toki. lon tenpo toki ni, ona li lawa e jan kama tawa tomo suli pona. sewi tomo li anpa. supa li tan kiwen suli. seli open li suno li seli e tomo sama tomo lon ma. poki suli pi kasi kiwen pi mani mute li lon tomo. “sina wile awen lon ni poka seli, anu seme? anu mi pana e ilo suno tawa sina lon tomo moku?”\nNOTES: “I will see” li toki pi alasa sona; ona li toki ala e ni: jan Pulu li lukin e jan Jekil.",
+  "translation": "“mi tawa alasa sona, jan Utason,” jan Pulu li toki. lon tenpo toki ni, ona li lawa e jan kama tawa tomo suli pona. sewi tomo li anpa. supa li tan kiwen suli. seli open li suno li seli e tomo sama tomo lon ma. poki suli pi kasi kiwen pi mani mute li lon tomo. “sina wile awen lon ni poka seli, anu seme? anu mi pana e ilo suno tawa sina lon tomo moku?”",
+  "notes": "“I will see” li toki pi alasa sona; ona li toki ala e ni: jan Pulu li lukin e jan Jekil.",
+  "usage": {
+    "input_tokens": 2834,
+    "input_tokens_details": {
+      "cache_write_tokens": 2831,
+      "cached_tokens": 0
+    },
+    "output_tokens": 567,
+    "output_tokens_details": {
+      "reasoning_tokens": 410
+    },
+    "total_tokens": 3401
+  },
+  "success": true
+}

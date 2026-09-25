@@ -1,0 +1,16 @@
+{
+  "provider": "abvx-local-model-worker",
+  "model": "occ-ai/OCC-RAG-0.6B",
+  "endpoint": "http://127.0.0.1:8766/v1/answer",
+  "configuration": {
+    "timeoutSeconds": 90
+  },
+  "attemptedBlocks": [
+    {
+      "blockId": "jekyll-sample-v3:section-001:b0001",
+      "status": "FAILED",
+      "error": "PROVIDER_UNAVAILABLE: <urlopen error [Errno 1] Operation not permitted>"
+    }
+  ],
+  "status": "FAIL"
+}

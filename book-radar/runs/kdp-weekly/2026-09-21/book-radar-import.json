@@ -1,0 +1,11 @@
+{
+  "schema_version": "book-radar-import/v1",
+  "evidence": [
+    {
+      "id": "evidence:kdp-weekly:2026-09-21",
+      "observed_at": "2026-09-21",
+      "summary": "Authenticated read-only KDP audit: September 1-21 recorded 12 processed units (8 eBook, 4 print), 106 KENP pages and €51.85 estimated royalties. The September 4-7 cohort completed its first 14 days with Odyssey at one print unit, PMP at 10 KENP pages and zero units, and Solar, French road rules, and Ham at zero units. All sampled published formats remain Live; discovery and conversion remain unresolved without traffic denominators.",
+      "source_ref": "book-radar/runs/kdp-weekly/2026-09-21/snapshot.json"
+    }
+  ]
+}
