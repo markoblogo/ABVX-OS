@@ -151,3 +151,8 @@ class FirstPublicationCycleTests(unittest.TestCase):
         context.write_text(json.dumps({**self.context, 'query': 'Changed after return'}))
         with self.assertRaises(ValueError): self.run_gate()
         self.assertFalse((self.directory / 'first-cycle.json').exists())
+
+    def test_retry_preserves_original_receipt_after_unrelated_provider_metadata_changes(self):
+        original = self.run_gate()
+        retried = self.run_gate(deployment={**self.deployment, 'description': 'Updated by provider'})
+        self.assertEqual(retried, original)

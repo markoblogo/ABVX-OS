@@ -210,8 +210,11 @@ def deployment_snapshot(sha):
  return {'provider':'github-deployments','repository':'markoblogo/ABVXsite','deploymentId':deployment['id'],
          'statusId':status['id'],'environment':'Production','state':'success','sha':sha,
          'deploymentCreatedAt':deployment['created_at'],'statusCreatedAt':status['created_at'],
-         'deploymentResponseDigest':digest(deployments),'statusResponseDigest':digest(statuses),
-         'mergedPrNumber':merged['number'],'mergedAt':merged['merged_at'],'mergeResponseDigest':digest(pulls)}
+         'deploymentResponseDigest':digest({key:deployment[key] for key in ('id','sha','environment','created_at')}),
+         'statusResponseDigest':digest({key:status[key] for key in ('id','state','environment','created_at')}),
+         'mergedPrNumber':merged['number'],'mergedAt':merged['merged_at'],
+         'mergeResponseDigest':digest({'number':merged['number'],'merge_commit_sha':sha,'merged_at':merged['merged_at'],
+                                     'base':'main','repository':'markoblogo/ABVXsite'})}
 
 def clean_site_sha(site):
  status=subprocess.run(['git','status','--porcelain','--untracked-files=all'],cwd=site,capture_output=True,check=True).stdout
