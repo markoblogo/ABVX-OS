@@ -438,7 +438,6 @@ def prepare_content_item(root: Path, fixture_ref: str, *, intelligence_mode: str
     if intelligence_mode not in {"deterministic", "local_llm"}:
         raise ValidationError(f"unsupported intelligence mode: {intelligence_mode}")
     item = _implementation(adapter).prepare(root, fixture, adapter, intelligence_mode=intelligence_mode)
-    _write_item(root, item)
     if item["status"] == "PREPARED":
         from .publication_learning import start_publication
         fixture_path = Path(fixture_ref) if Path(fixture_ref).is_absolute() else root / fixture_ref
@@ -446,6 +445,7 @@ def prepare_content_item(root: Path, fixture_ref: str, *, intelligence_mode: str
             fixture_path = _fixtures_dir(root) / fixture_ref
         origin = "SYNTHETIC" if fixture_path.resolve().is_relative_to((root / "content/fixtures").resolve()) else "OBSERVED"
         start_publication(root, item, origin)
+    _write_item(root, item)
     return item
 
 

@@ -5,7 +5,7 @@ from datetime import datetime,timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request,build_opener,HTTPRedirectHandler
-from .process_learning import _id,_integer,_time,_write_once,build_packet,digest,validate_outcome,inspect_candidate
+from .process_learning import _id,_integer,_time,_write_once,build_packet,digest,validate_outcome,validate_packet,inspect_candidate
 from .content_ops import _load_item,_approval_fingerprint
 
 VERSION='publication-v1'
@@ -19,7 +19,7 @@ def folder(root,item_id):
 def start_publication(root,item,origin):
  if item['project']!='abvxsite' or item['adapter']['id'] not in ('abvx.writing','abvx.working-story'):return
  target=folder(root,item['id'])/'session.json'
- workload={'surface':item['surface'],'tier':item['validation']['tier'],'assets':len(item['payload'].get('media_assets',[])),'video':bool(item['payload'].get('source_markdown') and '"videoUrl"' in item['payload']['source_markdown'])}
+ workload={'surface':item['surface'],'tier':item['validation']['tier'],'assets':len(item['payload'].get('media_assets',[])),'video':bool(markdown_parts(item['payload']['source_markdown'])[0].get('videoUrl')) if item['payload'].get('source_markdown') else False}
  if target.exists():
   saved=json.loads(target.read_text())
   if saved.get('itemId')!=item['id'] or saved.get('origin')!=origin or saved.get('workload')!=workload or (target.parent/'outcome.json').exists():raise ValueError('Use a new intake ID for changed or completed publication')
@@ -33,24 +33,28 @@ def tree_digest(site):
  site=site.resolve();refs=[]
  for name in tracked_files(site):
   file=site/name
+  if file.is_symlink():raise ValueError('Site tree contains symlink source')
+  if not file.exists():refs.append({'mode':'deleted','path':name,'sha256':None});continue
   if file.resolve()!=file or not file.is_file():raise ValueError('Site tree contains symlink or missing source')
-  refs.append({'path':name,'sha256':hashlib.sha256(file.read_bytes()).hexdigest()})
+  refs.append({'mode':'100755' if file.stat().st_mode&0o111 else '100644','path':name,'sha256':hashlib.sha256(file.read_bytes()).hexdigest()})
  return digest(refs)
+def markdown_parts(value):
+ match=re.match(r'\A---\s*\n(.*?)\n---(?:\n|$)(.*)\Z',value,re.S)
+ if not match:raise ValueError('Native Markdown required')
+ return json.loads(match[1]),match[2].strip()
 def verified_site(root,item,site):
  site=Path(site).resolve()
  remote=subprocess.run(['git','remote','get-url','origin'],cwd=site,capture_output=True,check=True).stdout.decode().strip()
  if not re.fullmatch(r'(?:https://github.com/|git@github.com:)markoblogo/ABVXsite(?:\.git)?',remote):raise ValueError('ABVXsite project checkout required')
  expected='working-stories' if item['adapter']['id']=='abvx.working-story' else 'writing'
- file=site/'content'/expected/f"{item['slug']}.md"
- if file.resolve()!=file or not file.is_file():raise ValueError('Approved public source missing')
  source=item['payload'].get('source_markdown')
  if not source:raise ValueError('Native approved Markdown is required for verified closeout')
- def body(value):
-  match=re.match(r'\A---\s*\n(.*?)\n---(?:\n|$)(.*)\Z',value,re.S)
-  if not match:raise ValueError('Native Markdown required')
-  return json.loads(match[1]),match[2].strip()
- proposed,expected_body=body(source);actual,actual_body=body(file.read_text())
- if actual_body!=expected_body or actual.get('slug')!=item['slug'] or actual.get('title')!=item['title']:raise ValueError('Site source differs from approved content')
+ proposed,expected_body=markdown_parts(source)
+ name=f"{proposed['story_id']}-{item['slug']}.md" if expected=='working-stories' else f"{item['slug']}.md"
+ file=site/'content'/expected/name
+ if file.resolve()!=file or not file.is_file():raise ValueError('Approved public source missing')
+ actual,actual_body=markdown_parts(file.read_text())
+ if actual!=proposed or actual_body!=expected_body or actual.get('slug')!=item['slug'] or actual.get('title')!=item['title']:raise ValueError('Site source differs from approved content')
  for asset in item['payload'].get('media_assets',[]):
   media=site/'public'/asset['target'].lstrip('/')
   if not asset['target'].startswith('/media/') or media.resolve()!=media or not media.is_file() or hashlib.sha256(media.read_bytes()).hexdigest()!=asset['sha256']:raise ValueError('Site media differs from approved asset')
@@ -87,6 +91,7 @@ class Visible(HTMLParser):
  def handle_data(self,value):
   if not self.hidden:self.parts.append(value)
 def plain(value):
+ value=re.sub(r'^\s*(?:`{3,}|~{3,})[^\n]*$', '', value, flags=re.M)
  value=re.sub(r'!\[[^\]]*\]\([^)]*\)','',value);value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
  return ' '.join(re.findall(r'[^\W_]+',html.unescape(value).casefold()))
 def validate_live_html(item,data):
@@ -129,7 +134,12 @@ def complete_publication(root,item_id,site,*,owner_minutes='UNKNOWN',rework_coun
   validate_outcome(row);_write_once(directory/'outcome.json',row)
  else:
   row=validate_outcome(json.loads((directory/'outcome.json').read_text()))
-  if row['runId']!=item_id or row['ownerMinutes']!=owner_minutes or row['reworkCount']!=rework_count:raise ValueError('Immutable publication measurement differs')
+  expected={'runId':item_id,'workflowId':'site.content.publish','workflowVersion':VERSION,'origin':session['origin'],'startedAt':session['startedAt'],'ownerMinutes':owner_minutes,'reworkCount':rework_count,'status':'PASS','qualityGate':'PASS','safetyGate':'PASS'}
+  evidence=[{'ref':'workload:publication-profile','sha256':digest({**session['workload'],'buildMode':checks.get('buildMode')})},{'ref':'approval:content','sha256':_approval_fingerprint(item)},*[{'ref':c['ref'],'sha256':c['sha256']} for c in checks['checks']]]
+  retained=[entry for entry in row['evidence'] if entry['ref']!='production:authored-text']
+  if any(row[key]!=value for key,value in expected.items()) or retained!=evidence or sum(entry['ref']=='production:authored-text' for entry in row['evidence'])!=1:raise ValueError('Immutable publication measurement differs')
+  # Re-verify retained production evidence before completing an interrupted export.
+  if not (directory/'batch.json').exists() and row['evidence'][1]!={'ref':'production:authored-text','sha256':validate_live_html(item,fetch_production(url))}:raise ValueError('Retained production evidence differs')
  batch=build_packet([row],'publication:'+item_id,row['completedAt']);_write_once(directory/'batch.json',batch)
  result={'status':'RECORDED','origin':row['origin'],'cortexStatus':'PENDING_TRANSFER','executionAuthorized':False}
  if cortex_root:
@@ -137,15 +147,29 @@ def complete_publication(root,item_id,site,*,owner_minutes='UNKNOWN',rework_coun
   receipt=transfer_publication(root,item_id,cortex_root);result.update(cortexStatus=receipt['status'])
  return result
 
+def cited_batches(root,context):
+ results=context.get('results')
+ if not isinstance(results,list) or not 1<=len(results)<=20:raise ValueError('Bounded Cortex context required')
+ packets=[]
+ for packet_id in dict.fromkeys(result['sourcePacketId'] for result in results):
+  if not isinstance(packet_id,str) or not re.fullmatch(r'publication:[a-z0-9]+(?:-[a-z0-9]+)*',packet_id):raise ValueError('Publication source batch required')
+  packet=validate_packet(json.loads((folder(root,packet_id.removeprefix('publication:'))/'batch.json').read_text()))
+  if packet['packetId']!=packet_id:raise ValueError('Cited batch identity mismatch')
+  packets.append(packet)
+ return packets
+
 def transfer_publication(root,item_id,cortex_root):
- directory=folder(root,item_id);batch=json.loads((directory/'batch.json').read_text());row=validate_outcome(batch['payload']['outcomes'][0])
+ directory=folder(root,item_id);batch=validate_packet(json.loads((directory/'batch.json').read_text()))
+ if batch['packetId']!='publication:'+item_id or len(batch['payload']['outcomes'])!=1:raise ValueError('Selected publication batch required')
+ row=batch['payload']['outcomes'][0]
+ if row['runId']!=item_id or row['workflowId']!='site.content.publish' or row['workflowVersion']!=VERSION or row!=validate_outcome(json.loads((directory/'outcome.json').read_text())):raise ValueError('Publication outcome binding mismatch')
  if row['origin']!='OBSERVED':raise ValueError('Synthetic publication cannot enter operational Cortex history')
  cortex=Path(cortex_root).resolve();target=cortex/'data/abvx-os/publications'/item_id
  result=subprocess.run(['node','src/abvx-os-receive.mjs','--packet',str((directory/'batch.json').resolve()),'--context-out',str(target/'context.json'),'--candidate-out',str(target/'candidate.json')],cwd=cortex,capture_output=True,timeout=30)
  if result.returncode:raise ValueError('Cortex transfer failed; retained local outcome can be retried')
  context=json.loads((target/'context.json').read_text());candidate=json.loads((target/'candidate.json').read_text())
  # Original batches for previous publications are explicitly enumerated here, not manuscripts.
- packets=[json.loads(p.read_text()) for p in (root/'.tmp/publication-learning').glob('*/batch.json')]
+ packets=cited_batches(root,context)
  receipt=inspect_candidate(context,candidate,VERSION,packets);_write_once(directory/'cortex-review.json',receipt)
  return receipt
 

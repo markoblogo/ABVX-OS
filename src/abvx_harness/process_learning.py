@@ -5,6 +5,8 @@ import argparse
 import hashlib
 import json
 import math
+import os
+import tempfile
 import re
 import subprocess
 import sys
@@ -252,7 +254,17 @@ def _write_once(path, value):
     if path.exists():
         if path.read_text() != payload: raise ValueError('Destination already contains different evidence')
         return
-    with path.open('x', encoding='utf-8') as handle: handle.write(payload)
+    fd, temporary = tempfile.mkstemp(prefix='.'+path.name+'-', dir=path.parent)
+    try:
+        with os.fdopen(fd, 'w', encoding='utf-8') as handle:
+            handle.write(payload); handle.flush(); os.fsync(handle.fileno())
+        try:
+            # Exclusive atomic installation: an interruption never exposes partial JSON.
+            os.link(temporary, path)
+        except FileExistsError:
+            if path.read_text() != payload: raise ValueError('Destination already contains different evidence')
+    finally:
+        Path(temporary).unlink(missing_ok=True)
 
 
 def record_check(root, check, record_path):
