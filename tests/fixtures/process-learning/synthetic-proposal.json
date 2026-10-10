@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "AbvxOsOptimizationProposal",
+  "tenant": "abvx-os",
+  "proposalId": "synthetic-cross-language",
+  "workflowId": "os.maintenance",
+  "baselineVersion": "v1",
+  "candidateVersion": "v2",
+  "change": "BATCH_VALIDATION",
+  "sourcePacketId": "synthetic-contract-batch",
+  "sourcePayloadDigest": "ffd38b2e180a3899cb723eaa26f3b8acab1ae389567399e829e4e091d2f87785",
+  "baselineRunIds": [
+    "synthetic-run-0",
+    "synthetic-run-1",
+    "synthetic-run-2",
+    "synthetic-run-3",
+    "synthetic-run-4"
+  ],
+  "heldOutRunIds": [
+    "synthetic-run-5",
+    "synthetic-run-6",
+    "synthetic-run-7",
+    "synthetic-run-8",
+    "synthetic-run-9"
+  ],
+  "baseline": {
+    "elapsedSeconds": 100,
+    "ownerMinutes": 1,
+    "reworkCount": 0
+  },
+  "heldOut": {
+    "elapsedSeconds": 60,
+    "ownerMinutes": 1,
+    "reworkCount": 0
+  },
+  "status": "INSUFFICIENT_EVIDENCE",
+  "reasons": [
+    "SYNTHETIC_EVIDENCE_ONLY"
+  ],
+  "authority": "none",
+  "executionAuthorized": false,
+  "ownerReviewRequired": true,
+  "proposalDigest": "c27ca0c8e39d91785838d24fe43e7f663ac552988a55940bc25e0500c495faa5"
+}

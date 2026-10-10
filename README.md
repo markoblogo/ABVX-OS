@@ -34,6 +34,8 @@ The first three commands are read-only. `validate` checks the versioned schemas,
 | Portfolio state | Keeps strategy, operational state, lessons, and the human review queue inspectable |
 | Context bridge | Produces bounded `ContextRequest -> ContextPack` retrieval across approved stores |
 | Book Radar and publishing gates | Tracks research, decisions, products, launches, actuals, and quality evidence |
+| Maintenance | Read-only dirty-tree classification and synthetic-data isolation checks |
+| Cortex process learning | Explicit private outcome export and review-only, evidence-bound optimization candidates |
 | Playbooks and bakeoffs | Replays proven routines and compares providers with retained evidence |
 
 ```mermaid
@@ -75,7 +77,7 @@ For a fresh agent session, follow the compact read order in [AGENTS.md](AGENTS.m
 
 ## Development
 
-ABVX-OS uses the Python standard library for its core CLI.
+ABVX-OS keeps its core CLI dependency-light. Book Core and Book Radar outcome contracts use the pinned Draft 2020-12 validation runtime in `requirements-dev.txt`; reproducible checks are described in [Development checks](docs/development-checks.md).
 
 ```sh
 python3 -m pip install -r requirements-dev.txt
@@ -97,3 +99,11 @@ Source code and machine-readable schemas are available under the [MIT License](L
 
 _This block is generated from the reviewed ABVX ecosystem registry._
 <!-- ABVX:ECOSYSTEM:END -->
+
+## Maintenance and Cortex learning
+
+[Development checks](docs/development-checks.md) provide one repeatable local check using a selected isolated Python environment. `./bin/maintain inspect` inventories unfinished work without deleting or publishing it. [OS/Cortex milestones](docs/maintenance/OS_CORTEX_MILESTONES_V1.md) distinguish implementation, real admission/retrieval and independently measured benefit.
+
+`./bin/abvx learning record-check isolated-books --out .tmp/os-learning/new-run.json` records a fresh read-only run. Explicitly selected outcomes can then be exported for protected admission in the independent Cortex ABV runtime; no manuscript, customer text or credentials enter the telemetry contract. Cortex retrieves relevant outcomes and diagnoses missing measurements before any optional installed-local-model trial suggestion. `learning inspect-candidate` and `learning inspect-proposal` validate return evidence and grant no execution authority. Use the selected environment described in the development guide.
+
+Real history, model suggestions and proof logs remain ignored; tests use frozen synthetic fixtures. Business 1D3X Cortex remains independent of OS and retains its project-owned deployment and data gates. The private runtime owns the detailed operator contract; no public/private snapshot synchronization or unattended agent is enabled by this bridge.

@@ -646,6 +646,19 @@
         "books/factory/capability-map.json"
       ],
       "notes": "Reuse the smallest-useful-visual routing pattern under MIT. ABVX adds publishing-specific source, rights, format, representative-proof and human approval gates; it does not depend on the donor plugin at runtime."
+    },
+    {
+      "id": "phocinae-typed-decision-router",
+      "candidate": "Phocinae-Largha-150M-v1",
+      "locator": "https://huggingface.co/Phocinae/Phocinae-Largha-150M-v1",
+      "capability_area": "Local confidence-based routing before optional Cortex analysis",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "Pinned author weights/runtime reviewed and tested in an isolated Apple M4 pilot; warm CPU inference ~30 ms, but OS-routing qualification failed on synthetic held-out evidence",
+      "evidence_refs": [
+        "docs/maintenance/PHOCINAE_ROUTER_QUALIFICATION_V1.md",
+        "docs/maintenance/PHOCINAE_MAC_PILOT_2026-10-10.md"
+      ],
+      "notes": "Isolated candidate only; not adopted or activated in Cortex. Same-field rules outperformed this routing adapter (48/48 versus 34/48). No calibration threshold qualified. Keep mandatory deterministic policy first; a later specialised task needs fresh held-out qualification. The model grants no authority."
     }
   ]
 }

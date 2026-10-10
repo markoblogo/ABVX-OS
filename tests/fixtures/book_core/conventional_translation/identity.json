@@ -1,0 +1,16 @@
+{
+  "book_id": "synthetic-translation-v1",
+  "book_type": "CONVENTIONAL_TRANSLATION",
+  "title": "UNKNOWN",
+  "source_type": "TRANSLATION",
+  "source_refs": [],
+  "languages": {
+    "source": "fr",
+    "target": "en"
+  },
+  "series": null,
+  "rights_status": "UNKNOWN",
+  "target_formats": ["REFLOWABLE_KINDLE_DOCX"],
+  "target_retailers": ["KDP"],
+  "created_at": "2026-09-30T12:00:00Z"
+}

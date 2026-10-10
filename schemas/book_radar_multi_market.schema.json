@@ -1,0 +1,659 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-radar-multi-market/v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "book-radar-multi-market-import/v1",
+        "book-radar-multi-market-state/v1"
+      ]
+    },
+    "opportunities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/opportunity"
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/observation"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/decision"
+      }
+    },
+    "revisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "opportunity_id",
+          "date",
+          "reason",
+          "previous"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "opportunity_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          },
+          "previous": {
+            "$ref": "#/$defs/opportunity"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "opportunities",
+    "observations",
+    "decisions"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "signal": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "VERIFIED",
+            "ESTIMATED",
+            "INFERRED",
+            "MISSING"
+          ]
+        },
+        "value": {
+          "type": [
+            "string",
+            "number",
+            "boolean",
+            "null"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "status",
+        "value",
+        "unit",
+        "note"
+      ],
+      "additionalProperties": false
+    },
+    "rating": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "metric_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "value",
+        "metric_keys",
+        "reason"
+      ],
+      "additionalProperties": false
+    },
+    "proposal": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "format_fit": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "reuse": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "risk": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "effort_hours": {
+          "$ref": "#/$defs/signal"
+        },
+        "first_step_hours": {
+          "$ref": "#/$defs/signal"
+        },
+        "production_cost": {
+          "$ref": "#/$defs/signal"
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "first_step": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "required_inputs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "validation_target": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "rights_status": {
+          "enum": [
+            "CLEAR",
+            "REVIEW"
+          ]
+        },
+        "policy_review": {
+          "enum": [
+            "CLEAR",
+            "REVIEW"
+          ]
+        },
+        "policy_review_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "policy_sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        },
+        "kdp_select_status": {
+          "enum": [
+            "UNKNOWN",
+            "ENROLLED",
+            "NOT_ENROLLED",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "reuse_mode": {
+          "enum": [
+            "ORIGINAL",
+            "ADAPTED",
+            "SAME_DIGITAL_CONTENT"
+          ]
+        },
+        "course_design": {
+          "enum": [
+            "UNKNOWN",
+            "NARRATION_ONLY",
+            "STRUCTURED_DEMONSTRATIONS"
+          ]
+        },
+        "new_project": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "funding_goal": {
+          "$ref": "#/$defs/signal"
+        },
+        "fulfillment_budget": {
+          "$ref": "#/$defs/signal"
+        },
+        "shipping_plan": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "audience_plan": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "format",
+        "format_fit",
+        "reuse",
+        "risk",
+        "effort_hours",
+        "first_step_hours",
+        "production_cost",
+        "rationale",
+        "first_step",
+        "required_inputs",
+        "validation_target",
+        "rights_status",
+        "policy_review",
+        "policy_review_date",
+        "policy_sources",
+        "kdp_select_status",
+        "reuse_mode",
+        "course_design",
+        "new_project",
+        "funding_goal",
+        "fulfillment_budget",
+        "shipping_plan",
+        "audience_plan"
+      ],
+      "additionalProperties": false
+    },
+    "opportunity": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "motivation": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "geography": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "amazon_opportunity_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "proposals": {
+          "type": "object",
+          "properties": {
+            "amazon": {
+              "$ref": "#/$defs/proposal"
+            },
+            "etsy": {
+              "$ref": "#/$defs/proposal"
+            },
+            "udemy": {
+              "$ref": "#/$defs/proposal"
+            },
+            "kickstarter": {
+              "$ref": "#/$defs/proposal"
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "catalog_ref": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "required": [
+                "collection",
+                "id"
+              ],
+              "properties": {
+                "collection": {
+                  "enum": [
+                    "products",
+                    "portfolio_products"
+                  ]
+                },
+                "id": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "topic",
+        "audience",
+        "motivation",
+        "keywords",
+        "language",
+        "geography",
+        "amazon_opportunity_id",
+        "proposals"
+      ],
+      "additionalProperties": false
+    },
+    "observation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "opportunity_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "marketplace": {
+          "enum": [
+            "amazon",
+            "etsy",
+            "udemy",
+            "kickstarter"
+          ]
+        },
+        "source_kind": {
+          "enum": [
+            "OFFICIAL_MANUAL",
+            "USER_EXPORT",
+            "LICENSED_ANALYTICS"
+          ]
+        },
+        "access_basis": {
+          "enum": [
+            "MANUAL",
+            "AUTHORIZED_EXPORT",
+            "LICENSED_EXPORT"
+          ]
+        },
+        "authorization_note": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "upstream_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "query": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "geography": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "motivation": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "format": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "observed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "period_start": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "period_end": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "availability": {
+          "enum": [
+            "AVAILABLE",
+            "ACCESS_FAILED",
+            "MISSING_CREDENTIALS",
+            "NOT_AVAILABLE"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        },
+        "metrics": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/signal"
+          }
+        },
+        "assessments": {
+          "type": "object",
+          "properties": {
+            "demand": {
+              "$ref": "#/$defs/rating"
+            },
+            "competition_weakness": {
+              "$ref": "#/$defs/rating"
+            },
+            "commercial_validation": {
+              "$ref": "#/$defs/rating"
+            }
+          },
+          "required": [
+            "demand",
+            "competition_weakness",
+            "commercial_validation"
+          ],
+          "additionalProperties": false
+        },
+        "evidence_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "storage_permission": {
+          "enum": [
+            "RETAINED_AUTHORIZED",
+            "NONE"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "opportunity_id",
+        "marketplace",
+        "source_kind",
+        "access_basis",
+        "authorization_note",
+        "source_url",
+        "upstream_url",
+        "query",
+        "language",
+        "geography",
+        "audience",
+        "motivation",
+        "format",
+        "observed_at",
+        "period_start",
+        "period_end",
+        "availability",
+        "limitations",
+        "metrics",
+        "assessments",
+        "evidence_path",
+        "evidence_sha256",
+        "storage_permission"
+      ],
+      "additionalProperties": false
+    },
+    "decision": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "opportunity_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "marketplace": {
+          "enum": [
+            "ALL",
+            "amazon",
+            "etsy",
+            "udemy",
+            "kickstarter"
+          ]
+        },
+        "status": {
+          "enum": [
+            "ACCEPTED",
+            "REJECTED",
+            "RESEARCHED",
+            "PLANNED",
+            "PRODUCED",
+            "TESTED",
+            "REOPENED",
+            "APPROVED",
+            "IN_DEVELOPMENT",
+            "PUBLISHED"
+          ]
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "id",
+        "opportunity_id",
+        "marketplace",
+        "status",
+        "date",
+        "reason"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

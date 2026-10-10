@@ -1,0 +1,1508 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "External shelf snapshot V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "origin",
+    "cluster",
+    "route_id",
+    "observed_at",
+    "context",
+    "repeat_of",
+    "evidence",
+    "products",
+    "absences",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "external-shelf-snapshot/v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+    },
+    "origin": {
+      "enum": [
+        "SYNTHETIC",
+        "RETAINED"
+      ]
+    },
+    "cluster": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "title": "External shelf cluster V1",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "label",
+        "frozen_at",
+        "routes",
+        "limitations"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "external-shelf-cluster/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "frozen_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "routes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "kind",
+              "definition",
+              "marketplace"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              },
+              "kind": {
+                "enum": [
+                  "QUERY",
+                  "CATEGORY",
+                  "AUTHOR",
+                  "SERIES",
+                  "DIRECT_PRODUCT",
+                  "OTHER"
+                ]
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "marketplace": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "route_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "marketplace",
+        "route_definition",
+        "device",
+        "surface",
+        "signed_in",
+        "delivery",
+        "locale",
+        "sort_order",
+        "filters",
+        "depth_requested",
+        "depth_reached",
+        "depth_complete",
+        "capture_policy"
+      ],
+      "properties": {
+        "marketplace": {
+          "type": "string",
+          "minLength": 1
+        },
+        "route_definition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "device": {
+          "type": "string",
+          "minLength": 1
+        },
+        "surface": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signed_in": {
+          "type": "string",
+          "minLength": 1
+        },
+        "delivery": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sort_order": {
+          "type": "string",
+          "minLength": 1
+        },
+        "filters": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "depth_requested": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "depth_reached": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "depth_complete": {
+          "type": "boolean"
+        },
+        "capture_policy": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "repeat_of": {
+      "oneOf": [
+        {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "path",
+          "sha256",
+          "kind",
+          "limitations"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+          },
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "kind": {
+            "enum": [
+              "TEXT",
+              "IMAGE",
+              "HTML",
+              "JSON",
+              "OTHER"
+            ]
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slot_id",
+          "title",
+          "identity",
+          "author",
+          "publisher",
+          "series",
+          "position",
+          "price",
+          "review_count",
+          "rating",
+          "bsr",
+          "publication_date",
+          "edition_date",
+          "release_kind",
+          "limitations"
+        ],
+        "properties": {
+          "slot_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+          },
+          "title": {
+            "$ref": "#/$defs/measurement_1"
+          },
+          "identity": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "asin",
+              "isbn",
+              "format",
+              "edition",
+              "relationship"
+            ],
+            "properties": {
+              "asin": {
+                "$ref": "#/$defs/measurement_2"
+              },
+              "isbn": {
+                "$ref": "#/$defs/measurement_3"
+              },
+              "format": {
+                "$ref": "#/$defs/measurement_4"
+              },
+              "edition": {
+                "$ref": "#/$defs/measurement_1"
+              },
+              "relationship": {
+                "$ref": "#/$defs/measurement_5"
+              }
+            }
+          },
+          "author": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "key",
+              "history"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "#/$defs/measurement_1"
+              },
+              "key": {
+                "$ref": "#/$defs/measurement_1"
+              },
+              "history": {
+                "$ref": "#/$defs/measurement_6"
+              }
+            }
+          },
+          "publisher": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "key",
+              "kind"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "#/$defs/measurement_1"
+              },
+              "key": {
+                "$ref": "#/$defs/measurement_1"
+              },
+              "kind": {
+                "$ref": "#/$defs/measurement_7"
+              }
+            }
+          },
+          "series": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "key",
+              "kind"
+            ],
+            "properties": {
+              "name": {
+                "$ref": "#/$defs/measurement_1"
+              },
+              "key": {
+                "$ref": "#/$defs/measurement_1"
+              },
+              "kind": {
+                "$ref": "#/$defs/measurement_8"
+              }
+            }
+          },
+          "position": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "capture_order",
+              "basis",
+              "rank"
+            ],
+            "properties": {
+              "capture_order": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "basis": {
+                "$ref": "#/$defs/measurement_9"
+              },
+              "rank": {
+                "$ref": "#/$defs/measurement_10"
+              }
+            }
+          },
+          "price": {
+            "$ref": "#/$defs/measurement_11"
+          },
+          "review_count": {
+            "$ref": "#/$defs/measurement_12"
+          },
+          "rating": {
+            "$ref": "#/$defs/measurement_13"
+          },
+          "bsr": {
+            "$ref": "#/$defs/measurement_14"
+          },
+          "publication_date": {
+            "$ref": "#/$defs/measurement_15"
+          },
+          "edition_date": {
+            "$ref": "#/$defs/measurement_15"
+          },
+          "release_kind": {
+            "$ref": "#/$defs/measurement_16"
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "absences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "identity_key",
+          "presence",
+          "depth",
+          "evidence_ids"
+        ],
+        "properties": {
+          "identity_key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "presence": {
+            "const": "NOT_FOUND_WITHIN_DEPTH_N"
+          },
+          "depth": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "evidence_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+            }
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$defs": {
+    "measurement_1": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_2": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "string",
+              "pattern": "^[A-Z0-9]{10}$"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_3": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "string",
+              "pattern": "^([0-9]{9}[0-9X]|[0-9]{13})$"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_4": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "enum": [
+                "EBOOK",
+                "PAPERBACK",
+                "HARDCOVER",
+                "AUDIO",
+                "OTHER"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_5": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "kind",
+                "target_key"
+              ],
+              "properties": {
+                "kind": {
+                  "enum": [
+                    "SAME_WORK",
+                    "DIFFERENT_FORMAT",
+                    "NEW_EDITION",
+                    "TRANSLATION",
+                    "BOX_SET",
+                    "SERIES_ENTRY"
+                  ]
+                },
+                "target_key": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_6": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "enum": [
+                "KNOWN",
+                "COLD_START"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_7": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "enum": [
+                "MAJOR",
+                "INDEPENDENT"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_8": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "enum": [
+                "SERIES_EXTENSION",
+                "STANDALONE"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_9": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "enum": [
+                "ORGANIC",
+                "SPONSORED"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_10": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_11": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "amount",
+                "currency"
+              ],
+              "properties": {
+                "amount": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "currency": {
+                  "type": "string",
+                  "pattern": "^[A-Z]{3}$"
+                }
+              }
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_12": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_13": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_14": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "rank",
+                "category",
+                "marketplace"
+              ],
+              "properties": {
+                "rank": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "category": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "marketplace": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_15": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "type": "string",
+              "format": "date"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "measurement_16": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "const": "OBSERVED"
+            },
+            "value": {
+              "enum": [
+                "NEW_TITLE",
+                "NEW_EDITION"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "value",
+            "evidence_ids"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "UNKNOWN",
+                "NOT_VISIBLE",
+                "NOT_AVAILABLE",
+                "ACCESS_FAILED"
+              ]
+            },
+            "value": {
+              "type": "null"
+            },
+            "evidence_ids": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

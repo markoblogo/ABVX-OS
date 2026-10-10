@@ -1,0 +1,354 @@
+{
+  "cases": [
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "qgis",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-10-04",
+      "cutoff": null,
+      "demand": "REVIEW",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": true,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [
+        {
+          "id": "synthetic:0",
+          "identity": "SUPPORTED",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "SUPPORTED",
+          "publication_date": "2026-08-27",
+          "knowledge_date": "2026-10-04",
+          "creator": "UNKNOWN",
+          "release": "UNKNOWN",
+          "activity": "BOOKS_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        },
+        {
+          "id": "synthetic:1",
+          "identity": "SUPPORTED",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "SUPPORTED",
+          "publication_date": "2026-06-15",
+          "knowledge_date": "2026-10-04",
+          "creator": "UNKNOWN",
+          "release": "UNKNOWN",
+          "activity": "BOOKS_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        },
+        {
+          "id": "synthetic:2",
+          "identity": "SUPPORTED",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "SUPPORTED",
+          "publication_date": "2026-03-30",
+          "knowledge_date": "2026-10-04",
+          "creator": "ESTABLISHED",
+          "release": "NEW_EDITION",
+          "activity": "BOOKS_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    },
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "solo",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-10-04",
+      "cutoff": null,
+      "demand": "PASS",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": true,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [
+        {
+          "id": "synthetic:0",
+          "identity": "SUPPORTED",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "SUPPORTED",
+          "publication_date": "2026-05-30",
+          "knowledge_date": "2026-10-04",
+          "creator": "ESTABLISHED",
+          "release": "UNKNOWN",
+          "activity": "BOOKS_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    },
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "sock",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-10-04",
+      "cutoff": null,
+      "demand": "PASS",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": true,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [
+        {
+          "id": "synthetic:0",
+          "identity": "SUPPORTED",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "SUPPORTED",
+          "publication_date": "2026-09-13",
+          "knowledge_date": "2026-10-04",
+          "creator": "UNKNOWN",
+          "release": "UNKNOWN",
+          "activity": "KINDLE_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    },
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "bicycle",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-10-04",
+      "cutoff": null,
+      "demand": "PASS",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": true,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [
+        {
+          "id": "synthetic:0",
+          "identity": "SUPPORTED",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "SUPPORTED",
+          "publication_date": "2026-02-25",
+          "knowledge_date": "2026-10-04",
+          "creator": "UNKNOWN",
+          "release": "UNKNOWN",
+          "activity": "BOOKS_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    },
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "technician",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-10-04",
+      "cutoff": null,
+      "demand": "REVIEW",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": true,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [
+        {
+          "id": "synthetic:0",
+          "identity": "SUPPORTED",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "SUPPORTED",
+          "publication_date": "2026-04-11",
+          "knowledge_date": "2026-10-04",
+          "creator": "ESTABLISHED",
+          "release": "NEW_EDITION",
+          "activity": "BOOKS_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    },
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "toki-pona-before-first",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-10-04",
+      "cutoff": null,
+      "demand": "UNKNOWN",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": false,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    },
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "pmp-before-production",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-09-04",
+      "cutoff": "2026-09-04",
+      "demand": "UNKNOWN",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": false,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    },
+    {
+      "schema_version": "book-radar-reachability-calibration-case/v1",
+      "id": "ham-before-production",
+      "origin": "SYNTHETIC",
+      "as_of": "2026-09-05",
+      "cutoff": "2026-09-05",
+      "demand": "REVIEW",
+      "route_barrier": "UNKNOWN",
+      "history_reviewed": false,
+      "repeat_zero_prior": false,
+      "material_difference": "UNKNOWN",
+      "research_cap_minutes": 20,
+      "information_value": "MEDIUM",
+      "own_paid": "UNKNOWN",
+      "own_organic": "UNKNOWN",
+      "own_validation_date": null,
+      "witnesses": [
+        {
+          "id": "synthetic:0",
+          "identity": "UNKNOWN",
+          "relevance": "SUPPORTED",
+          "organic": "SUPPORTED",
+          "context": "UNKNOWN",
+          "publication_date": null,
+          "knowledge_date": "2026-09-05",
+          "creator": "UNKNOWN",
+          "release": "UNKNOWN",
+          "activity": "BOOKS_BSR",
+          "repeat": "UNKNOWN",
+          "evidence_ids": [
+            "synthetic:witness"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "synthetic:witness",
+          "path": "witness.txt",
+          "sha256": "68f0f2b215338e3678e7813261532dc80bcfb06331931f9b4cc07280e6009ae1",
+          "selector": "Synthetic scenario"
+        }
+      ],
+      "rationale": "Synthetic scenario; Later73paid not an input. No claim about a real market."
+    }
+  ]
+}

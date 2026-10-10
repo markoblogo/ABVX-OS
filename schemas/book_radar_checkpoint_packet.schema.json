@@ -1,0 +1,1241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-radar-checkpoint-evidence-packet/v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "experiment_id",
+    "checkpoint",
+    "target_date",
+    "actual_date",
+    "observed_at",
+    "timezone",
+    "book_age_days",
+    "collection_state",
+    "approximate_tolerance_days",
+    "applicability",
+    "accounts",
+    "retailers",
+    "search_snapshots",
+    "categories",
+    "costs",
+    "not_observable",
+    "comparability",
+    "evidence",
+    "notes"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "book-radar-checkpoint-evidence-packet/v1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+    },
+    "experiment_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "checkpoint": {
+      "enum": [
+        "D0",
+        "D7",
+        "D14",
+        "D30",
+        "D60",
+        "D90",
+        "T7",
+        "T14"
+      ]
+    },
+    "target_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date"
+        },
+        {
+          "const": "UNKNOWN"
+        }
+      ]
+    },
+    "actual_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "observed_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "date-time"
+        },
+        {
+          "const": "UNKNOWN"
+        }
+      ]
+    },
+    "timezone": {
+      "type": "string",
+      "minLength": 1
+    },
+    "book_age_days": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "const": "UNKNOWN"
+        }
+      ]
+    },
+    "collection_state": {
+      "enum": [
+        "COMPLETE",
+        "PARTIAL"
+      ]
+    },
+    "approximate_tolerance_days": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "applicability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state",
+        "recorded_by",
+        "reason",
+        "evidence"
+      ],
+      "properties": {
+        "state": {
+          "enum": [
+            "APPLICABLE",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "recorded_by": {
+          "enum": [
+            "OWNER",
+            "OPERATOR"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "accounts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "subject_id",
+          "scope",
+          "marketplace",
+          "formats",
+          "orders",
+          "kenp",
+          "royalties"
+        ],
+        "properties": {
+          "subject_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "string",
+            "minLength": 1
+          },
+          "marketplace": {
+            "type": "string",
+            "minLength": 1
+          },
+          "formats": {
+            "anyOf": [
+              {
+                "type": "array",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "orders": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "start",
+                  "end",
+                  "evidence",
+                  "processed_units",
+                  "paid_units",
+                  "free_units",
+                  "ebook_paid",
+                  "print_paid",
+                  "window_kind"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "end": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "path",
+                        "sha256"
+                      ],
+                      "properties": {
+                        "path": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[a-f0-9]{64}$"
+                        }
+                      }
+                    }
+                  },
+                  "processed_units": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "paid_units": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "free_units": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "ebook_paid": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "print_paid": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "window_kind": {
+                    "enum": [
+                      "LIFETIME",
+                      "FIXED_PERIOD"
+                    ]
+                  }
+                }
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "kenp": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "start",
+                  "end",
+                  "evidence",
+                  "kenp_pages",
+                  "status"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "end": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "path",
+                        "sha256"
+                      ],
+                      "properties": {
+                        "path": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[a-f0-9]{64}$"
+                        }
+                      }
+                    }
+                  },
+                  "kenp_pages": {
+                    "anyOf": [
+                      {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "PROVISIONAL",
+                      "FINAL",
+                      "UNKNOWN"
+                    ]
+                  }
+                }
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "royalties": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "start",
+                  "end",
+                  "evidence",
+                  "estimated_royalties",
+                  "ebook",
+                  "print",
+                  "kenp",
+                  "currency",
+                  "status"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "end": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "path",
+                        "sha256"
+                      ],
+                      "properties": {
+                        "path": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[a-f0-9]{64}$"
+                        }
+                      }
+                    }
+                  },
+                  "estimated_royalties": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "ebook": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "print": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "kenp": {
+                    "anyOf": [
+                      {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      {
+                        "const": "UNKNOWN"
+                      }
+                    ]
+                  },
+                  "currency": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "const": "ESTIMATE"
+                  }
+                }
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "retailers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "subject_id",
+          "title",
+          "author",
+          "asin",
+          "format",
+          "marketplace",
+          "availability",
+          "price",
+          "currency",
+          "series_position",
+          "first_verified_live_date",
+          "observed_at",
+          "context",
+          "evidence"
+        ],
+        "properties": {
+          "subject_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "author": {
+            "type": "string",
+            "minLength": 1
+          },
+          "asin": {
+            "type": "string",
+            "minLength": 1
+          },
+          "format": {
+            "type": "string",
+            "minLength": 1
+          },
+          "marketplace": {
+            "type": "string",
+            "minLength": 1
+          },
+          "availability": {
+            "enum": [
+              "AVAILABLE",
+              "UNAVAILABLE",
+              "UNKNOWN"
+            ]
+          },
+          "price": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "currency": {
+            "type": "string",
+            "minLength": 1
+          },
+          "series_position": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "const": "UNKNOWN"
+              },
+              {
+                "const": "NOT_APPLICABLE"
+              }
+            ]
+          },
+          "first_verified_live_date": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "observed_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "context": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "search_snapshots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "schema_version",
+          "id",
+          "book_id",
+          "experiment_id",
+          "observed_date",
+          "observed_at",
+          "marketplace",
+          "query",
+          "device_surface",
+          "signed_in_context",
+          "delivery_context",
+          "depth",
+          "presence",
+          "rank",
+          "rank_basis",
+          "target_asin",
+          "competing_results",
+          "competitor_capture_status",
+          "category_context",
+          "method",
+          "repeat_protocol_id",
+          "evidence",
+          "limitations"
+        ],
+        "properties": {
+          "schema_version": {
+            "const": "book-radar-search-snapshot/v1"
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+          },
+          "book_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "experiment_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "observed_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "observed_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "marketplace": {
+            "type": "string",
+            "minLength": 1
+          },
+          "query": {
+            "type": "string",
+            "minLength": 1
+          },
+          "device_surface": {
+            "type": "string",
+            "minLength": 1
+          },
+          "signed_in_context": {
+            "type": "string",
+            "minLength": 1
+          },
+          "delivery_context": {
+            "type": "string",
+            "minLength": 1
+          },
+          "depth": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "presence": {
+            "enum": [
+              "FOUND",
+              "NOT_FOUND_WITHIN_DEPTH",
+              "UNKNOWN"
+            ]
+          },
+          "rank": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "rank_basis": {
+            "enum": [
+              "ORGANIC",
+              "SPONSORED",
+              "OVERALL",
+              "UNKNOWN"
+            ]
+          },
+          "target_asin": {
+            "type": "string",
+            "minLength": 1
+          },
+          "competing_results": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "asin",
+                "title",
+                "position",
+                "placement"
+              ],
+              "properties": {
+                "asin": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "position": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "placement": {
+                  "enum": [
+                    "ORGANIC",
+                    "SPONSORED",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            }
+          },
+          "competitor_capture_status": {
+            "enum": [
+              "CAPTURED",
+              "UNKNOWN"
+            ]
+          },
+          "category_context": {
+            "type": "string",
+            "minLength": 1
+          },
+          "method": {
+            "const": "READ_ONLY_RETAILER_SNAPSHOT"
+          },
+          "repeat_protocol_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              }
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "subject_id",
+          "target_category",
+          "category",
+          "marketplace",
+          "observed_at",
+          "presence",
+          "position",
+          "depth",
+          "context",
+          "evidence"
+        ],
+        "properties": {
+          "subject_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target_category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "category": {
+            "type": "string",
+            "minLength": 1
+          },
+          "marketplace": {
+            "type": "string",
+            "minLength": 1
+          },
+          "observed_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "presence": {
+            "enum": [
+              "VISIBLE_CATEGORY",
+              "NOT_FOUND_WITHIN_DEPTH",
+              "UNKNOWN"
+            ]
+          },
+          "position": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "depth": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 1
+              },
+              {
+                "const": "UNKNOWN"
+              }
+            ]
+          },
+          "context": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "costs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "subject_id",
+          "actual",
+          "evidence"
+        ],
+        "properties": {
+          "subject_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "actual": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "owner_minutes",
+              "ai_api",
+              "other_machine",
+              "production_minutes",
+              "rework_minutes",
+              "rework_cost",
+              "artwork",
+              "advertising_acquisition",
+              "other_acquisition",
+              "external_services",
+              "elapsed_calendar_days",
+              "currency"
+            ],
+            "properties": {
+              "owner_minutes": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "ai_api": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "other_machine": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "production_minutes": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "rework_minutes": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "rework_cost": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "artwork": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "advertising_acquisition": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "other_acquisition": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "external_services": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "elapsed_calendar_days": {
+                "anyOf": [
+                  {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "currency": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "path",
+                "sha256"
+              ],
+              "properties": {
+                "path": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "not_observable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "organic_impressions",
+        "detail_page_visits",
+        "sample_opens",
+        "matched_ku_starts",
+        "reader_identity",
+        "matched_series_continuation"
+      ],
+      "properties": {
+        "organic_impressions": {
+          "const": "NOT_OBSERVABLE_FROM_CURRENT_STANDARD_SOURCE"
+        },
+        "detail_page_visits": {
+          "const": "NOT_OBSERVABLE_FROM_CURRENT_STANDARD_SOURCE"
+        },
+        "sample_opens": {
+          "const": "NOT_OBSERVABLE_FROM_CURRENT_STANDARD_SOURCE"
+        },
+        "matched_ku_starts": {
+          "const": "NOT_OBSERVABLE_FROM_CURRENT_STANDARD_SOURCE"
+        },
+        "reader_identity": {
+          "const": "NOT_OBSERVABLE_FROM_CURRENT_STANDARD_SOURCE"
+        },
+        "matched_series_continuation": {
+          "const": "NOT_OBSERVABLE_FROM_CURRENT_STANDARD_SOURCE"
+        }
+      }
+    },
+    "comparability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "compared_to",
+        "reasons"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "COMPARABLE",
+            "PARTIALLY_COMPARABLE",
+            "NOT_COMPARABLE",
+            "UNKNOWN"
+          ]
+        },
+        "compared_to": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "records": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actuals",
+        "attribution_observations",
+        "experiment_costs"
+      ],
+      "properties": {
+        "actuals": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ]
+          }
+        },
+        "attribution_observations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ]
+          }
+        },
+        "experiment_costs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

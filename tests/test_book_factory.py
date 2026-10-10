@@ -5,7 +5,7 @@ import tempfile
 from pathlib import Path
 
 from abvx_harness.harness import validate_repository
-from abvx_harness.book_preflight import audit_epub_toc, audit_page_geometry, audit_print_toc, audit_svg, find_collisions, high_risk_pages
+from abvx_harness.book_preflight import audit_epub_toc, audit_page_geometry, audit_print_toc, audit_print_toc_parity, audit_svg, find_collisions, high_risk_pages
 from abvx_harness.publishing_gates import release_authorization
 
 
@@ -33,6 +33,17 @@ class BookFactoryTests(unittest.TestCase):
             with zipfile.ZipFile(epub, "w") as archive:
                 archive.writestr("OEBPS/content.opf", "<package/>")
             self.assertEqual(audit_epub_toc(epub)["status"], "FAIL")
+
+    def test_print_contents_parity_checks_visible_entries_against_final_pages(self):
+        entries=[{"title":"A Note", "page":4}, {"title":"Story Of The Door", "page":8}]
+        destinations={"A Note":4,"Story Of The Door":8}
+        self.assertEqual(audit_print_toc_parity("Contents\nA Note ........ 4\nStory Of The Door ........ 8",entries,destinations)["status"],"PASS")
+        stale=audit_print_toc_parity("Contents\nA Note ........ 4\nStory Of The Door ........ 7",entries,destinations)
+        self.assertEqual(stale["status"],"FAIL")
+        self.assertIn("Story Of The Door.page_number",stale["failures"])
+        moved=audit_print_toc_parity("Contents\nA Note ........ 4\nStory Of The Door ........ 8",entries,{"A Note":4,"Story Of The Door":9})
+        self.assertIn("Story Of The Door.destination",moved["failures"])
+        self.assertEqual(audit_print_toc_parity("A Note ........ 4",entries,destinations)["status"],"FAIL")
 
     def test_kindle_navigation_and_reader_contents_pass_together(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -89,7 +100,10 @@ class BookFactoryTests(unittest.TestCase):
         policy = (ROOT / "docs/book-production-policy.md").read_text()
         playbook = json.loads((ROOT / "playbooks/book-factory.known-profile-commercial-nonfiction.json").read_text())
         standard = playbook["validation"]["checks"]["STANDARD"]
-        self.assertIn("Every reader-facing book", policy)
+        self.assertIn("Every reader-facing ABVX book", policy)
+        self.assertIn("VISIBLE_CONTENTS_REQUIRED = TRUE", policy)
+        self.assertIn("CONTENTS_PARITY", policy)
+        self.assertIn("DIGITAL_NAVIGATION", policy)
         self.assertIn("visible print TOC", " ".join(standard))
         self.assertIn("interactive EPUB TOC", " ".join(standard))
         self.assertIn("reading order", policy)

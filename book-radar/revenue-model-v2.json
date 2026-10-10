@@ -1,0 +1,190 @@
+{
+  "schema_version": "book-radar-revenue-model/v2",
+  "effective_date": "2026-10-07",
+  "owner_goal": {
+    "monthly_royalty_eur": 1000,
+    "positive_month_over_month_growth": true,
+    "is_forecast": false
+  },
+  "provenance": [
+    "Owner Revenue Operating Model V2 task attachment 8962b068-1a25-45a3-96f4-cef4376cb703",
+    "Owner correction 2026-10-07 — complete Good Dogs trilogy; observe, do not extend",
+    "Owner source archive: /Volumes/Work/books archive/GD; all three titles LIVE reaffirmed 2026-10-07",
+    "Owner decision 2026-10-07: APPROVED FOR OPERATING USE; known legacy failures non-blocking for Revenue V2; C01, Carmilla, Good Dogs, D2D priorities"
+  ],
+  "discovery_lanes": {
+    "A": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "B": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "C": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "D": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "E": "PROVEN FORMAT × SPECIFIC ANGLE"
+  },
+  "external_qualifications": [],
+  "post_qualification_overlays": [],
+  "lines": [
+    {
+      "id": "TOKI_PONA_GOTHIC",
+      "book_ids": [
+        "book:jekyll-toki-pona"
+      ],
+      "live_basis": "CANONICAL_PUBLISHED_REGISTRY",
+      "launch_class": "UNKNOWN",
+      "extension_status": "OWNER_REVIEW",
+      "basis": "Canonical observed Jekyll; owner-selected Carmilla adjacency; no claimed gothic paid signal"
+    },
+    {
+      "id": "TOKI_PONA_STOIC",
+      "book_ids": [
+        "book:meditations-tp",
+        "book:seneca-tp",
+        "book:epictetus-tp",
+        "book:cicero-tp"
+      ],
+      "live_basis": "CANONICAL_PUBLISHED_REGISTRY",
+      "launch_class": "UNKNOWN",
+      "extension_status": "OWNER_REVIEW",
+      "basis": "Canonical Stoic titles; paid observations retained independently"
+    },
+    {
+      "id": "LOGIC_GRID_BEGINNER",
+      "book_ids": [],
+      "live_basis": "STRUCTURAL_ONLY",
+      "launch_class": "EXPLORE",
+      "extension_status": "OWNER_REVIEW",
+      "basis": "Owner C01 strategy; not yet a canonical live observation"
+    },
+    {
+      "id": "GOOD_DOGS_OF_THE_APOCALYPSE",
+      "book_ids": [
+        "book:good-dog-bad-system",
+        "book:good-dog-bad-district",
+        "book:gd3-rn10-003"
+      ],
+      "live_basis": "OWNER_CONFIRMED_LIVE",
+      "launch_class": "SERIES_BET",
+      "extension_status": "HOLD",
+      "basis": "Owner correction 2026-10-07: complete three-book LitRPG series already published; EXISTING SERIES_BET — ALREADY LAUNCHED"
+    }
+  ],
+  "release_queue": [
+    {
+      "format": "paperback",
+      "only_one_slot": "UNKNOWN",
+      "qualification_verified": false,
+      "already_created": false,
+      "commercial_validation_evidence": [],
+      "title_id": "C01_FIRST_LOGIC_GRIDS",
+      "title": "C01 FIRST LOGIC GRIDS",
+      "commercial_line_id": "LOGIC_GRID_BEGINNER",
+      "launch_class": "EXPLORE",
+      "status": "READY_FOR_OWNER_MANUAL_PAPERBACK_SUBMISSION_WHEN_QUOTA_PERMITS",
+      "ready": true,
+      "requires_paper": true,
+      "slot_opportunity_cost": "HIGH — displaces another independently qualified paperback",
+      "prior_paid_evidence": [],
+      "rationale": [
+        "Owner first position; paper-native functional object; no artificial Kindle edition"
+      ],
+      "readiness_basis": "OWNER_DECLARED; manufacturing and independent qualification linkage not re-certified in this task",
+      "qualification_card_id": "UNKNOWN"
+    },
+    {
+      "format": "paperback",
+      "only_one_slot": "UNKNOWN",
+      "qualification_verified": false,
+      "already_created": false,
+      "commercial_validation_evidence": [],
+      "title_id": "CARMILLA_TOKI_PONA",
+      "title": "CARMILLA — TOKI PONA EDITION WITH SITELEN PONA",
+      "commercial_line_id": "TOKI_PONA_GOTHIC",
+      "launch_class": "EXPLOIT",
+      "status": "NEXT_PAPERBACK_AFTER_C01_OWNER_SELECTED_CANDIDATE",
+      "ready": false,
+      "requires_paper": false,
+      "slot_opportunity_cost": "HIGH — seasonal adjacency competes for scarce paperback capacity",
+      "prior_paid_evidence": [
+        "book:meditations-tp",
+        "book:seneca-tp",
+        "book:epictetus-tp"
+      ],
+      "rationale": [
+        "Existing paid Toki Pona audience; gothic adjacency to Jekyll",
+        "Halloween timing is owner rationale, not readiness or forecast",
+        "Reusable production pipeline; manageable scope is owner hypothesis",
+        "US public-domain source route; specific source/edition/territory rights require review before production"
+      ],
+      "readiness_basis": "OWNER_STRATEGY_ONLY; no production authorized",
+      "qualification_card_id": "UNKNOWN"
+    }
+  ],
+  "slot_events": [],
+  "slot_reconciliations": [],
+  "slot_history_complete_since": "UNKNOWN",
+  "experiment_costs": [
+    {
+      "id": "cost:slot-overlay:c01",
+      "title_id": "C01_FIRST_LOGIC_GRIDS",
+      "cash": "UNKNOWN",
+      "agent_time": "UNKNOWN",
+      "owner_time": "UNKNOWN",
+      "calendar_time": "UNKNOWN",
+      "KDP_SLOT_OPPORTUNITY_COST": "HIGH — one new paperback creation if needed and first submission",
+      "basis": "No historical production cost rewritten; ranges/evidence required before authorization"
+    },
+    {
+      "id": "cost:slot-overlay:carmilla",
+      "title_id": "CARMILLA_TOKI_PONA",
+      "cash": "UNKNOWN",
+      "agent_time": "UNKNOWN",
+      "owner_time": "UNKNOWN",
+      "calendar_time": "UNKNOWN",
+      "KDP_SLOT_OPPORTUNITY_COST": "HIGH — next paperback position after C01",
+      "basis": "No production estimate claimed without qualified specification"
+    }
+  ],
+  "operating_principles": [
+    "KNOWN DEMAND → DIFFERENTIATED OBJECT",
+    "ONE AUDIENCE → RELATED CATALOG",
+    "FUNCTIONAL BOOK AS PRODUCT",
+    "SERIES / READ-THROUGH ECONOMICS",
+    "MARKETING AFTER SIGNAL",
+    "OWNED AUDIENCE AFTER SIGNAL",
+    "PRODUCTION REUSE",
+    "SEASONAL / LANGUAGE CLUSTER EXPERIMENTS",
+    "HIGH OUTPUT ALONE IS NOT SUCCESS"
+  ],
+  "owner_decision": {
+    "status": "APPROVED_FOR_OPERATING_USE",
+    "decided_at": "2026-10-07",
+    "legacy_failures": "KNOWN_LEGACY_FAILURES_NON_BLOCKING_FOR_REVENUE_V2",
+    "next_commercial_objective": "Generate observable paid outcomes and increase rolling 30d royalties",
+    "broad_discovery_scan_authorized": false,
+    "forecast_date_authorized": false,
+    "operating_priorities": [
+      {
+        "rank": 1,
+        "id": "C01_FIRST_LOGIC_GRIDS",
+        "class": "EXPLORE",
+        "action": "OWNER_MANUAL_KDP_PAPERBACK_SUBMISSION_AFTER_WEEKLY_QUOTA_RESET"
+      },
+      {
+        "rank": 2,
+        "id": "CARMILLA_TOKI_PONA",
+        "class": "EXPLOIT",
+        "action": "NEXT_PAPERBACK_CANDIDATE_AFTER_C01_PRODUCTION_REQUIRES_SEPARATE_AUTHORIZATION"
+      },
+      {
+        "rank": 3,
+        "id": "GOOD_DOGS_OF_THE_APOCALYPSE",
+        "class": "EXISTING_SERIES_BET_ALREADY_LIVE",
+        "action": "OUTCOME_ONLY_EXTENSION_HOLD"
+      },
+      {
+        "rank": 4,
+        "id": "D2D",
+        "class": "NOT_APPLICABLE",
+        "action": "EXPLOIT_ELIGIBLE_EXISTING_ORIGINAL_IP_CATALOG_INDEPENDENTLY_OF_NEW_KDP_PAPERBACK_SLOTS"
+      }
+    ]
+  }
+}

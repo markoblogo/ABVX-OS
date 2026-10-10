@@ -23,7 +23,7 @@ Current active ABVX subsystems are intentionally small:
 
 - Universal Intake
 - portfolio strategy/state/human queue
-- read-only Cortex retrieval
+- read-only Cortex retrieval and explicit private process-learning exchange
 - playbook replay
 - evidence-backed bakeoffs and decisions
 - deterministic professional-role routing with no authority effect
@@ -56,3 +56,9 @@ Provider interfaces should exchange versioned, schema-validated envelopes and re
 LoopX is conditionally adopted only as the optional **long-running development mission state provider**. The ABVX boundary exposes normalized mission-local objective, work state, gates, bounded retry state, evidence references, quota metadata, waiting-for-human state, resume/handoff state, terminal state, and export. A fail-closed integrity layer rejects missing, unreadable, corrupted, or schema-mismatched state for known missions and permits recovery only from an explicitly verified snapshot.
 
 LoopX is not the ABVX control plane or a general workflow engine. It must not own portfolio priorities, project strategy, canonical project facts, Personal Cortex, Universal Inbox, Opportunity Engine, Media Resource, generic personal tasks, code execution, deployment authorization, or external writes. No real sibling-project mission may use this provider until a separate operational approval is recorded.
+
+## Independent Cortex operational learning
+
+The owner-approved OS/Cortex adapter exports explicitly selected numeric process outcomes with local evidence hashes. Cortex ABV applies source admission, retention and OS-only retrieval, diagnoses missing measurements before optional installed-local-model analysis, and returns cited suggestions for review. OS recomputes source bindings and diagnoses; a return artifact grants no execution authority. Baseline/held-out evaluation is a separate gate requiring comparable workloads and preserved quality/safety.
+
+Cortex is an independent intelligence provider, not an OS subsystem. Accumulation means retained experience and retrieval, not automatic weight training. Business 1D3X Cortex remains a separate tenant/runtime; existing inbound contracts do not imply ABV control authority over Index/MN7R/Cropto. See `docs/maintenance/OS_CORTEX_MILESTONES_V1.md` for milestones and current acceptance limits.

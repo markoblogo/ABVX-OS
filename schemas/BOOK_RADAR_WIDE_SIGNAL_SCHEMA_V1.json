@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "book-radar-wide-signal/v1"
+    },
+    "signal_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source_family": {
+      "enum": [
+        "BOOK_MARKET",
+        "SEARCH_INTENT",
+        "COMMUNITY",
+        "CHANGE_EVENT",
+        "CROSS_MARKET",
+        "PORTFOLIO_ADJACENCY",
+        "LLM_EXPANSION"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "market": {
+      "enum": [
+        "Amazon.com",
+        "Amazon.fr"
+      ]
+    },
+    "language": {
+      "enum": [
+        "EN",
+        "FR"
+      ]
+    },
+    "raw_phrase": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "freshness": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "date_basis": {
+          "enum": [
+            "PUBLICATION",
+            "ACTIVITY",
+            "CAPTURE",
+            "UNKNOWN"
+          ]
+        }
+      },
+      "required": [
+        "source_date",
+        "date_basis"
+      ]
+    },
+    "initial_intent": {
+      "enum": [
+        "BOOK_BUYING_INTENT",
+        "BOOK_SERVED_LEARNING_INTENT",
+        "REFERENCE_INTENT",
+        "ENTERTAINMENT_READING_INTENT",
+        "GENERAL_INFORMATION_INTENT",
+        "NEWS_INTENT",
+        "PRODUCT_INTENT",
+        "NAVIGATIONAL_INTENT",
+        "UNKNOWN"
+      ]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": [
+            "EXTERNAL",
+            "LLM_QUERY_EXPANSION"
+          ]
+        },
+        "recorded_by": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "kind",
+        "recorded_by"
+      ]
+    },
+    "buyer_job": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "job": {
+          "type": "string",
+          "minLength": 1
+        },
+        "intent": {
+          "enum": [
+            "BOOK_BUYING_INTENT",
+            "BOOK_SERVED_LEARNING_INTENT",
+            "REFERENCE_INTENT",
+            "ENTERTAINMENT_READING_INTENT",
+            "GENERAL_INFORMATION_INTENT",
+            "NEWS_INTENT",
+            "PRODUCT_INTENT",
+            "NAVIGATIONAL_INTENT",
+            "UNKNOWN"
+          ]
+        },
+        "query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bucket": {
+          "enum": [
+            "EVERGREEN_PRACTICAL",
+            "FAST_CHANGING_INFORMATION",
+            "PROFESSIONAL_TECHNICAL",
+            "HOBBY_ENTHUSIAST",
+            "REFERENCE_UTILITY",
+            "LANGUAGE_LEARNING",
+            "CULTURAL_READING",
+            "FICTION_GENRE",
+            "EMERGING_COMMUNITY",
+            "OTHER"
+          ]
+        },
+        "mechanism": {
+          "enum": [
+            "LONG_TAIL_SEARCH",
+            "LOW_SUPPLY_LANGUAGE",
+            "FAST_INFORMATION_DECAY",
+            "PROFESSIONAL_CHANGE",
+            "HOBBY_UTILITY",
+            "REFERENCE_UTILITY",
+            "SERIES_COLLECTION",
+            "COMMUNITY_IDENTITY",
+            "EVENT_DRIVEN",
+            "EVERGREEN_PROBLEM",
+            "OTHER"
+          ]
+        }
+      },
+      "required": [
+        "audience",
+        "job",
+        "intent",
+        "query",
+        "subject",
+        "category",
+        "bucket",
+        "mechanism"
+      ]
+    },
+    "job_support": {
+      "enum": [
+        "SUPPORTS",
+        "CONTRADICTS",
+        "UNKNOWN"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "signal_id",
+    "observed_at",
+    "source_family",
+    "source",
+    "market",
+    "language",
+    "raw_phrase",
+    "evidence_ids",
+    "freshness",
+    "initial_intent",
+    "provenance",
+    "buyer_job"
+  ]
+}

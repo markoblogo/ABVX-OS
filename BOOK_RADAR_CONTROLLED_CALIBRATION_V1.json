@@ -1,0 +1,34 @@
+{
+  "experiment_id": "book-radar-controlled-persistence-v1",
+  "version": 1,
+  "observation": "T0",
+  "date": "2026-09-26",
+  "timezone": "Europe/Paris",
+  "gate": "PARTIAL",
+  "query_families": "PARTIAL",
+  "comparable_cohorts": "PARTIAL",
+  "interpretation_status": "DO_NOT_INTERPRET_UNTIL_T14",
+  "radar_changes": false,
+  "paid_data_used": false,
+  "controls": [
+    {"id":"meditations-tp","group":"POSITIVE_PROVISIONAL","title":"Meditations of Marcus Aurelius — in Toki Pona","marketplace":"amazon.com","language":"Toki Pona","formats":["Kindle","paperback"],"evidence":{"source":"book-radar/runs/rn8/portfolio-zero-sales-diagnostic.json; book-radar/runs/kdp-weekly/2026-09-21/snapshot.json","units_aggregate_period":14,"aggregate_period":"2026-06-11/2026-09-08","units_september_1_21":1,"september_formats":{"ebook":1,"print":0},"periods_overlap":true,"marketplace_split":"NOT_AVAILABLE"},"selection_caveat":"Strong title-level actual among Toki Pona titles found; repeat cadence not demonstrated by overlapping aggregate and month-to-date records."},
+    {"id":"seneca-tp","group":"POSITIVE_PROVISIONAL","title":"Seneca: On the Shortness of Life — in Toki Pona","marketplace":"amazon.com","language":"Toki Pona","formats":["Kindle","paperback"],"evidence":{"source":"book-radar/runs/kdp-weekly/2026-09-21/snapshot.json","units_september_1_21":3,"september_formats":{"ebook":2,"print":1},"prior_comparable_period":"NOT_LOCATED","marketplace_split":"NOT_AVAILABLE"},"selection_caveat":"Title-level actual is documented, but recurring sales are not established."},
+    {"id":"pmp-2026","group":"WEAK_NO_SIGNAL","classification":"UNCLASSIFIABLE","title":"Project Management Certification in 2026","marketplace":"amazon.com","language":"English","formats":["Kindle","paperback"],"first_14_day_units":0,"evidence":"book-radar/runs/kdp-weekly/2026-09-21/snapshot.json"},
+    {"id":"ham-visual-cram-map","group":"WEAK_NO_SIGNAL","classification":"UNCLASSIFIABLE","title":"Ham Radio Technician Visual Cram Map 2026–2030","marketplace":"amazon.com","language":"English","formats":["Kindle","paperback"],"first_14_day_units":0,"evidence":"book-radar/runs/kdp-weekly/2026-09-21/snapshot.json"},
+    {"id":"solar-proposal-decoder","group":"WEAK_NO_SIGNAL","classification":"UNCLASSIFIABLE","title":"Solar Proposal Decoder","marketplace":"amazon.com","language":"English","formats":["paperback"],"first_14_day_units":0,"evidence":"book-radar/runs/kdp-weekly/2026-09-21/snapshot.json"},
+    {"id":"french-road-rules-ukrainian","group":"WEAK_NO_SIGNAL","classification":"UNCLASSIFIABLE","title":"Французькі правила й дорожні знаки українською","marketplace":"amazon.fr","language":"Ukrainian","formats":["paperback"],"first_14_day_units":0,"evidence":"book-radar/runs/kdp-weekly/2026-09-21/snapshot.json"}
+  ],
+  "excluded_control":{"title":"Marcus Aurelius’ Guide to the Zombie Apocalypse","reason":"12-unit KDP aggregate line does not match the observed live Amazon title/author; ASIN identity reconciliation unresolved."},
+  "query_families": [
+    {"control":"meditations-tp","status":"LOCKED_POST_HOC","primary":"meditations toki pona","secondary":["toki pona books","marcus aurelius toki pona"],"long_tail":["stoic philosophy toki pona","meditations of marcus aurelius in toki pona"]},
+    {"control":"seneca-tp","status":"LOCKED_POST_HOC","primary":"seneca toki pona","secondary":["toki pona books","on the shortness of life toki pona"],"long_tail":["stoic philosophy toki pona","seneca toki pona sitelen pona"]},
+    {"control":"pmp-2026","status":"LOCKED_EXISTING_HYPOTHESIS","primary":"PMP 2026","secondary":["new PMP exam","PMP eligibility"],"long_tail":["PMP explained"]},
+    {"control":"ham-visual-cram-map","status":"LOCKED_EXISTING_HYPOTHESIS","primary":"ham radio technician 2026 study guide","secondary":["fcc element 2 2026 2030","technician class license manual 2026 2030"],"long_tail":["learn ham radio for beginners","ham radio exam concepts visual"]},
+    {"control":"solar-proposal-decoder","status":"LOCKED_EXISTING_HYPOTHESIS","primary":"solar proposal comparison workbook","secondary":["compare solar quotes","solar financing comparison"],"long_tail":["home solar proposal questions","solar buyer guide"]},
+    {"control":"french-road-rules-ukrainian","status":"LOCKED_EXISTING_HYPOTHESIS","primary":"code de la route francais ukrainien","secondary":["panneaux routiers france ukrainien","permis france ukrainien"],"long_tail":["conduire en france ukrainien","code de la route 2026"]}
+  ],
+  "t0_observation_file":"book-radar/calibration/controlled-persistence-v1/t0/t0-observations.json",
+  "schedule":{"t7":"2026-10-03","t14":"2026-10-10","timezone":"Europe/Paris","run_later_observations_now":false,"evidence_retention_amendment":{"retain_screenshots_or_equivalent_raw_page_evidence_where_technically_possible":true,"record_per_capture":["capture_time","url","marketplace","signed_in_personalization_state","delivery_location","access_consent_condition"],"scope":"Corrects T0 evidence-retention gap only; queries, cohorts, measurements, classifications, and interpretation rules unchanged."}},
+  "independent_signal":"INDEPENDENT_SIGNAL_NOT_AVAILABLE",
+  "material_collection_problems":["per-title marketplace allocation unavailable","overlapping KDP periods prevent independent cadence inference","Zombie title/ASIN mismatch","incomplete result-card fields including BSR","French query cards blocked by privacy interstitial","only primary query sampled for several locked families","screenshots not retained in T0 artifact"]
+}

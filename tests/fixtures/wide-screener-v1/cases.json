@@ -1,0 +1,54 @@
+{
+  "A": {
+    "file": "case-A.json",
+    "expected": "KILL"
+  },
+  "B": {
+    "file": "case-B.json",
+    "expected": "KILL"
+  },
+  "C": {
+    "file": "case-C.json",
+    "expected": "KILL"
+  },
+  "D": {
+    "file": "case-D.json",
+    "expected": "INVESTIGATE"
+  },
+  "E": {
+    "file": "case-E.json",
+    "expected": "KILL"
+  },
+  "F": {
+    "file": "case-F.json",
+    "expected": "PARK"
+  },
+  "G": {
+    "file": "case-G.json",
+    "expected": "PARK"
+  },
+  "H": {
+    "file": "case-H.json",
+    "expected": "PARK"
+  },
+  "I": {
+    "file": "case-I.json",
+    "expected": "MIXED"
+  },
+  "J": {
+    "file": "case-J.json",
+    "expected": "PARK"
+  },
+  "K": {
+    "file": "case-K.json",
+    "expected": "PARK"
+  },
+  "L": {
+    "file": "case-L.json",
+    "expected": "KILL"
+  },
+  "M": {
+    "file": "case-M.json",
+    "expected": "INVESTIGATE"
+  }
+}

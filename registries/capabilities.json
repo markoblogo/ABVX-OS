@@ -150,6 +150,25 @@
       },
       "scope": "Editorial routing and production gates for evidence-backed charts, diagrams, infographics and explanatory illustrations across book and publishing assets",
       "status": "conditional"
+    },
+    {
+      "id": "os-process-learning",
+      "name": "OS Process Learning Bridge",
+      "status": "conditional",
+      "scope": "Explicit protected numeric outcome export and grounded review-only Cortex suggestions; no automatic execution",
+      "implementation": "src/abvx_harness/process_learning.py",
+      "constraints": [
+        "explicit-selected-outcomes-only",
+        "tenant-isolation-required",
+        "private-artifacts-ignored",
+        "unknown-effort-not-zero",
+        "independent-held-out-trial-before-efficiency-claim"
+      ],
+      "provenance": {
+        "source_uri": "docs/maintenance/OS_CORTEX_MILESTONES_V1.md",
+        "observed_at": "2026-10-10T00:00:00Z",
+        "recorded_by": "OWNER_APPROVED_OS_CORTEX_V1"
+      }
     }
   ],
   "schema_version": "v1"
