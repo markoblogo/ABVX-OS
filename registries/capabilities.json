@@ -157,10 +157,11 @@
         "private-numeric-outcomes-only",
         "production-prose-verification",
         "model-free-diagnosis",
-        "no-publication-or-adoption-authority"
+        "no-publication-or-adoption-authority",
+        "first-cycle-github-production-and-merged-sha-proof"
       ],
       "id": "site-publication-learning",
-      "implementation": "./bin/abvx publication <check|complete|transfer>",
+      "implementation": "./bin/abvx publication <check|complete|transfer|verify-first-cycle>",
       "name": "ABVX publication outcome closeout",
       "provenance": {
         "observed_at": "2026-10-10T00:00:00Z",

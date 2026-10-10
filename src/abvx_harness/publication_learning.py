@@ -173,17 +173,112 @@ def transfer_publication(root,item_id,cortex_root):
  receipt=inspect_candidate(context,candidate,VERSION,packets);_write_once(directory/'cortex-review.json',receipt)
  return receipt
 
+
+def github_json(endpoint):
+ # The host, repository and GET endpoint are fixed by the caller; never print auth/error output.
+ try:
+  result=subprocess.run(['gh','api','--hostname','github.com','--method','GET',endpoint],capture_output=True,check=True,timeout=30)
+ except (OSError,subprocess.SubprocessError) as error:
+  raise ValueError('GitHub deployment evidence unavailable') from error
+ if len(result.stdout)>2*1024*1024:raise ValueError('GitHub deployment response exceeds bound')
+ return json.loads(result.stdout)
+
+def deployment_snapshot(sha):
+ endpoint='repos/markoblogo/ABVXsite/deployments?environment=Production&per_page=1'
+ deployments=github_json(endpoint)
+ if not isinstance(deployments,list) or len(deployments)!=1:raise ValueError('Latest production deployment required')
+ deployment=deployments[0]
+ if not isinstance(deployment,dict) or type(deployment.get('id')) is not int or deployment['id']<=0 or deployment.get('environment')!='Production' or deployment.get('sha')!=sha:
+  raise ValueError('Production deployment SHA differs from checked checkout')
+ statuses=github_json(f"repos/markoblogo/ABVXsite/deployments/{deployment['id']}/statuses?per_page=1")
+ if not isinstance(statuses,list) or len(statuses)!=1:raise ValueError('Latest deployment status required')
+ status=statuses[0]
+ if not isinstance(status,dict) or type(status.get('id')) is not int or status['id']<=0 or status.get('state')!='success' or status.get('environment')!='Production':
+  raise ValueError('Successful production deployment required')
+ now=_time(utc())
+ for value in (deployment,status):
+  if _time(value.get('created_at'))>now:raise ValueError('Future deployment evidence rejected')
+ if _time(status['created_at'])<_time(deployment['created_at']):raise ValueError('Deployment status predates deployment')
+ pulls=github_json(f'repos/markoblogo/ABVXsite/commits/{sha}/pulls?per_page=100')
+ if not isinstance(pulls,list):raise ValueError('Merged site PR evidence required')
+ matches=[p for p in pulls if isinstance(p,dict) and p.get('merge_commit_sha')==sha and p.get('merged_at') and
+          p.get('base',{}).get('ref')=='main' and p.get('base',{}).get('repo',{}).get('full_name')=='markoblogo/ABVXsite']
+ if len(matches)!=1 or type(matches[0].get('number')) is not int or matches[0]['number']<=0:
+  raise ValueError('Deployment SHA must be the exact merge commit of one site PR')
+ merged=matches[0]
+ if _time(merged['merged_at'])>_time(deployment['created_at']):raise ValueError('Production deployment predates merge')
+ return {'provider':'github-deployments','repository':'markoblogo/ABVXsite','deploymentId':deployment['id'],
+         'statusId':status['id'],'environment':'Production','state':'success','sha':sha,
+         'deploymentCreatedAt':deployment['created_at'],'statusCreatedAt':status['created_at'],
+         'deploymentResponseDigest':digest({key:deployment[key] for key in ('id','sha','environment','created_at')}),
+         'statusResponseDigest':digest({key:status[key] for key in ('id','state','environment','created_at')}),
+         'mergedPrNumber':merged['number'],'mergedAt':merged['merged_at'],
+         'mergeResponseDigest':digest({'number':merged['number'],'merge_commit_sha':sha,'merged_at':merged['merged_at'],
+                                     'base':'main','repository':'markoblogo/ABVXsite'})}
+
+def clean_site_sha(site):
+ status=subprocess.run(['git','status','--porcelain','--untracked-files=all'],cwd=site,capture_output=True,check=True).stdout
+ if status.strip():raise ValueError('Committed clean checked site checkout required')
+ sha=subprocess.run(['git','rev-parse','HEAD'],cwd=site,capture_output=True,check=True).stdout.decode().strip()
+ if not re.fullmatch('[a-f0-9]{40}',sha):raise ValueError('Full Git commit SHA required')
+ return sha
+
+def verify_first_cycle(root,item_id,site,cortex_root):
+ """Explicit read-only source/deployment probes; retain local acceptance proof, enable nothing."""
+ directory=folder(root,item_id)
+ row=validate_outcome(json.loads((directory/'outcome.json').read_text()))
+ if row['runId']!=item_id or row['origin']!='OBSERVED' or row['workflowId']!='site.content.publish' or row['workflowVersion']!=VERSION or row['status']!='PASS' or row['qualityGate']!='PASS' or row['safetyGate']!='PASS':
+  raise ValueError('Verified observed native-publication outcome required')
+ if not (directory/'cortex-review.json').is_file():raise ValueError('Complete scoped Cortex return before first-cycle acceptance')
+ # Reuse exact source, approval, check-log and tree verification. This preserves the immutable measurement.
+ complete_publication(root,item_id,site,owner_minutes=row['ownerMinutes'],rework_count=row['reworkCount'])
+ sha=clean_site_sha(site)
+ deployment=deployment_snapshot(sha)
+ item=_load_item(root,item_id)
+ live_digest=validate_live_html(item,fetch_production('https://abvx.xyz'+item['enrichment']['canonical_path']))
+ review=transfer_publication(root,item_id,cortex_root)
+ if review.get('executionAuthorized') is not False or review.get('status') not in ('RECORDED_READY_FOR_ANALYSIS','NEEDS_MEASUREMENT'):
+  raise ValueError('Independently validated model-free OS return required')
+ # A new rollout while probing cannot be silently accepted against the previous source.
+ stable=lambda value:{key:item for key,item in value.items() if not key.endswith('ResponseDigest')}
+ if stable(deployment_snapshot(sha))!=stable(deployment):raise ValueError('Deployment changed during first-cycle verification')
+ complete_publication(root,item_id,site,owner_minutes=row['ownerMinutes'],rework_count=row['reworkCount'])
+ if clean_site_sha(site)!=sha:raise ValueError('Checked source changed during first-cycle verification')
+ context_file=Path(cortex_root).resolve()/'data/abvx-os/publications'/item_id/'context.json'
+ if context_file.resolve()!=context_file:raise ValueError('Symlink Cortex context forbidden')
+ context=json.loads(context_file.read_text())
+ candidate_file=context_file.with_name('candidate.json')
+ if candidate_file.resolve()!=candidate_file:raise ValueError('Symlink Cortex candidate forbidden')
+ candidate=json.loads(candidate_file.read_text())
+ if inspect_candidate(context,candidate,VERSION,cited_batches(root,context))!=review:raise ValueError('Cortex return changed during first-cycle verification')
+ batch=validate_packet(json.loads((directory/'batch.json').read_text()))
+ receipt={'schemaVersion':1,'kind':'AbvxPublicationFirstCycleVerification','status':'VERIFIED','itemId':item_id,
+          'origin':'OBSERVED','verifiedAt':utc(),'deployedSha':sha,'deployment':deployment,
+          'outcomeDigest':digest(row),'sourcePacketDigest':digest(batch),
+          'contextDigest':digest(context),'osReviewDigest':digest(review),
+          'productionHtmlDigest':live_digest,'executionAuthorized':False}
+ target=directory/'first-cycle.json'
+ if target.exists():
+  previous=json.loads(target.read_text())
+  _time(previous.get('verifiedAt'))
+  receipt['verifiedAt']=previous['verifiedAt']
+ _write_once(target,receipt)
+ return receipt
+
 def main(argv,root):
  parser=argparse.ArgumentParser(description=__doc__);sub=parser.add_subparsers(dest='action',required=True)
- for name in ('check','complete','transfer'):
+ for name in ('check','complete','transfer','verify-first-cycle'):
   command=sub.add_parser(name);command.add_argument('--item',required=True)
   if name!='transfer':command.add_argument('--site-root',required=True,type=Path)
   if name=='check':command.add_argument('--reuse-checks',action='store_true')
-  if name!='check':command.add_argument('--cortex-root',type=Path,required=name=='transfer')
+  if name!='check':command.add_argument('--cortex-root',type=Path,required=name in ('transfer','verify-first-cycle'))
   if name=='complete':command.add_argument('--owner-minutes',default='UNKNOWN');command.add_argument('--rework-count',required=True,type=int)
  args=parser.parse_args(argv)
  if args.action=='check':value=check_publication(root,args.item,args.site_root,reuse_checks=args.reuse_checks)
  elif args.action=='transfer':value=transfer_publication(root,args.item,args.cortex_root)
+ elif args.action=='verify-first-cycle':
+  receipt=verify_first_cycle(root,args.item,args.site_root,args.cortex_root)
+  value={'status':receipt['status'],'deployedSha':receipt['deployedSha'],'executionAuthorized':False}
  else:value=complete_publication(root,args.item,args.site_root,owner_minutes='UNKNOWN' if args.owner_minutes=='UNKNOWN' else int(args.owner_minutes),rework_count=args.rework_count,cortex_root=args.cortex_root)
  print(json.dumps(value if args.action!='check' else {'status':value['status'],'checks':len(value['checks'])},sort_keys=True))
  return 1 if value.get('status')=='FAIL' else 0

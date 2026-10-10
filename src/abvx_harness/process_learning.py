@@ -111,6 +111,36 @@ def build_packet(outcomes, packet_id, observed_at):
             'permittedUse':['private_context'], 'returnAuthority':'none', 'payload':payload}
 
 
+BOOK_PHASES = {
+    'book.radar.research': {'market_evidence_review', 'niche_decision_review'},
+    'book.production': {'source_rights_review', 'editorial_review', 'format_qa',
+                        'publication_package_review', 'retailer_verification'},
+}
+
+
+def build_book_packet(outcomes, packet_id, observed_at):
+    """Bound the explicit book-phase exporter without changing the generic contract."""
+    packet = build_packet(outcomes, packet_id, observed_at)
+    if len(outcomes) > 20 or len({row['workflowId'] for row in outcomes}) != 1 or len({row['workflowVersion'] for row in outcomes}) != 1:
+        raise ValueError('Book export requires 1–20 outcomes from one workflow/version')
+    workflow = outcomes[0]['workflowId']
+    if workflow not in BOOK_PHASES:
+        raise ValueError('Book workflow required')
+    stages, profiles = set(), set()
+    for row in outcomes:
+        stage = [ref for ref in row['evidence'] if ref['ref'].startswith('stage:')]
+        profile = [ref for ref in row['evidence'] if ref['ref'].startswith('workload:')]
+        if len(stage) != 1 or stage[0]['ref'][6:] not in BOOK_PHASES[workflow]:
+            raise ValueError('One controlled book phase gate required')
+        if len(profile) != 1 or profile[0]['ref'] != 'workload:book-phase-profile':
+            raise ValueError('One book workload profile required')
+        stages.add(stage[0]['ref'])
+        profiles.add(profile[0]['sha256'])
+    if len(stages) != 1 or len(profiles) != 1:
+        raise ValueError('Book export cannot mix phases or workload profiles')
+    return packet
+
+
 def validate_packet(packet):
     _shape(packet, PACKET_KEYS)
     _shape(packet['payload'], {'schemaVersion','kind','tenant','outcomes'})
@@ -296,13 +326,16 @@ def record_check(root, check, record_path):
 
 def main(argv=None, root=None):
     parser=argparse.ArgumentParser(description=__doc__); sub=parser.add_subparsers(dest='action',required=True)
-    export=sub.add_parser('export'); export.add_argument('--outcomes',required=True);export.add_argument('--packet-id',required=True);export.add_argument('--observed-at',required=True);export.add_argument('--out',required=True)
+    export=sub.add_parser('export'); export.add_argument('--outcomes',required=True);export.add_argument('--packet-id',required=True);export.add_argument('--observed-at',required=True);export.add_argument('--out',required=True);export.add_argument('--profile',choices=['book-phase-v1'])
     review=sub.add_parser('inspect-proposal');review.add_argument('--packet',required=True);review.add_argument('--proposal',required=True);review.add_argument('--current-version',required=True)
     suggestion=sub.add_parser('inspect-candidate');suggestion.add_argument('--context',required=True);suggestion.add_argument('--candidate',required=True);suggestion.add_argument('--current-version',required=True);suggestion.add_argument('--packets',required=True)
     record=sub.add_parser('record-check');record.add_argument('check',choices=['isolated-books','maintenance-tests','contract-checks']);record.add_argument('--out',required=True)
     args=parser.parse_args(argv)
     if args.action=='export':
-        packet=build_packet(json.loads(Path(args.outcomes).read_text()),args.packet_id,args.observed_at);_write_once(args.out,packet)
+        rows=json.loads(Path(args.outcomes).read_text())
+        has_books=isinstance(rows,list) and any(isinstance(row,dict) and row.get('workflowId') in BOOK_PHASES for row in rows)
+        builder=build_book_packet if args.profile=='book-phase-v1' or has_books else build_packet
+        packet=builder(rows,args.packet_id,args.observed_at);_write_once(args.out,packet)
         print(f'Prepared protected OS packet: {len(packet["payload"]["outcomes"])} outcomes. No import performed.')
     elif args.action=='inspect-proposal':
         value=inspect_proposal(json.loads(Path(args.packet).read_text()),json.loads(Path(args.proposal).read_text()),args.current_version)
