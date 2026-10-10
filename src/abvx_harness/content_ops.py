@@ -1,5 +1,9 @@
 from __future__ import annotations
 
+import hashlib
+import os
+import tempfile
+
 import json
 import re
 from dataclasses import dataclass
@@ -20,7 +24,20 @@ def _load_schema(root: Path, name: str) -> dict[str, Any]:
 
 def _write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    # Reuse the mission-state atomic replacement pattern without importing its provider.
+    rendered = json.dumps(value, indent=2, sort_keys=True) + "\n"
+    fd, temporary = tempfile.mkstemp(prefix=f".{path.name}.", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as handle:
+            handle.write(rendered)
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, path)
+    finally:
+        try:
+            os.unlink(temporary)
+        except FileNotFoundError:
+            pass
 
 
 def _slugify(value: str) -> str:
@@ -292,6 +309,12 @@ class ProjectPublishingAdapter(Protocol):
 class GenericPublishingAdapter:
     def prepare(self, root: Path, fixture: dict[str, Any], adapter: dict[str, Any], *, intelligence_mode: str = "deterministic") -> dict[str, Any]:
         blockers = list(adapter.get("preparation_blockers", []))
+        if adapter["id"] == "abvx.working-story" or (adapter["id"] == "abvx.writing" and fixture["payload"].get("source_markdown")):
+            source = fixture["payload"].get("source_markdown", "")
+            if adapter["id"] == "abvx.working-story" and (fixture["project"], fixture["surface"], fixture["kind"]) != ("abvxsite", "working-stories", "working-story"):
+                blockers.append("Working Story adapter requires the matching project, surface and kind")
+            if not source or hashlib.sha256(source.encode("utf-8")).hexdigest() != fixture["payload"].get("source_sha256"):
+                blockers.append("Approved Markdown source and SHA-256 must match before approval")
         if adapter["readiness"] != "READY":
             blockers.append(adapter["readiness_reason"])
         if adapter.get("required_assets") and not fixture["payload"].get("asset_refs"):
@@ -416,11 +439,28 @@ def prepare_content_item(root: Path, fixture_ref: str, *, intelligence_mode: str
         raise ValidationError(f"unsupported intelligence mode: {intelligence_mode}")
     item = _implementation(adapter).prepare(root, fixture, adapter, intelligence_mode=intelligence_mode)
     _write_item(root, item)
+    if item["status"] == "PREPARED":
+        from .publication_learning import start_publication
+        fixture_path = Path(fixture_ref) if Path(fixture_ref).is_absolute() else root / fixture_ref
+        if not fixture_path.is_file():
+            fixture_path = _fixtures_dir(root) / fixture_ref
+        origin = "SYNTHETIC" if fixture_path.resolve().is_relative_to((root / "content/fixtures").resolve()) else "OBSERVED"
+        start_publication(root, item, origin)
     return item
 
 
 def inspect_content_item(root: Path, item_id: str) -> dict[str, Any]:
     return _load_item(root, item_id)
+
+
+def _approval_fingerprint(item: dict[str, Any]) -> str:
+    fields = ("id", "project", "surface", "kind", "title", "slug", "summary", "locales",
+              "payload", "adapter", "consumer_operation", "validation", "enrichment", "artifact_refs", "provenance")
+    content = {key: item[key] for key in fields}
+    # The emitted packet reference is derived state, not a change to approved content.
+    content["artifact_refs"] = [ref for ref in item["artifact_refs"] if ref != f"content/publish-packets/{item["id"]}.json"]
+    return hashlib.sha256(json.dumps(content, sort_keys=True, separators=(",", ":"),
+                                     ensure_ascii=False).encode("utf-8")).hexdigest()
 
 
 def approve_content_item(root: Path, item_id: str, *, actor: str = "owner") -> dict[str, Any]:
@@ -435,6 +475,7 @@ def approve_content_item(root: Path, item_id: str, *, actor: str = "owner") -> d
         "state": "APPROVED",
         "approved_by": actor,
         "approved_at": now_iso(),
+        "approved_content_sha256": _approval_fingerprint(item),
     }
     item["history"].append({
         "action": "APPROVE",
@@ -450,6 +491,9 @@ def publish_content_item(root: Path, item_id: str) -> dict[str, Any]:
     item = _load_item(root, item_id)
     if item["status"] != "APPROVED":
         raise ValidationError(f"content item must be APPROVED before publish: {item_id}")
+    gate = item["human_gate"]
+    if gate["state"] != "APPROVED" or gate.get("approved_content_sha256") != _approval_fingerprint(item):
+        raise ValidationError("approval does not match current content; review and approve the item again")
     adapter = _adapter_entry(root, item["adapter"]["id"])
     if adapter["readiness"] != "READY":
         raise ValidationError(f"publishing adapter is not ready: {adapter['id']}")

@@ -38,3 +38,5 @@ Minimum safe read order for a fresh ABVX-OS task:
 
 Read [ARCHITECTURE.md](ARCHITECTURE.md) for system boundaries and [docs/autonomy-policy.md](docs/autonomy-policy.md) for action limits.
 Also read [docs/donor-first-policy.md](docs/donor-first-policy.md) and [docs/product-vision.md](docs/product-vision.md) before broad platform work.
+
+For new ABVX.xyz native publications, read `docs/maintenance/PUBLICATION_LEARNING_CYCLE_V1.md`. Start with the existing intake/approval flow and close out after verified production using `publication complete`; measure owner effort or retain UNKNOWN and explicitly count rework. Do not call a preview or publish packet a completed observation.

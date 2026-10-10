@@ -20,3 +20,10 @@ evidence/bakeoffs/*/runs/*
 evidence/bakeoffs/*/artifacts/*
 !evidence/bakeoffs/*/runs/.gitkeep
 !evidence/bakeoffs/*/artifacts/.gitkeep
+
+# New operational publication packets/drafts are private local state.
+# Existing tracked synthetic examples remain tracked.
+content/items/*.json
+content/publish-packets/*.json
+evidence/content-ops/*.json
+events/projects/abvxsite/content_published-*.json

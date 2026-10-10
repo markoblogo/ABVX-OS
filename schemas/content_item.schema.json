@@ -114,7 +114,8 @@
         "required": { "type": "boolean" },
         "state": { "enum": ["BLOCKED", "PENDING_APPROVAL", "APPROVED"] },
         "approved_by": { "type": ["string", "null"] },
-        "approved_at": { "type": ["string", "null"], "format": "date-time" }
+        "approved_at": { "type": ["string", "null"], "format": "date-time" },
+        "approved_content_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
       }
     },
     "publication": {

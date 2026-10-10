@@ -150,6 +150,25 @@
       },
       "scope": "Editorial routing and production gates for evidence-backed charts, diagrams, infographics and explanatory illustrations across book and publishing assets",
       "status": "conditional"
+    },
+    {
+      "constraints": [
+        "approved-handoff-required",
+        "private-numeric-outcomes-only",
+        "production-prose-verification",
+        "model-free-diagnosis",
+        "no-publication-or-adoption-authority"
+      ],
+      "id": "site-publication-learning",
+      "implementation": "./bin/abvx publication <check|complete|transfer>",
+      "name": "ABVX publication outcome closeout",
+      "provenance": {
+        "observed_at": "2026-10-10T00:00:00Z",
+        "recorded_by": "PUBLICATION-LEARNING-001",
+        "source_uri": null
+      },
+      "scope": "Ready native ABVX intake through project checks, production verification and independent Cortex experience admission",
+      "status": "active"
     }
   ],
   "schema_version": "v1"

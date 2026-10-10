@@ -74,6 +74,12 @@ def _print_content(value: object, as_json: bool) -> None:
 def main(argv: list[str] | None = None, root: Path = ROOT) -> int:
     argv = argv if argv is not None else sys.argv[1:]
     try:
+        if argv[:1] == ["publication"]:
+            from .publication_learning import main as publication_main
+            return publication_main(argv[1:], root)
+        if argv[:1] == ["learning"]:
+            from .process_learning import main as learning_main
+            return learning_main(argv[1:], root=root)
         if argv in (["--version"], ["version"]):
             print(f"abvx-os {__version__}")
             return 0
