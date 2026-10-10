@@ -10,6 +10,8 @@ Owner-approved NORMAL thin adapter within OS ↔ Cortex scope. Reuses content ap
 4. `publication complete` checks native source/media, retained check logs, checked tree, HTTPS 200 HTML on `abvx.xyz` without redirects, canonical/title and authored prose. Then it records an immutable outcome and exports the numeric batch. Preview, handoff, merge or Vercel notification alone cannot pass. This verifies visible content, not Google's indexing or the deployed SHA.
 5. With `--cortex-root`, completion automatically admits the batch, recalls the same workflow/version and generates a model-free diagnosis. OS independently verifies the return against retained source batches. If Cortex is unavailable, the local outcome/batch stay available for `publication transfer`. Duplicate successful delivery is idempotent. Immutable files are installed atomically; rejected ID reuse preserves the previous item. Only batches cited by the bounded Cortex context are loaded during return validation.
 
+6. Before widening participation to a book phase, `publication verify-first-cycle` reuses exact-tree/log/source verification, independently revalidates the scoped Cortex return, and queries GitHub read-only for the latest Production deployment/status and associated merged site PR. The deployed SHA must exactly match the committed clean checked checkout and the site PR merge commit. It freshly probes approved prose and rejects a concurrent rollout. The ignored `first-cycle.json` binds deployment/status/PR evidence hashes, outcome/source-packet/context/review digests and public HTML digest. Missing, preview, pending, failed, unmerged or wrong-SHA evidence cannot pass. This point-in-time acceptance enables no book hook or business admission. An operator report alone is not a receipt.
+
 The operator/agent performs this closeout during the publishing workflow; the owner does not need to copy telemetry. This covers native Writing articles, video companion articles and Working Stories. RSS-only entries are outside the intake. Books can use reviewed outcomes; their automatic lifecycle hook is a later distinct milestone.
 
 ## Operator commands
@@ -23,11 +25,13 @@ python scripts/prepare_abvx_publication.py --source /absolute/post.md --id publi
 ./bin/abvx publication check --item publication-unique-id --site-root /Volumes/Work/Work/ABVXsite
 # Publish through the normal site release flow, wait for production, then close.
 ./bin/abvx publication complete --item publication-unique-id --site-root /Volumes/Work/Work/ABVXsite --owner-minutes UNKNOWN --rework-count 0 --cortex-root /Volumes/Work/Work/CortexABV-private
+# Verify the separate first-cycle gate only after a verified scoped return.
+./bin/abvx publication verify-first-cycle --item publication-unique-id --site-root /Volumes/Work/Work/ABVXsite --cortex-root /Volumes/Work/Work/CortexABV-private
 # Retry only the handoff if Cortex failed after the outcome was retained.
 ./bin/abvx publication transfer --item publication-unique-id --cortex-root /Volumes/Work/Work/CortexABV-private
 ```
 
-Use the selected Python environment. The commands do not install dependencies. Supply the actual rework count, not an assumed zero. No unattended harvesting of arbitrary site changes is enabled.
+Use the selected Python environment. The commands do not install dependencies. `verify-first-cycle` uses an already authenticated GitHub CLI with deployment/PR read access; it writes only ignored local proof and never triggers a deployment. If GitHub evidence is unavailable, native closeout remains recorded and first-cycle acceptance remains pending. GitHub environment/status reports and matching public content are point-in-time evidence, not continuous domain-alias monitoring. Endpoint reference: [GitHub deployment API](https://docs.github.com/en/rest/deployments/deployments#list-deployments). Supply the actual rework count, not an assumed zero. No unattended harvesting of arbitrary site changes is enabled.
 
 ## Measurement and privacy
 
@@ -41,6 +45,6 @@ Only opaque identifiers, numeric metrics, gate states and evidence hashes enter 
 
 ## Verification and release scope
 
-Tests cover automatic start, approval/handoff separation, altered-tree and complete-frontmatter rejection, fenced-code compatibility, interruption recovery, bounded source resolution, preview/wrong production text rejection, immutable metrics and idempotent OS → temporary Cortex → OS exchange. Cross-runtime fixtures never enter the canonical operational ledger.
+Tests cover automatic start, approval/handoff separation, altered-tree and complete-frontmatter rejection, fenced-code compatibility, interruption recovery, bounded source resolution, preview/wrong production text rejection, immutable metrics and idempotent OS → temporary Cortex → OS exchange. First-cycle tests use temporary Git checkouts and mocked deployment/merge, HTML and previously covered closeout/return seams; they cover binding/idempotency and reject mismatches, previews, pending rollouts, concurrent changes and synthetic/uncommitted input. They do not claim a real publication or live provider acceptance. Cross-runtime fixtures never enter the canonical operational ledger.
 
 This small release excludes unreviewed recovered Book Radar, Book Core, psychology and wider maintenance changes from OS PR #2. That recovery remains protected and open for separate review. Cortex PR #4 includes its reviewed ID contract and OS source, with inference, retention, private output and packet-identity boundaries repaired.

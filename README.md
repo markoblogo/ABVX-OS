@@ -104,4 +104,4 @@ For new ABVX.xyz Writing articles, video companions and Working Stories, the [pu
 
 ## Prepared book and business exchange rules
 
-[Book and business Cortex rules](docs/maintenance/BOOKS_BUSINESS_EXCHANGE_RULES_V1.md) define a first-real-publication acceptance gate, phase-scoped book outcomes and separate business supervision. Preparation grants no runtime activation; book capture and business transport are later bounded pilots.
+[Book and business Cortex rules](docs/maintenance/BOOKS_BUSINESS_EXCHANGE_RULES_V1.md) define a first-real-publication acceptance gate, phase-scoped book outcomes and separate business supervision. Preparation grants no runtime activation; book capture and business transport are later bounded pilots. Explicit first-cycle verification retains deployed-merge-SHA proof; the book export profile guards count, phase and workload before handoff.
