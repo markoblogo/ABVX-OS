@@ -77,7 +77,7 @@ For a fresh agent session, follow the compact read order in [AGENTS.md](AGENTS.m
 
 ## Development
 
-ABVX-OS uses the Python standard library for its core CLI.
+ABVX-OS keeps its core CLI dependency-light. Book Core and Book Radar outcome contracts use the pinned Draft 2020-12 validation runtime in `requirements-dev.txt`; reproducible checks are described in [Development checks](docs/development-checks.md).
 
 ```sh
 python3 -m pip install -r requirements-dev.txt
