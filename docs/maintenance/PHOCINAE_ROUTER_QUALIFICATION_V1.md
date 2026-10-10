@@ -1,6 +1,6 @@
 # Phocinae decision-router candidate v1
 
-Status: reference candidate, not installed or activated. Owner proposed the model during the OS/Cortex integration pass; broad adoption is not inferred from its benchmark numbers.
+Status: isolated Mac pilot completed on 2026-10-10; not qualified for the tested OS routing task. Weights/runtime are installed only under ignored `.tmp/phocinae-pilot-20261010/`; Cortex activation remains disabled. See [measured report](PHOCINAE_MAC_PILOT_2026-10-10.md).
 
 Primary sources checked:
 - https://huggingface.co/Phocinae/Phocinae-Largha-150M-v1
@@ -25,3 +25,7 @@ Keep it independent of the optional Ollama reasoner. Reuse the upstream Python e
 5. Enable only after held-out acceptance and owner approval, initially in shadow mode. Retain rejected cases; no automatic training or authority promotion.
 
 Do not delay the verified OS telemetry/retrieval integration for this optional candidate. This qualification is a later bounded experiment, not a second platform implementation.
+
+## Measured disposition
+
+Apple M4/16 GiB: CPU warm choice ≈30 ms, five-question request ≈113 ms; peak process memory 1.3–2.0 GB. The frozen OS routing holdout matched 34/48 cases; same-field deterministic rules matched 48/48. No confidence threshold qualified on the separate calibration set. A yes/no supplementary probe matched 7/12; option reversal changed 4/16 English decisions. Keep this a rejected domain qualification, with evidence retained and no automatic routing. The newly disclosed training/test overlap in the author card strengthens the need for an independent task-specific acceptance set.

@@ -653,11 +653,12 @@
       "locator": "https://huggingface.co/Phocinae/Phocinae-Largha-150M-v1",
       "capability_area": "Local confidence-based routing before optional Cortex analysis",
       "status": "PATTERN_SOURCE",
-      "evidence_basis": "Primary author model card/repository reviewed; Apache-2.0 specialised classifier; Mac/OS-specific quality and latency unverified",
+      "evidence_basis": "Pinned author weights/runtime reviewed and tested in an isolated Apple M4 pilot; warm CPU inference ~30 ms, but OS-routing qualification failed on synthetic held-out evidence",
       "evidence_refs": [
-        "docs/maintenance/PHOCINAE_ROUTER_QUALIFICATION_V1.md"
+        "docs/maintenance/PHOCINAE_ROUTER_QUALIFICATION_V1.md",
+        "docs/maintenance/PHOCINAE_MAC_PILOT_2026-10-10.md"
       ],
-      "notes": "Candidate only, not installed/adopted. Keep deterministic admission/policy first; require isolated calibration and held-out Mac evidence. It cannot generate RAG explanations, grant authority or establish safety."
+      "notes": "Isolated candidate only; not adopted or activated in Cortex. Same-field rules outperformed this routing adapter (48/48 versus 34/48). No calibration threshold qualified. Keep mandatory deterministic policy first; a later specialised task needs fresh held-out qualification. The model grants no authority."
     }
   ]
 }
