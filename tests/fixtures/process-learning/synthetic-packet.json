@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "kind": "CortexABVImportPacket",
+  "packetId": "synthetic-contract-batch",
+  "direction": "inbound_to_cortex_abv",
+  "source": {
+    "kind": "owned_project_ecosystem",
+    "id": "abvx-os"
+  },
+  "classification": "protected",
+  "dataKind": "abvx_os_process_outcomes",
+  "observedAt": "2026-10-10T02:00:00Z",
+  "provenance": [
+    {
+      "kind": "abvx_os_outcome_batch",
+      "ref": "synthetic-contract-batch",
+      "digest": "ffd38b2e180a3899cb723eaa26f3b8acab1ae389567399e829e4e091d2f87785"
+    }
+  ],
+  "permittedUse": [
+    "private_context"
+  ],
+  "returnAuthority": "none",
+  "payload": {
+    "schemaVersion": 1,
+    "kind": "AbvxOsProcessOutcomeBatch",
+    "tenant": "abvx-os",
+    "outcomes": [
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-0",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v1",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:40Z",
+        "status": "PASS",
+        "elapsedSeconds": 100,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-1",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v1",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:40Z",
+        "status": "PASS",
+        "elapsedSeconds": 100,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-2",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v1",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:40Z",
+        "status": "PASS",
+        "elapsedSeconds": 100,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-3",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v1",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:40Z",
+        "status": "PASS",
+        "elapsedSeconds": 100,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-4",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v1",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:40Z",
+        "status": "PASS",
+        "elapsedSeconds": 100,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-5",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v2",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:00Z",
+        "status": "PASS",
+        "elapsedSeconds": 60,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-6",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v2",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:00Z",
+        "status": "PASS",
+        "elapsedSeconds": 60,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-7",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v2",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:00Z",
+        "status": "PASS",
+        "elapsedSeconds": 60,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-8",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v2",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:00Z",
+        "status": "PASS",
+        "elapsedSeconds": 60,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      },
+      {
+        "schemaVersion": 1,
+        "kind": "AbvxOsProcessOutcome",
+        "tenant": "abvx-os",
+        "runId": "synthetic-run-9",
+        "workflowId": "os.maintenance",
+        "workflowVersion": "v2",
+        "origin": "SYNTHETIC",
+        "startedAt": "2026-10-10T00:00:00Z",
+        "completedAt": "2026-10-10T00:01:00Z",
+        "status": "PASS",
+        "elapsedSeconds": 60,
+        "ownerMinutes": 1,
+        "reworkCount": 0,
+        "qualityGate": "PASS",
+        "safetyGate": "PASS",
+        "evidence": [
+          {
+            "ref": "synthetic-check",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        ]
+      }
+    ]
+  }
+}

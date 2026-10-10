@@ -97,3 +97,7 @@ Source code and machine-readable schemas are available under the [MIT License](L
 
 _This block is generated from the reviewed ABVX ecosystem registry._
 <!-- ABVX:ECOSYSTEM:END -->
+
+## Publication learning with independent Cortex
+
+For new ABVX.xyz Writing articles, video companions and Working Stories, the [publication learning cycle](docs/maintenance/PUBLICATION_LEARNING_CYCLE_V1.md) starts a private session at intake and closes it after the site's checks and verified production content. Closeout records numeric measurements, admits them into independent Cortex ABV, retrieves relevant history and validates its model-free diagnosis. Owner effort can remain UNKNOWN; it cannot establish efficiency. Publishing stays under the site's own approval/release flow; no model, daemon or automatic adoption is enabled.

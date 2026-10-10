@@ -1,0 +1,46 @@
+{
+  "schema_version": "v1",
+  "id": "content-ops-004-abvx-working-story-dry-run",
+  "project": "abvxsite",
+  "surface": "working-stories",
+  "kind": "working-story",
+  "title": "Test-only Working Story",
+  "slug": "test-only-working-story",
+  "summary": "Synthetic validation only; never publish.",
+  "locales": [
+    "en"
+  ],
+  "adapter_id": "abvx.working-story",
+  "payload": {
+    "excerpt": "Dry-run only placeholder for native ABVX writing.",
+    "body_lines": [
+      "Original test-only prose."
+    ],
+    "tags": [
+      "ABVX",
+      "writing",
+      "placeholder"
+    ],
+    "topics": [
+      "quick validation",
+      "writing"
+    ],
+    "asset_refs": [],
+    "source_refs": [
+      "internal:dummy"
+    ],
+    "media_event_candidate": null,
+    "cover_image": null,
+    "image_alt": null,
+    "source_markdown": "---\n{\n  \"title\": \"Test-only Working Story\",\n  \"slug\": \"test-only-working-story\",\n  \"date\": \"2026-10-10\",\n  \"type\": \"working-story\",\n  \"series\": \"working-stories\",\n  \"story_id\": \"ws-999\",\n  \"cluster\": \"project-999\",\n  \"period\": null,\n  \"topics\": [\n    \"test-only\"\n  ],\n  \"book\": {\n    \"include\": false,\n    \"status\": \"excluded\"\n  },\n  \"visibility\": \"public\",\n  \"summary\": \"Synthetic validation only; never publish.\",\n  \"language\": \"en\"\n}\n---\n\nOriginal test-only prose.\n",
+    "source_sha256": "0dc518ee0fa0b6ded6bf988866c250d9ebad1b0fcf50dc058ec4fc763f0e8dc3",
+    "media_assets": [],
+    "date_published": "2026-10-10",
+    "language": "en"
+  },
+  "provenance": {
+    "recorded_by": "ABVX-PUBLISHING-004",
+    "source_uri": null,
+    "observed_at": "2026-10-10T00:00:00Z"
+  }
+}

@@ -224,12 +224,74 @@
         ]
       },
       "notes": [
-        "Designed for native ABVX writing inside the existing Writing archive, not a separate Notes product."
+        "Designed for native ABVX writing inside the existing Writing archive, not a separate Notes product.",
+        "Full-source packets preserve source_markdown and source_sha256, SEO title and reviewed local image mappings. Legacy text-only packets remain supported.",
+        "Reviewed YouTube companions include videoUrl and timezone-aware videoUploadedAt; the matching remote thumbnail is allowed. Renderer/consumer changes require full release checks, as documented in docs/abvx-site-publishing.md."
       ],
       "provenance": {
         "recorded_by": "CONTENT-OPS-002A",
         "source_uri": null,
         "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "abvx.working-story",
+      "project": "abvxsite",
+      "surface": "working-stories",
+      "mechanism": "Consumer-native Working Story command preserving approved Markdown and local media",
+      "consumer_repo": "/Volumes/Work/Work/ABVXsite",
+      "target": "scripts/publish-working-story.mjs",
+      "target_surface": "abvx.working-story",
+      "operation_id": "abvx.publish-working-story",
+      "publish_strategy": "consumer_command",
+      "readiness": "READY",
+      "readiness_reason": "Uses the existing Working Stories validator, file collection, feed and index generators.",
+      "required_assets": false,
+      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish-working-story -- --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish-working-story -- --packet <packet> --write",
+      "next_commands": [
+        "Inspect and approve the source-specific ABVX-OS packet.",
+        "Run the consumer dry-run in a clean ABVXsite checkout; review the media and content plan.",
+        "Apply the approved packet in that checkout.",
+        "Run npm run content:release-check; commit intended source and generated indexes in one PR.",
+        "After passing CI and Preview, use the approved site release flow; verify the merge SHA and public route, images, links, sitemap and indexes."
+      ],
+      "route_template": "/writing/working-stories/{slug}",
+      "default_author": "Anton BV",
+      "default_publisher": "ABVX",
+      "structured_data_type": "Article",
+      "default_sitemap_state": "INDEXABLE",
+      "default_indexability": "INDEXABLE",
+      "warnings": [
+        "Handoff is not production proof; assets are copied only by the consumer after explicit apply."
+      ],
+      "validation": {
+        "default_tier": "STANDARD",
+        "checks": [
+          "consumer dry-run with source hash, metadata and media checks",
+          "npm run content:release-check",
+          "production SHA and changed-route visual/discovery proof"
+        ],
+        "escalate_to_standard_on": [
+          "localization_exception",
+          "failed_targeted_validation",
+          "factual_conflict"
+        ],
+        "escalate_to_full_on": [
+          "structural_exception",
+          "new_content_type"
+        ],
+        "escalate_to_critical_on": [
+          "security_sensitive_change"
+        ]
+      },
+      "notes": [
+        "Follow docs/abvx-site-publishing.md and the site editorial checklist."
+      ],
+      "provenance": {
+        "recorded_by": "ABVX-PUBLISHING-004",
+        "source_uri": null,
+        "observed_at": "2026-10-10T00:00:00Z"
       }
     },
     {
