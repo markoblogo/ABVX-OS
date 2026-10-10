@@ -60,3 +60,7 @@ LoopX is not the ABVX control plane or a general workflow engine. It must not ow
 ## Independent publication experience
 
 Approved native ABVX Writing/Working Story intake starts a private local measurement session. The project's own checks and production content verification precede numeric outcome export. Independent Cortex admits only the selected protected batch and returns a model-free diagnostic; OS recomputes provenance on return. Cortex failure leaves recoverable local evidence and does not roll back publication. Publishing, model synthesis, measured optimization and business-runtime authority are separate gates. See `docs/maintenance/PUBLICATION_LEARNING_CYCLE_V1.md`.
+
+## Prepared domain extensions
+
+[Book/business exchange rules](docs/maintenance/BOOKS_BUSINESS_EXCHANGE_RULES_V1.md) reuse numeric OS book outcomes and reserve separately scoped business summaries. Business history does not enter the OS tenant. The plan awaits first-cycle acceptance and receiving-side contracts; it changes no admission, automatic capture or business authority.
