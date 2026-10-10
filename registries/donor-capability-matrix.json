@@ -646,6 +646,18 @@
         "books/factory/capability-map.json"
       ],
       "notes": "Reuse the smallest-useful-visual routing pattern under MIT. ABVX adds publishing-specific source, rights, format, representative-proof and human approval gates; it does not depend on the donor plugin at runtime."
+    },
+    {
+      "id": "phocinae-typed-decision-router",
+      "candidate": "Phocinae-Largha-150M-v1",
+      "locator": "https://huggingface.co/Phocinae/Phocinae-Largha-150M-v1",
+      "capability_area": "Local confidence-based routing before optional Cortex analysis",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "Primary author model card/repository reviewed; Apache-2.0 specialised classifier; Mac/OS-specific quality and latency unverified",
+      "evidence_refs": [
+        "docs/maintenance/PHOCINAE_ROUTER_QUALIFICATION_V1.md"
+      ],
+      "notes": "Candidate only, not installed/adopted. Keep deterministic admission/policy first; require isolated calibration and held-out Mac evidence. It cannot generate RAG explanations, grant authority or establish safety."
     }
   ]
 }

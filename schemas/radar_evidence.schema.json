@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/radar-evidence/v1",
+  "title": "ABVX Book Radar Evidence Record V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["evidence_id", "observed_at", "source_type", "source_name", "collection_method", "marketplace_or_catalog", "query", "entity", "raw_evidence_pointer", "normalized_value", "evidence_class", "confidence", "personalized_state", "location_context", "tool_version", "collector_version", "status", "error_class", "notes"],
+  "properties": {
+    "schema_version": {"const": "radar-evidence/v1"},
+    "evidence_id": {"type": "string", "minLength": 1},
+    "observed_at": {"type": "string", "format": "date-time"},
+    "source_type": {"enum": ["AMAZON", "CATALOG", "INSTITUTIONAL", "SEARCH_ENGINE", "THIRD_PARTY_DATA", "HUMAN", "ARCHIVE", "OTHER"]},
+    "source_name": {"type": "string", "minLength": 1},
+    "collection_method": {"enum": ["OFFICIAL_API", "CATALOGUE_QUERY", "MANUAL_WEB", "BROWSER_OBSERVATION", "FILE_IMPORT", "HUMAN_ENTRY", "OTHER"]},
+    "marketplace_or_catalog": {"type": "string", "minLength": 1},
+    "query": {"type": ["string", "null"]},
+    "entity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["entity_type", "label", "identifiers"],
+      "properties": {
+        "entity_type": {"enum": ["AUTHOR", "WORK", "EDITION", "ASIN", "SERIES", "QUERY", "OTHER"]},
+        "label": {"type": "string", "minLength": 1},
+        "identifiers": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "raw_evidence_pointer": {"type": "string", "minLength": 1},
+    "normalized_value": {"type": "object", "additionalProperties": true},
+    "evidence_class": {"enum": ["DIRECT_STRUCTURED_DATA", "DIRECT_PAGE_OBSERVATION", "THIRD_PARTY_HISTORICAL_DATA", "BIBLIOGRAPHIC_RECORD", "INSTITUTIONAL_SOURCE", "SEARCH_PROXY", "MANUAL_INPUT", "INFERENCE"]},
+    "confidence": {"enum": ["HIGH", "MEDIUM", "LOW", "UNKNOWN"]},
+    "personalized_state": {"enum": ["TRUE", "FALSE", "UNKNOWN"]},
+    "location_context": {"type": ["string", "null"]},
+    "tool_version": {"type": ["string", "null"]},
+    "collector_version": {"type": "string", "minLength": 1},
+    "status": {"enum": ["SUCCESS", "NO_RESULT", "COLLECTION_FAILED", "BLOCKED", "CAPTCHA", "UNSUPPORTED_MARKETPLACE", "AUTH_REQUIRED", "RATE_LIMITED", "UNKNOWN_FAILURE"]},
+    "error_class": {"type": ["string", "null"]},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}

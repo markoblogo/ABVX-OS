@@ -91,6 +91,40 @@ def audit_print_toc(extracted_text: str, waived: bool = False) -> dict:
     return {"status": "PASS" if present or waived else "FAIL", "present": present, "waived": waived}
 
 
+def audit_print_toc_parity(contents_text: str, entries: list[dict], actual_pages: dict[str, int]) -> dict:
+    """Compare visible print entries with final pagination and actual section pages."""
+    failures = []
+    if not audit_print_toc(contents_text)["present"]:
+        failures.append("visible_contents.missing")
+    if not entries:
+        failures.append("entries.missing")
+    normalized = re.sub(r"\s+", " ", contents_text)
+    cursor = 0
+    seen = set()
+    for entry in entries:
+        title, page = entry.get("title"), entry.get("page")
+        if not isinstance(title, str) or not title or title in seen or not isinstance(page, int):
+            failures.append("entries.invalid_or_duplicate")
+            continue
+        seen.add(title)
+        if actual_pages.get(title) != page:
+            failures.append(f"{title}.destination")
+        index = normalized.find(title, cursor)
+        if index < 0:
+            failures.append(f"{title}.missing_or_out_of_order")
+            continue
+        remainder = normalized[index+len(title):]
+        printed = re.search(r"\b(\d+)\b", remainder)
+        if not printed or int(printed.group(1)) != page:
+            failures.append(f"{title}.page_number")
+            cursor = index+len(title)
+        else:
+            cursor = index+len(title)+printed.end()
+    return {"status": "PASS" if not failures else "FAIL", "failures": failures,
+            "visible_contents": not any(item == "visible_contents.missing" for item in failures),
+            "entries_checked": len(entries)}
+
+
 def audit_epub_toc(path: Path, waived_reader_toc: bool = False) -> dict:
     with zipfile.ZipFile(path) as archive:
         names = set(archive.namelist())

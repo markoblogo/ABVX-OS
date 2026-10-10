@@ -1,0 +1,26 @@
+{
+  "schema_version": "abvx-book-state/v1",
+  "identity": {
+    "book_id": "synthetic-translation",
+    "book_type": "CONVENTIONAL_TRANSLATION",
+    "title": "UNKNOWN",
+    "source_type": "TRANSLATION",
+    "source_refs": [],
+    "languages": {"source": "fr", "target": "en"},
+    "series": null,
+    "rights_status": "UNKNOWN",
+    "target_formats": ["REFLOWABLE_KINDLE_DOCX"],
+    "target_retailers": ["KDP"],
+    "created_at": "2026-09-30T12:00:00Z"
+  },
+  "revision": 1,
+  "event_cursor": "e1",
+  "current_stage": "UNKNOWN",
+  "current_gate": "NOT_STARTED",
+  "locks": [],
+  "artifacts": [],
+  "validations": [],
+  "formats": [],
+  "owner_gates": [],
+  "extensions": {}
+}

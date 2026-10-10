@@ -1,0 +1,24 @@
+{
+  "book_two": {
+    "kindle": {
+      "status": "LIVE",
+      "asin": "B0HLJ9VMWB",
+      "evidence_path": "synthetic-retailer-evidence.txt",
+      "evidence_sha256": "098a94cc8ec4e82642184f62c9f37b5dfed58646c92ed796e2859a9ba8ec9d91"
+    },
+    "paperback": {
+      "status": "LIVE",
+      "asin": "B0HLLKRHRW",
+      "evidence_path": "synthetic-retailer-evidence.txt",
+      "evidence_sha256": "098a94cc8ec4e82642184f62c9f37b5dfed58646c92ed796e2859a9ba8ec9d91"
+    }
+  },
+  "series_retailer_state": {
+    "status": "LIVE",
+    "evidence_path": "synthetic-retailer-evidence.txt",
+    "evidence_sha256": "098a94cc8ec4e82642184f62c9f37b5dfed58646c92ed796e2859a9ba8ec9d91"
+  },
+  "book_three": {
+    "status": "NOT_STARTED"
+  }
+}

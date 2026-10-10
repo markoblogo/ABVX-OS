@@ -1,0 +1,318 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "book-radar-wide-cluster/v1"
+    },
+    "cluster_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1
+    },
+    "job": {
+      "type": "string",
+      "minLength": 1
+    },
+    "intent": {
+      "enum": [
+        "BOOK_BUYING_INTENT",
+        "BOOK_SERVED_LEARNING_INTENT",
+        "REFERENCE_INTENT",
+        "ENTERTAINMENT_READING_INTENT",
+        "GENERAL_INFORMATION_INTENT",
+        "NEWS_INTENT",
+        "PRODUCT_INTENT",
+        "NAVIGATIONAL_INTENT",
+        "UNKNOWN"
+      ]
+    },
+    "query": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bucket": {
+      "enum": [
+        "EVERGREEN_PRACTICAL",
+        "FAST_CHANGING_INFORMATION",
+        "PROFESSIONAL_TECHNICAL",
+        "HOBBY_ENTHUSIAST",
+        "REFERENCE_UTILITY",
+        "LANGUAGE_LEARNING",
+        "CULTURAL_READING",
+        "FICTION_GENRE",
+        "EMERGING_COMMUNITY",
+        "OTHER"
+      ]
+    },
+    "mechanism": {
+      "enum": [
+        "LONG_TAIL_SEARCH",
+        "LOW_SUPPLY_LANGUAGE",
+        "FAST_INFORMATION_DECAY",
+        "PROFESSIONAL_CHANGE",
+        "HOBBY_UTILITY",
+        "REFERENCE_UTILITY",
+        "SERIES_COLLECTION",
+        "COMMUNITY_IDENTITY",
+        "EVENT_DRIVEN",
+        "EVERGREEN_PROBLEM",
+        "OTHER"
+      ]
+    },
+    "market": {
+      "enum": [
+        "Amazon.com",
+        "Amazon.fr"
+      ]
+    },
+    "language": {
+      "enum": [
+        "EN",
+        "FR"
+      ]
+    },
+    "raw_signals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "raw_signal_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "query_family": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "evidence_origins": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "source_families": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "corroboration": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "CORROBORATED",
+            "WEAK",
+            "CONTRADICTED",
+            "UNKNOWN"
+          ]
+        },
+        "current_independent_origins": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "status",
+        "current_independent_origins",
+        "evidence_ids"
+      ]
+    },
+    "quick_screen": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "activity_evidence": {
+      "type": "object"
+    },
+    "entrant_signal": {
+      "type": "object"
+    },
+    "incumbent_signal": {
+      "type": "object"
+    },
+    "sponsored_signal": {
+      "type": "object"
+    },
+    "query_relevance": {
+      "type": "object"
+    },
+    "freshness": {
+      "enum": [
+        "FRESH",
+        "RECENT",
+        "STALE",
+        "UNKNOWN"
+      ]
+    },
+    "time_to_market": {
+      "type": "object"
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "research_cost": {
+      "type": "object"
+    },
+    "stage": {
+      "enum": [
+        "RAW",
+        "NORMALIZE",
+        "CORROBORATE",
+        "QUICK_SCREEN",
+        "QUEUE"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "KILL",
+        "PARK",
+        "INVESTIGATE"
+      ]
+    },
+    "decision_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "next_required_evidence": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "interpretation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kill_record": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "park": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "late_factory_cost_class": {
+      "enum": [
+        "VERY_LOW",
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "UNKNOWN"
+      ]
+    },
+    "origin": {
+      "enum": [
+        "SYNTHETIC",
+        "RETAINED"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "cluster_id",
+    "audience",
+    "job",
+    "intent",
+    "query",
+    "subject",
+    "category",
+    "bucket",
+    "mechanism",
+    "market",
+    "language",
+    "raw_signals",
+    "raw_signal_count",
+    "query_family",
+    "evidence_origins",
+    "source_families",
+    "corroboration",
+    "quick_screen",
+    "activity_evidence",
+    "entrant_signal",
+    "incumbent_signal",
+    "sponsored_signal",
+    "query_relevance",
+    "freshness",
+    "time_to_market",
+    "unknowns",
+    "contradictions",
+    "research_cost",
+    "stage",
+    "decision",
+    "decision_reason",
+    "decision_evidence",
+    "next_required_evidence",
+    "interpretation",
+    "kill_record",
+    "park",
+    "late_factory_cost_class",
+    "origin"
+  ]
+}
