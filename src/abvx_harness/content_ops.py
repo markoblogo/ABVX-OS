@@ -458,7 +458,7 @@ def _approval_fingerprint(item: dict[str, Any]) -> str:
               "payload", "adapter", "consumer_operation", "validation", "enrichment", "artifact_refs", "provenance")
     content = {key: item[key] for key in fields}
     # The emitted packet reference is derived state, not a change to approved content.
-    content["artifact_refs"] = [ref for ref in item["artifact_refs"] if ref != f"content/publish-packets/{item["id"]}.json"]
+    content["artifact_refs"] = [ref for ref in item["artifact_refs"] if ref != f"content/publish-packets/{item['id']}.json"]
     return hashlib.sha256(json.dumps(content, sort_keys=True, separators=(",", ":"),
                                      ensure_ascii=False).encode("utf-8")).hexdigest()
 
