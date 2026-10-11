@@ -100,7 +100,7 @@ _This block is generated from the reviewed ABVX ecosystem registry._
 
 ## Publication learning with independent Cortex
 
-For new ABVX.xyz Writing articles, video companions and Working Stories, the [publication learning cycle](docs/maintenance/PUBLICATION_LEARNING_CYCLE_V1.md) starts a private session at intake and closes it after the site's checks and verified production content. Closeout records numeric measurements, admits them into independent Cortex ABV, retrieves relevant history and validates its model-free diagnosis. Owner effort can remain UNKNOWN; it cannot establish efficiency. Publishing stays under the site's own approval/release flow; no model, daemon or automatic adoption is enabled.
+For new ABVX.xyz Writing articles, video companions and Working Stories, the [publication learning cycle](docs/maintenance/PUBLICATION_LEARNING_CYCLE_V1.md) starts one private cycle at the first work after a publish command, before intake, and closes it after checks, all production pages and the deployed merge SHA are verified. Single posts and pools use separate workload profiles; a pool produces one observation and can share one frozen-tree check/PR/deployment. Closeout records numeric measurements, admits them into independent Cortex ABV, retrieves relevant history and validates its model-free diagnosis. Owner effort remains UNKNOWN; v2 evaluates publication latency and rework, without asserting labor savings. Legacy/book effort gates remain unchanged. Publishing stays under the site's own approval/release flow; no model, daemon or automatic adoption is enabled.
 
 ## Prepared book and business exchange rules
 
