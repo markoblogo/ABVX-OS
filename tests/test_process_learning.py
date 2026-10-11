@@ -81,7 +81,7 @@ class ElapsedPolicyTests(unittest.TestCase):
         from abvx_harness.process_learning import ELAPSED_POLICY, elapsed_only
         row = {**outcome(), 'workflowId':'site.content.publish', 'workflowVersion':'publication-v2-baseline',
                'evidence':[ELAPSED_POLICY, {'ref':'cycle:synthetic-run','sha256':'b'*64},
-                           {'ref':'workload:publication-profile','sha256':'c'*64}]}
+                           {'ref':'workload:publication-profile','sha256':'c'*64},{'ref':'production:deployed-sha','sha256':'d'*64}]}
         self.assertTrue(elapsed_only(validate_outcome(row)))
         for change in ({'workflowId':'book.production'}, {'workflowVersion':'publication-v1'},
                        {'evidence':[{'ref':ELAPSED_POLICY['ref'],'sha256':'0'*64}]}):
@@ -106,11 +106,19 @@ class ElapsedPolicyTests(unittest.TestCase):
                'origin':'OBSERVED','elapsedSeconds':10 if i<5 else 5,
                'completedAt':'2026-10-10T00:00:10Z' if i<5 else '2026-10-10T00:00:05Z',
                'evidence':[ELAPSED_POLICY,{'ref':f'cycle:synthetic-{i}','sha256':digest({'cycle':i})},
-                           {'ref':'workload:publication-profile','sha256':'c'*64}]}
+                           {'ref':'workload:publication-profile','sha256':'c'*64},{'ref':'production:deployed-sha','sha256':'d'*64}]}
+            from datetime import datetime,timezone,timedelta
+            start=datetime(2026,10,10,tzinfo=timezone.utc)+timedelta(seconds=i*20)
+            r.update(startedAt=start.isoformat(timespec='milliseconds').replace('+00:00','Z'),completedAt=(start+timedelta(seconds=r['elapsedSeconds'])).isoformat(timespec='milliseconds').replace('+00:00','Z'))
+            r['evidence'][-1]['sha256']=digest({'release':i})
             rows.append(r)
         candidate={'proposalId':'synthetic-latency','workflowId':'site.content.publish','baselineVersion':'publication-v2-baseline','candidateVersion':'publication-v2-early-input','change':'EARLY_INPUT_VALIDATION','baselineRunIds':[r['runId'] for r in rows[:5]],'heldOutRunIds':[r['runId'] for r in rows[5:]]}
+        series={'schemaVersion':1,'kind':'AbvxPublicationTrialSeries','seriesId':'synthetic-series','createdAt':'2026-10-09T00:00:00Z',**{k:candidate[k] for k in ('baselineVersion','candidateVersion','change','baselineRunIds','heldOutRunIds')}}
+        for r in rows:r['evidence'].append({'ref':'trial:publication-series','sha256':digest(series)})
         # Observed-shaped test evidence never touches a ledger or canonical runtime.
         cases=[(None,'PENDING_OWNER_REVIEW'),
+               (lambda r:r[5].update(startedAt='2026-10-10T00:00:00.000Z',completedAt='2026-10-10T00:00:05.000Z'),'BLOCKED_INSUFFICIENT_EVIDENCE'),
+               (lambda r:r[5]['evidence'][3].update(sha256=r[0]['evidence'][3]['sha256']),'BLOCKED_INSUFFICIENT_EVIDENCE'),
                (lambda r:r[5]['evidence'][1].update(sha256=r[0]['evidence'][1]['sha256']),'BLOCKED_INSUFFICIENT_EVIDENCE'),
                (lambda r:r[5].update(safetyGate='FAIL'),'BLOCKED_INSUFFICIENT_EVIDENCE'),
                (lambda r:[row.update(reworkCount=1) for row in r[5:]],'BLOCKED_INSUFFICIENT_EVIDENCE'),
@@ -120,6 +128,21 @@ class ElapsedPolicyTests(unittest.TestCase):
             altered=copy.deepcopy(rows)
             if edit:edit(altered)
             packet=build_packet(altered,'synthetic-latency','2026-10-10T01:00:00Z')
-            process=subprocess.run(['node','--input-type=module','-e',script],cwd=cortex,input=json.dumps({'packet':packet,'candidate':candidate}),text=True,capture_output=True,check=True)
+            process=subprocess.run(['node','--input-type=module','-e',script],cwd=cortex,input=json.dumps({'packet':packet,'candidate':candidate,'series':series}),text=True,capture_output=True,check=True)
             proposal=json.loads(process.stdout)
-            self.assertEqual(inspect_proposal(packet,proposal,'publication-v2-baseline')['status'],status)
+            self.assertEqual(inspect_proposal(packet,proposal,'publication-v2-baseline',series)['status'],status)
+
+    def test_full_cycle_run_identifier_fits_evidence_refs(self):
+        from abvx_harness.process_learning import ELAPSED_POLICY
+        for length in (114,115,120):
+            run='r'*length
+            row={**outcome(),'runId':run,'workflowId':'site.content.publish','workflowVersion':'publication-v2-baseline','evidence':[ELAPSED_POLICY,{'ref':'cycle:'+run,'sha256':'b'*64},{'ref':'workload:publication-profile','sha256':'c'*64},{'ref':'production:deployed-sha','sha256':'d'*64}]}
+            self.assertEqual(validate_outcome(row),row)
+
+    def test_os_rejects_a_digest_valid_proposal_for_the_wrong_intervention(self):
+        root=Path(__file__).parent/'fixtures/process-learning'
+        packet=json.loads((root/'synthetic-packet.json').read_text())
+        proposal=json.loads((root/'synthetic-proposal.json').read_text())
+        proposal.update(workflowId='site.content.publish',baselineVersion='publication-v2-baseline',candidateVersion='publication-v2-reuse-context',change='EARLY_INPUT_VALIDATION')
+        proposal['proposalDigest']=digest({k:v for k,v in proposal.items() if k!='proposalDigest'})
+        with self.assertRaisesRegex(ValueError,'intervention'):inspect_proposal(packet,proposal,'publication-v2-baseline')

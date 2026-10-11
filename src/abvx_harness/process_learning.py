@@ -70,14 +70,16 @@ ELAPSED_POLICY = {'ref':'measurement:publication-elapsed-v2', 'sha256':digest({
     'version':2,'workflow':'site.content.publish','objective':'elapsedSeconds',
     'start':'first-work-after-publish-command','end':'verified-production',
     'unit':'one-independent-cycle','ownerMinutes':'optional-UNKNOWN'})}
-PUBLICATION_VERSIONS = {'publication-v2-'+suffix for suffix in ('baseline','early-input','batch-validation','reuse-context')}
+PUBLICATION_CHANGES = {'publication-v2-early-input':'EARLY_INPUT_VALIDATION','publication-v2-batch-validation':'BATCH_VALIDATION','publication-v2-reuse-context':'REUSE_VERIFIED_CONTEXT'}
+PUBLICATION_VERSIONS = {'publication-v2-baseline',*PUBLICATION_CHANGES}
 
 def elapsed_only(row):
     return row['workflowId']=='site.content.publish' and row['workflowVersion'] in PUBLICATION_VERSIONS and ELAPSED_POLICY in row['evidence']
 
 def independent_cycles(rows):
     cycles=[e['sha256'] for r in rows if elapsed_only(r) for e in r['evidence'] if e['ref'].startswith('cycle:')]
-    return len(cycles)==len(set(cycles))
+    releases=[e['sha256'] for r in rows if elapsed_only(r) and r['status']=='PASS' for e in r['evidence'] if e['ref']=='production:deployed-sha']
+    return len(cycles)==len(set(cycles)) and len(releases)==len(set(releases))
 
 
 def validate_outcome(value):
@@ -100,7 +102,7 @@ def validate_outcome(value):
     if not isinstance(value['evidence'], list) or not 1 <= len(value['evidence']) <= 20:
         raise ValueError('Process evidence required')
     for ref in value['evidence']:
-        _shape(ref, {'ref','sha256'}); _id(ref['ref'])
+        _shape(ref, {'ref','sha256'}); _id(ref['ref'][6:] if isinstance(ref['ref'],str) and ref['ref'].startswith('cycle:') else ref['ref'])
         if not isinstance(ref['sha256'], str) or not re.fullmatch('[a-f0-9]{64}', ref['sha256']):
             raise ValueError('Invalid evidence digest')
     markers=[e for e in value['evidence'] if e['ref']==ELAPSED_POLICY['ref']]
@@ -109,6 +111,7 @@ def validate_outcome(value):
         profiles=[e for e in value['evidence'] if e['ref'].startswith('workload:')]
         if markers != [ELAPSED_POLICY] or not elapsed_only(value) or len(cycles)!=1 or cycles[0]['ref']!='cycle:'+value['runId'] or len(profiles)!=1 or profiles[0]['ref']!='workload:publication-profile':
             raise ValueError('Bound elapsed-only publication cycle required')
+        if value['status']=='PASS' and len([e for e in value['evidence'] if e['ref']=='production:deployed-sha'])!=1:raise ValueError('Independent production release evidence required')
     return value
 
 
@@ -171,7 +174,21 @@ def validate_packet(packet):
     return packet
 
 
-def inspect_proposal(packet, proposal, current_version):
+def validate_series(series):
+    _shape(series, {'schemaVersion','kind','seriesId','createdAt','change','baselineVersion','candidateVersion','baselineRunIds','heldOutRunIds'})
+    if type(series['schemaVersion']) is not int or series['schemaVersion']!=1 or series['kind']!='AbvxPublicationTrialSeries' or series['baselineVersion']!='publication-v2-baseline' or PUBLICATION_CHANGES.get(series['candidateVersion'])!=series['change']:
+        raise ValueError('Publication intervention mismatch')
+    _id(series['seriesId']);_time(series['createdAt'])
+    ids=[]
+    for key in ('baselineRunIds','heldOutRunIds'):
+        rows=series[key]
+        if not isinstance(rows,list) or not 5<=len(rows)<=20:raise ValueError('Declare 5–20 cycles per cohort')
+        for rid in rows:_id(rid)
+        ids+=rows
+    if len(set(ids))!=len(ids):raise ValueError('Distinct declared trial cycles required')
+    return series
+
+def inspect_proposal(packet, proposal, current_version, series=None):
     validate_packet(packet); _shape(proposal, PROPOSAL_KEYS); _id(current_version)
     material = {k:v for k,v in proposal.items() if k != 'proposalDigest'}
     if proposal['proposalDigest'] != digest(material):
@@ -187,6 +204,8 @@ def inspect_proposal(packet, proposal, current_version):
         raise ValueError('Optimization source batch mismatch')
     if proposal['workflowId'] not in WORKFLOWS or proposal['change'] not in {'BATCH_VALIDATION','REUSE_VERIFIED_CONTEXT','EARLY_INPUT_VALIDATION'}:
         raise ValueError('Unsupported optimization scope')
+    publication = proposal['workflowId']=='site.content.publish' and (proposal['baselineVersion'] in PUBLICATION_VERSIONS or proposal['candidateVersion'] in PUBLICATION_VERSIONS)
+    if publication and (proposal['baselineVersion']!='publication-v2-baseline' or PUBLICATION_CHANGES.get(proposal['candidateVersion'])!=proposal['change']):raise ValueError('Publication intervention mismatch')
     ids=[]; groups=[]
     lookup={r['runId']:r for r in packet['payload']['outcomes']}
     for key, version in [('baselineRunIds',current_version),('heldOutRunIds',proposal['candidateVersion'])]:
@@ -212,6 +231,13 @@ def inspect_proposal(packet, proposal, current_version):
     reasons=[]; all_rows=sum(groups, [])
     if len({tuple(sorted((e['ref'],e['sha256']) for e in ( [e for e in row['evidence'] if e['ref'].startswith('workload:')] or row['evidence'] ))) for row in all_rows})>1 or len({elapsed_only(row) for row in all_rows})>1: reasons.append('WORKLOAD_NOT_COMPARABLE')
     if any(len(rows)<5 for rows in groups) or not independent_cycles(all_rows): reasons.append('INSUFFICIENT_INDEPENDENT_RUNS')
+    if publication:
+        coverage=False
+        if series is not None:
+            validate_series(series)
+            coverage=all(series[k]==proposal[k] for k in ('baselineVersion','candidateVersion','change')) and all(set(series[k])==set(proposal[k]) for k in ('baselineRunIds','heldOutRunIds')) and all({'ref':'trial:publication-series','sha256':digest(series)} in r['evidence'] and _time(series['createdAt'])<=_time(r['startedAt']) for r in all_rows)
+        if not coverage:reasons.append('TRIAL_COVERAGE_NOT_ESTABLISHED')
+        if groups[0] and groups[1] and max(_time(r['completedAt']) for r in groups[0])>=min(_time(r['startedAt']) for r in groups[1]):reasons.append('TRIAL_ORDER_NOT_ESTABLISHED')
     if any(r['status']!='PASS' or r['qualityGate']!='PASS' or r['safetyGate']!='PASS' for r in all_rows): reasons.append('QUALITY_OR_SAFETY_NOT_ESTABLISHED')
     if any(r['ownerMinutes']=='UNKNOWN' and not elapsed_only(r) for r in all_rows): reasons.append('OWNER_EFFORT_UNKNOWN')
     if before and after:
@@ -348,7 +374,7 @@ def record_check(root, check, record_path):
 def main(argv=None, root=None):
     parser=argparse.ArgumentParser(description=__doc__); sub=parser.add_subparsers(dest='action',required=True)
     export=sub.add_parser('export'); export.add_argument('--outcomes',required=True);export.add_argument('--packet-id',required=True);export.add_argument('--observed-at',required=True);export.add_argument('--out',required=True);export.add_argument('--profile',choices=['book-phase-v1'])
-    review=sub.add_parser('inspect-proposal');review.add_argument('--packet',required=True);review.add_argument('--proposal',required=True);review.add_argument('--current-version',required=True)
+    review=sub.add_parser('inspect-proposal');review.add_argument('--packet',required=True);review.add_argument('--proposal',required=True);review.add_argument('--current-version',required=True);review.add_argument('--series')
     suggestion=sub.add_parser('inspect-candidate');suggestion.add_argument('--context',required=True);suggestion.add_argument('--candidate',required=True);suggestion.add_argument('--current-version',required=True);suggestion.add_argument('--packets',required=True)
     record=sub.add_parser('record-check');record.add_argument('check',choices=['isolated-books','maintenance-tests','contract-checks']);record.add_argument('--out',required=True)
     args=parser.parse_args(argv)
@@ -359,7 +385,7 @@ def main(argv=None, root=None):
         packet=builder(rows,args.packet_id,args.observed_at);_write_once(args.out,packet)
         print(f'Prepared protected OS packet: {len(packet["payload"]["outcomes"])} outcomes. No import performed.')
     elif args.action=='inspect-proposal':
-        value=inspect_proposal(json.loads(Path(args.packet).read_text()),json.loads(Path(args.proposal).read_text()),args.current_version)
+        value=inspect_proposal(json.loads(Path(args.packet).read_text()),json.loads(Path(args.proposal).read_text()),args.current_version,json.loads(Path(args.series).read_text()) if args.series else None)
         print(json.dumps(value,sort_keys=True))
     elif args.action=='inspect-candidate':
         value=inspect_candidate(json.loads(Path(args.context).read_text()),json.loads(Path(args.candidate).read_text()),args.current_version,json.loads(Path(args.packets).read_text()))

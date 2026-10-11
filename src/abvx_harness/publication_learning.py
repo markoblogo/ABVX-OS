@@ -5,7 +5,7 @@ from datetime import datetime,timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request,build_opener,HTTPRedirectHandler
-from .process_learning import _id,_integer,_time,_write_once,build_packet,digest,validate_outcome,validate_packet,inspect_candidate,ELAPSED_POLICY,PUBLICATION_VERSIONS
+from .process_learning import _id,_integer,_time,_write_once,build_packet,digest,validate_outcome,validate_packet,inspect_candidate,ELAPSED_POLICY,PUBLICATION_VERSIONS,PUBLICATION_CHANGES,validate_series
 from .content_ops import _load_item,_approval_fingerprint
 
 VERSION='publication-v1'
@@ -17,35 +17,128 @@ def folder(root,item_id):
  if target.resolve()!=target:raise ValueError('Symlink publication state forbidden')
  return target
 
-def begin_cycle(root,run_id,item_ids,*,trial='baseline'):
+def begin_cycle(root,run_id,item_ids,*,trial='baseline',series_id=None):
  # Serialize membership reservations; concurrent commands cannot claim the same material.
  lock=folder(root,'cycle-lock')/'begin.lock';lock.parent.mkdir(parents=True,exist_ok=True)
  if lock.is_symlink():raise ValueError('Symlink cycle lock forbidden')
  with lock.open('a') as handle:
   fcntl.flock(handle,fcntl.LOCK_EX)
-  return _begin_cycle(root,run_id,item_ids,trial=trial)
+  _recover_reservation(root)
+  return _begin_cycle(root,run_id,item_ids,trial=trial,series_id=series_id)
 
-def _begin_cycle(root,run_id,item_ids,*,trial='baseline'):
+def _begin_cycle(root,run_id,item_ids,*,trial='baseline',series_id=None):
  """First work after publication authorization, before preparation; never backdate."""
+ if len(run_id)>108 or 'cycle-lock' in [run_id,*item_ids]:raise ValueError('Reserve namespace and packet-prefix capacity')
+ if trial=='batch-validation' and len(item_ids)<2:raise ValueError('Batch-validation requires a pool')
  if trial not in CYCLE_VERSIONS:raise ValueError('One controlled trial or baseline required')
  if not isinstance(item_ids,list) or not 1<=len(item_ids)<=20 or len(set(item_ids))!=len(item_ids) or run_id in item_ids:
   raise ValueError('Select 1–20 unique items and a distinct cycle ID')
  if any(not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',i) for i in [run_id,*item_ids]):raise ValueError('Publication slugs required')
  target=folder(root,run_id)/'cycle.json'
- if target.is_symlink() or (target.parent/'outcome.json').exists() or (target.parent/'session.json').exists():raise ValueError('Use a fresh cycle ID')
+ if target.is_symlink() or (target.parent/'outcome.json').exists() or (target.parent/'session.json').exists() or (target.parent/'cycle-claim.json').exists():raise ValueError('Use a fresh cycle ID')
  value={'schemaVersion':2,'kind':'AbvxPublicationCycle','runId':run_id,'itemIds':sorted(item_ids),
         'mode':'single' if len(item_ids)==1 else 'batch','workflowVersion':CYCLE_VERSIONS[trial],'startedAt':utc()}
  claims=[folder(root,i)/'cycle-claim.json' for i in item_ids]
  claim={'runId':run_id}
  for i,path in zip(item_ids,claims):
+  if (path.parent/'cycle.json').exists():raise ValueError('Cycle IDs cannot be intake members')
   if path.is_symlink():raise ValueError('Symlink membership claim forbidden')
   if path.exists() and json.loads(path.read_text())!=claim:raise ValueError('Item already belongs to another independent cycle')
   if not target.exists() and (folder(root,i)/'session.json').exists():raise ValueError('Begin before intake; historical timing cannot be reconstructed')
  if target.exists():
   previous=json.loads(target.read_text());_time(previous.get('startedAt'));value['startedAt']=previous['startedAt']
- _write_once(target,value)
- for path in claims:_write_once(path,claim)
+ if series_id:
+  series=validate_series(json.loads(series_path(root,series_id).read_text()))
+  key='baselineRunIds' if trial=='baseline' else 'heldOutRunIds'
+  if run_id not in series[key] or value['workflowVersion']!=series['baselineVersion' if key=='baselineRunIds' else 'candidateVersion']:raise ValueError('Cycle outside declared trial/version')
+  if _time(series['createdAt'])>_time(value['startedAt']):raise ValueError('Series must precede work')
+  if key=='heldOutRunIds':
+   for previous in series['baselineRunIds']:
+    previous_file=folder(root,previous)/'outcome.json'
+    if not previous_file.exists():raise ValueError('Finish every declared baseline cycle before held-out work')
+    row=validate_outcome(json.loads(previous_file.read_text()))
+    if _time(row['completedAt'])>=_time(value['startedAt']):raise ValueError('Finish baseline before held-out work')
+  value['trialSeries']={'id':series_id,'sha256':digest(series)}
+ _write_once(folder(root,'cycle-lock')/'pending.json',value)
+ _recover_reservation(root)
  return value
+
+def _recover_reservation(root):
+ pending=folder(root,'cycle-lock')/'pending.json'
+ if not pending.exists():return
+ if pending.is_symlink():raise ValueError('Symlink reservation journal forbidden')
+ value=json.loads(pending.read_text());run=value['runId'];items=value['itemIds']
+ if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',run) or len(run)>108 or not isinstance(items,list) or not 1<=len(items)<=20 or len(set(items))!=len(items) or run in items or 'cycle-lock' in [run,*items]:raise ValueError('Invalid pending reservation')
+ _time(value['startedAt'])
+ if value['workflowVersion'] not in PUBLICATION_VERSIONS or value['mode']!=('single' if len(items)==1 else 'batch'):raise ValueError('Invalid pending cycle')
+ for item in items:
+  if not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',item):raise ValueError('Invalid pending member')
+  target=folder(root,item)/'cycle-claim.json'
+  if target.is_symlink() or (target.parent/'cycle.json').exists():raise ValueError('Conflicting pending namespace')
+  _write_once(target,{'runId':run})
+ target=folder(root,run)/'cycle.json'
+ if target.is_symlink() or (target.parent/'cycle-claim.json').exists():raise ValueError('Conflicting pending namespace')
+ _write_once(target,value);pending.unlink()
+
+def series_path(root,series_id):
+ if not isinstance(series_id,str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',series_id) or len(series_id)>108:raise ValueError('Safe series ID required')
+ target=root.resolve()/'.tmp/publication-trials'/f'{series_id}.json'
+ if target.resolve()!=target:raise ValueError('Symlink trial state forbidden')
+ return target
+
+def begin_series(root,series_id,change,baseline_runs,held_out_runs):
+ lock=folder(root,'cycle-lock')/'begin.lock';lock.parent.mkdir(parents=True,exist_ok=True)
+ if lock.is_symlink():raise ValueError('Symlink cycle lock forbidden')
+ with lock.open('a') as handle:
+  fcntl.flock(handle,fcntl.LOCK_EX);_recover_reservation(root)
+  return _begin_series(root,series_id,change,baseline_runs,held_out_runs)
+
+def _begin_series(root,series_id,change,baseline_runs,held_out_runs):
+ candidates=[v for v,c in PUBLICATION_CHANGES.items() if c==change]
+ if len(candidates)!=1:raise ValueError('One supported intervention required')
+ target=series_path(root,series_id)
+ series={'schemaVersion':1,'kind':'AbvxPublicationTrialSeries','seriesId':series_id,'createdAt':utc(),
+         'change':change,'baselineVersion':'publication-v2-baseline','candidateVersion':candidates[0],
+         'baselineRunIds':baseline_runs,'heldOutRunIds':held_out_runs}
+ validate_series(series)
+ if any(not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',i) or len(i)>108 for i in baseline_runs+held_out_runs):raise ValueError('Safe producer cycle IDs required')
+ if target.exists():series['createdAt']=json.loads(target.read_text())['createdAt']
+ elif any((folder(root,i)/'cycle.json').exists() for i in baseline_runs+held_out_runs):raise ValueError('Declare complete series before first work')
+ _write_once(target,series);return series
+
+def trial_evidence(root,cycle):
+ binding=cycle.get('trialSeries')
+ if not binding:return []
+ if not isinstance(binding,dict) or set(binding)!={'id','sha256'}:raise ValueError('Invalid series binding')
+ series=validate_series(json.loads(series_path(root,binding['id']).read_text()))
+ if digest(series)!=binding['sha256']:raise ValueError('Trial series changed')
+ expected=series['baselineRunIds'] if cycle['workflowVersion']==series['baselineVersion'] else series['heldOutRunIds']
+ if cycle['runId'] not in expected or _time(series['createdAt'])>_time(cycle['startedAt']):raise ValueError('Cycle outside preregistered series')
+ return [{'ref':'trial:publication-series','sha256':digest(series)}]
+
+def abort_cycle(root,run_id,*,status,rework_count,cortex_root=None):
+ if status not in ('FAIL','CANCELLED'):raise ValueError('Explicit terminal failure/cancellation required')
+ _integer(rework_count);directory=folder(root,run_id);cycle=json.loads((directory/'cycle.json').read_text())
+ if cycle.get('runId')!=run_id or cycle.get('workflowVersion') not in PUBLICATION_VERSIONS:raise ValueError('Started cycle required')
+ profile=[];origins=set()
+ for item_id in cycle['itemIds']:
+  path=folder(root,item_id)/'session.json'
+  if path.exists():
+   session=json.loads(path.read_text());profile.append(session['workload']);origins.add(session['origin'])
+ if len(origins)>1:raise ValueError('Cannot mix synthetic and observed failures')
+ target=directory/'outcome.json';end=utc()
+ if target.exists():end=json.loads(target.read_text())['completedAt']
+ row={'schemaVersion':1,'kind':'AbvxOsProcessOutcome','tenant':'abvx-os','runId':run_id,
+      'workflowId':'site.content.publish','workflowVersion':cycle['workflowVersion'],'origin':next(iter(origins),'OBSERVED'),
+      'startedAt':cycle['startedAt'],'completedAt':end,'status':status,
+      'elapsedSeconds':round((_time(end)-_time(cycle['startedAt'])).total_seconds(),6),
+      'ownerMinutes':'UNKNOWN','reworkCount':rework_count,'qualityGate':'UNKNOWN','safetyGate':'UNKNOWN',
+      'evidence':[ELAPSED_POLICY,{'ref':'cycle:'+run_id,'sha256':digest(cycle)},
+                  {'ref':'workload:publication-profile','sha256':digest({'mode':cycle['mode'],'items':sorted(profile,key=digest),'incomplete':True})},*trial_evidence(root,cycle)]}
+ validate_outcome(row);_write_once(target,row);_write_once(directory/'batch.json',build_packet([row],'publication:'+run_id,end))
+ if cortex_root:transfer_publication(root,run_id,cortex_root)
+ return row
+
 
 def start_publication(root,item,origin):
  if item['project']!='abvxsite' or item['adapter']['id'] not in ('abvx.writing','abvx.working-story'):return
@@ -194,12 +287,16 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
  if not isinstance(items,list) or not 1<=len(items)<=20 or len(set(items))!=len(items) or run_id in items or cycle.get('mode')!=('single' if len(items)==1 else 'batch'):
   raise ValueError('Bound cycle members required')
  site=Path(site).resolve();sha=clean_site_sha(site);deployment=deployment_snapshot(sha);tree=tree_digest(site)
- proofs=[];profiles=[];origins=set()
+ if _time(deployment.get('deploymentCreatedAt'))<_time(cycle['startedAt']):raise ValueError('Production release predates this publication cycle')
+ proofs=[];profiles=[];origins=set();shared_checks=None
  for item_id in items:
   if json.loads((folder(root,item_id)/'cycle-claim.json').read_text())!={'runId':run_id} or (folder(root,item_id)/'outcome.json').exists():
    raise ValueError('Member already counted or belongs to another cycle')
   item,session,checks,_=verify_publication_inputs(root,item_id,site,checked_tree=tree)
   if _time(session['startedAt'])<_time(cycle['startedAt']):raise ValueError('Cycle began after intake')
+  common={'treeDigest':checks['treeDigest'],'buildMode':checks.get('buildMode'),'checks':checks['checks']}
+  if cycle['workflowVersion']=='publication-v2-batch-validation' and shared_checks is not None and common!=shared_checks:raise ValueError('Batch-validation requires one shared passing release receipt')
+  shared_checks=common
   origins.add(session['origin']);profiles.append({**session['workload'],'buildMode':checks.get('buildMode')})
   live=validate_live_html(item,fetch_production('https://abvx.xyz'+item['enrichment']['canonical_path']))
   proofs.append({'itemId':item_id,'approvalDigest':_approval_fingerprint(item),'checksDigest':digest(checks),'productionHtmlDigest':live})
@@ -212,7 +309,7 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
            {'ref':'workload:publication-profile','sha256':digest(profile)},
            {'ref':'production:cycle-members','sha256':digest(proofs)},
            {'ref':'production:deployed-sha','sha256':digest(sha)},
-           {'ref':'production:deployment','sha256':digest(stable(deployment))}]
+           {'ref':'production:deployment','sha256':digest(stable(deployment))},*trial_evidence(root,cycle)]
  target=directory/'outcome.json'
  end=utc()
  if target.exists():end=json.loads(target.read_text())['completedAt']
@@ -222,6 +319,9 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
       'elapsedSeconds':round((_time(end)-_time(cycle['startedAt'])).total_seconds(),6),
       'ownerMinutes':'UNKNOWN','reworkCount':rework_count,'qualityGate':'PASS','safetyGate':'PASS','evidence':evidence}
  validate_outcome(row)
+ release=folder(root,'cycle-lock')/'releases'/f'{sha}.json'
+ if release.resolve()!=release:raise ValueError('Symlink release reservation forbidden')
+ _write_once(release,{'runId':run_id})
  _write_once(directory/'cycle-proof.json',{'cycle':cycle,'profile':profile,'members':proofs,'deployedSha':sha,'deployment':stable(deployment)})
  _write_once(target,row)
  _write_once(directory/'batch.json',build_packet([row],'publication:'+run_id,end))
@@ -351,7 +451,9 @@ def verify_first_cycle(root,item_id,site,cortex_root):
 
 def main(argv,root):
  parser=argparse.ArgumentParser(description=__doc__);sub=parser.add_subparsers(dest='action',required=True)
- begin=sub.add_parser('begin');begin.add_argument('--run',required=True);begin.add_argument('--item',action='append',required=True);begin.add_argument('--trial',choices=CYCLE_VERSIONS,default='baseline')
+ begin=sub.add_parser('begin');begin.add_argument('--run',required=True);begin.add_argument('--item',action='append',required=True);begin.add_argument('--trial',choices=CYCLE_VERSIONS,default='baseline');begin.add_argument('--series')
+ series=sub.add_parser('series-begin');series.add_argument('--series',required=True);series.add_argument('--change',required=True,choices=sorted(set(PUBLICATION_CHANGES.values())));series.add_argument('--baseline-run',action='append',required=True);series.add_argument('--held-out-run',action='append',required=True)
+ abort=sub.add_parser('abort-cycle');abort.add_argument('--run',required=True);abort.add_argument('--status',required=True,choices=['FAIL','CANCELLED']);abort.add_argument('--rework-count',required=True,type=int);abort.add_argument('--cortex-root',type=Path)
  close=sub.add_parser('complete-cycle');close.add_argument('--run',required=True);close.add_argument('--site-root',required=True,type=Path);close.add_argument('--rework-count',required=True,type=int);close.add_argument('--cortex-root',type=Path)
  for name in ('check','complete','transfer','verify-first-cycle'):
   command=sub.add_parser(name);command.add_argument('--item',required=True)
@@ -360,7 +462,10 @@ def main(argv,root):
   if name!='check':command.add_argument('--cortex-root',type=Path,required=name in ('transfer','verify-first-cycle'))
   if name=='complete':command.add_argument('--owner-minutes',default='UNKNOWN');command.add_argument('--rework-count',required=True,type=int)
  args=parser.parse_args(argv)
- if args.action=='begin':value=begin_cycle(root,args.run,args.item,trial=args.trial)
+ if args.action=='begin':value=begin_cycle(root,args.run,args.item,trial=args.trial,series_id=args.series)
+ elif args.action=='series-begin':value=begin_series(root,args.series,args.change,args.baseline_run,args.held_out_run)
+ elif args.action=='abort-cycle':
+  row=abort_cycle(root,args.run,status=args.status,rework_count=args.rework_count,cortex_root=args.cortex_root);value={'status':row['status'],'elapsedSeconds':row['elapsedSeconds'],'executionAuthorized':False}
  elif args.action=='complete-cycle':value=complete_cycle(root,args.run,args.site_root,rework_count=args.rework_count,cortex_root=args.cortex_root)
  elif args.action=='check':value=check_publication(root,args.item,args.site_root,reuse_checks=args.reuse_checks)
  elif args.action=='transfer':value=transfer_publication(root,args.item,args.cortex_root)
