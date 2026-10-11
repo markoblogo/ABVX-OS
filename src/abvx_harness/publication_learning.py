@@ -51,7 +51,7 @@ def _begin_cycle(root,run_id,item_ids,*,trial='baseline',series_id=None):
   series=validate_series(json.loads(series_path(root,series_id).read_text()))
   key='baselineRunIds' if trial=='baseline' else 'heldOutRunIds'
   if run_id not in series[key] or value['workflowVersion']!=series['baselineVersion' if key=='baselineRunIds' else 'candidateVersion']:raise ValueError('Cycle outside declared trial/version')
-  if _time(series['createdAt'])>_time(value['startedAt']):raise ValueError('Series must precede work')
+  if _time(series['createdAt'])>=_time(value['startedAt']):raise ValueError('Series must strictly precede work')
   if key=='heldOutRunIds':
    for previous in series['baselineRunIds']:
     previous_file=folder(root,previous)/'outcome.json'
@@ -113,10 +113,10 @@ def trial_evidence(root,cycle):
  series=validate_series(json.loads(series_path(root,binding['id']).read_text()))
  if digest(series)!=binding['sha256']:raise ValueError('Trial series changed')
  expected=series['baselineRunIds'] if cycle['workflowVersion']==series['baselineVersion'] else series['heldOutRunIds']
- if cycle['runId'] not in expected or _time(series['createdAt'])>_time(cycle['startedAt']):raise ValueError('Cycle outside preregistered series')
+ if cycle['runId'] not in expected or _time(series['createdAt'])>=_time(cycle['startedAt']):raise ValueError('Cycle outside preregistered series')
  return [{'ref':'trial:publication-series','sha256':digest(series)}]
 
-def abort_cycle(root,run_id,*,status,rework_count,cortex_root=None):
+def abort_cycle(root,run_id,*,status,rework_count,cortex_root=None,origin=None):
  if status not in ('FAIL','CANCELLED'):raise ValueError('Explicit terminal failure/cancellation required')
  _integer(rework_count);directory=folder(root,run_id);cycle=json.loads((directory/'cycle.json').read_text())
  if cycle.get('runId')!=run_id or cycle.get('workflowVersion') not in PUBLICATION_VERSIONS:raise ValueError('Started cycle required')
@@ -126,10 +126,14 @@ def abort_cycle(root,run_id,*,status,rework_count,cortex_root=None):
   if path.exists():
    session=json.loads(path.read_text());profile.append(session['workload']);origins.add(session['origin'])
  if len(origins)>1:raise ValueError('Cannot mix synthetic and observed failures')
+ if origin is not None and origin not in ('OBSERVED','SYNTHETIC'):raise ValueError('Explicit valid origin required')
+ if not origins and origin is None:raise ValueError('Explicit origin required before intake')
+ if origins and origin is not None and origin not in origins:raise ValueError('Explicit origin differs from intake evidence')
+ actual_origin=next(iter(origins)) if origins else origin
  target=directory/'outcome.json';end=utc()
  if target.exists():end=json.loads(target.read_text())['completedAt']
  row={'schemaVersion':1,'kind':'AbvxOsProcessOutcome','tenant':'abvx-os','runId':run_id,
-      'workflowId':'site.content.publish','workflowVersion':cycle['workflowVersion'],'origin':next(iter(origins),'OBSERVED'),
+      'workflowId':'site.content.publish','workflowVersion':cycle['workflowVersion'],'origin':actual_origin,
       'startedAt':cycle['startedAt'],'completedAt':end,'status':status,
       'elapsedSeconds':round((_time(end)-_time(cycle['startedAt'])).total_seconds(),6),
       'ownerMinutes':'UNKNOWN','reworkCount':rework_count,'qualityGate':'UNKNOWN','safetyGate':'UNKNOWN',
@@ -281,6 +285,8 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
  """One observation per release, including shared preparation, checks and deployment wait."""
  _integer(rework_count)
  directory=folder(root,run_id);cycle=json.loads((directory/'cycle.json').read_text())
+ target=directory/'outcome.json'
+ if target.exists() and validate_outcome(json.loads(target.read_text()))['status']!='PASS':raise ValueError('Cycle already has a terminal failure/cancellation')
  if cycle.get('schemaVersion')!=2 or cycle.get('kind')!='AbvxPublicationCycle' or cycle.get('runId')!=run_id or cycle.get('workflowVersion') not in PUBLICATION_VERSIONS:
   raise ValueError('Started publication cycle required')
  items=cycle.get('itemIds')
@@ -288,6 +294,7 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
   raise ValueError('Bound cycle members required')
  site=Path(site).resolve();sha=clean_site_sha(site);deployment=deployment_snapshot(sha);tree=tree_digest(site)
  if _time(deployment.get('deploymentCreatedAt'))<_time(cycle['startedAt']):raise ValueError('Production release predates this publication cycle')
+ if _time(deployment.get('mergedAt'))<_time(cycle['startedAt']):raise ValueError('Merged source predates this publication cycle')
  proofs=[];profiles=[];origins=set();shared_checks=None
  for item_id in items:
   if json.loads((folder(root,item_id)/'cycle-claim.json').read_text())!={'runId':run_id} or (folder(root,item_id)/'outcome.json').exists():
@@ -319,6 +326,7 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
       'elapsedSeconds':round((_time(end)-_time(cycle['startedAt'])).total_seconds(),6),
       'ownerMinutes':'UNKNOWN','reworkCount':rework_count,'qualityGate':'PASS','safetyGate':'PASS','evidence':evidence}
  validate_outcome(row)
+ if target.exists() and json.loads(target.read_text())!=row:raise ValueError('Immutable terminal publication evidence differs')
  release=folder(root,'cycle-lock')/'releases'/f'{sha}.json'
  if release.resolve()!=release:raise ValueError('Symlink release reservation forbidden')
  _write_once(release,{'runId':run_id})
@@ -453,7 +461,7 @@ def main(argv,root):
  parser=argparse.ArgumentParser(description=__doc__);sub=parser.add_subparsers(dest='action',required=True)
  begin=sub.add_parser('begin');begin.add_argument('--run',required=True);begin.add_argument('--item',action='append',required=True);begin.add_argument('--trial',choices=CYCLE_VERSIONS,default='baseline');begin.add_argument('--series')
  series=sub.add_parser('series-begin');series.add_argument('--series',required=True);series.add_argument('--change',required=True,choices=sorted(set(PUBLICATION_CHANGES.values())));series.add_argument('--baseline-run',action='append',required=True);series.add_argument('--held-out-run',action='append',required=True)
- abort=sub.add_parser('abort-cycle');abort.add_argument('--run',required=True);abort.add_argument('--status',required=True,choices=['FAIL','CANCELLED']);abort.add_argument('--rework-count',required=True,type=int);abort.add_argument('--cortex-root',type=Path)
+ abort=sub.add_parser('abort-cycle');abort.add_argument('--run',required=True);abort.add_argument('--status',required=True,choices=['FAIL','CANCELLED']);abort.add_argument('--rework-count',required=True,type=int);abort.add_argument('--cortex-root',type=Path);abort.add_argument('--origin',choices=['OBSERVED','SYNTHETIC'])
  close=sub.add_parser('complete-cycle');close.add_argument('--run',required=True);close.add_argument('--site-root',required=True,type=Path);close.add_argument('--rework-count',required=True,type=int);close.add_argument('--cortex-root',type=Path)
  for name in ('check','complete','transfer','verify-first-cycle'):
   command=sub.add_parser(name);command.add_argument('--item',required=True)
@@ -465,7 +473,7 @@ def main(argv,root):
  if args.action=='begin':value=begin_cycle(root,args.run,args.item,trial=args.trial,series_id=args.series)
  elif args.action=='series-begin':value=begin_series(root,args.series,args.change,args.baseline_run,args.held_out_run)
  elif args.action=='abort-cycle':
-  row=abort_cycle(root,args.run,status=args.status,rework_count=args.rework_count,cortex_root=args.cortex_root);value={'status':row['status'],'elapsedSeconds':row['elapsedSeconds'],'executionAuthorized':False}
+  row=abort_cycle(root,args.run,status=args.status,rework_count=args.rework_count,cortex_root=args.cortex_root,origin=args.origin);value={'status':row['status'],'elapsedSeconds':row['elapsedSeconds'],'executionAuthorized':False}
  elif args.action=='complete-cycle':value=complete_cycle(root,args.run,args.site_root,rework_count=args.rework_count,cortex_root=args.cortex_root)
  elif args.action=='check':value=check_publication(root,args.item,args.site_root,reuse_checks=args.reuse_checks)
  elif args.action=='transfer':value=transfer_publication(root,args.item,args.cortex_root)

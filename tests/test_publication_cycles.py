@@ -24,13 +24,16 @@ class PublicationCycles(unittest.TestCase):
             with patch('abvx_harness.publication_learning.verify_publication_inputs',side_effect=verified), \
                  patch('abvx_harness.publication_learning.tree_digest',return_value='a'*64), \
                  patch('abvx_harness.publication_learning.clean_site_sha',return_value='b'*40), \
-                 patch('abvx_harness.publication_learning.deployment_snapshot',return_value={'sha':'b'*40,'state':'success','deploymentCreatedAt':'2026-10-11T10:01:00.000Z'}), \
+                 patch('abvx_harness.publication_learning.deployment_snapshot',return_value={'sha':'b'*40,'state':'success','deploymentCreatedAt':'2026-10-11T10:01:00.000Z','mergedAt':'2026-10-11T10:00:50.000Z'}), \
                  patch('abvx_harness.publication_learning.fetch_production',return_value=b'public HTML'), \
                  patch('abvx_harness.publication_learning.validate_live_html',return_value='c'*64), \
                  patch('abvx_harness.publication_learning._approval_fingerprint',return_value='d'*64), \
                  patch('abvx_harness.publication_learning.utc',return_value='2026-10-11T10:01:40.000Z'):
                 with patch('abvx_harness.publication_learning.deployment_snapshot',return_value={'sha':'b'*40,'state':'success','deploymentCreatedAt':'2026-10-11T09:00:00.000Z'}):
                     with self.assertRaisesRegex(ValueError,'predates'):complete_cycle(root,'cycle-test',root,rework_count=1)
+                with patch('abvx_harness.publication_learning.deployment_snapshot',return_value={'sha':'b'*40,'state':'success','deploymentCreatedAt':'2026-10-11T10:01:00.000Z','mergedAt':'2026-10-11T09:00:00.000Z'}):
+                    with self.assertRaisesRegex(ValueError,'Merged source predates'):complete_cycle(root,'cycle-test',root,rework_count=1)
+                self.assertFalse((root/'.tmp/publication-learning/cycle-lock/releases').exists())
                 first=complete_cycle(root,'cycle-test',root,rework_count=1)
                 self.assertEqual(complete_cycle(root,'cycle-test',root,rework_count=1),first)
                 with self.assertRaisesRegex(ValueError,'different evidence'):complete_cycle(root,'other-release-cycle',root,rework_count=0)
@@ -153,7 +156,7 @@ class PublicationCycles(unittest.TestCase):
             series=begin_series(root,'test-series','EARLY_INPUT_VALIDATION',before,after)
             begin_cycle(root,before[0],['post-one'],series_id='test-series')
             with self.assertRaises(ValueError):begin_cycle(root,after[0],['post-two'],series_id='test-series')
-            row=abort_cycle(root,before[0],status='CANCELLED',rework_count=0)
+            row=abort_cycle(root,before[0],status='CANCELLED',rework_count=0,origin='SYNTHETIC')
             validate_outcome(row)
             self.assertEqual(row['status'],'CANCELLED');self.assertEqual(row['ownerMinutes'],'UNKNOWN')
             self.assertIn({'ref':'trial:publication-series','sha256':digest(series)},row['evidence'])
@@ -165,3 +168,23 @@ class PublicationCycles(unittest.TestCase):
         from abvx_harness.publication_learning import begin_cycle
         with TemporaryDirectory() as temp:
             with self.assertRaises(ValueError):begin_cycle(Path(temp),'r'*109,['post-one'])
+
+    def test_pre_intake_abort_requires_explicit_origin_and_terminal_abort_cannot_claim_release(self):
+        from abvx_harness.publication_learning import begin_cycle,abort_cycle,complete_cycle
+        with TemporaryDirectory() as temp:
+            root=Path(temp);begin_cycle(root,'test-cycle',['post-one'])
+            with self.assertRaisesRegex(ValueError,'origin'):abort_cycle(root,'test-cycle',status='CANCELLED',rework_count=0)
+            row=abort_cycle(root,'test-cycle',status='CANCELLED',rework_count=0,origin='SYNTHETIC')
+            self.assertEqual(row['origin'],'SYNTHETIC')
+            with patch('abvx_harness.publication_learning.clean_site_sha') as provider:
+                with self.assertRaisesRegex(ValueError,'terminal'):complete_cycle(root,'test-cycle',root,rework_count=0)
+                provider.assert_not_called()
+            self.assertFalse((root/'.tmp/publication-learning/cycle-lock/releases').exists())
+
+    def test_series_equal_timestamp_is_not_preregistration(self):
+        from abvx_harness.publication_learning import begin_series,begin_cycle
+        with TemporaryDirectory() as temp:
+            root=Path(temp)
+            with patch('abvx_harness.publication_learning.utc',return_value='2026-10-11T10:00:00.000Z'):
+                begin_series(root,'test-series','EARLY_INPUT_VALIDATION',[f'baseline-{i}' for i in range(5)],[f'candidate-{i}' for i in range(5)])
+                with self.assertRaisesRegex(ValueError,'precede'):begin_cycle(root,'baseline-0',['post-one'],series_id='test-series')

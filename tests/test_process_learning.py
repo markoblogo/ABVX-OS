@@ -117,6 +117,7 @@ class ElapsedPolicyTests(unittest.TestCase):
         for r in rows:r['evidence'].append({'ref':'trial:publication-series','sha256':digest(series)})
         # Observed-shaped test evidence never touches a ledger or canonical runtime.
         cases=[(None,'PENDING_OWNER_REVIEW'),
+               (lambda r:r.append({**r[0],'runId':'synthetic-extra','status':'FAIL','evidence':[ELAPSED_POLICY,{'ref':'cycle:synthetic-extra','sha256':digest({'cycle':'extra'})},*r[0]['evidence'][2:]]}),'BLOCKED_INSUFFICIENT_EVIDENCE'),
                (lambda r:r[5].update(startedAt='2026-10-10T00:00:00.000Z',completedAt='2026-10-10T00:00:05.000Z'),'BLOCKED_INSUFFICIENT_EVIDENCE'),
                (lambda r:r[5]['evidence'][3].update(sha256=r[0]['evidence'][3]['sha256']),'BLOCKED_INSUFFICIENT_EVIDENCE'),
                (lambda r:r[5]['evidence'][1].update(sha256=r[0]['evidence'][1]['sha256']),'BLOCKED_INSUFFICIENT_EVIDENCE'),
@@ -131,6 +132,12 @@ class ElapsedPolicyTests(unittest.TestCase):
             process=subprocess.run(['node','--input-type=module','-e',script],cwd=cortex,input=json.dumps({'packet':packet,'candidate':candidate,'series':series}),text=True,capture_output=True,check=True)
             proposal=json.loads(process.stdout)
             self.assertEqual(inspect_proposal(packet,proposal,'publication-v2-baseline',series)['status'],status)
+        equal_series={**series,'createdAt':rows[0]['startedAt']}
+        altered=copy.deepcopy(rows)
+        for row in altered:row['evidence'][-1]['sha256']=digest(equal_series)
+        packet=build_packet(altered,'synthetic-latency','2026-10-10T01:00:00Z')
+        process=subprocess.run(['node','--input-type=module','-e',script],cwd=cortex,input=json.dumps({'packet':packet,'candidate':candidate,'series':equal_series}),text=True,capture_output=True,check=True)
+        self.assertEqual(inspect_proposal(packet,json.loads(process.stdout),'publication-v2-baseline',equal_series)['status'],'BLOCKED_INSUFFICIENT_EVIDENCE')
 
     def test_full_cycle_run_identifier_fits_evidence_refs(self):
         from abvx_harness.process_learning import ELAPSED_POLICY
