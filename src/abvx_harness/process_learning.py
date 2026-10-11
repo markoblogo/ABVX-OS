@@ -235,7 +235,9 @@ def inspect_proposal(packet, proposal, current_version, series=None):
         coverage=False
         if series is not None:
             validate_series(series)
-            coverage=all(series[k]==proposal[k] for k in ('baselineVersion','candidateVersion','change')) and all(set(series[k])==set(proposal[k]) for k in ('baselineRunIds','heldOutRunIds')) and all({'ref':'trial:publication-series','sha256':digest(series)} in r['evidence'] and _time(series['createdAt'])<=_time(r['startedAt']) for r in all_rows)
+            marker={'ref':'trial:publication-series','sha256':digest(series)}
+            bound={r['runId'] for r in packet['payload']['outcomes'] if marker in r['evidence']}
+            coverage=bound==set(ids) and all(series[k]==proposal[k] for k in ('baselineVersion','candidateVersion','change')) and all(set(series[k])==set(proposal[k]) for k in ('baselineRunIds','heldOutRunIds')) and all(marker in r['evidence'] and _time(series['createdAt'])<_time(r['startedAt']) for r in all_rows)
         if not coverage:reasons.append('TRIAL_COVERAGE_NOT_ESTABLISHED')
         if groups[0] and groups[1] and max(_time(r['completedAt']) for r in groups[0])>=min(_time(r['startedAt']) for r in groups[1]):reasons.append('TRIAL_ORDER_NOT_ESTABLISHED')
     if any(r['status']!='PASS' or r['qualityGate']!='PASS' or r['safetyGate']!='PASS' for r in all_rows): reasons.append('QUALITY_OR_SAFETY_NOT_ESTABLISHED')
