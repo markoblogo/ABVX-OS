@@ -161,14 +161,14 @@
         "first-cycle-github-production-and-merged-sha-proof"
       ],
       "id": "site-publication-learning",
-      "implementation": "./bin/abvx publication <check|complete|transfer|verify-first-cycle>",
+      "implementation": "./bin/abvx publication <begin|check|complete-cycle|complete|transfer|verify-first-cycle>",
       "name": "ABVX publication outcome closeout",
       "provenance": {
         "observed_at": "2026-10-10T00:00:00Z",
         "recorded_by": "PUBLICATION-LEARNING-001",
         "source_uri": null
       },
-      "scope": "Ready native ABVX intake through project checks, production verification and independent Cortex experience admission",
+      "scope": "Authorized command through native preparation, shared frozen-pool checks, exact production SHA verification and one independent elapsed-only cycle admission",
       "status": "active"
     }
   ],

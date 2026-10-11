@@ -65,6 +65,21 @@ def digest(value):
                                     ensure_ascii=False, allow_nan=False).encode()).hexdigest()
 
 
+# Owner-selected publication latency objective; legacy/book metrics remain unchanged.
+ELAPSED_POLICY = {'ref':'measurement:publication-elapsed-v2', 'sha256':digest({
+    'version':2,'workflow':'site.content.publish','objective':'elapsedSeconds',
+    'start':'first-work-after-publish-command','end':'verified-production',
+    'unit':'one-independent-cycle','ownerMinutes':'optional-UNKNOWN'})}
+PUBLICATION_VERSIONS = {'publication-v2-'+suffix for suffix in ('baseline','early-input','batch-validation','reuse-context')}
+
+def elapsed_only(row):
+    return row['workflowId']=='site.content.publish' and row['workflowVersion'] in PUBLICATION_VERSIONS and ELAPSED_POLICY in row['evidence']
+
+def independent_cycles(rows):
+    cycles=[e['sha256'] for r in rows if elapsed_only(r) for e in r['evidence'] if e['ref'].startswith('cycle:')]
+    return len(cycles)==len(set(cycles))
+
+
 def validate_outcome(value):
     _shape(value, OUTCOME_KEYS)
     if type(value['schemaVersion']) is not int or value['schemaVersion'] != 1 or value['kind'] != 'AbvxOsProcessOutcome' or value['tenant'] != 'abvx-os':
@@ -88,6 +103,12 @@ def validate_outcome(value):
         _shape(ref, {'ref','sha256'}); _id(ref['ref'])
         if not isinstance(ref['sha256'], str) or not re.fullmatch('[a-f0-9]{64}', ref['sha256']):
             raise ValueError('Invalid evidence digest')
+    markers=[e for e in value['evidence'] if e['ref']==ELAPSED_POLICY['ref']]
+    if markers or value['workflowVersion'] in PUBLICATION_VERSIONS:
+        cycles=[e for e in value['evidence'] if e['ref'].startswith('cycle:')]
+        profiles=[e for e in value['evidence'] if e['ref'].startswith('workload:')]
+        if markers != [ELAPSED_POLICY] or not elapsed_only(value) or len(cycles)!=1 or cycles[0]['ref']!='cycle:'+value['runId'] or len(profiles)!=1 or profiles[0]['ref']!='workload:publication-profile':
+            raise ValueError('Bound elapsed-only publication cycle required')
     return value
 
 
@@ -189,13 +210,13 @@ def inspect_proposal(packet, proposal, current_version):
     if proposal['baseline'] != before or proposal['heldOut'] != after:
         raise ValueError('Optimization metrics mismatch')
     reasons=[]; all_rows=sum(groups, [])
-    if len({tuple(sorted((e['ref'],e['sha256']) for e in ( [e for e in row['evidence'] if e['ref'].startswith('workload:')] or row['evidence'] ))) for row in all_rows})>1: reasons.append('WORKLOAD_NOT_COMPARABLE')
-    if any(len(rows)<5 for rows in groups): reasons.append('INSUFFICIENT_INDEPENDENT_RUNS')
+    if len({tuple(sorted((e['ref'],e['sha256']) for e in ( [e for e in row['evidence'] if e['ref'].startswith('workload:')] or row['evidence'] ))) for row in all_rows})>1 or len({elapsed_only(row) for row in all_rows})>1: reasons.append('WORKLOAD_NOT_COMPARABLE')
+    if any(len(rows)<5 for rows in groups) or not independent_cycles(all_rows): reasons.append('INSUFFICIENT_INDEPENDENT_RUNS')
     if any(r['status']!='PASS' or r['qualityGate']!='PASS' or r['safetyGate']!='PASS' for r in all_rows): reasons.append('QUALITY_OR_SAFETY_NOT_ESTABLISHED')
-    if any(r['ownerMinutes']=='UNKNOWN' for r in all_rows): reasons.append('OWNER_EFFORT_UNKNOWN')
+    if any(r['ownerMinutes']=='UNKNOWN' and not elapsed_only(r) for r in all_rows): reasons.append('OWNER_EFFORT_UNKNOWN')
     if before and after:
         if after['elapsedSeconds'] >= before['elapsedSeconds']: reasons.append('NO_TIME_IMPROVEMENT')
-        if before['ownerMinutes']!='UNKNOWN' and after['ownerMinutes']!='UNKNOWN' and after['ownerMinutes']>before['ownerMinutes']: reasons.append('OWNER_EFFORT_INCREASED')
+        if not all(elapsed_only(r) for r in all_rows) and before['ownerMinutes']!='UNKNOWN' and after['ownerMinutes']!='UNKNOWN' and after['ownerMinutes']>before['ownerMinutes']: reasons.append('OWNER_EFFORT_INCREASED')
         if after['reworkCount']>before['reworkCount']: reasons.append('REWORK_INCREASED')
     if any(r['origin']!='OBSERVED' for r in all_rows): reasons.append('SYNTHETIC_EVIDENCE_ONLY')
     expected_status='INSUFFICIENT_EVIDENCE' if reasons else 'ELIGIBLE_FOR_OWNER_REVIEW'
@@ -239,7 +260,7 @@ def inspect_candidate(context, candidate, current_version, packets):
         _shape(candidate, {'schemaVersion','kind','tenant','status','workflowId','contextDigest','sources','authority','executionAuthorized','candidateDigest'})
         material={k:v for k,v in candidate.items() if k!='candidateDigest'}
         expected=[{'runId':rid,'sourcePacketId':r['sourcePacketId'],'sourcePayloadDigest':r['sourcePayloadDigest']} for rid,r in lookup.items()]
-        if candidate['schemaVersion']!=1 or candidate['kind']!='AbvxOsLearningCandidate' or candidate['tenant']!='abvx-os' or candidate['workflowId']!=context['workflowId'] or candidate['authority']!='none' or candidate['executionAuthorized'] is not False or candidate['candidateDigest']!=digest(material) or candidate['contextDigest']!=digest(context) or candidate['sources']!=expected or any(r['outcome']['workflowVersion']!=current_version or r['outcome']['ownerMinutes']=='UNKNOWN' or r['outcome']['qualityGate']!='PASS' or r['outcome']['safetyGate']!='PASS' for r in lookup.values()):
+        if candidate['schemaVersion']!=1 or candidate['kind']!='AbvxOsLearningCandidate' or candidate['tenant']!='abvx-os' or candidate['workflowId']!=context['workflowId'] or candidate['authority']!='none' or candidate['executionAuthorized'] is not False or candidate['candidateDigest']!=digest(material) or candidate['contextDigest']!=digest(context) or candidate['sources']!=expected or any(r['outcome']['workflowVersion']!=current_version or (r['outcome']['ownerMinutes']=='UNKNOWN' and not elapsed_only(r['outcome'])) or r['outcome']['qualityGate']!='PASS' or r['outcome']['safetyGate']!='PASS' for r in lookup.values()):
             raise ValueError('Readiness not grounded in complete current evidence')
         return {'schemaVersion':1,'kind':'AbvxOsLearningReview','candidateDigest':candidate['candidateDigest'],'workflowId':context['workflowId'],'currentVersion':current_version,'status':'RECORDED_READY_FOR_ANALYSIS','executionAuthorized':False}
     if candidate.get('status')=='INSUFFICIENT_METRICS':
@@ -249,7 +270,7 @@ def inspect_candidate(context, candidate, current_version, packets):
             raise ValueError('Invalid metric diagnosis')
         if any(r['outcome']['workflowVersion']!=current_version for r in lookup.values()):
             raise ValueError('Stale diagnosis evidence')
-        checks=[('OWNER_EFFORT_UNKNOWN',lambda r:r['ownerMinutes']=='UNKNOWN'),('QUALITY_NOT_ESTABLISHED',lambda r:r['qualityGate']!='PASS'),('SAFETY_NOT_ESTABLISHED',lambda r:r['safetyGate']!='PASS')]
+        checks=[('OWNER_EFFORT_UNKNOWN',lambda r:r['ownerMinutes']=='UNKNOWN' and not elapsed_only(r)),('QUALITY_NOT_ESTABLISHED',lambda r:r['qualityGate']!='PASS'),('SAFETY_NOT_ESTABLISHED',lambda r:r['safetyGate']!='PASS')]
         findings=[{'code':code,'runIds':[rid for rid,r in lookup.items() if missing(r['outcome'])]} for code,missing in checks]
         findings=[f for f in findings if f['runIds']]
         sources=[{'runId':rid,'sourcePacketId':r['sourcePacketId'],'sourcePayloadDigest':r['sourcePayloadDigest']} for rid,r in lookup.items()]

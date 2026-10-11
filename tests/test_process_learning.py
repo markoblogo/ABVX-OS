@@ -75,3 +75,51 @@ class DurationRegressionTests(unittest.TestCase):
                 row=record_check(root,'maintenance-tests',root/'.tmp/short-check.json')
             self.assertGreater(row['elapsedSeconds'],0)
             validate_outcome(row)
+
+class ElapsedPolicyTests(unittest.TestCase):
+    def test_publication_elapsed_policy_keeps_unknown_effort_and_checks_independence(self):
+        from abvx_harness.process_learning import ELAPSED_POLICY, elapsed_only
+        row = {**outcome(), 'workflowId':'site.content.publish', 'workflowVersion':'publication-v2-baseline',
+               'evidence':[ELAPSED_POLICY, {'ref':'cycle:synthetic-run','sha256':'b'*64},
+                           {'ref':'workload:publication-profile','sha256':'c'*64}]}
+        self.assertTrue(elapsed_only(validate_outcome(row)))
+        for change in ({'workflowId':'book.production'}, {'workflowVersion':'publication-v1'},
+                       {'evidence':[{'ref':ELAPSED_POLICY['ref'],'sha256':'0'*64}]}):
+            with self.assertRaises(ValueError): validate_outcome({**row, **change})
+        ctx,_,_ = ProcessLearningTests().candidate_fixture()
+        packet = build_packet([row], 'synthetic-batch', '2026-10-10T01:00:00Z')
+        ctx.update(workflowId='site.content.publish',results=[{'outcome':row,'sourcePacketId':packet['packetId'],'sourcePayloadDigest':digest(packet['payload'])}])
+        material={'schemaVersion':1,'kind':'AbvxOsLearningCandidate','tenant':'abvx-os','status':'READY_FOR_ANALYSIS','workflowId':ctx['workflowId'],'contextDigest':digest(ctx),'sources':[{'runId':row['runId'],'sourcePacketId':packet['packetId'],'sourcePayloadDigest':digest(packet['payload'])}],'authority':'none','executionAuthorized':False}
+        result=inspect_candidate(ctx,{**material,'candidateDigest':digest(material)},row['workflowVersion'],[packet])
+        self.assertEqual(result['status'],'RECORDED_READY_FOR_ANALYSIS')
+        self.assertEqual(row['ownerMinutes'],'UNKNOWN')
+
+    def test_cross_runtime_proposal_recomputes_latency_and_rejects_correlated_cycles(self):
+        import subprocess
+        from abvx_harness.process_learning import ELAPSED_POLICY
+        cortex=Path('/tmp/cortex-publication-elapsed')
+        if not cortex.is_dir():self.skipTest('Optional isolated Cortex source unavailable')
+        rows=[]
+        for i in range(10):
+            r={**outcome(),'runId':f'synthetic-{i}','workflowId':'site.content.publish',
+               'workflowVersion':'publication-v2-baseline' if i<5 else 'publication-v2-early-input',
+               'origin':'OBSERVED','elapsedSeconds':10 if i<5 else 5,
+               'completedAt':'2026-10-10T00:00:10Z' if i<5 else '2026-10-10T00:00:05Z',
+               'evidence':[ELAPSED_POLICY,{'ref':f'cycle:synthetic-{i}','sha256':digest({'cycle':i})},
+                           {'ref':'workload:publication-profile','sha256':'c'*64}]}
+            rows.append(r)
+        candidate={'proposalId':'synthetic-latency','workflowId':'site.content.publish','baselineVersion':'publication-v2-baseline','candidateVersion':'publication-v2-early-input','change':'EARLY_INPUT_VALIDATION','baselineRunIds':[r['runId'] for r in rows[:5]],'heldOutRunIds':[r['runId'] for r in rows[5:]]}
+        # Observed-shaped test evidence never touches a ledger or canonical runtime.
+        cases=[(None,'PENDING_OWNER_REVIEW'),
+               (lambda r:r[5]['evidence'][1].update(sha256=r[0]['evidence'][1]['sha256']),'BLOCKED_INSUFFICIENT_EVIDENCE'),
+               (lambda r:r[5].update(safetyGate='FAIL'),'BLOCKED_INSUFFICIENT_EVIDENCE'),
+               (lambda r:[row.update(reworkCount=1) for row in r[5:]],'BLOCKED_INSUFFICIENT_EVIDENCE'),
+               (lambda r:r[5]['evidence'][2].update(sha256='d'*64),'BLOCKED_INSUFFICIENT_EVIDENCE')]
+        script="import {readFileSync} from 'node:fs'; import {evaluateOptimization} from './src/abvx-os-learning.mjs'; console.log(JSON.stringify(evaluateOptimization(JSON.parse(readFileSync(0,'utf8')))));"
+        for edit,status in cases:
+            altered=copy.deepcopy(rows)
+            if edit:edit(altered)
+            packet=build_packet(altered,'synthetic-latency','2026-10-10T01:00:00Z')
+            process=subprocess.run(['node','--input-type=module','-e',script],cwd=cortex,input=json.dumps({'packet':packet,'candidate':candidate}),text=True,capture_output=True,check=True)
+            proposal=json.loads(process.stdout)
+            self.assertEqual(inspect_proposal(packet,proposal,'publication-v2-baseline')['status'],status)
