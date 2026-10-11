@@ -161,7 +161,7 @@
         "first-cycle-github-production-and-merged-sha-proof"
       ],
       "id": "site-publication-learning",
-      "implementation": "./bin/abvx publication <begin|check|complete-cycle|complete|transfer|verify-first-cycle>",
+      "implementation": "./bin/abvx publication <series-begin|begin|check|complete-cycle|abort-cycle|complete|transfer|verify-first-cycle>",
       "name": "ABVX publication outcome closeout",
       "provenance": {
         "observed_at": "2026-10-10T00:00:00Z",
