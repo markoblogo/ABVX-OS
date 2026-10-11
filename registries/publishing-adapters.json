@@ -185,14 +185,14 @@
       "readiness": "READY",
       "readiness_reason": "ABVXsite native writing now lives inside the existing /writing archive and can publish through a bounded file-based command.",
       "required_assets": false,
-      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --dry-run",
-      "apply_command": "cd /Volumes/Work/Work/ABVXsite && node scripts/publish-writing.mjs --packet <packet> --write",
+      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish -- --base <base-sha> --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish -- --base <base-sha> --packet <packet> --write",
       "next_commands": [
-        "Emit publish packet from ABVX-OS.",
-        "Run ABVXsite publish-writing command in dry-run mode.",
-        "Run npm run content:validate in /Volumes/Work/Work/ABVXsite.",
-        "Run npm run build in /Volumes/Work/Work/ABVXsite if a structural exception is reported.",
-        "Commit and deploy through the existing ABVXsite release flow only after human approval."
+        "Resolve the current ABVXsite main SHA; start a clean dedicated publication branch at that SHA. Keep packets outside the site checkout.",
+        "Use the source-specific approved packet. Freeze a pool and repeat --packet for all members in the same dry-run and write commands.",
+        "Run npm run prebuild once, then npm run content:publication-boundary -- --base <base-sha>. Never modify application code, dependencies, templates, documentation or collection definitions in this lane.",
+        "Run one npm run content:release-check -- --base <base-sha>; reuse the receipt for the complete pool.",
+        "Use the existing authorized PR/CI/Preview/Production flow, verify the exact merge SHA and public content, then close one OS cycle. Unsupported features require a separate engineering PR."
       ],
       "route_template": "/writing/{slug}",
       "default_author": "Anton BV",
@@ -202,7 +202,8 @@
       "default_indexability": "INDEXABLE",
       "warnings": [
         "Routine native writing publication remains body-author-controlled.",
-        "Quick tier is valid only while consumer dry-run and content validation both stay green."
+        "Quick tier is valid only while consumer dry-run and content validation both stay green.",
+        "Routine publication requires approved complete source Markdown. The consumer enforces a data-only branch and preflights every pool member before writes."
       ],
       "validation": {
         "default_tier": "QUICK",
@@ -247,14 +248,14 @@
       "readiness": "READY",
       "readiness_reason": "Uses the existing Working Stories validator, file collection, feed and index generators.",
       "required_assets": false,
-      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish-working-story -- --packet <packet> --dry-run",
-      "apply_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish-working-story -- --packet <packet> --write",
+      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish -- --base <base-sha> --packet <packet> --dry-run",
+      "apply_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish -- --base <base-sha> --packet <packet> --write",
       "next_commands": [
-        "Inspect and approve the source-specific ABVX-OS packet.",
-        "Run the consumer dry-run in a clean ABVXsite checkout; review the media and content plan.",
-        "Apply the approved packet in that checkout.",
-        "Run npm run content:release-check; commit intended source and generated indexes in one PR.",
-        "After passing CI and Preview, use the approved site release flow; verify the merge SHA and public route, images, links, sitemap and indexes."
+        "Resolve the current ABVXsite main SHA; start a clean dedicated publication branch at that SHA. Keep packets outside the site checkout.",
+        "Use the source-specific approved packet. Freeze a pool and repeat --packet for all members in the same dry-run and write commands.",
+        "Run npm run prebuild once, then npm run content:publication-boundary -- --base <base-sha>. Never modify application code, dependencies, templates, documentation or collection definitions in this lane.",
+        "Run one npm run content:release-check -- --base <base-sha>; reuse the receipt for the complete pool.",
+        "Use the existing authorized PR/CI/Preview/Production flow, verify the exact merge SHA and public content, then close one OS cycle. Unsupported features require a separate engineering PR."
       ],
       "route_template": "/writing/working-stories/{slug}",
       "default_author": "Anton BV",
@@ -263,7 +264,8 @@
       "default_sitemap_state": "INDEXABLE",
       "default_indexability": "INDEXABLE",
       "warnings": [
-        "Handoff is not production proof; assets are copied only by the consumer after explicit apply."
+        "Handoff is not production proof; assets are copied only by the consumer after explicit apply.",
+        "Routine publication requires approved complete source Markdown. The consumer enforces a data-only branch and preflights every pool member before writes."
       ],
       "validation": {
         "default_tier": "STANDARD",
