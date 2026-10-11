@@ -31,6 +31,17 @@ class PublicationLearningTests(unittest.TestCase):
   validate_live_html(item,valid)
   for html in (valid.replace(b'https://abvx.xyz',b'https://preview.vercel.app'),valid.replace(b'distinctive',b'wrong'),valid.replace(b'rel="canonical"',b'rel="other"')):
    with self.assertRaises(ValueError):validate_live_html(item,html)
+ def test_scoped_qa_covers_member_and_keeps_full_and_publication_workloads_distinct(self):
+  from abvx_harness.publication_learning import validate_qa_scope,qa_profile
+  item={'enrichment':{'canonical_path':'/writing/post'}}
+  scope={'profile':'publication-v1','base':'a'*40,'routes':['/writing/post']}
+  validate_qa_scope(scope,item)
+  validate_qa_scope(None,item)
+  validate_qa_scope({'profile':'full'},item)
+  for invalid in ({**scope,'routes':['/writing/other']},{**scope,'base':'bad'},{'profile':'unknown'}):
+   with self.assertRaises(ValueError):validate_qa_scope(invalid,item)
+  self.assertEqual(qa_profile({}),{})
+  self.assertNotEqual(qa_profile({'qaScope':scope}),qa_profile({'qaScope':{'profile':'full'}}))
  def test_closeout_records_metrics_and_export_but_never_preview(self):
   from abvx_harness.publication_learning import check_publication,complete_publication
   from types import SimpleNamespace
