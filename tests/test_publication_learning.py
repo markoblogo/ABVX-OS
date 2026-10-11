@@ -32,10 +32,14 @@ class PublicationLearningTests(unittest.TestCase):
   for html in (valid.replace(b'https://abvx.xyz',b'https://preview.vercel.app'),valid.replace(b'distinctive',b'wrong'),valid.replace(b'rel="canonical"',b'rel="other"')):
    with self.assertRaises(ValueError):validate_live_html(item,html)
  def test_scoped_qa_covers_member_and_keeps_full_and_publication_workloads_distinct(self):
-  from abvx_harness.publication_learning import validate_qa_scope,qa_profile
+  from abvx_harness.publication_learning import validate_qa_scope,qa_profile,check_names,CHECKS,PUBLICATION_CHECKS
   item={'enrichment':{'canonical_path':'/writing/post'}}
   scope={'profile':'publication-v1','base':'a'*40,'routes':['/writing/post']}
   validate_qa_scope(scope,item)
+  self.assertEqual(check_names({}),CHECKS)
+  self.assertEqual(check_names({'checkProfile':'publication-v1','qaScope':scope}),PUBLICATION_CHECKS)
+  for invalid in ({'checkProfile':'unknown'},{'checkProfile':'publication-v1'},{'checkProfile':'publication-v1','qaScope':{'profile':'full'}}):
+   with self.assertRaises(ValueError):check_names(invalid)
   validate_qa_scope(None,item)
   validate_qa_scope({'profile':'full'},item)
   for invalid in ({**scope,'routes':['/writing/other']},{**scope,'base':'bad'},{'profile':'unknown'}):

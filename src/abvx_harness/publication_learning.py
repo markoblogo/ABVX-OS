@@ -10,6 +10,7 @@ from .content_ops import _load_item,_approval_fingerprint
 
 VERSION='publication-v1'
 CHECKS=('content:validate','ecosystem:check','lint','test:sync','cortex-abv:vector-export:check','build','qa:seo','dependency-audit')
+PUBLICATION_CHECKS=('content:validate','ecosystem:check','test:publication','build','qa:seo','dependency-audit')
 CYCLE_VERSIONS={'baseline':'publication-v2-baseline','early-input':'publication-v2-early-input','batch-validation':'publication-v2-batch-validation','reuse-context':'publication-v2-reuse-context'}
 def utc():return datetime.now(timezone.utc).isoformat(timespec='milliseconds').replace('+00:00','Z')
 def folder(root,item_id):
@@ -191,7 +192,15 @@ def verified_site(root,item,site):
 def qa_profile(checks):
  # Legacy receipts remain comparable to their original full-check workload.
  scope=checks.get('qaScope')
- return {} if scope is None else {'qaProfile':scope['profile']}
+ value={} if scope is None else {'qaProfile':scope['profile']}
+ if 'checkProfile' in checks:value['checkProfile']=checks['checkProfile']
+ return value
+
+def check_names(receipt):
+ profile=receipt.get('checkProfile','full')
+ if profile=='full':return CHECKS
+ if profile=='publication-v1' and isinstance(receipt.get('qaScope'),dict) and receipt['qaScope'].get('profile')=='publication-v1':return PUBLICATION_CHECKS
+ raise ValueError('Known check profile with matching QA scope required')
 
 def validate_qa_scope(scope,item):
  if scope is None:return
@@ -208,7 +217,7 @@ def check_publication(root,item_id,site,*,reuse_checks=False):
   result=subprocess.run(['npm','run','content:release-check'],cwd=site,capture_output=True)
   if result.returncode:raise ValueError('Site release check failed; retained site logs explain the failed check')
  receipt=json.loads((source/'receipt.json').read_text())
- if receipt.get('result')!='PASS' or receipt.get('treeDigest')!=tree_digest(site) or [c.get('name') for c in receipt.get('checks',[])]!=list(CHECKS) or any(c.get('status')!='PASS' for c in receipt['checks']):raise ValueError('Fresh complete site release receipt required')
+ if receipt.get('result')!='PASS' or receipt.get('treeDigest')!=tree_digest(site) or [c.get('name') for c in receipt.get('checks',[])]!=list(check_names(receipt)) or any(c.get('status')!='PASS' for c in receipt['checks']):raise ValueError('Fresh complete site release receipt required')
  validate_qa_scope(receipt.get('qaScope'),item)
  verified_site(root,item,site);checks=[]
  for entry in receipt['checks']:
@@ -219,6 +228,7 @@ def check_publication(root,item_id,site,*,reuse_checks=False):
   checks.append({'ref':'check:'+name,'sha256':sha,'status':'PASS'})
  value={'kind':'AbvxPublicationChecks','itemId':item_id,'approvalDigest':_approval_fingerprint(item),'treeDigest':receipt['treeDigest'],'checks':checks,'checkedAt':utc(),'buildMode':receipt.get('buildMode'),'status':'PASS'}
  if 'qaScope' in receipt:value['qaScope']=receipt['qaScope']
+ if 'checkProfile' in receipt:value['checkProfile']=receipt['checkProfile']
  (directory/'checks.json').write_text(json.dumps(value,sort_keys=True,indent=2)+'\n')
  return value
 
@@ -260,7 +270,7 @@ def verify_publication_inputs(root,item_id,site,*,checked_tree=None):
  session=json.loads((directory/'session.json').read_text());checks=json.loads((directory/'checks.json').read_text())
  if session.get('itemId')!=item_id or session.get('origin') not in ('OBSERVED','SYNTHETIC') or session.get('workflowVersion')!=VERSION:raise ValueError('Valid publication session required')
  site=verified_site(root,item,site)
- if checks.get('kind')!='AbvxPublicationChecks' or checks.get('itemId')!=item_id or checks.get('approvalDigest')!=_approval_fingerprint(item) or checks.get('status')!='PASS' or checks.get('treeDigest')!=(checked_tree if checked_tree is not None else tree_digest(site)) or [c.get('ref') for c in checks['checks']]!=['check:'+n for n in CHECKS] or any(c.get('status')!='PASS' for c in checks['checks']):raise ValueError('Fresh passing checks for exact site tree required')
+ if checks.get('kind')!='AbvxPublicationChecks' or checks.get('itemId')!=item_id or checks.get('approvalDigest')!=_approval_fingerprint(item) or checks.get('status')!='PASS' or checks.get('treeDigest')!=(checked_tree if checked_tree is not None else tree_digest(site)) or [c.get('ref') for c in checks['checks']]!=['check:'+n for n in check_names(checks)] or any(c.get('status')!='PASS' for c in checks['checks']):raise ValueError('Fresh passing checks for exact site tree required')
  validate_qa_scope(checks.get('qaScope'),item)
  # Verify logs still exist with their recorded digest; do not export their contents.
  for c in checks['checks']:
@@ -318,6 +328,7 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
   if _time(session['startedAt'])<_time(cycle['startedAt']):raise ValueError('Cycle began after intake')
   common={'treeDigest':checks['treeDigest'],'buildMode':checks.get('buildMode'),'checks':checks['checks']}
   if 'qaScope' in checks:common['qaScope']=checks['qaScope']
+  if 'checkProfile' in checks:common['checkProfile']=checks['checkProfile']
   if cycle['workflowVersion']=='publication-v2-batch-validation' and shared_checks is not None and common!=shared_checks:raise ValueError('Batch-validation requires one shared passing release receipt')
   shared_checks=common
   origins.add(session['origin']);profiles.append({**session['workload'],'buildMode':checks.get('buildMode'),**qa_profile(checks)})
