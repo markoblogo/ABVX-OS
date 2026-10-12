@@ -3,6 +3,7 @@ from __future__ import annotations
 import contextlib
 import io
 import json
+import hashlib
 import shutil
 import tempfile
 import unittest
@@ -134,6 +135,18 @@ class IntelligenceTests(unittest.TestCase):
 
     def test_content_prepare_with_local_llm_records_runtime_artifacts(self):
         root = self._root()
+        file = root / "content/fixtures/content-publish-005-abvx-marmite-oatmeal.json"
+        fixture = json.loads(file.read_text())
+        # Give this isolated test a source contract, without upgrading historical
+        # tracked content or treating semantic enrichment as source approval.
+        metadata = {"id": fixture["slug"], "slug": fixture["slug"], "title": fixture["title"],
+                    "type": fixture["kind"], "primarySection": "writing", "appearsIn": ["writing"],
+                    "status": "live", "visibility": "public", "summary": fixture["summary"],
+                    "tags": [], "links": [], "language": "en", "publishedAt": "2020-01-01T00:00:00Z"}
+        source = "---\n" + json.dumps(metadata) + "\n---\n\n" + "\n\n".join(fixture["payload"]["body_lines"]) + "\n"
+        fixture["payload"].update(source_markdown=source, source_sha256=hashlib.sha256(source.encode()).hexdigest(),
+                                  language="en", date_published=metadata["publishedAt"], media_assets=[])
+        file.write_text(json.dumps(fixture))
         with patch("abvx_harness.intelligence._select_local_model", return_value="qwen3.5:4b"), patch("abvx_harness.intelligence._run_ollama_generate", side_effect=_fake_ollama_response):
             item = prepare_content_item(root, "content/fixtures/content-publish-005-abvx-marmite-oatmeal.json", intelligence_mode="local_llm")
         self.assertEqual(item["status"], "PREPARED")

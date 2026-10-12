@@ -9,7 +9,7 @@ import unittest
 from pathlib import Path
 
 from abvx_harness.__main__ import main
-from abvx_harness.content_ops import approve_content_item, inspect_content_item, prepare_content_item, publish_content_item
+from abvx_harness.content_ops import GenericPublishingAdapter, approve_content_item, inspect_content_item, prepare_content_item, publish_content_item
 from abvx_harness.harness import ValidationError, validate_repository
 
 
@@ -27,6 +27,36 @@ class ContentOpsTests(unittest.TestCase):
         shutil.copytree(ROOT / "evidence", root / "evidence")
         shutil.copytree(ROOT / "registries", root / "registries")
         return root
+
+    def test_missing_native_source_is_blocked_before_approval_and_handoff(self):
+        root = self._root_with_content_ops()
+        file = root / "content/fixtures/abvx-note-fast-path-dry-run.json"
+        fixture = json.loads(file.read_text())
+        fixture["payload"].pop("source_markdown", None)
+        fixture["payload"].pop("source_sha256", None)
+        file.write_text(json.dumps(fixture))
+        item = prepare_content_item(root, str(file))
+        self.assertEqual(item["status"], "BLOCKED")
+        with self.assertRaises(ValidationError):
+            approve_content_item(root, item["id"])
+        adapter = next(entry for entry in json.loads((root / "registries/publishing-adapters.json").read_text())["entries"] if entry["id"] == "abvx.writing")
+        with self.assertRaises(ValidationError):
+            GenericPublishingAdapter().build_publish_packet(root, item, adapter)
+
+    def test_native_packets_instruct_receipt_import_for_all_members_before_closeout(self):
+        root = self._root_with_content_ops()
+        for fixture in ["abvx-note-fast-path-dry-run.json", "abvx-working-story-dry-run.json"]:
+            item = prepare_content_item(root, "content/fixtures/" + fixture)
+            approve_content_item(root, item["id"])
+            result = publish_content_item(root, item["id"])
+            packet = json.loads((root / result["packet_path"]).read_text())
+            steps = packet["required_consumer_steps"]
+            imports = [i for i, step in enumerate(steps) if "publication check --item" in step and "--reuse-checks" in step]
+            closeouts = [i for i, step in enumerate(steps) if "publication complete-cycle" in step]
+            self.assertEqual(len(imports), 1)
+            self.assertEqual(len(closeouts), 1)
+            self.assertLess(imports[0], closeouts[0])
+            self.assertIn("every", steps[imports[0]])
 
     def test_repository_validation_covers_content_fixtures_and_adapter_registry(self):
         checked = validate_repository(ROOT)
