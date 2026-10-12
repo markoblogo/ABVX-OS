@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import contextlib
 import io
+import hashlib
+import runpy
 import json
 import shutil
 import tempfile
@@ -42,6 +44,46 @@ class ContentOpsTests(unittest.TestCase):
         adapter = next(entry for entry in json.loads((root / "registries/publishing-adapters.json").read_text())["entries"] if entry["id"] == "abvx.writing")
         with self.assertRaises(ValidationError):
             GenericPublishingAdapter().build_publish_packet(root, item, adapter)
+
+    def test_writing_fixture_replays_through_canonical_markdown_intake(self):
+        fixture = json.loads((ROOT / "content/fixtures/abvx-note-fast-path-dry-run.json").read_text())
+        payload = fixture["payload"]
+        intake = runpy.run_path(str(ROOT / "scripts/prepare_abvx_publication.py"))["publication_fixture"]
+        replay = intake(payload["source_markdown"], fixture["id"], "internal:dummy", [])
+        self.assertEqual(replay["payload"]["date_published"], "2026-08-10")
+        self.assertEqual(payload["date_published"], replay["payload"]["date_published"])
+        self.assertEqual(payload["source_sha256"], replay["payload"]["source_sha256"])
+
+    def test_stored_legacy_prepared_item_cannot_be_approved(self):
+        root = self._root_with_content_ops()
+        path = root / "content/items/content-ops-002-abvx-note-fast-path.json"
+        path.parent.mkdir(parents=True)
+        shutil.copyfile(ROOT / path.relative_to(root), path)
+        before = path.read_bytes()
+        with self.assertRaisesRegex(ValidationError, "approved Markdown"):
+            approve_content_item(root, path.stem)
+        self.assertEqual(path.read_bytes(), before)
+        self.assertFalse((root / "content/publish-packets" / path.name).exists())
+
+    def test_native_approval_rechecks_source_without_recording_invalid_approval(self):
+        for fixture in ("abvx-note-fast-path-dry-run.json", "abvx-working-story-dry-run.json"):
+            for status in ("PREPARED", "APPROVED", "PUBLISH_PACKET_EMITTED"):
+                for corruption in ("missing", "tampered"):
+                    with self.subTest(fixture=fixture, status=status, corruption=corruption):
+                        root = self._root_with_content_ops()
+                        item = prepare_content_item(root, "content/fixtures/" + fixture)
+                        item["status"] = status
+                        if corruption == "missing":
+                            item["payload"].pop("source_markdown")
+                            item["payload"].pop("source_sha256")
+                        else:
+                            item["payload"]["source_markdown"] += "Changed after preparation."
+                        path = root / "content/items" / (item["id"] + ".json")
+                        path.write_text(json.dumps(item))
+                        before = path.read_bytes()
+                        with self.assertRaisesRegex(ValidationError, "approved Markdown"):
+                            approve_content_item(root, item["id"])
+                        self.assertEqual(path.read_bytes(), before)
 
     def test_native_packets_instruct_receipt_import_for_all_members_before_closeout(self):
         root = self._root_with_content_ops()
