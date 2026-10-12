@@ -309,11 +309,11 @@ class ProjectPublishingAdapter(Protocol):
 class GenericPublishingAdapter:
     def prepare(self, root: Path, fixture: dict[str, Any], adapter: dict[str, Any], *, intelligence_mode: str = "deterministic") -> dict[str, Any]:
         blockers = list(adapter.get("preparation_blockers", []))
-        if adapter["id"] == "abvx.working-story" or (adapter["id"] == "abvx.writing" and fixture["payload"].get("source_markdown")):
+        if adapter["id"] in {"abvx.working-story", "abvx.writing"}:
             source = fixture["payload"].get("source_markdown", "")
             if adapter["id"] == "abvx.working-story" and (fixture["project"], fixture["surface"], fixture["kind"]) != ("abvxsite", "working-stories", "working-story"):
                 blockers.append("Working Story adapter requires the matching project, surface and kind")
-            if not source or hashlib.sha256(source.encode("utf-8")).hexdigest() != fixture["payload"].get("source_sha256"):
+            if not isinstance(source, str) or not source or hashlib.sha256(source.encode("utf-8")).hexdigest() != fixture["payload"].get("source_sha256"):
                 blockers.append("Approved Markdown source and SHA-256 must match before approval")
         if adapter["readiness"] != "READY":
             blockers.append(adapter["readiness_reason"])
@@ -394,6 +394,10 @@ class GenericPublishingAdapter:
         return item
 
     def build_publish_packet(self, root: Path, item: dict[str, Any], adapter: dict[str, Any]) -> dict[str, Any]:
+        if adapter["id"] in {"abvx.writing", "abvx.working-story"}:
+            source = item["payload"].get("source_markdown")
+            if not isinstance(source, str) or not source or hashlib.sha256(source.encode("utf-8")).hexdigest() != item["payload"].get("source_sha256"):
+                raise ValidationError("Native publication requires complete approved Markdown and matching SHA-256; prepare and approve a new intake")
         return {
             "schema_version": "v1",
             "item_id": item["id"],

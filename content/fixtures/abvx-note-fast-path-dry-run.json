@@ -7,7 +7,9 @@
   "title": "Placeholder ABVX writing item for deterministic fast-path validation",
   "slug": "placeholder-abvx-writing-fast-path-validation",
   "summary": "Dummy ABVX native writing fixture used only to validate the existing /writing integration and quick validation tier.",
-  "locales": ["en"],
+  "locales": [
+    "en"
+  ],
   "adapter_id": "abvx.writing",
   "payload": {
     "excerpt": "Dry-run only placeholder for native ABVX writing.",
@@ -15,13 +17,27 @@
       "This writing item is synthetic placeholder content.",
       "It exists only to validate the /writing fast path and must not be published as a real editorial text."
     ],
-    "tags": ["ABVX", "writing", "placeholder"],
-    "topics": ["quick validation", "writing"],
+    "tags": [
+      "ABVX",
+      "writing",
+      "placeholder"
+    ],
+    "topics": [
+      "quick validation",
+      "writing"
+    ],
     "asset_refs": [],
-    "source_refs": ["internal:dummy"],
+    "source_refs": [
+      "internal:dummy"
+    ],
     "media_event_candidate": null,
     "cover_image": null,
-    "image_alt": null
+    "image_alt": null,
+    "source_markdown": "---\n{\n  \"id\": \"placeholder-abvx-writing-fast-path-validation\",\n  \"slug\": \"placeholder-abvx-writing-fast-path-validation\",\n  \"title\": \"Placeholder ABVX writing item for deterministic fast-path validation\",\n  \"type\": \"note\",\n  \"primarySection\": \"writing\",\n  \"appearsIn\": [\n    \"writing\"\n  ],\n  \"status\": \"live\",\n  \"visibility\": \"public\",\n  \"summary\": \"Dummy ABVX native writing fixture used only to validate the existing /writing integration and quick validation tier.\",\n  \"tags\": [\n    \"ABVX\",\n    \"writing\",\n    \"placeholder\"\n  ],\n  \"links\": [],\n  \"publishedAt\": \"2026-08-10T00:00:00Z\",\n  \"updatedAt\": \"2026-08-10T00:00:00Z\",\n  \"language\": \"en\"\n}\n---\n\nThis writing item is synthetic placeholder content.\n\nIt exists only to validate the /writing fast path and must not be published as a real editorial text.\n",
+    "source_sha256": "3810b6d12b7c1b273b45dc1efd5138889dc0d9da6244356176ec358a9ef9dc3b",
+    "language": "en",
+    "date_published": "2026-08-10T00:00:00Z",
+    "media_assets": []
   },
   "provenance": {
     "recorded_by": "CONTENT-OPS-002A",
