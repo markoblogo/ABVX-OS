@@ -251,6 +251,12 @@ class Visible(HTMLParser):
   if self.stack and self.stack[-1]['tag']=='head' and tag not in ('html','head','base','basefont','bgsound','link','meta','noframes','script','style','template','title','noscript'):
    self.handle_endtag('head')
   attr=dict(attrs);parent=self.stack[-1] if self.stack else None
+  namespace=parent['namespace'] if parent else 'html'
+  if parent and ((namespace=='svg' and parent['tag'] in ('foreignobject','desc','title'))
+      or (namespace=='math' and parent['tag'] in ('mi','mo','mn','ms','mtext') and tag not in ('mglyph','malignmark'))
+      or (namespace=='math' and parent['tag']=='annotation-xml' and parent['html_integration'])):
+   namespace='html'
+  if namespace=='html' and tag in ('svg','math'):namespace=tag
   style=attr.get('style') or ''
   hidden=bool((parent and parent['hidden']) or tag in self.non_rendered
       or (tag in ('details','dialog') and 'open' not in attr)
@@ -259,23 +265,24 @@ class Visible(HTMLParser):
   player=parent['player'] if parent else None
   caption=parent['caption'] if parent else None
   anchor=parent['anchor'] if parent else None
-  if tag=='figure':
+  if namespace=='html' and tag=='figure':
    player={'frames':[],'links':[],'valid':True};caption=None;anchor=None
    if not hidden:self.players.append(player)
-  if tag=='figcaption':caption=player if parent and parent['tag']=='figure' else None
-  if not hidden and tag=='iframe' and parent and parent['tag']=='figure' and player is not None:
+  if tag=='figcaption':caption=player if namespace=='html' and parent and parent['namespace']=='html' and parent['tag']=='figure' else None
+  if not hidden and namespace=='html' and tag=='iframe' and parent and parent['namespace']=='html' and parent['tag']=='figure' and player is not None:
    player['frames'].append((attr.get('src') or '',attr.get('title') or ''))
   if tag=='a':
    anchor=None
-   if not hidden and player is not None and caption is player:
+   if not hidden and namespace=='html' and player is not None and caption is player:
     anchor={'href':attr.get('href') or '', 'parts':[]};player['links'].append(anchor)
-  if tag=='link' and 'canonical' in (attr.get('rel') or '').split():self.canonical.append(attr.get('href'))
-  if tag not in self.void_tags:self.stack.append({'tag':tag,'hidden':hidden or tag=='iframe','player':player,'caption':caption,'anchor':anchor})
+  if namespace=='html' and tag=='link' and 'canonical' in (attr.get('rel') or '').split():self.canonical.append(attr.get('href'))
+  if namespace!='html' or tag not in self.void_tags:self.stack.append({'tag':tag,'namespace':namespace,'html_integration':(attr.get('encoding') or '').casefold() in ('text/html','application/xhtml+xml'),'hidden':hidden or tag=='iframe','player':player,'caption':caption,'anchor':anchor})
  def handle_startendtag(self,tag,attrs):
   self.handle_starttag(tag,attrs)
-  if tag=='iframe' and self.stack and self.stack[-1]['player'] is not None:self.stack[-1]['player']['valid']=False
-  # HTML ignores the slash on non-void elements: template/hidden ancestors
-  # remain open until an actual end tag. A self-closing iframe stays invalid.
+  if tag=='iframe' and self.stack and self.stack[-1]['namespace']=='html' and self.stack[-1]['player'] is not None:self.stack[-1]['player']['valid']=False
+  # Only foreign SVG/MathML elements honor the slash; HTML templates and
+  # hidden ancestors stay open. Integration points switch children to HTML.
+  if self.stack and self.stack[-1]['tag']==tag and self.stack[-1]['namespace']!='html':self.handle_endtag(tag)
  def handle_endtag(self,tag):
   for index in range(len(self.stack)-1,-1,-1):
    if self.stack[index]['tag']==tag:
@@ -289,6 +296,19 @@ def plain(value):
  value=re.sub(r'^\s*(?:`{3,}|~{3,})[^\n]*$', '', value, flags=re.M)
  value=re.sub(r'!\[[^\]]*\]\([^)]*\)','',value);value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
  return ' '.join(re.findall(r'[^\W_]+',html.unescape(value).casefold()))
+def authored_plain(value):
+ # Preserve literal HTML in Markdown code spans before extracting rendered
+ # inline text. Do not unescape entities before parsing: escaped tags are text.
+ runs=list(re.finditer(r'`+',value));pieces=[];cursor=0;index=0
+ while index<len(runs):
+  opening=runs[index];closing=next((j for j in range(index+1,len(runs)) if len(runs[j][0])==len(opening[0])),None)
+  if closing is None:index+=1;continue
+  end=runs[closing];pieces.extend((value[cursor:opening.start()],'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
+  cursor=end.end();index=closing+1
+ pieces.append(value[cursor:])
+ parser=Visible();parser.feed(''.join(pieces));parser.close()
+ return plain(' '.join(parser.parts))
+
 def inline_video_source(line):
  match=re.fullmatch(r'\[([^\]\n]+)\]\((https://[^\s)]+)\)',line.strip())
  if not match:return None
@@ -412,9 +432,11 @@ def validate_live_html(item,data):
   if kind=='paragraph' and inline_video_source(block) is not None:
    required+=1
    if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
-  elif (kind=='text' and plain(block)) or len(plain(block))>12:
-   required+=1
-   if ' '+plain(block)+' ' not in ' '+text+' ':raise ValueError('Authored production text not verified')
+  else:
+   expected=plain(block) if kind=='code' else authored_plain(block)
+   if (kind=='text' and expected) or len(expected)>12:
+    required+=1
+    if ' '+expected+' ' not in ' '+text+' ':raise ValueError('Authored production text not verified')
  if not required:raise ValueError('Authored production text not verified')
  return hashlib.sha256(data).hexdigest()
 class NoRedirect(HTTPRedirectHandler):

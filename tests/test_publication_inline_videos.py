@@ -389,3 +389,51 @@ class InlineVideoProbeTests(unittest.TestCase):
   item,html=self.fixture();prefix,body=html.split('<h1>',1)
   for leading in ['<head><template/></template><body>', '<template/></template>', '<div hidden/></div>', '<img src="unused"/>', '<br/>']:
    validate_live_html(item,(prefix+leading+'<h1>'+body).encode())
+
+ def test_inline_html_in_short_headings_and_list_items_matches_rendered_text(self):
+  for marker in ['## ', '###### ', '- ', '+ ', '1. ']:
+   for source,rendered in [('<em>Go</em>','<em>Go</em>'),('Go <!-- note -->','Go <!-- note -->'),('<span class="editorial-label">Go</span>','<span class="editorial-label">Go</span>'),('Go<!-- private note --> now','Go<!-- private note --> now')]:
+    with self.subTest(marker=marker,source=source):
+     item,html=self.fixture();item['payload']['body_lines']=[marker+source]
+     good=html.split('<figure',1)[0]+'<h2>'+rendered+'</h2>'
+     validate_live_html(item,good.encode());self.reject(item,[good.replace('Go','')])
+ def test_inline_comments_and_hidden_html_do_not_require_invisible_words(self):
+  item,html=self.fixture();item['payload']['body_lines']=['An original paragraph that must remain verified.','## Go <!-- editorial note -->','- Now <span hidden>private draft</span>']
+  good=html+'<h2>Go</h2><ul><li>Now</li></ul>'
+  validate_live_html(item,good.encode());self.reject(item,[good.replace('>Now<','><'),good.replace('>Go<','><')])
+ def test_literal_html_in_code_and_escaped_text_is_still_required(self):
+  import html as html_module
+  for marker in ['## ', '- ', '']:
+   for literal in ['<em>Required wording</em>','<!-- required literal note -->']:
+    for source in ['`'+literal+'`','``'+literal+'``',html_module.escape(literal)]:
+     with self.subTest(marker=marker,source=source):
+      item,html=self.fixture();item['payload']['body_lines']=[marker+source]
+      good=html.split('<figure',1)[0]+'<p>'+html_module.escape(literal)+'</p>'
+      validate_live_html(item,good.encode());self.reject(item,[html.split('<figure',1)[0]+'<p>Required wording</p>'])
+ def test_self_closing_foreign_elements_do_not_capture_real_players(self):
+  for foreign in ['<svg/>','<math/>','<svg><path/></svg>','<math><mi/></math>','<svg><iframe/></svg>','<svg><foreignObject><svg/></foreignObject></svg>']:
+   with self.subTest(foreign=foreign):
+    item,html=self.fixture()
+    good=html.replace('<figure class="youtube-figure">','<figure class="youtube-figure">'+foreign)
+    validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])
+ def test_foreign_integration_points_keep_html_templates_inert(self):
+  for wrapper in ['<svg><foreignObject>','<svg><desc>','<math><mtext>','<math><annotation-xml encoding="text/html">']:
+   item,html=self.fixture();prefix,body=html.split('<h1>',1)
+   self.reject(item,[prefix+wrapper+'<template/><h1>'+body])
+ def test_foreign_elements_cannot_claim_html_player_structure(self):
+  item,html=self.fixture()
+  self.reject(item,[html.replace(self.player(),'<svg>'+self.player()+'</svg>'),html.replace(self.player(),'<math>'+self.player()+'</math>')])
+
+ def test_inline_code_boundaries_and_block_code_preserve_literal_html(self):
+  item,html=self.fixture();item['payload']['body_lines']=['## `<em>Required wording</em>`now']
+  good=html.split('<figure',1)[0]+'<h2><code>&lt;em&gt;Required wording&lt;/em&gt;</code>now</h2>'
+  validate_live_html(item,good.encode());self.reject(item,[good.replace('&lt;em&gt;','')])
+  for source in ['```html\n<em>Required wording</em>\n```','    <em>Required wording</em>']:
+   item['payload']['body_lines']=[source]
+   good=html.split('<figure',1)[0]+'<pre>&lt;em&gt;Required wording&lt;/em&gt;</pre>'
+   validate_live_html(item,good.encode());self.reject(item,[good.replace('&lt;em&gt;','')])
+ def test_foreign_integration_points_allow_real_html_players(self):
+  for opening,closing in [('<svg><foreignObject>','</foreignObject></svg>'),('<math><mtext>','</mtext></math>'),('<math><annotation-xml encoding="application/xhtml+xml">','</annotation-xml></math>')]:
+   item,html=self.fixture()
+   good=html.replace(self.player(),opening+self.player()+closing)
+   validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])
