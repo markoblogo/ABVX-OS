@@ -326,10 +326,10 @@ class Visible(HTMLParser):
   if self.stack and self.stack[-1]['hidden']:return
   self.parts.append(value)
   if self.stack and self.stack[-1]['anchor'] is not None:self.stack[-1]['anchor']['parts'].append(value)
-def plain(value):
+def plain(value,decode_entities=True):
  value=re.sub(r'^\s*(?:`{3,}|~{3,})[^\n]*$', '', value, flags=re.M)
  value=re.sub(r'!\[[^\]]*\]\([^)]*\)','',value);value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
- return ' '.join(re.findall(r'[^\W_]+',html.unescape(value).casefold()))
+ return ' '.join(re.findall(r'[^\W_]+',(html.unescape(value) if decode_entities else value).casefold()))
 def reference_label(value):return ' '.join(value.split()).casefold()
 def resolve_reference_links(value,references):
  def escaped(position):
@@ -343,6 +343,10 @@ def resolve_reference_links(value,references):
   if reference_label(match[1]) not in references:return match[0]
   return match[1] if escaped(match.start()) else ''
  return re.sub(r'!\[([^\]\n]+)\](?![\[(])',image,value)
+def escaped_html_delimiters(value):
+ # Backslash escapes are Markdown text before raw-HTML recognition. Even
+ # runs leave a real delimiter; odd runs protect it from HTMLParser.
+ return re.sub(r'(\\+)([<>])',lambda m:m[1][:-1]+html.escape(m[2]) if len(m[1])%2 else m[0],value)
 def authored_plain(value,references=frozenset()):
  # Preserve literal HTML in Markdown code spans before extracting rendered
  # inline text. Do not unescape entities before parsing: escaped tags are text.
@@ -352,14 +356,14 @@ def authored_plain(value,references=frozenset()):
   if (len(prefix)-len(prefix.rstrip('\\')))%2:index+=1;continue
   closing=next((j for j in range(index+1,len(runs)) if len(runs[j][0])==len(opening[0])),None)
   if closing is None:index+=1;continue
-  end=runs[closing];pieces.extend((resolve_reference_links(value[cursor:opening.start()],references),'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
+  end=runs[closing];pieces.extend((escaped_html_delimiters(resolve_reference_links(value[cursor:opening.start()],references)),'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
   cursor=end.end();index=closing+1
- pieces.append(resolve_reference_links(value[cursor:],references))
+ pieces.append(escaped_html_delimiters(resolve_reference_links(value[cursor:],references)))
  source=''.join(pieces)
  # CommonMark URI/email autolinks are visible text, not HTML start tags.
  source=re.sub(r'<([A-Za-z][A-Za-z0-9+.-]{1,31}:[^<>\x00-\x20]*|[A-Za-z0-9.!#$%&\'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?)>',lambda m:'<a>'+html.escape(m[1])+'</a>',source)
  parser=Visible();parser.feed(source);parser.close()
- return plain(' '.join(parser.parts))
+ return plain(' '.join(parser.parts),decode_entities=False)
 
 def inline_video_source(line):
  # A non-rendered trailing comment does not turn a video paragraph into text.
@@ -403,19 +407,60 @@ def inline_video_verified(line,parser,used=None):
    return True
  return False
 
-def reference_title_end(lines,index,container):
- # A following quoted title belongs to the definition only when complete;
- # malformed/blank-separated candidates remain ordinary source blocks.
- title=''
- for cursor in range(index+1,len(lines)):
-  raw=lines[cursor].expandtabs(4)
-  if not raw.strip():break
-  if container and not raw.startswith(' '*container):break
-  line=raw[container:].strip()
-  if not title and (not line or line[0] not in ('"',"'",'(')):break
-  title+=('\n' if title else '')+line
+def reference_title_end(lines,index,container,initial=''):
+ # A complete title may begin with the destination or on the following line.
+ title=initial.strip()
+ for cursor in range(index,len(lines)):
+  if cursor>index:
+   raw=lines[cursor].expandtabs(4)
+   if not raw.strip() or (container and not raw.startswith(' '*container)):break
+   title+=('\n' if title else '')+raw[container:].strip()
+  if not title:continue
+  if title[0] not in ('"',"'",'('):break
   if re.fullmatch(r"""(?:"(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*'|\((?:[^()\\]|\\.)*\))""",title,re.S):return cursor
- return index
+ return None
+
+def reference_definition(lines,index,container,relative):
+ label=re.match(r' {0,3}\[([^\]\n]+)\]:[ \t]*',relative)
+ if not label or not label[1].strip():return None
+ source=relative[label.end():];destination_line=index
+ if not source:
+  destination_line+=1
+  if destination_line>=len(lines):return None
+  raw=lines[destination_line].expandtabs(4)
+  if not raw.strip() or (container and not raw.startswith(' '*container)):return None
+  source=raw[container:].lstrip()
+ # Angle destinations allow spaces but no raw angle brackets or line breaks.
+ # Bare destinations require balanced, escape-aware parentheses and no controls.
+ pos=0;depth=0
+ if source.startswith('<'):
+  pos=1
+  while pos<len(source):
+   ch=source[pos]
+   if ch=='\\' and pos+1<len(source) and source[pos+1] in '<>\\':pos+=2;continue
+   if ch=='>':pos+=1;break
+   if ch=='<' or ch in '\r\n':return None
+   pos+=1
+  else:return None
+ else:
+  while pos<len(source) and source[pos] not in ' \t':
+   ch=source[pos]
+   if ord(ch)<32 or ord(ch)==127:return None
+   if ch=='\\' and pos+1<len(source) and source[pos+1] in '()\\':pos+=2;continue
+   if ch=='(':depth+=1
+   if ch==')':
+    depth-=1
+    if depth<0:return None
+   pos+=1
+  if not pos or depth:return None
+ remainder=source[pos:]
+ if remainder and remainder[0] not in ' \t':return None
+ if remainder.strip():
+  end=reference_title_end(lines,destination_line,container,remainder)
+  if end is None:return None
+ else:
+  end=reference_title_end(lines,destination_line,container)
+ return label[1],destination_line if end is None else end
 
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
@@ -461,10 +506,10 @@ def publication_markdown_blocks(body_lines):
   if not raw.strip():continue
   expanded=raw.expandtabs(4);relative=expanded[container:] if expanded.startswith(' '*container) else expanded
   indented=relative.startswith('    ')
-  definition=re.fullmatch(r""" {0,3}\[([^\]\n]+)\]:[ \t]*(?:<[^>\n]*>|\S+)(?:[ \t]+(?P<title>\"[^\"]*\"|'[^']*'|\([^)]*\)))?[ \t]*""",relative) if not paragraph and not indented else None
+  definition=reference_definition(lines,source_index,container,relative) if not paragraph and not indented else None
   if definition:
-   if definition['title'] is None:skip_through=reference_title_end(lines,source_index,container)
-   yield 'reference',relative;continue
+   label,skip_through=definition
+   yield 'reference','['+label+']:';continue
   opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',relative)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
@@ -498,7 +543,7 @@ def publication_markdown_blocks(body_lines):
 
 def validate_live_html(item,data):
  parser=Visible();parser.feed(data.decode('utf-8'));url='https://abvx.xyz'+item['enrichment']['canonical_path']
- text=plain(' '.join(parser.parts))
+ text=plain(' '.join(parser.parts),decode_entities=False)
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
  required=0;used=set();cursor=0;visible=' '+text+' '
  blocks=list(publication_markdown_blocks(item['payload']['body_lines']))

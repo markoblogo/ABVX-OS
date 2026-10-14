@@ -537,3 +537,34 @@ class InlineVideoProbeTests(unittest.TestCase):
   for source,visible in [(r'\![Go]','!Go'),(r'\![Go][x]','!Go'),(r'\[Go][x]','[Go][x]')]:
    item['payload']['body_lines']=[prose,source,'[Go]: /image\n[x]: /a'];good=html+'<p>'+visible+'</p>'
    validate_live_html(item,good.encode());self.reject(item,[html])
+
+ def test_invalid_reference_destinations_remain_required_visible_text(self):
+  item,html=self.fixture()
+  for source in ['[important-label]: /required-visible-text(foo','[important-label]: /required-visible-text)foo','[important-label]: <required<visible>']:
+   item['payload']['body_lines']=['An original paragraph that must remain verified.',source]
+   self.reject(item,[html])
+  item['payload']['body_lines']=['An original paragraph that must remain verified.','[important-label]: /required-visible-text(foo']
+  validate_live_html(item,(html+'<p>[important-label]: /required-visible-text(foo</p>').encode())
+ def test_balanced_escaped_and_angle_reference_destinations_stay_invisible(self):
+  item,html=self.fixture()
+  for destination in ['/a(b(c)d)e',r'/a\(b',r'/a\)b','<a b>','<>']:
+   item['payload']['body_lines']=['[Go][x]','[x]: '+destination]
+   validate_live_html(item,(html+'<p><a>Go</a></p>').encode())
+ def test_reference_destinations_can_start_on_the_next_line(self):
+  item,html=self.fixture()
+  for definition in ['[x]:\n/a','[x]:\n  /a\n  "Short"','[x]:\n/a "Short"','[x]:\n/a\n "Long\n title"']:
+   item['payload']['body_lines']=['[Go][x]',definition]
+   validate_live_html(item,(html+'<p><a>Go</a></p>').encode())
+   self.reject(item,[html])
+ def test_backslash_escaped_html_delimiters_keep_visible_tag_names(self):
+  item,html=self.fixture()
+  for source in [r'## \<em>Go\</em>',r'- \<em>Go\</em>']:
+   item['payload']['body_lines']=['An original paragraph that must remain verified.',source]
+   validate_live_html(item,(html+'<h2>&lt;em&gt;Go&lt;/em&gt;</h2>').encode())
+   self.reject(item,[html+'<h2>Go</h2>'])
+ def test_character_references_are_decoded_exactly_once(self):
+  item,html=self.fixture()
+  for source,rendered in [('## &amp;copy;','&amp;copy;'),('- &amp;lt;em&amp;gt;','&amp;lt;em&amp;gt;'),('## `&copy;`','&amp;copy;')]:
+   item['payload']['body_lines']=['An original paragraph that must remain verified.',source]
+   validate_live_html(item,(html+'<h2>'+rendered+'</h2>').encode())
+   self.reject(item,[html])
