@@ -84,7 +84,7 @@ class InlineVideoProbeTests(unittest.TestCase):
    self.reject(item,[html.replace(self.player(),'')+visible])
  def test_short_video_next_to_heading_or_list_requires_a_player(self):
   link='[A](https://youtu.be/aaaaaaaaaaa)'
-  for source in [link+'\n## Heading', '## Heading\n'+link, link+'\n- List item', '- List item\n'+link]:
+  for source in [link+'\n## Heading', '## Heading\n'+link, link+'\n- List item']:
    item,html=self.fixture();item['payload']['body_lines']=['An original paragraph that must remain verified.\n\n'+source]
    validate_live_html(item,(html.replace('Example A launch video','A')+'<h2>Heading</h2><p>List item</p>').encode())
    self.reject(item,[html.replace(self.player(),'')+'<h2>Heading</h2><p>List item A</p>'])
@@ -234,3 +234,61 @@ class InlineVideoProbeTests(unittest.TestCase):
   html=html.split('<figure',1)[0]+'<ul><li>See this useful <a href="https://youtu.be/aaaaaaaaaaa">video example</a></li></ul>'
   validate_live_html(item,html.encode())
   self.reject(item,[html.replace('video example','')])
+
+ def test_standalone_link_continuations_stay_with_the_list_item(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  for marker in ['- ','* ','+ ','1. ','2) ']:
+   for indent in ['', ' ', '  ', '   ', '    ', '\t']:
+    with self.subTest(marker=marker,indent=repr(indent)):
+     source=marker+'See below\n'+indent+'[A](https://youtu.be/aaaaaaaaaaa)'
+     self.assertEqual(list(publication_markdown_blocks([source])),[('text','See below [A](https://youtu.be/aaaaaaaaaaa)')])
+     item,html=self.fixture();item['payload']['body_lines']=[source]
+     html=html.split('<figure',1)[0]+'<ul><li>See below <a href="https://youtu.be/aaaaaaaaaaa">A</a></li></ul>'
+     validate_live_html(item,html.encode());self.reject(item,[html.replace('>A</a>','></a>')])
+ def test_all_six_atx_heading_levels_are_required(self):
+  prose='An original paragraph that must remain verified.'
+  for level in range(1,7):
+   for suffix in ['', ' ###']:
+    for separator in ['\n','\n\n','\n    \n']:
+     with self.subTest(level=level,suffix=suffix,separator=repr(separator)):
+      item,html=self.fixture();item['payload']['body_lines']=[prose+separator+'#'*level+' Warning'+suffix]
+      html=html.split('<figure',1)[0]
+      validate_live_html(item,(html+f'<h{level}>Warning</h{level}>').encode())
+      self.reject(item,[html])
+ def test_implicit_body_elements_close_the_document_head(self):
+  item,html=self.fixture();prefix,body=html.split('<h1>',1)
+  for start in ['<h1>','<main><h1>','<div><h1>','<hr><h1>','<img src="unused"><h1>']:
+   implicit='<html><head>'+prefix+'<title>Hidden metadata</title>'+start+body+'</html>'
+   validate_live_html(item,implicit.encode())
+ def test_implicit_body_text_closes_head_but_metadata_remains_hidden(self):
+  item,html=self.fixture();prefix,body=html.split('<h1>',1)
+  implicit='<html><head>'+prefix+'<meta name="description" content="metadata"><title>Hidden metadata</title>Visible introduction<h1>'+body+'</html>'
+  validate_live_html(item,implicit.encode())
+  item['payload']['body_lines']=['Hidden metadata is not authored evidence.']
+  self.reject(item,[implicit])
+ def test_fake_implicit_body_inside_nonrendered_head_content_stays_hidden(self):
+  item,html=self.fixture();prefix,body=html.split('<h1>',1)
+  for tag in ['template','noscript','title','script','style']:
+   self.reject(item,['<html><head>'+prefix+f'<{tag}><h1>'+body+f'</{tag}></head></html>'])
+ def test_html_comment_blocks_do_not_require_editorial_notes(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  prose='An original paragraph that must remain verified.'
+  for comment in ['<!--\n## Note\n- Go\n[A](https://youtu.be/aaaaaaaaaaa)\n-->', '<!-- ## Note -->', '  <!--\n~~~python\n## Note\n-->','<!-- Unclosed editorial note\n###### Warning']:
+   for separator in ['\n','\n\n']:
+    with self.subTest(comment=comment,separator=repr(separator)):
+     item,html=self.fixture();item['payload']['body_lines']=[prose+separator+comment]
+     self.assertEqual(list(publication_markdown_blocks(item['payload']['body_lines'])),[('paragraph',prose)])
+     validate_live_html(item,html.encode())
+ def test_comment_blocks_restore_real_video_and_heading_checks(self):
+  item,html=self.fixture();item['payload']['body_lines']=['<!--\n## Editorial note\n-->\n###### Warning\n\n[A](https://youtu.be/aaaaaaaaaaa)']
+  good=html.replace('Example A launch video','A')+'<h6>Warning</h6>'
+  validate_live_html(item,good.encode())
+  self.reject(item,[good.replace(self.player('A'),'<p>A</p>'),good.replace('<h6>Warning</h6>','')])
+ def test_comment_markers_in_code_remain_literal(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  literal='<!--\n## Literal code heading\n-->'
+  for source in ['```html\n'+literal+'\n```','    '+literal.replace('\n','\n    ')]:
+   with self.subTest(source=source):
+    self.assertEqual(list(publication_markdown_blocks([source])),[('code',literal)])
+    item,html=self.fixture();item['payload']['body_lines']=[source]
+    validate_live_html(item,(html+'<pre>&lt;!--\n## Literal code heading\n--&gt;</pre>').encode())

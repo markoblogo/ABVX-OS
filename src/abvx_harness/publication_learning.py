@@ -248,7 +248,8 @@ class Visible(HTMLParser):
    if key in seen and key in ('src','title','href','rel','hidden','inert','aria-hidden','style','open'):
     raise ValueError('Duplicate structural HTML attribute')
    seen.add(key)
-  if tag=='body' and self.stack and self.stack[-1]['tag']=='head':self.handle_endtag('head')
+  if self.stack and self.stack[-1]['tag']=='head' and tag not in ('html','head','base','basefont','bgsound','link','meta','noframes','script','style','template','title','noscript'):
+   self.handle_endtag('head')
   attr=dict(attrs);parent=self.stack[-1] if self.stack else None
   style=attr.get('style') or ''
   hidden=bool((parent and parent['hidden']) or tag in self.non_rendered
@@ -279,6 +280,7 @@ class Visible(HTMLParser):
    if self.stack[index]['tag']==tag:
     del self.stack[index:];break
  def handle_data(self,value):
+  if value.strip() and self.stack and self.stack[-1]['tag']=='head':self.handle_endtag('head')
   if self.stack and self.stack[-1]['hidden']:return
   self.parts.append(value)
   if self.stack and self.stack[-1]['anchor'] is not None:self.stack[-1]['anchor']['parts'].append(value)
@@ -329,12 +331,18 @@ def inline_video_verified(line,parser,used=None):
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
  # interrupt prose; indented code starts only outside an existing paragraph.
- paragraph=[];paragraph_kind='paragraph';code=None;fence=None
+ paragraph=[];paragraph_kind='paragraph';code=None;fence=None;comment=False
  for raw in '\n\n'.join(body_lines).replace('\r\n','\n').split('\n'):
   if fence is not None:
    if re.fullmatch(r' {0,3}'+re.escape(fence[0])+r'{'+str(len(fence))+r',}[ \t]*',raw):
     yield 'code','\n'.join(code);code=None;fence=None
    else:code.append(raw)
+   continue
+  if comment:
+   end=raw.find('-->')
+   if end<0:continue
+   comment=False
+   if raw[end+3:].strip():yield 'text',raw[end+3:]
    continue
   if not raw.strip():
    if code is not None:code.append('')
@@ -351,15 +359,19 @@ def publication_markdown_blocks(body_lines):
    if paragraph:paragraph.append(raw.strip())
    else:code=[expanded[4:]]
    continue
+  if re.match(r' {0,3}<!--',raw):
+   if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
+   paragraph_kind='paragraph'
+   end=raw.find('-->')
+   comment=end<0
+   if not comment and raw[end+3:].strip():yield 'text',raw[end+3:]
+   continue
   opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',raw)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
    paragraph_kind='paragraph';fence=opening[1];code=[];continue
   line=raw.strip()
-  if paragraph_kind=='text' and inline_video_source(line) is not None:
-   if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
-   paragraph_kind='paragraph'
-  heading=re.fullmatch(r'#{2,4}\s+(.+)',line)
+  heading=re.fullmatch(r'#{1,6}\s+(.+)',line)
   item=re.fullmatch(r'(?:[-*+]|[0-9]+[.)])\s+(.+)',line)
   if heading or item:
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
