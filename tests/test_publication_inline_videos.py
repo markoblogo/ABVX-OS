@@ -514,3 +514,26 @@ class InlineVideoProbeTests(unittest.TestCase):
  def test_ignored_select_tokens_do_not_invalidate_a_real_sibling_player(self):
   item,html=self.fixture();good=html.replace('<figure class="youtube-figure">','<figure class="youtube-figure"><select><iframe/><option>Choice</select>')
   validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])
+
+ def test_multiline_reference_definition_titles_are_not_visible_prose(self):
+  prose='An original paragraph that must remain verified.'
+  for title in [' "Short"', " 'Short'", ' (Short)', ' "Long title\ncontinued"']:
+   item,html=self.fixture();item['payload']['body_lines']=[prose,'## [Go][x]','[x]: /a\n'+title]
+   good=html+'<h2><a href="/a" title="title">Go</a></h2>';validate_live_html(item,good.encode());self.reject(item,[html])
+ def test_resolved_shortcut_reference_images_do_not_require_alt_prose(self):
+  item,html=self.fixture();prose='An original paragraph that must remain verified.'
+  item['payload']['body_lines']=[prose,'![Go]','[Go]: /image']
+  validate_live_html(item,(html+'<img src="/image" alt="Go">').encode())
+  item['payload']['body_lines']=[prose,'![Undefined]','[Go]: /image'];self.reject(item,[html])
+ def test_escaped_opening_backticks_are_not_code_spans(self):
+  item,html=self.fixture()
+  for source in [r'\`<em>Go</em>\`',r'\`<em>Go</em>`']:
+   item['payload']['body_lines']=['## '+source];good=html+'<h2>`<em>Go</em>`</h2>';validate_live_html(item,good.encode());self.reject(item,[html])
+  for source in [r'\\`<em>Go</em>`',r'`<em>Go</em>\`']:
+   item['payload']['body_lines']=['## '+source];good=html+'<h2><code>&lt;em&gt;Go&lt;/em&gt;</code></h2>';validate_live_html(item,good.encode());self.reject(item,[html+'<h2>Go</h2>'])
+
+ def test_escaped_reference_markup_keeps_its_visible_words(self):
+  item,html=self.fixture();prose='An original paragraph that must remain verified.'
+  for source,visible in [(r'\![Go]','!Go'),(r'\![Go][x]','!Go'),(r'\[Go][x]','[Go][x]')]:
+   item['payload']['body_lines']=[prose,source,'[Go]: /image\n[x]: /a'];good=html+'<p>'+visible+'</p>'
+   validate_live_html(item,good.encode());self.reject(item,[html])

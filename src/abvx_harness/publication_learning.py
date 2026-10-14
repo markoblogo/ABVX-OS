@@ -332,16 +332,25 @@ def plain(value):
  return ' '.join(re.findall(r'[^\W_]+',html.unescape(value).casefold()))
 def reference_label(value):return ' '.join(value.split()).casefold()
 def resolve_reference_links(value,references):
+ def escaped(position):
+  prefix=value[:position];return (len(prefix)-len(prefix.rstrip('\\')))%2==1
  def replace(match):
   label=match[2];key=reference_label(match[3] or label)
-  return ('' if match[1] else label) if key in references else match[0]
- return re.sub(r'(!?)\[([^\]\n]+)\]\[([^\]\n]*)\]',replace,value)
+  if (not match[1] and escaped(match.start())) or key not in references:return match[0]
+  return '' if match[1] and not escaped(match.start()) else label
+ value=re.sub(r'(!?)\[([^\]\n]+)\]\[([^\]\n]*)\]',replace,value)
+ def image(match):
+  if reference_label(match[1]) not in references:return match[0]
+  return match[1] if escaped(match.start()) else ''
+ return re.sub(r'!\[([^\]\n]+)\](?![\[(])',image,value)
 def authored_plain(value,references=frozenset()):
  # Preserve literal HTML in Markdown code spans before extracting rendered
  # inline text. Do not unescape entities before parsing: escaped tags are text.
  runs=list(re.finditer(r'`+',value));pieces=[];cursor=0;index=0
  while index<len(runs):
-  opening=runs[index];closing=next((j for j in range(index+1,len(runs)) if len(runs[j][0])==len(opening[0])),None)
+  opening=runs[index];prefix=value[:opening.start()]
+  if (len(prefix)-len(prefix.rstrip('\\')))%2:index+=1;continue
+  closing=next((j for j in range(index+1,len(runs)) if len(runs[j][0])==len(opening[0])),None)
   if closing is None:index+=1;continue
   end=runs[closing];pieces.extend((resolve_reference_links(value[cursor:opening.start()],references),'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
   cursor=end.end();index=closing+1
@@ -394,11 +403,27 @@ def inline_video_verified(line,parser,used=None):
    return True
  return False
 
+def reference_title_end(lines,index,container):
+ # A following quoted title belongs to the definition only when complete;
+ # malformed/blank-separated candidates remain ordinary source blocks.
+ title=''
+ for cursor in range(index+1,len(lines)):
+  raw=lines[cursor].expandtabs(4)
+  if not raw.strip():break
+  if container and not raw.startswith(' '*container):break
+  line=raw[container:].strip()
+  if not title and (not line or line[0] not in ('"',"'",'(')):break
+  title+=('\n' if title else '')+line
+  if re.fullmatch(r"""(?:"(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*'|\((?:[^()\\]|\\.)*\))""",title,re.S):return cursor
+ return index
+
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
  # interrupt prose; indented code starts only outside an existing paragraph.
  paragraph=[];paragraph_kind='paragraph';code=None;fence=None;fence_indent=0;list_indent=None;list_marker=None;comment=False
- for raw in '\n\n'.join(body_lines).replace('\r\n','\n').split('\n'):
+ lines='\n\n'.join(body_lines).replace('\r\n','\n').split('\n');skip_through=-1
+ for source_index,raw in enumerate(lines):
+  if source_index<=skip_through:continue
   if fence is not None:
    expanded=raw.expandtabs(4)
    if fence_indent and raw.strip() and not expanded.startswith(' '*fence_indent):
@@ -436,7 +461,9 @@ def publication_markdown_blocks(body_lines):
   if not raw.strip():continue
   expanded=raw.expandtabs(4);relative=expanded[container:] if expanded.startswith(' '*container) else expanded
   indented=relative.startswith('    ')
-  if not paragraph and not indented and re.fullmatch(r""" {0,3}\[([^\]\n]+)\]:[ \t]*(?:<[^>\n]*>|\S+)(?:[ \t]+(?:\"[^\"]*\"|'[^']*'|\([^)]*\)))?[ \t]*""",relative):
+  definition=re.fullmatch(r""" {0,3}\[([^\]\n]+)\]:[ \t]*(?:<[^>\n]*>|\S+)(?:[ \t]+(?P<title>\"[^\"]*\"|'[^']*'|\([^)]*\)))?[ \t]*""",relative) if not paragraph and not indented else None
+  if definition:
+   if definition['title'] is None:skip_through=reference_title_end(lines,source_index,container)
    yield 'reference',relative;continue
   opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',relative)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
