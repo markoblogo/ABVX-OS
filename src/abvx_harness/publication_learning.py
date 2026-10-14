@@ -331,13 +331,19 @@ def inline_video_verified(line,parser,used=None):
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
  # interrupt prose; indented code starts only outside an existing paragraph.
- paragraph=[];paragraph_kind='paragraph';code=None;fence=None;comment=False
+ paragraph=[];paragraph_kind='paragraph';code=None;fence=None;fence_indent=0;list_indent=None;comment=False
  for raw in '\n\n'.join(body_lines).replace('\r\n','\n').split('\n'):
   if fence is not None:
-   if re.fullmatch(r' {0,3}'+re.escape(fence[0])+r'{'+str(len(fence))+r',}[ \t]*',raw):
-    yield 'code','\n'.join(code);code=None;fence=None
-   else:code.append(raw)
-   continue
+   expanded=raw.expandtabs(4)
+   if fence_indent and raw.strip() and not expanded.startswith(' '*fence_indent):
+    # A dedent ends the list container even without a closing fence.
+    yield 'code','\n'.join(code);code=None;fence=None;fence_indent=0;list_indent=None
+   else:
+    relative=expanded[fence_indent:] if fence_indent else raw
+    if re.fullmatch(r' {0,3}'+re.escape(fence[0])+r'{'+str(len(fence))+r',}[ \t]*',relative):
+     yield 'code','\n'.join(code);code=None;fence=None;fence_indent=0
+    else:code.append(relative)
+    continue
   if comment:
    end=raw.find('-->')
    if end<0:continue
@@ -355,10 +361,6 @@ def publication_markdown_blocks(body_lines):
    if indented:
     code.append(expanded[4:]);continue
    yield 'code','\n'.join(code).rstrip('\n');code=None
-  if indented:
-   if paragraph:paragraph.append(raw.strip())
-   else:code=[expanded[4:]]
-   continue
   if re.match(r' {0,3}<!--',raw):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
    paragraph_kind='paragraph'
@@ -366,18 +368,30 @@ def publication_markdown_blocks(body_lines):
    comment=end<0
    if not comment and raw[end+3:].strip():yield 'text',raw[end+3:]
    continue
-  opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',raw)
+  if list_indent is not None and not paragraph and not expanded.startswith(' '*list_indent):list_indent=None
+  container=list_indent if list_indent is not None and expanded.startswith(' '*list_indent) else 0
+  opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',expanded[container:] if container else raw)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
-   paragraph_kind='paragraph';fence=opening[1];code=[];continue
+   paragraph_kind='paragraph';fence=opening[1];fence_indent=container;code=[]
+   if not container:list_indent=None
+   continue
+  if indented:
+   if paragraph:paragraph.append(raw.strip())
+   else:code=[expanded[4:]]
+   continue
   line=raw.strip()
   heading=re.fullmatch(r'#{1,6}\s+(.+)',line)
   item=re.fullmatch(r'(?:[-*+]|[0-9]+[.)])\s+(.+)',line)
   if heading or item:
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
    paragraph_kind='text' if item else 'paragraph'
-   if item:paragraph=[item[1]]
-   else:yield 'text',heading[1]
+   if item:
+    list_indent=len(expanded)-len(expanded.lstrip())+re.match(r'(?:[-*+]|[0-9]+[.)])\s+',expanded.lstrip()).end()
+    paragraph=[item[1]]
+   else:
+    if list_indent is not None and not expanded.startswith(' '*list_indent):list_indent=None
+    yield 'text',heading[1]
   else:paragraph.append(line)
  if paragraph:yield paragraph_kind,' '.join(paragraph)
  if code is not None:yield 'code','\n'.join(code)

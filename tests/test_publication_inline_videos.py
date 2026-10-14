@@ -292,3 +292,40 @@ class InlineVideoProbeTests(unittest.TestCase):
     self.assertEqual(list(publication_markdown_blocks([source])),[('code',literal)])
     item,html=self.fixture();item['payload']['body_lines']=[source]
     validate_live_html(item,(html+'<pre>&lt;!--\n## Literal code heading\n--&gt;</pre>').encode())
+
+ def test_list_relative_fences_exclude_info_strings_from_required_text(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  for marker,base in [('- ',2),('* ',2),('+ ',2),('1. ',3),('10) ',4),('  - ',4),('   1. ',6),('-\t',4),('1.\t',4)]:
+   for extra in [0,1,2,3]:
+    for opener,closer in [('```python','```'),('~~~~c++','~~~~~')]:
+     for separator in ['\n','\n\n']:
+      with self.subTest(marker=marker,extra=extra,opener=opener,separator=repr(separator)):
+       indent=' '*(base+extra);code='An exact nested code example.'
+       source=marker+'Required action'+separator+indent+opener+'\n'+' '*base+code+'\n'+indent+closer
+       self.assertEqual(list(publication_markdown_blocks([source])),[('text','Required action'),('code',code)])
+       item,html=self.fixture();item['payload']['body_lines']=[source];html=html.split('<figure',1)[0]
+       good=html+'<ul><li>Required action<pre><code>'+code+'</code></pre></li></ul>'
+       validate_live_html(item,good.encode());self.reject(item,[good.replace(code,'Wrong code'),good.replace('>Required action<','><')])
+ def test_list_fences_do_not_swallow_dedented_real_videos(self):
+  code='An exact nested code example.';link='[A](https://youtu.be/aaaaaaaaaaa)'
+  for closer in ['    ```\n','']:
+   item,html=self.fixture();item['payload']['body_lines']=['- Example\n    ```python\n    '+code+'\n'+closer+link]
+   good=html.replace('Example A launch video','A')+'<ul><li>Example<pre>'+code+'</pre></li></ul>'
+   validate_live_html(item,good.encode());self.reject(item,[good.replace(self.player('A'),'<p>A</p>')])
+ def test_list_relative_fences_keep_literal_video_examples_inside_code(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  literal='[Literal video example](https://youtu.be/aaaaaaaaaaa)'
+  source='- Example\n    ~~~~markdown\n  ~~~\n  '+literal+'\n    ~~~~~'
+  self.assertEqual(list(publication_markdown_blocks([source])),[('text','Example'),('code','~~~\n'+literal)])
+  item,html=self.fixture();item['payload']['body_lines']=[source]
+  validate_live_html(item,(html.split('<figure',1)[0]+'<ul><li>Example<pre>~~~\n'+literal+'</pre></li></ul>').encode())
+ def test_deep_indentation_does_not_turn_literal_fences_into_openers(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  source='- Example\n      ```python\n      Literal continuation text.'
+  self.assertEqual(list(publication_markdown_blocks([source])),[('text','Example ```python Literal continuation text.')])
+
+ def test_dedented_headings_end_the_fence_list_container(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  literal='```python\nAn exact literal code example.\n```'
+  source='- Required action\n## Next\n    '+literal.replace('\n','\n    ')
+  self.assertEqual(list(publication_markdown_blocks([source])),[('text','Required action'),('text','Next'),('code',literal)])
