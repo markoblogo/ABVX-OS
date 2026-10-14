@@ -485,3 +485,32 @@ class InlineVideoProbeTests(unittest.TestCase):
    for opening,closing in [('<div>','</div>'),('<p>','</p>'),('<table><tr><td>','</td></tr></table>')]:
     good=html.replace(self.player(),foreign+opening+self.player()+closing)
     validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])
+
+ def test_leading_comments_cannot_replace_standalone_video_proof(self):
+  prose='An original paragraph that must remain verified.'
+  for prefix in ['<!-- editorial --> ', '<!-- first --><!-- second --> ', '<!-- editorial\n note --> ']:
+   item,html=self.fixture();item['payload']['body_lines']=[prose+'\n\n'+prefix+'[A](https://youtu.be/aaaaaaaaaaa)']
+   good=html.replace('Example A launch video','A');validate_live_html(item,good.encode());self.reject(item,[good.replace(self.player('A'),'<p>A</p>')])
+ def test_reference_definitions_are_invisible_but_their_labels_remain_required(self):
+  prose='An original paragraph that must remain verified.'
+  for usage in ['[Go][x]','[Go][X]','[Go][]','[Go]']:
+   key='Go' if usage in ('[Go][]','[Go]') else 'x'
+   item,html=self.fixture();item['payload']['body_lines']=[prose,'## '+usage,'['+key+']: /a']
+   good=html+'<h2><a href="/a">Go</a></h2>';validate_live_html(item,good.encode());self.reject(item,[html])
+ def test_new_heading_implicitly_closes_a_self_closing_html_heading(self):
+  item,html=self.fixture()
+  for first in ['h1','h2','h6']:
+   validate_live_html(item,html.replace('<h1>',f'<{first} hidden/><h1>',1).encode())
+  self.reject(item,[html.replace('<h1>','<template/><h1 hidden/><h1>',1)])
+ def test_ignored_select_markup_cannot_qualify_a_player(self):
+  item,html=self.fixture()
+  self.reject(item,[html.replace(self.player(),'<select><p hidden>'+self.player()+'</select>'),html.replace(self.player(),'<select>'+self.player()+'</select>')])
+  good=html.replace(self.player(),'<select><option>Choice</select>'+self.player());validate_live_html(item,good.encode())
+
+ def test_reference_examples_inside_code_remain_literal(self):
+  item,html=self.fixture();item['payload']['body_lines']=['## `[Go][x]`','[x]: /a']
+  good=html+'<h2><code>[Go][x]</code></h2>';validate_live_html(item,good.encode());self.reject(item,[html+'<h2>Go</h2>'])
+  item['payload']['body_lines']=['```markdown\n[Required code reference]: /a\n```'];validate_live_html(item,(html+'<pre>[Required code reference]: /a</pre>').encode())
+ def test_ignored_select_tokens_do_not_invalidate_a_real_sibling_player(self):
+  item,html=self.fixture();good=html.replace('<figure class="youtube-figure">','<figure class="youtube-figure"><select><iframe/><option>Choice</select>')
+  validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])

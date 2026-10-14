@@ -237,7 +237,7 @@ class Visible(HTMLParser):
  # Track only the ancestors and semantic player projections needed by this
  # probe. This is static HTML evidence, not a computed-layout browser audit.
  void_tags=frozenset(('area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'))
- non_rendered=frozenset(('head','script','style','template','noscript','textarea','title'))
+ non_rendered=frozenset(('head','script','style','template','noscript','textarea','title','select'))
  def __init__(self):
   super().__init__();self.canonical=[];self.parts=[];self.stack=[];self.players=[]
  def child_namespace(self,tag):
@@ -247,6 +247,11 @@ class Visible(HTMLParser):
       or (namespace=='math' and parent['tag'] in ('mi','mo','mn','ms','mtext') and tag not in ('mglyph','malignmark'))
       or (namespace=='math' and parent['tag']=='annotation-xml' and parent['html_integration'])):return 'html'
   return namespace
+ def in_select(self):
+  for node in reversed(self.stack):
+   if node['namespace']=='html' and node['tag']=='template':return False
+   if node['namespace']=='html' and node['tag']=='select':return True
+  return False
  def handle_starttag(self,tag,attrs):
   # A browser keeps the first duplicate attribute, whereas dict keeps the
   # last. Ambiguous evidence or visibility attributes cannot prove release.
@@ -256,6 +261,11 @@ class Visible(HTMLParser):
     raise ValueError('Duplicate structural HTML attribute')
    seen.add(key)
   attr=dict(attrs)
+  if self.in_select():
+   if tag in ('input','keygen','textarea','select'):
+    self.handle_endtag('select')
+    if tag=='select':return
+   elif tag not in ('option','optgroup','hr','script','template'):return
   namespace=self.child_namespace(tag)
   breakout=tag in ('b','big','blockquote','body','br','center','code','dd','div','dl','dt','em','embed','h1','h2','h3','h4','h5','h6','head','hr','i','img','li','listing','menu','meta','nobr','ol','p','pre','ruby','s','small','span','strong','strike','sub','sup','table','tt','u','ul','var') or (tag=='font' and any(k in attr for k in ('color','face','size')))
   if namespace!='html' and breakout:
@@ -276,6 +286,8 @@ class Visible(HTMLParser):
     if node['namespace']!='html' or node['tag'] in ('template','html','table','ul','ol','dl'):break
     if node['tag'] in (('li',) if tag=='li' else ('dt','dd')):self.handle_endtag(node['tag']);break
    parent=self.stack[-1] if self.stack else None
+  if namespace=='html' and tag in ('h1','h2','h3','h4','h5','h6') and self.stack and self.stack[-1]['namespace']=='html' and self.stack[-1]['tag'] in ('h1','h2','h3','h4','h5','h6'):
+   self.stack.pop();parent=self.stack[-1] if self.stack else None
   style=attr.get('style') or ''
   hidden=bool((parent and parent['hidden']) or tag in self.non_rendered
       or (tag in ('details','dialog') and 'open' not in attr)
@@ -297,12 +309,15 @@ class Visible(HTMLParser):
   if namespace=='html' and tag=='link' and 'canonical' in (attr.get('rel') or '').split():self.canonical.append(attr.get('href'))
   if namespace!='html' or tag not in self.void_tags:self.stack.append({'tag':tag,'namespace':namespace,'html_integration':(attr.get('encoding') or '').casefold() in ('text/html','application/xhtml+xml'),'hidden':hidden or tag=='iframe','player':player,'caption':caption,'anchor':anchor})
  def handle_startendtag(self,tag,attrs):
+  previous=self.stack[-1] if self.stack else None
   self.handle_starttag(tag,attrs)
-  if tag=='iframe' and self.stack and self.stack[-1]['namespace']=='html' and self.stack[-1]['player'] is not None:self.stack[-1]['player']['valid']=False
-  # Only foreign SVG/MathML elements honor the slash; HTML templates and
-  # hidden ancestors stay open. Integration points switch children to HTML.
-  if self.stack and self.stack[-1]['tag']==tag and self.stack[-1]['namespace']!='html':self.handle_endtag(tag)
+  node=self.stack[-1] if self.stack and self.stack[-1] is not previous and self.stack[-1]['tag']==tag else None
+  if node and tag=='iframe' and node['namespace']=='html' and node['player'] is not None:node['player']['valid']=False
+  # Ignored select tokens create no node. Only foreign SVG/MathML elements
+  # honor the slash; HTML templates and hidden ancestors stay open.
+  if node and node['namespace']!='html':self.handle_endtag(tag)
  def handle_endtag(self,tag):
+  if self.in_select() and tag not in ('select','option','optgroup','template','script'):return
   for index in range(len(self.stack)-1,-1,-1):
    if self.stack[index]['tag']==tag:
     del self.stack[index:];break
@@ -315,16 +330,22 @@ def plain(value):
  value=re.sub(r'^\s*(?:`{3,}|~{3,})[^\n]*$', '', value, flags=re.M)
  value=re.sub(r'!\[[^\]]*\]\([^)]*\)','',value);value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
  return ' '.join(re.findall(r'[^\W_]+',html.unescape(value).casefold()))
-def authored_plain(value):
+def reference_label(value):return ' '.join(value.split()).casefold()
+def resolve_reference_links(value,references):
+ def replace(match):
+  label=match[2];key=reference_label(match[3] or label)
+  return ('' if match[1] else label) if key in references else match[0]
+ return re.sub(r'(!?)\[([^\]\n]+)\]\[([^\]\n]*)\]',replace,value)
+def authored_plain(value,references=frozenset()):
  # Preserve literal HTML in Markdown code spans before extracting rendered
  # inline text. Do not unescape entities before parsing: escaped tags are text.
  runs=list(re.finditer(r'`+',value));pieces=[];cursor=0;index=0
  while index<len(runs):
   opening=runs[index];closing=next((j for j in range(index+1,len(runs)) if len(runs[j][0])==len(opening[0])),None)
   if closing is None:index+=1;continue
-  end=runs[closing];pieces.extend((value[cursor:opening.start()],'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
+  end=runs[closing];pieces.extend((resolve_reference_links(value[cursor:opening.start()],references),'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
   cursor=end.end();index=closing+1
- pieces.append(value[cursor:])
+ pieces.append(resolve_reference_links(value[cursor:],references))
  source=''.join(pieces)
  # CommonMark URI/email autolinks are visible text, not HTML start tags.
  source=re.sub(r'<([A-Za-z][A-Za-z0-9+.-]{1,31}:[^<>\x00-\x20]*|[A-Za-z0-9.!#$%&\'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?)>',lambda m:'<a>'+html.escape(m[1])+'</a>',source)
@@ -393,8 +414,7 @@ def publication_markdown_blocks(body_lines):
    end=raw.find('-->')
    if end<0:continue
    comment=False
-   if raw[end+3:].strip():yield 'text',raw[end+3:]
-   continue
+   raw=raw[end+3:].lstrip()
   if not raw.strip():
    if code is not None:code.append('')
    else:
@@ -409,13 +429,15 @@ def publication_markdown_blocks(body_lines):
    if indented:
     code.append(relative[4:]);continue
    yield 'code','\n'.join(code).rstrip('\n');code=None
-  if re.match(r' {0,3}<!--',raw):
+  while re.match(r' {0,3}<!--',raw):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
-   paragraph_kind='paragraph'
-   end=raw.find('-->')
-   comment=end<0
-   if not comment and raw[end+3:].strip():yield 'text',raw[end+3:]
-   continue
+   paragraph_kind='paragraph';end=raw.find('-->');comment=end<0
+   raw='' if comment else raw[end+3:].lstrip()
+  if not raw.strip():continue
+  expanded=raw.expandtabs(4);relative=expanded[container:] if expanded.startswith(' '*container) else expanded
+  indented=relative.startswith('    ')
+  if not paragraph and not indented and re.fullmatch(r""" {0,3}\[([^\]\n]+)\]:[ \t]*(?:<[^>\n]*>|\S+)(?:[ \t]+(?:\"[^\"]*\"|'[^']*'|\([^)]*\)))?[ \t]*""",relative):
+   yield 'reference',relative;continue
   opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',relative)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
@@ -452,12 +474,15 @@ def validate_live_html(item,data):
  text=plain(' '.join(parser.parts))
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
  required=0;used=set();cursor=0;visible=' '+text+' '
- for kind,block in publication_markdown_blocks(item['payload']['body_lines']):
+ blocks=list(publication_markdown_blocks(item['payload']['body_lines']))
+ references={reference_label(re.match(r'\s*\[([^\]]+)\]:',block)[1]) for kind,block in blocks if kind=='reference'}
+ for kind,block in blocks:
+  if kind=='reference':continue
   if kind=='paragraph' and inline_video_source(block) is not None:
    required+=1
    if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
   else:
-   expected=plain(block) if kind=='code' else authored_plain(block)
+   expected=plain(block) if kind=='code' else authored_plain(block,references)
    if (kind in ('text','paragraph') and expected) or len(expected)>12:
     required+=1;needle=' '+expected+' ';position=visible.find(needle,cursor)
     if position<0:raise ValueError('Authored production text not verified')
