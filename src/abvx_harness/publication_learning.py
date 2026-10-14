@@ -241,6 +241,14 @@ class Visible(HTMLParser):
  def __init__(self):
   super().__init__();self.canonical=[];self.parts=[];self.stack=[];self.players=[]
  def handle_starttag(self,tag,attrs):
+  # A browser keeps the first duplicate attribute, whereas dict keeps the
+  # last. Ambiguous evidence or visibility attributes cannot prove release.
+  seen=set()
+  for key,_ in attrs:
+   if key in seen and key in ('src','title','href','rel','hidden','inert','aria-hidden','style','open'):
+    raise ValueError('Duplicate structural HTML attribute')
+   seen.add(key)
+  if tag=='body' and self.stack and self.stack[-1]['tag']=='head':self.handle_endtag('head')
   attr=dict(attrs);parent=self.stack[-1] if self.stack else None
   style=attr.get('style') or ''
   hidden=bool((parent and parent['hidden']) or tag in self.non_rendered
@@ -303,7 +311,7 @@ def inline_video_verified(line,parser,used=None):
  source=inline_video_source(line)
  if not source:return False
  label,href,video_id=source
- if not video_id:return False
+ if not video_id or not plain(label):return False
  for index,player in enumerate(parser.players):
   # Each component owns one direct player and its caption. Page-wide links
   # and anchors in other figures cannot serve as this player's fallback.
@@ -318,26 +326,39 @@ def inline_video_verified(line,parser,used=None):
    return True
  return False
 
+def publication_markdown_blocks(body_lines):
+ # Match the site's supported paragraph/fence/heading/list boundaries. A fence
+ # flushes its adjacent paragraph even when no blank line separates them.
+ paragraph=[];code=None
+ for raw in '\n\n'.join(body_lines).replace('\r\n','\n').split('\n'):
+  line=raw.strip()
+  if re.fullmatch(r'```[A-Za-z0-9_-]*',line) and (code is None or line=='```'):
+   if paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
+   if code is None:code=[]
+   else:yield 'code','\n'.join(code);code=None
+   continue
+  if code is not None:code.append(raw);continue
+  heading=re.fullmatch(r'#{2,4}\s+(.+)',line)
+  item=re.fullmatch(r'(?:[-*]|[0-9]+[.)])\s+(.+)',line)
+  if not line or heading or item:
+   if paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
+   if heading or item:yield 'text',(heading or item)[1]
+  else:paragraph.append(line)
+ if paragraph:yield 'paragraph',' '.join(paragraph)
+ if code is not None:yield 'code','\n'.join(code)
+
 def validate_live_html(item,data):
  parser=Visible();parser.feed(data.decode('utf-8'));url='https://abvx.xyz'+item['enrichment']['canonical_path']
  text=plain(' '.join(parser.parts))
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
- required=0;fence=None;used=set()
- for block in item['payload']['body_lines']:
-  for paragraph in block.split('\n\n'):
-   code=fence is not None
-   for line in paragraph.splitlines():
-    marker=re.fullmatch(r'\s*(`{3,}|~{3,})([^\n]*)',line)
-    if marker:
-     code=True
-     if fence is None:fence=marker[1]
-     elif marker[1][0]==fence[0] and len(marker[1])>=len(fence) and not marker[2].strip():fence=None
-   if not code and inline_video_source(paragraph) is not None:
-    required+=1
-    if not inline_video_verified(paragraph,parser,used):raise ValueError('Authored inline video not verified')
-   elif len(plain(paragraph))>12:
-    required+=1
-    if plain(paragraph) not in text:raise ValueError('Authored production text not verified')
+ required=0;used=set()
+ for kind,block in publication_markdown_blocks(item['payload']['body_lines']):
+  if kind=='paragraph' and inline_video_source(block) is not None:
+   required+=1
+   if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
+  elif len(plain(block))>12:
+   required+=1
+   if plain(block) not in text:raise ValueError('Authored production text not verified')
  if not required:raise ValueError('Authored production text not verified')
  return hashlib.sha256(data).hexdigest()
 class NoRedirect(HTTPRedirectHandler):

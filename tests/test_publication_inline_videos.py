@@ -73,3 +73,49 @@ class InlineVideoProbeTests(unittest.TestCase):
  def test_repeated_source_occurrences_require_distinct_players(self):
   item,html=self.fixture();item['payload']['body_lines'][0]+='\n\n[Example A launch video](https://youtu.be/aaaaaaaaaaa)'
   self.reject(item,[html]);validate_live_html(item,(html+self.player()).encode())
+
+ def test_video_adjacent_to_code_fences_always_requires_a_player(self):
+  link='[Example A launch video](https://youtu.be/aaaaaaaaaaa)'
+  code='Command example that must stay visible.'
+  cases=[(link+'\n```text\n'+code+'\n```','<p>Example A launch video</p><pre>'+code+'</pre>'),('```text\n'+code+'\n```\n'+link,'<pre>'+code+'</pre><p>Example A launch video</p>')]
+  for source,visible in cases:
+   item,html=self.fixture();item['payload']['body_lines']=['An original paragraph that must remain verified.\n\n'+source]
+   validate_live_html(item,(html+'<pre>'+code+'</pre>').encode())
+   self.reject(item,[html.replace(self.player(),'')+visible])
+ def test_short_video_next_to_heading_or_list_requires_a_player(self):
+  link='[A](https://youtu.be/aaaaaaaaaaa)'
+  for source in [link+'\n## Heading', '## Heading\n'+link, link+'\n- List item', '- List item\n'+link]:
+   item,html=self.fixture();item['payload']['body_lines']=['An original paragraph that must remain verified.\n\n'+source]
+   validate_live_html(item,(html.replace('Example A launch video','A')+'<h2>Heading</h2><p>List item</p>').encode())
+   self.reject(item,[html.replace(self.player(),'')+'<h2>Heading</h2><p>List item A</p>'])
+ def test_list_links_and_multi_link_paragraphs_do_not_become_players(self):
+  item,html=self.fixture()
+  for source,text in [('- [List video label](https://youtu.be/aaaaaaaaaaa)','List video label'),('[First link](https://youtu.be/aaaaaaaaaaa)\n[Second link](https://youtu.be/bbbbbbbbbbb)','First link Second link')]:
+   item['payload']['body_lines']=[source];validate_live_html(item,(html.replace(self.player(),'')+'<p>'+text+'</p>').encode())
+ def test_duplicate_structural_attributes_are_rejected_in_both_orders(self):
+  item,html=self.fixture();frame='src="https://www.youtube-nocookie.com/embed/aaaaaaaaaaa?rel=0&amp;playsinline=1"';title='title="Example A launch video"';anchor='href="https://youtu.be/aaaaaaaaaaa"'
+  variants=[]
+  for good,bad in [(frame,'src="https://example.com/wrong"'),(title,'title="Wrong title"'),(anchor,'href="https://example.com/wrong"')]:
+   variants.extend([html.replace(good,bad+' '+good,1),html.replace(good,good+' '+bad,1),html.replace(good,good+' '+good,1)])
+  variants.extend([html.replace(frame,'SRC="https://example.com/wrong" '+frame,1),html.replace('<iframe ','<iframe style="display:none" style="display:block" ',1),html.replace('<a ','<a aria-hidden="true" aria-hidden="false" ',1),html.replace('rel="canonical"','rel="other" rel="canonical"',1),html.replace('href="https://abvx.xyz/writing/test-only"','href="https://example.com/wrong" href="https://abvx.xyz/writing/test-only"',1)])
+  self.reject(item,variants)
+ def test_punctuation_only_labels_cannot_supply_an_accessible_title(self):
+  for label in ['---','___','🎬']:
+   item,html=self.fixture();item['payload']['body_lines']=['['+label+'](https://youtu.be/aaaaaaaaaaa)']
+   for title in ['title="'+label+'"','title=""','']:
+    self.reject(item,[html.replace('title="Example A launch video"',title,1)])
+ def test_body_implicitly_closes_document_head(self):
+  item,html=self.fixture();prefix,body=html.split('<h1>',1)
+  implicit='<html><head>'+prefix+'<title>Document metadata</title><body><h1>'+body+'</body></html>'
+  validate_live_html(item,implicit.encode())
+  validate_live_html(item,implicit.replace('<body>','</head><body>',1).encode())
+ def test_fake_body_inside_head_template_stays_hidden(self):
+  item,html=self.fixture();prefix,body=html.split('<h1>',1)
+  self.reject(item,['<html><head>'+prefix+'<template><body><h1>'+body+'</body></template></head></html>'])
+
+ def test_visible_text_next_to_a_fence_never_substitutes_for_player(self):
+  for label in ['A','Example A launch video']:
+   link='['+label+'](https://youtu.be/aaaaaaaaaaa)';code='Command example that must stay visible.'
+   for source,visible in [(link+'\n```text\n'+code+'\n```','<p>'+label+'</p><pre>'+code+'</pre>'),('```text\n'+code+'\n```\n'+link,'<pre>'+code+'</pre><p>'+label+'</p>')]:
+    item,html=self.fixture();item['payload']['body_lines']=['An original paragraph that must remain verified.\n\n'+source]
+    self.reject(item,[html.replace(self.player(),'')+visible])
