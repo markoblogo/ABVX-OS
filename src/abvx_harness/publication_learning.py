@@ -274,7 +274,8 @@ class Visible(HTMLParser):
  def handle_startendtag(self,tag,attrs):
   self.handle_starttag(tag,attrs)
   if tag=='iframe' and self.stack and self.stack[-1]['player'] is not None:self.stack[-1]['player']['valid']=False
-  if tag not in self.void_tags:self.handle_endtag(tag)
+  # HTML ignores the slash on non-void elements: template/hidden ancestors
+  # remain open until an actual end tag. A self-closing iframe stays invalid.
  def handle_endtag(self,tag):
   for index in range(len(self.stack)-1,-1,-1):
    if self.stack[index]['tag']==tag:
@@ -331,13 +332,13 @@ def inline_video_verified(line,parser,used=None):
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
  # interrupt prose; indented code starts only outside an existing paragraph.
- paragraph=[];paragraph_kind='paragraph';code=None;fence=None;fence_indent=0;list_indent=None;comment=False
+ paragraph=[];paragraph_kind='paragraph';code=None;fence=None;fence_indent=0;list_indent=None;list_marker=None;comment=False
  for raw in '\n\n'.join(body_lines).replace('\r\n','\n').split('\n'):
   if fence is not None:
    expanded=raw.expandtabs(4)
    if fence_indent and raw.strip() and not expanded.startswith(' '*fence_indent):
     # A dedent ends the list container even without a closing fence.
-    yield 'code','\n'.join(code);code=None;fence=None;fence_indent=0;list_indent=None
+    yield 'code','\n'.join(code);code=None;fence=None;fence_indent=0;list_indent=None;list_marker=None
    else:
     relative=expanded[fence_indent:] if fence_indent else raw
     if re.fullmatch(r' {0,3}'+re.escape(fence[0])+r'{'+str(len(fence))+r',}[ \t]*',relative):
@@ -356,10 +357,13 @@ def publication_markdown_blocks(body_lines):
     if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
     paragraph_kind='paragraph'
    continue
-  expanded=raw.expandtabs(4);indented=expanded.startswith('    ')
+  expanded=raw.expandtabs(4)
+  if list_indent is not None and not paragraph and not expanded.startswith(' '*list_indent):list_indent=None;list_marker=None
+  container=list_indent if list_indent is not None and expanded.startswith(' '*list_indent) else 0
+  relative=expanded[container:];indented=relative.startswith('    ')
   if code is not None:
    if indented:
-    code.append(expanded[4:]);continue
+    code.append(relative[4:]);continue
    yield 'code','\n'.join(code).rstrip('\n');code=None
   if re.match(r' {0,3}<!--',raw):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
@@ -368,29 +372,32 @@ def publication_markdown_blocks(body_lines):
    comment=end<0
    if not comment and raw[end+3:].strip():yield 'text',raw[end+3:]
    continue
-  if list_indent is not None and not paragraph and not expanded.startswith(' '*list_indent):list_indent=None
-  container=list_indent if list_indent is not None and expanded.startswith(' '*list_indent) else 0
-  opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',expanded[container:] if container else raw)
+  opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',relative)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
    paragraph_kind='paragraph';fence=opening[1];fence_indent=container;code=[]
-   if not container:list_indent=None
+   if not container:list_indent=None;list_marker=None
    continue
   if indented:
    if paragraph:paragraph.append(raw.strip())
-   else:code=[expanded[4:]]
+   else:code=[relative[4:]]
    continue
   line=raw.strip()
   heading=re.fullmatch(r'#{1,6}\s+(.+)',line)
-  item=re.fullmatch(r'(?:[-*+]|[0-9]+[.)])\s+(.+)',line)
+  item=re.fullmatch(r'(?:[-*+]|[0-9]{1,9}[.)])\s+(.+)',line)
+  marker=re.match(r'([-*+]|([0-9]{1,9})([.)]))\s+',expanded.lstrip()) if item else None
+  marker_key=(len(expanded)-len(expanded.lstrip()),marker[3]) if marker and marker[2] else None
+  # Only a start number of 1 can interrupt prose. Matching sibling markers
+  # continue an existing ordered list without stripping numbers from prose.
+  if marker and marker[2] and int(marker[2])!=1 and paragraph and marker_key!=list_marker:item=None
   if heading or item:
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
    paragraph_kind='text' if item else 'paragraph'
    if item:
-    list_indent=len(expanded)-len(expanded.lstrip())+re.match(r'(?:[-*+]|[0-9]+[.)])\s+',expanded.lstrip()).end()
+    list_indent=len(expanded)-len(expanded.lstrip())+marker.end();list_marker=marker_key
     paragraph=[item[1]]
    else:
-    if list_indent is not None and not expanded.startswith(' '*list_indent):list_indent=None
+    if list_indent is not None and not expanded.startswith(' '*list_indent):list_indent=None;list_marker=None
     yield 'text',heading[1]
   else:paragraph.append(line)
  if paragraph:yield paragraph_kind,' '.join(paragraph)

@@ -144,6 +144,7 @@ class InlineVideoProbeTests(unittest.TestCase):
   prose='An original paragraph that must remain verified.'
   for marker,label in [('## ','Warning'),('### ','A'),('- ','Do this now'),('* ','Go'),('1. ','Stop'),('2) ','Wait')]:
    for separator in ['\n','\n\n']:
+    if marker=='2) ' and separator=='\n':continue
     item,html=self.fixture();item['payload']['body_lines']=[prose+separator+marker+label]
     html=html.split('<figure',1)[0]
     validate_live_html(item,(html+'<p>'+label+'</p>').encode())
@@ -329,3 +330,62 @@ class InlineVideoProbeTests(unittest.TestCase):
   literal='```python\nAn exact literal code example.\n```'
   source='- Required action\n## Next\n    '+literal.replace('\n','\n    ')
   self.assertEqual(list(publication_markdown_blocks([source])),[('text','Required action'),('text','Next'),('code',literal)])
+
+ def test_loose_list_video_paragraphs_use_relative_indentation(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  link='[A](https://youtu.be/aaaaaaaaaaa)'
+  for marker,base in [('- ',2),('* ',2),('+ ',2),('1. ',3),('10) ',4),('  - ',4),('-\t',4)]:
+   for extra in range(4):
+    with self.subTest(marker=marker,extra=extra):
+     source=marker+'See below\n\n'+' '*(base+extra)+link
+     self.assertEqual(list(publication_markdown_blocks([source])),[('text','See below'),('paragraph',link)])
+     item,html=self.fixture();item['payload']['body_lines']=[source]
+     good=html.split('<figure',1)[0]+'<ul><li><p>See below</p>'+self.player('A')+'</li></ul>'
+     validate_live_html(item,good.encode())
+     self.reject(item,[good.replace(self.player('A'),'<p><a href="https://youtu.be/aaaaaaaaaaa">A</a></p>')])
+ def test_loose_list_indented_code_uses_relative_four_columns(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  literal='[Literal code example](https://youtu.be/aaaaaaaaaaa)'
+  for marker,base in [('- ',2),('1. ',3),('10) ',4),('  - ',4)]:
+   for extra in [4,5]:
+    source=marker+'See below\n\n'+' '*(base+extra)+literal+'\n'+' '*(base+extra)+'More literal code.'
+    blocks=list(publication_markdown_blocks([source]))
+    self.assertEqual(blocks,[('text','See below'),('code',' '*(extra-4)+literal+'\n'+' '*(extra-4)+'More literal code.')])
+    item,html=self.fixture();item['payload']['body_lines']=[source]
+    validate_live_html(item,(html.split('<figure',1)[0]+'<ul><li>See below<pre>'+literal+'\nMore literal code.</pre></li></ul>').encode())
+ def test_non_one_ordered_markers_cannot_interrupt_prose(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  prose='Forecast summary remains unchanged.'
+  for number in ['2','2026','0002']:
+   for delimiter in ['.',')']:
+    for indent in ['', ' ', '   ']:
+     with self.subTest(number=number,delimiter=delimiter,indent=repr(indent)):
+      tail=number+delimiter+' Revenue must remain visible'
+      source=prose+'\n'+indent+tail
+      self.assertEqual(list(publication_markdown_blocks([source])),[('paragraph',prose+' '+tail)])
+      item,html=self.fixture();item['payload']['body_lines']=[source]
+      good=html.split('<figure',1)[0]+'<p>'+prose+' '+tail+'</p>'
+      validate_live_html(item,good.encode())
+      self.reject(item,[good.replace(number+delimiter+' ','')])
+ def test_ordered_list_starts_and_siblings_remain_supported(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  prose='Forecast summary remains unchanged.'
+  for delimiter in ['.',')']:
+   for number in ['1','2','2026']:
+    source=prose+'\n\n'+number+delimiter+' Go\n'+str(int(number)+1)+delimiter+' Stop'
+    self.assertEqual(list(publication_markdown_blocks([source])),[('paragraph',prose),('text','Go'),('text','Stop')])
+   self.assertEqual(list(publication_markdown_blocks([prose+'\n1'+delimiter+' Go'])),[('paragraph',prose),('text','Go')])
+   source='- Required action\n  2026'+delimiter+' Revenue stays'
+   self.assertEqual(list(publication_markdown_blocks([source])),[('text','Required action 2026'+delimiter+' Revenue stays')])
+  self.assertEqual(list(publication_markdown_blocks(['1. Required action\n2) Keep delimiter'])),[('text','Required action 2) Keep delimiter')])
+  self.assertEqual(list(publication_markdown_blocks([prose+'\n1234567890. Keep number'])),[('paragraph',prose+' 1234567890. Keep number')])
+ def test_self_closing_nonvoid_containers_keep_content_hidden(self):
+  item,html=self.fixture();prefix,body=html.split('<h1>',1)
+  for tag,attrs in [('template',''),('div',' hidden'),('div',' inert'),('details',''),('dialog','')]:
+   for leading in ['', '<head>']:
+    with self.subTest(tag=tag,attrs=attrs,leading=leading):
+     self.reject(item,[prefix+leading+f'<{tag}{attrs}/><body><h1>'+body])
+ def test_explicit_nonvoid_closures_and_self_closing_voids_restore_evidence(self):
+  item,html=self.fixture();prefix,body=html.split('<h1>',1)
+  for leading in ['<head><template/></template><body>', '<template/></template>', '<div hidden/></div>', '<img src="unused"/>', '<br/>']:
+   validate_live_html(item,(prefix+leading+'<h1>'+body).encode())
