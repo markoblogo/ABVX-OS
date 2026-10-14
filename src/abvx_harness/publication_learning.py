@@ -327,17 +327,29 @@ def inline_video_verified(line,parser,used=None):
  return False
 
 def publication_markdown_blocks(body_lines):
- # Match the site's supported paragraph/fence/heading/list boundaries. A fence
- # flushes its adjacent paragraph even when no blank line separates them.
- paragraph=[];code=None
+ # Keep fence identity/length and indentation until block classification. Fences
+ # interrupt prose; indented code starts only outside an existing paragraph.
+ paragraph=[];code=None;fence=None
  for raw in '\n\n'.join(body_lines).replace('\r\n','\n').split('\n'):
-  line=raw.strip()
-  if re.fullmatch(r'```[A-Za-z0-9_-]*',line) and (code is None or line=='```'):
-   if paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
-   if code is None:code=[]
-   else:yield 'code','\n'.join(code);code=None
+  if fence is not None:
+   if re.fullmatch(r' {0,3}'+re.escape(fence[0])+r'{'+str(len(fence))+r',}[ \t]*',raw):
+    yield 'code','\n'.join(code);code=None;fence=None
+   else:code.append(raw)
    continue
-  if code is not None:code.append(raw);continue
+  expanded=raw.expandtabs(4);indented=expanded.startswith('    ')
+  if code is not None:
+   if indented or not raw.strip():
+    code.append(expanded[4:] if indented else '');continue
+   yield 'code','\n'.join(code).rstrip('\n');code=None
+  if indented:
+   if paragraph:paragraph.append(raw.strip())
+   else:code=[expanded[4:]]
+   continue
+  opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',raw)
+  if opening and not (opening[1][0]=='`' and '`' in opening[2]):
+   if paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
+   fence=opening[1];code=[];continue
+  line=raw.strip()
   heading=re.fullmatch(r'#{2,4}\s+(.+)',line)
   item=re.fullmatch(r'(?:[-*]|[0-9]+[.)])\s+(.+)',line)
   if not line or heading or item:
@@ -356,9 +368,9 @@ def validate_live_html(item,data):
   if kind=='paragraph' and inline_video_source(block) is not None:
    required+=1
    if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
-  elif len(plain(block))>12:
+  elif (kind=='text' and plain(block)) or len(plain(block))>12:
    required+=1
-   if plain(block) not in text:raise ValueError('Authored production text not verified')
+   if ' '+plain(block)+' ' not in ' '+text+' ':raise ValueError('Authored production text not verified')
  if not required:raise ValueError('Authored production text not verified')
  return hashlib.sha256(data).hexdigest()
 class NoRedirect(HTTPRedirectHandler):

@@ -119,3 +119,53 @@ class InlineVideoProbeTests(unittest.TestCase):
    for source,visible in [(link+'\n```text\n'+code+'\n```','<p>'+label+'</p><pre>'+code+'</pre>'),('```text\n'+code+'\n```\n'+link,'<pre>'+code+'</pre><p>'+label+'</p>')]:
     item,html=self.fixture();item['payload']['body_lines']=['An original paragraph that must remain verified.\n\n'+source]
     self.reject(item,[html.replace(self.player(),'')+visible])
+
+ def test_extended_fence_syntax_preserves_prose_and_code_boundaries(self):
+  prose='An original paragraph that must remain verified.'
+  code='Command example that must stay visible.'
+  link='[A](https://youtu.be/aaaaaaaaaaa)'
+  for opening,closing in [('~~~python','~~~'),('````c++','````'),('```c++','````'),('  ~~~~ arbitrary info','   ~~~~~')]:
+   for source in [prose+'\n'+opening+'\n'+code+'\n'+closing+'\n'+link,link+'\n'+opening+'\n'+code+'\n'+closing+'\n'+prose]:
+    with self.subTest(source=source):
+     item,html=self.fixture();item['payload']['body_lines']=[source]
+     good=html.replace('Example A launch video','A')+'<pre>'+code+'</pre>'
+     validate_live_html(item,good.encode())
+     self.reject(item,[good.replace(self.player('A'),'<p>A</p>'),good.replace(prose,'Missing prose')])
+ def test_mismatched_and_short_fence_markers_remain_inside_code(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  for opening,wrong,closing in [('````c++','```','````'),('~~~text','```','~~~'),('```text','```not-a-close','```')]:
+   source=opening+'\n'+wrong+'\n[Literal video example](https://youtu.be/aaaaaaaaaaa)\n'+closing
+   self.assertEqual(list(publication_markdown_blocks([source])),[('code',wrong+'\n[Literal video example](https://youtu.be/aaaaaaaaaaa)')])
+ def test_unclosed_extended_fences_remain_code_at_eof(self):
+  for opening in ['~~~markdown','````c++']:
+   item,html=self.fixture();item['payload']['body_lines']=[opening+'\n[Literal video example](https://youtu.be/aaaaaaaaaaa)']
+   validate_live_html(item,(html.replace(self.player(),'')+'<pre>[Literal video example](https://youtu.be/aaaaaaaaaaa)</pre>').encode())
+ def test_short_headings_and_list_items_are_required(self):
+  prose='An original paragraph that must remain verified.'
+  for marker,label in [('## ','Warning'),('### ','A'),('- ','Do this now'),('* ','Go'),('1. ','Stop'),('2) ','Wait')]:
+   for separator in ['\n','\n\n']:
+    item,html=self.fixture();item['payload']['body_lines']=[prose+separator+marker+label]
+    html=html.split('<figure',1)[0]
+    validate_live_html(item,(html+'<p>'+label+'</p>').encode())
+    self.reject(item,[html])
+ def test_indented_markdown_examples_stay_code_and_dedent_restores_video(self):
+  prose='An original paragraph that must remain verified.'
+  examples=['[Literal video example](https://youtu.be/aaaaaaaaaaa)','## Literal heading example','- Literal list item example']
+  for indent in ['    ','\t',' \t']:
+   for example in examples:
+    item,html=self.fixture();item['payload']['body_lines']=[prose+'\n\n'+indent+example+'\n\n'+indent+'More literal code text.\n[A](https://youtu.be/aaaaaaaaaaa)']
+    good=html.replace('Example A launch video','A')+'<pre>'+example+'\n\nMore literal code text.</pre>'
+    validate_live_html(item,good.encode())
+    self.reject(item,[good.replace(self.player('A'),'<p>A</p>')])
+
+ def test_indented_continuation_cannot_hide_a_video_in_an_existing_paragraph(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  for continuation in ['[Literal continuation](https://youtu.be/aaaaaaaaaaa)','## Literal heading','- Literal item']:
+   source='Introductory prose.\n    '+continuation
+   self.assertEqual(list(publication_markdown_blocks([source])),[('paragraph','Introductory prose. '+continuation)])
+ def test_fence_markers_inside_indented_code_do_not_open_fenced_blocks(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  source='    ~~~markdown\n    [Literal video example](https://youtu.be/aaaaaaaaaaa)\n    ~~~\n[A](https://youtu.be/aaaaaaaaaaa)'
+  blocks=list(publication_markdown_blocks([source]))
+  self.assertEqual([kind for kind,_ in blocks],['code','paragraph'])
+  self.assertEqual(blocks[-1][1],'[A](https://youtu.be/aaaaaaaaaaa)')
