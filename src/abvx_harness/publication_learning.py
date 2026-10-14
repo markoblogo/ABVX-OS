@@ -326,10 +326,71 @@ class Visible(HTMLParser):
   if self.stack and self.stack[-1]['hidden']:return
   self.parts.append(value)
   if self.stack and self.stack[-1]['anchor'] is not None:self.stack[-1]['anchor']['parts'].append(value)
+def bracket_end(value,start):
+ depth=1;cursor=start+1
+ while cursor<len(value):
+  if value[cursor]=='\\' and cursor+1<len(value):cursor+=2;continue
+  if value[cursor]=='[':depth+=1
+  if value[cursor]==']':
+   depth-=1
+   if not depth:return cursor
+  cursor+=1
+ return None
+
+def inline_target_end(value,start):
+ cursor=start+1
+ while cursor<len(value) and value[cursor].isspace():cursor+=1
+ if cursor>=len(value):return None
+ if value[cursor]=='<':
+  cursor+=1
+  while cursor<len(value):
+   if value[cursor]=='\\' and cursor+1<len(value):cursor+=2;continue
+   if value[cursor]=='>':cursor+=1;break
+   if value[cursor] in '<\r\n':return None
+   cursor+=1
+  else:return None
+ else:
+  depth=0
+  while cursor<len(value) and not value[cursor].isspace():
+   ch=value[cursor]
+   if ch=='\\' and cursor+1<len(value):cursor+=2;continue
+   if ch==')' and not depth:return cursor+1
+   if ch=='(':depth+=1
+   elif ch==')':depth-=1
+   cursor+=1
+  if depth:return None
+ before_space=cursor
+ while cursor<len(value) and value[cursor].isspace():cursor+=1
+ if cursor<len(value) and value[cursor]==')':return cursor+1
+ if cursor==before_space or cursor>=len(value) or value[cursor] not in ('"',"'",'('):return None
+ close=')' if value[cursor]=='(' else value[cursor];cursor+=1
+ while cursor<len(value):
+  if value[cursor]=='\\' and cursor+1<len(value):cursor+=2;continue
+  if value[cursor]==close:cursor+=1;break
+  cursor+=1
+ else:return None
+ while cursor<len(value) and value[cursor].isspace():cursor+=1
+ return cursor+1 if cursor<len(value) and value[cursor]==')' else None
+
+def inline_link_text(value):
+ pieces=[];cursor=0
+ while cursor<len(value):
+  if value[cursor]=='\\' and cursor+1<len(value):pieces.append(value[cursor:cursor+2]);cursor+=2;continue
+  image=value[cursor:cursor+2]=='![';start=cursor+1 if image else cursor
+  if value[start:start+1]=='[':
+   end=bracket_end(value,start)
+   if end is not None and value[end+1:end+2]=='(':
+    target=inline_target_end(value,end+1)
+    if target is not None:
+     pieces.append('' if image else inline_link_text(value[start+1:end]));cursor=target;continue
+  pieces.append(value[cursor]);cursor+=1
+ return ''.join(pieces)
+
+def rendered_plain(value):return ' '.join(re.findall(r'[^\W_]+',value.casefold()))
 def plain(value,decode_entities=True):
  value=re.sub(r'^\s*(?:`{3,}|~{3,})[^\n]*$', '', value, flags=re.M)
- value=re.sub(r'!\[[^\]]*\]\([^)]*\)','',value);value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
- return ' '.join(re.findall(r'[^\W_]+',(html.unescape(value) if decode_entities else value).casefold()))
+ value=inline_link_text(value)
+ return rendered_plain(html.unescape(value) if decode_entities else value)
 def reference_label(value):return ' '.join(value.split()).casefold()
 def resolve_reference_links(value,references):
  def escaped(position):
@@ -338,11 +399,11 @@ def resolve_reference_links(value,references):
   label=match[2];key=reference_label(match[3] or label)
   if (not match[1] and escaped(match.start())) or key not in references:return match[0]
   return '' if match[1] and not escaped(match.start()) else label
- value=re.sub(r'(!?)\[([^\]\n]+)\]\[([^\]\n]*)\]',replace,value)
+ value=re.sub(r'(!?)\[((?:\\.|[^\]\\\n])+)\]\[((?:\\.|[^\]\\\n])*)\]',replace,value)
  def image(match):
   if reference_label(match[1]) not in references:return match[0]
   return match[1] if escaped(match.start()) else ''
- return re.sub(r'!\[([^\]\n]+)\](?![\[(])',image,value)
+ return re.sub(r'!\[((?:\\.|[^\]\\\n])+)\](?![\[(])',image,value)
 def escaped_html_delimiters(value):
  # Backslash escapes are Markdown text before raw-HTML recognition. Even
  # runs leave a real delimiter; odd runs protect it from HTMLParser.
@@ -356,14 +417,14 @@ def authored_plain(value,references=frozenset()):
   if (len(prefix)-len(prefix.rstrip('\\')))%2:index+=1;continue
   closing=next((j for j in range(index+1,len(runs)) if len(runs[j][0])==len(opening[0])),None)
   if closing is None:index+=1;continue
-  end=runs[closing];pieces.extend((escaped_html_delimiters(resolve_reference_links(value[cursor:opening.start()],references)),'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
+  end=runs[closing];pieces.extend((escaped_html_delimiters(inline_link_text(resolve_reference_links(value[cursor:opening.start()],references))),'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
   cursor=end.end();index=closing+1
- pieces.append(escaped_html_delimiters(resolve_reference_links(value[cursor:],references)))
+ pieces.append(escaped_html_delimiters(inline_link_text(resolve_reference_links(value[cursor:],references))))
  source=''.join(pieces)
  # CommonMark URI/email autolinks are visible text, not HTML start tags.
  source=re.sub(r'<([A-Za-z][A-Za-z0-9+.-]{1,31}:[^<>\x00-\x20]*|[A-Za-z0-9.!#$%&\'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?)>',lambda m:'<a>'+html.escape(m[1])+'</a>',source)
  parser=Visible();parser.feed(source);parser.close()
- return plain(' '.join(parser.parts),decode_entities=False)
+ return rendered_plain(' '.join(parser.parts))
 
 def inline_video_source(line):
  # A non-rendered trailing comment does not turn a video paragraph into text.
@@ -421,7 +482,7 @@ def reference_title_end(lines,index,container,initial=''):
  return None
 
 def reference_definition(lines,index,container,relative):
- label=re.match(r' {0,3}\[([^\]\n]+)\]:[ \t]*',relative)
+ label=re.match(r' {0,3}\[((?:\\.|[^\]\\\n])+)\]:[ \t]*',relative)
  if not label or not label[1].strip():return None
  source=relative[label.end():];destination_line=index
  if not source:
@@ -543,18 +604,18 @@ def publication_markdown_blocks(body_lines):
 
 def validate_live_html(item,data):
  parser=Visible();parser.feed(data.decode('utf-8'));url='https://abvx.xyz'+item['enrichment']['canonical_path']
- text=plain(' '.join(parser.parts),decode_entities=False)
+ text=rendered_plain(' '.join(parser.parts))
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
  required=0;used=set();cursor=0;visible=' '+text+' '
  blocks=list(publication_markdown_blocks(item['payload']['body_lines']))
- references={reference_label(re.match(r'\s*\[([^\]]+)\]:',block)[1]) for kind,block in blocks if kind=='reference'}
+ references={reference_label(block[1:bracket_end(block,0)]) for kind,block in blocks if kind=='reference'}
  for kind,block in blocks:
   if kind=='reference':continue
   if kind=='paragraph' and inline_video_source(block) is not None:
    required+=1
    if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
   else:
-   expected=plain(block) if kind=='code' else authored_plain(block,references)
+   expected=rendered_plain(block) if kind=='code' else authored_plain(block,references)
    if (kind in ('text','paragraph') and expected) or len(expected)>12:
     required+=1;needle=' '+expected+' ';position=visible.find(needle,cursor)
     if position<0:raise ValueError('Authored production text not verified')

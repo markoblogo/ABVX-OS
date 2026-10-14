@@ -568,3 +568,19 @@ class InlineVideoProbeTests(unittest.TestCase):
    item['payload']['body_lines']=['An original paragraph that must remain verified.',source]
    validate_live_html(item,(html+'<h2>'+rendered+'</h2>').encode())
    self.reject(item,[html])
+
+ def test_inline_links_allow_balanced_and_escaped_destinations(self):
+  item,html=self.fixture()
+  for source in ['## [Go](/a(b)c)',r'- [Go](/a\(b\)c)','## [Go](</a(b)c>)','## [Go](/a(b)c "Optional title")']:
+   item['payload']['body_lines']=[source];good=html+'<h2><a href="/a(b)c">Go</a></h2>'
+   validate_live_html(item,good.encode());self.reject(item,[html])
+ def test_reference_labels_allow_escaped_closing_brackets(self):
+  item,html=self.fixture()
+  for label in [r'x\]',r'x\\\]',r'x\[y\]']:
+   item['payload']['body_lines']=['[Go]['+label+']','['+label+']: /a']
+   validate_live_html(item,(html+'<p><a href="/a">Go</a></p>').encode());self.reject(item,[html])
+
+ def test_literal_code_keeps_balanced_link_destinations_visible(self):
+  item,html=self.fixture();item['payload']['body_lines']=['## `[Go](/required-path(foo)tail)`']
+  good=html+'<h2><code>[Go](/required-path(foo)tail)</code></h2>'
+  validate_live_html(item,good.encode());self.reject(item,[html+'<h2>Go</h2>',good.replace('/required-path(foo)tail','/other-path')])
