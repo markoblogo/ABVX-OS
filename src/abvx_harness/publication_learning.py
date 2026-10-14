@@ -5,6 +5,7 @@ from datetime import datetime,timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request,build_opener,HTTPRedirectHandler
+from urllib.parse import urlsplit,parse_qs
 from .process_learning import _id,_integer,_time,_write_once,build_packet,digest,validate_outcome,validate_packet,inspect_candidate,ELAPSED_POLICY,PUBLICATION_VERSIONS,PUBLICATION_CHANGES,validate_series
 from .content_ops import _load_item,_approval_fingerprint
 
@@ -233,10 +234,12 @@ def check_publication(root,item_id,site,*,reuse_checks=False):
  return value
 
 class Visible(HTMLParser):
- def __init__(self):super().__init__();self.canonical=[];self.parts=[];self.hidden=0
+ def __init__(self):super().__init__();self.canonical=[];self.parts=[];self.hidden=0;self.frames=[];self.links=set()
  def handle_starttag(self,tag,attrs):
   attr=dict(attrs)
   if tag in ('script','style'):self.hidden+=1
+  if not self.hidden and tag=='iframe':self.frames.append((attr.get('src') or '',attr.get('title') or ''))
+  if not self.hidden and tag=='a':self.links.add(attr.get('href',''))
   if tag=='link' and 'canonical' in attr.get('rel','').split():self.canonical.append(attr.get('href'))
  def handle_endtag(self,tag):
   if tag in ('script','style'):self.hidden=max(0,self.hidden-1)
@@ -246,13 +249,36 @@ def plain(value):
  value=re.sub(r'^\s*(?:`{3,}|~{3,})[^\n]*$', '', value, flags=re.M)
  value=re.sub(r'!\[[^\]]*\]\([^)]*\)','',value);value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
  return ' '.join(re.findall(r'[^\W_]+',html.unescape(value).casefold()))
+def inline_video_verified(line,parser):
+ # A standalone source link is rendered as a titled player plus its original
+ # fallback URL. Verify both instead of silently dropping this paragraph.
+ match=re.fullmatch(r'\[([^\]\n]+)\]\((https://[^\s)]+)\)',line.strip())
+ if not match:return False
+ label,href=match.groups()
+ try:
+  url=urlsplit(href)
+  if url.scheme!='https' or url.username or url.password or url.port not in (None,443):return False
+  if url.hostname=='youtu.be':video_id=url.path[1:] if re.fullmatch(r'/[\w-]{11}',url.path) else None
+  elif url.hostname in ('youtube.com','www.youtube.com','www.youtube-nocookie.com'):
+   if url.path=='/watch' and url.hostname!='www.youtube-nocookie.com':video_id=parse_qs(url.query).get('v',[''])[0]
+   else:
+    path=re.fullmatch(r'/(?:embed|shorts)/([\w-]{11})',url.path);video_id=path[1] if path else None
+  else:return False
+  if not video_id or not re.fullmatch(r'[\w-]{11}',video_id) or href not in parser.links:return False
+  for src,title in parser.frames:
+   frame=urlsplit(src)
+   if (frame.scheme=='https' and frame.netloc=='www.youtube-nocookie.com'
+       and frame.path=='/embed/'+video_id and plain(title)==plain(label)):
+    return True
+ except ValueError:return False
+ return False
+
 def validate_live_html(item,data):
  parser=Visible();parser.feed(data.decode('utf-8'));url='https://abvx.xyz'+item['enrichment']['canonical_path']
  text=plain(' '.join(parser.parts))
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
- paragraphs=[plain(line) for block in item['payload']['body_lines'] for line in block.split('\n\n')]
- paragraphs=[p for p in paragraphs if len(p)>12]
- if not paragraphs or any(p not in text for p in paragraphs):raise ValueError('Authored production text not verified')
+ paragraphs=[line for block in item['payload']['body_lines'] for line in block.split('\n\n') if len(plain(line))>12]
+ if not paragraphs or any(plain(p) not in text and not inline_video_verified(p,parser) for p in paragraphs):raise ValueError('Authored production text not verified')
  return hashlib.sha256(data).hexdigest()
 class NoRedirect(HTTPRedirectHandler):
  def redirect_request(self,*args,**kwargs):raise ValueError('Production redirect rejected')
