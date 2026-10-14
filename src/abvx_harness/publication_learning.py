@@ -245,7 +245,7 @@ class Visible(HTMLParser):
   # last. Ambiguous evidence or visibility attributes cannot prove release.
   seen=set()
   for key,_ in attrs:
-   if key in seen and key in ('src','title','href','rel','hidden','inert','aria-hidden','style','open'):
+   if key in seen and key in ('src','title','href','rel','hidden','inert','aria-hidden','style','open','encoding'):
     raise ValueError('Duplicate structural HTML attribute')
    seen.add(key)
   if self.stack and self.stack[-1]['tag']=='head' and tag not in ('html','head','base','basefont','bgsound','link','meta','noframes','script','style','template','title','noscript'):
@@ -257,6 +257,13 @@ class Visible(HTMLParser):
       or (namespace=='math' and parent['tag']=='annotation-xml' and parent['html_integration'])):
    namespace='html'
   if namespace=='html' and tag in ('svg','math'):namespace=tag
+  if namespace=='html' and tag in ('address','article','aside','blockquote','details','div','dl','fieldset','figcaption','figure','footer','form','h1','h2','h3','h4','h5','h6','header','hgroup','hr','main','menu','nav','ol','p','pre','section','table','ul'):
+   # Block starts close a paragraph in button scope, even if its optional
+   # end tag was omitted. Do not cross a template or foreign boundary.
+   for node in reversed(self.stack):
+    if node['namespace']!='html' or node['tag'] in ('template','html','table','td','th','button','applet','marquee','object'):break
+    if node['tag']=='p':self.handle_endtag('p');break
+   parent=self.stack[-1] if self.stack else None
   style=attr.get('style') or ''
   hidden=bool((parent and parent['hidden']) or tag in self.non_rendered
       or (tag in ('details','dialog') and 'open' not in attr)
@@ -306,10 +313,15 @@ def authored_plain(value):
   end=runs[closing];pieces.extend((value[cursor:opening.start()],'<code>'+html.escape(value[opening.end():end.start()])+'</code>'))
   cursor=end.end();index=closing+1
  pieces.append(value[cursor:])
- parser=Visible();parser.feed(''.join(pieces));parser.close()
+ source=''.join(pieces)
+ # CommonMark URI/email autolinks are visible text, not HTML start tags.
+ source=re.sub(r'<([A-Za-z][A-Za-z0-9+.-]{1,31}:[^<>\x00-\x20]*|[A-Za-z0-9.!#$%&\'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?)>',lambda m:'<a>'+html.escape(m[1])+'</a>',source)
+ parser=Visible();parser.feed(source);parser.close()
  return plain(' '.join(parser.parts))
 
 def inline_video_source(line):
+ # A non-rendered trailing comment does not turn a video paragraph into text.
+ line=re.sub(r'(?:\s*<!--(?:(?!-->).)*-->)+\s*$', '', line, flags=re.S)
  match=re.fullmatch(r'\[([^\]\n]+)\]\((https://[^\s)]+)\)',line.strip())
  if not match:return None
  label,href=match.groups()

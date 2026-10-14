@@ -437,3 +437,28 @@ class InlineVideoProbeTests(unittest.TestCase):
    item,html=self.fixture()
    good=html.replace(self.player(),opening+self.player()+closing)
    validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])
+
+ def test_trailing_comments_never_remove_standalone_video_proof(self):
+  prose='An original paragraph that must remain verified.'
+  for suffix in [' <!-- editorial -->','<!-- first --><!-- second -->',' \n<!-- editorial -->']:
+   item,html=self.fixture();item['payload']['body_lines']=[prose+'\n\n[A](https://youtu.be/aaaaaaaaaaa)'+suffix]
+   good=html.replace('Example A launch video','A');validate_live_html(item,good.encode())
+   self.reject(item,[good.replace(self.player('A'),'<p>A</p>'),good.replace(self.player('A'),'')])
+ def test_markdown_autolinks_remain_required_visible_text(self):
+  prose='An original paragraph that must remain verified.'
+  for marker in ['## ','- ']:
+   for address in ['https://example.com','mailto:test@example.com','test@example.com','custom:required-value']:
+    item,html=self.fixture();item['payload']['body_lines']=[prose,marker+'<'+address+'>']
+    good=html+'<h2><a href="'+address+'">'+address+'</a></h2>'
+    validate_live_html(item,good.encode());self.reject(item,[html])
+ def test_duplicate_namespace_encoding_cannot_qualify_a_foreign_player(self):
+  item,html=self.fixture()
+  for attrs in ['encoding="application/xml" encoding="text/html"','encoding="text/html" encoding="application/xml"']:
+   bad=html.replace(self.player(),'<math><annotation-xml '+attrs+'>'+self.player()+'</annotation-xml></math>')
+   self.reject(item,[bad])
+ def test_block_starts_implicitly_close_html_paragraphs(self):
+  item,html=self.fixture()
+  for paragraph in ['<p hidden/>','<p hidden><em>','<p aria-hidden="true">']:
+   good=html.replace(self.player(),paragraph+self.player())
+   validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])
+  self.reject(item,[html.replace(self.player(),'<p hidden><template/>'+self.player())])
