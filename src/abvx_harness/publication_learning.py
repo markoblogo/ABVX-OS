@@ -5,6 +5,7 @@ from datetime import datetime,timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.request import Request,build_opener,HTTPRedirectHandler
+from urllib.parse import urlsplit,parse_qs
 from .process_learning import _id,_integer,_time,_write_once,build_packet,digest,validate_outcome,validate_packet,inspect_candidate,ELAPSED_POLICY,PUBLICATION_VERSIONS,PUBLICATION_CHANGES,validate_series
 from .content_ops import _load_item,_approval_fingerprint
 
@@ -233,26 +234,111 @@ def check_publication(root,item_id,site,*,reuse_checks=False):
  return value
 
 class Visible(HTMLParser):
- def __init__(self):super().__init__();self.canonical=[];self.parts=[];self.hidden=0
+ # Track only the ancestors and semantic player projections needed by this
+ # probe. This is static HTML evidence, not a computed-layout browser audit.
+ void_tags=frozenset(('area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'))
+ non_rendered=frozenset(('head','script','style','template','noscript','textarea','title'))
+ def __init__(self):
+  super().__init__();self.canonical=[];self.parts=[];self.stack=[];self.players=[]
  def handle_starttag(self,tag,attrs):
-  attr=dict(attrs)
-  if tag in ('script','style'):self.hidden+=1
-  if tag=='link' and 'canonical' in attr.get('rel','').split():self.canonical.append(attr.get('href'))
+  attr=dict(attrs);parent=self.stack[-1] if self.stack else None
+  style=attr.get('style') or ''
+  hidden=bool((parent and parent['hidden']) or tag in self.non_rendered
+      or (tag in ('details','dialog') and 'open' not in attr)
+      or 'hidden' in attr or 'inert' in attr or (attr.get('aria-hidden') or '').casefold()=='true'
+      or re.search(r'(?:^|;)\s*(?:display\s*:\s*none|visibility\s*:\s*(?:hidden|collapse)|content-visibility\s*:\s*hidden)\s*(?:!\s*important\s*)?(?:;|$)',style,re.I))
+  player=parent['player'] if parent else None
+  caption=parent['caption'] if parent else None
+  anchor=parent['anchor'] if parent else None
+  if tag=='figure':
+   player={'frames':[],'links':[],'valid':True};caption=None;anchor=None
+   if not hidden:self.players.append(player)
+  if tag=='figcaption':caption=player if parent and parent['tag']=='figure' else None
+  if not hidden and tag=='iframe' and parent and parent['tag']=='figure' and player is not None:
+   player['frames'].append((attr.get('src') or '',attr.get('title') or ''))
+  if tag=='a':
+   anchor=None
+   if not hidden and player is not None and caption is player:
+    anchor={'href':attr.get('href') or '', 'parts':[]};player['links'].append(anchor)
+  if tag=='link' and 'canonical' in (attr.get('rel') or '').split():self.canonical.append(attr.get('href'))
+  if tag not in self.void_tags:self.stack.append({'tag':tag,'hidden':hidden or tag=='iframe','player':player,'caption':caption,'anchor':anchor})
+ def handle_startendtag(self,tag,attrs):
+  self.handle_starttag(tag,attrs)
+  if tag=='iframe' and self.stack and self.stack[-1]['player'] is not None:self.stack[-1]['player']['valid']=False
+  if tag not in self.void_tags:self.handle_endtag(tag)
  def handle_endtag(self,tag):
-  if tag in ('script','style'):self.hidden=max(0,self.hidden-1)
+  for index in range(len(self.stack)-1,-1,-1):
+   if self.stack[index]['tag']==tag:
+    del self.stack[index:];break
  def handle_data(self,value):
-  if not self.hidden:self.parts.append(value)
+  if self.stack and self.stack[-1]['hidden']:return
+  self.parts.append(value)
+  if self.stack and self.stack[-1]['anchor'] is not None:self.stack[-1]['anchor']['parts'].append(value)
 def plain(value):
  value=re.sub(r'^\s*(?:`{3,}|~{3,})[^\n]*$', '', value, flags=re.M)
  value=re.sub(r'!\[[^\]]*\]\([^)]*\)','',value);value=re.sub(r'\[([^\]]+)\]\([^)]*\)',r'\1',value)
  return ' '.join(re.findall(r'[^\W_]+',html.unescape(value).casefold()))
+def inline_video_source(line):
+ match=re.fullmatch(r'\[([^\]\n]+)\]\((https://[^\s)]+)\)',line.strip())
+ if not match:return None
+ label,href=match.groups()
+ try:
+  url=urlsplit(href)
+  if url.hostname=='youtu.be':video_path=bool(url.path.strip('/'))
+  elif url.hostname in ('youtube.com','www.youtube.com','www.youtube-nocookie.com'):
+   video_path=url.path=='/watch' or url.path.startswith(('/embed/','/shorts/'))
+  else:return None
+  if not video_path:return None
+  # A malformed ID on a video URL must fail, even if its label is visible.
+  result=(label,href,None)
+  if url.scheme!='https' or url.username or url.password or url.port not in (None,443):return result
+  if url.hostname=='youtu.be':video_id=url.path[1:] if re.fullmatch(r'/[A-Za-z0-9_-]{11}',url.path) else None
+  elif url.path=='/watch' and url.hostname!='www.youtube-nocookie.com':video_id=parse_qs(url.query,keep_blank_values=True).get('v',[''])[0]
+  else:
+   path=re.fullmatch(r'/(?:embed|shorts)/([A-Za-z0-9_-]{11})',url.path);video_id=path[1] if path else None
+  return (label,href,video_id) if video_id and re.fullmatch(r'[A-Za-z0-9_-]{11}',video_id) else result
+ except ValueError:return (label,href,None)
+
+def inline_video_verified(line,parser,used=None):
+ source=inline_video_source(line)
+ if not source:return False
+ label,href,video_id=source
+ if not video_id:return False
+ for index,player in enumerate(parser.players):
+  # Each component owns one direct player and its caption. Page-wide links
+  # and anchors in other figures cannot serve as this player's fallback.
+  if not player['valid'] or len(player['frames'])!=1 or (used is not None and index in used):continue
+  src,title=player['frames'][0]
+  try:frame=urlsplit(src)
+  except ValueError:continue
+  if (frame.scheme=='https' and frame.netloc=='www.youtube-nocookie.com'
+      and frame.path=='/embed/'+video_id and plain(title)==plain(label)
+      and any(link['href']==href and plain(' '.join(link['parts'])) for link in player['links'])):
+   if used is not None:used.add(index)
+   return True
+ return False
+
 def validate_live_html(item,data):
  parser=Visible();parser.feed(data.decode('utf-8'));url='https://abvx.xyz'+item['enrichment']['canonical_path']
  text=plain(' '.join(parser.parts))
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
- paragraphs=[plain(line) for block in item['payload']['body_lines'] for line in block.split('\n\n')]
- paragraphs=[p for p in paragraphs if len(p)>12]
- if not paragraphs or any(p not in text for p in paragraphs):raise ValueError('Authored production text not verified')
+ required=0;fence=None;used=set()
+ for block in item['payload']['body_lines']:
+  for paragraph in block.split('\n\n'):
+   code=fence is not None
+   for line in paragraph.splitlines():
+    marker=re.fullmatch(r'\s*(`{3,}|~{3,})([^\n]*)',line)
+    if marker:
+     code=True
+     if fence is None:fence=marker[1]
+     elif marker[1][0]==fence[0] and len(marker[1])>=len(fence) and not marker[2].strip():fence=None
+   if not code and inline_video_source(paragraph) is not None:
+    required+=1
+    if not inline_video_verified(paragraph,parser,used):raise ValueError('Authored inline video not verified')
+   elif len(plain(paragraph))>12:
+    required+=1
+    if plain(paragraph) not in text:raise ValueError('Authored production text not verified')
+ if not required:raise ValueError('Authored production text not verified')
  return hashlib.sha256(data).hexdigest()
 class NoRedirect(HTTPRedirectHandler):
  def redirect_request(self,*args,**kwargs):raise ValueError('Production redirect rejected')
