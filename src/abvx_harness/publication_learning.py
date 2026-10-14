@@ -329,7 +329,7 @@ def inline_video_verified(line,parser,used=None):
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
  # interrupt prose; indented code starts only outside an existing paragraph.
- paragraph=[];code=None;fence=None
+ paragraph=[];paragraph_kind='paragraph';code=None;fence=None
  for raw in '\n\n'.join(body_lines).replace('\r\n','\n').split('\n'):
   if fence is not None:
    if re.fullmatch(r' {0,3}'+re.escape(fence[0])+r'{'+str(len(fence))+r',}[ \t]*',raw):
@@ -338,7 +338,9 @@ def publication_markdown_blocks(body_lines):
    continue
   if not raw.strip():
    if code is not None:code.append('')
-   elif paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
+   else:
+    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
+    paragraph_kind='paragraph'
    continue
   expanded=raw.expandtabs(4);indented=expanded.startswith('    ')
   if code is not None:
@@ -351,16 +353,21 @@ def publication_markdown_blocks(body_lines):
    continue
   opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',raw)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
-   if paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
-   fence=opening[1];code=[];continue
+   if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
+   paragraph_kind='paragraph';fence=opening[1];code=[];continue
   line=raw.strip()
+  if paragraph_kind=='text' and inline_video_source(line) is not None:
+   if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
+   paragraph_kind='paragraph'
   heading=re.fullmatch(r'#{2,4}\s+(.+)',line)
   item=re.fullmatch(r'(?:[-*+]|[0-9]+[.)])\s+(.+)',line)
-  if not line or heading or item:
-   if paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
-   if heading or item:yield 'text',(heading or item)[1]
+  if heading or item:
+   if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
+   paragraph_kind='text' if item else 'paragraph'
+   if item:paragraph=[item[1]]
+   else:yield 'text',heading[1]
   else:paragraph.append(line)
- if paragraph:yield 'paragraph',' '.join(paragraph)
+ if paragraph:yield paragraph_kind,' '.join(paragraph)
  if code is not None:yield 'code','\n'.join(code)
 
 def validate_live_html(item,data):

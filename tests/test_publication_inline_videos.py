@@ -198,3 +198,39 @@ class InlineVideoProbeTests(unittest.TestCase):
     item,html=self.fixture();item['payload']['body_lines']=[source]
     self.assertEqual([kind for kind,_ in publication_markdown_blocks([source])],['code'])
     validate_live_html(item,(html.replace(self.player(),'')+'<pre>'+link+'\nMore literal code text.</pre>').encode())
+
+ def test_list_continuations_require_the_complete_item(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  prose='An original paragraph that must remain verified.'
+  for marker in ['- ','* ','+ ','1. ','2) ']:
+   for continuation in ['today',' today','  today','    today','\ttoday']:
+    with self.subTest(marker=marker,continuation=repr(continuation)):
+     source=marker+'Important action\n'+continuation
+     self.assertEqual(list(publication_markdown_blocks([source])),[('text','Important action today')])
+     item,html=self.fixture();item['payload']['body_lines']=[prose+'\n\n'+source]
+     html=html.split('<figure',1)[0]
+     validate_live_html(item,(html+'<ul><li>Important action today</li></ul>').encode())
+     self.reject(item,[html+'<ul><li>Important action</li></ul>'])
+ def test_multiline_short_list_items_remain_required_at_block_boundaries(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  prose='An original paragraph that must remain verified.'
+  cases=[('- Do\n this now',[('text','Do this now')]),('- Go\n today\n+ Stop\n tomorrow',[('text','Go today'),('text','Stop tomorrow')]),('- Go\n today\n## Warning',[('text','Go today'),('text','Warning')])]
+  for source,blocks in cases:
+   with self.subTest(source=source):
+    self.assertEqual(list(publication_markdown_blocks([source])),blocks)
+    item,html=self.fixture();item['payload']['body_lines']=[prose+'\n\n'+source]
+    html=html.split('<figure',1)[0]
+    validate_live_html(item,(html+'<p>'+' '.join(text for _,text in blocks)+'</p>').encode())
+    self.reject(item,[html+'<p>Do Go Stop Warning</p>'])
+ def test_list_continuations_do_not_swallow_separate_video_blocks(self):
+  prose='An original paragraph that must remain verified.'
+  for boundary in ['\n\n','\n    \n','\n\t\n']:
+   item,html=self.fixture();item['payload']['body_lines']=[prose+'\n\n- Important action\n today'+boundary+'[A](https://youtu.be/aaaaaaaaaaa)']
+   good=html.replace('Example A launch video','A')+'<ul><li>Important action today</li></ul>'
+   validate_live_html(item,good.encode())
+   self.reject(item,[good.replace(self.player('A'),'<p>A</p>'),good.replace('Important action today','Important action')])
+ def test_list_link_continuations_remain_literal_text(self):
+  item,html=self.fixture();item['payload']['body_lines']=['- See this\n useful [video example](https://youtu.be/aaaaaaaaaaa)']
+  html=html.split('<figure',1)[0]+'<ul><li>See this useful <a href="https://youtu.be/aaaaaaaaaaa">video example</a></li></ul>'
+  validate_live_html(item,html.encode())
+  self.reject(item,[html.replace('video example','')])
