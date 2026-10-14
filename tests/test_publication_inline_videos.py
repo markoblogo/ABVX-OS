@@ -608,3 +608,34 @@ class InlineVideoProbeTests(unittest.TestCase):
   item,html=self.fixture();prose='An original paragraph that must remain verified.'
   item['payload']['body_lines']=[prose,'<div>\n[Required](/secret-path)\n</div>']
   validate_live_html(item,(html+'<div>[Required](/secret-path)</div>').encode());self.reject(item,[html+'<div>Required</div>'])
+
+ def test_raw_text_start_tokens_cannot_manufacture_players(self):
+  item,html=self.fixture()
+  for tag in ['plaintext','xmp','noembed','noframes']:
+   for closing in ['>','/>']:
+    self.reject(item,[html.replace(self.player(),'<'+tag+closing+self.player()+'</'+tag+'>')])
+ def test_reference_definition_labels_can_span_line_endings(self):
+  item,html=self.fixture()
+  for definition in ['[\n foo\n]: /a','[ foo\n bar ]: /a','[\n foo\n]:\n/a\n "Short"']:
+   key='foo bar' if 'bar' in definition else 'foo'
+   item['payload']['body_lines']=['[Go]['+key+']',definition]
+   validate_live_html(item,(html+'<p><a>Go</a></p>').encode());self.reject(item,[html])
+ def test_empty_list_items_classify_their_first_video_paragraph(self):
+  item,html=self.fixture()
+  for marker,indent in [('-',2),('*',2),('+',2),('1.',3),('1)',3)]:
+   item['payload']['body_lines']=[marker+'\n'+' '*indent+'[A](https://youtu.be/aaaaaaaaaaa)']
+   good=html+'<ul><li>'+self.player('A')+'</li></ul>'
+   validate_live_html(item,good.encode());self.reject(item,[html+'<ul><li>A</li></ul>'])
+ def test_quoted_video_paragraphs_require_structural_evidence(self):
+  item,html=self.fixture()
+  for source in ['> [A](https://youtu.be/aaaaaaaaaaa)','> > [A](https://youtu.be/aaaaaaaaaaa)','> Context\n>\n> [A](https://youtu.be/aaaaaaaaaaa)']:
+   item['payload']['body_lines']=[source]
+   prefix='<p>Context</p>' if 'Context' in source else ''
+   good=html+'<blockquote>'+prefix+self.player('A')+'</blockquote>'
+   validate_live_html(item,good.encode());self.reject(item,[html+'<blockquote>'+prefix+'<p>A</p></blockquote>'])
+ def test_quote_prefixes_in_fenced_code_and_lazy_prose_remain_literal(self):
+  item,html=self.fixture()
+  item['payload']['body_lines']=['> ```markdown\n> > [A](https://youtu.be/aaaaaaaaaaa)\n> ```']
+  validate_live_html(item,(html+'<blockquote><pre>&gt; [A](https://youtu.be/aaaaaaaaaaa)</pre></blockquote>').encode())
+  item['payload']['body_lines']=['> [A](https://youtu.be/aaaaaaaaaaa)\nordinary continuation']
+  validate_live_html(item,(html+'<blockquote><p><a>A</a> ordinary continuation</p></blockquote>').encode())

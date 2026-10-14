@@ -274,6 +274,10 @@ class Visible(HTMLParser):
    self.handle_endtag('head')
   parent=self.stack[-1] if self.stack else None;namespace=self.child_namespace(tag)
   if namespace=='html' and tag in ('svg','math'):namespace=tag
+  # Legacy raw-text elements are outside the site's publication renderer.
+  # Python versions disagree about their tokenizer state, especially '/>'.
+  # Reject them rather than let apparent child markup prove a real player.
+  if namespace=='html' and tag in ('plaintext','xmp','noembed','noframes'):raise ValueError('Unsupported raw-text HTML evidence')
   if namespace=='html' and tag in ('address','article','aside','blockquote','dd','details','div','dl','dt','li','fieldset','figcaption','figure','footer','form','h1','h2','h3','h4','h5','h6','header','hgroup','hr','main','menu','nav','ol','p','pre','section','table','ul'):
    # Block starts close a paragraph in button scope, even if its optional
    # end tag was omitted. Do not cross a template or foreign boundary.
@@ -519,9 +523,26 @@ def reference_title_end(lines,index,container,initial=''):
  return None
 
 def reference_definition(lines,index,container,relative):
- label=re.match(r' {0,3}\[((?:\\.|[^\]\\\n])+)\]:[ \t]*',relative)
- if not label or not label[1].strip() or len(label[1])>999 or re.search(r'(?<!\\)\[',label[1]):return None
- source=relative[label.end():];destination_line=index
+ opening=re.match(r' {0,3}\[',relative)
+ if not opening:return None
+ label=[];position=opening.end();destination_line=index;source=relative
+ while True:
+  if position>=len(source):
+   destination_line+=1
+   if destination_line>=len(lines):return None
+   raw=lines[destination_line].expandtabs(4)
+   if not raw.strip() or (container and not raw.startswith(' '*container)):return None
+   label.append('\n');source=raw[container:];position=0
+  ch=source[position]
+  if ch=='\\' and position+1<len(source):label.extend(source[position:position+2]);position+=2
+  elif ch==']':
+   if source[position+1:position+2]!=':':return None
+   source=source[position+2:].lstrip(' \t');break
+  elif ch=='[':return None
+  else:label.append(ch);position+=1
+  if len(label)>999:return None
+ label=''.join(label)
+ if not label.strip() or len(label)>999:return None
  if not source:
   destination_line+=1
   if destination_line>=len(lines):return None
@@ -558,7 +579,28 @@ def reference_definition(lines,index,container,relative):
   if end is None:return None
  else:
   end=reference_title_end(lines,destination_line,container)
- return label[1],destination_line if end is None else end
+ return label,destination_line if end is None else end
+
+def quoted_block(lines,index,container=0):
+ # Remove one explicit quote container; recursive classification preserves
+ # nested quotes and literal '>' inside fenced/indented code. Lazy prose
+ # continues the same paragraph, but blank/block boundaries end it.
+ quoted=[];cursor=index;lazy=False;fence=None
+ while cursor<len(lines):
+  raw=lines[cursor].expandtabs(4)
+  if container and raw.startswith(' '*container):raw=raw[container:]
+  prefix=re.match(r' {0,3}>[ \t]?',raw)
+  if prefix:
+   relative=raw[prefix.end():];quoted.append(relative)
+   marker=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',relative)
+   if marker:
+    if fence is None:fence=marker[1]
+    elif marker[1][0]==fence[0] and len(marker[1])>=len(fence) and not marker[2].strip():fence=None
+   lazy=bool(relative.strip()) and fence is None and not re.match(r' {0,3}(?:#{1,6}(?:\s|$)|<|>|[-*+]\s*$)',relative) and not relative.startswith('    ')
+  elif lazy and raw.strip() and not re.match(r' {0,3}(?:>|#{1,6}(?:\s|$)|`{3,}|~{3,}|[-*+](?:\s|$)|[0-9]{1,9}[.)](?:\s|$)|<)',raw):quoted.append(raw)
+  else:break
+  cursor+=1
+ return quoted,cursor-1
 
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
@@ -604,6 +646,13 @@ def publication_markdown_blocks(body_lines):
    if indented:
     code.append(relative[4:]);continue
    yield 'code','\n'.join(code).rstrip('\n');code=None
+  if re.match(r' {0,3}>',relative):
+   if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
+   paragraph_kind='paragraph'
+   # Quote prefixes are measured after the enclosing list indentation.
+   quoted,skip_through=quoted_block(lines,source_index,container)
+   yield from publication_markdown_blocks(['\n'.join(quoted)])
+   continue
   while re.match(r' {0,3}<!--',raw):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
    paragraph_kind='paragraph';end=raw.find('-->');comment=end<0
@@ -634,21 +683,22 @@ def publication_markdown_blocks(body_lines):
    continue
   line=raw.strip()
   heading=re.fullmatch(r'#{1,6}\s+(.+)',line)
-  item=re.fullmatch(r'(?:[-*+]|[0-9]{1,9}[.)])\s+(.+)',line)
-  marker=re.match(r'([-*+]|([0-9]{1,9})([.)]))\s+',expanded.lstrip()) if item else None
+  item=re.fullmatch(r'(?:[-*+]|[0-9]{1,9}[.)])(?:\s+(.+))?',line)
+  marker=re.match(r'([-*+]|([0-9]{1,9})([.)]))(?:[ \t]+|$)',expanded.lstrip()) if item else None
   marker_key=(len(expanded)-len(expanded.lstrip()),marker[3]) if marker and marker[2] else None
   # Only a start number of 1 can interrupt prose. Matching sibling markers
   # continue an existing ordered list without stripping numbers from prose.
   if marker and marker[2] and int(marker[2])!=1 and paragraph and marker_key!=list_marker:item=None
+  if item and not item[1] and paragraph:item=None
   if heading or item:
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
-   paragraph_kind='text' if item else 'paragraph'
+   paragraph_kind='text' if item and item[1] else 'paragraph'
    if item:
-    list_indent=len(expanded)-len(expanded.lstrip())+marker.end();list_marker=marker_key
+    list_indent=len(expanded)-len(expanded.lstrip())+(marker.end() if item[1] else len(marker[1])+1);list_marker=marker_key
     padding=marker.end()-len(marker[1])
     if padding>4:
      list_indent-=padding-1;code=[expanded[list_indent+4:]];paragraph_kind='paragraph'
-    else:paragraph=[item[1]]
+    elif item[1]:paragraph=[item[1]]
    else:
     if list_indent is not None and not expanded.startswith(' '*list_indent):list_indent=None;list_marker=None
     yield 'text',heading[1]
