@@ -336,10 +336,14 @@ def publication_markdown_blocks(body_lines):
     yield 'code','\n'.join(code);code=None;fence=None
    else:code.append(raw)
    continue
+  if not raw.strip():
+   if code is not None:code.append('')
+   elif paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
+   continue
   expanded=raw.expandtabs(4);indented=expanded.startswith('    ')
   if code is not None:
-   if indented or not raw.strip():
-    code.append(expanded[4:] if indented else '');continue
+   if indented:
+    code.append(expanded[4:]);continue
    yield 'code','\n'.join(code).rstrip('\n');code=None
   if indented:
    if paragraph:paragraph.append(raw.strip())
@@ -351,7 +355,7 @@ def publication_markdown_blocks(body_lines):
    fence=opening[1];code=[];continue
   line=raw.strip()
   heading=re.fullmatch(r'#{2,4}\s+(.+)',line)
-  item=re.fullmatch(r'(?:[-*]|[0-9]+[.)])\s+(.+)',line)
+  item=re.fullmatch(r'(?:[-*+]|[0-9]+[.)])\s+(.+)',line)
   if not line or heading or item:
    if paragraph:yield 'paragraph',' '.join(paragraph);paragraph=[]
    if heading or item:yield 'text',(heading or item)[1]

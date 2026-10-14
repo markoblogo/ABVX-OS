@@ -169,3 +169,32 @@ class InlineVideoProbeTests(unittest.TestCase):
   blocks=list(publication_markdown_blocks([source]))
   self.assertEqual([kind for kind,_ in blocks],['code','paragraph'])
   self.assertEqual(blocks[-1][1],'[A](https://youtu.be/aaaaaaaaaaa)')
+
+ def test_whitespace_only_separators_never_hide_standalone_videos(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  prose='An original paragraph that must remain verified.'
+  for blank in [' ', '   ', '    ', '        ', '\t', ' \t ', '\t\t']:
+   for newline in ['\n','\r\n']:
+    with self.subTest(blank=repr(blank),newline=repr(newline)):
+     item,html=self.fixture();item['payload']['body_lines']=[newline.join([prose,blank,'[A](https://youtu.be/aaaaaaaaaaa)'])]
+     self.assertEqual(list(publication_markdown_blocks(item['payload']['body_lines'])),[('paragraph',prose),('paragraph','[A](https://youtu.be/aaaaaaaaaaa)')])
+     good=html.replace('Example A launch video','A')
+     validate_live_html(item,good.encode())
+     self.reject(item,[good.replace(self.player('A'),'<p>A</p>')])
+ def test_short_plus_list_items_require_visible_text(self):
+  prose='An original paragraph that must remain verified.'
+  for separator in ['\n','\n\n','\n    \n','\n\t\n']:
+   for marker in ['+ ', ' + ', '   +\t']:
+    with self.subTest(separator=repr(separator),marker=repr(marker)):
+     item,html=self.fixture();item['payload']['body_lines']=[prose+separator+marker+'Go']
+     html=html.split('<figure',1)[0]
+     validate_live_html(item,(html+'<ul><li>Go</li></ul>').encode())
+     self.reject(item,[html])
+ def test_whitespace_separators_preserve_code_examples(self):
+  from abvx_harness.publication_learning import publication_markdown_blocks
+  link='[Literal video example](https://youtu.be/aaaaaaaaaaa)'
+  for blank in ['    ','\t',' \t ']:
+   for source in ['~~~markdown\n'+blank+'\n'+link+'\n~~~','    '+link+'\n'+blank+'\n    More literal code text.']:
+    item,html=self.fixture();item['payload']['body_lines']=[source]
+    self.assertEqual([kind for kind,_ in publication_markdown_blocks([source])],['code'])
+    validate_live_html(item,(html.replace(self.player(),'')+'<pre>'+link+'\nMore literal code text.</pre>').encode())
