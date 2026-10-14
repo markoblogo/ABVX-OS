@@ -129,6 +129,7 @@ class InlineVideoProbeTests(unittest.TestCase):
     with self.subTest(source=source):
      item,html=self.fixture();item['payload']['body_lines']=[source]
      good=html.replace('Example A launch video','A')+'<pre>'+code+'</pre>'
+     if source.startswith(link):good=good.replace('<p>'+prose+'</p>','')+'<p>'+prose+'</p>'
      validate_live_html(item,good.encode())
      self.reject(item,[good.replace(self.player('A'),'<p>A</p>'),good.replace(prose,'Missing prose')])
  def test_mismatched_and_short_fence_markers_remain_inside_code(self):
@@ -462,3 +463,25 @@ class InlineVideoProbeTests(unittest.TestCase):
    good=html.replace(self.player(),paragraph+self.player())
    validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])
   self.reject(item,[html.replace(self.player(),'<p hidden><template/>'+self.player())])
+
+ def test_short_paragraphs_after_headings_and_fences_remain_required(self):
+  prose='An original paragraph that must remain verified.'
+  for boundary,rendered in [('## Warning','<h2>Warning</h2>'),('```text\nCode example remains visible.\n```','<pre>Code example remains visible.</pre>')]:
+   item,html=self.fixture();item['payload']['body_lines']=[prose+'\n'+boundary+'\nGo']
+   good=html+rendered+'<p>Go</p>';validate_live_html(item,good.encode());self.reject(item,[html+rendered])
+ def test_text_blocks_require_source_order_and_each_occurrence(self):
+  prose='An original paragraph that must remain verified.'
+  item,html=self.fixture();item['payload']['body_lines']=[prose+'\n\n- Repeat important action\n- Repeat important action\n- Final required instruction']
+  good=html+'<ul><li>Repeat important action</li><li>Repeat important action</li><li>Final required instruction</li></ul>'
+  validate_live_html(item,good.encode())
+  self.reject(item,[good.replace('<li>Repeat important action</li>','',1),html+'<ul><li>Final required instruction</li><li>Repeat important action</li><li>Repeat important action</li></ul>'])
+ def test_minimized_list_items_close_prior_hidden_paragraphs_and_items(self):
+  item,html=self.fixture();item['payload']['body_lines']=['- Required']
+  for good in ['<ul><li><p hidden/><li>Required</ul>','<ul><li hidden><p/><li>Required</ul>','<dl><dt><p hidden/><dd>Required</dl>','<dl><dd hidden><p/><dt>Required</dl>']:
+   validate_live_html(item,(html+good).encode());self.reject(item,[html+good.replace('Required','')])
+ def test_html_breakout_tags_restore_namespace_outside_foreign_content(self):
+  item,html=self.fixture()
+  for foreign in ['<svg>','<math>','<svg><g>']:
+   for opening,closing in [('<div>','</div>'),('<p>','</p>'),('<table><tr><td>','</td></tr></table>')]:
+    good=html.replace(self.player(),foreign+opening+self.player()+closing)
+    validate_live_html(item,good.encode());self.reject(item,[good.replace('/embed/aaaaaaaaaaa','/embed/ccccccccccc')])

@@ -240,6 +240,13 @@ class Visible(HTMLParser):
  non_rendered=frozenset(('head','script','style','template','noscript','textarea','title'))
  def __init__(self):
   super().__init__();self.canonical=[];self.parts=[];self.stack=[];self.players=[]
+ def child_namespace(self,tag):
+  if not self.stack:return 'html'
+  parent=self.stack[-1];namespace=parent['namespace']
+  if ((namespace=='svg' and parent['tag'] in ('foreignobject','desc','title'))
+      or (namespace=='math' and parent['tag'] in ('mi','mo','mn','ms','mtext') and tag not in ('mglyph','malignmark'))
+      or (namespace=='math' and parent['tag']=='annotation-xml' and parent['html_integration'])):return 'html'
+  return namespace
  def handle_starttag(self,tag,attrs):
   # A browser keeps the first duplicate attribute, whereas dict keeps the
   # last. Ambiguous evidence or visibility attributes cannot prove release.
@@ -248,21 +255,26 @@ class Visible(HTMLParser):
    if key in seen and key in ('src','title','href','rel','hidden','inert','aria-hidden','style','open','encoding'):
     raise ValueError('Duplicate structural HTML attribute')
    seen.add(key)
+  attr=dict(attrs)
+  namespace=self.child_namespace(tag)
+  breakout=tag in ('b','big','blockquote','body','br','center','code','dd','div','dl','dt','em','embed','h1','h2','h3','h4','h5','h6','head','hr','i','img','li','listing','menu','meta','nobr','ol','p','pre','ruby','s','small','span','strong','strike','sub','sup','table','tt','u','ul','var') or (tag=='font' and any(k in attr for k in ('color','face','size')))
+  if namespace!='html' and breakout:
+   while self.stack and self.child_namespace(tag)!='html':self.stack.pop()
   if self.stack and self.stack[-1]['tag']=='head' and tag not in ('html','head','base','basefont','bgsound','link','meta','noframes','script','style','template','title','noscript'):
    self.handle_endtag('head')
-  attr=dict(attrs);parent=self.stack[-1] if self.stack else None
-  namespace=parent['namespace'] if parent else 'html'
-  if parent and ((namespace=='svg' and parent['tag'] in ('foreignobject','desc','title'))
-      or (namespace=='math' and parent['tag'] in ('mi','mo','mn','ms','mtext') and tag not in ('mglyph','malignmark'))
-      or (namespace=='math' and parent['tag']=='annotation-xml' and parent['html_integration'])):
-   namespace='html'
+  parent=self.stack[-1] if self.stack else None;namespace=self.child_namespace(tag)
   if namespace=='html' and tag in ('svg','math'):namespace=tag
-  if namespace=='html' and tag in ('address','article','aside','blockquote','details','div','dl','fieldset','figcaption','figure','footer','form','h1','h2','h3','h4','h5','h6','header','hgroup','hr','main','menu','nav','ol','p','pre','section','table','ul'):
+  if namespace=='html' and tag in ('address','article','aside','blockquote','dd','details','div','dl','dt','li','fieldset','figcaption','figure','footer','form','h1','h2','h3','h4','h5','h6','header','hgroup','hr','main','menu','nav','ol','p','pre','section','table','ul'):
    # Block starts close a paragraph in button scope, even if its optional
    # end tag was omitted. Do not cross a template or foreign boundary.
    for node in reversed(self.stack):
     if node['namespace']!='html' or node['tag'] in ('template','html','table','td','th','button','applet','marquee','object'):break
     if node['tag']=='p':self.handle_endtag('p');break
+   parent=self.stack[-1] if self.stack else None
+  if namespace=='html' and tag in ('li','dt','dd'):
+   for node in reversed(self.stack):
+    if node['namespace']!='html' or node['tag'] in ('template','html','table','ul','ol','dl'):break
+    if node['tag'] in (('li',) if tag=='li' else ('dt','dd')):self.handle_endtag(node['tag']);break
    parent=self.stack[-1] if self.stack else None
   style=attr.get('style') or ''
   hidden=bool((parent and parent['hidden']) or tag in self.non_rendered
@@ -439,16 +451,17 @@ def validate_live_html(item,data):
  parser=Visible();parser.feed(data.decode('utf-8'));url='https://abvx.xyz'+item['enrichment']['canonical_path']
  text=plain(' '.join(parser.parts))
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
- required=0;used=set()
+ required=0;used=set();cursor=0;visible=' '+text+' '
  for kind,block in publication_markdown_blocks(item['payload']['body_lines']):
   if kind=='paragraph' and inline_video_source(block) is not None:
    required+=1
    if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
   else:
    expected=plain(block) if kind=='code' else authored_plain(block)
-   if (kind=='text' and expected) or len(expected)>12:
-    required+=1
-    if ' '+expected+' ' not in ' '+text+' ':raise ValueError('Authored production text not verified')
+   if (kind in ('text','paragraph') and expected) or len(expected)>12:
+    required+=1;needle=' '+expected+' ';position=visible.find(needle,cursor)
+    if position<0:raise ValueError('Authored production text not verified')
+    cursor=position+len(needle)-1
  if not required:raise ValueError('Authored production text not verified')
  return hashlib.sha256(data).hexdigest()
 class NoRedirect(HTTPRedirectHandler):
