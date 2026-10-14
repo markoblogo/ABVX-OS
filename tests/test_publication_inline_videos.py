@@ -639,3 +639,19 @@ class InlineVideoProbeTests(unittest.TestCase):
   validate_live_html(item,(html+'<blockquote><pre>&gt; [A](https://youtu.be/aaaaaaaaaaa)</pre></blockquote>').encode())
   item['payload']['body_lines']=['> [A](https://youtu.be/aaaaaaaaaaa)\nordinary continuation']
   validate_live_html(item,(html+'<blockquote><p><a>A</a> ordinary continuation</p></blockquote>').encode())
+
+ def test_reference_video_paragraphs_require_player_and_original_fallback(self):
+  item,html=self.fixture()
+  for link,definition in [('[A][vid]','[vid]: https://youtu.be/aaaaaaaaaaa'),('[A][]','[A]: <https://youtu.be/aaaaaaaaaaa>'),('[A]','[A]:\nhttps://youtu.be/aaaaaaaaaaa "Optional title"'),('> [A][vid]','[vid]: https://youtu.be/aaaaaaaaaaa')]:
+   item['payload']['body_lines']=[link,definition]
+   self.reject(item,[html+'<p>A</p>',html+self.player('A').replace('href="https://youtu.be/aaaaaaaaaaa"','href="https://example.com/"')])
+   validate_live_html(item,(html+self.player('A')).encode())
+ def test_inline_image_destinations_take_precedence_over_shortcut_references(self):
+  item,html=self.fixture()
+  for source in ['![x](/b)','![x](</b>)','![x](/b(foo)tail "Title")']:
+   item['payload']['body_lines']=['An original paragraph that must remain verified.',source,'[x]: /a']
+   validate_live_html(item,(html+'<img src="/b" alt="x">').encode())
+ def test_reference_video_uses_the_first_definition_and_balanced_label(self):
+  item,html=self.fixture();item['payload']['body_lines']=['[A [now]][vid]','[vid]: https://youtu.be/aaaaaaaaaaa','[vid]: https://youtu.be/bbbbbbbbbbb']
+  validate_live_html(item,(html+self.player('A [now]')).encode())
+  self.reject(item,[html+'<p>A [now]</p>',html+self.player('A [now]','bbbbbbbbbbb','https://youtu.be/bbbbbbbbbbb')])

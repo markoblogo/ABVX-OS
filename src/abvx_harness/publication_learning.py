@@ -405,6 +405,9 @@ def resolve_reference_links(value,references):
    end=bracket_end(value,start)
    if end is not None:
     label=value[start+1:end];target=end+1;key=label
+    inline=inline_target_end(value,target) if value[target:target+1]=='(' else None
+    if inline is not None:
+     pieces.append(value[cursor:inline]);cursor=inline;continue
     if value[target:target+1]=='[':
      ref_end=bracket_end(value,target)
      if ref_end is not None:key=value[target+1:ref_end] or label;target=ref_end+1
@@ -470,9 +473,10 @@ def authored_plain(value,references=frozenset(),raw_html=False):
 def inline_video_source(line):
  # A non-rendered trailing comment does not turn a video paragraph into text.
  line=re.sub(r'(?:\s*<!--(?:(?!-->).)*-->)+\s*$', '', line, flags=re.S)
- match=re.fullmatch(r'\[([^\]\n]+)\]\((https://[^\s)]+)\)',line.strip())
+ line=line.strip();end=bracket_end(line,0) if line.startswith('[') else None
+ match=re.fullmatch(r'\((https://[^\s)]+)\)',line[end+1:]) if end is not None else None
  if not match:return None
- label,href=match.groups()
+ label,href=line[1:end],match[1]
  try:
   url=urlsplit(href)
   if url.hostname=='youtu.be':video_path=bool(url.path.strip('/'))
@@ -489,6 +493,21 @@ def inline_video_source(line):
    path=re.fullmatch(r'/(?:embed|shorts)/([A-Za-z0-9_-]{11})',url.path);video_id=path[1] if path else None
   return (label,href,video_id) if video_id and re.fullmatch(r'[A-Za-z0-9_-]{11}',video_id) else result
  except ValueError:return (label,href,None)
+
+def reference_video_paragraph(block,references):
+ # A whole rendered reference link is still a standalone video paragraph.
+ # Keep the first definition's destination for exact iframe/fallback proof;
+ # ordinary prose and literal code remain on the text-verification path.
+ line=re.sub(r'(?:\s*<!--(?:(?!-->).)*-->)+\s*$','',block,flags=re.S).strip()
+ if not line.startswith('['):return block
+ end=bracket_end(line,0)
+ if end is None:return block
+ label=line[1:end];key=label;tail=line[end+1:]
+ if tail:
+  if not tail.startswith('[') or bracket_end(tail,0)!=len(tail)-1:return block
+  key=tail[1:-1] or label
+ href=references.get(reference_label(key))
+ return '['+label+']('+href+')' if href else block
 
 def inline_video_verified(line,parser,used=None):
  source=inline_video_source(line)
@@ -579,7 +598,10 @@ def reference_definition(lines,index,container,relative):
   if end is None:return None
  else:
   end=reference_title_end(lines,destination_line,container)
- return label,destination_line if end is None else end
+ destination=source[:pos]
+ if destination.startswith('<'):destination=destination[1:-1]
+ destination=html.unescape(re.sub(r'\\([!"#$%&\'()*+,\-./:;<=>?@\[\]\\^_`{|}~])',r'\1',destination))
+ return label,destination_line if end is None else end,destination
 
 def quoted_block(lines,index,container=0):
  # Remove one explicit quote container; recursive classification preserves
@@ -662,8 +684,8 @@ def publication_markdown_blocks(body_lines):
   indented=relative.startswith('    ')
   definition=reference_definition(lines,source_index,container,relative) if not paragraph and not indented else None
   if definition:
-   label,skip_through=definition
-   yield 'reference','['+label+']:';continue
+   label,skip_through,destination=definition
+   yield 'reference','['+label+']: '+destination;continue
   opening=re.fullmatch(r' {0,3}(`{3,}|~{3,})(.*)',relative)
   if opening and not (opening[1][0]=='`' and '`' in opening[2]):
    if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
@@ -713,12 +735,16 @@ def validate_live_html(item,data):
  if parser.canonical!=[url] or plain(item['title']) not in text:raise ValueError('Production canonical/title not verified')
  required=0;used=set();cursor=0;visible=' '+text+' '
  blocks=list(publication_markdown_blocks(item['payload']['body_lines']))
- references={reference_label(block[1:bracket_end(block,0)]) for kind,block in blocks if kind=='reference'}
+ references={}
+ for kind,block in blocks:
+  if kind=='reference':
+   end=bracket_end(block,0);references.setdefault(reference_label(block[1:end]),block[end+2:].strip())
  for kind,block in blocks:
   if kind=='reference':continue
-  if kind=='paragraph' and inline_video_source(block) is not None:
+  video=reference_video_paragraph(block,references) if kind=='paragraph' else block
+  if kind=='paragraph' and inline_video_source(video) is not None:
    required+=1
-   if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
+   if not inline_video_verified(video,parser,used):raise ValueError('Authored inline video not verified')
   else:
    expected=rendered_plain(block) if kind=='code' else authored_plain(block,references,raw_html=kind=='html')
    if (kind in ('text','paragraph','html') and expected) or len(expected)>12:
