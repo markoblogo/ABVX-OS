@@ -393,22 +393,59 @@ def plain(value,decode_entities=True):
  return rendered_plain(html.unescape(value) if decode_entities else value)
 def reference_label(value):return ' '.join(value.split()).casefold()
 def resolve_reference_links(value,references):
- def escaped(position):
-  prefix=value[:position];return (len(prefix)-len(prefix.rstrip('\\')))%2==1
- def replace(match):
-  label=match[2];key=reference_label(match[3] or label)
-  if (not match[1] and escaped(match.start())) or key not in references:return match[0]
-  return '' if match[1] and not escaped(match.start()) else label
- value=re.sub(r'(!?)\[((?:\\.|[^\]\\\n])+)\]\[((?:\\.|[^\]\\\n])*)\]',replace,value)
- def image(match):
-  if reference_label(match[1]) not in references:return match[0]
-  return match[1] if escaped(match.start()) else ''
- return re.sub(r'!\[((?:\\.|[^\]\\\n])+)\](?![\[(])',image,value)
+ pieces=[];cursor=0
+ while cursor<len(value):
+  if value[cursor]=='\\' and cursor+1<len(value):pieces.append(value[cursor:cursor+2]);cursor+=2;continue
+  image=value[cursor:cursor+2]=='![';start=cursor+1 if image else cursor
+  if value[start:start+1]=='[':
+   end=bracket_end(value,start)
+   if end is not None:
+    label=value[start+1:end];target=end+1;key=label
+    if value[target:target+1]=='[':
+     ref_end=bracket_end(value,target)
+     if ref_end is not None:key=value[target+1:ref_end] or label;target=ref_end+1
+     else:key=None
+    elif not image:key=None
+    if key is not None and len(key)<=999 and reference_label(key) in references:
+     pieces.append('' if image else label);cursor=target;continue
+  pieces.append(value[cursor]);cursor+=1
+ return ''.join(pieces)
+
+# CommonMark raw HTML is stricter than HTMLParser's error recovery. Preserve
+# HTML-looking ordinary text when it cannot be a valid inline HTML construct.
+MD_ATTRIBUTE=r"""[A-Za-z_:][A-Za-z0-9_.:-]*(?:\s*=\s*(?:[^\s\"'=<>`]+|'[^']*'|"[^"]*"))?"""
+MD_HTML=re.compile(r"""(?:<[A-Za-z][A-Za-z0-9-]*(?:\s+"""+MD_ATTRIBUTE+r""")*\s*/?>|</[A-Za-z][A-Za-z0-9-]*\s*>|<!--(?!(?:>|->))(?:(?!-->).)*-->|<\?.*?\?>|<![A-Z]+\s+[^>]*>|<!\[CDATA\[.*?\]\]>)""",re.S)
+def markdown_inline_html(value):
+ pieces=[];cursor=0
+ while cursor<len(value):
+  if value[cursor]=='<':
+   match=MD_HTML.match(value,cursor)
+   if match:pieces.append(match[0]);cursor=match.end();continue
+   pieces.append('&lt;')
+  else:pieces.append(value[cursor])
+  cursor+=1
+ return ''.join(pieces)
+
+HTML_BLOCK_NAMES=frozenset('address article aside base basefont blockquote body caption center col colgroup dd details dialog dir div dl dt fieldset figcaption figure footer form frame frameset h1 h2 h3 h4 h5 h6 head header hr html iframe legend li link main menu menuitem nav noframes ol optgroup option p param search section summary table tbody td tfoot th thead title tr track ul'.split())
+def raw_html_block_end(line,paragraph):
+ tag=re.match(r' {0,3}<(/?)([A-Za-z][A-Za-z0-9-]*)(?=\s|/?>|$)',line)
+ if tag:
+  name=tag[2].casefold()
+  if not tag[1] and name in ('script','pre','style','textarea'):return '</'+name+'>'
+  if name in HTML_BLOCK_NAMES:return 'blank'
+ stripped=line.lstrip()
+ if stripped.startswith('<?'):return '?>'
+ if stripped.startswith('<![CDATA['):return ']]>'
+ if re.match(r'<![A-Z]',stripped):return '>'
+ if not paragraph and MD_HTML.fullmatch(stripped.rstrip()):return 'blank'
+ return None
 def escaped_html_delimiters(value):
  # Backslash escapes are Markdown text before raw-HTML recognition. Even
  # runs leave a real delimiter; odd runs protect it from HTMLParser.
  return re.sub(r'(\\+)([<>])',lambda m:m[1][:-1]+html.escape(m[2]) if len(m[1])%2 else m[0],value)
-def authored_plain(value,references=frozenset()):
+def authored_plain(value,references=frozenset(),raw_html=False):
+ if raw_html:
+  parser=Visible();parser.feed(value);parser.close();return rendered_plain(' '.join(parser.parts))
  # Preserve literal HTML in Markdown code spans before extracting rendered
  # inline text. Do not unescape entities before parsing: escaped tags are text.
  runs=list(re.finditer(r'`+',value));pieces=[];cursor=0;index=0
@@ -423,7 +460,7 @@ def authored_plain(value,references=frozenset()):
  source=''.join(pieces)
  # CommonMark URI/email autolinks are visible text, not HTML start tags.
  source=re.sub(r'<([A-Za-z][A-Za-z0-9+.-]{1,31}:[^<>\x00-\x20]*|[A-Za-z0-9.!#$%&\'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9.-]*[A-Za-z0-9])?)>',lambda m:'<a>'+html.escape(m[1])+'</a>',source)
- parser=Visible();parser.feed(source);parser.close()
+ parser=Visible();parser.feed(markdown_inline_html(source));parser.close()
  return rendered_plain(' '.join(parser.parts))
 
 def inline_video_source(line):
@@ -483,7 +520,7 @@ def reference_title_end(lines,index,container,initial=''):
 
 def reference_definition(lines,index,container,relative):
  label=re.match(r' {0,3}\[((?:\\.|[^\]\\\n])+)\]:[ \t]*',relative)
- if not label or not label[1].strip():return None
+ if not label or not label[1].strip() or len(label[1])>999 or re.search(r'(?<!\\)\[',label[1]):return None
  source=relative[label.end():];destination_line=index
  if not source:
   destination_line+=1
@@ -526,10 +563,17 @@ def reference_definition(lines,index,container,relative):
 def publication_markdown_blocks(body_lines):
  # Keep fence identity/length and indentation until block classification. Fences
  # interrupt prose; indented code starts only outside an existing paragraph.
- paragraph=[];paragraph_kind='paragraph';code=None;fence=None;fence_indent=0;list_indent=None;list_marker=None;comment=False
+ paragraph=[];paragraph_kind='paragraph';code=None;fence=None;fence_indent=0;list_indent=None;list_marker=None;comment=False;raw_html=[];html_end=None
  lines='\n\n'.join(body_lines).replace('\r\n','\n').split('\n');skip_through=-1
  for source_index,raw in enumerate(lines):
   if source_index<=skip_through:continue
+  if html_end is not None:
+   if html_end=='blank' and not raw.strip():
+    yield 'html','\n'.join(raw_html);raw_html=[];html_end=None;continue
+   raw_html.append(raw)
+   if html_end!='blank' and html_end in raw.casefold():
+    yield 'html','\n'.join(raw_html);raw_html=[];html_end=None
+   continue
   if fence is not None:
    expanded=raw.expandtabs(4)
    if fence_indent and raw.strip() and not expanded.startswith(' '*fence_indent):
@@ -581,6 +625,13 @@ def publication_markdown_blocks(body_lines):
    if paragraph:paragraph.append(raw.strip())
    else:code=[relative[4:]]
    continue
+  html_end=raw_html_block_end(relative,paragraph)
+  if html_end is not None:
+   if paragraph:yield paragraph_kind,' '.join(paragraph);paragraph=[]
+   paragraph_kind='paragraph';raw_html=[relative]
+   if html_end!='blank' and html_end in relative.casefold():
+    yield 'html','\n'.join(raw_html);raw_html=[];html_end=None
+   continue
   line=raw.strip()
   heading=re.fullmatch(r'#{1,6}\s+(.+)',line)
   item=re.fullmatch(r'(?:[-*+]|[0-9]{1,9}[.)])\s+(.+)',line)
@@ -594,13 +645,17 @@ def publication_markdown_blocks(body_lines):
    paragraph_kind='text' if item else 'paragraph'
    if item:
     list_indent=len(expanded)-len(expanded.lstrip())+marker.end();list_marker=marker_key
-    paragraph=[item[1]]
+    padding=marker.end()-len(marker[1])
+    if padding>4:
+     list_indent-=padding-1;code=[expanded[list_indent+4:]];paragraph_kind='paragraph'
+    else:paragraph=[item[1]]
    else:
     if list_indent is not None and not expanded.startswith(' '*list_indent):list_indent=None;list_marker=None
     yield 'text',heading[1]
   else:paragraph.append(line)
  if paragraph:yield paragraph_kind,' '.join(paragraph)
  if code is not None:yield 'code','\n'.join(code)
+ if raw_html:yield 'html','\n'.join(raw_html)
 
 def validate_live_html(item,data):
  parser=Visible();parser.feed(data.decode('utf-8'));url='https://abvx.xyz'+item['enrichment']['canonical_path']
@@ -615,8 +670,8 @@ def validate_live_html(item,data):
    required+=1
    if not inline_video_verified(block,parser,used):raise ValueError('Authored inline video not verified')
   else:
-   expected=rendered_plain(block) if kind=='code' else authored_plain(block,references)
-   if (kind in ('text','paragraph') and expected) or len(expected)>12:
+   expected=rendered_plain(block) if kind=='code' else authored_plain(block,references,raw_html=kind=='html')
+   if (kind in ('text','paragraph','html') and expected) or len(expected)>12:
     required+=1;needle=' '+expected+' ';position=visible.find(needle,cursor)
     if position<0:raise ValueError('Authored production text not verified')
     cursor=position+len(needle)-1

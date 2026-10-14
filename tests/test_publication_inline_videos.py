@@ -584,3 +584,27 @@ class InlineVideoProbeTests(unittest.TestCase):
   item,html=self.fixture();item['payload']['body_lines']=['## `[Go](/required-path(foo)tail)`']
   good=html+'<h2><code>[Go](/required-path(foo)tail)</code></h2>'
   validate_live_html(item,good.encode());self.reject(item,[html+'<h2>Go</h2>',good.replace('/required-path(foo)tail','/other-path')])
+
+ def test_invalid_markdown_html_looking_text_remains_visible(self):
+  item,html=self.fixture();prose='An original paragraph that must remain verified.'
+  for source in ['## <foo?bar>','- <foo?bar>','## <em/foo>']:
+   item['payload']['body_lines']=[prose,source]
+   self.reject(item,[html])
+   literal=source.split(' ',1)[1].replace('<','&lt;').replace('>','&gt;');validate_live_html(item,(html+'<h2>'+literal+'</h2>').encode())
+ def test_full_reference_text_preserves_nested_balanced_brackets(self):
+  item,html=self.fixture();item['payload']['body_lines']=['## [Go [now]][x]','[x]: /a']
+  validate_live_html(item,(html+'<h2><a>Go [now]</a></h2>').encode());self.reject(item,[html+'<h2>Go</h2>'])
+ def test_nested_heading_under_phrasing_does_not_escape_hidden_parent(self):
+  item,html=self.fixture();item['payload']['body_lines']=['## Go'];self.reject(item,[html+'<h2 hidden><em><h3>Go</h3>'])
+ def test_five_space_list_padding_preserves_literal_code_link(self):
+  item,html=self.fixture();item['payload']['body_lines']=['-     [Go](/required-path)']
+  validate_live_html(item,(html+'<ul><li><pre>[Go](/required-path)</pre></li></ul>').encode());self.reject(item,[html+'<ul><li>Go</li></ul>'])
+ def test_reference_definition_labels_have_a_999_character_cap(self):
+  item,html=self.fixture();prose='An original paragraph that must remain verified.'
+  label='a'*999;item['payload']['body_lines']=[prose,'[Go]['+label+']','['+label+']: /a'];validate_live_html(item,(html+'<p>Go</p>').encode())
+  label='a'*1000;item['payload']['body_lines']=[prose,'['+label+']: /required-visible'];self.reject(item,[html])
+  validate_live_html(item,(html+'<p>['+label+']: /required-visible</p>').encode())
+ def test_raw_html_blocks_keep_markdown_link_literals(self):
+  item,html=self.fixture();prose='An original paragraph that must remain verified.'
+  item['payload']['body_lines']=[prose,'<div>\n[Required](/secret-path)\n</div>']
+  validate_live_html(item,(html+'<div>[Required](/secret-path)</div>').encode());self.reject(item,[html+'<div>Required</div>'])
