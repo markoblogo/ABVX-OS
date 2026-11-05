@@ -1,0 +1,19 @@
+{
+  "schema_version": "youtube-intelligence/v1",
+  "channel_id": "UCwivRjryrkmZ3bMHUmNtykg",
+  "max_api_calls": 500,
+  "acquisition_seconds": 600,
+  "research_seconds": 2700,
+  "research_freshness_hours": 72,
+  "data_lag_days": 3,
+  "recent_upload_days": 35,
+  "editorial_guideline": {
+    "PROVEN": 0.4,
+    "EMERGING": 0.4,
+    "CREATIVE": 0.2
+  },
+  "existing_backlog": [
+    "PlayMCP review",
+    "PocketputerDV project overview"
+  ]
+}

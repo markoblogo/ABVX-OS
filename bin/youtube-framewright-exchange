@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+adapter_python="$repo_root/.tmp/youtube-intelligence/runtime/bin/python"
+if [ ! -x "$adapter_python" ]; then adapter_python=python3; fi
+PYTHONPATH="$repo_root/src:$repo_root/.tmp/book-core-runtime${PYTHONPATH:+:$PYTHONPATH}" exec "$adapter_python" -m abvx_harness.youtube_framewright_exchange "$@"
