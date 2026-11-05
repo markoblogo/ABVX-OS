@@ -1,0 +1,4 @@
+# Optional adapter environment, separate from the dependency-light OS core.
+google-api-python-client>=2.150,<3
+google-auth-oauthlib>=1.2,<2
+jsonschema==4.25.1

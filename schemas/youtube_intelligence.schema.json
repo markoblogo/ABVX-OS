@@ -1,0 +1,761 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/youtube-intelligence/v1",
+  "$defs": {
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "youtube-intelligence/v1"
+        },
+        "channel_id": {
+          "const": "UCwivRjryrkmZ3bMHUmNtykg"
+        },
+        "max_api_calls": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "acquisition_seconds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "research_seconds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "research_freshness_hours": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "data_lag_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "recent_upload_days": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "editorial_guideline": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "PROVEN": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "EMERGING": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "CREATIVE": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "PROVEN",
+            "EMERGING",
+            "CREATIVE"
+          ]
+        },
+        "existing_backlog": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "channel_id",
+        "max_api_calls",
+        "acquisition_seconds",
+        "research_seconds",
+        "research_freshness_hours",
+        "data_lag_days",
+        "recent_upload_days",
+        "editorial_guideline",
+        "existing_backlog"
+      ]
+    },
+    "research": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "youtube-research/v1"
+        },
+        "as_of": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "enum": [
+            "COMPLETE",
+            "PARTIAL"
+          ]
+        },
+        "research_seconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "method_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "opportunities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "concept": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rationale": {
+                "type": "string",
+                "minLength": 1
+              },
+              "duration": {
+                "type": "string",
+                "minLength": 1
+              },
+              "hook": {
+                "type": "string",
+                "minLength": 1
+              },
+              "visual": {
+                "type": "string",
+                "minLength": 1
+              },
+              "production": {
+                "type": "string",
+                "minLength": 1
+              },
+              "hypothesis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "primary_metric": {
+                "type": "string",
+                "minLength": 1
+              },
+              "priority": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "lane": {
+                "enum": [
+                  "PROVEN",
+                  "EMERGING",
+                  "CREATIVE"
+                ]
+              },
+              "format": {
+                "enum": [
+                  "SHORT",
+                  "HORIZONTAL_SHORT",
+                  "LONG_VIDEO"
+                ]
+              },
+              "complexity": {
+                "enum": [
+                  "LOW",
+                  "MEDIUM",
+                  "HIGH"
+                ]
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "url": {
+                      "type": "string",
+                      "pattern": "^https://"
+                    },
+                    "checked_at": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "supports": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "url",
+                    "checked_at",
+                    "supports"
+                  ]
+                },
+                "minItems": 1
+              },
+              "recommended": {
+                "type": "boolean"
+              },
+              "selection": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "origin": {
+                    "const": "EXTERNAL"
+                  },
+                  "external_signal": {
+                    "enum": [
+                      "RELEASE",
+                      "MEASURED_INTEREST",
+                      "COMPETITOR_EXAMPLE"
+                    ]
+                  },
+                  "niche_fit": {
+                    "enum": [
+                      "PASS",
+                      "HOLD",
+                      "REJECT"
+                    ]
+                  },
+                  "niche_reason": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "novelty_key": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "novelty_status": {
+                    "enum": [
+                      "NEW_QUESTION",
+                      "REPEAT",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "catalog_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "uncertainty": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "expected_response": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "origin",
+                  "external_signal",
+                  "niche_fit",
+                  "niche_reason",
+                  "novelty_key",
+                  "novelty_status",
+                  "catalog_refs",
+                  "uncertainty",
+                  "expected_response"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "title",
+              "concept",
+              "rationale",
+              "duration",
+              "hook",
+              "visual",
+              "production",
+              "hypothesis",
+              "primary_metric",
+              "priority",
+              "lane",
+              "format",
+              "complexity",
+              "sources"
+            ]
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "as_of",
+        "status",
+        "research_seconds",
+        "method_version",
+        "limitations",
+        "opportunities"
+      ]
+    },
+    "experiment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "youtube-experiment/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "registered_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "enum": [
+            "SHORT",
+            "HORIZONTAL_SHORT",
+            "LONG_VIDEO"
+          ]
+        },
+        "hypothesis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "expected_response": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              },
+              "checked_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "supports": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "url",
+              "checked_at",
+              "supports"
+            ]
+          },
+          "minItems": 1
+        },
+        "primary_metric": {
+          "enum": [
+            "views",
+            "estimatedMinutesWatched",
+            "subscribersGained",
+            "estimatedRevenue"
+          ]
+        },
+        "window_days": {
+          "enum": [
+            7,
+            28
+          ]
+        },
+        "minimum_result": {
+          "type": "number",
+          "minimum": 0
+        },
+        "threshold_basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selection": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "origin": {
+              "const": "EXTERNAL"
+            },
+            "external_signal": {
+              "enum": [
+                "RELEASE",
+                "MEASURED_INTEREST",
+                "COMPETITOR_EXAMPLE"
+              ]
+            },
+            "niche_fit": {
+              "enum": [
+                "PASS",
+                "HOLD",
+                "REJECT"
+              ]
+            },
+            "niche_reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "novelty_key": {
+              "type": "string",
+              "minLength": 1
+            },
+            "novelty_status": {
+              "enum": [
+                "NEW_QUESTION",
+                "REPEAT",
+                "UNKNOWN"
+              ]
+            },
+            "catalog_refs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "uncertainty": {
+              "type": "string",
+              "minLength": 1
+            },
+            "expected_response": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "origin",
+            "external_signal",
+            "niche_fit",
+            "niche_reason",
+            "novelty_key",
+            "novelty_status",
+            "catalog_refs",
+            "uncertainty",
+            "expected_response"
+          ]
+        },
+        "secondary_predictions": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "metric": {
+                "enum": [
+                  "views",
+                  "estimatedRevenue"
+                ]
+              },
+              "minimum_result": {
+                "type": "number",
+                "minimum": 0
+              },
+              "basis": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "metric",
+              "minimum_result",
+              "basis"
+            ]
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "id",
+        "created_at",
+        "topic",
+        "format",
+        "hypothesis",
+        "expected_response",
+        "sources",
+        "primary_metric",
+        "window_days",
+        "minimum_result",
+        "threshold_basis"
+      ]
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "APPROVED",
+            "PUBLISHED",
+            "CANCELLED",
+            "EVALUATED"
+          ]
+        },
+        "experiment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "video_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{11}$"
+        },
+        "recorded_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_run": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessment": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "type",
+        "experiment_id"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "PUBLISHED"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "video_id"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "EVALUATED"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "video_id",
+              "evidence_run",
+              "assessment"
+            ]
+          }
+        }
+      ]
+    },
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "youtube-intelligence/v1"
+        },
+        "run_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "channel_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "as_of": {
+          "type": "string",
+          "format": "date"
+        },
+        "captured_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "status": {
+          "enum": [
+            "STARTED",
+            "COMPLETE",
+            "PARTIAL_RESEARCH",
+            "BLOCKED",
+            "PARTIAL_DATA"
+          ]
+        },
+        "data_end": {
+          "type": "string",
+          "format": "date"
+        },
+        "acquisition_digest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "research_digest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "error_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blocker": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "run_id",
+        "channel_id",
+        "as_of",
+        "captured_at",
+        "status",
+        "data_end"
+      ]
+    },
+    "studio": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "youtube-studio-import/v1"
+        },
+        "channel_id": {
+          "const": "UCwivRjryrkmZ3bMHUmNtykg"
+        },
+        "captured_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source_kind": {
+          "enum": [
+            "STUDIO_EXPORT",
+            "OWNER_PROVIDED_AUDIT"
+          ]
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "metric": {
+                "enum": [
+                  "impressions",
+                  "impressions_ctr",
+                  "returning_viewers",
+                  "viewed_percentage",
+                  "swiped_percentage",
+                  "rpm"
+                ]
+              },
+              "value": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit": {
+                "type": "string",
+                "minLength": 1
+              },
+              "video_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "period": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "start": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "end": {
+                    "type": "string",
+                    "format": "date"
+                  }
+                },
+                "required": [
+                  "start",
+                  "end"
+                ]
+              }
+            },
+            "required": [
+              "metric",
+              "value",
+              "unit",
+              "video_id",
+              "definition",
+              "period"
+            ]
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "channel_id",
+        "captured_at",
+        "source_kind",
+        "metrics"
+      ]
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/config"
+    },
+    {
+      "$ref": "#/$defs/research"
+    },
+    {
+      "$ref": "#/$defs/experiment"
+    },
+    {
+      "$ref": "#/$defs/event"
+    },
+    {
+      "$ref": "#/$defs/run"
+    },
+    {
+      "$ref": "#/$defs/studio"
+    }
+  ]
+}
