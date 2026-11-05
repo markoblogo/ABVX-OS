@@ -21,8 +21,10 @@ Evidence is private under the external studio's
 The owner subsequently authorised opt-in exchange at existing workflow boundaries.
 `enable-auto --radar-root ROOT` writes private local configuration pointing to an
 existing, channel-configured exchange. No new schedule/daemon is created.
-Before normal `run` acquisition the hook receives Framewright messages and adds
-known observational video IDs to the same existing acquisition. After a successful
+Before normal `run` acquisition the hook receives Framewright messages.
+Linked IDs never extend primary experiment tracking or its age-window queries;
+calendar snapshots reuse existing acquisition rows. Unavailable older-video rows
+remain pending without consuming the primary acquisition budget. After a successful
 run it exports research/menu and available per-video7/28-day calendar reports.
 No extra acquisition is made, and a hook error leaves the primary run successful.
 Run outcome and optional exchange status remain separate. Missing storage stays

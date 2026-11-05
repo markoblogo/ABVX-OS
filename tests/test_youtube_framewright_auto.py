@@ -35,3 +35,11 @@ class AutoRunTest(unittest.TestCase):
             with patch.object(A,'after_run',side_effect=RuntimeError('synthetic hook error')):
                 result=Y.run(root,'failure',packet(),API(),CLOCK)
             self.assertIn(result['status'],['COMPLETE','PARTIAL_DATA'])
+    def test_optional_old_links_do_not_expand_primary_acquisition(self):
+        from test_youtube_intelligence import video,VIDEO
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t);(root/'framewright-exchange.json').write_text('{}');api=API([video(published='2020-01-01T12:00:00Z')])
+            with patch.object(A,'before_run',return_value=[VIDEO]),patch.object(A,'after_run',return_value={'result':'pending'}):
+                result=Y.run(root,'optional',packet(),api,CLOCK)
+            baseline=API([video(published='2020-01-01T12:00:00Z')]);Y.run(root/'baseline','plain',packet(),baseline,CLOCK)
+            self.assertEqual(api.invocations,baseline.invocations)

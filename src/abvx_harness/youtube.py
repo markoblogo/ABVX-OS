@@ -593,7 +593,9 @@ def run(root, run_id, packet, api=None, as_of=None):
             if (root / 'framewright-exchange.json').exists():
                 try:
                     from .youtube_framewright_auto import before_run
-                    tracked = sorted(set(tracked + before_run(root, cfg['channel_id'])))
+                    # Calendar exchange reports reuse the primary acquisition; optional
+                    # links must not add age-window queries to its shared budget.
+                    before_run(root, cfg['channel_id'])
                 except Exception:
                     try:private_json(root / 'framewright-exchange-last.json', {'result':'pending','phase':'receive'})
                     except OSError:pass
