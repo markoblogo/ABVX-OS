@@ -118,3 +118,17 @@ class RadarTests(unittest.TestCase):
         y.acquire(api,y.config(),CLOCK.date()-timedelta(days=3),CLOCK,checkpoint=lambda p:progress.append(copy.deepcopy(p)))
         self.assertTrue(progress);self.assertEqual(progress[0]['status'],'IN_PROGRESS')
         self.assertEqual(progress[0]['catalog'][0]['video_id'],VIDEO)
+
+
+class PartialResearchHandoffTest(unittest.TestCase):
+    def test_partial_independent_research_cannot_inherit_complete_run(self):
+        import json
+        from datetime import datetime
+        from abvx_harness.youtube_radar import nantes_packet
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t);y.run(root,'override',packet(),api=API(),as_of=CLOCK);run=root/'runs/override'
+            acquisition=json.loads((run/'acquisition.json').read_text());acquisition['revenue']['availability']='REPORTED';(run/'acquisition.json').write_text(json.dumps(acquisition))
+            record=json.loads((run/'execution.json').read_text());record.update(status='COMPLETE',acquisition_digest=y.digest(acquisition));(run/'execution.json').write_text(json.dumps(record));clock=datetime.fromisoformat(record['captured_at'])
+            revised=packet();revised.update(as_of=clock.date().isoformat(),status='PARTIAL');src=root/'partial.json';src.write_text(json.dumps(revised))
+            self.assertEqual(nantes_packet(run,'weekly','fixture',clock)['status'],'COMPLETE')
+            result=nantes_packet(run,'weekly','fixture',clock,src);self.assertEqual(result['status'],'PARTIAL');self.assertEqual(result['failure_reason'],'PARTIAL_RESEARCH')

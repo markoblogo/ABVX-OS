@@ -50,7 +50,7 @@ def export_menu(research,root):
     for item in packet['opportunities']:
         ideas.append({'id':item['id'],'title':item['title'],'question':item.get('hook') or item['concept'],
                       'hypothesis':item['hypothesis'],'format':item['format'],'sources':copy.deepcopy(item['sources']),
-                      'constraints':[item['production'],item['selection']['uncertainty']]})
+                      'constraints':[item['production']]+([item['selection']['uncertainty']] if item.get('selection') else [])})
     revision=hashlib.sha256(raw).hexdigest();p={'packet_sha256':revision,'as_of':packet['as_of'],'ideas':ideas};W.menu_payload(p)
     occurred=max((s['checked_at'] for i in ideas for s in i['sources']),default=packet['as_of']+'T00:00:00+00:00')
     row=W.message('idea_menu','radar','menu:'+revision,revision,0,occurred,p)

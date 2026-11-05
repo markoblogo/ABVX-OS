@@ -193,8 +193,8 @@ def nantes_packet(run_dir, mode, token, clock=None, research_file=None):
     if mode == 'weekly':
         sources += [{'ref':s['url'],'checked_at':s['checked_at']} for c in selection['cards'][:5] for s in c['sources']]
     monetary_ready = acquisition['revenue']['availability'] == 'REPORTED'
-    complete = record['status'] == 'COMPLETE' and not stale and monetary_ready
+    complete = record['status'] == 'COMPLETE' and packet['status'] == 'COMPLETE' and not stale and monetary_ready
     result = dict(token=token,status='COMPLETE' if complete else 'PARTIAL',summary='\n'.join(summary),sources=sources,retryable=False)
     if not complete:
-        result['failure_reason'] = ('STALE_RETAINED_RUN' if stale else 'MONETARY_DATA_UNAVAILABLE' if not monetary_ready else record['status'])
+        result['failure_reason'] = ('STALE_RETAINED_RUN' if stale else 'MONETARY_DATA_UNAVAILABLE' if not monetary_ready else 'PARTIAL_RESEARCH' if packet['status'] != 'COMPLETE' else record['status'])
     return result

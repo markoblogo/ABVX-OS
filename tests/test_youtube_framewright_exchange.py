@@ -77,4 +77,13 @@ class AnalyticsReportTest(unittest.TestCase):
         run=self.make_report();p=run/'acquisition.json';p.write_text('{}')
         with self.assertRaises(ValueError):radar.export_analytics(run,self.root,'framewright:fixture','abcdefghijk')
 
+class OptionalSelectionTest(unittest.TestCase):
+    def test_valid_legacy_research_without_selection_exports(self):
+        import json
+        from test_youtube_intelligence import packet,CLOCK
+        p=packet();card={k:'fixture' for k in ['id','title','concept','rationale','duration','hook','visual','production','hypothesis','primary_metric']};card.update(priority=1,lane='PROVEN',format='HORIZONTAL_SHORT',complexity='LOW',sources=[dict(url='https://example.com',checked_at=CLOCK.isoformat(),supports='fixture')]);p['opportunities']=[card]
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t);src=root/'research.json';src.write_text(json.dumps(p));row=radar.export_menu(src,root)
+            self.assertEqual(row['kind'],'idea_menu');self.assertEqual(row['payload']['ideas'][0]['constraints'],['fixture'])
+
 if __name__=='__main__':unittest.main()
