@@ -1,0 +1,17 @@
+{
+  "experiment_id": "book-radar-controlled-persistence-v1",
+  "schedule": {
+    "timezone": "Europe/Paris",
+    "t7": "2026-10-03",
+    "t14": "2026-10-10"
+  },
+  "query_families": [],
+  "controls": [
+    {
+      "id": "pmp-2026",
+      "title": "SYNTHETIC control",
+      "group": "SYNTHETIC",
+      "status": "UNKNOWN"
+    }
+  ]
+}

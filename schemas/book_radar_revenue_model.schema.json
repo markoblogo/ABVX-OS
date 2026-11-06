@@ -1,0 +1,712 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-radar-revenue-model/v2",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "book-radar-revenue-model/v2"
+    },
+    "effective_date": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner_goal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "monthly_royalty_eur": {
+          "const": 1000
+        },
+        "positive_month_over_month_growth": {
+          "const": true
+        },
+        "is_forecast": {
+          "const": false
+        }
+      },
+      "required": [
+        "monthly_royalty_eur",
+        "positive_month_over_month_growth",
+        "is_forecast"
+      ]
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "discovery_lanes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "A": {
+          "type": "string",
+          "minLength": 1
+        },
+        "B": {
+          "type": "string",
+          "minLength": 1
+        },
+        "C": {
+          "type": "string",
+          "minLength": 1
+        },
+        "D": {
+          "type": "string",
+          "minLength": 1
+        },
+        "E": {
+          "const": "PROVEN FORMAT \u00d7 SPECIFIC ANGLE"
+        }
+      },
+      "required": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    "external_qualifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "card": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "lane": {
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ]
+              },
+              "buying_object": {
+                "type": "string",
+                "minLength": 1
+              },
+              "purchase_proposition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "entry_route": {
+                "type": "string",
+                "minLength": 1
+              },
+              "observations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "product_id": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "url": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "kind": {
+                      "enum": [
+                        "PAID_ACTIVITY",
+                        "PURCHASE_PROPOSITION",
+                        "ENTRY_ROUTE"
+                      ]
+                    },
+                    "observed_at": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "product_id",
+                    "url",
+                    "kind",
+                    "observed_at"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "lane",
+              "buying_object",
+              "purchase_proposition",
+              "entry_route",
+              "observations"
+            ]
+          },
+          "qualification": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "schema_version": {
+                "const": "book-radar-external-qualification/v1"
+              },
+              "card_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "card_sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "result": {
+                "enum": [
+                  "QUALIFY",
+                  "PARK",
+                  "KILL",
+                  "INSUFFICIENT_EVIDENCE"
+                ]
+              },
+              "basis": {
+                "const": "ZERO_PORTFOLIO_EXTERNAL_ONLY"
+              }
+            },
+            "required": [
+              "schema_version",
+              "card_id",
+              "card_sha256",
+              "result",
+              "basis"
+            ]
+          }
+        },
+        "required": [
+          "card",
+          "qualification"
+        ]
+      }
+    },
+    "post_qualification_overlays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "card_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "fields": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "commercial_line_id": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "repeat_buyer_potential": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "adjacent_title_map": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "seriesability": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "second_title_cost": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "production_reuse": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "audience_capture_path": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "time_to_second_title": {
+                "type": [
+                  "string",
+                  "object",
+                  "array",
+                  "number"
+                ]
+              },
+              "launch_class": {
+                "enum": [
+                  "EXPLOIT",
+                  "EXPLORE",
+                  "SERIES_BET",
+                  "SCALE"
+                ]
+              }
+            },
+            "required": [
+              "launch_class"
+            ]
+          }
+        },
+        "required": [
+          "card_id",
+          "fields"
+        ]
+      }
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "book_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "live_basis": {
+            "enum": [
+              "OWNER_CONFIRMED_LIVE",
+              "CANONICAL_PUBLISHED_REGISTRY",
+              "STRUCTURAL_ONLY"
+            ]
+          },
+          "launch_class": {
+            "enum": [
+              "EXPLOIT",
+              "EXPLORE",
+              "SERIES_BET",
+              "SCALE",
+              "UNKNOWN"
+            ]
+          },
+          "extension_status": {
+            "enum": [
+              "HOLD",
+              "OWNER_REVIEW"
+            ]
+          },
+          "basis": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "book_ids",
+          "live_basis",
+          "launch_class",
+          "extension_status",
+          "basis"
+        ]
+      }
+    },
+    "release_queue": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "title_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "commercial_line_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "format": {
+            "enum": [
+              "ebook",
+              "paperback",
+              "hardcover"
+            ]
+          },
+          "launch_class": {
+            "enum": [
+              "EXPLOIT",
+              "EXPLORE",
+              "SERIES_BET",
+              "SCALE"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "minLength": 1
+          },
+          "only_one_slot": {
+            "enum": [
+              "YES",
+              "NO",
+              "UNKNOWN"
+            ]
+          },
+          "ready": {
+            "type": "boolean"
+          },
+          "qualification_verified": {
+            "type": "boolean"
+          },
+          "requires_paper": {
+            "type": "boolean"
+          },
+          "already_created": {
+            "type": "boolean"
+          },
+          "slot_opportunity_cost": {
+            "type": "string",
+            "minLength": 1
+          },
+          "prior_paid_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "commercial_validation_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "rationale": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "readiness_basis": {
+            "type": "string",
+            "minLength": 1
+          },
+          "qualification_card_id": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "title_id",
+          "title",
+          "commercial_line_id",
+          "format",
+          "launch_class",
+          "status",
+          "only_one_slot",
+          "ready",
+          "qualification_verified",
+          "requires_paper",
+          "already_created",
+          "slot_opportunity_cost",
+          "prior_paid_evidence",
+          "commercial_validation_evidence",
+          "rationale",
+          "readiness_basis",
+          "qualification_card_id"
+        ]
+      }
+    },
+    "slot_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "format": {
+            "enum": [
+              "ebook",
+              "paperback",
+              "hardcover"
+            ]
+          },
+          "action": {
+            "enum": [
+              "CREATION",
+              "FIRST_SUBMISSION",
+              "UPDATE"
+            ]
+          },
+          "at": {
+            "type": "string",
+            "minLength": 1
+          },
+          "commercial_line_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "id",
+          "title_id",
+          "format",
+          "action",
+          "at",
+          "commercial_line_id",
+          "evidence"
+        ]
+      }
+    },
+    "slot_reconciliations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "week": {
+            "type": "string",
+            "minLength": 1
+          },
+          "format": {
+            "enum": [
+              "ebook",
+              "paperback",
+              "hardcover"
+            ]
+          },
+          "complete": {
+            "type": "boolean"
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "week",
+          "format",
+          "complete",
+          "evidence"
+        ]
+      }
+    },
+    "slot_history_complete_since": {
+      "type": "string",
+      "minLength": 1
+    },
+    "experiment_costs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cash": {
+            "type": [
+              "object",
+              "string"
+            ]
+          },
+          "agent_time": {
+            "type": [
+              "object",
+              "string"
+            ]
+          },
+          "owner_time": {
+            "type": [
+              "object",
+              "string"
+            ]
+          },
+          "calendar_time": {
+            "type": [
+              "object",
+              "string"
+            ]
+          },
+          "KDP_SLOT_OPPORTUNITY_COST": {
+            "type": "string",
+            "minLength": 1
+          },
+          "basis": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "title_id",
+          "cash",
+          "agent_time",
+          "owner_time",
+          "calendar_time",
+          "KDP_SLOT_OPPORTUNITY_COST",
+          "basis"
+        ]
+      }
+    },
+    "operating_principles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "owner_decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "decided_at",
+        "legacy_failures",
+        "next_commercial_objective",
+        "broad_discovery_scan_authorized",
+        "forecast_date_authorized",
+        "operating_priorities"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "APPROVED_FOR_OPERATING_USE"
+          ]
+        },
+        "decided_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "legacy_failures": {
+          "const": "KNOWN_LEGACY_FAILURES_NON_BLOCKING_FOR_REVENUE_V2"
+        },
+        "next_commercial_objective": {
+          "type": "string",
+          "minLength": 1
+        },
+        "broad_discovery_scan_authorized": {
+          "const": false
+        },
+        "forecast_date_authorized": {
+          "const": false
+        },
+        "operating_priorities": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "rank",
+              "id",
+              "class",
+              "action"
+            ],
+            "properties": {
+              "rank": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "class": {
+                "enum": [
+                  "EXPLORE",
+                  "EXPLOIT",
+                  "SCALE",
+                  "SERIES_BET",
+                  "EXISTING_SERIES_BET_ALREADY_LIVE",
+                  "NOT_APPLICABLE"
+                ]
+              },
+              "action": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "effective_date",
+    "owner_goal",
+    "provenance",
+    "discovery_lanes",
+    "external_qualifications",
+    "post_qualification_overlays",
+    "lines",
+    "release_queue",
+    "slot_events",
+    "slot_reconciliations",
+    "slot_history_complete_since",
+    "experiment_costs",
+    "operating_principles"
+  ]
+}

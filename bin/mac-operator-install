@@ -1,0 +1,9 @@
+#!/bin/sh
+# Owner-session installation only, no root or security configuration changes.
+set -eu
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+"$repo_root/bin/mac-operator" prepare-launchd
+mkdir -p "$HOME/Library/LaunchAgents"
+cp "$repo_root/.tmp/mac-operator/xyz.abvx.mac-operator.plist" "$HOME/Library/LaunchAgents/xyz.abvx.mac-operator.plist"
+launchctl bootstrap "gui/$(id -u)" "$HOME/Library/LaunchAgents/xyz.abvx.mac-operator.plist"
+launchctl print "gui/$(id -u)/xyz.abvx.mac-operator"

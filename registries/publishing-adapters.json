@@ -240,24 +240,24 @@
       "id": "abvx.working-story",
       "project": "abvxsite",
       "surface": "working-stories",
-      "mechanism": "Consumer-native Working Story command preserving approved Markdown and local media",
+      "mechanism": "Existing authenticated runtime Writing API preserving approved Working Story source and media",
       "consumer_repo": "/Volumes/Work/Work/ABVXsite",
-      "target": "scripts/publish-working-story.mjs",
+      "target": "scripts/runtime-writing.mjs",
       "target_surface": "abvx.working-story",
       "operation_id": "abvx.publish-working-story",
       "publish_strategy": "consumer_command",
       "readiness": "READY",
-      "readiness_reason": "Uses the existing Working Stories validator, file collection, feed and index generators.",
+      "readiness_reason": "Existing schema, nested canonical routes and runtime projections; require separately verified matching Production engine.",
       "required_assets": false,
-      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish -- --base <base-sha> --packet <packet> --dry-run",
-      "apply_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:publish -- --base <base-sha> --packet <packet> --write",
+      "dry_run_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:runtime -- publish --packet <packet> --request-id <stable-request-id> --output <private-receipt>",
+      "apply_command": "cd /Volumes/Work/Work/ABVXsite && npm run content:runtime -- publish --packet <packet> --request-id <stable-request-id> --output <private-receipt> --write",
       "next_commands": [
-        "Resolve the current ABVXsite main SHA; start a clean dedicated publication branch at that SHA. Keep packets outside the site checkout.",
-        "Use the source-specific approved packet. Freeze a pool and repeat --packet for all members in the same dry-run and write commands.",
-        "Run npm run prebuild once, then npm run content:publication-boundary -- --base <base-sha>. Never modify application code, dependencies, templates, documentation or collection definitions in this lane.",
-        "Run one npm run content:release-check -- --base <base-sha>; reuse the receipt for the complete pool.",
-        "Before committing the checked tree, for every unique approved intake ID run ./bin/abvx publication check --item <intake-id> --site-root /Volumes/Work/Work/ABVXsite --reuse-checks in OS. Import the same shared receipt for every pool member; do not rebuild.",
-        "Use the existing authorized PR/CI/Preview/Production flow; after exact merge SHA and all public pages pass, run ./bin/abvx publication complete-cycle --run <cycle-id> --site-root /Volumes/Work/Work/ABVXsite --rework-count <actual-count> --cortex-root <private-runtime>. Unsupported features require a separate engineering PR."
+        "Retain publication begin, exact source approval and existing handoff. Verify the matching Production engine fingerprint before writes.",
+        "Allocate story/project IDs against both legacy sources and authenticated runtime export; reject duplicate slugs and story IDs.",
+        "Use content:runtime publish dry-run, then the same approved packet and stable request ID with --write. No post-specific Git/build/PR/deploy.",
+        "Retain the exact retry command before transmission. Resume ambiguous outcomes with the same request ID; inspect conflicts rather than overwriting.",
+        "Import the storage receipt and authenticated export using scripts/abvx_runtime_publication.py, preserving OWNER_OPTIONAL public verification and UNKNOWN effort. Refresh existing Book Readiness and follow-up projections without republishing.",
+        "Scheduled Psychology pools and unsupported catalogue writes retain their current route; new rendering behavior requires a separate engineering release."
       ],
       "route_template": "/writing/working-stories/{slug}",
       "default_author": "Anton BV",
@@ -266,15 +266,15 @@
       "default_sitemap_state": "INDEXABLE",
       "default_indexability": "INDEXABLE",
       "warnings": [
-        "Handoff is not production proof; assets are copied only by the consumer after explicit apply.",
-        "Routine publication requires approved complete source Markdown. The consumer enforces a data-only branch and preflights every pool member before writes."
+        "Handoff and storage confirmation are distinct from verified public availability and indexing.",
+        "Routine runtime publication requires exact approved complete source and local media; do not disable runtime or reseed a live store."
       ],
       "validation": {
         "default_tier": "STANDARD",
         "checks": [
           "consumer dry-run with source hash, metadata and media checks",
-          "npm run content:release-check",
-          "production SHA and changed-route visual/discovery proof"
+          "matching verified Production engine and authenticated STORED receipt",
+          "authoritative source export and OS/Book Readiness reconciliation"
         ],
         "escalate_to_standard_on": [
           "localization_exception",

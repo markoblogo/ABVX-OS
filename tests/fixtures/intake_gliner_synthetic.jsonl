@@ -1,0 +1,12 @@
+{"id":"idea-dashboard","text":"Idea: I want a small dashboard that shows monthly household energy use.","intake_type":"IDEA","route":"HYPOTHESIS_REGISTRY","human_review":"yes"}
+{"id":"external-oss","text":"This open-source GitHub project parses EPUB files and may help our publishing workflow.","intake_type":"EXTERNAL_OSS","route":"EXTERNAL_CANDIDATE_REGISTRY","human_review":"yes"}
+{"id":"research-paper","text":"A research paper comparing local document classifiers; save it for later evaluation.","intake_type":"RESEARCH_SOURCE","route":"RESEARCH","human_review":"yes"}
+{"id":"work-task","text":"For the ABVX project, finish the intake report generator and add a regression test.","intake_type":"PROJECT_WORK","route":"PROJECT","human_review":"yes"}
+{"id":"content-opportunity","text":"A local museum announced a new maritime exhibit; this could be a short cultural post.","intake_type":"CONTENT_OPPORTUNITY","route":"MEDIA_RESOURCE","human_review":"yes"}
+{"id":"reference","text":"Keep this page as a reference for how publishers describe large-print editions.","intake_type":"REFERENCE","route":"RESEARCH","human_review":"yes"}
+{"id":"opportunity","text":"A paid consulting request arrived for a one-week accessibility audit.","intake_type":"OPPORTUNITY","route":"OPPORTUNITY_ENGINE","human_review":"yes"}
+{"id":"content-source","text":"Source material: interview transcript about traditional boatbuilding, for a future article.","intake_type":"CONTENT_SOURCE","route":"MEDIA_RESOURCE","human_review":"yes"}
+{"id":"external-project","text":"A new commercial note-taking app has an interesting offline-first approach; assess it as a candidate.","intake_type":"EXTERNAL_PROJECT","route":"EXTERNAL_CANDIDATE_REGISTRY","human_review":"yes"}
+{"id":"unknown","text":"Interesting.","intake_type":"UNKNOWN","route":"OTHER","human_review":"yes"}
+{"id":"ambiguous","text":"This might fit either our research notes or a product idea; ask me before routing it.","intake_type":"UNKNOWN","route":"OTHER","human_review":"yes"}
+{"id":"archive","text":"This old draft is obsolete; keep it out of active projects and archive it for reference.","intake_type":"REFERENCE","route":"IGNORE_ARCHIVE","human_review":"yes"}

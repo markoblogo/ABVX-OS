@@ -4,6 +4,13 @@ All notable public changes to ABVX-OS are documented here.
 
 ## [Unreleased]
 
+- Multi-market manual evidence adapters, independent opportunity qualification, immutable learning records and versioned discovery-method comparisons; live acquisition remains an agent/browser responsibility.
+- Book Core contracts, isolated book regressions, outcome attribution, deterministic readiness inventory and psychology source qualification.
+- Native publication approval/source bindings, runtime and measured-cycle closeout, and explicit private Cortex exchange gates.
+- Local Mac diagnostics and bounded operator safeguards, opportunity catalog/Nantes adapter, and optional YouTube/Framewright exchange.
+- Credential broker operation-scoped adapters and synthetic tests; native Keychain integration tests now require explicit opt-in.
+- Public-source hygiene excludes new private operational records, manuscripts, generated media and recovery snapshots; retained originals stay local.
+
 ## [0.1.0] - 2026-09-14
 
 ### Added

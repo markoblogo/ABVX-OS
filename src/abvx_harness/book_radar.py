@@ -10,7 +10,7 @@ from .harness import ValidationError, load_json
 
 STATE_VERSION = "book-radar-state/v1"
 STABLE_ID = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._:-]*$")
-COLLECTIONS = ("radar_runs", "opportunities", "evidence", "scores", "decisions", "products", "portfolio_products", "similarity_results", "launches", "actuals", "calibrations")
+COLLECTIONS = ("radar_runs", "opportunities", "evidence", "scores", "decisions", "products", "portfolio_products", "similarity_results", "launches", "actuals", "calibrations", "observed_books", "portfolio_baselines", "commercial_hypotheses", "experiment_policies", "experiment_contracts", "attribution_observations", "search_snapshots", "experiment_costs", "series_observations", "checkpoint_packets")
 DEFAULT_MODEL = {
     "id": "radar-native-v1", "version": 1, "scale": {"minimum": 1, "maximum": 5},
     "weights": {"demand": 20, "momentum": 8, "competition_weakness": 10, "newcomer_viability": 8, "production_feasibility": 15, "shelf_life": 8, "economics": 12, "new_entrant_evidence": 10, "evidence_quality": 9},
@@ -41,16 +41,23 @@ def load_state(root: Path) -> dict[str, Any]:
     # Backwards-conscious v1 extension: older state files gain empty collections.
     for collection in COLLECTIONS:
         state.setdefault(collection, [])
-    validate_state(state)
+    validate_state(state, root)
     return state
 
 
 def save_state(root: Path, state: dict[str, Any]) -> None:
-    validate_state(state)
+    from .book_radar_attribution import preserve_contracts
+    from .book_radar_observe import verify_evidence
+    preserve_contracts(root, state)
+    validate_state(state, root)
+    verify_evidence(root, state)
     _write_json(_path(root), state)
 
 
-def validate_state(state: dict[str, Any]) -> None:
+def validate_state(state: dict[str, Any], root: Path | None = None) -> None:
+    from .book_radar_observe import validate_record as validate_checkpoint_record, validate_state as validate_checkpoint_state
+    from .book_radar_attribution import validate_record as validate_attribution_record, validate_state as validate_attribution_state
+    from .book_radar_outcomes import validate_links, validate_record
     if state.get("schema_version") != STATE_VERSION:
         raise ValidationError(f"book radar state must use {STATE_VERSION}")
     ids: dict[str, set[str]] = {}
@@ -66,6 +73,9 @@ def validate_state(state: dict[str, Any]) -> None:
             if rid in ids[collection]:
                 raise ValidationError(f"duplicate {collection} id: {rid}")
             ids[collection].add(rid)
+            validate_record(record, collection)
+            validate_attribution_record(record, collection)
+            validate_checkpoint_record(record, collection)
     for item in state["opportunities"]:
         _linked(item, "radar_run_id", ids["radar_runs"])
     for item in state["evidence"] + state["scores"] + state["decisions"]:
@@ -73,10 +83,14 @@ def validate_state(state: dict[str, Any]) -> None:
     for item in state["products"]:
         _linked(item, "opportunity_id", ids["opportunities"])
     for item in state["launches"] + state["actuals"]:
-        _linked(item, "product_id", ids["products"])
+        if not (item.get("schema_version") == "book-radar-observed-actual/v1" and item.get("product_id") == "UNKNOWN"):
+            _linked(item, "product_id", ids["products"])
     for item in state["similarity_results"]:
         _linked(item, "opportunity_id", ids["opportunities"])
         _linked(item, "portfolio_product_id", ids["portfolio_products"])
+    validate_links(state)
+    validate_attribution_state(state)
+    validate_checkpoint_state(state, root)
 
 
 def _linked(record: dict[str, Any], field: str, known: set[str]) -> None:
@@ -216,7 +230,24 @@ def export_state(root: Path, destination: Path) -> dict[str, Any]:
     return {"status": "EXPORTED", "path": str(destination), "records": sum(len(state[name]) for name in COLLECTIONS)}
 
 
-def report(root: Path, kind: str) -> dict[str, Any]:
+def report(root: Path, kind: str, as_of: str | None = None) -> dict[str, Any]:
+    if kind in {"markets", "weekly"}:
+        from datetime import date
+        from . import book_radar_markets as markets
+        when = as_of or date.today().isoformat()
+        return markets.report(root, when) if kind == "markets" else markets.weekly(root, when)
+    if kind == "growth":
+        from datetime import date
+        from .book_radar_revenue import revenue_report
+        return revenue_report(root, as_of or date.today().isoformat())
+    if kind in {"cards", "funnel", "series"}:
+        from datetime import date
+        from .book_radar_attribution import report as attribution_report
+        return attribution_report(root, kind, as_of or date.today().isoformat())
+    if kind in {"outcomes", "cohorts", "checkpoints", "calibration"}:
+        from datetime import date
+        from .book_radar_outcomes import outcome_report
+        return outcome_report(root, kind, as_of or date.today().isoformat())
     state = load_state(root)
     if kind == "pipeline":
         statuses: dict[str, int] = {}
@@ -229,10 +260,25 @@ def report(root: Path, kind: str) -> dict[str, Any]:
     if kind == "backlog":
         closed = {item["opportunity_id"] for item in state["decisions"] if item.get("decision") in {"winner", "reject", "reject_after_deep_scan"}}
         return {"report": kind, "opportunities": [item for item in state["opportunities"] if item["id"] not in closed]}
-    raise ValidationError("report must be pipeline, experiments, or backlog")
+    raise ValidationError("report must be pipeline, experiments, backlog, outcomes, cohorts, checkpoints, calibration, cards, funnel, series, or growth")
 
 
 def render_report(value: dict[str, Any]) -> str:
+    if value["report"] in {"markets", "weekly"}:
+        from .book_radar_markets import render
+        return render(value)
+    if value["report"] == "growth":
+        return json.dumps(value, indent=2, sort_keys=True)
+    if value["report"] == "cards":
+        from .book_radar_attribution import render_cards
+        return render_cards(value)
+    if value["report"] in {"funnel", "series"}:
+        return json.dumps(value, indent=2, sort_keys=True)
+    if value["report"] in {"outcomes", "checkpoints"}:
+        return "\n".join([f"BOOK RADAR {value['report'].upper()} ({value['as_of']})"] +
+                         [f"{x['book']['audit_book_id']}: next {x['next_due']['checkpoint']} {x['next_due']['due_date']}" if isinstance(x['next_due'], dict) else f"{x['book']['audit_book_id']}: next UNKNOWN" for x in value['experiments']])
+    if value["report"] in {"cohorts", "calibration"}:
+        return json.dumps(value, indent=2, sort_keys=True)
     if value["report"] == "pipeline":
         return "\n".join(["BOOK RADAR PIPELINE"] + [f"{key}: {count}" for key, count in sorted(value["product_statuses"].items())])
     if value["report"] == "experiments":

@@ -1,0 +1,6 @@
+{
+  "book_type": "SERIES_FICTION",
+  "modules": ["ORIGINAL_FICTION", "SERIES_FICTION"],
+  "compatibility_consumer": "gd3",
+  "note": "GD3 remains the only real consumer in Phase 1."
+}

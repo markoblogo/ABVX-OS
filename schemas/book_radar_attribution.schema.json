@@ -1,0 +1,2325 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/book-radar-attribution/v1",
+  "$defs": {
+    "experiment_policies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "effective_at",
+        "historical_product_ids",
+        "historical_decision_ids",
+        "recorded_by",
+        "evidence"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "book-radar-experiment-policy/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "effective_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "historical_product_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "historical_decision_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "recorded_by": {
+          "const": "OWNER"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "experiment_contracts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "product_id",
+        "selection_decision_id",
+        "status",
+        "frozen_at",
+        "plan",
+        "cost_budget",
+        "waiver",
+        "evidence"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "book-radar-experiment-contract/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "product_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selection_decision_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "FROZEN",
+            "WAIVED"
+          ]
+        },
+        "frozen_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "plan": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "buyer",
+            "job",
+            "hypothesis",
+            "discovery_route",
+            "expected_path",
+            "alternatives",
+            "selection_reason",
+            "observation_window",
+            "success_condition",
+            "failure_condition",
+            "learning_goal",
+            "package_price",
+            "evaluation_day",
+            "checkpoint_measures",
+            "checkpoints"
+          ],
+          "properties": {
+            "buyer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "job": {
+              "type": "string",
+              "minLength": 1
+            },
+            "hypothesis": {
+              "type": "string",
+              "minLength": 1
+            },
+            "discovery_route": {
+              "type": "string",
+              "minLength": 1
+            },
+            "expected_path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "alternatives": {
+              "type": "string",
+              "minLength": 1
+            },
+            "selection_reason": {
+              "type": "string",
+              "minLength": 1
+            },
+            "observation_window": {
+              "type": "string",
+              "minLength": 1
+            },
+            "success_condition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "failure_condition": {
+              "type": "string",
+              "minLength": 1
+            },
+            "learning_goal": {
+              "type": "string",
+              "minLength": 1
+            },
+            "package_price": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "format",
+                    "promise",
+                    "price",
+                    "currency"
+                  ],
+                  "properties": {
+                    "format": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "promise": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "price": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "const": "UNKNOWN"
+                        }
+                      ]
+                    },
+                    "currency": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "evaluation_day": {
+              "enum": [
+                0,
+                7,
+                14,
+                30,
+                60,
+                90
+              ]
+            },
+            "checkpoint_measures": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "D0",
+                "D7",
+                "D14",
+                "D30",
+                "D60",
+                "D90"
+              ],
+              "properties": {
+                "D0": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "metric",
+                    "target",
+                    "rule"
+                  ],
+                  "properties": {
+                    "metric": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "target": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "const": "UNKNOWN"
+                        }
+                      ]
+                    },
+                    "rule": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                },
+                "D7": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "metric",
+                    "target",
+                    "rule"
+                  ],
+                  "properties": {
+                    "metric": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "target": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "const": "UNKNOWN"
+                        }
+                      ]
+                    },
+                    "rule": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                },
+                "D14": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "metric",
+                    "target",
+                    "rule"
+                  ],
+                  "properties": {
+                    "metric": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "target": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "const": "UNKNOWN"
+                        }
+                      ]
+                    },
+                    "rule": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                },
+                "D30": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "metric",
+                    "target",
+                    "rule"
+                  ],
+                  "properties": {
+                    "metric": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "target": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "const": "UNKNOWN"
+                        }
+                      ]
+                    },
+                    "rule": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                },
+                "D60": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "metric",
+                    "target",
+                    "rule"
+                  ],
+                  "properties": {
+                    "metric": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "target": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "const": "UNKNOWN"
+                        }
+                      ]
+                    },
+                    "rule": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                },
+                "D90": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "metric",
+                    "target",
+                    "rule"
+                  ],
+                  "properties": {
+                    "metric": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "target": {
+                      "anyOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "const": "UNKNOWN"
+                        }
+                      ]
+                    },
+                    "rule": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              }
+            },
+            "checkpoints": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "enum": [
+                  0,
+                  7,
+                  14,
+                  30,
+                  60,
+                  90
+                ]
+              }
+            }
+          }
+        },
+        "cost_budget": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "owner_minutes",
+            "ai_api",
+            "production_minutes",
+            "rework_minutes",
+            "artwork",
+            "advertising_acquisition",
+            "external_services",
+            "elapsed_calendar_days",
+            "currency"
+          ],
+          "properties": {
+            "owner_minutes": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "ai_api": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "production_minutes": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "rework_minutes": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "artwork": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "advertising_acquisition": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "external_services": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "elapsed_calendar_days": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "currency": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "waiver": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "recorded_by",
+                "recorded_at",
+                "reason",
+                "evidence"
+              ],
+              "properties": {
+                "recorded_by": {
+                  "const": "OWNER"
+                },
+                "recorded_at": {
+                  "type": "string",
+                  "format": "date-time"
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "attribution_observations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "book_id",
+        "experiment_id",
+        "observed_date",
+        "publication_date",
+        "publication_evidence",
+        "required_checkpoint_day",
+        "stages",
+        "reading",
+        "checkpoint",
+        "actual_id",
+        "actual_outcomes",
+        "learning"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "book-radar-attribution-observation/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "book_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "experiment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "publication_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "publication_evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "required_checkpoint_day": {
+          "enum": [
+            0,
+            7,
+            14,
+            30,
+            60,
+            90,
+            "UNKNOWN"
+          ]
+        },
+        "stages": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "MARKET_OPPORTUNITY",
+            "AMAZON_AVAILABILITY",
+            "DISCOVERY",
+            "VISIBILITY",
+            "DETAIL_PAGE_VISIT",
+            "SAMPLE_KU_START",
+            "PURCHASE_READ",
+            "ROYALTY",
+            "SERIES_READ_THROUGH"
+          ],
+          "properties": {
+            "MARKET_OPPORTUNITY": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "AMAZON_AVAILABILITY": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "DISCOVERY": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "VISIBILITY": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "DETAIL_PAGE_VISIT": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "SAMPLE_KU_START": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "PURCHASE_READ": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "ROYALTY": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            },
+            "SERIES_READ_THROUGH": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "state",
+                "metric",
+                "value",
+                "window",
+                "scope",
+                "evidence",
+                "coverage"
+              ],
+              "properties": {
+                "state": {
+                  "enum": [
+                    "POSITIVE",
+                    "ZERO",
+                    "UNKNOWN",
+                    "NOT_APPLICABLE",
+                    "NOT_OBSERVABLE"
+                  ]
+                },
+                "metric": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "value": {
+                  "anyOf": [
+                    {
+                      "type": "number",
+                      "minimum": 0
+                    },
+                    {
+                      "const": "UNKNOWN"
+                    }
+                  ]
+                },
+                "window": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "scope": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "evidence": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[a-f0-9]{64}$"
+                      }
+                    }
+                  }
+                },
+                "coverage": {
+                  "enum": [
+                    "PARTIAL",
+                    "COMPLETE",
+                    "UNKNOWN"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "reading": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "state",
+            "metric",
+            "value",
+            "window",
+            "scope",
+            "evidence",
+            "coverage"
+          ],
+          "properties": {
+            "state": {
+              "enum": [
+                "POSITIVE",
+                "ZERO",
+                "UNKNOWN",
+                "NOT_APPLICABLE",
+                "NOT_OBSERVABLE"
+              ]
+            },
+            "metric": {
+              "type": "string",
+              "minLength": 1
+            },
+            "value": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "window": {
+              "type": "string",
+              "minLength": 1
+            },
+            "scope": {
+              "type": "string",
+              "minLength": 1
+            },
+            "evidence": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                }
+              }
+            },
+            "coverage": {
+              "enum": [
+                "PARTIAL",
+                "COMPLETE",
+                "UNKNOWN"
+              ]
+            }
+          }
+        },
+        "checkpoint": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "checkpoint",
+            "actual_observation_date",
+            "actual_book_age_days",
+            "due_date",
+            "status",
+            "age_basis"
+          ],
+          "properties": {
+            "checkpoint": {
+              "enum": [
+                "D0",
+                "D7",
+                "D14",
+                "D30",
+                "D60",
+                "D90",
+                "UNKNOWN"
+              ]
+            },
+            "actual_observation_date": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "actual_book_age_days": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "due_date": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "format": "date"
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "status": {
+              "enum": [
+                "EXACT",
+                "PENDING",
+                "LATE",
+                "APPROXIMATE",
+                "UNKNOWN"
+              ]
+            },
+            "age_basis": {
+              "const": "PUBLICATION_DATE_ONLY_NOT_FIRST_LIVE"
+            },
+            "declared_tolerance_days": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "APPROXIMATE"
+                  }
+                }
+              },
+              "then": {
+                "required": [
+                  "declared_tolerance_days"
+                ]
+              }
+            }
+          ]
+        },
+        "actual_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actual_outcomes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "paid_units",
+            "free_units",
+            "ebook_paid",
+            "print_paid",
+            "kenp",
+            "kenp_window",
+            "estimated_royalties",
+            "currency",
+            "paid_window",
+            "royalty_window",
+            "royalty_status",
+            "kenp_status",
+            "marketplace_scope"
+          ],
+          "properties": {
+            "paid_units": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "free_units": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "ebook_paid": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "print_paid": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "kenp": {
+              "anyOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "kenp_window": {
+              "type": "string",
+              "minLength": 1
+            },
+            "estimated_royalties": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "currency": {
+              "type": "string",
+              "minLength": 1
+            },
+            "paid_window": {
+              "type": "string",
+              "minLength": 1
+            },
+            "royalty_window": {
+              "type": "string",
+              "minLength": 1
+            },
+            "royalty_status": {
+              "type": "string",
+              "minLength": 1
+            },
+            "kenp_status": {
+              "type": "string",
+              "minLength": 1
+            },
+            "marketplace_scope": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "learning": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "statement",
+              "scope",
+              "evidence"
+            ],
+            "properties": {
+              "statement": {
+                "type": "string",
+                "minLength": 1
+              },
+              "scope": {
+                "enum": [
+                  "GLOBAL",
+                  "BOOK_TYPE",
+                  "MARKETPLACE",
+                  "SERIES",
+                  "ONE_OFF"
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "path",
+                    "sha256"
+                  ],
+                  "properties": {
+                    "path": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "sha256": {
+                      "type": "string",
+                      "pattern": "^[a-f0-9]{64}$"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "search_snapshots": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "book_id",
+        "experiment_id",
+        "observed_date",
+        "observed_at",
+        "marketplace",
+        "query",
+        "device_surface",
+        "signed_in_context",
+        "delivery_context",
+        "depth",
+        "presence",
+        "rank",
+        "rank_basis",
+        "target_asin",
+        "competing_results",
+        "competitor_capture_status",
+        "category_context",
+        "method",
+        "repeat_protocol_id",
+        "evidence",
+        "limitations"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "book-radar-search-snapshot/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "book_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "experiment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "observed_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "marketplace": {
+          "type": "string",
+          "minLength": 1
+        },
+        "query": {
+          "type": "string",
+          "minLength": 1
+        },
+        "device_surface": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signed_in_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "delivery_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "depth": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "presence": {
+          "enum": [
+            "FOUND",
+            "NOT_FOUND_WITHIN_DEPTH",
+            "UNKNOWN"
+          ]
+        },
+        "rank": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "rank_basis": {
+          "enum": [
+            "ORGANIC",
+            "SPONSORED",
+            "OVERALL",
+            "UNKNOWN"
+          ]
+        },
+        "target_asin": {
+          "type": "string",
+          "minLength": 1
+        },
+        "competing_results": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "asin",
+              "title",
+              "position",
+              "placement"
+            ],
+            "properties": {
+              "asin": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "position": {
+                "anyOf": [
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  {
+                    "const": "UNKNOWN"
+                  }
+                ]
+              },
+              "placement": {
+                "enum": [
+                  "ORGANIC",
+                  "SPONSORED",
+                  "UNKNOWN"
+                ]
+              }
+            }
+          }
+        },
+        "competitor_capture_status": {
+          "enum": [
+            "CAPTURED",
+            "UNKNOWN"
+          ]
+        },
+        "category_context": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "const": "READ_ONLY_RETAILER_SNAPSHOT"
+        },
+        "repeat_protocol_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "experiment_costs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "book_id",
+        "experiment_id",
+        "observed_date",
+        "actual",
+        "evidence"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "book-radar-experiment-cost/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "book_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "experiment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "actual": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "owner_minutes",
+            "ai_api",
+            "production_minutes",
+            "rework_minutes",
+            "artwork",
+            "advertising_acquisition",
+            "external_services",
+            "elapsed_calendar_days",
+            "currency"
+          ],
+          "properties": {
+            "owner_minutes": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "ai_api": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "production_minutes": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "rework_minutes": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "artwork": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "advertising_acquisition": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "external_services": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "elapsed_calendar_days": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "minimum": 0
+                },
+                {
+                  "const": "UNKNOWN"
+                }
+              ]
+            },
+            "currency": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        }
+      }
+    },
+    "series_observations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "id",
+        "observed_date",
+        "series_id",
+        "book_ids",
+        "membership_basis",
+        "membership_evidence",
+        "window",
+        "scope",
+        "method",
+        "entry_book_id",
+        "continuation_book_id",
+        "cohort_basis",
+        "entrants",
+        "continuers",
+        "identity_evidence",
+        "paid_units",
+        "free_units",
+        "kenp",
+        "estimated_royalties",
+        "currency",
+        "evidence"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "book-radar-series-observation/v1"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+        },
+        "observed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "series_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "book_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "membership_basis": {
+          "enum": [
+            "OFFICIAL_SERIES",
+            "DESCRIPTIVE_CATALOG_COHORT"
+          ]
+        },
+        "membership_evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "window": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "enum": [
+            "DIRECT_MATCHED_COHORT",
+            "AGGREGATE_CATALOG_ONLY",
+            "UNKNOWN"
+          ]
+        },
+        "entry_book_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "continuation_book_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cohort_basis": {
+          "enum": [
+            "PAID_PURCHASERS",
+            "READERS",
+            "UNKNOWN"
+          ]
+        },
+        "entrants": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "continuers": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "identity_evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        },
+        "paid_units": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "free_units": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "kenp": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "estimated_royalties": {
+          "anyOf": [
+            {
+              "type": "number",
+              "minimum": 0
+            },
+            {
+              "const": "UNKNOWN"
+            }
+          ]
+        },
+        "currency": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

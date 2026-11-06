@@ -1,0 +1,183 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:abvx:book-core:state:v1",
+  "title": "ABVX_BOOK_STATE V1 — proposed, not runtime-installed",
+  "description": "Shape contract only. Hash verification, event replay, DAG/staleness, applicability, owner authority, transition and release checks require semantic validators. Unknown values are explicit; absent lanes are not inferred PASS.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "identity", "revision", "event_cursor", "current_stage", "current_gate", "locks", "artifacts", "validations", "formats", "owner_gates", "extensions"],
+  "properties": {
+    "schema_version": {"const": "abvx-book-state/v1"},
+    "identity": {"$ref": "#/$defs/identity"},
+    "revision": {"type": "integer", "minimum": 0},
+    "event_cursor": {"type": ["string", "null"], "minLength": 1},
+    "current_stage": {"type": "string", "minLength": 1},
+    "current_gate": {"type": "string", "minLength": 1},
+    "locks": {"type": "array", "items": {"$ref": "#/$defs/lock"}},
+    "artifacts": {"type": "array", "items": {"$ref": "#/$defs/artifact"}},
+    "validations": {"type": "array", "items": {"$ref": "#/$defs/validator_result"}},
+    "owner_gates": {"type": "array", "items": {"$ref": "#/$defs/owner_gate"}},
+    "formats": {"type": "array", "items": {"$ref": "#/$defs/format_target"}},
+    "front_matter": {"$ref": "#/$defs/stage_lane"},
+    "contents": {"type": "array", "items": {"$ref": "#/$defs/contents_policy"}},
+    "illustrations": {"$ref": "#/$defs/stage_lane"},
+    "metadata": {"$ref": "#/$defs/metadata"},
+    "cover": {"$ref": "#/$defs/stage_lane"},
+    "pricing": {"type": "array", "items": {"$ref": "#/$defs/price"}},
+    "retailer_states": {"type": "array", "items": {"$ref": "#/$defs/retailer_state"}},
+    "publication_observations": {"type": "array", "items": {"$ref": "#/$defs/observation"}},
+    "external_constraints": {"type": "array", "items": {"$ref": "#/$defs/constraint"}},
+    "metrics": {"type": "array", "items": {"$ref": "#/$defs/stage_metrics"}},
+    "learning_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}},
+    "extensions": {"type": "object", "propertyNames": {"pattern": "^[a-z][a-z0-9_-]*\\.[a-z][a-z0-9_-]*$"}, "additionalProperties": {"type": "object"}, "description": "Activated module must supply a versioned schema and semantic validators; opaque extensions cannot certify readiness."}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "ref": {
+      "type": "object", "additionalProperties": false, "required": ["path", "sha256"],
+      "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "scope": {"enum": ["PROJECT", "APPROVED_EXTERNAL_READONLY"]}}
+    },
+    "identity": {
+      "type": "object", "additionalProperties": false,
+      "required": ["book_id", "book_type", "title", "source_type", "source_refs", "languages", "rights_status", "target_formats", "target_retailers", "created_at"],
+      "properties": {
+        "book_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+        "book_type": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1, "description": "UNKNOWN permitted before commercial acceptance."},
+        "subtitle": {"type": ["string", "null"]},
+        "source_type": {"enum": ["ORIGINAL", "TRANSLATION", "COLLECTION", "SOURCE_BACKED_REFERENCE", "UNKNOWN"]},
+        "source_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}},
+        "languages": {"type": "object", "additionalProperties": false, "required": ["source", "target"], "properties": {"source": {"type": ["string", "null"]}, "target": {"type": "string", "minLength": 1}, "scripts": {"type": "array", "items": {"type": "string"}, "uniqueItems": true}}},
+        "series": {"type": ["object", "null"], "additionalProperties": false, "required": ["series_id", "position"], "properties": {"series_id": {"type": "string", "minLength": 1}, "position": {"type": ["integer", "null"], "minimum": 1}, "canon_ref": {"$ref": "#/$defs/ref"}}},
+        "rights_status": {"enum": ["UNKNOWN", "REVIEW_REQUIRED", "OWNER_ATTESTED", "EVIDENCED", "NOT_CLEARED"]},
+        "target_formats": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "target_retailers": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "created_at": {"$ref": "#/$defs/timestamp"}
+      }
+    },
+    "stage_lane": {
+      "type": "object", "additionalProperties": false, "required": ["state"],
+      "properties": {"state": {"enum": ["NOT_STARTED", "IN_PROGRESS", "REVIEW", "ACCEPTED", "LOCKED", "STALE", "HOLD", "NOT_APPLICABLE"]}, "artifact_ids": {"type": "array", "items": {"type": "string", "minLength": 1}}, "reason": {"type": "string", "minLength": 1}},
+      "allOf": [
+        {"if": {"properties": {"state": {"enum": ["ACCEPTED", "LOCKED"]}}, "required": ["state"]}, "then": {"required": ["artifact_ids"], "properties": {"artifact_ids": {"minItems": 1}}}},
+        {"if": {"properties": {"state": {"const": "NOT_APPLICABLE"}}, "required": ["state"]}, "then": {"required": ["reason"]}}
+      ]
+    },
+    "dependency": {
+      "type": "object", "additionalProperties": false, "required": ["node_id", "sha256"],
+      "properties": {"node_id": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/sha256"}, "source_span": {"type": "object", "required": ["start", "end", "text_sha256"], "additionalProperties": false, "properties": {"start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 1}, "text_sha256": {"$ref": "#/$defs/sha256"}}}}
+    },
+    "lock": {
+      "type": "object", "additionalProperties": false,
+      "required": ["lock_id", "kind", "ref", "created_at", "authority", "acceptance_ref", "dependencies"],
+      "properties": {
+        "lock_id": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["SOURCE_LOCK", "CANON_LOCK", "TRANSLATION_LOCK", "TEXT_LOCK", "ILLUSTRATION_LOCK", "RENDER_INPUT_LOCK", "PRODUCTION_BUILD_LOCK"]},
+        "ref": {"$ref": "#/$defs/ref"}, "created_at": {"$ref": "#/$defs/timestamp"},
+        "authority": {"enum": ["OWNER", "APPROVED_POLICY"]}, "acceptance_ref": {"$ref": "#/$defs/ref"},
+        "supersedes_lock_id": {"type": ["string", "null"], "minLength": 1},
+        "dependencies": {"type": "array", "items": {"$ref": "#/$defs/dependency"}}
+      },
+      "description": "Only actual immutable locks appear. Applicability/unstarted lanes are policy/state, not fake null locks. Text/translation/illustration lock presence is derived by kind."
+    },
+    "artifact": {
+      "type": "object", "additionalProperties": false, "required": ["node_id", "kind", "ref", "status", "dependencies"],
+      "properties": {"node_id": {"type": "string", "minLength": 1}, "kind": {"type": "string", "minLength": 1}, "ref": {"$ref": "#/$defs/ref"}, "status": {"enum": ["CURRENT", "STALE", "SUPERSEDED", "PROTOTYPE", "HISTORICAL_WORKAROUND"]}, "dependencies": {"type": "array", "items": {"$ref": "#/$defs/dependency"}}, "target_id": {"type": "string", "minLength": 1}}
+    },
+    "exception": {
+      "type": "object", "additionalProperties": false, "required": ["scope", "accepted_risk", "owner_decision_ref"],
+      "properties": {"scope": {"type": "string", "minLength": 1}, "accepted_risk": {"type": "string", "minLength": 1}, "owner_decision_ref": {"$ref": "#/$defs/ref"}}
+    },
+    "validator_result": {
+      "type": "object", "additionalProperties": false,
+      "required": ["check_id", "validator_version", "state", "input_refs", "output_refs", "evidence_refs", "observed", "expected", "observed_at"],
+      "properties": {"check_id": {"type": "string", "minLength": 1}, "validator_version": {"type": "string", "minLength": 1}, "tool_version": {"type": ["string", "null"]}, "target_id": {"type": "string", "minLength": 1}, "state": {"enum": ["PASS", "FAIL", "UNKNOWN", "NOT_APPLICABLE", "OWNER_ACCEPTED_EXCEPTION"]}, "input_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "output_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "evidence_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "observed": {}, "expected": {}, "observed_at": {"$ref": "#/$defs/timestamp"}, "reason": {"type": "string", "minLength": 1}, "exception": {"$ref": "#/$defs/exception"}},
+      "allOf": [
+        {"if": {"properties": {"state": {"enum": ["PASS", "OWNER_ACCEPTED_EXCEPTION"]}}, "required": ["state"]}, "then": {"properties": {"input_refs": {"minItems": 1}, "evidence_refs": {"minItems": 1}}}},
+        {"if": {"properties": {"state": {"const": "OWNER_ACCEPTED_EXCEPTION"}}, "required": ["state"]}, "then": {"required": ["exception"]}},
+        {"if": {"properties": {"state": {"enum": ["UNKNOWN", "NOT_APPLICABLE"]}}, "required": ["state"]}, "then": {"required": ["reason"]}}
+      ]
+    },
+    "owner_gate": {
+      "type": "object", "additionalProperties": false, "required": ["gate_id", "scope", "state"],
+      "properties": {"gate_id": {"type": "string", "minLength": 1}, "scope": {"type": "string", "minLength": 1}, "state": {"enum": ["NOT_REQUESTED", "PENDING", "APPROVED", "REJECTED", "STALE", "NOT_APPLICABLE"]}, "requested_at": {"$ref": "#/$defs/timestamp"}, "approved_at": {"$ref": "#/$defs/timestamp"}, "decision_ref": {"$ref": "#/$defs/ref"}},
+      "allOf": [{"if": {"properties": {"state": {"const": "APPROVED"}}, "required": ["state"]}, "then": {"required": ["decision_ref", "approved_at"]}}]
+    },
+    "format_target": {
+      "type": "object", "additionalProperties": false, "required": ["target_id", "format_module", "adapter_version", "config", "eligibility"],
+      "properties": {"target_id": {"type": "string", "minLength": 1}, "format_module": {"enum": ["REFLOWABLE_KINDLE_DOCX", "FIXED_PAGE_KINDLE", "PAPERBACK_NO_BLEED", "PAPERBACK_BLEED"]}, "adapter_version": {"type": "string", "minLength": 1}, "render_adapter": {"type": ["string", "null"]}, "config": {"type": "object", "description": "Adapter schema must constrain trim/ink/paper/bleed/template policies; no universal current KDP geometry."}, "eligibility": {"enum": ["PASS", "FAIL", "UNKNOWN", "NOT_APPLICABLE"]}, "eligibility_evidence": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "build_ref": {"$ref": "#/$defs/ref"}},
+      "allOf": [{"if": {"properties": {"eligibility": {"const": "PASS"}}, "required": ["eligibility"]}, "then": {"required": ["eligibility_evidence"], "properties": {"eligibility_evidence": {"minItems": 1}}}}]
+    },
+    "contents_policy": {
+      "type": "object", "additionalProperties": false, "required": ["target_id", "visible_required", "parity_required", "digital_navigation_required", "policy_ref"],
+      "properties": {"target_id": {"type": "string", "minLength": 1}, "visible_required": {"type": "boolean"}, "parity_required": {"type": "boolean"}, "digital_navigation_required": {"type": "boolean"}, "policy_ref": {"$ref": "#/$defs/ref"}, "owner_waiver_ref": {"$ref": "#/$defs/ref"}},
+      "allOf": [{"if": {"properties": {"visible_required": {"const": false}}, "required": ["visible_required"]}, "then": {"required": ["owner_waiver_ref"]}}]
+    },
+    "metadata": {
+      "type": "object", "additionalProperties": false, "required": ["state"],
+      "properties": {"state": {"enum": ["UNKNOWN", "DRAFT", "OWNER_APPROVED", "STALE"]}, "book_author_display": {"type": "string", "minLength": 1}, "retailer_author_display": {"type": "object", "additionalProperties": {"type": "string", "minLength": 1}}, "rights_ref": {"$ref": "#/$defs/ref"}, "ai_disclosure_decision_ref": {"$ref": "#/$defs/ref"}, "package_ref": {"$ref": "#/$defs/ref"}, "inherited_defaults": {"type": "array", "items": {"$ref": "#/$defs/inherited_default"}}},
+      "allOf": [{"if": {"properties": {"state": {"const": "OWNER_APPROVED"}}, "required": ["state"]}, "then": {"required": ["book_author_display", "rights_ref", "ai_disclosure_decision_ref", "package_ref"]}}]
+    },
+    "inherited_default": {
+      "type": "object", "additionalProperties": false, "required": ["field", "value", "source_ref", "authority", "scope"],
+      "properties": {"field": {"type": "string", "minLength": 1}, "value": {}, "source_ref": {"$ref": "#/$defs/ref"}, "authority": {"type": "string", "minLength": 1}, "scope": {"type": "string", "minLength": 1}, "override_ref": {"$ref": "#/$defs/ref"}}
+    },
+    "price": {
+      "type": "object", "additionalProperties": false, "required": ["target_id", "marketplace", "currency", "amount", "state"],
+      "properties": {"target_id": {"type": "string", "minLength": 1}, "marketplace": {"type": "string", "minLength": 1}, "currency": {"type": "string", "pattern": "^[A-Z]{3}$"}, "amount": {"type": ["number", "null"], "minimum": 0}, "state": {"enum": ["UNKNOWN", "RECOMMENDED", "OWNER_APPROVED", "OBSERVED", "STALE"]}, "evidence_ref": {"$ref": "#/$defs/ref"}}
+    },
+    "retailer_state": {
+      "type": "object", "additionalProperties": false, "required": ["retailer", "target_id", "state", "evidence_refs", "upload_ref"],
+      "properties": {"retailer": {"type": "string", "minLength": 1}, "target_id": {"type": "string", "minLength": 1}, "state": {"enum": ["NOT_STARTED", "LOCAL_QA_PASS", "RETAILER_PREVIEW_PENDING", "RETAILER_PREVIEW_PASS", "SUBMISSION_AUTHORIZED", "SUBMITTED", "IN_REVIEW", "PUBLISHING", "LIVE", "REJECTED", "HOLD", "UNKNOWN"]}, "evidence_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "upload_ref": {"anyOf": [{"$ref": "#/$defs/ref"}, {"type": "null"}]}, "owner_release_ref": {"$ref": "#/$defs/ref"}, "observed_at": {"$ref": "#/$defs/timestamp"}},
+      "allOf": [
+        {"if": {"properties": {"state": {"enum": ["LOCAL_QA_PASS", "RETAILER_PREVIEW_PASS", "SUBMISSION_AUTHORIZED", "SUBMITTED", "IN_REVIEW", "PUBLISHING", "LIVE", "REJECTED"]}}, "required": ["state"]}, "then": {"properties": {"evidence_refs": {"minItems": 1}}}},
+        {"if": {"properties": {"state": {"enum": ["RETAILER_PREVIEW_PASS", "SUBMISSION_AUTHORIZED"]}}, "required": ["state"]}, "then": {"properties": {"upload_ref": {"$ref": "#/$defs/ref"}}}},
+        {"if": {"properties": {"state": {"const": "SUBMISSION_AUTHORIZED"}}, "required": ["state"]}, "then": {"required": ["owner_release_ref"]}}
+      ]
+    },
+    "observation": {
+      "type": "object", "additionalProperties": false, "required": ["retailer", "target_id", "observed_at", "evidence_ref", "facts", "upload_ref"],
+      "properties": {"retailer": {"type": "string", "minLength": 1}, "target_id": {"type": "string", "minLength": 1}, "observed_at": {"$ref": "#/$defs/timestamp"}, "evidence_ref": {"$ref": "#/$defs/ref"}, "facts": {"type": "object", "description": "Retailer-adapter observation schema: dates/identifiers/prices separate from inferred facts; UNKNOWN retained."}, "upload_ref": {"anyOf": [{"$ref": "#/$defs/ref"}, {"type": "null"}]}}
+    },
+    "constraint": {
+      "type": "object", "additionalProperties": false, "required": ["constraint_id", "scope", "state", "observed_at", "evidence_ref"],
+      "properties": {"constraint_id": {"type": "string", "minLength": 1}, "scope": {"type": "string", "minLength": 1}, "state": {"enum": ["EXTERNAL_RETAILER_BLOCK", "CLEARED"]}, "observed_at": {"$ref": "#/$defs/timestamp"}, "estimated_reset_at": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]}, "evidence_ref": {"$ref": "#/$defs/ref"}, "clearance_ref": {"$ref": "#/$defs/ref"}},
+      "allOf": [{"if": {"properties": {"state": {"const": "CLEARED"}}, "required": ["state"]}, "then": {"required": ["clearance_ref"]}}]
+    },
+    "event": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_version", "book_id", "event_id", "sequence", "event_type", "actor", "occurred_at", "previous_event_sha256", "state_after_sha256", "evidence_refs", "payload"],
+      "properties": {
+        "schema_version": {"const": "abvx-book-event/v1"}, "book_id": {"type": "string", "minLength": 1}, "event_id": {"type": "string", "minLength": 1}, "sequence": {"type": "integer", "minimum": 1},
+        "event_type": {"enum": ["OWNER_DECISION", "STAGE_STARTED", "STAGE_COMPLETED", "LOCK_CREATED", "VALIDATION_PASS", "VALIDATION_FAIL", "BUILD_CREATED", "ASSET_APPROVED", "RETAILER_WARNING", "RETAILER_PREVIEW_PASS", "SUBMITTED", "STATUS_OBSERVED", "LIVE_OBSERVED", "PROCESS_LEARNING"]},
+        "actor": {"enum": ["OWNER", "AGENT", "TOOL", "RETAILER_OBSERVER"]}, "occurred_at": {"$ref": "#/$defs/timestamp"}, "previous_event_sha256": {"anyOf": [{"$ref": "#/$defs/sha256"}, {"type": "null"}]}, "state_after_sha256": {"$ref": "#/$defs/sha256"}, "evidence_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "payload": {"type": "object", "description": "Versioned typed reducer payload; implementation must reject unknown operations/fields and validate scope."}
+      },
+      "allOf": [
+        {"if": {"properties": {"event_type": {"const": "OWNER_DECISION"}}, "required": ["event_type"]}, "then": {"properties": {"actor": {"const": "OWNER"}, "evidence_refs": {"minItems": 1}}}},
+        {"if": {"properties": {"sequence": {"const": 1}}, "required": ["sequence"]}, "then": {"properties": {"previous_event_sha256": {"type": "null"}}}, "else": {"properties": {"previous_event_sha256": {"$ref": "#/$defs/sha256"}}}},
+        {"if": {"properties": {"event_type": {"enum": ["LOCK_CREATED", "VALIDATION_PASS", "BUILD_CREATED", "ASSET_APPROVED", "RETAILER_PREVIEW_PASS", "SUBMITTED", "LIVE_OBSERVED"]}}, "required": ["event_type"]}, "then": {"properties": {"evidence_refs": {"minItems": 1}}}}
+      ]
+    },
+    "issue": {
+      "type": "object", "additionalProperties": false, "required": ["issue_id", "book_id", "status", "severity", "location", "finding", "introduced_layer", "detected_layer", "evidence_refs"],
+      "properties": {"issue_id": {"type": "string", "minLength": 1}, "book_id": {"type": "string", "minLength": 1}, "status": {"enum": ["OPEN", "BOUNDED_REPAIR", "RESOLVED", "OWNER_ACCEPTED", "WONT_FIX", "SUPERSEDED"]}, "severity": {"enum": ["P0", "P1", "P2", "P3", "UNKNOWN"]}, "location": {"type": "string", "minLength": 1}, "finding": {"type": "string", "minLength": 1}, "introduced_layer": {"type": "string", "minLength": 1}, "detected_layer": {"type": "string", "minLength": 1}, "evidence_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "repair_scope": {"type": "string"}, "resolution_ref": {"$ref": "#/$defs/ref"}, "regression_id": {"type": ["string", "null"]}},
+      "allOf": [{"if": {"properties": {"status": {"enum": ["RESOLVED", "OWNER_ACCEPTED", "WONT_FIX", "SUPERSEDED"]}}, "required": ["status"]}, "then": {"required": ["resolution_ref"]}}]
+    },
+    "build_manifest": {
+      "type": "object", "additionalProperties": false, "required": ["schema_version", "book_id", "target_id", "build_id", "attempt_id", "input_refs", "config_sha256", "tools", "command_argv", "output_refs", "validator_ids", "deterministic", "created_at"],
+      "properties": {"schema_version": {"const": "abvx-book-build/v1"}, "book_id": {"type": "string", "minLength": 1}, "target_id": {"type": "string", "minLength": 1}, "build_id": {"$ref": "#/$defs/sha256"}, "attempt_id": {"type": "string", "minLength": 1}, "input_refs": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/ref"}}, "config_sha256": {"$ref": "#/$defs/sha256"}, "tools": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "string", "minLength": 1}}, "command_argv": {"type": "array", "minItems": 1, "items": {"type": "string"}}, "output_refs": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/ref"}}, "validator_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}, "deterministic": {"type": "boolean"}, "reproducibility_limitations": {"type": "string"}, "created_at": {"$ref": "#/$defs/timestamp"}}
+    },
+    "nullable_count": {"type": ["integer", "null"], "minimum": 0},
+    "nullable_amount": {"type": ["number", "null"], "minimum": 0},
+    "stage_metrics": {
+      "type": "object", "additionalProperties": false, "required": ["stage_id", "measurement_basis"],
+      "properties": {"stage_id": {"type": "string", "minLength": 1}, "measurement_basis": {"enum": ["PROSPECTIVE", "RETAINED_ACTUAL", "UNKNOWN"]}, "started_at": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]}, "completed_at": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]}, "owner_requested_at": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]}, "owner_approved_at": {"anyOf": [{"$ref": "#/$defs/timestamp"}, {"type": "null"}]}, "calendar_seconds": {"$ref": "#/$defs/nullable_amount"}, "owner_wait_seconds": {"$ref": "#/$defs/nullable_amount"}, "owner_minutes": {"$ref": "#/$defs/nullable_amount"}, "owner_interventions": {"$ref": "#/$defs/nullable_count"}, "agent_runs": {"$ref": "#/$defs/nullable_count"}, "revision_count": {"$ref": "#/$defs/nullable_count"}, "generation_attempts": {"$ref": "#/$defs/nullable_count"}, "qa_runs": {"$ref": "#/$defs/nullable_count"}, "qa_failures": {"$ref": "#/$defs/nullable_count"}, "escaped_defects": {"$ref": "#/$defs/nullable_count"}, "api_calls": {"$ref": "#/$defs/nullable_count"}, "input_tokens": {"$ref": "#/$defs/nullable_count"}, "output_tokens": {"$ref": "#/$defs/nullable_count"}, "estimated_cost": {"$ref": "#/$defs/nullable_amount"}, "actual_cost": {"$ref": "#/$defs/nullable_amount"}, "currency": {"type": ["string", "null"]}, "builds": {"$ref": "#/$defs/nullable_count"}, "retailer_warnings": {"$ref": "#/$defs/nullable_count"}, "submission_attempts": {"$ref": "#/$defs/nullable_count"}, "evidence_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}}
+    },
+    "ai_task": {
+      "type": "object", "additionalProperties": false, "required": ["task_id", "purpose", "tier", "context_refs", "model_policy_ref", "prompt_sha256", "estimated_input_tokens", "estimated_output_tokens", "max_cost", "currency", "max_calls", "max_retries", "fallback_policy", "cache_key_sha256", "qa_policy_ref"],
+      "properties": {"task_id": {"type": "string", "minLength": 1}, "purpose": {"type": "string", "minLength": 1}, "tier": {"enum": ["TIER_1_BOUNDED", "TIER_2_STRONG", "TIER_3_EXPENSIVE"]}, "context_refs": {"type": "array", "items": {"$ref": "#/$defs/ref"}}, "model_policy_ref": {"$ref": "#/$defs/ref"}, "prompt_sha256": {"$ref": "#/$defs/sha256"}, "estimated_input_tokens": {"type": "integer", "minimum": 0}, "estimated_output_tokens": {"type": "integer", "minimum": 0}, "max_cost": {"type": "number", "minimum": 0}, "currency": {"type": "string", "pattern": "^[A-Z]{3}$"}, "max_calls": {"type": "integer", "minimum": 0}, "max_retries": {"type": "integer", "minimum": 0}, "fallback_policy": {"type": "string", "minLength": 1}, "cache_key_sha256": {"$ref": "#/$defs/sha256"}, "qa_policy_ref": {"$ref": "#/$defs/ref"}, "owner_budget_ref": {"$ref": "#/$defs/ref"}},
+      "description": "No credential fields. Tier0 deterministic work uses validator/build records, not meaningless model fields. Reservation/usage reconciliation and activated provider/caching policy must be validated outside JSON Schema."
+    }
+  }
+}

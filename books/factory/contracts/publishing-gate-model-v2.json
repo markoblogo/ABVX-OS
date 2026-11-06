@@ -1,0 +1,29 @@
+{
+  "schema_version": "publishing-gate-model/v2",
+  "model_id": "PUBLISHING-GATES-V2",
+  "purpose": "Separate market selection, product definition, representative experience, product quality, technical manufacturability, mandatory front matter, external preview evidence, and release readiness.",
+  "sequence": [
+    "MARKET", "PRODUCT_THESIS", "REPRESENTATIVE_PRODUCT", "FULL_PRODUCTION",
+    "FACTUAL_SOURCE_QA", "LANGUAGE_QA", "EDITORIAL_QA", "PRODUCT_QUALITY_QA",
+    "TECHNICAL_PRODUCTION_QA", "MANDATORY_FRONT_MATTER_QA", "TOC_NAVIGATION_QA",
+    "COMMERCIAL_PACKAGE", "KDP_EXTERNAL_PREVIEW", "RELEASE"
+  ],
+  "front_matter_contract": "publishing-front-matter-contract-v1.json",
+  "invariants": [
+    "PRODUCT_QUALITY is independent from FACTUAL_SOURCE, EDITORIAL and TECHNICAL",
+    "TECHNICAL_PASS is diagnostic and cannot imply FINAL, KDP_READY, or publication readiness",
+    "Every book requires a passing copyright_page gate before FINAL",
+    "Series membership must be explicit; every series book requires a passing series_introduction gate before FINAL",
+    "Series recap claims must be sourced from canonical/locked predecessor manuscripts with recorded path and hash",
+    "Mandatory front matter is separate from and must not alter the locked narrative manuscript",
+    "KDP READY requires every mandatory gate",
+    "COMMERCIAL_PACKAGE requires title, subtitle, author, description, exactly seven keyword fields, exactly three category targets, paperback and Kindle prices, primary marketplace, format settings and a cover brief",
+    "COMMERCIAL FINALIZATION MUST OCCUR AFTER FINAL CONTENT/LAYOUT FREEZE",
+    "KDP_READY requires CONTENT_VERSION == COMMERCIAL_PACKAGE_CONTENT_VERSION and NO_OPEN_CONTENT_OR_LAYOUT_CORRECTION_GATES",
+    "A future recheck cannot replace a recommended list price",
+    "PAGE COUNT is neither cost nor value",
+    "human taste is retained where marginal value is high"
+  ],
+  "supersedes": "publishing-gate-model-v1.json",
+  "backwards_compatibility": "Version 1 is retained as historical evidence; new production runs use version 2."
+}

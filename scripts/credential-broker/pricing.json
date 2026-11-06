@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "provider": "openai",
+  "service_tier": "standard",
+  "pricing_unit": "USD per 1,000,000 text tokens",
+  "context_class": "short",
+  "models": {
+    "gpt-6-luna": {
+      "canonical_model_id": "gpt-6-luna",
+      "input_usd_per_million": 0.10,
+      "cached_input_usd_per_million": 0.01,
+      "cache_write_usd_per_million": 0.125,
+      "output_usd_per_million": 0.50,
+      "effective_date": null,
+      "observed_at": "2026-09-29",
+      "last_verified_date": "2026-09-29",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6-luna",
+        "https://developers.openai.com/api/docs/pricing"
+      ],
+      "notes": "Standard short-context text token rates. Pilot caps input at 32 KiB and excludes tool calls, Batch, Flex, Fast, cache writes, regional uplift, and long-context pricing. If request shape or billing tier changes, deny until repriced."
+    }
+  }
+}

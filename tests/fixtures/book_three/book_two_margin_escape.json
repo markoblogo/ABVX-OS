@@ -1,0 +1,10 @@
+{
+  "source": "Book Two V1 margin escapes and bounded V2 repair, historical regression geometry only",
+  "source_pdf_sha256": "2368dbb99660ba095e32d96ac64b170571a70350724c1231ae2c1460c6716f0d",
+  "trim_pt": [396, 612],
+  "safe_box_pt": [36, 18, 324, 576],
+  "clearance_pt": 0,
+  "pages": [4, 91, 97, 160, 213, 251],
+  "escaped_bbox_pt": [18, 72, 360, 540],
+  "repaired_bbox_pt": [43.2, 73.8, 309.6, 464.4]
+}

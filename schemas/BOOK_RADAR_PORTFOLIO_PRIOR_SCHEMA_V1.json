@@ -1,0 +1,2329 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Book Radar Portfolio Prior Overlay V1",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "book-radar-portfolio-prior/v1"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "canonical_source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "selector": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "selector"
+      ]
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "opportunity_id": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "LIVE_SURVIVOR",
+              "EXISTING_PARK_REGRESSION",
+              "SYNTHETIC_REGRESSION"
+            ]
+          },
+          "external_status": {
+            "type": "string"
+          },
+          "external_ref": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "selector": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "path",
+              "sha256",
+              "selector"
+            ]
+          },
+          "internal_matches": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "book_id": {
+                  "type": "string"
+                },
+                "comparison": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "audience": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "job": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "discovery_route": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "query_family": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "marketplace": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "language": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "product_type": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "market_mechanism": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "topic_domain": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "format": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "freshness_event": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "audience",
+                    "job",
+                    "discovery_route",
+                    "query_family",
+                    "marketplace",
+                    "language",
+                    "product_type",
+                    "market_mechanism",
+                    "topic_domain",
+                    "format",
+                    "freshness_event"
+                  ]
+                },
+                "internal_outcome": {
+                  "type": "object",
+                  "properties": {
+                    "book_id": {
+                      "type": "string"
+                    },
+                    "actual_id": {
+                      "type": "string"
+                    },
+                    "paid_units": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "free_units": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "kenp": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "royalties": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "source_ref": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "path": {
+                          "type": "string"
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[a-f0-9]{64}$"
+                        },
+                        "selector": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      },
+                      "required": [
+                        "path",
+                        "sha256",
+                        "selector"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "book_id",
+                    "actual_id",
+                    "paid_units",
+                    "free_units",
+                    "kenp",
+                    "royalties",
+                    "windows",
+                    "attribution_state",
+                    "calibration_state",
+                    "data_completeness",
+                    "source_ref"
+                  ]
+                },
+                "assessment": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "eligible_match": {
+                      "type": "boolean"
+                    },
+                    "relationship": {
+                      "enum": [
+                        "NOVEL_MARKET",
+                        "ADJACENT_TO_PRIOR_SUCCESS",
+                        "ADJACENT_TO_PRIOR_MIXED",
+                        "ADJACENT_TO_PRIOR_ZERO_OR_NO_SIGNAL",
+                        "REPEAT_OF_EXISTING_EXPERIMENT",
+                        "SAME_MARKET_DIFFERENT_PRODUCT_HYPOTHESIS",
+                        "UNKNOWN"
+                      ]
+                    },
+                    "match_confidence": {
+                      "enum": [
+                        "HIGH",
+                        "MEDIUM",
+                        "UNKNOWN"
+                      ]
+                    },
+                    "paid_state": {
+                      "enum": [
+                        "POSITIVE_PAID",
+                        "ZERO_PAID",
+                        "UNKNOWN_PAID"
+                      ]
+                    },
+                    "market_demand_verdict": {
+                      "enum": [
+                        "UNKNOWN"
+                      ]
+                    },
+                    "causal_mechanism": {
+                      "enum": [
+                        "UNKNOWN"
+                      ]
+                    },
+                    "automatic_go": {
+                      "const": false
+                    },
+                    "automatic_kill": {
+                      "const": false
+                    }
+                  },
+                  "required": [
+                    "eligible_match",
+                    "relationship",
+                    "match_confidence",
+                    "paid_state",
+                    "market_demand_verdict",
+                    "causal_mechanism",
+                    "automatic_go",
+                    "automatic_kill"
+                  ]
+                }
+              },
+              "required": [
+                "book_id",
+                "comparison",
+                "internal_outcome",
+                "assessment"
+              ]
+            }
+          },
+          "rejected_comparisons": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "book_id": {
+                  "type": "string"
+                },
+                "comparison": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "audience": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "job": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "discovery_route": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "query_family": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "marketplace": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "language": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "product_type": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "market_mechanism": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "topic_domain": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "format": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    },
+                    "freshness_event": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "status": {
+                          "enum": [
+                            "SAME",
+                            "PARTIAL",
+                            "DIFFERENT",
+                            "UNKNOWN"
+                          ]
+                        },
+                        "reason": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "internal_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        },
+                        "external_evidence": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                              "path": {
+                                "type": "string"
+                              },
+                              "sha256": {
+                                "type": "string",
+                                "pattern": "^[a-f0-9]{64}$"
+                              },
+                              "selector": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "path",
+                              "sha256",
+                              "selector"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "status",
+                        "reason",
+                        "internal_evidence",
+                        "external_evidence"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "audience",
+                    "job",
+                    "discovery_route",
+                    "query_family",
+                    "marketplace",
+                    "language",
+                    "product_type",
+                    "market_mechanism",
+                    "topic_domain",
+                    "format",
+                    "freshness_event"
+                  ]
+                },
+                "internal_outcome": {
+                  "type": "object",
+                  "properties": {
+                    "book_id": {
+                      "type": "string"
+                    },
+                    "actual_id": {
+                      "type": "string"
+                    },
+                    "paid_units": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "free_units": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "kenp": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "royalties": {
+                      "oneOf": [
+                        {
+                          "type": "number",
+                          "minimum": 0
+                        },
+                        {
+                          "enum": [
+                            "UNKNOWN"
+                          ]
+                        }
+                      ]
+                    },
+                    "source_ref": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "path": {
+                          "type": "string"
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[a-f0-9]{64}$"
+                        },
+                        "selector": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      },
+                      "required": [
+                        "path",
+                        "sha256",
+                        "selector"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "book_id",
+                    "actual_id",
+                    "paid_units",
+                    "free_units",
+                    "kenp",
+                    "royalties",
+                    "windows",
+                    "attribution_state",
+                    "calibration_state",
+                    "data_completeness",
+                    "source_ref"
+                  ]
+                },
+                "assessment": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "eligible_match": {
+                      "type": "boolean"
+                    },
+                    "relationship": {
+                      "enum": [
+                        "NOVEL_MARKET",
+                        "ADJACENT_TO_PRIOR_SUCCESS",
+                        "ADJACENT_TO_PRIOR_MIXED",
+                        "ADJACENT_TO_PRIOR_ZERO_OR_NO_SIGNAL",
+                        "REPEAT_OF_EXISTING_EXPERIMENT",
+                        "SAME_MARKET_DIFFERENT_PRODUCT_HYPOTHESIS",
+                        "UNKNOWN"
+                      ]
+                    },
+                    "match_confidence": {
+                      "enum": [
+                        "HIGH",
+                        "MEDIUM",
+                        "UNKNOWN"
+                      ]
+                    },
+                    "paid_state": {
+                      "enum": [
+                        "POSITIVE_PAID",
+                        "ZERO_PAID",
+                        "UNKNOWN_PAID"
+                      ]
+                    },
+                    "market_demand_verdict": {
+                      "enum": [
+                        "UNKNOWN"
+                      ]
+                    },
+                    "causal_mechanism": {
+                      "enum": [
+                        "UNKNOWN"
+                      ]
+                    },
+                    "automatic_go": {
+                      "const": false
+                    },
+                    "automatic_kill": {
+                      "const": false
+                    }
+                  },
+                  "required": [
+                    "eligible_match",
+                    "relationship",
+                    "match_confidence",
+                    "paid_state",
+                    "market_demand_verdict",
+                    "causal_mechanism",
+                    "automatic_go",
+                    "automatic_kill"
+                  ]
+                }
+              },
+              "required": [
+                "book_id",
+                "comparison",
+                "internal_outcome",
+                "assessment"
+              ]
+            }
+          },
+          "coverage": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "state": {
+                "enum": [
+                  "PARTIAL",
+                  "SUFFICIENT"
+                ]
+              },
+              "observed_catalog_books": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "scope_note": {
+                "type": "string"
+              },
+              "all_portfolio_absence_proven": {
+                "const": false
+              }
+            },
+            "required": [
+              "state",
+              "observed_catalog_books",
+              "scope_note",
+              "all_portfolio_absence_proven"
+            ]
+          },
+          "context": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "relationship": {
+                "enum": [
+                  "NOVEL_MARKET",
+                  "ADJACENT_TO_PRIOR_SUCCESS",
+                  "ADJACENT_TO_PRIOR_MIXED",
+                  "ADJACENT_TO_PRIOR_ZERO_OR_NO_SIGNAL",
+                  "REPEAT_OF_EXISTING_EXPERIMENT",
+                  "SAME_MARKET_DIFFERENT_PRODUCT_HYPOTHESIS",
+                  "UNKNOWN"
+                ]
+              },
+              "implication": {
+                "enum": [
+                  "NORMAL_EXTERNAL_PIPELINE",
+                  "PARK_CONTEXT_PENDING_MATERIAL_DIFFERENCE",
+                  "OWNER_REVIEW_CONDITIONAL_INVESTIGATION"
+                ]
+              },
+              "deep_research_priority": {
+                "enum": [
+                  "LOW",
+                  "NORMAL"
+                ]
+              },
+              "external_status_preserved": {
+                "type": "string"
+              },
+              "material_difference": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "state": {
+                    "enum": [
+                      "VERIFIED",
+                      "PARTIAL",
+                      "NONE",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "statement": {
+                    "type": "string"
+                  },
+                  "evidence": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "properties": {
+                        "path": {
+                          "type": "string"
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[a-f0-9]{64}$"
+                        },
+                        "selector": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      },
+                      "required": [
+                        "path",
+                        "sha256",
+                        "selector"
+                      ]
+                    }
+                  }
+                },
+                "required": [
+                  "state",
+                  "statement",
+                  "evidence"
+                ]
+              },
+              "owner_asset_match": {
+                "enum": [
+                  "NONE",
+                  "WEAK",
+                  "MEDIUM",
+                  "STRONG",
+                  "UNKNOWN"
+                ]
+              },
+              "owner_asset_status": {
+                "const": "NOT_ANALYZED"
+              },
+              "production_economics": {
+                "enum": [
+                  "UNKNOWN"
+                ]
+              },
+              "market_demand_verdict": {
+                "enum": [
+                  "UNKNOWN"
+                ]
+              },
+              "mechanism_transfer": {
+                "enum": [
+                  "UNKNOWN"
+                ]
+              },
+              "automatic_go": {
+                "const": false
+              },
+              "automatic_kill": {
+                "const": false
+              },
+              "requires_owner_review": {
+                "const": true
+              }
+            },
+            "required": [
+              "relationship",
+              "implication",
+              "deep_research_priority",
+              "external_status_preserved",
+              "material_difference",
+              "owner_asset_match",
+              "owner_asset_status",
+              "production_economics",
+              "market_demand_verdict",
+              "mechanism_transfer",
+              "automatic_go",
+              "automatic_kill",
+              "requires_owner_review"
+            ]
+          },
+          "value_of_information": {
+            "enum": [
+              "LOW",
+              "MEDIUM",
+              "HIGH"
+            ]
+          },
+          "next_research": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "action": {
+                "type": "string"
+              },
+              "max_minutes": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 20
+              },
+              "owner_authorization_required": {
+                "const": true
+              }
+            },
+            "required": [
+              "action",
+              "max_minutes",
+              "owner_authorization_required"
+            ]
+          }
+        },
+        "required": [
+          "opportunity_id",
+          "kind",
+          "external_status",
+          "external_ref",
+          "internal_matches",
+          "rejected_comparisons",
+          "coverage",
+          "context",
+          "value_of_information",
+          "next_research"
+        ]
+      }
+    },
+    "historical_state_written": {
+      "const": false
+    },
+    "wide_decisions_written": {
+      "const": false
+    },
+    "scoring_changes": {
+      "const": false
+    },
+    "external_reads": {
+      "const": 0
+    },
+    "shelf_calls": {
+      "const": 0
+    },
+    "production_candidates": {
+      "const": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "as_of",
+    "canonical_source",
+    "reviews",
+    "historical_state_written",
+    "wide_decisions_written",
+    "scoring_changes",
+    "external_reads",
+    "shelf_calls",
+    "production_candidates"
+  ]
+}

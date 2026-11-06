@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/rights-evidence/v1",
+  "title": "ABVX Rights Evidence Record V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "author", "death_date", "death_date_source_ids", "original_publication_date", "edition_date", "jurisdiction", "applicable_term", "exception_uncertainty_notes", "source_edition_status", "decision", "evidence_ids", "review_date"],
+  "properties": {
+    "schema_version": {"const": "rights-evidence/v1"},
+    "author": {"type": "string", "minLength": 1},
+    "death_date": {"type": ["string", "null"]},
+    "death_date_source_ids": {"type": "array", "items": {"type": "string"}},
+    "original_publication_date": {"type": ["string", "null"]},
+    "edition_date": {"type": ["string", "null"]},
+    "jurisdiction": {"type": "string", "minLength": 1},
+    "applicable_term": {"type": "string", "minLength": 1},
+    "exception_uncertainty_notes": {"type": "array", "items": {"type": "string"}},
+    "source_edition_status": {"enum": ["IDENTIFIED", "PARTIAL", "UNKNOWN"]},
+    "decision": {"enum": ["PASS", "FAIL", "REVIEW"]},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "review_date": {"type": "string", "format": "date"}
+  }
+}

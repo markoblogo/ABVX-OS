@@ -1,0 +1,311 @@
+{
+  "schema_version": "book-radar-wide-input/v1",
+  "run_id": "synthetic-case-L",
+  "origin": "SYNTHETIC",
+  "as_of": "2026-10-03T12:00:00Z",
+  "evidence": [
+    {
+      "id": "e1",
+      "path": "raw.txt",
+      "sha256": "4fe11de15aa865c643ba49e6ad2eca0e608e8bba9691268e05abcdb1b578cb58",
+      "kind": "EXTERNAL",
+      "source_uri": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN"
+    },
+    {
+      "id": "e2",
+      "path": "raw.txt",
+      "sha256": "4fe11de15aa865c643ba49e6ad2eca0e608e8bba9691268e05abcdb1b578cb58",
+      "kind": "EXTERNAL",
+      "source_uri": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN"
+    }
+  ],
+  "signals": [
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-0",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-0",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "synthetic practical job 0",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-1",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-1",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "synthetic practical job 0",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-2",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-2",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "synthetic practical job 0",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-3",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-3",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "synthetic practical job 0",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-4",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-4",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "synthetic practical job 0",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    }
+  ],
+  "quick_screens": [
+    {
+      "cluster_id": "wide:9504e451de5eb04d49397cef",
+      "market": "Amazon.com",
+      "language": "EN",
+      "query": "synthetic book guide 0",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "organic_depth_reached": 5,
+      "sponsored_depth_reached": 1,
+      "sample_complete": true,
+      "context": {
+        "delivery": "SYNTHETIC context",
+        "locale": "EN",
+        "signed_in": "NO",
+        "sort": "Featured"
+      },
+      "observations": [
+        {
+          "id": "o1",
+          "text": "SYNTHETIC bounded fixture conditions for case-L.json: {\"event\": null, \"features\": {\"activity\": \"ABSENT\", \"book_serving\": \"PRESENT\", \"entrants\": \"PRESENT\", \"incumbent\": \"ABSENT\", \"query_relevance\": \"PRESENT\", \"sponsored\": \"ABSENT\"}, \"organic_depth\": 5, \"rights\": \"NO_OBVIOUS_BLOCK\"}. No real sales or cold-start assertion.",
+          "evidence_ids": [
+            "e1"
+          ]
+        }
+      ],
+      "features": {
+        "book_serving": {
+          "value": "PRESENT",
+          "evidence_ids": [
+            "e1"
+          ],
+          "observation_ids": [
+            "o1"
+          ]
+        },
+        "activity": {
+          "value": "ABSENT",
+          "evidence_ids": [
+            "e1"
+          ],
+          "observation_ids": [
+            "o1"
+          ]
+        },
+        "entrants": {
+          "value": "PRESENT",
+          "evidence_ids": [
+            "e1"
+          ],
+          "observation_ids": [
+            "o1"
+          ]
+        },
+        "incumbent": {
+          "value": "ABSENT",
+          "evidence_ids": [
+            "e1"
+          ],
+          "observation_ids": [
+            "o1"
+          ]
+        },
+        "sponsored": {
+          "value": "ABSENT",
+          "evidence_ids": [
+            "e1"
+          ],
+          "observation_ids": [
+            "o1"
+          ]
+        },
+        "query_relevance": {
+          "value": "PRESENT",
+          "evidence_ids": [
+            "e1"
+          ],
+          "observation_ids": [
+            "o1"
+          ]
+        }
+      },
+      "rights": "NO_OBVIOUS_BLOCK",
+      "value_of_information": "HIGH",
+      "factory_cost_class": "VERY_LOW"
+    }
+  ],
+  "acquisition_costs": {
+    "RAW": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "NORMALIZE": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "CORROBORATE": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "QUICK_SCREEN": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "QUEUE": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    }
+  }
+}

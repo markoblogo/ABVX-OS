@@ -1,0 +1,9 @@
+# Reachability policy V2 — prospective owner-review proposal
+
+[Calibration](../book-radar/audits/reachability-gate-calibration-v1/BOOK_RADAR_REACHABILITY_GATE_CALIBRATION_V1.md), [evidence facets](../book-radar/audits/reachability-gate-calibration-v1/BOOK_RADAR_REACHABILITY_EVIDENCE_LADDER_V1.md), [stage policy](../book-radar/audits/reachability-gate-calibration-v1/BOOK_RADAR_STAGE_SPECIFIC_GATE_POLICY_V1.md), [experiment classes](../book-radar/audits/reachability-gate-calibration-v1/BOOK_RADAR_EXPERIMENT_CLASSES_V1.md), and [policy contract](../book-radar/policies/reachability-gates-v2.json).
+
+Version `book-radar-reachability-policy/v2`, date2026-10-04, PROPOSED_PENDING_OWNER_REVIEW. The read-only calibration overlay evaluates retained evidence for capped research recommendations. It grants no collection or production authority and changes no Wide/v5/scoring/state/historical contract. Original decisions stay under their original policy. Actual adoption waits for OWNER REVIEW — REACHABILITY CALIBRATION.
+
+Research admission is separate from commercial accessibility: distributed DemandPASS + identity-bound relevant <180d organic visibility + same-listing scoped activity proxy + reviewed history and capped medium/highVOI research. R2 may remainUNKNOWN; known dominant-only or edition-only witnesses do not qualify. No T7/T14 or own book outcome is required merely to authorize low-cost gap research. Production and scale keep distinct fullcost/rights/quality/route/owner/outcome requirements.
+
+Schema: `schemas/BOOK_RADAR_REACHABILITY_CALIBRATION_SCHEMA_V1.json`; evaluator: `src/abvx_harness/book_radar_reachability.py`; regression suite: `tests/test_book_radar_reachability.py`. Inputs are explicit reviewer annotations with SHA-bound sources, not an automatic market classifier. There is no new CLI, collector, scorer, scheduler or production executor.

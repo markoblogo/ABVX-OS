@@ -1,0 +1,135 @@
+{
+  "schema_version": "v1",
+  "id": "abvxsite.publish-content",
+  "project": "abvxsite",
+  "purpose": "Reuse the Azur Menton ready-text/media pattern for ABVXsite native Writing and Working Stories using existing content-ops approval and consumer commands.",
+  "required_inputs": [
+    {
+      "name": "approved_source",
+      "description": "Ready publication-safe prose and explicit metadata",
+      "required": true
+    },
+    {
+      "name": "packet_path",
+      "description": "Source-specific approved ABVX-OS packet",
+      "required": true
+    },
+    {
+      "name": "consumer_checkout",
+      "description": "Clean ABVXsite checkout from current main",
+      "required": true
+    }
+  ],
+  "deterministic_steps": [
+    {
+      "id": "prepare",
+      "kind": "command",
+      "description": "Prepare ready Markdown in ABVX OS",
+      "command": "python3 scripts/prepare_abvx_publication.py --source <source.md> --id <item-id>",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "Pending source-specific review"
+    },
+    {
+      "id": "handoff",
+      "kind": "command",
+      "description": "Inspect, approve and emit the packet using existing content operations",
+      "command": "./bin/abvx content publish <approved-item-id>",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "REPORT_ONLY_HANDOFF, not production proof"
+    },
+    {
+      "id": "consumer",
+      "kind": "command",
+      "description": "Run the selected native publisher dry-run, then apply the reviewed packet in the consumer checkout",
+      "command": "npm run content:publish-working-story -- --packet <packet> --dry-run",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "Unique story/media plan; use content:publish-writing for a native note"
+    },
+    {
+      "id": "validate",
+      "kind": "command",
+      "description": "Run existing release gates once",
+      "command": "npm run content:release-check",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "Passing receipt and generated indexes ready for one PR"
+    },
+    {
+      "id": "production",
+      "kind": "command",
+      "description": "After authorized release verify SHA and actual public routes/media; reuse discovery QA",
+      "command": "npm run content:production-check",
+      "dry_run_behavior": "report_only",
+      "expected_outcome": "Public checks pass independently from Vercel SHA and Search Console state"
+    }
+  ],
+  "validation": {
+    "default_tier": "STANDARD",
+    "checks": {
+      "QUICK": [
+        "Consumer dry-run"
+      ],
+      "STANDARD": [
+        "Consumer dry-run",
+        "Release check receipt",
+        "One PR with source and intended indexes",
+        "Separate production proof"
+      ],
+      "FULL": [
+        "STANDARD checks",
+        "Default build in CI and UI regression evidence for code changes"
+      ],
+      "CRITICAL": [
+        "FULL checks",
+        "Explicit security/infrastructure approval"
+      ]
+    },
+    "escalate_to_full_on": [
+      "code_changed",
+      "structural_exception",
+      "targeted_validation_failed",
+      "localization_problem"
+    ],
+    "escalate_to_critical_on": [
+      "security_sensitive"
+    ]
+  },
+  "expected_outputs": [
+    "Native source and approved media in the consumer checkout",
+    "Generated public indexes in the same PR",
+    "Ignored release receipt/logs",
+    "Separate verified production evidence"
+  ],
+  "allowed_changes": [
+    "Consumer-native content and explicitly referenced approved media via the project command",
+    "Intended generated discovery output",
+    "Local handoff/evidence records"
+  ],
+  "prohibited_changes": [
+    "Unattended publication without source-specific approval",
+    "Consumer repository mutation from ABVX OS",
+    "Automatic social distribution",
+    "Force-overwriting existing content",
+    "New renderer, CMS, scheduler or generic workflow engine"
+  ],
+  "escalation_conditions": [
+    "Unsupported content/media fields",
+    "Factual or localization conflict",
+    "Duplicate ID/slug or conflicting media",
+    "Failed validation",
+    "Code, security or infrastructure change"
+  ],
+  "evidence": {
+    "event_type": "CONTENT_PUBLISHED",
+    "result_on_success": "CONDITIONAL_PASS"
+  },
+  "provenance": {
+    "version": "1.0.0",
+    "recorded_by": "ABVX-PUBLISHING-004",
+    "observed_at": "2026-10-10T00:00:00Z",
+    "derived_from": [
+      "playbooks/azurmenton.publish-guide.json",
+      "docs/audits/content-ops-002-publishing-fast-paths.md",
+      "docs/abvx-site-publishing.md"
+    ]
+  }
+}

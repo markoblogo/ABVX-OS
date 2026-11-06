@@ -1,0 +1,14 @@
+#!/bin/sh
+# Owner-run setup when the agent sandbox has no outbound network access.
+set -eu
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+adapter_runtime="$repo_root/.tmp/youtube-intelligence/runtime"
+if [ ! -f "$repo_root/.tmp/youtube-intelligence/credentials/client.json" ]; then
+    echo 'Desktop OAuth client is missing. Complete the Google Cloud setup first.' >&2
+    exit 1
+fi
+if [ ! -x "$adapter_runtime/bin/python" ]; then
+    python3 -m venv "$adapter_runtime"
+fi
+"$adapter_runtime/bin/python" -m pip install --require-virtualenv -r "$repo_root/requirements-youtube.txt"
+exec "$repo_root/bin/youtube-intelligence" auth --monetary --open-browser

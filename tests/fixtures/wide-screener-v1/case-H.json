@@ -1,0 +1,743 @@
+{
+  "schema_version": "book-radar-wide-input/v1",
+  "run_id": "synthetic-case-H",
+  "origin": "SYNTHETIC",
+  "as_of": "2026-10-03T12:00:00Z",
+  "evidence": [
+    {
+      "id": "e1",
+      "path": "raw.txt",
+      "sha256": "4fe11de15aa865c643ba49e6ad2eca0e608e8bba9691268e05abcdb1b578cb58",
+      "kind": "EXTERNAL",
+      "source_uri": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN"
+    },
+    {
+      "id": "e2",
+      "path": "raw.txt",
+      "sha256": "4fe11de15aa865c643ba49e6ad2eca0e608e8bba9691268e05abcdb1b578cb58",
+      "kind": "EXTERNAL",
+      "source_uri": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN"
+    }
+  ],
+  "signals": [
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-0",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-0",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 0",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-1",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-1",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 1",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-2",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-2",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 2",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-3",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-3",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 3",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-4",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-4",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 4",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-5",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-5",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 5",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-6",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-6",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 6",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-7",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-7",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 7",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-8",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-8",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 8",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-9",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-9",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 9",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-10",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-10",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 10",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-11",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-11",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 11",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-12",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-12",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 12",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-13",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-13",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 13",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-14",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-14",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 14",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-15",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-15",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 15",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-16",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-16",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 16",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-17",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-17",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 17",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-18",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "BOOK_MARKET",
+      "source": "https://origin-1.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-18",
+      "evidence_ids": [
+        "e1"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 18",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    },
+    {
+      "schema_version": "book-radar-wide-signal/v1",
+      "signal_id": "s0-19",
+      "observed_at": "2026-10-03T10:00:00Z",
+      "source_family": "COMMUNITY",
+      "source": "https://origin-2.example/retained",
+      "market": "Amazon.com",
+      "language": "EN",
+      "raw_phrase": "query variant 0-19",
+      "evidence_ids": [
+        "e2"
+      ],
+      "freshness": {
+        "source_date": "2026-10-02",
+        "date_basis": "ACTIVITY"
+      },
+      "initial_intent": "BOOK_SERVED_LEARNING_INTENT",
+      "job_support": "SUPPORTS",
+      "provenance": {
+        "kind": "EXTERNAL",
+        "recorded_by": "fixture-generator"
+      },
+      "buyer_job": {
+        "audience": "synthetic audience 0",
+        "job": "legal AI workflow variant 19",
+        "intent": "BOOK_SERVED_LEARNING_INTENT",
+        "query": "synthetic book guide 0",
+        "subject": "subject 0",
+        "category": "category 0",
+        "bucket": "EVERGREEN_PRACTICAL",
+        "mechanism": "EVERGREEN_PROBLEM"
+      }
+    }
+  ],
+  "quick_screens": [],
+  "acquisition_costs": {
+    "RAW": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "NORMALIZE": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "CORROBORATE": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "QUICK_SCREEN": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    },
+    "QUEUE": {
+      "external_api_usd": 0,
+      "machine_usd": 0,
+      "manual_minutes": 0,
+      "owner_minutes": 0
+    }
+  },
+  "aliases": {
+    "legal AI workflow variant 0": "synthetic practical job 0",
+    "legal AI workflow variant 1": "synthetic practical job 0",
+    "legal AI workflow variant 2": "synthetic practical job 0",
+    "legal AI workflow variant 3": "synthetic practical job 0",
+    "legal AI workflow variant 4": "synthetic practical job 0",
+    "legal AI workflow variant 5": "synthetic practical job 0",
+    "legal AI workflow variant 6": "synthetic practical job 0",
+    "legal AI workflow variant 7": "synthetic practical job 0",
+    "legal AI workflow variant 8": "synthetic practical job 0",
+    "legal AI workflow variant 9": "synthetic practical job 0",
+    "legal AI workflow variant 10": "synthetic practical job 0",
+    "legal AI workflow variant 11": "synthetic practical job 0",
+    "legal AI workflow variant 12": "synthetic practical job 0",
+    "legal AI workflow variant 13": "synthetic practical job 0",
+    "legal AI workflow variant 14": "synthetic practical job 0",
+    "legal AI workflow variant 15": "synthetic practical job 0",
+    "legal AI workflow variant 16": "synthetic practical job 0",
+    "legal AI workflow variant 17": "synthetic practical job 0",
+    "legal AI workflow variant 18": "synthetic practical job 0",
+    "legal AI workflow variant 19": "synthetic practical job 0"
+  }
+}

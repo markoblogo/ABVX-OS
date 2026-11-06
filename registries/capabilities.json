@@ -152,6 +152,25 @@
       "status": "conditional"
     },
     {
+      "id": "os-process-learning",
+      "name": "OS Process Learning Bridge",
+      "status": "conditional",
+      "scope": "Explicit protected numeric outcome export and grounded review-only Cortex suggestions; no automatic execution",
+      "implementation": "src/abvx_harness/process_learning.py",
+      "constraints": [
+        "explicit-selected-outcomes-only",
+        "tenant-isolation-required",
+        "private-artifacts-ignored",
+        "unknown-effort-not-zero",
+        "independent-held-out-trial-before-efficiency-claim"
+      ],
+      "provenance": {
+        "source_uri": "docs/maintenance/OS_CORTEX_MILESTONES_V1.md",
+        "observed_at": "2026-10-10T00:00:00Z",
+        "recorded_by": "OWNER_APPROVED_OS_CORTEX_V1"
+      }
+    },
+    {
       "constraints": [
         "approved-handoff-required",
         "private-numeric-outcomes-only",
@@ -170,6 +189,86 @@
       },
       "scope": "Authorized command through native preparation, shared frozen-pool checks, exact production SHA verification and one independent elapsed-only cycle admission",
       "status": "active"
+    },
+    {
+      "id": "youtube-intelligence-v1",
+      "name": "YouTube Intelligence & Content Lab",
+      "status": "active",
+      "scope": "Read-only channel upload discovery, analytics, sourced research and prospective experiment evaluation; owner-terminal real API acquisition verified; unattended scheduling and sandbox network remain blocked",
+      "implementation": "./bin/youtube-intelligence",
+      "constraints": [
+        "official-read-only-apis",
+        "no-automatic-publishing",
+        "prospective-hypotheses-only",
+        "framewright-independent",
+        "private-state-ignored",
+        "weekly-activation-after-real-live-acceptance"
+      ],
+      "provenance": {
+        "recorded_by": "OWNER_APPROVED_YOUTUBE_MVP_2026_10_19",
+        "source_uri": "docs/playbooks/youtube-intelligence-weekly-v1.md",
+        "observed_at": "2026-10-19T19:00:00Z"
+      }
+    },
+    {
+      "id": "local-mac-monitor-v1",
+      "name": "Local Mac monitor and bounded operator",
+      "status": "active",
+      "implementation": "bin/mac-operator",
+      "scope": "Owner-installed native Mac monitoring, isolated manual/background history, workflow freshness, bounded incident notifications, cleanup preview and deduplicated research handoffs; automatic Codex dispatch blocked, Telegram unconnected; three-attempt hotel recovery supervisor installed; responsive checks activated 2026-10-26 with fresh ONLINE receipt; bounded incident history and outage alerts enabled; low-space LIGHT daily growth verified; Docker read-only report prepared; exact-plan npm cache executor; fixed-cache automatic cleanup explicitly owner-authorized 2026-10-27, enabled 30-day grant, 2 GiB/day limit; initial live Homebrew/pip/Help removals verified, busy npm/updater caches preserved; internal-disk bootstrap and deduplicated readiness signals added 2026-10-27; hosted/local automatic dispatch remains unverified and blocked; see docs/maintenance/SCHEDULE_RECOVERY_V1.md",
+      "constraints": [
+        "no-root",
+        "no-arbitrary-shell",
+        "cleanup-fixed-owner-grant-or-specific-plan-only",
+        "no-research-scheduler-replacement",
+        "no-automatic-cortex-export",
+        "sleep-and-crash-recovery-not-verified"
+      ],
+      "provenance": {
+        "observed_at": "2026-10-20T00:00:00Z",
+        "recorded_by": "OWNER_AUTHORIZED_LOCAL_MAC_STAGE1",
+        "source_uri": "docs/maintenance/MAC_OPERATOR_V1.md"
+      }
+    },
+    {
+      "id": "unified-opportunity-catalog",
+      "name": "Unified Opportunities / Nantes Radar",
+      "status": "active",
+      "implementation": "./bin/abvx opportunities catalog",
+      "scope": "Private candidate profiles, France/remote vacancy research, deduplication, keyword triage, source-bound human-reviewed drafts, manually evidenced outcomes and typed ChatGPT history import for future ABVX Hub",
+      "constraints": [
+        "local-private-state",
+        "no-application-or-message-send",
+        "no-gmail-calendar-sync",
+        "no-paid-actions",
+        "no-new-scheduler-or-notifications",
+        "marketplace-research-remains-separate"
+      ],
+      "provenance": {
+        "recorded_by": "NANTES-RADAR-ADAPTATION-001",
+        "observed_at": "2026-10-23T00:00:00Z",
+        "source_uri": "docs/OPPORTUNITIES.md"
+      }
+    },
+    {
+      "id": "book-readiness-projection",
+      "name": "Book Readiness Radar",
+      "status": "active",
+      "implementation": "./bin/abvx book-radar readiness <refresh|review|report|ack|assess>",
+      "scope": "Private regenerable editorial projection over native sources, deployment index, existing intakes and art registry; milestone/report flags for existing Multi-Market Radar",
+      "constraints": [
+        "no-manuscript-generation",
+        "no-automatic-research-or-production",
+        "source-bound-editorial-assessments",
+        "canonical-and-content-deduplication",
+        "rights-and-existing-book-overlap-explicit",
+        "publication-failure-isolation"
+      ],
+      "provenance": {
+        "observed_at": "2026-10-25T00:00:00Z",
+        "recorded_by": "BOOK-READINESS-MVP",
+        "source_uri": "docs/book-readiness.md"
+      }
     }
   ],
   "schema_version": "v1"

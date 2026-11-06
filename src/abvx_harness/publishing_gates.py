@@ -11,7 +11,9 @@ PRODUCT_CONTRACT_FIELDS = (
 )
 RELEASE_GATES = (
     "market", "product_thesis", "representative_product", "factual_source",
-    "language", "editorial", "product_quality", "technical", "toc_navigation",
+    "language", "editorial", "product_quality", "technical",
+    "copyright_page",
+    "visible_contents", "contents_parity", "toc_navigation",
     "commercial_package", "kdp_external_preview",
 )
 COMMERCIAL_PACKAGE_FIELDS = (
@@ -212,11 +214,61 @@ def validate_commercial_artifacts(package: dict[str, Any], artifacts: dict[str, 
                 failures.append(f"artifacts.{name}.{str(fmt).upper()}.final_price")
     return {"status":"PASS" if not failures else "FAIL","failures":sorted(set(failures))}
 
-def release_authorization(gates: dict[str, str], mandatory: list[str] | None = None) -> dict[str, Any]:
-    required = mandatory or list(RELEASE_GATES); failures=[]
+def _explicit_contents_waiver(record: dict[str, str] | None) -> bool:
+    """A title-specific owner decision, never an inferred production default."""
+    return bool(isinstance(record, dict) and record.get("decision") == "DISABLE_VISIBLE_CONTENTS"
+                and record.get("approved_by") == "OWNER" and record.get("title")
+                and record.get("evidence"))
+
+def local_production_authorization(gates: dict[str, str], *,
+                                   owner_contents_waiver: dict[str, str] | None = None,
+                                   is_series_book: bool | None = None) -> dict[str, Any]:
+    """Report local technical readiness separately from mandatory release copy."""
+    waived = _explicit_contents_waiver(owner_contents_waiver)
+    required = ("technical",) if waived else ("technical", "visible_contents", "contents_parity")
+    mandatory_front_matter = ["copyright_page"]
+    if is_series_book is True or is_series_book is None:
+        mandatory_front_matter.append("series_introduction")
+    if gates.get("technical") != "PASS":
+        return {"status": "PRODUCTION_BLOCKED", "failures": [{"gate": "technical", "state": gates.get("technical", "MISSING")}],
+                "contents_waived_by_owner": waived}
+    failures = [{"gate": key, "state": gates.get(key, "MISSING")}
+                for key in (*required[1:], *mandatory_front_matter) if gates.get(key) != "PASS"]
+    if not failures:
+        status = "LOCAL_PRODUCTION_PASS"
+    else:
+        # This is a diagnostic status only; it is never a final/release state.
+        status = "TECHNICAL_PASS"
+    if is_series_book is None:
+        failures.append({"gate": "series_membership", "state": "UNKNOWN"})
+        status = "TECHNICAL_PASS"
+    return {"status": status, "failures": failures, "contents_waived_by_owner": waived}
+
+def release_authorization(gates: dict[str, str], mandatory: list[str] | None = None, *,
+                          owner_contents_waiver: dict[str, str] | None = None,
+                          is_series_book: bool | None = None) -> dict[str, Any]:
+    required = list(mandatory or RELEASE_GATES)
+    # These release gates cannot be removed by a caller-supplied mandatory list.
+    required.append("copyright_page")
+    if is_series_book is True:
+        required.append("series_introduction")
+    if is_series_book is None:
+        required.append("series_membership")
+        if gates.get("series_membership") == "SERIES":
+            required.append("series_introduction")
+    required = list(dict.fromkeys(required))
+    failures=[]
+    if not _explicit_contents_waiver(owner_contents_waiver):
+        for gate in ("visible_contents", "contents_parity"):
+            if gate not in required: required.append(gate)
+    else:
+        required = [gate for gate in required if gate not in {"visible_contents", "contents_parity"}]
     for gate in required:
         state=gates.get(gate)
         allowed={"PASS"}
+        if gate == "series_membership":
+            if state in {"SERIES", "STANDALONE"}:
+                continue
         if gate=="representative_product": allowed.add("WAIVED")
         if gate=="language": allowed.add("WAIVED")
         if gate=="kdp_external_preview": allowed.add("HUMAN_PENDING")

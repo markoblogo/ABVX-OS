@@ -22,8 +22,10 @@ The control plane owns registries, normalized entities, event envelopes, profess
 Current active ABVX subsystems are intentionally small:
 
 - Universal Intake
+- manual multi-market evidence adapters and immutable research/method learning, separate from browser acquisition
+- bounded Book Core contracts, outcome attribution and deterministic readiness inventory
 - portfolio strategy/state/human queue
-- read-only Cortex retrieval
+- read-only Cortex retrieval and explicit private process-learning exchange
 - playbook replay
 - evidence-backed bakeoffs and decisions
 - deterministic professional-role routing with no authority effect
@@ -57,10 +59,24 @@ LoopX is conditionally adopted only as the optional **long-running development m
 
 LoopX is not the ABVX control plane or a general workflow engine. It must not own portfolio priorities, project strategy, canonical project facts, Personal Cortex, Universal Inbox, Opportunity Engine, Media Resource, generic personal tasks, code execution, deployment authorization, or external writes. No real sibling-project mission may use this provider until a separate operational approval is recorded.
 
-## Independent publication experience
+## Independent Cortex operational learning
 
-After explicit native ABVX publication authorization, a private cycle starts before preparation/intake. A single post or frozen pool is one independent observation; v2 measures command-to-production latency with owner effort UNKNOWN, while legacy/book effort gates remain unchanged. The project's own checks and production content verification precede numeric outcome export. Independent Cortex admits only the selected protected batch and returns a model-free diagnostic; OS recomputes provenance on return. Cortex failure leaves recoverable local evidence and does not roll back publication. Publishing, model synthesis, measured optimization and business-runtime authority are separate gates. See `docs/maintenance/PUBLICATION_LEARNING_CYCLE_V1.md`.
+The owner-approved OS/Cortex adapter exports explicitly selected numeric process outcomes with local evidence hashes. Cortex ABV applies source admission, retention and OS-only retrieval, diagnoses missing measurements before optional installed-local-model analysis, and returns cited suggestions for review. OS recomputes source bindings and diagnoses; a return artifact grants no execution authority. Baseline/held-out evaluation is a separate gate requiring comparable workloads and preserved quality/safety.
+
+Cortex is an independent intelligence provider, not an OS subsystem. Accumulation means retained experience and retrieval, not automatic weight training. Business 1D3X Cortex remains a separate tenant/runtime; existing inbound contracts do not imply ABV control authority over Index/MN7R/Cropto. See `docs/maintenance/OS_CORTEX_MILESTONES_V1.md` for milestones and current acceptance limits.
+
+## Native publication learning
+
+After explicit ABVX.xyz publication authorization, start one private cycle before preparation/intake. Singles and frozen pools produce one independent observation each; v2 measures first-work-after-command to verified production, preserving owner effort UNKNOWN. Match all member approvals, passing checks and the exact deployed merge SHA before transferring numeric evidence to independent Cortex; change one optimization at a time. Legacy/book effort gates remain unchanged. See [the operator guide](docs/maintenance/PUBLICATION_LEARNING_CYCLE_V1.md). RSS-only imports and automatic book lifecycle capture are outside this release.
 
 ## Prepared domain extensions
 
 [Book/business exchange rules](docs/maintenance/BOOKS_BUSINESS_EXCHANGE_RULES_V1.md) reuse numeric OS book outcomes and reserve separately scoped business summaries. Business history does not enter the OS tenant. The plan awaits first-cycle acceptance and receiving-side contracts; it changes no admission, automatic capture or business authority.
+
+## Owner-authorized local host observation
+
+`src/abvx_harness/mac_operator.py` is an optional local execution adapter. The owner-installed user LaunchAgent delegates five-minute invocation and failure throttling to macOS launchd. It reads native host signals, selected ABVX LaunchAgents, Codex schedule metadata and retained Radar receipts; it owns only ignored host-monitor state. It does not replace Codex research schedules, domain learning, canonical portfolio state or independent project runtimes.
+
+The internal macOS Data volume is the primary disk target. An explicit owner grant enables fixed regenerable-cache cleanup through the existing scheduled tick for 30 days, bounded to 2 GiB/day and one pass per six hours below 15 GiB free. Process/open-file/metadata uncertainty blocks deletion; project, browser and Docker data are excluded. Observation and a narrow fixed scenario allowlist grant no general shell, root, deletion, publishing or sibling-project authority. Telegram is optional outbound polling with sender/private-chat checks and replay prevention, currently unconnected. Host observations are not business-learning outcomes and are not automatically transferred to Cortex. Scheduling, receipt completion, report acceptance and learning finalization remain distinct evidence states. See `docs/maintenance/LOCAL_OPERATIONS_INTEGRATION_V1.md` for remaining coordination gaps.
+
+Local operator coordination uses source-separated projections, read-only workflow receipt/hash checks, incident transitions and a private handoff lifecycle. It never writes Codex internal scheduler/queue databases. A queued or claimed handoff is not an accepted or completed research run; fresh domain evidence is required to bind a result. Automatic dispatch remains blocked pending a supported interface.

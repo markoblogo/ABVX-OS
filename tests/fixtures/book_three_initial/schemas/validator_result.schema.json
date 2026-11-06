@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/books/rn10-003/validator-result/v1",
+  "title": "Good Dog production validator result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["check_id", "state", "input_sha256", "output_sha256", "observed", "expected", "evidence_path", "timestamp", "tool_version", "exception_owner", "exception_reason"],
+  "properties": {
+    "check_id": {"type": "string", "minLength": 1},
+    "state": {"enum": ["PASS", "FAIL", "UNKNOWN", "NOT_APPLICABLE", "OWNER_ACCEPTED_EXCEPTION"]},
+    "input_sha256": {"type": "array", "items": {"type": "string", "minLength": 64}},
+    "output_sha256": {"type": "array", "items": {"type": "string", "minLength": 64}},
+    "observed": {},
+    "expected": {},
+    "evidence_path": {"type": ["string", "null"]},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "tool_version": {"type": "string", "minLength": 1},
+    "exception_owner": {"type": ["string", "null"]},
+    "exception_reason": {"type": ["string", "null"]}
+  }
+}

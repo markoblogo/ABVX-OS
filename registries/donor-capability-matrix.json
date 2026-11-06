@@ -646,6 +646,57 @@
         "books/factory/capability-map.json"
       ],
       "notes": "Reuse the smallest-useful-visual routing pattern under MIT. ABVX adds publishing-specific source, rights, format, representative-proof and human approval gates; it does not depend on the donor plugin at runtime."
+    },
+    {
+      "id": "phocinae-typed-decision-router",
+      "candidate": "Phocinae-Largha-150M-v1",
+      "locator": "https://huggingface.co/Phocinae/Phocinae-Largha-150M-v1",
+      "capability_area": "Local confidence-based routing before optional Cortex analysis",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "Pinned author weights/runtime reviewed and tested in an isolated Apple M4 pilot; warm CPU inference ~30 ms, but OS-routing qualification failed on synthetic held-out evidence",
+      "evidence_refs": [
+        "docs/maintenance/PHOCINAE_ROUTER_QUALIFICATION_V1.md",
+        "docs/maintenance/PHOCINAE_MAC_PILOT_2026-10-10.md"
+      ],
+      "notes": "Isolated candidate only; not adopted or activated in Cortex. Same-field rules outperformed this routing adapter (48/48 versus 34/48). No calibration threshold qualified. Keep mandatory deterministic policy first; a later specialised task needs fresh held-out qualification. The model grants no authority."
+    },
+    {
+      "id": "analytics-youtube-official-python",
+      "capability_area": "YouTube analytics and OAuth acquisition",
+      "candidate": "Google official Python API and OAuth clients",
+      "locator": "https://github.com/googleapis/google-api-python-client",
+      "status": "ADOPTED",
+      "evidence_basis": "Official documentation and client source review; adapter tests and first real owner-terminal API acquisition pass",
+      "evidence_refs": [
+        "docs/playbooks/youtube-intelligence-weekly-v1.md",
+        "requirements-youtube.txt"
+      ],
+      "notes": "Thin optional local adapter over Google libraries. No bespoke OAuth protocol, research agent, MCP server or scheduler. Apache-2.0 official API client is maintained in maintenance mode. Google Auth OAuthlib uses the official google-cloud-python package source. Libraries and owner OAuth are verified. Real official read-only acquisition succeeded in the owner Terminal; command sandbox networking and unattended operation remain blocked."
+    },
+    {
+      "id": "local-host-apple-launchd",
+      "capability_area": "Local host monitoring and scheduling",
+      "candidate": "Apple launchd and native macOS diagnostics",
+      "locator": "https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html",
+      "status": "ADOPTED",
+      "evidence_basis": "Owner-installed user LaunchAgent and verified scheduled invocation; no third-party monitoring runtime",
+      "evidence_refs": [
+        "docs/maintenance/MAC_OPERATOR_V1.md"
+      ],
+      "notes": "Use native interval invocation and throttled failure restart; no root, sleep waking or research scheduling replacement. Crash recovery remains unverified."
+    },
+    {
+      "id": "nantes-radar-ai-job-search-patterns",
+      "capability_area": "Opportunity/CRM",
+      "candidate": "ai-job-search-dev/ai-job-search",
+      "locator": "https://github.com/ai-job-search-dev/ai-job-search/tree/e16acee3abdaae57f8026789338a3c6eebf4608b",
+      "status": "PATTERN_SOURCE",
+      "evidence_basis": "Owner-requested bounded integration; source inspection at pinned revision; targeted local behavioral tests",
+      "evidence_refs": [
+        "docs/OPPORTUNITIES.md",
+        "tests/test_nantes_radar.py"
+      ],
+      "notes": "Adapted profile, triage/language uncertainty, identity and outcome patterns into existing ABVX CLI/catalog. No donor execution, independent app, paid service, sync, automatic applications or notifications. trycompai/crm remains a future broader CRM donor, not needed for this minimal local adapter."
     }
   ]
 }

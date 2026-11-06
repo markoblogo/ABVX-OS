@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/translation-existence/v1",
+  "title": "ABVX Translation Existence Evidence V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "outcome", "language", "catalogues_searched", "name_variants", "title_variants", "record_hits", "record_details", "evidence_ids", "search_date", "limitation"],
+  "properties": {
+    "schema_version": {"const": "translation-existence/v1"},
+    "outcome": {"enum": ["NO_COMPLETE_TRANSLATION_FOUND", "COMPLETE_TRANSLATION_EXISTS", "UNCERTAIN"]},
+    "language": {"type": "string", "minLength": 1},
+    "catalogues_searched": {"type": "array", "items": {"type": "string"}},
+    "name_variants": {"type": "array", "items": {"type": "string"}},
+    "title_variants": {"type": "array", "items": {"type": "string"}},
+    "record_hits": {"type": "array", "items": {"type": "string"}},
+    "record_details": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["record_ref", "record_type", "language", "completeness"], "properties": {"record_ref": {"type": "string"}, "record_type": {"type": "string"}, "language": {"type": "string"}, "completeness": {"enum": ["FULL_WORK", "EXCERPT", "THESIS_OR_ABSTRACT", "FRAGMENT", "UNSPECIFIED"]}}}},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "search_date": {"type": "string", "format": "date"},
+    "limitation": {"type": "string", "minLength": 1}
+  }
+}

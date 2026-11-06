@@ -1,0 +1,61 @@
+{
+  "schema_version": "book-radar-revenue-model/v2",
+  "effective_date": "2026-10-07",
+  "owner_goal": {
+    "monthly_royalty_eur": 1000,
+    "positive_month_over_month_growth": true,
+    "is_forecast": false
+  },
+  "provenance": [],
+  "discovery_lanes": {
+    "A": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "B": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "C": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "D": "EXISTING_EXTERNAL_LANE_UNCHANGED",
+    "E": "PROVEN FORMAT \u00d7 SPECIFIC ANGLE"
+  },
+  "external_qualifications": [],
+  "post_qualification_overlays": [],
+  "lines": [
+    {
+      "id": "EXAMPLE_LINE",
+      "book_ids": [],
+      "live_basis": "STRUCTURAL_ONLY",
+      "launch_class": "UNKNOWN",
+      "extension_status": "HOLD",
+      "basis": "Empty configuration example; no paid outcome"
+    }
+  ],
+  "release_queue": [],
+  "slot_events": [],
+  "slot_reconciliations": [],
+  "slot_history_complete_since": "UNKNOWN",
+  "experiment_costs": [],
+  "operating_principles": [
+    "KNOWN DEMAND \u2192 DIFFERENTIATED OBJECT",
+    "ONE AUDIENCE \u2192 RELATED CATALOG",
+    "FUNCTIONAL BOOK AS PRODUCT",
+    "SERIES / READ-THROUGH ECONOMICS",
+    "MARKETING AFTER SIGNAL",
+    "OWNED AUDIENCE AFTER SIGNAL",
+    "PRODUCTION REUSE",
+    "SEASONAL / LANGUAGE CLUSTER EXPERIMENTS",
+    "HIGH OUTPUT ALONE IS NOT SUCCESS"
+  ],
+  "owner_decision": {
+    "status": "APPROVED_FOR_OPERATING_USE",
+    "decided_at": "2000-01-01",
+    "legacy_failures": "KNOWN_LEGACY_FAILURES_NON_BLOCKING_FOR_REVENUE_V2",
+    "next_commercial_objective": "SYNTHETIC TEST ONLY; no owner authorization",
+    "broad_discovery_scan_authorized": false,
+    "forecast_date_authorized": false,
+    "operating_priorities": [
+      {
+        "rank": 1,
+        "id": "SYNTHETIC",
+        "class": "EXPLORE",
+        "action": "SYNTHETIC HOLD fixture only"
+      }
+    ]
+  }
+}

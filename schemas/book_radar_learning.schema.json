@@ -1,0 +1,252 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:abvx:multi-market-learning:v1",
+  "title": "Immutable local MMR learning record v1",
+  "type": "object",
+  "required": ["schema_version", "kind", "recorded_at", "record_digest"],
+  "properties": {
+    "schema_version": {"const": "multi-market-learning/v1"},
+    "kind": {"enum": ["snapshot", "proposal", "event", "outcome", "report"]},
+    "recorded_at": {"type": "string", "format": "date-time"},
+    "record_digest": {"$ref": "#/$defs/sha"}
+  },
+  "allOf": [
+    {"if": {"properties": {"kind": {"const": "snapshot"}}}, "then": {
+      "required": ["run_id", "stage", "method_version", "research_digest", "source_run", "opportunities", "observations", "original_ranking", "commercial_review"],
+      "properties": {
+        "run_id": {"type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,79}$"},
+        "stage": {"enum": ["ACQUIRED", "REVIEWED"]},
+        "research_digest": {"$ref": "#/$defs/sha"},
+        "opportunities": {"type": "array", "items": {"type": "object", "required": ["id", "audience", "motivation", "language", "geography"]}},
+        "observations": {"type": "array", "items": {"type": "object", "required": ["marketplace", "observed_at", "evidence_sha256", "metrics"]}},
+        "original_ranking": {"type": ["object", "null"]},
+        "commercial_review": {"type": ["object", "null"]}
+      }
+    }},
+    {"if": {"properties": {"kind": {"const": "proposal"}}}, "then": {
+      "required": ["id", "change_class", "limitation", "hypothesis", "expected_benefit", "cost", "validation_plan", "risks", "automatic_adoption"],
+      "properties": {"automatic_adoption": {"const": false}, "change_class": {"const": "RESEARCH_METHOD"}, "validation_plan": {"type": "object", "required": ["dataset", "measurements", "pass_rule", "historical_test"]}}
+    }},
+    {"if": {"properties": {"kind": {"const": "event"}}}, "then": {
+      "required": ["proposal_id", "experiment_id", "status", "automatic_action"],
+      "properties": {
+        "experiment_id": {"type": "string", "minLength": 1},
+        "status": {"enum": ["VALIDATION_REGISTERED", "VALIDATED", "INSUFFICIENT_DATA", "REJECTED", "ADOPTED"]},
+        "dataset_kind": {"enum": ["REAL_HISTORY", "SYNTHETIC"]},
+        "automatic_action": {"const": false},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/proof"}}
+      }
+    }},
+    {"if": {"properties": {"kind": {"const": "outcome"}}}, "then": {
+      "required": ["binding", "actual", "attribution", "commercial_success"],
+      "properties": {"binding": {"type": "object", "required": ["hypothesis_key", "actual_id", "book_id"]}, "actual": {"type": "object", "required": ["schema_version", "id", "book_id", "observed_date", "windows", "funnel"], "properties": {"schema_version": {"const": "book-radar-observed-actual/v1"}}}, "commercial_success": {"const": "UNPROVEN"}}
+    }},
+    {"if": {"properties": {"kind": {"const": "report"}}}, "then": {
+      "required": ["state_digest", "method_version", "research_progress", "methodology_review", "proposed_improvement", "validation", "learning_history", "delayed_outcomes", "production_policy", "production_authorized", "candidates", "limitations"],
+      "properties": {"state_digest": {"$ref": "#/$defs/sha"}, "production_policy": {"const": "HOLD"}, "production_authorized": {"const": false}, "candidates": {"type": "array", "items": {"type": "object", "required": ["id", "status", "reason", "next_validation", "production_authorized"], "properties": {"status": {"enum": ["HOLD", "VALIDATE", "GO"]}, "production_authorized": {"const": false}}}}}
+    }},
+    {"if": {"required": ["proposal_id"], "properties": {"proposal_id": {"const": "discovery-method-comparison/v1"}}}, "then": {"required": ["validation_scope", "data", "measurements", "production_authorized"], "properties": {"kind": {"const": "event"}, "validation_scope": {"enum": ["METHOD_COMPARISON", "PRODUCT_OUTCOME"]}, "status": {"enum": ["VALIDATION_REGISTERED", "INSUFFICIENT_DATA"]}, "production_authorized": {"const": false}, "data": {"$ref": "#/$defs/methodData"}, "measurements": {"type": "object"}}}}
+  ],
+  "$defs": {
+    "sha": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "proof": {"type": "object", "required": ["path", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"$ref": "#/$defs/sha"}}, "additionalProperties": false},
+    "methodData": {
+      "type": "object",
+      "required": [
+        "action",
+        "id"
+      ],
+      "properties": {
+        "action": {
+          "enum": [
+            "REGISTER_PROTOCOL",
+            "START_ARM",
+            "CLOSE_ARM",
+            "FREEZE_HYPOTHESIS",
+            "LINK_DISCOVERY",
+            "START_REVIEW",
+            "CLOSE_REVIEW",
+            "REGISTER_TRIAL",
+            "BIND_OUTCOME"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/proof"
+          }
+        },
+        "forecast": {
+          "type": "object",
+          "required": [
+            "metric",
+            "basis",
+            "horizon_days",
+            "range",
+            "anchor",
+            "rationale"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "REGISTER_PROTOCOL"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "cohort",
+              "profiles",
+              "qualifier",
+              "budget",
+              "context",
+              "method_forecast"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "START_ARM"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "method_id"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "CLOSE_ARM"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "method_id",
+              "trace",
+              "limitations",
+              "evidence"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "FREEZE_HYPOTHESIS"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "hypothesis_id",
+              "niche_id",
+              "method_id",
+              "buyer",
+              "unmet_need_or_motive",
+              "alternatives",
+              "supply_gap_cause",
+              "encounter_route",
+              "product",
+              "birth_assessment",
+              "preliminary_demand",
+              "forecast",
+              "confidence",
+              "evidence",
+              "negative_evidence",
+              "next_falsification",
+              "cost_estimate"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "LINK_DISCOVERY"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "hypothesis_id",
+              "method_id",
+              "role",
+              "evidence"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "CLOSE_REVIEW"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "findings",
+              "evidence"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "REGISTER_TRIAL"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "trial_id",
+              "hypothesis_id",
+              "niche_id",
+              "book_id",
+              "product_family_id",
+              "planned_publication_at",
+              "owner_approval",
+              "identity_evidence",
+              "trial_plan",
+              "costs"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "action": {
+                "const": "BIND_OUTCOME"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "trial_id",
+              "actual_id",
+              "actual",
+              "book",
+              "organic_attribution"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
