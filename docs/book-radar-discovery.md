@@ -2,6 +2,11 @@
 
 ## Active policy: commercial potential first (v5)
 
+Primary market is fixed by [market context policy V1](book-radar-market-context-v1.md):
+EN → Amazon.com / US delivery; FR → Amazon.fr / France delivery. Confirm the
+visible delivery country before collection; retain mismatched observations as
+non-comparable evidence for the intended market.
+
 Current strategy: `book-radar/strategies/candidate-generation-v5-commercial-first.json`.
 Use `validate_commercial_candidate`, `commercial_discovery_decision`, then
 `rank_commercial_candidates` in `src/abvx_harness/book_radar_discovery.py`

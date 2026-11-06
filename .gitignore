@@ -7,6 +7,11 @@ __pycache__/
 .tmp/
 tmp/
 
+# Personal psychology source derivatives stay local; do not commit notebook content or per-note analysis.
+/psychology-warehouse/state/
+/psychology-warehouse/usage/
+/psychology-warehouse/reports/
+
 # Reproducible publishing intermediates; keep final EPUB/PDF, manifests and contact sheets.
 books/*/v*/production/epub-v*/
 books/*/v*/qa/rendered-pages-v*/
@@ -21,9 +26,58 @@ evidence/bakeoffs/*/artifacts/*
 !evidence/bakeoffs/*/runs/.gitkeep
 !evidence/bakeoffs/*/artifacts/.gitkeep
 
-# New operational publication packets/drafts are private local state.
-# Existing tracked synthetic examples remain tracked.
-content/items/*.json
-content/publish-packets/*.json
-evidence/content-ops/*.json
-events/projects/abvxsite/content_published-*.json
+# Local psychology qualification reports may include note IDs and review metadata.
+/psychology-warehouse/audits/
+
+# Operator imports and derived multi-market research state stay local.
+/book-radar/multi-market/state.json
+/book-radar/multi-market/evidence/
+
+/content/drafts/
+
+/content/publish-packets/
+
+/evidence/content-ops/
+
+/content/events.jsonl
+
+# Private Psychology Notebook editorial views and source-bound decisions.
+/psychology-warehouse/editorial/
+
+# Private unified opportunity catalog: candidate facts, drafts and human history.
+/opportunities/private/
+
+# Local operational material is not a public source distribution.
+/.codex/protected-snapshots/
+/.pytest_cache/
+/-.png
+/*.log
+/output/
+/artifacts/
+/events/
+/intake/items/
+/content/items/
+/book-radar/audits/
+/book-radar/calibration/
+/book-radar/runs/
+/book-radar/imports/
+/book-radar/observed-actuals/
+/book-radar/outcomes/
+/books/*
+!/books/factory/
+/books/factory/*
+!/books/factory/contracts/
+!/books/factory/lessons/
+/docs/audits/abvx-secrets-*/
+/docs/audits/abvx-openai-real-*/
+/docs/audits/abvx-credential-broker-openai-*/
+/docs/audits/d2d-portfolio-*/
+
+# Owner-specific journals stay local.
+/ABVX_BOOK_PRODUCTION_LEARNING_REGISTRY_V1.json
+
+# New research/evidence journals need explicit public-source review.
+/book-radar/
+/evidence/
+/learning/
+/psychology-warehouse/

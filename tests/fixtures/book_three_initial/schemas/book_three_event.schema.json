@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/books/rn10-003/book-three-event/v1",
+  "title": "Good Dog Book Three append-only event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["event_id", "timestamp", "stage", "event_type", "actor", "input_refs", "output_refs", "decision", "previous_state", "new_state", "owner_gate", "evidence", "notes"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 8},
+    "book_id": {"const": "gd3"},
+    "format": {"enum": ["kindle", "paperback"]},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "stage": {"type": "string", "minLength": 1},
+    "event_type": {"type": "string", "minLength": 1},
+    "actor": {"type": "string", "minLength": 1},
+    "input_refs": {"type": "array", "items": {"type": "string"}},
+    "output_refs": {"type": "array", "items": {"type": "string"}},
+    "decision": {"type": "string", "minLength": 1},
+    "previous_state": {"type": "object"},
+    "new_state": {"type": "object"},
+    "owner_gate": {"type": "string"},
+    "evidence": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["path", "sha256"], "properties": {"path": {"type": "string"}, "sha256": {"type": "string", "minLength": 64}}}},
+    "notes": {"type": "string"}
+  }
+}

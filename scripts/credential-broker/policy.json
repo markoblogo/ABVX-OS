@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "project": "jekyll-toki-pona",
+  "credential_id": "openai.primary",
+  "approval_mode": "OWNER_APPROVAL",
+  "openai": {
+    "provider": "openai",
+    "operation": "responses.create",
+    "allowed_purposes": ["translation-qa", "editorial-review", "regression-check"],
+    "allowed_models": ["gpt-6-luna"],
+    "default_model": "gpt-6-luna",
+    "max_input_bytes": 32768,
+    "max_output_tokens_default": 1024,
+    "max_output_tokens_max": 4096,
+    "timeout_seconds": 45,
+    "max_retries": 2,
+    "max_calls_per_run": 200,
+    "default_budget_usd": 1.0,
+    "absolute_budget_usd": 3.0,
+    "warning_fraction": 0.7,
+    "capability_ttl_seconds": 14400
+  }
+}

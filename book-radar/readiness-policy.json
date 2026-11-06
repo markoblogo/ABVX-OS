@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "review_interval_days": 30,
+  "substantial_entry_words": 150,
+  "emerging_min_entries": 4,
+  "emerging_min_collections": 2,
+  "emerging_themes": {
+    "ai-in-practice": [
+      "ai",
+      "chatgpt",
+      "gemini",
+      "automation",
+      "artificial-intelligence"
+    ]
+  },
+  "page_model": {
+    "prose_words_per_page": [
+      250,
+      350
+    ],
+    "illustrated_words_per_page": [
+      180,
+      260
+    ],
+    "visual_pages_per_asset": [
+      0.5,
+      1
+    ],
+    "front_matter_pages": [
+      8,
+      16
+    ]
+  },
+  "candidates": [
+    {
+      "id": "kitchen-recipes",
+      "title": "Kitchen Notes \u2014 illustrated recipes",
+      "selector": "kitchen-recipes",
+      "target_pages": [
+        120,
+        180
+      ],
+      "outline": {
+        "entries": 6,
+        "words": 6000,
+        "themes": 3
+      },
+      "manuscript": {
+        "entries": 24,
+        "words": 24000,
+        "themes": 4,
+        "visual_coverage": 0.8
+      },
+      "personal_value": "Example owner-selected content inventory; not a commercial qualification"
+    },
+    {
+      "id": "kitchen-stories",
+      "title": "Kitchen Notes \u2014 culinary stories and memoirs",
+      "selector": "kitchen-stories",
+      "target_pages": [
+        120,
+        180
+      ],
+      "outline": {
+        "entries": 8,
+        "words": 10000,
+        "themes": 3
+      },
+      "manuscript": {
+        "entries": 20,
+        "words": 30000,
+        "themes": 4,
+        "visual_coverage": 0.6
+      },
+      "personal_value": "Example owner-selected content inventory; not a commercial qualification"
+    },
+    {
+      "id": "working-stories",
+      "title": "Working Stories \u2014 professional cases",
+      "selector": "working-stories",
+      "target_pages": [
+        120,
+        200
+      ],
+      "outline": {
+        "entries": 6,
+        "words": 10000,
+        "themes": 3
+      },
+      "manuscript": {
+        "entries": 16,
+        "words": 36000,
+        "themes": 4,
+        "visual_coverage": 0
+      },
+      "personal_value": "Example owner-selected content inventory; not a commercial qualification"
+    },
+    {
+      "id": "psychology-notebook",
+      "title": "Psychology Notebook \u2014 thematic inventory",
+      "selector": "psychology-notebook",
+      "inventory_only": true,
+      "target_pages": [
+        120,
+        180
+      ],
+      "outline": {
+        "entries": 6,
+        "words": 6000,
+        "themes": 3
+      },
+      "manuscript": {
+        "entries": 20,
+        "words": 30000,
+        "themes": 4,
+        "visual_coverage": 0
+      },
+      "personal_value": "Example owner-selected content inventory; not a commercial qualification"
+    },
+    {
+      "id": "art",
+      "title": "Art \u2014 illustrated sketchbook collections",
+      "selector": "art",
+      "target_pages": [
+        48,
+        96
+      ],
+      "outline": {
+        "entries": 12,
+        "words": 0,
+        "themes": 1
+      },
+      "manuscript": {
+        "entries": 48,
+        "words": 0,
+        "themes": 3,
+        "visual_coverage": 1
+      },
+      "personal_value": "Example owner-selected content inventory; not a commercial qualification"
+    }
+  ],
+  "article_annotations": {},
+  "editorial_assessments": {}
+}

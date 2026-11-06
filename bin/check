@@ -1,0 +1,32 @@
+#!/bin/sh
+# Same local runtime path as bin/abvx; no installs or external operations.
+set -eu
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+export PYTHONPATH="$repo_root/src${PYTHONPATH:+:$PYTHONPATH}"
+check_python=${ABVX_CHECK_PYTHON:-python3}
+# Prefer the selected environment: fallback native extensions may target another Python.
+if ! "$check_python" -c 'import jsonschema, pypdf' 2>/dev/null; then
+  export PYTHONPATH="$PYTHONPATH:$repo_root/.tmp/book-core-runtime"
+fi
+"$check_python" -c 'import jsonschema, pypdf' || {
+  echo "Missing development dependencies. Install requirements-dev.txt into an isolated Python environment; see docs/development-checks.md." >&2
+  exit 1
+}
+cd "$repo_root"
+# Record the same check once; the child receives no --record flag.
+if [ "${1:-}" = "--record" ]; then
+  [ "$#" -eq 2 ] || { echo "Usage: bin/check --record .tmp/os-learning/new-run.json" >&2; exit 1; }
+  exec "$check_python" -m abvx_harness learning record-check contract-checks --out "$2"
+fi
+validation_log=$(mktemp "${TMPDIR:-/tmp}/abvx-contract-check.XXXXXX")
+trap 'rm -f "$validation_log"' EXIT
+if ! "$check_python" -m abvx_harness validate >"$validation_log" 2>&1; then
+  cat "$validation_log" >&2
+  exit 1
+fi
+printf '%s\n' 'Repository contracts: PASS'
+if [ "$#" -eq 0 ]; then
+  "$check_python" -m unittest discover -s "$repo_root/tests" -q
+else
+  "$check_python" -m unittest "$@"
+fi

@@ -45,3 +45,7 @@ Routine operations emit compact project events only.
   -> capability promotion
 
 No scheduler or background agent is implied by this model. Consolidation remains an explicit human-directed pass.
+
+## ABVX.xyz content publication
+
+`playbooks/abvxsite.publish-content.json` reuses the Azur Menton ready-text/media pattern with the existing content-ops handoff and consumer-native Writing/Working Story commands. It is an inspectable procedure; `playbook replay` still supports only the original Azur Menton handlers. Use [ABVX site publishing](abvx-site-publishing.md) for the executable preparation, approval, apply, validation and production-verification steps.

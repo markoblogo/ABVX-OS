@@ -2,6 +2,8 @@
 
 Owner-approved NORMAL thin adapter within OS ↔ Cortex scope. Reuses content approval, project checks and private admission/retrieval. No scheduler, new model or publication executor.
 
+Before formatting each new material, apply the compact [recurring-defect preflight](PUBLICATION_RECURRENCE_PREVENTION.md). It records supported formatting and required proof from observed failures; it does not add a new publishing lane or relax any gate.
+
 ## Working cycle
 
 1. Immediately after an explicit publish command, before formatting/intake, run `publication begin --run <unique-cycle-id> --item <unique-intake-id>`; repeat `--item` for a pool (1–20). The current UTC time is the first-work-after-command start; no historical chat timestamp is inferred. Material receipt while the owner is still assembling a pool is not authorization to start publication. Then `scripts/prepare_abvx_publication.py` prepares supplied native Markdown. A ready Writing or Working Story intake automatically starts an ignored `.tmp/publication-learning/<id>/session.json`. Tracked test fixtures are SYNTHETIC; completed IDs or changed workloads require a new intake ID.
@@ -13,6 +15,14 @@ Owner-approved NORMAL thin adapter within OS ↔ Cortex scope. Reuses content ap
 6. Before widening participation to a book phase, `publication verify-first-cycle` reuses exact-tree/log/source verification, independently revalidates the scoped Cortex return, and queries GitHub read-only for the latest Production deployment/status and associated merged site PR. The deployed SHA must exactly match the committed clean checked checkout and the site PR merge commit. It freshly probes approved prose and rejects a concurrent rollout. The ignored `first-cycle.json` binds hashes of normalized selected deployment/status/merge metadata, outcome/source-packet/context/review digests and public HTML digest. Unrelated provider descriptions do not invalidate a retry. Missing, preview, pending, failed, unmerged or wrong-SHA evidence cannot pass. This point-in-time acceptance enables no book hook or business admission. An operator report alone is not a receipt.
 
 The operator/agent performs this closeout during the publishing workflow; the owner does not need to copy telemetry. This covers native Writing articles, video companion articles and Working Stories. RSS-only entries are outside the intake. Books can use reviewed outcomes; their automatic lifecycle hook is a later distinct milestone.
+
+## Metadata-only sync after a verified publication
+
+Owner-authorized on 2026-10-25, cycle closeout can retain an exact successful publication deployment when a later automatic Writing feed sync has already become Production. This does not redeploy or call the historical release the current SHA. The proof retains both identities under `verificationMode=SUCCESSFUL_RELEASE_WITH_METADATA_ONLY_SUCCESSOR`, `currentProductionSha` and `metadataOnlySuccessor`.
+
+This narrow path is available only in `complete-cycle`. It requires the original successful Production status before the successor, the original exact merged PR, a clean checkout of that checked release, the existing source/approval/check-tree/media verification and freshly matched live prose. It verifies the current successor is also successful, then checks complete ancestry and every individual intervening commit (at most ten): linear `writing-sync:` commits may only modify `content/writing-discovery.json`, `public/content-index.json` and `public/llms.txt`. Deleted/renamed files, source/media/code changes, missing/truncated history, divergence, pending/failed deployments and changes during closeout fail closed. Both deployment snapshots are rechecked through the operation. No other successor or old review bypass qualifies.
+
+`deployment_snapshot` remains strict by default, including the separate `verify-first-cycle` book-pilot gate. The scoped exception is explicitly enabled only for cycle completion. Regression coverage: `tests/test_publication_sync_successor.py`, alongside the existing publication suite. The first observed use includes a separately authorized OS repair; its overall elapsed time is descriptive, not evidence of routine publication speed.
 
 ## Operator commands
 

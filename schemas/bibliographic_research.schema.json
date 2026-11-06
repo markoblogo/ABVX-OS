@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://abvx.invalid/schemas/bibliographic-research/v1",
+  "title": "ABVX Bibliographic Research Observation V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "search_id", "source_name", "source_type", "query", "name_variants", "title_variants", "language_filter", "jurisdiction_filter", "retrieved_at", "status", "record_hits", "raw_evidence_pointer", "limitations"],
+  "properties": {
+    "schema_version": {"const": "bibliographic-research/v1"},
+    "search_id": {"type": "string", "minLength": 1},
+    "source_name": {"type": "string", "minLength": 1},
+    "source_type": {"enum": ["BNF", "SUDOC", "OPEN_LIBRARY", "INTERNET_ARCHIVE", "WIKISOURCE", "PROJECT_GUTENBERG", "GOOGLE_BOOKS", "INSTITUTIONAL_CATALOGUE", "OTHER"]},
+    "query": {"type": "string", "minLength": 1},
+    "name_variants": {"type": "array", "items": {"type": "string"}},
+    "title_variants": {"type": "array", "items": {"type": "string"}},
+    "language_filter": {"type": ["string", "null"]},
+    "jurisdiction_filter": {"type": ["string", "null"]},
+    "retrieved_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["SUCCESS", "NO_RESULT", "COLLECTION_FAILED", "BLOCKED", "CAPTCHA", "UNSUPPORTED_MARKETPLACE", "AUTH_REQUIRED", "RATE_LIMITED", "UNKNOWN_FAILURE"]},
+    "record_hits": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["record_id", "uri", "record_type", "title", "language", "edition_date", "completeness"], "properties": {"record_id": {"type": ["string", "null"]}, "uri": {"type": "string", "minLength": 1}, "record_type": {"type": "string", "minLength": 1}, "title": {"type": "string", "minLength": 1}, "language": {"type": ["string", "null"]}, "edition_date": {"type": ["string", "null"]}, "completeness": {"enum": ["FULL_WORK", "EXCERPT", "THESIS_OR_ABSTRACT", "FRAGMENT", "UNSPECIFIED"]}}}},
+    "raw_evidence_pointer": {"type": "string", "minLength": 1},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  }
+}

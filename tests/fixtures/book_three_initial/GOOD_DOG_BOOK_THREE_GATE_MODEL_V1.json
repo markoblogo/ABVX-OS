@@ -1,0 +1,18 @@
+{
+  "schema_version": "good-dogs-book-three-gates/v1",
+  "status": "PROPOSED_REVIEW_ONLY",
+  "book_id": "gd3",
+  "current_stage": "NOT_STARTED",
+  "owner_gates": [
+    {"id":"A","name":"Concept + causal architecture + major creative direction","required":true,"approvals":["concept direction","causal architecture","major Book Three-specific creative direction"],"optional_or_deferred":["final title","subtitle","illustration count","cover accent","ISBN","release date"],"exit":"architecture_locked","machine_prechecks":["canon hash/status","unknown fields explicit","canon conflict scan"],"on_reject":"return_to_concept; do_not_draft"},
+    {"id":"B","name":"Full draft / developmental direction","required":true,"approvals":["full-draft direction","bounded developmental revision scope if needed"],"exit":"developmentally_approved","machine_prechecks":["chapter inventory","continuity ledger coverage","finding IDs/status"],"on_reject":"bounded_revision; no production"},
+    {"id":"C","name":"Text Lock","required":true,"approvals":["canonical manuscript content and hash"],"exit":"text_locked","machine_prechecks":["source-lock byte identity","chapter integrity","continuity invariants","word count"],"on_reject":"text_lock_hold"},
+    {"id":"D","name":"Composer / dialogue approval","required_when":"one_or_more_dog_speech_comics","granularity":"one comic at a time","approvals":["exact dog dialogue Composer output"],"exit":"all_used_dialogue_owner_approved","machine_prechecks":["source span match","speaker channel","glyph evidence reference"],"on_reject":"hold_that_comic_only"},
+    {"id":"E","name":"Cover approval","required":true,"approvals":["front-cover creative and text"],"exit":"front_cover_approved","machine_prechecks":["title/subtitle/author metadata match","series hierarchy and safe area"],"on_reject":"return_to_cover_design"},
+    {"id":"F","name":"KDP Preview + publication authorization","required":true,"granularity":"separate Kindle and paperback confirmation","approvals":["retailer preview accepted","explicit submission authorization per format"],"exit":"submission_authorized","machine_prechecks":["upload SHA matches local PASS artifact","Previewer PASS per format","rights and AI disclosure fields present","metadata consistency"],"on_reject":"blocked; preserve warning and exact binary"}
+  ],
+  "owner_intervention_baseline": {"book_two_grouped_points":16,"proposed_gate_count":6,"interpretation":"qualitative reduction in interruptions, not time/cost percentage"},
+  "states": ["NOT_STARTED","BLOCKED","IN_PROGRESS","REVIEW_REQUIRED","OWNER_ACCEPTED_EXCEPTION","PASS","LOCAL_QA_PASS","KDP_PREVIEW_PENDING","KDP_PREVIEW_PASS","SUBMISSION_AUTHORIZED","SUBMITTED","IN_REVIEW","PUBLISHING","LIVE","REJECTED","HOLD"],
+  "fail_closed": ["canon_conflict","text_lock_hash_mismatch","missing_or_duplicate_chapter","unapproved_dialogue_or_glyph","human_speech_as_pictiq","dog_speech_as_english_without_approved_exception","image_outside_safe_area","wrong_print_trim_or_paper","wrong_author_or_series_metadata","missing_ai_disclosure","kindle_paperback_content_divergence","missing_kdp_previewer_evidence"],
+  "external_writes": "Never performed by orchestrator without explicit owner authorization."
+}

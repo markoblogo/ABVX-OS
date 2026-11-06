@@ -1,6 +1,6 @@
 import json, tempfile, unittest
 from pathlib import Path
-from abvx_harness.publishing_gates import audit_no_bleed_objects, assess_format_eligibility, validate_product_contract, validate_commercial_artifacts, validate_commercial_package, validate_callout_layout, validate_format_layout, representative_product_requirement, record_human_product_gate, release_authorization
+from abvx_harness.publishing_gates import audit_no_bleed_objects, assess_format_eligibility, validate_product_contract, validate_commercial_artifacts, validate_commercial_package, validate_callout_layout, validate_format_layout, representative_product_requirement, record_human_product_gate, release_authorization, local_production_authorization
 
 GOOD={"buyer":"learner","buyer_job":"learn a system","prior_knowledge":"none or adjacent system","confusions":["transfer traps"],"better_or_faster":"recognize and act","paid_value":"curated comparisons","specific_advantage":"two-system map","intentionally_not":"legal advice","primary_format":"PAPERBACK","secondary_formats":["KINDLE"],"format_eligibility_status":{"PAPERBACK":"SUPPORTED","KINDLE":"SUPPORTED"},"format_specific_commercial_role":{"PAPERBACK":"PRIMARY","KINDLE":"SECONDARY"},"product_class":"COMPARISON_GUIDE","dataset_driven":True,"raw_data_transformation":{"raw_source":"two official rule sets","transformation":"comparison graph and explanations","buyer_value":"safe transfer and faster learning"}}
 
@@ -48,10 +48,29 @@ class PublishingGateTests(unittest.TestCase):
         gates={k:"PASS" for k in ("market","product_thesis","representative_product","factual_source","language","editorial","product_quality","technical","toc_navigation","commercial_package")};gates["kdp_external_preview"]="HUMAN_PENDING";gates["product_quality"]="FAIL"
         self.assertEqual(release_authorization(gates)["status"],"PRODUCTION_BLOCKED")
     def test_technical_pass_cannot_overwrite_product_fail(self):
-        gates={"market":"PASS","product_thesis":"PASS","representative_product":"PASS","factual_source":"PASS","language":"PASS","editorial":"PASS","product_quality":"FAIL","technical":"PASS","toc_navigation":"PASS","commercial_package":"PASS","kdp_external_preview":"HUMAN_PENDING"}
-        self.assertEqual(release_authorization(gates)["failures"],[{"gate":"product_quality","state":"FAIL"}])
+        gates={"market":"PASS","product_thesis":"PASS","representative_product":"PASS","factual_source":"PASS","language":"PASS","editorial":"PASS","product_quality":"FAIL","technical":"PASS","copyright_page":"PASS","series_introduction":"PASS","toc_navigation":"PASS","visible_contents":"PASS","contents_parity":"PASS","commercial_package":"PASS","kdp_external_preview":"HUMAN_PENDING"}
+        self.assertEqual(release_authorization(gates,is_series_book=True)["failures"],[{"gate":"product_quality","state":"FAIL"}])
     def test_release_requires_every_mandatory_gate(self):
         self.assertEqual(release_authorization({"technical":"PASS"})["status"],"PRODUCTION_BLOCKED")
+
+    def test_navigation_alone_does_not_authorize_local_production(self):
+        result=local_production_authorization({"technical":"PASS","toc_navigation":"PASS"})
+        self.assertEqual(result["status"],"TECHNICAL_PASS")
+        self.assertTrue({"visible_contents","contents_parity"}.issubset({item["gate"] for item in result["failures"]}))
+        complete={"technical":"PASS","visible_contents":"PASS","contents_parity":"PASS","copyright_page":"PASS","series_introduction":"PASS"}
+        self.assertEqual(local_production_authorization(complete,is_series_book=True)["status"],"LOCAL_PRODUCTION_PASS")
+
+    def test_release_requires_contents_separately_from_navigation(self):
+        gates={k:"PASS" for k in ("market","product_thesis","representative_product","factual_source","language","editorial","product_quality","technical","copyright_page","series_introduction","toc_navigation","commercial_package")}
+        gates["kdp_external_preview"]="HUMAN_PENDING"
+        result=release_authorization(gates,is_series_book=True)
+        self.assertEqual({item["gate"] for item in result["failures"]},{"visible_contents","contents_parity"})
+
+    def test_contents_waiver_requires_title_specific_owner_evidence(self):
+        gates={"technical":"PASS"}
+        self.assertEqual(local_production_authorization(gates,owner_contents_waiver={"approved_by":"OWNER"})["status"],"TECHNICAL_PASS")
+        waiver={"decision":"DISABLE_VISIBLE_CONTENTS","approved_by":"OWNER","title":"Specific Book","evidence":"owner-decision-123"}
+        self.assertEqual(local_production_authorization({**gates,"copyright_page":"PASS","series_introduction":"PASS"},owner_contents_waiver=waiver,is_series_book=True)["status"],"LOCAL_PRODUCTION_PASS")
 
     def test_commercial_package_requires_copy_paste_complete_metadata(self):
         package=commercial_package()
@@ -97,10 +116,31 @@ class PublishingGateTests(unittest.TestCase):
         self.assertEqual(validate_commercial_artifacts(package,artifacts)['status'],'PASS')
 
     def test_commercial_false_pass_blocks_kdp_ready(self):
-        gates={k:"PASS" for k in ("market","product_thesis","representative_product","factual_source","language","editorial","product_quality","technical","toc_navigation")}
+        gates={k:"PASS" for k in ("market","product_thesis","representative_product","factual_source","language","editorial","product_quality","technical","copyright_page","series_introduction","toc_navigation")}
         gates["kdp_external_preview"]="HUMAN_PENDING"
-        result=release_authorization(gates)
+        result=release_authorization(gates,is_series_book=True)
         self.assertIn({"gate":"commercial_package","state":"MISSING"},result["failures"])
+
+    def test_missing_mandatory_front_matter_is_technical_only_not_release_ready(self):
+        local=local_production_authorization({"technical":"PASS","visible_contents":"PASS","contents_parity":"PASS"},is_series_book=True)
+        self.assertEqual(local["status"],"TECHNICAL_PASS")
+        self.assertEqual({item["gate"] for item in local["failures"]},{"copyright_page","series_introduction"})
+        release=release_authorization({"technical":"PASS","copyright_page":"PASS"},is_series_book=True)
+        self.assertEqual(release["status"],"PRODUCTION_BLOCKED")
+        self.assertIn({"gate":"series_introduction","state":"MISSING"},release["failures"])
+
+    def test_series_status_is_explicit_and_standalone_may_skip_recap(self):
+        gates={"technical":"PASS","copyright_page":"PASS"}
+        unknown=release_authorization(gates)
+        self.assertIn({"gate":"series_membership","state":"MISSING"},unknown["failures"])
+        standalone=release_authorization(gates,is_series_book=False)
+        self.assertNotIn({"gate":"series_introduction","state":"MISSING"},standalone["failures"])
+
+    def test_series_kdp_readiness_requires_both_approved_front_matter_gates(self):
+        from abvx_harness.publishing_gates import RELEASE_GATES
+        gates={key:"PASS" for key in RELEASE_GATES}
+        gates.update({"series_membership":"SERIES","series_introduction":"PASS","kdp_external_preview":"HUMAN_PENDING"})
+        self.assertEqual(release_authorization(gates)["status"],"KDP_READY")
 
     def test_format_layout_gate_requires_real_trim_evidence_and_writable_forms(self):
         good={"trim_candidates":[{"trim":"7x10"},{"trim":"8x10"}],"selected_trim":"8x10","callout_layout":{"space_before_pt":18,"space_after_body_pt":18,"space_after_heading_pt":22,"internal_padding_pt":12,"overlap_count":0,"measured":[{"id":"A","before_gap_pt":18,"after_gap_pt":22,"following_type":"HEADING"}]},"form_layout":{"short_row_min_pt":28,"long_row_min_pt":48,"three_column_answer_width_in":1.75,"editorial_asymmetry":True},"chapter_end_whitespace_signal_pages":[]}

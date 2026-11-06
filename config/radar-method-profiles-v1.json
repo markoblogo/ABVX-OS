@@ -1,0 +1,30 @@
+{
+  "version": "radar-method-profiles/v1",
+  "policy": "Research profiles only; no execution/production/adoption authority",
+  "profiles": [
+    {
+      "id": "PAID_CHOICE_DEFECT/v1",
+      "birth": "A paid product choice with independently repeated specific buyer defect, correctable reader-choice advantage and plausible encounter/switch route. Paid demand remains a separate evidence facet.",
+      "stop": "Generic low rating, one complaint, adequate substitute, unsupported format fit or no encounter route.",
+      "motivation_scope": "Practical, entertainment, gift, identity and aesthetic reading motives are all eligible."
+    },
+    {
+      "id": "REPEATED_UNMET_JOB/v1",
+      "birth": "Independent repeated buyer need or reading/social/identity motive plus current workaround or expenditure and identifiable payer; select product only after format/payment fit.",
+      "stop": "One viral discussion, correlated authors, free interest without reason to pay, absent format or payer.",
+      "motivation_scope": "Jobs can be emotional/social/aesthetic as well as functional; no utilitarian-only gate."
+    },
+    {
+      "id": "COMMERCIAL_MARKET_FIRST/v1",
+      "birth": "Readership x reading motivation x book market x reader promise x channel; concrete existing paid market before product proposal.",
+      "stop": "No credible reader promise, unsupported route, rights failure or insufficient independent market evidence.",
+      "motivation_scope": "Fiction, gifts, identity and pleasure eligible; method profile does not replace the historical v5 scorer."
+    },
+    {
+      "id": "OBJECT_AUDIENCE_MOTIVE/v1",
+      "birth": "An object/work/theme plus identifiable audience and reading motive suggests an underserved format/language/edition with a plausible paid encounter route.",
+      "stop": "Portfolio hindsight, mere repackaging without reader value, unresolved rights or lack of payment mechanism.",
+      "motivation_scope": "Object/audience challenger retained; previous shadow results do not validate this version."
+    }
+  ]
+}

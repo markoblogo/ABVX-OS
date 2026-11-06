@@ -226,7 +226,14 @@ def validate_repository(root: Path) -> list[str]:
     book_radar_state = root / "book-radar" / "state.json"
     if book_radar_state.is_file():
         validate(load_json(book_radar_state), load_json(book_radar_state_schema), schema_path=book_radar_state_schema, root=root, location=str(book_radar_state))
+        from .book_radar import load_state as load_book_radar_state
+        load_book_radar_state(root)  # Validate typed outcome semantics and canonical links too.
         checked.append(str(book_radar_state.relative_to(root)))
+    revenue_model = root / "book-radar" / "revenue-model-v2.json"
+    if revenue_model.is_file():
+        from .book_radar_revenue import load_model
+        load_model(root)
+        checked.append(str(revenue_model.relative_to(root)))
     scoring_schema = root / "schemas" / "book_radar_scoring_model.schema.json"
     for path in sorted((root / "book-radar" / "scoring-models").glob("*.json")):
         validate(load_json(path), load_json(scoring_schema), schema_path=scoring_schema, root=root, location=str(path))
@@ -254,6 +261,28 @@ def validate_repository(root: Path) -> list[str]:
     for path in sorted((root / "book-radar" / "runs").glob("*/evidence-cards.json")):
         validate(load_json(path), load_json(evidence_cards_schema), schema_path=evidence_cards_schema, root=root, location=str(path))
         checked.append(str(path.relative_to(root)))
+    acceptance_schema = root / "schemas" / "ukrainian_modernism_radar_acceptance.schema.json"
+    radar_evidence_schema = root / "schemas" / "radar_evidence.schema.json"
+    if acceptance_schema.is_file() and radar_evidence_schema.is_file():
+        from .radar_evidence import validate_evidence_record
+
+        for path in sorted((root / "book-radar" / "acceptance").glob("*/acceptance-v1.json")):
+            payload = load_json(path)
+            validate(payload, load_json(acceptance_schema), schema_path=acceptance_schema, root=root, location=str(path))
+            for item in payload["evidence"]:
+                validate_evidence_record(item, load_json(radar_evidence_schema), schema_path=radar_evidence_schema, root=root)
+            checked.append(str(path.relative_to(root)))
+        contract_files = (
+            ("rights-evidence-v1.json", "rights_evidence.schema.json"),
+            ("translation-existence-v1.json", "translation_existence.schema.json"),
+        )
+        for filename, schema_name in contract_files:
+            contract_schema = root / "schemas" / schema_name
+            for path in sorted((root / "book-radar" / "acceptance").glob(f"*/{filename}")):
+                batch = load_json(path)
+                for index, record in enumerate(batch["records"]):
+                    validate(record, load_json(contract_schema), schema_path=contract_schema, root=root, location=f"{path}[{index}]")
+                checked.append(str(path.relative_to(root)))
     book_spec_schema_path = root / "schemas" / "book_spec.schema.json"
     if book_spec_schema_path.is_file():
         for path in sorted((root / "books" / "specs").glob("*.json")):

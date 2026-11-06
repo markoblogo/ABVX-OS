@@ -1,0 +1,31 @@
+{
+  "schema_version": "publishing-front-matter-contract/v1",
+  "contract_id": "mandatory-publishing-front-matter",
+  "applies_to": "Every book prepared for publication through ABVX-OS",
+  "requirements": [
+    {
+      "id": "copyright-page",
+      "mandatory": true,
+      "placement": "front_matter",
+      "requirement": "Every published book contains an approved reader-facing copyright page. It may not be omitted because the owner did not explicitly request it."
+    },
+    {
+      "id": "series-introduction",
+      "mandatory_when": "book belongs to a series",
+      "placement": "front_matter",
+      "book_one": "Briefly introduce the series/world and the premise of the current book.",
+      "book_two_plus": "Provide approximately 0.5–1 printed page of the minimum relevant prior-volume events, followed by a short transition into the current book's premise.",
+      "source_rule": "Derive recap claims from canonical/locked manuscripts of previous volumes. Record source paths and SHA-256 values. Do not reconstruct from memory or marketing copy; avoid unnecessary spoilers.",
+      "manuscript_boundary": "This reader-facing material is front matter and remains outside the locked narrative manuscript."
+    }
+  ],
+  "status_rules": {
+    "technical_pass": "May describe a technically valid interior even when mandatory front matter is absent; it is diagnostic only.",
+    "final": "Requires TECHNICAL_PASS plus all applicable mandatory front-matter and production gates.",
+    "kdp_ready": "Requires FINAL plus all applicable publication gates; missing copyright page, unknown series membership, or missing series introduction blocks readiness."
+  },
+  "provenance": {
+    "owner_request": "2026-10-02",
+    "implementation_scope": "permanent ABVX-OS production gate"
+  }
+}

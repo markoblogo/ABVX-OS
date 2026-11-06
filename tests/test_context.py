@@ -1,4 +1,6 @@
 import json
+import contextlib
+import io
 import tempfile
 import unittest
 from pathlib import Path
@@ -14,7 +16,9 @@ from abvx_harness.context import (
     request_context,
     route_provider_ids,
 )
+from abvx_harness.memory_decisions import record_memory_decision, apply_memory_decisions
 from abvx_harness.harness import ValidationError, validate_repository
+from abvx_harness.__main__ import main
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -40,6 +44,96 @@ class FakeProvider:
 
 
 class ContextTests(unittest.TestCase):
+    def test_memory_invalidation_and_conflict_resolution_are_local_auditable_overlays(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            provenance = {"source": "manual-review", "evidence_ref": "review-17"}
+            record_memory_decision(
+                root,
+                action="INVALIDATE",
+                target_refs=[{"provider": "cortexabv", "id": "fact:wrong"}],
+                privacy_domain="PERSONAL_PRIVATE",
+                rationale="Owner confirmed this fact is incorrect.",
+                provenance=provenance,
+                decision_id="decision-1",
+                decided_at="2026-09-25T12:00:00Z",
+            )
+            record_memory_decision(
+                root,
+                action="RESOLVE_CONFLICT",
+                target_refs=[
+                    {"provider": "cortexabv", "id": "fact:old"},
+                    {"provider": "cortexabv", "id": "fact:new"},
+                ],
+                chosen_ref={"provider": "cortexabv", "id": "fact:new"},
+                privacy_domain="PERSONAL_PRIVATE",
+                rationale="The owner selected the newer supported statement.",
+                provenance=provenance,
+                decision_id="decision-2",
+                decided_at="2026-09-25T12:01:00Z",
+            )
+            items = [
+                {"provider": "cortexabv", "id": "fact:wrong"},
+                {"provider": "cortexabv", "id": "fact:old"},
+                {"provider": "cortexabv", "id": "fact:new"},
+                {"provider": "index-cortex", "id": "fact:old"},
+            ]
+            filtered, applied = apply_memory_decisions(root, items, privacy_domain="PERSONAL_PRIVATE")
+            self.assertEqual(filtered, [items[2], items[3]])
+            self.assertEqual([entry["decision_id"] for entry in applied], ["decision-1", "decision-2"])
+            self.assertEqual(len(list((root / "evidence" / "memory-decisions").glob("*.json"))), 2)
+
+    def test_memory_decisions_fail_closed_without_privacy_and_provenance(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            with self.assertRaises(ValidationError):
+                record_memory_decision(
+                    Path(temporary),
+                    action="INVALIDATE",
+                    target_refs=[{"provider": "cortexabv", "id": "fact:wrong"}],
+                    privacy_domain="",
+                    rationale="Confirmed wrong.",
+                    provenance={},
+                )
+
+    def test_context_pack_applies_only_same_domain_memory_decisions(self):
+        request = load_context_request(ROOT, ROOT / "context" / "requests" / "index-pop-methodology.json")
+        item = {
+            "id": "method:retired", "provider": "index-cortex", "category": "domain_context",
+            "title": "Retired method", "summary": "Old summary", "excerpt": "Old evidence",
+            "privacy_classification": "DOMAIN_PRIVATE", "confidence": "HIGH", "provenance": {"path": "docs/old.md"},
+        }
+        with tempfile.TemporaryDirectory() as temporary:
+            output_root = Path(temporary)
+            record_memory_decision(
+                output_root, action="INVALIDATE", target_refs=[{"provider": "index-cortex", "id": "method:retired"}],
+                privacy_domain="DOMAIN_PRIVATE", rationale="Source was superseded.",
+                provenance={"source": "owner-review", "evidence_ref": "review-18"}, decision_id="decision-context",
+            )
+            provider = FakeProvider("index-cortex", result={
+                "status": "ok", "items": [item], "sources": [], "proof_assets": [], "known_gaps": [],
+                "truncated": False, "available_more": False, "privacy_classification": "DOMAIN_PRIVATE", "elapsed_ms": 1,
+            })
+            pack = assemble_context_pack(ROOT, request, providers={"index-cortex": provider}, output_root=output_root)
+            self.assertEqual(pack["knowledge_items"], [])
+            self.assertEqual(pack["relevant_decisions"][0]["decision_id"], "decision-context")
+            self.assertTrue(any("source stores were not changed" in gap for gap in pack["known_gaps"]))
+
+    def test_memory_decision_cli_records_local_decision(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            request_path = root / "decision.json"
+            request_path.write_text(json.dumps({
+                "action": "INVALIDATE", "target_refs": [{"provider": "cortexabv", "id": "fact:wrong"}],
+                "privacy_domain": "PERSONAL_PRIVATE", "rationale": "Owner confirmed incorrect.",
+                "provenance": {"source": "manual-review"}, "decision_id": "cli-decision",
+            }), encoding="utf-8")
+            output = io.StringIO()
+            with contextlib.redirect_stdout(output):
+                result = main(["memory", "decision", "record", "--file", "decision.json"], root=root)
+            self.assertEqual(result, 0)
+            self.assertTrue((root / "evidence" / "memory-decisions" / "cli-decision.json").is_file())
+            self.assertFalse(json.loads(output.getvalue())["write_back"])
+
     def test_repository_documents_validate(self):
         checked = validate_repository(ROOT)
         self.assertIn("context/requests/coqpi-preparation.json", checked)

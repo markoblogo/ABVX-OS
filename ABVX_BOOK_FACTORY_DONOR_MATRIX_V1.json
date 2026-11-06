@@ -1,0 +1,2570 @@
+{
+  "schema_version": "v1",
+  "research_date": "2026-09-30",
+  "mode": "EXTERNAL_RESEARCH_READ_ONLY_ARCHITECTURE",
+  "cost_class": "NORMAL",
+  "status": "READY_FOR_OWNER_REVIEW_NOT_ADOPTED",
+  "counts_definition": "Exclusive primary donor classification; inspected means repository/docs, not runtime audit. Phase counts refer to scoped subcapabilities, not whole phases.",
+  "summary": {
+    "donors_inspected": 41,
+    "high_priority_donors": 9,
+    "direct_adoption_candidates": 3,
+    "wrap_candidates": 11,
+    "adapt_candidates": 2,
+    "borrow_pattern_candidates": 19,
+    "rejected": 6,
+    "phase_2_plus_items_potentially_replaced": 8,
+    "phase_2_only_items_potentially_replaced": 7
+  },
+  "core_legend": {
+    "C1": "Identity",
+    "C2": "State",
+    "C3": "Events",
+    "C4": "Locks",
+    "C5": "Dependencies / STALE / provenance",
+    "C6": "Validation",
+    "C7": "Build Manifest",
+    "C8": "Format Targets",
+    "C9": "Metadata",
+    "C10": "Retailer State",
+    "C11": "Metrics",
+    "C12": "Learning"
+  },
+  "donors": [
+    {
+      "id": "epubcheck",
+      "name": "EPUBCheck",
+      "classification": "WRAP",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "Authoritative EPUB package/XHTML/navigation conformance and regression messages",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "FIXED_PAGE"
+      ],
+      "license": "BSD-3-Clause",
+      "package_ecosystem": "Java",
+      "dependencies": "JRE; packaged Java libraries; standalone release avoids Maven build",
+      "dependency_weight": "MEDIUM",
+      "output_format": "JSON/XML reports",
+      "machine_readable_output": "JSON report with issue IDs/severity/location",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Technical conformance is not visible Contents, editorial, retailer or full accessibility PASS",
+      "maintenance_activity": "W3C/DAISY maintained; production-ready 5.4.0 release observed; release page says 15 Sep, year not independently resolved",
+      "latest_release_observed": "5.4.0",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/w3c/epubcheck",
+        "https://github.com/w3c/epubcheck/wiki/Running",
+        "https://github.com/w3c/epubcheck/wiki/TestSuite",
+        "https://github.com/w3c/epubcheck/releases"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "ace",
+      "name": "Ace by DAISY",
+      "classification": "WRAP",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "Automated EPUB accessibility checks plus explicit manual-check inventory",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "FIXED_PAGE"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "npm",
+      "dependencies": "Node; axe and browser/runtime dependencies; inspect lockfile before spike",
+      "dependency_weight": "MEDIUM",
+      "output_format": "EARL JSON/HTML report",
+      "machine_readable_output": "JSON/JSON-LD",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Default exit 0 means execution completed, not violations absent; alt-text meaning and reading experience need human review",
+      "maintenance_activity": "DAISY maintained; official CLI docs advertise 1.4.6; reconcile docs/release/package version before pinning",
+      "latest_release_observed": "1.4.6 (docs, not independently confirmed latest)",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/daisy/ace",
+        "https://daisy.github.io/ace/docs/cli/",
+        "https://github.com/daisy/ace/releases"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "pandoc",
+      "name": "Pandoc",
+      "classification": "WRAP",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "Canonical manuscript conversion to EPUB3; generated navigation/TOC, metadata, cover, AST and citation processing",
+      "core": [
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-2.0-or-later",
+      "package_ecosystem": "native binary",
+      "dependencies": "Packaged Haskell binary; no TeX needed for EPUB; PDF needs chosen renderer",
+      "dependency_weight": "LOW",
+      "output_format": "EPUB3/HTML/DOCX/JSON AST/PDF via engine",
+      "machine_readable_output": "JSON AST; EPUB package inspection; stderr is not QA JSON",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Conversion can lose manuscript semantics; generated identifier/date defaults undermine stable identity",
+      "maintenance_activity": "Maintained project and current release stream inspected; exact latest version UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/jgm/pandoc",
+        "https://pandoc.org/MANUAL.html",
+        "https://github.com/jgm/pandoc/releases"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "vivli-cli",
+      "name": "Vivliostyle CLI",
+      "classification": "WRAP",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "CSS paged-media renderer with visible TOC, target counters, PDF/EPUB output and versioned configs",
+      "core": [
+        "C7",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "FIXED_PAGE"
+      ],
+      "license": "AGPL-3.0; audit linked core/package licenses",
+      "package_ecosystem": "npm",
+      "dependencies": "Node; browser engine; Vivliostyle core; fonts/themes; optional preflight tools",
+      "dependency_weight": "MEDIUM",
+      "output_format": "PDF/EPUB",
+      "machine_readable_output": "Config/API structured; no complete ABVX QA report guaranteed",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Renderer/browser/theme drift; automatic npm theme resolution can fetch network; no migration without equivalence proof",
+      "maintenance_activity": "Active ecosystem; release page and current docs inspected; cached release listing includes 10.3.1, not a latest-version claim",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/vivliostyle/vivliostyle-cli",
+        "https://docs.vivliostyle.org/en/cli/toc-page/",
+        "https://docs.vivliostyle.org/en/cli/themes-and-css/",
+        "https://github.com/vivliostyle/vivliostyle-cli/releases",
+        "https://github.com/vivliostyle/vivliostyle.org/blob/master/faq.md"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "vfm",
+      "name": "VFM",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Explicit heading IDs, frontmatter and manuscript-to-HTML semantics",
+      "core": [
+        "C8",
+        "C9"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "REFLOWABLE_EPUB/KINDLE"
+      ],
+      "license": "Apache-2.0 per official Vivliostyle FAQ; verify selected package LICENSE before copying",
+      "package_ecosystem": "npm",
+      "dependencies": "Node; unified/Markdown processing",
+      "dependency_weight": "MEDIUM",
+      "output_format": "HTML",
+      "machine_readable_output": "HTML/processor API",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "LOW",
+      "main_risk": "Dialect migration and ruby/Unicode semantics; keep canonical Markdown unchanged",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/vivliostyle/vfm",
+        "https://github.com/vivliostyle/vivliostyle.org/blob/master/faq.md"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "create-book",
+      "name": "Vivliostyle create-book",
+      "classification": "BORROW_PATTERN",
+      "priority": "REFERENCE ONLY",
+      "mechanic": "Small book scaffold with separate manuscript/config/theme",
+      "core": [
+        "C7",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "Verify current monorepo package license before copying",
+      "package_ecosystem": "npm",
+      "dependencies": "Now located in CLI monorepo; do not adopt obsolete standalone repo",
+      "dependency_weight": "MEDIUM",
+      "output_format": "Project files",
+      "machine_readable_output": "Config/package JSON",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "LOW",
+      "main_risk": "Standalone repository moved; scaffolding duplicates ABVX identity/locks",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/vivliostyle/create-book",
+        "https://github.com/vivliostyle/vivliostyle-cli/tree/HEAD/packages/create-book"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "themes",
+      "name": "Vivliostyle themes",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Versioned page/typography tokens and representative manuscript samples",
+      "core": [
+        "C7",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "FIXED_PAGE"
+      ],
+      "license": "Apache-2.0; theme fonts/assets may have independent licenses",
+      "package_ecosystem": "npm/CSS",
+      "dependencies": "Theme packages; licensed fonts; renderer",
+      "dependency_weight": "LOW",
+      "output_format": "CSS/samples",
+      "machine_readable_output": "CSS custom properties/config",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "LOW",
+      "main_risk": "Theme changes alter pages; visual elegance is not safe-area/parity proof",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/vivliostyle/themes",
+        "https://github.com/vivliostyle/themes/blob/main/LICENSE"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "pressbooks",
+      "name": "Pressbooks",
+      "classification": "REJECT",
+      "priority": "REJECT",
+      "mechanic": "Multi-format export and reusable front/back matter are references only",
+      "core": [
+        "C8",
+        "C9"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-3.0-or-later",
+      "package_ecosystem": "PHP/WordPress",
+      "dependencies": "WordPress multisite; PHP; DB; exporters",
+      "dependency_weight": "HIGH",
+      "output_format": "Web/PDF/EPUB",
+      "machine_readable_output": "Platform APIs; no narrow local adapter qualified",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "CMS/database ownership and hosted operational burden exceed control-plane need",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/pressbooks/pressbooks"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "HIGH"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "quarto",
+      "name": "Quarto",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Project target profiles, book chapter inventory, crossrefs and freeze separation",
+      "core": [
+        "C5",
+        "C7",
+        "C8"
+      ],
+      "book_type_modules": [
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT for CLI; bundled tool licenses separate",
+      "package_ecosystem": "Deno/native",
+      "dependencies": "Pandoc and optional execution engines/renderers",
+      "dependency_weight": "LOW",
+      "output_format": "HTML/PDF/EPUB",
+      "machine_readable_output": "YAML config; generated structure",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Technical executable-document assumptions; frozen output is not complete dependency identity",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/quarto-dev/quarto-cli"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "pipeline",
+      "name": "DAISY Pipeline 2",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Typed publishing transforms with validation steps and accessible-format conversions",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "LGPL-3.0; module licenses vary",
+      "package_ecosystem": "Java",
+      "dependencies": "Java; XProc/XSLT; modules/runtime",
+      "dependency_weight": "HIGH",
+      "output_format": "EPUB/DAISY and other module-specific targets",
+      "machine_readable_output": "XML job/result interfaces",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Service/runtime weight and specialist formats; no need for whole conversion framework",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/daisy/pipeline"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "calibre",
+      "name": "Calibre",
+      "classification": "REJECT",
+      "priority": "REJECT",
+      "mechanic": "ebook-convert and polishing illustrate post-build repair boundaries",
+      "core": [
+        "C8",
+        "C9"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-3.0",
+      "package_ecosystem": "Python/native",
+      "dependencies": "Large Python/Qt/native application distribution",
+      "dependency_weight": "HIGH",
+      "output_format": "EPUB/AZW3 and many conversions",
+      "machine_readable_output": "CLI; logs, no stable ABVX QA contract qualified",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Opaque normalization/repair can change locked output and duplicate Pandoc",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/kovidgoyal/calibre"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "HIGH"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "sigil",
+      "name": "Sigil",
+      "classification": "REJECT",
+      "priority": "REJECT",
+      "mechanic": "Manual EPUB inspection/navigation editing is optional owner tooling",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-3.0",
+      "package_ecosystem": "C++/Qt/Python",
+      "dependencies": "GUI application and plugins",
+      "dependency_weight": "HIGH",
+      "output_format": "EPUB",
+      "machine_readable_output": "GUI/plugin API",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Manual edits become canonical drift; poor unattended adapter fit",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/Sigil-Ebook/Sigil"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "HIGH"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "mdbook",
+      "name": "mdBook",
+      "classification": "BORROW_PATTERN",
+      "priority": "REFERENCE ONLY",
+      "mechanic": "SUMMARY inventory and preprocessor/renderer boundary",
+      "core": [
+        "C5",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MPL-2.0",
+      "package_ecosystem": "Rust",
+      "dependencies": "Rust binary; preprocessors optional",
+      "dependency_weight": "LOW",
+      "output_format": "HTML by default",
+      "machine_readable_output": "JSON preprocessor protocol",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "LOW",
+      "main_risk": "Web documentation default; EPUB/PDF require extra unqualified backends",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/rust-lang/mdBook"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "bookdown",
+      "name": "Bookdown",
+      "classification": "REJECT",
+      "priority": "REJECT",
+      "mechanic": "Crossref/chapter assembly can be read as reference",
+      "core": [
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-3.0",
+      "package_ecosystem": "R",
+      "dependencies": "R; rmarkdown; Pandoc; TeX for PDF",
+      "dependency_weight": "HIGH",
+      "output_format": "HTML/PDF/EPUB",
+      "machine_readable_output": "R/YAML config",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "R stack duplicates existing routes; academic conventions not literary production",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/rstudio/bookdown"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "HIGH"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "antora",
+      "name": "Antora",
+      "classification": "REJECT",
+      "priority": "REJECT",
+      "mechanic": "Versioned component catalogue is relevant only to documentation",
+      "core": [
+        "C1",
+        "C5"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MPL-2.0",
+      "package_ecosystem": "npm",
+      "dependencies": "Node/AsciiDoc; Git content sources",
+      "dependency_weight": "HIGH",
+      "output_format": "Documentation site",
+      "machine_readable_output": "YAML component/playbook data",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Site/version framework lacks direct retail EPUB/print payoff",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://gitlab.com/antora/antora",
+        "https://docs.antora.org/antora/latest/"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "HIGH"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "pagedjs",
+      "name": "Paged.js",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "CSS pagination hooks, running strings, counters and target-page references",
+      "core": [
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "FIXED_PAGE"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "npm/browser",
+      "dependencies": "Browser and optional headless CLI",
+      "dependency_weight": "LOW",
+      "output_format": "Paged HTML/PDF via browser",
+      "machine_readable_output": "JS hooks/DOM; no full QA JSON",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Browser pagination/version dependence; SILE/TeX adapter replacement not justified",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/pagedjs/pagedjs"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "sile",
+      "name": "SILE",
+      "classification": "BORROW_PATTERN",
+      "priority": "REFERENCE ONLY",
+      "mechanic": "Explicit frame/page masters and extensible typesetting packages",
+      "core": [
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "Lua/native",
+      "dependencies": "Lua; shaping/font/native libraries",
+      "dependency_weight": "HIGH",
+      "output_format": "PDF",
+      "machine_readable_output": "Lua APIs; logs",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Custom typesetting packages and sitelen equivalence are expensive; no demonstrated gap",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/sile-typesetter/sile"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "weasy",
+      "name": "WeasyPrint",
+      "classification": "WRAP",
+      "priority": "USEFUL",
+      "mechanic": "Offline HTML/CSS PDF alternative with bookmark/page APIs and PDF variants",
+      "core": [
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "FIXED_PAGE"
+      ],
+      "license": "BSD-3-Clause",
+      "package_ecosystem": "Python/native",
+      "dependencies": "Pango/font stack; Python CSS/HTML/PDF dependencies",
+      "dependency_weight": "MEDIUM",
+      "output_format": "PDF",
+      "machine_readable_output": "Python document/page/bookmark APIs",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Major versions can change pagination; restrict URL fetchers; generated PDF/UA claims need validator and human checks",
+      "maintenance_activity": "Current stable docs show 70.0; explicit warning that rendering changes across versions",
+      "latest_release_observed": "70.0 (stable docs)",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/Kozea/WeasyPrint",
+        "https://doc.courtbouillon.org/weasyprint/stable/api_reference.html"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "weblate",
+      "name": "Weblate",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Changed-source review flags, glossary checks, revision-linked translation history",
+      "core": [
+        "C2",
+        "C3",
+        "C5",
+        "C6"
+      ],
+      "book_type_modules": [
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-3.0-or-later",
+      "package_ecosystem": "Python/web",
+      "dependencies": "Django; DB/cache; service operations",
+      "dependency_weight": "HIGH",
+      "output_format": "Translation formats",
+      "machine_readable_output": "REST API/check records",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Software strings lose literary context; self-hosting duplicates ABVX state",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/WeblateOrg/weblate",
+        "https://docs.weblate.org/en/latest/user/checks.html"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "omegat",
+      "name": "OmegaT",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "TMX memory, glossary, fuzzy-match suggestions and document alignment",
+      "core": [
+        "C5",
+        "C6"
+      ],
+      "book_type_modules": [
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-3.0",
+      "package_ecosystem": "Java",
+      "dependencies": "Desktop JVM; filters/dictionaries optional",
+      "dependency_weight": "MEDIUM",
+      "output_format": "TMX/XLIFF and translated documents",
+      "machine_readable_output": "Interchange XML; headless surface not qualified",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Fuzzy matches are suggestions, never accepted literary translations; sentence segmentation can disrupt blocks",
+      "maintenance_activity": "Official site lists 6.1.1 and weekly builds; GitHub seed URL failed, official site used",
+      "latest_release_observed": "6.1.1 (official site)",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://omegat.org/"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "translate",
+      "name": "Translate Toolkit",
+      "classification": "WRAP",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "TMX/XLIFF/PO conversion, merge, alignment and deterministic QA filters",
+      "core": [
+        "C5",
+        "C6"
+      ],
+      "book_type_modules": [
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "GPL-3.0 (repository license classification); verify selected package COPYING and file-level notices",
+      "package_ecosystem": "Python",
+      "dependencies": "Python >=3.11; lxml and unicode-segmentation-rs; extras only when needed",
+      "dependency_weight": "LOW",
+      "output_format": "TMX/XLIFF/PO/QA files",
+      "machine_readable_output": "Python objects/XML; normalize CLI diagnostics",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Keep as subprocess boundary; gettext merge identity does not include ABVX context/model/Bible policy",
+      "maintenance_activity": "Current docs show 3.20.0; repository specifies Python/native deps; exact release date UNKNOWN",
+      "latest_release_observed": "3.20.0 (docs)",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/translate/translate",
+        "https://docs.translatehouse.org/projects/translate-toolkit/en/latest/",
+        "https://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/pofilter.html",
+        "https://docs.translatehouse.org/projects/translate-toolkit/en/latest/commands/pot2po.html",
+        "https://github.com/translate/translate/blob/master/COPYING"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "jsonschema",
+      "name": "python-jsonschema",
+      "classification": "ADOPT",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "Standards-based Draft2020-12 schema and meta-schema validation",
+      "core": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C6",
+        "C7",
+        "C9"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "Python",
+      "dependencies": "attrs; referencing; jsonschema-specifications; rpds-py; pin exact dependency graph",
+      "dependency_weight": "LOW",
+      "output_format": "Validation errors",
+      "machine_readable_output": "Python errors with instance/schema paths",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Format checks require explicit configuration; schema validity does not verify file hashes or authority",
+      "maintenance_activity": "Release page marks 4.26.0 Latest, dated 07 Jan (year unresolved); activity snapshot 2026-07-30; exact last substantive commit UNKNOWN",
+      "latest_release_observed": "4.26.0 (release page)",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/python-jsonschema/jsonschema",
+        "https://github.com/python-jsonschema",
+        "https://github.com/python-jsonschema/jsonschema/releases"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "qpdf",
+      "name": "qpdf",
+      "classification": "WRAP",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "Reuse PDF syntax checks and object JSON, not new PDF parser",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "Apache-2.0 (current releases; older license differs)",
+      "package_ecosystem": "C++ native",
+      "dependencies": "Packaged native libraries; no browser/JVM",
+      "dependency_weight": "LOW",
+      "output_format": "PDF/check diagnostics/object JSON",
+      "machine_readable_output": "JSON object representation; check exit statuses/logs",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Syntax/object inventory is not complete transformed text/vector geometry or KDP acceptance",
+      "maintenance_activity": "Release stream inspected; 12.1.0 visible dated 06 Apr; not a latest-version assertion",
+      "latest_release_observed": "12.1.0 (observed, not latest)",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/qpdf/qpdf",
+        "https://qpdf.readthedocs.io/",
+        "https://github.com/qpdf/qpdf/releases"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "verapdf",
+      "name": "veraPDF",
+      "classification": "WRAP",
+      "priority": "USEFUL",
+      "mechanic": "Formal PDF/A and machine-verifiable PDF/UA validation profiles",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "PRINT_PDF",
+        "FIXED_PAGE"
+      ],
+      "license": "MPL-2.0-or-later OR GPL-3.0-or-later",
+      "package_ecosystem": "Java",
+      "dependencies": "Java; validator profile libraries",
+      "dependency_weight": "MEDIUM",
+      "output_format": "XML/JSON/HTML reports",
+      "machine_readable_output": "XML/JSON reports",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "N/A if profile not required; PDF/X or retailer geometry not equivalent; human accessibility checks remain",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/veraPDF/veraPDF-library",
+        "https://docs.verapdf.org/validation/",
+        "https://docs.verapdf.org/cli/help/"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "pillow",
+      "name": "Pillow",
+      "classification": "ADOPT",
+      "priority": "USEFUL",
+      "mechanic": "Decode assets, dimensions/mode and reproducible bounded image derivatives",
+      "core": [
+        "C6",
+        "C7",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "HPND / Pillow license; native codec licenses separate",
+      "package_ecosystem": "Python/native",
+      "dependencies": "Python; image codec binaries",
+      "dependency_weight": "MEDIUM",
+      "output_format": "Images/Python metadata",
+      "machine_readable_output": "Python image properties",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Stored DPI tag is not placed effective DPI; decompression bombs/untrusted images; never generative repair",
+      "maintenance_activity": "Release page lists 12.3.0 dated 01 Jul; exact year not independently resolved",
+      "latest_release_observed": "12.3.0 (release page)",
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/python-pillow/Pillow",
+        "https://github.com/python-pillow/Pillow/releases"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "textlint",
+      "name": "textlint",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Markup-aware prose lint rule/fixture format",
+      "core": [
+        "C6"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT; individual rules vary",
+      "package_ecosystem": "npm",
+      "dependencies": "Node/plugins/parser",
+      "dependency_weight": "MEDIUM",
+      "output_format": "Diagnostics",
+      "machine_readable_output": "JSON formatter",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "English/Japanese generic rules can damage literary voice or misread TP",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/textlint/textlint"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "vale",
+      "name": "Vale",
+      "classification": "WRAP",
+      "priority": "USEFUL",
+      "mechanic": "Local glossary/terminology and style warnings with source locations",
+      "core": [
+        "C6"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT; style packs have independent licenses",
+      "package_ecosystem": "Go binary",
+      "dependencies": "Packaged binary; local style packs; dictionaries optional",
+      "dependency_weight": "LOW",
+      "output_format": "Diagnostics",
+      "machine_readable_output": "JSON formatter",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Regex and language tokenization are not TP semantics or native editorial acceptance",
+      "maintenance_activity": "Active release stream inspected (pagination/CLI changes); exact current version/date UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/vale-cli/vale",
+        "https://docs.vale.sh/topics/cli",
+        "https://github.com/vale-cli/vale/releases"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "pandiff",
+      "name": "PanDiff",
+      "classification": "WRAP",
+      "priority": "USEFUL",
+      "mechanic": "Structure-aware edition comparison as CriticMarkup/HTML/DOCX Track Changes",
+      "core": [
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "book_type_modules": [
+        "SOURCE_BACKED_REFERENCE",
+        "CONVENTIONAL_TRANSLATION",
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "npm",
+      "dependencies": "Node; Pandoc; TeX only for PDF diff",
+      "dependency_weight": "MEDIUM",
+      "output_format": "CriticMarkup/HTML/DOCX/PDF",
+      "machine_readable_output": "CriticMarkup; not fact-verification JSON",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Document diff is not semantic truth/freshness; source normalization and complex tables need fixtures",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/davidar/pandiff"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "onix",
+      "name": "onixcheck",
+      "classification": "WRAP",
+      "priority": "USEFUL",
+      "mechanic": "Validate ONIX 2.1/3.0/3.1 XML against bundled schemas",
+      "core": [
+        "C6",
+        "C9"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "Apache-2.0",
+      "package_ecosystem": "Python",
+      "dependencies": "Python XML/schema libraries; audit lxml and bundled schema redistribution",
+      "dependency_weight": "LOW",
+      "output_format": "Messages",
+      "machine_readable_output": "Python Message list",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Schema validity not retailer field acceptance, rights, ISBN ownership or metadata surface parity",
+      "maintenance_activity": "Release 0.9.11 observed dated 2026-01-27",
+      "latest_release_observed": "0.9.11",
+      "release_date": "2026-01-27",
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/titusz/onixcheck"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "RELEASE_OBSERVED",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "isbn",
+      "name": "isbnlib",
+      "classification": "ADOPT",
+      "priority": "USEFUL",
+      "mechanic": "Local ISBN checksum, normalization and conversion functions only",
+      "core": [
+        "C1",
+        "C6",
+        "C9"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "LGPL-3.0",
+      "package_ecosystem": "Python",
+      "dependencies": "Pure Python; online metadata plugins excluded",
+      "dependency_weight": "LOW",
+      "output_format": "Booleans/ISBN strings",
+      "machine_readable_output": "Python return values",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Valid checksum is not assignment/ownership; disable metadata network calls",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/xlcnd/isbnlib"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "dvc",
+      "name": "DVC",
+      "classification": "BORROW_PATTERN",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "Content-addressed outputs, lockfile recording of inputs/config and stage invalidation",
+      "core": [
+        "C4",
+        "C5",
+        "C7"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "Apache-2.0",
+      "package_ecosystem": "Python",
+      "dependencies": "Large DVC stack and optional remote backends; no installation proposed",
+      "dependency_weight": "HIGH",
+      "output_format": "Lock/metadata files",
+      "machine_readable_output": "YAML/JSON interfaces",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Copy lock/fingerprint design only; no DVC state ownership or remote manuscript storage",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/iterative/dvc"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "snakemake",
+      "name": "Snakemake",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Explicit input/output DAG, cycle rejection and changed-parameter rebuild rules",
+      "core": [
+        "C5",
+        "C7"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "Python",
+      "dependencies": "Workflow runtime/plugins/environment integrations",
+      "dependency_weight": "HIGH",
+      "output_format": "DAG/reports",
+      "machine_readable_output": "Structured workflow/report data",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "General scheduler is unnecessary; runtime readiness must still use ABVX hashes/gates",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/snakemake/snakemake",
+        "https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "frictionless",
+      "name": "Frictionless",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Tabular data package/schema and validation/error provenance for owned sales exports",
+      "core": [
+        "C9",
+        "C11",
+        "C12"
+      ],
+      "book_type_modules": [
+        "SOURCE_BACKED_REFERENCE",
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "Python",
+      "dependencies": "Data framework and format extras; no full ETL platform proposed",
+      "dependency_weight": "LOW",
+      "output_format": "Data package/validation reports",
+      "machine_readable_output": "JSON reports/schema",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Units, currencies, royalty adjustments and missing exports need explicit semantics; not retail scraping",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/frictionlessdata/frictionless-py"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "zotero",
+      "name": "Zotero",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Stable citation keys, source items, attachments and retrieval snapshots",
+      "core": [
+        "C1",
+        "C5",
+        "C9"
+      ],
+      "book_type_modules": [
+        "SOURCE_BACKED_REFERENCE",
+        "CONVENTIONAL_TRANSLATION"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "AGPL-3.0",
+      "package_ecosystem": "desktop/JS",
+      "dependencies": "Desktop app; sync optional and excluded",
+      "dependency_weight": "LOW",
+      "output_format": "Bibliographic exports",
+      "machine_readable_output": "CSL JSON/BibTeX",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Citation presence is not source truth/currentness; retrieval timestamp alone cannot establish temporal validity",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/zotero/zotero"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "epubtests",
+      "name": "W3C EPUB tests",
+      "classification": "ADAPT",
+      "priority": "HIGH PRIORITY",
+      "mechanic": "Spec cases and reading-system edge fixtures with expected behaviour",
+      "core": [
+        "C6",
+        "C8",
+        "C12"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "FIXED_PAGE"
+      ],
+      "license": "Per-file/W3C licensing: resolve exact selected fixtures before copying",
+      "package_ecosystem": "fixtures",
+      "dependencies": "EPUB zip generation tooling optional",
+      "dependency_weight": "LOW",
+      "output_format": "EPUB test cases",
+      "machine_readable_output": "Test manifests/instructions",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Not all reading-system tests are EPUBCheck failures; fixture redistribution rights must be recorded",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/w3c/epub-tests"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "HIGH",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "HIGH",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "samples",
+      "name": "IDPF EPUB3 samples",
+      "classification": "ADAPT",
+      "priority": "USEFUL",
+      "mechanic": "Accessible/navigation/RTL/CJK/fixed-layout examples as positive regression seeds",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "FIXED_PAGE"
+      ],
+      "license": "Per-book licenses vary; check OPF/rights and source license for each sample",
+      "package_ecosystem": "fixtures",
+      "dependencies": "None for retained sample EPUBs",
+      "dependency_weight": "LOW",
+      "output_format": "EPUB/sample source",
+      "machine_readable_output": "OPF/XHTML",
+      "cli_api_stability": "Documented public surface; pin version and contract-test diagnostics before admission",
+      "integration_complexity": "LOW",
+      "main_risk": "Old examples may target earlier spec; do not declare all samples current-conformant",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/IDPF/epub3-samples"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "MEDIUM"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "dpub",
+      "name": "dpub",
+      "classification": "BORROW_PATTERN",
+      "priority": "REFERENCE ONLY",
+      "mechanic": "Single pipeline boundary for build plus external conformance/accessibility reports",
+      "core": [
+        "C6",
+        "C8"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "FIXED_PAGE"
+      ],
+      "license": "UNKNOWN exact license in this inspection; no code reuse",
+      "package_ecosystem": "Rust",
+      "dependencies": "Rust toolkit; external validators despite single-binary claim",
+      "dependency_weight": "LOW",
+      "output_format": "DAISY/EPUB3",
+      "machine_readable_output": "CLI report contract not qualified",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "New project; README benchmark claims not independently tested; cannot replace EPUBCheck/Ace authority",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/11ways/dpub"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "EMERGING",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "storyskills",
+      "name": "Story Skills",
+      "classification": "BORROW_PATTERN",
+      "priority": "USEFUL",
+      "mechanic": "Citable paragraph anchors, disposable build outputs and deterministic continuity/readiness checks around agent tasks",
+      "core": [
+        "C1",
+        "C6",
+        "C7",
+        "C9",
+        "C12"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "agent skill/TypeScript",
+      "dependencies": "Agent runtime; CLI/tool dependencies; no install proposed",
+      "dependency_weight": "LOW",
+      "output_format": "Markdown/EPUB/metadata/review HTML",
+      "machine_readable_output": "CLI/project frontmatter; diagnostics not independently tested",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Runtime claims untested; do not import creative authority, whole memory system or generic LLM quality scores",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/danjdewhurst/story-skills"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "MEDIUM",
+        "MATURITY": "EMERGING",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "BOUNDED",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "bookworkspace",
+      "name": "Book writing workspace",
+      "classification": "BORROW_PATTERN",
+      "priority": "REFERENCE ONLY",
+      "mechanic": "Proof revision attribution and bounded correction/sync-back process",
+      "core": [
+        "C4",
+        "C6",
+        "C12"
+      ],
+      "book_type_modules": [
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "CC-BY-NC-SA-4.0 with additional stated AI/ML/data-mining restriction; no commercial prompt/code copying proposed",
+      "package_ecosystem": "agent skill/Python",
+      "dependencies": "Optional Re:VIEW/Docker; no install",
+      "dependency_weight": "LOW",
+      "output_format": "Review/readiness records",
+      "machine_readable_output": "Mostly prose; scripts optional",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "MEDIUM",
+      "main_risk": "Noncommercial and additional analytical-use restriction; process overlaps. Retain as reference only, no skill install or text/code copy.",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/aktsmm/Agent-Skills/blob/master/book-writing-workspace/SKILL.md",
+        "https://github.com/aktsmm/Agent-Skills/blob/master/book-writing-workspace/LICENSE.txt"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "EMERGING",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "MEDIUM",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "bookwriter",
+      "name": "Book writer skill",
+      "classification": "REJECT",
+      "priority": "REJECT",
+      "mechanic": "Memory-bank and revision-pass prompts inspected but no missing deterministic mechanic established",
+      "core": [
+        "C6",
+        "C12"
+      ],
+      "book_type_modules": [
+        "ORIGINAL_FICTION",
+        "SERIES_FICTION",
+        "CONVENTIONAL_TRANSLATION",
+        "TOKI_PONA_TRANSLATION",
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "MIT",
+      "package_ecosystem": "agent skills",
+      "dependencies": "LLM and companion skills; broad workflow",
+      "dependency_weight": "HIGH",
+      "output_format": "Prose/pacing rubrics",
+      "machine_readable_output": "No validated publication contract",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "HIGH",
+      "main_risk": "Promotional quality claims, subjective numerical pacing and agent authority overlap existing workflows",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/kshanxs/book-writer-skill"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "EMERGING",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "PERMISSIVE_OR_FILE_SCOPED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "HIGH",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "HIGH"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    },
+    {
+      "id": "editorialskills",
+      "name": "Editorial skills",
+      "classification": "BORROW_PATTERN",
+      "priority": "REFERENCE ONLY",
+      "mechanic": "Separate developmental/copyedit/typesetting/proof stages with shared context",
+      "core": [
+        "C6",
+        "C12"
+      ],
+      "book_type_modules": [
+        "SOURCE_BACKED_REFERENCE"
+      ],
+      "format_adapters": [
+        "REFLOWABLE_EPUB/KINDLE",
+        "PRINT_PDF",
+        "FIXED_PAGE",
+        "SITELEN_PONA"
+      ],
+      "license": "UNKNOWN exact license; no prompt/code copying",
+      "package_ecosystem": "agent skills",
+      "dependencies": "LLM/optional LaTeX workflow",
+      "dependency_weight": "LOW",
+      "output_format": "Editorial/proof records",
+      "machine_readable_output": "No deterministic result contract qualified",
+      "cli_api_stability": "No runtime admission proposed",
+      "integration_complexity": "LOW",
+      "main_risk": "Mostly process overlap; strongest useful detail is post-layout proof stage, not an agent factory",
+      "maintenance_activity": "Repository/docs available; exact latest release and last substantive commit UNKNOWN",
+      "latest_release_observed": null,
+      "release_date": null,
+      "network_requirement": "Local processing is plausible after provisioning; deny network in spike; remote assets/providers disabled",
+      "telemetry": "UNKNOWN: no runtime/network audit performed",
+      "external_upload_requirement": "No manuscript upload required for proposed local mechanic; optional hosted/sync features excluded",
+      "sources": [
+        "https://github.com/brycehamrick/editorial-skills",
+        "https://github.com/brycehamrick/editorial-skills/blob/main/README.md"
+      ],
+      "evidence_level": "AUTHORITATIVE_REPOSITORY_OR_DOCS_INSPECTED; no clone, execution, SBOM or reproducibility test",
+      "scorecard": {
+        "RELEVANCE": "LOW",
+        "MATURITY": "ESTABLISHED",
+        "MAINTENANCE": "UNKNOWN_EXACT_RECENCY",
+        "LICENSE_FIT": "REVIEW_REQUIRED",
+        "LOCAL_OFFLINE_FIT": "LOCAL_CANDIDATE",
+        "MACHINE_OUTPUT": "AVAILABLE",
+        "INTEGRATION_COST": "LOW",
+        "ABVX_LEVERAGE": "LOW",
+        "LOCK_IN_RISK": "LOW"
+      },
+      "admission_status": "PROPOSED_ONLY; owner review and isolated spike required"
+    }
+  ],
+  "phase_impact": [
+    {
+      "item": "P2 dependency DAG / STALE",
+      "disposition": "BORROW_PATTERN",
+      "donor_ids": [
+        "dvc",
+        "snakemake"
+      ],
+      "rationale": "Keep ABVX transitive authority and conservative invalidation; copy explicit hashes/params and cycle checks.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 build manifests / fingerprints / attempts",
+      "disposition": "BORROW_PATTERN",
+      "donor_ids": [
+        "dvc",
+        "quarto"
+      ],
+      "rationale": "Keep own manifest; fingerprint excludes run timestamp/output path, attempt evidence distinct.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 visible Contents generation",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "pandoc",
+        "vivli-cli"
+      ],
+      "rationale": "Delegate generation; no new renderer adoption required for existing TeX.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 visible Contents / nav / destination parity",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [
+        "epubcheck"
+      ],
+      "rationale": "Reuse audit_print_toc_parity; normalize inventories; standards checker does not replace trio.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 heading / crossref inventories",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "pandoc",
+        "epubcheck"
+      ],
+      "rationale": "Use AST and standards diagnostics; ABVX verifies expected chapter order/coverage.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 EPUB_FORMAT_ADAPTER",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "pandoc"
+      ],
+      "rationale": "Existing Pandoc first; thin canonical-input/metadata/asset wrapper; no handwritten ZIP/OPF/nav engine.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 EPUB conformance",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "epubcheck"
+      ],
+      "rationale": "External authoritative checker, versioned raw JSON and hash-bound result.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 EPUB accessibility baseline",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "ace"
+      ],
+      "rationale": "Parse EARL assertions/manual checklist; preserve manual gate.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 PDF production adapter",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [
+        "vivli-cli",
+        "weasy"
+      ],
+      "rationale": "Keep current ReportLab/TeX/LibreOffice adapters; renderer bakeoff only if new-title gap proven.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 PDF syntax/object extraction",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "qpdf"
+      ],
+      "rationale": "Reuse current qpdf/Poppler; complete transformed bbox extraction remains custom adapter duty.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 trim/bleed/DPI/safe-area geometry",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [
+        "pillow",
+        "qpdf"
+      ],
+      "rationale": "Keep ABVX retailer policy, coordinate transforms and final placement effective DPI.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 PDF accessibility profile",
+      "disposition": "DEFER",
+      "donor_ids": [
+        "verapdf"
+      ],
+      "rationale": "Only when a target requires PDF/UA; do not impose PDF/A on all retail print.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 metadata/ISBN shape validation",
+      "disposition": "REPLACE_WITH_DEPENDENCY",
+      "donor_ids": [
+        "jsonschema",
+        "isbn"
+      ],
+      "rationale": "Schema/checksum libraries for mechanics; credits/rights/ISBN assignment stay custom.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 ONIX adapter",
+      "disposition": "DEFER",
+      "donor_ids": [
+        "onix"
+      ],
+      "rationale": "No ONIX feed requirement demonstrated for D2D handoff; test only on actual feed need.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P2 cover/asset pipeline",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [
+        "pillow"
+      ],
+      "rationale": "Wrap bounded image primitives; retain rights/owner art lock, spine geometry and visual gate.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P3 GD3 compatibility extraction",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [],
+      "rationale": "No donor replaces historical state/series/Pictiq authority; do not start creative work.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P4 TM exchange/merge/alignment",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "translate"
+      ],
+      "rationale": "TMX interchange adapter with stable ABVX unit IDs; outputs suggestions until accepted.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P4 translation cache/context invalidation",
+      "disposition": "BORROW_PATTERN",
+      "donor_ids": [
+        "weblate",
+        "omegat"
+      ],
+      "rationale": "Cache includes source, adjacent/global context, Bible, model/prompt/config and QA versions.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P4 provider reservation/retry/provenance",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [],
+      "rationale": "Existing bounded runner/broker boundary; CAT does not reserve provider spend.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P5 TP/sitelen semantic and glyph alignment",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [],
+      "rationale": "Native semantic/knowledge/name/continuation and font/render equivalence remain module-specific.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P6 retailer transitions / publication automation",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [],
+      "rationale": "Build/upload/preview/live evidence stay distinct; no automatic writes.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P6 publication sales exports",
+      "disposition": "BORROW_PATTERN",
+      "donor_ids": [
+        "frictionless"
+      ],
+      "rationale": "Versioned owned CSV staging, units/currency provenance, idempotent import; unknown stays null.",
+      "planned_in_original": true
+    },
+    {
+      "item": "P6 learning index / defect regression",
+      "disposition": "KEEP_CUSTOM",
+      "donor_ids": [
+        "epubtests"
+      ],
+      "rationale": "Promote lessons only into real validators/tests; external fixtures supplement local escaped defects.",
+      "planned_in_original": true
+    },
+    {
+      "item": "Proposed BOOK_REACTUALIZATION edition diff",
+      "disposition": "WRAP_EXTERNAL_TOOL",
+      "donor_ids": [
+        "pandiff"
+      ],
+      "rationale": "Not a named original phase; bounded read-only edition comparison, no actual Machine Mind update.",
+      "planned_in_original": false
+    },
+    {
+      "item": "Proposed freshness/citation dependencies",
+      "disposition": "BORROW_PATTERN",
+      "donor_ids": [
+        "zotero"
+      ],
+      "rationale": "Claim/source/time evidence envelope; human determines meaning/currentness. Not autonomous fact checking.",
+      "planned_in_original": false
+    },
+    {
+      "item": "Hypothetical general publishing platform/scheduler",
+      "disposition": "REMOVE",
+      "donor_ids": [
+        "pressbooks",
+        "antora"
+      ],
+      "rationale": "Prevent scope addition; original plan already excludes this, so no planned feature is actually removed.",
+      "planned_in_original": false
+    }
+  ],
+  "limitations": [
+    "Exact release dates/commit freshness missing except onixcheck; null is unknown, not no maintenance.",
+    "No runtime, install, SBOM, telemetry or network-isolation audit; no donor admission.",
+    "Per-file fixture/theme/font rights must be resolved before reuse.",
+    "Current design docs still say READY FOR REVIEW; user describes approved architecture. No approval/state/history mutation performed."
+  ],
+  "next_gate": "OWNER REVIEWS DONOR ADOPTION BACKLOG",
+  "best_candidates": {
+    "immediate_adoption": "epubcheck",
+    "validation": "epubcheck",
+    "epub": "pandoc",
+    "print_new_spike": "vivli-cli",
+    "translation_mechanics": "translate",
+    "reactualization_diff": "pandiff",
+    "agent_skill_pattern": "storyskills"
+  },
+  "coverage_exceptions": {
+    "C10": "KEEP_CUSTOM: no donor admitted for retailer authority; no upload automation",
+    "C11": "Owned export schema pattern only; no fresh sales evidence or retailer data API qualified",
+    "C12": "Existing learning index plus external fixture references; no generic numeric quality score"
+  },
+  "local_evidence": [
+    "AGENTS.md",
+    "README.md",
+    "ARCHITECTURE.md",
+    "docs/autonomy-policy.md",
+    "registries/capabilities.json",
+    "registries/donor-capability-matrix.json",
+    "ABVX_BOOK_CORE_ARCHITECTURE_V1.md",
+    "ABVX_BOOK_CORE_STATE_SCHEMA_V1.json",
+    "ABVX_BOOK_FACTORY_IMPLEMENTATION_PLAN_V1.md",
+    "ABVX_BOOK_FACTORY_CROSS_PIPELINE_AUDIT_V1.md",
+    "docs/audits/book-open-source-landscape-v1/ABVX_BOOK_FACTORY_VALIDATION_STACK_V1.md",
+    "docs/audits/book-open-source-landscape-v1/ABVX_BOOK_BUILD_VS_ADOPT_V1.md",
+    "scripts/run_jekyll_full_translation_v1.py",
+    "scripts/build_jekyll_sitelen_master_v1_2.py",
+    "src/abvx_harness/book_preflight.py"
+  ],
+  "verification": {
+    "strict_json_parse": "PASS",
+    "unique_donor_ids": "41/41",
+    "classification_and_priority_enums": "PASS",
+    "nine_scorecard_fields_per_donor": "PASS",
+    "phase_donor_references": "PASS",
+    "protected_focus_set": "7/7 hash unchanged",
+    "tool_runtime_tests": "NOT_RUN",
+    "spikes": "NOT_EXECUTED",
+    "full_repository_test_suite": "NOT_RUN",
+    "protected_scope_limit": "Focus set only; no whole-repository unchanged claim"
+  }
+}

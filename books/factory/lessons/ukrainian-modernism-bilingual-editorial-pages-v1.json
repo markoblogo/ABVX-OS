@@ -1,0 +1,16 @@
+{
+  "schema_version": "book-factory-lesson/v1",
+  "lesson_id": "bilingual-editorial-pages-linked-to-book-records-2026-09-27",
+  "evidence_level": "SINGLE_CASE_IMPLEMENTATION",
+  "evidence_refs": [
+    "User-provided twelve prepared FR/UK SEO articles for six books",
+    "Ukrainian Modernism landing book and article routes, canonical/hreflang metadata, sitemap, and structured data"
+  ],
+  "reusable_practice": "Preserve each prepared locale article as its own source text; bind both locales to one stable book identifier; link book and article pages in both directions; emit reciprocal canonical/hreflang and sitemap entries; use Article/Breadcrumb markup only for page facts that are present in the content.",
+  "result_claim": "Implementation pattern demonstrated. Search ranking, indexing, traffic, answer-engine citation, and conversion impact are not measured.",
+  "guardrails": [
+    "Do not rewrite approved article copy during integration.",
+    "Do not add unsupported author biographies, dates, availability, pricing, or performance claims.",
+    "Do not treat schema validity as proof of search result enrichment or indexing."
+  ]
+}

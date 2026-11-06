@@ -1,0 +1,609 @@
+{
+  "schema_version": "external-shelf-snapshot/v1",
+  "id": "snapshot:distributed",
+  "origin": "SYNTHETIC",
+  "cluster": {
+    "schema_version": "external-shelf-cluster/v1",
+    "id": "cluster:distributed",
+    "label": "Synthetic test shelf",
+    "frozen_at": "2026-01-01T00:00:00Z",
+    "routes": [
+      {
+        "id": "route:query",
+        "kind": "QUERY",
+        "definition": "synthetic query",
+        "marketplace": "example.invalid"
+      }
+    ],
+    "limitations": [
+      "Offline synthetic fixture."
+    ]
+  },
+  "route_id": "route:query",
+  "observed_at": "2026-10-01T12:00:00Z",
+  "context": {
+    "marketplace": "example.invalid",
+    "route_definition": "synthetic query",
+    "device": "desktop",
+    "surface": "search",
+    "signed_in": "SIGNED_OUT",
+    "delivery": "US-test",
+    "locale": "en-US",
+    "sort_order": "RELEVANCE",
+    "filters": [],
+    "depth_requested": 3,
+    "depth_reached": 3,
+    "depth_complete": true,
+    "capture_policy": "manual-slots-v1"
+  },
+  "repeat_of": null,
+  "evidence": [
+    {
+      "id": "raw:1",
+      "path": "raw.txt",
+      "sha256": "e63671d53421ea3c88df7a6b068a339c6ca5ef51e37a73309d57ed25d10de24a",
+      "kind": "TEXT",
+      "limitations": [
+        "Synthetic fixture only, not a retailer observation."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "slot_id": "slot:1",
+      "title": {
+        "state": "OBSERVED",
+        "value": "Synthetic title 1",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "identity": {
+        "asin": {
+          "state": "OBSERVED",
+          "value": "X000000001",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "isbn": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "format": {
+          "state": "OBSERVED",
+          "value": "PAPERBACK",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "edition": {
+          "state": "OBSERVED",
+          "value": "1",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "relationship": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        }
+      },
+      "author": {
+        "name": {
+          "state": "OBSERVED",
+          "value": "Author 1",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "key": {
+          "state": "OBSERVED",
+          "value": "author:1",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "history": {
+          "state": "OBSERVED",
+          "value": "KNOWN",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "publisher": {
+        "name": {
+          "state": "OBSERVED",
+          "value": "Publisher 1",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "key": {
+          "state": "OBSERVED",
+          "value": "publisher:1",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "kind": {
+          "state": "OBSERVED",
+          "value": "INDEPENDENT",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "series": {
+        "name": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "key": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "kind": {
+          "state": "OBSERVED",
+          "value": "STANDALONE",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "position": {
+        "capture_order": 1,
+        "basis": {
+          "state": "OBSERVED",
+          "value": "ORGANIC",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "rank": {
+          "state": "OBSERVED",
+          "value": 1,
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "price": {
+        "state": "OBSERVED",
+        "value": {
+          "amount": 11,
+          "currency": "USD"
+        },
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "review_count": {
+        "state": "OBSERVED",
+        "value": 10,
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "rating": {
+        "state": "OBSERVED",
+        "value": 4.0,
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "bsr": {
+        "state": "OBSERVED",
+        "value": {
+          "rank": 100,
+          "category": "Synthetic category",
+          "marketplace": "example.invalid"
+        },
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "publication_date": {
+        "state": "OBSERVED",
+        "value": "2020-01-01",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "edition_date": {
+        "state": "OBSERVED",
+        "value": "2020-01-01",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "release_kind": {
+        "state": "OBSERVED",
+        "value": "NEW_TITLE",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "limitations": [
+        "SYNTHETIC test product."
+      ]
+    },
+    {
+      "slot_id": "slot:2",
+      "title": {
+        "state": "OBSERVED",
+        "value": "Synthetic title 2",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "identity": {
+        "asin": {
+          "state": "OBSERVED",
+          "value": "X000000002",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "isbn": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "format": {
+          "state": "OBSERVED",
+          "value": "PAPERBACK",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "edition": {
+          "state": "OBSERVED",
+          "value": "1",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "relationship": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        }
+      },
+      "author": {
+        "name": {
+          "state": "OBSERVED",
+          "value": "Author 2",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "key": {
+          "state": "OBSERVED",
+          "value": "author:2",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "history": {
+          "state": "OBSERVED",
+          "value": "KNOWN",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "publisher": {
+        "name": {
+          "state": "OBSERVED",
+          "value": "Publisher 2",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "key": {
+          "state": "OBSERVED",
+          "value": "publisher:2",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "kind": {
+          "state": "OBSERVED",
+          "value": "INDEPENDENT",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "series": {
+        "name": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "key": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "kind": {
+          "state": "OBSERVED",
+          "value": "STANDALONE",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "position": {
+        "capture_order": 2,
+        "basis": {
+          "state": "OBSERVED",
+          "value": "ORGANIC",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "rank": {
+          "state": "OBSERVED",
+          "value": 2,
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "price": {
+        "state": "OBSERVED",
+        "value": {
+          "amount": 12,
+          "currency": "USD"
+        },
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "review_count": {
+        "state": "OBSERVED",
+        "value": 20,
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "rating": {
+        "state": "OBSERVED",
+        "value": 4.0,
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "bsr": {
+        "state": "OBSERVED",
+        "value": {
+          "rank": 200,
+          "category": "Synthetic category",
+          "marketplace": "example.invalid"
+        },
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "publication_date": {
+        "state": "OBSERVED",
+        "value": "2020-01-01",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "edition_date": {
+        "state": "OBSERVED",
+        "value": "2020-01-01",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "release_kind": {
+        "state": "OBSERVED",
+        "value": "NEW_TITLE",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "limitations": [
+        "SYNTHETIC test product."
+      ]
+    },
+    {
+      "slot_id": "slot:3",
+      "title": {
+        "state": "OBSERVED",
+        "value": "Synthetic title 3",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "identity": {
+        "asin": {
+          "state": "OBSERVED",
+          "value": "X000000003",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "isbn": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "format": {
+          "state": "OBSERVED",
+          "value": "PAPERBACK",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "edition": {
+          "state": "OBSERVED",
+          "value": "1",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "relationship": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        }
+      },
+      "author": {
+        "name": {
+          "state": "OBSERVED",
+          "value": "Author 3",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "key": {
+          "state": "OBSERVED",
+          "value": "author:3",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "history": {
+          "state": "OBSERVED",
+          "value": "KNOWN",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "publisher": {
+        "name": {
+          "state": "OBSERVED",
+          "value": "Publisher 3",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "key": {
+          "state": "OBSERVED",
+          "value": "publisher:3",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "kind": {
+          "state": "OBSERVED",
+          "value": "INDEPENDENT",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "series": {
+        "name": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "key": {
+          "state": "UNKNOWN",
+          "value": null,
+          "evidence_ids": []
+        },
+        "kind": {
+          "state": "OBSERVED",
+          "value": "STANDALONE",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "position": {
+        "capture_order": 3,
+        "basis": {
+          "state": "OBSERVED",
+          "value": "ORGANIC",
+          "evidence_ids": [
+            "raw:1"
+          ]
+        },
+        "rank": {
+          "state": "OBSERVED",
+          "value": 3,
+          "evidence_ids": [
+            "raw:1"
+          ]
+        }
+      },
+      "price": {
+        "state": "OBSERVED",
+        "value": {
+          "amount": 13,
+          "currency": "USD"
+        },
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "review_count": {
+        "state": "OBSERVED",
+        "value": 30,
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "rating": {
+        "state": "OBSERVED",
+        "value": 4.0,
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "bsr": {
+        "state": "OBSERVED",
+        "value": {
+          "rank": 300,
+          "category": "Synthetic category",
+          "marketplace": "example.invalid"
+        },
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "publication_date": {
+        "state": "OBSERVED",
+        "value": "2020-01-01",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "edition_date": {
+        "state": "OBSERVED",
+        "value": "2020-01-01",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "release_kind": {
+        "state": "OBSERVED",
+        "value": "NEW_TITLE",
+        "evidence_ids": [
+          "raw:1"
+        ]
+      },
+      "limitations": [
+        "SYNTHETIC test product."
+      ]
+    }
+  ],
+  "absences": [],
+  "limitations": [
+    "SYNTHETIC: no actual demand or sales evidence."
+  ]
+}

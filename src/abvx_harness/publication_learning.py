@@ -37,7 +37,7 @@ def _begin_cycle(root,run_id,item_ids,*,trial='baseline',series_id=None):
   raise ValueError('Select 1–20 unique items and a distinct cycle ID')
  if any(not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*',i) for i in [run_id,*item_ids]):raise ValueError('Publication slugs required')
  target=folder(root,run_id)/'cycle.json'
- if target.is_symlink() or (target.parent/'outcome.json').exists() or (target.parent/'session.json').exists() or (target.parent/'cycle-claim.json').exists():raise ValueError('Use a fresh cycle ID')
+ if target.is_symlink() or (target.parent/'runtime-outcome.json').exists() or (target.parent/'outcome.json').exists() or (target.parent/'session.json').exists() or (target.parent/'cycle-claim.json').exists():raise ValueError('Use a fresh cycle ID')
  value={'schemaVersion':2,'kind':'AbvxPublicationCycle','runId':run_id,'itemIds':sorted(item_ids),
         'mode':'single' if len(item_ids)==1 else 'batch','workflowVersion':CYCLE_VERSIONS[trial],'startedAt':utc()}
  claims=[folder(root,i)/'cycle-claim.json' for i in item_ids]
@@ -119,6 +119,7 @@ def trial_evidence(root,cycle):
  return [{'ref':'trial:publication-series','sha256':digest(series)}]
 
 def abort_cycle(root,run_id,*,status,rework_count,cortex_root=None,origin=None):
+ if (folder(root,run_id)/'runtime-outcome.json').exists():raise ValueError('Runtime cycle already closed')
  if status not in ('FAIL','CANCELLED'):raise ValueError('Explicit terminal failure/cancellation required')
  _integer(rework_count);directory=folder(root,run_id);cycle=json.loads((directory/'cycle.json').read_text())
  if cycle.get('runId')!=run_id or cycle.get('workflowVersion') not in PUBLICATION_VERSIONS:raise ValueError('Started cycle required')
@@ -800,12 +801,15 @@ def complete_publication(root,item_id,site,*,owner_minutes='UNKNOWN',rework_coun
   if not (directory/'batch.json').exists() and row['evidence'][1]!={'ref':'production:authored-text','sha256':validate_live_html(item,fetch_production(url))}:raise ValueError('Retained production evidence differs')
  batch=build_packet([row],'publication:'+item_id,row['completedAt']);_write_once(directory/'batch.json',batch)
  result={'status':'RECORDED','origin':row['origin'],'cortexStatus':'PENDING_TRANSFER','executionAuthorized':False}
+ from .book_readiness import after_publication
+ result['bookReadiness']=after_publication(root,site)
  if cortex_root:
   if row['origin']!='OBSERVED':raise ValueError('Synthetic publication cannot enter operational Cortex history')
   receipt=transfer_publication(root,item_id,cortex_root);result.update(cortexStatus=receipt['status'])
  return result
 
 def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
+ if (folder(root,run_id)/'runtime-outcome.json').exists():raise ValueError('Runtime cycle already closed; never import it as legacy QA success')
  """One observation per release, including shared preparation, checks and deployment wait."""
  _integer(rework_count)
  directory=folder(root,run_id);cycle=json.loads((directory/'cycle.json').read_text())
@@ -816,7 +820,7 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
  items=cycle.get('itemIds')
  if not isinstance(items,list) or not 1<=len(items)<=20 or len(set(items))!=len(items) or run_id in items or cycle.get('mode')!=('single' if len(items)==1 else 'batch'):
   raise ValueError('Bound cycle members required')
- site=Path(site).resolve();sha=clean_site_sha(site);deployment=deployment_snapshot(sha);tree=tree_digest(site)
+ site=Path(site).resolve();sha=clean_site_sha(site);deployment=deployment_snapshot(sha,allow_metadata_sync=True);tree=tree_digest(site)
  if _time(deployment.get('deploymentCreatedAt'))<_time(cycle['startedAt']):raise ValueError('Production release predates this publication cycle')
  if _time(deployment.get('mergedAt'))<_time(cycle['startedAt']):raise ValueError('Merged source predates this publication cycle')
  proofs=[];profiles=[];origins=set();shared_checks=None
@@ -835,7 +839,7 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
   proofs.append({'itemId':item_id,'approvalDigest':_approval_fingerprint(item),'checksDigest':digest(checks),'productionHtmlDigest':live})
  if len(origins)!=1:raise ValueError('Cannot mix synthetic and observed cycle members')
  stable=lambda value:{k:v for k,v in value.items() if not k.endswith('ResponseDigest')}
- if stable(deployment_snapshot(sha))!=stable(deployment) or clean_site_sha(site)!=sha or tree_digest(site)!=tree:
+ if stable(deployment_snapshot(sha,allow_metadata_sync=True))!=stable(deployment) or clean_site_sha(site)!=sha or tree_digest(site)!=tree:
   raise ValueError('Source or deployment changed during cycle closeout')
  profile={'mode':cycle['mode'],'items':sorted(profiles,key=digest)}
  evidence=[ELAPSED_POLICY,{'ref':'cycle:'+run_id,'sha256':digest(cycle)},
@@ -861,6 +865,8 @@ def complete_cycle(root,run_id,site,*,rework_count,cortex_root=None):
  _write_once(directory/'batch.json',build_packet([row],'publication:'+run_id,end))
  result={'status':'RECORDED','origin':row['origin'],'elapsedSeconds':row['elapsedSeconds'],
          'items':len(items),'mode':cycle['mode'],'cortexStatus':'PENDING_TRANSFER','executionAuthorized':False}
+ from .book_readiness import after_publication
+ result['bookReadiness']=after_publication(root,site)
  if cortex_root:result['cortexStatus']=transfer_publication(root,run_id,cortex_root)['status']
  return result
 
@@ -901,38 +907,80 @@ def github_json(endpoint):
  if len(result.stdout)>2*1024*1024:raise ValueError('GitHub deployment response exceeds bound')
  return json.loads(result.stdout)
 
-def deployment_snapshot(sha):
- endpoint='repos/markoblogo/ABVXsite/deployments?environment=Production&per_page=1'
- deployments=github_json(endpoint)
- if not isinstance(deployments,list) or len(deployments)!=1:raise ValueError('Latest production deployment required')
- deployment=deployments[0]
- if not isinstance(deployment,dict) or type(deployment.get('id')) is not int or deployment['id']<=0 or deployment.get('environment')!='Production' or deployment.get('sha')!=sha:
-  raise ValueError('Production deployment SHA differs from checked checkout')
+def _production_status(deployment,now):
+ if not isinstance(deployment,dict) or type(deployment.get('id')) is not int or deployment['id']<=0 or deployment.get('environment')!='Production' or not re.fullmatch('[a-f0-9]{40}',str(deployment.get('sha',''))):
+  raise ValueError('Valid production deployment required')
  statuses=github_json(f"repos/markoblogo/ABVXsite/deployments/{deployment['id']}/statuses?per_page=1")
  if not isinstance(statuses,list) or len(statuses)!=1:raise ValueError('Latest deployment status required')
  status=statuses[0]
  if not isinstance(status,dict) or type(status.get('id')) is not int or status['id']<=0 or status.get('state')!='success' or status.get('environment')!='Production':
   raise ValueError('Successful production deployment required')
- now=_time(utc())
  for value in (deployment,status):
   if _time(value.get('created_at'))>now:raise ValueError('Future deployment evidence rejected')
  if _time(status['created_at'])<_time(deployment['created_at']):raise ValueError('Deployment status predates deployment')
+ return status
+
+def _metadata_sync_successor(sha,latest,now):
+ """Bounded, linear writing-sync commits only; never accept source/code/media changes."""
+ latest_status=_production_status(latest,now)
+ history=github_json('repos/markoblogo/ABVXsite/deployments?environment=Production&per_page=20')
+ if not isinstance(history,list) or not history or not isinstance(history[0],dict) or history[0].get('id')!=latest['id']:raise ValueError('Production changed while finding the release')
+ matches=[d for d in history if isinstance(d,dict) and d.get('sha')==sha and d.get('environment')=='Production']
+ if not matches:raise ValueError('Exact successful publication deployment not found in bounded history')
+ release=matches[0];status=_production_status(release,now)
+ if _time(status['created_at'])>_time(latest['created_at']):raise ValueError('Publication was not successful before the metadata sync')
+ compare=github_json(f"repos/markoblogo/ABVXsite/compare/{sha}...{latest['sha']}?per_page=100")
+ if not isinstance(compare,dict) or compare.get('status')!='ahead' or compare.get('behind_by')!=0 or compare.get('base_commit',{}).get('sha')!=sha or compare.get('merge_base_commit',{}).get('sha')!=sha:
+  raise ValueError('Metadata sync must descend from the exact publication merge')
+ count=compare.get('total_commits');commits=compare.get('commits')
+ if type(count) is not int or not 1<=count<=10 or not isinstance(commits,list) or len(commits)!=count:raise ValueError('Complete bounded metadata-sync history required')
+ allowed={'content/writing-discovery.json','public/content-index.json','public/llms.txt'}
+ def metadata_files(files):
+  return isinstance(files,list) and 1<=len(files)<=len(allowed) and all(isinstance(f,dict) and f.get('filename') in allowed and f.get('status')=='modified' and not f.get('previous_filename') for f in files) and len({f['filename'] for f in files})==len(files)
+ if not metadata_files(compare.get('files')):raise ValueError('Only modified feed/index files may follow a publication')
+ checked=[];previous=sha
+ for entry in commits:
+  revision=entry.get('sha') if isinstance(entry,dict) else None
+  if not isinstance(revision,str) or not re.fullmatch('[a-f0-9]{40}',revision):raise ValueError('Exact metadata-sync commit identity required')
+  commit=github_json(f'repos/markoblogo/ABVXsite/commits/{revision}')
+  parents=commit.get('parents') if isinstance(commit,dict) else None
+  if not isinstance(commit,dict) or commit.get('sha')!=revision or not isinstance(parents,list) or len(parents)!=1 or not isinstance(parents[0],dict) or parents[0].get('sha')!=previous:
+   raise ValueError('Only linear metadata-sync commits may follow a publication')
+  if not str(commit.get('commit',{}).get('message','')).startswith('writing-sync:') or not metadata_files(commit.get('files')):
+   raise ValueError('A source, code, media or non-sync commit followed the publication')
+  checked.append({'sha':revision,'parent':previous,'files':sorted(f['filename'] for f in commit['files'])});previous=revision
+ if previous!=latest['sha']:raise ValueError('Metadata-sync comparison did not reach current Production')
+ proof={'deploymentId':latest['id'],'statusId':latest_status['id'],'sha':latest['sha'],'deploymentCreatedAt':latest['created_at'],'statusCreatedAt':latest_status['created_at'],'commits':checked}
+ return release,status,proof
+
+def deployment_snapshot(sha,*,allow_metadata_sync=False):
+ if not isinstance(sha,str) or not re.fullmatch('[a-f0-9]{40}',sha):raise ValueError('Full Git commit SHA required')
+ endpoint='repos/markoblogo/ABVXsite/deployments?environment=Production&per_page=1'
+ deployments=github_json(endpoint)
+ if not isinstance(deployments,list) or len(deployments)!=1:raise ValueError('Latest production deployment required')
+ deployment=deployments[0];now=_time(utc());successor=None
+ if not isinstance(deployment,dict) or type(deployment.get('id')) is not int or deployment['id']<=0 or deployment.get('environment')!='Production':raise ValueError('Production deployment SHA differs from checked checkout')
+ if deployment.get('sha')!=sha:
+  if not allow_metadata_sync:raise ValueError('Production deployment SHA differs from checked checkout')
+  deployment,status,successor=_metadata_sync_successor(sha,deployment,now)
+ else:status=_production_status(deployment,now)
  pulls=github_json(f'repos/markoblogo/ABVXsite/commits/{sha}/pulls?per_page=100')
  if not isinstance(pulls,list):raise ValueError('Merged site PR evidence required')
  matches=[p for p in pulls if isinstance(p,dict) and p.get('merge_commit_sha')==sha and p.get('merged_at') and
           p.get('base',{}).get('ref')=='main' and p.get('base',{}).get('repo',{}).get('full_name')=='markoblogo/ABVXsite']
- if len(matches)!=1 or type(matches[0].get('number')) is not int or matches[0]['number']<=0:
-  raise ValueError('Deployment SHA must be the exact merge commit of one site PR')
+ if len(matches)!=1 or type(matches[0].get('number')) is not int or matches[0]['number']<=0:raise ValueError('Deployment SHA must be the exact merge commit of one site PR')
  merged=matches[0]
  if _time(merged['merged_at'])>_time(deployment['created_at']):raise ValueError('Production deployment predates merge')
- return {'provider':'github-deployments','repository':'markoblogo/ABVXsite','deploymentId':deployment['id'],
+ result={'provider':'github-deployments','repository':'markoblogo/ABVXsite','deploymentId':deployment['id'],
          'statusId':status['id'],'environment':'Production','state':'success','sha':sha,
          'deploymentCreatedAt':deployment['created_at'],'statusCreatedAt':status['created_at'],
          'deploymentResponseDigest':digest({key:deployment[key] for key in ('id','sha','environment','created_at')}),
          'statusResponseDigest':digest({key:status[key] for key in ('id','state','environment','created_at')}),
          'mergedPrNumber':merged['number'],'mergedAt':merged['merged_at'],
-         'mergeResponseDigest':digest({'number':merged['number'],'merge_commit_sha':sha,'merged_at':merged['merged_at'],
-                                     'base':'main','repository':'markoblogo/ABVXsite'})}
+         'mergeResponseDigest':digest({'number':merged['number'],'merge_commit_sha':sha,'merged_at':merged['merged_at'],'base':'main','repository':'markoblogo/ABVXsite'})}
+ if successor:result.update(verificationMode='SUCCESSFUL_RELEASE_WITH_METADATA_ONLY_SUCCESSOR',currentProductionSha=successor['sha'],metadataOnlySuccessor=successor)
+ return result
+
 
 def clean_site_sha(site):
  status=subprocess.run(['git','status','--porcelain','--untracked-files=all'],cwd=site,capture_output=True,check=True).stdout

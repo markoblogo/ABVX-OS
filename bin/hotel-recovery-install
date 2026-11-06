@@ -1,0 +1,23 @@
+#!/bin/sh
+# Run in the owner's Terminal. Replaces the existing job, not a second executor.
+set -eu
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+PYTHONPATH="$repo_root/src" python3 -m abvx_harness.hotel_recovery --prepare-install
+agent="$HOME/Library/LaunchAgents/io.abvx.hotel-wifi-reconnect.plist"
+backup="$repo_root/.tmp/mac-operator/hotel-recovery-original.plist"
+if [ ! -f "$agent" ]; then
+    echo 'Existing hotel recovery LaunchAgent missing; stop for inspection.' >&2
+    exit 1
+fi
+if [ ! -f "$backup" ]; then
+    cp "$agent" "$backup"
+fi
+launchctl bootout "gui/$(id -u)/io.abvx.hotel-wifi-reconnect"
+cp "$repo_root/.tmp/mac-operator/hotel-recovery.plist" "$agent"
+if ! launchctl bootstrap "gui/$(id -u)" "$agent"; then
+    cp "$backup" "$agent"
+    launchctl bootstrap "gui/$(id -u)" "$agent"
+    echo 'New service failed to load; original configuration restored.' >&2
+    exit 1
+fi
+launchctl print "gui/$(id -u)/io.abvx.hotel-wifi-reconnect"

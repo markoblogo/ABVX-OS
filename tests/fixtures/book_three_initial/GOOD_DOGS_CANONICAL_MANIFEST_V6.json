@@ -1,0 +1,10 @@
+{
+  "book_two_publication_canon": "GOOD_DOG_SERIES_PUBLICATION_CANON_V4.json",
+  "current_state": {
+    "book_one": "PRESERVED_UNCHANGED"
+  },
+  "retailer_observation": {
+    "evidence_path": "synthetic-retailer-evidence.txt",
+    "evidence_sha256": "098a94cc8ec4e82642184f62c9f37b5dfed58646c92ed796e2859a9ba8ec9d91"
+  }
+}

@@ -1,4 +1,4 @@
-"""Prepare an ABVXsite intake from ready JSON-frontmatter Markdown; no publication."""
+"""Prepare a reviewed ABVXsite intake from ready Markdown or a supported draft; no publication."""
 from __future__ import annotations
 
 import argparse
@@ -13,6 +13,81 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 from abvx_harness.content_ops import prepare_content_item
 from abvx_harness.harness import ValidationError, now_iso
+
+
+def normalize_draft(text: str, publication_date: str, supplement: dict) -> tuple[str, dict]:
+    """Normalize only the documented H1 + SEO suffix; never interpret recipe prose."""
+    if not isinstance(supplement, dict) or set(supplement) - {"recipe", "media"}:
+        raise ValidationError("supplement supports only reviewed recipe/media fields")
+    text = text.replace("\r\n", "\n")
+    title = re.search(r"(?m)^# ([^\n]+)\n", text)
+    separators = list(re.finditer(
+        r"(?m)^---[ \t]*\n[ \t\n]*### (?:SEO и метаданные для ABVX|SEO and metadata for ABVX)[ \t]*\n", text))
+    if not title or len(separators) != 1 or title.end() >= separators[0].start():
+        raise ValidationError("draft requires one article H1 and one supported SEO suffix; use --source for other formats")
+    body = text[title.end():separators[0].start()].strip()
+    fields = {}
+    allowed = {"title", "seo title", "slug", "meta description", "excerpt", "collection", "content type", "topics", "language", "preparation time", "cooking time", "cooling time", "servings", "yield"}
+    for line in text[separators[0].end():].splitlines():
+        if not line.strip():
+            continue
+        match = re.fullmatch(r"\*\*([^*]+):\*\*[ \t]*(.+)", line.strip())
+        if not match:
+            raise ValidationError("unsupported SEO suffix line; review source rather than dropping it")
+        key, value = match[1].strip().casefold(), match[2].strip()
+        if key not in allowed or key in fields:
+            raise ValidationError("unknown or duplicate SEO field: " + key)
+        fields[key] = value[1:-1] if value.startswith("`") and value.endswith("`") and key != "topics" else value
+    for key in ("slug", "excerpt", "meta description", "language"):
+        if not fields.get(key):
+            raise ValidationError("draft requires SEO field: " + key)
+    if fields.get("title", title[1]) != title[1] or not body:
+        raise ValidationError("title disagreement or empty article body")
+    slug = fields["slug"]
+    if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
+        raise ValidationError("safe lowercase slug required")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", publication_date) or calendar_date.fromisoformat(publication_date) > datetime.now(timezone.utc).date():
+        raise ValidationError("explicit non-future publication date required")
+    topics = fields.get("topics", "")
+    if topics and not re.fullmatch(r"`[^`\n]+`(?:\s*,\s*`[^`\n]+`)*", topics):
+        raise ValidationError("topics must be comma-separated backtick labels")
+    collection = fields.get("collection")
+    if collection and collection != "Kitchen Notes":
+        raise ValidationError("new collections are outside draft normalization")
+    data = {"id": slug, "slug": slug, "title": title[1], "summary": fields["excerpt"],
+            "seoDescription": fields["meta description"], "primarySection": "writing", "appearsIn": ["writing"],
+            "type": fields.get("content type", "note"), "visibility": "public", "status": "live",
+            "language": fields["language"], "publishedAt": publication_date, "updatedAt": publication_date,
+            "tags": re.findall(r"`([^`]+)`", topics), "links": [], "featured": False,
+            "sortRank": 500, "needsReview": False, "homepageEligible": True}
+    if fields.get("seo title"):
+        data["seoTitle"] = fields["seo title"]
+    if collection:
+        data["collection"] = "kitchen-notes"
+    if data["type"] == "recipe":
+        recipe = supplement.get("recipe")
+        if collection != "Kitchen Notes" or not isinstance(recipe, dict) or not recipe.get("ingredients") or not recipe.get("instructions"):
+            raise ValidationError("recipes need reviewed ingredients/instructions in --supplement; no quantities are inferred")
+        recipe = dict(recipe)
+        if fields.get("yield") and fields.get("servings") and fields["yield"] != fields["servings"]:
+            raise ValidationError("supplied yield and servings disagree")
+        yield_text = fields.get("yield") or fields.get("servings")
+        if yield_text:
+            if recipe.get("recipeYield", yield_text) != yield_text:
+                raise ValidationError("recipe yield disagrees with supplied servings")
+            recipe["recipeYield"] = yield_text
+        timing_keys = ("preparation time", "cooking time", "cooling time")
+        timing = " ".join(key.capitalize() + ": " + fields[key] for key in timing_keys if fields.get(key))
+        if timing:
+            if recipe.get("timingText") and any(fields[key] not in recipe["timingText"] for key in timing_keys if fields.get(key)):
+                raise ValidationError("reviewed timing must retain all supplied timing details")
+            recipe.setdefault("timingText", timing)
+        data["recipe"] = recipe
+    elif "recipe" in supplement or any(key in fields for key in ("preparation time", "cooking time", "cooling time", "servings", "yield")):
+        raise ValidationError("recipe metadata needs recipe content type")
+    report = {"bodyPreserved": True, "bodySha256": hashlib.sha256(body.encode()).hexdigest(),
+              "titleMovedToMetadata": True, "serviceSuffixRemoved": True, "metadataFields": sorted(fields)}
+    return "---\n" + json.dumps(data, ensure_ascii=False, indent=2) + "\n---\n\n" + body + "\n", report
 
 
 def publication_fixture(source: str, item_id: str, source_uri: str, assets: list[dict]) -> dict:
@@ -57,7 +132,7 @@ def publication_fixture(source: str, item_id: str, source_uri: str, assets: list
         if uploaded_date.tzinfo is None or uploaded_date > datetime.now(timezone.utc):
             raise ValidationError('video requires a valid non-future upload date')
     image = data.get("coverImage" if story else "media") or {}
-    images = [image, *(data.get('illustrations') or [])] if story else [image, data.get('heroImage')]
+    images = [image, *(data.get('illustrations') or [])] if story else [image, data.get('heroImage'), *(data.get('illustrations') or [])]
     if not story:
         for entry in filter(None, images):
             if not entry.get('alt') or not isinstance(entry.get('width'), int) or not isinstance(entry.get('height'), int) or min(entry['width'], entry['height']) <= 0:
@@ -94,18 +169,72 @@ def publication_fixture(source: str, item_id: str, source_uri: str, assets: list
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--source", type=Path, required=True)
+    inputs = parser.add_mutually_exclusive_group(required=True)
+    inputs.add_argument("--source", type=Path, help="Ready JSON-frontmatter Markdown (unchanged existing path)")
+    inputs.add_argument("--draft", type=Path, help="Article H1/body plus the supported SEO suffix")
     parser.add_argument("--id", required=True)
     parser.add_argument("--asset", action="append", default=[], help="/absolute/image.webp=/media/path/image.webp")
+    parser.add_argument("--run", help="Existing active publication cycle; mandatory with --draft")
+    parser.add_argument("--date", default=datetime.now(timezone.utc).date().isoformat())
+    parser.add_argument("--supplement", type=Path, help="Reviewed recipe and optional media dimensions/alt JSON")
+    parser.add_argument("--cover", type=Path, help="Supplied cover; PNG dimensions are read without changing bytes")
+    parser.add_argument("--image-alt", help="Reviewed alt text for supplied cover")
     args = parser.parse_args()
+    source_path = args.source
+    source = source_path.read_bytes().decode("utf-8") if source_path else None
+    report = None
+    if args.draft:
+        from abvx_harness.publication_learning import folder
+        if not args.run or args.asset:
+            parser.error("--draft needs --run and uses --cover instead of --asset")
+        cycle_dir = folder(ROOT, args.run)
+        cycle = json.loads((cycle_dir / "cycle.json").read_text())
+        if args.id not in cycle.get("itemIds", []) or (cycle_dir / "outcome.json").exists() or (cycle_dir / "aborted.json").exists():
+            parser.error("draft requires membership in an active, uncompleted cycle")
+        supplement = json.loads(args.supplement.read_text()) if args.supplement else {}
+        source, report = normalize_draft(args.draft.read_bytes().decode("utf-8"), args.date, supplement)
+        front, _, body = source[4:].partition("\n---")
+        data = json.loads(front)
+        if args.cover:
+            media = dict(supplement.get("media") or {})
+            if set(media) - {"width", "height", "alt", "role"}:
+                parser.error("cover supplement cannot override the generated media path")
+            raw = args.cover.read_bytes()
+            extension = args.cover.suffix.lower()
+            if extension not in {".png", ".jpg", ".jpeg", ".webp"}:
+                parser.error("unsupported cover format")
+            if extension == ".png":
+                if len(raw) < 24 or raw[:16] != b"\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR":
+                    parser.error("invalid or truncated PNG header")
+                import struct
+                width, height = struct.unpack(">II", raw[16:24])
+                if any(media.get(key, actual) != actual for key, actual in (("width", width), ("height", height))):
+                    parser.error("reviewed dimensions disagree with supplied PNG")
+                media.update(width=width, height=height)
+            media["alt"] = args.image_alt or media.get("alt")
+            media.setdefault("role", "generic-thumbnail")
+            media["src"] = "/media/writing/" + data["slug"] + extension
+            data["media"] = media
+            args.asset = [str(args.cover.resolve()) + "=" + media["src"]]
+        elif supplement.get("media") or args.image_alt or data["type"] == "recipe":
+            parser.error("recipe/media metadata requires the supplied --cover")
+        source = "---\n" + json.dumps(data, ensure_ascii=False, indent=2) + "\n---" + body
+        source_path = cycle_dir / "article.md"
+    elif any((args.run, args.supplement, args.cover, args.image_alt)):
+        parser.error("draft options cannot silently alter ready --source Markdown")
     assets = []
     for entry in args.asset:
-        source, separator, target = entry.partition("=")
-        if not separator or not Path(source).is_file() or not target.startswith("/media/"):
+        asset_source, separator, target = entry.partition("=")
+        if not separator or not Path(asset_source).is_file() or not target.startswith("/media/"):
             parser.error("asset must identify an existing local file and a /media/ destination")
-        assets.append({"source": str(Path(source).resolve()), "target": target,
-                       "sha256": hashlib.sha256(Path(source).read_bytes()).hexdigest()})
-    fixture = publication_fixture(args.source.read_bytes().decode("utf-8"), args.id, str(args.source.resolve()), assets)
+        assets.append({"source": str(Path(asset_source).resolve()), "target": target,
+                       "sha256": hashlib.sha256(Path(asset_source).read_bytes()).hexdigest()})
+    fixture = publication_fixture(source, args.id, str((args.draft or source_path).resolve()), assets)
+    if report is not None:
+        if source_path.exists() and source_path.read_bytes() != source.encode():
+            parser.error("normalized source already exists with different content; review instead of overwriting")
+        source_path.write_bytes(source.encode())
+        (source_path.parent / "normalization.json").write_text(json.dumps(report, indent=2) + "\n")
     # This input is a local operational artifact, not a committed public fixture.
     intake = ROOT / ".tmp" / "abvx-publication-intakes" / f"{args.id}.json"
     intake.parent.mkdir(parents=True, exist_ok=True)
