@@ -79,6 +79,49 @@ def save(root, state):
     atomic(runpath(root, state['run_id']) / 'state.json', json.dumps(state, ensure_ascii=False, indent=2) + '\n')
 
 
+def context(root, run):
+    """Read at most three earlier runs; historical claims grant no authority."""
+    runpath(root, run)  # Validate the requested cutoff without creating a run.
+    root = Path(root)
+    if not root.is_dir():
+        raise ValueError('Journal unavailable; history is UNKNOWN')
+    previous = []
+    for path in root.iterdir():
+        if re.fullmatch(r'\d{4}-\d{2}-\d{2}-(weekly|daily)', path.name) and path.name[:10] < run[:10]:
+            runpath(root, path.name)
+            previous.append(path.name)
+    runs = []
+    for name in sorted(previous, reverse=True)[:3]:
+        state = load(root, name)  # Missing/corrupt selected history must not disappear.
+        stages = {}
+        for stage in STAGES:
+            item = state['stages'][stage]
+            summary = item.get('summary', '')
+            reason = item.get('failure_reason', '')
+            sources = item.get('sources', [])
+            if (item.get('status') not in TERMINAL | {'NOT_STARTED', 'IN_PROGRESS'} or
+                    not isinstance(summary, str) or not isinstance(reason, str) or
+                    not isinstance(sources, list)):
+                raise ValueError('Invalid historical stage')
+            for source in sources:
+                if not isinstance(source, dict) or not isinstance(source.get('ref'), str):
+                    raise ValueError('Invalid historical source')
+                stamp(source['checked_at'])
+            stages[stage] = {
+                'status': item['status'], 'finished_at': item.get('finished_at'),
+                'summary': summary[:600], 'failure_reason': reason[:300],
+                'sources': [{'ref': s['ref'][:1000], 'checked_at': s['checked_at']} for s in sources[:3]],
+                'truncated': len(summary) > 600 or len(reason) > 300 or len(sources) > 3 or
+                             any(len(s['ref']) > 1000 for s in sources[:3])}
+        runs.append({'run_id': name, 'state_file': str(runpath(root, name) / 'state.json'),
+                     'state_content_sha256': hashlib.sha256(json.dumps(state, sort_keys=True).encode()).hexdigest(),
+                     'publication_status': state['publication']['status'], 'stages': stages})
+    return {'status': 'HISTORICAL_CONTEXT' if runs else 'NO_HISTORY',
+            'as_of_run': run, 'generated_at': now(), 'runs': runs,
+            'historical_claims_are_current_verification': False,
+            'owner_decisions_inferred': False, 'external_actions': 'NONE'}
+
+
 def init(root, run, mode):
     with locked(root):
         path = runpath(root, run) / 'state.json'
@@ -302,7 +345,7 @@ def resume(root, run, reason):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--journal', type=Path, default=Path(__file__).with_name('nantes-radar-journal'))
-    parser.add_argument('action', choices=('init', 'status', 'begin', 'finish', 'assemble', 'prepare', 'ack', 'resume', 'attach-book-review'))
+    parser.add_argument('action', choices=('init', 'status', 'context', 'begin', 'finish', 'assemble', 'prepare', 'ack', 'resume', 'attach-book-review'))
     parser.add_argument('--run', required=True)
     parser.add_argument('--mode', choices=('weekly', 'daily'))
     parser.add_argument('--stage', choices=STAGES)
@@ -316,6 +359,8 @@ def main():
             result = init(args.journal, args.run, args.mode)
         elif args.action == 'status':
             result = load(args.journal, args.run)
+        elif args.action == 'context':
+            result = context(args.journal, args.run)
         elif args.action == 'begin':
             result = begin(args.journal, args.run, args.stage)
         elif args.action == 'finish':

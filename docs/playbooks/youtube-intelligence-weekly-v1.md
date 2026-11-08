@@ -89,6 +89,8 @@ On a selected registered experiment, carry `selection` into the frozen registrat
 
 ## Nantes executable handoff (Pass 2)
 
+For a manual Nantes review, optionally read the bounded [historical journal context](../OPPORTUNITIES.md#контекст-предыдущих-выпусков-только-чтение). Keep this workflow's own `context`, prospective hypotheses and source-age checks authoritative for their domains. Historical journal summaries are neither fresh acquisition nor owner decisions. No scheduled task is changed by this helper.
+
 After `run`, call `bin/youtube-intelligence nantes-stage --run-dir <retained run directory> --mode weekly --token <existing journal stage token>`. Write the resulting JSON into the packet_file returned by the **existing** journal begin command and finish that same youtube stage. The adapter verifies acquisition/research hashes and capture age, carries partial status, and sends nothing. Use the same internal-disk journal ROOT already owned by the hosted Nantes task. Never create another scheduler or canonical learning store. The manual acceptance test uses an isolated journal root and never prepares/acknowledges a publication.
 
 The weekly hosted stage must call radar-request, collect fresh external evidence, freeze the new shortlist before comparison, then run this collector and hand off its packet. Give this stage the bounded research budget (up to 45 minutes), superseding the legacy generic two-minute limit only for YouTube. On other days do no new discovery: check current own dashboards/metadata if available, otherwise label the retained evidence/date; do not pass an old weekly report off as fresh daily acquisition.
