@@ -2,6 +2,8 @@
 
 Cost class: NORMAL. Owner approved the bounded MVP on 2026-10-19. Read-only Google API acquisition, public research and private local records are authorized. No YouTube content/settings/monetization changes, publishing, purchases, paid infrastructure or Framewright development are authorized.
 
+Use Kagi as an additional browser/manual discovery source under the [shared instruction and 5–8-query comparison protocol](kagi-radar-comparison-v1.md), within this playbook’s existing research budget and source-age rules. Retain channel-specific evidence requirements; no paid API or schedule changes.
+
 ## Scope and reuse
 
 Read current AGENTS.md. Use `bin/youtube-intelligence` (optional local Python environment) or the existing `abvx youtube` CLI route with an appropriately configured interpreter. The adapter reuses `process_learning.digest`, `_write_once`, the existing Draft 2020-12 validator, and `AnalyticsObservation` envelopes. MMR's commercial schemas, method winners and paid-demand labels stay separate. Framewright is optional production context, never a runtime dependency.

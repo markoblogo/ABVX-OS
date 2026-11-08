@@ -2,6 +2,8 @@
 
 Cost class: NORMAL. Owner authorized browser acquisition and one local Monday run; no paid infrastructure. This playbook reuses the four existing manual provider adapters. It does not authorize production, publication, purchases, ads, account settings changes, canonical decisions, or Cortex transfer.
 
+Use Kagi as an additional browser/manual discovery source under the [shared instruction and 5–8-query comparison protocol](kagi-radar-comparison-v1.md), within the existing research budget and confirmed free allowance. Preserve direct marketplace acquisition, external-first ranking and commercial gates; no paid API or schedule changes.
+
 ## Execution contract
 
 The local Codex heartbeat performs acquisition using the installed browser tools, then calls `python3 scripts/run_multi_market_radar.py`. The Python command validates and processes acquired evidence; it is not a browser scraper. Repository: `/Volumes/Work/Work/ABVX-OS`. The local app, repository volume, connected browser and required sessions must be available. A locked computer, missing extension or expired session is a concrete acquisition blocker, never a successful observation.

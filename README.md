@@ -80,6 +80,10 @@ For a fresh agent session, follow the compact read order in [AGENTS.md](AGENTS.m
 
 See [repository hygiene and release checks](docs/maintenance/REPOSITORY_HYGIENE_V1.md) before committing an accumulated owner workspace. New manuscripts, research observations, account/security inventories and generated media stay local. Existing historical public artifacts are not erased by `.gitignore` or removed from Git history by this maintenance pass.
 
+## Radar research sources
+
+Nantes, Multi-Market and YouTube Radar use Kagi as an additional browser/manual discovery source when a confirmed free allowance and an authorized session are available. Follow the [shared 5–8-query comparison protocol](docs/playbooks/kagi-radar-comparison-v1.md); retain existing sources and qualification gates. No paid API/MCP or saved schedule changes are enabled.
+
 ## Development
 
 ABVX-OS keeps its core CLI dependency-light. Book Core and Book Radar's observed-outcome contracts use the exact-pinned Draft 2020-12 `python-jsonschema` runtime and dependency closure listed in `requirements-dev.txt`.
