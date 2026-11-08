@@ -4,6 +4,11 @@ All notable public changes to ABVX-OS are documented here.
 
 ## [Unreleased]
 
+- Read-only Nantes journal history: bounded prior-run excerpts retain source dates and distinguish historical claims from fresh verification.
+- Browser-only Kagi discovery and a shared 5–8-query comparison protocol for the existing Radars, with free-allowance checks and unchanged schedules.
+- Publishing-director guidance for locked fiction, asset provenance and mandatory reader-facing front matter. Incompatible timestamp edits to the native publication fixture were rejected; canonical date-only intake remains unchanged.
+- Retained disk-prevention and rejected classifier-pilot findings, corrected operator-status documentation and portable macOS check instructions. See [the consolidation record](docs/maintenance/CONSOLIDATION_2026_11_08.md) for scope and exclusions.
+
 - Multi-market manual evidence adapters, independent opportunity qualification, immutable learning records and versioned discovery-method comparisons; live acquisition remains an agent/browser responsibility.
 - Book Core contracts, isolated book regressions, outcome attribution, deterministic readiness inventory and psychology source qualification.
 - Native publication approval/source bindings, runtime and measured-cycle closeout, and explicit private Cortex exchange gates.

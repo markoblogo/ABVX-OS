@@ -6,7 +6,7 @@ Primary sources checked:
 - https://huggingface.co/Phocinae/Phocinae-Largha-150M-v1
 - https://github.com/Phocinae/Phocinae-Largha-150M-v1
 
-The author identifies Apache-2.0 weights with an MIT mmBERT-small base, 144.3M parameters, FP16 storage about 289 MB, and a specialised typed-decision interface (`noul`, `choice`, `score`). It does not generate explanations or perform RAG synthesis. Advertised GPU latency is for RTX 5090; the author's CPU single-thread median is 1.64 seconds per five-question case. Mac performance remains unmeasured here.
+The author identifies Apache-2.0 weights with an MIT mmBERT-small base, 144.3M parameters, FP16 storage about 289 MB, and a specialised typed-decision interface (`noul`, `choice`, `score`). It does not generate explanations or perform RAG synthesis. Advertised GPU latency is for RTX 5090; the author's CPU single-thread median is 1.64 seconds per five-question case. These were upstream hardware claims from the initial candidate assessment; the subsequent dated Mac pilot below provides separate local measurements.
 
 The reported 55% fewer LLM calls/99.36% retained-subset accuracy is a fitted benchmark/selective-routing result; the confidence threshold was swept on evaluation data. It is not expected OS performance. The author also discloses JevBench 54.55%, below its acceptance gate, and shipped calibration ECE 0.2519. English/translated-Chinese evidence does not establish Russian/Ukrainian quality.
 

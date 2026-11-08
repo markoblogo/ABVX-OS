@@ -19,9 +19,29 @@ Prevent Codex from improvising a commercial book design or treating a technicall
 
 When an interior or promotional visual is justified, load [Publishing Visual Explainer](../publishing-visual-explainer/SKILL.md) and approve one representative visual before producing a set.
 
+## Fiction and publication gates
+
+- Keep `STRUCTURE_COMPLETE` separate from `PRODUCT_COMPLETE`; a coherent short structural draft is not automatically a commercially complete manuscript. Scan for development labels, placeholders, duplicate alternate scenes, and test scaffolding before editorial acceptance.
+- Keep one machine-readable manifest for manuscript, world bible, continuity, illustration placement, and production artifacts. Mark older working files `SUPERSEDED` or `PROTOTYPE`; retain history. A locked manuscript is `TEXT_LOCK` and the sole prose source for production.
+- Illustration assets may be explored before text lock; finalize placement only after structural/editorial lock. Preserve a Pictiq source→English Composer input→Composer output→final composite chain, with versions and hashes.
+- Before Amazon packaging, record provenance per visual asset using `books/factory/contracts/asset-provenance-v1.schema.json`. Unknown origin is `UNRESOLVED`, never inferred.
+- Print preflight must inspect footer/attribution against the live-area boundary. Keep barcode zones background-only unless using a real publisher barcode. Build wraps from the actual KDP template after trim, paper, ink, and final page count are fixed; check spine constraints.
+- Treat effective resolution below 300 DPI as a human visual/print-risk review, not automatic rejection or upscaling. `EPUB_VALID` does not imply `KINDLE_RENDER_VERIFIED`; complete target Kindle/KDP preview before release.
+- After `TEXT_LOCKED`, prose edits are limited to a typo, demonstrated factual error, or production-formatting defect; record the reason and rerun affected checks. Freeze launch metadata after product/text lock and capture D0, D7, D14, and D30 observations.
+
 ## Admitted-profile fast path
 
 For a compatible book using an admitted profile, start from the existing profile, contracts and toolchain. Do not repeat donor audits, renderer research, typography/front-matter/TOC exploration or manual page patching. The bounded route is: approved BookSpec and manuscript -> admitted profile -> source/notes normalization -> approved cover direction -> representative proof only if needed -> human visual gate -> full build and automatic preflight -> full contact sheet -> human final gate -> publication artifacts.
+
+## Mandatory reader-facing front matter
+
+Apply `../../contracts/publishing-front-matter-contract-v1.json` to every title.
+
+- Every book must include an approved copyright page.
+- Every series book must include a reader-facing series introduction before Chapter One. Book One briefly introduces the series/world and current premise; later volumes use a roughly 0.5–1 printed-page recap of only the minimum relevant events from canonical/locked predecessor manuscripts, then transition into the current premise.
+- Record predecessor manuscript paths and hashes for each recap. Do not derive recap claims from memory or marketing copy. Keep front matter outside the locked narrative manuscript.
+- A missing applicable page may leave a technically valid interior at `TECHNICAL_PASS`; it blocks `FINAL`, `KDP_READY`, and equivalent release states. Unknown series membership also blocks final readiness.
+- Required order and positions remain title page, copyright, contents (when approved/required), series introduction/recap (when applicable), opening illustration (when planned), Chapter One.
 
 ## Fail-closed rules
 

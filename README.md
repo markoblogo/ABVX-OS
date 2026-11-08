@@ -80,6 +80,10 @@ For a fresh agent session, follow the compact read order in [AGENTS.md](AGENTS.m
 
 See [repository hygiene and release checks](docs/maintenance/REPOSITORY_HYGIENE_V1.md) before committing an accumulated owner workspace. New manuscripts, research observations, account/security inventories and generated media stay local. Existing historical public artifacts are not erased by `.gitignore` or removed from Git history by this maintenance pass.
 
+## Radar research sources
+
+Nantes, Multi-Market and YouTube Radar use Kagi as an additional browser/manual discovery source when a confirmed free allowance and an authorized session are available. Follow the [shared 5–8-query comparison protocol](docs/playbooks/kagi-radar-comparison-v1.md); retain existing sources and qualification gates. No paid API/MCP or saved schedule changes are enabled.
+
 ## Development
 
 ABVX-OS keeps its core CLI dependency-light. Book Core and Book Radar's observed-outcome contracts use the exact-pinned Draft 2020-12 `python-jsonschema` runtime and dependency closure listed in `requirements-dev.txt`.
@@ -122,7 +126,7 @@ Standard ABVXsite posts and cases follow the [data-only publication boundary](do
 
 The owner installed `xyz.abvx.mac-operator` as a user LaunchAgent. A real background invocation completed with exit code 0 and all diagnostic probes available. It samples every five minutes without LLM calls. Internal macOS disk capacity is primary; repository-volume capacity is secondary. It does not run while the Mac sleeps or before user login after reboot.
 
-Use `./bin/mac-operator status`, `services`, or `cleanup` (preview only). Remote Telegram control is prepared but not connected; weekly research still uses the existing Codex/browser playbooks. Local incident notifications are submitted to macOS; visible delivery is unverified. Research commands create deduplicated handoffs, with automatic Codex dispatch still blocked. Owner-authorized fixed-cache cleanup is enabled for 30 days, below 15 GiB free, at most every six hours and 2 GiB/day; active or uninspectable caches are skipped. The monitor does not imply unattended research, general-purpose deletion or verified crash recovery. See [setup, stop and limitations](docs/maintenance/MAC_OPERATOR_V1.md) and [process integration review](docs/maintenance/LOCAL_OPERATIONS_INTEGRATION_V1.md).
+Use `./bin/mac-operator status`, `services`, or `cleanup` (preview only). Remote Telegram control is prepared but not connected; weekly research still uses the existing Codex/browser playbooks. Local incident notifications are submitted to macOS; visible delivery is unverified. Research commands create deduplicated handoffs, with automatic Codex dispatch still blocked. The scheduled code currently reports `SUSPENDED_OWNER_INSTRUCTION` for automatic cache cleanup; prior grants do not authorize restarting it. Verify installed runtime state separately. The [dated disk-prevention investigation](docs/maintenance/MAC_DISK_PREVENTION_2026-11-05.md) explains advisory thresholds, memory limits and retained evidence; it grants no cleanup or relocation authority. The monitor does not imply unattended research, general-purpose deletion or verified crash recovery. See [setup, stop and limitations](docs/maintenance/MAC_OPERATOR_V1.md) and [process integration review](docs/maintenance/LOCAL_OPERATIONS_INTEGRATION_V1.md).
 
 ## Каталог возможностей / Nantes Radar
 

@@ -2,6 +2,8 @@
 
 Cost class: NORMAL. Owner approved the bounded MVP on 2026-10-19. Read-only Google API acquisition, public research and private local records are authorized. No YouTube content/settings/monetization changes, publishing, purchases, paid infrastructure or Framewright development are authorized.
 
+Use Kagi as an additional browser/manual discovery source under the [shared instruction and 5–8-query comparison protocol](kagi-radar-comparison-v1.md), within this playbook’s existing research budget and source-age rules. Retain channel-specific evidence requirements; no paid API or schedule changes.
+
 ## Scope and reuse
 
 Read current AGENTS.md. Use `bin/youtube-intelligence` (optional local Python environment) or the existing `abvx youtube` CLI route with an appropriately configured interpreter. The adapter reuses `process_learning.digest`, `_write_once`, the existing Draft 2020-12 validator, and `AnalyticsObservation` envelopes. MMR's commercial schemas, method winners and paid-demand labels stay separate. Framewright is optional production context, never a runtime dependency.
@@ -88,6 +90,8 @@ Radar cards (`method_version: youtube-radar/...`) require `selection`: external 
 On a selected registered experiment, carry `selection` into the frozen registration. Optional `secondary_predictions` records additional reach/revenue thresholds and their bases, while primary metric stays fixed. These are prospective testable predictions, never backfilled after seeing results. `learning-review.json` keeps reach and monetization outcomes separate and proposes the next discriminating check. A supported threshold is not causal proof. Distinguish low exposure, packaging, retention, geography/traffic, inadequate monetization sample, costs and data-access failure. Strengthen a selection rule only after repeated independent evidence; retain false predictions and test proposed corrections on subsequent uploads.
 
 ## Nantes executable handoff (Pass 2)
+
+For a manual Nantes review, optionally read the bounded [historical journal context](../OPPORTUNITIES.md#контекст-предыдущих-выпусков-только-чтение). Keep this workflow's own `context`, prospective hypotheses and source-age checks authoritative for their domains. Historical journal summaries are neither fresh acquisition nor owner decisions. No scheduled task is changed by this helper.
 
 After `run`, call `bin/youtube-intelligence nantes-stage --run-dir <retained run directory> --mode weekly --token <existing journal stage token>`. Write the resulting JSON into the packet_file returned by the **existing** journal begin command and finish that same youtube stage. The adapter verifies acquisition/research hashes and capture age, carries partial status, and sends nothing. Use the same internal-disk journal ROOT already owned by the hosted Nantes task. Never create another scheduler or canonical learning store. The manual acceptance test uses an isolated journal root and never prepares/acknowledges a publication.
 

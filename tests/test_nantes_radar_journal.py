@@ -8,6 +8,84 @@ j = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(j)
 
 
+class HistoricalContextTests(unittest.TestCase):
+    def snapshot(self, root):
+        return {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()}
+
+    def test_three_prior_runs_only_and_no_writes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for day in (1, 2, 3, 4, 8, 9):
+                j.init(root, f'2026-11-{day:02d}-daily', 'daily')
+            before = self.snapshot(root)
+            result = j.context(root, '2026-11-08-weekly')
+            self.assertEqual([r['run_id'] for r in result['runs']],
+                             ['2026-11-04-daily', '2026-11-03-daily', '2026-11-02-daily'])
+            self.assertFalse(result['historical_claims_are_current_verification'])
+            self.assertFalse(result['owner_decisions_inferred'])
+            self.assertEqual(self.snapshot(root), before)
+
+    def test_bounded_excerpts_keep_source_dates_and_omit_worker_data(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            run = '2026-11-07-daily'
+            j.init(root, run, 'daily')
+            token = j.begin(root, run, 'gmail')['token']
+            j.finish(root, run, 'gmail', {
+                'token': token, 'status': 'PARTIAL', 'summary': 'S' * 700,
+                'failure_reason': 'B' * 400,
+                'sources': [{'ref': 'https://example.org/' + str(i),
+                             'checked_at': '2026-11-07T12:00:00Z'} for i in range(4)]})
+            result = j.context(root, '2026-11-08-daily')
+            record = result['runs'][0]
+            item = record['stages']['gmail']
+            self.assertEqual((len(item['summary']), len(item['failure_reason']), len(item['sources'])), (600, 300, 3))
+            self.assertTrue(item['truncated'])
+            self.assertEqual(item['sources'][0]['checked_at'], '2026-11-07T12:00:00Z')
+            self.assertNotIn(token, str(result))
+            self.assertNotIn('attempts', item)
+            import hashlib, json
+            state = j.load(root, run)
+            self.assertEqual(record['state_content_sha256'], hashlib.sha256(json.dumps(state, sort_keys=True).encode()).hexdigest())
+
+    def test_missing_and_empty_history_are_distinct_without_creation(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            missing = root / 'absent'
+            with self.assertRaisesRegex(ValueError, 'UNKNOWN'):
+                j.context(missing, '2026-11-08-daily')
+            self.assertFalse(missing.exists())
+            self.assertEqual(j.context(root, '2026-11-08-daily')['status'], 'NO_HISTORY')
+            self.assertEqual(list(root.iterdir()), [])
+
+    def test_corrupt_or_missing_recent_state_cannot_fall_back_to_older_success(self):
+        for content in (None, 'broken', '{}'):
+            with self.subTest(content=content), tempfile.TemporaryDirectory() as tmp:
+                root = Path(tmp)
+                j.init(root, '2026-11-06-daily', 'daily')
+                latest = root / '2026-11-07-daily'
+                latest.mkdir()
+                if content is not None:
+                    (latest / 'state.json').write_text(content)
+                before = self.snapshot(root)
+                with self.assertRaises((ValueError, OSError)):
+                    j.context(root, '2026-11-08-daily')
+                self.assertEqual(self.snapshot(root), before)
+
+    def test_cli_does_not_initialize_target_or_change_frozen_report(self):
+        import json, subprocess, sys
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            j.init(root, '2026-11-07-daily', 'daily')
+            j.prepare(root, '2026-11-07-daily')
+            before = self.snapshot(root)
+            result = subprocess.run([sys.executable, str(Path(j.__file__)), '--journal', str(root),
+                                     'context', '--run', '2026-11-08-daily'], capture_output=True, text=True)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(json.loads(result.stdout)['runs'][0]['publication_status'], 'PREPARED')
+            self.assertEqual(self.snapshot(root), before)
+
+
 class JournalTests(unittest.TestCase):
     def setup_run(self, root):
         j.init(root, '2026-10-27-weekly', 'weekly')

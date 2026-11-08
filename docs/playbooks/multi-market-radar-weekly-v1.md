@@ -2,6 +2,8 @@
 
 Cost class: NORMAL. Owner authorized browser acquisition and one local Monday run; no paid infrastructure. This playbook reuses the four existing manual provider adapters. It does not authorize production, publication, purchases, ads, account settings changes, canonical decisions, or Cortex transfer.
 
+Use Kagi as an additional browser/manual discovery source under the [shared instruction and 5–8-query comparison protocol](kagi-radar-comparison-v1.md), within the existing research budget and confirmed free allowance. Preserve direct marketplace acquisition, external-first ranking and commercial gates; no paid API or schedule changes.
+
 ## Execution contract
 
 The local Codex heartbeat performs acquisition using the installed browser tools, then calls `python3 scripts/run_multi_market_radar.py`. The Python command validates and processes acquired evidence; it is not a browser scraper. Repository: `/Volumes/Work/Work/ABVX-OS`. The local app, repository volume, connected browser and required sessions must be available. A locked computer, missing extension or expired session is a concrete acquisition blocker, never a successful observation.
@@ -17,6 +19,8 @@ Owner strategy, 2026-10-17: all new book and digital-product production is on **
 5. Call the executable once with `--input <packet.json> --acquisition <acquisition.json> --run-id <unique-id> --as-of <UTC-date> --hours 4`. Inputs and evidence belong to a separate ignored staging directory, for example `.tmp/radar-acquisition/<run-id>/`; proof paths are relative to the packet/receipt directory. Research outputs stay in `.tmp/multi-market-radar/runs/<run-id>/`; imports use an isolated radar root. After processing, the same executable automatically freezes an ACQUIRED learning snapshot under `.tmp/multi-market-radar/learning/`. A completed processing receipt is not a claim that all markets are accessible or commercially qualified. Never overwrite an old run.
 
 ## Required commercial report
+
+For a manual Nantes review, optionally read the bounded [historical journal context](../OPPORTUNITIES.md#контекст-предыдущих-выпусков-только-чтение) before drafting the brief. It does not replace current acquisition, the frozen external-first ranking or the canonical Learning Loop; historical status is not fresh evidence. No scheduled task is changed by this helper.
 
 Save `ranking.json` and `REPORT.md` alongside the execution receipt before reporting completion. Rank external opportunities BEFORE opening ABVX sales or portfolio evidence. Freeze that external ranking and qualifications with a hash. Rank research attractiveness using observed demand strength, competition, buyer urgency, realistic differentiation and an achievable entry route; explain judgments instead of inventing weighted sales scores. A research priority may be attractive while independent commercial qualification remains INSUFFICIENT_EVIDENCE. Distinguish facts, estimates, hypotheses and UNKNOWN. Do not promise revenue or call cumulative popularity growth.
 
