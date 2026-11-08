@@ -4,6 +4,8 @@ Use a clean branch/export for release checks. The owner workspace may contain pr
 
 Ordinary tests use fake credentials and mocked provider calls. Native macOS Keychain lifecycle tests are excluded by default; run the three explicit integration cases only with `ABVX_RUN_KEYCHAIN_TESTS=1` on an authorized disposable test account. This opt-in can touch the logged-in Keychain and is separate from portable regression acceptance. No real API calls or credential migration are part of repository hygiene.
 
+On macOS, use `TMPDIR=/private/tmp` (or another real directory with no symlink ancestors) when running the checks. Exchange-root tests deliberately reject symlink ancestors; the platform default `/var/...` can resolve through `/private/var` and fail that guard. Do not weaken the runtime guard to accommodate a test temporary path.
+
 Run `./bin/check` from any working directory. It prefers dependencies installed in the selected Python environment, then tries the same repository-local Book Core dependency path as `bin/abvx`, fails once with an actionable message when dependencies are missing, validates repository contracts, then runs unit tests. For a focused regression: `./bin/check discover -s tests -p test_content_ops.py -q`. No dependencies are installed automatically and no external actions are authorized.
 
 CI tests Python 3.11, 3.12 and 3.13. A clean isolated local setup matching the audited runtime:
